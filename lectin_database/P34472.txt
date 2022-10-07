@@ -1,0 +1,181 @@
+ID   CL161_CAEEL             Reviewed;         862 AA.
+AC   P34472;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   05-OCT-2010, sequence version 3.
+DT   03-AUG-2022, entry version 133.
+DE   RecName: Full=C-type lectin domain-containing protein 161;
+DE   Flags: Precursor;
+GN   Name=clec-161; ORFNames=F58A4.5;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=7906398; DOI=10.1038/368032a0;
+RA   Wilson R., Ainscough R., Anderson K., Baynes C., Berks M., Bonfield J.,
+RA   Burton J., Connell M., Copsey T., Cooper J., Coulson A., Craxton M.,
+RA   Dear S., Du Z., Durbin R., Favello A., Fraser A., Fulton L., Gardner A.,
+RA   Green P., Hawkins T., Hillier L., Jier M., Johnston L., Jones M.,
+RA   Kershaw J., Kirsten J., Laisster N., Latreille P., Lightning J., Lloyd C.,
+RA   Mortimore B., O'Callaghan M., Parsons J., Percy C., Rifken L., Roopra A.,
+RA   Saunders D., Shownkeen R., Sims M., Smaldon N., Smith A., Smith M.,
+RA   Sonnhammer E., Staden R., Sulston J., Thierry-Mieg J., Thomas K.,
+RA   Vaudin M., Vaughan K., Waterston R., Watson A., Weinstock L.,
+RA   Wilkinson-Sproat J., Wohldman P.;
+RT   "2.2 Mb of contiguous nucleotide sequence from chromosome III of C.
+RT   elegans.";
+RL   Nature 368:32-38(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z22179; CAA80162.3; -; Genomic_DNA.
+DR   PIR; S40977; S40977.
+DR   RefSeq; NP_499125.3; NM_066724.3.
+DR   AlphaFoldDB; P34472; -.
+DR   SMR; P34472; -.
+DR   STRING; 6239.F58A4.5; -.
+DR   PaxDb; P34472; -.
+DR   EnsemblMetazoa; F58A4.5.1; F58A4.5.1; WBGene00010228.
+DR   GeneID; 176357; -.
+DR   KEGG; cel:CELE_F58A4.5; -.
+DR   UCSC; F58A4.5; c. elegans.
+DR   CTD; 176357; -.
+DR   WormBase; F58A4.5; CE43487; WBGene00010228; clec-161.
+DR   eggNOG; KOG1075; Eukaryota.
+DR   GeneTree; ENSGT01050000244928; -.
+DR   HOGENOM; CLU_006736_0_0_1; -.
+DR   InParanoid; P34472; -.
+DR   OMA; WENGGEI; -.
+DR   OrthoDB; 29241at2759; -.
+DR   Reactome; R-CEL-1236978; Cross-presentation of soluble exogenous antigens (endosomes).
+DR   Reactome; R-CEL-1482788; Acyl chain remodelling of PC.
+DR   Reactome; R-CEL-1482801; Acyl chain remodelling of PS.
+DR   Reactome; R-CEL-1482839; Acyl chain remodelling of PE.
+DR   Reactome; R-CEL-1482922; Acyl chain remodelling of PI.
+DR   Reactome; R-CEL-1482925; Acyl chain remodelling of PG.
+DR   Reactome; R-CEL-1483166; Synthesis of PA.
+DR   Reactome; R-CEL-6803157; Antimicrobial peptides.
+DR   PRO; PR:P34472; -.
+DR   Proteomes; UP000001940; Chromosome III.
+DR   Bgee; WBGene00010228; Expressed in adult organism and 3 other tissues.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   Gene3D; 3.10.100.10; -; 3.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 3.
+DR   SMART; SM00034; CLECT; 3.
+DR   SUPFAM; SSF56436; SSF56436; 3.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 3.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Glycoprotein; Lectin; Reference proteome; Repeat; Secreted;
+KW   Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..862
+FT                   /note="C-type lectin domain-containing protein 161"
+FT                   /id="PRO_0000017569"
+FT   DOMAIN          41..154
+FT                   /note="C-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          562..687
+FT                   /note="C-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          716..828
+FT                   /note="C-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          162..291
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          377..437
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          450..469
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          474..504
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        175..256
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        257..286
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        381..410
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        422..436
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        480..500
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        22
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        222
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        258
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        279
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        352
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        559
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        765
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        831
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        857
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        62..153
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        653..678
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        807..819
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   862 AA;  95363 MW;  FB3C0287BC085D27 CRC64;
+     MYRRTTLWFL LLFQPILVFA QNRTELYECK IGTVNPLAST SLNACFKLYN TPKSFQAARR
+     YCVSLGGQLA DKINKDDSSL YSANADLEVA NSTKFWVGAS NLKCNIAWEN GGEIEFNDMW
+     APESRYYGVA IDKMSIGGLW HTVPVGQKLP FVCTFQGKSN EAGPAPVHAM RAPAKKRVPK
+     VEKPEEKDID ESLNAALSDK KEKKEVASDK KKESKKDEED INESMNAALS DERKKSASLA
+     SSDKKESSKK DESSDEANLS ASQVANAEMS ASISASSANS SSDESSDEAY DSAEIEMRKK
+     IGKTVIAMKS QEMASQSDDY DKYTEEDLLS AAASLIGGYI LNAHWADSRT TNTSSFDSQT
+     DEETLNMMMA IAEQIAMTMR SSKRRESSSS NTDSESASIS ESSQASEQAV MAAAMSAKSS
+     KKSESSSKDE SEDSASLNLE QKASAAASAA LASKSKSDSS DQSKDQKSAN VALAVVSENK
+     HPTKKPEDPK STKTTTEEPD IDESLNAALA NQRSTTTKNS DLTTIITTVK PNALPIAIVA
+     KQSEKDPACP AEWTQFNTNA TAPALCFKRY EKPMNFEDAR LFCVGKGGHL ASIHNERQLL
+     LLSALLHNNG PDALSDQTWI GLNRIHQKYY VYEDETAMDF TRWLPGAPNI NDCTVFTGNE
+     LPNYPHKGTQ YKFGDFPCEE VQKSVLCEVT LGKDKLKSQT TCQDGWSYYS HDGTAKNGKC
+     YKRIDQSKKF SEAREVCKVE NSYVASVQNE GEARFVSALV QTEKNYTVDE QTWIGYVKYD
+     RDFGWEDGNK GLQFDPWTEK MPRQKKCTVF TGNEIHENCR SQFRFVSVDC NKTQRSVLCS
+     KPPMKNGTPF VYKDTDNSSK KI
+//

@@ -1,0 +1,142 @@
+ID   SPIKE_ADECT             Reviewed;         542 AA.
+AC   Q65914;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   02-JUN-2021, entry version 90.
+DE   RecName: Full=Fiber protein;
+DE            Short=SPIKE;
+DE   AltName: Full=Protein IV;
+GN   ORFNames=L5;
+OS   Canine adenovirus serotype 2 (strain Toronto A 26-61) (CAdV-2) (Canine
+OS   adenovirus 2 (strain Toronto A 26-61)).
+OC   Viruses; Varidnaviria; Bamfordvirae; Preplasmiviricota; Tectiliviricetes;
+OC   Rowavirales; Adenoviridae; Mastadenovirus; Canine mastadenovirus A.
+OX   NCBI_TaxID=69152;
+OH   NCBI_TaxID=9615; Canis lupus familiaris (Dog) (Canis familiaris).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7622065; DOI=10.1016/0378-1119(95)00110-r;
+RA   Rasmussen U., Schlesinger Y., Pavirani A., Mehtali M.;
+RT   "Sequence analysis of the canine adenovirus 2 fiber-encoding gene.";
+RL   Gene 159:279-280(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Campbell J.B., Zhao Y.;
+RT   "Complete DNA sequence and genomic organization of canine adenovirus type
+RT   2.";
+RL   Submitted (DEC-1996) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Forms spikes that protrude from each vertex of the
+CC       icosahedral capsid. Interacts with host receptor to provide virion
+CC       initial attachment to target cell. Fiber proteins are shed during virus
+CC       entry, when virus is still at the cell surface (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Homotrimer. Interacts (via N-terminal tail region) with
+CC       pentons (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000250}. Host nucleus {ECO:0000250}.
+CC       Note=Anchored to the pentons, protrudes from the virion surface.
+CC       {ECO:0000250}.
+CC   -!- INDUCTION: Expressed in the late phase of the viral replicative cycle.
+CC   -!- DOMAIN: The tail region anchors the fiber to penton base capsomers,
+CC       whereas the shaft, built from several repeated motifs, allows the knob
+CC       to protrude from the virion. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: All late proteins expressed from the major late promoter
+CC       are produced by alternative splicing and alternative polyadenylation of
+CC       the same gene giving rise to non-overlapping ORFs. A leader sequence is
+CC       present in the N-terminus of all these mRNAs and is recognized by the
+CC       viral shutoff protein to provide expression although conventional
+CC       translation via ribosome scanning from the cap has been shut off in the
+CC       host cell (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the adenoviridae fiber family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z37498; CAA85723.1; -; Genomic_DNA.
+DR   EMBL; U77082; AAB38734.1; -; Genomic_DNA.
+DR   PIR; S49219; S49219.
+DR   RefSeq; AP_000632.1; AC_000020.1.
+DR   PDB; 2J1K; X-ray; 2.30 A; C/D/E/F/H/I/L/M/N/Q/R/S=358-542.
+DR   PDB; 2J2J; X-ray; 1.50 A; A/B/C/D/E/F=358-542.
+DR   PDB; 2W9L; X-ray; 2.91 A; C/D/E/F/H/I/L/M/N/Q/R/S=358-542.
+DR   PDB; 2WBV; X-ray; 1.90 A; A/B/C/D/E/F=358-542.
+DR   PDBsum; 2J1K; -.
+DR   PDBsum; 2J2J; -.
+DR   PDBsum; 2W9L; -.
+DR   PDBsum; 2WBV; -.
+DR   SMR; Q65914; -.
+DR   UniLectin; Q65914; -.
+DR   EvolutionaryTrace; Q65914; -.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019028; C:viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0098671; P:adhesion receptor-mediated virion attachment to host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.90.10; -; 1.
+DR   InterPro; IPR000931; Adeno_fibre.
+DR   InterPro; IPR000939; Adenobir_fibre_prot_rpt/shaft.
+DR   InterPro; IPR008982; Adenovirus_pIV-like_att.
+DR   InterPro; IPR009013; Attachment_protein_shaft_sf.
+DR   Pfam; PF00608; Adeno_shaft; 7.
+DR   PRINTS; PR00307; ADENOVSFIBRE.
+DR   SUPFAM; SSF49835; SSF49835; 1.
+DR   SUPFAM; SSF51225; SSF51225; 3.
+PE   1: Evidence at protein level;
+KW   3D-structure; Capsid protein; Host nucleus; Host-virus interaction;
+KW   Late protein; Viral attachment to host adhesion receptor;
+KW   Viral attachment to host cell; Virion; Virus entry into host cell.
+FT   CHAIN           1..542
+FT                   /note="Fiber protein"
+FT                   /id="PRO_0000221807"
+FT   REGION          1..24
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   STRAND          363..366
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          375..377
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          380..391
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          393..404
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   HELIX           406..408
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          409..411
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          418..424
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          434..436
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          443..445
+FT                   /evidence="ECO:0007829|PDB:2J1K"
+FT   HELIX           458..463
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   TURN            467..470
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          474..483
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   TURN            484..489
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   HELIX           491..493
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          494..502
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          509..517
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   HELIX           519..521
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          522..524
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+FT   STRAND          533..539
+FT                   /evidence="ECO:0007829|PDB:2J2J"
+SQ   SEQUENCE   542 AA;  57004 MW;  B71131829ADA7400 CRC64;
+     MKRTRRALPA NYDPVYPYDA PGSSTQPPFF NNKQGLTESP PGTLAVNVSP PLTFSTLGAI
+     KLSTGPGLTL NEGKLQASLG PGLITNTEGQ ITVENVNKVL SFTSPLHKNE NTVSLALGDG
+     LEDENGTLKV TFPTPPPPLQ FSPPLTKTGG TVSLPLQDSM QVTNGKLGVK PTTYAPPLKK
+     TDQQVSLQVG SGLTVINEQL QAVQPPATTY NEPLSKTDNS VSLQVGAGLA VQSGALVATP
+     PPPLTFTSPL EKNENTVSLQ VGAGLSVQNN ALVATPPPPL TFAYPLVKND NHVALSAGSG
+     LRISGGSLTV ATGPGLSHQN GTIGAVVGAG LKFENNAILA KLGNGLTIRD GAIEATQPPA
+     APITLWTGPG PSINGFINDT PVIRCFICLT RDSNLVTVNA SFVGEGGYRI VSPTQSQFSL
+     IMEFDQFGQL MSTGNINSTT TWGEKPWGNN TVQPRPSHTW KLCMPNREVY STPAATISRC
+     GLDSIAVDGA PSRSIDCMLI INKPKGVATY TLTFRFLNFN RLSGGTLFKT DVLTFTYVGE
+     NQ
+//

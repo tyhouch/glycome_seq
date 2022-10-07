@@ -1,0 +1,61 @@
+ID   Q9AXZ2_9ASPA            Unreviewed;       179 AA.
+AC   Q9AXZ2;
+DT   01-JUN-2001, integrated into UniProtKB/TrEMBL.
+DT   30-AUG-2005, sequence version 2.
+DT   07-APR-2021, entry version 71.
+DE   SubName: Full=Antifungal protein {ECO:0000313|EMBL:AAG52664.2};
+DE   Flags: Precursor;
+OS   Gastrodia elata.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Asparagales; Orchidaceae;
+OC   Epidendroideae; Gastrodieae; Gastrodia.
+OX   NCBI_TaxID=91201 {ECO:0000313|EMBL:AAG52664.2};
+RN   [1] {ECO:0007829|PDB:1XD5}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 29-140, AND DISULFIDE BONDS.
+RX   PubMed=15649901; DOI=10.1074/jbc.M411634200;
+RA   Liu W., Yang N., Ding J., Huang R.H., Hu Z., Wang D.C.;
+RT   "Structural mechanism governing the quaternary organization of monocot
+RT   mannose-binding lectin revealed by the novel monomeric structure of an
+RT   orchid lectin.";
+RL   J. Biol. Chem. 280:14865-14876(2005).
+RN   [2] {ECO:0000313|EMBL:AAG52664.2}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Secondary corm {ECO:0000313|EMBL:AAG52664.2};
+RA   Wang Y., Li W., Guo S.;
+RT   "Purification, in Vitro Activity and cDNA Cloning of Gastrodia Antifungal
+RT   Protein (GAFP) from Gastrodia (Gastrodia elata).";
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF225410; AAG52664.2; -; mRNA.
+DR   PDB; 1XD5; X-ray; 2.00 A; A/B/C/D=29-140.
+DR   PDBsum; 1XD5; -.
+DR   SMR; Q9AXZ2; -.
+DR   UniLectin; Q9AXZ2; -.
+DR   EvolutionaryTrace; Q9AXZ2; -.
+DR   CDD; cd00028; B_lectin; 1.
+DR   Gene3D; 2.90.10.10; -; 1.
+DR   InterPro; IPR001480; Bulb-type_lectin_dom.
+DR   InterPro; IPR036426; Bulb-type_lectin_dom_sf.
+DR   SMART; SM00108; B_lectin; 1.
+DR   SUPFAM; SSF51110; SSF51110; 1.
+DR   PROSITE; PS50927; BULB_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1XD5}; Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           24..179
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004325988"
+FT   DOMAIN          29..136
+FT                   /note="Bulb-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50927"
+FT   DISULFID        57..80
+FT                   /evidence="ECO:0007829|PDB:1XD5"
+SQ   SEQUENCE   179 AA;  19131 MW;  B1D89F7E35B94096 CRC64;
+     MAASASTAVI LFFAVTTMMS LSAIPAFASD RLNSGHQLDT GGSLAQGGYL FIIQNDCNLV
+     LYDNNRAVWA SGTNGKASGC VLKMQNDGNL VIYSGSRAIW ASNTNRQNGN YYLILQRDRN
+     VVIYDNSNNA IWATHTNVGN AEITAIPHSN GTAAASGAAQ NKVNELYISM YSRSKRIAG
+//

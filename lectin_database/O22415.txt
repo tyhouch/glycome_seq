@@ -1,0 +1,222 @@
+ID   SNAIF_SAMNI             Reviewed;         570 AA.
+AC   O22415;
+DT   02-NOV-2016, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   25-MAY-2022, entry version 95.
+DE   RecName: Full=Ribosome-inactivating protein SNAIf {ECO:0000303|PubMed:9541002};
+DE   AltName: Full=Agglutinin I;
+DE   Contains:
+DE     RecName: Full=SNAIf-A chain {ECO:0000303|PubMed:9541002};
+DE              EC=3.2.2.22 {ECO:0000255|RuleBase:RU004915};
+DE     AltName: Full=rRNA N-glycosidase {ECO:0000255|RuleBase:RU004915};
+DE   Contains:
+DE     RecName: Full=Linker peptide;
+DE   Contains:
+DE     RecName: Full=SNAIf-B chain {ECO:0000303|PubMed:9541002};
+DE   Contains:
+DE     RecName: Full=TrSNAIf {ECO:0000303|PubMed:9541002};
+DE   Flags: Precursor;
+GN   Name=SNA-If {ECO:0000303|PubMed:12023903};
+GN   Synonyms=LECSNA-If {ECO:0000303|PubMed:9541002}, SNAIf
+GN   {ECO:0000303|PubMed:9541002};
+OS   Sambucus nigra (European elder).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; campanulids; Dipsacales; Adoxaceae; Sambucus.
+OX   NCBI_TaxID=4202;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION (TRSNAIF), TISSUE SPECIFICITY,
+RP   PROTEOLYTIC PROCESSING, PROTEIN SEQUENCE OF 424-442, AND 3D-STRUCTURE
+RP   MODELING.
+RC   TISSUE=Fruit;
+RX   PubMed=9541002; DOI=10.1016/s0014-5793(98)00193-8;
+RA   Peumans W.J., Roy S., Barre A., Rouge P., van Leuven F., van Damme E.J.;
+RT   "Elderberry (Sambucus nigra) contains truncated
+RT   Neu5Ac(alpha-2,6)Gal/GalNAc-binding type 2 ribosome-inactivating
+RT   proteins.";
+RL   FEBS Lett. 425:35-39(1998).
+RN   [2]
+RP   FUNCTION, DOMAIN, MUTAGENESIS OF ASN-356 AND ASP-539, AND 3D-STRUCTURE
+RP   MODELING.
+RX   PubMed=12023903; DOI=10.1042/bj20020006;
+RA   Chen Y., Rouge P., Peumans W.J., van Damme E.J.;
+RT   "Mutational analysis of the carbohydrate-binding activity of the
+RT   NeuAc(alpha-2,6)Gal/GalNAc-specific type 2 ribosome-inactivating protein
+RT   from elderberry (Sambucus nigra) fruits.";
+RL   Biochem. J. 364:587-592(2002).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=18951590; DOI=10.1016/j.phytochem.2008.09.012;
+RA   Shahidi-Noghabi S., Van Damme E.J., Smagghe G.;
+RT   "Carbohydrate-binding activity of the type-2 ribosome-inactivating protein
+RT   SNA-I from elderberry (Sambucus nigra) is a determining factor for its
+RT   insecticidal activity.";
+RL   Phytochemistry 69:2972-2978(2008).
+CC   -!- FUNCTION: Neu5Ac(alpha2-6)Gal/GalNAc specific agglutinin
+CC       (PubMed:12023903). Behaves as a type-2 ribosome-inactivating protein
+CC       (PubMed:12023903). Strongly inhibits mammalian but not plant ribosomes
+CC       (PubMed:12023903). The A chain is responsible for inhibiting protein
+CC       synthesis through the catalytic inactivation of 60S ribosomal subunits
+CC       by removing adenine from position 4,324 of 28S rRNA (Probable). The B
+CC       chain binds to cell receptors and probably facilitates the entry into
+CC       the cell of the A chain; B chains are also responsible for cell
+CC       agglutination (lectin activity) (Probable). Involved in plant defense
+CC       against insects (PubMed:18951590). {ECO:0000269|PubMed:12023903,
+CC       ECO:0000269|PubMed:18951590, ECO:0000305}.
+CC   -!- FUNCTION: [TrSNAIf]: Binds Neu5Ac(alpha2-6)Gal/GalNAc but has no clear
+CC       agglutination activity. {ECO:0000269|PubMed:9541002}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC         Evidence={ECO:0000255|RuleBase:RU004915};
+CC   -!- SUBUNIT: Tetramer of four pairs of disulfide bound A-B chains.
+CC       {ECO:0000305|PubMed:12023903}.
+CC   -!- TISSUE SPECIFICITY: Expressed in fruits. {ECO:0000269|PubMed:9541002}.
+CC   -!- DOMAIN: The B-chain consists of six tandemly repeated subdomains. Only
+CC       subdomains 1-alpha and 2-gamma possess a functional carbohydrate-
+CC       binding site. {ECO:0000269|PubMed:12023903}.
+CC   -!- PTM: The precursor is processed in two chains, A and B, that are linked
+CC       by a disulfide bond (PubMed:9541002). A small truncated form
+CC       corresponding roughly to the second ricin B-type lectin domain of the B
+CC       chain, TrSNAIf, can also be produced (PubMed:9541002).
+CC       {ECO:0000269|PubMed:9541002}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250|UniProtKB:Q41358}.
+CC   -!- SIMILARITY: Belongs to the ribosome-inactivating protein family. Type 2
+CC       RIP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF012899; AAC49989.1; -; mRNA.
+DR   AlphaFoldDB; O22415; -.
+DR   SMR; O22415; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 2.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Hydrolase; Lectin;
+KW   Nucleotide-binding; Plant defense; Protein synthesis inhibitor; Repeat;
+KW   Signal; Toxin.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   CHAIN           29..289
+FT                   /note="SNAIf-A chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT                   /id="PRO_0000437975"
+FT   PEPTIDE         290..308
+FT                   /note="Linker peptide"
+FT                   /evidence="ECO:0000250|UniProtKB:P93543"
+FT                   /id="PRO_0000437976"
+FT   CHAIN           309..570
+FT                   /note="SNAIf-B chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT                   /id="PRO_0000437977"
+FT   CHAIN           424..570
+FT                   /note="TrSNAIf"
+FT                   /evidence="ECO:0000305|PubMed:9541002"
+FT                   /id="PRO_0000437978"
+FT   DOMAIN          319..439
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          329..369
+FT                   /note="1-alpha"
+FT                   /evidence="ECO:0000305|PubMed:12023903"
+FT   REPEAT          370..405
+FT                   /note="1-beta"
+FT                   /evidence="ECO:0000305|PubMed:12023903"
+FT   REPEAT          408..440
+FT                   /note="1-gamma"
+FT                   /evidence="ECO:0000305|PubMed:12023903"
+FT   DOMAIN          441..566
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          452..489
+FT                   /note="2-alpha"
+FT                   /evidence="ECO:0000305|PubMed:12023903"
+FT   REPEAT          493..531
+FT                   /note="2-beta"
+FT                   /evidence="ECO:0000305|PubMed:12023903"
+FT   REPEAT          534..567
+FT                   /note="2-gamma"
+FT                   /evidence="ECO:0000305|PubMed:12023903"
+FT   ACT_SITE        199
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   CARBOHYD        40
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        62
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        140
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        232
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        492
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        526
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        544
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        284..316
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        332..351
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        355
+FT                   /note="Interchain (between two adjacent B chains)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   DISULFID        373..385
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        455..470
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        496..513
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   MUTAGEN         356
+FT                   /note="N->S: In SNA-If-M2; loss of carbohydrate-binding
+FT                   activity but no effect on RNAN-glycosylase activity; when
+FT                   associated with E-539."
+FT                   /evidence="ECO:0000269|PubMed:12023903"
+FT   MUTAGEN         539
+FT                   /note="D->E: In SNA-If-M1; strongly reduced lectin activity
+FT                   but no effect on RNAN-glycosylase activity."
+FT                   /evidence="ECO:0000269|PubMed:12023903"
+SQ   SEQUENCE   570 AA;  62752 MW;  7D799D3A20764BA6 CRC64;
+     MRVVTKLLYL VVLAICGLGI HGALTHTRVT PPVYPSVSFN LTGADTYGPF LRALQEKVIL
+     GNHTAFDLPV LNPESQVSDS NRFVLVPLTN PSGDTVTLAI DVVNLYVVAF SSNGRSYFFS
+     GSTAVQRDNL FVDTTQEELN FTGNYISLER QVGFGRVYIP LGPKSLAQAI SSLRTYTLSA
+     GDTKPLARGL LVVIQMVSEA ARFRYIELRI RTSITDASEF TPDLLMLSME NNWSSMSSEI
+     QQAQPGGIFP GVVQLRDERN NPIEVTNFRR LFELTYIAVL LYGCAPVTSN SYTNNAIDAQ
+     IIKMPVFRGG GYEKVCSVVE VTRRISGWDG LCVDVRDGHY IDGNTVQLGP CGNECNQLWT
+     FRTDGTIRWL GKCLTTSSSV MIYDCNTVPP EATKWVVSTD GTITNPRSGL VLTAPQAAEG
+     TALSLENNIH AARQGWTVGD VEPLVTFIVG YKQMCLTENG ENNFVWLEDC VLNRVEQEWA
+     LYGDGTIRVN SNRSLCVTSE DHEPSDLIVI LKCEGSGNQR WVFNTNGTIS NPNAKLVMDV
+     AQSNVSLRKI ILYPPTGNPN QQWITTTQPA
+//

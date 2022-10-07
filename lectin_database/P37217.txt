@@ -1,0 +1,144 @@
+ID   CD69_MOUSE              Reviewed;         199 AA.
+AC   P37217;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   03-AUG-2022, entry version 162.
+DE   RecName: Full=Early activation antigen CD69;
+DE   AltName: CD_antigen=CD69;
+GN   Name=Cd69;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8100776; DOI=10.1002/eji.1830230737;
+RA   Ziegler S.F., Ramsdell F., Hjerrild K.A., Armitage R.J., Grabstein K.H.,
+RA   Hennen K.B., Farrah T., Fanslow W.C., Shevach E.M., Alderson M.R.;
+RT   "Molecular characterization of the early activation antigen CD69: a type II
+RT   membrane glycoprotein related to a family of natural killer cell activation
+RT   antigens.";
+RL   Eur. J. Immunol. 23:1643-1648(1993).
+CC   -!- FUNCTION: Involved in lymphocyte proliferation and functions as a
+CC       signal transmitting receptor in lymphocytes, natural killer (NK) cells,
+CC       and platelets.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed on the surface of activated T-cells, B-
+CC       cells, natural killer cells, neutrophils and platelets.
+CC   -!- DEVELOPMENTAL STAGE: Earliest inducible cell surface glycoprotein
+CC       acquired during lymphoid activation.
+CC   -!- INDUCTION: By the activation of T-lymphocytes.
+CC   -!- PTM: Constitutive Ser/Thr phosphorylation in both mature thymocytes and
+CC       activated T-lymphocytes. {ECO:0000250}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=CD69;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_173";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L23638; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   CCDS; CCDS20582.1; -.
+DR   RefSeq; NP_001028294.1; NM_001033122.3.
+DR   AlphaFoldDB; P37217; -.
+DR   SMR; P37217; -.
+DR   DIP; DIP-60425N; -.
+DR   IntAct; P37217; 1.
+DR   STRING; 10090.ENSMUSP00000032259; -.
+DR   GlyGen; P37217; 3 sites.
+DR   iPTMnet; P37217; -.
+DR   PhosphoSitePlus; P37217; -.
+DR   EPD; P37217; -.
+DR   jPOST; P37217; -.
+DR   PaxDb; P37217; -.
+DR   PRIDE; P37217; -.
+DR   ProteomicsDB; 279987; -.
+DR   Antibodypedia; 3741; 1229 antibodies from 47 providers.
+DR   DNASU; 12515; -.
+DR   Ensembl; ENSMUST00000032259; ENSMUSP00000032259; ENSMUSG00000030156.
+DR   GeneID; 12515; -.
+DR   KEGG; mmu:12515; -.
+DR   UCSC; uc009efi.1; mouse.
+DR   CTD; 969; -.
+DR   MGI; MGI:88343; Cd69.
+DR   VEuPathDB; HostDB:ENSMUSG00000030156; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000161987; -.
+DR   HOGENOM; CLU_049894_8_4_1; -.
+DR   InParanoid; P37217; -.
+DR   OMA; WFNFTGS; -.
+DR   OrthoDB; 1289964at2759; -.
+DR   PhylomeDB; P37217; -.
+DR   TreeFam; TF351467; -.
+DR   BioGRID-ORCS; 12515; 2 hits in 73 CRISPR screens.
+DR   PRO; PR:P37217; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   RNAct; P37217; protein.
+DR   Bgee; ENSMUSG00000030156; Expressed in peripheral lymph node and 51 other tissues.
+DR   ExpressionAtlas; P37217; baseline and differential.
+DR   Genevisible; P37217; MM.
+DR   GO; GO:0009986; C:cell surface; IDA:MGI.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:MGI.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; ISO:MGI.
+DR   GO; GO:0071466; P:cellular response to xenobiotic stimulus; IEP:UniProtKB.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Lectin; Membrane; Phosphoprotein;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..199
+FT                   /note="Early activation antigen CD69"
+FT                   /id="PRO_0000046584"
+FT   TOPO_DOM        1..40
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        41..61
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        62..199
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          92..195
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..20
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        150
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        166
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        180
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        68
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000305"
+FT   DISULFID        85..96
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        113..194
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        173..186
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   199 AA;  22517 MW;  39F8E4941D36D4F6 CRC64;
+     MDSENCSITE NSSSHLERGQ KDHGTSIHFE KHHEGSIQVS IPWAVLIVVL ITSLIIALIA
+     LNVGKYNCPG LYEKLESSDH HVATCKNEWI SYKRTCYFFS TTTKSWALAQ RSCSEDAATL
+     AVIDSEKDMT FLKRYSGELE HWIGLKNEAN QTWKWANGKE FNSWFNLTGS GRCVSVNHKN
+     VTAVDCEANF HWVCSKPSR
+//

@@ -1,0 +1,168 @@
+ID   CLC4D_RAT               Reviewed;         218 AA.
+AC   Q69FH1; Q2TUL6;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   03-AUG-2022, entry version 102.
+DE   RecName: Full=C-type lectin domain family 4 member D;
+DE   AltName: Full=C-type lectin superfamily member 8;
+DE   AltName: CD_antigen=CD368;
+GN   Name=Clec4d; Synonyms=Clecsf8, Mcl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=PVG;
+RX   PubMed=15368084; DOI=10.1007/s00251-004-0714-x;
+RA   Flornes L.M., Bryceson Y.T., Spurkland A., Lorentzen J.C., Dissen E.,
+RA   Fossum S.;
+RT   "Identification of lectin-like receptors expressed by antigen presenting
+RT   cells and neutrophils and their mapping to a novel gene complex.";
+RL   Immunogenetics 56:506-517(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=DA;
+RA   Flornes L.M., Dissen E., Fossum S.;
+RT   "Genes encoding lectin-like receptors associate with arthritis in the
+RT   rat.";
+RL   Submitted (DEC-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   SUBUNIT, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND FUNCTION.
+RX   PubMed=23921530; DOI=10.1002/eji.201343752;
+RA   Lobato-Pascual A., Saether P.C., Fossum S., Dissen E., Daws M.R.;
+RT   "Mincle, the receptor for mycobacterial cord factor, forms a functional
+RT   receptor complex with MCL and FcepsilonRI-gamma.";
+RL   Eur. J. Immunol. 43:3167-3174(2013).
+CC   -!- FUNCTION: Calcium-dependent lectin that acts as a pattern recognition
+CC       receptor (PRR) of the innate immune system: recognizes damage-
+CC       associated molecular patterns (DAMPs) of pathogen-associated molecular
+CC       patterns (PAMPs) of bacteria and fungi. The PAMPs include alpha-mannans
+CC       on C.albicans hypheas and mycobacterial trehalose 6,6'-dimycolate (TDM)
+CC       (By similarity). Interacts with signaling adapter Fc receptor gamma
+CC       chain/FCER1G, likely via CLEC4E, to form a functional complex in
+CC       myeloid cells (PubMed:23921530). Binding of mycobacterial TDM or
+CC       C.albicans alpha-mannans to this receptor complex leads to
+CC       phosphorylation of the immunoreceptor tyrosine-based activation motif
+CC       (ITAM) of FCER1G, triggering activation of SYK, CARD9 and NF-kappa-B,
+CC       consequently driving maturation of antigen-presenting cells and shaping
+CC       antigen-specific priming of T-cells toward effector T-helper 1 and T-
+CC       helper 17 cell subtypes. The heterodimer formed with CLEC6A is active
+CC       against fungal infection. Functions as an endocytic receptor. May be
+CC       involved in antigen uptake at the site of infection, either for
+CC       clearance of the antigen, or for processing and further presentation to
+CC       T-cells (By similarity). {ECO:0000250|UniProtKB:Q8WXI8,
+CC       ECO:0000269|PubMed:23921530}.
+CC   -!- SUBUNIT: Heterodimer with CLEC4E; disulfide-linked (PubMed:23921530).
+CC       CLEC4E acts as a bridge for interaction between CLEC4D and FCER1G to
+CC       form a functional complex (PubMed:23921530). Heterodimer with CLEC6A;
+CC       this heterodimer forms a pattern recognition receptor (PRR) against
+CC       fungal infection (By similarity). {ECO:0000250|UniProtKB:Q8WXI8,
+CC       ECO:0000269|PubMed:23921530}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305|PubMed:23921530};
+CC       Single-pass type II membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in myeloid cells (dendritic cells,
+CC       macrophages and neutrophils) and B-cells. {ECO:0000269|PubMed:15368084,
+CC       ECO:0000269|PubMed:23921530}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY339882; AAR02097.1; -; mRNA.
+DR   EMBL; AY494065; AAS76661.1; -; mRNA.
+DR   RefSeq; NP_001003707.1; NM_001003707.1.
+DR   AlphaFoldDB; Q69FH1; -.
+DR   SMR; Q69FH1; -.
+DR   STRING; 10116.ENSRNOP00000013536; -.
+DR   GlyGen; Q69FH1; 2 sites.
+DR   PaxDb; Q69FH1; -.
+DR   GeneID; 362432; -.
+DR   KEGG; rno:362432; -.
+DR   UCSC; RGD:1303339; rat.
+DR   CTD; 338339; -.
+DR   RGD; 1303339; Clec4d.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; Q69FH1; -.
+DR   OrthoDB; 1269095at2759; -.
+DR   PhylomeDB; Q69FH1; -.
+DR   Reactome; R-RNO-5621480; Dectin-2 family.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   PRO; PR:Q69FH1; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0034987; F:immunoglobulin receptor binding; ISO:RGD.
+DR   GO; GO:0005537; F:mannose binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; ISS:UniProtKB.
+DR   GO; GO:0002250; P:adaptive immune response; ISO:RGD.
+DR   GO; GO:0061760; P:antifungal innate immune response; ISS:UniProtKB.
+DR   GO; GO:0042742; P:defense response to bacterium; ISO:RGD.
+DR   GO; GO:0038094; P:Fc-gamma receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0006955; P:immune response; IBA:GO_Central.
+DR   GO; GO:0045087; P:innate immune response; ISO:RGD.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-kappaB signaling; ISO:RGD.
+DR   GO; GO:0030887; P:positive regulation of myeloid dendritic cell activation; ISS:UniProtKB.
+DR   GO; GO:0002292; P:T cell differentiation involved in immune response; ISO:RGD.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Adaptive immunity; Calcium; Cell membrane; Disulfide bond; Glycoprotein;
+KW   Immunity; Innate immunity; Lectin; Membrane; Metal-binding; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..218
+FT                   /note="C-type lectin domain family 4 member D"
+FT                   /id="PRO_0000046618"
+FT   TOPO_DOM        1..24
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        25..47
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        48..218
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          89..206
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   BINDING         171
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WXI8"
+FT   BINDING         193
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WXI8"
+FT   BINDING         194
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WXI8"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        109
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        82..93
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        110..205
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        180..197
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   218 AA;  25312 MW;  357E411CB748B9B0 CRC64;
+     MWLEESQMKS KGALHPRRIP WVCAVVSISF LSACFISTCV VTHYFLLWKR GSALKFSDYH
+     TRLTCILEEP QPGATGGTWT CCPVSWRAFQ SNCYFALNDN QTWHESERNC SGMSSHLVTI
+     NTEAEQDFVT QLLDEQFSYF LGLSYEKVEG QWQWVDKTPF NPNVVFWKVG EPKDSMEEDC
+     VVLVYDQDKW VWNDFPCHFE MGRICKLPGA TFDWNPSK
+//

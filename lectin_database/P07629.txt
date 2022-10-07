@@ -1,0 +1,148 @@
+ID   SAMP_MESAU              Reviewed;         234 AA.
+AC   P07629;
+DT   01-APR-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 2.
+DT   03-AUG-2022, entry version 117.
+DE   RecName: Full=Serum amyloid P-component;
+DE   AltName: Full=Female protein;
+DE            Short=FP;
+DE   AltName: Full=SAP(FP);
+DE   Flags: Precursor;
+GN   Name=APCS; Synonyms=PTX2, SAP;
+OS   Mesocricetus auratus (Golden hamster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Mesocricetus.
+OX   NCBI_TaxID=10036;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=7691816; DOI=10.1016/s0021-9258(20)80608-5;
+RA   Rudnick C.M., Dowton S.B.;
+RT   "Serum amyloid P (female protein) of the Syrian hamster. Gene structure and
+RT   expression.";
+RL   J. Biol. Chem. 268:21760-21769(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 24-234.
+RX   PubMed=2408337; DOI=10.1126/science.2408337;
+RA   Dowton S.B., Woods D.E., Mantzouranis E.C., Colten H.R.;
+RT   "Syrian hamster female protein: analysis of female protein primary
+RT   structure and gene expression.";
+RL   Science 228:1206-1208(1985).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 25-48.
+RX   PubMed=6166709; DOI=10.1084/jem.153.4.977;
+RA   Coe J.E., Margossian S.S., Slayter H.S., Sogn J.A.;
+RT   "Hamster female protein. A new Pentraxin structurally and functionally
+RT   similar to C-reactive protein and amyloid P component.";
+RL   J. Exp. Med. 153:977-991(1981).
+RN   [4]
+RP   3D-STRUCTURE MODELING.
+RX   PubMed=7881902; DOI=10.1016/s0969-2126(94)00105-7;
+RA   Srinivasan N., White H.E., Emsley J., Wood S.P., Pepys M.B., Blundell T.L.;
+RT   "Comparative analyses of pentraxins: implications for protomer assembly and
+RT   ligand binding.";
+RL   Structure 2:1017-1027(1994).
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homopentamer. Pentraxin (or pentaxin) have a discoid
+CC       arrangement of 5 non-covalently bound subunits.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- MISCELLANEOUS: Plasma concentration of FP are altered by sex steroids
+CC       and by stimuli that elicit an acute phase response.
+CC   -!- SIMILARITY: Belongs to the pentraxin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L22024; AAA03577.1; -; Unassigned_DNA.
+DR   EMBL; M11342; AAA36980.1; -; mRNA.
+DR   PIR; A19828; A19828.
+DR   PIR; A44177; A44177.
+DR   PIR; A48593; A48593.
+DR   AlphaFoldDB; P07629; -.
+DR   SMR; P07629; -.
+DR   STRING; 10036.XP_005078250.1; -.
+DR   UniLectin; P07629; -.
+DR   eggNOG; ENOG502S201; Eukaryota.
+DR   Proteomes; UP000189706; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006953; P:acute-phase response; IEA:UniProtKB-KW.
+DR   CDD; cd00152; PTX; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR030476; Pentaxin_CS.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00289; PTX_1; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   1: Evidence at protein level;
+KW   Acute phase; Amyloid; Calcium; Direct protein sequencing; Disulfide bond;
+KW   Glycoprotein; Lectin; Metal-binding; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..234
+FT                   /note="Serum amyloid P-component"
+FT                   /id="PRO_0000023539"
+FT   DOMAIN          27..226
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         81
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         158
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         158
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         159
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         160
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         160
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         170
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        54
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        58..117
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CONFLICT        27
+FT                   /note="T -> S (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        43
+FT                   /note="K -> N (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        76
+FT                   /note="A -> T (in Ref. 2; AAA36980)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   234 AA;  26463 MW;  6161F0383062D2DB CRC64;
+     MDKLLSLLGV SILAGLLLEA FAQTDLTGKV FVFPRQSETD YVKLIPRLDK PLQNFTVCFR
+     AYSDLSRPHS LFSYNAEYGE NELLIYKERI GEYELYIGNQ GTKVHGVEEF ASPVHFCTSW
+     ESSSGIAEFW VNGKPWVKKG LQKGYTVKNK PSIILGQEQD NYGGGFDNYQ SFVGEIGDLN
+     MWDSVLTPEE IKSVYQGVPL EPNILDWQAL NYEMNGYAVI RPRCVALSSY NKIS
+//

@@ -1,0 +1,257 @@
+ID   CALR_MACFA              Reviewed;         417 AA.
+AC   Q4R6K8;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 1.
+DT   03-AUG-2022, entry version 97.
+DE   RecName: Full=Calreticulin;
+DE   Flags: Precursor;
+GN   Name=CALR; ORFNames=QtsA-17783;
+OS   Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9541;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RG   International consortium for macaque cDNA sequencing and analysis;
+RT   "DNA sequences of macaque genes expressed in brain or testis and its
+RT   evolutionary implications.";
+RL   Submitted (JUN-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Calcium-binding chaperone that promotes folding, oligomeric
+CC       assembly and quality control in the endoplasmic reticulum (ER) via the
+CC       calreticulin/calnexin cycle. This lectin interacts transiently with
+CC       almost all of the monoglucosylated glycoproteins that are synthesized
+CC       in the ER. Interacts with the DNA-binding domain of NR3C1 and mediates
+CC       its nuclear export (By similarity). Involved in maternal gene
+CC       expression regulation. May participate in oocyte maturation via the
+CC       regulation of calcium homeostasis (By similarity). Present in the
+CC       cortical granules of non-activated oocytes, is exocytosed during the
+CC       cortical reaction in response to oocyte activation and might
+CC       participate in the block to polyspermy (By similarity).
+CC       {ECO:0000250|UniProtKB:P27797, ECO:0000250|UniProtKB:P28491,
+CC       ECO:0000250|UniProtKB:Q8K3H7}.
+CC   -!- SUBUNIT: Monomer. Component of an EIF2 complex at least composed of
+CC       CELF1/CUGBP1, CALR, CALR3, EIF2S1, EIF2S2, HSP90B1 and HSPA5. Interacts
+CC       with PDIA3/ERp57 and SPACA9 (By similarity). Interacts with TRIM21.
+CC       Interacts with NR3C1. Interacts with PPIB. Interacts (via P-domain)
+CC       with PDIA5. Interacts with CLCC1 (By similarity).
+CC       {ECO:0000250|UniProtKB:P14211, ECO:0000250|UniProtKB:P18418,
+CC       ECO:0000250|UniProtKB:P27797}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen
+CC       {ECO:0000250|UniProtKB:P27797}. Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P27797}. Secreted, extracellular space,
+CC       extracellular matrix {ECO:0000250|UniProtKB:P27797}. Cell surface
+CC       {ECO:0000250|UniProtKB:P27797}. Sarcoplasmic reticulum lumen
+CC       {ECO:0000250|UniProtKB:P28491}. Cytoplasmic vesicle, secretory vesicle,
+CC       Cortical granule {ECO:0000250|UniProtKB:Q8K3H7}. Cytolytic granule
+CC       {ECO:0000250|UniProtKB:P27797}. Note=Also found in cell surface (T
+CC       cells), cytosol and extracellular matrix. During oocyte maturation and
+CC       after parthenogenetic activation accumulates in cortical granules. In
+CC       pronuclear and early cleaved embryos localizes weakly to cytoplasm
+CC       around nucleus and more strongly in the region near the cortex (By
+CC       similarity). In cortical granules of non-activated oocytes, is
+CC       exocytosed during the cortical reaction in response to oocyte
+CC       activation (By similarity). {ECO:0000250|UniProtKB:P27797,
+CC       ECO:0000250|UniProtKB:P28491, ECO:0000250|UniProtKB:Q8K3H7}.
+CC   -!- DOMAIN: Can be divided into a N-terminal globular domain, a proline-
+CC       rich P-domain forming an elongated arm-like structure and a C-terminal
+CC       acidic domain. The P-domain binds one molecule of calcium with high
+CC       affinity, whereas the acidic C-domain binds multiple calcium ions with
+CC       low affinity (By similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The interaction with glycans occurs through a binding site in
+CC       the globular lectin domain. {ECO:0000250}.
+CC   -!- DOMAIN: The zinc binding sites are localized to the N-domain.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: Associates with PDIA3 through the tip of the extended arm
+CC       formed by the P-domain. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB169175; BAE01267.1; -; mRNA.
+DR   RefSeq; NP_001274539.1; NM_001287610.1.
+DR   AlphaFoldDB; Q4R6K8; -.
+DR   SMR; Q4R6K8; -.
+DR   STRING; 9541.XP_005588229.1; -.
+DR   Ensembl; ENSMFAT00000099816; ENSMFAP00000046326; ENSMFAG00000040740.
+DR   GeneID; 102121336; -.
+DR   CTD; 811; -.
+DR   VEuPathDB; HostDB:ENSMFAG00000040740; -.
+DR   eggNOG; KOG0674; Eukaryota.
+DR   GeneTree; ENSGT00950000182915; -.
+DR   OMA; MMWCKTV; -.
+DR   OrthoDB; 822188at2759; -.
+DR   Proteomes; UP000233100; Chromosome 19.
+DR   Bgee; ENSMFAG00000040740; Expressed in pituitary gland and 13 other tissues.
+DR   GO; GO:0060473; C:cortical granule; ISS:UniProtKB.
+DR   GO; GO:0044194; C:cytolytic granule; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044322; C:endoplasmic reticulum quality control compartment; IEA:Ensembl.
+DR   GO; GO:0009897; C:external side of plasma membrane; IEA:Ensembl.
+DR   GO; GO:0005615; C:extracellular space; IEA:Ensembl.
+DR   GO; GO:0042824; C:MHC class I peptide loading complex; IEA:Ensembl.
+DR   GO; GO:0005635; C:nuclear envelope; IEA:Ensembl.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:Ensembl.
+DR   GO; GO:0005844; C:polysome; IEA:Ensembl.
+DR   GO; GO:0033018; C:sarcoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005178; F:integrin binding; IEA:Ensembl.
+DR   GO; GO:0003729; F:mRNA binding; IEA:Ensembl.
+DR   GO; GO:0050681; F:nuclear androgen receptor binding; IEA:Ensembl.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; IEA:Ensembl.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:InterPro.
+DR   GO; GO:0090398; P:cellular senescence; IEA:Ensembl.
+DR   GO; GO:0030866; P:cortical actin cytoskeleton organization; IEA:Ensembl.
+DR   GO; GO:0033144; P:negative regulation of intracellular steroid hormone receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0045665; P:negative regulation of neuron differentiation; IEA:Ensembl.
+DR   GO; GO:0048387; P:negative regulation of retinoic acid receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; IEA:Ensembl.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:Ensembl.
+DR   GO; GO:1901164; P:negative regulation of trophoblast cell migration; IEA:Ensembl.
+DR   GO; GO:0002502; P:peptide antigen assembly with MHC class I protein complex; IEA:Ensembl.
+DR   GO; GO:0045787; P:positive regulation of cell cycle; IEA:Ensembl.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IEA:Ensembl.
+DR   GO; GO:2000510; P:positive regulation of dendritic cell chemotaxis; IEA:Ensembl.
+DR   GO; GO:0010595; P:positive regulation of endothelial cell migration; IEA:Ensembl.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IEA:Ensembl.
+DR   GO; GO:1901224; P:positive regulation of NIK/NF-kappaB signaling; IEA:Ensembl.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; IEA:Ensembl.
+DR   GO; GO:1900026; P:positive regulation of substrate adhesion-dependent cell spreading; IEA:Ensembl.
+DR   GO; GO:0006611; P:protein export from nucleus; IEA:Ensembl.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   GO; GO:0034504; P:protein localization to nucleus; IEA:Ensembl.
+DR   GO; GO:0050821; P:protein stabilization; ISS:UniProtKB.
+DR   GO; GO:0040020; P:regulation of meiotic nuclear division; IEA:Ensembl.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009169; Calreticulin.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 2.
+DR   PIRSF; PIRSF002356; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 3.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Calcium; Chaperone; Cytoplasm; Cytoplasmic vesicle;
+KW   Disulfide bond; Endoplasmic reticulum; Extracellular matrix; Hydroxylation;
+KW   Lectin; Lysosome; Metal-binding; Reference proteome; Repeat;
+KW   Sarcoplasmic reticulum; Secreted; Signal; Zinc.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           18..417
+FT                   /note="Calreticulin"
+FT                   /id="PRO_0000246153"
+FT   REPEAT          191..202
+FT                   /note="1-1"
+FT   REPEAT          210..221
+FT                   /note="1-2"
+FT   REPEAT          227..238
+FT                   /note="1-3"
+FT   REPEAT          244..255
+FT                   /note="1-4"
+FT   REPEAT          259..269
+FT                   /note="2-1"
+FT   REPEAT          273..283
+FT                   /note="2-2"
+FT   REPEAT          287..297
+FT                   /note="2-3"
+FT   REGION          18..197
+FT                   /note="N-domain"
+FT   REGION          191..255
+FT                   /note="4 X approximate repeats"
+FT   REGION          193..278
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          198..308
+FT                   /note="P-domain"
+FT   REGION          237..270
+FT                   /note="Interaction with PPIB"
+FT                   /evidence="ECO:0000250"
+FT   REGION          259..297
+FT                   /note="3 X approximate repeats"
+FT   REGION          309..417
+FT                   /note="C-domain"
+FT   REGION          350..417
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           414..417
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   COMPBIAS        199..254
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        352..381
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        382..417
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         26
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         62
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         64
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         109
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         111
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         128
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         135
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         317
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         328
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         48
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27797"
+FT   MOD_RES         64
+FT                   /note="N6-(2-hydroxyisobutyryl)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27797"
+FT   MOD_RES         159
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27797"
+FT   MOD_RES         209
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27797"
+FT   DISULFID        105..137
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   417 AA;  48114 MW;  65506C9D1C341804 CRC64;
+     MLLSVPLLLG LLGLAAAEPA VYFKEQFLDG DGWTSRWIES KHKSDFGKFV LSSGKFYGDE
+     EKDKGLQTSQ DARFYALSAS FEPFSNKGQT LVVQFTVKHE QNIDCGGGYV KLFPNSLDQT
+     DMHGDSEYNI MFGPDICGPG TKKVHVIFNY KGKNVLINKD IRCKDDEFTH LYTLIVRPDN
+     TYEVKIDNSQ VESGSLEDDW DFLPPKKIKD PDASKPEDWD ERAKIDDPTD SKPEDWDKPE
+     HIPDPDAKKP EDWDEEMDGE WEPPVIQNPE YKGEWKPRQI DNPDYKGTWI HPEIDNPEYS
+     PDPSIYAYDN FGVLGLDLWQ VKSGTIFDNF LITNDEAYAE EFGNETWGVT KAAEKQMKDK
+     QDEEQRLKEE EEDKKRKEEE EAEDKEDDED KDEDEEDEED KEEDEEEDVP GQAKDEL
+//

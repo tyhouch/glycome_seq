@@ -1,0 +1,149 @@
+ID   PHAE_PHAVU              Reviewed;         275 AA.
+AC   P05088;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   13-AUG-1987, sequence version 1.
+DT   25-MAY-2022, entry version 106.
+DE   RecName: Full=Erythroagglutinating phytohemagglutinin;
+DE   AltName: Full=PHA-E;
+DE   Flags: Precursor;
+GN   Name=DLEC1;
+OS   Phaseolus vulgaris (Kidney bean) (French bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Phaseolus.
+OX   NCBI_TaxID=3885;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2990911; DOI=10.1002/j.1460-2075.1985.tb03714.x;
+RA   Hoffman L.M., Donaldson D.D.;
+RT   "Characterization of two Phaseolus vulgaris phytohemagglutinin genes
+RT   closely linked on the chromosome.";
+RL   EMBO J. 4:883-889(1985).
+RN   [2]
+RP   GLYCOSYLATION AT ASN-33 AND ASN-81.
+RC   STRAIN=cv. Greensleeves;
+RA   Strum A., Chrispeels M.J.;
+RT   "The high mannose oligosaccharide of phytohemagglutinin is attached to
+RT   asparagine 12 and the modified oligosaccharide to asparagine 60.";
+RL   Plant Physiol. 80:320-322(1986).
+RN   [3]
+RP   GLYCOSYLATION AT ASN-33 AND ASN-81.
+RX   PubMed=3089787; DOI=10.1111/j.1432-1033.1986.tb09803.x;
+RA   Faye L., Sturm A., Bollini R., Vitale A., Chrispeels M.J.;
+RT   "The position of the oligosaccharide side-chains of phytohemagglutinin and
+RT   their accessibility to glycosidases determines their subsequent processing
+RT   in the Golgi.";
+RL   Eur. J. Biochem. 158:655-661(1986).
+CC   -!- FUNCTION: This insecticidal carbohydrate-binding lectin is toxic for
+CC       the cowpea weevil.
+CC   -!- MISCELLANEOUS: Antibiosis properties of legume lectins are proposed to
+CC       be due to the lysis of epithelial cells of the intestine by binding to
+CC       the carbohydrate moieties of these proteins.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X02408; CAA26256.1; -; Genomic_DNA.
+DR   EMBL; K03288; AAA33759.1; -; Genomic_DNA.
+DR   PIR; A22826; A22826.
+DR   PDB; 3WCR; X-ray; 2.45 A; A/B=22-275.
+DR   PDB; 3WCS; X-ray; 1.75 A; A/B=22-275.
+DR   PDB; 3WOG; X-ray; 2.00 A; A/B=22-275.
+DR   PDB; 5AVA; X-ray; 3.00 A; A/B/C/D/E/F/G/H=1-275.
+DR   PDBsum; 3WCR; -.
+DR   PDBsum; 3WCS; -.
+DR   PDBsum; 3WOG; -.
+DR   PDBsum; 5AVA; -.
+DR   AlphaFoldDB; P05088; -.
+DR   SMR; P05088; -.
+DR   Allergome; 6155; Pha v PHA.
+DR   UniLectin; P05088; -.
+DR   GlyConnect; 497; 2 N-Linked glycans (4 sites).
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycoprotein; Lectin; Mannose-binding; Plant defense; Signal;
+KW   Toxin.
+FT   SIGNAL          1..21
+FT   CHAIN           22..275
+FT                   /note="Erythroagglutinating phytohemagglutinin"
+FT                   /id="PRO_0000017633"
+FT   CARBOHYD        33
+FT                   /note="N-linked (GlcNAc...) (high mannose) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:3089787, ECO:0000269|Ref.2"
+FT                   /id="CAR_000119"
+FT   CARBOHYD        81
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:3089787, ECO:0000269|Ref.2"
+FT                   /id="CAR_000120"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   STRAND          23..31
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   HELIX           34..36
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          37..41
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          67..74
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   TURN            81..83
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          88..96
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          107..115
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   HELIX           124..126
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   TURN            127..129
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          131..134
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   HELIX           137..139
+FT                   /evidence="ECO:0007829|PDB:3WCR"
+FT   STRAND          142..147
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   TURN            152..154
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          160..169
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          171..175
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          184..191
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   TURN            192..195
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          196..203
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   TURN            204..207
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          208..215
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   HELIX           218..221
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          224..234
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   STRAND          245..255
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+FT   HELIX           266..270
+FT                   /evidence="ECO:0007829|PDB:3WCS"
+SQ   SEQUENCE   275 AA;  29746 MW;  D1BBA1B0E4B2702E CRC64;
+     MASSNLLSLA LFLVLLTHAN SASQTSFSFQ RFNETNLILQ RDATVSSKGQ LRLTNVNDNG
+     EPTLSSLGRA FYSAPIQIWD NTTGAVAASP TSFTFNIDVP NNSGPADGLA FVLLPVGSQP
+     KDKGGLLGLF NNYKYDSNAH TVAVEFDTLY NVHWDPKPRH IGIDVNSIKS IKTTTWDFVK
+     GENAEVLITY DSSTKLLVAS LVYPSLKTSF IVSDTVDLKS VLPEWVIVGF TATTGITKGN
+     VETNDILSWS FASKLSDGTT SEALNLANFA LNQIL
+//

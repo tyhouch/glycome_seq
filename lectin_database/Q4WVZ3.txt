@@ -1,0 +1,146 @@
+ID   AGALA_ASPFU             Reviewed;         532 AA.
+AC   Q4WVZ3;
+DT   23-MAR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   25-MAY-2022, entry version 86.
+DE   RecName: Full=Probable alpha-galactosidase A;
+DE            EC=3.2.1.22;
+DE   AltName: Full=Melibiase A;
+DE   Flags: Precursor;
+GN   Name=aglA; ORFNames=AFUA_5G13830;
+OS   Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC
+OS   A1100) (Aspergillus fumigatus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=330879;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100;
+RX   PubMed=16372009; DOI=10.1038/nature04332;
+RA   Nierman W.C., Pain A., Anderson M.J., Wortman J.R., Kim H.S., Arroyo J.,
+RA   Berriman M., Abe K., Archer D.B., Bermejo C., Bennett J.W., Bowyer P.,
+RA   Chen D., Collins M., Coulsen R., Davies R., Dyer P.S., Farman M.L.,
+RA   Fedorova N., Fedorova N.D., Feldblyum T.V., Fischer R., Fosker N.,
+RA   Fraser A., Garcia J.L., Garcia M.J., Goble A., Goldman G.H., Gomi K.,
+RA   Griffith-Jones S., Gwilliam R., Haas B.J., Haas H., Harris D.E.,
+RA   Horiuchi H., Huang J., Humphray S., Jimenez J., Keller N., Khouri H.,
+RA   Kitamoto K., Kobayashi T., Konzack S., Kulkarni R., Kumagai T., Lafton A.,
+RA   Latge J.-P., Li W., Lord A., Lu C., Majoros W.H., May G.S., Miller B.L.,
+RA   Mohamoud Y., Molina M., Monod M., Mouyna I., Mulligan S., Murphy L.D.,
+RA   O'Neil S., Paulsen I., Penalva M.A., Pertea M., Price C., Pritchard B.L.,
+RA   Quail M.A., Rabbinowitsch E., Rawlins N., Rajandream M.A., Reichard U.,
+RA   Renauld H., Robson G.D., Rodriguez de Cordoba S., Rodriguez-Pena J.M.,
+RA   Ronning C.M., Rutter S., Salzberg S.L., Sanchez M., Sanchez-Ferrero J.C.,
+RA   Saunders D., Seeger K., Squares R., Squares S., Takeuchi M., Tekaia F.,
+RA   Turner G., Vazquez de Aldana C.R., Weidman J., White O., Woodward J.R.,
+RA   Yu J.-H., Fraser C.M., Galagan J.E., Asai K., Machida M., Hall N.,
+RA   Barrell B.G., Denning D.W.;
+RT   "Genomic sequence of the pathogenic and allergenic filamentous fungus
+RT   Aspergillus fumigatus.";
+RL   Nature 438:1151-1156(2005).
+CC   -!- FUNCTION: Hydrolyzes a variety of simple alpha-D-galactoside as well as
+CC       more complex molecules such as oligosaccharides and polysaccharides.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-galactose
+CC         residues in alpha-D-galactosides, including galactose
+CC         oligosaccharides, galactomannans and galactolipids.; EC=3.2.1.22;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 27 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAHF01000003; EAL91233.1; -; Genomic_DNA.
+DR   RefSeq; XP_753271.1; XM_748178.1.
+DR   AlphaFoldDB; Q4WVZ3; -.
+DR   SMR; Q4WVZ3; -.
+DR   STRING; 330879.Q4WVZ3; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GH27; Glycoside Hydrolase Family 27.
+DR   EnsemblFungi; EAL91233; EAL91233; AFUA_5G13830.
+DR   GeneID; 3510720; -.
+DR   KEGG; afm:AFUA_5G13830; -.
+DR   VEuPathDB; FungiDB:Afu5g13830; -.
+DR   HOGENOM; CLU_013093_3_3_1; -.
+DR   InParanoid; Q4WVZ3; -.
+DR   OMA; NWARFMC; -.
+DR   OrthoDB; 964130at2759; -.
+DR   Proteomes; UP000002530; Chromosome 5.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004557; F:alpha-galactosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052692; F:raffinose alpha-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016139; P:glycoside catabolic process; IBA:GO_Central.
+DR   GO; GO:0046477; P:glycosylceramide catabolic process; IBA:GO_Central.
+DR   GO; GO:0009311; P:oligosaccharide metabolic process; IBA:GO_Central.
+DR   CDD; cd14792; GH27; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR002241; Glyco_hydro_27.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR041233; Melibiase_C.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR11452; PTHR11452; 1.
+DR   Pfam; PF16499; Melibiase_2; 1.
+DR   Pfam; PF17801; Melibiase_C; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   PRINTS; PR00740; GLHYDRLASE27.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase; Lectin;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..532
+FT                   /note="Probable alpha-galactosidase A"
+FT                   /id="PRO_0000393209"
+FT   DOMAIN          410..531
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   ACT_SITE        152
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        210
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        47
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        121
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        201
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        44..76
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        124..154
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        427..441
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        466..478
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   532 AA;  58991 MW;  DF44B96E7881B3F3 CRC64;
+     MDTTKSLLST LIAIMIPLSL GSVSSPNLLP TPPMGFNNWA RFMCDLNETL FLETASAMIS
+     TGLLEAGYNR VNLDDCWMAY DRAADSSLQW NTTKFPHGIP WLARHLKAQG FHVGIYEDAG
+     NLTCGGYPGS FGHEALDAQT FAAWGIDYLK LDGCNVFPEH SRTLEEEYKA RYAHWHSILK
+     QMHHPLIFSE SAPAYFADPA NLTSWYEVMD WVPAFGELAR HSTDILVYVG EGSAWDSIMV
+     NYRYNTLLAR YQRPGYINDP DFLIPDHPGL TLEEKRSQFA LWASFSAPLI VSAYIPGLSS
+     EELAILRNEE LIRVDQDVLG LQATLASRGL EVDVLTRSLE GGDRLLTVLN RGDGVAVVSV
+     PVEWMGLQRG CPYVVKNLWD GEVQVLEEEI VIRLNSHATQ VYRIALPDEC STVIPTGIVF
+     NTASGNCLTD ENGERVGFEA CRGSETQIWQ VSELGYLRPL SRTSHCLTGG SQASVQLCTE
+     QKNQQWAYAI TGILKNEHTE MCLTEGTGIS QCGFERDSQV FGLPSGVDIK PS
+//

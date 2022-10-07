@@ -1,0 +1,221 @@
+ID   CLC6A_BOVIN             Reviewed;         206 AA.
+AC   Q3LUH2; Q3LUH1;
+DT   28-JUN-2011, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2005, sequence version 1.
+DT   03-AUG-2022, entry version 100.
+DE   RecName: Full=C-type lectin domain family 6 member A;
+DE   AltName: Full=Dendritic cell-associated C-type lectin 2;
+DE            Short=DC-associated C-type lectin 2;
+DE            Short=Dectin-2;
+GN   Name=CLEC6A; Synonyms=DECTIN2;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), AND TISSUE SPECIFICITY.
+RX   PubMed=16213030; DOI=10.1016/j.vetimm.2005.08.031;
+RA   Bonkobara M., Hoshino M., Yagihara H., Tamura K., Isotani M., Tanaka Y.,
+RA   Washizu T., Ariizumi K.;
+RT   "Identification and gene expression of bovine C-type lectin dectin-2.";
+RL   Vet. Immunol. Immunopathol. 110:179-186(2006).
+CC   -!- FUNCTION: Calcium-dependent lectin that acts as a pattern recognition
+CC       receptor (PRR) of the innate immune system: specifically recognizes and
+CC       binds alpha-mannans on C.albicans hypheas (By similarity). Binding of
+CC       C.albicans alpha-mannans to this receptor complex leads to
+CC       phosphorylation of the immunoreceptor tyrosine-based activation motif
+CC       (ITAM) of FCER1G, triggering activation of SYK, CARD9 and NF-kappa-B,
+CC       consequently driving maturation of antigen-presenting cells and shaping
+CC       antigen-specific priming of T-cells toward effector T-helper 1 and T-
+CC       helper 17 cell subtypes (By similarity). Recognizes also, in a mannose-
+CC       dependent manner, allergens from house dust mite and fungi, by
+CC       promoting cysteinyl leukotriene production. Recognizes soluble elements
+CC       from the eggs of Shistosoma mansoni altering adaptive immune responses
+CC       (By similarity). {ECO:0000250|UniProtKB:Q6EIG7,
+CC       ECO:0000250|UniProtKB:Q9JKF4}.
+CC   -!- SUBUNIT: Associated with FCER1G (By similarity). Heterodimer with
+CC       CLEC4D; this heterodimer forms a pattern recognition receptor (PRR)
+CC       against fungal infection (By similarity).
+CC       {ECO:0000250|UniProtKB:Q6EIG7, ECO:0000250|UniProtKB:Q9JKF4}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q6EIG7};
+CC       Single-pass type II membrane protein {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q3LUH2-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q3LUH2-2; Sequence=VSP_041515;
+CC   -!- TISSUE SPECIFICITY: Expressed at the highest levels in lymph nodes, at
+CC       moderate levels in skin, small intestine, liver, and lung, and at lower
+CC       levels in abomasum and spleen, but is not in the brain. Abundantly
+CC       expressed by Langerhans cells compared to macrophages.
+CC       {ECO:0000269|PubMed:16213030}.
+CC   -!- DOMAIN: A short stretch of the intracellular domain (AA 8-14) proximal
+CC       to the transmembrane domain is required for association with Fc
+CC       receptor gamma chain. {ECO:0000250|UniProtKB:Q9JKF4}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ176046; ABA08411.1; -; mRNA.
+DR   EMBL; DQ176047; ABA08412.1; -; mRNA.
+DR   RefSeq; NP_001029651.1; NM_001034479.1. [Q3LUH2-2]
+DR   AlphaFoldDB; Q3LUH2; -.
+DR   SMR; Q3LUH2; -.
+DR   STRING; 9913.ENSBTAP00000032278; -.
+DR   PaxDb; Q3LUH2; -.
+DR   Ensembl; ENSBTAT00000032346; ENSBTAP00000032279; ENSBTAG00000023635. [Q3LUH2-2]
+DR   GeneID; 514979; -.
+DR   KEGG; bta:514979; -.
+DR   CTD; 93978; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000023635; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000162938; -.
+DR   HOGENOM; CLU_049894_7_5_1; -.
+DR   InParanoid; Q3LUH2; -.
+DR   Reactome; R-BTA-5621480; Dectin-2 family.
+DR   Reactome; R-BTA-6798695; Neutrophil degranulation.
+DR   Proteomes; UP000009136; Chromosome 5.
+DR   Bgee; ENSBTAG00000023635; Expressed in monocyte and 82 other tissues.
+DR   ExpressionAtlas; Q3LUH2; baseline and differential.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:UniProtKB.
+DR   GO; GO:0005537; F:mannose binding; ISS:UniProtKB.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; ISS:UniProtKB.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0061760; P:antifungal innate immune response; ISS:UniProtKB.
+DR   GO; GO:0050832; P:defense response to fungus; ISS:UniProtKB.
+DR   GO; GO:0006955; P:immune response; IBA:GO_Central.
+DR   GO; GO:0045087; P:innate immune response; ISS:UniProtKB.
+DR   GO; GO:0001819; P:positive regulation of cytokine production; ISS:UniProtKB.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-kappaB signaling; ISS:UniProtKB.
+DR   GO; GO:2000318; P:positive regulation of T-helper 17 type immune response; ISS:UniProtKB.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Adaptive immunity; Alternative splicing; Calcium; Cell membrane;
+KW   Disulfide bond; Glycoprotein; Immunity; Innate immunity; Lectin; Membrane;
+KW   Metal-binding; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..206
+FT                   /note="C-type lectin domain family 6 member A"
+FT                   /id="PRO_0000410824"
+FT   TOPO_DOM        1..15
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        16..36
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        37..206
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          83..200
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   BINDING         113
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         115
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         165..167
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         165
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         167
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         171
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         171
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         179
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         187..188
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         187
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         188
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         195
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   BINDING         200
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   CARBOHYD        58
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        128
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        167
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        61..75
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7"
+FT   DISULFID        76..87
+FT                   /evidence="ECO:0000250|UniProtKB:Q6EIG7,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        104..199
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        173..191
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         36..69
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:16213030"
+FT                   /id="VSP_041515"
+SQ   SEQUENCE   206 AA;  23738 MW;  6FC8B087C91AA963 CRC64;
+     MVREGNAESC FRMRLWCIAV LGLALLSACF IVSCVVTYYF THGNTGKRLS ELHTHHSNLT
+     CFSEGTRVTE KIWGCCPGTW KPFGSSCYFI SSEENFWAKS EQNCIGMGAH LVVINTETEQ
+     DFIIQQLNKT FSYFLGLSDP QGNGNWQWID QTPYKENVRF WHQNEPNFSA EECASVVFWD
+     GRGWGWNDVF CDSKRKSICE MKKIYL
+//

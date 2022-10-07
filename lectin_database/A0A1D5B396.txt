@@ -1,0 +1,93 @@
+ID   A0A1D5B396_WISFL        Unreviewed;       243 AA.
+AC   A0A1D5B396;
+DT   30-NOV-2016, integrated into UniProtKB/TrEMBL.
+DT   30-NOV-2016, sequence version 1.
+DT   03-AUG-2022, entry version 17.
+DE   SubName: Full=Wisteria floribunda agglutinin {ECO:0000313|PDB:5KXD};
+OS   Wisteria floribunda (Japanese wisteria) (Glycine floribunda).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Wisterieae; Wisteria.
+OX   NCBI_TaxID=3922 {ECO:0000313|PDB:5KXD};
+RN   [1] {ECO:0000313|PDB:5KXD, ECO:0007829|PDB:5KXD}
+RP   X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) IN COMPLEX WITH CALCIUM AND
+RP   MANGANESE, AND GLYCOSYLATION AT ASN-116.
+RX   PubMed=27601469; DOI=10.1074/jbc.M116.750463;
+RA   Haji-Ghassemi O., Gilbert M., Spence J., Schur M.J., Parker M.J.,
+RA   Jenkins M.L., Burke J.E., van Faassen H., Young N.M., Evans S.V.;
+RT   "Molecular Basis for Recognition of the Cancer Glycobiomarker, LacdiNAc
+RT   (GalNAc[beta14]GlcNAc), by Wisteria floribunda Agglutinin.";
+RL   J. Biol. Chem. 291:24085-24095(2016).
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family.
+CC       {ECO:0000256|ARBA:ARBA00007606}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 5KXD; X-ray; 1.95 A; A/B/C/D=1-243.
+DR   PDBsum; 5KXD; -.
+DR   SMR; A0A1D5B396; -.
+DR   UniLectin; A0A1D5B396; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0000313|PDB:5KXD, ECO:0007829|PDB:5KXD};
+KW   Calcium {ECO:0007829|PDB:5KXD}; Lectin {ECO:0000256|ARBA:ARBA00022734};
+KW   Manganese {ECO:0007829|PDB:5KXD}; Metal-binding {ECO:0007829|PDB:5KXD}.
+FT   DOMAIN          4..239
+FT                   /note="Lectin_legB"
+FT                   /evidence="ECO:0000259|Pfam:PF00139"
+FT   BINDING         125
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   BINDING         127
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   BINDING         127
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   BINDING         129
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   BINDING         131
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   BINDING         134
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   BINDING         134
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   BINDING         139
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+FT   CARBOHYD        116
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:5KXD"
+SQ   SEQUENCE   243 AA;  26670 MW;  0B2B1B98B28B97FC CRC64;
+     KETTSFVFTR FSPDPQNLLL QGDTVVTSSG HLQLTQVKDG EPVYSSLGRA LYYAPIHIWD
+     SNTDTVANFV TSFSFVIDAP NKAKAADGLA FFLAPVDTEP QKPGGLLGLF HDDRHNKSNH
+     IVAVEFDTFK NSWDPEGTHI GINVNSIVSR KTISWDLENN EVANVVISYQ ASTKTLTASL
+     VYPSSSTSYI LNDVVDLKQI LPEYVRVGFT AASGLSKDHV ETHDVLAWTF DSDLPDPSSD
+     DCN
+//

@@ -1,0 +1,174 @@
+ID   LSRB_YERPE              Reviewed;         339 AA.
+AC   Q74PW2; Q8CZM9;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   25-MAY-2022, entry version 91.
+DE   RecName: Full=Autoinducer 2-binding protein LsrB;
+DE            Short=AI-2-binding protein LsrB;
+DE   Flags: Precursor;
+GN   Name=lsrB; OrderedLocusNames=YPO0409, y3772, YP_3772;
+OS   Yersinia pestis.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=632;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CO-92 / Biovar Orientalis;
+RX   PubMed=11586360; DOI=10.1038/35097083;
+RA   Parkhill J., Wren B.W., Thomson N.R., Titball R.W., Holden M.T.G.,
+RA   Prentice M.B., Sebaihia M., James K.D., Churcher C.M., Mungall K.L.,
+RA   Baker S., Basham D., Bentley S.D., Brooks K., Cerdeno-Tarraga A.-M.,
+RA   Chillingworth T., Cronin A., Davies R.M., Davis P., Dougan G., Feltwell T.,
+RA   Hamlin N., Holroyd S., Jagels K., Karlyshev A.V., Leather S., Moule S.,
+RA   Oyston P.C.F., Quail M.A., Rutherford K.M., Simmonds M., Skelton J.,
+RA   Stevens K., Whitehead S., Barrell B.G.;
+RT   "Genome sequence of Yersinia pestis, the causative agent of plague.";
+RL   Nature 413:523-527(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KIM10+ / Biovar Mediaevalis;
+RX   PubMed=12142430; DOI=10.1128/jb.184.16.4601-4611.2002;
+RA   Deng W., Burland V., Plunkett G. III, Boutin A., Mayhew G.F., Liss P.,
+RA   Perna N.T., Rose D.J., Mau B., Zhou S., Schwartz D.C., Fetherston J.D.,
+RA   Lindler L.E., Brubaker R.R., Plano G.V., Straley S.C., McDonough K.A.,
+RA   Nilles M.L., Matson J.S., Blattner F.R., Perry R.D.;
+RT   "Genome sequence of Yersinia pestis KIM.";
+RL   J. Bacteriol. 184:4601-4611(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=91001 / Biovar Mediaevalis;
+RX   PubMed=15368893; DOI=10.1093/dnares/11.3.179;
+RA   Song Y., Tong Z., Wang J., Wang L., Guo Z., Han Y., Zhang J., Pei D.,
+RA   Zhou D., Qin H., Pang X., Han Y., Zhai J., Li M., Cui B., Qi Z., Jin L.,
+RA   Dai R., Chen F., Li S., Ye C., Du Z., Lin W., Wang J., Yu J., Yang H.,
+RA   Wang J., Huang P., Yang R.;
+RT   "Complete genome sequence of Yersinia pestis strain 91001, an isolate
+RT   avirulent to humans.";
+RL   DNA Res. 11:179-197(2004).
+CC   -!- FUNCTION: Part of the ABC transporter complex LsrABCD involved in
+CC       autoinducer 2 (AI-2) import. Binds AI-2 and delivers it to the LsrC and
+CC       LsrD permeases (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (LsrA),
+CC       two transmembrane proteins (LsrC and LsrD) and a solute-binding protein
+CC       (LsrB). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 2 family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAM87317.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL590842; CAL19090.1; -; Genomic_DNA.
+DR   EMBL; AE009952; AAM87317.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE017042; AAS63920.1; -; Genomic_DNA.
+DR   PIR; AH0050; AH0050.
+DR   RefSeq; WP_002209189.1; NZ_WUCM01000002.1.
+DR   RefSeq; YP_002345486.1; NC_003143.1.
+DR   PDB; 3T95; X-ray; 1.75 A; A=26-339.
+DR   PDBsum; 3T95; -.
+DR   AlphaFoldDB; Q74PW2; -.
+DR   SMR; Q74PW2; -.
+DR   IntAct; Q74PW2; 1.
+DR   STRING; 214092.YPO0409; -.
+DR   PaxDb; Q74PW2; -.
+DR   DNASU; 1148719; -.
+DR   EnsemblBacteria; AAM87317; AAM87317; y3772.
+DR   EnsemblBacteria; AAS63920; AAS63920; YP_3772.
+DR   GeneID; 57974201; -.
+DR   KEGG; ype:YPO0409; -.
+DR   KEGG; ypk:y3772; -.
+DR   KEGG; ypm:YP_3772; -.
+DR   PATRIC; fig|214092.21.peg.649; -.
+DR   eggNOG; COG1879; Bacteria.
+DR   HOGENOM; CLU_037628_3_0_6; -.
+DR   OMA; KQVNNPY; -.
+DR   Proteomes; UP000000815; Chromosome.
+DR   Proteomes; UP000001019; Chromosome.
+DR   Proteomes; UP000002490; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   CDD; cd20003; PBP1_LsrB_Quorum_Sensing; 1.
+DR   InterPro; IPR030159; LsrB.
+DR   InterPro; IPR028082; Peripla_BP_I.
+DR   InterPro; IPR025997; SBP_2_dom.
+DR   PANTHER; PTHR46847:SF4; PTHR46847:SF4; 1.
+DR   Pfam; PF13407; Peripla_BP_4; 1.
+DR   SUPFAM; SSF53822; SSF53822; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..339
+FT                   /note="Autoinducer 2-binding protein LsrB"
+FT                   /id="PRO_0000351333"
+FT   STRAND          28..32
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          34..38
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           39..55
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          58..61
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           69..81
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          85..89
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          92..95
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           98..106
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          110..116
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           120..122
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          124..129
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           132..147
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          150..159
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           164..180
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          184..191
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           196..209
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          215..218
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           223..233
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          240..244
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           247..255
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          262..264
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           267..284
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          292..295
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   TURN            296..298
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          299..304
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           306..309
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          319..322
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   STRAND          327..329
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   TURN            331..333
+FT                   /evidence="ECO:0007829|PDB:3T95"
+FT   HELIX           334..336
+FT                   /evidence="ECO:0007829|PDB:3T95"
+SQ   SEQUENCE   339 AA;  36708 MW;  43DF0D22B6239FD3 CRC64;
+     MRTQRLKKLA LVCALGFACI TTAQAAERIA FIPKLVGVGF FTSGGKGAVD AGKALGVDVT
+     YDGPTEPSVS GQVQLINNFV NQGYNAIVVS AVSPDGLCPA LKRAMQRGVK ILTWDSDTKP
+     ECRSVYINQG TPNQLGSMLV DMAANQVKKE QAKVAFFYSS PTVTDQNQWV NEAKKKIQQE
+     HPGWEIVTTQ FGYNDATKSL QTAEGILKAY ADLDAIIAPD ANALPAAAQA AENLKRANVA
+     IVGFSTPNVM RPYVERGTVK EFGLWDVVNQ GKISVYVANE MLKKGDLNVG DKIDIPNIGV
+     VEVSPNRVQG YDYEAKGNGI VLLPQRVIFT KENISKYDF
+//

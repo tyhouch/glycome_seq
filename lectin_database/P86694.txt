@@ -1,0 +1,58 @@
+ID   SAMP_ANALU              Reviewed;          30 AA.
+AC   P86694;
+DT   10-AUG-2010, integrated into UniProtKB/Swiss-Prot.
+DT   10-AUG-2010, sequence version 1.
+DT   11-DEC-2019, entry version 14.
+DE   RecName: Full=Serum amyloid P-component {ECO:0000250|UniProtKB:P02743};
+DE   AltName: Full=Agarose-binding protein {ECO:0000303|PubMed:9639088};
+DE            Short=Al-ABP {ECO:0000303|PubMed:9639088};
+DE   Flags: Fragment;
+OS   Anarhichas lupus (Atlantic wolffish).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Neoteleostei; Acanthomorphata;
+OC   Eupercaria; Perciformes; Cottioidei; Zoarcales; Anarhichadidae; Anarhichas.
+OX   NCBI_TaxID=8204;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, COFACTOR, SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Serum {ECO:0000269|PubMed:9639088};
+RX   PubMed=9639088; DOI=10.1016/s0145-305x(97)00051-7;
+RA   Lund V., Olafsen J.A.;
+RT   "A comparative study of pentraxin-like proteins in different fish
+RT   species.";
+RL   Dev. Comp. Immunol. 22:185-194(1998).
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P02743, ECO:0000269|PubMed:9639088};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250|UniProtKB:P02743,
+CC       ECO:0000269|PubMed:9639088};
+CC   -!- SUBUNIT: Homopentamer. Discoid arrangement of 5 covalently bound
+CC       subunits. {ECO:0000250|UniProtKB:P02743, ECO:0000269|PubMed:9639088}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:9639088}.
+CC   -!- SIMILARITY: Belongs to the pentraxin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Amyloid; Calcium; Direct protein sequencing; Lectin; Metal-binding;
+KW   Secreted.
+FT   CHAIN           1..>30
+FT                   /note="Serum amyloid P-component"
+FT                   /id="PRO_0000397212"
+FT   DOMAIN          1..>30
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255"
+FT   UNSURE          27
+FT                   /evidence="ECO:0000269|PubMed:9639088"
+FT   UNSURE          28
+FT                   /evidence="ECO:0000269|PubMed:9639088"
+FT   UNSURE          29
+FT                   /evidence="ECO:0000269|PubMed:9639088"
+FT   NON_TER         30
+FT                   /evidence="ECO:0000303|PubMed:9639088"
+SQ   SEQUENCE   30 AA;  3312 MW;  D391EA812BC7F18E CRC64;
+     APQDLSGKMF IFPQETSTAN VXLTARSQDF
+//

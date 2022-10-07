@@ -1,0 +1,100 @@
+ID   LSRR_SALTY              Reviewed;         319 AA.
+AC   Q8ZKQ5;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   03-AUG-2022, entry version 110.
+DE   RecName: Full=Transcriptional regulator LsrR;
+GN   Name=lsrR; OrderedLocusNames=STM4073;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [2]
+RP   FUNCTION AS A TRANSCRIPTIONAL REGULATOR.
+RC   STRAIN=ATCC 14028 / SGSG 2980 / CDC 6516-60 / NCTC 12023;
+RX   PubMed=11722742; DOI=10.1046/j.1365-2958.2001.02669.x;
+RA   Taga M.E., Semmelhack J.L., Bassler B.L.;
+RT   "The LuxS-dependent autoinducer AI-2 controls the expression of an ABC
+RT   transporter that functions in AI-2 uptake in Salmonella typhimurium.";
+RL   Mol. Microbiol. 42:777-793(2001).
+RN   [3]
+RP   FUNCTION AS A TRANSCRIPTIONAL REGULATOR.
+RC   STRAIN=ATCC 14028 / SGSG 2980 / CDC 6516-60 / NCTC 12023;
+RX   PubMed=14622426; DOI=10.1046/j.1365-2958.2003.03781.x;
+RA   Taga M.E., Miller S.T., Bassler B.L.;
+RT   "Lsr-mediated transport and processing of AI-2 in Salmonella typhimurium.";
+RL   Mol. Microbiol. 50:1411-1427(2003).
+RN   [4]
+RP   BINDING TO PHOSPHO-AI-2.
+RX   PubMed=17274596; DOI=10.1021/cb600444h;
+RA   Xavier K.B., Miller S.T., Lu W., Kim J.H., Rabinowitz J., Pelczer I.,
+RA   Semmelhack M.F., Bassler B.L.;
+RT   "Phosphorylation and processing of the quorum-sensing molecule autoinducer-
+RT   2 in enteric bacteria.";
+RL   ACS Chem. Biol. 2:128-136(2007).
+CC   -!- FUNCTION: In the absence of autoinducer 2 (AI-2), represses
+CC       transcription of the lsrACDBFGE operon and its own transcription. In
+CC       the presence of AI-2, LsrR is inactivated by binding phospho-AI-2,
+CC       leading to the transcription of the lsr genes.
+CC       {ECO:0000269|PubMed:11722742, ECO:0000269|PubMed:14622426}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- INDUCTION: Autoregulated.
+CC   -!- SIMILARITY: Belongs to the SorC transcriptional regulatory family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006468; AAL22913.1; -; Genomic_DNA.
+DR   RefSeq; NP_462954.1; NC_003197.2.
+DR   RefSeq; WP_001283048.1; NC_003197.2.
+DR   AlphaFoldDB; Q8ZKQ5; -.
+DR   SMR; Q8ZKQ5; -.
+DR   STRING; 99287.STM4073; -.
+DR   PaxDb; Q8ZKQ5; -.
+DR   EnsemblBacteria; AAL22913; AAL22913; STM4073.
+DR   GeneID; 1255600; -.
+DR   KEGG; stm:STM4073; -.
+DR   PATRIC; fig|99287.12.peg.4293; -.
+DR   HOGENOM; CLU_054506_0_1_6; -.
+DR   OMA; CTVVQLT; -.
+DR   PhylomeDB; Q8ZKQ5; -.
+DR   BioCyc; SENT99287:STM4073-MON; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR007324; Sugar-bd_dom_put.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   Pfam; PF04198; Sugar-bind; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; DNA-binding; Reference proteome; Repressor; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..319
+FT                   /note="Transcriptional regulator LsrR"
+FT                   /id="PRO_0000351623"
+FT   DNA_BIND        32..51
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   319 AA;  34450 MW;  B5001F3660EA0AD5 CRC64;
+     MSDNTLVSDY GMCEEEQVAR IAWFYYHDGL TQSEISERLG LTRLKVSRLL EKGHQSGIIR
+     VQINSRFEGC LEYENALRNH FALQNIRVLP ALPDADIGLR LGIGAAHMLM ESLRPQQLLA
+     VGFGEATMTT LKRLSGFISA QQIRLVTLSG GVGPYMTGIG QLDAACSVSI MPAPLRASSQ
+     EIACTLRNEN SVRDVMLTAQ AADAAIVGIG AINQKDQASI LKSGYITQGE QLMIGRKGAV
+     GDILGYFFDA HGEIIPDIKI HNELIGLKLN SLSTIPTVIG VAGGEQKAEA IIAAMRGNYI
+     NALVTDQKTA GKIIQIIEK
+//

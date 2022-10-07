@@ -1,0 +1,144 @@
+ID   H0ZAB5_TAEGU            Unreviewed;       616 AA.
+AC   H0ZAB5;
+DT   22-FEB-2012, integrated into UniProtKB/TrEMBL.
+DT   17-JUN-2020, sequence version 2.
+DT   03-AUG-2022, entry version 68.
+DE   RecName: Full=Polypeptide N-acetylgalactosaminyltransferase {ECO:0000256|ARBA:ARBA00012644, ECO:0000256|RuleBase:RU361242};
+DE            EC=2.4.1.- {ECO:0000256|RuleBase:RU361242};
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase {ECO:0000256|RuleBase:RU361242};
+GN   Name=GALNT3 {ECO:0000313|Ensembl:ENSTGUP00000007519};
+OS   Taeniopygia guttata (Zebra finch) (Poephila guttata).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Passeriformes; Passeroidea; Estrildidae;
+OC   Estrildinae; Taeniopygia.
+OX   NCBI_TaxID=59729 {ECO:0000313|Ensembl:ENSTGUP00000007519, ECO:0000313|Proteomes:UP000007754};
+RN   [1] {ECO:0000313|Ensembl:ENSTGUP00000007519, ECO:0000313|Proteomes:UP000007754}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=20360741; DOI=10.1038/nature08819;
+RA   Warren W.C., Clayton D.F., Ellegren H., Arnold A.P., Hillier L.W.,
+RA   Kunstner A., Searle S., White S., Vilella A.J., Fairley S., Heger A.,
+RA   Kong L., Ponting C.P., Jarvis E.D., Mello C.V., Minx P., Lovell P.,
+RA   Velho T.A., Ferris M., Balakrishnan C.N., Sinha S., Blatti C., London S.E.,
+RA   Li Y., Lin Y.C., George J., Sweedler J., Southey B., Gunaratne P.,
+RA   Watson M., Nam K., Backstrom N., Smeds L., Nabholz B., Itoh Y., Whitney O.,
+RA   Pfenning A.R., Howard J., Volker M., Skinner B.M., Griffin D.K., Ye L.,
+RA   McLaren W.M., Flicek P., Quesada V., Velasco G., Lopez-Otin C.,
+RA   Puente X.S., Olender T., Lancet D., Smit A.F., Hubley R., Konkel M.K.,
+RA   Walker J.A., Batzer M.A., Gu W., Pollock D.D., Chen L., Cheng Z.,
+RA   Eichler E.E., Stapley J., Slate J., Ekblom R., Birkhead T., Burke T.,
+RA   Burt D., Scharff C., Adam I., Richard H., Sultan M., Soldatov A.,
+RA   Lehrach H., Edwards S.V., Yang S.P., Li X., Graves T., Fulton L.,
+RA   Nelson J., Chinwalla A., Hou S., Mardis E.R., Wilson R.K.;
+RT   "The genome of a songbird.";
+RL   Nature 464:757-762(2010).
+RN   [2] {ECO:0000313|Ensembl:ENSTGUP00000007519}
+RP   IDENTIFICATION.
+RG   Ensembl;
+RL   Submitted (JAN-2012) to UniProtKB.
+RN   [3] {ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24}
+RP   X-RAY CRYSTALLOGRAPHY (1.96 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=31932717; DOI=10.1038/s41589-019-0444-x;
+RA   de Las Rivas M., Paul Daniel E.J., Narimatsu Y., Companon I., Kato K.,
+RA   Hermosilla P., Thureau A., Ceballos-Laita L., Coelho H., Bernado P.,
+RA   Marcelo F., Hansen L., Maeda R., Lostao A., Corzana F., Clausen H.,
+RA   Gerken T.A., Hurtado-Guerrero R.;
+RT   "Molecular basis for fibroblast growth factor 23 O-glycosylation by GalNAc-
+RT   T3.";
+RL   Nat. Chem. Biol. 16:351-360(2020).
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936,
+CC         ECO:0000256|RuleBase:RU361242};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000256|ARBA:ARBA00004922, ECO:0000256|RuleBase:RU361242}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000256|RuleBase:RU361242}; Single-pass type II membrane protein
+CC       {ECO:0000256|RuleBase:RU361242}. Membrane
+CC       {ECO:0000256|ARBA:ARBA00004606}; Single-pass type II membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004606}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000256|ARBA:ARBA00005680,
+CC       ECO:0000256|RuleBase:RU361242}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 6S22; X-ray; 1.96 A; A=1-616.
+DR   PDB; 6S24; X-ray; 2.12 A; A=1-616.
+DR   PDBsum; 6S22; -.
+DR   PDBsum; 6S24; -.
+DR   SMR; H0ZAB5; -.
+DR   STRING; 59729.ENSTGUP00000024214; -.
+DR   UniLectin; H0ZAB5; -.
+DR   Ensembl; ENSTGUT00000007596; ENSTGUP00000007519; ENSTGUG00000007273.
+DR   GeneTree; ENSGT00940000156609; -.
+DR   HOGENOM; CLU_013477_0_3_1; -.
+DR   InParanoid; H0ZAB5; -.
+DR   OrthoDB; 606683at2759; -.
+DR   TreeFam; TF313267; -.
+DR   UniPathway; UPA00378; -.
+DR   Proteomes; UP000007754; Chromosome 7.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006486; P:protein glycosylation; IEA:UniProtKB-UniPathway.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157,
+KW   ECO:0000256|RuleBase:RU361242};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676,
+KW   ECO:0000256|RuleBase:RU361242};
+KW   Golgi apparatus {ECO:0000256|ARBA:ARBA00023034,
+KW   ECO:0000256|RuleBase:RU361242};
+KW   Lectin {ECO:0000256|ARBA:ARBA00022734, ECO:0000256|RuleBase:RU361242};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|RuleBase:RU361242};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007754};
+KW   Signal-anchor {ECO:0000256|ARBA:ARBA00022968};
+KW   Transferase {ECO:0000256|RuleBase:RU361242};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989}.
+FT   DOMAIN          512..616
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   DISULFID        95..179
+FT                   /evidence="ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24"
+FT   DISULFID        171..408
+FT                   /evidence="ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24"
+FT   DISULFID        399..480
+FT                   /evidence="ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24"
+FT   DISULFID        515..533
+FT                   /evidence="ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24"
+FT   DISULFID        544..557
+FT                   /evidence="ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24"
+FT   DISULFID        588..601
+FT                   /evidence="ECO:0007829|PDB:6S22, ECO:0007829|PDB:6S24"
+SQ   SEQUENCE   616 AA;  70338 MW;  ED8016209B4822F3 CRC64;
+     MALKKAPKLF KTFFHWKLWK FSIIVFVFLV FLFLLQREVG VQDFKDEAGI EPVVGKKSHV
+     LGLVLNAMNN IKGAKPKMQI KAPIRQTKVP GERHCLPGHY TPVELKPFLD RPLQDPNAPG
+     ASGKAFKTIN LNSEEQKEKQ AGEEKHCFNA FASDRISLHR DLGPDTRPPE CIEQKFKRCP
+     PLPTTSIIIV FHNEAWSTLL RTVHSVMYTS PAILLKEIIL VDDASVDEYL HDKLDEYVKQ
+     FQIVKVVRQK ERKGLITARL LGASVATGET LTFLDAHCEC FYGWLEPLLA RIAENPVAVV
+     SPDIASIDLN TFEFSKPSPY GHSHNRGNFD WSLSFGWESL PKHENKRRKD ETYPIRTPTF
+     AGGLFSISKD YFEYIGSYDE EMEIWGGENI EMSFRVWQCG GQLEIMPCSV VGHVFRSKSP
+     HTFPKGTQVI TRNQVRLAEV WMDEYKEIFY RRNTEAAKIV KQKTFGDISK RIDLRQRLQC
+     KNFTWYLSNV YPEAYVPDLN PLFSGYLKNI GNRMCLDVGE NNHGGKPLIM YSCHGLGGNQ
+     KELCLHASKG PVQLRECTYK GQKTFAVGEE QWLHQKDQTL YNEALHMCLT GNGEHPSLAS
+     CNPSDPFQKW IFGQND
+//

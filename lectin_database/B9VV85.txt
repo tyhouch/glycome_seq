@@ -1,0 +1,110 @@
+ID   B9VV85_9PICO            Unreviewed;       784 AA.
+AC   B9VV85;
+DT   24-MAR-2009, integrated into UniProtKB/TrEMBL.
+DT   24-MAR-2009, sequence version 1.
+DT   25-MAY-2022, entry version 69.
+DE   RecName: Full=Genome polyprotein {ECO:0000256|ARBA:ARBA00020107};
+DE   Flags: Fragment;
+OS   Equine rhinitis A virus.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Picornaviridae; Aphthovirus.
+OX   NCBI_TaxID=47000 {ECO:0000313|EMBL:ACM45076.1};
+RN   [1] {ECO:0000313|EMBL:ACM45076.1, ECO:0007829|PDB:2WFF}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NM-11/67 {ECO:0000313|EMBL:ACM45076.1};
+RX   PubMed=19816570; DOI=10.1371/journal.ppat.1000620;
+RA   Tuthill T.J., Harlos K., Walter T.S., Knowles N.J., Groppelli E.,
+RA   Rowlands D.J., Stuart D.I., Fry E.E.;
+RT   "Equine rhinitis A virus and its low pH empty particle: clues towards an
+RT   aphthovirus entry mechanism?";
+RL   PLoS Pathog. 5:e1000620-E1000620(2009).
+RN   [2] {ECO:0007829|PDB:2XBO}
+RP   X-RAY CRYSTALLOGRAPHY (4.00 ANGSTROMS) OF 537-784; 81-310; 311-536 AND
+RP   1-80.
+RX   PubMed=20427563; DOI=10.1099/vir.0.020420-0;
+RA   Fry E.E., Tuthill T.J., Harlos K., Walter T.S., Rowlands D.J., Stuart D.I.;
+RT   "Crystal structure of equine rhinitis A virus in complex with its sialic
+RT   acid receptor.";
+RL   J. Gen. Virol. 91:1971-1977(2010).
+RN   [3] {ECO:0007829|PDB:4CTF, ECO:0007829|PDB:4CTG}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (17.00 ANGSTROMS) OF 537-782.
+RX   PubMed=24648455; DOI=10.1128/JVI.01979-13;
+RA   Bakker S.E., Groppelli E., Pearson A.R., Stockley P.G., Rowlands D.J.,
+RA   Ranson N.A.;
+RT   "Limits of structural plasticity in a picornavirus capsid revealed by a
+RT   massively expanded equine rhinitis A virus particle.";
+RL   J. Virol. 88:6093-6099(2014).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}. Host
+CC       cytoplasm {ECO:0000256|ARBA:ARBA00004192}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FJ607143; ACM45076.1; -; Genomic_RNA.
+DR   PDB; 2WFF; X-ray; 4.00 A; 1=537-782, 2=81-310, 3=311-536, 4=1-80.
+DR   PDB; 2WS9; X-ray; 3.00 A; 1=537-782, 2=81-310, 4=1-80.
+DR   PDB; 2XBO; X-ray; 4.00 A; 1=537-784, 2=81-310, 3=311-536, 4=1-80.
+DR   PDB; 4CTF; EM; 17.00 A; F0/F1/F2/F3/F4/F5/F6/F7/F8/F9/FA/FB/FC/FD/FE/FF/FG/FH/FI/FJ/FK/FL/FM/FN/FO/FP/FQ/FR/FS/FT=1-80.
+DR   PDB; 4CTG; EM; 17.00 A; A0/A1/A2/A3/A4/A5/A6/A7/A8/A9/AA/AB/AC/AD/AE/AF/AG/AH/AI/AJ/AK/AL/AM/AN/AO/AP/AQ/AR/AS/AT=537-782.
+DR   PDBsum; 2WFF; -.
+DR   PDBsum; 2WS9; -.
+DR   PDBsum; 2XBO; -.
+DR   PDBsum; 4CTF; -.
+DR   PDBsum; 4CTG; -.
+DR   SMR; B9VV85; -.
+DR   UniLectin; B9VV85; -.
+DR   EvolutionaryTrace; B9VV85; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030430; C:host cell cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019030; C:icosahedral viral capsid; IEA:InterPro.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   CDD; cd00205; rhv_like; 3.
+DR   Gene3D; 2.60.120.20; -; 3.
+DR   Gene3D; 4.10.90.10; -; 1.
+DR   InterPro; IPR015031; Capsid_VP4_Picornavir.
+DR   InterPro; IPR037080; Capsid_VP4_sf_Picornavirus.
+DR   InterPro; IPR001676; Picornavirus_capsid.
+DR   InterPro; IPR033703; Rhv-like.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00073; Rhv; 2.
+DR   Pfam; PF08935; VP4_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2WFF, ECO:0007829|PDB:2WS9};
+KW   Host-virus interaction {ECO:0000256|ARBA:ARBA00022581};
+KW   Viral attachment to host cell {ECO:0000256|ARBA:ARBA00022804};
+KW   Virion {ECO:0000256|ARBA:ARBA00022804};
+KW   Virus entry into host cell {ECO:0000256|ARBA:ARBA00023296}.
+FT   DOMAIN          1..74
+FT                   /note="VP4_2"
+FT                   /evidence="ECO:0000259|Pfam:PF08935"
+FT   DOMAIN          138..281
+FT                   /note="Rhv"
+FT                   /evidence="ECO:0000259|Pfam:PF00073"
+FT   DOMAIN          365..493
+FT                   /note="Rhv"
+FT                   /evidence="ECO:0000259|Pfam:PF00073"
+FT   REGION          37..63
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:ACM45076.1"
+FT   NON_TER         784
+FT                   /evidence="ECO:0000313|EMBL:ACM45076.1"
+SQ   SEQUENCE   784 AA;  85086 MW;  CA4898518C5B727F CRC64;
+     GAGTSTPTTG NQNMSGNSGS IVQNFYMQQY QNSIDADLGD NVISPEGQGS NTSSSTSSSQ
+     SSGLGGWFSS LLNLGTKLLA DKKTEETTNI EDRIETTVVG ATIINSQGSV GTTYCYSKPD
+     GRPPSTVSDP VTRLGPTLSR HYTFKVGEWP HSQSHGHAWI CPLPGDKLKK MGSFHEVVKA
+     HHLVKNGWDV VVQVNASFAH SGALCVAAVP EYEHTHEKAL KWSELEEPAY TYQQLSVFPH
+     QLLNLRTNSS VHLVMPYIGP GPTTNLTLHN PWTIVILILS ELTGPGQTVP VTMSVAPIDA
+     MVNGPLPNPE APIRVVSVPE SDSFMSSVPD NSTPLYPKVV VPPRQVPGRF TNFIDVAKQT
+     YSFCSISGRP YFEVTNTSGD EPLFQMDVSL SAAELHGTYV ASLSSFFAQY RGSLNFNFIF
+     TGAAATKAKF LVAFVPPHSA APKTRDEAMA CIHAVWDVGL NSAFSFNVPY SSPADFMAVY
+     SAEATVVNVS GWLQVYALTA LTSTDIAVNS KGRVLVAVSA GPDFSLRHPV DLPDKQVTNV
+     GEDGEPGETE PRHALSPVDM HVHTDVSFLL DRFFDVETLE LSNLTGSPAT HVLDPFGSTA
+     QLAWARLLNT CTYFFSDLEL SIQFKFTTTP SSVGEGFVWV KWFPVGAPTK TTDAWQLEGG
+     GNSVRIQQLA VAGMSPTVVF KIAGSRSQAC GFSVPYTSMW RVVPVFYNGW GAPTKEKATY
+     NWLPGAHFGS ILLTSDAHDK GGCYLRYRFP RANMYCPRPI PPAFTRPADK TRHKFPTNIN
+     KQCT
+//

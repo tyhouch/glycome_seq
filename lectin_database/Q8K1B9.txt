@@ -1,0 +1,212 @@
+ID   GLT18_MOUSE             Reviewed;         622 AA.
+AC   Q8K1B9;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   03-AUG-2022, entry version 131.
+DE   RecName: Full=Polypeptide N-acetylgalactosaminyltransferase 18;
+DE            EC=2.4.1.41;
+DE   AltName: Full=Polypeptide GalNAc transferase 18;
+DE            Short=GalNAc-T18;
+DE   AltName: Full=Polypeptide GalNAc transferase-like protein 4;
+DE            Short=GalNAc-T-like protein 4;
+DE            Short=pp-GaNTase-like protein 4;
+DE   AltName: Full=Polypeptide N-acetylgalactosaminyltransferase-like protein 4;
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase-like protein 4;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase-like protein 4;
+GN   Name=Galnt18; Synonyms=Galntl4;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=FVB/N; TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the initial reaction in O-linked oligosaccharide
+CC       biosynthesis, the transfer of an N-acetyl-D-galactosamine (GalNAc)
+CC       residue from UDP-GalNAc to a serine or threonine residue on the protein
+CC       receptor. {ECO:0000250|UniProtKB:Q6P9A2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC         Evidence={ECO:0000250|UniProtKB:Q6P9A2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23957;
+CC         Evidence={ECO:0000250|UniProtKB:Q6P9A2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC         Evidence={ECO:0000250|UniProtKB:Q6P9A2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52425;
+CC         Evidence={ECO:0000250|UniProtKB:Q6P9A2};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:Q6P9A2}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000250}; Single-
+CC       pass type II membrane protein {ECO:0000250}.
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds to GalNAc and contributes
+CC       to the glycopeptide specificity. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - GTase; Note=Putative
+CC       polypeptide N-acetylgalactosaminyltransferase-like protein 4;
+CC       URL="http://www.functionalglycomics.org/glycomics/search/jsp/landing.jsp?query=gt_mou_526";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC024988; AAH24988.1; -; mRNA.
+DR   CCDS; CCDS21751.1; -.
+DR   RefSeq; NP_776100.2; NM_173739.3.
+DR   AlphaFoldDB; Q8K1B9; -.
+DR   SMR; Q8K1B9; -.
+DR   STRING; 10090.ENSMUSP00000043636; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GT27; Glycosyltransferase Family 27.
+DR   GlyGen; Q8K1B9; 3 sites.
+DR   PhosphoSitePlus; Q8K1B9; -.
+DR   MaxQB; Q8K1B9; -.
+DR   PaxDb; Q8K1B9; -.
+DR   PRIDE; Q8K1B9; -.
+DR   ProteomicsDB; 271234; -.
+DR   Antibodypedia; 2327; 50 antibodies from 18 providers.
+DR   DNASU; 233733; -.
+DR   Ensembl; ENSMUST00000049430; ENSMUSP00000043636; ENSMUSG00000038296.
+DR   GeneID; 233733; -.
+DR   KEGG; mmu:233733; -.
+DR   UCSC; uc009jgc.1; mouse.
+DR   CTD; 374378; -.
+DR   MGI; MGI:2446239; Galnt18.
+DR   VEuPathDB; HostDB:ENSMUSG00000038296; -.
+DR   eggNOG; KOG3736; Eukaryota.
+DR   GeneTree; ENSGT00940000155456; -.
+DR   HOGENOM; CLU_013477_4_0_1; -.
+DR   InParanoid; Q8K1B9; -.
+DR   OMA; NQHIHET; -.
+DR   OrthoDB; 273006at2759; -.
+DR   PhylomeDB; Q8K1B9; -.
+DR   TreeFam; TF313267; -.
+DR   Reactome; R-MMU-913709; O-linked glycosylation of mucins.
+DR   UniPathway; UPA00378; -.
+DR   BioGRID-ORCS; 233733; 4 hits in 58 CRISPR screens.
+DR   ChiTaRS; Galnt18; mouse.
+DR   PRO; PR:Q8K1B9; -.
+DR   Proteomes; UP000000589; Chromosome 7.
+DR   RNAct; Q8K1B9; protein.
+DR   Bgee; ENSMUSG00000038296; Expressed in right lung and 209 other tissues.
+DR   ExpressionAtlas; Q8K1B9; baseline and differential.
+DR   Genevisible; Q8K1B9; MM.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; ISO:MGI.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; ISO:MGI.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus; Lectin;
+KW   Manganese; Membrane; Metal-binding; Reference proteome; Signal-anchor;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..622
+FT                   /note="Polypeptide N-acetylgalactosaminyltransferase 18"
+FT                   /id="PRO_0000059142"
+FT   TOPO_DOM        1..12
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        13..35
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        36..622
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          484..614
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          153..267
+FT                   /note="Catalytic subdomain A"
+FT   REGION          324..400
+FT                   /note="Catalytic subdomain B"
+FT   BINDING         194
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q10471"
+FT   BINDING         251
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:Q10471"
+FT   BINDING         253
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:Q10471"
+FT   BINDING         397
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:Q10471"
+FT   BINDING         400
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q10471"
+FT   BINDING         405
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q10471"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        195
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        320
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        144..392
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        383..462
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        497..513
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        545..558
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        586..606
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   622 AA;  71096 MW;  4FE9493795E3A561 CRC64;
+     MVCTRKTKTL VSTCVILSGM TNIICLLYVG WVTNYIASVY VRGQEPVPDK KLEEDKGDTL
+     KIIERLDHLE NVIKQHIQEA PAKPEEAEAE PFTDSSLFAH WGQELSPEGR RVALKQFQYY
+     GYNAYLSDRL PLDRPLPDLR PSGCRNLSFP DSLPEVSIVF IFVNEALSVL LRSIHSAMER
+     TPSHLLKEII LVDDNSSNEE LKEKLTEYVD KVNGQKPGFI KVVRHSKQEG LIRSRVSGWR
+     AATAPVVALF DAHVEFNVGW AEPVLTRIKE NRKRIISPSF DNIKYDNFEI EEYPLAAQGF
+     DWELWCRYLN PPKAWWKLEN STAPIRSPAL IGCFIVDRQY FEEIGLLDEG MEVYGGENVE
+     LGIRVSEISH TGLSSAPMMV WQCGGSVEVL PCSRIAHIER AHKPYTEDLT AHVRRNALRV
+     AEVWMDEFKS HVYMAWNIPQ EDSGIDIGDI TARKALRKQL QCKTFRWYLV SVYPEMRMYS
+     DIIAYGVLQN SLKTDLCLDQ GPDTENVPIV YICHGMTPQN VYYTSSQQIH VGILSPTVDD
+     DDNRCLVDVN SRPRLIECSY AKAKRMKLHW QFSQGGSIQN RKSKRCLELQ ENSDMEFGFQ
+     LVLQKCSGQH WTITNVLRSL VS
+//

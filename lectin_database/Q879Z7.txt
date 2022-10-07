@@ -1,0 +1,92 @@
+ID   OPGD_XYLFT              Reviewed;         536 AA.
+AC   Q879Z7;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   25-MAY-2022, entry version 92.
+DE   RecName: Full=Glucans biosynthesis protein D;
+DE   Flags: Precursor;
+GN   Name=opgD; OrderedLocusNames=PD_2042;
+OS   Xylella fastidiosa (strain Temecula1 / ATCC 700964).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xylella.
+OX   NCBI_TaxID=183190;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Temecula1 / ATCC 700964;
+RX   PubMed=12533478; DOI=10.1128/jb.185.3.1018-1026.2003;
+RA   Van Sluys M.A., de Oliveira M.C., Monteiro-Vitorello C.B., Miyaki C.Y.,
+RA   Furlan L.R., Camargo L.E.A., da Silva A.C.R., Moon D.H., Takita M.A.,
+RA   Lemos E.G.M., Machado M.A., Ferro M.I.T., da Silva F.R., Goldman M.H.S.,
+RA   Goldman G.H., Lemos M.V.F., El-Dorry H., Tsai S.M., Carrer H.,
+RA   Carraro D.M., de Oliveira R.C., Nunes L.R., Siqueira W.J., Coutinho L.L.,
+RA   Kimura E.T., Ferro E.S., Harakava R., Kuramae E.E., Marino C.L.,
+RA   Giglioti E., Abreu I.L., Alves L.M.C., do Amaral A.M., Baia G.S.,
+RA   Blanco S.R., Brito M.S., Cannavan F.S., Celestino A.V., da Cunha A.F.,
+RA   Fenille R.C., Ferro J.A., Formighieri E.F., Kishi L.T., Leoni S.G.,
+RA   Oliveira A.R., Rosa V.E. Jr., Sassaki F.T., Sena J.A.D., de Souza A.A.,
+RA   Truffi D., Tsukumo F., Yanai G.M., Zaros L.G., Civerolo E.L.,
+RA   Simpson A.J.G., Almeida N.F. Jr., Setubal J.C., Kitajima J.P.;
+RT   "Comparative analyses of the complete genome sequences of Pierce's disease
+RT   and citrus variegated chlorosis strains of Xylella fastidiosa.";
+RL   J. Bacteriol. 185:1018-1026(2003).
+CC   -!- FUNCTION: Probably involved in the control of the structural glucose
+CC       backbone of osmoregulated periplasmic glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009442; AAO29866.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q879Z7; -.
+DR   SMR; Q879Z7; -.
+DR   EnsemblBacteria; AAO29866; AAO29866; PD_2042.
+DR   KEGG; xft:PD_2042; -.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; DVQFFHV; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000002516; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01068; MdoD_OpgD; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023724; Glucan_biosyn_MdoD.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR006311; TAT_signal.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..30
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..536
+FT                   /note="Glucans biosynthesis protein D"
+FT                   /id="PRO_0000020219"
+SQ   SEQUENCE   536 AA;  61593 MW;  FE770362EE937E81 CRC64;
+     MLMYRRDFLK SVTAAWVAFG LPNPLGGAFA TNRVIPLRRL GQSQRFDYEW LKERARALAA
+     TPYHSRKRVL PTPLERLSWD QYQSIRYRQD HALWADSDAH FQVKFFHLGL YFHSPVRMYE
+     VVDGMAQELA YDPAAFDYGS SGLNGKGLPK DLGFAGFRLN TRKDIDRDFA AFLGASYFRA
+     VGQEGQYGQS ARGLAVNTGS SGPEEFPDFI AYYLEQPTAD ADTVVMYGLL DSPSIAGAYR
+     FSITHADVLR MDIDSALYPR ETIERLGIAP CTSMYQVGEN DRRMGWDWRP EIHDTDGLFL
+     WTGNGEWIWR PLCNPLHLRF NMFLDNNPRG FGLLQRDRDF DHYQDDGVFY EKRPCLWVEP
+     KHGWGEGSVQ LVEIPTFDET FDNIVAFWNP RNKPHPGQEL LFGYRLYWGA FPPVSSSLAY
+     CVATRTGLGG VVGQKRKYFS WRFAVDFVGG KLAALARVHD VSVEPVLHMT RGRPEIVSAR
+     PLHEIRGYRV MFDVVPLEDS AQQIDIRLYL RDTNGEPLTE TWLYQWVPPI LEERKY
+//

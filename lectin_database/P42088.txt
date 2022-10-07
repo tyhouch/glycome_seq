@@ -1,0 +1,171 @@
+ID   LEC_LEUMI               Reviewed;         240 AA.
+AC   P42088;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   03-AUG-2022, entry version 93.
+DE   RecName: Full=Lectin;
+DE   AltName: Full=Agglutinin;
+DE   AltName: Full=BMA;
+DE   Contains:
+DE     RecName: Full=Lectin beta chain;
+DE   Contains:
+DE     RecName: Full=Lectin alpha chain;
+OS   Leucomphalos mildbraedii (Bowringia mildbraedii).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   Baphieae; Leucomphalos.
+OX   NCBI_TaxID=28956;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND VARIANTS SER-143; ARG-158; ARG-177; VAL-187 AND
+RP   ALA-203.
+RC   TISSUE=Seed;
+RX   PubMed=8373823; DOI=10.1016/0167-4838(93)90060-5;
+RA   Chawla D., Animashaun T., Hughes R.C., Harris A., Aitken A.;
+RT   "Bowringia mildbraedii agglutinin: polypeptide composition, primary
+RT   structure and homologies with other legume lectins.";
+RL   Biochim. Biophys. Acta 1202:38-46(1993).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=2925660; DOI=10.1016/s0021-9258(18)83793-0;
+RA   Animashaun T., Hughes R.C.;
+RT   "Bowringia milbraedii agglutinin. Specificity of binding to early
+RT   processing intermediates of asparagine-linked oligosaccharide and use as a
+RT   marker of endoplasmic reticulum glycoproteins.";
+RL   J. Biol. Chem. 264:4657-4663(1989).
+CC   -!- FUNCTION: Binds preferentially to oligosaccharides bearing the sequence
+CC       Man-alpha-1->2 Man-alpha-1->6 Man-alpha-1->6Man found in early steps of
+CC       glycoprotein processing in the endoplasmic reticulum. It binds weakly
+CC       to highly processed oligosaccharide structures.
+CC       {ECO:0000269|PubMed:2925660}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha and two beta chains; disulfide
+CC       bond linked.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 2FMD; X-ray; 1.90 A; A=1-240.
+DR   PDBsum; 2FMD; -.
+DR   AlphaFoldDB; P42088; -.
+DR   SMR; P42088; -.
+DR   UniLectin; P42088; -.
+DR   EvolutionaryTrace; P42088; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Disulfide bond; Lectin;
+KW   Manganese; Metal-binding.
+FT   CHAIN           1..116
+FT                   /note="Lectin beta chain"
+FT                   /id="PRO_0000017581"
+FT   CHAIN           117..240
+FT                   /note="Lectin alpha chain"
+FT                   /id="PRO_0000017582"
+FT   BINDING         127
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         129
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         129
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         131
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         133
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         138
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         138
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         143
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        5
+FT                   /note="Interchain"
+FT   VARIANT         143
+FT                   /note="H -> S"
+FT                   /evidence="ECO:0000269|PubMed:8373823"
+FT   VARIANT         158
+FT                   /note="K -> R"
+FT                   /evidence="ECO:0000269|PubMed:8373823"
+FT   VARIANT         177
+FT                   /note="S -> R"
+FT                   /evidence="ECO:0000269|PubMed:8373823"
+FT   VARIANT         187
+FT                   /note="P -> V"
+FT                   /evidence="ECO:0000269|PubMed:8373823"
+FT   VARIANT         203
+FT                   /note="V -> A"
+FT                   /evidence="ECO:0000269|PubMed:8373823"
+FT   UNSURE          86..90
+FT   UNSURE          116
+FT   STRAND          3..10
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          18..22
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          48..55
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          65..76
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          79..83
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          87..93
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   HELIX           105..107
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   TURN            108..110
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          123..129
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   HELIX           134..136
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          143..152
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          154..158
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          166..174
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   TURN            175..178
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          179..185
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          192..197
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   HELIX           200..202
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          206..215
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+FT   STRAND          224..235
+FT                   /evidence="ECO:0007829|PDB:2FMD"
+SQ   SEQUENCE   240 AA;  25424 MW;  5A9F7FAF3A09B060 CRC64;
+     ANSVCFTFTD FESGQQDLIF QGDASVGSNK ALQLTKVDSK GNPQGGSVGR ALYTAPIRLW
+     QSSSLVASFE TTFTFSISQG SSTPAAALTF FIASPDTKIP SGSGGRLLGL FGSSNNAGSD
+     NGVVAVEFDT YPNTDIGDPN YRHIGIDVNS IRSKAASKWD WQNGKTATAH ISYNSASKRL
+     SVVSSYPNSS PVVVSFDVEL NNVGPPDVRV GFSATTGQYT QTNNILAWSF RSSLMGYQAN
+//

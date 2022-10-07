@@ -1,0 +1,125 @@
+ID   LEG8_RAT                Reviewed;         316 AA.
+AC   Q62665;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 118.
+DE   RecName: Full=Galectin-8;
+DE            Short=Gal-8;
+DE   AltName: Full=30 kDa S-type lectin;
+DE   AltName: Full=RL-30;
+GN   Name=Lgals8;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=7852431; DOI=10.1074/jbc.270.7.3447;
+RA   Hadari Y.R., Paz K., Dekel R., Mestrovic T., Accili D., Zick Y.;
+RT   "Galectin-8. A new rat lectin, related to galectin-4.";
+RL   J. Biol. Chem. 270:3447-3453(1995).
+CC   -!- FUNCTION: Beta-galactoside-binding lectin that acts as a sensor of
+CC       membrane damage caused by infection and restricts the proliferation of
+CC       infecting pathogens by targeting them for autophagy. Detects membrane
+CC       rupture by binding beta-galactoside ligands located on the lumenal side
+CC       of the endosome membrane; these ligands becoming exposed to the
+CC       cytoplasm following rupture. Restricts infection by initiating
+CC       autophagy via interaction with CALCOCO2/NDP52. Required to restrict
+CC       infection of bacterial invasion such as S.typhimurium. Also required to
+CC       restrict infection of Picornaviridae viruses. Has a marked preference
+CC       for 3'-O-sialylated and 3'-O-sulfated glycans.
+CC       {ECO:0000250|UniProtKB:O00214}.
+CC   -!- SUBUNIT: Homodimer. Interacts with CALCOCO2/NDP52. Interacts with PDPN;
+CC       the interaction is glycosylation-dependent; may participate in
+CC       connection of the lymphatic endothelium to the surrounding
+CC       extracellular matrix. {ECO:0000250|UniProtKB:O00214}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle
+CC       {ECO:0000250|UniProtKB:O00214}. Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:O00214}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver, kidney, cardiac muscle, lung,
+CC       and brain.
+CC   -!- DEVELOPMENTAL STAGE: Very low levels in whole embryos, high levels in
+CC       adult tissues.
+CC   -!- DOMAIN: Contains two homologous but distinct carbohydrate-binding
+CC       domains.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U09824; AAA66359.1; -; mRNA.
+DR   PIR; A55975; A55975.
+DR   AlphaFoldDB; Q62665; -.
+DR   SMR; Q62665; -.
+DR   STRING; 10116.ENSRNOP00000040412; -.
+DR   PaxDb; Q62665; -.
+DR   UCSC; RGD:621272; rat.
+DR   RGD; 621272; Lgals8.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   InParanoid; Q62665; -.
+DR   PhylomeDB; Q62665; -.
+DR   PRO; PR:Q62665; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IEA:UniProtKB-KW.
+DR   GO; GO:0005829; C:cytosol; ISS:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:GO_Central.
+DR   GO; GO:0005178; F:integrin binding; ISO:RGD.
+DR   GO; GO:0098586; P:cellular response to virus; ISS:UniProtKB.
+DR   GO; GO:1904977; P:lymphatic endothelial cell migration; ISS:UniProtKB.
+DR   GO; GO:0002317; P:plasma cell differentiation; ISO:RGD.
+DR   GO; GO:0031295; P:T cell costimulation; ISO:RGD.
+DR   GO; GO:0098792; P:xenophagy; ISS:GO_Central.
+DR   CDD; cd00070; GLECT; 2.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR030638; Galectin_8.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   PANTHER; PTHR11346:SF22; PTHR11346:SF22; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 2.
+DR   SMART; SM00908; Gal-bind_lectin; 2.
+DR   SMART; SM00276; GLECT; 2.
+DR   SUPFAM; SSF49899; SSF49899; 2.
+DR   PROSITE; PS51304; GALECTIN; 2.
+PE   2: Evidence at transcript level;
+KW   Autophagy; Cytoplasm; Cytoplasmic vesicle; Lectin; Reference proteome;
+KW   Repeat.
+FT   CHAIN           1..316
+FT                   /note="Galectin-8"
+FT                   /id="PRO_0000076945"
+FT   DOMAIN          18..151
+FT                   /note="Galectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   DOMAIN          186..316
+FT                   /note="Galectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         68
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:O00214"
+FT   BINDING         78
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:O00214"
+FT   BINDING         88
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:O00214"
+FT   BINDING         248..254
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   SITE            58
+FT                   /note="Critical for binding to sialylated and sulfated
+FT                   oligosaccharides"
+FT                   /evidence="ECO:0000250|UniProtKB:O00214"
+SQ   SEQUENCE   316 AA;  36038 MW;  C04B766CFE913D59 CRC64;
+     MLSLSNLQNI IYNPTIPYVS TITEQLKPGS LIVIRGHVPK DSERFQVDFQ HGNSLKPRAD
+     VAFHFNPRFK RSNCIVCNTL TNEKWGWEEI THDMPFRKEK SFEIVIMVLK NKFHVAVNGK
+     HILLYAHRIN PEKIDTLGIF GKVNIHSIGF RFSSDLQSME TSTLGLTQIS KENIQKSGKL
+     HLSLPFEARL NASMGPGRTV VVKGEVNTNA TSFNVDLVAG RSRDIALHLN PRLNVKAFVR
+     NSFLQDAWGE EERNITCFPF SSGMYFEMII YCDVREFKVA VNGVHSLEYK HRFKDLSSID
+     TLAVDGDIRL LDVRSW
+//

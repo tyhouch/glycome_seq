@@ -1,0 +1,159 @@
+ID   SAMP_RAT                Reviewed;         228 AA.
+AC   P23680; Q63539;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 2.
+DT   03-AUG-2022, entry version 151.
+DE   RecName: Full=Serum amyloid P-component;
+DE            Short=SAP;
+DE   Flags: Precursor;
+GN   Name=Apcs; Synonyms=Ptx2, Sap;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2400402; DOI=10.1042/bj2700553;
+RA   Dowton S.B., McGrew S.D.;
+RT   "Rat serum amyloid P component. Analysis of cDNA sequence and gene
+RT   expression.";
+RL   Biochem. J. 270:553-556(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RA   Rassouli M., Murray R.K.;
+RL   Submitted (JUN-1993) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homopentamer. Pentraxin (or pentaxin) have a discoid
+CC       arrangement of 5 non-covalently bound subunits.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DISEASE: Note=SAP is a precursor of amyloid component P which is found
+CC       in basement membrane and associated with amyloid deposits.
+CC   -!- SIMILARITY: Belongs to the pentraxin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X55761; CAA39287.1; -; mRNA.
+DR   EMBL; M83177; AAB59696.1; -; mRNA.
+DR   PIR; S11473; S11473.
+DR   RefSeq; NP_058866.2; NM_017170.2.
+DR   AlphaFoldDB; P23680; -.
+DR   SMR; P23680; -.
+DR   BioGRID; 247998; 1.
+DR   IntAct; P23680; 1.
+DR   MINT; P23680; -.
+DR   STRING; 10116.ENSRNOP00000012092; -.
+DR   GlyGen; P23680; 1 site.
+DR   PaxDb; P23680; -.
+DR   PRIDE; P23680; -.
+DR   GeneID; 29339; -.
+DR   KEGG; rno:29339; -.
+DR   UCSC; RGD:68322; rat.
+DR   CTD; 325; -.
+DR   RGD; 68322; Apcs.
+DR   eggNOG; ENOG502S201; Eukaryota.
+DR   HOGENOM; CLU_032051_2_0_1; -.
+DR   InParanoid; P23680; -.
+DR   OrthoDB; 1088298at2759; -.
+DR   PhylomeDB; P23680; -.
+DR   TreeFam; TF330208; -.
+DR   PRO; PR:P23680; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   Genevisible; P23680; RN.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001849; F:complement component C1q complex binding; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0046790; F:virion binding; ISO:RGD.
+DR   GO; GO:0045087; P:innate immune response; ISO:RGD.
+DR   GO; GO:0044869; P:negative regulation by host of viral exo-alpha-sialidase activity; ISO:RGD.
+DR   GO; GO:0044871; P:negative regulation by host of viral glycoprotein metabolic process; ISO:RGD.
+DR   GO; GO:1903016; P:negative regulation of exo-alpha-sialidase activity; ISO:RGD.
+DR   GO; GO:1903019; P:negative regulation of glycoprotein metabolic process; ISO:RGD.
+DR   GO; GO:0045656; P:negative regulation of monocyte differentiation; ISO:RGD.
+DR   GO; GO:0046597; P:negative regulation of viral entry into host cell; ISO:RGD.
+DR   GO; GO:0048525; P:negative regulation of viral process; ISO:RGD.
+DR   GO; GO:0065003; P:protein-containing complex assembly; IPI:RGD.
+DR   CDD; cd00152; PTX; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR030476; Pentaxin_CS.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00289; PTX_1; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   2: Evidence at transcript level;
+KW   Amyloid; Calcium; Disulfide bond; Glycoprotein; Lectin; Metal-binding;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..20
+FT   CHAIN           21..228
+FT                   /note="Serum amyloid P-component"
+FT                   /id="PRO_0000023544"
+FT   DOMAIN          25..224
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         78
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         79
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         156
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         156
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         157
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         158
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         158
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         168
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        52
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305"
+FT   DISULFID        56..115
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CONFLICT        86
+FT                   /note="D -> A (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        88..89
+FT                   /note="VG -> LE (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   228 AA;  26176 MW;  E2314CBDA1103996 CRC64;
+     MDKLLLWMSV FTSLLSEAFA QTDLNQKVFV FPRESETDYV KLIPWLEKPL QNFTLCFRAY
+     SDLSRSQSLF SYSVNSRDNE LLIYKDKVGQ YSLYIGNSKV TVRGLEEFPS PIHFCTSWES
+     SSGIAEFWVN GKPWVKKGLQ KGYTVKSSPS IVLGQEQDTY GGGFDKTQSF VGEIADLYMW
+     DSVLTPENIH SVDRGFPPNP NILDWRALNY EINGYVVIKP RMWDNKSS
+//

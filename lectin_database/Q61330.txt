@@ -1,0 +1,339 @@
+ID   CNTN2_MOUSE             Reviewed;        1040 AA.
+AC   Q61330; Q6NZJ4; Q7TSJ5;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   31-AUG-2004, sequence version 2.
+DT   03-AUG-2022, entry version 181.
+DE   RecName: Full=Contactin-2;
+DE   AltName: Full=Axonal glycoprotein TAG-1;
+DE   AltName: Full=Axonin-1;
+DE   AltName: Full=Transient axonal glycoprotein 1;
+DE            Short=TAX-1;
+DE   Flags: Precursor;
+GN   Name=Cntn2; Synonyms=Tax;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 664-881.
+RC   STRAIN=ICR; TISSUE=Embryo;
+RA   Wolfer D., Giger R.J.;
+RL   Submitted (SEP-1994) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=16452087; DOI=10.1074/mcp.t500041-mcp200;
+RA   Trinidad J.C., Specht C.G., Thalhammer A., Schoepfer R., Burlingame A.L.;
+RT   "Comprehensive identification of phosphorylation sites in postsynaptic
+RT   density preparations.";
+RL   Mol. Cell. Proteomics 5:914-922(2006).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: In conjunction with another transmembrane protein, CNTNAP2,
+CC       contributes to the organization of axonal domains at nodes of Ranvier
+CC       by maintaining voltage-gated potassium channels at the juxtaparanodal
+CC       region. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Lipid-anchor, GPI-
+CC       anchor {ECO:0000250}. Note=Attached to the neuronal membrane by a GPI-
+CC       anchor and is also released from neurons. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. Contactin
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC066106; AAH66106.1; -; mRNA.
+DR   EMBL; BC053033; AAH53033.1; -; mRNA.
+DR   EMBL; X81365; CAA57130.1; -; mRNA.
+DR   CCDS; CCDS15288.1; -.
+DR   RefSeq; NP_796103.2; NM_177129.5.
+DR   RefSeq; XP_006529425.1; XM_006529362.2.
+DR   PDB; 5E7L; X-ray; 2.00 A; A=609-911.
+DR   PDBsum; 5E7L; -.
+DR   AlphaFoldDB; Q61330; -.
+DR   SMR; Q61330; -.
+DR   BioGRID; 203974; 11.
+DR   IntAct; Q61330; 2.
+DR   MINT; Q61330; -.
+DR   STRING; 10090.ENSMUSP00000083707; -.
+DR   GlyConnect; 2225; 6 N-Linked glycans (4 sites).
+DR   GlyGen; Q61330; 11 sites, 5 N-linked glycans (4 sites).
+DR   iPTMnet; Q61330; -.
+DR   PhosphoSitePlus; Q61330; -.
+DR   MaxQB; Q61330; -.
+DR   PaxDb; Q61330; -.
+DR   PeptideAtlas; Q61330; -.
+DR   PRIDE; Q61330; -.
+DR   ProteomicsDB; 283585; -.
+DR   Antibodypedia; 670; 273 antibodies from 32 providers.
+DR   Ensembl; ENSMUST00000086521; ENSMUSP00000083707; ENSMUSG00000053024.
+DR   GeneID; 21367; -.
+DR   KEGG; mmu:21367; -.
+DR   UCSC; uc007cpa.1; mouse.
+DR   CTD; 6900; -.
+DR   MGI; MGI:104518; Cntn2.
+DR   VEuPathDB; HostDB:ENSMUSG00000053024; -.
+DR   eggNOG; KOG3513; Eukaryota.
+DR   GeneTree; ENSGT00940000159193; -.
+DR   HOGENOM; CLU_005756_0_0_1; -.
+DR   InParanoid; Q61330; -.
+DR   OMA; RIIIQAQ; -.
+DR   OrthoDB; 655902at2759; -.
+DR   PhylomeDB; Q61330; -.
+DR   TreeFam; TF351103; -.
+DR   BioGRID-ORCS; 21367; 2 hits in 73 CRISPR screens.
+DR   ChiTaRS; Cntn2; mouse.
+DR   PRO; PR:Q61330; -.
+DR   Proteomes; UP000000589; Chromosome 1.
+DR   RNAct; Q61330; protein.
+DR   Bgee; ENSMUSG00000053024; Expressed in cortical plate and 109 other tissues.
+DR   ExpressionAtlas; Q61330; baseline and differential.
+DR   Genevisible; Q61330; MM.
+DR   GO; GO:0099025; C:anchored component of postsynaptic membrane; ISO:MGI.
+DR   GO; GO:0030424; C:axon; IDA:MGI.
+DR   GO; GO:0043194; C:axon initial segment; IDA:MGI.
+DR   GO; GO:0009986; C:cell surface; IDA:MGI.
+DR   GO; GO:0044224; C:juxtaparanode region of axon; IDA:BHF-UCL.
+DR   GO; GO:0043209; C:myelin sheath; IDA:BHF-UCL.
+DR   GO; GO:0043005; C:neuron projection; IDA:MGI.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:MGI.
+DR   GO; GO:0033268; C:node of Ranvier; IDA:BHF-UCL.
+DR   GO; GO:0005886; C:plasma membrane; ISO:MGI.
+DR   GO; GO:0045202; C:synapse; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:MGI.
+DR   GO; GO:0098632; F:cell-cell adhesion mediator activity; IBA:GO_Central.
+DR   GO; GO:0043621; F:protein self-association; IPI:MGI.
+DR   GO; GO:0007628; P:adult walking behavior; IMP:MGI.
+DR   GO; GO:0007411; P:axon guidance; IMP:MGI.
+DR   GO; GO:0007413; P:axonal fasciculation; IMP:MGI.
+DR   GO; GO:0007409; P:axonogenesis; ISO:MGI.
+DR   GO; GO:0007420; P:brain development; IBA:GO_Central.
+DR   GO; GO:0098609; P:cell-cell adhesion; IBA:GO_Central.
+DR   GO; GO:0007160; P:cell-matrix adhesion; ISO:MGI.
+DR   GO; GO:0022010; P:central nervous system myelination; IMP:MGI.
+DR   GO; GO:0021853; P:cerebral cortex GABAergic interneuron migration; IMP:MGI.
+DR   GO; GO:0045163; P:clustering of voltage-gated potassium channels; IMP:BHF-UCL.
+DR   GO; GO:0051649; P:establishment of localization in cell; IDA:MGI.
+DR   GO; GO:0071206; P:establishment of protein localization to juxtaparanode region of axon; IDA:BHF-UCL.
+DR   GO; GO:0045444; P:fat cell differentiation; IMP:MGI.
+DR   GO; GO:0001973; P:G protein-coupled adenosine receptor signaling pathway; IMP:MGI.
+DR   GO; GO:0007612; P:learning; IMP:MGI.
+DR   GO; GO:0000226; P:microtubule cytoskeleton organization; IMP:MGI.
+DR   GO; GO:0045665; P:negative regulation of neuron differentiation; IGI:MGI.
+DR   GO; GO:0030182; P:neuron differentiation; IGI:MGI.
+DR   GO; GO:0001764; P:neuron migration; IMP:MGI.
+DR   GO; GO:0031175; P:neuron projection development; IGI:MGI.
+DR   GO; GO:0060168; P:positive regulation of adenosine receptor signaling pathway; IMP:MGI.
+DR   GO; GO:0010954; P:positive regulation of protein processing; IDA:MGI.
+DR   GO; GO:0097090; P:presynaptic membrane organization; ISS:UniProtKB.
+DR   GO; GO:0071205; P:protein localization to juxtaparanode region of axon; IMP:BHF-UCL.
+DR   GO; GO:0016485; P:protein processing; IDA:MGI.
+DR   GO; GO:0031623; P:receptor internalization; IDA:MGI.
+DR   GO; GO:0002023; P:reduction of food intake in response to dietary excess; IMP:MGI.
+DR   GO; GO:0048710; P:regulation of astrocyte differentiation; IMP:MGI.
+DR   GO; GO:0031133; P:regulation of axon diameter; IMP:MGI.
+DR   GO; GO:0010769; P:regulation of cell morphogenesis involved in differentiation; IMP:MGI.
+DR   GO; GO:0048168; P:regulation of neuronal synaptic plasticity; IMP:MGI.
+DR   GO; GO:0002021; P:response to dietary excess; IMP:MGI.
+DR   CDD; cd00063; FN3; 3.
+DR   Gene3D; 2.60.40.10; -; 10.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   Pfam; PF00041; fn3; 3.
+DR   Pfam; PF07679; I-set; 2.
+DR   SMART; SM00060; FN3; 4.
+DR   SMART; SM00409; IG; 6.
+DR   SMART; SM00408; IGc2; 5.
+DR   SUPFAM; SSF48726; SSF48726; 6.
+DR   SUPFAM; SSF49265; SSF49265; 2.
+DR   PROSITE; PS50853; FN3; 4.
+DR   PROSITE; PS50835; IG_LIKE; 6.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell adhesion; Cell membrane; Disulfide bond; Glycoprotein;
+KW   GPI-anchor; Immunoglobulin domain; Lipoprotein; Membrane;
+KW   Reference proteome; Repeat; Signal.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           31..1014
+FT                   /note="Contactin-2"
+FT                   /id="PRO_0000014697"
+FT   PROPEP          1015..1040
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000014698"
+FT   DOMAIN          39..130
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          135..224
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          241..324
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          329..413
+FT                   /note="Ig-like C2-type 4"
+FT   DOMAIN          419..506
+FT                   /note="Ig-like C2-type 5"
+FT   DOMAIN          511..605
+FT                   /note="Ig-like C2-type 6"
+FT   DOMAIN          612..710
+FT                   /note="Fibronectin type-III 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          715..812
+FT                   /note="Fibronectin type-III 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          817..913
+FT                   /note="Fibronectin type-III 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          917..1008
+FT                   /note="Fibronectin type-III 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   REGION          897..922
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           796..798
+FT                   /note="Cell attachment site"
+FT                   /evidence="ECO:0000255"
+FT   LIPID           1014
+FT                   /note="GPI-anchor amidated serine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        78
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        200
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        206
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        463
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        479
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        500
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        527
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        777
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        832
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        920
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        942
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        63..113
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        157..209
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        263..308
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        350..397
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   CONFLICT        665
+FT                   /note="I -> M (in Ref. 2; CAA57130)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        861
+FT                   /note="A -> R (in Ref. 2; CAA57130)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        881
+FT                   /note="Y -> N (in Ref. 2; CAA57130)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          614..620
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          626..631
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          642..648
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   TURN            650..652
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          659..666
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          671..675
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          682..691
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          717..721
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          728..734
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   HELIX           738..741
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          743..745
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          747..754
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          761..766
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          772..776
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          785..794
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          797..801
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          805..808
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          821..825
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          827..829
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          831..835
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          848..855
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   HELIX           860..862
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          864..867
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          874..877
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          885..894
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+FT   STRAND          905..908
+FT                   /evidence="ECO:0007829|PDB:5E7L"
+SQ   SEQUENCE   1040 AA;  113217 MW;  012C05DDF7F97462 CRC64;
+     MGAPARKRAS LLLLLLATMA LVSSPGWSFS QGTPATFGPV FEEQPVGLLF PEESAEDQVT
+     LACRARASPP ATYRWKMNGT EMNLEPGSRH QLMGGNLVIM SPTKAQDAGV YQCLASNPVG
+     TVVSKEAVLR FGFLQEFSKE ERDPVKTHEG WGVMLPCNPP AHYPGLSYRW LLNEFPNFIP
+     TDGRHFVSQT TGNLYIARTN ASDLGNYSCL ATSHLDFSTK SVFSKFAQLN LAAEDPRLFA
+     PSIKARFPPE TYALVGQQVT LECFAFGNPV PRIKWRKVDG SLSPQWGTAE PTLQIPSVSF
+     EDEGTYECEA ENSKGRDTVQ GRIIVQAQPE WLKVISDTEA DIGSNLRWGC AAAGKPRPMV
+     RWLRNGEPLA SQNRVEVLAG DLRFSKLNLE DSGMYQCVAE NKHGTIYASA ELAVQALAPD
+     FRQNPVRRLI PAARGGEISI PCQPRAAPKA TILWSKGTEI LGNSTRVTVT LDGTLIIRNI
+     SRSDEGKYTC FAENFMGKAN STGILSVRDA TKITLAPSSA DINVGDNLTL QCHASHDPTM
+     DLTFTWTLDD FPVDFDKPGG HYRRASVKET IGDLTILNAQ LRHGGTYTCM AQTVVDGASK
+     EATVLVRGPP GPPGGVVVRD IGDTTVQLSW SRGFDNHSPI AKYTLQARTP PSGKWKQVRT
+     NPVNIEGNAE TAQVLGLMPW MDYEFRVSAS NILGTGEPSG PSSRIRTKEA VPSVAPSGLS
+     GGGGAPGELT INWTPMSREY QNGDGFGYLL SFRRQGSSSW QTARVPGADT QYFVYSNDSI
+     HPYTPFEVKI RSYNRRGDGP ESLTAIVYSA EEEPKVAPAK VWAKGSSSSE MNVSWEPVLQ
+     DMNGILLGYE IRYWKAGDKE AAADRVRTAG LDSSARVTGL YPNTKYHVTV RAYNRAGTGP
+     ASPSADAMTM KPPPRRPPGN ISWTFSSSSL SLKWDPVVPL RNESTVTGYK MLYQNDLQPT
+     PMLHLTSKNW IEIPVPEDIG HALVQIRTTG PGGDGIPAEV HIVRNGGTSM MVESSAVRPA
+     HPGPVFSCMV ILMLAGCQRL
+//

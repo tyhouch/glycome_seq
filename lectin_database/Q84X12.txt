@@ -1,0 +1,119 @@
+ID   JAL26_ARATH             Reviewed;         155 AA.
+AC   Q84X12; F4IS38; Q84X13;
+DT   01-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   03-AUG-2022, entry version 67.
+DE   RecName: Full=Probable jacalin-related lectin 26;
+GN   Name=JAL26; OrderedLocusNames=At2g43745; ORFNames=F18O19.33;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10617197; DOI=10.1038/45471;
+RA   Lin X., Kaul S., Rounsley S.D., Shea T.P., Benito M.-I., Town C.D.,
+RA   Fujii C.Y., Mason T.M., Bowman C.L., Barnstead M.E., Feldblyum T.V.,
+RA   Buell C.R., Ketchum K.A., Lee J.J., Ronning C.M., Koo H.L., Moffat K.S.,
+RA   Cronin L.A., Shen M., Pai G., Van Aken S., Umayam L., Tallon L.J.,
+RA   Gill J.E., Adams M.D., Carrera A.J., Creasy T.H., Goodman H.M.,
+RA   Somerville C.R., Copenhaver G.P., Preuss D., Nierman W.C., White O.,
+RA   Eisen J.A., Salzberg S.L., Fraser C.M., Venter J.C.;
+RT   "Sequence and analysis of chromosome 2 of the plant Arabidopsis thaliana.";
+RL   Nature 402:761-768(1999).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2).
+RC   STRAIN=cv. Columbia;
+RX   PubMed=12481096; DOI=10.1104/pp.010207;
+RA   Xiao Y.-L., Malik M., Whitelaw C.A., Town C.D.;
+RT   "Cloning and sequencing of cDNAs for hypothetical genes from chromosome 2
+RT   of Arabidopsis.";
+RL   Plant Physiol. 130:2118-2128(2002).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RA   Underwood B.A., Xiao Y.-L., Moskal W.A. Jr., Monaghan E.L., Wang W.,
+RA   Redman J.C., Wu H.C., Utterback T., Town C.D.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=18467340; DOI=10.1093/pcp/pcn075;
+RA   Nagano A.J., Fukao Y., Fujiwara M., Nishimura M., Hara-Nishimura I.;
+RT   "Antagonistic jacalin-related lectins regulate the size of ER body-type
+RT   beta-glucosidase complexes in Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 49:969-980(2008).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q84X12-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q84X12-2; Sequence=VSP_056718;
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC002333; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CP002685; AEC10316.2; -; Genomic_DNA.
+DR   EMBL; AY219095; AAO37182.1; -; mRNA.
+DR   EMBL; AY219096; AAO37183.1; -; mRNA.
+DR   EMBL; AY954836; AAX55162.1; -; Genomic_DNA.
+DR   RefSeq; NP_850401.5; NM_180070.4. [Q84X12-2]
+DR   AlphaFoldDB; Q84X12; -.
+DR   PaxDb; Q84X12; -.
+DR   PRIDE; Q84X12; -.
+DR   EnsemblPlants; AT2G43745.1; AT2G43745.1; AT2G43745. [Q84X12-2]
+DR   GeneID; 818977; -.
+DR   Gramene; AT2G43745.1; AT2G43745.1; AT2G43745. [Q84X12-2]
+DR   KEGG; ath:AT2G43745; -.
+DR   Araport; AT2G43745; -.
+DR   TAIR; locus:504956060; AT2G43745.
+DR   OrthoDB; 1336028at2759; -.
+DR   PRO; PR:Q84X12; -.
+DR   Proteomes; UP000006548; Chromosome 2.
+DR   ExpressionAtlas; Q84X12; baseline and differential.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Lectin; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..155
+FT                   /note="Probable jacalin-related lectin 26"
+FT                   /id="PRO_0000430390"
+FT   TRANSMEM        26..48
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        127..149
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          47..155
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   VAR_SEQ         127..155
+FT                   /note="VSFVSITIIYFCVCVRSGQVLFLMKFKRS -> LRLNQDEYVT (in
+FT                   isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12481096"
+FT                   /id="VSP_056718"
+SQ   SEQUENCE   155 AA;  17610 MW;  22105D664DD83217 CRC64;
+     MESINESYDD SSSFGQDSLL YNRPFAYLYL SFHLKLLYSV PASYIAMIRA GSVGKKSTCE
+     YTYWDDGVGE EVMGDDSWDY EGRKISHIYV AFDEVIMSIQ FGFLENGALV LSKQHGGIEE
+     GSNFRVVSFV SITIIYFCVC VRSGQVLFLM KFKRS
+//

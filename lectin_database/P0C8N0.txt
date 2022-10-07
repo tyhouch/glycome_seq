@@ -1,0 +1,64 @@
+ID   14KL_BRUAB              Reviewed;         147 AA.
+AC   P0C8N0; Q44701; Q578L8;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 1.
+DT   03-AUG-2022, entry version 51.
+DE   RecName: Full=Lectin-like protein BA14k;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=BruAb2_0497;
+OS   Brucella abortus biovar 1 (strain 9-941).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Hyphomicrobiales;
+OC   Brucellaceae; Brucella/Ochrobactrum group; Brucella.
+OX   NCBI_TaxID=262698;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=9-941;
+RX   PubMed=15805518; DOI=10.1128/jb.187.8.2715-2726.2005;
+RA   Halling S.M., Peterson-Burch B.D., Bricker B.J., Zuerner R.L., Qing Z.,
+RA   Li L.-L., Kapur V., Alt D.P., Olsen S.C.;
+RT   "Completion of the genome sequence of Brucella abortus and comparison to
+RT   the highly similar genomes of Brucella melitensis and Brucella suis.";
+RL   J. Bacteriol. 187:2715-2726(2005).
+CC   -!- FUNCTION: Has immunoglobulin-binding and hemagglutination properties,
+CC       and can bind to mannose. Essential for virulence. May be involved in
+CC       LPS biosynthesis or polysaccharide transport (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the BA14k family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017224; AAX75916.1; -; Genomic_DNA.
+DR   PIR; AG3578; AG3578.
+DR   RefSeq; WP_002965908.1; NC_006933.1.
+DR   AlphaFoldDB; P0C8N0; -.
+DR   EnsemblBacteria; AAX75916; AAX75916; BruAb2_0497.
+DR   GeneID; 45126066; -.
+DR   GeneID; 55592388; -.
+DR   KEGG; bmb:BruAb2_0497; -.
+DR   HOGENOM; CLU_095992_0_0_5; -.
+DR   OMA; HVAWCAN; -.
+DR   Proteomes; UP000000540; Chromosome II.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR012413; BA14K.
+DR   Pfam; PF07886; BA14K; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Lectin; Membrane; Signal; Transmembrane;
+KW   Transmembrane helix; Virulence.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..147
+FT                   /note="Lectin-like protein BA14k"
+FT                   /id="PRO_0000361297"
+FT   TRANSMEM        80..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   147 AA;  16823 MW;  7CEE6F1FB2BB38DB CRC64;
+     MNSFRKTCAG ALALIFGATS IVPTVAAPMN MDRPAINQNV IQARAHYRPQ NYNRGHRPGY
+     WHGHRGYRHY RHGYRRHNDG WWYPLAAFGA GAIIGGAISQ PRPVYRAPAG SPHVQWCYSR
+     YKSYRASDNT FQPYNGPRKQ CRSPYSR
+//

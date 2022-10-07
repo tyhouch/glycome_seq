@@ -1,0 +1,295 @@
+ID   AGAL_BACTN              Reviewed;         662 AA.
+AC   Q8A6L0;
+DT   25-JAN-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   03-AUG-2022, entry version 94.
+DE   RecName: Full=Retaining alpha-galactosidase;
+DE            EC=3.2.1.22;
+DE   AltName: Full=BtGH97b;
+DE   AltName: Full=Melibiase;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=BT_1871;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, AND KINETIC
+RP   PARAMETERS.
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=18848471; DOI=10.1016/j.chembiol.2008.09.005;
+RA   Gloster T.M., Turkenburg J.P., Potts J.R., Henrissat B., Davies G.J.;
+RT   "Divergence of catalytic mechanism within a glycosidase family provides
+RT   insight into evolution of carbohydrate metabolism by human gut flora.";
+RL   Chem. Biol. 15:1058-1067(2008).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS) OF 27-662 IN COMPLEX WITH CALCIUM,
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   ACTIVITY REGULATION, ACTIVE SITE, MUTAGENESIS OF ASP-415 AND GLU-470,
+RP   CATALYTIC MECHANISM, AND SUBUNIT.
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=19646996; DOI=10.1016/j.jmb.2009.07.068;
+RA   Okuyama M., Kitamura M., Hondoh H., Kang M.S., Mori H., Kimura A.,
+RA   Tanaka I., Yao M.;
+RT   "Catalytic mechanism of retaining alpha-galactosidase belonging to
+RT   glycoside hydrolase family 97.";
+RL   J. Mol. Biol. 392:1232-1241(2009).
+CC   -!- FUNCTION: Galactosidase that is able to hydrolyze the alpha-1,6
+CC       disaccharide melibiose and the synthetic p-nitrophenyl alpha-
+CC       galactoside substrate (pNP-Gal), with retention of the anomeric
+CC       configuration. Does not hydrolyze DNP-Glc or pNP-Glc.
+CC       {ECO:0000269|PubMed:18848471, ECO:0000269|PubMed:19646996}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-galactose
+CC         residues in alpha-D-galactosides, including galactose
+CC         oligosaccharides, galactomannans and galactolipids.; EC=3.2.1.22;
+CC         Evidence={ECO:0000269|PubMed:18848471, ECO:0000269|PubMed:19646996};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:19646996};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000269|PubMed:19646996};
+CC   -!- ACTIVITY REGULATION: Inhibited by EDTA in vitro.
+CC       {ECO:0000269|PubMed:19646996}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.31 mM for p-nitrophenyl alpha-galactoside (at pH 6.0 and 37
+CC         degrees Celsius) {ECO:0000269|PubMed:18848471,
+CC         ECO:0000269|PubMed:19646996};
+CC         KM=1.5 mM for melibiose (at pH 6.6 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:18848471, ECO:0000269|PubMed:19646996};
+CC         Note=kcat is 244 sec(-1) with p-nitrophenyl alpha-galactoside as
+CC         substrate (at pH 6.0 and 37 degrees Celsius).;
+CC       pH dependence:
+CC         Optimum pH is 8.0 with p-nitrophenyl alpha-galactoside as substrate.
+CC         {ECO:0000269|PubMed:19646996};
+CC   -!- SUBUNIT: Monomer. {ECO:0000305|PubMed:19646996}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 97 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO76978.1; -; Genomic_DNA.
+DR   RefSeq; NP_810784.1; NC_004663.1.
+DR   RefSeq; WP_011108029.1; NC_004663.1.
+DR   PDB; 3A24; X-ray; 2.30 A; A/B=27-662.
+DR   PDB; 5E1Q; X-ray; 1.94 A; A/B=27-662.
+DR   PDBsum; 3A24; -.
+DR   PDBsum; 5E1Q; -.
+DR   AlphaFoldDB; Q8A6L0; -.
+DR   SMR; Q8A6L0; -.
+DR   STRING; 226186.BT_1871; -.
+DR   CAZy; GH97; Glycoside Hydrolase Family 97.
+DR   PaxDb; Q8A6L0; -.
+DR   PRIDE; Q8A6L0; -.
+DR   DNASU; 1075689; -.
+DR   EnsemblBacteria; AAO76978; AAO76978; BT_1871.
+DR   GeneID; 60927858; -.
+DR   KEGG; bth:BT_1871; -.
+DR   PATRIC; fig|226186.12.peg.1923; -.
+DR   eggNOG; COG4948; Bacteria.
+DR   HOGENOM; CLU_011166_0_0_10; -.
+DR   OMA; WLWAHWR; -.
+DR   BRENDA; 3.2.1.22; 709.
+DR   SABIO-RK; Q8A6L0; -.
+DR   EvolutionaryTrace; Q8A6L0; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052692; F:raffinose alpha-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR029483; GH97_C.
+DR   InterPro; IPR019563; GH97_catalytic.
+DR   InterPro; IPR029486; GH97_N.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF14509; GH97_C; 1.
+DR   Pfam; PF14508; GH97_N; 1.
+DR   Pfam; PF10566; Glyco_hydro_97; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Carbohydrate metabolism; Glycosidase; Hydrolase;
+KW   Metal-binding; Reference proteome; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..662
+FT                   /note="Retaining alpha-galactosidase"
+FT                   /id="PRO_0000415272"
+FT   ACT_SITE        415
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000269|PubMed:19646996"
+FT   ACT_SITE        470
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000269|PubMed:19646996"
+FT   BINDING         174
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:19646996"
+FT   BINDING         464
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:19646996"
+FT   BINDING         470
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:19646996"
+FT   MUTAGEN         415
+FT                   /note="D->N,G: Loss of catalytic activity. The activity is
+FT                   restored by adding an external nucleophilic azide ion."
+FT                   /evidence="ECO:0000269|PubMed:19646996"
+FT   MUTAGEN         470
+FT                   /note="E->Q: Loss of catalytic activity. No change in
+FT                   substrate affinity."
+FT                   /evidence="ECO:0000269|PubMed:19646996"
+FT   STRAND          30..48
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          51..63
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   TURN            70..72
+FT                   /evidence="ECO:0007829|PDB:3A24"
+FT   STRAND          75..88
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   TURN            90..93
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          94..108
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   TURN            109..111
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          112..119
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          122..129
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          135..142
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          151..154
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           165..169
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          178..181
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           182..184
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          193..200
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          203..210
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          213..215
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          218..233
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          237..244
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           245..247
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          249..255
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          259..262
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          270..278
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           279..284
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           287..290
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          306..309
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   TURN            312..316
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          326..328
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           329..341
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          346..349
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           370..378
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   TURN            379..381
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          383..389
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           390..394
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           397..407
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          411..415
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           422..437
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          441..444
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           453..456
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          460..463
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           469..473
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           481..487
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           488..490
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           492..494
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          505..508
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          517..519
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          522..524
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           526..535
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          539..543
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           547..551
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   HELIX           554..562
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          568..576
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   TURN            577..579
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          580..587
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          590..597
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          602..607
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          616..623
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   TURN            625..629
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          634..641
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          646..651
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+FT   STRAND          656..662
+FT                   /evidence="ECO:0007829|PDB:5E1Q"
+SQ   SEQUENCE   662 AA;  74850 MW;  18A74C4AA328CE80 CRC64;
+     MKKLTFLLLC VLCTLSLQAQ KQFTLASPDG NLKTTITIGD RLTYDITCNG RQILTPSPIS
+     MTLDNGTVWG ENAKLSGTSR KSVDEMIPSP FYRASELRNH YNGLTLRFKK DWNVEFRAYN
+     DGIAYRFVNQ GKKPFRVVTE VSDYCFPSDM TASVPYVKSG KDGDYNSQFF NSFENTYTTD
+     KLSKLNKQRL MFLPLVVDAG DGVKVCITES DLENYPGLYL SASEGANRLS SMHAPYPKRT
+     VQGGHNQLQM LVKEHEDYIA KVDKPRNFPW RIAVVTTTDK DLAATNLSYL LGAPSRMSDL
+     SWIKPGKVAW DWWNDWNLDG VDFVTGVNNP TYKAYIDFAS ANGIEYVILD EGWAVNLQAD
+     LMQVVKEIDL KELVDYAASK NVGIILWAGY HAFERDMENV CRHYAEMGVK GFKVDFMDRD
+     DQEMTAFNYR AAEMCAKYKL ILDLHGTHKP AGLNRTYPNV LNFEGVNGLE QMKWSSPSVD
+     QVKYDVMIPF IRQVSGPMDY TQGAMRNASK GNYYPCYSEP MSQGTRCRQL ALYVVFESPF
+     NMLCDTPSNY MREPESTAFI AEIPTVWDES IVLDGKMGEY IVTARRKGDV WYVGGITDWS
+     ARDIEVDCSF LGDKSYHATL FKDGVNAHRA GRDYKCESFP IKKDGKLKVH LAPGGGFALK
+     IK
+//

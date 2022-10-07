@@ -1,0 +1,250 @@
+ID   LPLT2_CAEEL             Reviewed;        1338 AA.
+AC   G5ECX0; B2MZA8;
+DT   01-MAY-2013, integrated into UniProtKB/Swiss-Prot.
+DT   14-DEC-2011, sequence version 1.
+DT   03-AUG-2022, entry version 71.
+DE   RecName: Full=Latrophilin-like protein LAT-2 {ECO:0000312|EMBL:CCD61661.1, ECO:0000312|WormBase:B0286.2b};
+DE   Flags: Precursor;
+GN   Name=lat-2 {ECO:0000312|EMBL:CCD61661.1,
+GN   ECO:0000312|WormBase:B0286.2a}; ORFNames=B0286.2;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1] {ECO:0000312|EMBL:AAQ84879.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM A).
+RA   Mastwal S.S., Yu D., Hedgecock E.M.;
+RT   "Molecular and evolutionary characterization of family B G-protein coupled
+RT   receptors in Caenorhabditis elegans.";
+RL   Submitted (SEP-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:CCD61661.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND ALTERNATIVE SPLICING.
+RC   STRAIN=Bristol N2 {ECO:0000312|EMBL:CCD61661.1};
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [3] {ECO:0000305}
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=17583712; DOI=10.1016/j.ijpara.2007.05.006;
+RA   Guest M., Bull K., Walker R.J., Amliwala K., O'Connor V., Harder A.,
+RA   Holden-Dye L., Hopper N.A.;
+RT   "The calcium-activated potassium channel, SLO-1, is required for the action
+RT   of the novel cyclo-octadepsipeptide anthelmintic, emodepside, in
+RT   Caenorhabditis elegans.";
+RL   Int. J. Parasitol. 37:1577-1588(2007).
+RN   [4] {ECO:0000305}
+RP   TISSUE SPECIFICITY.
+RX   PubMed=19853563; DOI=10.1016/j.devcel.2009.08.008;
+RA   Langenhan T., Promel S., Mestek L., Esmaeili B., Waller-Evans H.,
+RA   Hennig C., Kohara Y., Avery L., Vakonakis I., Schnabel R., Russ A.P.;
+RT   "Latrophilin signaling links anterior-posterior tissue polarity and
+RT   oriented cell divisions in the C. elegans embryo.";
+RL   Dev. Cell 17:494-504(2009).
+CC   -!- FUNCTION: May have a role in pharyngeal pumping during feeding.
+CC       {ECO:0000269|PubMed:17583712}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=a {ECO:0000269|PubMed:9851916, ECO:0000269|Ref.1};
+CC         IsoId=G5ECX0-1; Sequence=Displayed;
+CC       Name=b {ECO:0000269|PubMed:9851916};
+CC         IsoId=G5ECX0-2; Sequence=VSP_046486;
+CC   -!- TISSUE SPECIFICITY: Pharyngeal primordium.
+CC       {ECO:0000269|PubMed:19853563}.
+CC   -!- DISRUPTION PHENOTYPE: Reduced response to the inhibitory action of
+CC       emodepside in pharyngeal pumping. {ECO:0000269|PubMed:17583712}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 2 family. LN-TM7
+CC       subfamily. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY314772; AAQ84879.1; -; mRNA.
+DR   EMBL; FO080154; CCD61661.1; -; Genomic_DNA.
+DR   EMBL; FO080154; CCD61662.1; -; Genomic_DNA.
+DR   RefSeq; NP_001040724.1; NM_001047259.2. [G5ECX0-1]
+DR   RefSeq; NP_001040725.1; NM_001047260.1. [G5ECX0-2]
+DR   AlphaFoldDB; G5ECX0; -.
+DR   SMR; G5ECX0; -.
+DR   BioGRID; 39127; 1.
+DR   STRING; 6239.B0286.2a; -.
+DR   MEROPS; S01.A54; -.
+DR   TCDB; 9.A.14.6.5; the g-protein-coupled receptor (gpcr) family.
+DR   EPD; G5ECX0; -.
+DR   PaxDb; G5ECX0; -.
+DR   EnsemblMetazoa; B0286.2a.1; B0286.2a.1; WBGene00002252. [G5ECX0-1]
+DR   EnsemblMetazoa; B0286.2b.1; B0286.2b.1; WBGene00002252. [G5ECX0-2]
+DR   GeneID; 173771; -.
+DR   KEGG; cel:CELE_B0286.2; -.
+DR   CTD; 173771; -.
+DR   WormBase; B0286.2a; CE36968; WBGene00002252; lat-2. [G5ECX0-1]
+DR   WormBase; B0286.2b; CE39661; WBGene00002252; lat-2. [G5ECX0-2]
+DR   eggNOG; KOG4193; Eukaryota.
+DR   GeneTree; ENSGT00940000166745; -.
+DR   HOGENOM; CLU_270428_0_0_1; -.
+DR   InParanoid; G5ECX0; -.
+DR   OMA; MCNQASQ; -.
+DR   OrthoDB; 388923at2759; -.
+DR   PhylomeDB; G5ECX0; -.
+DR   Reactome; R-CEL-373080; Class B/2 (Secretin family receptors).
+DR   Reactome; R-CEL-6798695; Neutrophil degranulation.
+DR   PRO; PR:G5ECX0; -.
+DR   Proteomes; UP000001940; Chromosome II.
+DR   Bgee; WBGene00002252; Expressed in pharyngeal muscle cell (C elegans) and 3 other tissues.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004175; F:endopeptidase activity; IDA:WormBase.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; IBA:GO_Central.
+DR   GO; GO:0007189; P:adenylate cyclase-activating G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0007166; P:cell surface receptor signaling pathway; IEA:InterPro.
+DR   GO; GO:0097264; P:self proteolysis; IDA:WormBase.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   Gene3D; 2.60.220.50; -; 1.
+DR   Gene3D; 3.10.100.10; -; 2.
+DR   Gene3D; 4.10.1240.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR032471; GAIN_dom_N.
+DR   InterPro; IPR046338; GAIN_dom_sf.
+DR   InterPro; IPR017981; GPCR_2-like.
+DR   InterPro; IPR036445; GPCR_2_extracell_dom_sf.
+DR   InterPro; IPR001879; GPCR_2_extracellular_dom.
+DR   InterPro; IPR000832; GPCR_2_secretin-like.
+DR   InterPro; IPR000203; GPS.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   Pfam; PF00002; 7tm_2; 1.
+DR   Pfam; PF16489; GAIN; 1.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   Pfam; PF01825; GPS; 1.
+DR   PRINTS; PR00249; GPCRSECRETIN.
+DR   SMART; SM00034; CLECT; 2.
+DR   SMART; SM00303; GPS; 1.
+DR   SMART; SM00008; HormR; 1.
+DR   SUPFAM; SSF56436; SSF56436; 2.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS00022; EGF_1; 1.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS50026; EGF_3; 2.
+DR   PROSITE; PS50227; G_PROTEIN_RECEP_F2_3; 1.
+DR   PROSITE; PS50261; G_PROTEIN_RECEP_F2_4; 1.
+DR   PROSITE; PS50221; GPS; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cell membrane; Disulfide bond; EGF-like domain;
+KW   G-protein coupled receptor; Lectin; Membrane; Receptor; Reference proteome;
+KW   Repeat; Signal; Transducer; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..1338
+FT                   /note="Latrophilin-like protein LAT-2"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000422177"
+FT   TOPO_DOM        20..901
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        902..922
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        923..930
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        931..951
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        952..959
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        960..980
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        981..999
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1000..1020
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1021..1040
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1041..1061
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1062..1085
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1086..1106
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1107..1115
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1116..1136
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1137..1338
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          25..64
+FT                   /note="EGF-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          59..193
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          180..219
+FT                   /note="EGF-like 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          233..322
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   DOMAIN          838..885
+FT                   /note="GPS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00098"
+FT   REGION          1300..1338
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   DISULFID        29..40
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        52..63
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        80..192
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        167..184
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        209..218
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         1..879
+FT                   /note="Missing (in isoform b)"
+FT                   /evidence="ECO:0000303|PubMed:9851916"
+FT                   /id="VSP_046486"
+SQ   SEQUENCE   1338 AA;  147302 MW;  43B63CFE3FD47BC6 CRC64;
+     MAKQLKYPFL IFIISLAQCQ VSNQNVNLCQ SNICQNGGTC LVASSVPATA TCPKNSIYYM
+     GSCYVFDTTL RNWNDAALYC NNMNSATLPL VESAEDQAFF AGYLQAMIPS NPPADMRPPP
+     DGIWTAVRGV NNVTRASWVY YPGSFLVTDT FWAPQEPNIY VNYNDVCVAL QSDSFYREWT
+     TALCTILKYT VCKVAPTQIQ AKYVAQCSCP NGYGGQTCET QSTTNQQAST QRTCGSNDFQ
+     FSCPNDQTIT VDFASFGAQE SSMCNQASQS REQTCSNVNS LQTVINACQG LQSCEIRNLT
+     STFSNTPCPV PQEQYLETRM RCETAQQPSC LSGLIQFDSR CYSMTIETNE KKQRTMEDAQ
+     TYCSQSGGSI ITSPPDALLQ QIVQKVNAET KKTVNFWIGT PNNCQLLMVT GSSTSYSQCP
+     SSPSSTANVI CSTVPQSTAS VSARPTQSAP VDPVSQTMAR REVYTGVQPP SVPDSINKPR
+     YCKKEKKDGI TYEQTRACML HEQPCPDPQN VEGTVTRYCN CQTAKWETPD TTNCTHRWVA
+     EMETAIKDNQ PVEDISSTVN RQLKSTIERT LFGGDITGTV RLSNDMLSLA RNQFSVLNDR
+     NLRENKARNF TENLGGSGDQ LLSPVAATVW DQLSSTIRIQ HASKLMSVLE QSVLLLGDYM
+     TDQKLNLQYI NWAMEVERSE PEVQTFGAAA SPNVQDDMGM MRVMAAAPPA PQPETNTTIM
+     FPSLKLSPTI TLPSASLLSS LASPTPVAGG GPSILSSFQD DTPVGMASTP NLNRNPVKLG
+     YYAFAGFGQL LNNNNDHTLI NSQVIGASIQ NATQSVTLPV DHPVTFTFQH LTTKGVSNPR
+     CVYWDLMESK WSTLGCTLIA TSSNSSQCSC THLTSFAILM DISGQVGRLS GGLASALDVV
+     STIGCAISIV CLALSVCVFT FFRNLQNVRN SIHRNLCLCL LIAELVFVIG MDRTGNRTGC
+     GVVAILLHYF FLSSFCWMLL EGYQLYMMLI QVFEPNRTRI FLYYLFCYGT PAVVVAISAG
+     IKWEDYGTDS YCWIDTSTPT IWAFVAPIIV IIAANIIFLL IALKVVLSVQ SRDRTKWGRI
+     IGWLKGSATL LCLLGITWIF GFLTAVKGGT GTAFAWIFTI LNCTQGIFIF VLHVVLNEKV
+     RASIVRWLRT GICCLPETSS AAYNSRSFLS SRQRILNMIK VNGHSYPSTA STDDKEKQLT
+     PITKTTDWLS RLPNQDSVSI PESNFNNLNG TLENSNLNSA EIKEEDEIPE LRRRVTVDLN
+     PMIVSNNEIE RMSHASSDPR GSQIIEVTAV EKKAPVKRIK FPLGAKQSER GSQHRTKAKV
+     IAPPESPVSE SGSKDYRF
+//

@@ -1,0 +1,238 @@
+ID   PILRB_HUMAN             Reviewed;         227 AA.
+AC   Q9UKJ0; Q69YF9; Q9HBS0;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 153.
+DE   RecName: Full=Paired immunoglobulin-like type 2 receptor beta;
+DE   AltName: Full=Activating receptor PILR-beta;
+DE   AltName: Full=Cell surface receptor FDFACT;
+DE   Flags: Precursor;
+GN   Name=PILRB; Synonyms=FDFACT; ORFNames=PP1551;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   PubMed=10660620; DOI=10.1074/jbc.275.6.4467;
+RA   Mousseau D.D., Banville D., L'Abbe D., Bouchard P., Shen S.H.;
+RT   "PILRalpha, a novel immunoreceptor tyrosine-based inhibitory motif-bearing
+RT   protein, recruits SHP-1 upon tyrosine phosphorylation and is paired with
+RT   the truncated counterpart PILRbeta.";
+RL   J. Biol. Chem. 275:4467-4474(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RA   Bates E.E.;
+RL   Submitted (APR-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RX   PubMed=15498874; DOI=10.1073/pnas.0404089101;
+RA   Wan D., Gong Y., Qin W., Zhang P., Li J., Wei L., Zhou X., Li H., Qiu X.,
+RA   Zhong F., He L., Yu J., Yao G., Jiang H., Qian L., Yu Y., Shu H., Chen X.,
+RA   Xu H., Guo M., Pan Z., Chen Y., Ge C., Yang S., Gu J.;
+RT   "Large-scale cDNA transfection screening for genes related to cancer
+RT   development and progression.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:15724-15729(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2).
+RC   TISSUE=Testis;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H., Heubner D.,
+RA   Hoerlein A., Michel G., Wedler H., Koehrer K., Ottenwaelder B., Poustka A.,
+RA   Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Peripheral blood leukocyte;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Paired receptors consist of highly related activating and
+CC       inhibitory receptors and are widely involved in the regulation of the
+CC       immune system. PILRB is thought to act as a cellular signaling
+CC       activating receptor that associates with ITAM-bearing adapter molecules
+CC       on the cell surface.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q9UKJ0-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9UKJ0-2; Sequence=VSP_017504;
+CC       Name=3;
+CC         IsoId=Q9UKJ0-3; Sequence=VSP_017503, VSP_017504;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF161081; AAD52965.1; -; mRNA.
+DR   EMBL; AJ400845; CAC19193.1; -; mRNA.
+DR   EMBL; AJ400846; CAC19194.1; -; mRNA.
+DR   EMBL; AF217981; AAG17224.1; -; mRNA.
+DR   EMBL; AL834317; CAH10714.1; -; mRNA.
+DR   EMBL; AL834336; CAH10711.1; -; mRNA.
+DR   EMBL; BC050547; AAH50547.1; -; mRNA.
+DR   CCDS; CCDS43622.1; -. [Q9UKJ0-1]
+DR   RefSeq; NP_839956.1; NM_178238.3. [Q9UKJ0-1]
+DR   PDB; 4NFC; X-ray; 2.20 A; A/B=32-150.
+DR   PDB; 4NFD; X-ray; 1.71 A; A=32-150.
+DR   PDBsum; 4NFC; -.
+DR   PDBsum; 4NFD; -.
+DR   AlphaFoldDB; Q9UKJ0; -.
+DR   SMR; Q9UKJ0; -.
+DR   BioGRID; 119015; 45.
+DR   IntAct; Q9UKJ0; 4.
+DR   STRING; 9606.ENSP00000391748; -.
+DR   UniLectin; Q9UKJ0; -.
+DR   GlyGen; Q9UKJ0; 1 site.
+DR   iPTMnet; Q9UKJ0; -.
+DR   PhosphoSitePlus; Q9UKJ0; -.
+DR   BioMuta; PILRB; -.
+DR   DMDM; 74761987; -.
+DR   MassIVE; Q9UKJ0; -.
+DR   PaxDb; Q9UKJ0; -.
+DR   PeptideAtlas; Q9UKJ0; -.
+DR   PRIDE; Q9UKJ0; -.
+DR   Antibodypedia; 30676; 133 antibodies from 29 providers.
+DR   DNASU; 29990; -.
+DR   Ensembl; ENST00000448382.5; ENSP00000415775.1; ENSG00000121716.21. [Q9UKJ0-3]
+DR   Ensembl; ENST00000452089.5; ENSP00000391748.1; ENSG00000121716.21. [Q9UKJ0-1]
+DR   Ensembl; ENST00000609309.3; ENSP00000477365.1; ENSG00000121716.21. [Q9UKJ0-1]
+DR   GeneID; 29990; -.
+DR   KEGG; hsa:29990; -.
+DR   MANE-Select; ENST00000609309.3; ENSP00000477365.1; NM_178238.4; NP_839956.1.
+DR   UCSC; uc003uun.4; human. [Q9UKJ0-1]
+DR   CTD; 29990; -.
+DR   DisGeNET; 29990; -.
+DR   GeneCards; PILRB; -.
+DR   HGNC; HGNC:18297; PILRB.
+DR   HPA; ENSG00000121716; Low tissue specificity.
+DR   MIM; 605342; gene.
+DR   neXtProt; NX_Q9UKJ0; -.
+DR   OpenTargets; ENSG00000121716; -.
+DR   PharmGKB; PA134906700; -.
+DR   VEuPathDB; HostDB:ENSG00000121716; -.
+DR   eggNOG; ENOG502SUHR; Eukaryota.
+DR   GeneTree; ENSGT00940000163799; -.
+DR   HOGENOM; CLU_070832_0_0_1; -.
+DR   InParanoid; Q9UKJ0; -.
+DR   OMA; YSIDQPK; -.
+DR   OrthoDB; 1325787at2759; -.
+DR   PhylomeDB; Q9UKJ0; -.
+DR   TreeFam; TF338478; -.
+DR   PathwayCommons; Q9UKJ0; -.
+DR   Reactome; R-HSA-198933; Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell.
+DR   SignaLink; Q9UKJ0; -.
+DR   BioGRID-ORCS; 29990; 13 hits in 1070 CRISPR screens.
+DR   GeneWiki; PILRB; -.
+DR   GenomeRNAi; 29990; -.
+DR   Pharos; Q9UKJ0; Tbio.
+DR   PRO; PR:Q9UKJ0; -.
+DR   Proteomes; UP000005640; Chromosome 7.
+DR   RNAct; Q9UKJ0; protein.
+DR   Bgee; ENSG00000121716; Expressed in right testis and 91 other tissues.
+DR   ExpressionAtlas; Q9UKJ0; baseline and differential.
+DR   Genevisible; Q9UKJ0; HS.
+DR   GO; GO:0005887; C:integral component of plasma membrane; NAS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0042288; F:MHC class I protein binding; IBA:GO_Central.
+DR   GO; GO:0007171; P:activation of transmembrane receptor protein tyrosine kinase activity; NAS:UniProtKB.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kinase signaling pathway; TAS:UniProtKB.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   SMART; SM00409; IG; 1.
+DR   SUPFAM; SSF48726; SSF48726; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Glycoprotein; Immunoglobulin domain;
+KW   Membrane; Receptor; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..227
+FT                   /note="Paired immunoglobulin-like type 2 receptor beta"
+FT                   /id="PRO_0000226822"
+FT   TOPO_DOM        20..191
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        192..212
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        213..227
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          21..143
+FT                   /note="Ig-like V-type"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         1
+FT                   /note="M -> MGRASYGGSPVGHQSSSDHPRAKTCRSPVRDGPRTLCGVPTVALSLH
+FT                   FLREASSGSRTCGRRTSLCTSAKSSWTYRSGRLSWQSIKGTHLTITQALRQPLHRAPLL
+FT                   PGQLCWSPRPLEKNKAM (in isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:15498874"
+FT                   /id="VSP_017503"
+FT   VAR_SEQ         23..227
+FT                   /note="GSTGSGPSYLYGVTQPKHLSASMGGSVEIPFSFYYPWELAIVPNVRISWRRG
+FT                   HFHGQSFYSTRPPSIHKDYVNRLFLNWTEGQESGFLRISNLRKEDQSVYFCRVELDTRR
+FT                   SGRQQLQSIKGTKLTITQAVTTTTTWRPSSTTTIAGLRVTESKGHSESWHLSLDTAIRV
+FT                   ALAVAVLKTVILGLLCLLLLWWRRRKGSRAPSSDF -> LCEPALSELDRGSGERLPQD
+FT                   LKPAEGGPVCVFLPSRAGHPEIREAAVAVHQGDQTHHHPGCHNHHHLEAQQHNHHSRPQ
+FT                   GHRKQRALRIMAPKSGHCHQGCIGCRCAQNCHFGTAVPPPPVVEEKER (in
+FT                   isoform 2 and isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:15498874,
+FT                   ECO:0000303|PubMed:17974005"
+FT                   /id="VSP_017504"
+FT   VARIANT         63
+FT                   /note="I -> T (in dbSNP:rs11771799)"
+FT                   /id="VAR_059406"
+FT   VARIANT         66
+FT                   /note="N -> D (in dbSNP:rs11761306)"
+FT                   /id="VAR_059407"
+FT   CONFLICT        63..66
+FT                   /note="IVPN -> TAPD (in Ref. 2; CAC19193)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        212
+FT                   /note="Missing (in Ref. 2; CAC19193)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          33..36
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          39..43
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          49..56
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          68..75
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          79..83
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   TURN            84..87
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   HELIX           91..93
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          96..100
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          106..112
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   HELIX           117..119
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          121..134
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          136..140
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+FT   STRAND          145..149
+FT                   /evidence="ECO:0007829|PDB:4NFD"
+SQ   SEQUENCE   227 AA;  25542 MW;  7FF960C60AB7EF09 CRC64;
+     MGRPLLLPLL LLLQPPAFLQ PGGSTGSGPS YLYGVTQPKH LSASMGGSVE IPFSFYYPWE
+     LAIVPNVRIS WRRGHFHGQS FYSTRPPSIH KDYVNRLFLN WTEGQESGFL RISNLRKEDQ
+     SVYFCRVELD TRRSGRQQLQ SIKGTKLTIT QAVTTTTTWR PSSTTTIAGL RVTESKGHSE
+     SWHLSLDTAI RVALAVAVLK TVILGLLCLL LLWWRRRKGS RAPSSDF
+//

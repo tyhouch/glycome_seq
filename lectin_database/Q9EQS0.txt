@@ -1,0 +1,176 @@
+ID   TALDO_RAT               Reviewed;         337 AA.
+AC   Q9EQS0; Q6PCV1;
+DT   05-DEC-2001, integrated into UniProtKB/Swiss-Prot.
+DT   04-APR-2006, sequence version 2.
+DT   03-AUG-2022, entry version 147.
+DE   RecName: Full=Transaldolase {ECO:0000250|UniProtKB:P37837};
+DE            EC=2.2.1.2;
+GN   Name=Taldo1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Perl A., Bachand G.;
+RL   Submitted (MAY-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 72-81; 103-121; 125-130; 220-225; 246-265; 270-277 AND
+RP   315-321, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Hippocampus;
+RA   Lubec G., Chen W.-Q., Kang S.U.;
+RL   Submitted (JUL-2007) to UniProtKB.
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-237, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the rate-limiting step of the non-oxidative phase
+CC       in the pentose phosphate pathway. Catalyzes the reversible conversion
+CC       of sedheptulose-7-phosphate and D-glyceraldehyde 3-phosphate into
+CC       erythrose-4-phosphate and beta-D-fructose 6-phosphate.
+CC       {ECO:0000250|UniProtKB:Q93092}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate + D-sedoheptulose 7-phosphate =
+CC         beta-D-fructose 6-phosphate + D-erythrose 4-phosphate;
+CC         Xref=Rhea:RHEA:17053, ChEBI:CHEBI:16897, ChEBI:CHEBI:57483,
+CC         ChEBI:CHEBI:57634, ChEBI:CHEBI:59776; EC=2.2.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:P37837};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17054;
+CC         Evidence={ECO:0000250|UniProtKB:P37837};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:17055;
+CC         Evidence={ECO:0000250|UniProtKB:P37837};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       glyceraldehyde 3-phosphate and beta-D-fructose 6-phosphate from D-
+CC       ribose 5-phosphate and D-xylulose 5-phosphate (non-oxidative stage):
+CC       step 2/3. {ECO:0000250|UniProtKB:Q93092}.
+CC   -!- SUBUNIT: Homodimer. Interacts with KPNA1 and KPNA4.
+CC       {ECO:0000250|UniProtKB:Q93092}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q93092}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q93092}. Note=Shuttles between the nucleus and
+CC       the cytoplasm. Actively transported into the nucleus in an importin
+CC       alpha/beta-dependent manner. Exported into the cytoplasm by CRM1.
+CC       {ECO:0000250|UniProtKB:Q93092}.
+CC   -!- DOMAIN: The first 10 amino acids are essential for nuclear
+CC       localization. {ECO:0000250|UniProtKB:Q93092}.
+CC   -!- SIMILARITY: Belongs to the transaldolase family. Type 1 subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF069306; AAG43169.1; -; mRNA.
+DR   EMBL; BC059126; AAH59126.1; -; mRNA.
+DR   RefSeq; NP_113999.2; NM_031811.3.
+DR   AlphaFoldDB; Q9EQS0; -.
+DR   SMR; Q9EQS0; -.
+DR   BioGRID; 249806; 2.
+DR   IntAct; Q9EQS0; 1.
+DR   STRING; 10116.ENSRNOP00000024863; -.
+DR   iPTMnet; Q9EQS0; -.
+DR   PhosphoSitePlus; Q9EQS0; -.
+DR   World-2DPAGE; 0004:Q9EQS0; -.
+DR   jPOST; Q9EQS0; -.
+DR   PaxDb; Q9EQS0; -.
+DR   PRIDE; Q9EQS0; -.
+DR   Ensembl; ENSRNOT00000024863; ENSRNOP00000024863; ENSRNOG00000018367.
+DR   GeneID; 83688; -.
+DR   KEGG; rno:83688; -.
+DR   UCSC; RGD:620674; rat.
+DR   CTD; 6888; -.
+DR   RGD; 620674; Taldo1.
+DR   eggNOG; KOG2772; Eukaryota.
+DR   GeneTree; ENSGT00390000017361; -.
+DR   HOGENOM; CLU_047470_0_1_1; -.
+DR   InParanoid; Q9EQS0; -.
+DR   OMA; KFGYKTL; -.
+DR   OrthoDB; 1402459at2759; -.
+DR   PhylomeDB; Q9EQS0; -.
+DR   TreeFam; TF300757; -.
+DR   Reactome; R-RNO-163754; Insulin effects increased synthesis of Xylulose-5-Phosphate.
+DR   Reactome; R-RNO-71336; Pentose phosphate pathway.
+DR   UniPathway; UPA00115; UER00414.
+DR   PRO; PR:Q9EQS0; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000018367; Expressed in jejunum and 20 other tissues.
+DR   Genevisible; Q9EQS0; RN.
+DR   GO; GO:0005829; C:cytosol; IDA:RGD.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0048029; F:monosaccharide binding; IDA:RGD.
+DR   GO; GO:0004801; F:transaldolase activity; IDA:RGD.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006002; P:fructose 6-phosphate metabolic process; IDA:RGD.
+DR   GO; GO:0019682; P:glyceraldehyde-3-phosphate metabolic process; IDA:RGD.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IDA:RGD.
+DR   GO; GO:0009052; P:pentose-phosphate shunt, non-oxidative branch; IDA:RGD.
+DR   CDD; cd00957; Transaldolase_TalAB; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00492; Transaldolase_1; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001585; TAL/FSA.
+DR   InterPro; IPR004730; Transaldolase_1.
+DR   InterPro; IPR018225; Transaldolase_AS.
+DR   PANTHER; PTHR10683; PTHR10683; 1.
+DR   PANTHER; PTHR10683:SF18; PTHR10683:SF18; 1.
+DR   Pfam; PF00923; TAL_FSA; 1.
+DR   TIGRFAMs; TIGR00874; talAB; 1.
+DR   PROSITE; PS01054; TRANSALDOLASE_1; 1.
+DR   PROSITE; PS00958; TRANSALDOLASE_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Nucleus; Pentose shunt;
+KW   Phosphoprotein; Reference proteome; Schiff base; Transferase.
+FT   CHAIN           1..337
+FT                   /note="Transaldolase"
+FT                   /id="PRO_0000173567"
+FT   MOTIF           1..10
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q93092"
+FT   ACT_SITE        142
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P37837"
+FT   MOD_RES         115
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q93092"
+FT   MOD_RES         219
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37837"
+FT   MOD_RES         237
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         256
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37837"
+FT   MOD_RES         269
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37837"
+FT   MOD_RES         286
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37837"
+FT   MOD_RES         321
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37837"
+FT   CONFLICT        100
+FT                   /note="P -> L (in Ref. 1; AAG43169)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   337 AA;  37460 MW;  F01F64276053B45D CRC64;
+     MSGSPVKRQR MESALDQLKQ FTTVVADTGD FNAIDEYKPQ DATTNPSLIL AAAQMPAYQE
+     LVEEAIAYGK KLGGPQEEQI KNAIDKLFVL FGAEILKKIP GRVSTEVDAR LSFDKDAMVA
+     RARRIIELYK EAGISKDRIL IKLSSTWEGI QAGKELEEQH GIHCNMTLLF SFAQAVACAE
+     AGVTLISPFV GRILDWHVAN TDKKSYEPQE DPGVKSVTKI YNYYKKFGYK TIVMGASFRN
+     TGEIKALAGC DFLTISPKLL GELLKDSSKL APTLSVKAAQ TSDLEKIHLD EKAFRWLHNE
+     DQMAVEKLSD GIRKFAADAI KLERMLTERM FSAENGK
+//

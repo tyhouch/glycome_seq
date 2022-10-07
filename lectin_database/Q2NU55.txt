@@ -1,0 +1,83 @@
+ID   OPGG_SODGM              Reviewed;         522 AA.
+AC   Q2NU55;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   03-AUG-2022, entry version 87.
+DE   RecName: Full=Glucans biosynthesis protein G {ECO:0000255|HAMAP-Rule:MF_01069};
+DE   Flags: Precursor;
+GN   Name=mdoG {ECO:0000255|HAMAP-Rule:MF_01069};
+GN   Synonyms=opgG {ECO:0000255|HAMAP-Rule:MF_01069};
+GN   OrderedLocusNames=SG1045;
+OS   Sodalis glossinidius (strain morsitans).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Bruguierivoracaceae; Sodalis.
+OX   NCBI_TaxID=343509;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=morsitans;
+RX   PubMed=16365377; DOI=10.1101/gr.4106106;
+RA   Toh H., Weiss B.L., Perkin S.A.H., Yamashita A., Oshima K., Hattori M.,
+RA   Aksoy S.;
+RT   "Massive genome erosion and functional adaptations provide insights into
+RT   the symbiotic lifestyle of Sodalis glossinidius in the tsetse host.";
+RL   Genome Res. 16:149-156(2006).
+CC   -!- FUNCTION: Involved in the biosynthesis of osmoregulated periplasmic
+CC       glucans (OPGs). {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP008232; BAE74320.1; -; Genomic_DNA.
+DR   RefSeq; WP_011410905.1; NZ_LN854557.1.
+DR   AlphaFoldDB; Q2NU55; -.
+DR   SMR; Q2NU55; -.
+DR   PRIDE; Q2NU55; -.
+DR   EnsemblBacteria; BAE74320; BAE74320; SG1045.
+DR   KEGG; sgl:SG1045; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; KRPSAWI; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000001932; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01069; MdoG_OpgG; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR023704; MdoG_OpgG.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01069"
+FT   CHAIN           34..522
+FT                   /note="Glucans biosynthesis protein G"
+FT                   /id="PRO_1000064570"
+SQ   SEQUENCE   522 AA;  59015 MW;  6FBB68E38BE3025A CRC64;
+     MPNNKFFVKS SKASLRWLGA TVLLTLYALP SWAFSIDDVA KQAQALAAKG YEAPKSNVPS
+     QFREMKFADY QQIQFNHDKA LWHDLPTPFK IEFYHQGMYF DQAVKINEVT ATAVNEVKYS
+     SDMFNFGSVN HDPDAVKDLG FAGFKILYPI NQLDKNDEIV SMLGASYFRV IGKGQVYGLS
+     ARGLAIDTAL ASGEEFPRFR EFWIERPKAN DKHLVLYALL DSPRATGAYR FVIYPGRDTS
+     VDVQSRVYLR DKVGKLGLAP LTSMFLFGPN QPAMTMNFRP ALHDSDGLSI HAGNGEWIWR
+     PLNNPRHLSV STFQVENPRG FGLLQRGRDF FQYQDLDDRY DLRSSGWVEP RGDWGKGHVE
+     LVEIPTNDET NDNIVAFWTP EKLPDVGQPL ELAYRLHFSR DEDKIHSADF AYVKQTLRSA
+     GDVKQTNLTR QPDGTTAFQV DFVGQPLKEL DQAAPVTSQI SVGDNADVVE NSVRFNPVTH
+     GWRLTLRLKV KDTKQPTEMR AALVNGDKTL TETWSYLLPA NE
+//

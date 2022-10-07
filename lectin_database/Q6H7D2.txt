@@ -1,0 +1,266 @@
+ID   SIT1_ORYSJ              Reviewed;         674 AA.
+AC   Q6H7D2;
+DT   13-NOV-2019, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 155.
+DE   RecName: Full=L-type lectin-domain containing receptor kinase SIT1 {ECO:0000305};
+DE            EC=2.7.11.1 {ECO:0000269|PubMed:24907341};
+DE   AltName: Full=Protein SALT INTOLERANCE 1 {ECO:0000303|PubMed:24907341};
+DE   Flags: Precursor;
+GN   Name=SIT1 {ECO:0000303|PubMed:24907341};
+GN   OrderedLocusNames=Os02g0640500 {ECO:0000312|EMBL:BAF09461.1},
+GN   LOC_Os02g42780 {ECO:0000305};
+GN   ORFNames=P0010C01.40 {ECO:0000312|EMBL:BAD25367.1};
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=18089549; DOI=10.1093/nar/gkm978;
+RG   The rice annotation project (RAP);
+RT   "The rice annotation project database (RAP-DB): 2008 update.";
+RL   Nucleic Acids Res. 36:D1028-D1033(2008).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=24280374; DOI=10.1186/1939-8433-6-4;
+RA   Kawahara Y., de la Bastide M., Hamilton J.P., Kanamori H., McCombie W.R.,
+RA   Ouyang S., Schwartz D.C., Tanaka T., Wu J., Zhou S., Childs K.L.,
+RA   Davidson R.M., Lin H., Quesada-Ocampo L., Vaillancourt B., Sakai H.,
+RA   Lee S.S., Kim J., Numa H., Itoh T., Buell C.R., Matsumoto T.;
+RT   "Improvement of the Oryza sativa Nipponbare reference genome using next
+RT   generation sequence and optical map data.";
+RL   Rice 6:4-4(2013).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12869764; DOI=10.1126/science.1081288;
+RG   The rice full-length cDNA consortium;
+RT   "Collection, mapping, and annotation of over 28,000 cDNA clones from
+RT   japonica rice.";
+RL   Science 301:376-379(2003).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBCELLULAR LOCATION,
+RP   TISSUE SPECIFICITY, INDUCTION BY SALT STRESS, AND MUTAGENESIS OF LYS-386
+RP   AND ASP-482.
+RX   PubMed=24907341; DOI=10.1105/tpc.114.125187;
+RA   Li C.H., Wang G., Zhao J.L., Zhang L.Q., Ai L.F., Han Y.F., Sun D.Y.,
+RA   Zhang S.W., Sun Y.;
+RT   "The receptor-like kinase SIT1 mediates salt sensitivity by activating
+RT   MAPK3/6 and regulating ethylene homeostasis in rice.";
+RL   Plant Cell 26:2538-2553(2014).
+RN   [6]
+RP   FUNCTION, INTERACTION WITH B'KAPPA, PHOSPHORYLATION AT THR-511; THR-515;
+RP   THR-516 AND THR-521, AND MUTAGENESIS OF THR-511 AND 515-THR-THR-516.
+RX   PubMed=31221736; DOI=10.1105/tpc.18.00706;
+RA   Zhao J.L., Zhang L.Q., Liu N., Xu S.L., Yue Z.L., Zhang L.L., Deng Z.P.,
+RA   Burlingame A.L., Sun D.Y., Wang Z.Y., Sun Y., Zhang S.W.;
+RT   "Mutual regulation of receptor-like kinase SIT1 and B'kappa-PP2A shapes the
+RT   early response of rice to salt stress.";
+RL   Plant Cell 31:2131-2151(2019).
+CC   -!- FUNCTION: Lectin-domain containing receptor kinase involved in salt
+CC       stress response (PubMed:24907341). Acts as negative regulator of salt
+CC       tolerance (PubMed:24907341). Mediates salt sensitivity by
+CC       phosphorylating and activating MPK3 and MPK6 (PubMed:24907341).
+CC       Promotes ethylene production and mediates salt-induced ethylene
+CC       signaling (PubMed:24907341). Promotes the accumulation of reactive
+CC       oxygen species (ROS) under salt stress conditions (PubMed:24907341).
+CC       Its kinase activity is triggered by salt stress and is required for its
+CC       function in salt stress response (PubMed:24907341). Phosphorylates
+CC       B'KAPPA, a B regulatory subunit of phosphatase 2A (PP2A)
+CC       (PubMed:31221736). {ECO:0000269|PubMed:24907341,
+CC       ECO:0000269|PubMed:31221736}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000269|PubMed:24907341};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17990;
+CC         Evidence={ECO:0000269|PubMed:24907341};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000269|PubMed:24907341};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46609;
+CC         Evidence={ECO:0000269|PubMed:24907341};
+CC   -!- ACTIVITY REGULATION: Activated by autophosphorylation in response to
+CC       salt stress. {ECO:0000269|PubMed:24907341}.
+CC   -!- SUBUNIT: Interacts with B'KAPPA. {ECO:0000269|PubMed:31221736}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:24907341};
+CC       Single-pass type I membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in root epidermal cells.
+CC       {ECO:0000269|PubMed:24907341}.
+CC   -!- INDUCTION: Induced by salt stress. {ECO:0000269|PubMed:24907341}.
+CC   -!- PTM: Autophosphorylated at THR-511, THR-515 or THR-516, and THR-521 in
+CC       response to salt stress (PubMed:31221736). Dephosphorylated by
+CC       phosphatase 2A in response to salt stress (PubMed:31221736).
+CC       {ECO:0000269|PubMed:31221736}.
+CC   -!- MISCELLANEOUS: Plants silencing SIT1 exhibit increased tolerance to
+CC       salt stress. {ECO:0000269|PubMed:24907341}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the protein kinase
+CC       superfamily. Ser/Thr protein kinase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the leguminous lectin
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP004768; BAD25367.1; -; Genomic_DNA.
+DR   EMBL; AP008208; BAF09461.1; -; Genomic_DNA.
+DR   EMBL; AP014958; BAS79982.1; -; Genomic_DNA.
+DR   EMBL; AK107491; BAG98063.1; -; mRNA.
+DR   RefSeq; XP_015624170.1; XM_015768684.1.
+DR   AlphaFoldDB; Q6H7D2; -.
+DR   SMR; Q6H7D2; -.
+DR   STRING; 4530.OS02T0640500-01; -.
+DR   PaxDb; Q6H7D2; -.
+DR   PRIDE; Q6H7D2; -.
+DR   EnsemblPlants; Os02t0640500-01; Os02t0640500-01; Os02g0640500.
+DR   GeneID; 4330111; -.
+DR   Gramene; Os02t0640500-01; Os02t0640500-01; Os02g0640500.
+DR   KEGG; osa:4330111; -.
+DR   eggNOG; ENOG502QSJ4; Eukaryota.
+DR   HOGENOM; CLU_000288_62_3_1; -.
+DR   InParanoid; Q6H7D2; -.
+DR   OMA; RVWVDFD; -.
+DR   OrthoDB; 418528at2759; -.
+DR   Proteomes; UP000000763; Chromosome 2.
+DR   Proteomes; UP000059680; Chromosome 2.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004675; F:transmembrane receptor protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0042742; P:defense response to bacterium; IBA:GO_Central.
+DR   GO; GO:0002229; P:defense response to oomycetes; IBA:GO_Central.
+DR   GO; GO:1901001; P:negative regulation of response to salt stress; IMP:UniProtKB.
+DR   GO; GO:0006468; P:protein phosphorylation; IDA:UniProtKB.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Glycoprotein; Kinase; Lectin; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Receptor; Reference proteome;
+KW   Serine/threonine-protein kinase; Signal; Stress response; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..674
+FT                   /note="L-type lectin-domain containing receptor kinase
+FT                   SIT1"
+FT                   /id="PRO_5013533136"
+FT   TOPO_DOM        28..301
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        302..322
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        323..674
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          357..636
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          31..275
+FT                   /note="Legume-lectin like"
+FT                   /evidence="ECO:0000305"
+FT   ACT_SITE        482
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         363..371
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         386
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         511
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:31221736"
+FT   MOD_RES         515
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:31221736"
+FT   MOD_RES         516
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:31221736"
+FT   MOD_RES         521
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:31221736"
+FT   CARBOHYD        42
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        61
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        143
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        196
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        219
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        240
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        281
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   MUTAGEN         386
+FT                   /note="K->E: Loss of kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:24907341"
+FT   MUTAGEN         482
+FT                   /note="D->A: Loss of kinase activity."
+FT                   /evidence="ECO:0000305"
+FT   MUTAGEN         511
+FT                   /note="T->A: Abolishes autophosphorylation and activation
+FT                   of kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:31221736"
+FT   MUTAGEN         515..516
+FT                   /note="TT->AA: Abolishes autophosphorylation and activation
+FT                   of kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:31221736"
+SQ   SEQUENCE   674 AA;  73240 MW;  465C8D07AF226678 CRC64;
+     MRRPELIMRS LPLILFLSLG SFHLAAAAVD DQFTFDGFAG VNLTLDGTAV VTPGGLLMLT
+     NGTTLLKGHA FYPSPLRFFH EATSGGGSST VRSFSTAFVF GIVSEYADLS SPGLAFVVAK
+     SRDFSSALQS QYMGLANARN NGNASNHFLA VELDTIVNAE FGDMSDNHVG IDVDGLASAA
+     ADDAGYHDDR TGAFVNMSLL SRAAARVWVD FDARTSLVNV TMAPLELPKP TTPLLSAAVN
+     LSAVIEDEAY VGFSSSTGVV ASRHYVLAWS FKMDGPAPSL NVSKLPALPV TIARAPSNVL
+     KILLPIASAA LVSALAIAVL VIHRRRRRYA ELKEEWEVAF GPHRFSYKDL FRATNGFSDE
+     RLLGFGGFGR VYKGVLLVSR VEIAVKKVSH ESRQGMKEFI AEVVSIGQLR HRNLVQLLGY
+     CRQKGELLLV YDYMPNGSLD KYLYAENSKI LSWAQRFRII KGIASSILYL HEDWEQVVLH
+     RDIKASNVLL DAEMNCRLGD FGLARLYDRG TDPHTTHVVG TIGYLAPELG HTGRPSKASD
+     IFAFGVFMLE VTCGRRPVLQ DTNGGQLLLV DMVLEHWRQG TVTDAVDPRL QGDFAVEEAS
+     LVLKLCLLCS HPLPSARPGI RQVVQLLDGA MPLPELSQAH LSCNMLALMQ NQMGNSCSVA
+     SSVAGNISDI PRAR
+//

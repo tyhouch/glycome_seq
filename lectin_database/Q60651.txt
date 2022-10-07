@@ -1,0 +1,190 @@
+ID   KLRA4_MOUSE             Reviewed;         263 AA.
+AC   Q60651; O78026; Q9EPA5;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   18-OCT-2001, sequence version 2.
+DT   03-AUG-2022, entry version 162.
+DE   RecName: Full=Killer cell lectin-like receptor 4;
+DE   AltName: Full=Lymphocyte antigen 49d;
+DE            Short=Ly-49d;
+DE   AltName: Full=T-cell surface glycoprotein Ly-49D;
+GN   Name=Klra4; Synonyms=Ly-49d, Ly49-d, Ly49d;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM D2).
+RC   STRAIN=C57BL/6J; TISSUE=Spleen;
+RX   PubMed=8027540;
+RA   Smith H.R.C., Karlhofer F.M., Yokoyama W.M.;
+RT   "Ly-49 multigene family expressed by IL-2-activated NK cells.";
+RL   J. Immunol. 153:1068-1079(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND ALTERNATIVE SPLICING.
+RC   STRAIN=C57BL/6J;
+RX   PubMed=8824161; DOI=10.1007/bf02602811;
+RA   Silver E.T., Elliott J.F., Kane K.P.;
+RT   "Alternatively spliced Ly-49D and H transcripts are found in IL-2-activated
+RT   NK cells.";
+RL   Immunogenetics 44:478-482(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM D1).
+RC   STRAIN=NOD, and NOR;
+RX   PubMed=10925254; DOI=10.4049/jimmunol.165.4.1771;
+RA   Silver E.T., Gong D.-E., Chang C.S., Amrani A., Santamaria P., Kane K.P.;
+RT   "Ly-49P activates NK-mediated lysis by recognizing H-2Dd.";
+RL   J. Immunol. 165:1771-1781(2000).
+RN   [4]
+RP   FUNCTION, AND INTERACTION WITH TYROBP.
+RX   PubMed=9647200;
+RA   Smith K.M., Wu J., Bakker A.B., Phillips J.H., Lanier L.L.;
+RT   "Ly-49D and Ly-49H associate with mouse DAP12 and form activating
+RT   receptors.";
+RL   J. Immunol. 161:7-10(1998).
+CC   -!- FUNCTION: Receptor on natural killer (NK) cells for class I MHC.
+CC       {ECO:0000269|PubMed:9647200}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Interacts with the adapter
+CC       protein TYROBP/DAP12; the interaction leads to natural killer cell
+CC       activation (PubMed:9647200). {ECO:0000269|PubMed:9647200}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass type II
+CC       membrane protein {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=D1;
+CC         IsoId=Q60651-1; Sequence=Displayed;
+CC       Name=D2;
+CC         IsoId=Q60651-2; Sequence=VSP_003068;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U10090; AAA50218.1; -; mRNA.
+DR   EMBL; L78247; AAC32667.1; -; mRNA.
+DR   EMBL; AF218079; AAF99592.1; -; mRNA.
+DR   EMBL; AF218078; AAF99591.1; -; mRNA.
+DR   CCDS; CCDS57457.1; -. [Q60651-1]
+DR   PIR; I49049; I49049.
+DR   RefSeq; NP_001239506.1; NM_001252577.1. [Q60651-1]
+DR   RefSeq; NP_034779.1; NM_010649.3. [Q60651-2]
+DR   RefSeq; XP_006505709.1; XM_006505646.1. [Q60651-1]
+DR   AlphaFoldDB; Q60651; -.
+DR   SMR; Q60651; -.
+DR   BioGRID; 200996; 1.
+DR   STRING; 10090.ENSMUSP00000114004; -.
+DR   GlyGen; Q60651; 4 sites.
+DR   MaxQB; Q60651; -.
+DR   PaxDb; Q60651; -.
+DR   PRIDE; Q60651; -.
+DR   ProteomicsDB; 263557; -. [Q60651-1]
+DR   ProteomicsDB; 263558; -. [Q60651-2]
+DR   DNASU; 16635; -.
+DR   Ensembl; ENSMUST00000119096; ENSMUSP00000114004; ENSMUSG00000079852. [Q60651-1]
+DR   GeneID; 16635; -.
+DR   KEGG; mmu:16635; -.
+DR   UCSC; uc009ehh.2; mouse. [Q60651-2]
+DR   UCSC; uc009ehi.1; mouse. [Q60651-1]
+DR   CTD; 16635; -.
+DR   MGI; MGI:101904; Klra4.
+DR   VEuPathDB; HostDB:ENSMUSG00000079852; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00390000008117; -.
+DR   HOGENOM; CLU_049894_1_0_1; -.
+DR   InParanoid; Q60651; -.
+DR   OMA; WTESRIE; -.
+DR   PhylomeDB; Q60651; -.
+DR   TreeFam; TF336674; -.
+DR   BioGRID-ORCS; 16635; 1 hit in 71 CRISPR screens.
+DR   ChiTaRS; Klra4; mouse.
+DR   PRO; PR:Q60651; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   RNAct; Q60651; protein.
+DR   Bgee; ENSMUSG00000079852; Expressed in umbilical cord and 113 other tissues.
+DR   ExpressionAtlas; Q60651; baseline and differential.
+DR   Genevisible; Q60651; MM.
+DR   GO; GO:0009986; C:cell surface; IDA:UniProtKB.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR013600; Ly49_N.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF08391; Ly49; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell adhesion; Cell membrane; Disulfide bond;
+KW   Glycoprotein; Lectin; Membrane; Receptor; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..263
+FT                   /note="Killer cell lectin-like receptor 4"
+FT                   /id="PRO_0000046682"
+FT   TOPO_DOM        1..44
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        45..65
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        66..263
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          139..258
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        87
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        104
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        170
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        222
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        146..151
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        164..252
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        168..254
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        233..246
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         39..41
+FT                   /note="Missing (in isoform D2)"
+FT                   /evidence="ECO:0000303|PubMed:8027540"
+FT                   /id="VSP_003068"
+FT   VARIANT         5
+FT                   /note="E -> K (in strain: NOD and NOR)"
+FT   VARIANT         29
+FT                   /note="R -> W (in strain: NOD and NOR)"
+FT   VARIANT         32
+FT                   /note="E -> Q (in strain: NOD and NOR)"
+FT   VARIANT         35
+FT                   /note="R -> G (in strain: NOD and NOR)"
+FT   VARIANT         45
+FT                   /note="L -> F (in strain: NOD and NOR)"
+FT   VARIANT         60
+FT                   /note="T -> I (in strain: NOD and NOR)"
+FT   VARIANT         79
+FT                   /note="K -> Q (in strain: NOD and NOR)"
+FT   VARIANT         132
+FT                   /note="Y -> S (in strain: NOD and NOR)"
+FT   VARIANT         189
+FT                   /note="L -> F (in strain: NOD and NOR)"
+SQ   SEQUENCE   263 AA;  30872 MW;  D0A940A089A9F42D CRC64;
+     MTEQEDTFSA VRFHKSSGLQ NEMRLKETRK PEKARLRVCS VPWQLIVIAL GILISLRLVT
+     VAVLMTNIFQ YGQQKHELKE FLKHHNNCSI MQSDINLKDE LLKNKSIECN LLESLNRDQN
+     ILCDKTRTVL DYLQHTGRGV KVYWFCYGMK CYYFVMDRKP WSRCKQSCQN SSLTLLKIDD
+     EDELKFLQLV VPSDSCWIGL SYDNKKKDWA WIDNRPSKLA LNTTKYNIRD GGCMFLSKTR
+     LDNNYCDQSF ICICGKRLDK FPH
+//

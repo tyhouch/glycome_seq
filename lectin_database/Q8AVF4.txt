@@ -1,0 +1,111 @@
+ID   MLECB_XENLA             Reviewed;         276 AA.
+AC   Q8AVF4;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 2.
+DT   03-AUG-2022, entry version 56.
+DE   RecName: Full=Malectin-B {ECO:0000250|UniProtKB:Q6INX3};
+DE   Flags: Precursor;
+GN   Name=mlec-b {ECO:0000250|UniProtKB:Q6INX3};
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1] {ECO:0000312|EMBL:AAH42341.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo {ECO:0000312|EMBL:AAH42341.1};
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (JAN-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Carbohydrate-binding protein with a strong ligand preference
+CC       for Glc2-N-glycan. May play a role in the early steps of protein N-
+CC       glycosylation. Can bind di- or higher oligomers but not monomers of
+CC       glucose, including maltose, maltotriose, maltotetraose, maltoheptaose,
+CC       nigerose, kojibose, cellobiose and isomaltose, although based on their
+CC       subcellular locations, these are unlikely to all be physiological
+CC       ligands (By similarity). {ECO:0000250|UniProtKB:Q6INX3}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q6INX3, ECO:0000255}; Single-pass type I
+CC       membrane protein {ECO:0000250|UniProtKB:Q6INX3, ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the malectin family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH42341.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC042341; AAH42341.1; ALT_FRAME; mRNA.
+DR   RefSeq; NP_001080532.1; NM_001087063.1.
+DR   RefSeq; XP_018124265.1; XM_018268776.1.
+DR   AlphaFoldDB; Q8AVF4; -.
+DR   SMR; Q8AVF4; -.
+DR   DNASU; 380224; -.
+DR   GeneID; 380224; -.
+DR   KEGG; xla:380224; -.
+DR   CTD; 380224; -.
+DR   Xenbase; XB-GENE-6253921; mlec.L.
+DR   OMA; LCMAMRR; -.
+DR   OrthoDB; 1057965at2759; -.
+DR   Proteomes; UP000186698; Chromosome 1L.
+DR   Bgee; 380224; Expressed in pancreas and 19 other tissues.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:UniProtKB.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR021720; Malectin_dom.
+DR   InterPro; IPR039155; MLEC.
+DR   PANTHER; PTHR13460; PTHR13460; 1.
+DR   Pfam; PF11721; Malectin; 1.
+PE   2: Evidence at transcript level;
+KW   Carbohydrate metabolism; Endoplasmic reticulum; Glycoprotein; Membrane;
+KW   Reference proteome; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..276
+FT                   /note="Malectin-B"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000358591"
+FT   TOPO_DOM        27..253
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        254..274
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        275..276
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          202..249
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        232..249
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         67
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6INX3"
+FT   BINDING         89
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6INX3"
+FT   BINDING         116
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6INX3"
+FT   BINDING         117
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6INX3"
+FT   BINDING         186
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6INX3"
+FT   CARBOHYD        252
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   276 AA;  30673 MW;  D5F5C3EF5D9970F1 CRC64;
+     MLSIRTVLGP LAAILLTVIG PFGAHGSGLA DKVMWAVNAG GESHVDVHGI HYRKDPLEGR
+     VGRASDYGMK LPILRSNPED QVLYQTERYN EDSFGYDIPI KEEGEYVIVL KFAEVYFAQS
+     QQKVFDIRVN GHTVVKDLDI FDRVGHSTAH DEIIPISIKK GKLSVQGEVS TFTGKLSVEF
+     VKGYYDNPKV CALYIMKGTA DDVPQLQPHP GLEKKEEEEE EEEEEGSPSK KQSNKNRVQS
+     GPRTPNPYAS DNSSLMFPIL VAFGVFIPTL FCLCRL
+//

@@ -1,0 +1,140 @@
+ID   AGDC_ASPTN              Reviewed;         879 AA.
+AC   Q0CMA7;
+DT   15-JUN-2010, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   25-MAY-2022, entry version 68.
+DE   RecName: Full=Probable alpha/beta-glucosidase agdC;
+DE            EC=3.2.1.20;
+DE            EC=3.2.1.21;
+DE   Flags: Precursor;
+GN   Name=agdC; ORFNames=ATEG_05177;
+OS   Aspergillus terreus (strain NIH 2624 / FGSC A1156).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=341663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NIH 2624 / FGSC A1156;
+RA   Birren B.W., Lander E.S., Galagan J.E., Nusbaum C., Devon K., Henn M.,
+RA   Ma L.-J., Jaffe D.B., Butler J., Alvarez P., Gnerre S., Grabherr M.,
+RA   Kleber M., Mauceli E.W., Brockman W., Rounsley S., Young S.K., LaButti K.,
+RA   Pushparaj V., DeCaprio D., Crawford M., Koehrsen M., Engels R.,
+RA   Montgomery P., Pearson M., Howarth C., Larson L., Luoma S., White J.,
+RA   Alvarado L., Kodira C.D., Zeng Q., Oleary S., Yandava C., Denning D.W.,
+RA   Nierman W.C., Milne T., Madden K.;
+RT   "Annotation of the Aspergillus terreus NIH2624 genome.";
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Glucosidase involved in the degradation of cellulosic
+CC       biomass. Has both alpha- and beta-glucosidase activity (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing beta-D-glucosyl residues
+CC         with release of beta-D-glucose.; EC=3.2.1.21;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH476600; EAU34246.1; -; Genomic_DNA.
+DR   RefSeq; XP_001214355.1; XM_001214355.1.
+DR   AlphaFoldDB; Q0CMA7; -.
+DR   SMR; Q0CMA7; -.
+DR   STRING; 341663.Q0CMA7; -.
+DR   EnsemblFungi; EAU34246; EAU34246; ATEG_05177.
+DR   GeneID; 4320812; -.
+DR   VEuPathDB; FungiDB:ATEG_05177; -.
+DR   eggNOG; KOG1065; Eukaryota.
+DR   HOGENOM; CLU_000631_11_0_1; -.
+DR   OMA; DAYFPDD; -.
+DR   OrthoDB; 151244at2759; -.
+DR   Proteomes; UP000007963; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008422; F:beta-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0102483; F:scopolin beta-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   Pfam; PF16863; NtCtMGAM_N; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cell wall biogenesis/degradation; Glycoprotein;
+KW   Glycosidase; Hydrolase; Polysaccharide degradation; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..14
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           15..879
+FT                   /note="Probable alpha/beta-glucosidase agdC"
+FT                   /id="PRO_0000394918"
+FT   REGION          446..494
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        452..469
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        426
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        429
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        580
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        22
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        175
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        297
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        377
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        515
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        581
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        617
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        787
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   879 AA;  98442 MW;  7D0D7DA1D2763950 CRC64;
+     MLGSLLLLAP LAGAAVIGSR SNNTEPCPGY KVSNVREGVN SLTADLSLAG KPCNTYGTDL
+     KDLKLLVEYQ TERPDERLHV MIYDANEQVY QVPESVVPRV EGRKGARPHS ALKFTYEEEP
+     FSFTVTRDDE VLFDTSASNL IFQSQYLNLR TWLPEDPYLY GLGEHTDSLR LPTTNYTRTI
+     WNRDSYGVPQ NSNLYGAHPV YYDHRGESGT HGVFLLNSNG MDIRIDKTED GQQYLEYNTL
+     GGVFDFYFFT GSTPKETSME YSKIVGLPAM QSYWSFGLHQ CRYGYRDVYQ VAEVVYNYSK
+     AGIPLETMWT DIDYMNARKV FTLDPERFPL PKMRELVDYL HKHDQKYIVM VDPAVSAVDN
+     EAYEHGVDQG IFLQQQNGSL YKGAVWPGVT VYPDWFHPDI QEYWNSEFSA FFSADDGVDI
+     DGLWIDMNEA ANFCTWPCAD PEQYAIDNDL PPAPPAVRPS NPRPLPGFPD SFQPSSSKRA
+     VKRAGGSKGA KVGLPGRNLV DPPYKIQNAA GSISNKTINT DIIHAGEGYA EYDTHNLYGT
+     MMSSASRGAM LNRRPDVRPL IITRSTFAGA GSHVGHWLGD NLSQWDQYRI SISQIVAFAS
+     MFQVPMVGAD VCGFGGNTTE ELCARWAALG AFYTFYRNHN EIGSTSQEFY QWPTVADSAR
+     KAIEIRYKLL DYIYTAFHKQ TETGEPFLQP MFYLYPEDEN TFANDVQFFY GDALLVSPVL
+     TEGSTSVDAY FPDDIFYDWY TGAPVRGHGA KKTLENIDVT HIPLHVRGGN IIPVRSSGAM
+     TTKELRNKSF ELIIAPGLDG TASGSLYLDD GDSLEQKGTA EIKFEYRRGK LSVKGSFGRS
+     AAGVKVQAVK VLGQKAESRM SAFRSTEFEL TRPMEISLQ
+//

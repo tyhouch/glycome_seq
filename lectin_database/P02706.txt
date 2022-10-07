@@ -1,0 +1,241 @@
+ID   ASGR1_RAT               Reviewed;         284 AA.
+AC   P02706;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 161.
+DE   RecName: Full=Asialoglycoprotein receptor 1;
+DE            Short=ASGP-R 1;
+DE            Short=ASGPR 1;
+DE   AltName: Full=Hepatic lectin 1;
+DE            Short=HL-1;
+DE            Short=rHL-1;
+GN   Name=Asgr1; Synonyms=Asgr-1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=6095287; DOI=10.1073/pnas.81.23.7338;
+RA   Holland E.C., Leung J.O., Drickamer K.;
+RT   "Rat liver asialoglycoprotein receptor lacks a cleavable NH2-terminal
+RT   signal sequence.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 81:7338-7342(1984).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2995379; DOI=10.1016/s0021-9258(17)38902-0;
+RA   Leung J.O., Holland E.C., Drickamer K.;
+RT   "Characterization of the gene encoding the major rat liver
+RT   asialoglycoprotein receptor.";
+RL   J. Biol. Chem. 260:12523-12527(1985).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 12-284.
+RX   PubMed=2945599; DOI=10.1007/bf01114949;
+RA   Watts C.;
+RT   "Isolation and expression of cDNA clones for a rat liver asialoglycoprotein
+RT   receptor.";
+RL   Biosci. Rep. 6:527-534(1986).
+RN   [5]
+RP   PALMITOYLATION AT CYS-35.
+RX   PubMed=8943311; DOI=10.1074/jbc.271.50.32454;
+RA   Zeng F.Y., Weigel P.H.;
+RT   "Fatty acylation of the rat and human asialoglycoprotein receptors. A
+RT   conserved cytoplasmic cysteine residue is acylated in all receptor
+RT   subunits.";
+RL   J. Biol. Chem. 271:32454-32460(1996).
+CC   -!- FUNCTION: Mediates the endocytosis of plasma glycoproteins to which the
+CC       terminal sialic acid residue on their complex carbohydrate moieties has
+CC       been removed. The receptor recognizes terminal galactose and N-
+CC       acetylgalactosamine units. After ligand binding to the receptor, the
+CC       resulting complex is internalized and transported to a sorting
+CC       organelle, where receptor and ligand are disassociated. The receptor
+CC       then returns to the cell membrane surface.
+CC   -!- SUBUNIT: Interacts with LASS2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed exclusively in hepatic parenchymal cells.
+CC   -!- PTM: Phosphorylated on a cytoplasmic Ser residue. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Calcium is required for ligand binding.
+CC   -!- MISCELLANEOUS: Two types of rat hepatic lectin have been identified,
+CC       RHL-1 and RHL-2/3, having a relative abundance of 4:1.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Hepatic asialoglycoprotein receptor subunit 1;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_rat_Ctlect_00128";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; K02817; AAA42037.1; -; Genomic_DNA.
+DR   EMBL; BC088154; AAH88154.1; -; mRNA.
+DR   EMBL; M21770; AAA40764.1; -; mRNA.
+DR   PIR; A92497; LNRTL.
+DR   RefSeq; NP_036635.1; NM_012503.2.
+DR   RefSeq; XP_006246641.1; XM_006246579.1.
+DR   AlphaFoldDB; P02706; -.
+DR   SMR; P02706; -.
+DR   IntAct; P02706; 1.
+DR   STRING; 10116.ENSRNOP00000025254; -.
+DR   GlyGen; P02706; 3 sites.
+DR   iPTMnet; P02706; -.
+DR   PhosphoSitePlus; P02706; -.
+DR   SwissPalm; P02706; -.
+DR   PaxDb; P02706; -.
+DR   PRIDE; P02706; -.
+DR   Ensembl; ENSRNOT00000025254; ENSRNOP00000025254; ENSRNOG00000018693.
+DR   GeneID; 24210; -.
+DR   KEGG; rno:24210; -.
+DR   UCSC; RGD:2160; rat.
+DR   CTD; 432; -.
+DR   RGD; 2160; Asgr1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000161727; -.
+DR   InParanoid; P02706; -.
+DR   OMA; CAHFTPD; -.
+DR   OrthoDB; 1247924at2759; -.
+DR   PhylomeDB; P02706; -.
+DR   TreeFam; TF352155; -.
+DR   Reactome; R-RNO-446203; Asparagine N-linked glycosylation.
+DR   PRO; PR:P02706; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000018693; Expressed in liver and 12 other tissues.
+DR   Genevisible; P02706; RN.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0004873; F:asialoglycoprotein receptor activity; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0031668; P:cellular response to extracellular stimulus; ISO:RGD.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Coiled coil; Disulfide bond; Endocytosis; Glycoprotein; Lectin;
+KW   Lipoprotein; Membrane; Metal-binding; Palmitate; Phosphoprotein; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..284
+FT                   /note="Asialoglycoprotein receptor 1"
+FT                   /id="PRO_0000046653"
+FT   TOPO_DOM        1..39
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        40..60
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        61..284
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          160..277
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   COILED          58..122
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           5..8
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         190
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         196
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         215
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         239
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         241
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         242
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         252
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         252
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         253
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         264
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         265
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         277
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           35
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000269|PubMed:8943311"
+FT   CARBOHYD        75
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        78
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        153..164
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        181..276
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        254..268
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CONFLICT        61
+FT                   /note="Q -> R (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   284 AA;  32849 MW;  5D973A09458900BA CRC64;
+     MTKDYQDFQH LDNENDHHQL QRGPPPAPRL LQRLCSGFRL FLLSLGLSIL LLVVVCVITS
+     QNSQLREDLR VLRQNFSNFT VSTEDQVKAL TTQGERVGRK MKLVESQLEK HQEDLREDHS
+     RLLLHVKQLV SDVRSLSCQM AALRGNGSER ICCPINWVEY EGSCYWFSSS VKPWTEADKY
+     CQLENAHLVV VTSWEEQRFV QQHMGPLNTW IGLTDQNGPW KWVDGTDYET GFKNWRPGQP
+     DDWYGHGLGG GEDCAHFTTD GHWNDDVCRR PYRWVCETEL GKAN
+//

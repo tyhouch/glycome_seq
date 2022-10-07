@@ -1,0 +1,239 @@
+ID   MALS_MAAAM              Reviewed;         287 AA.
+AC   P0DKL3;
+DT   18-JAN-2017, integrated into UniProtKB/Swiss-Prot.
+DT   18-JAN-2017, sequence version 1.
+DT   03-AUG-2022, entry version 16.
+DE   RecName: Full=Seed leukoagglutinin {ECO:0000303|PubMed:9163528};
+DE   AltName: Full=Leukoagglutinating lectin MAL {ECO:0000303|PubMed:1985926};
+DE   AltName: Full=Seed leucoagglutinin {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=MAL {ECO:0000303|PubMed:1985926};
+OS   Maackia amurensis (Amur maackia).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   genistoids sensu lato; core genistoids; Sophoreae; Maackia.
+OX   NCBI_TaxID=37501;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 30-55; 74-176 AND 187-253,
+RP   SUBUNIT, AND GLYCOSYLATION AT ASN-90; ASN-142; ASN-208 AND ASN-220.
+RC   TISSUE=Seed;
+RX   PubMed=9163528; DOI=10.1093/oxfordjournals.jbchem.a021650;
+RA   Yamamoto K., Konami Y., Irimura T.;
+RT   "Sialic acid-binding motif of Maackia amurensis lectins.";
+RL   J. Biochem. 121:756-761(1997).
+RN   [2]
+RP   FUNCTION.
+RC   TISSUE=Seed;
+RX   PubMed=3350806; DOI=10.1016/s0021-9258(18)68821-0;
+RA   Wang W.C., Cummings R.D.;
+RT   "The immobilized leukoagglutinin from the seeds of Maackia amurensis binds
+RT   with high affinity to complex-type Asn-linked oligosaccharides containing
+RT   terminal sialic acid-linked alpha-2,3 to penultimate galactose residues.";
+RL   J. Biol. Chem. 263:4576-4585(1988).
+RN   [3]
+RP   FUNCTION.
+RC   TISSUE=Seed;
+RX   PubMed=1985926; DOI=10.1016/s0021-9258(18)52405-4;
+RA   Knibbs R.N., Goldstein I.J., Ratcliffe R.M., Shibuya N.;
+RT   "Characterization of the carbohydrate binding specificity of the
+RT   leukoagglutinating lectin from Maackia amurensis. Comparison with other
+RT   sialic acid-specific lectins.";
+RL   J. Biol. Chem. 266:83-88(1991).
+RN   [4]
+RP   FUNCTION, AND GLYCOSYLATION.
+RC   TISSUE=Seed;
+RX   PubMed=26003537; DOI=10.1016/j.bbagen.2015.05.011;
+RA   Kim B.S., Hwang H.S., Park H., Kim H.H.;
+RT   "Effects of selective cleavage of high-mannose-type glycans of Maackia
+RT   amurensis leukoagglutinin on sialic acid-binding activity.";
+RL   Biochim. Biophys. Acta 1850:1815-1821(2015).
+RN   [5]
+RP   GLYCOSYLATION AT ASN-90; ASN-142; ASN-208 AND ASN-220, PROTEOLYTIC
+RP   PROCESSING OF C-TERMINUS, SUBUNIT, DISULFIDE BOND, AND PARTIAL PROTEIN
+RP   SEQUENCE.
+RX   PubMed=27720757; DOI=10.1016/j.ijbiomac.2016.10.007;
+RA   Gnanesh Kumar B.S., Surolia A.;
+RT   "Comprehensive analysis of alpha 2-3-linked sialic acid specific Maackia
+RT   amurensis leukagglutinin reveals differentially occupied N-glycans and C-
+RT   terminal processing.";
+RL   Int. J. Biol. Macromol. 94:114-121(2016).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.75 ANGSTROMS) OF 30-268 IN COMPLEX WITH CALCIUM;
+RP   SIALYLLACTOSE AND MANGANESE, GLYCOSYLATION AT ASN-90; ASN-142 AND ASN-208,
+RP   AND SUBUNIT.
+RX   PubMed=10747930; DOI=10.1074/jbc.m000560200;
+RA   Imberty A., Gautier C., Lescar J., Perez S., Wyns L., Loris R.;
+RT   "An unusual carbohydrate binding site revealed by the structures of two
+RT   Maackia amurensis lectins complexed with sialic acid-containing
+RT   oligosaccharides.";
+RL   J. Biol. Chem. 275:17541-17548(2000).
+CC   -!- FUNCTION: Sialic acid-binding lectin recognizing oligosaccharides
+CC       containing terminal sialic acid linked via alpha-2,3 bond to
+CC       penultimate galactose residues (PubMed:3350806). Binds the
+CC       trisaccharide sequence Neu5Ac-alpha-2,3-Gal-beta-1,4-GlcNAc
+CC       (PubMed:1985926). Binds fetuin when fully glycosylated but not when the
+CC       high mannose-type glycans are removed, although the secondary structure
+CC       is virtually unaffected by deglycosylation of the high mannose-type
+CC       glycans (PubMed:26003537). The lectin activity may depend on the
+CC       presence of a single GlcNAc attached to N-90 (PubMed:26003537).
+CC       {ECO:0000269|PubMed:1985926, ECO:0000269|PubMed:26003537,
+CC       ECO:0000269|PubMed:3350806}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked (PubMed:9163528, PubMed:27720757).
+CC       Dimer of homodimers (PubMed:10747930). {ECO:0000269|PubMed:10747930,
+CC       ECO:0000269|PubMed:27720757, ECO:0000305|PubMed:9163528}.
+CC   -!- PTM: The glycosylation on N-90 is determined to by of the high mannose
+CC       type in PubMed:26003537, while PubMed:27720757 found a paucimannose at
+CC       this position. {ECO:0000269|PubMed:26003537,
+CC       ECO:0000269|PubMed:27720757}.
+CC   -!- PTM: Processed at its C-terminus. {ECO:0000269|PubMed:27720757}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; JC5444; JC5444.
+DR   PDB; 1DBN; X-ray; 2.75 A; A/B=30-268.
+DR   PDBsum; 1DBN; -.
+DR   AlphaFoldDB; P0DKL3; -.
+DR   SMR; P0DKL3; -.
+DR   IntAct; P0DKL3; 1.
+DR   UniLectin; P0DKL3; -.
+DR   iPTMnet; P0DKL3; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Disulfide bond;
+KW   Glycoprotein; Lectin; Manganese; Metal-binding; Signal.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000269|PubMed:9163528"
+FT   CHAIN           30..278
+FT                   /note="Seed leukoagglutinin"
+FT                   /id="PRO_0000438710"
+FT   PROPEP          279..287
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000269|PubMed:27720757"
+FT                   /id="PRO_0000438711"
+FT   BINDING         74
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         116
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         133
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         136
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         156
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         158
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         158
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         160
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         160
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         166
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         166
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         169
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         169
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         174
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   BINDING         253
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0007744|PDB:1DBN"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) (paucimannose) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0000269|PubMed:27720757, ECO:0000305|PubMed:9163528,
+FT                   ECO:0007744|PDB:1DBN"
+FT   CARBOHYD        142
+FT                   /note="N-linked (GlcNAc...) (paucimannose) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0000269|PubMed:27720757, ECO:0000305|PubMed:9163528,
+FT                   ECO:0007744|PDB:1DBN"
+FT   CARBOHYD        208
+FT                   /note="N-linked (GlcNAc...) (high mannose) asparagine;
+FT                   partial"
+FT                   /evidence="ECO:0000269|PubMed:27720757,
+FT                   ECO:0000305|PubMed:9163528"
+FT   CARBOHYD        220
+FT                   /note="N-linked (GlcNAc...) (paucimannose) asparagine;
+FT                   partial"
+FT                   /evidence="ECO:0000269|PubMed:10747930,
+FT                   ECO:0000269|PubMed:27720757, ECO:0000305|PubMed:9163528,
+FT                   ECO:0007744|PDB:1DBN"
+FT   DISULFID        272
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000269|PubMed:27720757,
+FT                   ECO:0000305|PubMed:9163528"
+SQ   SEQUENCE   287 AA;  31286 MW;  BE84411950B0BA7E CRC64;
+     MATSNSKPTQ VLLATFLTFF FLLLNNVNSS DELSFTINNF VPNEADLLFQ GEASVSSTGV
+     LQLTRVENGQ PQKYSVGRAL YAAPVRIWDN TTGSVASFST SFTFVVKAPN PDITSDGLAF
+     YLAPPDSQIP SGSVSKYLGL FNNSNSDSSN QIVAVELDTY FAHSYDPWDP NYRHIGIDVN
+     GIESIKTVQW DWINGGVAFA TITYLAPNKT LIASLVYPSN QTTFSVAASV DLKEILPEWV
+     RVGFSAATGY PTEVETHDVL SWSFTSTLEA NCDAATENNV HIARYTA
+//

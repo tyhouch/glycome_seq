@@ -1,0 +1,182 @@
+ID   CSPG2_MACNE             Reviewed;         862 AA.
+AC   Q28858; Q28859; Q28860;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   25-MAY-2022, entry version 115.
+DE   RecName: Full=Versican core protein;
+DE   AltName: Full=Chondroitin sulfate proteoglycan core protein 2;
+DE            Short=Chondroitin sulfate proteoglycan 2;
+DE   AltName: Full=Large fibroblast proteoglycan;
+DE   Flags: Fragments;
+GN   Name=VCAN; Synonyms=CSPG2;
+OS   Macaca nemestrina (Pig-tailed macaque).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9545;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Aortic smooth muscle;
+RX   PubMed=7921538; DOI=10.1016/0945-053x(94)90185-6;
+RA   Yao L.Y., Moody C., Schoenherr E., Wight T.N., Sandell L.J.;
+RT   "Identification of the proteoglycan versican in aorta and smooth muscle
+RT   cells by DNA sequence analysis, in situ hybridization and
+RT   immunohistochemistry.";
+RL   Matrix Biol. 14:213-225(1994).
+CC   -!- FUNCTION: May play a role in intercellular signaling and in connecting
+CC       cells with the extracellular matrix. May take part in the regulation of
+CC       cell motility, growth and differentiation. Binds hyaluronan.
+CC   -!- SUBUNIT: Interacts with FBLN1. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250|UniProtKB:P13611}. Cell projection, cilium,
+CC       photoreceptor outer segment {ECO:0000250|UniProtKB:P13611}. Secreted,
+CC       extracellular space, extracellular matrix, interphotoreceptor matrix
+CC       {ECO:0000250|UniProtKB:P13611}.
+CC   -!- DEVELOPMENTAL STAGE: Disappears after the cartilage development.
+CC   -!- PTM: Phosphorylated by FAM20C in the extracellular medium.
+CC       {ECO:0000250|UniProtKB:P13611}.
+CC   -!- SIMILARITY: Belongs to the aggrecan/versican proteoglycan family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S72412; AAA65593.2; -; mRNA.
+DR   EMBL; S72413; AAA65594.2; -; mRNA.
+DR   EMBL; S72414; AAA65595.2; -; mRNA.
+DR   PIR; S43922; S43922.
+DR   AlphaFoldDB; Q28858; -.
+DR   SMR; Q28858; -.
+DR   STRING; 9545.ENSMNEP00000026950; -.
+DR   Proteomes; UP000233120; Whole Genome Shotgun Assembly.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0033165; C:interphotoreceptor matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001750; C:photoreceptor outer segment; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005540; F:hyaluronic acid binding; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   Gene3D; 3.10.100.10; -; 2.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR001881; EGF-like_Ca-bd_dom.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR000152; EGF-type_Asp/Asn_hydroxyl_site.
+DR   InterPro; IPR018097; EGF_Ca-bd_CS.
+DR   InterPro; IPR000538; Link_dom.
+DR   Pfam; PF00008; EGF; 2.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF00193; Xlink; 2.
+DR   SMART; SM00181; EGF; 2.
+DR   SMART; SM00179; EGF_CA; 2.
+DR   SMART; SM00445; LINK; 1.
+DR   SUPFAM; SSF56436; SSF56436; 3.
+DR   PROSITE; PS00010; ASX_HYDROXYL; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS00022; EGF_1; 2.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS50026; EGF_3; 2.
+DR   PROSITE; PS01187; EGF_CA; 1.
+DR   PROSITE; PS01241; LINK_1; 1.
+DR   PROSITE; PS50963; LINK_2; 2.
+PE   2: Evidence at transcript level;
+KW   Calcium; Cell projection; Disulfide bond; EGF-like domain;
+KW   Extracellular matrix; Glycoprotein; Lectin; Phosphoprotein; Proteoglycan;
+KW   Reference proteome; Repeat; Secreted.
+FT   CHAIN           <1..>862
+FT                   /note="Versican core protein"
+FT                   /id="PRO_0000046693"
+FT   DOMAIN          <1..38
+FT                   /note="Link 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          44..140
+FT                   /note="Link 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          718..754
+FT                   /note="EGF-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          756..792
+FT                   /note="EGF-like 2; calcium-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          805..>862
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          141..>233
+FT                   /note="GAG-alpha (glucosaminoglycan attachment domain)"
+FT   REGION          <234..>525
+FT                   /note="Glucosaminoglycan attachment domain, similar to
+FT                   chondroitin sulfate attachment site in collagen type IX"
+FT                   /evidence="ECO:0000250"
+FT   REGION          251..288
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        253..277
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         269
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13611"
+FT   CARBOHYD        123
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        204
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        332
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        425
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        477
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        513
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        563
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        696
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        63..138
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        87..108
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        722..733
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        727..742
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        744..753
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        760..771
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        765..780
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        782..791
+FT                   /evidence="ECO:0000250"
+FT   NON_CONS        233..234
+FT                   /evidence="ECO:0000305"
+FT   NON_CONS        525..526
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         1
+FT   NON_TER         862
+SQ   SEQUENCE   862 AA;  95583 MW;  A5D5F6153A74BB39 CRC64;
+     YPIRAPRVGC YGDMMGKAGV RTYGFRSPQE TYDVYCYVDH LDGDVFHLTA PSKFTFEEAA
+     KECENQDARL ATVGELQAAW RNGFDQCDYG WLSDASVRHP VTVARAQCGG GLLGVRTLYR
+     FENQTGFPPP DSRFDAYCFK RRMSDLSVIG HPIDSESKED EPCSEETDPV HDLMAEILPE
+     FPDIIEIDLY HSEENEEEEE ECANATDVTT TPSVQYINGK HLVTTVPKDP EAASGTISTN
+     FPQTMEPAKL WSRQEVNPER QEIESETTSE EQIQEEKSFE SPQNSPATEQ TIFDSQTFTE
+     TELKTTGYSV LTTKKTYSDD KEMEEEGTSL ANMSTPVPDA NGVESFTTLP EATEKSHFFL
+     ATALVTESIP AEHVVTDSPI KEEESTKHFP KGMRPTIQEL DTELLFSGLG SGEEVLPTLP
+     TKSVNFTEVE QIRNTFYPHT SQVESTSSDK LEDFNRMENV AKEVGPLGSQ TDIFEGNESV
+     TSTTLIEILS DPGAEGPTVA PLPFFANIGH PQNQTLRWAE EIQTSKLEPS EEDGKPELLE
+     ETEASPTEFI AVEGTEILQD FQNKTDGQVS GEAIKMFPTI KTPEAGTVIT TANEIKLEGA
+     TQWPHSTSAS ATYGIEAGVM PWLSPQTSER PTLSSSPEIN PETQAALIRG QDSTVAASEQ
+     QVTARILDTN DQATVSPVEF NTEVATPPFS LLETSNETDF LIGINEESVE GTAIYLPGPD
+     RCKMNPCLNG GTCYPTETSY VCTCVPGYSG DQCELDFDEC HSNPCRNGAT CADGFNTFRC
+     LCLPSYVGAL CEQDIETCDY GWHKFQGQCY KYFAHRRTWD AAERECRLQG AHLTSILSHE
+     EQMFVNRVGH DYQWIGLNDK MF
+//

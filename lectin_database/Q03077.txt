@@ -1,0 +1,69 @@
+ID   GIL2_ENTHI              Reviewed;         288 AA.
+AC   Q03077;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   25-MAY-2022, entry version 49.
+DE   RecName: Full=Galactose-inhibitable lectin 35 kDa subunit;
+DE   Flags: Precursor;
+OS   Entamoeba histolytica.
+OC   Eukaryota; Amoebozoa; Evosea; Archamoebae; Mastigamoebida; Entamoebidae;
+OC   Entamoeba.
+OX   NCBI_TaxID=5759;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1435873; DOI=10.1016/0166-6851(92)90144-9;
+RA   Tannich E., Ebert F., Horstmann R.D.;
+RT   "Molecular cloning of cDNA and genomic sequences coding for the 35-
+RT   kilodalton subunit of the galactose-inhibitable lectin of pathogenic
+RT   Entamoeba histolytica.";
+RL   Mol. Biochem. Parasitol. 55:225-227(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 11-288.
+RX   PubMed=8226970; DOI=10.1016/s0021-9258(20)80514-6;
+RA   McCoy J.J., Mann B.J., Vedvick T.S., Pak Y., Heimark D.B., Petri W.A. Jr.;
+RT   "Structural analysis of the light subunit of the Entamoeba histolytica
+RT   galactose-specific adherence lectin.";
+RL   J. Biol. Chem. 268:24223-24231(1993).
+CC   -!- FUNCTION: Lectin that binds galactose.
+CC   -!- SUBUNIT: Heterodimer of a heavy (170 kDa) and a light subunit (35 kDa)
+CC       linked by disulfide bonds.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M96024; AAA29099.1; -; Genomic_DNA.
+DR   EMBL; L06065; AAA16054.1; -; mRNA.
+DR   PIR; A48452; A48452.
+DR   PIR; A49505; A49505.
+DR   AlphaFoldDB; Q03077; -.
+DR   VEuPathDB; AmoebaDB:EHI5A_013340; -.
+DR   VEuPathDB; AmoebaDB:EHI7A_044310; -.
+DR   VEuPathDB; AmoebaDB:EHI8A_227050; -.
+DR   VEuPathDB; AmoebaDB:EHI_035690; -.
+DR   VEuPathDB; AmoebaDB:KM1_082970; -.
+DR   eggNOG; ENOG502RAVA; Eukaryota.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR035310; Gal_GalNac_35kDa.
+DR   Pfam; PF17337; Gal_GalNac_35kD; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Lectin; Signal.
+FT   SIGNAL          1..13
+FT   CHAIN           14..288
+FT                   /note="Galactose-inhibitable lectin 35 kDa subunit"
+FT                   /id="PRO_0000021327"
+FT   CONFLICT        11
+FT                   /note="S -> A (in Ref. 2; AAA16054)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        64
+FT                   /note="E -> K (in Ref. 2; AAA16054)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        167
+FT                   /note="E -> G (in Ref. 2; AAA16054)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   288 AA;  33667 MW;  DECF366D3DAFA24B CRC64;
+     MIILVLLISY SFGKTQDGKD QLSPNYPYGK MNKDVNFNKP FTSAVDSYQI QQYAENGVFS
+     ANQENYVRAK CKTCCRVIFA SDYNYKTNTQ FTDEDDKKGD ERYVMDMEFD DKRSVRFRNG
+     GYEQNILLRP LKQGNELQFF EFAPYRMYTS YAIPKRVHDI RGGANEEATL IIWPKNPPLS
+     DAPGTRNQRF VYVHPYPTEW YPEYNSTTKY TQNGKTVIKT LKWPTYKRHF YLPYRLDVDL
+     CYQARKATDG RSTWTGNKNL NTTSKSYQII ASRCSATEAR QIFIPVFA
+//

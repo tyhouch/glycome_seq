@@ -1,0 +1,219 @@
+ID   GLU2A_SCHPO             Reviewed;         923 AA.
+AC   Q9US55;
+DT   05-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 124.
+DE   RecName: Full=Glucosidase 2 subunit alpha {ECO:0000250|UniProtKB:P38138};
+DE            EC=3.2.1.207 {ECO:0000269|PubMed:9774332, ECO:0000269|PubMed:9813085};
+DE   AltName: Full=Alpha-glucosidase II subunit alpha {ECO:0000250|UniProtKB:P38138};
+DE   AltName: Full=Glucosidase II gls2 {ECO:0000312|EMBL:CAB65603.1};
+DE   AltName: Full=Glucosidase II subunit alpha {ECO:0000250|UniProtKB:P38138};
+DE   Flags: Precursor;
+GN   Name=gls2 {ECO:0000312|EMBL:CAB65603.1}; ORFNames=SPAC1002.03c;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+RN   [2]
+RP   CATALYTIC ACTIVITY, AND DISRUPTION PHENOTYPE.
+RX   PubMed=9774332; DOI=10.1093/emboj/17.20.5877;
+RA   Fernandez F., D'Alessio C., Fanchiotti S., Parodi A.J.;
+RT   "A misfolded protein conformation is not a sufficient condition for in vivo
+RT   glucosylation by the UDP-Glc:glycoprotein glucosyltransferase.";
+RL   EMBO J. 17:5877-5886(1998).
+RN   [3]
+RP   CATALYTIC ACTIVITY, AND DISRUPTION PHENOTYPE.
+RX   PubMed=9813085; DOI=10.1083/jcb.143.3.625;
+RA   Fanchiotti S., Fernandez F., D'Alessio C., Parodi A.J.;
+RT   "The UDP-Glc:Glycoprotein glucosyltransferase is essential for
+RT   Schizosaccharomyces pombe viability under conditions of extreme endoplasmic
+RT   reticulum stress.";
+RL   J. Cell Biol. 143:625-635(1998).
+RN   [4]
+RP   SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS].
+RX   PubMed=16823372; DOI=10.1038/nbt1222;
+RA   Matsuyama A., Arai R., Yashiroda Y., Shirai A., Kamata A., Sekido S.,
+RA   Kobayashi Y., Hashimoto A., Hamamoto M., Hiraoka Y., Horinouchi S.,
+RA   Yoshida M.;
+RT   "ORFeome cloning and global analysis of protein localization in the fission
+RT   yeast Schizosaccharomyces pombe.";
+RL   Nat. Biotechnol. 24:841-847(2006).
+CC   -!- FUNCTION: Catalytic subunit of glucosidase 2, which cleaves
+CC       sequentially the 2 innermost alpha-1,3-linked glucose residues from the
+CC       Glc(2)Man(9)GlcNAc(2) oligosaccharide precursor of immature
+CC       glycoproteins. {ECO:0000250|UniProtKB:P38138}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] = beta-D-glucose + N(4)-(alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] (N-glucan mannose isomer 9A1,2,3B1,2,3);
+CC         Xref=Rhea:RHEA:56000, Rhea:RHEA-COMP:14356, Rhea:RHEA-COMP:14357,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15903, ChEBI:CHEBI:59080,
+CC         ChEBI:CHEBI:139493; EC=3.2.1.207;
+CC         Evidence={ECO:0000269|PubMed:9774332, ECO:0000269|PubMed:9813085};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-
+CC         alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-
+CC         Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-
+CC         asparaginyl-[protein] = beta-D-glucose + N(4)-(alpha-D-Glc-(1->3)-
+CC         alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-
+CC         Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         alpha-D-GlcNAc)-L-asparaginyl-[protein]; Xref=Rhea:RHEA:55996,
+CC         Rhea:RHEA-COMP:14355, Rhea:RHEA-COMP:14357, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15903, ChEBI:CHEBI:59080, ChEBI:CHEBI:59082;
+CC         EC=3.2.1.207; Evidence={ECO:0000269|PubMed:9774332,
+CC         ECO:0000269|PubMed:9813085};
+CC   -!- PATHWAY: Glycan metabolism; N-glycan metabolism.
+CC   -!- SUBUNIT: Heterodimer of a catalytic subunit alpha (gls2) and a subunit
+CC       beta (gtb1). {ECO:0000250|UniProtKB:P38138}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum
+CC       {ECO:0000269|PubMed:16823372}.
+CC   -!- DISRUPTION PHENOTYPE: Gls2 and alg6 double mutant cells that transfer
+CC       Man(9)GlcNAc(2) and that are unable to remove the glucose units as they
+CC       lack gls2, grow at 37 degrees Celsius, but are characterized by swollen
+CC       cells, displaying pear, lemon and round shapes and have, when grown at
+CC       28 degrees Celsius, a phenotype of growth and morphology almost
+CC       identical to that of wild-type cells, indicating that facilitation of
+CC       glycoprotein folding mediated by the interaction of calnexin and
+CC       monoglucosylated oligosaccharides does not necessarily require cycles
+CC       of reglucosylation and deglucosylation. The gls2 and alg6 double mutant
+CC       cells grown in the absence of exogenous stress show an induction of the
+CC       binding protein (BiP)-encoding mRNA. An incubation of intact gls2 and
+CC       alg6 mutant cells with [(14)C]glucose for 15 minutes in the absence of
+CC       1-deoxynojirimycin (DNJ) leads to the production of protein-linked
+CC       Glc(1)Man(9)GlcNAc(2), Man(9)GlcNAc(2) and Man(8)GlcNAc(2).
+CC       {ECO:0000269|PubMed:9774332, ECO:0000269|PubMed:9813085}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329670; CAB65603.1; -; Genomic_DNA.
+DR   RefSeq; NP_593490.1; NM_001018924.2.
+DR   AlphaFoldDB; Q9US55; -.
+DR   SMR; Q9US55; -.
+DR   BioGRID; 279705; 27.
+DR   STRING; 4896.SPAC1002.03c.1; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   MaxQB; Q9US55; -.
+DR   PaxDb; Q9US55; -.
+DR   PRIDE; Q9US55; -.
+DR   EnsemblFungi; SPAC1002.03c.1; SPAC1002.03c.1:pep; SPAC1002.03c.
+DR   GeneID; 2543277; -.
+DR   KEGG; spo:SPAC1002.03c; -.
+DR   PomBase; SPAC1002.03c; gls2.
+DR   VEuPathDB; FungiDB:SPAC1002.03c; -.
+DR   eggNOG; KOG1066; Eukaryota.
+DR   HOGENOM; CLU_000631_7_0_1; -.
+DR   InParanoid; Q9US55; -.
+DR   OMA; QAGIWYP; -.
+DR   PhylomeDB; Q9US55; -.
+DR   BRENDA; 3.2.1.207; 5613.
+DR   UniPathway; UPA00957; -.
+DR   PRO; PR:Q9US55; -.
+DR   Proteomes; UP000002485; Chromosome I.
+DR   GO; GO:0005783; C:endoplasmic reticulum; HDA:PomBase.
+DR   GO; GO:0044322; C:endoplasmic reticulum quality control compartment; IEA:GOC.
+DR   GO; GO:0017177; C:glucosidase II complex; ISO:PomBase.
+DR   GO; GO:0090599; F:alpha-glucosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0030234; F:enzyme regulator activity; IDA:PomBase.
+DR   GO; GO:0033919; F:glucan 1,3-alpha-glucosidase activity; ISO:PomBase.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:1904380; P:endoplasmic reticulum mannose trimming; IDA:PomBase.
+DR   GO; GO:0006491; P:N-glycan processing; IDA:PomBase.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; IC:PomBase.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR033403; DUF5110.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF17137; DUF5110; 1.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Glycoprotein; Glycosidase; Hydrolase;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..923
+FT                   /note="Glucosidase 2 subunit alpha"
+FT                   /id="PRO_0000372782"
+FT   ACT_SITE        524
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0Y4"
+FT   ACT_SITE        527
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0Y4"
+FT   ACT_SITE        600
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0Y4"
+FT   CARBOHYD        262
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        563
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        822
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   923 AA;  106282 MW;  C2377CCD961B4AAF CRC64;
+     MRYHGICWFI FQAAIIFAIF GSCQGAFRHQ FKTAEQDGFA RRNRDLAKFQ KENLNWNGLF
+     QLNSISYNSG VVSGVFEQQS ENGENQHLFP FSISFLKNDV VRFQMDEKSR LEGTVEYEKN
+     ILTKRRFDAS TELGFNERAE VYGKDAHLLE QTSTSLTIRY GSHGRFTVIV TFSPFKVEFQ
+     RDGEPQVVLN ERHLLNMEYY RPKSSRTPEQ EANGMWDETF DNFHDSKPKG PESVGLDIKF
+     VDYGNVYGVP EHTSSLSLKE TNNSDAGYTE PYRLYNVDLF EYEVDSPMSQ YGAIPFMQAH
+     KPNSDVAVFW SNAAATWIDV EKESGPSPHS QSTSTHWYSE SGTLDLFIFL GPKASDVYES
+     YSALVGRPLL PPLFSIGYHQ CRWNYVSEED VLNVDAKFDE VDMPYDTIWL DIEYASKRRY
+     FTWDKATFPN PKAMLEKLDS KSRKLIVILD PHIKNDPNYF VSKELIDYNY AVKDKSGVDN
+     YNADCWPGNS VWVDFFNPEA QAWWGSLYEF DRFESDKNLW IWNDMNEPSV FRGPETSMHR
+     DAIHYGGWEH RDIHNIYGHK CINGTYNGLI KRGEGAVRPF ILTRSFFAGT SALAANWIGD
+     TMTTWEHLRG SIPTVLTNGI SGMAFSGADV AGFFGNPDAE LFVRWYETAI FYPFFRAHAH
+     IDTKRREPWL YGEPYTSLVR ELLRIRYRLL PTWYTAFYNS HTHGFPILYP QFLMHPEDEE
+     GFAIDDQFYV GDSGLLVKPV THPSIDKITI YLADDEVYFD LHDHTEYAGK GHQVVPAPLG
+     RVPVLLRGGN ILITRERIRR AAELTRNDPF TLTIAVSKIG KNASGFLYLD DGVTFNYKKG
+     EYLIRHFSYE NGILTMKDSH SNPPVSPKYS SSQKHLKVER INIYGEQTRK SIKIRKIIDS
+     EVTEWDVSVD DSGCIRNPQL FLV
+//

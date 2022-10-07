@@ -1,0 +1,195 @@
+ID   CABC2_PROVU             Reviewed;         990 AA.
+AC   C7S340;
+DT   19-OCT-2011, integrated into UniProtKB/Swiss-Prot.
+DT   13-OCT-2009, sequence version 1.
+DT   03-AUG-2022, entry version 35.
+DE   RecName: Full=Chondroitin sulfate ABC exolyase;
+DE            EC=4.2.2.21;
+DE   AltName: Full=Chondroitin ABC exoeliminase;
+DE   AltName: Full=Chondroitin ABC lyase II;
+DE   AltName: Full=Chondroitin sulfate ABC lyase II;
+DE            Short=ChS ABC lyase II;
+DE   AltName: Full=Chondroitinase ABC II;
+DE            Short=cABC II;
+DE   AltName: Full=Exochondroitinase ABC;
+DE   Flags: Fragment;
+GN   Name=ChABCII;
+OS   Proteus vulgaris.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Morganellaceae; Proteus.
+OX   NCBI_TaxID=585;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 6896 / NBRC 3988 / NCIMB 8065 / NCTC 4636;
+RA   Tam K.-W., Wang Q., Li R.A., Chan Y.-S., Shum D.K.-Y.;
+RT   "Cloning, recombinant expression, characterization and mutagenesis of
+RT   chondroitin sulphate ABC exolyase from Proteus vulgaris.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, ACTIVITY REGULATION,
+RP   AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=ATCC 6896 / NBRC 3988 / NCIMB 8065 / NCTC 4636;
+RX   PubMed=9083041; DOI=10.1074/jbc.272.14.9123;
+RA   Hamai A., Hashimoto N., Mochizuki H., Kato F., Makiguchi Y., Horie K.,
+RA   Suzuki S.;
+RT   "Two distinct chondroitin sulfate ABC lyases. An endoeliminase yielding
+RT   tetrasaccharides and an exoeliminase preferentially acting on
+RT   oligosaccharides.";
+RL   J. Biol. Chem. 272:9123-9130(1997).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, ACTIVE SITE RESIDUES, AND MUTAGENESIS OF HIS-343; HIS-452;
+RP   HIS-453; HIS-456; TYR-460; ARG-513 AND GLU-608.
+RC   STRAIN=ATCC 6896 / NBRC 3988 / NCIMB 8065 / NCTC 4636;
+RX   PubMed=18849565; DOI=10.1074/jbc.m806630200;
+RA   Prabhakar V., Capila I., Soundararajan V., Raman R., Sasisekharan R.;
+RT   "Recombinant expression, purification, and biochemical characterization of
+RT   chondroitinase ABC II from Proteus vulgaris.";
+RL   J. Biol. Chem. 284:974-982(2009).
+CC   -!- FUNCTION: Broad-specificity glycosaminoglycan lyase, which acts in an
+CC       exolytic fashion, and preferentially degrades the tetra- and
+CC       hexasaccharide derivatives of chondroitin sulfate and dermatan sulfate
+CC       produced by the chondroitin sulfate ABC endolyase, to yield the
+CC       respective disaccharides. To a lesser extent, is also able to split off
+CC       disaccharide residues directly from polymeric chondroitin 4- and 6-
+CC       sulfate, dermatan sulfate, chondroitin, and hyaluronan. Is not active
+CC       against keratan sulfate, heparan sulfate, and heparin.
+CC       {ECO:0000269|PubMed:18849565, ECO:0000269|PubMed:9083041}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Exolytic removal of Delta(4)-unsaturated disaccharide residues
+CC         from the non-reducing ends of both polymeric chondroitin/dermatan
+CC         sulfates and their oligosaccharide fragments.; EC=4.2.2.21;
+CC         Evidence={ECO:0000269|PubMed:18849565, ECO:0000269|PubMed:9083041};
+CC   -!- ACTIVITY REGULATION: Inhibited by Zn(2+), whereas Ni(2+), Fe(2+), and
+CC       Cu(2+) have little or no effect on activity.
+CC       {ECO:0000269|PubMed:9083041}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=33 uM for chondroitin 6-sulfate tetrasaccharide
+CC         {ECO:0000269|PubMed:18849565, ECO:0000269|PubMed:9083041};
+CC         KM=80 uM for chondroitin 6-sulfate {ECO:0000269|PubMed:18849565,
+CC         ECO:0000269|PubMed:9083041};
+CC         KM=9.8 uM for chondroitin 6-sulfate {ECO:0000269|PubMed:18849565,
+CC         ECO:0000269|PubMed:9083041};
+CC         KM=16.1 uM for chondroitin 4-sulfate {ECO:0000269|PubMed:18849565,
+CC         ECO:0000269|PubMed:9083041};
+CC         KM=19.2 uM for dermatan sulfate {ECO:0000269|PubMed:18849565,
+CC         ECO:0000269|PubMed:9083041};
+CC         Vmax=155 umol/min/mg enzyme with chondroitin 6-sulfate
+CC         tetrasaccharide as substrate {ECO:0000269|PubMed:18849565,
+CC         ECO:0000269|PubMed:9083041};
+CC         Vmax=34 umol/min/mg enzyme with chondroitin 6-sulfate as substrate
+CC         {ECO:0000269|PubMed:18849565, ECO:0000269|PubMed:9083041};
+CC       pH dependence:
+CC         Optimum pH is 8. {ECO:0000269|PubMed:18849565,
+CC         ECO:0000269|PubMed:9083041};
+CC       Temperature dependence:
+CC         Optimum temperature is 40 degrees Celsius (PubMed:9083041). Optimum
+CC         temperature is 37 degrees Celsius (PubMed:18849565).
+CC         {ECO:0000269|PubMed:18849565, ECO:0000269|PubMed:9083041};
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 8 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF988659; ABU46331.1; -; Genomic_DNA.
+DR   AlphaFoldDB; C7S340; -.
+DR   SMR; C7S340; -.
+DR   STRING; 585.DR95_2845; -.
+DR   eggNOG; ENOG502Z8J1; Bacteria.
+DR   BioCyc; MetaCyc:MON-15789; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0034000; F:chondroitin-sulfate-ABC endolyase activity; IEA:InterPro.
+DR   GO; GO:0034001; F:chondroitin-sulfate-ABC exolyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006027; P:glycosaminoglycan catabolic process; IEA:InterPro.
+DR   Gene3D; 1.50.10.100; -; 1.
+DR   Gene3D; 2.60.220.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR039174; Chondroitin_ABC_lyase.
+DR   InterPro; IPR008929; Chondroitin_lyas.
+DR   InterPro; IPR024200; Chondroitinase_ABC_I.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR011071; Lyase_8-like_C.
+DR   InterPro; IPR004103; Lyase_8_C.
+DR   InterPro; IPR003159; Lyase_8_central_dom.
+DR   InterPro; IPR015177; Lyase_catalyt.
+DR   InterPro; IPR015176; Lyase_N.
+DR   PANTHER; PTHR37322; PTHR37322; 1.
+DR   Pfam; PF02278; Lyase_8; 1.
+DR   Pfam; PF02884; Lyase_8_C; 1.
+DR   Pfam; PF09093; Lyase_catalyt; 1.
+DR   Pfam; PF09092; Lyase_N; 1.
+DR   PIRSF; PIRSF034515; Chondroitinase; 1.
+DR   SUPFAM; SSF48230; SSF48230; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF49863; SSF49863; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Lyase.
+FT   CHAIN           <1..990
+FT                   /note="Chondroitin sulfate ABC exolyase"
+FT                   /id="PRO_0000413627"
+FT   ACT_SITE        453
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000305|PubMed:18849565"
+FT   ACT_SITE        460
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255"
+FT   SITE            513
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255"
+FT   SITE            608
+FT                   /note="Important for catalytic activity"
+FT   MUTAGEN         343
+FT                   /note="H->A: Loss of activity on both chondroitin 6-sulfate
+FT                   and dermatan sulfate."
+FT                   /evidence="ECO:0000269|PubMed:18849565"
+FT   MUTAGEN         452
+FT                   /note="H->A: Slight decrease in substrate affinity, but
+FT                   greatly reduced (100-fold) catalytic efficiency."
+FT                   /evidence="ECO:0000269|PubMed:18849565"
+FT   MUTAGEN         453
+FT                   /note="H->A: Loss of activity on both chondroitin 6-sulfate
+FT                   and dermatan sulfate."
+FT                   /evidence="ECO:0000269|PubMed:18849565"
+FT   MUTAGEN         456
+FT                   /note="H->A: 3-fold decrease in catalytic efficiency with
+FT                   both chondroitin 6-sulfate and dermatan sulfate."
+FT                   /evidence="ECO:0000269|PubMed:18849565"
+FT   MUTAGEN         460
+FT                   /note="Y->A: Loss of activity on both chondroitin 6-sulfate
+FT                   and dermatan sulfate."
+FT                   /evidence="ECO:0000269|PubMed:18849565"
+FT   MUTAGEN         513
+FT                   /note="R->A: Loss of activity on both chondroitin 6-sulfate
+FT                   and dermatan sulfate."
+FT                   /evidence="ECO:0000269|PubMed:18849565"
+FT   MUTAGEN         608
+FT                   /note="E->A: Loss of activity on both chondroitin 6-sulfate
+FT                   and dermatan sulfate."
+FT                   /evidence="ECO:0000269|PubMed:18849565"
+FT   NON_TER         1
+SQ   SEQUENCE   990 AA;  111744 MW;  7AA786306AAADF08 CRC64;
+     LPTLSHEAFG DIYLFEGELP NTLTTSNNNQ LSLSKQHAKD GEQSLKWQYQ PQATLTLNNI
+     VNYQDDKNTA TPLTFMMWIY NEKPQSSPLT LAFKQNNKIA LSFNAELNFT GWRGIAVPFR
+     DMQGSATGQL DQLVITAPNQ AGTLFFDQII MSVPLDNRWA VPDYQTPYVN NAVNTMVSKN
+     WSALLMYDQM FQAHYPTLNF DTEFRDDQTE MASIYQRFEY YQGIRSDKKI TPDMLDKHLA
+     LWEKLVLTQH ADGSITGKAL DHPNRQHFMK VEGVFSEGTQ KALLDANMLR DVGKTLLQTA
+     IYLRSDSLSA TDRKKLEERY LLGTRYVLEQ GFTRGSGYQI ITHVGYQTRE LFDAWFIGRH
+     VLAKNNLLAP TQQAMMWYNA TGRIFEKNNE IVDANVDILN TQLQWMIKSL LMLPDYQQRQ
+     QALAQLQSWL NKTILSSKGV AGGFKSDGSI FHHSQHYPAY AKDAFGGLAP SVYALSDSPF
+     RLSTSAHERL KDVLLKMRIY TKETQIPVVL SGRHPTGLHK IGIAPFKWMA LAGTPDGKQK
+     LDTTLSAAYA KLDNKTHFEG INAESEPVGA WAMNYASMAI QRRASTQSPQ QSWLAIARGF
+     SRYLVGNESY ENNNRYGRYL QYGQLEIIPA DLTQSGFSHA GWDWNRYPGT TTIHLPYNEL
+     EAKLNQLPAA GIEEMLLSTE SYSGANTLNN NSMFAMKLHG HSKYQQQSLR ANKSYFLFDN
+     RVIALGSGIE NDDKQHTTET TLFQFAVPKL QSVIINGKKV NQLDTQLTLN NADTLIDPTG
+     NLYKLTKGQT VKFSYQKQHS LDDRNSKPTE QLFATAVISH GKAPSNENYE YAIAIEAQNN
+     KAPEYTVLQH NDQLHAVKDK ITQEEGYAFF EATKLKSADA TLLSSDAPVM VMAKIQNQQL
+     TLSIVNPDLN LYQGREKDQF DDKGNQIEVS VYSRHWLTAE SQSTNSTITV KGIWKLTTPQ
+     PGVIIKHHNN NTLITTTTIQ ATPTVINLVK
+//

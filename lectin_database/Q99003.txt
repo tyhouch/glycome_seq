@@ -1,0 +1,144 @@
+ID   F17AG_ECOLX             Reviewed;         344 AA.
+AC   Q99003; O30927;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 2.
+DT   03-AUG-2022, entry version 92.
+DE   RecName: Full=F17a-G fimbrial adhesin;
+DE   Flags: Precursor;
+GN   Name=f17aG;
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, SIGNAL SEQUENCE CLEAVAGE SITE,
+RP   AND SUBCELLULAR LOCATION.
+RC   STRAIN=25KH09st/ ETEC;
+RX   PubMed=1675211; DOI=10.1128/jb.173.11.3366-3373.1991;
+RA   Lintermans P.F.L., Bertels A., Schlicker C., Deboeck F., Charlier G.,
+RA   Pohl P., Norgren M., Normark S., van Montagu M., De Greve H.M.J.;
+RT   "Identification, characterization, and nucleotide sequence of the F17-G
+RT   gene, which determines receptor binding of Escherichia coli F17 fimbriae.";
+RL   J. Bacteriol. 173:3366-3373(1991).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.40 ANGSTROMS) OF 23-199 AND IN COMPLEX WITH
+RP   N-ACETYL-D-GLUCOSAMINE.
+RC   STRAIN=25KH09st/ ETEC;
+RX   PubMed=12864853; DOI=10.1046/j.1365-2958.2003.03600.x;
+RA   Buts L., Bouckaert J., De Genst E., Loris R., Oscarson S., Lahmann M.,
+RA   Messens J., Brosens E., Wyns L., De Greve H.M.J.;
+RT   "The fimbrial adhesin F17-G of enterotoxigenic Escherichia coli has an
+RT   immunoglobulin-like lectin domain that binds N-acetylglucosamine.";
+RL   Mol. Microbiol. 49:705-715(2003).
+CC   -!- FUNCTION: Essential fimbrial adhesion factor that mediates binding to
+CC       N-acetylglucosamine-containing receptors in the host intestinal
+CC       microvilli, leading to colonization of the intestinal tissue, and
+CC       diarrhea or septicemia. Also confers adhesiveness to laminin and
+CC       basement membranes. {ECO:0000269|PubMed:1675211}.
+CC   -!- SUBCELLULAR LOCATION: Fimbrium {ECO:0000269|PubMed:1675211}.
+CC       Note=Attached to the tip of the fimbrial filaments.
+CC   -!- SIMILARITY: Belongs to the fimbrial protein family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF022140; AAC45722.1; -; Genomic_DNA.
+DR   PIR; A42359; A42359.
+DR   RefSeq; WP_061363424.1; NZ_QLKB01000116.1.
+DR   PDB; 1O9V; X-ray; 1.75 A; A=23-199.
+DR   PDB; 1O9W; X-ray; 1.65 A; A=23-199.
+DR   PDB; 1O9Z; X-ray; 1.75 A; A=23-199.
+DR   PDB; 1ZPL; X-ray; 1.70 A; A/B=23-199.
+DR   PDB; 2BSC; X-ray; 1.40 A; A=23-199.
+DR   PDB; 3F64; X-ray; 1.95 A; A=23-199.
+DR   PDB; 3F6J; X-ray; 1.75 A; A=23-199.
+DR   PDBsum; 1O9V; -.
+DR   PDBsum; 1O9W; -.
+DR   PDBsum; 1O9Z; -.
+DR   PDBsum; 1ZPL; -.
+DR   PDBsum; 2BSC; -.
+DR   PDBsum; 3F64; -.
+DR   PDBsum; 3F6J; -.
+DR   AlphaFoldDB; Q99003; -.
+DR   SMR; Q99003; -.
+DR   UniLectin; Q99003; -.
+DR   PATRIC; fig|562.10497.peg.1043; -.
+DR   EvolutionaryTrace; Q99003; -.
+DR   GO; GO:0009289; C:pilus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044406; P:adhesion of symbiont to host; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   Gene3D; 2.60.40.1090; -; 1.
+DR   InterPro; IPR000259; Adhesion_dom_fimbrial.
+DR   InterPro; IPR036937; Adhesion_dom_fimbrial_sf.
+DR   InterPro; IPR008966; Adhesion_dom_sf.
+DR   InterPro; IPR015303; Fimbrial_adhesin_lectin_dom.
+DR   Pfam; PF09222; Fim-adh_lectin; 1.
+DR   Pfam; PF00419; Fimbrial; 1.
+DR   SUPFAM; SSF49401; SSF49401; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Fimbrium; Lectin; Signal; Virulence.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000269|PubMed:1675211"
+FT   CHAIN           23..344
+FT                   /note="F17a-G fimbrial adhesin"
+FT                   /id="PRO_5000053432"
+FT   REGION          23..199
+FT                   /note="Receptor-binding lectin domain"
+FT   REGION          200..344
+FT                   /note="Fimbrillin-binding domain"
+FT   REGION          288..308
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         65..66
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         110..111
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         139..142
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   DISULFID        75..132
+FT   STRAND          24..26
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          30..35
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          39..41
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          51..53
+FT                   /evidence="ECO:0007829|PDB:1ZPL"
+FT   STRAND          59..71
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          75..82
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          86..90
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          93..112
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   HELIX           113..115
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          116..118
+FT                   /evidence="ECO:0007829|PDB:1ZPL"
+FT   STRAND          121..123
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          125..132
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          138..153
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          160..162
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          165..174
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          186..191
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+FT   STRAND          194..196
+FT                   /evidence="ECO:0007829|PDB:2BSC"
+SQ   SEQUENCE   344 AA;  36555 MW;  632952BEBD0F32FB CRC64;
+     MTNFYKVFLA VFILVCCNIS QAAVSFIGST ENDVGPSLGS YSRTHAMDNL PFVYDTRNKI
+     GYQNANVWHI SKGFCVGLDG KVDLPVVGSL DGQSIYGLTE EVGLLIWMGD TKYSRGTAMS
+     GNSWENVFSG WCVGANTAST QGLSVRVTPV ILKRNSSARY SVQKTSIGSI RMRPYNGSSA
+     GSVQTTVNFS LNPFTLNDTV TSCRLLTPSA VNVSLAAISA GQLPSSGDEV VAGTTSLKLQ
+     CDAGVTVWAT LTDATTPSNR SDILTLTGAS TATGVGLRIY KNTDSTPLKF GPDSPVKGNE
+     NQWQLSTGTE TSPSVRLYVK YVNTGEGINP GTVNGISTFT FSYQ
+//

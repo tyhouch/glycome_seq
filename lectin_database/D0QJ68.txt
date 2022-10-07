@@ -1,0 +1,99 @@
+ID   D0QJ68_9CALI            Unreviewed;       539 AA.
+AC   D0QJ68;
+DT   15-DEC-2009, integrated into UniProtKB/TrEMBL.
+DT   15-DEC-2009, sequence version 1.
+DT   03-AUG-2022, entry version 29.
+DE   SubName: Full=VP1 {ECO:0000313|EMBL:ACT76142.1};
+OS   Norovirus Hu/GII.4/CHDC2094/1974/US.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Caliciviridae; Norovirus.
+OX   NCBI_TaxID=660656 {ECO:0000313|EMBL:ACT76142.1, ECO:0000313|Proteomes:UP000108271};
+RN   [1] {ECO:0000313|EMBL:ACT76142.1, ECO:0000313|Proteomes:UP000108271}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hu/GII.4/CHDC2094/1974/US {ECO:0000313|EMBL:ACT76142.1};
+RX   PubMed=19759138; DOI=10.1128/JVI.00864-09;
+RA   Bok K., Abente E.J., Realpe-Quintero M., Mitra T., Sosnovtsev S.V.,
+RA   Kapikian A.Z., Green K.Y.;
+RT   "Evolutionary dynamics of GII.4 noroviruses over a 34-year period.";
+RL   J. Virol. 83:11890-11901(2009).
+RN   [2] {ECO:0007829|PDB:5IYN, ECO:0007829|PDB:5IYP}
+RP   X-RAY CRYSTALLOGRAPHY (1.27 ANGSTROMS) OF 225-529 IN COMPLEX WITH FUCOSE.
+RA   Singh B.K., Hansman G.S.;
+RT   "Four decades of structural evolution of GII.4 norovirus.";
+RL   Submitted (MAR-2016) to the PDB data bank.
+RN   [3] {ECO:0007829|PDB:5IYR, ECO:0007829|PDB:5IYW}
+RP   X-RAY CRYSTALLOGRAPHY (1.41 ANGSTROMS) OF 225-529 IN COMPLEX WITH FUCOSE
+RP   AND GALACTOSE.
+RA   Singh B.K., Hansman G.S.;
+RT   "Structural basis for GII.4 norovirus inhibition by human milk
+RT   oligosaccharides.";
+RL   Submitted (MAR-2016) to the PDB data bank.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FJ537135; ACT76142.1; -; Genomic_RNA.
+DR   PDB; 5IYN; X-ray; 1.56 A; A/B=225-529.
+DR   PDB; 5IYP; X-ray; 1.27 A; A/B=225-529.
+DR   PDB; 5IYQ; X-ray; 1.41 A; A/B=225-529.
+DR   PDB; 5IYR; X-ray; 1.54 A; A/B=225-529.
+DR   PDB; 5IYW; X-ray; 1.41 A; A/B=225-529.
+DR   PDBsum; 5IYN; -.
+DR   PDBsum; 5IYP; -.
+DR   PDBsum; 5IYQ; -.
+DR   PDBsum; 5IYR; -.
+DR   PDBsum; 5IYW; -.
+DR   SMR; D0QJ68; -.
+DR   UniLectin; D0QJ68; -.
+DR   Proteomes; UP000108271; Genome.
+DR   CDD; cd00205; rhv_like; 1.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   InterPro; IPR004005; Calicivirus_coat.
+DR   InterPro; IPR013643; Calicivirus_coat_C.
+DR   InterPro; IPR033703; Rhv-like.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00915; Calici_coat; 1.
+DR   Pfam; PF08435; Calici_coat_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5IYN, ECO:0007829|PDB:5IYP}.
+FT   DOMAIN          12..276
+FT                   /note="Calici_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00915"
+FT   DOMAIN          305..537
+FT                   /note="Calici_coat_C"
+FT                   /evidence="ECO:0000259|Pfam:PF08435"
+FT   BINDING         344
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:5IYP, ECO:0007829|PDB:5IYQ"
+FT   BINDING         345
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:5IYP, ECO:0007829|PDB:5IYQ"
+FT   BINDING         374
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:5IYP, ECO:0007829|PDB:5IYQ"
+FT   BINDING         441
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:5IYR"
+FT   BINDING         441
+FT                   /ligand="Glucose"
+FT                   /ligand_id="ChEBI:CHEBI:17925"
+FT                   /evidence="ECO:0007829|PDB:5IYW"
+FT   BINDING         442
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:5IYP, ECO:0007829|PDB:5IYQ"
+SQ   SEQUENCE   539 AA;  58923 MW;  81E02447A4972064 CRC64;
+     MKMASSDANP SDGSTANLVP EVNNEVMALE PVVGAAIAAP VAGQQNIIDP WIRNNFVQAP
+     GGEFTVSPRN APGEILWSAP LSPDLNPYLS HLSRMYNGYA GGFEVQVILA GNAFTAGKII
+     FAAIPPNFPT EGLSPSQVTM FPHIIVDVRQ LEPVLIPLPD VRNNFYHYNQ AHDSTLKLIA
+     MLYTPLRANN AGDDVFTVSC RVLTRPSPDF DFIFLVPPTV ESRTKPFTVP ILTVEEMSNS
+     RFPIPLEKLY TGPSSAFVVQ PQNGRCTTDG VLLGTTQLSA VNICNFRGDV TRVGISHDYT
+     MNLVSQNWNN YDPTEEIPAP LGTPDFVGKI QGLLTQTTRA DGSTRAHKAT VSTGSVHFTP
+     KLGSVQFTTD TNNDFQTGQN TKFTPVGVIQ DGDHHQNEPQ QWVLPNYSGT SGHNVHLAPA
+     VAPTFPGEQL LFFRSTMPGC SGYPNMNLDC LLPQEWVSHF YQEAAPAQSD VALLRFVNPD
+     TGRVLFECKL HKSGYITVAH TGPYDLVIPP NGYFRFDSWV NQFYTLAPMG NGSGRKRVL
+//

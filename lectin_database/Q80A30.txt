@@ -1,0 +1,261 @@
+ID   HEMA_I01A1              Reviewed;         552 AA.
+AC   Q80A30;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-JUN-2021, entry version 87.
+DE   RecName: Full=Hemagglutinin {ECO:0000255|HAMAP-Rule:MF_04072};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin HA1 chain {ECO:0000255|HAMAP-Rule:MF_04072};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin HA2 chain {ECO:0000255|HAMAP-Rule:MF_04072};
+DE   Flags: Precursor; Fragment;
+GN   Name=HA {ECO:0000255|HAMAP-Rule:MF_04072};
+OS   Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus.
+OX   NCBI_TaxID=196426;
+OH   NCBI_TaxID=8782; Aves.
+OH   NCBI_TaxID=9685; Felis catus (Cat) (Felis silvestris catus).
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+OH   NCBI_TaxID=9691; Panthera pardus (Leopard) (Felis pardus).
+OH   NCBI_TaxID=9694; Panthera tigris (Tiger).
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=12077307; DOI=10.1073/pnas.132268999;
+RA   Guan Y., Peiris J.S.M., Lipatov A.S., Ellis T.M., Dyrting K.C., Krauss S.,
+RA   Zhang L.J., Webster R.G., Shortridge K.F.;
+RT   "Emergence of multiple genotypes of H5N1 avian influenza viruses in Hong
+RT   Kong SAR.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:8950-8955(2002).
+CC   -!- FUNCTION: Binds to sialic acid-containing receptors on the cell
+CC       surface, bringing about the attachment of the virus particle to the
+CC       cell. This attachment induces virion internalization either through
+CC       clathrin-dependent endocytosis or through clathrin- and caveolin-
+CC       independent pathway. Plays a major role in the determination of host
+CC       range restriction and virulence. Class I viral fusion protein.
+CC       Responsible for penetration of the virus into the cell cytoplasm by
+CC       mediating the fusion of the membrane of the endocytosed virus particle
+CC       with the endosomal membrane. Low pH in endosomes induces an
+CC       irreversible conformational change in HA2, releasing the fusion
+CC       hydrophobic peptide. Several trimers are required to form a competent
+CC       fusion pore. {ECO:0000255|HAMAP-Rule:MF_04072}.
+CC   -!- SUBUNIT: Homotrimer of disulfide-linked HA1-HA2. {ECO:0000255|HAMAP-
+CC       Rule:MF_04072}.
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_04072}; Single-pass type I membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_04072}. Host apical cell membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_04072}; Single-pass type I membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_04072}. Note=Targeted to the apical plasma membrane in
+CC       epithelial polarized cells through a signal present in the
+CC       transmembrane domain. Associated with glycosphingolipid- and
+CC       cholesterol-enriched detergent-resistant lipid rafts.
+CC       {ECO:0000255|HAMAP-Rule:MF_04072}.
+CC   -!- PTM: Palmitoylated. {ECO:0000255|HAMAP-Rule:MF_04072}.
+CC   -!- PTM: In natural infection, inactive HA is matured into HA1 and HA2
+CC       outside the cell by one or more trypsin-like, arginine-specific
+CC       endoprotease secreted by the bronchial epithelial cells. One identified
+CC       protease that may be involved in this process is secreted in lungs by
+CC       Clara cells. {ECO:0000255|HAMAP-Rule:MF_04072}.
+CC   -!- MISCELLANEOUS: Major glycoprotein, comprises over 80% of the envelope
+CC       proteins present in virus particle.
+CC   -!- MISCELLANEOUS: The extent of infection into host organism is determined
+CC       by HA. Influenza viruses bud from the apical surface of polarized
+CC       epithelial cells (e.g. bronchial epithelial cells) into lumen of lungs
+CC       and are therefore usually pneumotropic. The reason is that HA is
+CC       cleaved by tryptase clara which is restricted to lungs. However, HAs of
+CC       H5 and H7 pantropic avian viruses subtypes can be cleaved by furin and
+CC       subtilisin-type enzymes, allowing the virus to grow in other organs
+CC       than lungs.
+CC   -!- MISCELLANEOUS: The influenza A genome consist of 8 RNA segments.
+CC       Genetic variation of hemagglutinin and/or neuraminidase genes results
+CC       in the emergence of new influenza strains. The mechanism of variation
+CC       can be the result of point mutations or the result of genetic
+CC       reassortment between segments of two different strains.
+CC   -!- SIMILARITY: Belongs to the influenza viruses hemagglutinin family.
+CC       {ECO:0000255|HAMAP-Rule:MF_04072}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF509017; AAO52860.1; -; Genomic_DNA.
+DR   PDB; 3S12; X-ray; 3.10 A; A=6-328, B=336-511.
+DR   PDB; 3S13; X-ray; 2.96 A; A=6-328, B=336-511.
+DR   PDBsum; 3S12; -.
+DR   PDBsum; 3S13; -.
+DR   SMR; Q80A30; -.
+DR   UniLectin; Q80A30; -.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-KW.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046789; F:host cell surface receptor binding; IEA:InterPro.
+DR   GO; GO:0075512; P:clathrin-dependent endocytosis of virus by host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0039654; P:fusion of virus membrane with host endosome membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; IEA:InterPro.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.209.20; -; 1.
+DR   HAMAP; MF_04072; INFV_HEMA; 1.
+DR   InterPro; IPR008980; Capsid_hemagglutn.
+DR   InterPro; IPR013828; Hemagglutn_HA1_a/b_dom_sf.
+DR   InterPro; IPR000149; Hemagglutn_influenz_A.
+DR   InterPro; IPR001364; Hemagglutn_influenz_A/B.
+DR   Pfam; PF00509; Hemagglutinin; 1.
+DR   PRINTS; PR00330; HEMAGGLUTN1.
+DR   PRINTS; PR00329; HEMAGGLUTN12.
+DR   SUPFAM; SSF49818; SSF49818; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure;
+KW   Clathrin- and caveolin-independent endocytosis of virus by host;
+KW   Clathrin-mediated endocytosis of virus by host; Disulfide bond;
+KW   Fusion of virus membrane with host endosomal membrane;
+KW   Fusion of virus membrane with host membrane; Glycoprotein; Hemagglutinin;
+KW   Host cell membrane; Host membrane; Host-virus interaction; Lipoprotein;
+KW   Membrane; Palmitate; Transmembrane; Transmembrane helix;
+KW   Viral attachment to host cell; Viral envelope protein;
+KW   Viral penetration into host cytoplasm; Virion; Virus endocytosis by host;
+KW   Virus entry into host cell.
+FT   CHAIN           1..335
+FT                   /note="Hemagglutinin HA1 chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT                   /id="PRO_0000440802"
+FT   CHAIN           336..552
+FT                   /note="Hemagglutinin HA2 chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT                   /id="PRO_0000440803"
+FT   TOPO_DOM        1..520
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   TRANSMEM        521..541
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   TOPO_DOM        542..552
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   SITE            335..336
+FT                   /note="Cleavage; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   LIPID           546
+FT                   /note="S-palmitoyl cysteine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   CARBOHYD        15
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   CARBOHYD        16
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   CARBOHYD        28
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   CARBOHYD        170
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   CARBOHYD        291
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   CARBOHYD        489
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   DISULFID        9..472
+FT                   /note="Interchain (between HA1 and HA2 chains)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   DISULFID        47..279
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   DISULFID        60..72
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   DISULFID        95..140
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   DISULFID        283..307
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   DISULFID        479..483
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04072"
+FT   NON_TER         1
+FT   NON_TER         552
+FT   STRAND          7..13
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   STRAND          28..36
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   STRAND          44..51
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   HELIX           62..67
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   HELIX           70..75
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          84..86
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          91..93
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          95..100
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   HELIX           103..110
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          113..122
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   HELIX           124..126
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          128..131
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          137..142
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          145..147
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          150..154
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          165..170
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          173..175
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          177..185
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   HELIX           189..196
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          203..206
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          211..214
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          229..238
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          243..264
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          269..271
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          276..284
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          295..297
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          304..306
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          317..319
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   STRAND          349..351
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   STRAND          356..362
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   STRAND          367..371
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   HELIX           373..392
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   HELIX           410..435
+FT                   /evidence="ECO:0007829|PDB:3S13"
+FT   STRAND          464..467
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   STRAND          469..477
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   HELIX           481..488
+FT                   /evidence="ECO:0007829|PDB:3S12"
+FT   HELIX           494..497
+FT                   /evidence="ECO:0007829|PDB:3S12"
+SQ   SEQUENCE   552 AA;  62439 MW;  C5A89469C7BAFBA7 CRC64;
+     SLVKSDQICI GYHANNSTEQ VDTIMEKNVT VTHAQDILEK THNGKLCDLD GVKPLILRDC
+     SVAGWLLGNP MCDEFINVPE WSYIVEKASP ANDLCYPGDF NDYEELKHLL SRINHFEKIQ
+     IIPKSSWSNH EASSGVSSAC PYLGKSSFFR NVVWLIKKNS AYPTIKRSYN NTNQEDLLVL
+     WGIHHPNDAA EQTKLYQNPT TYISVGTSTL NQRLVPKIAT RSKVNGQSGR MEFFWTILKP
+     NDAINFESNG NFIAPEYAYK IVKKGDSAIM KSELEYGNCN TKCQTPMGAI NSSMPFHNIH
+     PLTIGECPKY VKSNRLVLAT GLRNTPQRER RRKKRGLFGA IAGFIEGGWQ GMVDGWYGYH
+     HSNEQGSGYA ADKESTQKAI DGVTNKVNSI IDKMNTQFEA VGREFNNLER RIENLNKKME
+     DGFLDVWTYN AELLVLMENE RTLDFHDSNV KNLYDKVRLQ LRDNAKELGN GCFEFYHKCD
+     NECMESVKNG TYDYPQYSEE ARLNREEISG VKLESMGTYQ ILSIYSTVAS SLTLAIMVAG
+     LSLWMCSNGS LQ
+//

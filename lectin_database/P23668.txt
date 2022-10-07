@@ -1,0 +1,127 @@
+ID   LEG6_CHICK              Reviewed;         134 AA.
+AC   P23668; Q53YM0;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   03-AUG-2022, entry version 145.
+DE   RecName: Full=16 kDa beta-galactoside-binding lectin;
+DE   AltName: Full=C-16;
+DE   AltName: Full=Galectin CG-16;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RA   Kaltner H., Gabius H.-J.;
+RT   "Chicken galectin CG-16 (16 kDa beta-galactoside-binding lectin), full
+RT   length cDNA from embryonic kidney.";
+RL   Submitted (FEB-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-117, PROTEIN SEQUENCE OF 1-60; 65-98 AND
+RP   101-134, AND ACETYLATION AT MET-1.
+RC   TISSUE=Liver;
+RX   PubMed=2254315; DOI=10.1016/s0021-9258(18)45779-1;
+RA   Sakakura Y., Hirabayashi J., Oda Y., Ohyama Y., Kasai K.;
+RT   "Structure of chicken 16-kDa beta-galactoside-binding lectin. Complete
+RT   amino acid sequence, cloning of cDNA, and production of recombinant
+RT   lectin.";
+RL   J. Biol. Chem. 265:21573-21579(1990).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.15 ANGSTROMS).
+RC   TISSUE=Liver;
+RX   PubMed=10610778; DOI=10.1006/jmbi.1999.3273;
+RA   Varela P.F., Solis D., Diaz-Maurino T., Kaltner H., Gabius H.-J.,
+RA   Romero A.;
+RT   "The 2.15 A crystal structure of CG-16, the developmentally regulated
+RT   homodimeric chicken galectin.";
+RL   J. Mol. Biol. 294:537-549(1999).
+CC   -!- FUNCTION: This protein binds beta-galactoside. Its physiological
+CC       function is not yet known. It may be involved in the regulation of
+CC       differentiation.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- TISSUE SPECIFICITY: Mainly in the liver (adult), mainly in the muscle
+CC       (embryo).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY553270; AAS59560.1; -; mRNA.
+DR   EMBL; M57240; AAA48626.1; -; mRNA.
+DR   PIR; A36496; LNCH16.
+DR   RefSeq; NP_996788.1; NM_206905.1.
+DR   PDB; 1QMJ; X-ray; 2.15 A; A/B=3-134.
+DR   PDBsum; 1QMJ; -.
+DR   AlphaFoldDB; P23668; -.
+DR   SMR; P23668; -.
+DR   STRING; 9031.ENSGALP00000041067; -.
+DR   UniLectin; P23668; -.
+DR   iPTMnet; P23668; -.
+DR   PaxDb; P23668; -.
+DR   GeneID; 404269; -.
+DR   KEGG; gga:404269; -.
+DR   CTD; 404269; -.
+DR   VEuPathDB; HostDB:geneid_404269; -.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   HOGENOM; CLU_037794_5_0_1; -.
+DR   OrthoDB; 1429018at2759; -.
+DR   PhylomeDB; P23668; -.
+DR   EvolutionaryTrace; P23668; -.
+DR   PRO; PR:P23668; -.
+DR   Proteomes; UP000000539; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0043236; F:laminin binding; IBA:GO_Central.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Lectin;
+KW   Reference proteome.
+FT   CHAIN           1..134
+FT                   /note="16 kDa beta-galactoside-binding lectin"
+FT                   /id="PRO_0000076952"
+FT   DOMAIN          4..134
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         69..75
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000269|PubMed:2254315"
+FT   STRAND          6..9
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          18..24
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          29..38
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          41..52
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          55..61
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          73..76
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          85..92
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          94..100
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          105..109
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+FT   STRAND          119..133
+FT                   /evidence="ECO:0007829|PDB:1QMJ"
+SQ   SEQUENCE   134 AA;  14934 MW;  7E698A458EA444BA CRC64;
+     MEQGLVVTQL DVQPGECVKV KGKILSDAKG FSVNVGKDSS TLMLHFNPRF DCHGDVNTVV
+     CNSKEDGTWG EEDRKADFPF QQGDKVEICI SFDAAEVKVK VPEVEFEFPN RLGMEKIQYL
+     AVEGDFKVKA IKFS
+//

@@ -1,0 +1,152 @@
+ID   BGLR_RAT                Reviewed;         648 AA.
+AC   P06760;
+DT   01-JAN-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1988, sequence version 1.
+DT   03-AUG-2022, entry version 151.
+DE   RecName: Full=Beta-glucuronidase;
+DE            EC=3.2.1.31 {ECO:0000305|PubMed:3355537};
+DE   Flags: Precursor;
+GN   Name=Gusb; Synonyms=Gus;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Preputial gland;
+RX   PubMed=3463967; DOI=10.1073/pnas.83.19.7292;
+RA   Nishimura Y., Rosenfeld M.G., Kreibich G., Gubler U., Sabatini D.D.,
+RA   Adesnik M., Andy R.;
+RT   "Nucleotide sequence of rat preputial gland beta-glucuronidase cDNA and in
+RT   vitro insertion of its encoded polypeptide into microsomal membranes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 83:7292-7296(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 14-648, AND CATALYTIC ACTIVITY.
+RC   TISSUE=Liver;
+RX   PubMed=3355537; DOI=10.1042/bj2500547;
+RA   Powell P.P., Kyle J.W., Miller R.D., Pantano J., Grubb J.H., Sly W.S.;
+RT   "Rat liver beta-glucuronidase. cDNA cloning, sequence comparisons and
+RT   expression of a chimeric protein in COS cells.";
+RL   Biochem. J. 250:547-555(1988).
+CC   -!- FUNCTION: Plays an important role in the degradation of dermatan and
+CC       keratan sulfates.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-glucuronoside + H2O = an alcohol + D-glucuronate;
+CC         Xref=Rhea:RHEA:17633, ChEBI:CHEBI:15377, ChEBI:CHEBI:30879,
+CC         ChEBI:CHEBI:58720, ChEBI:CHEBI:83411; EC=3.2.1.31;
+CC         Evidence={ECO:0000305|PubMed:3355537};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17634;
+CC         Evidence={ECO:0000305|PubMed:3355537};
+CC   -!- ACTIVITY REGULATION: Inhibited by L-aspartic acid. {ECO:0000250}.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SUBCELLULAR LOCATION: Lysosome.
+CC   -!- PTM: Undergoes a post-transcriptional proteolytic cleavage near its C-
+CC       terminal end, which reduces its size by approximately 3 kDa. The site
+CC       of this cleavage has as yet not been determined.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M13962; AAA41228.1; -; mRNA.
+DR   EMBL; Y00717; CAA68705.1; -; mRNA.
+DR   PIR; A25047; A25047.
+DR   RefSeq; NP_058711.2; NM_017015.2.
+DR   AlphaFoldDB; P06760; -.
+DR   SMR; P06760; -.
+DR   IntAct; P06760; 1.
+DR   STRING; 10116.ENSRNOP00000045033; -.
+DR   BindingDB; P06760; -.
+DR   ChEMBL; CHEMBL4814; -.
+DR   DrugCentral; P06760; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   GlyGen; P06760; 3 sites.
+DR   iPTMnet; P06760; -.
+DR   PhosphoSitePlus; P06760; -.
+DR   jPOST; P06760; -.
+DR   PaxDb; P06760; -.
+DR   PeptideAtlas; P06760; -.
+DR   PRIDE; P06760; -.
+DR   GeneID; 24434; -.
+DR   KEGG; rno:24434; -.
+DR   CTD; 2990; -.
+DR   RGD; 2772; Gusb.
+DR   eggNOG; KOG2024; Eukaryota.
+DR   InParanoid; P06760; -.
+DR   OrthoDB; 653343at2759; -.
+DR   Reactome; R-RNO-2024096; HS-GAG degradation.
+DR   Reactome; R-RNO-2160916; Hyaluronan uptake and degradation.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   SABIO-RK; P06760; -.
+DR   PRO; PR:P06760; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0005764; C:lysosome; IDA:RGD.
+DR   GO; GO:0004566; F:beta-glucuronidase activity; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0016787; F:hydrolase activity; ISO:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; ISO:RGD.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:RGD.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; ISO:RGD.
+DR   GO; GO:0019391; P:glucuronoside catabolic process; ISO:RGD.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SUPFAM; SSF49303; SSF49303; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Glycosidase; Hydrolase; Lysosome; Reference proteome; Signal.
+FT   SIGNAL          1..22
+FT   CHAIN           23..648
+FT                   /note="Beta-glucuronidase"
+FT                   /id="PRO_0000012163"
+FT   ACT_SITE        447
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        172
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        416
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        627
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        14
+FT                   /note="Q -> E (in Ref. 2; CAA68705)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        21
+FT                   /note="V -> L (in Ref. 2; CAA68705)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        487
+FT                   /note="M -> L (in Ref. 2; CAA68705)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   648 AA;  74793 MW;  5ADE8F5234F0907E CRC64;
+     MSPRRSVCWF VLGQLLCSCA VALQGGMLFP KETPSRELKV LDGLWSFRAD YSNNRLQGFE
+     KQWYRQPLRE SGPTLDMPVP SSFNDITQEA ELRNFIGWVW YEREAVLPQR WTQDTDRRVV
+     LRINSAHYYA VVWVNGIHVV EHEGGHLPFE ADITKLVQSG PLTTFRVTIA INNTLTPYTL
+     PPGTIVYKTD PSMYPKGYFV QDISFDFFNY AGLHRSVVLY TTPTTYIDDI TVTTDVDRDV
+     GLVNYWISVQ GSDHFQLEVR LLDEDGKIVA RGTGNEGQLK VPRAHLWWPY LMHEHPAYLY
+     SLEVTMTTPE SVSDFYTLPV GIRTVAVTKS KFLINGKPFY FQGVNKHEDS DIRGRGFDWP
+     LLIKDFNLLR WLGANSFRTS HYPYSEEVLQ LCDRYGIVVI DECPGVGIVL PQSFGNVSLR
+     HHLEVMDELV RRDKNHPAVV MWSVANEPVS SLKPAGYYFK TLIAHTKALD PTRPVTFVSN
+     TRYDADMGAP YVDVICVNSY LSWYHDYGHL EVIQLQLTSQ FENWYKMYQK PIIQSEYGAD
+     AVSGLHEDPP RMFSEEYQTA LLENYHLILD EKRKEYVIGE LIWNFADFMT NQSPLRVTGN
+     KKGIFTRQRN PKMAAFILRE RYWRIANETR GYGSVPRTQC MGSRPFTF
+//

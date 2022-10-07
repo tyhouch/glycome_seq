@@ -1,0 +1,99 @@
+ID   STXB_BPH30              Reviewed;          89 AA.
+AC   P69178; P08027;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1988, sequence version 1.
+DT   29-SEP-2021, entry version 73.
+DE   RecName: Full=Shiga-like toxin 1 subunit B;
+DE            Short=SLT-1 B subunit;
+DE            Short=SLT-1b;
+DE            Short=SLT-Ib;
+DE   AltName: Full=Verocytotoxin 1 subunit B;
+DE            Short=Verotoxin 1 subunit B;
+DE   Flags: Precursor;
+GN   Name=stxB;
+OS   Bacteriophage H30.
+OC   Viruses; unclassified bacterial viruses.
+OX   NCBI_TaxID=12371;
+OH   NCBI_TaxID=562; Escherichia coli.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3049254; DOI=10.1016/0378-1119(88)90398-8;
+RA   Kozlov Y.V., Kabishev A.A., Lukyanov E.V., Bayev A.A.;
+RT   "The primary structure of the operons coding for Shigella dysenteriae toxin
+RT   and temperature phage H30 shiga-like toxin.";
+RL   Gene 67:213-221(1988).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 21-89 IN COMPLEX WITH RECEPTOR GB3
+RP   ANALOG.
+RA   Ling H., Brunton J.L., Read R.J.;
+RT   "Mutated Shiga-like toxin B subunit (D17e/w34a) complexed with receptor Gb3
+RT   analogue.";
+RL   Submitted (SEP-1999) to the PDB data bank.
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.94 ANGSTROMS) OF 21-89.
+RA   Fraser M.E., Fujinaga M., Cherney M.M., Melton-Celsa A.R., Dodd R.B.,
+RA   Read R.J.;
+RT   "Extensive cross-linking of the Shiga-like toxin 1 B subunit by a bivalent
+RT   ligand.";
+RL   Submitted (OCT-2005) to the PDB data bank.
+CC   -!- FUNCTION: The B subunit is responsible for the binding of the holotoxin
+CC       to specific receptors on the target cell surface, such as
+CC       globotriaosylceramide (Gb3) in human intestinal microvilli.
+CC   -!- SUBUNIT: Shiga-like toxin contains a single subunit A and five copies
+CC       of subunit B. {ECO:0000269|Ref.2}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DOMAIN: There are three Gb3-binding sites in each subunit B monomer,
+CC       allowing for a tighter binding to the target cell. Binding sites 1 and
+CC       2 have higher binding affinities than site 3 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the stxB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M23980; AAA72733.1; -; Genomic_DNA.
+DR   PDB; 1D1K; X-ray; 2.00 A; A/B/C/D/E=21-89.
+DR   PDB; 2C5C; X-ray; 2.94 A; A/B/C/D/E/F/G/H/I/J=21-89.
+DR   PDBsum; 1D1K; -.
+DR   PDBsum; 2C5C; -.
+DR   SMR; P69178; -.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   DrugBank; DB08501; DIETHYL PROPANE-1,3-DIYLBISCARBAMATE.
+DR   DrugBank; DB02856; Ethyl N-methylcarbamate.
+DR   DrugBank; DB03919; Ethyl-Carbamic Acid Methyl Ester.
+DR   TCDB; 1.C.54.1.1; the shiga toxin b-chain (st-b) family.
+DR   UniLectin; P69178; -.
+DR   EvolutionaryTrace; P69178; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0019836; P:hemolysis by symbiont of host erythrocytes; IEA:InterPro.
+DR   GO; GO:0098676; P:modulation of host virulence by virus; IEA:UniProtKB-KW.
+DR   InterPro; IPR008992; Enterotoxin.
+DR   InterPro; IPR003189; SLT_beta.
+DR   Pfam; PF02258; SLT_beta; 1.
+DR   SUPFAM; SSF50203; SSF50203; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Modulation of host virulence by virus;
+KW   Secreted; Signal; Toxin; Viral exotoxin; Virulence.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           21..89
+FT                   /note="Shiga-like toxin 1 subunit B"
+FT                   /id="PRO_0000030793"
+FT   DISULFID        24..77
+FT   STRAND          23..34
+FT                   /evidence="ECO:0007829|PDB:1D1K"
+FT   STRAND          40..44
+FT                   /evidence="ECO:0007829|PDB:1D1K"
+FT   STRAND          47..51
+FT                   /evidence="ECO:0007829|PDB:1D1K"
+FT   HELIX           56..66
+FT                   /evidence="ECO:0007829|PDB:1D1K"
+FT   STRAND          69..73
+FT                   /evidence="ECO:0007829|PDB:1D1K"
+FT   STRAND          85..89
+FT                   /evidence="ECO:0007829|PDB:1D1K"
+SQ   SEQUENCE   89 AA;  9743 MW;  C78F7795CCD7242E CRC64;
+     MKKTLLIAAS LSFFSASALA TPDCVTGKVE YTKYNDDDTF TVKVGDKELF TNRWNLQSLL
+     LSAQITGMTV TIKTNACHNG GGFSEVIFR
+//

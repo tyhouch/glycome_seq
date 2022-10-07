@@ -1,0 +1,360 @@
+ID   FIMH_ECOLI              Reviewed;         300 AA.
+AC   P08191; Q2M5Z3;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 2.
+DT   03-AUG-2022, entry version 180.
+DE   RecName: Full=Type 1 fimbrin D-mannose specific adhesin;
+DE   AltName: Full=Protein FimH;
+DE   Flags: Precursor;
+GN   Name=fimH; OrderedLocusNames=b4320, JW4283;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=2890081; DOI=10.1007/bf00328136;
+RA   Klemm P., Christiansen G.;
+RT   "Three fim genes required for the regulation of length and mediation of
+RT   adhesion of Escherichia coli type 1 fimbriae.";
+RL   Mol. Gen. Genet. 208:439-445(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12 / CSH-50;
+RX   PubMed=7905476; DOI=10.1128/jb.176.3.748-755.1994;
+RA   Sokurenko E.V., Courtney H.S., Ohman D.E., Klemm P., Hasty D.L.;
+RT   "FimH family of type 1 fimbrial adhesins: functional heterogeneity due to
+RT   minor sequence variations among fimH genes.";
+RL   J. Bacteriol. 176:748-755(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7610040; DOI=10.1093/nar/23.12.2105;
+RA   Burland V.D., Plunkett G. III, Sofia H.J., Daniels D.L., Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome VI: DNA sequence of the region
+RT   from 92.8 through 100 minutes.";
+RL   Nucleic Acids Res. 23:2105-2119(1995).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 22-50.
+RX   PubMed=2900235; DOI=10.1128/jb.170.8.3350-3358.1988;
+RA   Hanson M.S., Hempel J., Brinton C.C. Jr.;
+RT   "Purification of the Escherichia coli type 1 pilin and minor pilus proteins
+RT   and partial characterization of the adhesin protein.";
+RL   J. Bacteriol. 170:3350-3358(1988).
+RN   [7]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RC   STRAIN=K12 / PC31;
+RX   PubMed=1971261; DOI=10.1128/iai.58.6.1995-1998.1990;
+RA   Krogfelt K.A., Bergmans H., Klemm P.;
+RT   "Direct evidence that the FimH protein is the mannose-specific adhesin of
+RT   Escherichia coli type 1 fimbriae.";
+RL   Infect. Immun. 58:1995-1998(1990).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS) OF 22-300.
+RX   PubMed=12010488; DOI=10.1046/j.1365-2958.2002.02915.x;
+RA   Hung C.S., Bouckaert J., Hung D., Pinkner J., Widberg C., DeFusco A.,
+RA   Auguste C.G., Strouse R., Langermann S., Waksman G., Hultgren S.J.;
+RT   "Structural basis of tropism of Escherichia coli to the bladder during
+RT   urinary tract infection.";
+RL   Mol. Microbiol. 44:903-915(2002).
+CC   -!- FUNCTION: Involved in regulation of length and mediation of adhesion of
+CC       type 1 fimbriae (but not necessary for the production of fimbriae).
+CC       Adhesin responsible for the binding to D-mannose. It is laterally
+CC       positioned at intervals in the structure of the type 1 fimbriae. In
+CC       order to integrate FimH in the fimbriae FimF and FimG are needed.
+CC       {ECO:0000269|PubMed:1971261}.
+CC   -!- INTERACTION:
+CC       P08191; P31697: fimC; NbExp=11; IntAct=EBI-1028015, EBI-1028005;
+CC       P08191; O00322: UPK1A; Xeno; NbExp=2; IntAct=EBI-1028015, EBI-14031976;
+CC   -!- SUBCELLULAR LOCATION: Fimbrium {ECO:0000269|PubMed:1971261}.
+CC   -!- SIMILARITY: Belongs to the fimbrial protein family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X05672; CAA29156.1; -; Genomic_DNA.
+DR   EMBL; U14003; AAA97216.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC77276.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE78313.1; -; Genomic_DNA.
+DR   PIR; S56545; S56545.
+DR   RefSeq; NP_418740.1; NC_000913.3.
+DR   RefSeq; WP_000832247.1; NZ_SSUV01000012.1.
+DR   PDB; 1KIU; X-ray; 3.00 A; B/D/F/H/J/L/N/P=22-300.
+DR   PDB; 1KLF; X-ray; 2.79 A; B/D/F/H/J/L/N/P=22-300.
+DR   PDB; 1QUN; X-ray; 2.80 A; B/D/F/H/J/L/N/P=22-300.
+DR   PDB; 1TR7; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 1UWF; X-ray; 1.69 A; A=22-179.
+DR   PDB; 1ZE3; X-ray; 1.84 A; H=179-300.
+DR   PDB; 2VCO; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 3RFZ; X-ray; 2.80 A; A/D=22-300.
+DR   PDB; 3ZL1; X-ray; 1.55 A; A/B=22-179.
+DR   PDB; 3ZL2; X-ray; 1.25 A; A=22-179.
+DR   PDB; 4ATT; X-ray; 1.25 A; A=22-179.
+DR   PDB; 4AUJ; X-ray; 1.53 A; A=22-179.
+DR   PDB; 4AUU; X-ray; 1.60 A; A/B=22-179.
+DR   PDB; 4AUY; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 4AV0; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 4AV4; X-ray; 1.90 A; A=22-179.
+DR   PDB; 4AV5; X-ray; 1.40 A; A/B/C/D=22-179.
+DR   PDB; 4AVH; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 4AVI; X-ray; 2.40 A; A/B=22-179.
+DR   PDB; 4AVJ; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 4AVK; X-ray; 2.40 A; A/B=22-179.
+DR   PDB; 4CSS; X-ray; 1.07 A; A=22-180.
+DR   PDB; 4CST; X-ray; 1.10 A; A=22-180.
+DR   PDB; 4J3O; X-ray; 3.80 A; H=22-300.
+DR   PDB; 4LOV; X-ray; 1.50 A; A=22-179.
+DR   PDB; 4X50; X-ray; 2.00 A; A/B=22-180.
+DR   PDB; 4X5P; X-ray; 1.00 A; A=22-180.
+DR   PDB; 4X5Q; X-ray; 1.12 A; A=22-180.
+DR   PDB; 4X5R; X-ray; 1.65 A; A/B/C=22-180.
+DR   PDB; 4XO8; X-ray; 1.70 A; A/B=22-179.
+DR   PDB; 4XO9; X-ray; 1.14 A; A=22-300.
+DR   PDB; 4XOA; X-ray; 2.54 A; A/C/E/G=22-300.
+DR   PDB; 4XOB; X-ray; 3.00 A; A/C/E/G=22-300.
+DR   PDB; 4XOD; X-ray; 1.14 A; A=22-300.
+DR   PDB; 5ABZ; X-ray; 2.40 A; A/B=22-179.
+DR   PDB; 5CGB; X-ray; 1.60 A; A/B=22-179.
+DR   PDB; 5F2F; X-ray; 1.67 A; A=22-179.
+DR   PDB; 5F3F; X-ray; 1.76 A; A=22-179.
+DR   PDB; 5FS5; X-ray; 1.42 A; A=22-179.
+DR   PDB; 5FWR; X-ray; 2.13 A; A/B/C/D/E/F/G/H=22-179.
+DR   PDB; 5FX3; X-ray; 1.90 A; A=22-179.
+DR   PDB; 5JCQ; X-ray; 1.60 A; A/B=22-179.
+DR   PDB; 5JCR; X-ray; 1.70 A; A/B=22-179.
+DR   PDB; 5L4T; X-ray; 1.90 A; A/B=22-179.
+DR   PDB; 5L4U; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 5L4V; X-ray; 2.99 A; A/B/C=22-179.
+DR   PDB; 5L4W; X-ray; 1.90 A; A/B/C=22-179.
+DR   PDB; 5L4X; X-ray; 1.90 A; A/B=22-179.
+DR   PDB; 5L4Y; X-ray; 1.90 A; A/B=22-179.
+DR   PDB; 5MCA; X-ray; 1.60 A; A=22-180.
+DR   PDB; 5MTS; X-ray; 2.60 A; A/B=1-300.
+DR   PDB; 5MUC; X-ray; 2.60 A; A/B=22-179.
+DR   PDB; 6E14; EM; 4.00 A; H=1-300.
+DR   PDB; 6E15; EM; 6.20 A; H=1-300.
+DR   PDB; 6G2R; X-ray; 2.10 A; A/B=22-179.
+DR   PDB; 6G2S; X-ray; 2.20 A; A/B/C/D/E/F/G/H/I=22-179.
+DR   PDB; 6GTX; X-ray; 2.50 A; A/B/C/D=22-179.
+DR   PDB; 6GTY; X-ray; 1.90 A; A/B/C/D/E=22-179.
+DR   PDB; 6YHW; X-ray; 1.96 A; A/B=1-300.
+DR   PDB; 7AYN; X-ray; 1.42 A; A/B/C/D=22-179.
+DR   PDBsum; 1KIU; -.
+DR   PDBsum; 1KLF; -.
+DR   PDBsum; 1QUN; -.
+DR   PDBsum; 1TR7; -.
+DR   PDBsum; 1UWF; -.
+DR   PDBsum; 1ZE3; -.
+DR   PDBsum; 2VCO; -.
+DR   PDBsum; 3RFZ; -.
+DR   PDBsum; 3ZL1; -.
+DR   PDBsum; 3ZL2; -.
+DR   PDBsum; 4ATT; -.
+DR   PDBsum; 4AUJ; -.
+DR   PDBsum; 4AUU; -.
+DR   PDBsum; 4AUY; -.
+DR   PDBsum; 4AV0; -.
+DR   PDBsum; 4AV4; -.
+DR   PDBsum; 4AV5; -.
+DR   PDBsum; 4AVH; -.
+DR   PDBsum; 4AVI; -.
+DR   PDBsum; 4AVJ; -.
+DR   PDBsum; 4AVK; -.
+DR   PDBsum; 4CSS; -.
+DR   PDBsum; 4CST; -.
+DR   PDBsum; 4J3O; -.
+DR   PDBsum; 4LOV; -.
+DR   PDBsum; 4X50; -.
+DR   PDBsum; 4X5P; -.
+DR   PDBsum; 4X5Q; -.
+DR   PDBsum; 4X5R; -.
+DR   PDBsum; 4XO8; -.
+DR   PDBsum; 4XO9; -.
+DR   PDBsum; 4XOA; -.
+DR   PDBsum; 4XOB; -.
+DR   PDBsum; 4XOD; -.
+DR   PDBsum; 5ABZ; -.
+DR   PDBsum; 5CGB; -.
+DR   PDBsum; 5F2F; -.
+DR   PDBsum; 5F3F; -.
+DR   PDBsum; 5FS5; -.
+DR   PDBsum; 5FWR; -.
+DR   PDBsum; 5FX3; -.
+DR   PDBsum; 5JCQ; -.
+DR   PDBsum; 5JCR; -.
+DR   PDBsum; 5L4T; -.
+DR   PDBsum; 5L4U; -.
+DR   PDBsum; 5L4V; -.
+DR   PDBsum; 5L4W; -.
+DR   PDBsum; 5L4X; -.
+DR   PDBsum; 5L4Y; -.
+DR   PDBsum; 5MCA; -.
+DR   PDBsum; 5MTS; -.
+DR   PDBsum; 5MUC; -.
+DR   PDBsum; 6E14; -.
+DR   PDBsum; 6E15; -.
+DR   PDBsum; 6G2R; -.
+DR   PDBsum; 6G2S; -.
+DR   PDBsum; 6GTX; -.
+DR   PDBsum; 6GTY; -.
+DR   PDBsum; 6YHW; -.
+DR   PDBsum; 7AYN; -.
+DR   AlphaFoldDB; P08191; -.
+DR   BMRB; P08191; -.
+DR   SMR; P08191; -.
+DR   BioGRID; 4262737; 8.
+DR   ComplexPortal; CPX-2855; Fimbrial Tip Complex FimFGH.
+DR   DIP; DIP-9616N; -.
+DR   IntAct; P08191; 3.
+DR   STRING; 511145.b4320; -.
+DR   BindingDB; P08191; -.
+DR   ChEMBL; CHEMBL4837; -.
+DR   UniLectin; P08191; -.
+DR   PaxDb; P08191; -.
+DR   PRIDE; P08191; -.
+DR   EnsemblBacteria; AAC77276; AAC77276; b4320.
+DR   EnsemblBacteria; BAE78313; BAE78313; BAE78313.
+DR   GeneID; 948847; -.
+DR   KEGG; ecj:JW4283; -.
+DR   KEGG; eco:b4320; -.
+DR   PATRIC; fig|1411691.4.peg.2372; -.
+DR   EchoBASE; EB0311; -.
+DR   eggNOG; COG3539; Bacteria.
+DR   HOGENOM; CLU_080390_0_0_6; -.
+DR   OMA; FIWNIYA; -.
+DR   BioCyc; EcoCyc:EG10315-MON; -.
+DR   EvolutionaryTrace; P08191; -.
+DR   PHI-base; PHI:2690; -.
+DR   PHI-base; PHI:7180; -.
+DR   PHI-base; PHI:7204; -.
+DR   PHI-base; PHI:7846; -.
+DR   PHI-base; PHI:8107; -.
+DR   PRO; PR:P08191; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0033644; C:host cell membrane; IDA:UniProtKB.
+DR   GO; GO:0009289; C:pilus; IMP:EcoCyc.
+DR   GO; GO:0009419; C:pilus tip; IPI:ComplexPortal.
+DR   GO; GO:0005537; F:mannose binding; IDA:EcoCyc.
+DR   GO; GO:0007155; P:cell adhesion; IMP:ComplexPortal.
+DR   GO; GO:0043709; P:cell adhesion involved in single-species biofilm formation; IBA:GO_Central.
+DR   GO; GO:0031589; P:cell-substrate adhesion; IMP:ComplexPortal.
+DR   GO; GO:0007638; P:mechanosensory behavior; IDA:ComplexPortal.
+DR   CDD; cd10466; FimH_man-bind; 1.
+DR   Gene3D; 2.60.40.1090; -; 2.
+DR   InterPro; IPR000259; Adhesion_dom_fimbrial.
+DR   InterPro; IPR036937; Adhesion_dom_fimbrial_sf.
+DR   InterPro; IPR008966; Adhesion_dom_sf.
+DR   InterPro; IPR015243; FimH_man-bd.
+DR   Pfam; PF00419; Fimbrial; 1.
+DR   Pfam; PF09160; FimH_man-bind; 1.
+DR   SUPFAM; SSF49401; SSF49401; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Fimbrium; Reference proteome;
+KW   Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000269|PubMed:2900235"
+FT   CHAIN           22..300
+FT                   /note="Type 1 fimbrin D-mannose specific adhesin"
+FT                   /id="PRO_0000009211"
+FT   CONFLICT        79
+FT                   /note="L -> R (in Ref. 2; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        197
+FT                   /note="P -> R (in Ref. 1; CAA29156)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        222
+FT                   /note="T -> H (in Ref. 1; CAA29156 and 2; no nucleotide
+FT                   entry)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          23..26
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          37..43
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          48..50
+FT                   /evidence="ECO:0007829|PDB:4XOD"
+FT   STRAND          55..58
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   HELIX           59..61
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          63..66
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   TURN            70..72
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          75..84
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   HELIX           86..91
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          92..98
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          101..106
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          114..116
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          118..120
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          126..132
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          134..136
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          138..141
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          146..159
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          163..173
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          175..177
+FT                   /evidence="ECO:0007829|PDB:4X5P"
+FT   STRAND          180..185
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          187..192
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          195..197
+FT                   /evidence="ECO:0007829|PDB:1ZE3"
+FT   STRAND          200..202
+FT                   /evidence="ECO:0007829|PDB:1KLF"
+FT   STRAND          205..210
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          212..220
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          222..224
+FT                   /evidence="ECO:0007829|PDB:4XOA"
+FT   STRAND          235..238
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          240..248
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          259..264
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          273..279
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+FT   STRAND          281..283
+FT                   /evidence="ECO:0007829|PDB:1KLF"
+FT   STRAND          286..299
+FT                   /evidence="ECO:0007829|PDB:4XO9"
+SQ   SEQUENCE   300 AA;  31473 MW;  939204A51658747D CRC64;
+     MKRVITLFAV LLMGWSVNAW SFACKTANGT AIPIGGGSAN VYVNLAPVVN VGQNLVVDLS
+     TQIFCHNDYP ETITDYVTLQ RGSAYGGVLS NFSGTVKYSG SSYPFPTTSE TPRVVYNSRT
+     DKPWPVALYL TPVSSAGGVA IKAGSLIAVL ILRQTNNYNS DDFQFVWNIY ANNDVVVPTG
+     GCDVSARDVT VTLPDYPGSV PIPLTVYCAK SQNLGYYLSG TTADAGNSIF TNTASFSPAQ
+     GVGVQLTRNG TIIPANNTVS LGAVGTSAVS LGLTANYART GGQVTAGNVQ SIIGVTFVYQ
+//

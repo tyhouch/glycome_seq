@@ -1,0 +1,45 @@
+ID   SAMP_PLEPL              Reviewed;          20 AA.
+AC   P20677;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   11-DEC-2019, entry version 60.
+DE   RecName: Full=Serum amyloid P-component;
+DE            Short=SAP;
+DE   Flags: Fragment;
+OS   Pleuronectes platessa (European plaice).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Neoteleostei; Acanthomorphata;
+OC   Carangaria; Pleuronectiformes; Pleuronectoidei; Pleuronectidae;
+OC   Pleuronectes.
+OX   NCBI_TaxID=8262;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RX   PubMed=7093286; DOI=10.1016/0167-4838(82)90139-x;
+RA   Pepys M.B., de Beer F.C., Milstein C.P., March J.F., Feinstein A.,
+RA   Butress N., Clamp J.R., Taylor J., Bruton C., Fletcher T.C.;
+RT   "C-reactive protein and serum amyloid P component in the plaice
+RT   (Pleuronectes platessa L.), a marine teleost, are homologous with their
+RT   human counterparts.";
+RL   Biochim. Biophys. Acta 704:123-133(1982).
+CC   -!- SUBUNIT: Homopentamer. Pentraxin (or pentaxin) have a discoid
+CC       arrangement of 5 non-covalently bound subunits.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the pentraxin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A05332; A05332.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Amyloid; Direct protein sequencing; Lectin; Secreted.
+FT   CHAIN           1..>20
+FT                   /note="Serum amyloid P-component"
+FT                   /id="PRO_0000162505"
+FT   DOMAIN          1..>20
+FT                   /note="Pentraxin (PTX)"
+FT   NON_TER         20
+SQ   SEQUENCE   20 AA;  2292 MW;  B94BB81467BBD75D CRC64;
+     ZPIDLMGKVF VFDKELSPBI
+//

@@ -1,0 +1,182 @@
+ID   MVL_MICVR               Reviewed;         114 AA.
+AC   Q9RHG4;
+DT   09-FEB-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 51.
+DE   RecName: Full=Lectin MVL;
+DE   AltName: Full=Mannan-binding lectin;
+DE   AltName: Full=N-acetyl-beta-glucosaminidase;
+DE            EC=3.2.1.-;
+DE   AltName: Full=Oligomannoside-binding lectin;
+GN   Name=mvl;
+OS   Microcystis viridis.
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Microcystaceae; Microcystis.
+OX   NCBI_TaxID=44822;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 2-22, FUNCTION,
+RP   HEMAGGLUTININATING ACTIVITY, MANNAN-BINDING, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   SUBCELLULAR LOCATION, AND INDUCTION.
+RC   STRAIN=NIES-102;
+RX   PubMed=10600484; DOI=10.1006/bbrc.1999.1749;
+RA   Yamaguchi M., Ogawa T., Muramoto K., Kamio Y., Jimbo M., Kamiya H.;
+RT   "Isolation and characterization of a mannan-binding lectin from the
+RT   freshwater cyanobacterium (blue-green algae) Microcystis viridis.";
+RL   Biochem. Biophys. Res. Commun. 265:703-708(1999).
+RN   [2]
+RP   FUNCTION AS HIV-1 INHIBITORY PROTEIN, SUBUNIT, AND CARBOHYDRATE
+RP   SPECIFICITY.
+RC   STRAIN=NIES-102;
+RX   PubMed=15165858; DOI=10.1016/j.jmb.2004.04.019;
+RA   Bewley C.A., Cai M., Ray S., Ghirlando R., Yamaguchi M., Muramoto K.;
+RT   "New carbohydrate specificity and HIV-1 fusion blocking activity of the
+RT   cyanobacterial protein MVL: NMR, ITC and sedimentation equilibrium
+RT   studies.";
+RL   J. Mol. Biol. 339:901-914(2004).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF APOPROTEIN AND IN COMPLEX WITH
+RP   MAN3GLCNAC2, SUBUNIT, AND DOMAIN.
+RX   PubMed=15937331; DOI=10.1074/jbc.m504642200;
+RA   Williams D.C. Jr., Lee J.Y., Cai M., Bewley C.A., Clore G.M.;
+RT   "Crystal structures of the HIV-1 inhibitory cyanobacterial protein MVL free
+RT   and bound to Man3GlcNAc2: structural basis for specificity and high-
+RT   affinity binding to the core pentasaccharide from n-linked
+RT   oligomannoside.";
+RL   J. Biol. Chem. 280:29269-29276(2005).
+RN   [4]
+RP   STRUCTURE BY NMR OF MUTANT ALA-76 IN COMPLEX WITH GLCNAC3, GLYCOSIDASE
+RP   ACTIVITY, CATALYTIC ACTIVITY, AND MUTAGENESIS OF ASP-76.
+RX   PubMed=19856962; DOI=10.1021/ja905929c;
+RA   Shahzad-ul-Hussan S., Cai M., Bewley C.A.;
+RT   "Unprecedented glycosidase activity at a lectin carbohydrate-binding site
+RT   exemplified by the cyanobacterial lectin MVL.";
+RL   J. Am. Chem. Soc. 131:16500-16508(2009).
+CC   -!- FUNCTION: Carbohydrate-binding protein that binds oligomannosides such
+CC       as Man(6)GlcNAc(2) with sub-micromolar affinities. The specificity of
+CC       MVL is unique in that its minimal target comprises the Man-alpha-
+CC       (1->6)-Man-beta-(1->4)-GlcNAc-beta-(1->4)-GlcNAc tetrasaccharide core
+CC       (Man(2)A) found in N-linked oligomannosides. Displays
+CC       hemagglutininating activity on rabbit, horse and hen erythrocytes. This
+CC       activity is inhibited by yeast mannan. Does not bind mono- and
+CC       disaccharides. Inhibits HIV-1 envelope-mediated cell fusion at
+CC       nanomolar concentrations through carbohydrate-mediated interactions
+CC       with high-mannose residues on the surface of the HIV envelope
+CC       glycoprotein gp120.
+CC   -!- FUNCTION: Unexpectedly for a lectin, one of the 2 oligomannose binding
+CC       sites of MVL can catalyze the cleavage of chitin fragments (such as
+CC       chitotriose, i.e. GlcNAc(3) or GlcNAc-beta-(1->4)-GlcNAcbeta-(1->4)-
+CC       GlcNAc, and chitotetraose, i.e. GlcNAc(4)) to GlcNAc. This weak
+CC       beta-1,4-glycosidase activity is restricted to the C-terminal
+CC       carbohydrate-binding site. Does not cleave Man(3)GlcNAc(2) or the
+CC       tetrasaccharide Man(2)A. {ECO:0000269|PubMed:19856962}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Displays hemagglutinating activity from pH 5 to 8, but is inactive
+CC         beyond these pHs. {ECO:0000269|PubMed:10600484};
+CC       Temperature dependence:
+CC         Half the hemagglutinating activity is maintained by heating at 50
+CC         degrees Celsius for 3 hours. Is inactive by heating at 60 degrees
+CC         Celsius for 10 minutes. {ECO:0000269|PubMed:10600484};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:15165858,
+CC       ECO:0000269|PubMed:15937331, ECO:0000269|PubMed:19856962}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:10600484}.
+CC   -!- INDUCTION: Induced under low nutrient or anoxic conditions.
+CC       {ECO:0000269|PubMed:10600484}.
+CC   -!- DOMAIN: Each monomer contains 2 structurally homologous domains with
+CC       high sequence similarity connected by a short five-amino acid residue
+CC       linker. Intriguingly, a water-filled channel is observed between the 2
+CC       monomers. {ECO:0000269|PubMed:15937331}.
+CC   -!- MISCELLANEOUS: Binds 2 carbohydrate molecules per monomer. The 2
+CC       symmetrically related-binding sites exhibit similar affinities relative
+CC       to one other.
+CC   -!- MISCELLANEOUS: The structural studies suggest catalysis likely occurs
+CC       through proton relay via a 'proton wire'.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB036699; BAA89413.1; -; Genomic_DNA.
+DR   PDB; 1ZHQ; X-ray; 1.90 A; A/B/C/D/E/F/G/H=2-114.
+DR   PDB; 1ZHS; X-ray; 1.80 A; A/B/C/D/E/F/G/H=2-114.
+DR   PDBsum; 1ZHQ; -.
+DR   PDBsum; 1ZHS; -.
+DR   AlphaFoldDB; Q9RHG4; -.
+DR   SMR; Q9RHG4; -.
+DR   UniLectin; Q9RHG4; -.
+DR   EvolutionaryTrace; Q9RHG4; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016798; F:hydrolase activity, acting on glycosyl bonds; IEA:UniProtKB-KW.
+DR   GO; GO:0008152; P:metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0050688; P:regulation of defense response to virus; IEA:UniProtKB-KW.
+DR   InterPro; IPR021992; MVL.
+DR   Pfam; PF12151; MVL; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antiviral protein; Cytoplasm; Direct protein sequencing;
+KW   Glycosidase; Hemagglutinin; Hydrolase; Lectin; Repeat.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:10600484"
+FT   CHAIN           2..114
+FT                   /note="Lectin MVL"
+FT                   /id="PRO_0000391620"
+FT   REPEAT          2..55
+FT                   /note="1"
+FT   REPEAT          61..114
+FT                   /note="2"
+FT   REGION          56..60
+FT                   /note="Linker"
+FT   BINDING         12..16
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /ligand_label="1"
+FT   BINDING         20
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /ligand_label="1"
+FT   BINDING         36..44
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /ligand_label="1"
+FT   BINDING         71..75
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /ligand_label="2"
+FT   BINDING         79
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /ligand_label="2"
+FT   BINDING         95..103
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /ligand_label="2"
+FT   MUTAGEN         76
+FT                   /note="D->A: Loss of N-acetyl-beta-glucosaminidase
+FT                   activity. No effect on anti-HIV activity."
+FT                   /evidence="ECO:0000269|PubMed:19856962"
+FT   STRAND          3..11
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   HELIX           16..29
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   STRAND          33..42
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   TURN            43..45
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   STRAND          46..56
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   STRAND          60..70
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   HELIX           75..87
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   TURN            88..90
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   STRAND          91..101
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   TURN            102..104
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+FT   STRAND          105..114
+FT                   /evidence="ECO:0007829|PDB:1ZHS"
+SQ   SEQUENCE   114 AA;  12368 MW;  6D1735A1C971D186 CRC64;
+     MASYKVNIPA GPLWSNAEAQ QVGPKIAAAH QGNFTGQWTT VVESAMSVVE VELQVENTGI
+     HEFKTDVLAG PLWSNDEAQK LGPQIAASYG AEFTGQWRTI VEGVMSVIQI KYTF
+//

@@ -1,0 +1,98 @@
+ID   JAL45_ARATH             Reviewed;         396 AA.
+AC   Q9FNM2;
+DT   01-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   03-AUG-2022, entry version 114.
+DE   RecName: Full=Jacalin-related lectin 45;
+GN   Name=JAL45; OrderedLocusNames=At5g46000; ORFNames=MCL19.4;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=9405937; DOI=10.1093/dnares/4.4.291;
+RA   Kotani H., Nakamura Y., Sato S., Kaneko T., Asamizu E., Miyajima N.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. II. Sequence
+RT   features of the regions of 1,044,062 bp covered by thirteen physically
+RT   assigned P1 clones.";
+RL   DNA Res. 4:291-300(1997).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=18467340; DOI=10.1093/pcp/pcn075;
+RA   Nagano A.J., Fukao Y., Fujiwara M., Nishimura M., Hara-Nishimura I.;
+RT   "Antagonistic jacalin-related lectins regulate the size of ER body-type
+RT   beta-glucosidase complexes in Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 49:969-980(2008).
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB006698; BAB08245.1; -; Genomic_DNA.
+DR   EMBL; CP002688; AED95325.1; -; Genomic_DNA.
+DR   RefSeq; NP_199412.1; NM_123968.2.
+DR   AlphaFoldDB; Q9FNM2; -.
+DR   SMR; Q9FNM2; -.
+DR   PaxDb; Q9FNM2; -.
+DR   PRIDE; Q9FNM2; -.
+DR   EnsemblPlants; AT5G46000.1; AT5G46000.1; AT5G46000.
+DR   GeneID; 834640; -.
+DR   Gramene; AT5G46000.1; AT5G46000.1; AT5G46000.
+DR   KEGG; ath:AT5G46000; -.
+DR   Araport; AT5G46000; -.
+DR   TAIR; locus:2161378; AT5G46000.
+DR   eggNOG; ENOG502SCUZ; Eukaryota.
+DR   HOGENOM; CLU_041730_0_0_1; -.
+DR   InParanoid; Q9FNM2; -.
+DR   OMA; HITETEF; -.
+DR   OrthoDB; 557753at2759; -.
+DR   PhylomeDB; Q9FNM2; -.
+DR   PRO; PR:Q9FNM2; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9FNM2; baseline and differential.
+DR   Genevisible; Q9FNM2; AT.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.100.10.30; -; 3.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 4.
+DR   SMART; SM00915; Jacalin; 3.
+DR   SUPFAM; SSF51101; SSF51101; 3.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 3.
+PE   3: Inferred from homology;
+KW   Lectin; Reference proteome; Repeat.
+FT   CHAIN           1..396
+FT                   /note="Jacalin-related lectin 45"
+FT                   /id="PRO_0000430402"
+FT   DOMAIN          3..138
+FT                   /note="Jacalin-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          144..264
+FT                   /note="Jacalin-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          270..392
+FT                   /note="Jacalin-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+SQ   SEQUENCE   396 AA;  44175 MW;  97C4523636D6156D CRC64;
+     MSKKVTIAYG GSNGNKFDDG VYEGTYDGVR KLIVGEDFHG IVYLKIQYVK NGDVVVKEHG
+     RARGTHITET EFEVKCPDEY ITSIWGTCRN DHHRYKSTGG RTFEQLTAAD KYDINLAAKM
+     GTPMYWNTVS ELQFKTSHGR TSEQFRMPGT GGSNGVSWDD GAYDRLSKLC VGEDAHCVSS
+     VEFHYVKGND RITHCHGKDS KEHDKDGFIS SLTFKTSMNR SSEKFGKPVG TKFQLEAKGF
+     DKIVGFRGRS SVNRINALGA NFAVVVVPPV KKLNAKGGVL GNEWDDGIHD DARMITFKLY
+     FNKEYITSVE GHYGKRLAAP NASASAMSSF FTGYMTMLKF NTNRTTYQVL SHSPEYTYEG
+     TSFKLEEKDH KIVGFYGKTE VSLNQIGVYV KPIANA
+//

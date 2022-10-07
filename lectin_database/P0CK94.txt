@@ -1,0 +1,117 @@
+ID   ELBH_ECOLX              Reviewed;         124 AA.
+AC   P0CK94; P13811;
+DT   08-MAR-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-MAR-2011, sequence version 1.
+DT   25-MAY-2022, entry version 41.
+DE   RecName: Full=Heat-labile enterotoxin B chain;
+DE   AltName: Full=LT-B, human;
+DE   AltName: Full=LTH-B;
+DE   Flags: Precursor;
+GN   Name=eltB; Synonyms=ltpB;
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Isolate H74-114;
+RX   PubMed=3884513; DOI=10.1128/iai.48.1.73-77.1985;
+RA   Leong J., Vinal A.C., Dallas W.S.;
+RT   "Nucleotide sequence comparison between heat-labile toxin B-subunit
+RT   cistrons from Escherichia coli of human and porcine origin.";
+RL   Infect. Immun. 48:73-77(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ETEC LT 87;
+RA   Germani Y., Desperrier J.-M.;
+RL   Submitted (OCT-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PROTEIN SEQUENCE OF 22-124.
+RC   STRAIN=Isolate 240-3;
+RX   PubMed=3333803; DOI=10.1016/0882-4010(87)90079-9;
+RA   Tsuji T., Iida T., Honda T., Miwatani T., Nagahama M., Sakurai J., Wada K.,
+RA   Matsubara H.;
+RT   "A unique amino acid sequence of the B subunit of a heat-labile enterotoxin
+RT   isolated from a human enterotoxigenic Escherichia coli.";
+RL   Microb. Pathog. 2:381-390(1987).
+RN   [4]
+RP   DISCUSSION OF SEQUENCE.
+RX   PubMed=7623669; DOI=10.1111/j.1365-2958.1995.tb02289.x;
+RA   Domenighini M., Pizza M., Jobling M.G., Holmes R.K., Rappuoli R.;
+RT   "Identification of errors among database sequence entries and comparison of
+RT   correct amino acid sequences for the heat-labile enterotoxins of
+RT   Escherichia coli and Vibrio cholerae.";
+RL   Mol. Microbiol. 15:1165-1167(1995).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (3.04 ANGSTROMS).
+RX   PubMed=10085117; DOI=10.1016/s0021-9258(19)87394-5;
+RA   Matkovic-Calogovic D., Loregian A., D'Acunto M.R., Battistutta R.,
+RA   Tossi A., Palu G., Zanotti G.;
+RT   "Crystal structure of the B subunit of Escherichia coli heat-labile
+RT   enterotoxin carrying peptides with anti-herpes simplex virus type 1
+RT   activity.";
+RL   J. Biol. Chem. 274:8764-8769(1999).
+CC   -!- FUNCTION: The biological activity of the toxin is produced by the A
+CC       chain, which activates intracellular adenyl cyclase.
+CC   -!- SUBUNIT: Heterohexamer of one A chain and of five B chains.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M17874; AAA98064.1; -; Genomic_DNA.
+DR   EMBL; X83966; CAA58800.1; -; Genomic_DNA.
+DR   PIR; A01820; QLECB.
+DR   RefSeq; WP_024167713.1; NZ_NLYI01000164.1.
+DR   PDB; 1B44; X-ray; 3.30 A; D/E/F/G/H=22-123.
+DR   PDB; 1LTR; X-ray; 3.04 A; D/E/F/G/H=22-123.
+DR   PDB; 2O2L; X-ray; 2.53 A; D/E/F/G/H/I/J/K/L/M=22-124.
+DR   PDB; 3EFX; X-ray; 1.94 A; D/E/F/G/H/I/J/K/L/M=26-122.
+DR   PDBsum; 1B44; -.
+DR   PDBsum; 1LTR; -.
+DR   PDBsum; 2O2L; -.
+DR   PDBsum; 3EFX; -.
+DR   AlphaFoldDB; P0CK94; -.
+DR   SMR; P0CK94; -.
+DR   UniLectin; P0CK94; -.
+DR   EvolutionaryTrace; P0CK94; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR008992; Enterotoxin.
+DR   InterPro; IPR001835; Enterotoxin_B.
+DR   Pfam; PF01376; Enterotoxin_b; 1.
+DR   PRINTS; PR00772; ENTEROTOXINB.
+DR   SUPFAM; SSF50203; SSF50203; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Enterotoxin;
+KW   Signal; Toxin; Virulence.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000269|PubMed:3333803"
+FT   CHAIN           22..124
+FT                   /note="Heat-labile enterotoxin B chain"
+FT                   /id="PRO_0000019356"
+FT   DISULFID        30..107
+FT   VARIANT         34
+FT                   /note="H -> R (in strain: Isolate 240-3)"
+FT   VARIANT         96
+FT                   /note="T -> A (in strain: Isolate 240-3)"
+FT   HELIX           28..31
+FT                   /evidence="ECO:0007829|PDB:3EFX"
+FT   STRAND          36..43
+FT                   /evidence="ECO:0007829|PDB:3EFX"
+FT   STRAND          46..51
+FT                   /evidence="ECO:0007829|PDB:3EFX"
+FT   STRAND          59..62
+FT                   /evidence="ECO:0007829|PDB:2O2L"
+FT   STRAND          68..71
+FT                   /evidence="ECO:0007829|PDB:3EFX"
+FT   HELIX           83..95
+FT                   /evidence="ECO:0007829|PDB:3EFX"
+FT   STRAND          102..109
+FT                   /evidence="ECO:0007829|PDB:1LTR"
+FT   STRAND          115..122
+FT                   /evidence="ECO:0007829|PDB:3EFX"
+SQ   SEQUENCE   124 AA;  14027 MW;  E9F7F7C7B9D3BC47 CRC64;
+     MNKVKFYVLF TALLSSLCAH GAPQSITELC SEYHNTQIYT INDKILSYTE SMAGKREMVI
+     ITFKSGATFQ VEVPGSQHID SQKKAIERMK DTLRITYLTE TKIDKLCVWN NKTPNSIAAI
+     SMEN
+//

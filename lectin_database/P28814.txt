@@ -1,0 +1,117 @@
+ID   BARW_HORVU              Reviewed;         125 AA.
+AC   P28814;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   25-MAY-2022, entry version 103.
+DE   RecName: Full=Barwin;
+OS   Hordeum vulgare (Barley).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Pooideae; Triticodae; Triticeae; Hordeinae; Hordeum.
+OX   NCBI_TaxID=4513;
+RN   [1]
+RP   PROTEIN SEQUENCE, PYROGLUTAMATE FORMATION AT GLN-1, AND DISULFIDE BONDS.
+RC   STRAIN=cv. Hiproly; TISSUE=Seed;
+RX   PubMed=1390663; DOI=10.1021/bi00152a012;
+RA   Svensson B., Svendsen I., Hoejrup P., Roepstorff P., Ludvigsen S.,
+RA   Poulsen F.M.;
+RT   "Primary structure of barwin: a barley seed protein closely related to the
+RT   C-terminal domain of proteins encoded by wound-induced plant genes.";
+RL   Biochemistry 31:8767-8770(1992).
+RN   [2]
+RP   STRUCTURE BY NMR.
+RC   STRAIN=cv. Hiproly; TISSUE=Seed;
+RX   PubMed=1390664; DOI=10.1021/bi00152a013;
+RA   Ludvigsen S., Poulsen F.M.;
+RT   "Secondary structure in solution of barwin from barley seed using 1H
+RT   nuclear magnetic resonance spectroscopy.";
+RL   Biochemistry 31:8771-8782(1992).
+CC   -!- FUNCTION: May be involved in a defense mechanism. Probable plant
+CC       lectin. Binds weakly a chitin analog.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A43474; A43474.
+DR   PDB; 1BW3; NMR; -; A=2-125.
+DR   PDB; 1BW4; NMR; -; A=2-125.
+DR   PDBsum; 1BW3; -.
+DR   PDBsum; 1BW4; -.
+DR   AlphaFoldDB; P28814; -.
+DR   SMR; P28814; -.
+DR   PRIDE; P28814; -.
+DR   EvolutionaryTrace; P28814; -.
+DR   ExpressionAtlas; P28814; baseline and differential.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004540; F:ribonuclease activity; IEA:InterPro.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:InterPro.
+DR   GO; GO:0050832; P:defense response to fungus; IEA:InterPro.
+DR   Gene3D; 2.40.40.10; -; 1.
+DR   InterPro; IPR018226; Barwin_CS.
+DR   InterPro; IPR001153; Barwin_dom.
+DR   InterPro; IPR044301; PR4.
+DR   InterPro; IPR036908; RlpA-like_sf.
+DR   PANTHER; PTHR46351; PTHR46351; 1.
+DR   Pfam; PF00967; Barwin; 1.
+DR   PRINTS; PR00602; BARWIN.
+DR   SUPFAM; SSF50685; SSF50685; 1.
+DR   PROSITE; PS00771; BARWIN_1; 1.
+DR   PROSITE; PS00772; BARWIN_2; 1.
+DR   PROSITE; PS51174; BARWIN_3; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Lectin;
+KW   Plant defense; Pyrrolidone carboxylic acid.
+FT   CHAIN           1..125
+FT                   /note="Barwin"
+FT                   /id="PRO_0000164261"
+FT   DOMAIN          1..125
+FT                   /note="Barwin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00527"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:1390663"
+FT   DISULFID        31..63
+FT                   /evidence="ECO:0000269|PubMed:1390663"
+FT   DISULFID        52..86
+FT                   /evidence="ECO:0000269|PubMed:1390663"
+FT   DISULFID        66..123
+FT                   /evidence="ECO:0000269|PubMed:1390663"
+FT   STRAND          2..9
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   HELIX           16..18
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   TURN            25..27
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   HELIX           32..35
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   HELIX           40..45
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   STRAND          49..51
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   STRAND          53..55
+FT                   /evidence="ECO:0007829|PDB:1BW4"
+FT   HELIX           60..62
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   STRAND          66..70
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   TURN            72..74
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   STRAND          77..84
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   STRAND          87..90
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   STRAND          91..93
+FT                   /evidence="ECO:0007829|PDB:1BW4"
+FT   STRAND          95..98
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   HELIX           99..102
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   HELIX           107..111
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+FT   STRAND          112..121
+FT                   /evidence="ECO:0007829|PDB:1BW3"
+SQ   SEQUENCE   125 AA;  13737 MW;  AA4227B7DCD070B4 CRC64;
+     QQANDVRATY HYYRPAQNNW DLGAPAVSAY CATWDASKPL SWRSKYGWTA FCGPAGPRGQ
+     AACGKCLRVT NPATGAQITA RIVDQCANGG LDLDWDTVFT KIDTNGIGYQ QGHLNVNYQF
+     VDCRD
+//

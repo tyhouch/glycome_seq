@@ -1,0 +1,89 @@
+ID   14KL_BRUA2              Reviewed;         147 AA.
+AC   Q2YKY9; Q44701; Q578L8;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   25-MAY-2022, entry version 66.
+DE   RecName: Full=Lectin-like protein BA14k;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=BAB2_0505;
+OS   Brucella abortus (strain 2308).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Hyphomicrobiales;
+OC   Brucellaceae; Brucella/Ochrobactrum group; Brucella.
+OX   NCBI_TaxID=359391;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND IMMUNOGENICITY.
+RX   PubMed=9673296; DOI=10.1128/iai.66.8.4000-4003.1998;
+RA   Chirhart-Gilleland R.L., Kovach M.E., Elzer P.H., Jennings S.R.,
+RA   Roop R.M. II;
+RT   "Identification and characterization of a 14-kilodalton Brucella abortus
+RT   protein reactive with antibodies from naturally and experimentally infected
+RT   hosts and T lymphocytes from experimentally infected BALB/c mice.";
+RL   Infect. Immun. 66:4000-4003(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2308;
+RX   PubMed=16299333; DOI=10.1128/iai.73.12.8353-8361.2005;
+RA   Chain P.S., Comerci D.J., Tolmasky M.E., Larimer F.W., Malfatti S.A.,
+RA   Vergez L.M., Aguero F., Land M.L., Ugalde R.A., Garcia E.;
+RT   "Whole-genome analyses of speciation events in pathogenic Brucellae.";
+RL   Infect. Immun. 73:8353-8361(2005).
+RN   [3]
+RP   LECTIN-LIKE ACTIVITY, POSSIBLE FUNCTION IN LPS SYNTHESIS, AND DISRUPTION
+RP   PHENOTYPE.
+RX   PubMed=16368972; DOI=10.1128/iai.74.1.183-191.2006;
+RA   Vemulapalli T.H., Vemulapalli R., Schurig G.G., Boyle S.M.,
+RA   Sriranganathan N.;
+RT   "Role in virulence of a Brucella abortus protein exhibiting lectin-like
+RT   activity.";
+RL   Infect. Immun. 74:183-191(2006).
+CC   -!- FUNCTION: Has immunoglobulin-binding and hemagglutination properties,
+CC       and can bind to mannose. Essential for virulence. May be involved in
+CC       LPS biosynthesis or polysaccharide transport.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Rough phenotype, with an aberrant O-antigen
+CC       profile. Mutants exhibit a reduced ability to colonize mouse spleens
+CC       but are still capable of producing a persistent infection, albeit with
+CC       a low bacterial burden. {ECO:0000269|PubMed:16368972}.
+CC   -!- MISCELLANEOUS: Strongly immunoreactive, inducing both humoral and
+CC       cellular immune responses in hosts during the course of infection.
+CC   -!- SIMILARITY: Belongs to the BA14k family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U62541; AAC31618.1; -; Genomic_DNA.
+DR   EMBL; AM040265; CAJ12671.1; -; Genomic_DNA.
+DR   RefSeq; WP_002965908.1; NZ_KN046823.1.
+DR   AlphaFoldDB; Q2YKY9; -.
+DR   STRING; 359391.BAB2_0505; -.
+DR   EnsemblBacteria; CAJ12671; CAJ12671; BAB2_0505.
+DR   GeneID; 45126066; -.
+DR   GeneID; 55592388; -.
+DR   KEGG; bmf:BAB2_0505; -.
+DR   PATRIC; fig|359391.11.peg.2695; -.
+DR   HOGENOM; CLU_095992_0_0_5; -.
+DR   OMA; HVAWCAN; -.
+DR   PhylomeDB; Q2YKY9; -.
+DR   Proteomes; UP000002719; Chromosome II.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR012413; BA14K.
+DR   Pfam; PF07886; BA14K; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Lectin; Membrane; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix; Virulence.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..147
+FT                   /note="Lectin-like protein BA14k"
+FT                   /id="PRO_0000361296"
+FT   TRANSMEM        80..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   147 AA;  16823 MW;  7CEE6F1FB2BB38DB CRC64;
+     MNSFRKTCAG ALALIFGATS IVPTVAAPMN MDRPAINQNV IQARAHYRPQ NYNRGHRPGY
+     WHGHRGYRHY RHGYRRHNDG WWYPLAAFGA GAIIGGAISQ PRPVYRAPAG SPHVQWCYSR
+     YKSYRASDNT FQPYNGPRKQ CRSPYSR
+//

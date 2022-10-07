@@ -1,0 +1,236 @@
+ID   CD72_MOUSE              Reviewed;         354 AA.
+AC   P21855; A2AIN6; Q64225;
+DT   01-MAY-1991, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2012, sequence version 2.
+DT   03-AUG-2022, entry version 172.
+DE   RecName: Full=B-cell differentiation antigen CD72;
+DE   AltName: Full=Lyb-2;
+DE   AltName: Full=Lymphocyte antigen 32;
+DE            Short=Ly-32;
+DE   AltName: CD_antigen=CD72;
+GN   Name=Cd72; Synonyms=Ly-32, Ly32, Lyb-2;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2645579; DOI=10.1073/pnas.86.4.1352;
+RA   Nakayama E., von Hoegen I., Parnes J.R.;
+RT   "Sequence of the Lyb-2 B-cell differentiation antigen defines a gene
+RT   superfamily of receptors with inverted membrane orientation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:1352-1356(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1634777;
+RA   Robinson W.H., Ying H., Miceli M.C., Parnes J.R.;
+RT   "Extensive polymorphism in the extracellular domain of the mouse B cell
+RT   differentiation antigen Lyb-2/CD72.";
+RL   J. Immunol. 149:880-886(1992).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [4]
+RP   PHOSPHORYLATION AT TYR-7 AND TYR-39, AND INTERACTION WITH PTPN6/SHP-1.
+RX   PubMed=9590210;
+RA   Adachi T., Flaswinkel H., Yakura H., Reth M., Tsubata T.;
+RT   "The B cell surface protein CD72 recruits the tyrosine phosphatase SHP-1
+RT   upon tyrosine phosphorylation.";
+RL   J. Immunol. 160:4662-4665(1998).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Spleen;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: Plays a role in B-cell proliferation and differentiation.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Associates with CD5. Interacts
+CC       (tyrosine phosphorylated) with PTPN6/SHP-1.
+CC       {ECO:0000269|PubMed:9590210}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Pre-B-cells and B-cells but not terminally
+CC       differentiated plasma cells.
+CC   -!- PTM: Phosphorylated upon engagement of the B-cell receptor, probably by
+CC       LYN or SYK. Phosphorylation at Tyr-7 is important for interaction with
+CC       PTPN6/SHP-1. {ECO:0000269|PubMed:9590210}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=CD72;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_174";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J04170; AAA37237.1; -; mRNA.
+DR   EMBL; S40777; AAB22615.1; -; mRNA.
+DR   EMBL; AL732506; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   CCDS; CCDS38740.1; -.
+DR   PIR; A32331; A32331.
+DR   PIR; A46509; A46509.
+DR   RefSeq; NP_031680.2; NM_007654.2.
+DR   PDB; 5B1R; X-ray; 1.20 A; A=232-354.
+DR   PDBsum; 5B1R; -.
+DR   AlphaFoldDB; P21855; -.
+DR   SMR; P21855; -.
+DR   BioGRID; 198610; 4.
+DR   STRING; 10090.ENSMUSP00000030179; -.
+DR   GlyGen; P21855; 1 site.
+DR   iPTMnet; P21855; -.
+DR   PhosphoSitePlus; P21855; -.
+DR   SwissPalm; P21855; -.
+DR   jPOST; P21855; -.
+DR   MaxQB; P21855; -.
+DR   PaxDb; P21855; -.
+DR   PRIDE; P21855; -.
+DR   ProteomicsDB; 281270; -.
+DR   Antibodypedia; 3742; 594 antibodies from 39 providers.
+DR   DNASU; 12517; -.
+DR   Ensembl; ENSMUST00000107926; ENSMUSP00000103559; ENSMUSG00000028459.
+DR   GeneID; 12517; -.
+DR   KEGG; mmu:12517; -.
+DR   UCSC; uc008spr.2; mouse.
+DR   CTD; 971; -.
+DR   MGI; MGI:88345; Cd72.
+DR   VEuPathDB; HostDB:ENSMUSG00000028459; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00390000003668; -.
+DR   InParanoid; P21855; -.
+DR   OMA; TCRLEWN; -.
+DR   OrthoDB; 987250at2759; -.
+DR   Reactome; R-MMU-416700; Other semaphorin interactions.
+DR   BioGRID-ORCS; 12517; 2 hits in 72 CRISPR screens.
+DR   ChiTaRS; Cd72; mouse.
+DR   PRO; PR:P21855; -.
+DR   Proteomes; UP000000589; Chromosome 4.
+DR   RNAct; P21855; protein.
+DR   Bgee; ENSMUSG00000028459; Expressed in peripheral lymph node and 123 other tissues.
+DR   ExpressionAtlas; P21855; baseline and differential.
+DR   Genevisible; P21855; MM.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IEA:InterPro.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR039689; CD72-like.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   PANTHER; PTHR15028; PTHR15028; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Glycoprotein; Lectin; Membrane;
+KW   Phosphoprotein; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..354
+FT                   /note="B-cell differentiation antigen CD72"
+FT                   /id="PRO_0000046586"
+FT   TOPO_DOM        1..95
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        96..116
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        117..354
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          231..342
+FT                   /note="C-type lectin"
+FT   MOD_RES         7
+FT                   /note="Phosphotyrosine; by LYN"
+FT                   /evidence="ECO:0000269|PubMed:9590210"
+FT   MOD_RES         39
+FT                   /note="Phosphotyrosine; by LYN"
+FT                   /evidence="ECO:0000269|PubMed:9590210"
+FT   CARBOHYD        136
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        232..243
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        260..340
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        315..332
+FT                   /evidence="ECO:0000250"
+FT   VARIANT         279
+FT                   /note="E -> EYLSDAPQ (in allele LYB-2A.2)"
+FT   CONFLICT        51
+FT                   /note="Missing (in Ref. 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        78
+FT                   /note="N -> K (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        95
+FT                   /note="Y -> N (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        102
+FT                   /note="V -> L (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        123
+FT                   /note="R -> Q (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        157..161
+FT                   /note="LQKAR -> QESQ (in Ref. 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        159..161
+FT                   /note="KAR -> ESQ (in Ref. 1; AAA37237)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        179..181
+FT                   /note="EDA -> KDT (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        223..226
+FT                   /note="FFSD -> LSSC (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        251
+FT                   /note="G -> R (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        306..308
+FT                   /note="QDS -> HDY (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        314..320
+FT                   /note="HCVRIKT -> YCDKIKK (in Ref. 1; AAA37237 and 2;
+FT                   AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        326
+FT                   /note="E -> K (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        329..331
+FT                   /note="ISK -> FSE (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        352
+FT                   /note="N -> H (in Ref. 1; AAA37237 and 2; AAB22615)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          237..239
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+FT   STRAND          242..251
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+FT   HELIX           253..262
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+FT   HELIX           284..287
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+FT   HELIX           302..304
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+FT   STRAND          313..321
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+FT   STRAND          324..331
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+FT   STRAND          336..343
+FT                   /evidence="ECO:0007829|PDB:5B1R"
+SQ   SEQUENCE   354 AA;  40347 MW;  A1E3325C6CF0F143 CRC64;
+     MADAITYADL RFVKVPLKNS ASNHLGQDCE AYEDGELTYE NVQVSPVPGG PPGLASPALA
+     DKAGVGSEQP TATWSSVNSS ALRQIPRCPT VCLQYFLLGL LVSCLMLGVA VICLGVRYLQ
+     VSRQFQEGTR IWEATNSSLQ QQLREKISQL GQKEVELQKA RKELISSQDT LQEKQRTHED
+     AEQQLQACQA ERAKTKENLK TEEERRRDLD QRLTSTRETL RRFFSDSSDT CCPCGWIPYQ
+     ERCFYISHTL GSLEESQKYC TSLSSKLAAF DEPSKYYYEV SLPSGLEELL DRSKSYWIQM
+     SKKWRQDSDS QSRHCVRIKT YYQKWERTIS KCAELHPCIC ESEAFRFPDG INLN
+//

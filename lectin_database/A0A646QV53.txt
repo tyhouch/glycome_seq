@@ -1,0 +1,174 @@
+ID   LECS1_MYTVI             Reviewed;         129 AA.
+AC   A0A646QV53;
+DT   29-SEP-2021, integrated into UniProtKB/Swiss-Prot.
+DT   22-APR-2020, sequence version 1.
+DT   03-AUG-2022, entry version 9.
+DE   RecName: Full=GM1b/asialo-GM1 oligosaccharide-binding R-type lectin {ECO:0000303|PubMed:31769916, ECO:0000303|PubMed:33328520};
+DE   AltName: Full=R-type lectin 1 {ECO:0000312|EMBL:QBM06340.1};
+DE   AltName: Full=SeviL {ECO:0000303|PubMed:31769916, ECO:0000303|PubMed:33328520};
+DE   AltName: Full=SeviL-1 {ECO:0000303|PubMed:31769916};
+OS   Mytilisepta virgata (Purplish bifurcate mussel) (Tichogonia virgata).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Bivalvia;
+OC   Autobranchia; Pteriomorphia; Mytilida; Mytiloidea; Mytilidae;
+OC   Brachidontinae; Mytilisepta.
+OX   NCBI_TaxID=2547956;
+RN   [1] {ECO:0000312|EMBL:QBM06340.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 104-115, FUNCTION, ACTIVITY
+RP   REGULATION, SUBUNIT, TISSUE SPECIFICITY, BIOTECHNOLOGY, AND 3D-STRUCTURE
+RP   MODELING.
+RX   PubMed=31769916; DOI=10.1111/febs.15154;
+RA   Fujii Y., Gerdol M., Kawsar S.M.A., Hasan I., Spazzali F., Yoshida T.,
+RA   Ogawa Y., Rajia S., Kamata K., Koide Y., Sugawara S., Hosono M.,
+RA   Tame J.R.H., Fujita H., Pallavicini A., Ozeki Y.;
+RT   "A GM1b/asialo-GM1 oligosaccharide-binding R-type lectin from purplish
+RT   bifurcate mussels Mytilisepta virgata and its effect on MAP kinases.";
+RL   FEBS J. 287:2612-2630(2019).
+RN   [2] {ECO:0000312|PDB:6LF1, ECO:0000312|PDB:6LF2}
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) AND IN COMPLEX WITH OLIGOSACCHARIDE
+RP   OF ASIALO-GM1, FUNCTION, ACTIVITY REGULATION, SUBUNIT, BIOTECHNOLOGY, AND
+RP   MUTAGENESIS OF GLN-12; ASP-39 AND PHE-126.
+RX   PubMed=33328520; DOI=10.1038/s41598-020-78926-7;
+RA   Kamata K., Mizutani K., Takahashi K., Marchetti R., Silipo A., Addy C.,
+RA   Park S.Y., Fujii Y., Fujita H., Konuma T., Ikegami T., Ozeki Y.,
+RA   Tame J.R.H.;
+RT   "The structure of SeviL, a GM1b/asialo-GM1 binding R-type lectin from the
+RT   mussel Mytilisepta virgata.";
+RL   Sci. Rep. 10:22102-22102(2020).
+CC   -!- FUNCTION: Galbeta1-3GalNAcbeta1-4Galbeta1-4Glc oligosaccharide-binding
+CC       lectin. Binds strongly to the oligosaccharides of ganglioside GM1b and
+CC       to a lesser extent its precursor asialo-GM1 (PubMed:31769916,
+CC       PubMed:33328520). Binds weakly to asialo-GM2 oligosaccharide and to the
+CC       glycan moiety of globo-series stage-specific embryonal antigen 4 (SSEA-
+CC       4) hexaose (PubMed:31769916). Binds galactose, N-acetylgalactose and
+CC       lactose. Does not bind GM1 (PubMed:33328520). Does not bind to Gal-
+CC       beta1,3-GalNAc (Thomsen-Friedenreich antigen), the oligosaccharide of
+CC       GM1a ganglioside or SSEA-4 tetraose. Does not bind to N-glycans, O-
+CC       glycans or glycosaminoglycans of glycoproteins. Does not bind Lewis
+CC       glycans, derivatives of lactose or N-acetyllactosamine or blood group
+CC       (ABH-type) oligosaccharides (PubMed:31769916). Does not bind glucose
+CC       (PubMed:33328520). Has hemagglutination activity towards rabbit
+CC       erythrocytes (PubMed:31769916, PubMed:33328520). Displays cytotoxic
+CC       effects against various cultured cell lines including human breast
+CC       (MCF7), cervical (HeLa) and colon cancer (Caco2) cell lines, as well as
+CC       dog kidney (MDCK) cell line that express asialo-GM1 oligosaccharide at
+CC       their cell surface. Shows dose- and time-dependent activation of
+CC       MKK3/6, ERK1/2 and p38 MAPK, as well as caspase-3/9 in HeLa cervical
+CC       cancer cells. No cytotoxic effect on BT474 human breast cancer cell
+CC       line. May be involved in recognition of glycans found on parasitic or
+CC       symbiotic microorganisms (PubMed:31769916).
+CC       {ECO:0000269|PubMed:31769916, ECO:0000269|PubMed:33328520}.
+CC   -!- ACTIVITY REGULATION: Hemagglutination activity requires divalent
+CC       cations such as Ca(2+) (PubMed:31769916, PubMed:33328520).
+CC       Hemagglutination activity is weakly inhibited by monosaccharides such
+CC       as D-Gal (25 mM), D-GalNAc (25 mM) and D-Fuc (25 mM) and by
+CC       disaccharides such as melibiose (25 mM) and lactose (25 mM).
+CC       Hemagglutination activity is inhibited by bovine submaxillary mucin,
+CC       but not by porcine stomach mucin or fetuin (PubMed:31769916).
+CC       {ECO:0000269|PubMed:31769916, ECO:0000269|PubMed:33328520}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:31769916,
+CC       ECO:0000269|PubMed:33328520}.
+CC   -!- TISSUE SPECIFICITY: Highest expression in the outer part of the mantle
+CC       rim. Highly expressed in gills, with a much lower expression in the
+CC       digestive gland and posterior adductor muscle. Scarcely detectable in
+CC       foot. {ECO:0000269|PubMed:31769916}.
+CC   -!- BIOTECHNOLOGY: This protein has potential for the detection and control
+CC       of certain cancer cells and cells of the immune system, that display
+CC       asialo-GM1 (PubMed:33328520). Has potential clinical applications since
+CC       it recognizes glycans expressed specifically by the target antigen for
+CC       Guillain-Barre syndrome (GM1b), natural killer (NK) cells and basophils
+CC       (asialo-GM1) and glioblastoma multiforme (SSEA-4) in vertebrates
+CC       (PubMed:31769916). {ECO:0000305|PubMed:31769916,
+CC       ECO:0000305|PubMed:33328520}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; MK434191; QBM06340.1; -; mRNA.
+DR   PDB; 6LF1; X-ray; 1.70 A; A/B=1-129.
+DR   PDB; 6LF2; X-ray; 1.60 A; A/B=1-129.
+DR   PDBsum; 6LF1; -.
+DR   PDBsum; 6LF2; -.
+DR   SMR; A0A646QV53; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Hemagglutinin; Lectin.
+FT   CHAIN           1..129
+FT                   /note="GM1b/asialo-GM1 oligosaccharide-binding R-type
+FT                   lectin"
+FT                   /id="PRO_0000453280"
+FT   BINDING         21..23
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:33328520,
+FT                   ECO:0007744|PDB:6LF2"
+FT   BINDING         26..28
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:33328520,
+FT                   ECO:0007744|PDB:6LF2"
+FT   BINDING         32
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:33328520,
+FT                   ECO:0007744|PDB:6LF2"
+FT   BINDING         37..40
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:33328520,
+FT                   ECO:0007744|PDB:6LF2"
+FT   MUTAGEN         12
+FT                   /note="Q->R: Loss of hemagglutination. Loss of
+FT                   homodimerization, but retains saccharide binding; when
+FT                   associated with K-126."
+FT                   /evidence="ECO:0000269|PubMed:33328520"
+FT   MUTAGEN         39
+FT                   /note="D->H: Loss of hemagglutination."
+FT                   /evidence="ECO:0000269|PubMed:33328520"
+FT   MUTAGEN         126
+FT                   /note="F->K: Loss of hemagglutination. Loss of
+FT                   homodimerization, but retains saccharide binding; when
+FT                   associated with R-12."
+FT                   /evidence="ECO:0000269|PubMed:33328520"
+FT   STRAND          7..13
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   TURN            14..16
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          19..23
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   TURN            24..27
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          28..32
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   HELIX           38..40
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          42..46
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          53..57
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          60..64
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          69..74
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   HELIX           77..79
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          81..85
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          93..97
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   TURN            98..100
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          103..107
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          110..116
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   HELIX           119..121
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+FT   STRAND          123..127
+FT                   /evidence="ECO:0007829|PDB:6LF2"
+SQ   SEQUENCE   129 AA;  15047 MW;  149CC6B3A03C7562 CRC64;
+     MSSVTIGKCY IQNRENGGRA FYNLGRKDLG IFTGKMYDDQ IWSFQKSDTP GYYTIGRESK
+     FLQYNGEQVI MSDIEQDTTL WSLEEVPEDK GFYRLLNKVH KAYLDYNGGD LVANKHQTES
+     EKWILFKAY
+//

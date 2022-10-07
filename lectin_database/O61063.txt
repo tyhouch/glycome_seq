@@ -1,0 +1,77 @@
+ID   TCT1_PHYPO              Reviewed;         217 AA.
+AC   O61063;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   25-MAY-2022, entry version 58.
+DE   RecName: Full=Tectonin-1;
+DE   AltName: Full=Tectonin I;
+GN   Name=TECA;
+OS   Physarum polycephalum (Slime mold).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Myxogastria;
+OC   Myxogastromycetidae; Physariida; Physaraceae; Physarum.
+OX   NCBI_TaxID=5791;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 2-21, AND CHARACTERIZATION.
+RC   STRAIN=M3;
+RX   PubMed=9497393; DOI=10.1074/jbc.273.11.6565;
+RA   Huh C.-G., Aldrich J., Mottahedeh J., Kwon H., Johnson C., Marsh R.;
+RT   "Cloning and characterization of Physarum polycephalum tectonins.
+RT   Homologues of Limulus lectin L-6.";
+RL   J. Biol. Chem. 273:6565-6574(1998).
+CC   -!- FUNCTION: Probably involved in bacterial recognition. May be a lectin
+CC       that function as part of a transmembrane signaling complex during
+CC       phagocytosis.
+CC   -!- SUBCELLULAR LOCATION: Cell surface. Cytoplasmic vesicle membrane.
+CC       Note=Also bound to inner membrane of certain cytoplasmic vesicles.
+CC   -!- SIMILARITY: Belongs to the tectonin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF041455; AAC06200.1; -; mRNA.
+DR   AlphaFoldDB; O61063; -.
+DR   SMR; O61063; -.
+DR   PRIDE; O61063; -.
+DR   GO; GO:0009986; C:cell surface; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR006624; Beta-propeller_rpt_TECPR.
+DR   Pfam; PF19193; Tectonin; 2.
+DR   SMART; SM00706; TECPR; 6.
+PE   1: Evidence at protein level;
+KW   Cytoplasmic vesicle; Direct protein sequencing; Lectin; Membrane; Repeat.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:9497393"
+FT   CHAIN           2..217
+FT                   /note="Tectonin-1"
+FT                   /id="PRO_0000221476"
+FT   REPEAT          2..37
+FT                   /note="1"
+FT   REPEAT          38..74
+FT                   /note="2"
+FT   REPEAT          75..111
+FT                   /note="3"
+FT   REPEAT          112..146
+FT                   /note="4"
+FT   REPEAT          147..182
+FT                   /note="5"
+FT   REPEAT          183..217
+FT                   /note="6"
+FT   REGION          2..217
+FT                   /note="6 X approximate tandem repeats"
+FT   CONFLICT        3
+FT                   /note="H -> T (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        7
+FT                   /note="H -> W (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        20
+FT                   /note="S -> L (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   217 AA;  24825 MW;  88EDA97530AE7716 CRC64;
+     MVHWEKHEGE LSVVGVGAGS NDIWGVNHLG HIYHWDGHKW HKVDGELTNI SVGHDGEVWG
+     VNKNHNIYRL DRSNNKWTQI PGELVQVSVG SHHHVWGVNH LDHIYKWDHH HNKWDKIDGA
+     LTNVSVGKDG TVYGVNRGHQ IYRWDGSKVD LVLGELVQIH VSDAEKIVGV NHLDHIYRLK
+     HGKDWEKLDG ELTWVSVGHH GEVWGVNKLH HIYKATL
+//

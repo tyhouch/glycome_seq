@@ -1,0 +1,178 @@
+ID   OS9_EMENI               Reviewed;         509 AA.
+AC   Q5BDB9; C8VMD1;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   26-APR-2005, sequence version 1.
+DT   03-AUG-2022, entry version 89.
+DE   RecName: Full=Protein OS-9 homolog;
+DE   Flags: Precursor;
+GN   Name=yos9; ORFNames=AN1461;
+OS   Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 /
+OS   M139) (Aspergillus nidulans).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Nidulantes.
+OX   NCBI_TaxID=227321;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139;
+RX   PubMed=16372000; DOI=10.1038/nature04341;
+RA   Galagan J.E., Calvo S.E., Cuomo C., Ma L.-J., Wortman J.R., Batzoglou S.,
+RA   Lee S.-I., Bastuerkmen M., Spevak C.C., Clutterbuck J., Kapitonov V.,
+RA   Jurka J., Scazzocchio C., Farman M.L., Butler J., Purcell S., Harris S.,
+RA   Braus G.H., Draht O., Busch S., D'Enfert C., Bouchier C., Goldman G.H.,
+RA   Bell-Pedersen D., Griffiths-Jones S., Doonan J.H., Yu J., Vienken K.,
+RA   Pain A., Freitag M., Selker E.U., Archer D.B., Penalva M.A., Oakley B.R.,
+RA   Momany M., Tanaka T., Kumagai T., Asai K., Machida M., Nierman W.C.,
+RA   Denning D.W., Caddick M.X., Hynes M., Paoletti M., Fischer R., Miller B.L.,
+RA   Dyer P.S., Sachs M.S., Osmani S.A., Birren B.W.;
+RT   "Sequencing of Aspergillus nidulans and comparative analysis with A.
+RT   fumigatus and A. oryzae.";
+RL   Nature 438:1105-1115(2005).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139;
+RX   PubMed=19146970; DOI=10.1016/j.fgb.2008.12.003;
+RA   Wortman J.R., Gilsenan J.M., Joardar V., Deegan J., Clutterbuck J.,
+RA   Andersen M.R., Archer D., Bencina M., Braus G., Coutinho P., von Dohren H.,
+RA   Doonan J., Driessen A.J., Durek P., Espeso E., Fekete E., Flipphi M.,
+RA   Estrada C.G., Geysens S., Goldman G., de Groot P.W., Hansen K.,
+RA   Harris S.D., Heinekamp T., Helmstaedt K., Henrissat B., Hofmann G.,
+RA   Homan T., Horio T., Horiuchi H., James S., Jones M., Karaffa L.,
+RA   Karanyi Z., Kato M., Keller N., Kelly D.E., Kiel J.A., Kim J.M.,
+RA   van der Klei I.J., Klis F.M., Kovalchuk A., Krasevec N., Kubicek C.P.,
+RA   Liu B., Maccabe A., Meyer V., Mirabito P., Miskei M., Mos M., Mullins J.,
+RA   Nelson D.R., Nielsen J., Oakley B.R., Osmani S.A., Pakula T., Paszewski A.,
+RA   Paulsen I., Pilsyk S., Pocsi I., Punt P.J., Ram A.F., Ren Q., Robellet X.,
+RA   Robson G., Seiboth B., van Solingen P., Specht T., Sun J.,
+RA   Taheri-Talesh N., Takeshita N., Ussery D., vanKuyk P.A., Visser H.,
+RA   van de Vondervoort P.J., de Vries R.P., Walton J., Xiang X., Xiong Y.,
+RA   Zeng A.P., Brandt B.W., Cornell M.J., van den Hondel C.A., Visser J.,
+RA   Oliver S.G., Turner G.;
+RT   "The 2008 update of the Aspergillus nidulans genome annotation: a community
+RT   effort.";
+RL   Fungal Genet. Biol. 46:S2-13(2009).
+CC   -!- FUNCTION: Lectin involved in the quality control of the secretory
+CC       pathway. As a member of the endoplasmic reticulum-associated
+CC       degradation lumenal (ERAD-L) surveillance system, targets misfolded
+CC       endoplasmic reticulum lumenal glycoproteins for degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with missfolded ER lumenal proteins. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000255|PROSITE-ProRule:PRU10138}; Peripheral membrane protein
+CC       {ECO:0000250}; Lumenal side {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AACD01000022; EAA64591.1; -; Genomic_DNA.
+DR   EMBL; BN001307; CBF84906.1; -; Genomic_DNA.
+DR   RefSeq; XP_659065.1; XM_653973.1.
+DR   AlphaFoldDB; Q5BDB9; -.
+DR   STRING; 162425.CADANIAP00008077; -.
+DR   PRIDE; Q5BDB9; -.
+DR   EnsemblFungi; CBF84906; CBF84906; ANIA_01461.
+DR   EnsemblFungi; EAA64591; EAA64591; AN1461.2.
+DR   GeneID; 2875379; -.
+DR   KEGG; ani:AN1461.2; -.
+DR   VEuPathDB; FungiDB:AN1461; -.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   HOGENOM; CLU_025069_0_0_1; -.
+DR   InParanoid; Q5BDB9; -.
+DR   OMA; GWWSYRF; -.
+DR   OrthoDB; 1475416at2759; -.
+DR   Proteomes; UP000000560; Chromosome VII.
+DR   Proteomes; UP000005890; Unassembled WGS sequence.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IBA:GO_Central.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:0030970; P:retrograde protein transport, ER to cytosol; IBA:GO_Central.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IBA:GO_Central.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR012913; OS9-like_dom.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF07915; PRKCSH; 1.
+DR   SUPFAM; SSF50911; SSF50911; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Membrane;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..509
+FT                   /note="Protein OS-9 homolog"
+FT                   /id="PRO_0000043270"
+FT   DOMAIN          151..291
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          64..91
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          433..509
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           506..509
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   COMPBIAS        72..91
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        462..477
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        492..509
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         160
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         161
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         173
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         246
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         252
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         273
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         279
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        153..166
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        245..277
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        260..289
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   509 AA;  57548 MW;  AE1741546DB1DAA2 CRC64;
+     MRRQSRIVAS LLVLACASSG AFAHRKFNVH DDLLAYPQFR IKFPDGFILE SQARAFLEQA
+     PYSSPDLNDI SEQTPLKDES EESIRDGSSG EKAKFSYEEL SLEGQRYLCQ IPVVEDGDSN
+     RTKVEVNEEE ERKELARATD RGLELLREME GKCLYYISGW WSYSFCYMNQ IKQFHALPSG
+     GGVPNYPPME DHTTHSFILG RFPQEEGQDE GKGAKSGKSS TELAELQTKG GSRYLVQRLE
+     SGDQCDLTGK NRKIEVQFHC NPQSTDRIAW IKELYTCSYL MLIYTPRLCN DVAFLPPQQE
+     EVHTIECREI LTPEEVTGWQ AMHEYQLSQQ LVESAEAPKH QVIGGIEVGA QRLVGTEGKR
+     IEKGRVASIG EEKVDVVAKR VNGEVQLLSA EELKKFDLDE AKIEELRKKL EEWAKGKDWT
+     LEIVTGNGAY LRGVVDTDED EEDGYENEEG ETDKREQREN TQETTGQPGQ PGHQEETESG
+     QAGHPMDDRS EDGEDPDVDG SEEIFKDEL
+//

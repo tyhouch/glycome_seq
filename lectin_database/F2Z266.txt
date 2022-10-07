@@ -1,0 +1,145 @@
+ID   BEL_BOLED               Reviewed;         143 AA.
+AC   F2Z266;
+DT   16-NOV-2011, integrated into UniProtKB/Swiss-Prot.
+DT   16-NOV-2011, sequence version 2.
+DT   03-AUG-2022, entry version 28.
+DE   RecName: Full=Boletus edulis lectin;
+DE            Short=BEL;
+OS   Boletus edulis (King bolete).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Boletales; Boletineae; Boletaceae; Boletoideae; Boletus.
+OX   NCBI_TaxID=36056;
+RN   [1] {ECO:0007744|PDB:3QDS, ECO:0007744|PDB:3QDT, ECO:0007744|PDB:3QDU, ECO:0007744|PDB:3QDV, ECO:0007744|PDB:3QDW, ECO:0007744|PDB:3QDX, ECO:0007744|PDB:3QDY}
+RP   PROTEIN SEQUENCE OF 2-143, X-RAY CRYSTALLOGRAPHY (1.15 ANGSTROMS) IN
+RP   COMPLEXES WITH T-ANTIGEN DISACCHARIDE; DIACETYLCHITOBIOSE AND OTHER SUGAR
+RP   MOIETIES, FUNCTION, SUBUNIT, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=21303815; DOI=10.1093/glycob/cwr012;
+RA   Bovi M., Carrizo M.E., Capaldi S., Perduca M., Chiarelli L.R., Galliano M.,
+RA   Monaco H.L.;
+RT   "Structure of a lectin with antitumoral properties in king bolete (Boletus
+RT   edulis) mushrooms.";
+RL   Glycobiology 21:1000-1009(2011).
+CC   -!- FUNCTION: Lectin that recognizes O-linked galactose-beta-1,3-N-
+CC       acetylgalactosamine, a disaccharide (Thomsen-Friedenreich antigen or T-
+CC       disaccharide), present on cell surface glycoproteins. Can also bind
+CC       chitin, N,N'-diacetylchitobiose, N-acetylgalactosamine and N-
+CC       acetylglucosamine. Inhibits proliferation of colon, breast and liver
+CC       cancer cell lines (in vitro). {ECO:0000269|PubMed:21303815}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:21303815}.
+CC   -!- BIOTECHNOLOGY: Lectins can be used to recognize and purifiy specific
+CC       glycoproteins, and for the purification of cells with specific surface
+CC       glycoproteins. Has potential as anti-proliferative agent.
+CC   -!- SIMILARITY: Belongs to the fungal fruit body lectin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 3QDS; X-ray; 1.15 A; A/B=2-143.
+DR   PDB; 3QDT; X-ray; 1.30 A; A/B=2-143.
+DR   PDB; 3QDU; X-ray; 2.00 A; A/B/C/D=2-143.
+DR   PDB; 3QDV; X-ray; 1.30 A; A/B=2-143.
+DR   PDB; 3QDW; X-ray; 1.90 A; A/B=2-143.
+DR   PDB; 3QDX; X-ray; 1.70 A; A/B=2-143.
+DR   PDB; 3QDY; X-ray; 2.00 A; A/B=2-143.
+DR   PDBsum; 3QDS; -.
+DR   PDBsum; 3QDT; -.
+DR   PDBsum; 3QDU; -.
+DR   PDBsum; 3QDV; -.
+DR   PDBsum; 3QDW; -.
+DR   PDBsum; 3QDX; -.
+DR   PDBsum; 3QDY; -.
+DR   AlphaFoldDB; F2Z266; -.
+DR   SMR; F2Z266; -.
+DR   Allergome; 11373; Bol ed Lectin.
+DR   UniLectin; F2Z266; -.
+DR   EvolutionaryTrace; F2Z266; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.270.20; -; 1.
+DR   InterPro; IPR015926; Cytolysin/lectin.
+DR   InterPro; IPR009960; Fruit_body_lectin_fun.
+DR   Pfam; PF07367; FB_lectin; 1.
+DR   SUPFAM; SSF63724; SSF63724; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Lectin.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000305|PubMed:21303815"
+FT   CHAIN           2..143
+FT                   /note="Boletus edulis lectin"
+FT                   /id="PRO_0000413861"
+FT   REGION          49..50
+FT                   /note="beta-D-Gal-(1->3)-alpha-D-GalNAc"
+FT                   /evidence="ECO:0007744|PDB:3QDT"
+FT   REGION          49..50
+FT                   /note="N-acetyl-alpha-D-galactosamine"
+FT                   /evidence="ECO:0007744|PDB:3QDV"
+FT   REGION          72..73
+FT                   /note="beta-D-Gal-(1->3)-alpha-D-GalNAc"
+FT                   /evidence="ECO:0007744|PDB:3QDT"
+FT   REGION          72..73
+FT                   /note="N-acetyl-alpha-D-galactosamine"
+FT                   /evidence="ECO:0007744|PDB:3QDV"
+FT   BINDING         30
+FT                   /ligand="beta-D-Gal-(1->3)-alpha-D-GalNAc"
+FT                   /ligand_id="ChEBI:CHEBI:61820"
+FT                   /evidence="ECO:0007744|PDB:3QDT"
+FT   BINDING         79..82
+FT                   /ligand="N,N'-diacetylchitobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28681"
+FT                   /evidence="ECO:0007744|PDB:3QDU"
+FT   BINDING         79..82
+FT                   /ligand="N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:44278"
+FT                   /evidence="ECO:0007744|PDB:3QDV"
+FT   BINDING         103
+FT                   /ligand="N,N'-diacetylchitobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28681"
+FT                   /evidence="ECO:0007744|PDB:3QDU"
+FT   BINDING         103
+FT                   /ligand="N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:44278"
+FT                   /evidence="ECO:0007744|PDB:3QDV"
+FT   BINDING         114
+FT                   /ligand="N,N'-diacetylchitobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28681"
+FT                   /evidence="ECO:0007744|PDB:3QDU"
+FT   BINDING         114
+FT                   /ligand="N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:44278"
+FT                   /evidence="ECO:0007744|PDB:3QDV"
+FT   STRAND          3..11
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   HELIX           14..16
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          19..26
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   HELIX           29..31
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          33..38
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          41..50
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          52..59
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          64..72
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          75..81
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   HELIX           90..93
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   HELIX           94..97
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   HELIX           104..108
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          112..117
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          123..130
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+FT   STRAND          132..142
+FT                   /evidence="ECO:0007829|PDB:3QDS"
+SQ   SEQUENCE   143 AA;  15939 MW;  0FB92D82B139CA2A CRC64;
+     MTYSITLRVF QRNPGRGFFS IVEKTVFHYA NGGTWSEAKG THTLTMGGSG TSGVLRFMSD
+     KGELITVAVG VHNYKRWCDV VTGLKPEETA LVINPQYYNN GPRAYTREKQ LAEYNVTSVV
+     GTRFEVKYTV VEGNNLEANV IFS
+//

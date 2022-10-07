@@ -1,0 +1,165 @@
+ID   YEAD_SALTY              Reviewed;         294 AA.
+AC   Q8ZPV9;
+DT   08-JUN-2016, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   03-AUG-2022, entry version 109.
+DE   RecName: Full=Putative glucose-6-phosphate 1-epimerase {ECO:0000250|UniProtKB:Q03161};
+DE            EC=5.1.3.15 {ECO:0000250|UniProtKB:Q03161};
+DE   AltName: Full=Putative D-hexose-6-phosphate mutarotase {ECO:0000250|UniProtKB:Q03161};
+GN   Name=yeaD {ECO:0000312|EMBL:AAL20214.1};
+GN   OrderedLocusNames=STM1289 {ECO:0000312|EMBL:AAL20214.1};
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [2] {ECO:0007744|PDB:2HTA, ECO:0007744|PDB:2HTB}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS), SUBUNIT, ACTIVE SITE, AND PROBABLE
+RP   FUNCTION.
+RX   PubMed=17242513; DOI=10.1107/s090744490604618x;
+RA   Chittori S., Simanshu D.K., Savithri H.S., Murthy M.R.;
+RT   "Structure of the putative mutarotase YeaD from Salmonella typhimurium:
+RT   structural comparison with galactose mutarotases.";
+RL   Acta Crystallogr. D 63:197-205(2007).
+CC   -!- FUNCTION: Probably functions as a hexose-6-phosphate 1-epimerase.
+CC       {ECO:0000305|PubMed:17242513}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 6-phosphate = beta-D-glucose 6-phosphate;
+CC         Xref=Rhea:RHEA:16249, ChEBI:CHEBI:58225, ChEBI:CHEBI:58247;
+CC         EC=5.1.3.15; Evidence={ECO:0000250|UniProtKB:Q03161};
+CC   -!- SUBUNIT: Monomer in solution. {ECO:0000269|PubMed:17242513}.
+CC   -!- SIMILARITY: Belongs to the glucose-6-phosphate 1-epimerase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006468; AAL20214.1; -; Genomic_DNA.
+DR   RefSeq; NP_460255.1; NC_003197.2.
+DR   RefSeq; WP_000608662.1; NC_003197.2.
+DR   PDB; 2HTA; X-ray; 1.90 A; A/B=1-294.
+DR   PDB; 2HTB; X-ray; 2.50 A; A/B/C/D=1-294.
+DR   PDBsum; 2HTA; -.
+DR   PDBsum; 2HTB; -.
+DR   AlphaFoldDB; Q8ZPV9; -.
+DR   SMR; Q8ZPV9; -.
+DR   STRING; 99287.STM1289; -.
+DR   PaxDb; Q8ZPV9; -.
+DR   EnsemblBacteria; AAL20214; AAL20214; STM1289.
+DR   GeneID; 1252807; -.
+DR   KEGG; stm:STM1289; -.
+DR   PATRIC; fig|99287.12.peg.1370; -.
+DR   HOGENOM; CLU_048345_4_1_6; -.
+DR   OMA; TQALHSY; -.
+DR   PhylomeDB; Q8ZPV9; -.
+DR   BioCyc; SENT99287:STM1289-MON; -.
+DR   EvolutionaryTrace; Q8ZPV9; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0047938; F:glucose-6-phosphate 1-epimerase activity; IBA:GO_Central.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd09020; D-hex-6-P-epi_like; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR008183; Aldose_1/G6P_1-epimerase.
+DR   InterPro; IPR025532; G6P_1-epimerase.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   Pfam; PF01263; Aldose_epim; 1.
+DR   PIRSF; PIRSF016020; PHexose_mutarotase; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Isomerase; Reference proteome.
+FT   CHAIN           1..294
+FT                   /note="Putative glucose-6-phosphate 1-epimerase"
+FT                   /id="PRO_0000436310"
+FT   ACT_SITE        164
+FT                   /evidence="ECO:0000250|UniProtKB:Q03161,
+FT                   ECO:0000305|PubMed:17242513"
+FT   ACT_SITE        267
+FT                   /evidence="ECO:0000250|UniProtKB:Q03161,
+FT                   ECO:0000305|PubMed:17242513"
+FT   BINDING         74
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q03161"
+FT   BINDING         99
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q03161"
+FT   BINDING         208
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q03161"
+FT   HELIX           1..7
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          11..13
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          15..23
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          26..33
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          36..41
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          46..52
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          74..77
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          79..82
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   HELIX           98..100
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          104..110
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          115..122
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   HELIX           125..130
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          136..163
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          166..168
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   HELIX           172..174
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          176..178
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          182..186
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   TURN            187..191
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          192..195
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          197..199
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          207..213
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          216..222
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   TURN            223..226
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          227..235
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          237..243
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   HELIX           245..251
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   HELIX           259..262
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          263..278
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+FT   STRAND          283..292
+FT                   /evidence="ECO:0007829|PDB:2HTA"
+SQ   SEQUENCE   294 AA;  32560 MW;  80974EE1F913ECFA CRC64;
+     MINKIFALPV IEQLTPVLSR RQLDDLDLIV VDHPQVKASF ALQGAHLLSW KPVGEEEVLW
+     LSNNTPFKTG VALRGGVPIC WPWFGPAAQQ GLPSHGFARN LPWALKAHNE DDNGVMLTFE
+     LQSSEATRKY WPHDFTLLAR FKVGKTCEIE LEAHGEFATT SALHSYFNVG DIANVKVSGL
+     GDRFIDKVND AKEGVLTDGI QTFPDRTDRV YLNPEACSVI HDATLNRTID VVHHHHLNVV
+     GWNPGPALSV SMGDMPDDGY KTFVCVETVY ATAPQQATEE KPSRLAQTIC VAKR
+//

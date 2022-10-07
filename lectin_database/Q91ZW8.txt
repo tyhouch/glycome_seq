@@ -1,0 +1,166 @@
+ID   C209D_MOUSE             Reviewed;         237 AA.
+AC   Q91ZW8; Q8VIK4;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   03-AUG-2022, entry version 135.
+DE   RecName: Full=CD209 antigen-like protein D;
+DE   AltName: Full=DC-SIGN-related protein 3;
+DE            Short=DC-SIGNR3;
+DE   AltName: CD_antigen=CD209;
+GN   Name=Cd209d;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2).
+RC   STRAIN=C57BL/6J;
+RX   PubMed=11581173; DOI=10.1093/intimm/13.10.1283;
+RA   Park C.G., Takahara K., Umemoto E., Yashima Y., Matsubara K., Matsuda Y.,
+RA   Clausen B.E., Inaba K., Steinman R.M.;
+RT   "Five mouse homologues of the human dendritic cell C-type lectin, DC-
+RT   SIGN.";
+RL   Int. Immunol. 13:1283-1290(2001).
+CC   -!- FUNCTION: Probable pathogen-recognition receptor. May mediate the
+CC       endocytosis of pathogens which are subsequently degraded in lysosomal
+CC       compartments. May recognize in a calcium-dependent manner high mannose
+CC       N-linked oligosaccharides in a variety of pathogen antigens.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type II
+CC       membrane protein {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q91ZW8-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q91ZW8-2; Sequence=VSP_010071;
+CC   -!- CAUTION: In mouse, 5 genes homologous to human CD209/DC-SIGN and
+CC       CD209L/DC-SIGNR have been identified. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=SIGNR3;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_00132";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF373411; AAL13237.1; -; mRNA.
+DR   EMBL; AF440280; AAL33584.1; -; mRNA.
+DR   CCDS; CCDS22075.1; -. [Q91ZW8-1]
+DR   RefSeq; NP_570974.1; NM_130904.2. [Q91ZW8-1]
+DR   AlphaFoldDB; Q91ZW8; -.
+DR   SMR; Q91ZW8; -.
+DR   STRING; 10090.ENSMUSP00000011445; -.
+DR   GlyGen; Q91ZW8; 2 sites.
+DR   MaxQB; Q91ZW8; -.
+DR   PaxDb; Q91ZW8; -.
+DR   PRIDE; Q91ZW8; -.
+DR   ProteomicsDB; 265404; -. [Q91ZW8-1]
+DR   ProteomicsDB; 265405; -. [Q91ZW8-2]
+DR   DNASU; 170779; -.
+DR   Ensembl; ENSMUST00000011445; ENSMUSP00000011445; ENSMUSG00000031495. [Q91ZW8-1]
+DR   Ensembl; ENSMUST00000209176; ENSMUSP00000147198; ENSMUSG00000031495. [Q91ZW8-2]
+DR   GeneID; 170779; -.
+DR   KEGG; mmu:170779; -.
+DR   UCSC; uc009kst.1; mouse. [Q91ZW8-1]
+DR   UCSC; uc012fyv.1; mouse. [Q91ZW8-2]
+DR   CTD; 170779; -.
+DR   MGI; MGI:2157947; Cd209d.
+DR   VEuPathDB; HostDB:ENSMUSG00000031495; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000155012; -.
+DR   HOGENOM; CLU_049894_7_3_1; -.
+DR   InParanoid; Q91ZW8; -.
+DR   OMA; TSGMNFF; -.
+DR   PhylomeDB; Q91ZW8; -.
+DR   TreeFam; TF333341; -.
+DR   BioGRID-ORCS; 170779; 2 hits in 72 CRISPR screens.
+DR   PRO; PR:Q91ZW8; -.
+DR   Proteomes; UP000000589; Chromosome 8.
+DR   RNAct; Q91ZW8; protein.
+DR   Bgee; ENSMUSG00000031495; Expressed in lip and 34 other tissues.
+DR   ExpressionAtlas; Q91ZW8; baseline and differential.
+DR   Genevisible; Q91ZW8; MM.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:MGI.
+DR   GO; GO:0016021; C:integral component of membrane; ISS:MGI.
+DR   GO; GO:0005886; C:plasma membrane; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0042802; F:identical protein binding; IPI:MGI.
+DR   GO; GO:0005537; F:mannose binding; IDA:MGI.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001618; F:virus receptor activity; ISO:MGI.
+DR   GO; GO:0042742; P:defense response to bacterium; IMP:MGI.
+DR   GO; GO:0006897; P:endocytosis; IDA:MGI.
+DR   GO; GO:0001819; P:positive regulation of cytokine production; IDA:MGI.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Calcium; Disulfide bond; Endocytosis; Glycoprotein;
+KW   Lectin; Mannose-binding; Membrane; Metal-binding; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..237
+FT                   /note="CD209 antigen-like protein D"
+FT                   /id="PRO_0000046607"
+FT   TOPO_DOM        1..54
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        55..75
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        76..237
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          112..227
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   BINDING         196
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         198
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         203
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         214
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         215
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        114
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        129
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        106..117
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        134..226
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        205..218
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         45..74
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:11581173"
+FT                   /id="VSP_010071"
+SQ   SEQUENCE   237 AA;  26925 MW;  52E3003C65AF8EF6 CRC64;
+     MSDSMESKTQ QVVIPEDEEC LMSGTRYSDI SSRLQTKFGI KSLAEYTKQS RNPLVLQLLS
+     FLFLAGLLLI ILILVSKVPS SEVQNKIYQE LMQLKAEVHD GLCQPCARDW TFFNGSCYFF
+     SKSQRNWHNS TTACQELGAQ LVIIETDEEQ TFLQQTSKAR GPTWMGLSDM HNEATWHWVD
+     GSPLSPSFTR YWNRGEPNNV GDEDCAEFSG DGWNDLSCDK LLFWICKKVS TSSCTTK
+//

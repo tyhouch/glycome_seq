@@ -1,0 +1,73 @@
+ID   A0A2Z6G7U6_9BIVA        Unreviewed;       158 AA.
+AC   A0A2Z6G7U6;
+DT   10-OCT-2018, integrated into UniProtKB/TrEMBL.
+DT   10-OCT-2018, sequence version 1.
+DT   25-MAY-2022, entry version 12.
+DE   SubName: Full=N-acetylglucosamine-specific lectin {ECO:0000313|EMBL:BBE43064.1};
+GN   Name=SPL-A {ECO:0000313|EMBL:BBE43064.1};
+OS   Saxidomus purpurata.
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Bivalvia;
+OC   Autobranchia; Heteroconchia; Euheterodonta; Imparidentia; Neoheterodontei;
+OC   Venerida; Veneroidea; Veneridae; Saxidomus.
+OX   NCBI_TaxID=311201 {ECO:0000313|EMBL:BBE43064.1};
+RN   [1] {ECO:0000313|EMBL:BBE43064.1, ECO:0007829|PDB:6A7T}
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=30793424; DOI=10.1002/pro.3592;
+RA   Unno H., Itakura S., Higuchi S., Goda S., Yamaguchi K., Hatakeyama T.;
+RT   "Novel Ca<sup>2+</sup> -independent carbohydrate recognition of the C-type
+RT   lectins, SPL-1 and SPL-2, from the bivalve Saxidomus purpuratus.";
+RL   Protein Sci. 28:766-778(2019).
+RN   [2] {ECO:0007829|PDB:6M5M}
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=32510468; DOI=10.1107/s2053230x20007256;
+RA   Unno H., Higuchi S., Goda S., Hatakeyama T.;
+RT   "Novel carbohydrate-recognition mode of the invertebrate C-type lectin SPL-
+RT   1 from Saxidomus purpuratus revealed by the GlcNAc-complex crystal in the
+RT   presence of Ca<sup>2</sup>.";
+RL   Acta Crystallogr. F Struct. Biol. Commun. 76:271-277(2020).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LC388679; BBE43064.1; -; mRNA.
+DR   PDB; 6A7T; X-ray; 1.60 A; A=1-158.
+DR   PDB; 6M5M; X-ray; 1.70 A; A=1-158.
+DR   PDBsum; 6A7T; -.
+DR   SMR; A0A2Z6G7U6; -.
+DR   UniLectin; A0A2Z6G7U6; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:6A7T, ECO:0007829|PDB:6M5M};
+KW   Lectin {ECO:0000313|EMBL:BBE43064.1}; Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           22..158
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5016314062"
+FT   DOMAIN          34..139
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50041"
+FT   DISULFID        22..156
+FT                   /evidence="ECO:0007829|PDB:6A7T, ECO:0007829|PDB:6M5M"
+FT   DISULFID        25
+FT                   /note="Interchain (with C-22 in A0A2Z6G7U3)"
+FT                   /evidence="ECO:0007829|PDB:6A7T, ECO:0007829|PDB:6M5M"
+FT   DISULFID        27..38
+FT                   /evidence="ECO:0007829|PDB:6A7T, ECO:0007829|PDB:6M5M"
+FT   DISULFID        55..152
+FT                   /evidence="ECO:0007829|PDB:6A7T, ECO:0007829|PDB:6M5M"
+FT   DISULFID        124..143
+FT                   /evidence="ECO:0007829|PDB:6A7T, ECO:0007829|PDB:6M5M"
+SQ   SEQUENCE   158 AA;  17971 MW;  889E825C23AF33A8 CRC64;
+     MLNGPSIIIS LFFCFVSGAY ACCKCDCQSG WEWFGGSCYL FDETERGWED SKTFCESQNA
+     ALVTVESSEE DDFIRGVISA QSAFHYYWIG GSWDAEHSEY RWIDGSSISF NGWGPNRPDA
+     DEGCMDYLNY KEIVWQWNDH QDCVNTKGPS ICETDCSE
+//

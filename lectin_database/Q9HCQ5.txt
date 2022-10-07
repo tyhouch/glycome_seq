@@ -1,0 +1,276 @@
+ID   GALT9_HUMAN             Reviewed;         603 AA.
+AC   Q9HCQ5; Q52LR8; Q6NT54; Q8NFR1;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2007, sequence version 3.
+DT   03-AUG-2022, entry version 159.
+DE   RecName: Full=Polypeptide N-acetylgalactosaminyltransferase 9;
+DE            EC=2.4.1.41 {ECO:0000269|PubMed:12407114};
+DE   AltName: Full=Polypeptide GalNAc transferase 9;
+DE            Short=GalNAc-T9;
+DE            Short=pp-GaNTase 9;
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase 9;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 9;
+GN   Name=GALNT9;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=10978536; DOI=10.1016/s0167-4781(00)00180-9;
+RA   Toba S., Tenno M., Konishi M., Mikami T., Itoh N., Kurosaka A.;
+RT   "Brain-specific expression of a novel human UDP-GalNAc:polypeptide N-
+RT   acetylgalactosaminyltransferase (GalNAc-T9).";
+RL   Biochim. Biophys. Acta 1493:264-268(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Kidney;
+RA   Guo J.H., Zan Q., Yu L.;
+RL   Submitted (DEC-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Colon;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=12407114; DOI=10.1074/jbc.m203094200;
+RA   Zhang Y., Iwasaki H., Wang H., Kudo T., Kalka T.B., Hennet T., Kubota T.,
+RA   Cheng L., Inaba N., Gotoh M., Togayachi A., Guo J.-M., Hisatomi H.,
+RA   Nakajima K., Nishihara S., Nakamura M., Marth J.D., Narimatsu H.;
+RT   "Cloning and characterization of a new human UDP-N-acetyl-alpha-D-
+RT   galactosamine:polypeptide N-acetylgalactosaminyltransferase, designated pp-
+RT   GalNAc-T13, that is specifically expressed in neurons and synthesizes
+RT   GalNAc alpha-serine/threonine antigen.";
+RL   J. Biol. Chem. 278:573-584(2003).
+CC   -!- FUNCTION: Catalyzes the initial reaction in O-linked oligosaccharide
+CC       biosynthesis, the transfer of an N-acetyl-D-galactosamine residue to a
+CC       serine or threonine residue on the protein receptor. Does not
+CC       glycosylate apomucin or SDC3. {ECO:0000269|PubMed:10978536,
+CC       ECO:0000269|PubMed:12407114}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC         Evidence={ECO:0000269|PubMed:12407114};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC         Evidence={ECO:0000269|PubMed:12407114};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000269|PubMed:12407114}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000250}; Single-
+CC       pass type II membrane protein {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9HCQ5-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9HCQ5-2; Sequence=VSP_011206;
+CC   -!- TISSUE SPECIFICITY: Specifically expressed in brain. Not expressed in
+CC       heart, placenta, lung, liver, skeletal muscle, kidney, pancreas,
+CC       spleen, thymus, prostate, testis, ovary, small intestine, colon and
+CC       leukocyte. In brain, it is expressed in cerebellum, frontal lobe,
+CC       temporal lobe, putamen and spinal cord, weakly expressed in cerebral
+CC       cortex. Not expressed in medulla and occipital pole.
+CC       {ECO:0000269|PubMed:10978536}.
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds to GalNAc and contributes
+CC       to the glycopeptide specificity. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - GTase;
+CC       Note=Polypeptide N-acetylgalactosaminyltransferase 9;
+CC       URL="http://www.functionalglycomics.org/glycomics/molecule/jsp/glycoEnzyme/viewGlycoEnzyme.jsp?gbpId=gt_hum_491";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB040672; BAB13699.2; -; mRNA.
+DR   EMBL; AF458594; AAM49722.1; -; mRNA.
+DR   EMBL; BC093817; AAH93817.2; -; mRNA.
+DR   EMBL; BC093819; AAH93819.2; -; mRNA.
+DR   CCDS; CCDS41866.1; -. [Q9HCQ5-2]
+DR   CCDS; CCDS81755.1; -. [Q9HCQ5-1]
+DR   RefSeq; NP_001116108.1; NM_001122636.1.
+DR   RefSeq; NP_068580.2; NM_021808.3. [Q9HCQ5-2]
+DR   AlphaFoldDB; Q9HCQ5; -.
+DR   SMR; Q9HCQ5; -.
+DR   BioGRID; 119094; 53.
+DR   IntAct; Q9HCQ5; 1.
+DR   STRING; 9606.ENSP00000380488; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GT27; Glycosyltransferase Family 27.
+DR   GlyGen; Q9HCQ5; 1 site.
+DR   iPTMnet; Q9HCQ5; -.
+DR   PhosphoSitePlus; Q9HCQ5; -.
+DR   BioMuta; GALNT9; -.
+DR   DMDM; 143811393; -.
+DR   MassIVE; Q9HCQ5; -.
+DR   PaxDb; Q9HCQ5; -.
+DR   PeptideAtlas; Q9HCQ5; -.
+DR   PRIDE; Q9HCQ5; -.
+DR   ProteomicsDB; 81785; -. [Q9HCQ5-1]
+DR   ProteomicsDB; 81786; -. [Q9HCQ5-2]
+DR   Antibodypedia; 32061; 148 antibodies from 21 providers.
+DR   DNASU; 50614; -.
+DR   Ensembl; ENST00000397325.6; ENSP00000380488.2; ENSG00000182870.13. [Q9HCQ5-2]
+DR   Ensembl; ENST00000541995.5; ENSP00000440544.1; ENSG00000182870.13. [Q9HCQ5-2]
+DR   Ensembl; ENST00000671997.1; ENSP00000500654.1; ENSG00000288490.1. [Q9HCQ5-2]
+DR   Ensembl; ENST00000673376.1; ENSP00000500593.1; ENSG00000288490.1. [Q9HCQ5-2]
+DR   GeneID; 50614; -.
+DR   KEGG; hsa:50614; -.
+DR   UCSC; uc001uka.3; human. [Q9HCQ5-1]
+DR   CTD; 50614; -.
+DR   DisGeNET; 50614; -.
+DR   GeneCards; GALNT9; -.
+DR   HGNC; HGNC:4131; GALNT9.
+DR   HPA; ENSG00000182870; Tissue enhanced (brain, thyroid gland).
+DR   MIM; 606251; gene.
+DR   neXtProt; NX_Q9HCQ5; -.
+DR   OpenTargets; ENSG00000182870; -.
+DR   PharmGKB; PA28544; -.
+DR   VEuPathDB; HostDB:ENSG00000182870; -.
+DR   eggNOG; KOG3736; Eukaryota.
+DR   GeneTree; ENSGT00940000156599; -.
+DR   HOGENOM; CLU_013477_2_2_1; -.
+DR   InParanoid; Q9HCQ5; -.
+DR   OMA; QYVHRRY; -.
+DR   OrthoDB; 273006at2759; -.
+DR   PhylomeDB; Q9HCQ5; -.
+DR   TreeFam; TF313267; -.
+DR   BRENDA; 2.4.1.41; 2681.
+DR   PathwayCommons; Q9HCQ5; -.
+DR   Reactome; R-HSA-913709; O-linked glycosylation of mucins.
+DR   SignaLink; Q9HCQ5; -.
+DR   UniPathway; UPA00378; -.
+DR   BioGRID-ORCS; 50614; 14 hits in 1063 CRISPR screens.
+DR   ChiTaRS; GALNT9; human.
+DR   GenomeRNAi; 50614; -.
+DR   Pharos; Q9HCQ5; Tbio.
+DR   PRO; PR:Q9HCQ5; -.
+DR   Proteomes; UP000005640; Chromosome 12.
+DR   RNAct; Q9HCQ5; protein.
+DR   Bgee; ENSG00000182870; Expressed in right hemisphere of cerebellum and 88 other tissues.
+DR   ExpressionAtlas; Q9HCQ5; baseline and differential.
+DR   Genevisible; Q9HCQ5; HS.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; TAS:Reactome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0016266; P:O-glycan processing; TAS:Reactome.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; IBA:GO_Central.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Disulfide bond; Glycoprotein; Glycosyltransferase;
+KW   Golgi apparatus; Lectin; Manganese; Membrane; Metal-binding;
+KW   Reference proteome; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..603
+FT                   /note="Polypeptide N-acetylgalactosaminyltransferase 9"
+FT                   /id="PRO_0000059120"
+FT   TOPO_DOM        1..6
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        7..29
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        30..603
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          464..600
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          150..261
+FT                   /note="Catalytic subdomain A"
+FT   REGION          318..380
+FT                   /note="Catalytic subdomain B"
+FT   BINDING         191
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         222
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         245
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         247
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         377
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         380
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         385
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        460
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        141..372
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        363..442
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        477..493
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        525..540
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        567..587
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   VAR_SEQ         1..366
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334, ECO:0000303|Ref.2"
+FT                   /id="VSP_011206"
+FT   CONFLICT        539
+FT                   /note="K -> R (in Ref. 1; BAB13699)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   603 AA;  68359 MW;  4B5888733D8577CF CRC64;
+     MAVARKIRTL LTVNILVFVG IVLFSVYCRL QGRSQELVRI VSGDRRVRSR HAKVGTLGDR
+     EAILQRLDHL EEVVYNQLNG LAKPIGLVEG PGGLGQGGLA ATLRDDGQEA EGKYEEYGYN
+     AQLSDRISLD RSIPDYRPRK CRQMSYAQDL PQVSVVFIFV NEALSVILRS VHSVVNHTPS
+     QLLKEVILVD DNSDNVELKF NLDQYVNKRY PGLVKIVRNS RREGLIRARL QGWKAATAPV
+     VGFFDAHVEF NTGWAEPALS RIREDRRRIV LPAIDNIKYS TFEVQQYANA AHGYNWGLRC
+     MYIIPPQDWL DRGDESAPIR TPAMIGCSFV VDREYFGDIG LLDPGMEVYG GENVELGMRV
+     WQCGGSMEVL PCSRVAHIER TRKPYNNDID YYAKRNALRA AEVWMDDFKS HVYMAWNIPM
+     SNPGVDFGDV SERLALRQRL KCRSFKWYLE NVYPEMRVYN NTLTYGEVRN SKASAYCLDQ
+     GAEDGDRAIL YPCHGMSSQL VRYSADGLLQ LGPLGSTAFL PDSKCLVDDG TGRMPTLKKC
+     EDVARPTQRL WDFTQSGPIV SRATGRCLEV EMSKDANFGL RLVVQRCSGQ KWMIRNWIKH
+     ARH
+//

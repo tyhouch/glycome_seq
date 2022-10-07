@@ -1,0 +1,533 @@
+ID   BARK_DROME              Reviewed;        3123 AA.
+AC   M9NDE3; Q9VQV1;
+DT   09-DEC-2015, integrated into UniProtKB/Swiss-Prot.
+DT   26-JUN-2013, sequence version 1.
+DT   03-AUG-2022, entry version 62.
+DE   RecName: Full=Protein bark beetle {ECO:0000303|PubMed:25704509};
+DE   AltName: Full=Protein anakonda {ECO:0000303|PubMed:25982676};
+DE   Flags: Precursor;
+GN   Name=bark {ECO:0000312|FlyBase:FBgn0031571};
+GN   Synonyms=aka {ECO:0000303|PubMed:25982676};
+GN   ORFNames=CG3921 {ECO:0000312|FlyBase:FBgn0031571};
+OS   Drosophila melanogaster (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7227 {ECO:0000312|Proteomes:UP000000803};
+RN   [1] {ECO:0000312|Proteomes:UP000000803}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Berkeley {ECO:0000312|Proteomes:UP000000803};
+RX   PubMed=10731132; DOI=10.1126/science.287.5461.2185;
+RA   Adams M.D., Celniker S.E., Holt R.A., Evans C.A., Gocayne J.D.,
+RA   Amanatides P.G., Scherer S.E., Li P.W., Hoskins R.A., Galle R.F.,
+RA   George R.A., Lewis S.E., Richards S., Ashburner M., Henderson S.N.,
+RA   Sutton G.G., Wortman J.R., Yandell M.D., Zhang Q., Chen L.X., Brandon R.C.,
+RA   Rogers Y.-H.C., Blazej R.G., Champe M., Pfeiffer B.D., Wan K.H., Doyle C.,
+RA   Baxter E.G., Helt G., Nelson C.R., Miklos G.L.G., Abril J.F., Agbayani A.,
+RA   An H.-J., Andrews-Pfannkoch C., Baldwin D., Ballew R.M., Basu A.,
+RA   Baxendale J., Bayraktaroglu L., Beasley E.M., Beeson K.Y., Benos P.V.,
+RA   Berman B.P., Bhandari D., Bolshakov S., Borkova D., Botchan M.R., Bouck J.,
+RA   Brokstein P., Brottier P., Burtis K.C., Busam D.A., Butler H., Cadieu E.,
+RA   Center A., Chandra I., Cherry J.M., Cawley S., Dahlke C., Davenport L.B.,
+RA   Davies P., de Pablos B., Delcher A., Deng Z., Mays A.D., Dew I.,
+RA   Dietz S.M., Dodson K., Doup L.E., Downes M., Dugan-Rocha S., Dunkov B.C.,
+RA   Dunn P., Durbin K.J., Evangelista C.C., Ferraz C., Ferriera S.,
+RA   Fleischmann W., Fosler C., Gabrielian A.E., Garg N.S., Gelbart W.M.,
+RA   Glasser K., Glodek A., Gong F., Gorrell J.H., Gu Z., Guan P., Harris M.,
+RA   Harris N.L., Harvey D.A., Heiman T.J., Hernandez J.R., Houck J., Hostin D.,
+RA   Houston K.A., Howland T.J., Wei M.-H., Ibegwam C., Jalali M., Kalush F.,
+RA   Karpen G.H., Ke Z., Kennison J.A., Ketchum K.A., Kimmel B.E., Kodira C.D.,
+RA   Kraft C.L., Kravitz S., Kulp D., Lai Z., Lasko P., Lei Y., Levitsky A.A.,
+RA   Li J.H., Li Z., Liang Y., Lin X., Liu X., Mattei B., McIntosh T.C.,
+RA   McLeod M.P., McPherson D., Merkulov G., Milshina N.V., Mobarry C.,
+RA   Morris J., Moshrefi A., Mount S.M., Moy M., Murphy B., Murphy L.,
+RA   Muzny D.M., Nelson D.L., Nelson D.R., Nelson K.A., Nixon K., Nusskern D.R.,
+RA   Pacleb J.M., Palazzolo M., Pittman G.S., Pan S., Pollard J., Puri V.,
+RA   Reese M.G., Reinert K., Remington K., Saunders R.D.C., Scheeler F.,
+RA   Shen H., Shue B.C., Siden-Kiamos I., Simpson M., Skupski M.P., Smith T.J.,
+RA   Spier E., Spradling A.C., Stapleton M., Strong R., Sun E., Svirskas R.,
+RA   Tector C., Turner R., Venter E., Wang A.H., Wang X., Wang Z.-Y.,
+RA   Wassarman D.A., Weinstock G.M., Weissenbach J., Williams S.M., Woodage T.,
+RA   Worley K.C., Wu D., Yang S., Yao Q.A., Ye J., Yeh R.-F., Zaveri J.S.,
+RA   Zhan M., Zhang G., Zhao Q., Zheng L., Zheng X.H., Zhong F.N., Zhong W.,
+RA   Zhou X., Zhu S.C., Zhu X., Smith H.O., Gibbs R.A., Myers E.W., Rubin G.M.,
+RA   Venter J.C.;
+RT   "The genome sequence of Drosophila melanogaster.";
+RL   Science 287:2185-2195(2000).
+RN   [2] {ECO:0000312|Proteomes:UP000000803}
+RP   GENOME REANNOTATION.
+RC   STRAIN=Berkeley {ECO:0000312|Proteomes:UP000000803};
+RX   PubMed=12537572; DOI=10.1186/gb-2002-3-12-research0083;
+RA   Misra S., Crosby M.A., Mungall C.J., Matthews B.B., Campbell K.S.,
+RA   Hradecky P., Huang Y., Kaminker J.S., Millburn G.H., Prochnik S.E.,
+RA   Smith C.D., Tupy J.L., Whitfield E.J., Bayraktaroglu L., Berman B.P.,
+RA   Bettencourt B.R., Celniker S.E., de Grey A.D.N.J., Drysdale R.A.,
+RA   Harris N.L., Richter J., Russo S., Schroeder A.J., Shu S.Q., Stapleton M.,
+RA   Yamada C., Ashburner M., Gelbart W.M., Rubin G.M., Lewis S.E.;
+RT   "Annotation of the Drosophila melanogaster euchromatic genome: a systematic
+RT   review.";
+RL   Genome Biol. 3:RESEARCH0083.1-RESEARCH0083.22(2002).
+RN   [3] {ECO:0000305}
+RP   FUNCTION, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND DISRUPTION
+RP   PHENOTYPE.
+RX   PubMed=25704509; DOI=10.1016/j.ydbio.2015.02.008;
+RA   Hildebrandt A., Pflanz R., Behr M., Tarp T., Riedel D., Schuh R.;
+RT   "Bark beetle controls epithelial morphogenesis by septate junction
+RT   maturation in Drosophila.";
+RL   Dev. Biol. 400:237-247(2015).
+RN   [4] {ECO:0000305}
+RP   FUNCTION, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, GLYCOSYLATION,
+RP   CLEAVAGE, DISRUPTION PHENOTYPE, MUTAGENESIS OF VAL-503; VAL-567; GLU-678
+RP   AND SER-680, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=25982676; DOI=10.1016/j.devcel.2015.03.023;
+RA   Byri S., Misra T., Syed Z.A., Baetz T., Shah J., Boril L., Glashauser J.,
+RA   Aegerter-Wilmsen T., Matzat T., Moussian B., Uv A., Luschnig S.;
+RT   "The triple-repeat protein anakonda controls epithelial tricellular
+RT   junction formation in Drosophila.";
+RL   Dev. Cell 33:535-548(2015).
+CC   -!- FUNCTION: Required for the maturation but not the establishment of
+CC       septate junctions in developing epithelial cells and is involved in
+CC       epithelial cell adhesion during septate junction maturation
+CC       (PubMed:25704509). Plays a role in the proper localization of the
+CC       septate junction core components pck/mega, kune, Nrx-IV and Nrg during
+CC       late embryogenesis (PubMed:25704509). Involved in the formation of
+CC       tricellular junctions which mediate cell contact where three epithelial
+CC       cells meet but not of bicellular junctions (PubMed:25982676). Required
+CC       for the accumulation of Gli at tricellular junctions.
+CC       {ECO:0000269|PubMed:25704509, ECO:0000269|PubMed:25982676}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000255}. Cell junction, septate junction
+CC       {ECO:0000269|PubMed:25704509}. Cell junction, adherens junction
+CC       {ECO:0000269|PubMed:25704509}. Cell junction, tight junction
+CC       {ECO:0000269|PubMed:25982676}. Note=Found at tricellular contacts.
+CC       {ECO:0000269|PubMed:25982676}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=B {ECO:0000312|FlyBase:FBgn0031571};
+CC         IsoId=M9NDE3-1; Sequence=Displayed;
+CC       Name=A {ECO:0000312|FlyBase:FBgn0031571};
+CC         IsoId=M9NDE3-2; Sequence=VSP_057995;
+CC   -!- TISSUE SPECIFICITY: Expression detected in embryonic epithelia and
+CC       central nervous system (at protein level) (PubMed:25982676). First
+CC       detected during stage 13 in the tracheal system, the foregut, the
+CC       hindgut, the salivary glands and the epidermis (PubMed:25704509,
+CC       PubMed:25982676). Expression persists in these tissues until the end of
+CC       embryogenesis (PubMed:25704509). Expression in epithelia declines from
+CC       late stage 15 and expression appears in the central nervous system
+CC       during stage 16 (PubMed:25982676). {ECO:0000269|PubMed:25704509,
+CC       ECO:0000269|PubMed:25982676}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:25982676}.
+CC   -!- PTM: May be proteolytically cleaved in the extracellular domain.
+CC       {ECO:0000269|PubMed:25982676}.
+CC   -!- DISRUPTION PHENOTYPE: Embryonic lethality. Mutant embryos establish
+CC       functional septate junctions but, due to rudimentary septae formation
+CC       during subsequent embryonic development, these become non-functional
+CC       (PubMed:25704509). Abnormal liquid clearance of tracheal tubes
+CC       (PubMed:25704509). Convoluted and elongated tracheal branches
+CC       (PubMed:25704509, PubMed:25982676). During late embryogenesis,
+CC       mislocalization of septate junction core components pck/mega, kune,
+CC       Nrx-IV and Nrg and impaired cell adhesion at the lateral cell membrane
+CC       (PubMed:25704509). Mislocalization of Fas3 in the epithelia of mutant
+CC       embryos and loss of accumulation of Gli at tricellular junctions
+CC       (PubMed:25982676). {ECO:0000269|PubMed:25704509,
+CC       ECO:0000269|PubMed:25982676}.
+CC   -!- MISCELLANEOUS: The name 'bark beetle' derives from the convoluted
+CC       tracheal branches seen in mutant embryos which resemble the tracks of
+CC       bark beetle larvae (PubMed:25704509). The name 'anakonda' is also based
+CC       on the convoluted tracheal tube phenotype of mutant embryos
+CC       (PubMed:25982676). {ECO:0000303|PubMed:25704509,
+CC       ECO:0000303|PubMed:25982676}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014134; AAF51061.1; -; Genomic_DNA.
+DR   EMBL; AE014134; AFH03540.1; -; Genomic_DNA.
+DR   EMBL; AE014134; AFH03541.1; -; Genomic_DNA.
+DR   RefSeq; NP_001245864.1; NM_001258935.3. [M9NDE3-1]
+DR   RefSeq; NP_001245865.1; NM_001258936.2. [M9NDE3-1]
+DR   RefSeq; NP_608808.1; NM_134964.4. [M9NDE3-2]
+DR   SMR; M9NDE3; -.
+DR   IntAct; M9NDE3; 3.
+DR   STRING; 7227.FBpp0297894; -.
+DR   GlyGen; M9NDE3; 38 sites.
+DR   PaxDb; M9NDE3; -.
+DR   PRIDE; M9NDE3; -.
+DR   EnsemblMetazoa; FBtr0077496; FBpp0077185; FBgn0031571. [M9NDE3-2]
+DR   EnsemblMetazoa; FBtr0307051; FBpp0297894; FBgn0031571. [M9NDE3-1]
+DR   EnsemblMetazoa; FBtr0307052; FBpp0297895; FBgn0031571. [M9NDE3-1]
+DR   GeneID; 33604; -.
+DR   KEGG; dme:Dmel_CG3921; -.
+DR   UCSC; CG3921-RA; d. melanogaster.
+DR   CTD; 33604; -.
+DR   FlyBase; FBgn0031571; bark.
+DR   VEuPathDB; VectorBase:FBgn0031571; -.
+DR   eggNOG; ENOG502QT9G; Eukaryota.
+DR   HOGENOM; CLU_000296_1_0_1; -.
+DR   OMA; MEFAPNV; -.
+DR   PhylomeDB; M9NDE3; -.
+DR   SignaLink; M9NDE3; -.
+DR   BioGRID-ORCS; 33604; 0 hits in 1 CRISPR screen.
+DR   GenomeRNAi; 33604; -.
+DR   PRO; PR:M9NDE3; -.
+DR   Proteomes; UP000000803; Chromosome 2L.
+DR   Bgee; FBgn0031571; Expressed in insect embryonic/larval digestive system and 30 other tissues.
+DR   Genevisible; Q9VQV1; DM.
+DR   GO; GO:0005912; C:adherens junction; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005923; C:bicellular tight junction; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016328; C:lateral plasma membrane; IDA:FlyBase.
+DR   GO; GO:0005918; C:septate junction; IDA:FlyBase.
+DR   GO; GO:0061689; C:tricellular tight junction; IDA:FlyBase.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:FlyBase.
+DR   GO; GO:0005044; F:scavenger receptor activity; IEA:InterPro.
+DR   GO; GO:0045217; P:cell-cell junction maintenance; IMP:FlyBase.
+DR   GO; GO:0035002; P:liquid clearance, open tracheal system; IMP:FlyBase.
+DR   GO; GO:0035159; P:regulation of tube length, open tracheal system; IMP:FlyBase.
+DR   GO; GO:0034976; P:response to endoplasmic reticulum stress; IMP:FlyBase.
+DR   GO; GO:1904274; P:tricellular tight junction assembly; IMP:FlyBase.
+DR   CDD; cd00041; CUB; 1.
+DR   Gene3D; 2.60.120.290; -; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   Gene3D; 3.10.250.10; -; 3.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000859; CUB_dom.
+DR   InterPro; IPR006626; PbH1.
+DR   InterPro; IPR011050; Pectin_lyase_fold/virulence.
+DR   InterPro; IPR035914; Sperma_CUB_dom_sf.
+DR   InterPro; IPR001190; SRCR.
+DR   InterPro; IPR017448; SRCR-like_dom.
+DR   InterPro; IPR036772; SRCR-like_dom_sf.
+DR   Pfam; PF00530; SRCR; 3.
+DR   PRINTS; PR00258; SPERACTRCPTR.
+DR   SMART; SM00710; PbH1; 19.
+DR   SMART; SM00202; SR; 3.
+DR   SUPFAM; SSF49854; SSF49854; 1.
+DR   SUPFAM; SSF51126; SSF51126; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   SUPFAM; SSF56487; SSF56487; 3.
+DR   PROSITE; PS00420; SRCR_1; 1.
+DR   PROSITE; PS50287; SRCR_2; 3.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell junction; Cell membrane; Disulfide bond;
+KW   Glycoprotein; Membrane; Reference proteome; Repeat; Signal; Tight junction;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..34
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           35..3123
+FT                   /note="Protein bark beetle"
+FT                   /id="PRO_5004101294"
+FT   TOPO_DOM        35..2714
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        2715..2735
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2736..3123
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          191..295
+FT                   /note="SRCR 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   REPEAT          358..380
+FT                   /note="PbH1 1"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          382..404
+FT                   /note="PbH1 2"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          406..428
+FT                   /note="PbH1 3"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          446..559
+FT                   /note="CUB"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00059"
+FT   REPEAT          562..584
+FT                   /note="PbH1 4"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          586..609
+FT                   /note="PbH1 5"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          611..633
+FT                   /note="PbH1 6"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          756..778
+FT                   /note="PbH1 7"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          789..809
+FT                   /note="PbH1 8"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          1071..1175
+FT                   /note="SRCR 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   REPEAT          1219..1241
+FT                   /note="PbH1 9"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1248..1270
+FT                   /note="PbH1 10"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1451..1475
+FT                   /note="PbH1 11"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1489..1511
+FT                   /note="PbH1 12"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1553..1575
+FT                   /note="PbH1 13"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1722..1744
+FT                   /note="PbH1 14"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          1912..2037
+FT                   /note="SRCR 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   REPEAT          2104..2126
+FT                   /note="PbH1 15"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          2128..2150
+FT                   /note="PbH1 16"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          2337..2361
+FT                   /note="PbH1 17"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          2372..2393
+FT                   /note="PbH1 18"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          2401..2424
+FT                   /note="PbH1 19"
+FT                   /evidence="ECO:0000255"
+FT   REGION          83..104
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2766..2789
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2961..2983
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2996..3015
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          3025..3123
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        84..104
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2996..3013
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        3061..3087
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        3104..3123
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        221
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        377
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        389
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        403
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        498
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        523
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        615
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        620
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        630
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        639
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        658
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        672
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        702
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        709
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        834
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        900
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1040
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1375
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1489
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1520
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1529
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1584
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1593
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1614
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1883
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1920
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1940
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2231
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2251
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2314
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2357
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2459
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2536
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2546
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2566
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2596
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2636
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        216..284
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        231..294
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        262..272
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        446..474
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00059"
+FT   DISULFID        1096..1164
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        1109..1174
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        1144..1154
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        1950..2025
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        1963..2036
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   DISULFID        2000..2010
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00196"
+FT   VAR_SEQ         2539..2547
+FT                   /note="ILSFDYENR -> M (in isoform A)"
+FT                   /id="VSP_057995"
+FT   MUTAGEN         503
+FT                   /note="V->E: In L224; embryonic lethality with excessively
+FT                   elongated tracheal tubes."
+FT                   /evidence="ECO:0000269|PubMed:25982676"
+FT   MUTAGEN         567
+FT                   /note="V->E: In J55; embryonic lethality with excessively
+FT                   elongated tracheal tubes."
+FT                   /evidence="ECO:0000269|PubMed:25982676"
+FT   MUTAGEN         678
+FT                   /note="E->K: In K93; embryonic lethality with excessively
+FT                   elongated tracheal tubes."
+FT                   /evidence="ECO:0000269|PubMed:25982676"
+FT   MUTAGEN         680
+FT                   /note="S->L: In K104; embryonic lethality with excessively
+FT                   elongated tracheal tubes."
+FT                   /evidence="ECO:0000269|PubMed:25982676"
+SQ   SEQUENCE   3123 AA;  350461 MW;  3AB68B97DE35D73D CRC64;
+     MKLQHHKTNR QRISKPHRDP KWASICLWLL VTLAFSTHLA RSQESRQTED SKEVELLQDN
+     DIEFASLDGA SQLLPATRHS GADVTVAPQG STPSMTSSSS YTELQGGEIL SDRILRRSES
+     PYLARDDIEV LRGARLTIEP GVTIEFAPTK GLKINGVLQA VGTPTSRIVL KSQSNTANYK
+     LELPDDQEKG IRLVDGPTPV EGRLQLFHKG AWRSVCSNSR NWTLADYGVA CKQLGYRGGR
+     FWNWVERTPG YYPRLLYEQP KCKGGEGSLQ DCAWTSRQMG AGACDYHNDL GIQCLPVHSE
+     TLGHWRGIYF DNAPSTKALG RDNIVYAAQS ESRLKYVDII RAGSGAGFNA KSAVEVQGLP
+     PQMEHVVISH SAYTGFNSTR PWAGFQLQNV TVRKCNGIGV FVNSSQGAVQ LDGCSIVDNA
+     GDGIKYVGHD LRGTERKDRA SIYDFCTLPT TSGQTYPISL SFTQKYYAGS GKECGKYFFT
+     RPGYLLTLHF ENFVLMQNET ATVEIYDGAS TNDRLLFEWK ARNFTRPQSV TSTREKMFVR
+     IRADARQELN GFFRMTSGDS VAYDLKVSQS TVEDNGGRGV AIDNIRSKLH VHSSSVSGNG
+     HVAGVHVTSG AGDVNITSSN ISFNNGAGVN ITYYGGNRNI SRSALTANKG YGVATWLNQT
+     SDVNRMEYIP FNQTSVVEYS QIGGNLETGV FHGNFCRPIW VNITGNSFNG SQQNDIFIES
+     CYQATANGRP NMQLQLGHNQ FKYSQANSIY LSPALNLQGR IEYNMFRFGS YGCLFINNDY
+     IYPEFNYFPV KLIIQSNYFM RNSGVHVVSL GLSPYSRAEV QYILFTRNFV RGNNITEAFG
+     PLIAGSEGSD GAGRLNPRSR VAAPVVVGSS NVDIFRNILH NLDSMYEIGS QLTDQSKIIN
+     ATCNWLGHTD ENKIYARLFH RNDRYNLAKI NYLPYLLHSS NPGSTAMITV STVVPRFFHE
+     GSDVIGGEVD GQDMVPAGTY TVTKDINIRP GGKLILQPGT TLKFEPSVGM MVAGKLEARG
+     RRPDDILFTL KRETIMGESN DTETIDLDSE TEAIDMETEV IPADGVPRVP VRLVGGAGAN
+     EGRLQVYLKG RWGTVCDYGW NVLNAALVCH QLGYSLNPQD WRLLRSQLPN AGTSEDILMA
+     NVRCTLQDRD VTKCRAEYEF ENTCSHENDV GLRCYEGAWA GVRFSMLAER ADLQYVTVEK
+     AGLFDYTTNA FKPAVQMDHA RHNLENVRIV NNLQDGLGII YADIYAGKSV NNIKNSEFSG
+     NKGSGISLKQ LDFRVSGSII KDNKGSGVSH DAVISALDQK EIGGWFNMAT DFNSFDTDYD
+     PYLLPREISN IDLGTFEHKY IRTEELLGQN INRKIVVQCP AGYVIGIQLL NPIHNLSTES
+     INILNARTEN IRSDLWQVKR DLNVFPVTSS SYGIIIYYES GLQALGGAVL MLSTVTAPVQ
+     NIRNRIVSGA VPTLTIRSTK IQKNLRGITG IYYNRYIGDN GEYYLRKANE SIKLINSELS
+     YNEREAILIR SPFWDVISSN LSEVTLHVNG SLITQNGLGI RQMSKDLRSS NNLFHYVIQD
+     TTFEQNTHGG FQVSLPYVWQ YNENFTHSIY FGNSTWQRNR DFRISVSGHY TVFNITSNVF
+     RENNCPGALI SLDGMEKRLR FDNNRFESNN AKFVLLFKAD SLSEIIGQVP ASIEFNSFKG
+     NNIVTMTANY RNHYMKVARR IRKQHKIPTA VIRLDGVQNV RLYRNLIAEN EMDYNLVAGV
+     RSARLNNYFE ARENWWGTKD TAFIEAKIFD FDNWNDHADV IYQPFLIEDS YDASVSVVVP
+     FNQDQEIDLT NYKGGRVYKD LLLTKQSTPY YISSDITVMP GKTLTINHGV TMEFEPNVGI
+     LVLGTLVAIG YRESPIVMRP FRNATRESLI DVQPKKRALE DMSAPLTEFD SIRLCTSANN
+     CTGDADGLFG LNEGFLEYFN HTTLQWVPIC DSRFTERNAQ VVCRELGYDP LNVYYGHDRR
+     IEFHTNSLTR IWSWVQPLEC RGDEERMEDC AERLNGQLYG HRHECRWDDV FVFVSCNGIA
+     DDEVYWGGIR FANSKFEEIQ YEHRLHNTRS HARLPLRESQ LEFVRIEQAG ILHNHKAAAI
+     QAIHKNPSIT SVSIENSANH GINMIAPSGK LNLNHLNINN TLGTGISIVS LSGEGRDSDE
+     SSFTPLKKLD LPYKLFSLVD ICDPQKVLTI EERMLIYYKY DNNPVNCVKI FTSAFRAKPI
+     GFRLLQSNLF NHSKLYGRTD FIKLYDGDIY NVTATYLGKI ESDTDNQRSF FKTKGPTMSL
+     QLVASGAPET HGFIAEVVTV PISTLGQYRD ALHNITDTHI SGAIKGAVTY SSAGEVTPTL
+     TLIGNRIEKN CRQLYGNFST CTSALNLDVQ NMNSLYFMNN LITENQGGLR IRADSRGSAT
+     SLRGFVHHNL FMRNRNRPAL YVEGRQSSPY QEVELYRNYF AQNMAGYEDV IRLCQVVSNF
+     SYNYVHSNVG GRIMEVSGFE KVRLQIYQTT AHNGFYRNFA TNWMTRATIV AGTAGQQYVD
+     NIFENHENDY ELLTVNNSIL SFDYENRTFE TWSSKIDARH NYWSYNNTIS VQSRIRDKSD
+     DPMLLEVLAV PFQMNNETIL DGKCPPGWAL VHDTCFIYVG APMTFHEARD FCRSENSTMP
+     FIRTDKTTLW KYLQSQMRHL KYPDKVWIQD YNHIDRCTSF VFGEIEIEDC NKERGFICES
+     DPRVIIDPLS WRADIFAISI ISAFVLAIIL LILVAFCWFA KSKHRHTQRL QRRNSIRQSL
+     RSLNSIDPQG SLRRRPNYNM SSNGTLSKGQ DYKQMVANGS IDSMDKSVLS SEAGSFEGYE
+     QKPHYNEYVN QNALRPAHPA QDHQSHKVAT ISKASGHRAR AAAAAAAALE PDAFELSYRN
+     EGFRDNSTYG DNTRANSIST SVAEDTPIIH HTDQEIDEGG SDYYGNASTL PLRTEGGTPA
+     GRRGQPGLAF LSELKQNLPE YQRSSHSSFM PHRSSGDSLP FDQKLDQFNY STESSLYRPA
+     PAVPSSQQAT PADMRRPDSY YTAVRSSKAP VSHYRTPRPL AQPPAAPNVA PAGGPAQRRP
+     KTVYQTASEE SSPTTPSPLT NQYHRSKSEA LLETDFDGDG GSVGLQPLQT NGRSHSQPLE
+     TAM
+//

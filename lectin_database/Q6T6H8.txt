@@ -1,0 +1,59 @@
+ID   LEC_ULVPE               Reviewed;         203 AA.
+AC   Q6T6H8; P83209;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   25-MAY-2022, entry version 18.
+DE   RecName: Full=Lectin;
+DE   Flags: Precursor;
+GN   Name=UPL1;
+OS   Ulva pertusa (Sea lettuce).
+OC   Eukaryota; Viridiplantae; Chlorophyta; Ulvophyceae; OUU clade; Ulvales;
+OC   Ulvaceae; Ulva.
+OX   NCBI_TaxID=3120;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAR32648.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 54-73, FUNCTION,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, AND CALCIUM REQUIREMENT.
+RX   PubMed=14970906; DOI=10.1093/abbs/36.2.111;
+RA   Wang S., Zhong F.-D., Zhang Y.-J., Wu Z.-J., Lin Q.-Y., Xie L.-H.;
+RT   "Molecular characterization of a new lectin from the marine alga Ulva
+RT   pertusa.";
+RL   Acta Biochim. Biophys. Sin. 36:111-117(2004).
+CC   -!- FUNCTION: N-acetyl-D-glucosamine-specific lectin. Specifically
+CC       agglutinates rabbit erythrocytes. {ECO:0000269|PubMed:14970906}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.0-8.0. No activity below pH 3.0 or above pH 11.0.
+CC         {ECO:0000269|PubMed:14970906};
+CC       Temperature dependence:
+CC         Thermostable. Activity unaffected after incubation for 30 minutes at
+CC         30-70 degrees Celsius. Retains 50% of its maximal activity after
+CC         incubation at 80 degrees Celsius for 30 minutes.
+CC         {ECO:0000269|PubMed:14970906};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:14970906}.
+CC   -!- MISCELLANEOUS: Divalent cations are required for ligand binding.
+CC       Calcium is the most effective, but manganese or zinc can also be used
+CC       to a lesser extent. {ECO:0000269|PubMed:14970906}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY433960; AAR32648.1; -; mRNA.
+DR   AlphaFoldDB; Q6T6H8; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Hemagglutinin; Lectin; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          21..53
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:14970906"
+FT                   /id="PRO_0000271419"
+FT   CHAIN           54..203
+FT                   /note="Lectin"
+FT                   /evidence="ECO:0000269|PubMed:14970906"
+FT                   /id="PRO_0000271420"
+SQ   SEQUENCE   203 AA;  22195 MW;  937A97774FE7BF0B CRC64;
+     MINILHVIAG LALASVGVDA RQVGVGADVL HAVENTIDSI TGVEASHSAL EVGGGITNTD
+     NWETFAGLPL TGAIKVNDGN SVVHISAYFP EDRRGKYSYY AATSDELQKT VVFLFVVEDD
+     GLLLQAVKNN AHYPVTNGMY LASHRYYPKD SKYEGMVRLM VHADPAKAVI WEFVTVGGKQ
+     YLKVKENRDY TALQIPRHHP RPG
+//

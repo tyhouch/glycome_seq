@@ -1,0 +1,165 @@
+ID   GELLY_BACSP             Reviewed;        2475 AA.
+AC   O82833;
+DT   16-OCT-2013, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   03-AUG-2022, entry version 89.
+DE   RecName: Full=Gellan lyase;
+DE            EC=4.2.2.25;
+DE   Contains:
+DE     RecName: Full=N-terminal gellan lyase;
+DE   Contains:
+DE     RecName: Full=C-terminal gellan lyase;
+DE   Flags: Precursor;
+OS   Bacillus sp.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=1409;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 36-45, FUNCTION, AND
+RP   CATALYTIC ACTIVITY.
+RC   STRAIN=GL1;
+RX   PubMed=9633595; DOI=10.1006/abbi.1998.0674;
+RA   Hashimoto W., Sato N., Kimura S., Murata K.;
+RT   "Polysaccharide lyase: molecular cloning of gellan lyase gene and formation
+RT   of the lyase from a huge precursor protein in Bacillus sp. GL1.";
+RL   Arch. Biochem. Biophys. 354:31-39(1998).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 36-41; 1169-1194 AND 1203-1205, FUNCTION, CATALYTIC
+RP   ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND PROTEOLYTIC PROCESSING.
+RC   STRAIN=GL1;
+RX   PubMed=14759609; DOI=10.1016/j.abb.2003.12.015;
+RA   Miyake O., Kobayashi E., Nankai H., Hashimoto W., Mikami B., Murata K.;
+RT   "Posttranslational processing of polysaccharide lyase: maturation route for
+RT   gellan lyase in Bacillus sp. GL1.";
+RL   Arch. Biochem. Biophys. 422:211-220(2004).
+RN   [3]
+RP   CATALYTIC ACTIVITY.
+RC   STRAIN=GL1;
+RX   PubMed=9056228; DOI=10.1006/abbi.1996.9851;
+RA   Hashimoto W., Maesaka K., Sato N., Kimura S., Yamamoto K., Kumagai H.,
+RA   Murata K.;
+RT   "Microbial system for polysaccharide depolymerization: enzymatic route for
+RT   gellan depolymerization by Bacillus sp. GL1.";
+RL   Arch. Biochem. Biophys. 339:17-23(1997).
+CC   -!- FUNCTION: Cleaves the glycosidic bonds of gellan backbone and releases
+CC       tetrasaccharide units of glucuronyl-glucosyl-rhamnosyl-glucose with
+CC       unsaturated glucuronic acid at the non-reducing terminal. The enzyme is
+CC       highly specific to the heteropolysaccharide gellan, especially
+CC       deacetylated gellan. {ECO:0000269|PubMed:14759609,
+CC       ECO:0000269|PubMed:9633595}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Eliminative cleavage of beta-D-glucopyranosyl-(1->4)-beta-D-
+CC         glucopyranosyluronate bonds of gellan backbone releasing
+CC         tetrasaccharides containing a 4-deoxy-4,5-unsaturated D-
+CC         glucopyranosyluronic acid at the non-reducing end. The
+CC         tetrasaccharide produced from deacetylated gellan is beta-D-4-deoxy-
+CC         Delta(4)-GlcAp-(1->4)-beta-D-Glcp-(1->4)-alpha-L-Rhap-(1->3)-beta-D-
+CC         Glcp.; EC=4.2.2.25; Evidence={ECO:0000269|PubMed:14759609,
+CC         ECO:0000269|PubMed:9056228, ECO:0000269|PubMed:9633595};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.0 in potassium phosphate and 7.5 in HEPES buffer.
+CC         {ECO:0000269|PubMed:14759609};
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- PTM: Subject to proteolytic processing after secretion. Cleavage occurs
+CC       between Gly-1205 and Leu-1206. This gives rise to a N-terminal gellan
+CC       lyase of 130 kDa being the mature form of the gellan lyase. The
+CC       function of C-terminal gellan lyase is not known.
+CC       {ECO:0000269|PubMed:14759609}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB006853; BAA29068.1; -; Genomic_DNA.
+DR   PIR; T00047; T00047.
+DR   AlphaFoldDB; O82833; -.
+DR   KEGG; ag:BAA29068; -.
+DR   BioCyc; MetaCyc:MON-16405; -.
+DR   BRENDA; 4.2.2.25; 691.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0052762; F:gellan lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016810; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds; IEA:InterPro.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:InterPro.
+DR   CDD; cd00063; FN3; 1.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   InterPro; IPR002102; Cohesin_dom.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR002509; NODB_dom.
+DR   Pfam; PF00963; Cohesin; 1.
+DR   Pfam; PF01522; Polysacc_deac_1; 1.
+DR   SMART; SM00060; FN3; 1.
+DR   SUPFAM; SSF49265; SSF49265; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+DR   PROSITE; PS50853; FN3; 1.
+DR   PROSITE; PS51677; NODB; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Lyase; Secreted; Signal.
+FT   SIGNAL          1..35
+FT                   /evidence="ECO:0000269|PubMed:14759609,
+FT                   ECO:0000269|PubMed:9633595"
+FT   CHAIN           36..2475
+FT                   /note="Gellan lyase"
+FT                   /id="PRO_0000424089"
+FT   CHAIN           36..1205
+FT                   /note="N-terminal gellan lyase"
+FT                   /id="PRO_0000424090"
+FT   CHAIN           1206..2475
+FT                   /note="C-terminal gellan lyase"
+FT                   /id="PRO_0000424091"
+FT   DOMAIN          623..708
+FT                   /note="Fibronectin type-III"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          1295..1518
+FT                   /note="NodB homology"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01014"
+FT   DOMAIN          2111..2223
+FT                   /note="Cohesin"
+FT   SITE            1205..1206
+FT                   /note="Cleavage"
+SQ   SEQUENCE   2475 AA;  263045 MW;  0184ED2F01CAFDF2 CRC64;
+     MRFSWKKLVS AALVMALLVG IVYPAASGRG AVASAASGTT VELVPTDDAF TSAVAKDANA
+     NGTWMQLKGS IGGQRYIYMK FDLTALAGVE ADRIENAKVW LKKMGTNGTA MTVGLRAVDD
+     TSWSESTLTW NNAPVYGSQV LSQQSVLSTP DVYYPFDLDE YLKTQLAAGK SKLAIAFVPI
+     STLNENMEFY ARESTANTPK LVVELKDEPP APTGLMQLVQ SFGGHNKGHL RVVEFDATPA
+     STTGNGTVGI TADGAAPAAA ADFPIALRFG TDGTIKAANA AGFESKTPVN YTAGQKYHVK
+     AMINLSLGTY DLWLTPPNAG QPVLLAADYA FAASAPALND IGGVHATADA QSTDVPAVAN
+     ARLIADHFVS KAPFKDEQGQ SLAIRLESDN SLANRSYAIK FDMNLTGNPL ETDALISYAD
+     RSVTLNGFPD LAYIVRSNFG NFDVRNDNVY ASSHPSTAQS NRTYQVEVRI NPASGTGQPT
+     RTYDVWIAPE GEQPVQLADQ FKARNYANTG YALNNIGQAF VYSQADGLLS IDNHVVQDGQ
+     RLDEALARVN AASGEAAMTA ALESNALGLP MERYRLMDAA KRAQVAQDVL AGRPAEGYAH
+     ALSVQAVFVS AVANRLDTEN PTAPANVQVA ISNTMQAHVS WTASSDDTGI LYYKVFRDGA
+     LVGTVTNATS FVDNGLAPAT EYTYVVKAYD LVLKEAVSQP ATATSPGEQA QVRIPFSAEA
+     IATAFGQPLL DYNLETHSGT LKWVMEWREE YEKSANALKL LTLLSASAPD YIGPDGVTTA
+     SAKALQHLRS VTAGGNEPGF AGNGLSGQGY MPLLSAIVMA KKKAPAIWNA LTAAEKEKLD
+     LMILAGLYGA KFAYDDENDN KTGIDATGNF DKEWNPNHRS GIAGAIMAMY YFEDAQWLND
+     QMRSFNYDDW LARLTAAGLT NVRTIYQNSG KTLTEREIRK DAAGDGFVYK GHPLSQPGKI
+     MAEFVNYTFS HPVSPVGGFD SGIGKYRGYI VDGQDDLPNL GADSMGFEFD TLDANGKRSS
+     LVYVFMGWKP NVDAITPVLL LDNIDSGLTS AETRDVVSRL SIGTTDMLYK NEHGYMTYAK
+     GVNEGVKSLN GPILTINEEI WNRILNNPAA PMEAVNQASS AGQMRTALEA SALGMILYGY
+     GALSETGKNA VAQHVLDARP AAGYANKAAA QNELYEGVRL QALLALSQAQ TAEQMRSALE
+     SRALGLYKPK YETASQDKKQ FVAQYLLDNK PADGFLTKTE VREQVESALE PQGNQLRNLP
+     PLASGEKRIN LADYDHWPQQ HGDAEVALWA DDKTGAFSLT IDDNFENEHD TWRSLAQQYG
+     FKFSWFVITS LIKDPNKWRT LAAEGHEIGS HTVTHEDKGS TLDPAHLHSE YADSQALLNT
+     IEGVRATTLA YPFGSGREDI AAEYYIAARG TVGLPNPADS INYMNTQSLS VRPGSLELTN
+     QAANGNSVEA MVKTLVDPNH KVWSASYYRG WSNMLVHSLN ESGKTPSDGV TRTSRDLTQY
+     LLTLLDTYRD QIWVGRYGDI VRYSQQRDTA HIVVTRKDDR KITFNLTDRM DDTLFDYPLT
+     VKVRVDDAWS DIGATQAGEP IPFVETIRDG KRYLLVKAVP DKGSVSIVPD AASPLNVVNG
+     AVTSEQMLSA IAAPGLGLDL GEFNALGAGK KRMVGSRLLE VRPADGYADA AALQDALDAA
+     VEEANNAPSL SENASLSDLK VNGVTIAGFA PETYAYDIML PEGTTALPVV SFKVADTGKA
+     TAVLQNAPAL PGTAKVTVTA EDNWTVATYT LRFQVRISAL QRVNTAPDAS AMRTAIENAA
+     LGLVLAAYNG LTSEQKNSVA ASVLTHRPAT GYADVQAVQA ELNAALPKIN APLLAHAIVD
+     QLNPDTVSTA NWTNLYGGTS GRKGGVYMKF NIASLAGLEA DAIGDAKVQF FTTREGTVIG
+     YAAPSSWEAP LTWNTQPLAD LKNSNMAALA EIGRTAVQAT GANYEMNITQ YVKDAAAADK
+     TELSLVLLGS NNTNITMQKI PTAFALSVTL ATYGEPNPEP SPLAAVNEAG DAAAMQGAIA
+     AVELDLNLTA YNGLTAAQRI DVAQALLDNR PAAGYAHALA VQVALDAAVA AAQPANQAPG
+     GTLAASAEQL QPGQQLELTV GVSDASRFTG ADILVHYDPQ ALTFATELYE GVRMLKAEAI
+     ASLQANYQVA AAMAEQPGTI KILLFTAGAG QPLSGTLPLF KLRASVKDDA QTGVSTAVSL
+     SDFELTFEGE DSVWPDTTRA AVSLQIAAHP VEADKTALIA KIAHAQALLT GATVGANPGQ
+     YPQAAYDALA DAIGLAEEKR DLTGVSQAAV DEAVASLGTA EQQFLNAVIP GVPADLTALN
+     AAIAKAQRLH DNGPYGEKIG QYPQSAKVPL KSALDAAKAV GGSGASSQES VNAAAASLNG
+     AIQTFERSLV TLVGGGATKV GIRDLSIVAK YYGVTSSDPN WGKVSAAAID GGNEITIEVL
+     AAVARMILAD WAAGQ
+//

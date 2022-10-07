@@ -1,0 +1,138 @@
+ID   Q9N384_CAEEL            Unreviewed;       146 AA.
+AC   Q9N384;
+DT   01-OCT-2000, integrated into UniProtKB/TrEMBL.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 144.
+DE   RecName: Full=Galectin {ECO:0000256|RuleBase:RU102079};
+GN   Name=lec-6 {ECO:0000313|EMBL:CCD73852.1,
+GN   ECO:0000313|WormBase:Y55B1AR.1};
+GN   ORFNames=CELE_Y55B1AR.1 {ECO:0000313|EMBL:CCD73852.1}, Y55B1AR.1
+GN   {ECO:0000313|WormBase:Y55B1AR.1};
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239 {ECO:0000313|EMBL:CCD73852.1, ECO:0000313|Proteomes:UP000001940};
+RN   [1] {ECO:0000313|Proteomes:UP000001940}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2 {ECO:0000313|Proteomes:UP000001940};
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RA   Sulson J.E., Waterston R.;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [2] {ECO:0007829|PDB:3VV1}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) IN COMPLEX WITH FUCOSE AND
+RP   GALACTOSE.
+RX   PubMed=23481096; DOI=10.1093/glycob/cwt017;
+RA   Makyio H., Takeuchi T., Tamura M., Nishiyama K., Takahashi H.,
+RA   Natsugari H., Arata Y., Kasai K., Yamada Y., Wakatsuki S., Kato R.;
+RT   "Structural basis of preferential binding of fucose-containing saccharide
+RT   by the Caenorhabditis elegans galectin LEC-6.";
+RL   Glycobiology 23:797-805(2013).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX284603; CCD73852.1; -; Genomic_DNA.
+DR   RefSeq; NP_497215.1; NM_064814.6.
+DR   PDB; 3VV1; X-ray; 1.50 A; A/B=1-146.
+DR   PDBsum; 3VV1; -.
+DR   AlphaFoldDB; Q9N384; -.
+DR   SMR; Q9N384; -.
+DR   IntAct; Q9N384; 2.
+DR   STRING; 6239.Y55B1AR.1.1; -.
+DR   UniLectin; Q9N384; -.
+DR   EPD; Q9N384; -.
+DR   PaxDb; Q9N384; -.
+DR   PeptideAtlas; Q9N384; -.
+DR   EnsemblMetazoa; Y55B1AR.1.1; Y55B1AR.1.1; WBGene00002269.
+DR   GeneID; 175212; -.
+DR   KEGG; cel:CELE_Y55B1AR.1; -.
+DR   UCSC; Y55B1AR.1.1; c. elegans.
+DR   CTD; 175212; -.
+DR   WormBase; Y55B1AR.1; CE22493; WBGene00002269; lec-6.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   GeneTree; ENSGT00940000170041; -.
+DR   HOGENOM; CLU_037794_3_0_1; -.
+DR   InParanoid; Q9N384; -.
+DR   OMA; SIEAFNI; -.
+DR   OrthoDB; 829777at2759; -.
+DR   PhylomeDB; Q9N384; -.
+DR   Reactome; R-CEL-381426; Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).
+DR   Reactome; R-CEL-6798695; Neutrophil degranulation.
+DR   Reactome; R-CEL-8957275; Post-translational protein phosphorylation.
+DR   PRO; PR:Q9N384; -.
+DR   Proteomes; UP000001940; Chromosome III.
+DR   Bgee; WBGene00002269; Expressed in larva and 4 other tissues.
+DR   GO; GO:0005737; C:cytoplasm; IDA:WormBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3VV1};
+KW   Lectin {ECO:0000256|RuleBase:RU102079};
+KW   Proteomics identification {ECO:0007829|EPD:Q9N384,
+KW   ECO:0007829|PeptideAtlas:Q9N384};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001940}.
+FT   DOMAIN          20..145
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51304"
+FT   BINDING         60
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         62
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         64
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         64
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         67
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         73
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         80
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         82
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         83
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         83
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+FT   BINDING         85
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3VV1"
+SQ   SEQUENCE   146 AA;  15983 MW;  1D955F3B7CC8A0DF CRC64;
+     MIGGGIGISF RNEFFNPQTP VNIPVQGFSN GARLRLVLLP TSADSRFHIN LRTPDDIVLH
+     FNARFDEGAV VNNSTSGGGW QSEDRHANPF QQNKIYTLEF VSNGGIISIF VNGAHFADFV
+     ERTPSHGVHL IEIEGGVHVH SAHVSH
+//

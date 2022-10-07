@@ -1,0 +1,152 @@
+ID   AR5A_PHAVU              Reviewed;         261 AA.
+AC   Q42460;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 2.
+DT   25-MAY-2022, entry version 98.
+DE   RecName: Full=Arcelin-5A;
+DE   Flags: Precursor;
+GN   Name=ARC5A; Synonyms=ARC5-1, ARC5-I;
+OS   Phaseolus vulgaris (Kidney bean) (French bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Phaseolus.
+OX   NCBI_TaxID=3885;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=cv. G02771; TISSUE=Seed;
+RX   PubMed=7957215; DOI=10.1111/j.1432-1033.1994.0787b.x;
+RA   Goossens A., Geremia R., Bauw G., van Montagu M., Angenon G.;
+RT   "Isolation and characterisation of arcelin-5 proteins and cDNAs.";
+RL   Eur. J. Biochem. 225:787-795(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE, AND SEQUENCE REVISION TO 125.
+RC   STRAIN=cv. G02771; TISSUE=Seed;
+RA   Goossens A., Ardiles Diaz W., de Keyser A., van Montagu M., Angenon G.;
+RL   Submitted (AUG-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PROTEOLYTIC PROCESSING OF C-TERMINAL.
+RX   PubMed=10100643; DOI=10.1016/s0014-5793(99)00212-4;
+RA   Young N.M., Thibault P., Watson D.C., Chrispeels M.J.;
+RT   "Post-translational processing of two alpha-amylase inhibitors and an
+RT   arcelin from the common bean, Phaseolus vulgaris.";
+RL   FEBS Lett. 446:203-206(1999).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.7 ANGSTROMS).
+RX   PubMed=8955116; DOI=10.1074/jbc.271.51.32796;
+RA   Hamelryck T.W., Poortmans F., Goossens A., Angenon G., van Montagu M.,
+RA   Wyns L., Loris R.;
+RT   "Crystal structure of arcelin-5, a lectin-like defense protein from
+RT   Phaseolus vulgaris.";
+RL   J. Biol. Chem. 271:32796-32802(1996).
+CC   -!- FUNCTION: Seed storage. This carbohydrate-binding lectin has toxic
+CC       effects on bean bruchid pests.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- PTM: The C-terminal segment appears to be highly susceptible to
+CC       proteolysis.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z36943; CAA85405.1; -; mRNA.
+DR   EMBL; Z50202; CAA90585.1; -; Genomic_DNA.
+DR   PIR; S51359; S51359.
+DR   PDB; 1IOA; X-ray; 2.70 A; A/B=22-261.
+DR   PDBsum; 1IOA; -.
+DR   AlphaFoldDB; Q42460; -.
+DR   SMR; Q42460; -.
+DR   EvolutionaryTrace; Q42460; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045735; F:nutrient reservoir activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Lectin; Plant defense; Seed storage protein; Signal; Storage protein;
+KW   Toxin.
+FT   SIGNAL          1..21
+FT   CHAIN           22..254
+FT                   /note="Arcelin-5A"
+FT                   /id="PRO_0000017639"
+FT   PROPEP          255..261
+FT                   /id="PRO_0000017640"
+FT   CARBOHYD        43
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        167..203
+FT   VARIANT         252..261
+FT                   /note="Missing (in C-terminal processing variant)"
+FT   VARIANT         253..261
+FT                   /note="Missing (in C-terminal processing variant)"
+FT   VARIANT         254..261
+FT                   /note="Missing (in C-terminal processing variant)"
+FT   VARIANT         255..261
+FT                   /note="Missing (in C-terminal processing variant)"
+FT   STRAND          26..31
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          36..42
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          61..63
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          68..75
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          87..95
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          106..114
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   HELIX           123..125
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   TURN            126..128
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   HELIX           136..138
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          141..146
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   TURN            147..150
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          151..160
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          162..166
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   HELIX           169..172
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          177..184
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   TURN            185..188
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          189..196
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   TURN            197..199
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          202..208
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   HELIX           211..213
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          217..227
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   TURN            231..233
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+FT   STRAND          238..247
+FT                   /evidence="ECO:0007829|PDB:1IOA"
+SQ   SEQUENCE   261 AA;  29121 MW;  07974BFA7381BD92 CRC64;
+     MASSKLLSLA LFLVLLTHAN SATETSFNFP NFHTDDKLIL QGNATISSKG QLQLTGVGSN
+     ELPRVDSLGR AFYSDPIQIK DSNNVASFNT NFTFIIRAKN QSISAYGLAF ALVPVNSPPQ
+     KKQEFLGIFN TNNPEPNART VAVVFNTFKN RIDFDKNFIK PYVNENCDFH KYNGEKTDVQ
+     ITYDSSNNDL RVFLHFTVSQ VKCSVSATVH LEKEVDEWVS VGFSATSGLT EDTTETHDVL
+     SWSFSSKFRN KLSNILLNNI L
+//

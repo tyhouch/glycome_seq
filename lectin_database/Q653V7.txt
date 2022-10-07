@@ -1,0 +1,201 @@
+ID   AGLU_ORYSJ              Reviewed;         885 AA.
+AC   Q653V7; Q0DA62;
+DT   05-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   03-AUG-2022, entry version 103.
+DE   RecName: Full=Probable alpha-glucosidase Os06g0675700;
+DE            EC=3.2.1.20;
+DE   AltName: Full=Maltase;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=Os06g0675700, LOC_Os06g46284;
+GN   ORFNames=B1153E06.2, OsJ_22347 {ECO:0000312|EMBL:EEE66212.1};
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=18089549; DOI=10.1093/nar/gkm978;
+RG   The rice annotation project (RAP);
+RT   "The rice annotation project database (RAP-DB): 2008 update.";
+RL   Nucleic Acids Res. 36:D1028-D1033(2008).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=24280374; DOI=10.1186/1939-8433-6-4;
+RA   Kawahara Y., de la Bastide M., Hamilton J.P., Kanamori H., McCombie W.R.,
+RA   Ouyang S., Schwartz D.C., Tanaka T., Wu J., Zhou S., Childs K.L.,
+RA   Davidson R.M., Lin H., Quesada-Ocampo L., Vaillancourt B., Sakai H.,
+RA   Lee S.S., Kim J., Numa H., Itoh T., Buell C.R., Matsumoto T.;
+RT   "Improvement of the Oryza sativa Nipponbare reference genome using next
+RT   generation sequence and optical map data.";
+RL   Rice 6:4-4(2013).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=15685292; DOI=10.1371/journal.pbio.0030038;
+RA   Yu J., Wang J., Lin W., Li S., Li H., Zhou J., Ni P., Dong W., Hu S.,
+RA   Zeng C., Zhang J., Zhang Y., Li R., Xu Z., Li S., Li X., Zheng H., Cong L.,
+RA   Lin L., Yin J., Geng J., Li G., Shi J., Liu J., Lv H., Li J., Wang J.,
+RA   Deng Y., Ran L., Shi X., Wang X., Wu Q., Li C., Ren X., Wang J., Wang X.,
+RA   Li D., Liu D., Zhang X., Ji Z., Zhao W., Sun Y., Zhang Z., Bao J., Han Y.,
+RA   Dong L., Ji J., Chen P., Wu S., Liu J., Xiao Y., Bu D., Tan J., Yang L.,
+RA   Ye C., Zhang J., Xu J., Zhou Y., Yu Y., Zhang B., Zhuang S., Wei H.,
+RA   Liu B., Lei M., Yu H., Li Y., Xu H., Wei S., He X., Fang L., Zhang Z.,
+RA   Zhang Y., Huang X., Su Z., Tong W., Li J., Tong Z., Li S., Ye J., Wang L.,
+RA   Fang L., Lei T., Chen C.-S., Chen H.-C., Xu Z., Li H., Huang H., Zhang F.,
+RA   Xu H., Li N., Zhao C., Li S., Dong L., Huang Y., Li L., Xi Y., Qi Q.,
+RA   Li W., Zhang B., Hu W., Zhang Y., Tian X., Jiao Y., Liang X., Jin J.,
+RA   Gao L., Zheng W., Hao B., Liu S.-M., Wang W., Yuan L., Cao M.,
+RA   McDermott J., Samudrala R., Wang J., Wong G.K.-S., Yang H.;
+RT   "The genomes of Oryza sativa: a history of duplications.";
+RL   PLoS Biol. 3:266-281(2005).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12869764; DOI=10.1126/science.1081288;
+RG   The rice full-length cDNA consortium;
+RT   "Collection, mapping, and annotation of over 28,000 cDNA clones from
+RT   japonica rice.";
+RL   Science 301:376-379(2003).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 34-43.
+RX   PubMed=10617595; DOI=10.1074/jbc.275.1.129;
+RA   Chang T., Kuo M.-C., Khoo K.-H., Inoue S., Inoue Y.;
+RT   "Developmentally regulated expression of a peptide:N-glycanase during
+RT   germination of rice seeds (Oryza sativa) and its purification and
+RT   characterization.";
+RL   J. Biol. Chem. 275:129-134(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   -!- CAUTION: Was isolated and reported to have peptide:N-glycanase activity
+CC       (PubMed:10617595). However, its strong sequence similarity with alpha-
+CC       glucosidase proteins suggest that it is not its function in vivo.
+CC       {ECO:0000305|PubMed:10617595}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP004989; BAD45910.1; -; Genomic_DNA.
+DR   EMBL; AP008212; BAF20261.1; -; Genomic_DNA.
+DR   EMBL; AP014962; BAS99103.1; -; Genomic_DNA.
+DR   EMBL; CM000143; EEE66212.1; -; Genomic_DNA.
+DR   EMBL; AK119824; -; NOT_ANNOTATED_CDS; mRNA.
+DR   RefSeq; XP_015643120.1; XM_015787634.1.
+DR   AlphaFoldDB; Q653V7; -.
+DR   SMR; Q653V7; -.
+DR   STRING; 4530.OS06T0675700-01; -.
+DR   BindingDB; Q653V7; -.
+DR   ChEMBL; CHEMBL1163102; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   PaxDb; Q653V7; -.
+DR   PRIDE; Q653V7; -.
+DR   EnsemblPlants; Os06t0675700-01; Os06t0675700-01; Os06g0675700.
+DR   GeneID; 4341824; -.
+DR   Gramene; Os06t0675700-01; Os06t0675700-01; Os06g0675700.
+DR   KEGG; osa:4341824; -.
+DR   eggNOG; KOG1065; Eukaryota.
+DR   HOGENOM; CLU_000631_11_1_1; -.
+DR   InParanoid; Q653V7; -.
+DR   OMA; FGVETCG; -.
+DR   OrthoDB; 151244at2759; -.
+DR   Proteomes; UP000000763; Chromosome 6.
+DR   Proteomes; UP000007752; Chromosome 6.
+DR   Proteomes; UP000059680; Chromosome 6.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044275; P:cellular carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR030459; Glyco_hydro_31_CS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR001763; Rhodanese-like_dom.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   Pfam; PF16863; NtCtMGAM_N; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+DR   PROSITE; PS00707; GLYCOSYL_HYDROL_F31_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Glycosidase; Hydrolase;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000269|PubMed:10617595"
+FT   CHAIN           34..885
+FT                   /note="Probable alpha-glucosidase Os06g0675700"
+FT                   /id="PRO_0000249005"
+FT   ACT_SITE        443
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        446
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        540
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        195
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        378
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        397
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        467
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        477
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        576
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        844
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        34
+FT                   /note="G -> S (in Ref. 6; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        43
+FT                   /note="S -> L (in Ref. 6; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        177
+FT                   /note="A -> P (in Ref. 5; AK119824)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        445
+FT                   /note="N -> S (in Ref. 5; AK119824)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   885 AA;  96336 MW;  34ABDF8A194C75A5 CRC64;
+     MMGSPPAPPA RRLGALAVFL LALFLAAPWG VDCGYNVASV AGSKNRLRAR LELAGGGGGA
+     APELGPDVRR LSLTASLETD SRLHVRITDA DHPRWEVPQD VIPRPSPDSF LAATRPGGGR
+     VLSTATSDLT FAIHTSPFRF TVTRRSTGDV LFDTTPNLVF KDRYLELTSS LPPPGRASLY
+     GLGEQTKRTF RLQRNDTFTL WNSDIAAGNV DLNLYGSHPF YMDVRSGGGG GGGAAHGVLL
+     LNSNGMDVIY GGSYVTYKVI GGVLDFYFFA GPSPLAVVDQ YTQLIGRPAP MPYWSFGFHQ
+     CRYGYKNVAD LEGVVAGYAK ARIPLEVMWT DIDYMDAYKD FTLDPVNFPA DRMRPFVDRL
+     HRNGQKFVVI IDPGINVNTT YGTFVRGMKQ DIFLKWNGSN YLGVVWPGNV YFPDFLNPRA
+     AEFWAREIAA FRRTLPVDGL WVDMNEISNF VDPPPLNAID DPPYRINNSG VRRPINNKTV
+     PASAVHYGGV AEYDAHNLFG FLEARATHDA LLRDTGRRPF VLSRSTFVGS GRYTAHWTGD
+     NAATWEDLHY SINTMLSFGL FGIPMIGADI CGFGGNTTEE LCSRWIQLGA FYPFSRDHSA
+     IGTVRRELYL WESVARSARK ALGLRYRLLP YLYTLMYEAH TTGAPIARPL FFSYPGDVET
+     YGIDRQFLLG RGVLVSPVLE PGATTVTAYF PAGRWFSLYD FSLAVATKTG KRVTLPAPAD
+     TVNVHVAGGN ILTLQQPALT SSRVRQSVVH LLVALADDGT ATGDLFLDDG ESPEMAGPRS
+     RWSQIKFSGA TESGGGVVRV RSHVVHDSYA PSRTMAIGKV VLMGLRSAAP PKGFAVYANG
+     VQVNASTAVG GAAGSPEKGA LGVAHVSGLT LVVGQEFDLK VVMTY
+//

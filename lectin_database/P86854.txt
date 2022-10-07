@@ -1,0 +1,78 @@
+ID   PLCL_MYTGA              Reviewed;         156 AA.
+AC   P86854;
+DT   08-FEB-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-FEB-2011, sequence version 1.
+DT   03-AUG-2022, entry version 24.
+DE   RecName: Full=Perlucin-like protein {ECO:0000303|PubMed:21643827};
+DE   Flags: Precursor;
+OS   Mytilus galloprovincialis (Mediterranean mussel).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Bivalvia;
+OC   Autobranchia; Pteriomorphia; Mytilida; Mytiloidea; Mytilidae; Mytilinae;
+OC   Mytilus.
+OX   NCBI_TaxID=29158;
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=17010391; DOI=10.1016/j.mrfmmm.2006.08.007;
+RA   Venier P., De Pitta C., Pallavicini A., Marsano F., Varotto L.,
+RA   Romualdi C., Dondero F., Viarengo A., Lanfranchi G.;
+RT   "Development of mussel mRNA profiling: Can gene expression trends reveal
+RT   coastal water pollution?";
+RL   Mutat. Res. 602:121-134(2006).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 57-67 AND 89-99, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Shell {ECO:0000269|PubMed:21643827};
+RX   PubMed=21643827; DOI=10.1007/s00239-011-9451-6;
+RA   Marie B., Le Roy N., Zanella-Cleon I., Becchi M., Marin F.;
+RT   "Molecular evolution of mollusc shell proteins: insights from proteomic
+RT   analysis of the edible mussel mytilus.";
+RL   J. Mol. Evol. 72:531-546(2011).
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:21643827}.
+CC   -!- TISSUE SPECIFICITY: Component of the organic matrix of calcified shell
+CC       layers like nacre and prisms. {ECO:0000269|PubMed:21643827}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ624413; -; NOT_ANNOTATED_CDS; mRNA.
+DR   AlphaFoldDB; P86854; -.
+DR   SMR; P86854; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Lectin; Secreted; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..156
+FT                   /note="Perlucin-like protein"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000404080"
+FT   DOMAIN          37..156
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        30..41
+FT                   /evidence="ECO:0000250|UniProtKB:Q07108,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        58..156
+FT                   /evidence="ECO:0000250|UniProtKB:Q07108,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        131..147
+FT                   /evidence="ECO:0000250|UniProtKB:Q07108,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   156 AA;  17781 MW;  3F46A4BD10862CF6 CRC64;
+     MGKLTVVGIL TLFIFYIVAA SGKCTAPVNC PAGWKKYKTN CYFFSPDGKN WHDAAKQCQT
+     MGGYLVKITD SEENSWVVDM ITKSVKHKYG YWMGMADLKN EGDWRWVNDS SAVSYSNWHR
+     GQPNNANNED CGHFWSAVNY EWNDIVCNTD QMGYIC
+//

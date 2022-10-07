@@ -1,0 +1,140 @@
+ID   HLY1_AERHH              Reviewed;         621 AA.
+AC   P55870; A0KIE9;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   06-MAR-2007, sequence version 2.
+DT   03-AUG-2022, entry version 137.
+DE   RecName: Full=Hemolysin ahh1;
+DE   Flags: Precursor;
+GN   Name=ahh1; OrderedLocusNames=AHA_1512;
+OS   Aeromonas hydrophila subsp. hydrophila (strain ATCC 7966 / DSM 30187 / BCRC
+OS   13018 / CCUG 14551 / JCM 1027 / KCTC 2358 / NCIMB 9240 / NCTC 8049).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales;
+OC   Aeromonadaceae; Aeromonas.
+OX   NCBI_TaxID=380703;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 7966 / DSM 30187 / BCRC 13018 / CCUG 14551 / JCM 1027 /
+RC   KCTC 2358 / NCIMB 9240 / NCTC 8049;
+RX   PubMed=16980456; DOI=10.1128/jb.00621-06;
+RA   Seshadri R., Joseph S.W., Chopra A.K., Sha J., Shaw J., Graf J., Haft D.H.,
+RA   Wu M., Ren Q., Rosovitz M.J., Madupu R., Tallon L., Kim M., Jin S.,
+RA   Vuong H., Stine O.C., Ali A., Horneman A.J., Heidelberg J.F.;
+RT   "Genome sequence of Aeromonas hydrophila ATCC 7966T: jack of all trades.";
+RL   J. Bacteriol. 188:8272-8282(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 43-621.
+RX   PubMed=1800890; DOI=10.1016/0882-4010(91)90049-g;
+RA   Hirono I., Aoki T.;
+RT   "Nucleotide sequence and expression of an extracellular hemolysin gene of
+RT   Aeromonas hydrophila.";
+RL   Microb. Pathog. 11:189-197(1991).
+CC   -!- FUNCTION: Bacterial hemolysins are exotoxins that attack blood cell
+CC       membranes and cause cell rupture by mechanisms not clearly defined.
+CC   -!- SIMILARITY: Belongs to the HlyA hemolysin family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=Ref.2; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000462; ABK36614.1; -; Genomic_DNA.
+DR   PIR; A61372; A61372.
+DR   RefSeq; WP_011705409.1; NC_008570.1.
+DR   RefSeq; YP_856050.1; NC_008570.1.
+DR   AlphaFoldDB; P55870; -.
+DR   SMR; P55870; -.
+DR   STRING; 380703.AHA_1512; -.
+DR   TCDB; 1.C.14.1.2; the cytohemolysin (chl) family.
+DR   PRIDE; P55870; -.
+DR   EnsemblBacteria; ABK36614; ABK36614; AHA_1512.
+DR   KEGG; aha:AHA_1512; -.
+DR   PATRIC; fig|380703.7.peg.1525; -.
+DR   eggNOG; ENOG502ZBG7; Bacteria.
+DR   HOGENOM; CLU_439829_0_0_6; -.
+DR   OMA; HVAFYLN; -.
+DR   Proteomes; UP000000756; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in another organism; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.30.110.130; -; 1.
+DR   Gene3D; 6.20.40.20; -; 1.
+DR   InterPro; IPR022220; Hemolysin_N.
+DR   InterPro; IPR043080; Hemolysin_N_sf.
+DR   InterPro; IPR044883; Hemolysin_pre-stem_dom_sf.
+DR   InterPro; IPR016183; Leukocidin/Hemolysin_toxin.
+DR   InterPro; IPR036435; Leukocidin/porin_MspA_sf.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF12563; Hemolysin_N; 1.
+DR   Pfam; PF07968; Leukocidin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF56959; SSF56959; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Cytolysis; Hemolysis; Lectin; Reference proteome; Signal; Toxin; Virulence.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..621
+FT                   /note="Hemolysin ahh1"
+FT                   /id="PRO_0000013366"
+FT   DOMAIN          491..610
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   CONFLICT        64
+FT                   /note="R -> G (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        98
+FT                   /note="S -> I (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        103
+FT                   /note="T -> A (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        145
+FT                   /note="V -> L (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        157..158
+FT                   /note="KR -> NG (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        230
+FT                   /note="G -> A (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        259
+FT                   /note="T -> S (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        289..290
+FT                   /note="SI -> TT (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        473
+FT                   /note="T -> A (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        518
+FT                   /note="C -> F (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        527
+FT                   /note="F -> S (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        531
+FT                   /note="Q -> E (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        542
+FT                   /note="R -> L (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        583
+FT                   /note="G -> V (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   621 AA;  68907 MW;  99C8E4BD6055381D CRC64;
+     MKNKKPRKFI TQAPTLSLLA LALLAGSVQA EDIGERTDQG TAMLASLQSE QGLIYLNADV
+     WLKRQGATPL MTRDQLRERV LARGERLFID FSAVTDQSER QQTRKAMEQL AGISFDADWV
+     LVSGYKGELL FTPLGGVDDP AFYQVMERVE SLEGQGKRHK RSLTQPPAAE AGLPHVAFYL
+     NVNRKISDAE CTFPRSRTWS RGDRLFCDSP NISLVYRVNL ERSLQFGNTG SATPDAKIVR
+     ISLDEESAGA GIQLNEDLTW SENIADYLLL DGWARDYATD AIAQDYRFSI EASNTKAAVL
+     KSLPTNLNSK YEHREISGFE VGVTGGVEVN KDGPKAKLEA SAKFSQQRQL AYNTQDYRVE
+     RSAPSAQKVS FSWVRDQYAT AESLLSSKTA TVWGMGYDVD HNRIQPLSYK GFVPNLDVIY
+     KAAPDETGST EFKIDSSVNI RPIYTGIYKH YYVVGAHVSF QGFEDTDKRR RVTASTSFKV
+     DWNHPVFTGG RPVNLQLGGF DNRCLSADAN HGLSAVTCDE TSAAQSFIYD QYGRYVSAQD
+     TRRCLDGNNL GQLQSCSLSL GQRWEWKADS DALSNLSAHQ LLGHDKQSGA LGLYDENGNP
+     QNVSVRTLTS YTRIFGPPAS H
+//

@@ -1,0 +1,91 @@
+ID   OPGD_SALPK              Reviewed;         551 AA.
+AC   B5BJ86;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   25-MAY-2022, entry version 63.
+DE   RecName: Full=Glucans biosynthesis protein D {ECO:0000255|HAMAP-Rule:MF_01068};
+DE   Flags: Precursor;
+GN   Name=mdoD {ECO:0000255|HAMAP-Rule:MF_01068};
+GN   Synonyms=opgD {ECO:0000255|HAMAP-Rule:MF_01068};
+GN   OrderedLocusNames=SSPA1156;
+OS   Salmonella paratyphi A (strain AKU_12601).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=554290;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AKU_12601;
+RX   PubMed=19159446; DOI=10.1186/1471-2164-10-36;
+RA   Holt K.E., Thomson N.R., Wain J., Langridge G.C., Hasan R., Bhutta Z.A.,
+RA   Quail M.A., Norbertczak H., Walker D., Simmonds M., White B., Bason N.,
+RA   Mungall K., Dougan G., Parkhill J.;
+RT   "Pseudogene accumulation in the evolutionary histories of Salmonella
+RT   enterica serovars Paratyphi A and Typhi.";
+RL   BMC Genomics 10:36-36(2009).
+CC   -!- FUNCTION: Probably involved in the control of the structural glucose
+CC       backbone of osmoregulated periplasmic glucans (OPGs).
+CC       {ECO:0000255|HAMAP-Rule:MF_01068}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01068}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01068}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01068}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM200053; CAR59318.1; -; Genomic_DNA.
+DR   RefSeq; WP_001081950.1; NC_011147.1.
+DR   AlphaFoldDB; B5BJ86; -.
+DR   SMR; B5BJ86; -.
+DR   PRIDE; B5BJ86; -.
+DR   KEGG; sek:SSPA1156; -.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; DVQFFHV; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000001869; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01068; MdoD_OpgD; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023724; Glucan_biosyn_MdoD.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..32
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01068"
+FT   CHAIN           33..551
+FT                   /note="Glucans biosynthesis protein D"
+FT                   /id="PRO_1000136602"
+SQ   SEQUENCE   551 AA;  62316 MW;  C30DECB3AC33D76A CRC64;
+     MNRRRFIKGS MAMAAVCGSS GIASLFSQAA FAAESDIADG KIVRFDFAGL QSMAQALAKK
+     PWGGAPGPLP DTLANLTPQA YNSIQYDAAH SLWNGVANRQ LDIQFFHVGM GFRRRVRMFS
+     VDTTTHLARE IHFRPELFKY NDAGVDTTQL EGQSDLGFAG FRVFKAPELA RRDVVSFLGA
+     SYFRAVDDTY QYGLSARGLA IDTYTDGQEE FPDFTAFWFD TAKPGDTTFT VYALLDSASV
+     TGAYKFVIHC EKTQVIMDVE NHLYARKDIK QLGIAPMTSM FSCGNNERRV CDTIHPQIHD
+     SDRLAMWRGN GEWICRPLNN PQKLQFNAYM DDNPKGFGLL QLDRDFSHYQ DVMDWYNKRP
+     SLWVEPRSKW GKGAVSLMEI PTTGETLDNV VCFWQPEKAI KAGDTLVFNY RLYWSAQPPV
+     QSPLARVMAT RTGMGGFPEG WAPGEHYPDK WARRFAIDFV GGDLKAAAPK SIEPVITLSS
+     GEAKQVEILY VEPFDGYRIQ FDWYPTSDST APVDMRMFLR CQGEAISETW LYQYFPPAPD
+     KRRYVDDRIM R
+//

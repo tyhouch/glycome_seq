@@ -1,0 +1,166 @@
+ID   O96048_LUMTE            Unreviewed;       260 AA.
+AC   O96048;
+DT   01-MAY-1999, integrated into UniProtKB/TrEMBL.
+DT   01-MAY-1999, sequence version 1.
+DT   03-AUG-2022, entry version 73.
+DE   SubName: Full=29-kDa galactose-binding lectin {ECO:0000313|EMBL:BAA36393.1};
+OS   Lumbricus terrestris (Common earthworm).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Annelida; Clitellata;
+OC   Oligochaeta; Crassiclitellata; Lumbricina; Lumbricidae; Lumbricinae;
+OC   Lumbricus.
+OX   NCBI_TaxID=6398 {ECO:0000313|EMBL:BAA36393.1};
+RN   [1] {ECO:0000313|EMBL:BAA36393.1}
+RP   NUCLEOTIDE SEQUENCE.
+RA   Hirabayashi J., Dutta S.K., Kasai K.;
+RT   "Novel galactose-binding proteins in annelid: characterization of 29-kDa
+RT   tandem-repeat-type lectins from the earthworm Lumbricus terrestris.";
+RL   Submitted (JAN-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:2DRY, ECO:0007829|PDB:2DRZ}
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 131-260 IN COMPLEX WITH
+RP   GALACTOSE.
+RX   PubMed=17234683; DOI=10.1093/jb/mvm043;
+RA   Yabe R., Suzuki R., Kuno A., Fujimoto Z., Jigami Y., Hirabayashi J.;
+RT   "Tailoring a novel sialic acid-binding lectin from a ricin-B chain-like
+RT   galactose-binding protein by natural evolution-mimicry.";
+RL   J. Biochem. 141:389-399(2007).
+RN   [3] {ECO:0007829|PDB:2ZQN, ECO:0007829|PDB:2ZQO}
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 131-260 IN COMPLEX WITH GALACTOSE
+RP   AND N-ACETYL-D-GALACTOSAMINE.
+RX   PubMed=19153466; DOI=10.1107/S0907444908037451;
+RA   Suzuki R., Kuno A., Hasegawa T., Hirabayashi J., Kasai K.I., Momma M.,
+RA   Fujimoto Z.;
+RT   "Sugar-complex structures of the C-half domain of the galactose-binding
+RT   lectin EW29 from the earthworm Lumbricus terrestris.";
+RL   Acta Crystallogr. D 65:49-57(2009).
+RN   [4] {ECO:0007829|PDB:2RST}
+RP   STRUCTURE BY NMR OF 130-260.
+RX   PubMed=23122331; DOI=10.1111/febs.12050;
+RA   Hemmi H., Kuno A., Hirabayashi J.;
+RT   "NMR structure and dynamics of the C-terminal domain of R-type lectin from
+RT   the earthworm Lumbricus terrestris.";
+RL   FEBS J. 280:70-82(2013).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB010783; BAA36393.1; -; mRNA.
+DR   PDB; 2DRY; X-ray; 1.80 A; A/B=131-260.
+DR   PDB; 2DRZ; X-ray; 2.19 A; A/B=131-260.
+DR   PDB; 2DS0; X-ray; 1.80 A; A/B=131-260.
+DR   PDB; 2RST; NMR; -; A=130-260.
+DR   PDB; 2ZQN; X-ray; 1.90 A; A/B=130-260.
+DR   PDB; 2ZQO; X-ray; 1.80 A; A/B=131-260.
+DR   PDBsum; 2DRY; -.
+DR   PDBsum; 2DRZ; -.
+DR   PDBsum; 2DS0; -.
+DR   PDBsum; 2RST; -.
+DR   PDBsum; 2ZQN; -.
+DR   PDBsum; 2ZQO; -.
+DR   SMR; O96048; -.
+DR   UniLectin; O96048; -.
+DR   EvolutionaryTrace; O96048; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2DRY, ECO:0007829|PDB:2DRZ};
+KW   Lectin {ECO:0000313|EMBL:BAA36393.1}.
+FT   DOMAIN          3..127
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   BINDING         139
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         146
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2DRZ, ECO:0007829|PDB:2DS0"
+FT   BINDING         146
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         149
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2DRZ, ECO:0007829|PDB:2DS0"
+FT   BINDING         149
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         150
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2DRZ, ECO:0007829|PDB:2DS0"
+FT   BINDING         150
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         161
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2DRZ, ECO:0007829|PDB:2DS0"
+FT   BINDING         164
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2DRZ, ECO:0007829|PDB:2DS0"
+FT   BINDING         164
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         171
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2DRZ, ECO:0007829|PDB:2DS0"
+FT   BINDING         171
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         230
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2ZQN"
+FT   BINDING         230
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         233
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2ZQN"
+FT   BINDING         233
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         245
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         248
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2ZQN"
+FT   BINDING         248
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+FT   BINDING         252
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2ZQN"
+FT   BINDING         252
+FT                   /ligand="N-acetyl-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28497"
+FT                   /evidence="ECO:0007829|PDB:2ZQO"
+SQ   SEQUENCE   260 AA;  29008 MW;  43E62178F0FABF8C CRC64;
+     MAGRPFLLVS KHSGHALSDP GSHGAPVIVN TRNENDPRQL WYEDASTGTI RNQANQLALH
+     VGGDNILYLT PAEHGQDAQQ WKVGKDVVHH RNDKEKVFDL CRGSKDVGAQ VCAWKYHGGT
+     NQQWEAVHLK PKFFYIKSEL NGKVLDIEGQ NPAPGSKIIT WDQKKGPTAV NQLWYTDQQG
+     VIRSKLNDFA IDASHEQIET QPFDPNNPKR AWIVSGNTIA QLSDRDIVLD IIKSDKEAGA
+     HICAWKQHGG PNQKFIIESE
+//

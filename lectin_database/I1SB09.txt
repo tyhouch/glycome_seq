@@ -1,0 +1,80 @@
+ID   I1SB09_DIOVO            Unreviewed;       237 AA.
+AC   I1SB09;
+DT   13-JUN-2012, integrated into UniProtKB/TrEMBL.
+DT   13-JUN-2012, sequence version 1.
+DT   03-AUG-2022, entry version 46.
+DE   SubName: Full=Lectin {ECO:0000313|PDB:3AX4};
+OS   Dioclea violacea.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Macropsychanthus.
+OX   NCBI_TaxID=192415 {ECO:0000313|PDB:3AX4};
+RN   [1] {ECO:0000313|PDB:3AX4, ECO:0007829|PDB:3AX4}
+RP   X-RAY CRYSTALLOGRAPHY (2.61 ANGSTROMS) IN COMPLEX WITH CALCIUM AND
+RP   MANGANESE.
+RX   PubMed=23353644; DOI=10.1016/j.biocel.2013.01.012;
+RA   Bezerra M.J., Rodrigues N.V., Pires A.d.e. .F., Bezerra G.A., Nobre C.B.,
+RA   Alencar K.L., Soares P.M., do Nascimento K.S., Nagano C.S., Martins J.L.,
+RA   Gruber K., Sampaio A.H., Delatorre P., Rocha B.A., Assreuy A.M.,
+RA   Cavada B.S.;
+RT   "Crystal structure of Dioclea violacea lectin and a comparative study of
+RT   vasorelaxant properties with Dioclea rostrata lectin.";
+RL   Int. J. Biochem. Cell Biol. 45:807-815(2013).
+RN   [2] {ECO:0007829|PDB:7LJG}
+RP   X-RAY CRYSTALLOGRAPHY (2.21 ANGSTROMS).
+RA   Vieira-Neto A.E., Pereira H.M., Sousa F.D., Goncalves N.G.G.,
+RA   Vieira N.C.G., Monteiro-Moreira A.C.O., Moereira R.A.;
+RT   "Crystal Structure of Lectin from Dioclea altissima.";
+RL   Submitted (JAN-2021) to the PDB data bank.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family.
+CC       {ECO:0000256|ARBA:ARBA00007606}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 3AX4; X-ray; 2.61 A; A=1-237.
+DR   PDB; 7LJG; X-ray; 2.21 A; A/B=1-237.
+DR   PDBsum; 3AX4; -.
+DR   SMR; I1SB09; -.
+DR   UniLectin; I1SB09; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3AX4, ECO:0007829|PDB:7LJG};
+KW   Calcium {ECO:0007829|PDB:3AX4}; Lectin {ECO:0000256|ARBA:ARBA00022734};
+KW   Metal-binding {ECO:0007829|PDB:3AX4}.
+FT   DOMAIN          3..125
+FT                   /note="Lectin_legB"
+FT                   /evidence="ECO:0000259|Pfam:PF00139"
+FT   BINDING         10
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:3AX4"
+FT   BINDING         12
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:3AX4"
+FT   BINDING         14
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:3AX4"
+FT   BINDING         19
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:3AX4"
+SQ   SEQUENCE   237 AA;  25566 MW;  B73FC8A1B12CE59D CRC64;
+     ADTIVAVELD SYPNTDIGDP NYPHIGIDIK SIRSKSTARW NMQTGKVGTV HISYNSVAKR
+     LSAVVSYSGS SSTTVSYDVD LNNVLPEWVR VGLSATTGLY KETNTILSWS FTSKLKTNSA
+     ADENSLHFSF HKFSQNPKDL ILQGDAFTDS DGNLELTKVS SSGDPQGNSV GRALFYAPVH
+     IWEKSAVVAS FDATFTFLIK SPDREPADGI TFFIANTDTS IPSGSGGRLL GLFPDAN
+//

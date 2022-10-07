@@ -1,0 +1,402 @@
+ID   AGRL3_BOVIN             Reviewed;        1580 AA.
+AC   O97827; O97818; O97819; O97820; O97821; O97822; O97823; O97824; O97825;
+AC   O97826; O97828; O97829;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   03-AUG-2022, entry version 145.
+DE   RecName: Full=Adhesion G protein-coupled receptor L3 {ECO:0000250|UniProtKB:Q9HAR2};
+DE   AltName: Full=Latrophilin-3 {ECO:0000303|PubMed:10025961};
+DE   Flags: Precursor;
+GN   Name=ADGRL3 {ECO:0000250|UniProtKB:Q9HAR2};
+GN   Synonyms=LPH3 {ECO:0000303|PubMed:10025961}, LPHN3
+GN   {ECO:0000250|UniProtKB:Q9HAR2};
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11 AND
+RP   12), AND TISSUE SPECIFICITY.
+RX   PubMed=10025961; DOI=10.1016/s0014-5793(99)00005-8;
+RA   Matsushita H., Lelianova V.G., Ushkaryov Y.A.;
+RT   "The latrophilin family: multiply spliced G protein-coupled receptors with
+RT   differential tissue distribution.";
+RL   FEBS Lett. 443:348-352(1999).
+CC   -!- FUNCTION: Plays a role in cell-cell adhesion and neuron guidance via
+CC       its interactions with FLRT2 and FLRT3 that are expressed at the surface
+CC       of adjacent cells. Plays a role in the development of glutamatergic
+CC       synapses in the cortex. Important in determining the connectivity rates
+CC       between the principal neurons in the cortex.
+CC       {ECO:0000250|UniProtKB:Q80TS3}.
+CC   -!- SUBUNIT: Interacts (via olfactomedin-like domain) with FLRT3 (via
+CC       extracellular domain); the interaction is direct. Identified in a
+CC       complex with FLRT3 and UNC5B; does not interact with UNC5B by itself.
+CC       Identified in a complex with FLRT3 and UNC5D; does not interact with
+CC       UNC5D by itself (By similarity). Interacts (via olfactomedin-like
+CC       domain) with FLRT1 (via extracellular domain). Interacts (via
+CC       olfactomedin-like domain) with FLRT2 (via extracellular domain).
+CC       Interacts (via extracellular domain) with TENM1. Interacts (via
+CC       extracellular domain) with TENM3 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q80TS3, ECO:0000250|UniProtKB:Q9HAR2}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q80TS3};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:Q80TS3}. Cell
+CC       projection, axon {ECO:0000250|UniProtKB:Q80TS3}. Cell junction
+CC       {ECO:0000250|UniProtKB:Q80TS3}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=12;
+CC       Name=1; Synonyms=bbbf;
+CC         IsoId=O97827-1; Sequence=Displayed;
+CC       Name=2; Synonyms=abbf;
+CC         IsoId=O97827-2; Sequence=VSP_010113;
+CC       Name=3; Synonyms=abah;
+CC         IsoId=O97827-3; Sequence=VSP_010113, VSP_010114;
+CC       Name=4; Synonyms=abah;
+CC         IsoId=O97827-4; Sequence=VSP_010113, VSP_010114, VSP_010119,
+CC                                  VSP_010120;
+CC       Name=5; Synonyms=abag;
+CC         IsoId=O97827-5; Sequence=VSP_010113, VSP_010114, VSP_010116,
+CC                                  VSP_010117;
+CC       Name=6; Synonyms=abbg;
+CC         IsoId=O97827-6; Sequence=VSP_010113, VSP_010116, VSP_010117;
+CC       Name=7; Synonyms=bbaf;
+CC         IsoId=O97827-7; Sequence=VSP_010114;
+CC       Name=8; Synonyms=abbh;
+CC         IsoId=O97827-8; Sequence=VSP_010113, VSP_010119, VSP_010120;
+CC       Name=9; Synonyms=bbah;
+CC         IsoId=O97827-9; Sequence=VSP_010114, VSP_010119, VSP_010120;
+CC       Name=10; Synonyms=bbbh;
+CC         IsoId=O97827-10; Sequence=VSP_010119, VSP_010120;
+CC       Name=11; Synonyms=bbag;
+CC         IsoId=O97827-11; Sequence=VSP_010115, VSP_010116, VSP_010117;
+CC       Name=12; Synonyms=bbbg;
+CC         IsoId=O97827-12; Sequence=VSP_010116, VSP_010117;
+CC   -!- TISSUE SPECIFICITY: Brain-specific distribution but low levels are also
+CC       detected in lung and spleen. {ECO:0000269|PubMed:10025961}.
+CC   -!- DOMAIN: The Olfactomedin-like domain is required for the synapse-
+CC       promoting function and the interaction with FLRT3. The Olfactomedin-
+CC       like and the SUEL-type lectin domains are required for the interaction
+CC       with TENM1 (By similarity). {ECO:0000250}.
+CC   -!- PTM: Proteolytically cleaved into 2 subunits, an extracellular subunit
+CC       and a seven-transmembrane subunit. {ECO:0000250}.
+CC   -!- PTM: O-glycosylated (major) and N-glycosylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 2 family. LN-TM7
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF111085; AAD05321.1; -; mRNA.
+DR   EMBL; AF111086; AAD05322.1; -; mRNA.
+DR   EMBL; AF111087; AAD05323.1; -; mRNA.
+DR   EMBL; AF111088; AAD05324.1; -; mRNA.
+DR   EMBL; AF111089; AAD05325.1; -; mRNA.
+DR   EMBL; AF111090; AAD05326.1; -; mRNA.
+DR   EMBL; AF111091; AAD05327.1; -; mRNA.
+DR   EMBL; AF111092; AAD05328.1; -; mRNA.
+DR   EMBL; AF111095; AAD05331.1; -; mRNA.
+DR   EMBL; AF111093; AAD05329.1; -; mRNA.
+DR   EMBL; AF111094; AAD05330.1; -; mRNA.
+DR   EMBL; AF111096; AAD05332.1; -; mRNA.
+DR   PIR; T18389; T18389.
+DR   PIR; T18390; T18390.
+DR   PIR; T18391; T18391.
+DR   PIR; T18392; T18392.
+DR   PIR; T18393; T18393.
+DR   PIR; T18394; T18394.
+DR   PIR; T18395; T18395.
+DR   PIR; T18398; T18398.
+DR   PIR; T18405; T18405.
+DR   PIR; T18407; T18407.
+DR   PIR; T18408; T18408.
+DR   PIR; T18409; T18409.
+DR   RefSeq; NP_851376.1; NM_181033.2. [O97827-1]
+DR   RefSeq; XP_005208058.1; XM_005208001.3. [O97827-1]
+DR   RefSeq; XP_005208068.1; XM_005208011.3.
+DR   RefSeq; XP_015327119.1; XM_015471633.1.
+DR   RefSeq; XP_015327122.1; XM_015471636.1.
+DR   RefSeq; XP_015327123.1; XM_015471637.1.
+DR   RefSeq; XP_015327124.1; XM_015471638.1.
+DR   RefSeq; XP_015327125.1; XM_015471639.1.
+DR   RefSeq; XP_015327126.1; XM_015471640.1.
+DR   RefSeq; XP_015327127.1; XM_015471641.1.
+DR   RefSeq; XP_015327128.1; XM_015471642.1.
+DR   RefSeq; XP_015327129.1; XM_015471643.1.
+DR   RefSeq; XP_015327130.1; XM_015471644.1.
+DR   AlphaFoldDB; O97827; -.
+DR   SMR; O97827; -.
+DR   STRING; 9913.ENSBTAP00000039471; -.
+DR   MEROPS; P02.011; -.
+DR   PaxDb; O97827; -.
+DR   PRIDE; O97827; -.
+DR   Ensembl; ENSBTAT00000018508; ENSBTAP00000018508; ENSBTAG00000013918. [O97827-7]
+DR   Ensembl; ENSBTAT00000051991; ENSBTAP00000049222; ENSBTAG00000013918. [O97827-1]
+DR   Ensembl; ENSBTAT00000066218; ENSBTAP00000055267; ENSBTAG00000013918. [O97827-10]
+DR   GeneID; 282651; -.
+DR   KEGG; bta:282651; -.
+DR   CTD; 23284; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000013918; -.
+DR   eggNOG; KOG3545; Eukaryota.
+DR   eggNOG; KOG4193; Eukaryota.
+DR   GeneTree; ENSGT00940000155527; -.
+DR   HOGENOM; CLU_002753_0_2_1; -.
+DR   InParanoid; O97827; -.
+DR   OMA; SASLNRX; -.
+DR   OrthoDB; 388923at2759; -.
+DR   Proteomes; UP000009136; Chromosome 6.
+DR   Bgee; ENSBTAG00000013918; Expressed in semen and 84 other tissues.
+DR   ExpressionAtlas; O97827; baseline and differential.
+DR   GO; GO:0030424; C:axon; ISS:UniProtKB.
+DR   GO; GO:0005911; C:cell-cell junction; ISS:UniProtKB.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007166; P:cell surface receptor signaling pathway; IEA:InterPro.
+DR   GO; GO:0098742; P:cell-cell adhesion via plasma-membrane adhesion molecules; ISS:UniProtKB.
+DR   GO; GO:0001764; P:neuron migration; ISS:UniProtKB.
+DR   GO; GO:0007165; P:signal transduction; IBA:GO_Central.
+DR   GO; GO:0007416; P:synapse assembly; ISS:UniProtKB.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   Gene3D; 2.60.220.50; -; 1.
+DR   Gene3D; 4.10.1240.10; -; 1.
+DR   InterPro; IPR032471; GAIN_dom_N.
+DR   InterPro; IPR046338; GAIN_dom_sf.
+DR   InterPro; IPR017981; GPCR_2-like.
+DR   InterPro; IPR036445; GPCR_2_extracell_dom_sf.
+DR   InterPro; IPR001879; GPCR_2_extracellular_dom.
+DR   InterPro; IPR003924; GPCR_2_latrophilin.
+DR   InterPro; IPR003334; GPCR_2_latrophilin_rcpt_C.
+DR   InterPro; IPR000832; GPCR_2_secretin-like.
+DR   InterPro; IPR017983; GPCR_2_secretin-like_CS.
+DR   InterPro; IPR000203; GPS.
+DR   InterPro; IPR015630; Latrophilin-3.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   InterPro; IPR003112; Olfac-like_dom.
+DR   PANTHER; PTHR12011:SF60; PTHR12011:SF60; 1.
+DR   Pfam; PF00002; 7tm_2; 1.
+DR   Pfam; PF16489; GAIN; 1.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   Pfam; PF01825; GPS; 1.
+DR   Pfam; PF02793; HRM; 1.
+DR   Pfam; PF02354; Latrophilin; 1.
+DR   Pfam; PF02191; OLF; 1.
+DR   PRINTS; PR00249; GPCRSECRETIN.
+DR   PRINTS; PR01444; LATROPHILIN.
+DR   SMART; SM00303; GPS; 1.
+DR   SMART; SM00008; HormR; 1.
+DR   SMART; SM00284; OLF; 1.
+DR   PROSITE; PS00650; G_PROTEIN_RECEP_F2_2; 1.
+DR   PROSITE; PS50227; G_PROTEIN_RECEP_F2_3; 1.
+DR   PROSITE; PS50261; G_PROTEIN_RECEP_F2_4; 1.
+DR   PROSITE; PS50221; GPS; 1.
+DR   PROSITE; PS51132; OLF; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cell junction; Cell membrane; Cell projection;
+KW   Disulfide bond; G-protein coupled receptor; Glycoprotein; Lectin; Membrane;
+KW   Metal-binding; Phosphoprotein; Receptor; Reference proteome; Signal;
+KW   Transducer; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..1580
+FT                   /note="Adhesion G protein-coupled receptor L3"
+FT                   /id="PRO_0000012912"
+FT   TOPO_DOM        20..949
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        950..970
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        971..978
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        979..999
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1000..1007
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1008..1028
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1029..1050
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1051..1071
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1072..1088
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1089..1109
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1110..1142
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1143..1163
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1164..1169
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1170..1190
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1191..1580
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          103..192
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   DOMAIN          202..461
+FT                   /note="Olfactomedin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00446"
+FT   DOMAIN          883..934
+FT                   /note="GPS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00098"
+FT   REGION          23..81
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          317..347
+FT                   /note="Interaction with FLRT3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAR2"
+FT   REGION          494..540
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1213..1238
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1555..1580
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        498..540
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         332
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   BINDING         380
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   BINDING         381
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   BINDING         435
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   SITE            922..923
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1254
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   CARBOHYD        161
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        532
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        617
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        827
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        840
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        885
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        911
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1000
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1166
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        104..134
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   DISULFID        113..191
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   DISULFID        146..178
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   DISULFID        159..165
+FT                   /evidence="ECO:0000250|UniProtKB:Q80TS3"
+FT   DISULFID        203..385
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00446"
+FT   VAR_SEQ         19..86
+FT                   /note="Missing (in isoform 2, isoform 3, isoform 4, isoform
+FT                   5, isoform 6 and isoform 8)"
+FT                   /evidence="ECO:0000303|PubMed:10025961"
+FT                   /id="VSP_010113"
+FT   VAR_SEQ         1131..1139
+FT                   /note="Missing (in isoform 3, isoform 4, isoform 5, isoform
+FT                   7 and isoform 9)"
+FT                   /evidence="ECO:0000303|PubMed:10025961"
+FT                   /id="VSP_010114"
+FT   VAR_SEQ         1132..1140
+FT                   /note="Missing (in isoform 11)"
+FT                   /evidence="ECO:0000303|PubMed:10025961"
+FT                   /id="VSP_010115"
+FT   VAR_SEQ         1272..1308
+FT                   /note="GAMANHLISNALLRPHGTNNPYNTLLGEPAVCNNPSV -> EPYRETSMGVK
+FT                   LNIAYQIGASEQCQGYKCHGYSTTEW (in isoform 5, isoform 6,
+FT                   isoform 11 and isoform 12)"
+FT                   /evidence="ECO:0000303|PubMed:10025961"
+FT                   /id="VSP_010116"
+FT   VAR_SEQ         1309..1580
+FT                   /note="Missing (in isoform 5, isoform 6, isoform 11 and
+FT                   isoform 12)"
+FT                   /evidence="ECO:0000303|PubMed:10025961"
+FT                   /id="VSP_010117"
+FT   VAR_SEQ         1316..1351
+FT                   /note="GLLNNARDTSVMDTLPLNGNHGNSYSIASGEYLSNC -> PYRETSMGVKLN
+FT                   IAYQIGASEQCQGYKCHGYSTTEW (in isoform 4, isoform 8, isoform
+FT                   9 and isoform 10)"
+FT                   /evidence="ECO:0000303|PubMed:10025961"
+FT                   /id="VSP_010119"
+FT   VAR_SEQ         1352..1580
+FT                   /note="Missing (in isoform 4, isoform 8, isoform 9 and
+FT                   isoform 10)"
+FT                   /evidence="ECO:0000303|PubMed:10025961"
+FT                   /id="VSP_010120"
+SQ   SEQUENCE   1580 AA;  176051 MW;  D527CBF4B937DA8D CRC64;
+     MWPSQLLVFM MLLAPIIHGG KHSERHPALA SPLRHAERGP GGALPPRHLL QQPAAERATA
+     HRGPGPRGAT RGVRGPGAHG AQISAQAFSR APIPMAVVRR ELSCESYPIE LRCPGTDVIM
+     IESANYGRTD DKICDSDPAQ MENIRCYLPD AYKIMSQRCN NRTQCAVVAG PDVFPDPCPG
+     TYKYLEVQYE CVPYKVEQKV FLCPGLLKGV YQSEHLFESD HQSGAWCKDP LQASDKIYYM
+     PWTPYRTDTL TEYSSKDDFI AGRPTTTYKL PHRVDGTGFV VYDGALFFNK ERTRNIVKFD
+     LRTRIKSGEA IIANANYHDT SPYRWGGKSD IDLAVDENGL WVIYATEQNN GKIVISQLNP
+     YTLRIEGTWD TAYDKRSASN AFMICGILYV VKSVYEDDDN EATGNKIDYI YNTDQSKDSL
+     VDVPFPNSYQ YIAAVDYNPR DNLLYVWNNY HVVKYSLDFG PLDSRSGQAH HGQVSYISPP
+     IHLDSDLERP PVREISTTGP LGTGSTTTST TLRTTTWSPG RSTTPSVSGR RNRSTSTPSP
+     AIEVLNDITT HVPSASPQIP ALEESCEAVE AREIMWFKTR QGQMAKQPCP AGTIGVSTYL
+     CLAPDGIWDP QGPDLSNCSS PWVNHITQKL KSGETAANIA RELAEQTRNH LNAGDITYSV
+     RAMDQLVGLL DVQLRNLTPG GKDSAARSLN KLQKRERSCR AYVQAMVETV NNLLQPQALN
+     AWRDLTTSDQ LRAATMLLDT VEESAFVLAD NLLKTDIVRE NTDNIQLEVA RLSTEGNLED
+     LKFPENTGHG STIQLSANTL KQNGRNGEIR VAFVLYNNLG PYLSTENASM KLGTEAMSTN
+     HSVIVNSPVI TAAINKEFSN KVYLADPVVF TVKHIKQSEE NFNPNCSFWS YSKRTMTGYW
+     STQGCRLLTT NKTHTTCSCN HLTNFAVLMA HVEVKHSDAV HDLLLDVITW VGILLSLVCL
+     LICIFTFCFF RGLQSDRNTI HKNLCISLFV AELLFLIGIN RTDQPIACAV FAALLHFFFL
+     AAFTWMFLEG VQLYIMLVEV FESEHSRRKY FYLVGYGMPA LIVAVSAAVD YRSYGTDKVC
+     WLRLDTYFIW SFIGPATLII MLNVIFLGIA LYKMFHHTAI LKPESGCLDN INYEDNRPFI
+     KSWVIGAIAL LCLLGLTWAF GLMYINESTV IMAYLFTIFN SLQGMFIFIF HCVLQKKVRK
+     EYGKCLRTHC CSGRSTESSI GSGKTSGSRT PGRYSTGSQS RIRRMWNDTV RKQSESSFIT
+     GDINSSASLN RGAMANHLIS NALLRPHGTN NPYNTLLGEP AVCNNPSVSM YNAQEGLLNN
+     ARDTSVMDTL PLNGNHGNSY SIASGEYLSN CVQIIDRGYN HNETALEKKI LKELTSNYIP
+     SYLNNHERSS EQNRNLMNKL VNNLGSGSED DAIVLDDATS FNHEESLGLE LIHEESDAPL
+     LPPRVYSTEN HQLHHYTRRR IPQDHSESFF PLLTNEHTED LQSPHRDSLY TSMPALAGVP
+     TAESVTTSTQ TEPPPAKCGD AEDVYYKSMP NLGSRNHVHQ LHTYYQLGRG SSDGFIVPPN
+     KDGTPPEGSS KGPAHLVTSL
+//

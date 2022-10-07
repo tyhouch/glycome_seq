@@ -1,0 +1,68 @@
+ID   V239_FOWPN              Reviewed;         163 AA.
+AC   P14371; Q9J500;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   29-AUG-2001, sequence version 2.
+DT   12-AUG-2020, entry version 81.
+DE   RecName: Full=Putative C-type lectin protein FPV239;
+DE   AltName: Full=BamHI-ORF8;
+GN   OrderedLocusNames=FPV239;
+OS   Fowlpox virus (strain NVSL) (FPV).
+OC   Viruses; Varidnaviria; Bamfordvirae; Nucleocytoviricota; Pokkesviricetes;
+OC   Chitovirales; Poxviridae; Chordopoxvirinae; Avipoxvirus.
+OX   NCBI_TaxID=928301;
+OH   NCBI_TaxID=7742; Vertebrata.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=10729156; DOI=10.1128/jvi.74.8.3815-3831.2000;
+RA   Afonso C.L., Tulman E.R., Lu Z., Zsak L., Kutish G.F., Rock D.L.;
+RT   "The genome of fowlpox virus.";
+RL   J. Virol. 74:3815-3831(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-116.
+RC   STRAIN=FP-9 / Isolate HP-438;
+RX   PubMed=2836548; DOI=10.1099/0022-1317-69-5-1025;
+RA   Tomley F., Binns M., Campbell J., Boursnell M.E.G.;
+RT   "Sequence analysis of an 11.2 kilobase, near-terminal, BamHI fragment of
+RT   fowlpox virus.";
+RL   J. Gen. Virol. 69:1025-1040(1988).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF198100; AAF44583.1; -; Genomic_DNA.
+DR   EMBL; D00295; BAA00203.1; -; Genomic_DNA.
+DR   PIR; H29963; WMVZF8.
+DR   RefSeq; NP_039201.1; NC_002188.1.
+DR   SMR; P14371; -.
+DR   PRIDE; P14371; -.
+DR   GeneID; 1486811; -.
+DR   KEGG; vg:1486811; -.
+DR   Proteomes; UP000008597; Genome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   4: Predicted;
+KW   Disulfide bond; Lectin; Reference proteome.
+FT   CHAIN           1..163
+FT                   /note="Putative C-type lectin protein FPV239"
+FT                   /id="PRO_0000046729"
+FT   DOMAIN          48..159
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        76..158
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        137..150
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   163 AA;  18635 MW;  5156DC8928855532 CRC64;
+     MEEGKPRRSS AVLWMLIPCG SIIIVLSVFV IILSTRPPVP PDIKILYCKE GWVGYNKNCY
+     FFSEEKNNKS LAVERCKDMD GHLTSISSKE EFKFILRYKG PGNHWIGIEK VDFNGTWKLE
+     DGSSYDNIVP IKGIGDCAYL SDRSIMSSFC FLPKKWICRI ILL
+//

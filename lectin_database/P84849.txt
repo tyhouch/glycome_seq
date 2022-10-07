@@ -1,0 +1,56 @@
+ID   LEC_VACFA               Reviewed;         225 AA.
+AC   P84849;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-NOV-2007, sequence version 1.
+DT   25-MAY-2022, entry version 34.
+DE   RecName: Full=Lectin {ECO:0000303|PubMed:18568300};
+DE            Short=AFAL;
+OS   Vachellia farnesiana (Sweet acacia) (Acacia farnesiana).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Caesalpinioideae; mimosoid clade;
+OC   Acacieae; Vachellia.
+OX   NCBI_TaxID=72368;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, SUBUNIT, AND MASS SPECTROMETRY.
+RC   TISSUE=Seed {ECO:0000269|PubMed:18568300};
+RX   PubMed=18568300; DOI=10.1007/s12010-008-8144-0;
+RA   Santi-Gadelha T., Rocha B.A.M., Oliveira C.C., Aragao K.S., Marinho E.S.,
+RA   Gadelha C.A.A., Toyama M.H., Pinto V.P.T., Nagano C.S., Delatorre P.,
+RA   Martins J.L., Galvani F.R., Sampaio A.H., Debray H., Cavada B.S.;
+RT   "Purification of a PHA-like chitin-binding protein from Acacia farnesiana
+RT   seeds: a time-dependent oligomerization protein.";
+RL   Appl. Biochem. Biotechnol. 150:97-111(2008).
+CC   -!- FUNCTION: Chitin-binding lectin. Agglutinates rabbit erythrocytes, but
+CC       not human erythrocytes. {ECO:0000269|PubMed:18568300}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:18568300}.
+CC   -!- MASS SPECTROMETRY: Mass=24257.84; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:18568300};
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P84849; -.
+DR   SMR; P84849; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Lectin.
+FT   CHAIN           1..225
+FT                   /note="Lectin"
+FT                   /id="PRO_0000309556"
+SQ   SEQUENCE   225 AA;  25063 MW;  A6B68B3D7A16BCDE CRC64;
+     FKNLNFNEQS LILQGDATVS STGRLTNVVD NGEPRTSSLG RAFYSAPIWD KPTGRLASWR
+     EKIQEPNKAG PADGMAFALV PVGSEPKDKG AGLLGLFDEY DSNRHPVAVE FDTCYNLEHD
+     PKERHSIRSI ATPRWDFPNG ENAEVLITYD EELQLLVASL VYPGERPYYL PSDRVEIEDE
+     LPEYVIPGFS ATRGLNEGET HDVLSWSFAS KMPDEQESEG LDLAE
+//

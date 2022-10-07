@@ -1,0 +1,73 @@
+ID   LECE_HELCR              Reviewed;         147 AA.
+AC   P06027;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   13-AUG-1987, sequence version 1.
+DT   25-MAY-2022, entry version 90.
+DE   RecName: Full=Echinoidin;
+OS   Heliocidaris crassispina (Sea urchin) (Anthocidaris crassispina).
+OC   Eukaryota; Metazoa; Echinodermata; Eleutherozoa; Echinozoa; Echinoidea;
+OC   Euechinoidea; Echinacea; Camarodonta; Echinidea; Echinometridae;
+OC   Heliocidaris.
+OX   NCBI_TaxID=1043166;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND GLYCOSYLATION AT SER-38.
+RX   PubMed=3571253; DOI=10.1016/s0021-9258(18)45556-1;
+RA   Giga Y., Ikai A., Takahashi K.;
+RT   "The complete amino acid sequence of echinoidin, a lectin from the coelomic
+RT   fluid of the sea urchin Anthocidaris crassispina. Homologies with mammalian
+RT   and insect lectins.";
+RL   J. Biol. Chem. 262:6197-6203(1987).
+CC   -!- FUNCTION: Role in the defense system of the organism against
+CC       microorganisms. This lectin is specific for Gal-GalNAc.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Coelemic fluid.
+CC   -!- PTM: The identity of the saccharide is not reported in PubMed:3571253,
+CC       and it is unlikely to be N-acetylgalactosamine. The sugar attached to
+CC       Ser-38 is represented simply as Hex.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A26697; A26697.
+DR   AlphaFoldDB; P06027; -.
+DR   SMR; P06027; -.
+DR   iPTMnet; P06027; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03589; CLECT_CEL-1_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033988; CEL1-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Lectin; Secreted.
+FT   CHAIN           1..147
+FT                   /note="Echinoidin"
+FT                   /id="PRO_0000046641"
+FT   DOMAIN          1..143
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           39..41
+FT                   /note="Cell attachment site"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        38
+FT                   /note="O-linked (Hex) serine"
+FT                   /evidence="ECO:0000269|PubMed:3571253"
+FT   DISULFID        2
+FT                   /note="Interchain"
+FT   DISULFID        3..14
+FT   DISULFID        31..141
+FT   DISULFID        116..132
+SQ   SEQUENCE   147 AA;  16661 MW;  849E98645481A062 CRC64;
+     GCCPTFWTSF GSNCYRFFAV SLTWAEGEQF CQSFSVPSRG DIDSIGHLVS IHSETEQNFV
+     YHYFETSTKD DTTPEMWLGF NDRTTEGNFQ WTDGSPNDFT AWVGSNPDNY GSGEDCTQMV
+     MGAGLNWIDL PCSSTRHYLI CKLPLWE
+//

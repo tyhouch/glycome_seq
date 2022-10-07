@@ -1,0 +1,92 @@
+ID   CGL3_COPC7              Reviewed;         164 AA.
+AC   A8N3G7;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   03-AUG-2022, entry version 58.
+DE   RecName: Full=Galectin-3;
+DE   AltName: Full=Cgl-III;
+DE   AltName: Full=Galectin III;
+GN   Name=Cgl3; ORFNames=CC1G_00723;
+OS   Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003)
+OS   (Inky cap fungus) (Hormographiella aspergillata).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Psathyrellaceae; Coprinopsis.
+OX   NCBI_TaxID=240176;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003;
+RX   PubMed=20547848; DOI=10.1073/pnas.1003391107;
+RA   Stajich J.E., Wilke S.K., Ahren D., Au C.H., Birren B.W., Borodovsky M.,
+RA   Burns C., Canbaeck B., Casselton L.A., Cheng C.K., Deng J., Dietrich F.S.,
+RA   Fargo D.C., Farman M.L., Gathman A.C., Goldberg J., Guigo R., Hoegger P.J.,
+RA   Hooker J.B., Huggins A., James T.Y., Kamada T., Kilaru S., Kodira C.,
+RA   Kuees U., Kupfer D., Kwan H.S., Lomsadze A., Li W., Lilly W.W., Ma L.-J.,
+RA   Mackey A.J., Manning G., Martin F., Muraguchi H., Natvig D.O.,
+RA   Palmerini H., Ramesh M.A., Rehmeyer C.J., Roe B.A., Shenoy N., Stanke M.,
+RA   Ter-Hovhannisyan V., Tunlid A., Velagapudi R., Vision T.J., Zeng Q.,
+RA   Zolan M.E., Pukkila P.J.;
+RT   "Insights into evolution of multicellular fungi from the assembled
+RT   chromosomes of the mushroom Coprinopsis cinerea (Coprinus cinereus).";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:11889-11894(2010).
+CC   -!- FUNCTION: Binds lactose. May play a role in fruiting body formation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homotetramer. Oligomerization is required for carbohydrate
+CC       binding. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}. Secreted, cell wall {ECO:0000250}.
+CC   -!- INDUCTION: Induced during fruiting body formation. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AACS02000001; EAU92504.1; -; Genomic_DNA.
+DR   RefSeq; XP_001829544.1; XM_001829492.2.
+DR   AlphaFoldDB; A8N3G7; -.
+DR   SMR; A8N3G7; -.
+DR   EnsemblFungi; EAU92504; EAU92504; CC1G_00723.
+DR   GeneID; 6005975; -.
+DR   KEGG; cci:CC1G_00723; -.
+DR   VEuPathDB; FungiDB:CC1G_00723; -.
+DR   eggNOG; ENOG502SSSF; Eukaryota.
+DR   HOGENOM; CLU_117277_0_0_1; -.
+DR   InParanoid; A8N3G7; -.
+DR   OMA; ISIMDAN; -.
+DR   OrthoDB; 1607245at2759; -.
+DR   Proteomes; UP000001861; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   3: Inferred from homology;
+KW   Cell wall; Extracellular matrix; Fruiting body; Lectin; Reference proteome;
+KW   Secreted.
+FT   CHAIN           1..164
+FT                   /note="Galectin-3"
+FT                   /id="PRO_0000333264"
+FT   DOMAIN          9..154
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         60
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         64
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         73
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         84
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   164 AA;  18721 MW;  582DFE1507E79917 CRC64;
+     MFHILRLEST VDLSEPLKDN GIIVFQSDKL DLEPSPNLGP TGIDNTNVNL INAKGDVLLH
+     IGIRRRENAF VFNSIPYGES RGPEERIPLE GTFGDRRDPS ITVFDHPDRY QIMIDYKTVY
+     YYKKRLEGRC EKVSYKINEG QTPPFSDVLG VTVLYFANVM PRAN
+//

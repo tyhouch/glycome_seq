@@ -1,0 +1,97 @@
+ID   PP2B6_ARATH             Reviewed;         307 AA.
+AC   Q9ZVR0;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   25-MAY-2022, entry version 102.
+DE   RecName: Full=Putative F-box protein PP2-B6;
+DE   AltName: Full=Protein PHLOEM PROTEIN 2-LIKE B6;
+DE            Short=AtPP2-B6;
+GN   Name=PP2B6; OrderedLocusNames=At2g02310; ORFNames=T16F16.10;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10617197; DOI=10.1038/45471;
+RA   Lin X., Kaul S., Rounsley S.D., Shea T.P., Benito M.-I., Town C.D.,
+RA   Fujii C.Y., Mason T.M., Bowman C.L., Barnstead M.E., Feldblyum T.V.,
+RA   Buell C.R., Ketchum K.A., Lee J.J., Ronning C.M., Koo H.L., Moffat K.S.,
+RA   Cronin L.A., Shen M., Pai G., Van Aken S., Umayam L., Tallon L.J.,
+RA   Gill J.E., Adams M.D., Carrera A.J., Creasy T.H., Goodman H.M.,
+RA   Somerville C.R., Copenhaver G.P., Preuss D., Nierman W.C., White O.,
+RA   Eisen J.A., Salzberg S.L., Fraser C.M., Venter J.C.;
+RT   "Sequence and analysis of chromosome 2 of the plant Arabidopsis thaliana.";
+RL   Nature 402:761-768(1999).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=12529520; DOI=10.1104/pp.013086;
+RA   Dinant S., Clark A.M., Zhu Y., Vilaine F., Palauqui J.-C., Kusiak C.,
+RA   Thompson G.A.;
+RT   "Diversity of the superfamily of phloem lectins (phloem protein 2) in
+RT   angiosperms.";
+RL   Plant Physiol. 131:114-128(2003).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC005312; AAC78514.1; -; Genomic_DNA.
+DR   EMBL; CP002685; AEC05565.1; -; Genomic_DNA.
+DR   PIR; C84435; C84435.
+DR   RefSeq; NP_178337.1; NM_126289.2.
+DR   AlphaFoldDB; Q9ZVR0; -.
+DR   STRING; 3702.AT2G02310.1; -.
+DR   PaxDb; Q9ZVR0; -.
+DR   PRIDE; Q9ZVR0; -.
+DR   EnsemblPlants; AT2G02310.1; AT2G02310.1; AT2G02310.
+DR   GeneID; 814762; -.
+DR   Gramene; AT2G02310.1; AT2G02310.1; AT2G02310.
+DR   KEGG; ath:AT2G02310; -.
+DR   Araport; AT2G02310; -.
+DR   TAIR; locus:2056166; AT2G02310.
+DR   eggNOG; ENOG502QRA4; Eukaryota.
+DR   HOGENOM; CLU_050973_0_0_1; -.
+DR   InParanoid; Q9ZVR0; -.
+DR   OMA; FICFDES; -.
+DR   OrthoDB; 1051457at2759; -.
+DR   PhylomeDB; Q9ZVR0; -.
+DR   PRO; PR:Q9ZVR0; -.
+DR   Proteomes; UP000006548; Chromosome 2.
+DR   ExpressionAtlas; Q9ZVR0; baseline and differential.
+DR   Genevisible; Q9ZVR0; AT.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:TAIR.
+DR   InterPro; IPR036047; F-box-like_dom_sf.
+DR   InterPro; IPR001810; F-box_dom.
+DR   InterPro; IPR025886; PP2-like.
+DR   Pfam; PF00646; F-box; 1.
+DR   Pfam; PF14299; PP2; 1.
+DR   SMART; SM00256; FBOX; 1.
+DR   SUPFAM; SSF81383; SSF81383; 1.
+DR   PROSITE; PS50181; FBOX; 1.
+PE   4: Predicted;
+KW   Reference proteome.
+FT   CHAIN           1..307
+FT                   /note="Putative F-box protein PP2-B6"
+FT                   /id="PRO_0000272215"
+FT   DOMAIN          42..88
+FT                   /note="F-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00080"
+SQ   SEQUENCE   307 AA;  34480 MW;  9402B102B2DF5BB7 CRC64;
+     MGQKLGVDSR QKIRQVLGSS SKVQKHDVES IGGGGGEIVP GHSPFDDLPE DCISNIISFT
+     SPRDVCVSAS VSKSFAHAVQ CDSIWEKFLP SEYESLIPPW RVFSSKKDLY FTLCYDPVLV
+     EDGKKSFWLE TASGKKCVLL AAKELWITGG NNPEYWQWIE LCESSFEKVP ELLNNRSFQM
+     GGSMSTQILS LGTHYSVYIV YKIKDERHGL RDLPIQVGVG FKGQEMPKQF ICFDESTDKT
+     KEWPKKKLMK SKKRGDGWME AEIGDFFNDG GLMGFDEVEV SIVDVTSPNL KCGVMIEGIE
+     FRPKDCQ
+//

@@ -1,0 +1,234 @@
+ID   YMY9_YEAST              Reviewed;         297 AA.
+AC   Q03161; D6VZS2;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   03-AUG-2022, entry version 152.
+DE   RecName: Full=Glucose-6-phosphate 1-epimerase {ECO:0000305};
+DE            EC=5.1.3.15 {ECO:0000269|PubMed:16857670};
+DE   AltName: Full=D-hexose-6-phosphate mutarotase {ECO:0000303|PubMed:16857670};
+GN   OrderedLocusNames=YMR099C; ORFNames=YM6543.06C;
+OS   Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=559292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=9169872;
+RA   Bowman S., Churcher C.M., Badcock K., Brown D., Chillingworth T.,
+RA   Connor R., Dedman K., Devlin K., Gentles S., Hamlin N., Hunt S., Jagels K.,
+RA   Lye G., Moule S., Odell C., Pearson D., Rajandream M.A., Rice P.,
+RA   Skelton J., Walsh S.V., Whitehead S., Barrell B.G.;
+RT   "The nucleotide sequence of Saccharomyces cerevisiae chromosome XIII.";
+RL   Nature 387:90-93(1997).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=24374639; DOI=10.1534/g3.113.008995;
+RA   Engel S.R., Dietrich F.S., Fisk D.G., Binkley G., Balakrishnan R.,
+RA   Costanzo M.C., Dwight S.S., Hitz B.C., Karra K., Nash R.S., Weng S.,
+RA   Wong E.D., Lloyd P., Skrzypek M.S., Miyasato S.R., Simison M., Cherry J.M.;
+RT   "The reference genome sequence of Saccharomyces cerevisiae: Then and now.";
+RL   G3 (Bethesda) 4:389-398(2014).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=14690591; DOI=10.1016/s1097-2765(03)00476-3;
+RA   Hazbun T.R., Malmstroem L., Anderson S., Graczyk B.J., Fox B., Riffle M.,
+RA   Sundin B.A., Aranda J.D., McDonald W.H., Chiu C.-H., Snydsman B.E.,
+RA   Bradley P., Muller E.G.D., Fields S., Baker D., Yates J.R. III, Davis T.N.;
+RT   "Assigning function to yeast proteins by integration of technologies.";
+RL   Mol. Cell 12:1353-1365(2003).
+RN   [4]
+RP   LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS].
+RX   PubMed=14562106; DOI=10.1038/nature02046;
+RA   Ghaemmaghami S., Huh W.-K., Bower K., Howson R.W., Belle A., Dephoure N.,
+RA   O'Shea E.K., Weissman J.S.;
+RT   "Global analysis of protein expression in yeast.";
+RL   Nature 425:737-741(2003).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=18407956; DOI=10.1074/mcp.m700468-mcp200;
+RA   Albuquerque C.P., Smolka M.B., Payne S.H., Bafna V., Eng J., Zhou H.;
+RT   "A multidimensional chromatography technology for in-depth phosphoproteome
+RT   analysis.";
+RL   Mol. Cell. Proteomics 7:1389-1396(2008).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-88, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19779198; DOI=10.1126/science.1172867;
+RA   Holt L.J., Tuch B.B., Villen J., Johnson A.D., Gygi S.P., Morgan D.O.;
+RT   "Global analysis of Cdk1 substrate phosphorylation sites provides insights
+RT   into evolution.";
+RL   Science 325:1682-1686(2009).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) ALONE AND IN COMPLEX WITH GLC6P AND
+RP   GAL6P, FUNCTION, CATALYTIC ACTIVITY, AND ACTIVE SITE.
+RX   PubMed=16857670; DOI=10.1074/jbc.m604443200;
+RA   Graille M., Baltaze J.P., Leulliot N., Liger D., Quevillon-Cheruel S.,
+RA   van Tilbeurgh H.;
+RT   "Structure-based functional annotation: yeast ymr099c codes for a D-hexose-
+RT   6-phosphate mutarotase.";
+RL   J. Biol. Chem. 281:30175-30185(2006).
+CC   -!- FUNCTION: Catalyzes the interconversion between the alpha and beta
+CC       anomers from at least three hexose 6-phosphate sugars (Glc6P, Gal6P,
+CC       and Man6P). {ECO:0000269|PubMed:16857670}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 6-phosphate = beta-D-glucose 6-phosphate;
+CC         Xref=Rhea:RHEA:16249, ChEBI:CHEBI:58225, ChEBI:CHEBI:58247;
+CC         EC=5.1.3.15; Evidence={ECO:0000269|PubMed:16857670};
+CC   -!- MISCELLANEOUS: Present with 8580 molecules/cell in log phase SD medium.
+CC       {ECO:0000269|PubMed:14562106}.
+CC   -!- SIMILARITY: Belongs to the glucose-6-phosphate 1-epimerase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z49807; CAA89900.1; -; Genomic_DNA.
+DR   EMBL; BK006946; DAA09996.1; -; Genomic_DNA.
+DR   PIR; S55085; S55085.
+DR   RefSeq; NP_013817.1; NM_001182599.1.
+DR   PDB; 2CIQ; X-ray; 1.70 A; A=1-297.
+DR   PDB; 2CIR; X-ray; 1.60 A; A=1-297.
+DR   PDB; 2CIS; X-ray; 1.62 A; A=1-297.
+DR   PDBsum; 2CIQ; -.
+DR   PDBsum; 2CIR; -.
+DR   PDBsum; 2CIS; -.
+DR   AlphaFoldDB; Q03161; -.
+DR   SMR; Q03161; -.
+DR   BioGRID; 35275; 87.
+DR   IntAct; Q03161; 12.
+DR   MINT; Q03161; -.
+DR   STRING; 4932.YMR099C; -.
+DR   iPTMnet; Q03161; -.
+DR   MaxQB; Q03161; -.
+DR   PaxDb; Q03161; -.
+DR   PRIDE; Q03161; -.
+DR   EnsemblFungi; YMR099C_mRNA; YMR099C; YMR099C.
+DR   GeneID; 855125; -.
+DR   KEGG; sce:YMR099C; -.
+DR   SGD; S000004705; YMR099C.
+DR   VEuPathDB; FungiDB:YMR099C; -.
+DR   eggNOG; KOG1594; Eukaryota.
+DR   GeneTree; ENSGT00390000015166; -.
+DR   HOGENOM; CLU_048345_2_0_1; -.
+DR   InParanoid; Q03161; -.
+DR   OMA; TQALHSY; -.
+DR   BioCyc; MetaCyc:G3O-32799-MON; -.
+DR   BioCyc; YEAST:G3O-32799-MON; -.
+DR   BRENDA; 5.3.3.3; 1455.
+DR   EvolutionaryTrace; Q03161; -.
+DR   PRO; PR:Q03161; -.
+DR   Proteomes; UP000002311; Chromosome XIII.
+DR   RNAct; Q03161; protein.
+DR   GO; GO:0005737; C:cytoplasm; HDA:SGD.
+DR   GO; GO:0005634; C:nucleus; HDA:SGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0047938; F:glucose-6-phosphate 1-epimerase activity; IDA:SGD.
+DR   GO; GO:0044262; P:cellular carbohydrate metabolic process; IC:SGD.
+DR   CDD; cd09020; D-hex-6-P-epi_like; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR008183; Aldose_1/G6P_1-epimerase.
+DR   InterPro; IPR025532; G6P_1-epimerase.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   Pfam; PF01263; Aldose_epim; 1.
+DR   PIRSF; PIRSF016020; PHexose_mutarotase; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Isomerase; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..297
+FT                   /note="Glucose-6-phosphate 1-epimerase"
+FT                   /id="PRO_0000213035"
+FT   ACT_SITE        159
+FT                   /evidence="ECO:0000269|PubMed:16857670"
+FT   ACT_SITE        264
+FT                   /evidence="ECO:0000269|PubMed:16857670"
+FT   BINDING         57
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:16857670"
+FT   BINDING         81
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:16857670"
+FT   BINDING         86
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:16857670"
+FT   BINDING         203
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:16857670"
+FT   MOD_RES         88
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19779198"
+FT   STRAND          3..5
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          7..14
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          17..25
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          30..36
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          51..54
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          57..60
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          62..65
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          71..73
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   HELIX           76..78
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   HELIX           85..87
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          91..97
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   TURN            98..101
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          102..107
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   HELIX           109..111
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   HELIX           114..119
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          125..132
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          134..144
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          152..158
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          161..163
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   HELIX           167..169
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          170..174
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          179..182
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   TURN            183..186
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          187..190
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          193..196
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          202..206
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          215..219
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          222..231
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          234..239
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   HELIX           241..247
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   HELIX           256..259
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          260..274
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+FT   STRAND          279..287
+FT                   /evidence="ECO:0007829|PDB:2CIR"
+SQ   SEQUENCE   297 AA;  33956 MW;  122BDC460BB9A32B CRC64;
+     MPIKETDKEV VLTHPADETT SVHILKYGAT VYSWKLKSEE QLWLSTAAKL DGSKPVRGGI
+     PLVFPVFGKN STDEHLSKLP QHGLARNSTW EFLGQTKENP PTVQFGLKPE IANPELTKLW
+     PMDYLLILTV ELGSDYLKTA IEVENTSSSK ELKFNWLFHT YFRIEDIEGT MVSNLAGMKL
+     YDQLLKESYV DKHPVVTFNQ ETDVIYQNVS AERAIQIVDK GVQIHTLKRY NLPDTVVWNP
+     WIEKSQGMAD FEPKTGYQQM ICIEPGHVHD FISLAPGKKW NAYQLLCKEE LKYQAIQ
+//

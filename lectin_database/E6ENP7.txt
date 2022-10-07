@@ -1,0 +1,104 @@
+ID   MALPY_ENTFT             Reviewed;         783 AA.
+AC   E6ENP7;
+DT   29-MAY-2013, integrated into UniProtKB/Swiss-Prot.
+DT   08-MAR-2011, sequence version 1.
+DT   03-AUG-2022, entry version 30.
+DE   RecName: Full=Maltose phosphorylase;
+DE            EC=2.4.1.8;
+GN   Name=malP; ORFNames=HMPREF9496_01320;
+OS   Enterococcus faecalis (strain TX4000 / JH2-2).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;
+OC   Enterococcus.
+OX   NCBI_TaxID=749493;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TX4000 / JH2-2;
+RA   Weinstock G., Sodergren E., Clifton S., Fulton L., Fulton B., Courtney L.,
+RA   Fronick C., Harrison M., Strong C., Farmer C., Delahaunty K., Markovic C.,
+RA   Hall O., Minx P., Tomlinson C., Mitreva M., Hou S., Chen J., Wollam A.,
+RA   Pepin K.H., Johnson M., Bhonagiri V., Zhang X., Suruliraj S., Warren W.,
+RA   Chinwalla A., Mardis E.R., Wilson R.K.;
+RL   Submitted (SEP-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, GENE NAME, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=TX4000 / JH2-2;
+RX   PubMed=23490043; DOI=10.1111/mmi.12183;
+RA   Mokhtari A., Blancato V.S., Repizo G.D., Henry C., Pikis A., Bourand A.,
+RA   de Fatima Alvarez M., Immel S., Mechakra-Maza A., Hartke A., Thompson J.,
+RA   Magni C., Deutscher J.;
+RT   "Enterococcus faecalis utilizes maltose by connecting two incompatible
+RT   metabolic routes via a novel maltose 6'-phosphate phosphatase (MapP).";
+RL   Mol. Microbiol. 88:234-253(2013).
+CC   -!- FUNCTION: Catalyzes the phosphorolysis of maltose, leading to the
+CC       formation of glucose and glucose 1-P. Does not have maltose 6'-P
+CC       phosphorylase activity. Plays an important role in the metabolism of
+CC       maltose taken up via the bacterial phosphotransferase system (PTS).
+CC       {ECO:0000269|PubMed:23490043}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-maltose + phosphate = beta-D-glucose 1-phosphate + D-
+CC         glucose; Xref=Rhea:RHEA:21116, ChEBI:CHEBI:4167, ChEBI:CHEBI:17306,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57684; EC=2.4.1.8;
+CC         Evidence={ECO:0000269|PubMed:23490043};
+CC   -!- PATHWAY: Glycan degradation; maltose degradation.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene fail to grow on maltose.
+CC       {ECO:0000269|PubMed:23490043}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 65 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AEBB01000034; EFT41759.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E6ENP7; -.
+DR   SMR; E6ENP7; -.
+DR   PATRIC; fig|749493.3.peg.1237; -.
+DR   HOGENOM; CLU_006285_2_2_9; -.
+DR   UniPathway; UPA00150; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0050082; F:maltose phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000025; P:maltose catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.50.10.10; -; 1.
+DR   Gene3D; 2.70.98.40; -; 1.
+DR   InterPro; IPR008928; 6-hairpin_glycosidase_sf.
+DR   InterPro; IPR012341; 6hp_glycosidase-like_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR005194; Glyco_hydro_65_C.
+DR   InterPro; IPR005195; Glyco_hydro_65_M.
+DR   InterPro; IPR005196; Glyco_hydro_65_N.
+DR   InterPro; IPR037018; Glyco_hydro_65_N_sf.
+DR   InterPro; IPR017045; Malt_Pase/Glycosyl_Hdrlase.
+DR   Pfam; PF03633; Glyco_hydro_65C; 1.
+DR   Pfam; PF03632; Glyco_hydro_65m; 1.
+DR   Pfam; PF03636; Glyco_hydro_65N; 1.
+DR   PIRSF; PIRSF036289; Glycosyl_hydrolase_malt_phosph; 1.
+DR   SUPFAM; SSF48208; SSF48208; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Glycosyltransferase; Transferase.
+FT   CHAIN           1..783
+FT                   /note="Maltose phosphorylase"
+FT                   /id="PRO_0000422398"
+FT   ACT_SITE        507
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:D6XZ22"
+FT   BINDING         378..379
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:D6XZ22"
+FT   BINDING         610..611
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:D6XZ22"
+SQ   SEQUENCE   783 AA;  90212 MW;  28E0E0E91B46F478 CRC64;
+     MQSVAFMIDL SIKSLRGILM KQIKRLFQID PWKIRTTHLD KENLRLQESL TSIGNGYMGM
+     RGNFEEHYSG DHHQGTYLAG VWYPDKTRVG WWKNGYPEYF GKVINAINFI AMDLQIDGQT
+     IDLATTPYED FSLELDMQNG VLSRQFTIQT PKNKVRFSFE RFLSLEKKEA AYIHLTIEML
+     EGTGTITLHS KLDGDVQNED SNYEEHFWEE IAIETQETLG FVTTKTIPNN FEIERFTVTA
+     GMRHFIDGAS VVPTYTQQPL ALTAELTVSL NEGETTAITK EVLVVTSRDV PETQQITRVN
+     ELFSEMTTLY PEAKAGQAAA WAKRWQLADV VIEGDDEAQQ GIRFNLFQLF STYYGEDDRL
+     NIGPKGFTGE KYGGATYWDT EAYAVPLYLA LAKPEVTKNL LKYRHNQLPQ AIHNAQQQGL
+     KGALYPMVTF TGVECHNEWE ITFEEIHRNG AIAYAIYNYV NYTGDQDYLK DAGLEVLVAI
+     ARFWADRVHF SQRHKQYMIH GVTGPNEYEN NINNNWYTNT IAAWVLRYTR ESYLKFQEET
+     TLKIADDELA KWADIVENMY FPVDNELGIF VQHDTFLDKD LMPVSDLPLS ELPLNQHWSW
+     DKILRSCFIK QADVLQGIYF FNDAFSLEEK RRNFNFYEPM TVHESSLSPS IHAVLAAELG
+     MEEKAVEMYQ RTARLDLDNY NNDTEDGLHI TSMTGSWLAI VQGFAQMKTD HQQLKFAPFL
+     PATWTAYSFH INYRNRLLFV EVAADQVAFT LLDGPAIPLT VYDQKYTLKD RLVLPIRKEE
+     VHV
+//

@@ -1,0 +1,161 @@
+ID   Q4CPZ0_TRYCC            Unreviewed;       401 AA.
+AC   Q4CPZ0;
+DT   13-SEP-2005, integrated into UniProtKB/TrEMBL.
+DT   13-SEP-2005, sequence version 1.
+DT   03-AUG-2022, entry version 101.
+DE   RecName: Full=Calreticulin {ECO:0000256|PIRNR:PIRNR002356};
+GN   ORFNames=Tc00.1047053510685.10 {ECO:0000313|EMBL:EAN82340.1};
+OS   Trypanosoma cruzi (strain CL Brener).
+OC   Eukaryota; Discoba; Euglenozoa; Kinetoplastea; Metakinetoplastina;
+OC   Trypanosomatida; Trypanosomatidae; Trypanosoma; Schizotrypanum.
+OX   NCBI_TaxID=353153 {ECO:0000313|Proteomes:UP000002296};
+RN   [1] {ECO:0000313|EMBL:EAN82340.1, ECO:0000313|Proteomes:UP000002296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CL Brener {ECO:0000313|EMBL:EAN82340.1,
+RC   ECO:0000313|Proteomes:UP000002296};
+RX   PubMed=16020725; DOI=10.1126/science.1112631;
+RA   El-Sayed N.M., Myler P.J., Bartholomeu D.C., Nilsson D., Aggarwal G.,
+RA   Tran A.N., Ghedin E., Worthey E.A., Delcher A.L., Blandin G.,
+RA   Westenberger S.J., Caler E., Cerqueira G.C., Branche C., Haas B.,
+RA   Anupama A., Arner E., Aslund L., Attipoe P., Bontempi E., Bringaud F.,
+RA   Burton P., Cadag E., Campbell D.A., Carrington M., Crabtree J., Darban H.,
+RA   da Silveira J.F., de Jong P., Edwards K., Englund P.T., Fazelina G.,
+RA   Feldblyum T., Ferella M., Frasch A.C., Gull K., Horn D., Hou L., Huang Y.,
+RA   Kindlund E., Klingbeil M., Kluge S., Koo H., Lacerda D., Levin M.J.,
+RA   Lorenzi H., Louie T., Machado C.R., McCulloch R., McKenna A., Mizuno Y.,
+RA   Mottram J.C., Nelson S., Ochaya S., Osoegawa K., Pai G., Parsons M.,
+RA   Pentony M., Pettersson U., Pop M., Ramirez J.L., Rinta J., Robertson L.,
+RA   Salzberg S.L., Sanchez D.O., Seyler A., Sharma R., Shetty J., Simpson A.J.,
+RA   Sisk E., Tammi M.T., Tarleton R., Teixeira S., Van Aken S., Vogt C.,
+RA   Ward P.N., Wickstead B., Wortman J., White O., Fraser C.M., Stuart K.D.,
+RA   Andersson B.;
+RT   "The genome sequence of Trypanosoma cruzi, etiologic agent of Chagas
+RT   disease.";
+RL   Science 309:409-415(2005).
+RN   [2] {ECO:0007829|PDB:5HCF}
+RP   X-RAY CRYSTALLOGRAPHY (2.45 ANGSTROMS) OF 22-207 AND 292-365, AND DISULFIDE
+RP   BONDS.
+RX   PubMed=27840680; DOI=10.1107/S2052252516012847;
+RA   Moreau C.P., Cioci G., Iannello M., Laffly E., Chouquet A., Ferreira A.,
+RA   Thielens N.M., Gaboriaud C.;
+RT   "Structures of parasite calreticulins provide insights into their
+RT   flexibility and dual carbohydrate/peptide-binding properties.";
+RL   IUCrJ 3:408-419(2016).
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen
+CC       {ECO:0000256|ARBA:ARBA00004319, ECO:0000256|PIRNR:PIRNR002356}.
+CC   -!- SIMILARITY: Belongs to the calreticulin family.
+CC       {ECO:0000256|ARBA:ARBA00010983, ECO:0000256|PIRNR:PIRNR002356,
+CC       ECO:0000256|RuleBase:RU362126}.
+CC   -!- CAUTION: The sequence shown here is derived from an EMBL/GenBank/DDBJ
+CC       whole genome shotgun (WGS) entry which is preliminary data.
+CC       {ECO:0000313|EMBL:EAN82340.1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAHK01002555; EAN82340.1; -; Genomic_DNA.
+DR   RefSeq; XP_804191.1; XM_799098.1.
+DR   PDB; 5HCF; X-ray; 2.45 A; A/B/C/D/E/F=22-207, A/B/C/D/E/F=292-365.
+DR   PDBsum; 5HCF; -.
+DR   AlphaFoldDB; Q4CPZ0; -.
+DR   SMR; Q4CPZ0; -.
+DR   STRING; 5693.XP_804191.1; -.
+DR   UniLectin; Q4CPZ0; -.
+DR   PaxDb; Q4CPZ0; -.
+DR   EnsemblProtists; EAN82340; EAN82340; Tc00.1047053510685.10.
+DR   GeneID; 3533556; -.
+DR   KEGG; tcr:510685.10; -.
+DR   eggNOG; KOG0674; Eukaryota.
+DR   OMA; SRWVNSE; -.
+DR   OrthoDB; 822188at2759; -.
+DR   Proteomes; UP000002296; Unassembled WGS sequence.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:InterPro.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009169; Calreticulin.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 2.
+DR   PIRSF; PIRSF002356; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5HCF};
+KW   Calcium {ECO:0000256|PIRSR:PIRSR002356-2};
+KW   Chaperone {ECO:0000256|ARBA:ARBA00023186, ECO:0000256|PIRNR:PIRNR002356};
+KW   Endoplasmic reticulum {ECO:0000256|ARBA:ARBA00022824,
+KW   ECO:0000256|PIRNR:PIRNR002356};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR002356-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000002296};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729, ECO:0000256|RuleBase:RU362126}.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000256|RuleBase:RU362126"
+FT   CHAIN           22..401
+FT                   /note="Calreticulin"
+FT                   /evidence="ECO:0000256|RuleBase:RU362126"
+FT                   /id="PRO_5004235753"
+FT   REGION          210..253
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          258..277
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          363..401
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        231..253
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        377..401
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         60
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-2"
+FT   BINDING         62
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-2"
+FT   BINDING         108
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-1"
+FT   BINDING         110
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-1"
+FT   BINDING         126
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-1"
+FT   BINDING         133
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-1"
+FT   BINDING         316
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-1"
+FT   DISULFID        104..135
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR002356-3,
+FT                   ECO:0007829|PDB:5HCF"
+SQ   SEQUENCE   401 AA;  46235 MW;  0061F06AFC23C251 CRC64;
+     MRAAIFFCAL LGLATLSAVH GTVYFHEEFK SMEHWTTSKH RDDFGKVEIS AGKFYADAEK
+     SKGLRLTEDA RFYALSTAFP TPINNEKKSL VVSFSVKHEQ DLKCGGGYIK LLPSMDPEKF
+     HGETKYWLMF GPDRCGSQNR VHIILHYNGE NREWSKRIRF PEDKLTHVYT LHIAADNSYE
+     FFLDGESKAK GQLEEDWSLL LPREIVDETD KKPEDWVDEE TMDDPEDKKP EDWDNEPAMI
+     PDADAKKPDD WDDAEDGPWE APMIPNPKSK GTWKPRQIPN PAYKGVWEPR KIPNPDFVED
+     SELHKVPEPL THVGIDVWQV ESGSIFKDIV IGDDLKEVLD LVEKTYGGLK KAEADALKVM
+     EDMEKEKRKK EEEEEREKEK AEEEKDEEEL EEKGDGDKED L
+//

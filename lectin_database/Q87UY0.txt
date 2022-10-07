@@ -1,0 +1,103 @@
+ID   OPGG_PSESM              Reviewed;         641 AA.
+AC   Q87UY0;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   25-MAY-2022, entry version 100.
+DE   RecName: Full=Glucans biosynthesis protein G;
+DE   Flags: Precursor;
+GN   Name=opgG; Synonyms=mgoG; OrderedLocusNames=PSPTO_5162;
+OS   Pseudomonas syringae pv. tomato (strain ATCC BAA-871 / DC3000).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=223283;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-871 / DC3000;
+RX   PubMed=12928499; DOI=10.1073/pnas.1731982100;
+RA   Buell C.R., Joardar V., Lindeberg M., Selengut J., Paulsen I.T.,
+RA   Gwinn M.L., Dodson R.J., DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R.,
+RA   Daugherty S.C., Brinkac L.M., Beanan M.J., Haft D.H., Nelson W.C.,
+RA   Davidsen T.M., Zafar N., Zhou L., Liu J., Yuan Q., Khouri H.M.,
+RA   Fedorova N.B., Tran B., Russell D., Berry K.J., Utterback T.R.,
+RA   Van Aken S.E., Feldblyum T.V., D'Ascenzo M., Deng W.-L., Ramos A.R.,
+RA   Alfano J.R., Cartinhour S., Chatterjee A.K., Delaney T.P., Lazarowitz S.G.,
+RA   Martin G.B., Schneider D.J., Tang X., Bender C.L., White O., Fraser C.M.,
+RA   Collmer A.;
+RT   "The complete genome sequence of the Arabidopsis and tomato pathogen
+RT   Pseudomonas syringae pv. tomato DC3000.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:10181-10186(2003).
+CC   -!- FUNCTION: Involved in the biosynthesis of osmoregulated periplasmic
+CC       glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016853; AAO58588.1; -; Genomic_DNA.
+DR   RefSeq; NP_794893.1; NC_004578.1.
+DR   RefSeq; WP_011105344.1; NC_004578.1.
+DR   AlphaFoldDB; Q87UY0; -.
+DR   SMR; Q87UY0; -.
+DR   STRING; 223283.PSPTO_5162; -.
+DR   PRIDE; Q87UY0; -.
+DR   EnsemblBacteria; AAO58588; AAO58588; PSPTO_5162.
+DR   GeneID; 1186847; -.
+DR   KEGG; pst:PSPTO_5162; -.
+DR   PATRIC; fig|223283.9.peg.5283; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; KRPSAWI; -.
+DR   OrthoDB; 1049230at2; -.
+DR   PhylomeDB; Q87UY0; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000002515; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01069; MdoG_OpgG; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR023704; MdoG_OpgG.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..37
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           38..641
+FT                   /note="Glucans biosynthesis protein G"
+FT                   /id="PRO_0000020228"
+FT   REGION          535..554
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          561..625
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        561..608
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   641 AA;  70925 MW;  79D9C15AD9CA0F77 CRC64;
+     MIVSPCDAPK TPVKRLRSAL LASSALVCLF SAGQLWAFSL DDVAAKAKEM AGQKFEAPRS
+     NLPNELRDMK FADYQKIRFR DDKAEWAGDK TPFKVSFYHQ GMHFDTPVKI NEVTATSVDE
+     IKYDASRFDF GGLNIDPKTS EKLGYAGFRV LYPINKDDKQ DEIMTMLGAS YFRVIGKGQV
+     YGLSARGMAI DTASPSGEEF PRFKEFWIEK PGPDDNHLVI FALLDSPRAT GAYQLTLRPG
+     TNTLVDVKSR MFLRDKVNKL GVAPLTSMFL FGANQPSRVP NYRRELHDSS GLSIQAANGE
+     WLWRPLNNPK HLSISSFSVE NPRGFGLLQR GRDFSQYEDL DDRYDKRPSA WIEPKGDWGK
+     GTVELVEIPT ADETNDNIVA FWKPETLKAP GEEMAFDYRL HWTMQENSIH SPDLGWVKQT
+     QRSIGDVRQS NLIRQPDGSL AFLVDFVGPV LAALPEDKTI RSQVTTDDNV ELVENNLRYN
+     PVTKGYRLTL RVKVKDAGKA TEMRAYLLRE IPAEPGKEPA LLVADKADEK KAAAKEAAAK
+     EAAKPAVAKE SANDQVEIAK ADAPKPEAAK PEAGKADASK ADAAKGDVAK ADAAKADDVA
+     KGKDGKDIQQ PATEAAPTHP EPAKTLQVMT ETWSYQLPSD E
+//

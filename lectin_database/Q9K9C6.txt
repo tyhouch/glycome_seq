@@ -1,0 +1,109 @@
+ID   BGAL_ALKHC              Reviewed;        1014 AA.
+AC   Q9K9C6;
+DT   10-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 120.
+DE   RecName: Full=Beta-galactosidase;
+DE            Short=Beta-gal;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Lactase;
+GN   Name=lacZ; OrderedLocusNames=BH2723;
+OS   Alkalihalobacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344
+OS   / JCM 9153 / C-125) (Bacillus halodurans).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N., Fuji F.,
+RA   Hirama C., Nakamura Y., Ogasawara N., Kuhara S., Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans
+RT   and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000004; BAB06442.1; -; Genomic_DNA.
+DR   PIR; C83990; C83990.
+DR   RefSeq; WP_010898871.1; NC_002570.2.
+DR   AlphaFoldDB; Q9K9C6; -.
+DR   SMR; Q9K9C6; -.
+DR   STRING; 272558.10175344; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   PRIDE; Q9K9C6; -.
+DR   EnsemblBacteria; BAB06442; BAB06442; BAB06442.
+DR   KEGG; bha:BH2723; -.
+DR   eggNOG; COG3250; Bacteria.
+DR   HOGENOM; CLU_002346_0_2_9; -.
+DR   OMA; WCDHGIL; -.
+DR   OrthoDB; 245411at2; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IEA:InterPro.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           1..1014
+FT                   /note="Beta-galactosidase"
+FT                   /id="PRO_0000057658"
+FT   ACT_SITE        460
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        527
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1014 AA;  116656 MW;  30405EB697C72798 CRC64;
+     MKTHSNVSWL RDVNVFAVNR LPAHSDHVYY ETVEEAKKEP PMSMRHSLNG HWKFHYAINP
+     NTRPKEFYQL GFDCKCWDDI LVPGHIQLQG YGKPQYVNTM YPWDGHHHLR PPEIPEDDNP
+     VGSYVKYFDI PNNMSNHPLF ISFQGVETAF YVWLNGEFVG YSEDSFTPAE FDLTPYAVEG
+     ENKLCVEVYQ RSTGSWLEDQ DFWRFSGIFR DVYLYTIPNI HVYDMHVRAD LDRSLQTGIL
+     ETTLELKRSQ EKEVMIVAEL YDAEGAVVAT ADMKTNQDQA TVSMSVDSPA LWSAEDPYLY
+     KLFLKLFDEN GTLVEVVPQK IGFRRFELVN NIMTLNGKRI VFKGVNRHEF NGRTGRVVTK
+     EDMLEDIKTM KKHNINAVRT SHYPNNSEWY QLCDEYGLYV IDEMNLETHG SWQKLGKVEP
+     SWNIPGNHLE WEPIVMDRAV SMFERDKNHP SILIWSCGNE SYAGEVILNV SRYFKSVDPS
+     RLVHYEGVFH ARAYDATSDM ESRMYAKPKD IEDYLTNDPK KPYISCEYMH AMGNSLGGMH
+     KYTELEQKYP MYQGGFIWDY IDQALLKKDR YGKEYFAYGG DFGDRPTDYS FCANGIVYAD
+     RKPSPKMQEV KFLYQNIKLV PDREGVLVKN ENLFTDTSAY QLEYVLYWEG TELYRKKQDV
+     FVAPQEEVYL PFDWLEQGMN ESGEYCIHTM LTLKQDQLWA EKGHEVAFGQ HVYRMGAIQK
+     ERNARGALKV VHGDVNIGIH GEDFSVLFSK AVGSLVSLHY AGKEMIEQPP MPLFWRATTD
+     NDKGCSQLYH SGIWYAASLA RKCVNMEVEE KPGHVSVLFT YHFAISDRVE VKVGYTVFPD
+     GSLRVRSTYQ ASKGGETLPQ LPMFALSFKL PADYEQLEWY ALGPEENYAD RATGARLCTF
+     KNKVEDSLSQ YVTPQESGNR TGVRTVKILD ANGQGIEVCS VEEPIECQIS PYTAFELEQA
+     SHPYELPNVH YTVVNVAGKQ MGVGGDDSWG APVHDEYVLK ADQDLEFVFD INRV
+//

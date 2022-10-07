@@ -1,0 +1,88 @@
+ID   RGLB_ASPOR              Reviewed;         238 AA.
+AC   Q2UDJ8;
+DT   18-MAY-2010, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   25-MAY-2022, entry version 55.
+DE   RecName: Full=Probable rhamnogalacturonate lyase B;
+DE            EC=4.2.2.23;
+DE   Flags: Precursor;
+GN   Name=rglB; ORFNames=AO090012000147;
+OS   Aspergillus oryzae (strain ATCC 42149 / RIB 40) (Yellow koji mold).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=510516;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 42149 / RIB 40;
+RX   PubMed=16372010; DOI=10.1038/nature04300;
+RA   Machida M., Asai K., Sano M., Tanaka T., Kumagai T., Terai G., Kusumoto K.,
+RA   Arima T., Akita O., Kashiwagi Y., Abe K., Gomi K., Horiuchi H.,
+RA   Kitamoto K., Kobayashi T., Takeuchi M., Denning D.W., Galagan J.E.,
+RA   Nierman W.C., Yu J., Archer D.B., Bennett J.W., Bhatnagar D.,
+RA   Cleveland T.E., Fedorova N.D., Gotoh O., Horikawa H., Hosoyama A.,
+RA   Ichinomiya M., Igarashi R., Iwashita K., Juvvadi P.R., Kato M., Kato Y.,
+RA   Kin T., Kokubun A., Maeda H., Maeyama N., Maruyama J., Nagasaki H.,
+RA   Nakajima T., Oda K., Okada K., Paulsen I., Sakamoto K., Sawano T.,
+RA   Takahashi M., Takase K., Terabayashi Y., Wortman J.R., Yamada O.,
+RA   Yamagata Y., Anazawa H., Hata Y., Koide Y., Komori T., Koyama Y.,
+RA   Minetoki T., Suharnan S., Tanaka A., Isono K., Kuhara S., Ogasawara N.,
+RA   Kikuchi H.;
+RT   "Genome sequencing and analysis of Aspergillus oryzae.";
+RL   Nature 438:1157-1161(2005).
+CC   -!- FUNCTION: Pectinolytic enzymes consist of four classes of enzymes:
+CC       pectin lyase, polygalacturonase, pectin methylesterase and
+CC       rhamnogalacturonase. Degrades the rhamnogalacturonan I (RG-I) backbone
+CC       of pectin (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endotype eliminative cleavage of L-alpha-rhamnopyranosyl-
+CC         (1->4)-alpha-D-galactopyranosyluronic acid bonds of
+CC         rhamnogalacturonan I domains in ramified hairy regions of pectin
+CC         leaving L-rhamnopyranose at the reducing end and 4-deoxy-4,5-
+CC         unsaturated D-galactopyranosyluronic acid at the non-reducing end.;
+CC         EC=4.2.2.23;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 4 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP007161; BAE60367.1; -; Genomic_DNA.
+DR   RefSeq; XP_003189969.1; XM_003189921.1.
+DR   AlphaFoldDB; Q2UDJ8; -.
+DR   EnsemblFungi; BAE60367; BAE60367; AO090012000147.
+DR   GeneID; 10099929; -.
+DR   KEGG; aor:AO090012000147; -.
+DR   HOGENOM; CLU_085593_0_0_1; -.
+DR   Proteomes; UP000006564; Chromosome 4.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0102210; F:rhamnogalacturonan endolyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cell wall biogenesis/degradation; Glycoprotein;
+KW   Lyase; Polysaccharide degradation; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..238
+FT                   /note="Probable rhamnogalacturonate lyase B"
+FT                   /id="PRO_0000394376"
+FT   CARBOHYD        27
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        110
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        143
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   238 AA;  26531 MW;  638E23F7A68040C7 CRC64;
+     MRLRTSLGVA SACASVASAA LKVTEDNSTI TLANDRLTST FAKDKGRVSE LFLDGQDLLG
+     PISGNTGVGP YLDCYCIPSG FYTAGSTDPR LEVVQGTDST GTKYAGVILN DTYTPTGQQF
+     QQYWFLRDGE TGLHTFSRLA YYNETTPFLR NLQEFRTLFR PNTELWTHLT SSEAQTAPLP
+     SKEAIANEVV VQDATWRFNN TPNDAYYTQF SEYFTKYTFS NCMGLFKTYW YAASANLQ
+//

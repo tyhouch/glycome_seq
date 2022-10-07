@@ -1,0 +1,105 @@
+ID   LADD_ONCMY              Reviewed;         190 AA.
+AC   P81018;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   29-OCT-2014, sequence version 2.
+DT   25-MAY-2022, entry version 40.
+DE   RecName: Full=Ladderlectin;
+DE   Flags: Precursor;
+OS   Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Protacanthopterygii; Salmoniformes;
+OC   Salmonidae; Salmoninae; Oncorhynchus.
+OX   NCBI_TaxID=8022;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), AND TISSUE SPECIFICITY.
+RX   PubMed=18407519; DOI=10.1016/j.fsi.2007.11.002;
+RA   Russell S., Young K.M., Smith M., Hayes M.A., Lumsden J.S.;
+RT   "Cloning, binding properties, and tissue localization of rainbow trout
+RT   (Oncorhynchus mykiss) ladderlectin.";
+RL   Fish Shellfish Immunol. 24:669-683(2008).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 45-55.
+RC   TISSUE=Blood;
+RX   PubMed=9149391; DOI=10.1016/s0305-0491(96)00273-8;
+RA   Jensen L.E., Thiel S., Petersen T.E., Jensenuis J.C.;
+RT   "A rainbow trout lectin with multimeric structure.";
+RL   Comp. Biochem. Physiol. 116B:385-390(1997).
+CC   -!- FUNCTION: Lectin that binds sepharose in a calcium-dependent manner.
+CC   -!- SUBUNIT: Multimeric.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1 {ECO:0000305}; Synonyms=RTLL-2 {ECO:0000303|PubMed:18407519};
+CC         IsoId=P81018-1; Sequence=Displayed;
+CC       Name=2 {ECO:0000305}; Synonyms=RTLL-1 {ECO:0000303|PubMed:18407519};
+CC         IsoId=P81018-2; Sequence=VSP_057102;
+CC   -!- TISSUE SPECIFICITY: Expressed in cells of the branchial epithelium,
+CC       hepatic sinusoids, biliary epithelium, renal interstitium, skin, and
+CC       sub-mucosal granular layer of the intestine. Highly expressed in caudal
+CC       kidney. Moderately expressed in liver. Weakly expressed in gill,
+CC       spleen, cranial kidney and skin. Isoform 1 is highly expressed in
+CC       intestine. Isoform 2 is weakly expressed in intestine.
+CC       {ECO:0000269|PubMed:18407519}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P81018; -.
+DR   SMR; P81018; -.
+DR   GO; GO:0005903; C:brush border; IDA:AgBase.
+DR   GO; GO:0044194; C:cytolytic granule; IDA:AgBase.
+DR   GO; GO:0005737; C:cytoplasm; IDA:AgBase.
+DR   GO; GO:0005829; C:cytosol; IDA:AgBase.
+DR   GO; GO:0005615; C:extracellular space; IDA:AgBase.
+DR   GO; GO:0005886; C:plasma membrane; IDA:AgBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; IDA:AgBase.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Calcium; Direct protein sequencing; Disulfide bond;
+KW   Lectin; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..190
+FT                   /note="Ladderlectin"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000084351"
+FT   DOMAIN          60..179
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        153..169
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         21..34
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:18407519"
+FT                   /id="VSP_057102"
+FT   CONFLICT        10
+FT                   /note="L -> M (in Ref. 1; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        54
+FT                   /note="T -> P (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        101..105
+FT                   /note="EVVAS -> AIAGC (in Ref. 1; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        113
+FT                   /note="P -> T (in Ref. 1; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        159
+FT                   /note="R -> G (in Ref. 1; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        167
+FT                   /note="I -> M (in Ref. 1; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   190 AA;  21306 MW;  F5D2555CF6D70844 CRC64;
+     MAMLTISLLL CAAVALNGAT VLELFQDFEQ ALHLGAKGED ERVVAAENRN QCPTGWFQFG
+     SRCFMFVETA RSWPLAERHC VSLGANLASV HSSAEYQFLQ EVVASKTGGF STPWIGGFDA
+     VQDRLWFWSD GSEFDYQNWK KGEPNNSGGR EPCIVINWRD EYRWNDINCG NSFPSGVLQK
+     NVEIQKNEPT
+//

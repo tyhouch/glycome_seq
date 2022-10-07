@@ -1,0 +1,285 @@
+ID   GUN5_SALAG              Reviewed;         400 AA.
+AC   O85465;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   03-AUG-2022, entry version 100.
+DE   RecName: Full=Endoglucanase 5A;
+DE            EC=3.2.1.4 {ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293};
+DE   AltName: Full=Alkaline cellulase;
+DE   AltName: Full=Endo-1,4-beta-glucanase 5A;
+DE   Flags: Precursor;
+GN   Name=cel5A;
+OS   Salipaludibacillus agaradhaerens (Bacillus agaradhaerens).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae.
+OX   NCBI_TaxID=76935;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 700163 / DSM 8721 / LMG 17948 / NCIMB 40482 / PN-105;
+RA   Bjornvad M.E.;
+RL   Submitted (MAY-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007744|PDB:1A3H, ECO:0007744|PDB:2A3H}
+RP   X-RAY CRYSTALLOGRAPHY (1.57 ANGSTROMS) OF 30-329 IN COMPLEX WITH
+RP   BETA-CELLOBIOSE, PROTEIN SEQUENCE OF 27-45, CATALYTIC ACTIVITY, AND ACTIVE
+RP   SITE.
+RC   STRAIN=ATCC 700163 / DSM 8721 / LMG 17948 / NCIMB 40482 / PN-105;
+RX   PubMed=9485319; DOI=10.1021/bi972162m;
+RA   Davies G.J., Dauter M., Brzozowski A.M., Bjoernvad M.E., Andersen K.V.,
+RA   Schuelein M.;
+RT   "Structure of the Bacillus agaradherans family 5 endoglucanase at 1.6-A and
+RT   its cellobiose complex at 2.0-A resolution.";
+RL   Biochemistry 37:1926-1932(1998).
+RN   [3] {ECO:0007744|PDB:3A3H, ECO:0007744|PDB:4A3H, ECO:0007744|PDB:5A3H, ECO:0007744|PDB:6A3H, ECO:0007744|PDB:7A3H}
+RP   X-RAY CRYSTALLOGRAPHY (1.64 ANGSTROMS) OF 30-329 IN COMPLEXES WITH
+RP   SUBSTRATE ANALOGS, CATALYTIC ACTIVITY, AND ACTIVE SITE.
+RC   STRAIN=ATCC 700163 / DSM 8721 / LMG 17948 / NCIMB 40482 / PN-105;
+RX   PubMed=9718293; DOI=10.1021/bi981315i;
+RA   Davies G.J., MacKenzie L.F., Varrot A., Dauter M., Brzozowski A.M.,
+RA   Schuelein M., Withers S.G.;
+RT   "Snapshots along an enzymatic reaction coordinate: analysis of a retaining
+RT   beta-glycoside hydrolase.";
+RL   Biochemistry 37:11707-11713(1998).
+RN   [4] {ECO:0007744|PDB:8A3H}
+RP   X-RAY CRYSTALLOGRAPHY (0.97 ANGSTROMS) OF 27-329 IN COMPLEX WITH SUBSTRATE
+RP   ANALOG, AND ACTIVE SITE.
+RX   DOI=10.1021/ja984238n;
+RA   Varrot A., Schulein M., Pipelier M., Vasella A., Davies G.J.;
+RT   "Lateral protonation of a glycosidase inhibitor. Structure of the Bacillus
+RT   agaradhaerens Cel5A in complex with a cellobiose-derived imidazole at 0.97
+RT   A resolution.";
+RL   J. Am. Chem. Soc. 121:2621-2622(1999).
+RN   [5] {ECO:0007744|PDB:1H11, ECO:0007744|PDB:1H2J, ECO:0007744|PDB:1HF6}
+RP   X-RAY CRYSTALLOGRAPHY (1.08 ANGSTROMS) OF 27-329 IN COMPLEXES WITH
+RP   SUBSTRATE ANALOGS, AND ACTIVE SITE.
+RX   PubMed=12595701; DOI=10.1107/s0907444902023405;
+RA   Varrot A., Davies G.J.;
+RT   "Direct experimental observation of the hydrogen-bonding network of a
+RT   glycosidase along its reaction coordinate revealed by atomic resolution
+RT   analyses of endoglucanase Cel5A.";
+RL   Acta Crystallogr. D 59:447-452(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-glucosidic linkages in
+CC         cellulose, lichenin and cereal beta-D-glucans.; EC=3.2.1.4;
+CC         Evidence={ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:9485319}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 5 (cellulase A) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF067428; AAC19169.1; -; Genomic_DNA.
+DR   PDB; 1A3H; X-ray; 1.57 A; A=30-329.
+DR   PDB; 1E5J; X-ray; 1.85 A; A=27-331.
+DR   PDB; 1H11; X-ray; 1.08 A; A=27-329.
+DR   PDB; 1H2J; X-ray; 1.15 A; A=27-329.
+DR   PDB; 1H5V; X-ray; 1.10 A; A=27-330.
+DR   PDB; 1HF6; X-ray; 1.15 A; A=27-329.
+DR   PDB; 1OCQ; X-ray; 1.08 A; A=27-329.
+DR   PDB; 1QHZ; X-ray; 1.95 A; A=27-331.
+DR   PDB; 1QI0; X-ray; 2.10 A; A=27-331.
+DR   PDB; 1QI2; X-ray; 1.75 A; A=27-331.
+DR   PDB; 1W3K; X-ray; 1.20 A; A=27-329.
+DR   PDB; 1W3L; X-ray; 1.04 A; A=27-329.
+DR   PDB; 2A3H; X-ray; 2.00 A; A=30-329.
+DR   PDB; 2V38; X-ray; 1.50 A; A=27-331.
+DR   PDB; 3A3H; X-ray; 1.64 A; A=30-329.
+DR   PDB; 4A3H; X-ray; 1.65 A; A=27-329.
+DR   PDB; 5A3H; X-ray; 1.82 A; A=27-329.
+DR   PDB; 6A3H; X-ray; 1.68 A; A=27-329.
+DR   PDB; 7A3H; X-ray; 0.95 A; A=27-329.
+DR   PDB; 8A3H; X-ray; 0.97 A; A=27-329.
+DR   PDBsum; 1A3H; -.
+DR   PDBsum; 1E5J; -.
+DR   PDBsum; 1H11; -.
+DR   PDBsum; 1H2J; -.
+DR   PDBsum; 1H5V; -.
+DR   PDBsum; 1HF6; -.
+DR   PDBsum; 1OCQ; -.
+DR   PDBsum; 1QHZ; -.
+DR   PDBsum; 1QI0; -.
+DR   PDBsum; 1QI2; -.
+DR   PDBsum; 1W3K; -.
+DR   PDBsum; 1W3L; -.
+DR   PDBsum; 2A3H; -.
+DR   PDBsum; 2V38; -.
+DR   PDBsum; 3A3H; -.
+DR   PDBsum; 4A3H; -.
+DR   PDBsum; 5A3H; -.
+DR   PDBsum; 6A3H; -.
+DR   PDBsum; 7A3H; -.
+DR   PDBsum; 8A3H; -.
+DR   AlphaFoldDB; O85465; -.
+DR   SMR; O85465; -.
+DR   DrugBank; DB04086; 2',4'-Dinitrophenyl-2deoxy-2-Fluro-B-D-Cellobioside.
+DR   DrugBank; DB03584; 4-Thio-beta-D-glucopyranose.
+DR   DrugBank; DB04545; Afegostat.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   DrugBank; DB02061; Cellobiose.
+DR   DrugBank; DB01633; Deoxy-2-fluoro-beta-D-cellotrioside.
+DR   DrugBank; DB02017; Imidazole-Derived Cellobiose.
+DR   DrugBank; DB01642; methyl beta-D-glucopyranoside.
+DR   DrugBank; DB03862; Tetrahydrooxazine.
+DR   CAZy; CBM5; Carbohydrate-Binding Module Family 5.
+DR   CAZy; GH5; Glycoside Hydrolase Family 5.
+DR   EvolutionaryTrace; O85465; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008810; F:cellulase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR003610; CBM_fam5/12.
+DR   InterPro; IPR036573; CBM_sf_5/12.
+DR   InterPro; IPR001547; Glyco_hydro_5.
+DR   InterPro; IPR018087; Glyco_hydro_5_CS.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF00150; Cellulase; 1.
+DR   SMART; SM00495; ChtBD3; 1.
+DR   SUPFAM; SSF51055; SSF51055; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00659; GLYCOSYL_HYDROL_F5; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cellulose degradation;
+KW   Direct protein sequencing; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Secreted; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000269|PubMed:9485319"
+FT   CHAIN           27..400
+FT                   /note="Endoglucanase 5A"
+FT                   /id="PRO_0000184043"
+FT   DOMAIN          357..396
+FT                   /note="Chitin-binding type-3"
+FT                   /evidence="ECO:0000255"
+FT   REGION          328..363
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        333..357
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        165
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000305|PubMed:12595701,
+FT                   ECO:0000305|PubMed:9485319, ECO:0000305|PubMed:9718293,
+FT                   ECO:0000305|Ref.4"
+FT   ACT_SITE        254
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293,
+FT                   ECO:0000269|Ref.4, ECO:0007744|PDB:1H11,
+FT                   ECO:0007744|PDB:1QI2, ECO:0007744|PDB:5A3H,
+FT                   ECO:0007744|PDB:6A3H, ECO:0007744|PDB:8A3H"
+FT   BINDING         61
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293,
+FT                   ECO:0007744|PDB:1HF6, ECO:0007744|PDB:2A3H,
+FT                   ECO:0007744|PDB:3A3H"
+FT   BINDING         65..66
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293,
+FT                   ECO:0007744|PDB:1HF6, ECO:0007744|PDB:1QI0,
+FT                   ECO:0007744|PDB:2A3H, ECO:0007744|PDB:3A3H"
+FT   BINDING         92
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293,
+FT                   ECO:0007744|PDB:1HF6, ECO:0007744|PDB:1QI0,
+FT                   ECO:0007744|PDB:2A3H, ECO:0007744|PDB:3A3H"
+FT   BINDING         127
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9718293, ECO:0000269|Ref.4,
+FT                   ECO:0007744|PDB:1HF6, ECO:0007744|PDB:3A3H"
+FT   BINDING         228
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9718293, ECO:0007744|PDB:1HF6,
+FT                   ECO:0007744|PDB:3A3H"
+FT   BINDING         260..261
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9718293, ECO:0007744|PDB:1HF6,
+FT                   ECO:0007744|PDB:3A3H"
+FT   BINDING         288
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293,
+FT                   ECO:0000269|Ref.4, ECO:0007744|PDB:1H5V,
+FT                   ECO:0007744|PDB:1HF6, ECO:0007744|PDB:1QI0,
+FT                   ECO:0007744|PDB:2A3H, ECO:0007744|PDB:3A3H,
+FT                   ECO:0007744|PDB:8A3H"
+FT   BINDING         293..295
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:12595701,
+FT                   ECO:0000269|PubMed:9485319, ECO:0000269|PubMed:9718293,
+FT                   ECO:0007744|PDB:1HF6, ECO:0007744|PDB:1QI0,
+FT                   ECO:0007744|PDB:2A3H, ECO:0007744|PDB:3A3H"
+FT   HELIX           31..35
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          39..41
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          44..46
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          56..61
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           63..66
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           67..69
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           72..80
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          86..94
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   TURN            98..100
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           104..118
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          121..127
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          129..131
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   TURN            134..137
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           138..152
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          158..161
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   TURN            173..176
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           177..189
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          193..195
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          197..199
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           202..205
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           208..212
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          221..228
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   TURN            229..231
+FT                   /evidence="ECO:0007829|PDB:1H5V"
+FT   HELIX           234..245
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          250..258
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          264..266
+FT                   /evidence="ECO:0007829|PDB:1H5V"
+FT   HELIX           268..280
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   STRAND          285..291
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           312..314
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+FT   HELIX           317..328
+FT                   /evidence="ECO:0007829|PDB:7A3H"
+SQ   SEQUENCE   400 AA;  44702 MW;  3F9C66FB9BC36FFF CRC64;
+     MKKITTIFVV LLMTVALFSI GNTTAADNDS VVEEHGQLSI SNGELVNERG EQVQLKGMSS
+     HGLQWYGQFV NYESMKWLRD DWGINVFRAA MYTSSGGYID DPSVKEKVKE AVEAAIDLDI
+     YVIIDWHILS DNDPNIYKEE AKDFFDEMSE LYGDYPNVIY EIANEPNGSD VTWGNQIKPY
+     AEEVIPIIRN NDPNNIIIVG TGTWSQDVHH AADNQLADPN VMYAFHFYAG THGQNLRDQV
+     DYALDQGAAI FVSEWGTSAA TGDGGVFLDE AQVWIDFMDE RNLSWANWSL THKDESSAAL
+     MPGANPTGGW TEAELSPSGT FVREKIRESA SIPPSDPTPP SDPGEPDPTP PSDPGEYPAW
+     DPNQIYTNEI VYHNGQLWQA KWWTQNQEPG DPYGPWEPLN
+//

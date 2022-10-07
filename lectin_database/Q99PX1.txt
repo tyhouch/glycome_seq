@@ -1,0 +1,89 @@
+ID   DEAA_VIBAL              Reviewed;         427 AA.
+AC   Q99PX1;
+DT   03-OCT-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   03-AUG-2022, entry version 72.
+DE   RecName: Full=Chitin disaccharide deacetylase;
+DE            EC=3.5.1.105 {ECO:0000269|PubMed:16232910};
+DE   AltName: Full=Chitin oligosaccharide deacetylase;
+DE   Flags: Precursor;
+GN   Name=deaA;
+OS   Vibrio alginolyticus.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF N-TERMINUS,
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=H-8;
+RX   PubMed=16232910; DOI=10.1016/s1389-1723(01)80041-4;
+RA   Ohishi K., Murase K., Ohta T., Etoh H.;
+RT   "Cloning and sequencing of the deacetylase gene from Vibrio alginolyticus
+RT   H-8.";
+RL   J. Biosci. Bioeng. 90:561-563(2000).
+CC   -!- FUNCTION: Specifically catalyzes the degradation of N,N'-
+CC       diacetylchitobiose. Key enzyme in the chitin catabolic cascade.
+CC       {ECO:0000269|PubMed:16232910}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N,N'-diacetylchitobiose = acetate + N-acetyl-beta-D-
+CC         glucosaminyl-(1->4)-D-glucosamine; Xref=Rhea:RHEA:27469,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:28681, ChEBI:CHEBI:30089,
+CC         ChEBI:CHEBI:59910; EC=3.5.1.105;
+CC         Evidence={ECO:0000269|PubMed:16232910};
+CC   -!- PATHWAY: Glycan degradation; chitin degradation.
+CC   -!- SIMILARITY: Belongs to the polysaccharide deacetylase family.
+CC       Carbohydrate-binding module 12 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB055217; BAB21759.1; -; Genomic_DNA.
+DR   EMBL; AJ292005; CAC29092.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q99PX1; -.
+DR   SMR; Q99PX1; -.
+DR   STRING; 663.BAU10_12895; -.
+DR   CAZy; CBM12; Carbohydrate-Binding Module Family 12.
+DR   eggNOG; COG0726; Bacteria.
+DR   BioCyc; MetaCyc:MON-15495; -.
+DR   BRENDA; 3.5.1.105; 6624.
+DR   UniPathway; UPA00349; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004099; F:chitin deacetylase activity; IDA:UniProtKB.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0006032; P:chitin catabolic process; IDA:UniProtKB.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR003610; CBM_fam5/12.
+DR   InterPro; IPR036573; CBM_sf_5/12.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR002509; NODB_dom.
+DR   Pfam; PF01522; Polysacc_deac_1; 1.
+DR   SMART; SM00495; ChtBD3; 2.
+DR   SUPFAM; SSF51055; SSF51055; 2.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+DR   PROSITE; PS51677; NODB; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Chitin degradation; Direct protein sequencing;
+KW   Hydrolase; Polysaccharide degradation; Repeat; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000269|PubMed:16232910"
+FT   CHAIN           23..427
+FT                   /note="Chitin disaccharide deacetylase"
+FT                   /id="PRO_5000066304"
+FT   DOMAIN          28..326
+FT                   /note="NodB homology"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01014"
+FT   DOMAIN          333..375
+FT                   /note="Chitin-binding type-3 1"
+FT   DOMAIN          382..419
+FT                   /note="Chitin-binding type-3 2"
+SQ   SEQUENCE   427 AA;  47050 MW;  0E6EA65111BD2770 CRC64;
+     MKLNKLAIAT LVSAALSQYA FAQTDTKGTI YLTFDDGPIN ASIDVINVLN QEEVKATFYF
+     NAWHLDGIGD ENEDRALEAL KLALDSGHIV ANHSYDHMVH NCVEEFGPNS AAECNATGDH
+     QINSYQDPAY DASMFAENLS VLEKYLPNIT SYPNYKANEF ARLPYTNGWR VTKDFKADGL
+     CATSDDLKPW EPGYSCDTAN PSNSVKAAIA VQNILANNGY QTHGWDVDWA PENWGIAMPA
+     NSLTEAEPFL GYVDSALNTC APTTINPINS KAQEFPCGTP LHADKVIVLT HEFLFEDGKR
+     GMGATQNLPK LAKFIQLAKQ AGYVFDTMDN YTPNWQVGNN YSAGDYVLHL GTVYQAVTSH
+     TAQQDWAPSP TSSLWTNADP ATNWTQNVSY KQGDVVTYQG LRYLVNVPHV SQADWTPNSQ
+     NTLFTAL
+//

@@ -1,0 +1,316 @@
+ID   Q82L26_STRAW            Unreviewed;       658 AA.
+AC   Q82L26;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   03-AUG-2022, entry version 110.
+DE   RecName: Full=Alpha-galactosidase {ECO:0000256|RuleBase:RU361168};
+DE            EC=3.2.1.22 {ECO:0000256|RuleBase:RU361168};
+DE   AltName: Full=Melibiase {ECO:0000256|RuleBase:RU361168};
+GN   Name=agaA2 {ECO:0000313|EMBL:BAC69897.1};
+GN   ORFNames=SAVERM_2186 {ECO:0000313|EMBL:BAC69897.1};
+OS   Streptomyces avermitilis (strain ATCC 31267 / DSM 46492 / JCM 5070 / NBRC
+OS   14893 / NCIMB 12804 / NRRL 8165 / MA-4680).
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=227882 {ECO:0000313|EMBL:BAC69897.1, ECO:0000313|Proteomes:UP000000428};
+RN   [1] {ECO:0000313|EMBL:BAC69897.1, ECO:0000313|Proteomes:UP000000428}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 /
+RC   NRRL 8165 / MA-4680 {ECO:0000313|Proteomes:UP000000428};
+RX   PubMed=11572948; DOI=10.1073/pnas.211433198;
+RA   Omura S., Ikeda H., Ishikawa J., Hanamoto A., Takahashi C., Shinose M.,
+RA   Takahashi Y., Horikawa H., Nakazawa H., Osonoe T., Kikuchi H., Shiba T.,
+RA   Sakaki Y., Hattori M.;
+RT   "Genome sequence of an industrial microorganism Streptomyces avermitilis:
+RT   deducing the ability of producing secondary metabolites.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:12215-12220(2001).
+RN   [2] {ECO:0000313|EMBL:BAC69897.1, ECO:0000313|Proteomes:UP000000428}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 /
+RC   NRRL 8165 / MA-4680 {ECO:0000313|Proteomes:UP000000428};
+RX   PubMed=12692562; DOI=10.1038/nbt820;
+RA   Ikeda H., Ishikawa J., Hanamoto A., Shinose M., Kikuchi H., Shiba T.,
+RA   Sakaki Y., Hattori M., Omura S.;
+RT   "Complete genome sequence and comparative analysis of the industrial
+RT   microorganism Streptomyces avermitilis.";
+RL   Nat. Biotechnol. 21:526-531(2003).
+RN   [3] {ECO:0007829|PDB:3A21, ECO:0007829|PDB:3A22}
+RP   X-RAY CRYSTALLOGRAPHY (1.51 ANGSTROMS) OF 45-658 IN COMPLEX WITH ARABINOSE
+RP   AND GALACTOSE, AND DISULFIDE BONDS.
+RX   PubMed=19608743; DOI=10.1074/jbc.M109.022723;
+RA   Ichinose H., Fujimoto Z., Honda M., Harazono K., Nishimoto Y., Uzura A.,
+RA   Kaneko S.;
+RT   "A beta-l-Arabinopyranosidase from Streptomyces avermitilis is a novel
+RT   member of glycoside hydrolase family 27.";
+RL   J. Biol. Chem. 284:25097-25106(2009).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-galactose
+CC         residues in alpha-D-galactosides, including galactose
+CC         oligosaccharides, galactomannans and galactolipids.; EC=3.2.1.22;
+CC         Evidence={ECO:0000256|RuleBase:RU361168};
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 27 family.
+CC       {ECO:0000256|ARBA:ARBA00009743, ECO:0000256|RuleBase:RU361168}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000030; BAC69897.1; -; Genomic_DNA.
+DR   PDB; 3A21; X-ray; 1.51 A; A/B=45-658.
+DR   PDB; 3A22; X-ray; 1.90 A; A/B=45-658.
+DR   PDB; 3A23; X-ray; 1.90 A; A/B=45-658.
+DR   PDBsum; 3A21; -.
+DR   PDBsum; 3A22; -.
+DR   PDBsum; 3A23; -.
+DR   SMR; Q82L26; -.
+DR   STRING; 227882.SAV_2186; -.
+DR   UniLectin; Q82L26; -.
+DR   EnsemblBacteria; BAC69897; BAC69897; SAVERM_2186.
+DR   KEGG; sma:SAVERM_2186; -.
+DR   eggNOG; COG1470; Bacteria.
+DR   eggNOG; COG3345; Bacteria.
+DR   eggNOG; COG3534; Bacteria.
+DR   HOGENOM; CLU_013093_3_3_11; -.
+DR   OMA; INIDEGW; -.
+DR   EvolutionaryTrace; Q82L26; -.
+DR   Proteomes; UP000000428; Chromosome.
+DR   GO; GO:0052692; F:raffinose alpha-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd14792; GH27; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR002241; Glyco_hydro_27.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR041233; Melibiase_C.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR11452; PTHR11452; 1.
+DR   Pfam; PF16499; Melibiase_2; 1.
+DR   Pfam; PF17801; Melibiase_C; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   PRINTS; PR00740; GLHYDRLASE27.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3A21, ECO:0007829|PDB:3A22};
+KW   Disulfide bond {ECO:0000256|RuleBase:RU361168};
+KW   Glycosidase {ECO:0000256|ARBA:ARBA00023295, ECO:0000256|RuleBase:RU361168};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU361168};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000428};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729, ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..44
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           45..658
+FT                   /note="Alpha-galactosidase"
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004298896"
+FT   DOMAIN          530..658
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   BINDING         63
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         63
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         98
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         98
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         99
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         140
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         184
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         184
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         186
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         186
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         243
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         243
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         247
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         247
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         481
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         545
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         547
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         548
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         553
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         558
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         563
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         567
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         587
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         590
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         602
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         605
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         607
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         609
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         630
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         630
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         632
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         633
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         633
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         645
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         645
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         649
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         649
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   BINDING         652
+FT                   /ligand="Arabinose"
+FT                   /ligand_id="ChEBI:CHEBI:46987"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0007829|PDB:3A22"
+FT   BINDING         652
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3A23"
+FT   DISULFID        148..188
+FT                   /evidence="ECO:0007829|PDB:3A21, ECO:0007829|PDB:3A22"
+FT   DISULFID        543..562
+FT                   /evidence="ECO:0007829|PDB:3A21, ECO:0007829|PDB:3A22"
+FT   DISULFID        585..604
+FT                   /evidence="ECO:0007829|PDB:3A21, ECO:0007829|PDB:3A22"
+FT   DISULFID        628..647
+FT                   /evidence="ECO:0007829|PDB:3A21, ECO:0007829|PDB:3A22"
+SQ   SEQUENCE   658 AA;  68910 MW;  14D0EAF8B477F026 CRC64;
+     MFPPPRSTGR SFGRRLRIAA VRALVLALTA AATLLFVQPA PAQAAVTTRQ ITVPSAPMGW
+     ASWNSFAAKI DYSVIKKQVD AFVAAGLPAA GYTYINIDEG WWQGTRDSAG NITVDTAEWP
+     GGMSAITAYI HSKGLKAGIY TDAGKDGCGY YYPTGRPAAP GSGSEGHYDQ DMLQFSTWGF
+     DFVKVDWCGG DAEGLDAATT YKSISDAVGR AAATTGRPLT LSICNWGYQN PWNWAAGQAP
+     LWRTSTDIIY YGNQPSMTSL LSNFDQTLHP TAQHTGYYND PDMLMVGMDG FTAAQNRTHM
+     NLWAISGAPL LAGNDLTTMT SETAGILKNP EVIAVDQDSR GLQGVKVAED TTGLQAYGKV
+     LSGTGNRAVV LLNRTSAAHD ITVRWSDLGL TNASATVRDL WARQNVGTSA TGYTASVPAG
+     GSVMLTVTGG TEAAGGAYAA TSTGRYTGVT AASTGLNVVD VAYTNNTSSA RTATLQVNGQ
+     TATTVSFPPT GASAGTVSVE VSLSKGSANT LALSGGPATE GITVRPLPGT NGALVTGKQS
+     GRCADIYNNT ITNGTQAELW DCNGGPNQSW TYTSRKELVL YGNKCLDAYN LGTTNGTKVV
+     IWDCNGQANQ KWNINSDGTI TNVNAGLCLD AYNAATANGT SLVLWSCGTG DNQKWTVT
+//

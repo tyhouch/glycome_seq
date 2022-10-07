@@ -1,0 +1,83 @@
+ID   AJL2_ANGJA              Reviewed;         166 AA.
+AC   Q90WJ8;
+DT   07-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 2.
+DT   25-MAY-2022, entry version 60.
+DE   RecName: Full=Lactose-binding lectin l-2;
+DE   AltName: Full=Ajl-2;
+DE   Flags: Precursor;
+GN   Name=l-2 {ECO:0000303|PubMed:11959866};
+OS   Anguilla japonica (Japanese eel).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Anguilliformes; Anguillidae;
+OC   Anguilla.
+OX   NCBI_TaxID=7937;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:BAB47156.2}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 25-64, FUNCTION, SUBUNIT,
+RP   SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND MASS SPECTROMETRY.
+RC   TISSUE=Skin mucus {ECO:0000269|PubMed:11959866};
+RX   PubMed=11959866; DOI=10.1074/jbc.m202648200;
+RA   Tasumi S., Ohira T., Kawazoe I., Suetake H., Suzuki Y., Aida K.;
+RT   "Primary structure and characteristics of a lectin from skin mucus of the
+RT   Japanese eel Anguilla japonica.";
+RL   J. Biol. Chem. 277:27305-27311(2002).
+CC   -!- FUNCTION: Involved in host defense at the body surface. Causes
+CC       agglutination and suppresses the growth of the Gram-negative bacterium
+CC       E.coli K12. Possesses calcium-independent hemagglutinating activity.
+CC       {ECO:0000269|PubMed:11959866}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000269|PubMed:11959866}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:11959866}.
+CC   -!- TISSUE SPECIFICITY: Skin; contained within club cells which are a
+CC       component of the epidermis in combination with epithelial cells and
+CC       mucus cells (at protein level). {ECO:0000269|PubMed:11959866}.
+CC   -!- MASS SPECTROMETRY: Mass=31743; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:11959866};
+CC   -!- MISCELLANEOUS: Binds lactose inhibiting its agglutination activity.
+CC       {ECO:0000269|PubMed:11959866}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB050703; BAB47156.2; -; mRNA.
+DR   AlphaFoldDB; Q90WJ8; -.
+DR   SMR; Q90WJ8; -.
+DR   GO; GO:0005576; C:extracellular region; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0050829; P:defense response to Gram-negative bacterium; IDA:UniProtKB.
+DR   GO; GO:0043152; P:induction of bacterial agglutination; IDA:UniProtKB.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic; Antimicrobial; Direct protein sequencing; Disulfide bond;
+KW   Hemagglutinin; Lectin; Secreted; Signal.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000269|PubMed:11959866"
+FT   CHAIN           25..166
+FT                   /note="Lactose-binding lectin l-2"
+FT                   /evidence="ECO:0000269|PubMed:11959866"
+FT                   /id="PRO_0000017565"
+FT   DOMAIN          41..161
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        34..45
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NNX6,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        62..160
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NNX6,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        136..152
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NNX6,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   166 AA;  18363 MW;  20B5067542D53036 CRC64;
+     MVSFKLPAFL CVAVLSSMAL VSHGAVLGLC EGACPEGWVE HKNRCYLHVA EKKTWLDAEL
+     NCLHHGGNLA SEHSEDEHQF LKDLHKGSDD PFWIGLSAVH EGRSWLWSDG TSASAEGDFS
+     MWNPGEPNDA GGKEDCVHDN YGGQKHWNDI KCDLLFPSIC VLRMVE
+//

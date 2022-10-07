@@ -1,0 +1,109 @@
+ID   LEGL_CHICK              Reviewed;         171 AA.
+AC   Q5ZHQ2;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   03-AUG-2022, entry version 109.
+DE   RecName: Full=Galectin-related protein;
+DE   AltName: Full=Lectin galactoside-binding-like protein;
+GN   Name=LGALSL; Synonyms=GRP; ORFNames=RCJMB04_34j3;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=CB; TISSUE=Bursa of Fabricius;
+RX   PubMed=15642098; DOI=10.1186/gb-2004-6-1-r6;
+RA   Caldwell R.B., Kierzek A.M., Arakawa H., Bezzubov Y., Zaim J., Fiedler P.,
+RA   Kutter S., Blagodatski A., Kostovska D., Koter M., Plachy J., Carninci P.,
+RA   Hayashizaki Y., Buerstedde J.-M.;
+RT   "Full-length cDNAs from chicken bursal lymphocytes to facilitate gene
+RT   function analysis.";
+RL   Genome Biol. 6:R6.1-R6.9(2005).
+CC   -!- FUNCTION: Does not bind lactose, and may not bind carbohydrates.
+CC       {ECO:0000250}.
+CC   -!- CAUTION: Most of the residues in the galectin domain that have been
+CC       shown to be critical for carbohydrate-binding in other galectins are
+CC       not conserved. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ721082; CAG32741.1; -; mRNA.
+DR   RefSeq; NP_001008456.1; NM_001008456.1.
+DR   PDB; 5IT6; X-ray; 1.55 A; A=38-171.
+DR   PDBsum; 5IT6; -.
+DR   AlphaFoldDB; Q5ZHQ2; -.
+DR   SMR; Q5ZHQ2; -.
+DR   STRING; 9031.ENSGALP00000043097; -.
+DR   PaxDb; Q5ZHQ2; -.
+DR   Ensembl; ENSGALT00000044527; ENSGALP00000043097; ENSGALG00000027096.
+DR   GeneID; 421278; -.
+DR   KEGG; gga:421278; -.
+DR   CTD; 29094; -.
+DR   VEuPathDB; HostDB:geneid_421278; -.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   GeneTree; ENSGT00940000155337; -.
+DR   HOGENOM; CLU_037794_2_1_1; -.
+DR   InParanoid; Q5ZHQ2; -.
+DR   OMA; CISGEKG; -.
+DR   OrthoDB; 829777at2759; -.
+DR   PhylomeDB; Q5ZHQ2; -.
+DR   TreeFam; TF315551; -.
+DR   PRO; PR:Q5ZHQ2; -.
+DR   Proteomes; UP000000539; Chromosome 3.
+DR   Bgee; ENSGALG00000027096; Expressed in muscle tissue and 14 other tissues.
+DR   ExpressionAtlas; Q5ZHQ2; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IDA:AgBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR030651; Galectin-rel.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   PANTHER; PTHR11346:SF98; PTHR11346:SF98; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Lectin; Reference proteome.
+FT   CHAIN           1..171
+FT                   /note="Galectin-related protein"
+FT                   /id="PRO_0000315770"
+FT   DOMAIN          38..170
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   STRAND          39..42
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          52..59
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          65..73
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   TURN            76..79
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          82..89
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   TURN            90..93
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          94..101
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          122..129
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          131..138
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          141..147
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   HELIX           153..155
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+FT   STRAND          158..171
+FT                   /evidence="ECO:0007829|PDB:5IT6"
+SQ   SEQUENCE   171 AA;  19045 MW;  3E55608F82F52DD9 CRC64;
+     MAGTVAERDA PKIEDGHLNN SLGSPVQADV YFPRLIVPFC GHIKGGMRPG KKILVMGIVD
+     LNPESFGISL TCGESEDPPA DVAIELKAVF TDRQFIRNSC VAGEWGEEQS SIPYFPFIPD
+     QPFRVEILCE HPRFRIFVDG HQLFDFYHRI ETLSAIDTIK INGDLQLTKL G
+//

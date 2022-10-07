@@ -1,0 +1,359 @@
+ID   BGAL_THEMA              Reviewed;        1084 AA.
+AC   Q56307; O33834;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 2.
+DT   25-MAY-2022, entry version 147.
+DE   RecName: Full=Beta-galactosidase;
+DE            Short=Beta-gal;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Lactase;
+GN   Name=lacZ; OrderedLocusNames=TM_1193;
+OS   Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826
+OS   / MSB8).
+OC   Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+OX   NCBI_TaxID=243274;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8;
+RX   PubMed=8088532; DOI=10.1016/0378-1119(94)90046-9;
+RA   Moore J.B., Markiewicz P., Miller J.H.;
+RT   "Identification and sequencing of the Thermotoga maritima lacZ gene, part
+RT   of a divergently transcribed operon.";
+RL   Gene 147:101-106(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8;
+RX   PubMed=10360571; DOI=10.1038/20601;
+RA   Nelson K.E., Clayton R.A., Gill S.R., Gwinn M.L., Dodson R.J., Haft D.H.,
+RA   Hickey E.K., Peterson J.D., Nelson W.C., Ketchum K.A., McDonald L.A.,
+RA   Utterback T.R., Malek J.A., Linher K.D., Garrett M.M., Stewart A.M.,
+RA   Cotton M.D., Pratt M.S., Phillips C.A., Richardson D.L., Heidelberg J.F.,
+RA   Sutton G.G., Fleischmann R.D., Eisen J.A., White O., Salzberg S.L.,
+RA   Smith H.O., Venter J.C., Fraser C.M.;
+RT   "Evidence for lateral gene transfer between Archaea and Bacteria from
+RT   genome sequence of Thermotoga maritima.";
+RL   Nature 399:323-329(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 554-1084.
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8;
+RX   PubMed=9741105; DOI=10.1016/s0723-2020(98)80002-7;
+RA   Liebl W., Wagner B., Schellhase J.;
+RT   "Properties of an alpha-galactosidase, and structure of its gene galA,
+RT   within an alpha- and beta-galactoside utilization gene cluster of the
+RT   hyperthermophilic bacterium Thermotoga maritima.";
+RL   Syst. Appl. Microbiol. 21:1-11(1998).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAD36268.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U08186; AAA50597.1; -; Genomic_DNA.
+DR   EMBL; AE000512; AAD36268.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AJ001072; CAA04513.1; -; Genomic_DNA.
+DR   PIR; F72283; F72283.
+DR   RefSeq; NP_228998.1; NC_000853.1.
+DR   RefSeq; WP_004080135.1; NZ_CP011107.1.
+DR   PDB; 6S6Z; EM; 2.10 A; A/B/C/D/E/F/G/H=2-1084.
+DR   PDB; 6SD0; X-ray; 3.70 A; A/B/C/D=1-1084.
+DR   PDBsum; 6S6Z; -.
+DR   PDBsum; 6SD0; -.
+DR   AlphaFoldDB; Q56307; -.
+DR   SMR; Q56307; -.
+DR   STRING; 243274.THEMA_08365; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   PRIDE; Q56307; -.
+DR   EnsemblBacteria; AAD36268; AAD36268; TM_1193.
+DR   KEGG; tma:TM1193; -.
+DR   PATRIC; fig|243274.5.peg.1211; -.
+DR   eggNOG; COG3250; Bacteria.
+DR   InParanoid; Q56307; -.
+DR   OMA; SNWQLQG; -.
+DR   Proteomes; UP000008183; Chromosome.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IBA:GO_Central.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005990; P:lactose catabolic process; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           1..1084
+FT                   /note="Beta-galactosidase"
+FT                   /id="PRO_0000057678"
+FT   ACT_SITE        441
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        507
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        152..175
+FT                   /note="SKDSCTPAEFRLTDVLRPGKNLIT -> RQRQLHARRIQTHRCSKTREESDH
+FT                   (in Ref. 1; AAA50597)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1028..1084
+FT                   /note="SKEKQVVLFVDGNEYSVRRVVIPPFKKEELVFKVEGLKKGEHLIHTNLNTRK
+FT                   TIYVR -> RQGKTGGSLC (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           4..6
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          12..14
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          23..26
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            28..30
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          37..41
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          44..53
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           54..56
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            59..62
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          63..65
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          71..77
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           80..82
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          89..94
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          106..108
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          111..120
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           122..126
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          127..134
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          137..144
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          147..152
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          159..162
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            164..166
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          169..180
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           183..187
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          191..194
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          202..207
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          209..221
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          227..240
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          245..252
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          258..266
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          271..281
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          287..290
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          293..299
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          302..308
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          313..316
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          319..322
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          329..333
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            339..341
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           347..358
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            359..361
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          364..366
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           374..383
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          386..390
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            402..404
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           406..408
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           410..412
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           413..427
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          433..437
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           446..458
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          461..465
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           467..470
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          479..485
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           488..495
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          503..509
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          512..514
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           519..526
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          532..538
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          545..548
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          554..557
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          561..563
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            569..572
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           586..594
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          596..603
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          606..611
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           618..620
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          621..629
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          632..639
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          648..652
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          663..673
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          676..678
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          683..692
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          697..699
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          706..709
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          711..718
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          721..726
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   TURN            727..729
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          731..737
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          744..750
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           757..761
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           764..767
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           769..774
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          779..787
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          789..799
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          805..813
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          818..825
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          834..843
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          848..857
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          868..875
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           876..878
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          892..901
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          906..922
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           924..929
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           933..935
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          940..950
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          958..960
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   HELIX           965..967
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          974..985
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          991..993
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1000..1004
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1007..1009
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1015..1023
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1025..1027
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1029..1037
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1040..1049
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1053..1061
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1066..1073
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+FT   STRAND          1078..1083
+FT                   /evidence="ECO:0007829|PDB:6S6Z"
+SQ   SEQUENCE   1084 AA;  127608 MW;  D52E3B762B53DDFC CRC64;
+     MPYEWENPQL VSEGTEKSHA SFIPYLDPFS GEWEYPEEFI SLNGNWRFLF AKNPFEVPED
+     FFSEKFDDSN WDEIEVPSNW EMKGYGKPIY TNVVYPFEPN PPFVPKDDNP TGVYRRWIEI
+     PEDWFKKEIF LHFEGVRSFF YLWVNGKKIG FSKDSCTPAE FRLTDVLRPG KNLITVEVLK
+     WSDGSYLEDQ DMWWFAGIYR DVYLYALPKF HIRDVFVRTD LDENYRNGKI FLDVEMRNLG
+     EEEEKDLEVT LITPDGDEKT LVKETVKPED RVLSFAFDVK DPKKWSAETP HLYVLKLKLG
+     EDEKKVNFGF RKIEIKDGTL LFNGKPLYIK GVNRHEFDPD RGHAVTVERM IQDIKLMKQH
+     NINTVRTSHY PNQTKWYDLC DYFGLYVIDE ANIESHGIDW DPEVTLANRW EWEKAHFDRI
+     KRMVERDKNH PSIIFWSLGN EAGDGVNFEK AALWIKKRDN TRLIHYEGTT RRGESYYVDV
+     FSLMYPKMDI LLEYASKKRE KPFIMCEYAH AMGNSVGNLK DYWDVIEKYP YLHGGCIWDW
+     VDQGIRKKDE NGREFWAYGG DFGDTPNDGN FCINGVVLPD RTPEPELYEV KKVYQNVKIR
+     QVSKDTYEVE NRYLFTNLEM FDGAWKIRKD GEVIEEKTFK IFAEPGEKRL LKIPLPEMDD
+     SEYFLEISFS LSEDTPWAEK GHVVAWEQFL LKAPAFEKKS ISDGVSLRED GKHLTVEAKD
+     TVYVFSKLTG LLEQILHRRK KILKSPVVPN FWRVPTDNDI GNRMPQRLAI WKRASKERKL
+     FKMHWKKEEN RVSVHSVFQL PGNSWVYTTY TVFGNGDVLV DLSLIPAEDV PEIPRIGFQF
+     TVPEEFGTVE WYGRGPHETY WDRKESGLFA RYRKAVGEMM HRYVRPQETG NRSDVRWFAL
+     SDGETKLFVS GMPQIDFSVW PFSMEDLERV QHISELPERD FVTVNVDFRQ MGLGGDDSWG
+     AMPHLEYRLL PKPYRFSFRM RISEEIPSWR VLAAIPETLH VEMSSEDVIR EGDTLRVKFS
+     LLNDTPLSKE KQVVLFVDGN EYSVRRVVIP PFKKEELVFK VEGLKKGEHL IHTNLNTRKT
+     IYVR
+//

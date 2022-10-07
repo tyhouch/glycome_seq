@@ -1,0 +1,90 @@
+ID   SAL_SILAS               Reviewed;         308 AA.
+AC   Q9PVW8;
+DT   11-FEB-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   25-MAY-2022, entry version 65.
+DE   RecName: Full=Rhamnose-binding lectin;
+DE   AltName: Full=RBL;
+DE   AltName: Full=Roe lectin;
+DE   AltName: Full=SAL;
+DE   Flags: Precursor;
+OS   Silurus asotus (Amur catfish) (Parasilurus asotus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes;
+OC   Siluridae; Silurus.
+OX   NCBI_TaxID=30991;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 24-71.
+RX   PubMed=10564781; DOI=10.1016/s0304-4165(99)00185-3;
+RA   Hosono M., Ishikawa K., Mineki R., Murayama K., Numata C., Ogawa Y.,
+RA   Takayanagi Y., Nitta K.;
+RT   "Tandem repeat structure of rhamnose-binding lectin from catfish (Silurus
+RT   asotus) eggs.";
+RL   Biochim. Biophys. Acta 1472:668-675(1999).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 24-52, AND CHARACTERIZATION.
+RC   TISSUE=Egg;
+RX   PubMed=8369743; DOI=10.1248/bpb.16.1;
+RA   Hosono M., Kawauchi H., Nitta K., Takayanagi Y., Shiokawa H., Mineki R.,
+RA   Murayama K.;
+RT   "Purification and characterization of Silurus asotus (catfish) roe
+RT   lectin.";
+RL   Biol. Pharm. Bull. 16:1-5(1993).
+RN   [3]
+RP   SUBUNIT.
+RX   PubMed=9177694; DOI=10.1006/abio.1997.2058;
+RA   Murayama K., Taka H., Kaga N., Fujimura T., Mineki R., Shindo N.,
+RA   Morita M., Hosono M., Nitta K.;
+RT   "The structure of Silurus asotus (catfish) roe lectin (SAL): identification
+RT   of a noncovalent trimer by mass spectrometry and analytical
+RT   ultracentrifugation.";
+RL   Anal. Biochem. 247:319-326(1997).
+CC   -!- FUNCTION: Lectin that binds L-rhamnose. Binds also monosaccharides
+CC       possessing steric similarity to the hydroxyl group orientation at C2
+CC       and C4 of the pyranose ring structure of L-rhamnose, such as L-mannose
+CC       and L-lyxose.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000269|PubMed:9177694}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed in eggs, but not in liver.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB020571; BAA87860.1; -; mRNA.
+DR   AlphaFoldDB; Q9PVW8; -.
+DR   SMR; Q9PVW8; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.120.740; -; 3.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   Pfam; PF02140; Gal_Lectin; 3.
+DR   PROSITE; PS50228; SUEL_LECTIN; 2.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Lectin; Repeat; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000269|PubMed:10564781,
+FT                   ECO:0000269|PubMed:8369743"
+FT   CHAIN           24..308
+FT                   /note="Rhamnose-binding lectin"
+FT                   /id="PRO_0000017670"
+FT   DOMAIN          27..115
+FT                   /note="SUEL-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   DOMAIN          123..213
+FT                   /note="SUEL-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   DOMAIN          218..308
+FT                   /note="SUEL-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   CARBOHYD        110
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   308 AA;  32770 MW;  043DBC2E786A79B7 CRC64;
+     MMLILKLSLL SLLIATPGLL VSGANMITCY GDVQKLHCET GLIIVKSSLY GRTDSTTCST
+     NRPPAQVAVT TCSLPITTIG DRCNGLPDCE LKTDLLGNTD PCQGTYKYYN TSFDCINGNY
+     AVICEHGYST LDCGNDAILI VNANYGRASS QICSNGLPNG LTQNTNCYAA NTLTTVAGLC
+     NGKKSCTVEA LNTIFSDPCS GTVKYLTVTY ICTKEMVVCE GGSASINCGA QTIKTIWANY
+     GRTDSTVCST GRPGSQLLNT NCYTSDTLNK VAAGCDHLST CTIPANNNFF GDPCPNTYKY
+     LRIVYACV
+//

@@ -1,0 +1,103 @@
+ID   EMBP1_CAVPO             Reviewed;         233 AA.
+AC   P22032;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   03-AUG-2022, entry version 112.
+DE   RecName: Full=Eosinophil granule major basic protein 1;
+DE            Short=MBP-1;
+DE   Flags: Precursor;
+GN   Name=MBP1;
+OS   Cavia porcellus (Guinea pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Hystricomorpha; Caviidae;
+OC   Cavia.
+OX   NCBI_TaxID=10141;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 115-162.
+RC   TISSUE=Eosinophil;
+RX   PubMed=1705901; DOI=10.1016/0014-5793(91)80181-2;
+RA   Aoki I., Shindoh Y., Nishida T., Nakai S., Hong Y.-M., Mio M., Saito T.,
+RA   Tasaka K.;
+RT   "Sequencing and cloning of the cDNA of guinea pig eosinophil major basic
+RT   protein.";
+RL   FEBS Lett. 279:330-334(1991).
+RN   [2]
+RP   PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=8268206; DOI=10.1016/0167-4838(93)90089-a;
+RA   Hashimoto Y., Nagaoka I., Yamashita T.;
+RT   "Purification of the antibacterial fragments of guinea-pig major basic
+RT   protein.";
+RL   Biochim. Biophys. Acta 1203:236-242(1993).
+CC   -!- FUNCTION: MBP may play some important roles in the allergic reactions
+CC       and inflammations, since MBP is capable of releasing histamine from
+CC       mast cells and damaging the epithelial cells of bronchial tubes.
+CC       Antiparasitic and antibiotic.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic granule. Note=Matrix of eosinophil's
+CC       large specific granule (crystalloid core).
+CC   -!- PTM: Nitrated. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D90251; BAA14291.1; -; mRNA.
+DR   PIR; S13625; S13625.
+DR   RefSeq; NP_001166538.1; NM_001173067.1.
+DR   AlphaFoldDB; P22032; -.
+DR   SMR; P22032; -.
+DR   STRING; 10141.ENSCPOP00000017638; -.
+DR   MEROPS; I63.001; -.
+DR   GeneID; 100286788; -.
+DR   KEGG; cpoc:100286788; -.
+DR   CTD; 100286788; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; P22032; -.
+DR   OrthoDB; 1328472at2759; -.
+DR   Proteomes; UP000005447; Unassembled WGS sequence.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0006955; P:immune response; IEA:InterPro.
+DR   CDD; cd03598; CLECT_EMBP_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033816; EMBP_CTLD.
+DR   InterPro; IPR002352; Eosinophil_major_basic.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   PRINTS; PR00770; EMAJORBASICP.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic; Antimicrobial; Direct protein sequencing; Disulfide bond;
+KW   Immunity; Lectin; Nitration; Reference proteome; Signal.
+FT   SIGNAL          1..15
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          16..114
+FT                   /note="Acidic"
+FT                   /evidence="ECO:0000269|PubMed:1705901"
+FT                   /id="PRO_0000017379"
+FT   CHAIN           115..233
+FT                   /note="Eosinophil granule major basic protein 1"
+FT                   /id="PRO_0000017380"
+FT   DOMAIN          132..233
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          24..96
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        63..89
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   DISULFID        134..231
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        208..223
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   233 AA;  26268 MW;  C8D5E96D927C56C8 CRC64;
+     MKLLLLLALL LGAVSTRHLK VDTSSLQSLR GEESLAQDGE TAEGATREAT AGALMPLPEE
+     EEMEGASGSE DDPEEEEEEE EEVEFSSELD VSPEDIQCPK EEDTVKFFSR PGYKTRGYVM
+     VGSARTFNEA QWVCQRCYRG NLASIHSFAF NYQVQCTSAG LNVAQVWIGG QLRGKGRCRR
+     FVWVDRTVWN FAYWARGQPW GGRQRGRCVT LCARGGHWRR SHCGKRRPFV CTY
+//

@@ -1,0 +1,97 @@
+ID   Q7M4F9_CUCEC            Unreviewed;       157 AA.
+AC   Q7M4F9;
+DT   15-DEC-2003, integrated into UniProtKB/TrEMBL.
+DT   15-DEC-2003, sequence version 1.
+DT   03-AUG-2022, entry version 63.
+DE   SubName: Full=Lectin CEL-IV, C-type {ECO:0000313|PIR:JP0075};
+OS   Cucumaria echinata (Sea cucumber).
+OC   Eukaryota; Metazoa; Echinodermata; Eleutherozoa; Echinozoa; Holothuroidea;
+OC   Dendrochirotacea; Dendrochirotida; Cucumariidae; Cucumaria.
+OX   NCBI_TaxID=40245 {ECO:0000313|PIR:JP0075};
+RN   [1] {ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT}
+RP   X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) IN COMPLEX WITH CALCIUM, AND
+RP   DISULFIDE BONDS.
+RX   PubMed=21247895; DOI=10.1074/jbc.M110.200576;
+RA   Hatakeyama T., Kamiya T., Kusunoki M., Nakamura-Tsuruta S., Hirabayashi J.,
+RA   Goda S., Unno H.;
+RT   "Galactose recognition by a tetrameric C-type lectin, CEL-IV, containing
+RT   the EPN carbohydrate recognition motif.";
+RL   J. Biol. Chem. 286:10305-10315(2011).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; JP0075; JP0075.
+DR   PDB; 3ALS; X-ray; 3.00 A; A/B/C/D=1-157.
+DR   PDB; 3ALT; X-ray; 2.50 A; A/B/C/D=1-157.
+DR   PDB; 3ALU; X-ray; 1.65 A; A/B/C/D=1-157.
+DR   PDBsum; 3ALS; -.
+DR   PDBsum; 3ALT; -.
+DR   PDBsum; 3ALU; -.
+DR   SMR; Q7M4F9; -.
+DR   UniLectin; Q7M4F9; -.
+DR   EvolutionaryTrace; Q7M4F9; -.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT};
+KW   Calcium {ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT};
+KW   Metal-binding {ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT}.
+FT   DOMAIN          12..148
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50041"
+FT   BINDING         113
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT"
+FT   BINDING         113
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3ALS"
+FT   BINDING         115
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT"
+FT   BINDING         116
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3ALT, ECO:0007829|PDB:3ALU"
+FT   BINDING         136
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT"
+FT   BINDING         136
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3ALS"
+FT   DISULFID        1
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0007829|PDB:3ALU"
+FT   DISULFID        5..16
+FT                   /evidence="ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT"
+FT   DISULFID        33..147
+FT                   /evidence="ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT"
+FT   DISULFID        41
+FT                   /note="Interchain (with C-151)"
+FT                   /evidence="ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT"
+FT   DISULFID        151
+FT                   /note="Interchain (with C-41)"
+FT                   /evidence="ECO:0007829|PDB:3ALS, ECO:0007829|PDB:3ALT"
+SQ   SEQUENCE   157 AA;  17096 MW;  5C8AD08973B8CF87 CRC64;
+     CLTSCPPLWT GFNGKCFRLF HNHLNFDNAE NACRQFGLAS CSGDELATGH LASIHSAESQ
+     AFLTELVKTS LPDLITGGWA PQVYIGMKVG STNSDQTWTD GSSVDYDGWV SGEPNNGPNS
+     RGAIAAGDYS RGFWADVYSN NNFKYICQLP CVHYTLE
+//

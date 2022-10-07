@@ -1,0 +1,158 @@
+ID   ABRC_ABRPR              Reviewed;         562 AA.
+AC   P28590;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   03-AUG-2022, entry version 102.
+DE   RecName: Full=Abrin-c;
+DE   Contains:
+DE     RecName: Full=Abrin-c A chain;
+DE              EC=3.2.2.22;
+DE     AltName: Full=rRNA N-glycosidase;
+DE   Contains:
+DE     RecName: Full=Linker peptide;
+DE   Contains:
+DE     RecName: Full=Abrin-c B chain;
+DE   Flags: Precursor;
+OS   Abrus precatorius (Indian licorice) (Glycine abrus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Abreae; Abrus.
+OX   NCBI_TaxID=3816;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   TISSUE=Leaf;
+RX   PubMed=2050149; DOI=10.1111/j.1432-1033.1991.tb16072.x;
+RA   Wood K.A., Lord J.M., Wawrzynczak E.J., Piatak M.;
+RT   "Preproabrin: genomic cloning, characterisation and the expression of the
+RT   A-chain in Escherichia coli.";
+RL   Eur. J. Biochem. 198:723-732(1991).
+RN   [2]
+RP   PARTIAL PROTEIN SEQUENCE, AND FUNCTION.
+RC   STRAIN=GIS04; TISSUE=Seed;
+RA   Ingale A.G.;
+RT   "Detection and partial characterization of lectin from Abrus
+RT   precatorius.L.";
+RL   Submitted (APR-2009) to UniProtKB.
+CC   -!- FUNCTION: The A chain is responsible for inhibiting protein synthesis
+CC       through the catalytic inactivation of 60S ribosomal subunits by
+CC       removing adenine from position 4,324 of 28S rRNA. Abrin-a is more toxic
+CC       than ricin. {ECO:0000269|Ref.2}.
+CC   -!- FUNCTION: The B chain is a galactose-specific lectin that facilitates
+CC       the binding of abrin to the cell membrane that precedes endocytosis.
+CC       {ECO:0000269|Ref.2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC   -!- SUBUNIT: Disulfide-linked dimer of A and B chains.
+CC   -!- DOMAIN: The B chain is composed of two domains, each domain consists of
+CC       3 homologous subdomains (alpha, beta, gamma).
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the ribosome-
+CC       inactivating protein family. Type 2 RIP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X55667; CAA39202.1; -; Genomic_DNA.
+DR   PIR; S16022; S16022.
+DR   AlphaFoldDB; P28590; -.
+DR   SMR; P28590; -.
+DR   Proteomes; UP000694853; Unplaced.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 2.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Hydrolase; Lectin;
+KW   Plant defense; Protein synthesis inhibitor; Pyrrolidone carboxylic acid;
+KW   Reference proteome; Repeat; Signal; Toxin.
+FT   SIGNAL          1..34
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           35..285
+FT                   /note="Abrin-c A chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000030735"
+FT   PEPTIDE         286..295
+FT                   /note="Linker peptide"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000030736"
+FT   CHAIN           296..562
+FT                   /note="Abrin-c B chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000030737"
+FT   DOMAIN          307..434
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          317..359
+FT                   /note="1-alpha"
+FT   REPEAT          360..400
+FT                   /note="1-beta"
+FT   REPEAT          403..435
+FT                   /note="1-gamma"
+FT   DOMAIN          437..561
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          448..483
+FT                   /note="2-alpha"
+FT   REPEAT          487..526
+FT                   /note="2-beta"
+FT   REPEAT          529..562
+FT                   /note="2-gamma"
+FT   ACT_SITE        198
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         35
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        234
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        395
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        435
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        281..303
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        320..339
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        363..380
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        451..464
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        490..507
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   562 AA;  62818 MW;  1FD0ABC7D7BA6278 CRC64;
+     MDKTLKLLIL CLAWTCSFSA LRCAARTYPP VATNQDQVIK FTTEGATSQS YKQFIEALRQ
+     RLTGGLIHDI PVLPDPTTVE ERNRYITVEL SNSERESIEV GIDVTNAYVV AYRAGSQSYF
+     LRDAPASAST YLFPGTQRYS LRFDGSYGDL ERWAHQTREE ISLGLQALTH AISFLRSGAS
+     NDEEKARTLI VIIQMASEAA RYRYISNRVG VSIRTGTAFQ PDPAMLSLEN NWDNLSGGVQ
+     QSVQDTFPNN VILSSINRQP VVVDSLSHPT VAVLALMLFV CNPPNANQSP LLIRSIVEES
+     KICSSRYEPT VRIGGRDGMC VDVYDDGYHN GNRIIAWKCK DRLEENQLWT LKSDKTIRSN
+     GKCLTTEGYA PGNYVMIYDC TSAVAEATYW EIWDNGTIIN PKSALVLSAE SSSMGGTLTV
+     QTNEYLMRQG WRTGNNTSPF VTSISGYSDL CMQAQGSNVW LADCDNNKKE QQWALYTDGS
+     IRSVQNTNNC LTSKDHKQGS PIVLMACSNG WASQRWLFKN DGSIYNLHDD MVMDVKRSDP
+     SLKEIILHPY HGKPNQIWLT LF
+//

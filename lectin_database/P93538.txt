@@ -1,0 +1,103 @@
+ID   LECB_STYJP              Reviewed;         270 AA.
+AC   P93538;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   03-AUG-2022, entry version 80.
+DE   RecName: Full=Bark lectin;
+DE   AltName: Full=LECSJABG;
+DE   Flags: Precursor; Fragment;
+OS   Styphnolobium japonicum (Japanese pagoda tree) (Sophora japonica).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; Cladrastis clade;
+OC   Styphnolobium.
+OX   NCBI_TaxID=3897;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Bark;
+RX   PubMed=9049272; DOI=10.1023/a:1005781103418;
+RA   van Damme E.J., Barre A., Rouge P., Peumans W.J.;
+RT   "Molecular cloning of the bark and seed lectins from the Japanese pagoda
+RT   tree (Sophora japonica).";
+RL   Plant Mol. Biol. 33:523-536(1997).
+CC   -!- FUNCTION: GalNAc-specific lectin.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U63014; AAB51458.1; -; mRNA.
+DR   AlphaFoldDB; P93538; -.
+DR   SMR; P93538; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Glycoprotein; Lectin; Manganese; Metal-binding; Signal.
+FT   SIGNAL          <1..15
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           16..270
+FT                   /note="Bark lectin"
+FT                   /id="PRO_0000017654"
+FT   BINDING         141
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         143
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         143
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         145
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         147
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         150
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         150
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         155
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        60
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        76
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        127
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        201
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   NON_TER         1
+SQ   SEQUENCE   270 AA;  29315 MW;  1FD655A2C4E550B3 CRC64;
+     ISITFFLLLL NKVNSAEILS FSFPKFVSNQ EDLLLQGDAL VSSEGELQLT TVENGVPVWN
+     STGRALYYAP VHIWDNSTGR VASFATSFSF VVKAPVASKS ADGIAFFLAP LNNQIHGAGG
+     GLYGLFNSSS YSSSYQIVAV EFDTHTNAWD PNTRHIGIDV NSVKSTKTVT WGWENGEVAN
+     VLITYQAATE MLTVSLTYPS NQTSYILSAA VDLKSILPEW VRVGFTATTG LTTQYVETND
+     VLSWSFTSTL ETSDCGAEDN NVHLASYAFI
+//

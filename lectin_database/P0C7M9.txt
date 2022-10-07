@@ -1,0 +1,119 @@
+ID   CLC2L_MOUSE             Reviewed;         211 AA.
+AC   P0C7M9;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   03-AUG-2022, entry version 86.
+DE   RecName: Full=C-type lectin domain family 2 member L;
+GN   Name=Clec2l;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC161147; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   CCDS; CCDS57419.1; -.
+DR   RefSeq; NP_001094977.1; NM_001101507.1.
+DR   AlphaFoldDB; P0C7M9; -.
+DR   SMR; P0C7M9; -.
+DR   STRING; 10090.ENSMUSP00000110524; -.
+DR   iPTMnet; P0C7M9; -.
+DR   PhosphoSitePlus; P0C7M9; -.
+DR   PaxDb; P0C7M9; -.
+DR   PeptideAtlas; P0C7M9; -.
+DR   PRIDE; P0C7M9; -.
+DR   ProteomicsDB; 279103; -.
+DR   Antibodypedia; 52522; 61 antibodies from 15 providers.
+DR   Ensembl; ENSMUST00000114874; ENSMUSP00000110524; ENSMUSG00000079598.
+DR   GeneID; 665180; -.
+DR   KEGG; mmu:665180; -.
+DR   UCSC; uc029vuf.1; mouse.
+DR   CTD; 154790; -.
+DR   MGI; MGI:2141402; Clec2l.
+DR   VEuPathDB; HostDB:ENSMUSG00000079598; -.
+DR   eggNOG; KOG1766; Eukaryota.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000162503; -.
+DR   HOGENOM; CLU_1528662_0_0_1; -.
+DR   InParanoid; P0C7M9; -.
+DR   OMA; DCLMTRP; -.
+DR   OrthoDB; 1201127at2759; -.
+DR   PhylomeDB; P0C7M9; -.
+DR   TreeFam; TF351467; -.
+DR   BioGRID-ORCS; 665180; 2 hits in 71 CRISPR screens.
+DR   ChiTaRS; Clec2l; mouse.
+DR   PRO; PR:P0C7M9; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   RNAct; P0C7M9; protein.
+DR   Bgee; ENSMUSG00000079598; Expressed in lumbar dorsal root ganglion and 87 other tissues.
+DR   Genevisible; P0C7M9; MM.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Lectin; Membrane; Phosphoprotein; Reference proteome;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..211
+FT                   /note="C-type lectin domain family 2 member L"
+FT                   /id="PRO_0000339386"
+FT   TRANSMEM        66..86
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          104..206
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..53
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        8..27
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         29
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0ZCA7"
+FT   DISULFID        125..205
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        184..197
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   211 AA;  23653 MW;  147B5192E87612DA CRC64;
+     MEPAREPPAR ARPPPPAARP APAAPRPRSP AEAEARGPEG LLRRSGSGYE GSTSWKAALE
+     DTTTRLLLGA IAVLLFAILV VMSILASKGC IKCETPCPED WLLYGRKCYY FSEEPRDWNT
+     GRQYCHTHEA ALAVIQSQKE LEFMFKFTRR EPWIGLRRVG DDFHWVNGDP FDPDTFTISG
+     MGECVFVEPT RLVSTECLTT RPWVCSKMAY T
+//

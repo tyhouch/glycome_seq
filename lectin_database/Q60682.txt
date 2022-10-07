@@ -1,0 +1,157 @@
+ID   KLRA8_MOUSE             Reviewed;         266 AA.
+AC   Q60682; O78027;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 155.
+DE   RecName: Full=Killer cell lectin-like receptor 8;
+DE   AltName: Full=Lymphocyte antigen 49h;
+DE            Short=Ly-49h;
+DE   AltName: Full=T-cell surface glycoprotein Ly-49H;
+GN   Name=Klra8; Synonyms=Ly-49h, Ly49-h, Ly49H;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM H1).
+RC   STRAIN=C57BL/6 X CBA; TISSUE=Lung;
+RX   PubMed=7964501; DOI=10.1084/jem.180.6.2287;
+RA   Brennan J., Mager D., Jefferies W., Takei F.;
+RT   "Expression of different members of the Ly-49 gene family defines distinct
+RT   natural killer cell subsets and cell adhesion properties.";
+RL   J. Exp. Med. 180:2287-2295(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND ALTERNATIVE SPLICING.
+RC   STRAIN=C57BL/6J;
+RX   PubMed=8824161; DOI=10.1007/bf02602811;
+RA   Silver E.T., Elliott J.F., Kane K.P.;
+RT   "Alternatively spliced Ly-49D and H transcripts are found in IL-2-activated
+RT   NK cells.";
+RL   Immunogenetics 44:478-482(1996).
+RN   [3]
+RP   FUNCTION, AND INTERACTION WITH TYROBP.
+RX   PubMed=9647200;
+RA   Smith K.M., Wu J., Bakker A.B., Phillips J.H., Lanier L.L.;
+RT   "Ly-49D and Ly-49H associate with mouse DAP12 and form activating
+RT   receptors.";
+RL   J. Immunol. 161:7-10(1998).
+CC   -!- FUNCTION: Receptor on natural killer (NK) cells for class I MHC.
+CC       {ECO:0000269|PubMed:9647200}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Interacts with the adapter
+CC       protein TYROBP/DAP12; the interaction leads to natural killer cell
+CC       activation (PubMed:9647200). {ECO:0000269|PubMed:9647200}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass type II
+CC       membrane protein {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=H1;
+CC         IsoId=Q60682-1; Sequence=Displayed;
+CC       Name=H2;
+CC         IsoId=Q60682-2; Sequence=VSP_003071;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U12889; AAA58704.1; -; mRNA.
+DR   EMBL; L78253; AAC32668.1; -; mRNA.
+DR   CCDS; CCDS51927.1; -. [Q60682-1]
+DR   PIR; I49114; I49114.
+DR   RefSeq; NP_001095090.1; NM_001101620.1. [Q60682-1]
+DR   RefSeq; NP_034780.1; NM_010650.3. [Q60682-2]
+DR   PDB; 4JO8; X-ray; 3.20 A; B=110-266.
+DR   PDBsum; 4JO8; -.
+DR   AlphaFoldDB; Q60682; -.
+DR   SMR; Q60682; -.
+DR   BioGRID; 201000; 1.
+DR   STRING; 10090.ENSMUSP00000014476; -.
+DR   GlyGen; Q60682; 2 sites.
+DR   PaxDb; Q60682; -.
+DR   PRIDE; Q60682; -.
+DR   DNASU; 16639; -.
+DR   Ensembl; ENSMUST00000014476; ENSMUSP00000014476; ENSMUSG00000089727. [Q60682-1]
+DR   GeneID; 16639; -.
+DR   KEGG; mmu:16639; -.
+DR   UCSC; uc009ehp.3; mouse. [Q60682-1]
+DR   CTD; 16639; -.
+DR   MGI; MGI:102968; Klra8.
+DR   VEuPathDB; HostDB:ENSMUSG00000089727; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00390000008117; -.
+DR   HOGENOM; CLU_049894_1_0_1; -.
+DR   InParanoid; Q60682; -.
+DR   OMA; QERWDSE; -.
+DR   OrthoDB; 945977at2759; -.
+DR   PhylomeDB; Q60682; -.
+DR   TreeFam; TF336674; -.
+DR   BioGRID-ORCS; 16639; 0 hits in 71 CRISPR screens.
+DR   ChiTaRS; Klra8; mouse.
+DR   PRO; PR:Q60682; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   RNAct; Q60682; protein.
+DR   Bgee; ENSMUSG00000089727; Expressed in granulocyte and 27 other tissues.
+DR   Genevisible; Q60682; MM.
+DR   GO; GO:0009986; C:cell surface; IDA:UniProtKB.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; TAS:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0009615; P:response to virus; IDA:MGI.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR013600; Ly49_N.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF08391; Ly49; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Cell adhesion; Cell membrane;
+KW   Disulfide bond; Glycoprotein; Lectin; Membrane; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..266
+FT                   /note="Killer cell lectin-like receptor 8"
+FT                   /id="PRO_0000046686"
+FT   TOPO_DOM        1..44
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        45..66
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        67..266
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          143..261
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        87
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        104
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        149..154
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        167..255
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        171..257
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        236..249
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         39..41
+FT                   /note="Missing (in isoform H2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_003071"
+FT   HELIX           113..131
+FT                   /evidence="ECO:0007829|PDB:4JO8"
+SQ   SEQUENCE   266 AA;  31393 MW;  3CB5A8EF2EB401E2 CRC64;
+     MSEQEVTFPT MRFHKSSGLN SQVRLEGTQR SRKAGLRVCS VPWQLIVIAL GILCSLRLVI
+     VAVFVTKFFQ YSQHKQEINE TLNHRHNCSN MQRDFNLKEE MLTNKSIDCR PSYELLEYIK
+     REQERWDSET KSVSDSSRDT GRGVKYWFCY GTKCYYFIMN KTTWSGCKAN CQHYSVPIVK
+     IEDEDELKFL QRHVILESYW IGLSYDKKKK EWAWIHNGQS KLDMKIKKMN FTSRGCVFLS
+     KARIEDTDCN TPYYCICGKK LDKFPD
+//

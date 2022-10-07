@@ -1,0 +1,103 @@
+ID   YJHU_ECOLI              Reviewed;         328 AA.
+AC   P39356; Q2M620;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUN-2006, sequence version 2.
+DT   03-AUG-2022, entry version 143.
+DE   RecName: Full=Uncharacterized transcriptional regulator YjhU;
+GN   Name=yjhU; OrderedLocusNames=b4295, JW5952;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7610040; DOI=10.1093/nar/23.12.2105;
+RA   Burland V.D., Plunkett G. III, Sofia H.J., Daniels D.L., Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome VI: DNA sequence of the region
+RT   from 92.8 through 100 minutes.";
+RL   Nucleic Acids Res. 23:2105-2119(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+CC   -!- SIMILARITY: Belongs to the SorC transcriptional regulatory family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA97191.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U14003; AAA97191.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAC77251.2; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE78286.1; -; Genomic_DNA.
+DR   PIR; S56520; S56520.
+DR   RefSeq; NP_418715.2; NC_000913.3.
+DR   RefSeq; WP_000373366.1; NZ_SSUV01000012.1.
+DR   AlphaFoldDB; P39356; -.
+DR   SMR; P39356; -.
+DR   BioGRID; 4260975; 20.
+DR   DIP; DIP-12629N; -.
+DR   STRING; 511145.b4295; -.
+DR   jPOST; P39356; -.
+DR   PaxDb; P39356; -.
+DR   PRIDE; P39356; -.
+DR   EnsemblBacteria; AAC77251; AAC77251; b4295.
+DR   EnsemblBacteria; BAE78286; BAE78286; BAE78286.
+DR   GeneID; 948827; -.
+DR   KEGG; ecj:JW5952; -.
+DR   KEGG; eco:b4295; -.
+DR   PATRIC; fig|1411691.4.peg.2403; -.
+DR   EchoBASE; EB2488; -.
+DR   eggNOG; COG2390; Bacteria.
+DR   HOGENOM; CLU_054506_0_1_6; -.
+DR   InParanoid; P39356; -.
+DR   OMA; KAAWLYY; -.
+DR   PhylomeDB; P39356; -.
+DR   BioCyc; EcoCyc:G7909-MON; -.
+DR   PRO; PR:P39356; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IDA:EcoCyc.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR013324; RNA_pol_sigma_r3/r4-like.
+DR   InterPro; IPR007324; Sugar-bd_dom_put.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   Pfam; PF04198; Sugar-bind; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+DR   SUPFAM; SSF88659; SSF88659; 1.
+PE   3: Inferred from homology;
+KW   DNA-binding; Reference proteome; Transcription; Transcription regulation.
+FT   CHAIN           1..328
+FT                   /note="Uncharacterized transcriptional regulator YjhU"
+FT                   /id="PRO_0000062791"
+FT   DNA_BIND        72..91
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   328 AA;  36112 MW;  DA6291ED2DE125CD CRC64;
+     MDRDQTNSSL FNDDPVLHAT WLYYQEGKSQ TEVAAIMGVS RVTVVKYLQT ARENGLVHIN
+     LDVNVFGSID AALQIRDKFN LQRVIIVPDG EHAGKRDDTK LMRTRLSRAG GMYLNQVIEN
+     GDVLGVAWGR TIHQMSKTMT PKSCKNVTVI QMLGSMPSQP DLTIIESSSQ IAYKLSGRVA
+     SLHVPAVVSS ARLAMELQAE PIIRSNFDVL TRCTKAFFVV GNALDENPLI RVGVLNKKEM
+     QTYRDLGAVG VICGRFYDKE GMPVVADVDQ RILGISLAQL RQIERKIFLA GGERGYDATL
+     GALLGGYVTD LIVDEGTAEF LLACELPH
+//

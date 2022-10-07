@@ -1,0 +1,164 @@
+ID   PLLA_PHOLL              Reviewed;         122 AA.
+AC   Q7N561;
+DT   31-JAN-2018, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   03-AUG-2022, entry version 89.
+DE   RecName: Full=Lectin A {ECO:0000303|PubMed:28972138};
+DE   AltName: Full=Alpha-galactoside-binding lectin {ECO:0000305|PubMed:28972138};
+DE   AltName: Full=Galactose-binding lectin PllA {ECO:0000303|PubMed:28972138};
+GN   Name=pllA {ECO:0000303|PubMed:28972138};
+GN   OrderedLocusNames=plu2096 {ECO:0000312|EMBL:CAE14389.1};
+OS   Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 /
+OS   TT01).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Morganellaceae; Photorhabdus.
+OX   NCBI_TaxID=243265;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 15139 / CIP 105565 / TT01;
+RX   PubMed=14528314; DOI=10.1038/nbt886;
+RA   Duchaud E., Rusniok C., Frangeul L., Buchrieser C., Givaudan A.,
+RA   Taourit S., Bocs S., Boursaux-Eude C., Chandler M., Charles J.-F.,
+RA   Dassa E., Derose R., Derzelle S., Freyssinet G., Gaudriault S., Medigue C.,
+RA   Lanois A., Powell K., Siguier P., Vincent R., Wingate V., Zouine M.,
+RA   Glaser P., Boemare N., Danchin A., Kunst F.;
+RT   "The genome sequence of the entomopathogenic bacterium Photorhabdus
+RT   luminescens.";
+RL   Nat. Biotechnol. 21:1307-1313(2003).
+RN   [2] {ECO:0007744|PDB:5ODU, ECO:0007744|PDB:5OFI, ECO:0007744|PDB:5OFX, ECO:0007744|PDB:5OFZ}
+RP   X-RAY CRYSTALLOGRAPHY (1.56 ANGSTROMS) OF APOPROTEIN AND IN COMPLEX WITH
+RP   VARIOUS CARBOHYDRATES, FUNCTION, CARBOHYDRATE SPECIFICITY, BIOTECHNOLOGY,
+RP   AND SUBUNIT.
+RC   STRAIN=DSM 15139 / CIP 105565 / TT01;
+RX   PubMed=28972138; DOI=10.1074/jbc.m117.812792;
+RA   Beshr G., Sikandar A., Jemiller E.M., Klymiuk N., Hauck D., Wagner S.,
+RA   Wolf E., Koehnke J., Titz A.;
+RT   "Photorhabdus luminescens lectin A (PllA) - a new probe for detecting
+RT   alpha-galactoside-terminating glycoconjugates.";
+RL   J. Biol. Chem. 292:19935-19951(2017).
+CC   -!- FUNCTION: Lectin that specifically binds alpha-galactoside-terminating
+CC       glycoconjugates. Shows high apparent binding to the alpha-Gal epitope
+CC       (Gal-alpha-1,3-Gal-beta-1,4-GlcNAc terminating glycans) as well as to
+CC       Gal-alpha-1,4-GlcNAc and Gal-alpha-1,3-GalNAc. Gal-alpha-1,3-GalNAc may
+CC       be one natural ligand bound by PllA both in the nematode symbiont and
+CC       in infected insects. {ECO:0000269|PubMed:28972138}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:28972138}.
+CC   -!- BIOTECHNOLOGY: Can be used as a fluorescent probe for the specific
+CC       detection and visualization of the alpha-Gal epitope present on porcine
+CC       tissues. This epitope is mainly responsible for hyperacute rejection of
+CC       porcine organ transplants in humans during xenotransplantation.
+CC       {ECO:0000269|PubMed:28972138}.
+CC   -!- SIMILARITY: Belongs to the LecA/PllA lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571866; CAE14389.1; -; Genomic_DNA.
+DR   RefSeq; WP_011146351.1; NC_005126.1.
+DR   PDB; 5ODU; X-ray; 1.56 A; A/B/C/D/E/F/G/H=1-122.
+DR   PDB; 5OFI; X-ray; 2.00 A; A/B/C/D/E/F/G/H=1-122.
+DR   PDB; 5OFX; X-ray; 1.75 A; A/B/C/D/E/F/G/H=1-122.
+DR   PDB; 5OFZ; X-ray; 1.75 A; A/B/C/D=1-122.
+DR   PDBsum; 5ODU; -.
+DR   PDBsum; 5OFI; -.
+DR   PDBsum; 5OFX; -.
+DR   PDBsum; 5OFZ; -.
+DR   AlphaFoldDB; Q7N561; -.
+DR   SMR; Q7N561; -.
+DR   STRING; 243265.plu2096; -.
+DR   UniLectin; Q7N561; -.
+DR   EnsemblBacteria; CAE14389; CAE14389; plu2096.
+DR   GeneID; 24166541; -.
+DR   KEGG; plu:plu2096; -.
+DR   eggNOG; ENOG50330FC; Bacteria.
+DR   HOGENOM; CLU_162760_0_0_6; -.
+DR   OMA; KIESRYD; -.
+DR   OrthoDB; 1831069at2; -.
+DR   BioCyc; PLUM243265:PLU_RS10475-MON; -.
+DR   Proteomes; UP000002514; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR012905; PA-IL.
+DR   Pfam; PF07828; PA-IL; 1.
+DR   PIRSF; PIRSF020485; PA-IL; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Lectin; Metal-binding; Reference proteome.
+FT   CHAIN           1..122
+FT                   /note="Lectin A"
+FT                   /id="PRO_0000443107"
+FT   BINDING         38
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         44
+FT                   /ligand="an alpha-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:46953"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         57
+FT                   /ligand="an alpha-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:46953"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         96
+FT                   /ligand="an alpha-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:46953"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         96
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         100
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         103
+FT                   /ligand="an alpha-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:46953"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         103
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   BINDING         104
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:28972138,
+FT                   ECO:0007744|PDB:5ODU"
+FT   STRAND          4..9
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          16..22
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          27..33
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          36..41
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          45..47
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   TURN            59..62
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          63..68
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          71..74
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          78..83
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          88..94
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   HELIX           101..103
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+FT   STRAND          105..116
+FT                   /evidence="ECO:0007829|PDB:5ODU"
+SQ   SEQUENCE   122 AA;  12958 MW;  E2DF54B97D8F1461 CRC64;
+     MSDWSGSVPA NAENGKSTGL ILKQGDTISV VAHGWVKYGR DNVEWAAPDG PVPNNPQPSS
+     IATLVAKIAN KKFAIGNGVL HKTVPVDGEL ILLFNDVPGT FGDNSGEFQV EVIIESRYSP
+     LK
+//

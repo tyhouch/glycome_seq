@@ -1,0 +1,386 @@
+ID   SN_PIG                  Reviewed;        1730 AA.
+AC   A7LCJ3; Q2VF24; Q7YRQ7;
+DT   05-OCT-2010, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   03-AUG-2022, entry version 71.
+DE   RecName: Full=Sialoadhesin;
+DE            Short=pSn;
+DE   AltName: Full=Sialic acid-binding Ig-like lectin 1;
+DE            Short=Siglec-1;
+DE   AltName: Full=p210;
+DE   Flags: Precursor;
+GN   Name=SIGLEC1; Synonyms=SA, SN;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Alveolar macrophage;
+RX   PubMed=12857889; DOI=10.1128/jvi.77.15.8207-8215.2003;
+RA   Vanderheijden N., Delputte P.L., Favoreel H.W., Vandekerckhove J.,
+RA   Van Damme J., Van Woensel P.A., Nauwynck H.J.;
+RT   "Involvement of sialoadhesin in entry of porcine reproductive and
+RT   respiratory syndrome virus into porcine alveolar macrophages.";
+RL   J. Virol. 77:8207-8215(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=19969429; DOI=10.1016/j.vetmic.2009.11.006;
+RA   An T.Q., Tian Z.J., He Y.X., Xiao Y., Jiang Y.F., Peng J.M., Zhou Y.J.,
+RA   Liu D., Tong G.Z.;
+RT   "Porcine reproductive and respiratory syndrome virus attachment is mediated
+RT   by the N-terminal domain of the sialoadhesin receptor.";
+RL   Vet. Microbiol. 143:371-378(2010).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Liu W., Srikumaran S.;
+RT   "Molecular cloning, sequencing and expression of a porcine sialoadhesin
+RT   cDNA in macrophages and determination of its role in porcine reproductive
+RT   and respiratory syndrome.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=10073688; DOI=10.1099/0022-1317-80-2-297;
+RA   Nauwynck H.J., Duan X., Favoreel H.W., Van Oostveldt P., Pensaert M.B.;
+RT   "Entry of porcine reproductive and respiratory syndrome virus into porcine
+RT   alveolar macrophages via receptor-mediated endocytosis.";
+RL   J. Gen. Virol. 80:297-305(1999).
+RN   [5]
+RP   FUNCTION, AND MUTAGENESIS OF ARG-116.
+RX   PubMed=17567703; DOI=10.1128/jvi.00569-07;
+RA   Delputte P.L., Van Breedam W., Delrue I., Oetke C., Crocker P.R.,
+RA   Nauwynck H.J.;
+RT   "Porcine arterivirus attachment to the macrophage-specific receptor
+RT   sialoadhesin is dependent on the sialic acid-binding activity of the N-
+RT   terminal immunoglobulin domain of sialoadhesin.";
+RL   J. Virol. 81:9546-9550(2007).
+RN   [6]
+RP   INTERACTION WITH PORCINE REPRODUCTIVE RESPIRATORY SYNDROME VIRUS
+RP   GLYCOPROTEIN 5.
+RX   PubMed=20084110; DOI=10.1371/journal.ppat.1000730;
+RA   Van Breedam W., Van Gorp H., Zhang J.Q., Crocker P.R., Delputte P.L.,
+RA   Nauwynck H.J.;
+RT   "The M/GP(5) glycoprotein complex of porcine reproductive and respiratory
+RT   syndrome virus binds the sialoadhesin receptor in a sialic acid-dependent
+RT   manner.";
+RL   PLoS Pathog. 6:E1000730-E1000730(2010).
+CC   -!- FUNCTION: Macrophage-restricted adhesion molecule that mediates sialic-
+CC       acid dependent binding to lymphocytes, including granulocytes,
+CC       monocytes, natural killer cells, B-cells and CD8 T-cells.
+CC       Preferentially binds to alpha-2,3-linked sialic acid. Binds to SPN/CD43
+CC       on T-cells. May play a role in hemopoiesis (By similarity). Acts as an
+CC       endocytic receptor mediating clathrin dependent endocytosis. In case of
+CC       porcine reproductive and respiratory syndrome virus (PRRSV), mediates
+CC       virion attachment and internalization into alveolar macrophages through
+CC       a clathrin-coated dependent process. {ECO:0000250,
+CC       ECO:0000269|PubMed:10073688, ECO:0000269|PubMed:12857889,
+CC       ECO:0000269|PubMed:17567703}.
+CC   -!- SUBUNIT: Interacts with porcine reproductive respiratory syndrome virus
+CC       glycoprotein 5. {ECO:0000269|PubMed:20084110}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- DOMAIN: The sialic acid-binding domain is essential for efficient PRRSV
+CC       virus attachment and internalization to alveolar macrophages.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF509585; AAP47136.1; -; mRNA.
+DR   EMBL; EU003993; ABS19664.1; -; mRNA.
+DR   EMBL; DQ176853; ABA55712.1; -; mRNA.
+DR   RefSeq; NP_999511.1; NM_214346.1.
+DR   AlphaFoldDB; A7LCJ3; -.
+DR   SMR; A7LCJ3; -.
+DR   PeptideAtlas; A7LCJ3; -.
+DR   PRIDE; A7LCJ3; -.
+DR   GeneID; 397623; -.
+DR   KEGG; ssc:397623; -.
+DR   CTD; 6614; -.
+DR   InParanoid; A7LCJ3; -.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Unplaced.
+DR   GO; GO:0005769; C:early endosome; IDA:AgBase.
+DR   GO; GO:0030139; C:endocytic vesicle; IDA:AgBase.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005770; C:late endosome; IDA:AgBase.
+DR   GO; GO:0005886; C:plasma membrane; IDA:AgBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046790; F:virion binding; IDA:AgBase.
+DR   GO; GO:0001618; F:virus receptor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0072583; P:clathrin-dependent endocytosis; IMP:AgBase.
+DR   GO; GO:0075512; P:clathrin-dependent endocytosis of virus by host cell; IMP:AgBase.
+DR   GO; GO:0050765; P:negative regulation of phagocytosis; IMP:AgBase.
+DR   GO; GO:0046718; P:viral entry into host cell; IMP:AgBase.
+DR   Gene3D; 2.60.40.10; -; 17.
+DR   InterPro; IPR013162; CD80_C2-set.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   Pfam; PF08205; C2-set_2; 1.
+DR   Pfam; PF07679; I-set; 2.
+DR   Pfam; PF13895; Ig_2; 5.
+DR   Pfam; PF07686; V-set; 1.
+DR   SMART; SM00409; IG; 16.
+DR   SMART; SM00408; IGc2; 14.
+DR   SUPFAM; SSF48726; SSF48726; 14.
+DR   PROSITE; PS50835; IG_LIKE; 15.
+PE   1: Evidence at protein level;
+KW   Cell adhesion; Cell membrane; Disulfide bond; Endocytosis; Glycoprotein;
+KW   Host cell receptor for virus entry; Host-virus interaction;
+KW   Immunoglobulin domain; Lectin; Membrane; Receptor; Reference proteome;
+KW   Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..1730
+FT                   /note="Sialoadhesin"
+FT                   /id="PRO_0000398178"
+FT   TOPO_DOM        20..1642
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1643..1663
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1664..1730
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          23..135
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          139..227
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          238..316
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          317..405
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          415..505
+FT                   /note="Ig-like C2-type 4"
+FT   DOMAIN          511..593
+FT                   /note="Ig-like C2-type 5"
+FT   DOMAIN          601..705
+FT                   /note="Ig-like C2-type 6"
+FT   DOMAIN          708..790
+FT                   /note="Ig-like C2-type 7"
+FT   DOMAIN          798..893
+FT                   /note="Ig-like C2-type 8"
+FT   DOMAIN          897..976
+FT                   /note="Ig-like C2-type 9"
+FT   DOMAIN          983..1082
+FT                   /note="Ig-like C2-type 10"
+FT   DOMAIN          1083..1165
+FT                   /note="Ig-like C2-type 11"
+FT   DOMAIN          1172..1257
+FT                   /note="Ig-like C2-type 12"
+FT   DOMAIN          1259..1335
+FT                   /note="Ig-like C2-type 13"
+FT   DOMAIN          1346..1442
+FT                   /note="Ig-like C2-type 14"
+FT   DOMAIN          1443..1529
+FT                   /note="Ig-like C2-type 15"
+FT   DOMAIN          1537..1630
+FT                   /note="Ig-like C2-type 16"
+FT   REGION          19..150
+FT                   /note="Necessary for PRRSV virus attachment to alveolar
+FT                   macrophage"
+FT   BINDING         63
+FT                   /ligand="N-acetylneuraminate"
+FT                   /ligand_id="ChEBI:CHEBI:35418"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62230"
+FT   BINDING         116
+FT                   /ligand="N-acetylneuraminate"
+FT                   /ligand_id="ChEBI:CHEBI:35418"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62230"
+FT   BINDING         122..126
+FT                   /ligand="N-acetylneuraminate"
+FT                   /ligand_id="ChEBI:CHEBI:35418"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        339
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        499
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        726
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        730
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1103
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1138
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        36..166
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        41..98
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        160..217
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        262..305
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        346..390
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        433..491
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        531..575
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        624..689
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        729..773
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        816..875
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        915..959
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        1004..1066
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        1193..1241
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        1281..1324
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        1367..1426
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        1466..1512
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        1555..1614
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   MUTAGEN         116
+FT                   /note="R->E: Loss of sialic acid binding. Inhibits PRRSV
+FT                   virus attachment and internalization to alveolar
+FT                   macrophages."
+FT                   /evidence="ECO:0000269|PubMed:17567703"
+FT   CONFLICT        25
+FT                   /note="R -> S (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        93
+FT                   /note="A -> V (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        236
+FT                   /note="H -> Y (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        361
+FT                   /note="C -> Y (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        421
+FT                   /note="P -> L (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        452
+FT                   /note="S -> L (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        547
+FT                   /note="L -> R (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        552
+FT                   /note="I -> L (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        579
+FT                   /note="N -> S (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        583
+FT                   /note="T -> A (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        588
+FT                   /note="P -> S (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        596
+FT                   /note="R -> Y (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        661
+FT                   /note="Q -> H (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        680
+FT                   /note="A -> V (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        764
+FT                   /note="S -> A (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        821
+FT                   /note="H -> R (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        839
+FT                   /note="S -> L (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        846
+FT                   /note="R -> H (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        874
+FT                   /note="H -> R (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        964
+FT                   /note="S -> P (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1081
+FT                   /note="L -> F (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1106
+FT                   /note="R -> C (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1275
+FT                   /note="A -> T (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1381
+FT                   /note="H -> R (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1390
+FT                   /note="Q -> H (in Ref. 1; AAP47136)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1392
+FT                   /note="V -> A (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1425
+FT                   /note="V -> I (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1428
+FT                   /note="D -> A (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1468
+FT                   /note="L -> F (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1475
+FT                   /note="I -> M (in Ref. 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1497
+FT                   /note="F -> L (in Ref. 1; AAP47136 and 3; ABA55712)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1672
+FT                   /note="H -> Y (in Ref. 1; AAP47136)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1730 AA;  184912 MW;  A1F1EBB6F33150C7 CRC64;
+     MDFLLLLLLL ASSALAGLAS WTVSRPETVQ GIKGSCLIIP CTFGFPANVE VPHGITAIWY
+     YDYSGKRLVV SHSRNPKVVE NHFQGRALLL GQAEQRTCSL LLKDLQPQDS GSYNFRFEIS
+     EGNRWSDVKG TVVTVTEVPS VPTIALPAKL HEGMEVDFNC STPYVCPTEP VNLQWQGQDP
+     TRSVTSHLQK LEPSGTSHME TLHMALSWQD HGRILSCQVS AAERRMQKEI HLQVQHAPKG
+     VEILFSHSGR NVLPGDLVTL SCQVNSSNPQ VSSVQWVKDG TKLKDQKRVL QLRRAAWADA
+     GVYTCQAGNA VGSSVSPPVS LHVFMAEVQV SPVGSILENQ TVTLACNTPK EAPSELRYSW
+     CKNHALLEGS HSRTLRLHSV TRADSGFYFC EVQNARGRER SPPVSVVVSH PPLTPDLTAF
+     PETQAGLVGI LQCSVVSEPP ATLVLSHGGL ISASTSGEGD HSPRFSVASA PNSLRLEIQD
+     LGPTDSGEYM CSASSSLGNA SSTLDFHANA ARLLISPAAE VVEGQAVTLS CRSSLSLMPD
+     TRFSWYLNGA LILEGPSSSL LLPAASSTDA GSYHCRAQNS HSTSGPSPPA VLTVLRAPRQ
+     PVFTAQLDPD TAGAGAGRQG LLLCRVDSDP PAQLQLLHRG RVVASSLSWG GGCCTCGGCF
+     QRMKVTKAPN LLRVEIRDPA LEDEGVYLCE ASSALGNASA SATLDAQATV LVITPSHTLQ
+     EGIEANLTCN VSREASGPAN FSWFRDGALW AQGPLDTVTL LPVSRTDAAL YACRIVTEAG
+     AGLSTPVALN VLYPPDPPKL SALLDVDQGH TAVFVCTVDS HPLAQLALFR GEHLLAASSA
+     LRLPPRGRLQ AKASANSLQL EVRDLSLGDS GSYHCEATNI LGSANTSLTF QVRGAWVRVS
+     PSPELQEGQA VVLSCQVPIG VLEGTSYRWY RDGQPLQEST SATLRFAAIT LSQAGAYHCQ
+     AQASGSATTD LAAPVSLHVT YAPRQATLTT LMDSGLGRLG LLLCRVNSDP PAQLRLLHGS
+     RLVASTLQGV EELAGSSPRL QVATAPNTLR LEIHNAVLED EGVYTCEATN TLGQTLASAA
+     LDAQAMRVQV WPNATVQEGQ LVNLTRLVWT THLAQLTYTW YRDQQQLPGA AHSILLPNVT
+     VTDAASYRCG ILIPGQALRL SRPVALDVLY APRRLRLTHL LESRGGQLAV VLCTVDSRPA
+     AQLTLSHAGR LLASSTAASV PNTLRLELWE PRPSDEGLYS CSARSPLGQA NTSLELRLEG
+     VQVALAPSAT VPEGAPVTVT CEDPAARPPT LYVWYHNSRW LQEGSAASLS FPAATRAHAG
+     AYTCQVQDAQ GTRISQPAAL HILYAPRDAV LSSFWDSRAS PMAVVQCTVD SEPPAEMTLS
+     HDGKVLATSQ GVHGLAVGTG HVQVARNALQ LRVQNVPSRD KDTYVCMDRN SLGSVSTMGQ
+     LQPEGVHVVA EPGLDVPEGT ALNLSCRLPS GPGHIGNSTF AWFRNGRQLH TESVPTFTFT
+     HVARAQAGLY HCQAELPAGA ATSAPVLLRV LYPPKTPTMT VFVEPEGGIQ GILDCRVDSE
+     PLASLTLHLG SRLVASSQPQ AAPAKPHIRV SASPNALRVD MEELKPSDQG EYVCSASNAL
+     GSASAATYFG TRALHRLHLF QHLLWFLGLL ASLLFLLLGL GVWYAWRRGN FHKLRMGEYS
+     VEMVSRKETT QMSTDQEEVT GIGDDAGSVN QAAFDPAHLC ENTQSVKSTV
+//

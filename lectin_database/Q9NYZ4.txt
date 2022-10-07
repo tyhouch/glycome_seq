@@ -1,0 +1,387 @@
+ID   SIGL8_HUMAN             Reviewed;         499 AA.
+AC   Q9NYZ4; Q7Z728;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2002, sequence version 2.
+DT   03-AUG-2022, entry version 176.
+DE   RecName: Full=Sialic acid-binding Ig-like lectin 8;
+DE            Short=Siglec-8;
+DE   AltName: Full=Sialoadhesin family member 2;
+DE            Short=SAF-2;
+DE   Flags: Precursor;
+GN   Name=SIGLEC8; Synonyms=SAF2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 1).
+RX   PubMed=11095983; DOI=10.1006/bbrc.2000.3866;
+RA   Foussias G., Yousef G.M., Diamandis E.P.;
+RT   "Molecular characterization of a siglec8 variant containing cytoplasmic
+RT   tyrosine-based motifs, and mapping of the siglec8 gene.";
+RL   Biochem. Biophys. Res. Commun. 278:775-781(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3), TISSUE SPECIFICITY, AND FUNCTION.
+RX   PubMed=10856141; DOI=10.1067/mai.2000.107127;
+RA   Kikly K.K., Bochner B.S., Freeman S.D., Tan K.B., Gallagher K.T.,
+RA   D'Alessio K.J., Holmes S.D., Abrahamson J.A., Erickson-Miller C.L.,
+RA   Murdock P.R., Tachimoto H., Schleimer R.P., White J.R.;
+RT   "Identification of SAF-2, a novel siglec expressed on eosinophils, mast
+RT   cells, and basophils.";
+RL   J. Allergy Clin. Immunol. 105:1093-1100(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3), TISSUE SPECIFICITY, AND FUNCTION.
+RC   TISSUE=Eosinophil;
+RX   PubMed=10625619; DOI=10.1074/jbc.275.2.861;
+RA   Floyd H., Ni J., Cornish A.L., Zeng Z., Liu D., Carter K.C., Steel J.,
+RA   Crocker P.R.;
+RT   "Siglec-8. A novel eosinophil-specific member of the immunoglobulin
+RT   superfamily.";
+RL   J. Biol. Chem. 275:861-866(2000).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RA   Floyd H., Zhang J.Q., Crocker P.R.;
+RL   Submitted (OCT-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT PRO-170.
+RC   TISSUE=Spleen;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6] {ECO:0007744|PDB:2N7A, ECO:0007744|PDB:2N7B}
+RP   STRUCTURE BY NMR OF 17-155 IN COMPLEX WITH 6'-SULFO SIALYL-LEWIS X,
+RP   DISULFIDE BONDS, MUTAGENESIS OF ARG-72; TYR-74; GLN-75; ARG-125; LYS-132;
+RP   LYS-136 AND GLN-138, SITE, AND FUNCTION.
+RX   PubMed=27357658; DOI=10.1073/pnas.1602214113;
+RA   Propster J.M., Yang F., Rabbani S., Ernst B., Allain F.H., Schubert M.;
+RT   "Structural basis for sulfation-dependent self-glycan recognition by the
+RT   human immune-inhibitory receptor Siglec-8.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 113:E4170-E4179(2016).
+RN   [7]
+RP   VARIANT LEU-282.
+RX   PubMed=21248752; DOI=10.1038/nature09639;
+RA   Varela I., Tarpey P., Raine K., Huang D., Ong C.K., Stephens P., Davies H.,
+RA   Jones D., Lin M.L., Teague J., Bignell G., Butler A., Cho J.,
+RA   Dalgliesh G.L., Galappaththige D., Greenman C., Hardy C., Jia M.,
+RA   Latimer C., Lau K.W., Marshall J., McLaren S., Menzies A., Mudie L.,
+RA   Stebbings L., Largaespada D.A., Wessels L.F.A., Richard S., Kahnoski R.J.,
+RA   Anema J., Tuveson D.A., Perez-Mancera P.A., Mustonen V., Fischer A.,
+RA   Adams D.J., Rust A., Chan-On W., Subimerb C., Dykema K., Furge K.,
+RA   Campbell P.J., Teh B.T., Stratton M.R., Futreal P.A.;
+RT   "Exome sequencing identifies frequent mutation of the SWI/SNF complex gene
+RT   PBRM1 in renal carcinoma.";
+RL   Nature 469:539-542(2011).
+CC   -!- FUNCTION: Putative adhesion molecule that mediates sialic-acid
+CC       dependent binding to red blood cells (PubMed:10856141,
+CC       PubMed:10625619). Preferentially binds to alpha-2,3-linked sialic acid.
+CC       Also binds to alpha-2,6-linked sialic acid. The sialic acid recognition
+CC       site may be masked by cis interactions with sialic acids on the same
+CC       cell surface (PubMed:10625619). Recognizes simultaneously epitopes
+CC       having a terminal N-acetylneuraminic acid (sialic acid) and an
+CC       underlying 6-O-sulfated galactose. Preferentially binds to Gal-6-
+CC       sulfated sialyl-Lewis X glycan epitopes (PubMed:27357658).
+CC       {ECO:0000269|PubMed:10625619, ECO:0000269|PubMed:10856141,
+CC       ECO:0000269|PubMed:27357658}.
+CC   -!- INTERACTION:
+CC       Q9NYZ4; P04155: TFF1; NbExp=3; IntAct=EBI-4314991, EBI-743871;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1; Synonyms=Long;
+CC         IsoId=Q9NYZ4-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9NYZ4-2; Sequence=VSP_002559;
+CC       Name=3;
+CC         IsoId=Q9NYZ4-3; Sequence=VSP_002560;
+CC   -!- TISSUE SPECIFICITY: Expressed specifically on red blood cells namely
+CC       basophil, mast cells and eosinophils. {ECO:0000269|PubMed:10625619,
+CC       ECO:0000269|PubMed:10856141}.
+CC   -!- DOMAIN: Contains 1 copy of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). This motif is
+CC       involved in modulation of cellular responses. The phosphorylated ITIM
+CC       motif can bind the SH2 domain of several SH2-containing phosphatases.
+CC   -!- MISCELLANEOUS: [Isoform 3]: May be produced at very low levels due to a
+CC       premature stop codon in the mRNA, leading to nonsense-mediated mRNA
+CC       decay. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Siglec-8;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_hum_Itlect_00146";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF287892; AAG00573.1; -; Genomic_DNA.
+DR   EMBL; AF223403; AAF34702.1; -; mRNA.
+DR   EMBL; AF195092; AAF27622.1; -; mRNA.
+DR   EMBL; AF310234; AAK55140.1; -; mRNA.
+DR   EMBL; BC053319; AAH53319.1; -; mRNA.
+DR   CCDS; CCDS33086.1; -. [Q9NYZ4-1]
+DR   CCDS; CCDS86797.1; -. [Q9NYZ4-2]
+DR   RefSeq; NP_055257.2; NM_014442.2. [Q9NYZ4-1]
+DR   RefSeq; XP_011525037.1; XM_011526735.2.
+DR   PDB; 2N7A; NMR; -; A=17-155.
+DR   PDB; 2N7B; NMR; -; A=17-155.
+DR   PDBsum; 2N7A; -.
+DR   PDBsum; 2N7B; -.
+DR   AlphaFoldDB; Q9NYZ4; -.
+DR   SMR; Q9NYZ4; -.
+DR   BioGRID; 118057; 1.
+DR   IntAct; Q9NYZ4; 1.
+DR   STRING; 9606.ENSP00000321077; -.
+DR   ChEMBL; CHEMBL4630877; -.
+DR   UniLectin; Q9NYZ4; -.
+DR   GlyConnect; 570; 14 N-Linked glycans.
+DR   GlyGen; Q9NYZ4; 4 sites, 27 N-linked glycans (1 site).
+DR   iPTMnet; Q9NYZ4; -.
+DR   PhosphoSitePlus; Q9NYZ4; -.
+DR   BioMuta; SIGLEC8; -.
+DR   DMDM; 25009268; -.
+DR   jPOST; Q9NYZ4; -.
+DR   MassIVE; Q9NYZ4; -.
+DR   PaxDb; Q9NYZ4; -.
+DR   PeptideAtlas; Q9NYZ4; -.
+DR   PRIDE; Q9NYZ4; -.
+DR   ProteomicsDB; 83307; -. [Q9NYZ4-1]
+DR   ProteomicsDB; 83308; -. [Q9NYZ4-2]
+DR   ProteomicsDB; 83309; -. [Q9NYZ4-3]
+DR   Antibodypedia; 2297; 317 antibodies from 33 providers.
+DR   DNASU; 27181; -.
+DR   Ensembl; ENST00000321424.7; ENSP00000321077.2; ENSG00000105366.15. [Q9NYZ4-1]
+DR   Ensembl; ENST00000340550.5; ENSP00000339448.4; ENSG00000105366.15. [Q9NYZ4-2]
+DR   GeneID; 27181; -.
+DR   KEGG; hsa:27181; -.
+DR   MANE-Select; ENST00000321424.7; ENSP00000321077.2; NM_014442.3; NP_055257.2.
+DR   UCSC; uc002pwt.3; human. [Q9NYZ4-1]
+DR   CTD; 27181; -.
+DR   DisGeNET; 27181; -.
+DR   GeneCards; SIGLEC8; -.
+DR   HGNC; HGNC:10877; SIGLEC8.
+DR   HPA; ENSG00000105366; Tissue enhanced (brain, lymphoid tissue).
+DR   MIM; 605639; gene.
+DR   neXtProt; NX_Q9NYZ4; -.
+DR   OpenTargets; ENSG00000105366; -.
+DR   PharmGKB; PA35778; -.
+DR   VEuPathDB; HostDB:ENSG00000105366; -.
+DR   eggNOG; ENOG502S41V; Eukaryota.
+DR   GeneTree; ENSGT01040000240469; -.
+DR   HOGENOM; CLU_024444_6_1_1; -.
+DR   InParanoid; Q9NYZ4; -.
+DR   OMA; YPPWNLT; -.
+DR   OrthoDB; 324083at2759; -.
+DR   PhylomeDB; Q9NYZ4; -.
+DR   TreeFam; TF332441; -.
+DR   PathwayCommons; Q9NYZ4; -.
+DR   Reactome; R-HSA-198933; Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell.
+DR   SignaLink; Q9NYZ4; -.
+DR   BioGRID-ORCS; 27181; 20 hits in 1070 CRISPR screens.
+DR   GeneWiki; SIGLEC8; -.
+DR   GenomeRNAi; 27181; -.
+DR   Pharos; Q9NYZ4; Tbio.
+DR   PRO; PR:Q9NYZ4; -.
+DR   Proteomes; UP000005640; Chromosome 19.
+DR   RNAct; Q9NYZ4; protein.
+DR   Bgee; ENSG00000105366; Expressed in C1 segment of cervical spinal cord and 110 other tissues.
+DR   ExpressionAtlas; Q9NYZ4; baseline and differential.
+DR   Genevisible; Q9NYZ4; HS.
+DR   GO; GO:0016021; C:integral component of membrane; TAS:ProtInc.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; TAS:ProtInc.
+DR   GO; GO:0033691; F:sialic acid binding; IBA:GO_Central.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; TAS:ProtInc.
+DR   GO; GO:0007155; P:cell adhesion; IBA:GO_Central.
+DR   GO; GO:0007165; P:signal transduction; TAS:ProtInc.
+DR   Gene3D; 2.60.40.10; -; 3.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   Pfam; PF07686; V-set; 1.
+DR   SMART; SM00409; IG; 3.
+DR   SMART; SM00408; IGc2; 1.
+DR   SUPFAM; SSF48726; SSF48726; 3.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Cell adhesion; Disulfide bond;
+KW   Glycoprotein; Immunoglobulin domain; Lectin; Membrane; Reference proteome;
+KW   Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           17..499
+FT                   /note="Sialic acid-binding Ig-like lectin 8"
+FT                   /id="PRO_0000014948"
+FT   TOPO_DOM        17..363
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        364..384
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        385..499
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          40..123
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          157..240
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          246..344
+FT                   /note="Ig-like C2-type 2"
+FT   REGION          410..443
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          451..470
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          478..499
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           445..450
+FT                   /note="ITIM motif"
+FT   MOTIF           468..473
+FT                   /note="SLAM-like motif"
+FT   BINDING         23
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27357658,
+FT                   ECO:0007744|PDB:2N7B"
+FT   BINDING         72..75
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27357658,
+FT                   ECO:0007744|PDB:2N7B"
+FT   BINDING         125
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27357658,
+FT                   ECO:0007744|PDB:2N7B"
+FT   BINDING         134..138
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27357658,
+FT                   ECO:0007744|PDB:2N7B"
+FT   SITE            125
+FT                   /note="Indispensable role in 6'-sulfo sialyl-Lewis X"
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   CARBOHYD        172
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        249
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        267
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        42..181
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        47..107
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27357658, ECO:0007744|PDB:2N7A,
+FT                   ECO:0007744|PDB:2N7B"
+FT   DISULFID        175..224
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        283..328
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   VAR_SEQ         152..245
+FT                   /note="ALTHRPDILILGTLESGHSRNLTCSVPWACKQGTPPMISWIGASVSSPGPTT
+FT                   ARSSVLTLTPKPQDHGTSLTCQVTLPGTGVTTTSTVRLDVSY -> D (in isoform
+FT                   2)"
+FT                   /evidence="ECO:0000303|Ref.4"
+FT                   /id="VSP_002559"
+FT   VAR_SEQ         416..499
+FT                   /note="GPLTESWKDGNPLKKPPPAVAPSSGEEGELHYATLSFHKVKPQDPQGQEATD
+FT                   SEYSEIKIHKRETAETQACLRNHNPSSKEVRG -> VSDVGFSTPSIQPGHL (in
+FT                   isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:10625619,
+FT                   ECO:0000303|PubMed:10856141"
+FT                   /id="VSP_002560"
+FT   VARIANT         170
+FT                   /note="S -> P (in dbSNP:rs10409962)"
+FT                   /evidence="ECO:0000269|PubMed:15489334"
+FT                   /id="VAR_021487"
+FT   VARIANT         282
+FT                   /note="V -> L (found in a renal cell carcinoma sample;
+FT                   somatic mutation)"
+FT                   /evidence="ECO:0000269|PubMed:21248752"
+FT                   /id="VAR_064751"
+FT   VARIANT         388
+FT                   /note="R -> G (in dbSNP:rs3829659)"
+FT                   /id="VAR_049930"
+FT   MUTAGEN         72
+FT                   /note="R->A: Strongly impaired binding to 6'-sulfo
+FT                   sialyl-Lewis X."
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   MUTAGEN         74
+FT                   /note="Y->A: Modestly affected binding to 6'-sulfo
+FT                   sialyl-Lewis X."
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   MUTAGEN         75
+FT                   /note="Q->A: Modestly affected binding to 6'-sulfo
+FT                   sialyl-Lewis X."
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   MUTAGEN         125
+FT                   /note="R->A: Abolishes binding to 6'-sulfo sialyl-Lewis X."
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   MUTAGEN         132
+FT                   /note="K->A: Strongly impaired binding to 6'-sulfo
+FT                   sialyl-Lewis X."
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   MUTAGEN         136
+FT                   /note="K->A: Strongly impaired binding to 6'-sulfo
+FT                   sialyl-Lewis X."
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   MUTAGEN         138
+FT                   /note="Q->A: Minor effects on binding to 6'-sulfo
+FT                   sialyl-Lewis X."
+FT                   /evidence="ECO:0000269|PubMed:27357658"
+FT   HELIX           18..20
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   TURN            23..26
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          28..31
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          33..38
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          43..45
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          47..50
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          62..68
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   TURN            73..75
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          79..82
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   TURN            90..95
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          96..98
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   HELIX           102..104
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          109..113
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   HELIX           116..118
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          120..128
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          131..134
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          146..151
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+FT   STRAND          153..155
+FT                   /evidence="ECO:0007829|PDB:2N7A"
+SQ   SEQUENCE   499 AA;  54042 MW;  086EFF989B74123C CRC64;
+     MLLLLLLLPL LWGTKGMEGD RQYGDGYLLQ VQELVTVQEG LCVHVPCSFS YPQDGWTDSD
+     PVHGYWFRAG DRPYQDAPVA TNNPDREVQA ETQGRFQLLG DIWSNDCSLS IRDARKRDKG
+     SYFFRLERGS MKWSYKSQLN YKTKQLSVFV TALTHRPDIL ILGTLESGHS RNLTCSVPWA
+     CKQGTPPMIS WIGASVSSPG PTTARSSVLT LTPKPQDHGT SLTCQVTLPG TGVTTTSTVR
+     LDVSYPPWNL TMTVFQGDAT ASTALGNGSS LSVLEGQSLR LVCAVNSNPP ARLSWTRGSL
+     TLCPSRSSNP GLLELPRVHV RDEGEFTCRA QNAQGSQHIS LSLSLQNEGT GTSRPVSQVT
+     LAAVGGAGAT ALAFLSFCII FIIVRSCRKK SARPAAGVGD TGMEDAKAIR GSASQGPLTE
+     SWKDGNPLKK PPPAVAPSSG EEGELHYATL SFHKVKPQDP QGQEATDSEY SEIKIHKRET
+     AETQACLRNH NPSSKEVRG
+//

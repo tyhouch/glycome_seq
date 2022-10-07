@@ -1,0 +1,163 @@
+ID   OGA_CLOPE               Reviewed;        1001 AA.
+AC   Q8XL08;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   03-AUG-2022, entry version 132.
+DE   RecName: Full=O-GlcNAcase NagJ;
+DE            EC=3.2.1.169 {ECO:0000250|UniProtKB:Q0TR53};
+DE   AltName: Full=Beta-N-acetylglucosaminidase;
+DE   AltName: Full=Beta-N-acetylhexosaminidase;
+DE   AltName: Full=Beta-hexosaminidase;
+DE   AltName: Full=Hexosaminidase B;
+DE   AltName: Full=N-acetyl-beta-D-glucosaminidase;
+DE   AltName: Full=N-acetyl-beta-glucosaminidase;
+DE   Flags: Precursor;
+GN   Name=nagJ {ECO:0000312|EMBL:BAB80940.1}; OrderedLocusNames=CPE1234;
+OS   Clostridium perfringens (strain 13 / Type A).
+OC   Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=195102;
+RN   [1] {ECO:0000312|EMBL:BAB80940.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13 / Type A;
+RX   PubMed=11792842; DOI=10.1073/pnas.022493799;
+RA   Shimizu T., Ohtani K., Hirakawa H., Ohshima K., Yamashita A., Shiba T.,
+RA   Ogasawara N., Hattori M., Kuhara S., Hayashi H.;
+RT   "Complete genome sequence of Clostridium perfringens, an anaerobic flesh-
+RT   eater.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:996-1001(2002).
+CC   -!- FUNCTION: Binds carbohydrates. Capable of hydrolyzing the glycosidic
+CC       link of O-GlcNAcylated proteins. Can bind and deglycosylate O-
+CC       glycosylated peptides from mammals. Can use p-nitrophenyl-beta-GlcNAc
+CC       and 4-methylumbelliferone-GlcNAc as substrates (in vitro).
+CC       {ECO:0000250|UniProtKB:Q0TR53}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-O-(N-acetyl-beta-D-glucosaminyl)-L-seryl-[protein] + H2O =
+CC         L-seryl-[protein] + N-acetyl-D-glucosamine; Xref=Rhea:RHEA:48876,
+CC         Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12251, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:29999, ChEBI:CHEBI:90838, ChEBI:CHEBI:506227;
+CC         EC=3.2.1.169; Evidence={ECO:0000250|UniProtKB:Q0TR53};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-O-(N-acetyl-beta-D-glucosaminyl)-L-threonyl-[protein] + H2O
+CC         = L-threonyl-[protein] + N-acetyl-D-glucosamine;
+CC         Xref=Rhea:RHEA:48892, Rhea:RHEA-COMP:11060, Rhea:RHEA-COMP:12252,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:30013, ChEBI:CHEBI:90840,
+CC         ChEBI:CHEBI:506227; EC=3.2.1.169;
+CC         Evidence={ECO:0000250|UniProtKB:Q0TR53};
+CC   -!- INTERACTION:
+CC       Q8XL08; P26831: nagH; NbExp=3; IntAct=EBI-15722628, EBI-15722600;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 84 family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000016; BAB80940.1; -; Genomic_DNA.
+DR   RefSeq; WP_003467250.1; NC_003366.1.
+DR   AlphaFoldDB; Q8XL08; -.
+DR   BMRB; Q8XL08; -.
+DR   SMR; Q8XL08; -.
+DR   DIP; DIP-46266N; -.
+DR   IntAct; Q8XL08; 3.
+DR   STRING; 195102.gene:10490497; -.
+DR   DrugBank; DB04699; gamma-Butyrolactone.
+DR   CAZy; CBM32; Carbohydrate-Binding Module Family 32.
+DR   CAZy; GH84; Glycoside Hydrolase Family 84.
+DR   EnsemblBacteria; BAB80940; BAB80940; BAB80940.
+DR   KEGG; cpe:CPE1234; -.
+DR   HOGENOM; CLU_001501_2_0_9; -.
+DR   OMA; ARMEEAC; -.
+DR   BRENDA; 3.2.1.52; 1503.
+DR   EvolutionaryTrace; Q8XL08; -.
+DR   Proteomes; UP000000818; Chromosome.
+DR   GO; GO:0102167; F:[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-serine O-N-acetyl-alpha-D-glucosaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0102571; F:[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-serine/L-threonine O-N-acetyl-alpha-D-glucosaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0102166; F:[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine O-N-acetyl-alpha-D-glucosaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016231; F:beta-N-acetylglucosaminidase activity; IEA:UniProt.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:InterPro.
+DR   CDD; cd00063; FN3; 1.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 3.30.379.10; -; 1.
+DR   InterPro; IPR011496; Beta-N-acetylglucosaminidase.
+DR   InterPro; IPR008965; CBM2/CBM3_carb-bd_dom_sf.
+DR   InterPro; IPR002102; Cohesin_dom.
+DR   InterPro; IPR000421; FA58C.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR029018; Hex-like_dom2.
+DR   InterPro; IPR015882; HEX_bac_N.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF00963; Cohesin; 1.
+DR   Pfam; PF00754; F5_F8_type_C; 1.
+DR   Pfam; PF00041; fn3; 1.
+DR   Pfam; PF02838; Glyco_hydro_20b; 1.
+DR   Pfam; PF07555; NAGidase; 1.
+DR   SMART; SM00060; FN3; 1.
+DR   SUPFAM; SSF49265; SSF49265; 1.
+DR   SUPFAM; SSF49384; SSF49384; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF55545; SSF55545; 1.
+DR   PROSITE; PS50853; FN3; 1.
+PE   1: Evidence at protein level;
+KW   Coiled coil; Glycosidase; Hydrolase; Reference proteome; Signal.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..1001
+FT                   /note="O-GlcNAcase NagJ"
+FT                   /id="PRO_0000257986"
+FT   DOMAIN          916..1001
+FT                   /note="Fibronectin type-III"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   REGION          179..469
+FT                   /note="Catalytic domain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0TR53"
+FT   COILED          515..543
+FT                   /evidence="ECO:0000255"
+FT   COILED          573..597
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        298
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0TR53, ECO:0000305"
+FT   BINDING         187
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0TR53"
+FT   BINDING         218
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0TR53"
+FT   BINDING         297
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0TR53"
+FT   BINDING         335
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0TR53"
+FT   BINDING         394..396
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2CEE3"
+FT   BINDING         401
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2CEE3"
+FT   BINDING         429
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0TR53"
+SQ   SEQUENCE   1001 AA;  111109 MW;  E0C0A1575073946E CRC64;
+     MKRKMLKRLL TSAFACMFIA NGLITTTVRA VGPKTGEENQ VLVPNLNPTP ENLEVVGDGF
+     KITSSINLVG EEEADENAVN ALREFLTANN IEINSENDPN STTLIIGEVD DDIPELDEAL
+     NGTTAENLKE EGYALVSNDG KIAIEGKDGD GTFYGVQTFK QLVKESNIPE VNITDYPTVS
+     ARGIVEGFYG TPWTHKDRLD QIKFYGENKL NTYIYAPKDD PYHREKWREP YPENEMQRMQ
+     ELIDASAENK VDFVFGISPG IDIRFDGEAG EEDFNHLIAK AESLYDMGVR SFAIYWDDIQ
+     DKSAAKHAQV LNRFNEEFVK AKGDVKPLIT VPTEYDTGAM VSNGQPRTYT RIFAETVDPS
+     IEVMWTGPGV VTNEIPLSDA QLISGIYNRN MAVWWNYPVT DYFKGKLALG PMHGLDKGLN
+     QYVDFFTVNP MEHAELSKIS IHTAADYSWN MDNYDYDKAW NRAIDMLYGD LAEDMKVFAN
+     HSTRMDNKTW AKSGREDAPE LRAKMDELWN KLSSKEDASA LIEELYGEFA RMEEACNNLK
+     ANLPEVALEE CSRQLDELIT LAQGDKASLD MIVAQLNEDT EAYESAKEIA QNKLNTALSS
+     FAVISEKVAQ SFIQEALSFD LTLINPRTVK ITASSEETSG ENAPASFASD GDMNTFWHSK
+     WSSPAHEGPH HLTLELDNVY EINKVKYAPR QDSKNGRITG YKVSVSLDGE NFTEVKTGTL
+     EDNAAIKFIE FDSVDAKYVR LDVTDSVSDQ ANGRGKFATA AEVNVHGKLK EAAEVTGSVS
+     LEALEEVQVG ENIEVGVGID ELVNAEAFAY DFTLNYDENA FEYVEAISDD GVFVNAKKIE
+     DGKVRVLVSS LTGEPLPAKE VLAKVVLRAE AKTEGSNLSV TNSSVGDGEG LVHEIAGTEK
+     TVNIIEGTSP EIVVNPVRDF KASEINKKNV TVTWTEPETT EGLEGYILYK DGKKVAEIGK
+     DETSYTFKKL NRHTIYNFKI AAKYSNGEVS SKESLTLRTA R
+//

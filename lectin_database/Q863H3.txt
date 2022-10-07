@@ -1,0 +1,188 @@
+ID   KLRD1_BOVIN             Reviewed;         190 AA.
+AC   Q863H3; A3R3C2; A3R3C3; A3R3C4;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 2.
+DT   25-MAY-2022, entry version 95.
+DE   RecName: Full=Natural killer cells antigen CD94;
+DE   AltName: Full=Killer cell lectin-like receptor subfamily D member 1;
+DE   AltName: CD_antigen=CD94;
+GN   Name=KLRD1; Synonyms=CD94;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANTS SER-65; LEU-85; SER-96 AND
+RP   LEU-116.
+RX   PubMed=12672064; DOI=10.1002/eji.200323710;
+RA   Storset A.K., Slettedal I.O., Williams J.L., Law A., Dissen E.;
+RT   "Natural killer cell receptors in cattle: a bovine killer cell
+RT   immunoglobulin-like receptor multigene family contains members with
+RT   divergent signaling motifs.";
+RL   Eur. J. Immunol. 33:980-990(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANTS SER-65; LEU-85; SER-96; LEU-116;
+RP   LEU-155; THR-167; SER-168 AND HIS-176.
+RX   PubMed=17285285; DOI=10.1007/s00251-006-0189-z;
+RA   Birch J., Ellis S.A.;
+RT   "Complexity in the cattle CD94/NKG2 gene families.";
+RL   Immunogenetics 59:273-280(2007).
+CC   -!- FUNCTION: Immune receptor involved in self-nonself discrimination. In
+CC       complex with KLRC1 or KLRC2 on cytotoxic and regulatory lymphocyte
+CC       subsets, recognizes non-classical major histocompatibility (MHC) class
+CC       Ib molecule MHC-E loaded with self-peptides derived from the signal
+CC       sequence of classical MHC class Ia and non-classical MHC class Ib
+CC       molecules. Enables cytotoxic cells to monitor the expression of MHC
+CC       class I molecules in healthy cells and to tolerate self. Primarily
+CC       functions as a ligand binding subunit as it lacks the capacity to
+CC       signal. {ECO:0000250|UniProtKB:Q13241}.
+CC   -!- FUNCTION: KLRD1-KLRC1 acts as an immune inhibitory receptor. Key
+CC       inhibitory receptor on natural killer (NK) cells that regulates their
+CC       activation and effector functions. Dominantly counteracts T cell
+CC       receptor signaling on a subset of memory/effector CD8-positive T cells
+CC       as part of an antigen-driven response to avoid autoimmunity. On
+CC       intraepithelial CD8-positive gamma-delta regulatory T cells triggers
+CC       TGFB1 secretion, which in turn limits the cytotoxic programming of
+CC       intraepithelial CD8-positive alpha-beta T cells, distinguishing
+CC       harmless from pathogenic antigens. In MHC-E-rich tumor
+CC       microenvironment, acts as an immune inhibitory checkpoint and may
+CC       contribute to progressive loss of effector functions of NK cells and
+CC       tumor-specific T cells, a state known as cell exhaustion. Upon MHC-E-
+CC       peptide binding, transmits intracellular signals through KLRC1
+CC       immunoreceptor tyrosine-based inhibition motifs (ITIMs) by recruiting
+CC       INPP5D/SHIP-1 and INPPL1/SHIP-2 tyrosine phosphatases to ITIMs, and
+CC       ultimately opposing signals transmitted by activating receptors through
+CC       dephosphorylation of proximal signaling molecules.
+CC       {ECO:0000250|UniProtKB:Q13241}.
+CC   -!- FUNCTION: KLRD1-KLRC2 acts as an immune activating receptor. On
+CC       cytotoxic lymphocyte subsets recognizes MHC-E loaded with signal
+CC       sequence-derived peptides from non-classical MHC class Ib MHC-G
+CC       molecules, likely playing a role in the generation and effector
+CC       functions of adaptive NK cells and in maternal-fetal tolerance during
+CC       pregnancy. Regulates the effector functions of terminally
+CC       differentiated cytotoxic lymphocyte subsets, and in particular may play
+CC       a role in adaptive NK cell response to viral infection. Upon MHC-E-
+CC       peptide binding, transmits intracellular signals via the adapter
+CC       protein TYROBP/DAP12, triggering the phosphorylation of proximal
+CC       signaling molecules and cell activation.
+CC       {ECO:0000250|UniProtKB:Q13241}.
+CC   -!- SUBUNIT: Can form disulfide-bonded heterodimer with NKG2 family members
+CC       KLRC1 and KLRC2. KLRD1-KLRC1 heterodimer interacts with peptide-bound
+CC       MHC-E-B2M heterotrimeric complex. KLRD1 plays a prominent role in
+CC       directly interacting with MHC-E. KLRD1-KLRC1 interacts with much higher
+CC       affinity with peptide-bound MHC-E-B2M than KLRD1-KLRC2. Interacts with
+CC       the adapter protein TYROBP/DAP12; this interaction is required for cell
+CC       surface expression and cell activation. {ECO:0000250|UniProtKB:Q13241}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q13241};
+CC       Single-pass type II membrane protein {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF422180; AAP33622.1; -; mRNA.
+DR   EMBL; EF081290; ABO15594.1; -; mRNA.
+DR   EMBL; EF081291; ABO15595.1; -; mRNA.
+DR   EMBL; EF081292; ABO15596.1; -; mRNA.
+DR   RefSeq; NP_001002890.1; NM_001002890.1.
+DR   AlphaFoldDB; Q863H3; -.
+DR   SMR; Q863H3; -.
+DR   STRING; 9913.ENSBTAP00000037681; -.
+DR   PaxDb; Q863H3; -.
+DR   PRIDE; Q863H3; -.
+DR   GeneID; 444877; -.
+DR   KEGG; bta:444877; -.
+DR   CTD; 3824; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   HOGENOM; CLU_049894_9_3_1; -.
+DR   InParanoid; Q863H3; -.
+DR   OrthoDB; 1389571at2759; -.
+DR   TreeFam; TF336674; -.
+DR   Proteomes; UP000009136; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0045953; P:negative regulation of natural killer cell mediated cytotoxicity; ISS:UniProtKB.
+DR   GO; GO:0001915; P:negative regulation of T cell mediated cytotoxicity; ISS:UniProtKB.
+DR   GO; GO:0045954; P:positive regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   GO; GO:0002223; P:stimulatory C-type lectin receptor signaling pathway; ISS:UniProtKB.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Adaptive immunity; Cell membrane; Disulfide bond; Glycoprotein; Immunity;
+KW   Innate immunity; Lectin; Membrane; Receptor; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..190
+FT                   /note="Natural killer cells antigen CD94"
+FT                   /id="PRO_0000378460"
+FT   TOPO_DOM        1..10
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        11..31
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        32..190
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          79..186
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        104
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        144
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        69..81
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        72..83
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        100..185
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        163..177
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VARIANT         65
+FT                   /note="L -> S (in allele CD94-01 and allele CD94-03)"
+FT                   /evidence="ECO:0000269|PubMed:12672064,
+FT                   ECO:0000269|PubMed:17285285"
+FT   VARIANT         85
+FT                   /note="F -> L (in allele CD94-01 and allele CD94-03)"
+FT                   /evidence="ECO:0000269|PubMed:12672064,
+FT                   ECO:0000269|PubMed:17285285"
+FT   VARIANT         96
+FT                   /note="G -> S (in allele CD94-01 and allele CD94-03)"
+FT                   /evidence="ECO:0000269|PubMed:12672064,
+FT                   ECO:0000269|PubMed:17285285"
+FT   VARIANT         116
+FT                   /note="P -> L (in allele CD94-01 and allele CD94-03)"
+FT                   /evidence="ECO:0000269|PubMed:12672064,
+FT                   ECO:0000269|PubMed:17285285"
+FT   VARIANT         155
+FT                   /note="F -> L (in allele CD94-04)"
+FT                   /evidence="ECO:0000269|PubMed:17285285"
+FT   VARIANT         167
+FT                   /note="N -> T (in allele CD94-04)"
+FT                   /evidence="ECO:0000269|PubMed:17285285"
+FT   VARIANT         168
+FT                   /note="P -> S (in allele CD94-03)"
+FT                   /evidence="ECO:0000269|PubMed:17285285"
+FT   VARIANT         176
+FT                   /note="Y -> H (in allele CD94-04)"
+FT                   /evidence="ECO:0000269|PubMed:17285285"
+SQ   SEQUENCE   190 AA;  21927 MW;  080610DBC5676240 CRC64;
+     MAAFRTTAWR LISGVLGVIC LVLMAALGVL LKNSLTKRSV QPGPSADLQE EYNLHEEEES
+     CLGCLGSGCY SCQEKWIGYQ CNCYFISNEL KTWKDGRDFC VSHNSSLLQI QTRNEPAFMK
+     FSTSFYWIGL SYDEEHHAWL WEDNSTLSQD LLPFFKSVNP KNCIMYNPRG RILDAYCEKK
+     FRYICKQQLI
+//

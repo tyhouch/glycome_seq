@@ -1,0 +1,205 @@
+ID   SSL3_STAA8              Reviewed;         356 AA.
+AC   Q2G0X7;
+DT   03-JUL-2019, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 1.
+DT   25-MAY-2022, entry version 87.
+DE   RecName: Full=Staphylococcal superantigen-like 3 {ECO:0000303|PubMed:22665377};
+DE   Flags: Precursor;
+GN   Name=ssl3 {ECO:0000303|PubMed:22665377};
+GN   OrderedLocusNames=SAOUHSC_00386;
+OS   Staphylococcus aureus (strain NCTC 8325 / PS 47).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 8325 / PS 47;
+RA   Gillaspy A.F., Worrell V., Orvis J., Roe B.A., Dyer D.W., Iandolo J.J.;
+RT   "The Staphylococcus aureus NCTC 8325 genome.";
+RL   (In) Fischetti V., Novick R., Ferretti J., Portnoy D., Rood J. (eds.);
+RL   Gram positive pathogens, 2nd edition, pp.381-412, ASM Press, Washington
+RL   D.C. (2006).
+RN   [2]
+RP   FUNCTION, AND INTERACTION WITH HOST TLR2.
+RX   PubMed=22665377; DOI=10.1128/iai.00399-12;
+RA   Yokoyama R., Itoh S., Kamoshida G., Takii T., Fujii S., Tsuji T.,
+RA   Onozaki K.;
+RT   "Staphylococcal superantigen-like protein 3 binds to the Toll-like receptor
+RT   2 extracellular domain and inhibits cytokine production induced by
+RT   Staphylococcus aureus, cell wall component, or lipopeptides in murine
+RT   macrophages.";
+RL   Infect. Immun. 80:2816-2825(2012).
+RN   [3]
+RP   FUNCTION, INTERACTION WITH HOST TLR2, AND MUTAGENESIS OF ARG-338.
+RC   STRAIN=NCTC 8325 / PS 47;
+RX   PubMed=22714643; DOI=10.1007/s00109-012-0926-8;
+RA   Bardoel B.W., Vos R., Bouman T., Aerts P.C., Bestebroer J., Huizinga E.G.,
+RA   Brondijk T.H., van Strijp J.A., de Haas C.J.;
+RT   "Evasion of Toll-like receptor 2 activation by staphylococcal superantigen-
+RT   like protein 3.";
+RL   J. Mol. Med. 90:1109-1120(2012).
+RN   [4]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RC   STRAIN=NCTC 8325 / PS 47;
+RX   PubMed=28858870; DOI=10.1159/000479100;
+RA   Koymans K.J., Goldmann O., Karlsson C.A.Q., Sital W., Thaenert R.,
+RA   Bisschop A., Vrieling M., Malmstroem J., van Kessel K.P.M., de Haas C.J.C.,
+RA   van Strijp J.A.G., Medina E.;
+RT   "The TLR2 Antagonist Staphylococcal Superantigen-Like Protein 3 Acts as a
+RT   Virulence Factor to Promote Bacterial Pathogenicity in vivo.";
+RL   J. Innate Immun. 9:561-573(2017).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.94 ANGSTROMS) OF 164-356, MUTAGENESIS OF PHE-186
+RP   AND PHE-188, FUNCTION, INTERACTION WITH HOST TLR2, AND DOMAIN.
+RX   PubMed=26283364; DOI=10.1073/pnas.1502026112;
+RA   Koymans K.J., Feitsma L.J., Brondijk T.H., Aerts P.C., Lukkien E.,
+RA   Loessl P., van Kessel K.P., de Haas C.J., van Strijp J.A., Huizinga E.G.;
+RT   "Structural basis for inhibition of TLR2 by staphylococcal superantigen-
+RT   like protein 3 (SSL3).";
+RL   Proc. Natl. Acad. Sci. U.S.A. 112:11018-11023(2015).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) OF 31-356, AND DOMAIN.
+RG   Center for Structural Genomics of Infectious Diseases (CSGID);
+RA   Minasov G., Nocadello S., Shuvalova L., Filippova E.V., Halavaty A.,
+RA   Dubrovska I., Bagnoli F., Falugi F., Bottomley M., Grandi G.,
+RA   Anderson W.F.;
+RT   "1.75 Angstrom Crystal Structure of Superantigen-like Protein, Exotoxin
+RT   from Staphylococcus aureus, in Complex with Sialyl-LewisX.";
+RL   Submitted (FEB-2016) to the PDB data bank.
+CC   -!- FUNCTION: Secreted protein that plays an essential role in immune
+CC       innate response inhibition by interacting with and inhibiting host
+CC       TLR2. In turn, bacteria recognition by immune cells is impaired and
+CC       cytokine production is inhibited (PubMed:22665377, PubMed:22714643).
+CC       Mechanistically, by interacting with TLR2, blocks ligand binding and
+CC       thus inhibits activation (PubMed:26283364). Second, by interacting with
+CC       an already formed TLR2-lipopeptide complex, prevents TLR
+CC       heterodimerization and downstream signaling. The interaction with host
+CC       TLR2 does not involve sialyl Lewis X interactions (PubMed:26283364).
+CC       {ECO:0000269|PubMed:22665377, ECO:0000269|PubMed:22714643,
+CC       ECO:0000269|PubMed:26283364}.
+CC   -!- SUBUNIT: Interacts with host TLR2 (via its extracellular domain).
+CC       {ECO:0000269|PubMed:22665377, ECO:0000269|PubMed:22714643,
+CC       ECO:0000269|PubMed:26283364}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:28858870}.
+CC   -!- DOMAIN: The C-terminal domain contains a V-shape binding site for
+CC       sialyl Lewis X. {ECO:0000269|PubMed:26283364}.
+CC   -!- SIMILARITY: Belongs to the staphylococcal/streptococcal toxin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000253; ABD29550.1; -; Genomic_DNA.
+DR   RefSeq; WP_000784023.1; NZ_LS483365.1.
+DR   RefSeq; YP_498973.1; NC_007795.1.
+DR   PDB; 5D3D; X-ray; 1.94 A; A/B=164-356.
+DR   PDB; 5D3I; X-ray; 3.20 A; B=164-356.
+DR   PDB; 5I4D; X-ray; 1.75 A; A/B=31-356.
+DR   PDBsum; 5D3D; -.
+DR   PDBsum; 5D3I; -.
+DR   PDBsum; 5I4D; -.
+DR   AlphaFoldDB; Q2G0X7; -.
+DR   SMR; Q2G0X7; -.
+DR   STRING; 1280.SAXN108_0478; -.
+DR   UniLectin; Q2G0X7; -.
+DR   EnsemblBacteria; ABD29550; ABD29550; SAOUHSC_00386.
+DR   GeneID; 3919122; -.
+DR   KEGG; sao:SAOUHSC_00386; -.
+DR   PATRIC; fig|93061.5.peg.355; -.
+DR   HOGENOM; CLU_054950_1_0_9; -.
+DR   OMA; FMNVIPD; -.
+DR   Proteomes; UP000008816; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR008992; Enterotoxin.
+DR   InterPro; IPR015282; SSL_OB.
+DR   InterPro; IPR006126; Staph/Strept_toxin_CS.
+DR   InterPro; IPR008375; Staph_exotoxin.
+DR   InterPro; IPR016091; SuperAg_toxin_C.
+DR   InterPro; IPR013307; Superantigen_bac.
+DR   Pfam; PF09199; SSL_OB; 1.
+DR   PRINTS; PR01898; SAGSUPRFAMLY.
+DR   PRINTS; PR01800; STAPHEXOTOXN.
+DR   SUPFAM; SSF50203; SSF50203; 1.
+DR   SUPFAM; SSF54334; SSF54334; 1.
+DR   PROSITE; PS00278; STAPH_STREP_TOXIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Reference proteome; Secreted; Signal; Virulence.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..356
+FT                   /note="Staphylococcal superantigen-like 3"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000447509"
+FT   REGION          61..165
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          228..326
+FT                   /note="Sialyl Lewis X-binding"
+FT                   /evidence="ECO:0000269|PubMed:26283364"
+FT   COMPBIAS        71..100
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        101..163
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MUTAGEN         186
+FT                   /note="F->A: About 100-fold reduction in cytokine
+FT                   production, when associated with A-188."
+FT                   /evidence="ECO:0000269|PubMed:26283364"
+FT   MUTAGEN         188
+FT                   /note="F->A: About 100-fold reduction in cytokine
+FT                   production, when associated with A-188."
+FT                   /evidence="ECO:0000269|PubMed:26283364"
+FT   MUTAGEN         338
+FT                   /note="R->A: About 75% loss of human TLR2 binding."
+FT                   /evidence="ECO:0000269|PubMed:22714643"
+FT   HELIX           169..174
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          180..189
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          193..196
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          198..201
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          203..206
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          208..211
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   HELIX           216..219
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          225..232
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          242..247
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          249..251
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          259..268
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          274..283
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          286..289
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   HELIX           290..305
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   TURN            307..309
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          314..320
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          325..329
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   HELIX           336..340
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          342..344
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   HELIX           345..347
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+FT   STRAND          348..355
+FT                   /evidence="ECO:0007829|PDB:5I4D"
+SQ   SEQUENCE   356 AA;  40181 MW;  32C655251E8E87A5 CRC64;
+     MKMRTIAKTS LALGLLTTGA ITVTTQSVKA EKIQSTKVDK VPTLKAERLA MINITAGANS
+     ATTQAANTRQ ERTPKLEKAP NTNEEKTSAS KIEKISQPKQ EEQKTLNISA TPAPKQEQSQ
+     TTTESTTPKT KVTTPPSTNT PQPMQSTKSD TPQSPTIKQA QTDMTPKYED LRAYYTKPSF
+     EFEKQFGFML KPWTTVRFMN VIPNRFIYKI ALVGKDEKKY KDGPYDNIDV FIVLEDNKYQ
+     LKKYSVGGIT KTNSKKVNHK VELSITKKDN QGMISRDVSE YMITKEEISL KELDFKLRKQ
+     LIEKHNLYGN MGSGTIVIKM KNGGKYTFEL HKKLQEHRMA DVIDGTNIDN IEVNIK
+//

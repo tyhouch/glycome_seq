@@ -1,0 +1,197 @@
+ID   BGAL8_ARATH             Reviewed;         852 AA.
+AC   Q9SCV4; Q96257; Q9SK11;
+DT   10-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 2.
+DT   03-AUG-2022, entry version 139.
+DE   RecName: Full=Beta-galactosidase 8;
+DE            Short=Lactase 8;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Protein AR782;
+DE   Flags: Precursor;
+GN   Name=BGAL8; OrderedLocusNames=At2g28470; ORFNames=T17D12.3;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Gy I., Kreis M., Lecharny A.;
+RT   "The beta-galactosidases are encoding by a multigene family in Arabidopsis
+RT   thaliana.";
+RL   Submitted (OCT-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10617197; DOI=10.1038/45471;
+RA   Lin X., Kaul S., Rounsley S.D., Shea T.P., Benito M.-I., Town C.D.,
+RA   Fujii C.Y., Mason T.M., Bowman C.L., Barnstead M.E., Feldblyum T.V.,
+RA   Buell C.R., Ketchum K.A., Lee J.J., Ronning C.M., Koo H.L., Moffat K.S.,
+RA   Cronin L.A., Shen M., Pai G., Van Aken S., Umayam L., Tallon L.J.,
+RA   Gill J.E., Adams M.D., Carrera A.J., Creasy T.H., Goodman H.M.,
+RA   Somerville C.R., Copenhaver G.P., Preuss D., Nierman W.C., White O.,
+RA   Eisen J.A., Salzberg S.L., Fraser C.M., Venter J.C.;
+RT   "Sequence and analysis of chromosome 2 of the plant Arabidopsis thaliana.";
+RL   Nature 402:761-768(1999).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 647-852.
+RX   PubMed=9287109; DOI=10.1016/s0014-5793(97)00871-5;
+RA   Hirayama T., Ishida C., Kuromori T., Obata S., Shimoda C., Yamamoto M.,
+RA   Shinozaki K., Ohto C.;
+RT   "Functional cloning of a cDNA encoding Mei2-like protein from Arabidopsis
+RT   thaliana using a fission yeast pheromone receptor deficient mutant.";
+RL   FEBS Lett. 413:16-20(1997).
+RN   [5]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=16267099; DOI=10.1093/pcp/pci223;
+RA   Iglesias N., Abelenda J.A., Rodino M., Sampedro J., Revilla G., Zarra I.;
+RT   "Apoplastic glycosidases active against xyloglucan oligosaccharides of
+RT   Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 47:55-63(2006).
+RN   [6]
+RP   TISSUE SPECIFICITY, GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=17466346; DOI=10.1016/j.phytochem.2007.03.021;
+RA   Ahn Y.O., Zheng M., Bevan D.R., Esen A., Shiu S.-H., Benson J., Peng H.-P.,
+RA   Miller J.T., Cheng C.-L., Poulton J.E., Shih M.-C.;
+RT   "Functional genomic analysis of Arabidopsis thaliana glycoside hydrolase
+RT   family 35.";
+RL   Phytochemistry 68:1510-1520(2007).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, apoplast
+CC       {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=1;
+CC         Comment=A number of isoforms are produced. According to EST
+CC         sequences.;
+CC       Name=1;
+CC         IsoId=Q9SCV4-1; Sequence=Displayed;
+CC   -!- TISSUE SPECIFICITY: Expressed in roots, flowers and siliques.
+CC       {ECO:0000269|PubMed:16267099, ECO:0000269|PubMed:17466346}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 35 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAD21482.1; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ270304; CAB64744.1; -; mRNA.
+DR   EMBL; AC006587; AAD21482.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; CP002685; AEC08127.1; -; Genomic_DNA.
+DR   EMBL; CP002685; ANM62009.1; -; Genomic_DNA.
+DR   EMBL; D88744; BAA13685.1; -; mRNA.
+DR   PIR; C84685; C84685.
+DR   RefSeq; NP_001324192.1; NM_001336165.1. [Q9SCV4-1]
+DR   RefSeq; NP_850121.1; NM_179790.3. [Q9SCV4-1]
+DR   AlphaFoldDB; Q9SCV4; -.
+DR   SMR; Q9SCV4; -.
+DR   STRING; 3702.AT2G28470.1; -.
+DR   CAZy; GH35; Glycoside Hydrolase Family 35.
+DR   PaxDb; Q9SCV4; -.
+DR   PRIDE; Q9SCV4; -.
+DR   ProteomicsDB; 240654; -. [Q9SCV4-1]
+DR   EnsemblPlants; AT2G28470.1; AT2G28470.1; AT2G28470. [Q9SCV4-1]
+DR   EnsemblPlants; AT2G28470.3; AT2G28470.3; AT2G28470. [Q9SCV4-1]
+DR   GeneID; 817395; -.
+DR   Gramene; AT2G28470.1; AT2G28470.1; AT2G28470. [Q9SCV4-1]
+DR   Gramene; AT2G28470.3; AT2G28470.3; AT2G28470. [Q9SCV4-1]
+DR   KEGG; ath:AT2G28470; -.
+DR   Araport; AT2G28470; -.
+DR   TAIR; locus:2056623; AT2G28470.
+DR   eggNOG; KOG0496; Eukaryota.
+DR   InParanoid; Q9SCV4; -.
+DR   OrthoDB; 179316at2759; -.
+DR   PhylomeDB; Q9SCV4; -.
+DR   BioCyc; ARA:AT2G28470-MON; -.
+DR   PRO; PR:Q9SCV4; -.
+DR   Proteomes; UP000006548; Chromosome 2.
+DR   ExpressionAtlas; Q9SCV4; baseline and differential.
+DR   Genevisible; Q9SCV4; AT.
+DR   GO; GO:0048046; C:apoplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005773; C:vacuole; IBA:GO_Central.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR041392; GHD.
+DR   InterPro; IPR031330; Gly_Hdrlase_35_cat.
+DR   InterPro; IPR019801; Glyco_hydro_35_CS.
+DR   InterPro; IPR001944; Glycoside_Hdrlase_35.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   PANTHER; PTHR23421; PTHR23421; 1.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   Pfam; PF17834; GHD; 1.
+DR   Pfam; PF01301; Glyco_hydro_35; 1.
+DR   PRINTS; PR00742; GLHYDRLASE35.
+DR   SUPFAM; SSF49785; SSF49785; 2.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS01182; GLYCOSYL_HYDROL_F35; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Apoplast; Glycoprotein; Glycosidase; Hydrolase;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           30..852
+FT                   /note="Beta-galactosidase 8"
+FT                   /id="PRO_5000065882"
+FT   DOMAIN          766..852
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   ACT_SITE        188
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        257
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        31
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        258
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        475
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        766
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        807
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        568
+FT                   /note="V -> M (in Ref. 1; CAB64744)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        647..648
+FT                   /note="FT -> TA (in Ref. 4; BAA13685)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   852 AA;  93210 MW;  54DCFB09790EE045 CRC64;
+     MEIAAKMVKV RKMEMILLLI LVIVVAATAA NVTYDHRALV IDGKRKVLIS GSIHYPRSTP
+     EMWPELIQKS KDGGLDVIET YVFWSGHEPE KNKYNFEGRY DLVKFVKLAA KAGLYVHLRI
+     GPYVCAEWNY GGFPVWLHFV PGIKFRTDNE PFKEEMQRFT TKIVDLMKQE KLYASQGGPI
+     ILSQIENEYG NIDSAYGAAA KSYIKWSASM ALSLDTGVPW NMCQQTDAPD PMINTCNGFY
+     CDQFTPNSNN KPKMWTENWS GWFLGFGDPS PYRPVEDLAF AVARFYQRGG TFQNYYMYHG
+     GTNFDRTSGG PLISTSYDYD APIDEYGLLR QPKWGHLRDL HKAIKLCEDA LIATDPTITS
+     LGSNLEAAVY KTESGSCAAF LANVDTKSDA TVTFNGKSYN LPAWSVSILP DCKNVAFNTA
+     KINSATESTA FARQSLKPDG GSSAELGSQW SYIKEPIGIS KADAFLKPGL LEQINTTADK
+     SDYLWYSLRT DIKGDETFLD EGSKAVLHIE SLGQVVYAFI NGKLAGSGHG KQKISLDIPI
+     NLVTGTNTID LLSVTVGLAN YGAFFDLVGA GITGPVTLKS AKGGSSIDLA SQQWTYQVGL
+     KGEDTGLATV DSSEWVSKSP LPTKQPLIWY KTTFDAPSGS EPVAIDFTGT GKGIAWVNGQ
+     SIGRYWPTSI AGNGGCTESC DYRGSYRANK CLKNCGKPSQ TLYHVPRSWL KPSGNILVLF
+     EEMGGDPTQI SFATKQTGSN LCLTVSQSHP PPVDTWTSDS KISNRNRTRP VLSLKCPIST
+     QVIFSIKFAS FGTPKGTCGS FTQGHCNSSR SLSLVQKACI GLRSCNVEVS TRVFGEPCRG
+     VVKSLAVEAS CS
+//

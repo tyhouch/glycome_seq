@@ -1,0 +1,211 @@
+ID   B3GTJ_ARATH             Reviewed;         681 AA.
+AC   Q9LV16; W8Q690;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 2.
+DT   03-AUG-2022, entry version 129.
+DE   RecName: Full=Hydroxyproline O-galactosyltransferase GALT6 {ECO:0000303|PubMed:26690932};
+DE            EC=2.4.1.- {ECO:0000269|PubMed:26690932};
+DE   AltName: Full=Beta-1,3-galactosyltransferase 19 {ECO:0000305};
+GN   Name=GALT6 {ECO:0000303|PubMed:26690932};
+GN   Synonyms=B3GALT19 {ECO:0000305|PubMed:18548197};
+GN   OrderedLocusNames=At5g62620; ORFNames=MRG21.3;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=24905498; DOI=10.1111/tpj.12577;
+RA   Lao J., Oikawa A., Bromley J.R., McInerney P., Suttangkakul A.,
+RA   Smith-Moritz A.M., Plahar H., Chiu T.-Y., Gonzalez Fernandez-Nino S.M.G.,
+RA   Ebert B., Yang F., Christiansen K.M., Hansen S.F., Stonebloom S.,
+RA   Adams P.D., Ronald P.C., Hillson N.J., Hadi M.Z., Vega-Sanchez M.E.,
+RA   Loque D., Scheller H.V., Heazlewood J.L.;
+RT   "The plant glycosyltransferase clone collection for functional genomics.";
+RL   Plant J. 79:517-529(2014).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10718197; DOI=10.1093/dnares/7.1.31;
+RA   Sato S., Nakamura Y., Kaneko T., Katoh T., Asamizu E., Kotani H.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. X. Sequence
+RT   features of the regions of 3,076,755 bp covered by sixty P1 and TAC
+RT   clones.";
+RL   DNA Res. 7:31-63(2000).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=14993207; DOI=10.1101/gr.1515604;
+RA   Castelli V., Aury J.-M., Jaillon O., Wincker P., Clepet C., Menard M.,
+RA   Cruaud C., Quetier F., Scarpelli C., Schaechter V., Temple G., Caboche M.,
+RA   Weissenbach J., Salanoubat M.;
+RT   "Whole genome sequence comparisons and 'full-length' cDNA sequences: a
+RT   combined approach to evaluate and improve Arabidopsis genome annotation.";
+RL   Genome Res. 14:406-413(2004).
+RN   [5]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=17630273; DOI=10.1105/tpc.107.052985;
+RA   Strasser R., Bondili J.S., Vavra U., Schoberer J., Svoboda B., Gloessl J.,
+RA   Leonard R., Stadlmann J., Altmann F., Steinkellner H., Mach L.;
+RT   "A unique beta-1,3-galactosyltransferase is indispensable for the
+RT   biosynthesis of N-glycans containing Lewis a structures in Arabidopsis
+RT   thaliana.";
+RL   Plant Cell 19:2278-2292(2007).
+RN   [6]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=18548197; DOI=10.1007/s11103-008-9351-3;
+RA   Qu Y., Egelund J., Gilson P.R., Houghton F., Gleeson P.A., Schultz C.J.,
+RA   Bacic A.;
+RT   "Identification of a novel group of putative Arabidopsis thaliana beta-
+RT   (1,3)-galactosyltransferases.";
+RL   Plant Mol. Biol. 68:43-59(2008).
+RN   [7]
+RP   FUNCTION, COFACTOR, SUBCELLULAR LOCATION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=26690932; DOI=10.1186/s12870-015-0670-7;
+RA   Basu D., Tian L., Wang W., Bobbs S., Herock H., Travers A., Showalter A.M.;
+RT   "A small multigene hydroxyproline-O-galactosyltransferase family functions
+RT   in arabinogalactan-protein glycosylation, growth and development in
+RT   Arabidopsis.";
+RL   BMC Plant Biol. 15:295-295(2015).
+CC   -!- FUNCTION: Possesses hydroxyproline O-galactosyltransferase activity.
+CC       Transfers galactose from UDP-galactose to hydroxyproline residues in
+CC       the arabinogalactan proteins (AGPs). Is specific for AGPs containing
+CC       non-contiguous peptidyl hydroxyproline residues. Utilizes UDP-galactose
+CC       solely as sugar donor. The addition of galactose onto the peptidyl
+CC       hydroxyproline residues in AGP core proteins represents the first
+CC       committed step in arabinogalactan polysaccharide addition. AGP glycans
+CC       play essential roles in both vegetative and reproductive plant growth.
+CC       {ECO:0000269|PubMed:26690932}.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:26690932};
+CC   -!- PATHWAY: Protein modification; protein glycosylation. {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000269|PubMed:26690932}; Single-pass type II membrane protein
+CC       {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=1;
+CC         Comment=A number of isoforms are produced. According to EST
+CC         sequences.;
+CC       Name=1;
+CC         IsoId=Q9LV16-1; Sequence=Displayed;
+CC   -!- TISSUE SPECIFICITY: Expressed in junveile leaves and stems, and at
+CC       lower levels in cauline leaves and siliques.
+CC       {ECO:0000269|PubMed:17630273}.
+CC   -!- DISRUPTION PHENOTYPE: Reduced levels of arabinogalactan proteins. Root
+CC       hair defects. Reduced seed sets. Reduced seed coat mucilage. Increased
+CC       sensitivity to salt stress. Premature senescence.
+CC       {ECO:0000269|PubMed:26690932}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 31 family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA97209.1; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC       Sequence=BX831498; Type=Miscellaneous discrepancy; Note=Sequencing errors.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KJ138629; AHL38569.1; -; mRNA.
+DR   EMBL; AB020751; BAA97209.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; CP002688; AED97631.1; -; Genomic_DNA.
+DR   EMBL; BX831498; -; NOT_ANNOTATED_CDS; mRNA.
+DR   RefSeq; NP_201068.1; NM_125657.5. [Q9LV16-1]
+DR   AlphaFoldDB; Q9LV16; -.
+DR   SMR; Q9LV16; -.
+DR   STRING; 3702.AT5G62620.1; -.
+DR   CAZy; GT31; Glycosyltransferase Family 31.
+DR   iPTMnet; Q9LV16; -.
+DR   PaxDb; Q9LV16; -.
+DR   PRIDE; Q9LV16; -.
+DR   ProteomicsDB; 240964; -. [Q9LV16-1]
+DR   EnsemblPlants; AT5G62620.1; AT5G62620.1; AT5G62620. [Q9LV16-1]
+DR   GeneID; 836383; -.
+DR   Gramene; AT5G62620.1; AT5G62620.1; AT5G62620. [Q9LV16-1]
+DR   KEGG; ath:AT5G62620; -.
+DR   Araport; AT5G62620; -.
+DR   TAIR; locus:2172219; AT5G62620.
+DR   eggNOG; KOG2287; Eukaryota.
+DR   HOGENOM; CLU_017063_2_0_1; -.
+DR   InParanoid; Q9LV16; -.
+DR   PhylomeDB; Q9LV16; -.
+DR   BioCyc; ARA:AT5G62620-MON; -.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q9LV16; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9LV16; baseline and differential.
+DR   Genevisible; Q9LV16; AT.
+DR   GO; GO:0005794; C:Golgi apparatus; IDA:TAIR.
+DR   GO; GO:0000139; C:Golgi membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008378; F:galactosyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0016757; F:glycosyltransferase activity; IBA:GO_Central.
+DR   GO; GO:1990714; F:hydroxyproline O-galactosyltransferase activity; IDA:TAIR.
+DR   GO; GO:0010405; P:arabinogalactan protein metabolic process; IMP:UniProtKB.
+DR   GO; GO:0048354; P:mucilage biosynthetic process involved in seed coat development; IMP:TAIR.
+DR   GO; GO:1900056; P:negative regulation of leaf senescence; IMP:TAIR.
+DR   GO; GO:0018258; P:protein O-linked glycosylation via hydroxyproline; IDA:UniProtKB.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   InterPro; IPR002659; Glyco_trans_31.
+DR   PANTHER; PTHR11214; PTHR11214; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   Pfam; PF01762; Galactosyl_T; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Glycoprotein; Glycosyltransferase; Golgi apparatus;
+KW   Manganese; Membrane; Reference proteome; Signal-anchor; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..681
+FT                   /note="Hydroxyproline O-galactosyltransferase GALT6"
+FT                   /id="PRO_0000359429"
+FT   TOPO_DOM        1..28
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        29..49
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        50..681
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          187..401
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   REGION          57..80
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        64..79
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        629
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   681 AA;  77741 MW;  096DB0745ECDDE0B CRC64;
+     MRKPKLSKLE RLEKFDIFVS LSKQRSVQIL MAVGLLYMLL ITFEIPFVFK TGLSSLSQDP
+     LTRPEKHNSQ RELQERRAPT RPLKSLLYQE SQSESPAQGL RRRTRILSSL RFDPETFNPS
+     SKDGSVELHK SAKVAWEVGR KIWEELESGK TLKALEKEKK KKIEEHGTNS CSLSVSLTGS
+     DLLKRGNIME LPCGLTLGSH ITVVGKPRAA HSEKDPKISM LKEGDEAVKV SQFKLELQGL
+     KAVEGEEPPR ILHLNPRLKG DWSGKPVIEQ NTCYRMQWGS AQRCEGWRSR DDEETVDGQV
+     KCEKWARDDS ITSKEEESSK AASWWLSRLI GRSKKVTVEW PFPFTVDKLF VLTLSAGLEG
+     YHVSVDGKHV TSFPYRTGFT LEDATGLTIN GDIDVHSVFA GSLPTSHPSF SPQRHLELSS
+     NWQAPSLPDE QVDMFIGILS AGNHFAERMA VRRSWMQHKL VKSSKVVARF FVALHSRKEV
+     NVELKKEAEF FGDIVIVPYM DSYDLVVLKT VAICEYGAHQ LAAKFIMKCD DDTFVQVDAV
+     LSEAKKTPTD RSLYIGNINY YHKPLRQGKW SVTYEEWPEE DYPPYANGPG YILSNDISRF
+     IVKEFEKHKL RMFKMEDVSV GMWVEQFNNG TKPVDYIHSL RFCQFGCIEN YLTAHYQSPR
+     QMICLWDKLV LTGKPQCCNM R
+//

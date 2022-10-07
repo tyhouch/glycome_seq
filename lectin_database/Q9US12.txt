@@ -1,0 +1,137 @@
+ID   YK66_SCHPO              Reviewed;         612 AA.
+AC   Q9US12; P78846;
+DT   23-MAY-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 117.
+DE   RecName: Full=Putative zinc metalloproteinase C607.06c;
+DE            EC=3.4.24.-;
+GN   ORFNames=SPAC607.06c;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 238-577.
+RC   STRAIN=PR745;
+RX   PubMed=9501991; DOI=10.1093/dnares/4.6.363;
+RA   Yoshioka S., Kato K., Nakai K., Okayama H., Nojima H.;
+RT   "Identification of open reading frames in Schizosaccharomyces pombe
+RT   cDNAs.";
+RL   DNA Res. 4:363-369(1997).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the peptidase M10B family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329670; CAB63793.1; -; Genomic_DNA.
+DR   EMBL; D89196; BAA13857.1; ALT_SEQ; mRNA.
+DR   PIR; T42995; T42995.
+DR   PIR; T50226; T50226.
+DR   RefSeq; NP_593595.1; NM_001019026.2.
+DR   AlphaFoldDB; Q9US12; -.
+DR   SMR; Q9US12; -.
+DR   BioGRID; 279600; 2.
+DR   STRING; 4896.SPAC607.06c.1; -.
+DR   MaxQB; Q9US12; -.
+DR   PaxDb; Q9US12; -.
+DR   PRIDE; Q9US12; -.
+DR   EnsemblFungi; SPAC607.06c.1; SPAC607.06c.1:pep; SPAC607.06c.
+DR   GeneID; 2543169; -.
+DR   KEGG; spo:SPAC607.06c; -.
+DR   PomBase; SPAC607.06c; -.
+DR   VEuPathDB; FungiDB:SPAC607.06c; -.
+DR   eggNOG; KOG4525; Eukaryota.
+DR   HOGENOM; CLU_009601_2_1_1; -.
+DR   InParanoid; Q9US12; -.
+DR   OMA; ALRFRFH; -.
+DR   PhylomeDB; Q9US12; -.
+DR   PRO; PR:Q9US12; -.
+DR   Proteomes; UP000002485; Chromosome I.
+DR   GO; GO:0032153; C:cell division site; HDA:PomBase.
+DR   GO; GO:0005829; C:cytosol; HDA:PomBase.
+DR   GO; GO:0005634; C:nucleus; HDA:PomBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008237; F:metallopeptidase activity; ISM:PomBase.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   InterPro; IPR021917; Unchr_Zn-peptidase-like.
+DR   Pfam; PF12044; Metallopep; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   2: Evidence at transcript level;
+KW   Hydrolase; Lectin; Metal-binding; Metalloprotease; Protease;
+KW   Reference proteome; Zinc.
+FT   CHAIN           1..612
+FT                   /note="Putative zinc metalloproteinase C607.06c"
+FT                   /id="PRO_0000078180"
+FT   DOMAIN          477..612
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   ACT_SITE        304
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         303
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         307
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         313
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+SQ   SEQUENCE   612 AA;  68571 MW;  962073F3F4E84D05 CRC64;
+     MSQIILDNIS QNETVYNRFV IIHGRVGPRA SYCPQTINVK HHENSFPEQT WVVTDLYFKA
+     IIHVVPGDNT ILFTTDDGGK LELQVYYQLL VDNPFYCIAF IVGKDSDLSF DAPHGAKNDI
+     DEGIRKLRCA AYLWQAFTAE CMYRNGYGRR SFRIEESVQP DTMSCLSPWG TERLTATINI
+     LRSDKTAEEI RSVPPDQLFH IAGDAVDKLH LPEPWHYMCM FLDTRYDPST QKIRGHVALG
+     GGTDMHKLGV FGSHSLHSFP SALEYVVPVF SDARRIPSYL ANDANESSTI WECANIGIGA
+     MLHELGHTLG CPHQPDGIML RSYPIFNRSF TTREFECVRT GSKGLAPVLA KDECSWHHLD
+     MLRFFYHPCF KLPSDPTYPS DIETNYFVKG ETITFVNSTG IFLIEIEYNG QTKGWKEFNP
+     PVGEASLTDA EIRSLSNASS NQDYRVRVLS RNFKCIDLNN VPEIIKNAKV ESSFGTVYRS
+     ERYGLRGCNG KELSNILIAP EKFKPTKIRV HCGLALDGIE VFFGDESVLL GNRGGSPHDF
+     EIQGSQIVGF QIRCGAWVDG ISIVLENGKT SPFYGNANGG GLKSYLVPKG FQLVGFYGTL
+     GPFMDSIGFF IK
+//

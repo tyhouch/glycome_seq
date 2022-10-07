@@ -1,0 +1,273 @@
+ID   AIMA_KRIFD              Reviewed;         723 AA.
+AC   D2PPM7;
+DT   25-APR-2018, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAR-2010, sequence version 1.
+DT   03-AUG-2022, entry version 67.
+DE   RecName: Full=1,3-alpha-isomaltosidase {ECO:0000303|PubMed:27302067};
+DE            EC=3.2.1.204 {ECO:0000269|PubMed:27302067};
+GN   OrderedLocusNames=Kfla_1895 {ECO:0000312|EMBL:ADB30989.1};
+OS   Kribbella flavida (strain DSM 17836 / JCM 10339 / NBRC 14399).
+OC   Bacteria; Actinobacteria; Propionibacteriales; Kribbellaceae; Kribbella.
+OX   NCBI_TaxID=479435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17836 / JCM 10339 / NBRC 14399
+RC   {ECO:0000312|Proteomes:UP000007967};
+RG   US DOE Joint Genome Institute (JGI-PGF);
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Kyrpides N., Mavromatis K., Ivanova N.,
+RA   Saunders E., Brettin T., Detter J.C., Han C., Larimer F., Land M.,
+RA   Hauser L., Markowitz V., Cheng J.-F., Hugenholtz P., Woyke T., Wu D.,
+RA   Pukall R., Klenk H.-P., Eisen J.A.;
+RT   "The complete genome of Kribbella flavida DSM 17836.";
+RL   Submitted (SEP-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, MUTAGENESIS OF
+RP   ASP-451 AND ASP-516, SUBCELLULAR LOCATION, ACTIVE SITE, AND SUBSTRATE
+RP   SPECIFICITY.
+RC   STRAIN=DSM 17836 / JCM 10339 / NBRC 14399;
+RX   PubMed=27302067; DOI=10.1074/jbc.m116.727305;
+RA   Tagami T., Miyano E., Sadahiro J., Okuyama M., Iwasaki T., Kimura A.;
+RT   "Two novel glycoside hydrolases responsible for the catabolism of cyclobis-
+RT   (1->6)-alpha-nigerosyl.";
+RL   J. Biol. Chem. 291:16438-16447(2016).
+CC   -!- FUNCTION: Involved in the intracellular degradation of the cyclic
+CC       tetrasaccharide cyclobis-(1-6)-alpha-nigerosyl (CNN) formed
+CC       extracellularly from starch. Catalyzes the hydrolysis of the alpha-1,3-
+CC       glucosidic linkage of cyclobis-(1-6)-alpha-nigerosyl (CNN) to yield
+CC       isomaltose via a possible linear tetrasaccharide. It has a strong
+CC       preference for the alpha-(1-3)-isomaltosyl moiety.
+CC       {ECO:0000269|PubMed:27302067}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cyclobis-(1->3)-alpha-D-isomaltosyl + 2 H2O = 2 isomaltose;
+CC         Xref=Rhea:RHEA:24844, ChEBI:CHEBI:15377, ChEBI:CHEBI:28189,
+CC         ChEBI:CHEBI:136822; EC=3.2.1.204;
+CC         Evidence={ECO:0000269|PubMed:27302067};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=7.63 mM for cyclobis-(1-6)-alpha-nigerosyl (CNN)
+CC         {ECO:0000269|PubMed:27302067};
+CC         Note=kcat is 22.3 sec(-1) for cyclobis-(1-6)-alpha-nigerosyl (CNN) as
+CC         substrate. {ECO:0000269|PubMed:27302067};
+CC       pH dependence:
+CC         Optimum pH is 7.9. {ECO:0000269|PubMed:27302067};
+CC       Temperature dependence:
+CC         Optimum temperature is under 41 degrees Celsius.
+CC         {ECO:0000269|PubMed:27302067};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:27302067}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001736; ADB30989.1; -; Genomic_DNA.
+DR   RefSeq; WP_012919545.1; NC_013729.1.
+DR   PDB; 5X3I; X-ray; 2.10 A; A/B=1-723.
+DR   PDB; 5X3J; X-ray; 2.30 A; A/B=1-723.
+DR   PDB; 5X3K; X-ray; 2.50 A; A/B=1-723.
+DR   PDBsum; 5X3I; -.
+DR   PDBsum; 5X3J; -.
+DR   PDBsum; 5X3K; -.
+DR   AlphaFoldDB; D2PPM7; -.
+DR   SMR; D2PPM7; -.
+DR   STRING; 479435.Kfla_1895; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   EnsemblBacteria; ADB30989; ADB30989; Kfla_1895.
+DR   KEGG; kfl:Kfla_1895; -.
+DR   eggNOG; COG1501; Bacteria.
+DR   HOGENOM; CLU_009658_1_0_11; -.
+DR   OMA; EWSFDPE; -.
+DR   OrthoDB; 469334at2; -.
+DR   BioCyc; MetaCyc:MON-20073; -.
+DR   BRENDA; 3.2.1.204; 14106.
+DR   Proteomes; UP000007967; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cytoplasm; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Reference proteome.
+FT   CHAIN           1..723
+FT                   /note="1,3-alpha-isomaltosidase"
+FT                   /id="PRO_0000443932"
+FT   ACT_SITE        451
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000305|PubMed:27302067"
+FT   ACT_SITE        454
+FT                   /evidence="ECO:0000250|UniProtKB:P31434"
+FT   ACT_SITE        516
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000305|PubMed:27302067"
+FT   BINDING         581
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P32138"
+FT   MUTAGEN         451
+FT                   /note="D->A: Loss of isomaltosidase activity."
+FT                   /evidence="ECO:0000269|PubMed:27302067"
+FT   MUTAGEN         516
+FT                   /note="D->A: Loss of isomaltosidase activity."
+FT                   /evidence="ECO:0000269|PubMed:27302067"
+FT   TURN            6..9
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          19..24
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          32..36
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          41..47
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          50..53
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           63..67
+FT                   /evidence="ECO:0007829|PDB:5X3J"
+FT   TURN            71..73
+FT                   /evidence="ECO:0007829|PDB:5X3J"
+FT   HELIX           76..81
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          87..91
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          99..107
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          110..113
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          117..119
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          122..126
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          131..134
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           136..138
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          139..147
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          150..159
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          165..171
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          182..185
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           194..197
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          201..210
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          212..214
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          217..221
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          227..232
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          235..241
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          247..256
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           257..268
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           276..279
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          282..284
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           291..303
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          309..315
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          319..325
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           341..343
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           355..364
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          368..373
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           384..395
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          405..407
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          412..415
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           426..434
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           437..441
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          447..450
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           469..472
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   TURN            473..475
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           476..490
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          497..500
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           506..508
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          509..513
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          518..520
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           521..536
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          541..545
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          549..552
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           556..566
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          569..573
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           590..597
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           602..630
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          634..636
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           638..640
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           646..650
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          655..657
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   TURN            658..660
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          661..663
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          672..678
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          683..685
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   TURN            686..688
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          694..700
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   STRAND          708..711
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           712..714
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+FT   HELIX           715..722
+FT                   /evidence="ECO:0007829|PDB:5X3I"
+SQ   SEQUENCE   723 AA;  80101 MW;  69A093BB5820BE56 CRC64;
+     MIKHRPHGIE HPYAVSPDQR VPVLPLAGEP VLLGVVAPEA DRVVCEWGTL ELPLSATSAA
+     AADAAALAGG EGHLSEAQAK SLGADGAWSV QTPPLAEPVK YRFHAHRGGA AESTEWFEVS
+     PAVWTADGVG EVRGGGERVR GVEWLVSSQG VHRGRFRLQL QDGDRLVGFG ERYDALDQRG
+     RELDAVVFEQ YKAQGVHGRT YLPMPFAHVV GADGNGWGFH VRTSRRTWYS SAGNELTVEV
+     ALGDEPVVDL AIYEGDPATV LTGFLDEVGR AEELPGWVFR LWASGNEWNT QQLVTARMDT
+     HRDLAIPVGA VVIEAWSDEQ GITIWRDAVY AVTEDGSAHR AEDFSYRPDG AWPDPKAMID
+     ELHARGIKVI LWQIPLQKTE FSTGQVAADA AAMVRDGHAV LEADGTAYRN RGWWFPQALM
+     PDLSVQRTRD WWTEKRRYLV EHFDVDGFKT DGGEHAWGHD LVYADGRKGD EGNNLYPVHY
+     ARAFGDLLRS AGKAPVTFSR AGFTGSQAHG IFWAGDEDST WQAFRSSVTA GLTAASCGIV
+     YWGWDLAGFS GPVPDAELYL RAAAASAFMP IMQYHSEFNH HQLPLRDRTP WHVAETTGDD
+     RVVPLFRRFA TLRESLVPYL TEQAARTIAT DRPLMRPLFF DHENDPEIWN HPYQYLLGDE
+     LLINPVLEPG ATTWTTYLPA GEWIDVWTGD RVPSGLVTRD VPLEVVPVYC RASRWSELQP
+     VFS
+//

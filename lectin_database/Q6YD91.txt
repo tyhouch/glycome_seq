@@ -1,0 +1,159 @@
+ID   Q6YD91_ERYCG            Unreviewed;       242 AA.
+AC   Q6YD91;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 95.
+DE   SubName: Full=Lectin {ECO:0000313|EMBL:AAO16568.1};
+DE   Flags: Fragment;
+GN   Name=ECL {ECO:0000313|EMBL:AAO16568.1};
+OS   Erythrina crista-galli (Cockspur coral tree) (Micropteryx crista-galli).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Erythrina.
+OX   NCBI_TaxID=49817 {ECO:0000313|EMBL:AAO16568.1};
+RN   [1] {ECO:0000313|EMBL:AAO16568.1}
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=12880778; DOI=10.1016/S1046-5928(03)00125-6;
+RA   Stancombe P.R., Alexander F.C., Ling R., Matheson M.A., Shone C.C.,
+RA   Chaddock J.A.;
+RT   "Isolation of the gene and large-scale expression and purification of
+RT   recombinant Erythrina cristagalli lectin.";
+RL   Protein Expr. Purif. 30:283-292(2003).
+RN   [2] {ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ}
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) IN COMPLEX WITH CALCIUM; GALACTOSE
+RP   AND MANGANESE, AND GLYCOSYLATION AT ASN-113.
+RX   PubMed=15201215; DOI=10.1093/glycob/cwh114;
+RA   Turton K., Natesh R., Thiyagarajan N., Chaddock J.A., Acharya K.R.;
+RT   "Crystal structures of Erythrina cristagalli lectin with bound N-linked
+RT   oligosaccharide and lactose.";
+RL   Glycobiology 14:923-929(2004).
+RN   [3] {ECO:0007829|PDB:6AQ5}
+RP   X-RAY CRYSTALLOGRAPHY (2.19 ANGSTROMS) OF 1-239.
+RA   Gerlits O., Woods R.J., Sood A.;
+RT   "X-ray crystal structure of Erythrina crista-galli lectin in complex with
+RT   epilactose.";
+RL   Submitted (AUG-2017) to the PDB data bank.
+RN   [4] {ECO:0007829|PDB:6AQ6}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 1-239.
+RX   PubMed=30086239; DOI=10.1021/acs.jcim.8b00120;
+RA   Sood A., Gerlits O.O., Ji Y., Bovin N.V., Coates L., Woods R.J.;
+RT   "Defining the Specificity of Carbohydrate-Protein Interactions by
+RT   Quantifying Functional Group Contributions.";
+RL   J. Chem. Inf. Model. 58:1889-1901(2018).
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family.
+CC       {ECO:0000256|ARBA:ARBA00007606}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY158072; AAO16568.1; -; Genomic_DNA.
+DR   PDB; 1UZY; X-ray; 2.00 A; A/B=1-242.
+DR   PDB; 1UZZ; X-ray; 2.13 A; A/B/C/D=1-242.
+DR   PDB; 1V00; X-ray; 1.70 A; A/B/C/D=1-242.
+DR   PDB; 6AQ5; X-ray; 2.19 A; A/B=1-239.
+DR   PDB; 6AQ6; X-ray; 1.90 A; A/B=1-239.
+DR   PDBsum; 1UZY; -.
+DR   PDBsum; 1UZZ; -.
+DR   PDBsum; 1V00; -.
+DR   PDBsum; 6AQ5; -.
+DR   PDBsum; 6AQ6; -.
+DR   SMR; Q6YD91; -.
+DR   UniLectin; Q6YD91; -.
+DR   EvolutionaryTrace; Q6YD91; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ};
+KW   Calcium {ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ};
+KW   Lectin {ECO:0000256|ARBA:ARBA00022734};
+KW   Manganese {ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ};
+KW   Metal-binding {ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ}.
+FT   DOMAIN          4..236
+FT                   /note="Lectin_legB"
+FT                   /evidence="ECO:0000259|Pfam:PF00139"
+FT   BINDING         89
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   BINDING         107
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   BINDING         127
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         129
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         129
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         131
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         131
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   BINDING         133
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         133
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   BINDING         136
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         136
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         138
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   BINDING         140
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   BINDING         142
+FT                   /ligand="Manganese"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0007829|PDB:1UZY, ECO:0007829|PDB:1UZZ"
+FT   BINDING         218
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   CARBOHYD        113
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:1UZY"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:AAO16568.1"
+FT   NON_TER         242
+FT                   /evidence="ECO:0000313|EMBL:AAO16568.1"
+SQ   SEQUENCE   242 AA;  26549 MW;  E012297C33A3286A CRC64;
+     VETISFSFSE FEPGNNDLTL QGAAIITQSG VLQLTKINQN GMPAWDSTGR TLYTKPVHIW
+     DMTTGTVASF ETRFSFSIEQ PYTRPLPADG LVFFMGPTKS KPAQGYGYLG VFNNSKQDNS
+     YQTLAVEFDT FSNPWDPPQV PHIGIDVNSI RSIKTQPFQL DNGQVANVVI KYDASSKILL
+     AVLVYPSSGA IYTIAEIVDV KQVLPEWVDV GLSGATGAQR DAAETHDVYS WSFHASLPET
+     ND
+//

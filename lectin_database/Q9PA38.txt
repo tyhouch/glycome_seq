@@ -1,0 +1,105 @@
+ID   OPGD_XYLFA              Reviewed;         537 AA.
+AC   Q9PA38;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   25-MAY-2022, entry version 93.
+DE   RecName: Full=Glucans biosynthesis protein D;
+DE   Flags: Precursor;
+GN   Name=opgD; OrderedLocusNames=XF_2682;
+OS   Xylella fastidiosa (strain 9a5c).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xylella.
+OX   NCBI_TaxID=160492;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=9a5c;
+RX   PubMed=10910347; DOI=10.1038/35018003;
+RA   Simpson A.J.G., Reinach F.C., Arruda P., Abreu F.A., Acencio M.,
+RA   Alvarenga R., Alves L.M.C., Araya J.E., Baia G.S., Baptista C.S.,
+RA   Barros M.H., Bonaccorsi E.D., Bordin S., Bove J.M., Briones M.R.S.,
+RA   Bueno M.R.P., Camargo A.A., Camargo L.E.A., Carraro D.M., Carrer H.,
+RA   Colauto N.B., Colombo C., Costa F.F., Costa M.C.R., Costa-Neto C.M.,
+RA   Coutinho L.L., Cristofani M., Dias-Neto E., Docena C., El-Dorry H.,
+RA   Facincani A.P., Ferreira A.J.S., Ferreira V.C.A., Ferro J.A., Fraga J.S.,
+RA   Franca S.C., Franco M.C., Frohme M., Furlan L.R., Garnier M., Goldman G.H.,
+RA   Goldman M.H.S., Gomes S.L., Gruber A., Ho P.L., Hoheisel J.D.,
+RA   Junqueira M.L., Kemper E.L., Kitajima J.P., Krieger J.E., Kuramae E.E.,
+RA   Laigret F., Lambais M.R., Leite L.C.C., Lemos E.G.M., Lemos M.V.F.,
+RA   Lopes S.A., Lopes C.R., Machado J.A., Machado M.A., Madeira A.M.B.N.,
+RA   Madeira H.M.F., Marino C.L., Marques M.V., Martins E.A.L., Martins E.M.F.,
+RA   Matsukuma A.Y., Menck C.F.M., Miracca E.C., Miyaki C.Y.,
+RA   Monteiro-Vitorello C.B., Moon D.H., Nagai M.A., Nascimento A.L.T.O.,
+RA   Netto L.E.S., Nhani A. Jr., Nobrega F.G., Nunes L.R., Oliveira M.A.,
+RA   de Oliveira M.C., de Oliveira R.C., Palmieri D.A., Paris A., Peixoto B.R.,
+RA   Pereira G.A.G., Pereira H.A. Jr., Pesquero J.B., Quaggio R.B.,
+RA   Roberto P.G., Rodrigues V., de Rosa A.J.M., de Rosa V.E. Jr., de Sa R.G.,
+RA   Santelli R.V., Sawasaki H.E., da Silva A.C.R., da Silva A.M.,
+RA   da Silva F.R., Silva W.A. Jr., da Silveira J.F., Silvestri M.L.Z.,
+RA   Siqueira W.J., de Souza A.A., de Souza A.P., Terenzi M.F., Truffi D.,
+RA   Tsai S.M., Tsuhako M.H., Vallada H., Van Sluys M.A., Verjovski-Almeida S.,
+RA   Vettore A.L., Zago M.A., Zatz M., Meidanis J., Setubal J.C.;
+RT   "The genome sequence of the plant pathogen Xylella fastidiosa.";
+RL   Nature 406:151-159(2000).
+CC   -!- FUNCTION: Probably involved in the control of the structural glucose
+CC       backbone of osmoregulated periplasmic glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE003849; AAF85479.1; -; Genomic_DNA.
+DR   PIR; A82527; A82527.
+DR   AlphaFoldDB; Q9PA38; -.
+DR   SMR; Q9PA38; -.
+DR   STRING; 160492.XF_2682; -.
+DR   PRIDE; Q9PA38; -.
+DR   EnsemblBacteria; AAF85479; AAF85479; XF_2682.
+DR   KEGG; xfa:XF_2682; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; DVQFFHV; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000000812; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01068; MdoD_OpgD; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023724; Glucan_biosyn_MdoD.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..36
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           37..537
+FT                   /note="Glucans biosynthesis protein D"
+FT                   /id="PRO_0000020218"
+SQ   SEQUENCE   537 AA;  61552 MW;  CC46ED53F8A27367 CRC64;
+     MLMYRRDFLK SVTAAWVAFG LPNPLGGPFA TNRVIALRRL GQSQRFDYEW LKEHARALAA
+     APYHSRKRVL PTPLERLSWD QYQSIRYRQD HALWADSDAH FQVKFFHLGL YFHSPVRMYE
+     VVDGMAQELA YDPAAFDYGS SGLNGKRLPK DLGFAGFRLN TRKDTDRDFA AFLGASYFRA
+     VGQEGQYGQS ARGLAVNTGS SGPEEFPDFI AYYLEQPTSD ADTVVLYGLL DSPSIAGAYR
+     FSITNGDVLL MDIDSALYPR ETIERLGIAP CTSMYQVGEN DRRMGWDWRP EIHDTDGLFL
+     LTGNGEWIWR PLCNPPYLRF NMFLDNNPRG FGLLQRDRDF DHYQDDGVFY EKRPCLWVEP
+     KHGWGEGSVQ LVEIPTFDET FDNIVSFWNP RNKPHPGQEL LFGYRLYWGG LPPVSSSLAY
+     CVATRTGLGG VVGQKRKYFS WRFAVDFVGG KLAALASVHD VSVEPVLHMT RGRAEIVSAR
+     PLHEIRGYRV MFDVVPLEDS TQQIDIRLYL RDTNGEPLTE TWLYQWMPPI LEERKMY
+//

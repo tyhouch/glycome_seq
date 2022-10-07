@@ -1,0 +1,129 @@
+ID   40G3_ORYSJ              Reviewed;         204 AA.
+AC   Q6Z4N4; O24213;
+DT   30-NOV-2016, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 114.
+DE   RecName: Full=Ricin B-like lectin R40G3 {ECO:0000305};
+DE   AltName: Full=Osr40g3 {ECO:0000303|PubMed:9265787};
+GN   Name=R40G3 {ECO:0000305};
+GN   OrderedLocusNames=Os07g0684000 {ECO:0000312|EMBL:BAF22582.1},
+GN   LOC_Os07g48500;
+GN   ORFNames=OsJ_25617 {ECO:0000312|EMBL:EAZ41124.1}, OSJNBa0060O17.15
+GN   {ECO:0000312|EMBL:BAC83806.1};
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39947 {ECO:0000312|EMBL:BAC83806.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=9265787; DOI=10.1007/s004250050148;
+RA   Moons A., Gielen J., Vandekerckhove J., Van der Straeten D., Gheysen G.,
+RA   Van Montagu M.;
+RT   "An abscisic-acid- and salt-stress-responsive rice cDNA from a novel plant
+RT   gene family.";
+RL   Planta 202:443-454(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Ilpoombyeo;
+RA   Yoon U.H., Kim Y.H.;
+RT   "Molecular cloning of the osr40g3 gene in rice.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [4]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=18089549; DOI=10.1093/nar/gkm978;
+RG   The rice annotation project (RAP);
+RT   "The rice annotation project database (RAP-DB): 2008 update.";
+RL   Nucleic Acids Res. 36:D1028-D1033(2008).
+RN   [5]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=24280374; DOI=10.1186/1939-8433-6-4;
+RA   Kawahara Y., de la Bastide M., Hamilton J.P., Kanamori H., McCombie W.R.,
+RA   Ouyang S., Schwartz D.C., Tanaka T., Wu J., Zhou S., Childs K.L.,
+RA   Davidson R.M., Lin H., Quesada-Ocampo L., Vaillancourt B., Sakai H.,
+RA   Lee S.S., Kim J., Numa H., Itoh T., Buell C.R., Matsumoto T.;
+RT   "Improvement of the Oryza sativa Nipponbare reference genome using next
+RT   generation sequence and optical map data.";
+RL   Rice 6:4-4(2013).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=15685292; DOI=10.1371/journal.pbio.0030038;
+RA   Yu J., Wang J., Lin W., Li S., Li H., Zhou J., Ni P., Dong W., Hu S.,
+RA   Zeng C., Zhang J., Zhang Y., Li R., Xu Z., Li S., Li X., Zheng H., Cong L.,
+RA   Lin L., Yin J., Geng J., Li G., Shi J., Liu J., Lv H., Li J., Wang J.,
+RA   Deng Y., Ran L., Shi X., Wang X., Wu Q., Li C., Ren X., Wang J., Wang X.,
+RA   Li D., Liu D., Zhang X., Ji Z., Zhao W., Sun Y., Zhang Z., Bao J., Han Y.,
+RA   Dong L., Ji J., Chen P., Wu S., Liu J., Xiao Y., Bu D., Tan J., Yang L.,
+RA   Ye C., Zhang J., Xu J., Zhou Y., Yu Y., Zhang B., Zhuang S., Wei H.,
+RA   Liu B., Lei M., Yu H., Li Y., Xu H., Wei S., He X., Fang L., Zhang Z.,
+RA   Zhang Y., Huang X., Su Z., Tong W., Li J., Tong Z., Li S., Ye J., Wang L.,
+RA   Fang L., Lei T., Chen C.-S., Chen H.-C., Xu Z., Li H., Huang H., Zhang F.,
+RA   Xu H., Li N., Zhao C., Li S., Dong L., Huang Y., Li L., Xi Y., Qi Q.,
+RA   Li W., Zhang B., Hu W., Zhang Y., Tian X., Jiao Y., Liang X., Jin J.,
+RA   Gao L., Zheng W., Hao B., Liu S.-M., Wang W., Yuan L., Cao M.,
+RA   McDermott J., Samudrala R., Wang J., Wong G.K.-S., Yang H.;
+RT   "The genomes of Oryza sativa: a history of duplications.";
+RL   PLoS Biol. 3:266-281(2005).
+CC   -!- FUNCTION: Lectin which binds carbohydrates in vitro. Interacts through
+CC       its lectin domain with glycan structures containing specific motifs.
+CC       {ECO:0000250|UniProtKB:Q945P1}.
+CC   -!- TISSUE SPECIFICITY: Expressed in shoots and lamina.
+CC       {ECO:0000269|PubMed:9265787}.
+CC   -!- INDUCTION: Induced by abscisic acid (ABA) and salt stress in shoots.
+CC       {ECO:0000269|PubMed:9265787}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds glycan structures.
+CC       {ECO:0000250|UniProtKB:Q945P1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y08988; CAA70175.1; -; mRNA.
+DR   EMBL; EU267982; ACA50504.1; -; mRNA.
+DR   EMBL; AP005167; BAC83806.1; -; Genomic_DNA.
+DR   EMBL; AP008213; BAF22582.1; -; Genomic_DNA.
+DR   EMBL; AP014963; BAT03270.1; -; Genomic_DNA.
+DR   EMBL; CM000144; EAZ41124.1; -; Genomic_DNA.
+DR   PIR; T03962; T03962.
+DR   AlphaFoldDB; Q6Z4N4; -.
+DR   SMR; Q6Z4N4; -.
+DR   STRING; 4530.OS07T0684000-01; -.
+DR   PaxDb; Q6Z4N4; -.
+DR   PRIDE; Q6Z4N4; -.
+DR   EnsemblPlants; Os07t0684000-01; Os07t0684000-01; Os07g0684000.
+DR   Gramene; Os07t0684000-01; Os07t0684000-01; Os07g0684000.
+DR   eggNOG; ENOG502QTCR; Eukaryota.
+DR   HOGENOM; CLU_039568_2_0_1; -.
+DR   InParanoid; Q6Z4N4; -.
+DR   OMA; LARPPCD; -.
+DR   Proteomes; UP000000763; Chromosome 7.
+DR   Proteomes; UP000007752; Chromosome 7.
+DR   Proteomes; UP000059680; Chromosome 7.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR040249; Ricin_B-like_lectin_EULS3-like.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   PANTHER; PTHR31257; PTHR31257; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+PE   2: Evidence at transcript level;
+KW   Lectin; Reference proteome.
+FT   CHAIN           1..204
+FT                   /note="Ricin B-like lectin R40G3"
+FT                   /id="PRO_0000438379"
+FT   DOMAIN          54..200
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   204 AA;  22822 MW;  0A90ABC53CD0929A CRC64;
+     MDFYGRREQY GGYGGYGGGG ALATPGYAPA APYGMSQVNI EGNGCGRTLP PQPTVKVYCR
+     ANPNYAMTAR NGAVVLAPAN PKDEYQHWIK DMRWSTSIKD EEGYPAFALV NKATGQAIKH
+     SLGQSHPVRL VPYNPEVMDE SVLWTESRDV GNGFRCIRMV NNIYLNFDAF HGDKYHGGVR
+     DGTDIVLWKW CEGDNQRWKI QPYY
+//

@@ -1,0 +1,129 @@
+ID   GUN13_ORYSI             Reviewed;         625 AA.
+AC   A2XYW8; Q259H9; Q7XQ92;
+DT   10-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 2.
+DT   25-MAY-2022, entry version 72.
+DE   RecName: Full=Endoglucanase 13;
+DE            EC=3.2.1.4;
+DE   AltName: Full=Endo-1,4-beta glucanase 13;
+DE   AltName: Full=OsGLU6;
+DE   Flags: Precursor;
+GN   Name=GLU6; ORFNames=H0103C06.3, H0403D02.19, OsI_017261;
+OS   Oryza sativa subsp. indica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39946;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Guang-Lu-Ai No.4;
+RX   PubMed=12447439; DOI=10.1038/nature01183;
+RA   Feng Q., Zhang Y., Hao P., Wang S., Fu G., Huang Y., Li Y., Zhu J., Liu Y.,
+RA   Hu X., Jia P., Zhang Y., Zhao Q., Ying K., Yu S., Tang Y., Weng Q.,
+RA   Zhang L., Lu Y., Mu J., Lu Y., Zhang L.S., Yu Z., Fan D., Liu X., Lu T.,
+RA   Li C., Wu Y., Sun T., Lei H., Li T., Hu H., Guan J., Wu M., Zhang R.,
+RA   Zhou B., Chen Z., Chen L., Jin Z., Wang R., Yin H., Cai Z., Ren S., Lv G.,
+RA   Gu W., Zhu G., Tu Y., Jia J., Zhang Y., Chen J., Kang H., Chen X., Shao C.,
+RA   Sun Y., Hu Q., Zhang X., Zhang W., Wang L., Ding C., Sheng H., Gu J.,
+RA   Chen S., Ni L., Zhu F., Chen W., Lan L., Lai Y., Cheng Z., Gu M., Jiang J.,
+RA   Li J., Hong G., Xue Y., Han B.;
+RT   "Sequence and analysis of rice chromosome 4.";
+RL   Nature 420:316-320(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. 93-11;
+RX   PubMed=15685292; DOI=10.1371/journal.pbio.0030038;
+RA   Yu J., Wang J., Lin W., Li S., Li H., Zhou J., Ni P., Dong W., Hu S.,
+RA   Zeng C., Zhang J., Zhang Y., Li R., Xu Z., Li S., Li X., Zheng H., Cong L.,
+RA   Lin L., Yin J., Geng J., Li G., Shi J., Liu J., Lv H., Li J., Wang J.,
+RA   Deng Y., Ran L., Shi X., Wang X., Wu Q., Li C., Ren X., Wang J., Wang X.,
+RA   Li D., Liu D., Zhang X., Ji Z., Zhao W., Sun Y., Zhang Z., Bao J., Han Y.,
+RA   Dong L., Ji J., Chen P., Wu S., Liu J., Xiao Y., Bu D., Tan J., Yang L.,
+RA   Ye C., Zhang J., Xu J., Zhou Y., Yu Y., Zhang B., Zhuang S., Wei H.,
+RA   Liu B., Lei M., Yu H., Li Y., Xu H., Wei S., He X., Fang L., Zhang Z.,
+RA   Zhang Y., Huang X., Su Z., Tong W., Li J., Tong Z., Li S., Ye J., Wang L.,
+RA   Fang L., Lei T., Chen C.-S., Chen H.-C., Xu Z., Li H., Huang H., Zhang F.,
+RA   Xu H., Li N., Zhao C., Li S., Dong L., Huang Y., Li L., Xi Y., Qi Q.,
+RA   Li W., Zhang B., Hu W., Zhang Y., Tian X., Jiao Y., Liang X., Jin J.,
+RA   Gao L., Zheng W., Hao B., Liu S.-M., Wang W., Yuan L., Cao M.,
+RA   McDermott J., Samudrala R., Wang J., Wong G.K.-S., Yang H.;
+RT   "The genomes of Oryza sativa: a history of duplications.";
+RL   PLoS Biol. 3:266-281(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-glucosidic linkages in
+CC         cellulose, lichenin and cereal beta-D-glucans.; EC=3.2.1.4;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 9 (cellulase E) family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU10140, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL732344; CAH68191.1; -; Genomic_DNA.
+DR   EMBL; AL732351; CAJ86099.1; -; Genomic_DNA.
+DR   EMBL; CM000129; EAY96028.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A2XYW8; -.
+DR   SMR; A2XYW8; -.
+DR   STRING; 39946.A2XYW8; -.
+DR   CAZy; CBM49; Carbohydrate-Binding Module Family 49.
+DR   CAZy; GH9; Glycoside Hydrolase Family 9.
+DR   HOGENOM; CLU_008926_1_4_1; -.
+DR   Proteomes; UP000007015; Chromosome 4.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008810; F:cellulase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.50.10.10; -; 1.
+DR   InterPro; IPR008928; 6-hairpin_glycosidase_sf.
+DR   InterPro; IPR012341; 6hp_glycosidase-like_sf.
+DR   InterPro; IPR019028; CBM_49.
+DR   InterPro; IPR001701; Glyco_hydro_9.
+DR   InterPro; IPR033126; Glyco_hydro_9_Asp/Glu_AS.
+DR   InterPro; IPR018221; Glyco_hydro_9_His_AS.
+DR   Pfam; PF09478; CBM49; 1.
+DR   Pfam; PF00759; Glyco_hydro_9; 1.
+DR   SMART; SM01063; CBM49; 1.
+DR   SUPFAM; SSF48208; SSF48208; 1.
+DR   PROSITE; PS60032; GH9_1; 1.
+DR   PROSITE; PS00592; GH9_2; 1.
+DR   PROSITE; PS00698; GH9_3; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cellulose degradation; Glycoprotein; Glycosidase;
+KW   Hydrolase; Polysaccharide degradation; Reference proteome; Secreted;
+KW   Signal.
+FT   SIGNAL          1..34
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           35..625
+FT                   /note="Endoglucanase 13"
+FT                   /id="PRO_0000295017"
+FT   REGION          509..530
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        91
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10140"
+FT   ACT_SITE        427
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10059"
+FT   ACT_SITE        479
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10060"
+FT   ACT_SITE        488
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10060"
+FT   CARBOHYD        440
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        230
+FT                   /note="D -> H (in Ref. 2; EAY96028)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   625 AA;  68381 MW;  D220BF0D009441F1 CRC64;
+     MAATMNKTPA TTFLLIPAAA SLVLLLAAAA SVEASAFDYA GAFDKCLLFF EAQRSGKLPD
+     DRLVRWRGDS ALTDGFSQGV DLVGGYYDSG DHVKFGLPMA YAVTMLSWGV VEFEKEMVDG
+     NKLHRVLDAI RWGTNYFVKA HTQHNALWVQ VGDGDSDHLC WERAEDMSTP RTAFKIDINN
+     PGSEVAGETA AALAAAAKAF KPYDRMYSDL LLLHSKQLFT FADTFRGKYD DSLQSAKKFY
+     PSASGYQDEL LWAAAWLYEA TGDEQYLRYV SQNAEAFGGT GWAVTEFSWD NKYAGLQVLL
+     SKVLFEQGGS AAGYADTLKQ YQAKAEFFLC ACLQKNNGHN VKMTPGGLMY VSDWSNMQYV
+     SSSAFLLTVY ADYLAESRGT LRCPDGEVKP AEILLFARSQ VDYVLGKNPK GMSYMVGYGS
+     YYPTHVHHRG ASIPSIYAMN ATVGCMEGFD KYYNSKNADP NVLHGALVGG PDANDAYDDD
+     RCNYQHAEPT LAGNAPMSGV FARLAASPAD NTPEYTPAPN APSPSNGGSP LEFVHTVTNT
+     WKANGVDYYR HVVTAKNTCG HAITYLKLQI KELSGEIYGV SRTNAKDMYE FPSWMTRLDA
+     GAQLTIVYIQ GGPAAKIAVV EYKTA
+//

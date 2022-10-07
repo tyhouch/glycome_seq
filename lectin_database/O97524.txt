@@ -1,0 +1,117 @@
+ID   BGLR_FELCA              Reviewed;         651 AA.
+AC   O97524;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   25-MAY-2022, entry version 108.
+DE   RecName: Full=Beta-glucuronidase;
+DE            EC=3.2.1.31;
+DE   Flags: Precursor;
+GN   Name=GUSB;
+OS   Felis catus (Cat) (Felis silvestris catus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Felinae; Felis.
+OX   NCBI_TaxID=9685;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], VARIANT MPS VII LYS-351, AND DISEASE.
+RC   TISSUE=Liver;
+RX   PubMed=10366443; DOI=10.1006/geno.1999.5825;
+RA   Fyfe J.C., Kurzhals R.L., Lassaline M.E., Henthorn P.S., Alur P.R.,
+RA   Wang P., Wolfe J.H., Giger U., Haskins M.E., Patterson D.F., Sun H.,
+RA   Jain S., Yuhki N.;
+RT   "Molecular basis of feline beta-glucuronidase deficiency: an animal model
+RT   of mucopolysaccharidosis VII.";
+RL   Genomics 58:121-128(1999).
+CC   -!- FUNCTION: Plays an important role in the degradation of dermatan and
+CC       keratan sulfates.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-glucuronoside + H2O = an alcohol + D-glucuronate;
+CC         Xref=Rhea:RHEA:17633, ChEBI:CHEBI:15377, ChEBI:CHEBI:30879,
+CC         ChEBI:CHEBI:58720, ChEBI:CHEBI:83411; EC=3.2.1.31;
+CC   -!- ACTIVITY REGULATION: Inhibited by L-aspartic acid. {ECO:0000250}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Lysosome.
+CC   -!- DISEASE: Note=Defects in GUSB are the cause of mucopolysaccharidosis
+CC       type VII (MPS VII), an inherited disease reported in humans, mice,
+CC       cats, and dogs. {ECO:0000269|PubMed:10366443}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF012423; AAD01498.1; -; mRNA.
+DR   EMBL; AF012424; AAD01499.1; -; mRNA.
+DR   RefSeq; NP_001009310.1; NM_001009310.1.
+DR   AlphaFoldDB; O97524; -.
+DR   SMR; O97524; -.
+DR   STRING; 9685.ENSFCAP00000006431; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   PRIDE; O97524; -.
+DR   GeneID; 493879; -.
+DR   KEGG; fca:493879; -.
+DR   CTD; 2990; -.
+DR   eggNOG; KOG2024; Eukaryota.
+DR   InParanoid; O97524; -.
+DR   OrthoDB; 653343at2759; -.
+DR   Proteomes; UP000011712; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005764; C:lysosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004566; F:beta-glucuronidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0005102; F:signaling receptor binding; IBA:GO_Central.
+DR   GO; GO:0019391; P:glucuronoside catabolic process; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SUPFAM; SSF49303; SSF49303; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   1: Evidence at protein level;
+KW   Disease variant; Glycoprotein; Glycosidase; Hydrolase; Lysosome;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           23..651
+FT                   /note="Beta-glucuronidase"
+FT                   /id="PRO_0000012160"
+FT   ACT_SITE        450
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        172
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        419
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        630
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VARIANT         351
+FT                   /note="E -> K (in MPSVII)"
+FT                   /evidence="ECO:0000269|PubMed:10366443"
+SQ   SEQUENCE   651 AA;  74610 MW;  2AE30884B70D4232 CRC64;
+     MLRGPAAVWA ALGPLLWACG LALRGGMLYP RESPSRERKE LNGLWSFRAD FSENRRQGFE
+     QQWYRTPLRE SGPTLDMPVP SSFNDVGQDR QLRSFVGWVW YEREATLPQR WTQDLGTRVV
+     LRIGSAHYYA IVWVNGVHVA EHEGGHLPFE ADISKLVQSG PLASCRITIA INNTLTPHTL
+     PPGTILYQTD TSKYPKGYFV QNINFDFFNY AGLHRPVLLY TTPTTYIDDI TISTSVNQDT
+     GLVDYQIFVE GGEHFQLEVR LLDEEGKVVA QGTGGRGQLQ VPNAHLWWPY LMHEHPAYLY
+     SLEVRLTAQT AAGSVSDFYT LPVGIRTVAV TEHQFLINGK PFYFHGVNKH EDADIRGKGF
+     DWPLLVKDFN LLRWLGANAF RTSHYPYAEE VMQLCDRYGI VVIDESPGVG IVLVESYSNV
+     SLQHHLEVME ELVRRDKNHP AVVMWSVANE PASFLKPAGY YFKTLIAHTK ALDPSRPVTF
+     VTNSNYEADL GAPYVDVICV NSYYSWYHDY GHMEVIQLQL ATQFENWYRT YQKPIIQSEY
+     GADTIAGFHQ DPPLMFSEEY QKGLLEQYHL VLDQKRKEYV VGELIWNFAD FMTNQSPQRV
+     MGNKKGIFTR QRQPKGAAFL LRERYWKLAN ETRYPWSAVK SQCLENSPFT L
+//

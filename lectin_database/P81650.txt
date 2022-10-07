@@ -1,0 +1,195 @@
+ID   BGAL_PSEHA              Reviewed;        1039 AA.
+AC   P81650; Q9ZEM8;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 105.
+DE   RecName: Full=Beta-galactosidase;
+DE            Short=Beta-gal;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Beta-D-galactoside galactohydrolase;
+DE   AltName: Full=Lactase;
+GN   Name=lacZ;
+OS   Pseudoalteromonas haloplanktis (Alteromonas haloplanktis).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Pseudoalteromonadaceae; Pseudoalteromonas.
+OX   NCBI_TaxID=228;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 2-20, COFACTOR,
+RP   SUBUNIT, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=TAE 79;
+RX   PubMed=11282601; DOI=10.1128/aem.67.4.1529-1535.2001;
+RA   Hoyoux A., Jennes I., Dubois P., Genicot S., Dubail F., Francois J.M.,
+RA   Baise E., Feller G., Gerday C.;
+RT   "Cold-adapted beta-galactosidase from the Antarctic psychrophile
+RT   Pseudoalteromonas haloplanktis.";
+RL   Appl. Environ. Microbiol. 67:1529-1535(2001).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000305|PubMed:11282601};
+CC       Note=Binds 2 magnesium ions per monomer. {ECO:0000305|PubMed:11282601};
+CC   -!- COFACTOR:
+CC       Name=Na(+); Xref=ChEBI:CHEBI:29101; Evidence={ECO:0000250};
+CC       Note=Binds 1 sodium ion per monomer. {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Inhibited by zinc, copper and nickel ions.
+CC       Activated by 2-mercaptoethanol and inhibited by EDTA in vitro.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=2.4 mM for lactose (at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:11282601};
+CC       pH dependence:
+CC         Optimum pH is 8.5. {ECO:0000269|PubMed:11282601};
+CC       Temperature dependence:
+CC         Optimum temperature is 4 degrees Celsius. It does not grow at
+CC         temperatures higher than 25 degrees Celsius.
+CC         {ECO:0000269|PubMed:11282601};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000305|PubMed:11282601}.
+CC   -!- BIOTECHNOLOGY: This cold-adapted beta-galactosidase could be used to
+CC       hydrolyze lactose in milk and dairy products processed in refrigerated
+CC       plants. It is in fact superior to the current commercial enzyme from
+CC       K.marxiamus with respect to lactose removal, especially at low
+CC       temperatures.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ131635; CAA10470.1; -; Genomic_DNA.
+DR   AlphaFoldDB; P81650; -.
+DR   SMR; P81650; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   eggNOG; COG3250; Bacteria.
+DR   BRENDA; 3.2.1.23; 5081.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IEA:InterPro.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01687; Beta_gal; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR023933; Glyco_hydro_2_beta_Galsidase.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycosidase; Hydrolase; Magnesium;
+KW   Metal-binding; Sodium.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:11282601"
+FT   CHAIN           2..1039
+FT                   /note="Beta-galactosidase"
+FT                   /id="PRO_0000057656"
+FT   ACT_SITE        460
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        536
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         103
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         201
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         201
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         415
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         417
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         460
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         460
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         536..539
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         596
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         600
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         603
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         603
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         1012
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            356
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   SITE            390
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   SITE            1012
+FT                   /note="Important for ensuring that an appropriate
+FT                   proportion of lactose is converted to allolactose"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1039 AA;  118199 MW;  D77713F653DE8231 CRC64;
+     MTSLQHIINR RDWENPITVQ VNQVKAHSPL NGFKTIEDAR ENTQSQKKSL NGQWDFKLFD
+     KPEAVDESLL YEKISKELSG DWQSITVPSN WQLHGFDKPI YCNVKYPFAV NPPFVPSDNP
+     TGCYRTEFTI TPEQLTQRNH IIFEGVNSAF HLWCNGQWVG YSQDSRLPSE FDLSELLVVG
+     TNRIAVMVIR WSDGSYLEDQ DMWWLSGIFR DVNLLTKPQS QIRDVFITPD LDACYRDATL
+     HIKTAINAPN NYQVAVQIFD GKTSLCEPKI QSTNNKRVDE KGGWSDVVFQ TIAIRSPKKW
+     TAETPYLYRC VVSLLDEQGN TVDVEAYNIG FRKVEMLNGQ LCVNGKPLLI RGVNRHEHHP
+     ENGHAVSTAD MIEDIKLMKQ NNFNAVRTAH YPNHPLFYEL CDELGLYVVD EANIETHGMF
+     PMGRLASDPL WAGAFMSRYT QMVERDKNHA SIIIWSLGNE CGHGANHDAM YGWSKSFDPS
+     RPVQYEGGGA NTTATDIICP MYSRVDTDIK DDAVPKYSIK KWLSLPGETR PLILCEYAHA
+     MGNSLGSFDD YWQAFREYPR LQGGFIWDWV DQGLSKIDEN GKHYWAYGGD FGDELNDRQF
+     CINGLLFPDR TPHPSLFEAK YSQQHLQFTL REQNQNQNQN QYSIDVFSDY VFRHTDNEKL
+     VWQLIQNGVC VEQGEMALNI APQSTHTLTI KTKTAFEHGA QYYLNLDVAL INDSHFANAN
+     HVMDSEQFKL INSNNLNSKS FASATEKSVI SVNETDSHLS IENNTFKLVF NQQSGLIEQW
+     LQDDTQVISS PLVDNFYRAP LDNDIGVSEV DNLDPNAWEA RWSRAGIGQW QRTCSSINAV
+     QSSVDVRITC VFNYEFNGVL QAQTQWLYTL NNTGTISLNV DVNLNDTLPP MPRIGLSTTI
+     NKQSDTKVNW LGLGPFENYP DRKSAARFGY YSLSLNELYT PYIFPTDNGL RSDCQLLSIN
+     NLIVTGAFLF AASEYSQNML TQAKHTNELI ADDCIHVHID HQHMGVGGDD SWSPSTHKEY
+     LLEQKNYNYS LTLTGGITT
+//

@@ -1,0 +1,259 @@
+ID   CHIA1_NIACI             Reviewed;         699 AA.
+AC   P20533;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   03-AUG-2022, entry version 133.
+DE   RecName: Full=Chitinase A1;
+DE            EC=3.2.1.14;
+DE   Flags: Precursor;
+GN   Name=chiA1;
+OS   Niallia circulans (Bacillus circulans).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Niallia.
+OX   NCBI_TaxID=1397;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=WL-12;
+RX   PubMed=2203782; DOI=10.1016/s0021-9258(18)55449-1;
+RA   Watanabe T., Suzuki K., Oyanagi W., Ohnishi K., Tanaka H.;
+RT   "Gene cloning of chitinase A1 from Bacillus circulans WL-12 revealed its
+RT   evolutionary relationship to Serratia chitinase and to the type III
+RT   homology units of fibronectin.";
+RL   J. Biol. Chem. 265:15659-15665(1990).
+RN   [2]
+RP   MUTAGENESIS.
+RC   STRAIN=WL-12;
+RX   PubMed=8103047; DOI=10.1016/s0021-9258(17)46665-8;
+RA   Watanabe T., Kohori K., Miyashita K., Fujii T., Sakai H., Uchida M.,
+RA   Tanaka H.;
+RT   "Identification of glutamic acid 204 and aspartic acid 200 in chitinase A1
+RT   of Bacillus circulans WL-12 as essential residues for chitinase activity.";
+RL   J. Biol. Chem. 268:18567-18572(1993).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Random endo-hydrolysis of N-acetyl-beta-D-glucosaminide
+CC         (1->4)-beta-linkages in chitin and chitodextrins.; EC=3.2.1.14;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 18 family. Chitinase
+CC       class II subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M57601; AAA81528.1; -; Genomic_DNA.
+DR   PIR; A38368; A38368.
+DR   PDB; 1ED7; NMR; -; A=655-699.
+DR   PDB; 1ITX; X-ray; 1.10 A; A=33-451.
+DR   PDB; 1K85; NMR; -; A=559-644.
+DR   PDBsum; 1ED7; -.
+DR   PDBsum; 1ITX; -.
+DR   PDBsum; 1K85; -.
+DR   AlphaFoldDB; P20533; -.
+DR   BMRB; P20533; -.
+DR   SMR; P20533; -.
+DR   CAZy; CBM12; Carbohydrate-Binding Module Family 12.
+DR   CAZy; GH18; Glycoside Hydrolase Family 18.
+DR   EvolutionaryTrace; P20533; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008061; F:chitin binding; IEA:InterPro.
+DR   GO; GO:0004568; F:chitinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006032; P:chitin catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd00063; FN3; 2.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 3.10.50.10; -; 1.
+DR   InterPro; IPR003610; CBM_fam5/12.
+DR   InterPro; IPR036573; CBM_sf_5/12.
+DR   InterPro; IPR011583; Chitinase_II.
+DR   InterPro; IPR029070; Chitinase_insertion_sf.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR001223; Glyco_hydro18_cat.
+DR   InterPro; IPR001579; Glyco_hydro_18_chit_AS.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF00041; fn3; 2.
+DR   Pfam; PF00704; Glyco_hydro_18; 1.
+DR   SMART; SM00495; ChtBD3; 1.
+DR   SMART; SM00060; FN3; 2.
+DR   SMART; SM00636; Glyco_18; 1.
+DR   SUPFAM; SSF49265; SSF49265; 1.
+DR   SUPFAM; SSF51055; SSF51055; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF54556; SSF54556; 1.
+DR   PROSITE; PS50853; FN3; 2.
+DR   PROSITE; PS01095; GH18_1; 1.
+DR   PROSITE; PS51910; GH18_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Chitin degradation; Glycosidase;
+KW   Hydrolase; Polysaccharide degradation; Repeat; Signal.
+FT   SIGNAL          1..41
+FT   CHAIN           42..699
+FT                   /note="Chitinase A1"
+FT                   /id="PRO_0000011905"
+FT   DOMAIN          44..454
+FT                   /note="GH18"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   DOMAIN          467..553
+FT                   /note="Fibronectin type-III 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          562..647
+FT                   /note="Fibronectin type-III 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   REGION          449..471
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        204
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         135..136
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         162..165
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         205
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         277..280
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         433
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   MUTAGEN         200
+FT                   /note="D->E: No change in activity."
+FT                   /evidence="ECO:0000269|PubMed:8103047"
+FT   MUTAGEN         200
+FT                   /note="D->N: Decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:8103047"
+FT   MUTAGEN         204
+FT                   /note="E->D,Q: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:8103047"
+FT   HELIX           40..43
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          45..51
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           52..55
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   TURN            56..58
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           62..64
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           67..69
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          71..80
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          85..88
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          97..100
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          116..120
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           121..125
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          134..137
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           140..151
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          156..162
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          164..166
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           170..174
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           177..194
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          197..202
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          206..208
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           220..242
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          247..252
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           256..260
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           264..270
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          271..276
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          286..288
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           299..303
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   TURN            307..311
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           314..324
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           328..330
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          331..344
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           348..351
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          357..359
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          364..366
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          369..371
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           372..378
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   TURN            379..381
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          385..390
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   TURN            391..394
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          395..400
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   TURN            401..403
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          406..408
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           412..425
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          429..433
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           435..437
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   HELIX           442..450
+FT                   /evidence="ECO:0007829|PDB:1ITX"
+FT   STRAND          564..571
+FT                   /evidence="ECO:0007829|PDB:1K85"
+FT   STRAND          576..581
+FT                   /evidence="ECO:0007829|PDB:1K85"
+FT   STRAND          587..611
+FT                   /evidence="ECO:0007829|PDB:1K85"
+FT   STRAND          619..628
+FT                   /evidence="ECO:0007829|PDB:1K85"
+FT   STRAND          640..643
+FT                   /evidence="ECO:0007829|PDB:1K85"
+FT   STRAND          658..662
+FT                   /evidence="ECO:0007829|PDB:1ED7"
+FT   STRAND          668..670
+FT                   /evidence="ECO:0007829|PDB:1ED7"
+FT   STRAND          673..675
+FT                   /evidence="ECO:0007829|PDB:1ED7"
+FT   STRAND          681..683
+FT                   /evidence="ECO:0007829|PDB:1ED7"
+FT   TURN            693..695
+FT                   /evidence="ECO:0007829|PDB:1ED7"
+SQ   SEQUENCE   699 AA;  73678 MW;  AC7C9B22E2987643 CRC64;
+     MINLNKHTAF KKTAKFFLGL SLLLSVIVPS FALQPATAEA ADSYKIVGYY PSWAAYGRNY
+     NVADIDPTKV THINYAFADI CWNGIHGNPD PSGPNPVTWT CQNEKSQTIN VPNGTIVLGD
+     PWIDTGKTFA GDTWDQPIAG NINQLNKLKQ TNPNLKTIIS VGGWTWSNRF SDVAATAATR
+     EVFANSAVDF LRKYNFDGVD LDWEYPVSGG LDGNSKRPED KQNYTLLLSK IREKLDAAGA
+     VDGKKYLLTI ASGASATYAA NTELAKIAAI VDWINIMTYD FNGAWQKISA HNAPLNYDPA
+     ASAAGVPDAN TFNVAAGAQG HLDAGVPAAK LVLGVPFYGR GWDGCAQAGN GQYQTCTGGS
+     SVGTWEAGSF DFYDLEANYI NKNGYTRYWN DTAKVPYLYN ASNKRFISYD DAESVGYKTA
+     YIKSKGLGGA MFWELSGDRN KTLQNKLKAD LPTGGTVPPV DTTAPSVPGN ARSTGVTANS
+     VTLAWNASTD NVGVTGYNVY NGANLATSVT GTTATISGLT AGTSYTFTIK AKDAAGNLSA
+     ASNAVTVSTT AQPGGDTQAP TAPTNLASTA QTTSSITLSW TASTDNVGVT GYDVYNGTAL
+     ATTVTGTTAT ISGLAADTSY TFTVKAKDAA GNVSAASNAV SVKTAAETTN PGVSAWQVNT
+     AYTAGQLVTY NGKTYKCLQP HTSLAGWEPS NVPALWQLQ
+//

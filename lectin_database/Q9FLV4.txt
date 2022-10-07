@@ -1,0 +1,245 @@
+ID   Y5248_ARATH             Reviewed;         872 AA.
+AC   Q9FLV4; F4KFQ0;
+DT   30-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   03-AUG-2022, entry version 153.
+DE   RecName: Full=G-type lectin S-receptor-like serine/threonine-protein kinase At5g24080;
+DE            EC=2.7.11.1;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=At5g24080; ORFNames=MZF18.3;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=9628582; DOI=10.1093/dnares/5.1.41;
+RA   Sato S., Kaneko T., Kotani H., Nakamura Y., Asamizu E., Miyajima N.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. IV. Sequence
+RT   features of the regions of 1,456,315 bp covered by nineteen physically
+RT   assigned P1 and TAC clones.";
+RL   DNA Res. 5:41-54(1998).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 367-872.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J., Southwick A.M.,
+RA   Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F., Karlin-Newmann G.,
+RA   Liu S.X., Lam B., Sakano H., Wu T., Yu G., Miranda M., Quach H.L.,
+RA   Tripp M., Chang C.H., Lee J.M., Toriumi M.J., Chan M.M., Tang C.C.,
+RA   Onodera C.S., Deng J.M., Akiyama K., Ansari Y., Arakawa T., Banh J.,
+RA   Banno F., Bowser L., Brooks S.Y., Carninci P., Chao Q., Choy N., Enju A.,
+RA   Goldsmith A.D., Gurjal M., Hansen N.F., Hayashizaki Y., Johnson-Hopson C.,
+RA   Hsuan V.W., Iida K., Karnes M., Khan S., Koesema E., Ishida J., Jiang P.X.,
+RA   Jones T., Kawai J., Kamiya A., Meyers C., Nakajima M., Narusaka M.,
+RA   Seki M., Sakurai T., Satou M., Tamse R., Vaysberg M., Wallender E.K.,
+RA   Wong C., Yamamura Y., Yuan S., Shinozaki K., Davis R.W., Theologis A.,
+RA   Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr protein
+CC       kinase family. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AY056241; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB009056; BAB08731.1; -; Genomic_DNA.
+DR   EMBL; CP002688; ANM69103.1; -; Genomic_DNA.
+DR   EMBL; AY056241; -; NOT_ANNOTATED_CDS; mRNA.
+DR   RefSeq; NP_001330805.1; NM_001343839.1.
+DR   AlphaFoldDB; Q9FLV4; -.
+DR   SMR; Q9FLV4; -.
+DR   BioGRID; 17748; 7.
+DR   IntAct; Q9FLV4; 7.
+DR   PaxDb; Q9FLV4; -.
+DR   PRIDE; Q9FLV4; -.
+DR   EnsemblPlants; AT5G24080.2; AT5G24080.2; AT5G24080.
+DR   GeneID; 832473; -.
+DR   Gramene; AT5G24080.2; AT5G24080.2; AT5G24080.
+DR   KEGG; ath:AT5G24080; -.
+DR   Araport; AT5G24080; -.
+DR   eggNOG; ENOG502QTC9; Eukaryota.
+DR   HOGENOM; CLU_000288_21_4_1; -.
+DR   InParanoid; Q9FLV4; -.
+DR   OMA; QFRISTV; -.
+DR   OrthoDB; 684563at2759; -.
+DR   PhylomeDB; Q9FLV4; -.
+DR   PRO; PR:Q9FLV4; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9FLV4; baseline and differential.
+DR   Genevisible; Q9FLV4; AT.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005516; F:calmodulin binding; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; IEA:UniProt.
+DR   GO; GO:0006468; P:protein phosphorylation; IEA:InterPro.
+DR   GO; GO:0048544; P:recognition of pollen; IEA:InterPro.
+DR   CDD; cd00028; B_lectin; 1.
+DR   Gene3D; 2.90.10.10; -; 1.
+DR   InterPro; IPR001480; Bulb-type_lectin_dom.
+DR   InterPro; IPR036426; Bulb-type_lectin_dom_sf.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR000858; S_locus_glycoprot_dom.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   InterPro; IPR024171; SRK-like_kinase.
+DR   Pfam; PF01453; B_lectin; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00954; S_locus_glycop; 1.
+DR   PIRSF; PIRSF000641; SRK; 1.
+DR   SMART; SM00108; B_lectin; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF51110; SSF51110; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS50927; BULB_LECTIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cell membrane; Disulfide bond; EGF-like domain; Glycoprotein;
+KW   Kinase; Lectin; Membrane; Nucleotide-binding; Phosphoprotein; Receptor;
+KW   Reference proteome; Serine/threonine-protein kinase; Signal; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..872
+FT                   /note="G-type lectin S-receptor-like serine/threonine-
+FT                   protein kinase At5g24080"
+FT                   /id="PRO_0000401330"
+FT   TOPO_DOM        26..472
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        473..493
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        494..872
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          30..149
+FT                   /note="Bulb-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   DOMAIN          306..344
+FT                   /note="EGF-like; atypical"
+FT   DOMAIN          360..447
+FT                   /note="PAN"
+FT   DOMAIN          530..810
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          619..637
+FT                   /note="CaM-binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        656
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         536..544
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         558
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         521
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O48814"
+FT   MOD_RES         603
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:O48814"
+FT   MOD_RES         690
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O48814"
+FT   MOD_RES         695
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O48814"
+FT   CARBOHYD        49
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        117
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        208
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        219
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        261
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        294
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        353
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        367
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        390
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        449
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        459
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        310..321
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   DISULFID        316..332
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   DISULFID        400..424
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   DISULFID        404..410
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+SQ   SEQUENCE   872 AA;  97311 MW;  01DA1501971E0024 CRC64;
+     MSSFHFYFPS VGLFSFFCFF LVSLATEPHI GLGSKLKASE PNRAWVSANG TFAIGFTRFK
+     PTDRFLLSIW FAQLPGDPTI VWSPNRNSPV TKEAVLELEA TGNLVLSDQN TVVWTSNTSN
+     HGVESAVMSE SGNFLLLGTE VTAGPTIWQS FSQPSDTLLP NQPLTVSLEL TSNPSPSRHG
+     HYSLKMLQQH TSLSLGLTYN INLDPHANYS YWSGPDISNV TGDVTAVLDD TGSFKIVYGE
+     SSIGAVYVYK NPVDDNRNYN NSSNLGLTKN PVLRRLVLEN NGNLRLYRWD NDMNGSSQWV
+     PEWAAVSNPC DIAGICGNGV CNLDRTKKNA DCLCLPGSVK LPDQENAKLC SDNSSLVQEC
+     ESNINRNGSF KISTVQETNY YFSERSVIEN ISDISNVRKC GEMCLSDCKC VASVYGLDDE
+     KPYCWILKSL NFGGFRDPGS TLFVKTRANE SYPSNSNNND SKSRKSHGLR QKVLVIPIVV
+     GMLVLVALLG MLLYYNLDRK RTLKRAAKNS LILCDSPVSF TYRDLQNCTN NFSQLLGSGG
+     FGTVYKGTVA GETLVAVKRL DRALSHGERE FITEVNTIGS MHHMNLVRLC GYCSEDSHRL
+     LVYEYMINGS LDKWIFSSEQ TANLLDWRTR FEIAVATAQG IAYFHEQCRN RIIHCDIKPE
+     NILLDDNFCP KVSDFGLAKM MGREHSHVVT MIRGTRGYLA PEWVSNRPIT VKADVYSYGM
+     LLLEIVGGRR NLDMSYDAED FFYPGWAYKE LTNGTSLKAV DKRLQGVAEE EEVVKALKVA
+     FWCIQDEVSM RPSMGEVVKL LEGTSDEINL PPMPQTILEL IEEGLEDVYR AMRREFNNQL
+     SSLTVNTITT SQSYRSSSRS HATCSYSSMS PR
+//

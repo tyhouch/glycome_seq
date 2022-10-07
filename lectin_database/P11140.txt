@@ -1,0 +1,324 @@
+ID   ABRA_ABRPR              Reviewed;         528 AA.
+AC   P11140; P28589;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 2.
+DT   03-AUG-2022, entry version 137.
+DE   RecName: Full=Abrin-a;
+DE   Contains:
+DE     RecName: Full=Abrin-a A chain;
+DE              EC=3.2.2.22;
+DE     AltName: Full=rRNA N-glycosidase;
+DE   Contains:
+DE     RecName: Full=Linker peptide;
+DE   Contains:
+DE     RecName: Full=Abrin-a B chain;
+DE   Flags: Precursor;
+OS   Abrus precatorius (Indian licorice) (Glycine abrus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Abreae; Abrus.
+OX   NCBI_TaxID=3816;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=8421313; DOI=10.1006/jmbi.1993.1029;
+RA   Hung C.-H., Lee M.-C., Lee T.-C., Lin J.-Y.;
+RT   "Primary structure of three distinct isoabrins determined by cDNA
+RT   sequencing. Conservation and significance.";
+RL   J. Mol. Biol. 229:263-267(1993).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-251, AND PYROGLUTAMATE FORMATION AT GLN-1.
+RC   TISSUE=Seed;
+RA   Funatsu G., Taguchi Y., Kamenosono M., Yanaka M.;
+RT   "The complete amino acid sequence of the A-chain of abrin-a, a toxic
+RT   protein from the seeds of Abrus precatorius.";
+RL   Agric. Biol. Chem. 52:1095-1097(1988).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-251.
+RC   TISSUE=Leaf;
+RX   PubMed=2016300; DOI=10.1016/s0021-9258(20)89578-7;
+RA   Evensen G., Mathiesen A., Sundan A.;
+RT   "Direct molecular cloning and expression of two distinct abrin A-chains.";
+RL   J. Biol. Chem. 266:6848-6852(1991).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 262-528.
+RX   PubMed=1505674; DOI=10.1016/0014-5793(92)81076-x;
+RA   Chen Y.-L., Chow L.-P., Tsugita A., Lin J.-Y.;
+RT   "The complete primary structure of abrin-a B chain.";
+RL   FEBS Lett. 309:115-118(1992).
+RN   [5]
+RP   MUTAGENESIS OF ASN-200.
+RX   PubMed=10636890; DOI=10.1074/jbc.275.3.1897;
+RA   Liu C.-L., Tsai C.-C., Lin S.-C., Wang L.-I., Hsu C.-I., Hwang M.-J.,
+RA   Lin J.-Y.;
+RT   "Primary structure and function analysis of the Abrus precatorius
+RT   agglutinin A chain by site-directed mutagenesis. Pro(199) Of amphiphilic
+RT   alpha-helix H impairs protein synthesis inhibitory activity.";
+RL   J. Biol. Chem. 275:1897-1901(2000).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.14 ANGSTROMS).
+RX   PubMed=7608980; DOI=10.1006/jmbi.1995.0382;
+RA   Tahirov T.H., Lu T.-H., Liaw Y.-C., Chen Y.-L., Lin J.-Y.;
+RT   "Crystal structure of abrin-a at 2.14 A.";
+RL   J. Mol. Biol. 250:354-367(1995).
+RN   [7]
+RP   ERRATUM OF PUBMED:7608980.
+RA   Tahirov T.H., Lu T.-H., Liaw Y.-C., Chen Y.-L., Lin J.-Y.;
+RL   J. Mol. Biol. 252:154-154(1995).
+CC   -!- FUNCTION: The A chain is responsible for inhibiting protein synthesis
+CC       through the catalytic inactivation of 60S ribosomal subunits by
+CC       removing adenine from position 4,324 of 28S rRNA. Abrin-a is more toxic
+CC       than ricin.
+CC   -!- FUNCTION: The B chain is a galactose-specific lectin that facilitates
+CC       the binding of abrin to the cell membrane that precedes endocytosis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC   -!- SUBUNIT: Disulfide-linked dimer of A and B chains.
+CC   -!- DOMAIN: The B chain is composed of two domains, each domain consists of
+CC       3 homologous subdomains (alpha, beta, gamma).
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the ribosome-
+CC       inactivating protein family. Type 2 RIP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M98344; AAA32624.1; -; mRNA.
+DR   EMBL; X54872; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   PIR; S32429; TZLSA.
+DR   PDB; 1ABR; X-ray; 2.14 A; A=2-251, B=262-528.
+DR   PDB; 5Z37; X-ray; 1.30 A; A=1-251.
+DR   PDB; 5Z3I; X-ray; 1.65 A; A=1-251.
+DR   PDB; 5Z3J; X-ray; 1.70 A; A=1-251.
+DR   PDBsum; 1ABR; -.
+DR   PDBsum; 5Z37; -.
+DR   PDBsum; 5Z3I; -.
+DR   PDBsum; 5Z3J; -.
+DR   AlphaFoldDB; P11140; -.
+DR   SMR; P11140; -.
+DR   UniLectin; P11140; -.
+DR   ABCD; P11140; 1 sequenced antibody.
+DR   EvolutionaryTrace; P11140; -.
+DR   Proteomes; UP000694853; Unplaced.
+DR   GO; GO:0005534; F:galactose binding; TAS:UniProtKB.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; TAS:UniProtKB.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; TAS:UniProtKB.
+DR   GO; GO:0045807; P:positive regulation of endocytosis; TAS:UniProtKB.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Hydrolase; Lectin; Plant defense; Protein synthesis inhibitor;
+KW   Pyrrolidone carboxylic acid; Reference proteome; Repeat; Toxin.
+FT   CHAIN           1..251
+FT                   /note="Abrin-a A chain"
+FT                   /id="PRO_0000030729"
+FT   PEPTIDE         252..261
+FT                   /note="Linker peptide"
+FT                   /evidence="ECO:0000269|PubMed:1505674"
+FT                   /id="PRO_0000030730"
+FT   CHAIN           262..528
+FT                   /note="Abrin-a B chain"
+FT                   /id="PRO_0000030731"
+FT   DOMAIN          273..400
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          283..325
+FT                   /note="1-alpha"
+FT   REPEAT          326..366
+FT                   /note="1-beta"
+FT   REPEAT          369..401
+FT                   /note="1-gamma"
+FT   DOMAIN          403..527
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          414..449
+FT                   /note="2-alpha"
+FT   REPEAT          453..492
+FT                   /note="2-beta"
+FT   REPEAT          495..528
+FT                   /note="2-gamma"
+FT   ACT_SITE        164
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|Ref.2"
+FT   CARBOHYD        361
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        401
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   DISULFID        247..269
+FT                   /note="Interchain (between A and B chains)"
+FT   DISULFID        286..305
+FT   DISULFID        329..346
+FT   DISULFID        417..430
+FT   DISULFID        456..473
+FT   MUTAGEN         200
+FT                   /note="N->P: 46-fold less potent protein synthesis
+FT                   inhibition."
+FT                   /evidence="ECO:0000269|PubMed:10636890"
+FT   CONFLICT        1
+FT                   /note="Q -> E (in Ref. 1; AAA32624)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        202
+FT                   /note="Missing (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        298
+FT                   /note="N -> Y (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        427
+FT                   /note="M -> L (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        467
+FT                   /note="T -> P (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        483
+FT                   /note="V -> L (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          5..8
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           14..28
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          31..33
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          36..38
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           42..44
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           47..49
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          50..59
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          62..69
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   TURN            70..72
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          75..80
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          83..86
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           94..97
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          102..106
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           113..120
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           124..126
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           131..143
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           148..167
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           169..181
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           189..196
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           198..207
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          212..220
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          226..231
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           235..239
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   STRAND          240..243
+FT                   /evidence="ECO:0007829|PDB:5Z37"
+FT   HELIX           282..284
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          286..289
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           290..292
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          299..303
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           311..313
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          315..317
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          321..325
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          328..333
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          340..344
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   TURN            346..348
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           351..353
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          364..366
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   TURN            367..370
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          371..374
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          385..387
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           393..395
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          398..401
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          406..408
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           413..415
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          417..421
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          424..428
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           435..437
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          439..441
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          447..449
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          452..463
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          467..473
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           478..480
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          490..492
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   TURN            493..496
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          497..501
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           502..504
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           506..508
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   STRAND          511..514
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+FT   HELIX           520..522
+FT                   /evidence="ECO:0007829|PDB:1ABR"
+SQ   SEQUENCE   528 AA;  59244 MW;  A1F76BECD5B9A827 CRC64;
+     QDRPIKFSTE GATSQSYKQF IEALRERLRG GLIHDIPVLP DPTTLQERNR YITVELSNSD
+     TESIEVGIDV TNAYVVAYRA GTQSYFLRDA PSSASDYLFT GTDQHSLPFY GTYGDLERWA
+     HQSRQQIPLG LQALTHGISF FRSGGNDNEE KARTLIVIIQ MVAEAARFRY ISNRVRVSIQ
+     TGTAFQPDAA MISLENNWDN LSRGVQESVQ DTFPNQVTLT NIRNEPVIVD SLSHPTVAVL
+     ALMLFVCNPP NANQSPLLIR SIVEKSKICS SRYEPTVRIG GRDGMCVDVY DNGYHNGNRI
+     IMWKCKDRLE ENQLWTLKSD KTIRSNGKCL TTYGYAPGSY VMIYDCTSAV AEATYWEIWD
+     NGTIINPKSA LVLSAESSSM GGTLTVQTNE YLMRQGWRTG NNTSPFVTSI SGYSDLCMQA
+     QGSNVWMADC DSNKKEQQWA LYTDGSIRSV QNTNNCLTSK DHKQGSTILL MGCSNGWASQ
+     RWVFKNDGSI YSLYDDMVMD VKGSDPSLKQ IILWPYTGKP NQIWLTLF
+//

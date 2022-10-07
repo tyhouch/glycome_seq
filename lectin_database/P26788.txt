@@ -1,0 +1,97 @@
+ID   LEG1_CONMY              Reviewed;         135 AA.
+AC   P26788;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   03-AUG-2022, entry version 98.
+DE   RecName: Full=Congerin-1;
+DE   AltName: Full=Beta-galactoside-binding lectin 1;
+DE   AltName: Full=Congerin I;
+OS   Conger myriaster (Conger eel).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Anguilliformes; Congridae; Conger.
+OX   NCBI_TaxID=7943;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND ACETYLATION AT SER-1.
+RC   TISSUE=Skin mucus;
+RX   PubMed=1581341; DOI=10.1016/0304-4165(92)90109-8;
+RA   Muramoto K., Kamiya H.;
+RT   "The amino-acid sequence of a lectin from conger eel, Conger myriaster,
+RT   skin mucus.";
+RL   Biochim. Biophys. Acta 1116:129-136(1992).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS).
+RX   PubMed=10545323; DOI=10.1016/s0969-2126(00)80056-8;
+RA   Shirai T., Mitsuyama C., Niwa Y., Matsui Y., Hotta H., Yamane T.,
+RA   Kamiya H., Ishii C., Ogawa T., Muramoto K.;
+RT   "High-resolution structure of the conger eel galectin, congerin I, in
+RT   lactose-liganded and ligand-free forms: emergence of a new structure class
+RT   by accelerated evolution.";
+RL   Structure 7:1223-1233(1999).
+CC   -!- FUNCTION: This protein binds beta-galactoside. Its physiological
+CC       function is not yet known.
+CC   -!- SUBUNIT: Homodimer.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; S21102; S21102.
+DR   PDB; 1C1F; X-ray; 1.60 A; A=1-135.
+DR   PDB; 1C1L; X-ray; 1.50 A; A=1-135.
+DR   PDBsum; 1C1F; -.
+DR   PDBsum; 1C1L; -.
+DR   AlphaFoldDB; P26788; -.
+DR   SMR; P26788; -.
+DR   UniLectin; P26788; -.
+DR   iPTMnet; P26788; -.
+DR   EvolutionaryTrace; P26788; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Lectin.
+FT   CHAIN           1..135
+FT                   /note="Congerin-1"
+FT                   /id="PRO_0000076954"
+FT   DOMAIN          3..135
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         70..76
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         1
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:1581341"
+FT   STRAND          16..23
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          29..37
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          40..51
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          54..65
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   HELIX           66..68
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          74..76
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          86..93
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          95..102
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          107..111
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+FT   STRAND          121..134
+FT                   /evidence="ECO:0007829|PDB:1C1L"
+SQ   SEQUENCE   135 AA;  15204 MW;  3AEC767E39EBCE3B CRC64;
+     SGGLQVKNFD FTVGKFLTVG GFINNSPQRF SVNVGESMNS LSLHLDHRFN YGADQNTIVM
+     NSTLKGDNGW ETEQRSTNFT LSAGQYFEIT LSYDINKFYI DILDGPNLEF PNRYSKEFLP
+     FLSLAGDARL TLVKE
+//

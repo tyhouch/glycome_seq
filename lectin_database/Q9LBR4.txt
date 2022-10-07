@@ -1,0 +1,131 @@
+ID   HA17D_CBDP              Reviewed;         146 AA.
+AC   Q9LBR4;
+DT   07-NOV-2018, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   29-SEP-2021, entry version 65.
+DE   RecName: Full=Hemagglutinin component HA-17 type D;
+DE   AltName: Full=ANTP17;
+DE   AltName: Full=HA 17 kDa subunit;
+DE   AltName: Full=HA2 {ECO:0000303|PubMed:8569530};
+GN   Name=ha-17 {ECO:0000303|PubMed:11713244};
+OS   Clostridium botulinum D phage (Clostridium botulinum D bacteriophage).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Siphoviridae.
+OX   NCBI_TaxID=29342;
+OH   NCBI_TaxID=1491; Clostridium botulinum.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 2-11, FUNCTION,
+RP   SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   STRAIN=D-4947 / Type D;
+RX   PubMed=11713244; DOI=10.1074/jbc.m106762200;
+RA   Kouguchi H., Watanabe T., Sagane Y., Sunagawa H., Ohyama T.;
+RT   "In vitro reconstitution of the Clostridium botulinum type D progenitor
+RT   toxin.";
+RL   J. Biol. Chem. 277:2650-2656(2002).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-16, SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   STRAIN=CB-16 / Type D / phage d-16 phi;
+RX   PubMed=8569530; DOI=10.1111/j.1348-0421.1995.tb02229.x;
+RA   Ohyama T., Watanabe T., Fujinaga Y., Inoue K., Sunagawa H., Fujii N.,
+RA   Oguma K.;
+RT   "Characterization of nontoxic-nonhemagglutinin component of the two types
+RT   of progenitor toxin (M and L) produced by Clostridium botulinum type D CB-
+RT   16.";
+RL   Microbiol. Immunol. 39:457-465(1995).
+RN   [3] {ECO:0007744|PDB:2E4M}
+RP   X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) IN COMPLEX WITH HA-33, PROTEIN
+RP   SEQUENCE OF 2-6, FUNCTION, SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   STRAIN=D-4947 / Type D;
+RX   PubMed=17581814; DOI=10.1074/jbc.m703446200;
+RA   Hasegawa K., Watanabe T., Suzuki T., Yamano A., Oikawa T., Sato Y.,
+RA   Kouguchi H., Yoneyama T., Niwa K., Ikeda T., Ohyama T.;
+RT   "A novel subunit structure of Clostridium botulinum serotype D toxin
+RT   complex with three extended arms.";
+RL   J. Biol. Chem. 282:24777-24783(2007).
+CC   -!- FUNCTION: The hemagglutinin (HA) component of the progenitor toxin
+CC       protects the structural integrity of the neurotoxin; may increase
+CC       internalization of the neurotoxin into the bloodstream of the host (By
+CC       similarity). Involved in binding to the small intestine through
+CC       interactions with glycolipids and glycoproteins containing sialic acid
+CC       moieties (Probable). The hemagglutinin complex composed of HA-70, HA-33
+CC       and HA-17 agglutinates erythrocytes, whereas the individual compenents
+CC       do not (PubMed:11713244). Erythrocyte agglutination also occurs with
+CC       the entire toxin complex (PubMed:11713244, PubMed:17581814).
+CC       {ECO:0000250|UniProtKB:P46083, ECO:0000269|PubMed:11713244,
+CC       ECO:0000269|PubMed:17581814, ECO:0000305}.
+CC   -!- SUBUNIT: Botulinum toxins are produced as large progenitor toxins of
+CC       12S (M toxin, about 280 kDa) and 16S (L toxin, about 650 kDa)
+CC       (PubMed:11713244, PubMed:17581814). M toxin consists of a non-toxic,
+CC       non-hemagglutinin component (NTNHA) and the neurotoxin (BoNT/D)
+CC       (PubMed:8569530, PubMed:11713244, PubMed:17581814). L toxin consists of
+CC       the M toxin and the 3 hemagglutinin (HA) subcomponents of 70, 33, and
+CC       17 kDa (PubMed:8569530, PubMed:17581814, PubMed:11713244). The
+CC       stoichiometry of the whole complex has been modeled as one BoNT/D, one
+CC       NTNHA, three HA-70, six HA-33 and three HA-17 (PubMed:17581814). HA-33
+CC       and HA-17 crystallize as a heterotrimer with two HA-33 and one HA-17
+CC       (PubMed:17581814). {ECO:0000269|PubMed:11713244,
+CC       ECO:0000269|PubMed:17581814, ECO:0000269|PubMed:8569530}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:11713244,
+CC       ECO:0000269|PubMed:17581814, ECO:0000269|PubMed:8569530}.
+CC   -!- MISCELLANEOUS: This protein can also be encoded on a prophage.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB037920; BAA90658.1; -; Genomic_DNA.
+DR   PDB; 2E4M; X-ray; 1.85 A; C=1-146.
+DR   PDBsum; 2E4M; -.
+DR   SMR; Q9LBR4; -.
+DR   UniLectin; Q9LBR4; -.
+DR   PATRIC; fig|1491.434.peg.24; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR008903; HA-17_C_botulinum.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   PIRSF; PIRSF037660; Botulinum_HA-17; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Hemagglutinin; Secreted;
+KW   Virulence.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:11713244,
+FT                   ECO:0000269|PubMed:17581814, ECO:0000269|PubMed:8569530"
+FT   CHAIN           2..146
+FT                   /note="Hemagglutinin component HA-17 type D"
+FT                   /id="PRO_0000445710"
+FT   STRAND          10..19
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          21..27
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          32..36
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   HELIX           41..43
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          45..49
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          55..60
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          63..70
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          74..80
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          87..93
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          96..101
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          105..107
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          109..114
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          126..131
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   HELIX           137..139
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+FT   STRAND          141..145
+FT                   /evidence="ECO:0007829|PDB:2E4M"
+SQ   SEQUENCE   146 AA;  16705 MW;  0D3115E48B2AA6A7 CRC64;
+     MSSERTFLPN GNYKIKSLFS DSLYLTYSSG SLSFLNTSSL DNQKWKLEYI SSSNGFRFSN
+     VAEPNKYLAY NDYGFIYLSS SSNNSLWNPI KIAINSYIIC TLSIVNVTDY AWTIYDNNNN
+     ITDQPILNLP NFDINNSNQI LKLEKL
+//

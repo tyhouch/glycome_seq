@@ -1,0 +1,116 @@
+ID   Q9ZKV2_HELPJ            Unreviewed;       744 AA.
+AC   Q9ZKV2;
+DT   01-MAY-1999, integrated into UniProtKB/TrEMBL.
+DT   01-MAY-1999, sequence version 1.
+DT   03-AUG-2022, entry version 105.
+DE   SubName: Full=Outer membrane protein-adhesin {ECO:0000313|EMBL:AAD06409.1};
+GN   Name=babA {ECO:0000313|EMBL:AAD06409.1};
+GN   OrderedLocusNames=jhp_0833 {ECO:0000313|EMBL:AAD06409.1};
+OS   Helicobacter pylori (strain J99 / ATCC 700824) (Campylobacter pylori J99).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=85963 {ECO:0000313|EMBL:AAD06409.1, ECO:0000313|Proteomes:UP000000804};
+RN   [1] {ECO:0000313|EMBL:AAD06409.1, ECO:0000313|Proteomes:UP000000804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=J99 / ATCC 700824 {ECO:0000313|Proteomes:UP000000804};
+RX   PubMed=9923682; DOI=10.1038/16495;
+RA   Alm R.A., Ling L.-S.L., Moir D.T., King B.L., Brown E.D., Doig P.C.,
+RA   Smith D.R., Noonan B., Guild B.C., deJonge B.L., Carmel G., Tummino P.J.,
+RA   Caruso A., Uria-Nickelsen M., Mills D.M., Ives C., Gibson R., Merberg D.,
+RA   Mills S.D., Jiang Q., Taylor D.E., Vovis G.F., Trust T.J.;
+RT   "Genomic sequence comparison of two unrelated isolates of the human gastric
+RT   pathogen Helicobacter pylori.";
+RL   Nature 397:176-180(1999).
+RN   [2] {ECO:0007829|PDB:4ZH0, ECO:0007829|PDB:4ZH7}
+RP   X-RAY CRYSTALLOGRAPHY (1.91 ANGSTROMS) OF 30-547, AND DISULFIDE BONDS.
+RX   PubMed=26601230; DOI=10.1126/sciadv.1500315;
+RA   Hage N., Howard T., Phillips C., Brassington C., Overman R., Debreczeni J.,
+RA   Gellert P., Stolnik S., Winkler G.S., Falcone F.H.;
+RT   "Structural basis of Lewis(b) antigen binding by the Helicobacter pylori
+RT   adhesin BabA.";
+RL   Sci. Adv. 1:e1500315-e1500315(2015).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE001439; AAD06409.1; -; Genomic_DNA.
+DR   PIR; D71883; D71883.
+DR   RefSeq; WP_000716315.1; NC_000921.1.
+DR   PDB; 4ZH0; X-ray; 1.91 A; A=30-547.
+DR   PDB; 4ZH7; X-ray; 2.12 A; A=30-547.
+DR   PDBsum; 4ZH0; -.
+DR   PDBsum; 4ZH7; -.
+DR   SMR; Q9ZKV2; -.
+DR   UniLectin; Q9ZKV2; -.
+DR   EnsemblBacteria; AAD06409; AAD06409; jhp_0833.
+DR   KEGG; hpj:jhp_0833; -.
+DR   eggNOG; COG3170; Bacteria.
+DR   OMA; PMSIENF; -.
+DR   Proteomes; UP000000804; Chromosome.
+DR   InterPro; IPR002718; OMP_Helicobacter.
+DR   InterPro; IPR040838; SabA_N_adhesion.
+DR   Pfam; PF01856; HP_OMP; 1.
+DR   Pfam; PF18304; SabA_adhesion; 1.
+DR   PRINTS; PR01776; HPOMPFAMILY.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4ZH0, ECO:0007829|PDB:4ZH7};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           21..744
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004338010"
+FT   DOMAIN          46..373
+FT                   /note="SabA_adhesion"
+FT                   /evidence="ECO:0000259|Pfam:PF18304"
+FT   BINDING         209
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4ZH7"
+FT   BINDING         211
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4ZH7"
+FT   BINDING         214
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4ZH7"
+FT   BINDING         253
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4ZH7"
+FT   BINDING         264
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4ZH7"
+FT   BINDING         264
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4ZH7"
+FT   BINDING         266
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4ZH7"
+FT   DISULFID        126..155
+FT                   /evidence="ECO:0007829|PDB:4ZH0, ECO:0007829|PDB:4ZH7"
+FT   DISULFID        209..217
+FT                   /evidence="ECO:0007829|PDB:4ZH0, ECO:0007829|PDB:4ZH7"
+FT   DISULFID        297..321
+FT                   /evidence="ECO:0007829|PDB:4ZH0, ECO:0007829|PDB:4ZH7"
+FT   DISULFID        418..446
+FT                   /evidence="ECO:0007829|PDB:4ZH0, ECO:0007829|PDB:4ZH7"
+SQ   SEQUENCE   744 AA;  80608 MW;  387BB99FEFD1A33B CRC64;
+     MKKHILSLTL GSLLVSTLSA EDDGFYTSVG YQIGEAAQMV TNTKGIQDLS DRYESLNNLL
+     NRYSTLNTLI KLSADPSAIN AVRENLGASA KNLIGDKANS PAYQAVLLAI NAAVGFWNVV
+     GYVTQCGGNA NGQKSISSKT IFNNEPGYRS TSITCSLNGH SPGYYGPMSI ENFKKLNEAY
+     QILQTALKRG LPALKENNGK VNVTYTYTCS GDGNNNCSSQ VTGVNNQKDG TKTKIQTIDG
+     KSVTTTISSK VVDSRADGNT TGVSYTEITN KLEGVPDSAQ ALLAQASTLI NTINNACPYF
+     HASNSSEANA PKFSTTTGKI CGAFSEEISA IQKMITDAQE LVNQTSVINE HEQTTPVGNN
+     NGKPFNPFTD ASFAQGMLAN ASAQAKMLNL AEQVGQAINP ERLSGTFQNF VKGFLATCNN
+     PSTAGTGGTQ GSAPGTVTTQ TFASGCAYVG QTITNLKNSI AHFGTQEQQI QQAENIADTL
+     VNFKSRYSEL GNTYNSITTA LSNIPNAQSL QNAVSKKNNP YSPQGIDTNY YLNQNSYNQI
+     QTINQELGRN PFRKVGIVSS QTNNGAMNGI GIQVGYKQFF GQKRKWGARY YGFFDYNHAF
+     IKSSFFNSAS DVWTYGFGAD ALYNFINDKA TNFLGKNNKL SVGLFGGIAL AGTSWLNSEY
+     VNLATMNNVY NAKMNVANFQ FLFNMGVRMN LARPKKKDSD HAAQHGIELG LKIPTINTNY
+     YSFMGAELKY RRLYSVYLNY VFAY
+//

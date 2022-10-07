@@ -1,0 +1,177 @@
+ID   LERK_MYCS2              Reviewed;         571 AA.
+AC   A0R758;
+DT   17-FEB-2016, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   03-AUG-2022, entry version 105.
+DE   RecName: Full=L-erythrulose 1-kinase {ECO:0000305|PubMed:26978037};
+DE            EC=2.7.1.209 {ECO:0000269|PubMed:26560079, ECO:0000305|PubMed:26978037};
+GN   Name=lerK {ECO:0000303|PubMed:26560079};
+GN   OrderedLocusNames=MSMEG_6788 {ECO:0000312|EMBL:ABK72124.1}, MSMEI_6605
+GN   {ECO:0000312|EMBL:AFP43031.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, INDUCTION, DISRUPTION PHENOTYPE, AND PATHWAY.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=26560079; DOI=10.1021/jacs.5b08968;
+RA   Huang H., Carter M.S., Vetting M.W., Al-Obaidi N., Patskovsky Y.,
+RA   Almo S.C., Gerlt J.A.;
+RT   "A general strategy for the discovery of metabolic pathways: D-threitol, L-
+RT   threitol, and erythritol utilization in Mycobacterium smegmatis.";
+RL   J. Am. Chem. Soc. 137:14570-14573(2015).
+RN   [5]
+RP   ERRATUM OF PUBMED:26560079, AND CORRECTION TO PRODUCT IDENTIFICATION.
+RX   PubMed=26978037; DOI=10.1021/jacs.6b01906;
+RA   Huang H., Carter M.S., Vetting M.W., Al-Obaidi N., Patskovsky Y.,
+RA   Almo S.C., Gerlt J.A.;
+RT   "Correction to 'A general strategy for the discovery of metabolic pathways:
+RT   D-threitol, L-threitol, and erythritol utilization in Mycobacterium
+RT   smegmatis'.";
+RL   J. Am. Chem. Soc. 138:4267-4267(2016).
+CC   -!- FUNCTION: Kinase that has a preference for L-erythrulose, producing L-
+CC       erythrulose-1P. Involved in the degradation pathway of L-threitol, that
+CC       allows M.smegmatis to grow on this compound as the sole carbon source.
+CC       Is also able to phosphorylate D-erythrulose and dihydroxyacetone in
+CC       vitro. {ECO:0000269|PubMed:26560079, ECO:0000269|PubMed:26978037}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-erythrulose = ADP + H(+) + L-erythrulose 1-phosphate;
+CC         Xref=Rhea:RHEA:48780, ChEBI:CHEBI:15378, ChEBI:CHEBI:27913,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58002, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.209; Evidence={ECO:0000269|PubMed:26560079,
+CC         ECO:0000305|PubMed:26978037};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3 uM for L-erythrulose {ECO:0000269|PubMed:26560079};
+CC         KM=10.6 uM for D-erythrulose {ECO:0000269|PubMed:26560079};
+CC         KM=37.8 uM for dihydroxyacetone {ECO:0000269|PubMed:26560079};
+CC         Note=kcat is 1.79 sec(-1) with L-erythrulose as substrate. kcat is
+CC         1.60 sec(-1) with D-erythrulose as substrate. kcat is 2.12 sec(-1)
+CC         with dihydroxyacetone as substrate. {ECO:0000269|PubMed:26560079};
+CC   -!- PATHWAY: Carbohydrate metabolism; L-threitol degradation.
+CC       {ECO:0000269|PubMed:26560079}.
+CC   -!- INDUCTION: Slightly up-regulated during growth on L-threitol relative
+CC       to growth on glycerol. {ECO:0000269|PubMed:26560079}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene are totally unable to
+CC       grow on L-threitol. {ECO:0000269|PubMed:26560079}.
+CC   -!- CAUTION: The product of the reaction was originally identified as L-
+CC       erythrulose 4-phosphate (PubMed:26560079). It was then corrected to L-
+CC       erythrulose 1-phosphate by the same group (PubMed:26978037).
+CC       {ECO:0000269|PubMed:26560079, ECO:0000269|PubMed:26978037}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK72124.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP43031.1; -; Genomic_DNA.
+DR   RefSeq; WP_003898168.1; NZ_SIJM01000001.1.
+DR   RefSeq; YP_890996.1; NC_008596.1.
+DR   AlphaFoldDB; A0R758; -.
+DR   SMR; A0R758; -.
+DR   STRING; 246196.MSMEI_6605; -.
+DR   EnsemblBacteria; ABK72124; ABK72124; MSMEG_6788.
+DR   EnsemblBacteria; AFP43031; AFP43031; MSMEI_6605.
+DR   GeneID; 66738045; -.
+DR   KEGG; msg:MSMEI_6605; -.
+DR   KEGG; msm:MSMEG_6788; -.
+DR   PATRIC; fig|246196.19.peg.6608; -.
+DR   eggNOG; COG2376; Bacteria.
+DR   OMA; CRTIICG; -.
+DR   OrthoDB; 857242at2; -.
+DR   BioCyc; MetaCyc:MON-19893; -.
+DR   BRENDA; 2.7.1.209; 3512.
+DR   UniPathway; UPA01067; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0019200; F:carbohydrate kinase activity; IDA:UniProtKB.
+DR   GO; GO:0004371; F:glycerone kinase activity; IEA:InterPro.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IMP:UniProtKB.
+DR   GO; GO:0009758; P:carbohydrate utilization; IMP:UniProtKB.
+DR   GO; GO:0071322; P:cellular response to carbohydrate stimulus; IDA:UniProtKB.
+DR   GO; GO:0006071; P:glycerol metabolic process; IEA:InterPro.
+DR   Gene3D; 1.25.40.340; -; 1.
+DR   InterPro; IPR004006; DhaK_dom.
+DR   InterPro; IPR004007; DhaL_dom.
+DR   InterPro; IPR036117; DhaL_dom_sf.
+DR   Pfam; PF02733; Dak1; 1.
+DR   Pfam; PF02734; Dak2; 1.
+DR   SMART; SM01120; Dak2; 1.
+DR   SUPFAM; SSF101473; SSF101473; 1.
+DR   PROSITE; PS51481; DHAK; 1.
+DR   PROSITE; PS51480; DHAL; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Carbohydrate metabolism; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..571
+FT                   /note="L-erythrulose 1-kinase"
+FT                   /id="PRO_0000435516"
+FT   DOMAIN          7..331
+FT                   /note="DhaK"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00814"
+FT   DOMAIN          367..567
+FT                   /note="DhaL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00813"
+FT   ACT_SITE        217
+FT                   /note="Tele-hemiaminal-histidine intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P76015"
+FT   BINDING         396..402
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         442..443
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         484
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         539
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         552..554
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+SQ   SEQUENCE   571 AA;  59357 MW;  C5E6A4FA68085E9C CRC64;
+     MTYLLNSPDD FADEAVRGLV AANPDLLTEV PGGVVRSTET PKGQPALVIG GGSGHYPAFA
+     GWVGPGMGHG APCGNIFSSP SASEVYSVVR NAENGGGVIL GFGNYAGDVL HFGLAAEKLR
+     HEGIDVRIVT VSDDIASNSP ENHRDRRGVA GDLPVFKIAG AAIEAGADLD EAERVAWKAN
+     DATRSFGLAF EGCTLPGATE PLFHVEKGWM GVGLGIHGEP GVRDNRLGTA AEVADMLFDE
+     VTAEEPPRGE NGYDGRVAVI LNGLGTVKYE ELFVVYGRIA ERLAQQGFTV VRPEVGEFVT
+     SLDMAGVSLT MVFLDDELER LWTAPVETPA YRRGAMPAVD RTPRTTTWDA AETTIPEASE
+     GSRECARNIV AVLETFQQVC ADNEAELGRI DAVAGDGDHG QGMSFGSRGA AQAARDAVDR
+     NAGARTTLLL AGQAWADAAG GTSGALWGAA LTSAGGVFSD TDGADEQAAV DAICAGIDAI
+     LRLGGAQPGD KTMVDAAVPF RDALVKAFDT QAGPAITSAA RVAREAAEKT ADITARRGRA
+     RVLGEKSVGT PDPGALSFAM LMKALGEHLT R
+//

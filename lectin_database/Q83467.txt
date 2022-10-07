@@ -1,0 +1,206 @@
+ID   Q83467_ADEP4            Unreviewed;       703 AA.
+AC   Q83467;
+DT   01-NOV-1996, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 122.
+DE   RecName: Full=Galectin-3 {ECO:0000256|ARBA:ARBA00013926};
+DE   AltName: Full=35 kDa lectin {ECO:0000256|ARBA:ARBA00030132};
+DE   AltName: Full=Carbohydrate-binding protein 35 {ECO:0000256|ARBA:ARBA00033101};
+DE   AltName: Full=Galactose-specific lectin 3 {ECO:0000256|ARBA:ARBA00032127};
+DE   AltName: Full=IgE-binding protein {ECO:0000256|ARBA:ARBA00032974};
+DE   AltName: Full=Laminin-binding protein {ECO:0000256|ARBA:ARBA00033244};
+DE   AltName: Full=Lectin L-29 {ECO:0000256|ARBA:ARBA00030861};
+DE   AltName: Full=Mac-2 antigen {ECO:0000256|ARBA:ARBA00032654};
+OS   Porcine adenovirus B serotype 4 (PAdV-4) (Porcine adenovirus 4).
+OC   Viruses; Varidnaviria; Bamfordvirae; Preplasmiviricota; Tectiliviricetes;
+OC   Rowavirales; Adenoviridae; Mastadenovirus; Porcine mastadenovirus B.
+OX   NCBI_TaxID=35267 {ECO:0000313|EMBL:AAB40001.1, ECO:0000313|Proteomes:UP000243117};
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1] {ECO:0000313|EMBL:AAB40001.1, ECO:0000313|Proteomes:UP000243117}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PAV-4 {ECO:0000313|EMBL:AAB40001.1,
+RC   ECO:0000313|Proteomes:UP000243117};
+RX   PubMed=8837892; DOI=10.1016/0168-1702(95)00079-8;
+RA   Kleiboeker S.B.;
+RT   "Sequence analysis of the fiber genomic region of a porcine adenovirus
+RT   predicts a novel fiber protein.";
+RL   Virus Res. 39:299-309(1995).
+RN   [2] {ECO:0007829|PDB:2WST, ECO:0007829|PDB:2WSU}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 393-703 IN COMPLEX WITH GALACTOSE
+RP   AND N-ACETYL-D-GLUCOSAMINE.
+RX   PubMed=20686025; DOI=10.1128/JVI.00997-10;
+RA   Guardado-Calvo P., Munoz E.M., Llamas-Saiz A.L., Fox G.C., Kahn R.,
+RA   Curiel D.T., Glasgow J.N., van Raaij M.J.;
+RT   "Crystallographic structure of porcine adenovirus type 4 fiber head and
+RT   galectin domains.";
+RL   J. Virol. 84:10558-10568(2010).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC       Nucleus {ECO:0000256|ARBA:ARBA00004123}. Secreted
+CC       {ECO:0000256|ARBA:ARBA00004613}. Virion
+CC       {ECO:0000256|ARBA:ARBA00004328}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U25120; AAB40001.1; -; Genomic_DNA.
+DR   PDB; 2WST; X-ray; 3.20 A; A/B/C/D/E/F=116-291.
+DR   PDB; 2WSU; X-ray; 1.90 A; A/B/C/D=393-703.
+DR   PDB; 2WSV; X-ray; 2.00 A; A=393-703.
+DR   PDB; 2WT0; X-ray; 1.91 A; A=393-703.
+DR   PDB; 2WT1; X-ray; 1.90 A; A=393-703.
+DR   PDB; 2WT2; X-ray; 2.50 A; A/B=393-703.
+DR   PDBsum; 2WST; -.
+DR   PDBsum; 2WSU; -.
+DR   PDBsum; 2WSV; -.
+DR   PDBsum; 2WT0; -.
+DR   PDBsum; 2WT1; -.
+DR   PDBsum; 2WT2; -.
+DR   SMR; Q83467; -.
+DR   UniLectin; Q83467; -.
+DR   EvolutionaryTrace; Q83467; -.
+DR   Proteomes; UP000243117; Genome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019028; C:viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0019863; F:IgE binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0008380; P:RNA splicing; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:InterPro.
+DR   CDD; cd00070; GLECT; 2.
+DR   Gene3D; 2.60.90.10; -; 1.
+DR   InterPro; IPR000931; Adeno_fibre.
+DR   InterPro; IPR000978; Adeno_fibre_knob.
+DR   InterPro; IPR008982; Adenovirus_pIV-like_att.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR015534; Galectin_3.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 2.
+DR   PANTHER; PTHR11346:SF26; PTHR11346:SF26; 2.
+DR   Pfam; PF00541; Adeno_knob; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 2.
+DR   PRINTS; PR00307; ADENOVSFIBRE.
+DR   SMART; SM00908; Gal-bind_lectin; 2.
+DR   SMART; SM00276; GLECT; 2.
+DR   SUPFAM; SSF49835; SSF49835; 1.
+DR   SUPFAM; SSF49899; SSF49899; 2.
+DR   PROSITE; PS51304; GALECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2WST, ECO:0007829|PDB:2WSU};
+KW   Acetylation {ECO:0000256|ARBA:ARBA00022990};
+KW   Capsid protein {ECO:0000256|ARBA:ARBA00022561};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490};
+KW   IgE-binding protein {ECO:0000256|ARBA:ARBA00022972};
+KW   mRNA processing {ECO:0000256|ARBA:ARBA00022728};
+KW   mRNA splicing {ECO:0000256|ARBA:ARBA00023187};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   Spliceosome {ECO:0000256|ARBA:ARBA00022728};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844}.
+FT   DOMAIN          394..523
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51304"
+FT   DOMAIN          548..683
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51304"
+FT   REGION          316..364
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         424
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2WT1, ECO:0007829|PDB:2WT2"
+FT   BINDING         435
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT1"
+FT   BINDING         435
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2WT1"
+FT   BINDING         437
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT1, ECO:0007829|PDB:2WT2"
+FT   BINDING         439
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT1"
+FT   BINDING         439
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT2"
+FT   BINDING         446
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+FT   BINDING         451
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT1"
+FT   BINDING         453
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+FT   BINDING         459
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT1"
+FT   BINDING         462
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT1"
+FT   BINDING         462
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT2"
+FT   BINDING         471
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+FT   BINDING         574
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+FT   BINDING         585
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT0, ECO:0007829|PDB:2WT2"
+FT   BINDING         585
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+FT   BINDING         586
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT0"
+FT   BINDING         598
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+FT   BINDING         619
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2WT0"
+FT   BINDING         629
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+FT   BINDING         650
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2WT2"
+SQ   SEQUENCE   703 AA;  76650 MW;  C2D9E7AEAEB3C0E1 CRC64;
+     MKRSVPSDFN PVYPYDYQPI SLMPAFYDNY GFHEGPSGVL SLNIANPLGY TPRKKLCLKL
+     GEGLALDSDG HLRVQIPDMQ AQPPLLYQGH RLSLLFDADA GFHLTEDGAL SLTKTLVYPT
+     LWTGPAPEAN VTFSGENSPS GILRLCLSRT GGTVIGTLSV QGSLTNPSTG QTLGMNLYFD
+     ADGNVLSESN LVRGSWGMKD QDTLVTPIAN GQYLMPNLTA YPRLIQTLTS SYIYTQAHLD
+     HNNSVVDIKI GLNTDLRPTA AYGLSFTMTF TNSPPTSFGT DLVQFGYLGQ DSSPSFLREL
+     PLASEAGYFG KLAAASEEMP APPEAQTQDQ AAEEPPAPAE AEAPAPAEAE AEAEPPRKPP
+     RGDLAALYNR VHSDTRAEDT PTSPELVTTL PDPFVLPLPD GVPTGASIVL EGTLTPSAVF
+     FTLDLVTGPA SLALHFNVRL PLEGEKHIVC NSREGSSNWG EEVRPQEFPF EREKPFVLVI
+     VIQSDTYQIT VNGKPLVDFP QRLQGITRAS LSGDLVFTRL TMYPPGDPRP TTLLPPPAAP
+     LDVIPDAYVL NLPTGLTPRT LLTVTGTPTP LAEFFIVNLV YDLHYDSKNV ALHFNVGFTS
+     DSKGHIACNA RMNGTWGSEI TVSDFPFQRG KPFTLQILTR EADFQVLVDK QPLTQFQYRL
+     KELDQIKYVH MFGHVVQTHL EHQVPDTPVF STAGVSKVYP QIL
+//

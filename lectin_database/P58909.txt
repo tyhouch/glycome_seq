@@ -1,0 +1,64 @@
+ID   LECA_DIOVO              Reviewed;          49 AA.
+AC   P58909;
+DT   26-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   26-JUL-2002, sequence version 1.
+DT   25-MAY-2022, entry version 68.
+DE   RecName: Full=Lectin alpha chain;
+DE   Contains:
+DE     RecName: Full=Lectin beta chain;
+DE   Contains:
+DE     RecName: Full=Lectin gamma chain;
+DE   Flags: Fragments;
+OS   Dioclea violacea.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Macropsychanthus.
+OX   NCBI_TaxID=192415;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Seed;
+RX   PubMed=10082964; DOI=10.1016/s0167-4838(99)00020-5;
+RA   Calvete J.J., Thole H.H., Raida M., Urbanke C., Romero A., Grangeiro T.B.,
+RA   Ramos M.V., Almeida da Rocha I.M., Guimaraes F.N., Cavada B.S.;
+RT   "Molecular characterization and crystallization of Diocleinae lectins.";
+RL   Biochim. Biophys. Acta 1430:367-375(1999).
+CC   -!- FUNCTION: D-mannose/D-glucose-binding lectin.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- TISSUE SPECIFICITY: Seed.
+CC   -!- PTM: The beta and gamma chains are produced by partial proteolytic
+CC       processing of the lectin alpha chain by an asparaginyl endopeptidase.
+CC       Mixture of 60% alpha lectin and 40% of its beta and gamma proteolytic
+CC       fragments.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P58909; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Lectin; Manganese; Mannose-binding.
+FT   CHAIN           1..>49
+FT                   /note="Lectin alpha chain"
+FT                   /id="PRO_0000017608"
+FT   CHAIN           1..>25
+FT                   /note="Lectin beta chain"
+FT                   /id="PRO_0000017609"
+FT   CHAIN           26..>49
+FT                   /note="Lectin gamma chain"
+FT                   /id="PRO_0000017610"
+FT   NON_CONS        25..26
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         49
+SQ   SEQUENCE   49 AA;  5500 MW;  ED0D8FDBADCF7878 CRC64;
+     ADTIVAVELD SYPNTDIGDP NYPHISIADE NSLHFSFHKF SQNPKDLIL
+//

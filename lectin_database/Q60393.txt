@@ -1,0 +1,583 @@
+ID   BXG_CLOBO               Reviewed;        1297 AA.
+AC   Q60393;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 140.
+DE   RecName: Full=Botulinum neurotoxin type G;
+DE            Short=BoNT/G {ECO:0000303|PubMed:8268233};
+DE   AltName: Full=Bontoxilysin-G;
+DE   Contains:
+DE     RecName: Full=Botulinum neurotoxin G light chain;
+DE              Short=LC;
+DE              EC=3.4.24.69 {ECO:0000269|PubMed:7910017};
+DE   Contains:
+DE     RecName: Full=Botulinum neurotoxin G heavy chain;
+DE              Short=HC;
+DE   Flags: Precursor;
+GN   Name=botG;
+OS   Clostridium botulinum.
+OC   Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=1491;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=113 / 30 / NCFB 3012 / Type G;
+RX   PubMed=8268233; DOI=10.1016/0167-4781(93)90020-e;
+RA   Campbell K., Collins M.D., East A.K.;
+RT   "Nucleotide sequence of the gene coding for Clostridium botulinum
+RT   (Clostridium argentinense) type G neurotoxin: genealogical comparison with
+RT   other clostridial neurotoxins.";
+RL   Biochim. Biophys. Acta 1216:487-491(1993).
+RN   [2]
+RP   IDENTIFICATION OF TOXIN, SUBCELLULAR LOCATION (BOTULINUM NEUROTOXIN TYPE
+RP   G), HOST RANGE, EPIDEMIOLOGY, AND POSSIBLE RELEASE AS SINGLE CHAIN.
+RC   STRAIN=89 / BL 1353 /Type G;
+RX   PubMed=4922309;
+RA   Gimenez D.F., Ciccarelli A.S.;
+RT   "Another type of Clostridium botulinum.";
+RL   Zentralbl. Bakteriol. 215:221-224(1970).
+RN   [3]
+RP   SUBCELLULAR LOCATION (BOTULINUM NEUROTOXIN TYPE G), HOST RANGE,
+RP   EPIDEMIOLOGY, AND POSSIBLE RELEASE AS SINGLE CHAIN.
+RC   STRAIN=89 / BL 1353 /Type G;
+RX   PubMed=74236; DOI=10.1128/aem.34.6.843-848.1977;
+RA   Ciccarelli A.S., Whaley D.N., McCroskey L.M., Gimenez D.F.,
+RA   Dowell V.R. Jr., Hatheway C.L.;
+RT   "Cultural and physiological characteristics of Clostridium botulinum type G
+RT   and the susceptibility of certain animals to its toxin.";
+RL   Appl. Environ. Microbiol. 34:843-848(1977).
+RN   [4]
+RP   HOST RANGE, AND EPIDEMIOLOGY.
+RX   DOI=10.1099/00207713-38-4-375;
+RA   Sue J.C., Hatheway C.L., Steigerwalt A.G., Brenner D.J.;
+RT   "Clostridium argentinense sp. nov.: a genetically homogeneous group
+RT   composed of all Strains of Clostridium botulinum toxin type G and some
+RT   nontoxigenic strains previously identified as Clostridium subterminale or
+RT   Clostridium hastiforme.";
+RL   Int. J. Syst. Bacteriol. 38:375-381(1988).
+RN   [5]
+RP   FUNCTION (BOTULINUM NEUROTOXIN G LIGHT CHAIN), IDENTIFICATION OF SUBSTRATE,
+RP   CATALYTIC ACTIVITY, AND SUBCELLULAR LOCATION (BOTULINUM NEUROTOXIN G LIGHT
+RP   CHAIN).
+RX   PubMed=7910017; DOI=10.1006/bbrc.1994.1526;
+RA   Yamasaki S., Binz T., Hayashi T., Szabo E., Yamasaki N., Eklund M.,
+RA   Jahn R., Niemann H.;
+RT   "Botulinum neurotoxin type G proteolyses the Ala81-Ala82 bond of rat
+RT   synaptobrevin 2.";
+RL   Biochem. Biophys. Res. Commun. 200:829-835(1994).
+RN   [6]
+RP   FUNCTION (BOTULINUM NEUROTOXIN TYPE G AND BOTULINUM NEUROTOXIN G HEAVY
+RP   CHAIN), IDENTIFICATION OF HOST RECEPTOR (BOTULINUM NEUROTOXIN TYPE G), AND
+RP   INTERACTION WITH HOST SYT1 AND SYT2.
+RC   STRAIN=Type G;
+RX   PubMed=15123599; DOI=10.1074/jbc.m403945200;
+RA   Rummel A., Karnath T., Henke T., Bigalke H., Binz T.;
+RT   "Synaptotagmins I and II act as nerve cell receptors for botulinum
+RT   neurotoxin G.";
+RL   J. Biol. Chem. 279:30865-30870(2004).
+RN   [7]
+RP   FUNCTION (BOTULINUM NEUROTOXIN B HEAVY CHAIN), INTERACTION WITH HOST SYT1
+RP   AND SYT2, AND MUTAGENESIS OF MET-1126; LEU-1191; GLN-1200; TYR-1262 AND
+RP   TRP-1268.
+RC   STRAIN=Type G;
+RX   PubMed=17185412; DOI=10.1073/pnas.0609713104;
+RA   Rummel A., Eichner T., Weil T., Karnath T., Gutcaits A., Mahrhold S.,
+RA   Sandhoff K., Proia R.L., Acharya K.R., Bigalke H., Binz T.;
+RT   "Identification of the protein receptor binding site of botulinum
+RT   neurotoxins B and G proves the double-receptor concept.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:359-364(2007).
+RN   [8]
+RP   FUNCTION (BOTULINUM NEUROTOXIN TYPE G), FUNCTION (BOTULINUM NEUROTOXIN G
+RP   HEAVY CHAIN), AND MUTAGENESIS OF GLN-1200 AND TRP-1268.
+RX   PubMed=19650874; DOI=10.1111/j.1471-4159.2009.06298.x;
+RA   Rummel A., Haefner K., Mahrhold S., Darashchonak N., Holt M., Jahn R.,
+RA   Beermann S., Karnath T., Bigalke H., Binz T.;
+RT   "Botulinum neurotoxins C, E and F bind gangliosides via a conserved binding
+RT   site prior to stimulation-dependent uptake with botulinum neurotoxin F
+RT   utilising the three isoforms of SV2 as second receptor.";
+RL   J. Neurochem. 110:1942-1954(2009).
+RN   [9] {ECO:0007744|PDB:1ZB7}
+RP   X-RAY CRYSTALLOGRAPHY (2.35 ANGSTROMS) OF 1-443 IN COMPLEX WITH ZINC, AND
+RP   COFACTOR.
+RX   PubMed=16008342; DOI=10.1021/bi0505924;
+RA   Arndt J.W., Yu W., Bi F., Stevens R.C.;
+RT   "Crystal structure of botulinum neurotoxin type G light chain: serotype
+RT   divergence in substrate recognition.";
+RL   Biochemistry 44:9574-9580(2005).
+RN   [10] {ECO:0007744|PDB:3MPP}
+RP   X-RAY CRYSTALLOGRAPHY (1.98 ANGSTROMS) OF 867-1297, FUNCTION (BOTULINUM
+RP   NEUROTOXIN B HEAVY CHAIN), DOMAIN, GANGLIOSIDE-BINDING, AND MUTAGENESIS OF
+RP   1080-SER--TRP-1084.
+RC   STRAIN=Type G;
+RX   PubMed=20507178; DOI=10.1021/bi100412v;
+RA   Schmitt J., Karalewitz A., Benefield D.A., Mushrush D.J., Pruitt R.N.,
+RA   Spiller B.W., Barbieri J.T., Lacy D.B.;
+RT   "Structural analysis of botulinum neurotoxin type G receptor binding.";
+RL   Biochemistry 49:5200-5205(2010).
+RN   [11] {ECO:0007744|PDB:2VXR}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 863-1297, FUNCTION (BOTULINUM
+RP   NEUROTOXIN B HEAVY CHAIN), SUBUNIT, AND DOMAIN.
+RC   STRAIN=Type G;
+RX   PubMed=20219474; DOI=10.1016/j.jmb.2010.02.041;
+RA   Stenmark P., Dong M., Dupuy J., Chapman E.R., Stevens R.C.;
+RT   "Crystal structure of the botulinum neurotoxin type G binding domain:
+RT   insight into cell surface binding.";
+RL   J. Mol. Biol. 397:1287-1297(2010).
+CC   -!- FUNCTION: [Botulinum neurotoxin type G]: Botulinum toxin causes flaccid
+CC       paralysis by inhibiting neurotransmitter (acetylcholine) release from
+CC       the presynaptic membranes of nerve terminals of the eukaryotic host
+CC       skeletal and autonomic nervous system, with frequent heart or
+CC       respiratory failure (PubMed:15123599). Precursor of botulinum
+CC       neurotoxin G which has 2 coreceptors; complex polysialylated
+CC       gangliosides found on neural tissue and specific membrane-anchored
+CC       proteins found in synaptic vesicles (PubMed:15123599). Receptor
+CC       proteins are exposed on host presynaptic cell membrane during
+CC       neurotransmitter release, when the toxin heavy chain (HC) binds to
+CC       them. Upon synaptic vesicle recycling the toxin is taken up via the
+CC       endocytic pathway. When the pH of the toxin-containing endosome drops a
+CC       structural rearrangement occurs so that the N-terminus of the HC forms
+CC       pores that allows the light chain (LC) to translocate into the cytosol.
+CC       Once in the cytosol the disulfide bond linking the 2 subunits is
+CC       reduced and LC cleaves its target protein on synaptic vesicles,
+CC       preventing their fusion with the cytoplasmic membrane and thus
+CC       neurotransmitter release (By similarity). Binds to host peripheral
+CC       neuronal presynaptic membranes via synaptotagmins 1 and 2 (SYT1 and
+CC       SYT2) (PubMed:15123599). Toxin binds to the membrane proximal extra-
+CC       cytoplasmic region of SYT1 and SYT2 that is transiently exposed outside
+CC       of cells during exocytosis; exogenous gangliosides do not enhance
+CC       binding and subsequent uptake of toxin into host cells
+CC       (PubMed:15123599). Toxin activity can be blocked by the appropriate
+CC       synaptotagmin protein fragments in cell culture (PubMed:15123599).
+CC       {ECO:0000250|UniProtKB:P0DPI0, ECO:0000269|PubMed:15123599}.
+CC   -!- FUNCTION: [Botulinum neurotoxin G light chain]: Has proteolytic
+CC       activity. After translocation into the eukaryotic host cytosol acts as
+CC       a zinc endopeptidase that cleaves synaptobrevins-1, -2 and -3 (also
+CC       called VAMP1, VAMP2 and VAMP3) (PubMed:7910017). Hydrolyzes the '81-
+CC       Ala-|-Ala-82' bond of VAMP2, and probably also the equivalent 'Ala-|-
+CC       Ala' sites in VAMP1 and VAMP3 (PubMed:7910017). Has low activity on
+CC       A.californica synaptobrevin and none on D.melanogaster synaptobrevin or
+CC       cellubrevin, have a slightly different sequence (PubMed:7910017).
+CC       {ECO:0000269|PubMed:7910017}.
+CC   -!- FUNCTION: [Botulinum neurotoxin G heavy chain]: Responsible for host
+CC       cell targeting and translocation of light chain (LC) into host cytosol.
+CC       Composed of 3 subdomains; the translocation domain (TD), and N-terminus
+CC       and C-terminus of the receptor-binding domain (N-RBD, C-RBD). The RBD
+CC       is responsible for the adherence of the toxin to the cell surface. It
+CC       simultaneously recognizes 2 coreceptors; polysialated gangliosides and
+CC       the receptor proteins SYT1 and SYT2 in close proximity on host synaptic
+CC       vesicles (PubMed:17185412). The N-terminus of the TD wraps an extended
+CC       belt around the perimeter of the LC, protecting Zn(2+) in the active
+CC       site; it may also prevent premature LC dissociation from the
+CC       translocation channel and protect toxin prior to translocation (By
+CC       similarity). The TD inserts into synaptic vesicle membrane to allow
+CC       translocation into the host cytosol (By similarity). Has 2 coreceptors;
+CC       complex gangliosides found primarily on neural tissue and host
+CC       synaptotagmin-1 and -2 (SYT1 and SYT2) which bind to separate sites at
+CC       the tip of the HC (PubMed:17185412). HC alone binds to host receptors
+CC       SYT1 and SYT2; C-RBD interacts with host SYT2 (PubMed:15123599). Has
+CC       equal affinity for SYT1 and SYT2; gangliosides are not required for (or
+CC       only very slightly improve) binding to a membrane-anchored receptor
+CC       fragment (PubMed:17185412, PubMed:20219474). Has also been shown to
+CC       only bind SYT1; the assay methods were different (PubMed:20507178).
+CC       Binds ganglioside GT1b (PubMed:20507178). Significantly decreases
+CC       uptake and toxicity of whole BoNT/B and BoNT/G (PubMed:19650874).
+CC       {ECO:0000250|UniProtKB:P0DPI0, ECO:0000269|PubMed:15123599,
+CC       ECO:0000269|PubMed:17185412, ECO:0000269|PubMed:19650874,
+CC       ECO:0000269|PubMed:20219474, ECO:0000269|PubMed:20507178}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Limited hydrolysis of proteins of the neuroexocytosis
+CC         apparatus, synaptobrevins, SNAP25 or syntaxin. No detected action on
+CC         small molecule substrates.; EC=3.4.24.69;
+CC         Evidence={ECO:0000269|PubMed:7910017};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:16008342};
+CC       Note=Binds 1 zinc ion per subunit (PubMed:16008342).
+CC       {ECO:0000269|PubMed:16008342};
+CC   -!- SUBUNIT: Heterodimer; disulfide-linked heterodimer of a light chain
+CC       (LC) and a heavy chain (HC). The LC has the proteolytic/pharmacological
+CC       activity, while the N- and C-termini of the HC mediate channel
+CC       formation and toxin binding, respectively. Interacts with host
+CC       receptors synaptotagmin-1 and -2 (SYT1 and SYT2) (PubMed:15123599,
+CC       PubMed:17185412, PubMed:20219474). {ECO:0000269|PubMed:15123599,
+CC       ECO:0000269|PubMed:17185412, ECO:0000269|PubMed:20219474}.
+CC   -!- SUBCELLULAR LOCATION: [Botulinum neurotoxin type G]: Secreted
+CC       {ECO:0000269|PubMed:74236, ECO:0000305|PubMed:4922309}.
+CC   -!- SUBCELLULAR LOCATION: [Botulinum neurotoxin G light chain]: Secreted
+CC       {ECO:0000305|PubMed:74236}. Host cytoplasm, host cytosol
+CC       {ECO:0000305|PubMed:7910017}.
+CC   -!- SUBCELLULAR LOCATION: [Botulinum neurotoxin G heavy chain]: Secreted
+CC       {ECO:0000305|PubMed:74236}. Host synapse, host presynaptic cell
+CC       membrane {ECO:0000250|UniProtKB:P0DPI0}. Host cytoplasmic vesicle, host
+CC       secretory vesicle, host synaptic vesicle membrane
+CC       {ECO:0000250|UniProtKB:P0DPI0}; Multi-pass membrane protein
+CC       {ECO:0000305}.
+CC   -!- DOMAIN: [Botulinum neurotoxin G light chain]: Has protease activity
+CC       (PubMed:7910017). {ECO:0000269|PubMed:7910017}.
+CC   -!- DOMAIN: [Botulinum neurotoxin G heavy chain]: Has 3 functional domains.
+CC       The translocation domain (TD) which probably forms membrane channels to
+CC       allow light chain (LC) into the host cytosol (Probable). The C-terminal
+CC       receptor-binding domain (RBD) has 2 further subdomains, N-RBD (Hcn) and
+CC       C-RBD (Hcc) (PubMed:20507178, PubMed:20219474). The N-terminus of the
+CC       TD wraps an extended belt around the perimeter of the LC, protecting
+CC       Zn(2+) in the active site and may be a pseudosubstrate inhibitor which
+CC       serves as an intramolecular chaperone for the LC prior to its
+CC       translocation into the host cytosol (By similarity). The RBD binds
+CC       transiently exposed coreceptors on the host presynaptic cell membrane
+CC       (Probable). {ECO:0000250|UniProtKB:P0DPI0, ECO:0000269|PubMed:20219474,
+CC       ECO:0000269|PubMed:20507178, ECO:0000269|PubMed:7910017,
+CC       ECO:0000305|PubMed:15123599}.
+CC   -!- MISCELLANEOUS: There are seven antigenically distinct forms of
+CC       botulinum neurotoxin: Types A, B, C, D, E, F, and G; new subtypes are
+CC       quite frequent.
+CC   -!- MISCELLANEOUS: Botulism poisoning is usually food-borne, either by
+CC       ingesting toxin or bacterial-contaminated food, or less frequently by
+CC       inhalation poisoning. In both cases the neurotoxin binds to the apical
+CC       surface of epithelial cells in the gut or airway. Toxin undergoes
+CC       receptor-mediated endocytosis (using a different receptor than on
+CC       target nerve cells), transcytosis across the epithelial cells and
+CC       release into the general circulation. Once in the general circulation
+CC       it binds to its target cells. {ECO:0000250|UniProtKB:P0DPI0}.
+CC   -!- MISCELLANEOUS: Type G toxin has been isolated from soil samples and
+CC       human autopsy specimens but has not been clearly implicated as the
+CC       cause of human paralytic illness or death (Ref.4). Strain 89 was
+CC       isolated from soil in Mendoza province, Argentiana (PubMed:4922309).
+CC       Administration of strain 89 toxin to mouse, chicken, guinea pig and
+CC       rhesus monkeys causes botulism symptoms and in most cases death, while
+CC       dog and sheep show no signs of botulism (PubMed:74236). In the original
+CC       report 5-fold higher levels of toxin caused botulism and death in sheep
+CC       (PubMed:4922309). {ECO:0000269|PubMed:4922309,
+CC       ECO:0000269|PubMed:74236, ECO:0000305|Ref.4}.
+CC   -!- MISCELLANEOUS: Trypsinization of purified toxin increases its toxicity,
+CC       suggesting it is released as a single chain (PubMed:4922309,
+CC       PubMed:74236). {ECO:0000305|PubMed:4922309, ECO:0000305|PubMed:74236}.
+CC   -!- SIMILARITY: Belongs to the peptidase M27 family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=BotDB - A Database Resource for Clostridial
+CC       Neurotoxins;
+CC       URL="https://botdb.abcc.ncifcrf.gov/";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X74162; CAA52275.1; -; Genomic_DNA.
+DR   PIR; S39791; S39791.
+DR   PDB; 1ZB7; X-ray; 2.35 A; A=1-443.
+DR   PDB; 2VXR; X-ray; 1.90 A; A=863-1297.
+DR   PDB; 3MPP; X-ray; 1.98 A; G=867-1297.
+DR   PDBsum; 1ZB7; -.
+DR   PDBsum; 2VXR; -.
+DR   PDBsum; 3MPP; -.
+DR   SMR; Q60393; -.
+DR   DIP; DIP-60790N; -.
+DR   IntAct; Q60393; 3.
+DR   MINT; Q60393; -.
+DR   DrugBank; DB13899; Equine Botulinum Neurotoxin G Immune FAB2.
+DR   MEROPS; M27.002; -.
+DR   UniLectin; Q60393; -.
+DR   ABCD; Q60393; 27 sequenced antibodies.
+DR   BRENDA; 3.4.24.69; 1462.
+DR   Reactome; R-HSA-5250989; Toxicity of botulinum toxin type G (botG).
+DR   EvolutionaryTrace; Q60393; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044161; C:host cell cytoplasmic vesicle; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044164; C:host cell cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044156; C:host cell junction; IEA:UniProtKB-KW.
+DR   GO; GO:0044231; C:host cell presynaptic membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0008289; F:lipid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008320; F:protein transmembrane transporter activity; TAS:Reactome.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0046929; P:negative regulation of neurotransmitter secretion; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.1120.10; -; 1.
+DR   InterPro; IPR000395; Bot/tetX_LC.
+DR   InterPro; IPR036248; Clostridium_toxin_transloc.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR011065; Kunitz_inhibitor_STI-like_sf.
+DR   InterPro; IPR013104; Toxin_rcpt-bd_C.
+DR   InterPro; IPR012928; Toxin_rcpt-bd_N.
+DR   InterPro; IPR012500; Toxin_trans.
+DR   Pfam; PF01742; Peptidase_M27; 1.
+DR   Pfam; PF07951; Toxin_R_bind_C; 1.
+DR   Pfam; PF07953; Toxin_R_bind_N; 1.
+DR   Pfam; PF07952; Toxin_trans; 1.
+DR   PRINTS; PR00760; BONTOXILYSIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF50386; SSF50386; 1.
+DR   SUPFAM; SSF58091; SSF58091; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Host cell membrane; Host cytoplasm;
+KW   Host cytoplasmic vesicle; Host membrane; Host synapse; Hydrolase;
+KW   Lipid-binding; Membrane; Metal-binding; Metalloprotease; Neurotoxin;
+KW   Protease; Secreted; Toxin; Virulence; Zinc.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DPI0"
+FT   CHAIN           2..1297
+FT                   /note="Botulinum neurotoxin type G"
+FT                   /id="PRO_0000444922"
+FT   CHAIN           2..442
+FT                   /note="Botulinum neurotoxin G light chain"
+FT                   /id="PRO_0000029227"
+FT   CHAIN           443..1297
+FT                   /note="Botulinum neurotoxin G heavy chain"
+FT                   /id="PRO_0000029228"
+FT   REGION          446..862
+FT                   /note="Translocation domain (TD)"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DPI0"
+FT   REGION          488..537
+FT                   /note="Belt"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DPI0"
+FT   REGION          868..1073
+FT                   /note="N-terminus of receptor binding domain (N-RBD)"
+FT                   /evidence="ECO:0000269|PubMed:20219474,
+FT                   ECO:0000269|PubMed:20507178"
+FT   REGION          1089..1297
+FT                   /note="C-terminus of receptor binding domain (C-RBD)"
+FT                   /evidence="ECO:0000269|PubMed:20219474,
+FT                   ECO:0000269|PubMed:20507178"
+FT   MOTIF           1266..1269
+FT                   /note="Host ganglioside-binding motif"
+FT                   /evidence="ECO:0000305|PubMed:17185412"
+FT   ACT_SITE        231
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         230
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095,
+FT                   ECO:0000269|PubMed:16008342, ECO:0007744|PDB:1ZB7"
+FT   BINDING         234
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095,
+FT                   ECO:0000269|PubMed:16008342, ECO:0007744|PDB:1ZB7"
+FT   BINDING         268
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000269|PubMed:16008342,
+FT                   ECO:0007744|PDB:1ZB7"
+FT   SITE            1268
+FT                   /note="Ganglioside-binding site"
+FT                   /evidence="ECO:0000305|PubMed:17185412"
+FT   DISULFID        436..450
+FT                   /note="Interchain (between light and heavy chains)"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DPI0, ECO:0000305"
+FT   MUTAGEN         1080..1084
+FT                   /note="SSLYW->EERYK: Improves solubility of isolated heavy
+FT                   chain (HC), used for crystallization."
+FT                   /evidence="ECO:0000269|PubMed:20507178"
+FT   MUTAGEN         1126
+FT                   /note="M->D: Significantly decreased binding of HC to host
+FT                   SYT1 and SYT2 independent of gangliosides."
+FT                   /evidence="ECO:0000269|PubMed:17185412"
+FT   MUTAGEN         1191
+FT                   /note="L->R: Significantly decreased binding of HC to host
+FT                   SYT1 and SYT2 independent of gangliosides."
+FT                   /evidence="ECO:0000269|PubMed:17185412"
+FT   MUTAGEN         1200
+FT                   /note="Q->E: Significantly decreased binding of HC to host
+FT                   SYT1 and SYT2 independent of gangliosides."
+FT                   /evidence="ECO:0000269|PubMed:17185412"
+FT   MUTAGEN         1200
+FT                   /note="Q->K: Decreased binding of HC to host SYT1 and SYT2
+FT                   independent of gangliosides; whole toxin is less toxic.
+FT                   Dramatically decreased toxicity; when associated with
+FT                   L-1268. HC no longer inhibits whole-toxin uptake and
+FT                   toxicity."
+FT                   /evidence="ECO:0000269|PubMed:17185412,
+FT                   ECO:0000269|PubMed:19650874"
+FT   MUTAGEN         1262
+FT                   /note="Y->F: Slightly increased binding of HC to host SYT1
+FT                   and SYT2 in presence of gangliosides."
+FT                   /evidence="ECO:0000269|PubMed:17185412"
+FT   MUTAGEN         1268
+FT                   /note="W->L: Gangliosides no longer increase HC affinity
+FT                   for SYT1 or SYT2; whole toxin about significantly less
+FT                   toxic. Dramatically decreased toxicity; when associated
+FT                   with K-1200. In mice without complex gangliosides no change
+FT                   compared to wild-type protein. HC no longer inhibits
+FT                   whole-toxin uptake and toxicity."
+FT                   /evidence="ECO:0000269|PubMed:17185412,
+FT                   ECO:0000269|PubMed:19650874"
+FT   STRAND          16..23
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          28..30
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          34..40
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          43..46
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          69..74
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   TURN            76..79
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           82..99
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           103..114
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   TURN            134..136
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          137..142
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          150..155
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          157..161
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          171..173
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           182..184
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          185..187
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          191..194
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          199..208
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          215..221
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           224..239
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           266..273
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   TURN            277..279
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           282..303
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          308..313
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           316..327
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           341..353
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           357..364
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          377..381
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   TURN            388..390
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   TURN            393..395
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           400..402
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           406..411
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   TURN            413..415
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   HELIX           417..419
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   TURN            425..427
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          428..432
+FT                   /evidence="ECO:0007829|PDB:1ZB7"
+FT   STRAND          870..876
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          879..882
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          889..892
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          897..899
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          905..911
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          916..919
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   TURN            922..924
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          927..930
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          933..940
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   HELIX           946..948
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   HELIX           949..954
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          956..964
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          967..974
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          977..983
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          989..995
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          998..1002
+FT                   /evidence="ECO:0007829|PDB:3MPP"
+FT   STRAND          1010..1016
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1020..1026
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1029..1035
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1046..1054
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1061..1072
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   HELIX           1076..1086
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1097..1099
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1105..1113
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1116..1121
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   HELIX           1122..1124
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1126..1131
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1134..1136
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1141..1143
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1150..1155
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1174..1184
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1186..1191
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1196..1200
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1202..1206
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1216..1219
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1229..1236
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1239..1248
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1260..1267
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   HELIX           1268..1272
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1275..1277
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+FT   STRAND          1286..1289
+FT                   /evidence="ECO:0007829|PDB:2VXR"
+SQ   SEQUENCE   1297 AA;  149146 MW;  306CF54CF3973C3B CRC64;
+     MPVNIKXFNY NDPINNDDII MMEPFNDPGP GTYYKAFRII DRIWIVPERF TYGFQPDQFN
+     ASTGVFSKDV YEYYDPTYLK TDAEKDKFLK TMIKLFNRIN SKPSGQRLLD MIVDAIPYLG
+     NASTPPDKFA ANVANVSINK KIIQPGAEDQ IKGLMTNLII FGPGPVLSDN FTDSMIMNGH
+     SPISEGFGAR MMIRFCPSCL NVFNNVQENK DTSIFSRRAY FADPALTLMH ELIHVLHGLY
+     GIKISNLPIT PNTKEFFMQH SDPVQAEELY TFGGHDPSVI SPSTDMNIYN KALQNFQDIA
+     NRLNIVSSAQ GSGIDISLYK QIYKNKYDFV EDPNGKYSVD KDKFDKLYKA LMFGFTETNL
+     AGEYGIKTRY SYFSEYLPPI KTEKLLDNTI YTQNEGFNIA SKNLKTEFNG QNKAVNKEAY
+     EEISLEHLVI YRIAMCKPVM YKNTGKSEQC IIVNNEDLFF IANKDSFSKD LAKAETIAYN
+     TQNNTIENNF SIDQLILDND LSSGIDLPNE NTEPFTNFDD IDIPVYIKQS ALKKIFVDGD
+     SLFEYLHAQT FPSNIENLQL TNSLNDALRN NNKVYTFFST NLVEKANTVV GASLFVNWVK
+     GVIDDFTSES TQKSTIDKVS DVSIIIPYIG PALNVGNETA KENFKNAFEI GGAAILMEFI
+     PELIVPIVGF FTLESYVGNK GHIIMTISNA LKKRDQKWTD MYGLIVSQWL STVNTQFYTI
+     KERMYNALNN QSQAIEKIIE DQYNRYSEED KMNINIDFND IDFKLNQSIN LAINNIDDFI
+     NQCSISYLMN RMIPLAVKKL KDFDDNLKRD LLEYIDTNEL YLLDEVNILK SKVNRHLKDS
+     IPFDLSLYTK DTILIQVFNN YISNISSNAI LSLSYRGGRL IDSSGYGATM NVGSDVIFND
+     IGNGQFKLNN SENSNITAHQ SKFVVYDSMF DNFSINFWVR TPKYNNNDIQ TYLQNEYTII
+     SCIKNDSGWK VSIKGNRIIW TLIDVNAKSK SIFFEYSIKD NISDYINKWF SITITNDRLG
+     NANIYINGSL KKSEKILNLD RINSSNDIDF KLINCTDTTK FVWIKDFNIF GRELNATEVS
+     SLYWIQSSTN TLKDFWGNPL RYDTQYYLFN QGMQNIYIKY FSKASMGETA PRTNFNNAAI
+     NYQNLYLGLR FIIKKASNSR NINNDNIVRE GDYIYLNIDN ISDESYRVYV LVNSKEIQTQ
+     LFLAPINDDP TFYDVLQIKK YYEKTTYNCQ ILCEKDTKTF GLFGIGKFVK DYGYVWDTYD
+     NYFCISQWYL RRISENINKL RLGCNWQFIP VDEGWTE
+//

@@ -1,0 +1,250 @@
+ID   CALX_CAEEL              Reviewed;         619 AA.
+AC   P34652;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   03-AUG-2022, entry version 169.
+DE   RecName: Full=Calnexin;
+DE            Short=CeCNX-1;
+DE   Flags: Precursor;
+GN   Name=cnx-1; ORFNames=ZK632.6;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, DEVELOPMENTAL STAGE, INDUCTION, DISRUPTION PHENOTYPE,
+RP   GLYCOSYLATION AT ASN-203 AND ASN-571, AND MUTAGENESIS OF ASN-203 AND
+RP   ASN-571.
+RC   STRAIN=Bristol N2;
+RX   PubMed=16256074; DOI=10.1016/j.bbrc.2005.10.041;
+RA   Lee W., Lee T.H., Park B.J., Chang J.W., Yu J.R., Koo H.S., Park H.,
+RA   Yoo Y.J., Ahnn J.;
+RT   "Caenorhabditis elegans calnexin is N-glycosylated and required for stress
+RT   response.";
+RL   Biochem. Biophys. Res. Commun. 338:1018-1030(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=7906398; DOI=10.1038/368032a0;
+RA   Wilson R., Ainscough R., Anderson K., Baynes C., Berks M., Bonfield J.,
+RA   Burton J., Connell M., Copsey T., Cooper J., Coulson A., Craxton M.,
+RA   Dear S., Du Z., Durbin R., Favello A., Fraser A., Fulton L., Gardner A.,
+RA   Green P., Hawkins T., Hillier L., Jier M., Johnston L., Jones M.,
+RA   Kershaw J., Kirsten J., Laisster N., Latreille P., Lightning J., Lloyd C.,
+RA   Mortimore B., O'Callaghan M., Parsons J., Percy C., Rifken L., Roopra A.,
+RA   Saunders D., Shownkeen R., Sims M., Smaldon N., Smith A., Smith M.,
+RA   Sonnhammer E., Staden R., Sulston J., Thierry-Mieg J., Thomas K.,
+RA   Vaudin M., Vaughan K., Waterston R., Watson A., Weinstock L.,
+RA   Wilkinson-Sproat J., Wohldman P.;
+RT   "2.2 Mb of contiguous nucleotide sequence from chromosome III of C.
+RT   elegans.";
+RL   Nature 368:32-38(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=11580896; DOI=10.1016/s0896-6273(01)00432-9;
+RA   Xu K., Tavernarakis N., Driscoll M.;
+RT   "Necrotic cell death in C. elegans requires the function of calreticulin
+RT   and regulators of Ca(2+) release from the endoplasmic reticulum.";
+RL   Neuron 31:957-971(2001).
+CC   -!- FUNCTION: Calcium-binding protein that interacts with newly synthesized
+CC       monoglucosylated glycoproteins in the endoplasmic reticulum. It may act
+CC       in assisting protein assembly and/or in the retention within the ER of
+CC       unassembled protein subunits. It seems to play a major role in the
+CC       quality control apparatus of the ER by the retention of incorrectly
+CC       folded proteins (By similarity). Required for embryogenesis and larval
+CC       development under heat and ER stress conditions. May be important for
+CC       germ cell development. Involved in neuronal necrotic cell death.
+CC       {ECO:0000250, ECO:0000269|PubMed:11580896,
+CC       ECO:0000269|PubMed:16256074}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000250};
+CC       Single-pass type I membrane protein {ECO:0000250}. Cytoplasm,
+CC       perinuclear region {ECO:0000269|PubMed:16256074}. Cytoplasmic vesicle
+CC       {ECO:0000269|PubMed:16256074}. Note=Perinuclear localization in
+CC       excretory and germ cells. In intestinal cells, clustered signals around
+CC       vacuoles with vesicles are detected.
+CC   -!- TISSUE SPECIFICITY: Expressed ubiquitously in every blastomere of the
+CC       embryo up to the gastrulation stage. Expression becomes gradually
+CC       restricted to the head and tail regions at the comma stage during
+CC       embryogenesis. During postembryonic development, expressed prominently
+CC       in the H-shaped excretory cell, in the neurons of head (including ASK
+CC       and ADL) and tail (including PHA and PHB), in the dorsal and ventral
+CC       nerve cords, and in the spermatheca. Expressed in the spicules of the
+CC       male tail (at protein level). {ECO:0000269|PubMed:16256074}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed both maternally and zygotically.
+CC       {ECO:0000269|PubMed:16256074}.
+CC   -!- INDUCTION: By stress conditions, such as higher temperature, EGTA, DTT
+CC       or tunicamycin (at protein level). {ECO:0000269|PubMed:16256074}.
+CC   -!- PTM: Glycosylation is important for its biological activity.
+CC       {ECO:0000269|PubMed:16256074}.
+CC   -!- DISRUPTION PHENOTYPE: Reduced fertility and slowed development.
+CC       Temperature-sensitive reproduction defects.
+CC       {ECO:0000269|PubMed:16256074}.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z22181; CAA80183.1; -; Genomic_DNA.
+DR   PIR; S40938; S40938.
+DR   RefSeq; NP_499176.1; NM_066775.4.
+DR   AlphaFoldDB; P34652; -.
+DR   SMR; P34652; -.
+DR   BioGRID; 41584; 6.
+DR   DIP; DIP-25990N; -.
+DR   IntAct; P34652; 2.
+DR   STRING; 6239.ZK632.6; -.
+DR   iPTMnet; P34652; -.
+DR   EPD; P34652; -.
+DR   PaxDb; P34652; -.
+DR   PeptideAtlas; P34652; -.
+DR   EnsemblMetazoa; ZK632.6a.1; ZK632.6a.1; WBGene00000567.
+DR   GeneID; 176390; -.
+DR   KEGG; cel:CELE_ZK632.6; -.
+DR   UCSC; ZK632.6; c. elegans.
+DR   CTD; 176390; -.
+DR   WormBase; ZK632.6a; CE00423; WBGene00000567; cnx-1.
+DR   eggNOG; KOG0675; Eukaryota.
+DR   InParanoid; P34652; -.
+DR   OMA; RVGCGEW; -.
+DR   OrthoDB; 775337at2759; -.
+DR   PhylomeDB; P34652; -.
+DR   Reactome; R-CEL-901042; Calnexin/calreticulin cycle.
+DR   PRO; PR:P34652; -.
+DR   Proteomes; UP000001940; Chromosome III.
+DR   Bgee; WBGene00000567; Expressed in pharyngeal muscle cell (C elegans) and 4 other tissues.
+DR   ExpressionAtlas; P34652; baseline and differential.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IEA:UniProtKB-KW.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0030176; C:integral component of endoplasmic reticulum membrane; ISS:WormBase.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:WormBase.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:WormBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:InterPro.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IMP:WormBase.
+DR   GO; GO:0006457; P:protein folding; IBA:GO_Central.
+DR   GO; GO:0009408; P:response to heat; IEP:WormBase.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IBA:GO_Central.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Chaperone; Cytoplasm; Cytoplasmic vesicle; Developmental protein;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Membrane;
+KW   Metal-binding; Reference proteome; Repeat; Signal; Stress response;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..619
+FT                   /note="Calnexin"
+FT                   /id="PRO_0000004207"
+FT   TRANSMEM        481..501
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          270..282
+FT                   /note="1-1"
+FT   REPEAT          287..299
+FT                   /note="1-2"
+FT   REPEAT          306..318
+FT                   /note="1-3"
+FT   REPEAT          325..337
+FT                   /note="1-4"
+FT   REPEAT          340..350
+FT                   /note="2-1"
+FT   REPEAT          359..369
+FT                   /note="2-2"
+FT   REPEAT          373..383
+FT                   /note="2-3"
+FT   REPEAT          387..397
+FT                   /note="2-4"
+FT   REGION          268..401
+FT                   /note="P domain (Extended arm)"
+FT                   /evidence="ECO:0000250"
+FT   REGION          270..337
+FT                   /note="4 X approximate repeats"
+FT   REGION          340..397
+FT                   /note="4 X approximate repeats"
+FT   REGION          538..619
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        587..605
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         109
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         156
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         158
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         177
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         184
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         417
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         428
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        203
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:16256074"
+FT   CARBOHYD        571
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:16256074"
+FT   DISULFID        152..186
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        352..358
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         203
+FT                   /note="N->Q: Impairs its biological function; when
+FT                   associated with Q-571."
+FT                   /evidence="ECO:0000269|PubMed:16256074"
+FT   MUTAGEN         571
+FT                   /note="N->Q: Impairs its biological function; when
+FT                   associated with Q-203."
+FT                   /evidence="ECO:0000269|PubMed:16256074"
+SQ   SEQUENCE   619 AA;  69208 MW;  08903CE519A75B88 CRC64;
+     MVNRKWMYIF IQFLLVSSIR SDDDVFEDDE EEVTKGSDDK EEFVPSLFVA PKLSDKSTPN
+     FFDYFPVGSK IGLTWIKSLA KKDDVDSDIA KYNGEWSIGA PTKVSIEGDL GLIVKTKARH
+     HAIAAKLNTP FAFDANTFVV QYDIKFEEGQ ECGGGYLKLL SEGAEKDLAN FQDKTAYTIM
+     FGPDKCGATG KVHLIFRYKN PINGTISEYH ANQPTTIGST YWDDHNTHLF TLVVKPTGEY
+     SVSVDGKSLY YGNMMSDVTP ALTPPKQIFD ETDLKPVDWD ERENIEDESA VKPDDWDENE
+     PQSVVDEAAT KPYDWNEEEN ELIADPEAKK PQDWDEDMDG SWEAPLIDNP ACKGLSGCGT
+     WKAPTIKNPK YKGKWIRPKI SNPAFKGKWT ARLIDNPNYF EPKPFAGLAP ITAVGIEMWT
+     MSENILFDNI LITSSEEDSS DVAKQTFYVK QKEEYRLAAA TGNGNGFFQQ IIDATNEKPW
+     LWAVYILCVL LPLVAIGVFC FGKQSKPTPN FAKKSDAYSA DDDRVPNLVD DDEEEIIGDE
+     EDDVNQPGPS GSQSNPEPQD EEENAEQQSA NSSQSSAAEE EDDEHVVPEN EPVKPTEEFA
+     KKSPKNTGGA KRRTARRGD
+//

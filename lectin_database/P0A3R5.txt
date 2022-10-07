@@ -1,0 +1,141 @@
+ID   TOX4_BORPE              Reviewed;         152 AA.
+AC   P0A3R5; P04980;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   13-AUG-1987, sequence version 1.
+DT   25-MAY-2022, entry version 92.
+DE   RecName: Full=Pertussis toxin subunit 4;
+DE            Short=PTX S4;
+DE   AltName: Full=Islet-activating protein S4;
+DE            Short=IAP S4;
+DE   Flags: Precursor;
+GN   Name=ptxD; OrderedLocusNames=BP3785;
+OS   Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Bordetella.
+OX   NCBI_TaxID=257313;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=BP165;
+RX   PubMed=2873570; DOI=10.1073/pnas.83.13.4631;
+RA   Nicosia A., Perugini M., Franzini C., Casagli M.C., Borri M.G., Antoni G.,
+RA   Almoni M., Neri P., Ratti G., Rappuoli R.;
+RT   "Cloning and sequencing of the pertussis toxin genes: operon structure and
+RT   gene duplication.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 83:4631-4635(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3704651; DOI=10.1126/science.3704651;
+RA   Locht C., Keith J.M.;
+RT   "Pertussis toxin gene: nucleotide sequence and genetic organization.";
+RL   Science 232:1258-1264(1986).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Tohama I / ATCC BAA-589 / NCTC 13251;
+RX   PubMed=12910271; DOI=10.1038/ng1227;
+RA   Parkhill J., Sebaihia M., Preston A., Murphy L.D., Thomson N.R.,
+RA   Harris D.E., Holden M.T.G., Churcher C.M., Bentley S.D., Mungall K.L.,
+RA   Cerdeno-Tarraga A.-M., Temple L., James K.D., Harris B., Quail M.A.,
+RA   Achtman M., Atkin R., Baker S., Basham D., Bason N., Cherevach I.,
+RA   Chillingworth T., Collins M., Cronin A., Davis P., Doggett J., Feltwell T.,
+RA   Goble A., Hamlin N., Hauser H., Holroyd S., Jagels K., Leather S.,
+RA   Moule S., Norberczak H., O'Neil S., Ormond D., Price C., Rabbinowitsch E.,
+RA   Rutter S., Sanders M., Saunders D., Seeger K., Sharp S., Simmonds M.,
+RA   Skelton J., Squares R., Squares S., Stevens K., Unwin L., Whitehead S.,
+RA   Barrell B.G., Maskell D.J.;
+RT   "Comparative analysis of the genome sequences of Bordetella pertussis,
+RT   Bordetella parapertussis and Bordetella bronchiseptica.";
+RL   Nat. Genet. 35:32-40(2003).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS).
+RC   STRAIN=10536;
+RX   PubMed=8075982; DOI=10.1016/s0969-2126(00)00007-1;
+RA   Stein P.E., Boodhoo A., Armstrong G.D., Cockle S.A., Klein M.H., Read R.J.;
+RT   "The crystal structure of pertussis toxin.";
+RL   Structure 2:45-57(1994).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.7 ANGSTROMS).
+RX   PubMed=8637000; DOI=10.1006/jmbi.1996.0277;
+RA   Hazes B., Boodhoo A., Cockle S.A., Read R.J.;
+RT   "Crystal structure of the pertussis toxin-ATP complex: a molecular
+RT   sensor.";
+RL   J. Mol. Biol. 258:661-671(1996).
+CC   -!- FUNCTION: PTX oligomer B binds to receptors on the eukaryotic cell
+CC       surface and facilitates the translocation of the toxic subunit across
+CC       the cell membrane.
+CC   -!- SUBUNIT: Pertussis toxin contains five different chains, S1-S5. They
+CC       are organized into 2 functional subunits: A, composed of S1 (which is
+CC       toxic) and B, containing S2, S3, S5, and two copies of S4 (B binds to
+CC       the membrane receptors). Dimers of S2-S4 and S3-S4 are held together by
+CC       S5.
+CC   -!- SUBCELLULAR LOCATION: Secreted. Host cell membrane {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA22983.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M14378; AAA83982.1; -; Genomic_DNA.
+DR   EMBL; M13223; AAA22983.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; BX640422; CAE44040.1; -; Genomic_DNA.
+DR   PIR; D24394; WEBR41.
+DR   RefSeq; NP_882284.1; NC_002929.2.
+DR   RefSeq; WP_010929491.1; NZ_CP039022.1.
+DR   PDB; 1BCP; X-ray; 2.70 A; D/E/J/K=43-152.
+DR   PDB; 1PRT; X-ray; 2.90 A; D/E/J/K=43-152.
+DR   PDB; 1PTO; X-ray; 3.50 A; D/E/J/K=43-152.
+DR   PDB; 6RO0; X-ray; 2.13 A; D/E/J/K=1-152.
+DR   PDBsum; 1BCP; -.
+DR   PDBsum; 1PRT; -.
+DR   PDBsum; 1PTO; -.
+DR   PDBsum; 6RO0; -.
+DR   AlphaFoldDB; P0A3R5; -.
+DR   SMR; P0A3R5; -.
+DR   STRING; 257313.BP3785; -.
+DR   TCDB; 1.C.72.1.1; the pertussis toxin (ptx) family.
+DR   UniLectin; P0A3R5; -.
+DR   KEGG; bpe:BP3785; -.
+DR   PATRIC; fig|257313.5.peg.4089; -.
+DR   HOGENOM; CLU_1718794_0_0_4; -.
+DR   OMA; EVNPTRM; -.
+DR   EvolutionaryTrace; P0A3R5; -.
+DR   Proteomes; UP000002676; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR008992; Enterotoxin.
+DR   InterPro; IPR015355; Pertussis_toxin_subS4.
+DR   Pfam; PF09275; Pertus-S4-tox; 1.
+DR   SUPFAM; SSF50203; SSF50203; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Host cell membrane; Host membrane; Membrane;
+KW   Reference proteome; Secreted; Signal; Toxin; Virulence; Whooping cough.
+FT   SIGNAL          1..42
+FT   CHAIN           43..152
+FT                   /note="Pertussis toxin subunit 4"
+FT                   /id="PRO_0000019362"
+FT   DISULFID        73..93
+FT   DISULFID        145..151
+FT   STRAND          48..62
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+FT   STRAND          69..78
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+FT   STRAND          83..85
+FT                   /evidence="ECO:0007829|PDB:1BCP"
+FT   HELIX           86..88
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+FT   STRAND          89..100
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+FT   HELIX           105..116
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+FT   STRAND          120..131
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+FT   STRAND          134..144
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+FT   TURN            148..150
+FT                   /evidence="ECO:0007829|PDB:6RO0"
+SQ   SEQUENCE   152 AA;  16544 MW;  04F135C32DA5DDA1 CRC64;
+     MLRRFPTRTT APGQGGARRS RVRALAWLLA SGAMTHLSPA LADVPYVLVK TNMVVTSVAM
+     KPYEVTPTRM LVCGIAAKLG AAASSPDAHV PFCFGKDLKR PGSSPMEVML RAVFMQQRPL
+     RMFLGPKQLT FEGKPALELI RMVECSGKQD CP
+//

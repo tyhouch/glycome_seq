@@ -1,0 +1,309 @@
+ID   SFTPA_RAT               Reviewed;         248 AA.
+AC   P08427;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 3.
+DT   03-AUG-2022, entry version 186.
+DE   RecName: Full=Pulmonary surfactant-associated protein A;
+DE            Short=PSAP;
+DE            Short=PSP-A;
+DE            Short=SP-A;
+DE   Flags: Precursor;
+GN   Name=Sftpa1; Synonyms=Sftp-1, Sftp1, Sftpa;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=2901856; DOI=10.1016/0167-4781(88)90130-3;
+RA   Fisher J.H., Emrie P.A., Shannon J., Sano K., Hattler B., Mason R.J.;
+RT   "Rat pulmonary surfactant protein A is expressed as two differently sized
+RT   mRNA species which arise from differential polyadenylation of one
+RT   transcript.";
+RL   Biochim. Biophys. Acta 950:338-345(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, AND HYDROXYLATION AT
+RP   PRO-30; PRO-33; PRO-36; PRO-42; PRO-54; PRO-57; PRO-63; PRO-67; PRO-70 AND
+RP   PRO-76.
+RX   PubMed=3579914; DOI=10.1016/s0006-291x(87)80519-3;
+RA   Sano K., Fisher J.H., Mason R.J., Kuroki Y., Schilling J., Benson B.,
+RA   Voelker D.;
+RT   "Isolation and sequence of a cDNA clone for the rat pulmonary surfactant-
+RT   associated protein (PSP-A).";
+RL   Biochem. Biophys. Res. Commun. 144:367-374(1987).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Lung;
+RX   PubMed=7491978; DOI=10.1152/ajplung.1995.269.5.l603;
+RA   Smith C.I., Rosenberg E., Reisher S.R., Li F., Kefalides P., Fisher A.B.,
+RA   Feinstein S.I.;
+RT   "Sequence of rat surfactant protein A gene and functional mapping of its
+RT   upstream region.";
+RL   Am. J. Physiol. 269:L603-L612(1995).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 101-248, CALCIUM-BINDING SITES,
+RP   DISULFIDE BONDS, AND SUBUNIT.
+RX   PubMed=12913002; DOI=10.1074/jbc.m305628200;
+RA   Head J.F., Mealy T.R., McCormack F.X., Seaton B.A.;
+RT   "Crystal structure of trimeric carbohydrate recognition and neck domains of
+RT   surfactant protein A.";
+RL   J. Biol. Chem. 278:43254-43260(2003).
+CC   -!- FUNCTION: In presence of calcium ions, it binds to surfactant
+CC       phospholipids and contributes to lower the surface tension at the air-
+CC       liquid interface in the alveoli of the mammalian lung and is essential
+CC       for normal respiration. Enhances the expression of MYO18A/SP-R210 on
+CC       alveolar macrophages. {ECO:0000250|UniProtKB:P35242}.
+CC   -!- SUBUNIT: Oligomeric complex of 6 set of homotrimers.
+CC       {ECO:0000269|PubMed:12913002}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:Q8IWL2}.
+CC       Secreted, extracellular space, extracellular matrix
+CC       {ECO:0000250|UniProtKB:Q8IWL2}. Secreted, extracellular space, surface
+CC       film {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- MISCELLANEOUS: Pulmonary surfactant consists of 90% lipid and 10%
+CC       protein. There are 4 surfactant-associated proteins: 2 collagenous,
+CC       carbohydrate-binding glycoproteins (SP-A and SP-D) and 2 small
+CC       hydrophobic proteins (SP-B and SP-C).
+CC   -!- SIMILARITY: Belongs to the SFTPA family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA41972.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M33201; AAA41973.1; -; mRNA.
+DR   EMBL; X13176; CAA31573.1; -; mRNA.
+DR   EMBL; X13177; CAA31574.1; -; mRNA.
+DR   EMBL; M15754; AAA41972.1; ALT_INIT; mRNA.
+DR   EMBL; U43092; AAA85516.1; -; Genomic_DNA.
+DR   EMBL; BC085353; AAH85353.1; -; mRNA.
+DR   PIR; A29299; LNRTPS.
+DR   RefSeq; NP_001257574.1; NM_001270645.1.
+DR   RefSeq; NP_001257576.1; NM_001270647.1.
+DR   RefSeq; NP_059025.2; NM_017329.2.
+DR   PDB; 1R13; X-ray; 2.10 A; A=101-248.
+DR   PDB; 1R14; X-ray; 2.50 A; A=101-248.
+DR   PDB; 3PAK; X-ray; 1.90 A; A=101-248.
+DR   PDB; 3PAQ; X-ray; 2.10 A; A=101-248.
+DR   PDB; 3PAR; X-ray; 2.30 A; A=101-248.
+DR   PDB; 3PBF; X-ray; 1.80 A; A=101-248.
+DR   PDB; 4WR9; X-ray; 2.30 A; A=101-248.
+DR   PDB; 4WRC; X-ray; 1.80 A; A=101-248.
+DR   PDB; 4WRE; X-ray; 1.75 A; A=101-248.
+DR   PDB; 4WRF; X-ray; 1.90 A; A=101-248.
+DR   PDB; 4WUW; X-ray; 2.40 A; A=101-248.
+DR   PDB; 4WUX; X-ray; 1.90 A; A=101-248.
+DR   PDB; 5FFR; X-ray; 2.20 A; A=101-248.
+DR   PDB; 5FFS; X-ray; 1.80 A; A=101-248.
+DR   PDB; 5FFT; X-ray; 2.20 A; A=101-248.
+DR   PDBsum; 1R13; -.
+DR   PDBsum; 1R14; -.
+DR   PDBsum; 3PAK; -.
+DR   PDBsum; 3PAQ; -.
+DR   PDBsum; 3PAR; -.
+DR   PDBsum; 3PBF; -.
+DR   PDBsum; 4WR9; -.
+DR   PDBsum; 4WRC; -.
+DR   PDBsum; 4WRE; -.
+DR   PDBsum; 4WRF; -.
+DR   PDBsum; 4WUW; -.
+DR   PDBsum; 4WUX; -.
+DR   PDBsum; 5FFR; -.
+DR   PDBsum; 5FFS; -.
+DR   PDBsum; 5FFT; -.
+DR   AlphaFoldDB; P08427; -.
+DR   SMR; P08427; -.
+DR   BioGRID; 246897; 1.
+DR   STRING; 10116.ENSRNOP00000039850; -.
+DR   UniLectin; P08427; -.
+DR   GlyGen; P08427; 1 site.
+DR   PaxDb; P08427; -.
+DR   ABCD; P08427; 21 sequenced antibodies.
+DR   Ensembl; ENSRNOT00000047870; ENSRNOP00000039850; ENSRNOG00000011438.
+DR   GeneID; 24773; -.
+DR   KEGG; rno:24773; -.
+DR   UCSC; RGD:3665; rat.
+DR   CTD; 653509; -.
+DR   RGD; 3665; Sftpa1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000156653; -.
+DR   HOGENOM; CLU_049894_3_0_1; -.
+DR   InParanoid; P08427; -.
+DR   OMA; KCNQNRL; -.
+DR   OrthoDB; 1172460at2759; -.
+DR   PhylomeDB; P08427; -.
+DR   TreeFam; TF330481; -.
+DR   Reactome; R-RNO-391160; Signal regulatory protein family interactions.
+DR   Reactome; R-RNO-5683826; Surfactant metabolism.
+DR   Reactome; R-RNO-5686938; Regulation of TLR by endogenous ligand.
+DR   EvolutionaryTrace; P08427; -.
+DR   PRO; PR:P08427; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000011438; Expressed in lung and 2 other tissues.
+DR   Genevisible; P08427; RN.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IDA:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005771; C:multivesicular body; IDA:RGD.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071260; P:cellular response to mechanical stimulus; IEP:RGD.
+DR   GO; GO:0071732; P:cellular response to nitric oxide; IEP:RGD.
+DR   GO; GO:0007623; P:circadian rhythm; IEP:RGD.
+DR   GO; GO:0008228; P:opsonization; ISO:RGD.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; IDA:RGD.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:UniProtKB-KW.
+DR   GO; GO:0070849; P:response to epidermal growth factor; IEP:RGD.
+DR   GO; GO:0051384; P:response to glucocorticoid; IEP:RGD.
+DR   GO; GO:0009725; P:response to hormone; IEP:RGD.
+DR   GO; GO:0055093; P:response to hyperoxia; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0070741; P:response to interleukin-6; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0032526; P:response to retinoic acid; IEP:RGD.
+DR   GO; GO:0033189; P:response to vitamin A; IEP:RGD.
+DR   CDD; cd03591; CLECT_collectin_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033990; Collectin_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Collagen; Direct protein sequencing; Disulfide bond;
+KW   Extracellular matrix; Gaseous exchange; Glycoprotein; Hydroxylation;
+KW   Lectin; Metal-binding; Reference proteome; Repeat; Secreted; Signal;
+KW   Surface film.
+FT   SIGNAL          1..20
+FT   CHAIN           21..248
+FT                   /note="Pulmonary surfactant-associated protein A"
+FT                   /id="PRO_0000017462"
+FT   DOMAIN          28..100
+FT                   /note="Collagen-like"
+FT   DOMAIN          133..248
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          31..99
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         215
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         234
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         235
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   SITE            21
+FT                   /note="Not glycosylated"
+FT   MOD_RES         30
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         33
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         36
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         42
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         54
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         57
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         63
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         67
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         70
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   MOD_RES         76
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:3579914"
+FT   CARBOHYD        207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305"
+FT   DISULFID        26
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        155..246
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:12913002"
+FT   DISULFID        224..238
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:12913002"
+FT   CONFLICT        78
+FT                   /note="A -> G (in Ref. 1; AAA41973/CAA31573/CAA31574)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        84
+FT                   /note="E -> G (in Ref. 1; AAA41973/CAA31573/CAA31574)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        139
+FT                   /note="Missing (in Ref. 2; AAA41972)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        156
+FT                   /note="T -> TF (in Ref. 2; AAA41972)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        180
+FT                   /note="K -> N (in Ref. 1; CAA31574)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           109..127
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          132..134
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          137..146
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   HELIX           148..157
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          160..162
+FT                   /evidence="ECO:0007829|PDB:4WRC"
+FT   HELIX           168..181
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          188..190
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          192..196
+FT                   /evidence="ECO:0007829|PDB:4WRC"
+FT   STRAND          198..200
+FT                   /evidence="ECO:0007829|PDB:3PBF"
+FT   STRAND          201..203
+FT                   /evidence="ECO:0007829|PDB:3PAR"
+FT   TURN            219..221
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          224..227
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          233..236
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+FT   STRAND          242..248
+FT                   /evidence="ECO:0007829|PDB:4WRE"
+SQ   SEQUENCE   248 AA;  26289 MW;  CAA0203009E682A5 CRC64;
+     MSLCSLAFTL FLTVVAGIKC NVTDVCAGSP GIPGAPGNHG LPGRDGRDGV KGDPGPPGPM
+     GPPGGMPGLP GRDGLPGAPG APGERGDKGE PGERGLPGFP AYLDEELQTE LYEIKHQILQ
+     TMGVLSLQGS MLSVGDKVFS TNGQSVNFDT IKEMCTRAGG NIAVPRTPEE NEAIASIAKK
+     YNNYVYLGMI EDQTPGDFHY LDGASVNYTN WYPGEPRGQG KEKCVEMYTD GTWNDRGCLQ
+     YRLAVCEF
+//

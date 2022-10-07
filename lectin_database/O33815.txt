@@ -1,0 +1,98 @@
+ID   BGAL_STAXY              Reviewed;         994 AA.
+AC   O33815;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   03-AUG-2022, entry version 89.
+DE   RecName: Full=Beta-galactosidase;
+DE            Short=Beta-gal;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Lactase;
+GN   Name=lacZ; Synonyms=lacH;
+OS   Staphylococcus xylosus.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=1288;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=DSM 20267 / Isolate C2A;
+RX   PubMed=9573174; DOI=10.1128/jb.180.9.2273-2279.1998;
+RA   Bassias J., Brueckner R.;
+RT   "Regulation of lactose utilization genes in Staphylococcus xylosus.";
+RL   J. Bacteriol. 180:2273-2279(1998).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y14599; CAA74937.1; -; Genomic_DNA.
+DR   RefSeq; WP_047171676.1; NZ_LN554884.1.
+DR   AlphaFoldDB; O33815; -.
+DR   SMR; O33815; -.
+DR   STRING; 1288.SXYLSMQ121_0084; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   KEGG; sxo:SXYL_00084; -.
+DR   eggNOG; COG3250; Bacteria.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IEA:InterPro.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase; Hydrolase.
+FT   CHAIN           1..994
+FT                   /note="Beta-galactosidase"
+FT                   /id="PRO_0000057675"
+FT   ACT_SITE        437
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        510
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   994 AA;  115234 MW;  78B2B43EB3EE0B1B CRC64;
+     MLKQQFHENL EVQHVNLLPR RAFYIPYQQG EADYHFETRY NTRNATLLNG EWYFQYFESL
+     EAYLNHSNKQ ESKTLTVPSV WNLYGYDQIQ YLNTQYPIPF NPPYVPKDNP CGHYTRKFTI
+     DEYDQQYDYH LNFEGVDSAF YVWINNEFIG YSQISHAISE FDISNFVKQG ENNIEVLVLK
+     YSDGTYLEDQ DMFRHSGIFR DVYILKRATE RVDDFKVETN LSDDLNAAQI DVKIERAHNL
+     KSVEFQLYNP KGEEVASISG VNEHQFDVHN PHLWSTENPV LYTLYILTDQ EVITQKVGIR
+     EVAIQNNQFY INGQSIKIRG TNYHDSHPET GYVMTESHFK KDLELMKQGN FNAIRTAHYP
+     KSPLFYEMTD QYGFYVMSEA DIETHGVVRL YGEDNNEDFN IIADDSKFET AIIERIEASI
+     MPLKNYSSIV SWSLGNESGF GKNMVKGAAR AKSLDNTRPI HYEGTLYRDK QQHYDLSNID
+     MISRMYPSPE EIEETYLSNP DLDKPFILCE YAHAMGNSPG DLHAYQTLVE QYDSFIGGFV
+     WEWCDHAIQT GMKDGNPIFR YGGDFGEKLH DGNFCVDGIV FPNRVPHEGY YEFKQEHRPL
+     NLVSQEDFKI VLRNQLDFIP AEKYMFVEAT VTNLNGGKTI SEIPLSNFLP HTAQTIDLSD
+     YINIQHISDV ILRYKLKYDD IFRHENFELG HDQIVYQRRT LKEQNEQSDE TEILVTQTDK
+     LIKVSVGKSE TYVFNKDNAS LESVLKHNHI VISQNTTNNI WRAPTDNDTN IKNDWAYSGY
+     KDITTRVHDY QIVENETEVS LIFNIAMVND AVPPVLFGTV TWHVQRNGTL NVTYDLERDM
+     KAPYLPRFGL GLTLPKAFEQ VKYYGKGPFS SYQDKGVANY LDDFGTTVTD NGEIHIRPQE
+     TGSHNETTFV EISDGCKKVI VTSDNTFSFN TTHYSLKQLT ETTHKDALEP EDQTYLYIDY
+     AQSGIGSNSC GPELNEAYRL NNRHIEFSFN LKFV
+//

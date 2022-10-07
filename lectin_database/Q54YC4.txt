@@ -1,0 +1,199 @@
+ID   MAND_DICDI              Reviewed;        1222 AA.
+AC   Q54YC4;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAY-2005, sequence version 1.
+DT   03-AUG-2022, entry version 109.
+DE   RecName: Full=Alpha-mannosidase D;
+DE            EC=3.2.1.24;
+DE   Flags: Precursor;
+GN   Name=manD; ORFNames=DDB_G0278653;
+OS   Dictyostelium discoideum (Slime mold).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Dictyostelia; Dictyosteliales;
+OC   Dictyosteliaceae; Dictyostelium.
+OX   NCBI_TaxID=44689;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AX4;
+RX   PubMed=15875012; DOI=10.1038/nature03481;
+RA   Eichinger L., Pachebat J.A., Gloeckner G., Rajandream M.A., Sucgang R.,
+RA   Berriman M., Song J., Olsen R., Szafranski K., Xu Q., Tunggal B.,
+RA   Kummerfeld S., Madera M., Konfortov B.A., Rivero F., Bankier A.T.,
+RA   Lehmann R., Hamlin N., Davies R., Gaudet P., Fey P., Pilcher K., Chen G.,
+RA   Saunders D., Sodergren E.J., Davis P., Kerhornou A., Nie X., Hall N.,
+RA   Anjard C., Hemphill L., Bason N., Farbrother P., Desany B., Just E.,
+RA   Morio T., Rost R., Churcher C.M., Cooper J., Haydock S., van Driessche N.,
+RA   Cronin A., Goodhead I., Muzny D.M., Mourier T., Pain A., Lu M., Harper D.,
+RA   Lindsay R., Hauser H., James K.D., Quiles M., Madan Babu M., Saito T.,
+RA   Buchrieser C., Wardroper A., Felder M., Thangavelu M., Johnson D.,
+RA   Knights A., Loulseged H., Mungall K.L., Oliver K., Price C., Quail M.A.,
+RA   Urushihara H., Hernandez J., Rabbinowitsch E., Steffen D., Sanders M.,
+RA   Ma J., Kohara Y., Sharp S., Simmonds M.N., Spiegler S., Tivey A.,
+RA   Sugano S., White B., Walker D., Woodward J.R., Winckler T., Tanaka Y.,
+RA   Shaulsky G., Schleicher M., Weinstock G.M., Rosenthal A., Cox E.C.,
+RA   Chisholm R.L., Gibbs R.A., Loomis W.F., Platzer M., Kay R.R.,
+RA   Williams J.G., Dear P.H., Noegel A.A., Barrell B.G., Kuspa A.;
+RT   "The genome of the social amoeba Dictyostelium discoideum.";
+RL   Nature 435:43-57(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-mannose residues
+CC         in alpha-D-mannosides.; EC=3.2.1.24;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAFI02000023; EAL68499.1; -; Genomic_DNA.
+DR   RefSeq; XP_642278.1; XM_637186.1.
+DR   AlphaFoldDB; Q54YC4; -.
+DR   SMR; Q54YC4; -.
+DR   STRING; 44689.DDB0231614; -.
+DR   PaxDb; Q54YC4; -.
+DR   PRIDE; Q54YC4; -.
+DR   EnsemblProtists; EAL68499; EAL68499; DDB_G0278653.
+DR   GeneID; 8621485; -.
+DR   KEGG; ddi:DDB_G0278653; -.
+DR   dictyBase; DDB_G0278653; manD.
+DR   eggNOG; KOG1958; Eukaryota.
+DR   HOGENOM; CLU_268576_0_0_1; -.
+DR   InParanoid; Q54YC4; -.
+DR   OMA; HRQGYDC; -.
+DR   PhylomeDB; Q54YC4; -.
+DR   Reactome; R-DDI-8853383; Lysosomal oligosaccharide catabolism.
+DR   PRO; PR:Q54YC4; -.
+DR   Proteomes; UP000002195; Chromosome 3.
+DR   GO; GO:0031012; C:extracellular matrix; HDA:dictyBase.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005764; C:lysosome; IBA:GO_Central.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:InterPro.
+DR   Gene3D; 1.20.1270.50; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Glycosidase; Hydrolase; Membrane; Metal-binding;
+KW   Reference proteome; Signal; Transmembrane; Transmembrane helix; Zinc.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..1222
+FT                   /note="Alpha-mannosidase D"
+FT                   /id="PRO_0000327843"
+FT   TOPO_DOM        22..1170
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1171..1191
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1192..1222
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          493..554
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1202..1222
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        185
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         71
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         73
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         185
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         453
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        175
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        492
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        496
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        547
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        551
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        566
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        613
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        665
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        768
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        785
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        952
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        981
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1069
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1084
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   1222 AA;  141190 MW;  FDA5A919C2C65880 CRC64;
+     MESSKFVKII WVFGIWILVF TFLIIYNNYD YKSTFGINKF EKRSLKTINQ INNKENGDDK
+     KLSVFLIPHS HCDGGWLQDY DGYYYNIVQY ILSGVVNELN LDKEKKFNWV EIGFFSRWWN
+     DQNEIQKEIV RNLINNKQLS FISGGWVQND EATATIDDVI TQMTQGHQWL KDTLNYTVEY
+     AWQIDPFGYS SSTPTIFSSM GIKGLVINRV SNDVKSYMKS VKEMEFIWKG SESLGEQSQM
+     LVSTLNIHYD YPKHIDPKKD FSLNDRIKGF TKYLNDLSKT RESNILMIPL GDDFRYSNAK
+     TEFSVSKEWV KALQDNKEYY NIKEIKYATL DEYFIALEDS FLRNNKFGKS RKQNVYTETF
+     SDGDDEVSAL SLYNKDFFPY STGNLEYWTG YYTTRPLLKR LIRESSLLQK SSDILYTLAI
+     GENSNNQIDI NNLQTLSNQL NENRNTIALV QHHDIVTGTS RSFVLNDNFQ RLQKSRISNY
+     NIISNSLEYL LNKSNNKTNN NNNNNNKNNN NNNNNNNNNN NNLKNTNSIS TTGSSSSSGS
+     GSSNNNNNTV NKSEPFNFEN AIDLSNESNN QYSLVFHNTL GWEVNQHVSF RIKVNKNDNQ
+     LLESIQLVEA ISNKTIQIQI IPIQDDSNCQ SIENNYIVFA IINLPPLGLN TYYLSIANSE
+     DSKSNFTYLS KPKLLKKGNE INFNNNRFKV EFESNGLISK ITDKNSNEIK TIEQTFHQYS
+     TKKSGPYIFN VKGGKKHGFL ENPDKFIYHD GPLVSQLTML YGVDDYCNVT SIVVQRIYKN
+     NNEINNSNSK SLITENYIET GYSINGDMNR ETTINYKVKD LENDDIFYTD NGLESRKRIY
+     NHDRSVNQNY YPVLGYIKLK ETSENNNHQY TVYVDRSVGA TSPSDGEMEI MIHRTMDTDD
+     WKGVNWPSKD IGRSDAKLYF NMDLVNNQLQ NEKRISLHIT NQPIMFVKKH NNQTGYLLKY
+     SPLSNQLPSN IHLQSLLTLK NNTVGLRLFN IHEVDSNTQS TTDTDKSTLF NELEISNFIE
+     TGLSFLKLTK NNLIDKFSTR INKKFPIKCG ESEYSFINEK PSSIIFSNNG TNNIIDGENK
+     GENNKTIETI QIKPHEIKSF TFNFNFQLDQ IIPNNNNNNN KYAINKELNN EYIEQSIENQ
+     RYEYDFSFFP IKPTFYDDRG KYNRPNHLAL ILSLSIGIPA GILIIVIALV VTYKKRKNRK
+     TLTSSNSSSN LIQQEDQTDY SP
+//

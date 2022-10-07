@@ -1,0 +1,114 @@
+ID   HYSA_STAA8              Reviewed;         807 AA.
+AC   Q59801; Q2FW54;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 116.
+DE   RecName: Full=Hyaluronate lyase {ECO:0000303|PubMed:7557301};
+DE            EC=4.2.2.1 {ECO:0000250|UniProtKB:Q54873};
+DE   AltName: Full=Hyaluronidase;
+DE            Short=HYase;
+DE   Flags: Precursor;
+GN   Name=hysA {ECO:0000303|PubMed:7557301};
+GN   OrderedLocusNames=SAOUHSC_02463;
+OS   Staphylococcus aureus (strain NCTC 8325 / PS 47).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7557301; DOI=10.1111/j.1574-6968.1995.tb07702.x;
+RA   Farrell A.M., Taylor D., Holland K.T.;
+RT   "Cloning, nucleotide sequence determination and expression of the
+RT   Staphylococcus aureus hyaluronate lyase gene.";
+RL   FEMS Microbiol. Lett. 130:81-85(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 8325 / PS 47;
+RA   Gillaspy A.F., Worrell V., Orvis J., Roe B.A., Dyer D.W., Iandolo J.J.;
+RT   "The Staphylococcus aureus NCTC 8325 genome.";
+RL   (In) Fischetti V., Novick R., Ferretti J., Portnoy D., Rood J. (eds.);
+RL   Gram positive pathogens, 2nd edition, pp.381-412, ASM Press, Washington
+RL   D.C. (2006).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[hyaluronan](n) = n 3-(4-deoxy-beta-D-gluc-4-enuronosyl)-N-
+CC         acetyl-D-glucosamine + H2O; Xref=Rhea:RHEA:50240, Rhea:RHEA-
+CC         COMP:12583, ChEBI:CHEBI:15377, ChEBI:CHEBI:132151,
+CC         ChEBI:CHEBI:132153; EC=4.2.2.1;
+CC         Evidence={ECO:0000250|UniProtKB:Q54873};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 8 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U21221; AAA82984.1; -; Genomic_DNA.
+DR   EMBL; CP000253; ABD31483.1; -; Genomic_DNA.
+DR   RefSeq; WP_000222239.1; NZ_LS483365.1.
+DR   RefSeq; YP_500931.1; NC_007795.1.
+DR   AlphaFoldDB; Q59801; -.
+DR   SMR; Q59801; -.
+DR   STRING; 1280.SAXN108_2455; -.
+DR   CAZy; PL8; Polysaccharide Lyase Family 8.
+DR   PRIDE; Q59801; -.
+DR   EnsemblBacteria; ABD31483; ABD31483; SAOUHSC_02463.
+DR   GeneID; 3919026; -.
+DR   KEGG; sao:SAOUHSC_02463; -.
+DR   PATRIC; fig|93061.5.peg.2222; -.
+DR   eggNOG; COG5492; Bacteria.
+DR   HOGENOM; CLU_004172_5_1_9; -.
+DR   OMA; RYYQDET; -.
+DR   BRENDA; 4.2.2.1; 3352.
+DR   PRO; PR:Q59801; -.
+DR   Proteomes; UP000008816; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0030340; F:hyaluronate lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 1.50.10.100; -; 1.
+DR   Gene3D; 2.60.220.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR008929; Chondroitin_lyas.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR038970; Lyase_8.
+DR   InterPro; IPR011071; Lyase_8-like_C.
+DR   InterPro; IPR012970; Lyase_8_alpha_N.
+DR   InterPro; IPR004103; Lyase_8_C.
+DR   InterPro; IPR003159; Lyase_8_central_dom.
+DR   PANTHER; PTHR38481; PTHR38481; 1.
+DR   Pfam; PF02278; Lyase_8; 1.
+DR   Pfam; PF02884; Lyase_8_C; 1.
+DR   Pfam; PF08124; Lyase_8_N; 1.
+DR   SUPFAM; SSF48230; SSF48230; 1.
+DR   SUPFAM; SSF49863; SSF49863; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..40
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           41..807
+FT                   /note="Hyaluronate lyase"
+FT                   /id="PRO_0000024931"
+FT   ACT_SITE        241
+FT                   /evidence="ECO:0000250|UniProtKB:Q54873"
+FT   ACT_SITE        297
+FT                   /evidence="ECO:0000250|UniProtKB:Q54873"
+FT   ACT_SITE        306
+FT                   /evidence="ECO:0000250|UniProtKB:Q54873"
+SQ   SEQUENCE   807 AA;  91985 MW;  FFE88EDC07418EB4 CRC64;
+     MTYRIKKWQK LSTITLLMAG VITLNGGEFR SVDKHQIAVA DTNVQTPDYE KLRNTWLDVN
+     YGYDKYDENN PDMKKKFDAT EKEATNLLKE MKTESGRKYL WSGAETLETN SSHMTRTYRN
+     IEKIAEAMRN PKTTLNTDEN KKKVKDALEW LHKNAYGKEP DKKVKELSEN FTKTTGKNTN
+     LNWWDYEIGT PKSLTNTLIL LNDQFSNEEK KKFTAPIKTF APDSDKILSS VGKAELAKGG
+     NLVDISKVKL LECIIEEDKD MMKKSIDSFN KVFTYVQDSA TGKERNGFYK DGSYIDHQDV
+     PYTGAYGVVL LEGISQMMPM IKETPFNDKT QNDTTLKSWI DDGFMPLIYK GEMMDLSRGR
+     AISRENETSH SASATVMKSL LRLSDAMDDS TKAKYKKIVK SSVESDSSYK QNDYLNSYSD
+     IDKMKSLMTD NSISKNGLTQ QLKIYNDMDR VTYHNKDLDF AFGLSMTSKN VARYESINGE
+     NLKGWHTGAG MSYLYNSDVK HYHDNFWVTA DMKRLSGTTT LDNEILKDTD DKKSSKTFVG
+     GTKVDDQHAS IGMDFENQDK TLTAKKSYFI LNDKIVFLGT GIKSTDSSKN PVTTIENRKA
+     NGYTLYTDDK QTTNSDNQEN NSVFLESTDT KKNIGYHFLN KPKITVKKES HTGKWKEINK
+     SQKDTQKTDE YYEVTQKHSN SDNKYGYVLY PGLSKDVFKT KKDEVTVVKQ EDDFHVVKDN
+     ESVWAGVNYS NSTQTFDINN TKVEVKAKGM FILKKKDDNT YECSFYNPES TNSASDIESK
+     ISMTGYSITN KNTSTSNESG VHFELTK
+//

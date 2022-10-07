@@ -1,0 +1,107 @@
+ID   Q1R2J4_ECOUT            Unreviewed;       300 AA.
+AC   Q1R2J4;
+DT   16-MAY-2006, integrated into UniProtKB/TrEMBL.
+DT   16-MAY-2006, sequence version 1.
+DT   03-AUG-2022, entry version 91.
+DE   SubName: Full=Type 1 fimbiral adhesin FimH {ECO:0000313|EMBL:ABE10420.1};
+GN   Name=fimH {ECO:0000313|EMBL:ABE10420.1};
+GN   OrderedLocusNames=UTI89_C5017 {ECO:0000313|EMBL:ABE10420.1};
+OS   Escherichia coli (strain UTI89 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=364106 {ECO:0000313|EMBL:ABE10420.1, ECO:0000313|Proteomes:UP000001952};
+RN   [1] {ECO:0000313|EMBL:ABE10420.1, ECO:0000313|Proteomes:UP000001952}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UTI89 / UPEC {ECO:0000313|Proteomes:UP000001952};
+RX   PubMed=16585510; DOI=10.1073/pnas.0600938103;
+RA   Chen S.L., Hung C.S., Xu J., Reigstad C.S., Magrini V., Sabo A.,
+RA   Blasiar D., Bieri T., Meyer R.R., Ozersky P., Armstrong J.R., Fulton R.S.,
+RA   Latreille J.P., Spieth J., Hooton T.M., Mardis E.R., Hultgren S.J.,
+RA   Gordon J.I.;
+RT   "Identification of genes subject to positive selection in uropathogenic
+RT   strains of Escherichia coli: a comparative genomics approach.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5977-5982(2006).
+RN   [2] {ECO:0007829|PDB:5AAL, ECO:0007829|PDB:5AAP}
+RP   X-RAY CRYSTALLOGRAPHY (1.30 ANGSTROMS) OF 22-179, AND DISULFIDE BONDS.
+RX   PubMed=27158502; DOI=10.1107/S2052252516002487;
+RA   De Ruyck J., Lensink M.F., Bouckaert J.;
+RT   "Structures of C-mannosylated anti-adhesives bound to the type 1 fimbrial
+RT   FimH adhesin.";
+RL   IUCrJ 3:163-167(2016).
+RN   [3] {ECO:0007829|PDB:5JQI, ECO:0007829|PDB:5JR4}
+RP   X-RAY CRYSTALLOGRAPHY (1.96 ANGSTROMS) OF 22-300, AND DISULFIDE BONDS.
+RX   PubMed=28246638; DOI=10.1126/sciadv.1601944;
+RA   Kalas V., Pinkner J.S., Hannan T.J., Hibbing M.E., Dodson K.W.,
+RA   Holehouse A.S., Zhang H., Tolia N.H., Gross M.L., Pappu R.V., Janetka J.,
+RA   Hultgren S.J.;
+RT   "Evolutionary fine-tuning of conformational ensembles in FimH during host-
+RT   pathogen interactions.";
+RL   Sci. Adv. 3:e1601944-e1601944(2017).
+RN   [4] {ECO:0007829|PDB:7Q3N}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (7.40 ANGSTROMS) OF 22-180, AND DISULFIDE
+RP   BONDS.
+RX   PubMed=35273390; DOI=10.1038/s41594-022-00729-3;
+RA   Stsiapanava A., Xu C., Nishio S., Han L., Yamakawa N., Carroni M.,
+RA   Tunyasuvunakool K., Jumper J., de Sanctis D., Wu B., Jovine L.;
+RT   "Structure of the decoy module of human glycoprotein 2 and uromodulin and
+RT   its interaction with bacterial adhesin FimH.";
+RL   Nat. Struct. Mol. Biol. 29:190-193(2022).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000243; ABE10420.1; -; Genomic_DNA.
+DR   RefSeq; WP_000832214.1; NC_007946.1.
+DR   PDB; 5AAL; X-ray; 2.45 A; A/B=22-179.
+DR   PDB; 5AAP; X-ray; 1.30 A; A=22-179.
+DR   PDB; 5JQI; X-ray; 1.96 A; B/D/F/H=22-300.
+DR   PDB; 5JR4; X-ray; 2.60 A; A=22-300.
+DR   PDB; 7Q3N; EM; 7.40 A; F=22-180.
+DR   PDBsum; 5AAL; -.
+DR   PDBsum; 5AAP; -.
+DR   PDBsum; 5JQI; -.
+DR   PDBsum; 5JR4; -.
+DR   SMR; Q1R2J4; -.
+DR   BindingDB; Q1R2J4; -.
+DR   UniLectin; Q1R2J4; -.
+DR   EnsemblBacteria; ABE10420; ABE10420; UTI89_C5017.
+DR   KEGG; eci:UTI89_C5017; -.
+DR   HOGENOM; CLU_080390_0_0_6; -.
+DR   OMA; FIWNIYA; -.
+DR   Proteomes; UP000001952; Chromosome.
+DR   GO; GO:0009289; C:pilus; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   CDD; cd10466; FimH_man-bind; 1.
+DR   Gene3D; 2.60.40.1090; -; 2.
+DR   InterPro; IPR000259; Adhesion_dom_fimbrial.
+DR   InterPro; IPR036937; Adhesion_dom_fimbrial_sf.
+DR   InterPro; IPR008966; Adhesion_dom_sf.
+DR   InterPro; IPR015243; FimH_man-bd.
+DR   Pfam; PF00419; Fimbrial; 1.
+DR   Pfam; PF09160; FimH_man-bind; 1.
+DR   SUPFAM; SSF49401; SSF49401; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5AAL, ECO:0007829|PDB:5AAP};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           20..300
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004196596"
+FT   DOMAIN          24..168
+FT                   /note="FimH_man-bind"
+FT                   /evidence="ECO:0000259|Pfam:PF09160"
+FT   DOMAIN          175..300
+FT                   /note="Fimbrial"
+FT                   /evidence="ECO:0000259|Pfam:PF00419"
+FT   DISULFID        24..65
+FT                   /evidence="ECO:0007829|PDB:5AAL, ECO:0007829|PDB:5AAP"
+FT   DISULFID        182..208
+FT                   /evidence="ECO:0007829|PDB:5JQI, ECO:0007829|PDB:5JR4"
+SQ   SEQUENCE   300 AA;  31429 MW;  D789457A5F5255AE CRC64;
+     MKRVITLFAV LLMGWSVNAW SFACKTANGT AIPIGGGSAN VYVNLAPAVN VGQNLVVDLS
+     TQIFCHNDYP ETITDYVTLQ RGAAYGGVLS SFSGTVKYNG SSYPFPTTSE TPRVVYNSRT
+     DKPWPVALYL TPVSSAGGVA IKAGSLIAVL ILRQTNNYNS DDFQFVWNIY ANNDVVVPTG
+     GCDVSARDVT VTLPDYPGSV PIPLTVYCAK SQNLGYYLSG TTADAGNSIF TNTASFSPAQ
+     GVGVQLTRNG TIIPANNTVS LGAVGTSAVS LGLTANYART GGQVTAGNVQ SIIGVTFVYQ
+//

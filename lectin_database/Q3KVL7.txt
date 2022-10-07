@@ -1,0 +1,163 @@
+ID   Q3KVL7_9BIVA            Unreviewed;       148 AA.
+AC   Q3KVL7;
+DT   08-NOV-2005, integrated into UniProtKB/TrEMBL.
+DT   08-NOV-2005, sequence version 1.
+DT   03-AUG-2022, entry version 82.
+DE   SubName: Full=Codakine {ECO:0000313|EMBL:AAX19697.1};
+OS   Codakia orbicularis.
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Bivalvia;
+OC   Autobranchia; Heteroconchia; Euheterodonta; Imparidentia; Lucinida;
+OC   Lucinoidea; Lucinidae; Codakia.
+OX   NCBI_TaxID=13016 {ECO:0000313|EMBL:AAX19697.1};
+RN   [1] {ECO:0000313|EMBL:AAX19697.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Gill {ECO:0000313|EMBL:AAX19697.1};
+RG   The German cDNA Consortium;
+RA   Bahr A., Lauber J., Mewes H.W., Weil B., Amid C., Osanger A., Fobo G.,
+RA   Han M., Wiemann S.;
+RL   Submitted (JAN-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:AAX19697.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Gill {ECO:0000313|EMBL:AAX19697.1};
+RX   PubMed=17169576; DOI=10.1016/j.fsi.2006.06.013;
+RA   Gourdine J.P., Smith-Ravin E.J.;
+RT   "Analysis of a cDNA-derived sequence of a novel mannose-binding lectin,
+RT   codakine, from the tropical clam Codakia orbicularis.";
+RL   Fish Shellfish Immunol. 22:498-509(2007).
+RN   [3] {ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ}
+RP   X-RAY CRYSTALLOGRAPHY (1.30 ANGSTROMS) OF 20-148 IN COMPLEX WITH
+RP   BETA-D-MANNOSE; CALCIUM; MANNOSE AND N-ACETYL-D-GLUCOSAMINE, AND DISULFIDE
+RP   BONDS.
+RX   PubMed=18687680; DOI=10.1074/jbc.M804353200;
+RA   Gourdine J.P., Cioci G., Miguet L., Unverzagt C., Silva D.V., Varrot A.,
+RA   Gautier C., Smith-Ravin E.J., Imberty A.;
+RT   "High affinity interaction between a bivalve C-type lectin and a
+RT   biantennary complex-type N-glycan revealed by crystallography and
+RT   microcalorimetry.";
+RL   J. Biol. Chem. 283:30112-30120(2008).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY874425; AAX19697.1; -; mRNA.
+DR   PDB; 2VUV; X-ray; 1.30 A; A=20-148.
+DR   PDB; 2VUZ; X-ray; 1.70 A; A=20-148.
+DR   PDBsum; 2VUV; -.
+DR   PDBsum; 2VUZ; -.
+DR   SMR; Q3KVL7; -.
+DR   UniLectin; Q3KVL7; -.
+DR   EvolutionaryTrace; Q3KVL7; -.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ};
+KW   Calcium {ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   Metal-binding {ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           20..148
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004227629"
+FT   DOMAIN          28..144
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50041"
+FT   BINDING         39
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         76
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         112
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   BINDING         112
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         112
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         114
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   BINDING         114
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         114
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         116
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         120
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   BINDING         120
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         126
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         127
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         127
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         131
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   BINDING         131
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         132
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   BINDING         132
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   BINDING         134
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2VUZ"
+FT   DISULFID        21..32
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   DISULFID        49..143
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   DISULFID        63
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+FT   DISULFID        122..135
+FT                   /evidence="ECO:0007829|PDB:2VUV, ECO:0007829|PDB:2VUZ"
+SQ   SEQUENCE   148 AA;  16087 MW;  A9B1D115D812F255 CRC64;
+     MKILVAVFLV LVVVGTAAAG CPDGWTQFLD LCYIYQSAKA SWASAQSSCQ ALGGILAEPD
+     TACENEVLIH MCRENGDAGS FGPWLGGQKV GGAWQWSSSG AAFDYLRWGP NEPNNSGGNE
+     DCLHYNWLSW NDLRCHYQAS YLCQRAAE
+//

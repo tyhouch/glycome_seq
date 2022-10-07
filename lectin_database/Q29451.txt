@@ -1,0 +1,447 @@
+ID   MA2B1_BOVIN             Reviewed;         999 AA.
+AC   Q29451; F1MMX7; O02848; O19138;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   16-OCT-2013, sequence version 4.
+DT   03-AUG-2022, entry version 148.
+DE   RecName: Full=Lysosomal alpha-mannosidase;
+DE            Short=Laman;
+DE            EC=3.2.1.24;
+DE   AltName: Full=Lysosomal acid alpha-mannosidase;
+DE   AltName: Full=Mannosidase alpha class 2B member 1;
+DE   AltName: Full=Mannosidase alpha-B;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase A peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase B peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase C peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase D peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase E peptide;
+DE   Flags: Precursor;
+GN   Name=MAN2B1; Synonyms=MANB;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], PARTIAL PROTEIN SEQUENCE, AND
+RP   VARIANTS AM HIS-221 AND LEU-321.
+RC   TISSUE=Kidney;
+RX   PubMed=9208932; DOI=10.1111/j.1432-1033.1997.00410.x;
+RA   Tollersrud O.-K., Berg T., Healy P., Evjen G., Ramachandran U., Nilssen O.;
+RT   "Purification of bovine lysosomal alpha-mannosidase, characterization of
+RT   its gene and determination of two mutations that cause alpha-
+RT   mannosidosis.";
+RL   Eur. J. Biochem. 246:410-419(1997).
+RN   [2]
+RP   SEQUENCE REVISION TO 358.
+RA   Berg T.;
+RL   Submitted (FEB-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hereford;
+RX   PubMed=19393038; DOI=10.1186/gb-2009-10-4-r42;
+RA   Zimin A.V., Delcher A.L., Florea L., Kelley D.R., Schatz M.C., Puiu D.,
+RA   Hanrahan F., Pertea G., Van Tassell C.P., Sonstegard T.S., Marcais G.,
+RA   Roberts M., Subramanian P., Yorke J.A., Salzberg S.L.;
+RT   "A whole-genome assembly of the domestic cow, Bos taurus.";
+RL   Genome Biol. 10:R42.01-R42.10(2009).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.70 ANGSTROMS) OF 52-999 IN COMPLEX WITH ZINC ION,
+RP   COFACTOR, ACTIVE SITE, DISULFIDE BONDS, AND GLYCOSYLATION AT ASN-134;
+RP   ASN-634; ASN-681 AND ASN-755.
+RX   PubMed=12634058; DOI=10.1016/s0022-2836(03)00172-4;
+RA   Heikinheimo P., Helland R., Leiros H.-K.S., Leiros I., Karlsen S.,
+RA   Evjen G., Ravelli R., Schoehn G., Ruigrok R., Tollersrud O.-K.,
+RA   McSweeney S., Hough E.;
+RT   "The structure of bovine lysosomal alpha-mannosidase suggests a novel
+RT   mechanism for low-pH activation.";
+RL   J. Mol. Biol. 327:631-644(2003).
+CC   -!- FUNCTION: Necessary for the catabolism of N-linked carbohydrates
+CC       released during glycoprotein turnover.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-mannose residues
+CC         in alpha-D-mannosides.; EC=3.2.1.24;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:12634058};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:12634058};
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SUBCELLULAR LOCATION: Lysosome.
+CC   -!- PTM: Processed into 5 peptides of 35/38 kDa (A), 11/13 kDa (B) and 22
+CC       kDa (C), 38 kDa (D) and 13/15 kDa (E). The A, B and C peptides are
+CC       disulfide-linked into a 67 kDa complex.
+CC   -!- PTM: Heavily glycosylated. Some sugar chains are of the high-mannose
+CC       type.
+CC   -!- DISEASE: Note=Defects in MAN2B1 are the cause of lysosomal alpha-
+CC       mannosidosis (AM). AM is a lysosomal storage disease characterized by
+CC       accumulation of unbranched oligosaccharide chains. The disease
+CC       manifests itself by head tremor, aggressive tendency, ataxia, failure
+CC       to thrive, and early death. {ECO:0000269|PubMed:9208932}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L31373; AAB67726.2; -; mRNA.
+DR   EMBL; U97694; AAC48763.1; -; Genomic_DNA.
+DR   EMBL; U97686; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; U97687; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; U97688; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; U97689; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; U97690; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; U97691; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; U97692; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; U97693; AAC48763.1; JOINED; Genomic_DNA.
+DR   EMBL; DAAA02019388; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; NP_776986.2; NM_174561.2.
+DR   PDB; 1O7D; X-ray; 2.70 A; A=51-348, B=349-432, C=433-591, D=592-873, E=874-999.
+DR   PDBsum; 1O7D; -.
+DR   AlphaFoldDB; Q29451; -.
+DR   SMR; Q29451; -.
+DR   STRING; 9913.ENSBTAP00000008193; -.
+DR   ChEMBL; CHEMBL1932902; -.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   iPTMnet; Q29451; -.
+DR   PaxDb; Q29451; -.
+DR   PRIDE; Q29451; -.
+DR   Ensembl; ENSBTAT00000070599; ENSBTAP00000064540; ENSBTAG00000006241.
+DR   GeneID; 282272; -.
+DR   KEGG; bta:282272; -.
+DR   CTD; 4125; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000006241; -.
+DR   VGNC; VGNC:108504; MAN2B1.
+DR   eggNOG; KOG1959; Eukaryota.
+DR   GeneTree; ENSGT01030000234638; -.
+DR   HOGENOM; CLU_004690_2_0_1; -.
+DR   InParanoid; Q29451; -.
+DR   OMA; LEFIWRP; -.
+DR   OrthoDB; 201312at2759; -.
+DR   TreeFam; TF313840; -.
+DR   BRENDA; 3.2.1.24; 908.
+DR   Reactome; R-BTA-6798695; Neutrophil degranulation.
+DR   Reactome; R-BTA-8853383; Lysosomal oligosaccharide catabolism.
+DR   EvolutionaryTrace; Q29451; -.
+DR   PRO; PR:Q29451; -.
+DR   Proteomes; UP000009136; Chromosome 7.
+DR   Bgee; ENSBTAG00000006241; Expressed in caput epididymis and 105 other tissues.
+DR   ExpressionAtlas; Q29451; baseline and differential.
+DR   GO; GO:0005615; C:extracellular space; IEA:Ensembl.
+DR   GO; GO:0005764; C:lysosome; IBA:GO_Central.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:InterPro.
+DR   GO; GO:0036211; P:protein modification process; IEA:Ensembl.
+DR   Gene3D; 1.20.1270.50; -; 2.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR041147; GH38_C.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF17677; Glyco_hydro38C2; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disease variant; Disulfide bond;
+KW   Glycoprotein; Glycosidase; Hydrolase; Lysosome; Metal-binding;
+KW   Reference proteome; Signal; Zinc; Zymogen.
+FT   SIGNAL          1..50
+FT   CHAIN           51..999
+FT                   /note="Lysosomal alpha-mannosidase"
+FT                   /id="PRO_0000012060"
+FT   CHAIN           51..347
+FT                   /note="Lysosomal alpha-mannosidase A peptide"
+FT                   /id="PRO_0000012061"
+FT   CHAIN           348..431
+FT                   /note="Lysosomal alpha-mannosidase B peptide"
+FT                   /id="PRO_0000012062"
+FT   CHAIN           432..590
+FT                   /note="Lysosomal alpha-mannosidase C peptide"
+FT                   /id="PRO_0000012063"
+FT   PROPEP          591..621
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000012064"
+FT   CHAIN           622..871
+FT                   /note="Lysosomal alpha-mannosidase D peptide"
+FT                   /id="PRO_0000012065"
+FT   CHAIN           872..999
+FT                   /note="Lysosomal alpha-mannosidase E peptide"
+FT                   /id="PRO_0000012066"
+FT   REGION          1..25
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        197
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000269|PubMed:12634058"
+FT   BINDING         73
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   BINDING         75
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   BINDING         197
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   BINDING         448
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   CARBOHYD        134
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   CARBOHYD        369
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        499
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        634
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   CARBOHYD        640
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        681
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   CARBOHYD        755
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   CARBOHYD        919
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        56
+FT                   /note="Interchain (with C-360)"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   DISULFID        269..274
+FT                   /evidence="ECO:0000269|PubMed:12634058"
+FT   DISULFID        360
+FT                   /note="Interchain (with C-56)"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   DISULFID        414
+FT                   /note="Interchain (with C-474)"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   DISULFID        474
+FT                   /note="Interchain (with C-414)"
+FT                   /evidence="ECO:0000269|PubMed:12634058,
+FT                   ECO:0007744|PDB:1O7D"
+FT   DISULFID        495..503
+FT                   /evidence="ECO:0000269|PubMed:12634058"
+FT   VARIANT         221
+FT                   /note="R -> H (in AM; Galloway cattle)"
+FT                   /evidence="ECO:0000269|PubMed:9208932"
+FT   VARIANT         321
+FT                   /note="F -> L (in AM; Angus cattle)"
+FT                   /evidence="ECO:0000269|PubMed:9208932"
+FT   CONFLICT        176
+FT                   /note="G -> R (in Ref. 1; AAB67726/AAC48763)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        512..550
+FT                   /note="Missing (in Ref. 1; AAC48763)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          61..70
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          76..80
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           82..87
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   TURN            91..93
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           98..111
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          117..119
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           122..130
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           134..145
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          148..153
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          155..157
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          161..163
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           166..184
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           185..188
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          191..200
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           203..211
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          216..220
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           224..232
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          236..241
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          244..246
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   TURN            248..251
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          252..257
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           290..305
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          308..317
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           326..341
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          351..355
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           358..367
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           392..394
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           398..420
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           436..444
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   TURN            448..452
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           457..486
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           498..500
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           504..508
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          510..518
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          520..522
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          524..532
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          537..540
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          542..544
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          550..553
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   TURN            555..557
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          560..568
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          572..580
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          595..597
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          599..605
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   TURN            607..609
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          611..617
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          623..625
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          627..635
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          653..657
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          659..661
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          666..671
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          676..683
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          686..692
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          697..705
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          716..723
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          731..736
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          739..745
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          750..752
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           761..763
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          765..774
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          776..786
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          788..790
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          797..805
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          811..813
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           822..825
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          826..837
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           838..853
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          857..862
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          880..883
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          890..898
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          901..907
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   TURN            912..919
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          924..927
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          929..943
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          947..950
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   HELIX           951..953
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          978..981
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+FT   STRAND          986..994
+FT                   /evidence="ECO:0007829|PDB:1O7D"
+SQ   SEQUENCE   999 AA;  112919 MW;  C86DE7532925DB10 CRC64;
+     MVGDARPSGV RAGGCRGAVG SRTSSRALRP PLPPLSSLFV LFLAAPCAWA AGYKTCPKVK
+     PDMLNVHLVP HTHDDVGWLK TVDQYFYGIY NNIQPAGVQY ILDSVISSLL ANPTRRFIYV
+     EIAFFSRWWR QQTNATQKIV RELVRQGRLE FANGGWVMND EATTHYGAII DQMTLGLRFL
+     EETFGSDGRP RVAWHIDPFG HSREQASLFA QMGFDGFFFG RLDYQDKKVR KKTLQMEQVW
+     RASTSLKPPT ADLFTSVLPN MYNPPEGLCW DMLCADKPVV EDTRSPEYNA KELVRYFLKL
+     ATDQGKLYRT KHTVMTMGSD FQYENANTWF KNLDKLIQLV NAQQRANGIR VNVLYSTPAC
+     YLWELNKANL SWSVKKDDFF PYADGPYMFW TGYFSSRPAL KRYERLSYNF LQVCNQLEAL
+     AGPAANVGPY GSGDSAPLNE AMAVLQHHDA VSGTSRQHVA NDYARQLSEG WRPCEVLMSN
+     ALAHLSGLKE DFAFCRKLNI SICPLTQTAE RFQVIVYNPL GRKVDWMVRL PVSKHVYLVK
+     DPGGKIVPSD VVTIPSSDSQ ELLFSALVPA VGFSIYSVSQ MPNQRPQKSW SRDLVIQNEY
+     LRARFDPNTG LLMELENLEQ NLLLPVRQAF YWYNASTGNN LSSQASGAYI FRPNQNKPLF
+     VSHWAQTHLV KASLVQEVHQ NFSAWCSQVV RLYPRQRHLE LEWTVGPIPV GDGWGKEVIS
+     RFDTALATRG LFYTDSNGRE ILERRRNYRP TWKLNQTEPV AGNYYPVNSR IYITDGNMQL
+     TVLTDRSQGG SSLRDGSLEL MVHRRLLKDD ARGVGEPLNK EGSGLWVRGR HLVLLDKKET
+     AAARHRLQAE MEVLAPQVVL AQGGGARYRL EKAPRTQFSG LRRELPPSVR LLTLARWGPE
+     TLLLRLEHQF AVGEDSGRNL SSPVTLDLTN LFSAFTITNL RETTLAANQL LAYASRLQWT
+     TDTGPTPHPS PSRPVSATIT LQPMEIRTFL ASVQWEEDG
+//

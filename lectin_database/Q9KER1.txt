@@ -1,0 +1,124 @@
+ID   MNGB_ALKHC              Reviewed;         896 AA.
+AC   Q9KER1; Q9KER0;
+DT   01-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 2.
+DT   03-AUG-2022, entry version 97.
+DE   RecName: Full=Putative mannosylglycerate hydrolase;
+DE            EC=3.2.1.- {ECO:0000250|UniProtKB:P54746};
+DE   AltName: Full=2-O-(6-phospho-mannosyl)-D-glycerate hydrolase;
+DE   AltName: Full=Alpha-mannosidase mngB;
+GN   Name=mngB; OrderedLocusNames=BH0788/BH0789;
+OS   Alkalihalobacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344
+OS   / JCM 9153 / C-125) (Bacillus halodurans).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N., Fuji F.,
+RA   Hirama C., Nakamura Y., Ogasawara N., Kuhara S., Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans
+RT   and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+CC   -!- FUNCTION: May hydrolyze 6-phospho-mannosyl-D-glycerate to mannose-6-
+CC       phosphate and glycerate. {ECO:0000250|UniProtKB:P54746}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2-O-(6-phospho-alpha-D-mannosyl)-glycerate + H2O = (R)-
+CC         glycerate + alpha-D-mannose 6-phosphate; Xref=Rhea:RHEA:27866,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:16659, ChEBI:CHEBI:60331,
+CC         ChEBI:CHEBI:60332; Evidence={ECO:0000250|UniProtKB:P54746};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 divalent metal cation per subunit. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAB04507.1; Type=Frameshift; Note=Produces two separate ORFs.; Evidence={ECO:0000305};
+CC       Sequence=BAB04508.1; Type=Frameshift; Note=Produces two separate ORFs.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000004; BAB04507.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; BA000004; BAB04508.1; ALT_FRAME; Genomic_DNA.
+DR   PIR; D83748; D83748.
+DR   PIR; E83748; E83748.
+DR   AlphaFoldDB; Q9KER1; -.
+DR   SMR; Q9KER1; -.
+DR   STRING; 272558.10173403; -.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   PRIDE; Q9KER1; -.
+DR   EnsemblBacteria; BAB04507; BAB04507; BAB04507.
+DR   EnsemblBacteria; BAB04508; BAB04508; BAB04508.
+DR   KEGG; bha:BH0788; -.
+DR   KEGG; bha:BH0789; -.
+DR   eggNOG; COG0383; Bacteria.
+DR   HOGENOM; CLU_1674403_0_0_9; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:InterPro.
+DR   Gene3D; 1.20.1270.50; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR041509; GH38_beta-1.
+DR   InterPro; IPR041147; GH38_C.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF17677; Glyco_hydro38C2; 1.
+DR   Pfam; PF18438; Glyco_hydro_38; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase; Hydrolase; Metal-binding; Reference proteome.
+FT   CHAIN           1..896
+FT                   /note="Putative mannosylglycerate hydrolase"
+FT                   /id="PRO_0000343407"
+FT   ACT_SITE        125
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         12
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         14
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         125
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         348
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   896 AA;  102540 MW;  FF55FA8327A0972B CRC64;
+     MKKTAHIISH SHWDREWYMP FEGHRYYLIQ LMDDLLELFA TDPNFRSFHM DGQTIMLEDY
+     LNIRPEKEAE VRKYIQDGRL VIGPWYILQD AFLTSAEANV RNLLYGIKDT ETFGQKREQI
+     GYFPDTFGIY GQAPQLLAQA GIRAAVFGRG VTPTGFNNQV QHDDYSSPFS ELIWEAPDGS
+     QVIGILLANW YSNGNEIPTD EDEAQTFWVK KLRDAERFAS TSQLLFMNGC DHQPVQKDVT
+     QAIKVAETLF PDVAFKHSNF HDYLTQIKEE LPKELQKITG ELRNQKTDGW STLVNTASAR
+     IYLKQANDRC QTLLTNVLEP MCLLVENKSL HRDFSEYYWK LLMENHPHDS ICGCSIDAVH
+     REMKTRFEKV EAGATTFIAE QGKEIAAQIN TLHDSEEAIP LVVLKTNGTS GKRVVRHKVA
+     MKKIYFDEMD FRHIPDRLKE IVMPTYRLEF PNKGSVPIEV QDAGVRFGYD LPRDGFRRPY
+     YARELEVTFS YDSDLYLGYE CGFLVPVEEK QTEARKELIG DPSMNTLENE AMKVMIHRNG
+     SYSILDKTTG FEYRHLGIYE DVGDIGNEYM FKASSDGVRY TTEACEASIR IIENNSLCAT
+     VEICQTLSVP AAADERLKEE QERLVWHPDR KAGRSKERTD ITLRTELTLE QGAKGLKVNV
+     NIDNTAKDHR MRALFPVERA RGNHYADSIY EIVERPNTPD PKWQNPAFDH HMQRLVSLDN
+     GEYGLTIATK GLHEYEIVSD SIAVTLLRSV GELGDWGLFE TPEAQCFGQN EAQFVLLPHK
+     GDVLSANVYV AAYDDPVEPT VIQTEQSMGP LPHATNLFQW SGEGLVLTAC KPTMDGRGMI
+     LRWFNPKREG EALIVQSTHF LQIYRSTILE EQIEKLGTEN VQIEVRPQEI VTLRFE
+//

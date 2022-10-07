@@ -1,0 +1,239 @@
+ID   CNL_CLINE               Reviewed;         149 AA.
+AC   B2ZRS9;
+DT   16-MAR-2016, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   03-AUG-2022, entry version 46.
+DE   RecName: Full=Ricin B-like lectin {ECO:0000303|PubMed:19100814};
+DE   AltName: Full=Clitocybe nebularis lectin {ECO:0000303|PubMed:19100814};
+DE            Short=CNL {ECO:0000303|PubMed:19100814};
+OS   Clitocybe nebularis (Clouded agaric) (Lepista nebularis).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Tricholomataceae; Clitocybe.
+OX   NCBI_TaxID=117024 {ECO:0000312|EMBL:ACD47153.1};
+RN   [1] {ECO:0000312|EMBL:ACD47153.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], PROTEIN SEQUENCE OF 3-32; 41-70;
+RP   74-105; 109-114; 117-136 AND 142-149, FUNCTION, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, SUBSTRATE SPECIFICITY, SUBUNIT, PTM, MASS SPECTROMETRY, AND
+RP   ACETYLATION AT SER-2.
+RC   STRAIN=Vrh2004 {ECO:0000312|EMBL:ACD47153.1};
+RC   TISSUE=Fruiting body {ECO:0000312|EMBL:ACD47153.1};
+RX   PubMed=19100814; DOI=10.1016/j.bbagen.2008.11.006;
+RA   Pohleven J., Obermajer N., Sabotic J., Anzlovar S., Sepcic K., Kos J.,
+RA   Kralj B., Strukelj B., Brzin J.;
+RT   "Purification, characterization and cloning of a ricin B-like lectin from
+RT   mushroom Clitocybe nebularis with antiproliferative activity against human
+RT   leukemic T cells.";
+RL   Biochim. Biophys. Acta 1790:173-181(2009).
+RN   [2] {ECO:0007744|PDB:3NBC, ECO:0007744|PDB:3NBD, ECO:0007744|PDB:3NBE}
+RP   PARTIAL PROTEIN SEQUENCE, X-RAY CRYSTALLOGRAPHY (1.01 ANGSTROMS) OF 2-149
+RP   IN COMPLEX WITH LACTOSE AND LDN, FUNCTION, SUBSTRATE SPECIFICITY, SUBUNIT,
+RP   DOMAIN, MASS SPECTROMETRY, CIRCULAR DICHROISM ANALYSIS, AND MUTAGENESIS OF
+RP   ASP-21; LEU-55 AND ASN-111.
+RC   TISSUE=Fruiting body {ECO:0000269|PubMed:22298779};
+RX   PubMed=22298779; DOI=10.1074/jbc.m111.317263;
+RA   Pohleven J., Renko M., Magister S., Smith D.F., Kunzler M., Strukelj B.,
+RA   Turk D., Kos J., Sabotic J.;
+RT   "Bivalent carbohydrate binding is required for biological activity of
+RT   Clitocybe nebularis lectin (CNL), the N,N'-diacetyllactosediamine
+RT   (GalNAcbeta1-4GlcNAc, LacdiNAc)-specific lectin from basidiomycete C.
+RT   nebularis.";
+RL   J. Biol. Chem. 287:10602-10612(2012).
+RN   [3]
+RP   FUNCTION, MASS SPECTROMETRY, AND BIOTECHNOLOGY.
+RX   PubMed=21556921; DOI=10.1007/s00253-011-3236-0;
+RA   Pohleven J., Brzin J., Vrabec L., Leonardi A., Cokl A., Strukelj B.,
+RA   Kos J., Sabotic J.;
+RT   "Basidiomycete Clitocybe nebularis is rich in lectins with insecticidal
+RT   activities.";
+RL   Appl. Microbiol. Biotechnol. 91:1141-1148(2011).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=22044067; DOI=10.1111/j.1365-2567.2011.03500.x;
+RA   Svajger U., Pohleven J., Kos J., Strukelj B., Jeras M.;
+RT   "CNL, a ricin B-like lectin from mushroom Clitocybe nebularis, induces
+RT   maturation and activation of dendritic cells via the toll-like receptor 4
+RT   pathway.";
+RL   Immunology 134:409-418(2011).
+RN   [5]
+RP   FUNCTION.
+RX   PubMed=21486374; DOI=10.1111/j.1365-294x.2011.05093.x;
+RA   Bleuler-Martinez S., Butschi A., Garbani M., Waelti M.A., Wohlschlager T.,
+RA   Potthoff E., Sabotic J., Pohleven J., Luethy P., Hengartner M.O., Aebi M.,
+RA   Kuenzler M.;
+RT   "A lectin-mediated resistance of higher fungi against predators and
+RT   parasites.";
+RL   Mol. Ecol. 20:3056-3070(2011).
+CC   -!- FUNCTION: Lectin specific for terminal, non-reducing N-
+CC       acetylgalactosamine (Gal-NAc)-containing carbohydrates including N,N'-
+CC       diacetyllactosediamine/LDN (GalNAcbeta1-4GlcNAc, LacdiNAc). Specific
+CC       also for carbohydrates containing N-acetylglucosamine (-GlcNAc) or N-
+CC       acetyllactosamine (-Galbeta1-4GlcNAc) at the reducing end. Agglutinates
+CC       human blood group A, AB, B and O erythrocytes with a strong preference
+CC       for group A. Agglutinates bovine erythrocytes with a very low
+CC       specificity (PubMed:19100814, PubMed:22298779). Binds carbohydrates
+CC       bivalently, which is required for its biological activity
+CC       (PubMed:22298779). Exhibits insecticidal activity against the fruit fly
+CC       D.melanogaster, mosquito A.aegypti, and amoebozoa A.castellanii. Has
+CC       anti-nutritional activity against Colorado potato beetle
+CC       L.decemlineata, and against worm C.elegans (PubMed:21556921,
+CC       PubMed:21486374). Has antiproliferative activity against human leukemic
+CC       T-cells (PubMed:19100814). Has an immunostimulatory effect on human
+CC       antigen-presenting dendritic cells, which are subsequently able to
+CC       induce efficient T-cell immune responses (PubMed:22044067).
+CC       {ECO:0000269|PubMed:19100814, ECO:0000269|PubMed:21486374,
+CC       ECO:0000269|PubMed:21556921, ECO:0000269|PubMed:22044067,
+CC       ECO:0000269|PubMed:22298779}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6-6.5. Retains more than 70% of the maximum
+CC         agglutinating activity over the pH range 5-9.
+CC         {ECO:0000269|PubMed:19100814};
+CC       Temperature dependence:
+CC         Unchanged hemagglutinating activity after 30 minutes incubation at
+CC         temperatures up to 50 degrees Celsius, then at higher temperatures
+CC         activity decreases. 14% of the initial activity is retained even
+CC         after heating at 100 degrees Celsius. {ECO:0000269|PubMed:19100814};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:19100814,
+CC       ECO:0000269|PubMed:22298779}.
+CC   -!- DOMAIN: Contains a single ricin B lectin domain with a characteristic
+CC       beta-trefoil fold consisting of three repeated subdomains each
+CC       containing a more or less conserved QXW motif.
+CC       {ECO:0000305|PubMed:22298779}.
+CC   -!- PTM: The N-terminus is blocked. {ECO:0000269|PubMed:19100814}.
+CC   -!- MASS SPECTROMETRY: Mass=15903.5; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:19100814};
+CC   -!- MASS SPECTROMETRY: Mass=15992; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:22298779};
+CC   -!- MASS SPECTROMETRY: Mass=15903; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:21556921};
+CC   -!- BIOTECHNOLOGY: Potential for use as natural insecticide.
+CC       {ECO:0000303|PubMed:21556921}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU682006; ACD47153.1; -; Genomic_DNA.
+DR   EMBL; FJ477895; ACK56062.1; -; mRNA.
+DR   PDB; 3NBC; X-ray; 1.01 A; A/B=2-149.
+DR   PDB; 3NBD; X-ray; 1.15 A; A/B=2-149.
+DR   PDB; 3NBE; X-ray; 1.86 A; A/B=2-149.
+DR   PDBsum; 3NBC; -.
+DR   PDBsum; 3NBD; -.
+DR   PDBsum; 3NBE; -.
+DR   AlphaFoldDB; B2ZRS9; -.
+DR   SMR; B2ZRS9; -.
+DR   UniLectin; B2ZRS9; -.
+DR   iPTMnet; B2ZRS9; -.
+DR   EvolutionaryTrace; B2ZRS9; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF14200; RicinB_lectin_2; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Lectin.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:19100814"
+FT   CHAIN           2..149
+FT                   /note="Ricin B-like lectin"
+FT                   /id="PRO_0000435793"
+FT   REGION          110..112
+FT                   /note="Involved in dimerization"
+FT                   /evidence="ECO:0000269|PubMed:22298779,
+FT                   ECO:0007744|PDB:3NBC, ECO:0007744|PDB:3NBD"
+FT   BINDING         21
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:22298779,
+FT                   ECO:0007744|PDB:3NBC, ECO:0007744|PDB:3NBD"
+FT   BINDING         24
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:22298779,
+FT                   ECO:0007744|PDB:3NBC, ECO:0007744|PDB:3NBD"
+FT   BINDING         39
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:22298779,
+FT                   ECO:0007744|PDB:3NBC, ECO:0007744|PDB:3NBD"
+FT   BINDING         47
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:22298779,
+FT                   ECO:0007744|PDB:3NBC, ECO:0007744|PDB:3NBD"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:19100814"
+FT   MUTAGEN         21
+FT                   /note="D->R: No sugar-binding, hemagglutination of human
+FT                   group A erythrocytes nor toxicity to Jurkat leukemia
+FT                   cells."
+FT                   /evidence="ECO:0000269|PubMed:22298779"
+FT   MUTAGEN         55
+FT                   /note="L->R: No effect on sugar-binding, but loss of
+FT                   dimerization, hemagglutination of human group A
+FT                   erythrocytes and toxicity to Jurkat leukemia cells; when
+FT                   associated with D-111."
+FT                   /evidence="ECO:0000269|PubMed:22298779"
+FT   MUTAGEN         55
+FT                   /note="L->W: No effect on sugar-binding, but loss of
+FT                   dimerization, hemagglutination of human group A
+FT                   erythrocytes and toxicity to Jurkat leukemia cells; when
+FT                   associated with D-111."
+FT                   /evidence="ECO:0000269|PubMed:22298779"
+FT   MUTAGEN         111
+FT                   /note="N->D: No effect on sugar-binding, hemagglutination
+FT                   of human group A erythrocytes and dimerization, but reduced
+FT                   toxicity to Jurkat leukemia cells. No effect on
+FT                   sugar-binding, but loss of dimerization, hemagglutination
+FT                   of human group A erythrocytes and toxicity to Jurkat
+FT                   leukemia cells; when associated with R-55. No effect on
+FT                   sugar-binding, but loss of dimerization, hemagglutination
+FT                   of human group A erythrocytes and toxicity to Jurkat
+FT                   leukemia cells; when associated with W-55."
+FT                   /evidence="ECO:0000269|PubMed:22298779"
+FT   CONFLICT        31
+FT                   /note="T -> V (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        32
+FT                   /note="L -> I (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          5..14
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          19..22
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   HELIX           23..25
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          31..36
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   TURN            41..43
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          50..54
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          58..68
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          71..74
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   HELIX           75..77
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          84..90
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          94..98
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          105..108
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          112..117
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          128..131
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   HELIX           137..139
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+FT   STRAND          141..145
+FT                   /evidence="ECO:0007829|PDB:3NBC"
+SQ   SEQUENCE   149 AA;  15993 MW;  28E71535B79818CB CRC64;
+     MSITPGTYNI TNVAYTNRLI DLTGSNPAEN TLIIGHHLNK TPSGYGNQQW TLVQLPHTTI
+     YTMQAVNPQS YVRVRDDNLV DGAALVGSQQ PTPVSIESAG NSGQFRIKIP NLGLALTLPS
+     DANSTPIVLG EVDETSTNQL WAFESVSAV
+//

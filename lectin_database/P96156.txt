@@ -1,0 +1,117 @@
+ID   CHID_VIBFU              Reviewed;        1046 AA.
+AC   P96156;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   03-AUG-2022, entry version 114.
+DE   RecName: Full=Chitodextrinase {ECO:0000303|PubMed:8969204};
+DE            EC=3.2.1.202 {ECO:0000269|PubMed:8969204};
+DE   AltName: Full=Endo-chitodextinase {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=endo I;
+OS   Vibrio furnissii.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=29494;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 31-51, FUNCTION,
+RP   CATALYTIC ACTIVITY, ACTIVITY REGULATION, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   PATHWAY, SUBCELLULAR LOCATION, AND INDUCTION.
+RX   PubMed=8969204; DOI=10.1074/jbc.271.52.33414;
+RA   Keyhani N.O., Roseman S.;
+RT   "The chitin catabolic cascade in the marine bacterium Vibrio furnissii.
+RT   Molecular cloning, isolation, and characterization of a periplasmic
+RT   chitodextrinase.";
+RL   J. Biol. Chem. 271:33414-33424(1996).
+CC   -!- FUNCTION: Hydrolyzes chitin oligosaccharides; (GlcNAc)4 to (GlcNAc)2
+CC       and (GlcNAc)5,6 to (GlcNAc)2 and (GlcNAc)3. Inactive towards chitin,
+CC       glucosamine oligosaccharides, glycoproteins and glycopeptides
+CC       containing (GlcNAc)2. {ECO:0000269|PubMed:8969204}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of chitodextrins, releasing N,N'-diacetylchitobiose
+CC         and small amounts of N,N',N''-triacetylchitotriose.; EC=3.2.1.202;
+CC         Evidence={ECO:0000269|PubMed:8969204};
+CC   -!- ACTIVITY REGULATION: Inhibited by (GlcNAc)4, (GlcNAc)5, (GlcNAc)6, and
+CC       PNP-(GlcNAc)3. {ECO:0000269|PubMed:8969204}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.5-7.0. {ECO:0000269|PubMed:8969204};
+CC       Temperature dependence:
+CC         Optimum temperature is 35-37 degrees Celsius.
+CC         {ECO:0000269|PubMed:8969204};
+CC   -!- PATHWAY: Glycan degradation; chitin degradation.
+CC       {ECO:0000305|PubMed:8969204}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305|PubMed:8969204}.
+CC   -!- INDUCTION: By (GlcNAc)2. {ECO:0000269|PubMed:8969204}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 18 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U41418; AAC44673.1; -; Genomic_DNA.
+DR   PIR; T30199; T30199.
+DR   AlphaFoldDB; P96156; -.
+DR   SMR; P96156; -.
+DR   CAZy; CBM5; Carbohydrate-Binding Module Family 5.
+DR   CAZy; GH18; Glycoside Hydrolase Family 18.
+DR   BioCyc; MetaCyc:MON-16843; -.
+DR   BRENDA; 3.2.1.202; 6631.
+DR   UniPathway; UPA00349; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008061; F:chitin binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0006032; P:chitin catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 3.10.50.10; -; 1.
+DR   InterPro; IPR003610; CBM_fam5/12.
+DR   InterPro; IPR036573; CBM_sf_5/12.
+DR   InterPro; IPR009470; Chi_C.
+DR   InterPro; IPR011583; Chitinase_II.
+DR   InterPro; IPR029070; Chitinase_insertion_sf.
+DR   InterPro; IPR001223; Glyco_hydro18_cat.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF06483; ChiC; 1.
+DR   Pfam; PF00704; Glyco_hydro_18; 1.
+DR   SMART; SM00495; ChtBD3; 2.
+DR   SMART; SM00636; Glyco_18; 1.
+DR   SUPFAM; SSF51055; SSF51055; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF54556; SSF54556; 1.
+DR   PROSITE; PS51910; GH18_2; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Chitin degradation; Direct protein sequencing;
+KW   Glycosidase; Hydrolase; Periplasm; Polysaccharide degradation; Signal.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000269|PubMed:8969204"
+FT   CHAIN           31..1046
+FT                   /note="Chitodextrinase"
+FT                   /id="PRO_0000011959"
+FT   DOMAIN          320..801
+FT                   /note="GH18"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   REGION          973..996
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   1046 AA;  112380 MW;  40680F1642D55A1F CRC64;
+     MRLHRAKVSK SVFTLSTLTA SCLMAFNSYA AVDCSALAEW QSDTIYTGGD QVQYNGSAYQ
+     ANYWTQNNDP EQFSGDYAQW KLLDACTTDG GDDNQAPNAT LTSPSASDVL TTGDVVTLAA
+     SASDNDGTIA RVDFLVDGVV VAQASSAPYS ATWTAVAGTH QISAIAYDDK ALASTASQVS
+     VSVTDSTQPG NEAPTVDITL SASQVDVGDV VTLTANAADA DGSVDKVDFY VAGSLVGTVA
+     STPYTLDYTT TRSGRWLCLR ARLITSARQR IRPRRRLTVA AGPWSVPVVL MVCIKPKGQC
+     AVLYGVREDG REKMGADHPR RVIGYFTSWR AGDDDQTAYL VKDIPWEQLT HINYAFVSIG
+     SDGKVNVGDV NDANNAAVGK EWDGVEIDPT LGFKGHFGAL ATYKQKYGVK TLISIGGWAE
+     TGGHFDNDGN RVADGGFYTM TTNADGSINQ QGIETFADSA VEMMRKYRFD GLDIDLRISN
+     IDGGTGNPDD TAFSESRRAY LMNSYHELMR VLREKLDVAS AQDGVHYMLT IAAPSSAYLL
+     RGMETMAVTQ YLDYVNIMSY DLHGAWNDHV GHNAALYDTG KDSELAQWNV YGTAQYGGIG
+     YLNTDWAFHY FRGSMPAGRI NIGVPYYTRG WQGVTGGDNG LWGARLAKSK RVSNRYGEGE
+     KNNCGYGATG LDNMWHDVNA AGDEMGAGSN PMWHAKNLEH GIWGSYLAVY GLDPTTAPLV
+     GTYARNYDSV AIAPWLWNAE KKVFLSTEDK QSIDVKADYV IDKEIGGIMF WELAGDYNCY
+     VLDANGQRTS IDSTEQACES GQGEYHMGNT MTKAIYDKFK AATPYGNTVA TGAVPSETVD
+     IAVSIGGFKV GDQNYPINPK VTFTNNTGVD IPGGTAFQFD IPVSAPDNAK DQSGGGLSVI
+     ASGHTRADNI GGLDGTMHRV AFSLPAWKTL PAGDTYELDM VYYLPISGPA NYSVNINGVD
+     YAFKFEQPDL PLADLSSGNG GGTGGGDTGG GTTEPGDVVE WVPGSTQVSD GTTVTYNGKC
+     FVAQNSPGVW ESPTQTNWFW EEVTCP
+//

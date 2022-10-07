@@ -1,0 +1,184 @@
+ID   STXB_BPH19              Reviewed;          89 AA.
+AC   P69179; P08027;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1988, sequence version 1.
+DT   03-AUG-2022, entry version 73.
+DE   RecName: Full=Shiga-like toxin 1 subunit B;
+DE            Short=SLT-1 B subunit;
+DE            Short=SLT-1b;
+DE            Short=SLT-Ib;
+DE   AltName: Full=Verocytotoxin 1 subunit B;
+DE            Short=Verotoxin 1 subunit B;
+DE   Flags: Precursor;
+GN   Name=stxB; Synonyms=sltB;
+OS   Enterobacteria phage H19B (Bacteriophage H19B).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Siphoviridae; Lambdavirus; unclassified Lambdavirus.
+OX   NCBI_TaxID=69932;
+OH   NCBI_TaxID=562; Escherichia coli.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3299365; DOI=10.1073/pnas.84.13.4364;
+RA   Calderwood S.B., Auclair F., Donohue-Rolfe A., Keusch G.T., Mekalanos J.J.;
+RT   "Nucleotide sequence of the Shiga-like toxin genes of Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:4364-4368(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3040689; DOI=10.1128/jb.169.9.4313-4319.1987;
+RA   de Grandis S., Ginsberg J., Toone M., Climie S., Friesen J., Brunton J.L.;
+RT   "Nucleotide sequence and promoter mapping of the Escherichia coli Shiga-
+RT   like toxin operon of bacteriophage H-19B.";
+RL   J. Bacteriol. 169:4313-4319(1987).
+RN   [3]
+RP   MUTAGENESIS OF LYS-33; ASP-37; PHE-50 AND GLU-85.
+RX   PubMed=8820657; DOI=10.1046/j.1365-2958.1996.427962.x;
+RA   Clark C., Bast D.J., Sharp A.M., St Hilaire P.M., Agha R., Stein P.E.,
+RA   Toone E.J., Read R.J., Brunton J.L.;
+RT   "Phenylalanine 30 plays an important role in receptor binding of verotoxin-
+RT   1.";
+RL   Mol. Microbiol. 19:891-899(1996).
+RN   [4]
+RP   MUTAGENESIS OF ASP-37; TRP-54 AND GLY-82.
+RX   PubMed=10361298; DOI=10.1046/j.1365-2958.1999.01405.x;
+RA   Bast D.J., Banerjee L., Clark C., Read R.J., Brunton J.L.;
+RT   "The identification of three biologically relevant globotriaosyl ceramide
+RT   receptor binding sites on the Verotoxin 1 B subunit.";
+RL   Mol. Microbiol. 32:953-960(1999).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 21-89.
+RX   PubMed=1741063; DOI=10.1038/355748a0;
+RA   Stein P.E., Boodhoo A., Tyrrell G.J., Brunton J.L., Read R.J.;
+RT   "Crystal structure of the cell-binding B oligomer of verotoxin-1 from E.
+RT   coli.";
+RL   Nature 355:748-750(1992).
+RN   [6]
+RP   STRUCTURE BY NMR OF 21-89.
+RX   PubMed=9164458; DOI=10.1038/nsb0397-190;
+RA   Richardson J.M., Evans P.D., Homans S.W., Donohue-Rolfe A.;
+RT   "Solution structure of the carbohydrate-binding B-subunit homopentamer of
+RT   verotoxin VT-1 from E. coli.";
+RL   Nat. Struct. Biol. 4:190-193(1997).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS) OF 21-89 IN COMPLEX WITH RECEPTOR
+RP   GB3.
+RX   PubMed=9485303; DOI=10.1021/bi971806n;
+RA   Ling H., Boodhoo A., Hazes B., Cummings M.D., Armstrong G.D., Brunton J.L.,
+RA   Read R.J.;
+RT   "Structure of the shiga-like toxin I B-pentamer complexed with an analogue
+RT   of its receptor Gb3.";
+RL   Biochemistry 37:1777-1788(1998).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.23 ANGSTROMS) OF 21-89 IN COMPLEX WITH INHIBITOR.
+RX   PubMed=10688205; DOI=10.1038/35001095;
+RA   Kitov P.I., Sadowska J.M., Mulvey G., Armstrong G.D., Ling H., Pannu N.S.,
+RA   Read R.J., Bundle D.R.;
+RT   "Shiga-like toxins are neutralized by tailored multivalent carbohydrate
+RT   ligands.";
+RL   Nature 403:669-672(2000).
+CC   -!- FUNCTION: The B subunit is responsible for the binding of the holotoxin
+CC       to specific receptors on the target cell surface, such as
+CC       globotriaosylceramide (Gb3) in human intestinal microvilli.
+CC   -!- SUBUNIT: Shiga-like toxin contains a single subunit A and five copies
+CC       of subunit B. {ECO:0000269|PubMed:10688205,
+CC       ECO:0000269|PubMed:9485303}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DOMAIN: There are three Gb3-binding sites in each subunit B monomer,
+CC       allowing for a tighter binding to the target cell. Binding sites 1 and
+CC       2 have higher binding affinities than site 3.
+CC   -!- SIMILARITY: Belongs to the stxB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M16625; AAA98100.1; -; Genomic_DNA.
+DR   EMBL; M17358; AAA32230.1; -; Genomic_DNA.
+DR   PIR; B27052; XVBPH9.
+DR   PIR; B53887; B53887.
+DR   PDB; 1BOS; X-ray; 2.80 A; A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T=21-89.
+DR   PDB; 1C48; X-ray; 1.60 A; A/B/C/D/E=21-89.
+DR   PDB; 1C4Q; X-ray; 1.52 A; A/B/C/D/E=21-89.
+DR   PDB; 1CQF; X-ray; 2.20 A; A/B/C/D/E=21-89.
+DR   PDB; 1CZG; X-ray; 2.50 A; A/B/C/D/E=21-89.
+DR   PDB; 1CZW; X-ray; 2.50 A; A/B/C/D/E/F/G/H/I/J=21-89.
+DR   PDB; 1D1I; X-ray; 1.70 A; A/B/C/D/E=21-89.
+DR   PDB; 1QNU; X-ray; 2.23 A; A/B/C/D/E=21-89.
+DR   PDB; 2XSC; X-ray; 2.05 A; A/B/C/D/E=21-89.
+DR   PDB; 4ULL; NMR; -; A=21-89.
+DR   PDBsum; 1BOS; -.
+DR   PDBsum; 1C48; -.
+DR   PDBsum; 1C4Q; -.
+DR   PDBsum; 1CQF; -.
+DR   PDBsum; 1CZG; -.
+DR   PDBsum; 1CZW; -.
+DR   PDBsum; 1D1I; -.
+DR   PDBsum; 1QNU; -.
+DR   PDBsum; 2XSC; -.
+DR   PDBsum; 4ULL; -.
+DR   SMR; P69179; -.
+DR   UniLectin; P69179; -.
+DR   ABCD; P69179; 2 sequenced antibodies.
+DR   EvolutionaryTrace; P69179; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0019836; P:hemolysis by symbiont of host erythrocytes; IEA:InterPro.
+DR   GO; GO:0098676; P:modulation of host virulence by virus; IEA:UniProtKB-KW.
+DR   InterPro; IPR008992; Enterotoxin.
+DR   InterPro; IPR003189; SLT_beta.
+DR   Pfam; PF02258; SLT_beta; 1.
+DR   SUPFAM; SSF50203; SSF50203; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Modulation of host virulence by virus;
+KW   Secreted; Signal; Toxin; Viral exotoxin; Virulence.
+FT   SIGNAL          1..20
+FT   CHAIN           21..89
+FT                   /note="Shiga-like toxin 1 subunit B"
+FT                   /id="PRO_0000030794"
+FT   DISULFID        24..77
+FT   MUTAGEN         33
+FT                   /note="K->A: No effect on binding to receptor."
+FT                   /evidence="ECO:0000269|PubMed:8820657"
+FT   MUTAGEN         37
+FT                   /note="D->A: No effect on binding to receptor."
+FT                   /evidence="ECO:0000269|PubMed:10361298,
+FT                   ECO:0000269|PubMed:8820657"
+FT   MUTAGEN         37
+FT                   /note="D->E: Decrease in binding affinity for Gb3, and in
+FT                   binding capacity. Reduced cytotoxicity."
+FT                   /evidence="ECO:0000269|PubMed:10361298,
+FT                   ECO:0000269|PubMed:8820657"
+FT   MUTAGEN         50
+FT                   /note="F->A: 4-fold decrease in binding affinity for Gb3;
+FT                   10-fold reduction in binding capacity; great decrease in
+FT                   cell cytotoxicity."
+FT                   /evidence="ECO:0000269|PubMed:8820657"
+FT   MUTAGEN         54
+FT                   /note="W->A: Decrease in binding capacity; no effect on
+FT                   binding affinity; moderate effect on cytotoxicity."
+FT                   /evidence="ECO:0000269|PubMed:10361298"
+FT   MUTAGEN         82
+FT                   /note="G->T: Decrease in binding affinity for Gb3, and in
+FT                   binding capacity. Reduced cytotoxicity."
+FT                   /evidence="ECO:0000269|PubMed:10361298"
+FT   MUTAGEN         85
+FT                   /note="E->A: No effect on binding to receptor."
+FT                   /evidence="ECO:0000269|PubMed:8820657"
+FT   STRAND          23..34
+FT                   /evidence="ECO:0007829|PDB:1C4Q"
+FT   STRAND          36..38
+FT                   /evidence="ECO:0007829|PDB:4ULL"
+FT   STRAND          40..44
+FT                   /evidence="ECO:0007829|PDB:1C4Q"
+FT   STRAND          47..51
+FT                   /evidence="ECO:0007829|PDB:1C4Q"
+FT   HELIX           56..66
+FT                   /evidence="ECO:0007829|PDB:1C4Q"
+FT   STRAND          69..73
+FT                   /evidence="ECO:0007829|PDB:1C4Q"
+FT   STRAND          77..80
+FT                   /evidence="ECO:0007829|PDB:4ULL"
+FT   STRAND          85..89
+FT                   /evidence="ECO:0007829|PDB:1C4Q"
+SQ   SEQUENCE   89 AA;  9743 MW;  C78F7795CCD7242E CRC64;
+     MKKTLLIAAS LSFFSASALA TPDCVTGKVE YTKYNDDDTF TVKVGDKELF TNRWNLQSLL
+     LSAQITGMTV TIKTNACHNG GGFSEVIFR
+//

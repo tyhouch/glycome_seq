@@ -1,0 +1,335 @@
+ID   HLYA_VIBCH              Reviewed;         741 AA.
+AC   P09545; O08197; O08290; Q56641; Q99290; Q9KMU9;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 2.
+DT   03-AUG-2022, entry version 160.
+DE   RecName: Full=Hemolysin;
+DE   Flags: Precursor;
+GN   Name=hlyA; OrderedLocusNames=VC_A0219;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=El Tor O17 / Serotype O1;
+RX   PubMed=3050359; DOI=10.1111/j.1365-2958.1988.tb00054.x;
+RA   Alm R.A., Stroeher U.H., Manning P.A.;
+RT   "Extracellular proteins of Vibrio cholerae: nucleotide sequence of the
+RT   structural gene (hlyA) for the haemolysin of the haemolytic El Tor strain
+RT   O17 and characterization of the hlyA mutation in the non-haemolytic
+RT   classical strain 569B.";
+RL   Mol. Microbiol. 2:481-488(1988).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Manning P.A.;
+RL   Submitted (JUN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=El Tor RV79;
+RX   PubMed=2453464; DOI=10.1128/iai.56.6.1414-1419.1988;
+RA   Rader A.E., Murphy J.R.;
+RT   "Nucleotide sequences and comparison of the hemolysin determinants of
+RT   Vibrio cholerae El Tor RV79(Hly+) and RV79(Hly-) and classical
+RT   569B(Hly-).";
+RL   Infect. Immun. 56:1414-1419(1988).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 26-45 AND
+RP   158-177.
+RC   STRAIN=El Tor N86 / Serotype O1;
+RX   PubMed=2174833; DOI=10.1128/iai.58.12.4106-4116.1990;
+RA   Yamamoto K., Ichinose Y., Shinagawa H., Makino K., Nakata A., Iwanaga M.,
+RA   Honda T., Miwatani T.;
+RT   "Two-step processing for activation of the cytolysin/hemolysin of Vibrio
+RT   cholerae O1 biotype El Tor: nucleotide sequence of the structural gene
+RT   (hlyA) and characterization of the processed products.";
+RL   Infect. Immun. 58:4106-4116(1990).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A., Gill S.R.,
+RA   Nelson K.E., Read T.D., Tettelin H., Richardson D.L., Ermolaeva M.D.,
+RA   Vamathevan J.J., Bass S., Qin H., Dragoi I., Sellers P., McDonald L.A.,
+RA   Utterback T.R., Fleischmann R.D., Nierman W.C., White O., Salzberg S.L.,
+RA   Smith H.O., Colwell R.R., Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 26-741, SUBUNIT, FUNCTION, PARTIAL
+RP   PROTEIN SEQUENCE, IDENTIFICATION BY MASS SPECTROMETRY, ACTIVATION BY
+RP   PROTEOLYTIC CLEAVAGE, SUBCELLULAR LOCATION, DOMAIN, AND DISULFIDE BONDS.
+RX   PubMed=15978620; DOI=10.1016/j.jmb.2005.05.045;
+RA   Olson R., Gouaux E.;
+RT   "Crystal structure of the Vibrio cholerae cytolysin (VCC) pro-toxin and its
+RT   assembly into a heptameric transmembrane pore.";
+RL   J. Mol. Biol. 350:997-1016(2005).
+CC   -!- FUNCTION: Bacterial hemolysin that causes cytolysis by forming
+CC       heptameric pores in target host membranes.
+CC       {ECO:0000269|PubMed:15978620}.
+CC   -!- SUBUNIT: Monomer. Homoheptamer. After binding to target membranes the
+CC       protein assembles into a heptameric pre-pore complex. Proteolytic
+CC       cleavage triggers a conformation change that is required for membrane
+CC       insertion and pore formation. {ECO:0000269|PubMed:15978620}.
+CC   -!- INTERACTION:
+CC       P09545; P09545: hlyA; NbExp=4; IntAct=EBI-6409539, EBI-6409539;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:15978620}. Host cell
+CC       membrane {ECO:0000269|PubMed:15978620}; Multi-pass membrane protein
+CC       {ECO:0000269|PubMed:15978620}. Note=In the hemolytic biotype El Tor the
+CC       80 kDa hemolysin precursor is secreted as monomer. After binding to
+CC       target membranes the protein assembles into a heptameric prepore
+CC       complex. Proteolytic cleavage triggers a conformation change that is
+CC       required for membrane insertion and pore formation.
+CC   -!- INDUCTION: By hemolysin B cytoplasmic protein. {ECO:0000305}.
+CC   -!- DOMAIN: May bind to glycans on target cells via the C-terminal beta-
+CC       prism domain. {ECO:0000269|PubMed:15978620}.
+CC   -!- PTM: Proteolytical cleavage is required to convert the 80 kDa hemolysin
+CC       precursor into the active 65 kDa hemolysin.
+CC   -!- SIMILARITY: Belongs to the HlyA hemolysin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y00557; CAA68637.1; -; Genomic_DNA.
+DR   EMBL; M36855; AAA27528.1; -; Genomic_DNA.
+DR   EMBL; X51746; CAA36035.1; -; Genomic_DNA.
+DR   EMBL; AE003853; AAF96131.1; -; Genomic_DNA.
+DR   PIR; A41462; A41462.
+DR   PIR; A82486; A82486.
+DR   RefSeq; NP_232618.1; NC_002506.1.
+DR   PDB; 1XEZ; X-ray; 2.30 A; A=26-741.
+DR   PDB; 3O44; X-ray; 2.88 A; A/B/C/D/E/F/G/H/I/J/K/L/M/N=149-741.
+DR   PDB; 4GX7; X-ray; 2.85 A; A/B/C/D/E/F=611-741.
+DR   PDBsum; 1XEZ; -.
+DR   PDBsum; 3O44; -.
+DR   PDBsum; 4GX7; -.
+DR   AlphaFoldDB; P09545; -.
+DR   SMR; P09545; -.
+DR   MINT; P09545; -.
+DR   STRING; 243277.VC_A0219; -.
+DR   TCDB; 1.C.14.1.1; the cytohemolysin (chl) family.
+DR   UniLectin; P09545; -.
+DR   DNASU; 2612877; -.
+DR   EnsemblBacteria; AAF96131; AAF96131; VC_A0219.
+DR   GeneID; 57741666; -.
+DR   KEGG; vch:VC_A0219; -.
+DR   PATRIC; fig|243277.26.peg.2852; -.
+DR   eggNOG; ENOG502ZBG7; Bacteria.
+DR   HOGENOM; CLU_439829_0_0_6; -.
+DR   OMA; HVAFYLN; -.
+DR   BioCyc; VCHO:VCA0219-MON; -.
+DR   EvolutionaryTrace; P09545; -.
+DR   Proteomes; UP000000584; Chromosome 2.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in another organism; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   Gene3D; 3.30.110.130; -; 1.
+DR   Gene3D; 6.20.40.20; -; 1.
+DR   InterPro; IPR032496; Hemolysin_beta-prism_lec.
+DR   InterPro; IPR022220; Hemolysin_N.
+DR   InterPro; IPR043080; Hemolysin_N_sf.
+DR   InterPro; IPR044883; Hemolysin_pre-stem_dom_sf.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   InterPro; IPR016183; Leukocidin/Hemolysin_toxin.
+DR   InterPro; IPR036435; Leukocidin/porin_MspA_sf.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF16458; Beta-prism_lec; 1.
+DR   Pfam; PF12563; Hemolysin_N; 1.
+DR   Pfam; PF07968; Leukocidin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF56959; SSF56959; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytolysis; Direct protein sequencing; Disulfide bond;
+KW   Hemolysis; Host cell membrane; Host membrane; Lectin; Membrane;
+KW   Reference proteome; Secreted; Signal; Toxin; Transmembrane;
+KW   Transmembrane beta strand; Virulence.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000269|PubMed:2174833"
+FT   PROPEP          26..157
+FT                   /evidence="ECO:0000269|PubMed:2174833"
+FT                   /id="PRO_0000013357"
+FT   CHAIN           158..741
+FT                   /note="Hemolysin"
+FT                   /id="PRO_0000013358"
+FT   DOMAIN          484..575
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          607..741
+FT                   /note="Beta-prism domain"
+FT   SITE            144..145
+FT                   /note="Susceptible to proteolytic cleavage"
+FT   SITE            148..149
+FT                   /note="Susceptible to proteolytic cleavage"
+FT   DISULFID        182..200
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|PubMed:15978620"
+FT   DISULFID        497..511
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|PubMed:15978620"
+FT   DISULFID        537..549
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|PubMed:15978620"
+FT   VARIANT         245..741
+FT                   /note="Missing (in strain: nonhemolytic 569B)"
+FT   VARIANT         453
+FT                   /note="S -> F (in strain: N16961)"
+FT   CONFLICT        115
+FT                   /note="T -> S (in Ref. 3; AAA27528)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        562
+FT                   /note="G -> S (in Ref. 3; AAA27528)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          47..51
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           52..56
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           65..72
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          78..82
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           89..103
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          109..117
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          120..128
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            161..163
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          166..176
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            179..182
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          183..186
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            189..193
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          196..199
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          204..217
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          219..221
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          229..236
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            238..240
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          244..246
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          253..257
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          263..287
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          291..299
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          306..317
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            321..323
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           327..329
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          336..347
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          351..356
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          359..361
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          363..369
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           376..378
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           395..397
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           400..402
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          410..417
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          422..445
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          450..457
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          463..474
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           478..481
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          486..490
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            491..495
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          496..500
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          505..509
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           516..518
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          520..522
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          528..530
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          533..537
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           553..555
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          557..559
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          566..568
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            569..571
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          574..578
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   TURN            579..581
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          584..589
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          592..595
+FT                   /evidence="ECO:0007829|PDB:3O44"
+FT   STRAND          598..604
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          614..616
+FT                   /evidence="ECO:0007829|PDB:3O44"
+FT   STRAND          620..626
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          632..647
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   HELIX           648..650
+FT                   /evidence="ECO:0007829|PDB:3O44"
+FT   STRAND          657..663
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          667..677
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          680..691
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          696..700
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          705..714
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          721..728
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+FT   STRAND          733..740
+FT                   /evidence="ECO:0007829|PDB:1XEZ"
+SQ   SEQUENCE   741 AA;  81962 MW;  C99FAE2A01F37CCE CRC64;
+     MPKLNRCAIA IFTILSAISS PTLLANINEP SGEAADIISQ VADSHAIKYY NAADWQAEDN
+     ALPSLAELRD LVINQQKRVL VDFSQISDAE GQAEMQAQFR KAYGVGFANQ FIVITEHKGE
+     LLFTPFDQAE EVDPQLLEAP RTARLLARSG FASPAPANSE TNTLPHVAFY ISVNRAISDE
+     ECTFNNSWLW KNEKGSRPFC KDANISLIYR VNLERSLQYG IVGSATPDAK IVRISLDDDS
+     TGAGIHLNDQ LGYRQFGASY TTLDAYFREW STDAIAQDYR FVFNASNNKA QILKTFPVDN
+     INEKFERKEV SGFELGVTGG VEVSGDGPKA KLEARASYTQ SRWLTYNTQD YRIERNAKNA
+     QAVSFTWNRQ QYATAESLLN RSTDALWVNT YPVDVNRISP LSYASFVPKM DVIYKASATE
+     TGSTDFIIDS SVNIRPIYNG AYKHYYVVGA HQSYHGFEDT PRRRITKSAS FTVDWDHPVF
+     TGGRPVNLQL ASFNNRCIQV DAQGRLAANT CDSQQSAQSF IYDQLGRYVS ASNTKLCLDG
+     EALDALQPCN QNLTQRWEWR KGTDELTNVY SGESLGHDKQ TGELGLYASS NDAVSLRTIT
+     AYTDVFNAQE SSPILGYTQG KMNQQRVGQD HRLYVRAGAA IDALGSASDL LVGGNGGSLS
+     SVDLSGVKSI TATSGDFQYG GQQLVALTFT YQDGRQQTVG SKAYVTNAHE DRFDLPAAAK
+     ITQLKIWSDD WLVKGVQFDL N
+//

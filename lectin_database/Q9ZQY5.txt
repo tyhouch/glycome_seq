@@ -1,0 +1,92 @@
+ID   Q9ZQY5_HELTU            Unreviewed;       147 AA.
+AC   Q9ZQY5;
+DT   01-MAY-1999, integrated into UniProtKB/TrEMBL.
+DT   01-MAY-1999, sequence version 1.
+DT   03-AUG-2022, entry version 81.
+DE   SubName: Full=Lectin 1 {ECO:0000313|EMBL:AAD11575.1};
+OS   Helianthus tuberosus (Jerusalem artichoke) (Helianthus tomentosus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; campanulids; Asterales; Asteraceae; Asteroideae;
+OC   Heliantheae alliance; Heliantheae; Helianthus.
+OX   NCBI_TaxID=4233 {ECO:0000313|EMBL:AAD11575.1};
+RN   [1] {ECO:0000313|EMBL:AAD11575.1}
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=9914485; DOI=10.1046/j.1432-1327.1999.00013.x;
+RA   Van Damme E.J., Barre A., Mazard A.M., Verhaert P., Horman A., Debray H.,
+RA   Rouge P., Peumans W.J.;
+RT   "Characterization and molecular cloning of the lectin from Helianthus
+RT   tuberosus.";
+RL   Eur. J. Biochem. 259:135-142(1999).
+RN   [2] {ECO:0007829|PDB:1C3K, ECO:0007829|PDB:1C3M}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) IN COMPLEX WITH MANNOSE.
+RX   PubMed=10647178; DOI=10.1016/S0969-2126(00)88338-0;
+RA   Bourne Y., Zamboni V., Barre A., Peumans W.J., Van Damme E.J., Rouge P.;
+RT   "Helianthus tuberosus lectin reveals a widespread scaffold for mannose-
+RT   binding lectins.";
+RL   Structure 7:1473-1482(1999).
+RN   [3] {ECO:0000313|EMBL:AAD11575.1}
+RP   NUCLEOTIDE SEQUENCE.
+RA   Song W.-J., Kurnit D.M.;
+RL   Submitted (DEC-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family.
+CC       {ECO:0000256|ARBA:ARBA00006568}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF064029; AAD11575.1; -; mRNA.
+DR   PDB; 1C3K; X-ray; 2.00 A; A=1-147.
+DR   PDB; 1C3M; X-ray; 2.00 A; A=1-147.
+DR   PDB; 1C3N; X-ray; 2.45 A; A=1-147.
+DR   PDBsum; 1C3K; -.
+DR   PDBsum; 1C3M; -.
+DR   PDBsum; 1C3N; -.
+DR   SMR; Q9ZQY5; -.
+DR   UniLectin; Q9ZQY5; -.
+DR   EvolutionaryTrace; Q9ZQY5; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 1.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1C3K, ECO:0007829|PDB:1C3M};
+KW   Lectin {ECO:0000256|ARBA:ARBA00022734}.
+FT   DOMAIN          7..147
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51752"
+FT   BINDING         18
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1C3M, ECO:0007829|PDB:1C3N"
+FT   BINDING         91
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1C3N"
+FT   BINDING         135
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1C3M"
+FT   BINDING         136
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1C3M, ECO:0007829|PDB:1C3N"
+FT   BINDING         137
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1C3M, ECO:0007829|PDB:1C3N"
+FT   BINDING         139
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1C3M, ECO:0007829|PDB:1C3N"
+SQ   SEQUENCE   147 AA;  15487 MW;  FA6A2CFBD533761A CRC64;
+     MAASDIAVQA GPWGGNGGKR WLQTAHGGKI TSIIIKGGTC IFSIQFVYKD KDNIEYHSGK
+     FGVLGDKAET ITFAEDEDIT AISGTFGAYY HMTVVTSLTF QTNKKVYGPF GTVASSSFSL
+     PLTKGKFAGF FGNSGDVLDS IGGVVVP
+//

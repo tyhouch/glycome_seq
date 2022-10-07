@@ -1,0 +1,119 @@
+ID   LEG1_PONAB              Reviewed;         135 AA.
+AC   Q5R7M1;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   03-AUG-2022, entry version 84.
+DE   RecName: Full=Galectin-1;
+DE            Short=Gal-1;
+DE   AltName: Full=14 kDa lectin;
+DE   AltName: Full=Beta-galactoside-binding lectin L-14-I;
+DE   AltName: Full=Galaptin;
+DE   AltName: Full=Lactose-binding lectin 1;
+DE   AltName: Full=Lectin galactoside-binding soluble 1;
+DE   AltName: Full=S-Lac lectin 1;
+GN   Name=LGALS1;
+OS   Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pongo.
+OX   NCBI_TaxID=9601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RG   The German cDNA consortium;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Lectin that binds beta-galactoside and a wide array of
+CC       complex carbohydrates. Plays a role in regulating apoptosis, cell
+CC       proliferation and cell differentiation. Inhibits CD45 protein
+CC       phosphatase activity and therefore the dephosphorylation of Lyn kinase.
+CC       Strong inducer of T-cell apoptosis. {ECO:0000250|UniProtKB:P09382}.
+CC   -!- SUBUNIT: Homodimer. Binds LGALS3BP. Interacts with CD2, CD3, CD4, CD6,
+CC       CD7, CD43, ALCAM and CD45. Interacts with laminin (via poly-N-
+CC       acetyllactosamine). Interacts with SUSD2.
+CC       {ECO:0000250|UniProtKB:P09382}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250|UniProtKB:P09382}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR860093; CAH92239.1; -; mRNA.
+DR   RefSeq; NP_001126310.1; NM_001132838.1.
+DR   RefSeq; XP_009232614.1; XM_009234339.1.
+DR   AlphaFoldDB; Q5R7M1; -.
+DR   BMRB; Q5R7M1; -.
+DR   SMR; Q5R7M1; -.
+DR   PRIDE; Q5R7M1; -.
+DR   GeneID; 100173289; -.
+DR   KEGG; pon:100173289; -.
+DR   CTD; 3956; -.
+DR   InParanoid; Q5R7M1; -.
+DR   OrthoDB; 1429018at2759; -.
+DR   Proteomes; UP000001595; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Apoptosis; Extracellular matrix; Lectin; Phosphoprotein;
+KW   Reference proteome; Secreted.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   CHAIN           2..135
+FT                   /note="Galectin-1"
+FT                   /id="PRO_0000076919"
+FT   DOMAIN          4..135
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         45..49
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         53
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         62
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         69..72
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         13
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         29
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         30
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         108
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         108
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         128
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+SQ   SEQUENCE   135 AA;  14746 MW;  7FBC8D1C11A21C78 CRC64;
+     MACGLVASNL NLKPGECLRV RGEVTPDAKS FVLNLGKASN NLCLHFNPRF NAHGDANTIV
+     CNSKDGGAWG TEQREAVFPF QPGSVAEVCI TFDQTNLTIK LPDGYEFKFP NRLNLEAINY
+     MAADGDFKIK CVAFD
+//

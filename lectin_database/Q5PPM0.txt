@@ -1,0 +1,297 @@
+ID   ITLN1_XENLA             Reviewed;         339 AA.
+AC   Q5PPM0; Q800K0;
+DT   15-FEB-2017, integrated into UniProtKB/Swiss-Prot.
+DT   04-JAN-2005, sequence version 1.
+DT   03-AUG-2022, entry version 66.
+DE   RecName: Full=Intelectin-1;
+DE   AltName: Full=Embryonic epidermal lectin {ECO:0000303|PubMed:26755729};
+DE            Short=Xeel {ECO:0000303|PubMed:12802587, ECO:0000303|PubMed:26755729};
+DE   Flags: Precursor;
+GN   Name=itln1;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355 {ECO:0000312|EMBL:AAH87616.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND DEVELOPMENTAL STAGE.
+RX   PubMed=12802587; DOI=10.1007/s00427-003-0341-9;
+RA   Nagata S., Nakanishi M., Nanba R., Fujita N.;
+RT   "Developmental expression of XEEL, a novel molecule of the Xenopus oocyte
+RT   cortical granule lectin family.";
+RL   Dev. Genes Evol. 213:368-370(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo {ECO:0000312|EMBL:AAH87616.1};
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (DEC-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   FUNCTION, SUBCELLULAR LOCATION, SUBUNIT, GLYCOSYLATION AT ASN-189, AND
+RP   MUTAGENESIS OF ASN-180 AND ASN-189.
+RX   PubMed=15537792; DOI=10.1093/glycob/cwi010;
+RA   Nagata S.;
+RT   "Isolation, characterization, and extra-embryonic secretion of the Xenopus
+RT   laevis embryonic epidermal lectin, XEEL.";
+RL   Glycobiology 15:281-290(2005).
+RN   [4] {ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0}
+RP   X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 51-339 IN COMPLEX WITH CALCIUM
+RP   IONS AND GLYCEROL 1-PHOSPHATE, FUNCTION, DISULFIDE BONDS, SUBUNIT, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=26755729; DOI=10.1074/jbc.m115.709212;
+RA   Wangkanont K., Wesener D.A., Vidani J.A., Kiessling L.L., Forest K.T.;
+RT   "Structures of Xenopus embryonic epidermal lectin reveal a conserved
+RT   mechanism of microbial glycan recognition.";
+RL   J. Biol. Chem. 291:5596-5610(2016).
+CC   -!- FUNCTION: Lectin that specifically recognizes microbial carbohydrate
+CC       chains in a calcium-dependent manner (PubMed:26755729). Binds to
+CC       microbial glycans that contain a terminal acyclic 1,2-diol moiety,
+CC       including beta-linked D-galactofuranose (beta-Galf) and D-
+CC       phosphoglycerol-modified glycans (PubMed:26755729). Binds to
+CC       S.pneumoniae serotypes with glycans that contain beta-linked D-
+CC       galactofuranose (beta-Galf) and with D-phosphoglycerol-modified glycans
+CC       (PubMed:26755729). Can bind a variety of monosaccharides (in vitro)
+CC       (PubMed:15537792). Probably plays a role in the defense system against
+CC       microorganisms (Probable). {ECO:0000269|PubMed:15537792,
+CC       ECO:0000269|PubMed:26755729, ECO:0000305}.
+CC   -!- SUBUNIT: Homotrimer; disulfide-linked (PubMed:26755729). Homohexamer;
+CC       disulfide-linked (PubMed:15537792, PubMed:26755729). Forms primarily
+CC       homotrimers in solution, but can also form homohexamers
+CC       (PubMed:26755729). {ECO:0000269|PubMed:15537792,
+CC       ECO:0000269|PubMed:26755729}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:15537792,
+CC       ECO:0000305|PubMed:26755729}. Cytoplasmic vesicle, secretory vesicle
+CC       {ECO:0000269|PubMed:15537792}.
+CC   -!- DEVELOPMENTAL STAGE: Detected in embryonic epidermal cells; expression
+CC       increases during neurula and tailbud stage and decreases again after 1
+CC       week dpf (at protein level) (PubMed:15537792). First detected in
+CC       gastrula-stage embryos; expression increases during later stages of
+CC       embryogenesis. Detected in epidermis and throughout the embryo.
+CC       {ECO:0000269|PubMed:12802587, ECO:0000269|PubMed:15537792}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:15537792}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAC65329.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB105372; BAC65329.1; ALT_INIT; mRNA.
+DR   EMBL; BC087616; AAH87616.1; -; mRNA.
+DR   RefSeq; NP_001082570.1; NM_001089101.1.
+DR   PDB; 4WMO; X-ray; 2.30 A; A/B/C/D/E/F=51-339.
+DR   PDB; 4WN0; X-ray; 2.20 A; A=51-339.
+DR   PDB; 5ZC0; X-ray; 2.75 A; A/B/C/D/E/F=51-339.
+DR   PDBsum; 4WMO; -.
+DR   PDBsum; 4WN0; -.
+DR   PDBsum; 5ZC0; -.
+DR   AlphaFoldDB; Q5PPM0; -.
+DR   SMR; Q5PPM0; -.
+DR   UniLectin; Q5PPM0; -.
+DR   iPTMnet; Q5PPM0; -.
+DR   DNASU; 398574; -.
+DR   GeneID; 398574; -.
+DR   KEGG; xla:398574; -.
+DR   CTD; 398574; -.
+DR   Xenbase; XB-GENE-6256033; itln1.L.
+DR   OrthoDB; 754383at2759; -.
+DR   Proteomes; UP000186698; Chromosome 7L.
+DR   Bgee; 398574; Expressed in neurula embryo and 16 other tissues.
+DR   GO; GO:0005576; C:extracellular region; IDA:UniProtKB.
+DR   GO; GO:0030141; C:secretory granule; IDA:UniProtKB.
+DR   GO; GO:0030133; C:transport vesicle; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034214; P:protein hexamerization; IDA:UniProtKB.
+DR   Gene3D; 3.90.215.10; -; 1.
+DR   InterPro; IPR036056; Fibrinogen-like_C.
+DR   InterPro; IPR014716; Fibrinogen_a/b/g_C_1.
+DR   InterPro; IPR002181; Fibrinogen_a/b/g_C_dom.
+DR   Pfam; PF00147; Fibrinogen_C; 1.
+DR   SUPFAM; SSF56496; SSF56496; 1.
+DR   PROSITE; PS51406; FIBRINOGEN_C_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Cytoplasmic vesicle; Disulfide bond; Glycoprotein;
+KW   Lectin; Metal-binding; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..339
+FT                   /note="Intelectin-1"
+FT                   /id="PRO_5004261008"
+FT   DOMAIN          58..108
+FT                   /note="Fibrinogen C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   BINDING         112
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         113
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         115
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         118
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         123
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         124
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         159
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         286
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         288..289
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000305|PubMed:26755729"
+FT   BINDING         288
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         300
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000305|PubMed:26755729"
+FT   BINDING         300
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   BINDING         308
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:26755729,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   CARBOHYD        189
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305|PubMed:15537792"
+FT   DISULFID        21
+FT                   /note="Interchain (with C-39)"
+FT                   /evidence="ECO:0000305|PubMed:26755729"
+FT   DISULFID        39
+FT                   /note="Interchain (with C-21)"
+FT                   /evidence="ECO:0000305|PubMed:26755729"
+FT   DISULFID        67..96
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00739,
+FT                   ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   DISULFID        120..306
+FT                   /evidence="ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   DISULFID        225..285
+FT                   /evidence="ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   DISULFID        277..291
+FT                   /evidence="ECO:0007744|PDB:4WMO, ECO:0007744|PDB:4WN0"
+FT   MUTAGEN         180
+FT                   /note="N->Q: No effect on N-glycosylation."
+FT                   /evidence="ECO:0000269|PubMed:15537792"
+FT   MUTAGEN         189
+FT                   /note="N->Q: Abolishes N-glycosylation."
+FT                   /evidence="ECO:0000269|PubMed:15537792"
+FT   CONFLICT        9
+FT                   /note="L -> F (in Ref. 1; BAC65329)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        269
+FT                   /note="S -> T (in Ref. 1; BAC65329)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        301
+FT                   /note="G -> A (in Ref. 1; BAC65329)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          61..63
+FT                   /evidence="ECO:0007829|PDB:5ZC0"
+FT   HELIX           67..73
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          79..85
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          91..97
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           100..102
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          105..111
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          118..120
+FT                   /evidence="ECO:0007829|PDB:5ZC0"
+FT   TURN            137..140
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           142..144
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           152..154
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   TURN            155..157
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           164..167
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          171..179
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           184..186
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           187..190
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          192..196
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           201..205
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           209..215
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   TURN            225..228
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          232..234
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          236..240
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           242..248
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           251..254
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          257..267
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          273..282
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           287..289
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          292..294
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   TURN            300..305
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   TURN            308..315
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   HELIX           327..330
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+FT   STRAND          332..339
+FT                   /evidence="ECO:0007829|PDB:4WN0"
+SQ   SEQUENCE   339 AA;  36916 MW;  6310E126AD4AE6C8 CRC64;
+     MLSYSLLLLA LAFPAGHAGS CEQASISEKK EKILNLLACW TEGNADNSLS RSGGSPTGDM
+     NYGYRSCNEI KSSDSRAPDG IYTLATEDGE SYQTFCDMTT NGGGWTLVAS VHENNMFGKC
+     TVGDRWSTQQ GNMLQNPEGD GNWANYATFG LPEGATSDDY KNPGYYDIEA KNLALWHVPN
+     KTPMVMWRNS SILRYRTQNG FLTEEGGNLF ELYKKYPVKY DIGKCLADNG PAVPVVYDLG
+     SAEKTASLYS PNGRSEFTPG FVQFRAVNSE RATLALCAGV KVKGCNVEHH CIGGGGYIPE
+     GSPRQCGDFA ALDWDGYGTN LGWSASKQII EAAVMLFYR
+//

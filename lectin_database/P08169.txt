@@ -1,0 +1,949 @@
+ID   MPRI_BOVIN              Reviewed;        2499 AA.
+AC   P08169;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1989, sequence version 2.
+DT   25-MAY-2022, entry version 168.
+DE   RecName: Full=Cation-independent mannose-6-phosphate receptor;
+DE            Short=CI Man-6-P receptor;
+DE            Short=CI-MPR;
+DE            Short=M6PR;
+DE   AltName: Full=300 kDa mannose 6-phosphate receptor;
+DE            Short=MPR 300;
+DE   AltName: Full=Insulin-like growth factor 2 receptor;
+DE   AltName: Full=Insulin-like growth factor II receptor;
+DE            Short=IGF-II receptor;
+DE   AltName: CD_antigen=CD222;
+DE   Flags: Precursor;
+GN   Name=IGF2R; Synonyms=M6P;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2963004; DOI=10.1016/s0021-9258(18)69244-0;
+RA   Lobel P., Dahms N.M., Kornfeld S.;
+RT   "Cloning and sequence analysis of the cation-independent mannose 6-
+RT   phosphate receptor.";
+RL   J. Biol. Chem. 263:2563-2570(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Killian J.K.;
+RL   Submitted (JAN-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1039-2499.
+RX   PubMed=2951738; DOI=10.1073/pnas.84.8.2233;
+RA   Lobel P., Dahms N.M., Breitmeyer J., Chirgwin J.M., Kornfeld S.;
+RT   "Cloning of the bovine 215-kDa cation-independent mannose 6-phosphate
+RT   receptor.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:2233-2237(1987).
+RN   [4]
+RP   INTERACTION WITH HA-I AND HA-II ADAPTERS, AND MUTAGENESIS OF
+RP   2360-TYR--TYR-2362.
+RX   PubMed=2545438; DOI=10.1002/j.1460-2075.1989.tb03471.x;
+RA   Glickman J.N., Conibear E., Pearse B.M.F.;
+RT   "Specificity of binding of clathrin adapters to signals on the mannose-6-
+RT   phosphate/insulin-like growth factor II receptor.";
+RL   EMBO J. 8:1041-1047(1989).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 45-476, DISULFIDE BONDS, AND
+RP   GLYCOSYLATION AT ASN-120 AND ASN-409.
+RX   PubMed=15085180; DOI=10.1038/sj.emboj.7600215;
+RA   Olson L.J., Yammani R.D., Dahms N.M., Kim J.J.;
+RT   "Structure of uPAR, plasminogen, and sugar-binding sites of the 300 kDa
+RT   mannose 6-phosphate receptor.";
+RL   EMBO J. 23:2019-2028(2004).
+RN   [6]
+RP   STRUCTURE BY NMR OF 628-769, DISULFIDE BONDS, AND MUTAGENESIS OF TYR-723.
+RX   PubMed=20615935; DOI=10.1073/pnas.1004232107;
+RA   Olson L.J., Peterson F.C., Castonguay A., Bohnsack R.N., Kudo M.,
+RA   Gotschall R.R., Canfield W.M., Volkman B.F., Dahms N.M.;
+RT   "Structural basis for recognition of phosphodiester-containing lysosomal
+RT   enzymes by the cation-independent mannose 6-phosphate receptor.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:12493-12498(2010).
+CC   -!- FUNCTION: Mediates the transport of phosphorylated lysosomal enzymes
+CC       from the Golgi complex and the cell surface to lysosomes. Lysosomal
+CC       enzymes bearing phosphomannosyl residues bind specifically to mannose-
+CC       6-phosphate receptors in the Golgi apparatus and the resulting
+CC       receptor-ligand complex is transported to an acidic prelysosomal
+CC       compartment where the low pH mediates the dissociation of the complex.
+CC       The receptor is then recycled back to the Golgi for another round of
+CC       trafficking through its binding to the retromer. This receptor also
+CC       binds IGF2. Acts as a positive regulator of T-cell coactivation by
+CC       binding DPP4. {ECO:0000250|UniProtKB:P11717}.
+CC   -!- SUBUNIT: Binds HA-I and HA-II plasma membrane adapters
+CC       (PubMed:2545438). Interacts with DPP4; the interaction is direct. Binds
+CC       GGA1, GGA2 and GGA3 (By similarity). Interacts with the heterotrimeric
+CC       retromer cargo-selective complex (CSC), formed by VPS26 (VPS26A or
+CC       VPS26B), VPS29 and VPS35; which is involved in retrograde trafficking
+CC       of the receptor from endosomes to the Golgi apparatus (By similarity).
+CC       {ECO:0000250, ECO:0000250|UniProtKB:P11717,
+CC       ECO:0000269|PubMed:2545438}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:P11717}; Single-pass type I membrane protein
+CC       {ECO:0000250|UniProtKB:P11717}. Endosome membrane
+CC       {ECO:0000250|UniProtKB:P11717}; Single-pass type I membrane protein
+CC       {ECO:0000250|UniProtKB:P11717}. Note=Mainly localized in the Golgi at
+CC       steady state and not detectable in lysosome. Colocalized with DPP4 in
+CC       internalized cytoplasmic vesicles adjacent to the cell surface.
+CC       {ECO:0000250|UniProtKB:P11717}.
+CC   -!- DOMAIN: Contains 15 repeating units of approximately 147 AA harboring
+CC       four disulfide bonds each. The most highly conserved region within the
+CC       repeat consists of a stretch of 13 AA that contains cysteines at both
+CC       ends.
+CC   -!- PTM: Palmitoylated. Undergoes cysteine S-palmitoylation which promotes
+CC       interaction with the retromer cargo-selective complex which mediates
+CC       its retrograde trafficking to the Golgi apparatus.
+CC       {ECO:0000250|UniProtKB:P11717}.
+CC   -!- SIMILARITY: Belongs to the MRL1/IGF2R family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J03527; AAA30455.1; -; mRNA.
+DR   EMBL; AF342811; AAL23908.1; -; mRNA.
+DR   PIR; A25908; A30788.
+DR   RefSeq; NP_776777.1; NM_174352.2.
+DR   PDB; 1Q25; X-ray; 1.80 A; A=45-476.
+DR   PDB; 1SYO; X-ray; 2.20 A; A/B=45-476.
+DR   PDB; 1SZ0; X-ray; 2.10 A; A/B=45-476.
+DR   PDB; 2KVA; NMR; -; A=628-769.
+DR   PDB; 2KVB; NMR; -; A=628-769.
+DR   PDB; 6UM1; EM; 3.46 A; A=1-2499.
+DR   PDB; 6UM2; EM; 4.32 A; A=1-2499.
+DR   PDBsum; 1Q25; -.
+DR   PDBsum; 1SYO; -.
+DR   PDBsum; 1SZ0; -.
+DR   PDBsum; 2KVA; -.
+DR   PDBsum; 2KVB; -.
+DR   PDBsum; 6UM1; -.
+DR   PDBsum; 6UM2; -.
+DR   AlphaFoldDB; P08169; -.
+DR   SMR; P08169; -.
+DR   BioGRID; 159160; 5.
+DR   ELM; P08169; -.
+DR   STRING; 9913.ENSBTAP00000037502; -.
+DR   UniLectin; P08169; -.
+DR   iPTMnet; P08169; -.
+DR   PaxDb; P08169; -.
+DR   PRIDE; P08169; -.
+DR   GeneID; 281849; -.
+DR   KEGG; bta:281849; -.
+DR   CTD; 3482; -.
+DR   eggNOG; KOG4504; Eukaryota.
+DR   InParanoid; P08169; -.
+DR   OrthoDB; 290124at2759; -.
+DR   EvolutionaryTrace; P08169; -.
+DR   Proteomes; UP000009136; Unplaced.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0030139; C:endocytic vesicle; ISS:UniProtKB.
+DR   GO; GO:0010008; C:endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; TAS:AgBase.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005770; C:late endosome; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IDA:AgBase.
+DR   GO; GO:0005802; C:trans-Golgi network; IBA:GO_Central.
+DR   GO; GO:0005520; F:insulin-like growth factor binding; IMP:AgBase.
+DR   GO; GO:0036143; F:kringle domain binding; IPI:AgBase.
+DR   GO; GO:0005537; F:mannose binding; IDA:AgBase.
+DR   GO; GO:0051219; F:phosphoprotein binding; ISS:UniProtKB.
+DR   GO; GO:0038023; F:signaling receptor activity; IEA:InterPro.
+DR   GO; GO:0007041; P:lysosomal transport; IEA:InterPro.
+DR   CDD; cd00062; FN2; 1.
+DR   Gene3D; 2.10.10.10; -; 1.
+DR   Gene3D; 2.70.130.10; -; 15.
+DR   InterPro; IPR000479; CIMR_rpt.
+DR   InterPro; IPR000562; FN_type2_dom.
+DR   InterPro; IPR036943; FN_type2_sf.
+DR   InterPro; IPR013806; Kringle-like.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   Pfam; PF00878; CIMR; 15.
+DR   Pfam; PF00040; fn2; 1.
+DR   SMART; SM00059; FN2; 1.
+DR   SUPFAM; SSF50911; SSF50911; 15.
+DR   SUPFAM; SSF57440; SSF57440; 1.
+DR   PROSITE; PS00023; FN2_1; 1.
+DR   PROSITE; PS51092; FN2_2; 1.
+DR   PROSITE; PS51914; MRH; 15.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Disulfide bond; Endosome; Glycoprotein;
+KW   Golgi apparatus; Lipoprotein; Membrane; Methylation; Palmitate;
+KW   Phosphoprotein; Receptor; Reference proteome; Repeat; Signal;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   SIGNAL          1..44
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           45..2499
+FT                   /note="Cation-independent mannose-6-phosphate receptor"
+FT                   /id="PRO_0000019228"
+FT   TOPO_DOM        45..2313
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2314..2336
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2337..2499
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          55..169
+FT                   /note="MRH 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          178..326
+FT                   /note="MRH 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          332..477
+FT                   /note="MRH 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          482..628
+FT                   /note="MRH 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          634..770
+FT                   /note="MRH 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          773..932
+FT                   /note="MRH 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          940..1088
+FT                   /note="MRH 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          1091..1228
+FT                   /note="MRH 8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          1234..1372
+FT                   /note="MRH 9"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          1376..1517
+FT                   /note="MRH 10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          1523..1657
+FT                   /note="MRH 11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          1659..1806
+FT                   /note="MRH 12"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          1811..1998
+FT                   /note="MRH 13"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          1907..1953
+FT                   /note="Fibronectin type-II"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00479"
+FT   DOMAIN          2001..2136
+FT                   /note="MRH 14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DOMAIN          2144..2289
+FT                   /note="MRH 15"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          2414..2499
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2414..2429
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2440..2455
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2456..2476
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2361
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11717"
+FT   MOD_RES         2421
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11717"
+FT   MOD_RES         2438
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07113"
+FT   MOD_RES         2492
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11717"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:15085180"
+FT   CARBOHYD        409
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:15085180"
+FT   CARBOHYD        444
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        552
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        590
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        635
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        755
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        879
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        959
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1030
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1173
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1255
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1321
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1665
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1766
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1825
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        2094
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        2145
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        2220
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        57..77
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        85..92
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        125..155
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        140..167
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        180..218
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        234..241
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        281..312
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        294..324
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        334..375
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        383..391
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        429..463
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        443..475
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        484..528
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        540..547
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        581..614
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        595..626
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        636..672
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        680..687
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        739..768
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        775..822
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        831..838
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        883..918
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        901..930
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        942..978
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        984..995
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1051..1086
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1093..1134
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1143..1150
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1186..1214
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1199..1226
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1236..1271
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1279..1291
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1328..1358
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1342..1370
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1378..1417
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1429..1436
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1470..1503
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1485..1515
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1525..1562
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1568..1575
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1607..1643
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1623..1655
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1661..1704
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1715..1722
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1759..1792
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1775..1804
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1813..1848
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1859..1865
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1902..1984
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        1912..1936
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00479"
+FT   DISULFID        1926..1951
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00479"
+FT   DISULFID        1966..1996
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        2003..2038
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        2048..2055
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        2091..2122
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        2105..2134
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        2197..2203
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        2241..2275
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        2257..2287
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   MUTAGEN         723
+FT                   /note="Y->F: No noticeable change in Man-6-P and
+FT                   Man-P-GlcNAc recognition."
+FT                   /evidence="ECO:0000269|PubMed:20615935"
+FT   MUTAGEN         723
+FT                   /note="Y->L: Severely impairs both Man-6-P and Man-P-GlcNAc
+FT                   recognition."
+FT                   /evidence="ECO:0000269|PubMed:20615935"
+FT   MUTAGEN         2360..2362
+FT                   /note="YKY->AKV: Loss of interaction between HA-II adapters
+FT                   and these tails, but does not affect the interaction
+FT                   between them and HA-I."
+FT                   /evidence="ECO:0000269|PubMed:2545438"
+FT   STRAND          51..53
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           54..56
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          61..65
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           66..68
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          70..74
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   TURN            83..85
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          89..95
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   TURN            96..99
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          100..106
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           107..109
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          110..113
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          116..124
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          131..140
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          147..152
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          154..163
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           164..166
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          167..169
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           170..172
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          175..177
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          181..183
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          189..191
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           193..195
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          198..200
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          202..205
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          212..215
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          217..219
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           231..233
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          239..243
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          248..254
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          259..262
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          265..271
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           279..281
+FT                   /evidence="ECO:0007829|PDB:1SZ0"
+FT   STRAND          287..293
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          305..319
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           321..323
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           326..328
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          330..336
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           338..341
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           348..350
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          355..357
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          359..364
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          366..372
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           381..383
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          389..394
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           395..397
+FT                   /evidence="ECO:0007829|PDB:1SZ0"
+FT   STRAND          401..403
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          409..415
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          418..423
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          432..434
+FT                   /evidence="ECO:0007829|PDB:1SZ0"
+FT   STRAND          436..443
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   TURN            448..452
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          456..461
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          464..471
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   HELIX           472..474
+FT                   /evidence="ECO:0007829|PDB:1Q25"
+FT   STRAND          485..488
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          491..494
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          510..512
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          522..525
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            535..539
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          545..549
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          565..567
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          570..577
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          588..595
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          611..615
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          618..623
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          631..639
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          641..643
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          646..648
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           650..652
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          658..661
+FT                   /evidence="ECO:0007829|PDB:2KVA"
+FT   STRAND          663..669
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          671..673
+FT                   /evidence="ECO:0007829|PDB:2KVA"
+FT   STRAND          684..693
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          696..698
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          701..703
+FT                   /evidence="ECO:0007829|PDB:2KVB"
+FT   STRAND          706..709
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          712..717
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          733..739
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          748..750
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          753..767
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          780..782
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          802..804
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          815..819
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          821..823
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          836..842
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           869..871
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          873..879
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          894..901
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          917..920
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          923..927
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          937..939
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          942..945
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            947..949
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          952..954
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           956..958
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          964..966
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            968..970
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          973..975
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          977..979
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1019..1021
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1023..1025
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1027..1030
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1032..1034
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1046..1050
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1065..1067
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1070..1072
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1074..1076
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1098..1100
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1102..1104
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           1106..1109
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1133..1135
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1141..1143
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1151..1154
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1175..1180
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1192..1198
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1207..1212
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1215..1220
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1234..1236
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1241..1243
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           1250..1252
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1253..1255
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1257..1260
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1265..1268
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1290..1293
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1311..1314
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1317..1322
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1329..1333
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1335..1344
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1346..1352
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1359..1367
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1378..1381
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1387..1389
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           1391..1393
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1396..1398
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1411..1414
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1416..1419
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1425..1427
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1434..1441
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1444..1449
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1454..1456
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1459..1465
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1473..1475
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1478..1483
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1495..1500
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1501..1503
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1504..1509
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1520..1527
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1530..1532
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           1539..1541
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1547..1554
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1556..1559
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1561..1563
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1566..1568
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1577..1580
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1590..1592
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1597..1599
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1608..1612
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1617..1623
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1626..1628
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1637..1639
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1640..1643
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1644..1647
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1650..1654
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1662..1665
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1668..1671
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   HELIX           1673..1675
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1678..1680
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1699..1701
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1703..1705
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1720..1723
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1744..1747
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1749..1754
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1764..1766
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1768..1775
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1791..1800
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1834..1840
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1842..1845
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1847..1849
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1853..1855
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1856..1858
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1860..1870
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1875..1877
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1878..1880
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1887..1890
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1891..1896
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1898..1900
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1907..1909
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1916..1918
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1921..1925
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1929..1933
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1935..1942
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            1943..1945
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1948..1950
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1959..1966
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1977..1981
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1984..1989
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          1992..1996
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2004..2006
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2011..2013
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            2015..2017
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2020..2022
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2037..2039
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2046..2048
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            2050..2052
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2055..2057
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2063..2065
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2074..2077
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2080..2083
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2091..2095
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2110..2117
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2119..2121
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2124..2131
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            2151..2154
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            2160..2162
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2168..2171
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2173..2175
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2178..2180
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2182..2184
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2199..2202
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2209..2211
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2220..2223
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2231..2235
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2237..2239
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2252..2255
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2261..2263
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2270..2272
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   TURN            2273..2275
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+FT   STRAND          2276..2281
+FT                   /evidence="ECO:0007829|PDB:6UM1"
+SQ   SEQUENCE   2499 AA;  274529 MW;  3C1C9DEF2875159D CRC64;
+     MEAAAGRSSH LGPAPAGRPP RCPLLLQLQL LLLLLLLPPG WVPGAAGTQG AEFPELCSYT
+     WEAVDTKNNM LYKINICGNM GVAQCGPSSA VCMHDLKTDS FHSVGDSLLK TASRSLLEFN
+     TTVNCKQQNH KIQSSITFLC GKTLGTPEFV TATDCVHYFE WRTTAACKKN IFKANKEVPC
+     YAFDRELKKH DLNPLIKTSG AYLVDDSDPD TSLFINVCRD IEVLRASSPQ VRVCPTGAAA
+     CLVRGDRAFD VGRPQEGLKL VSNDRLVLSY VKEGAGQPDF CDGHSPAVTI TFVCPSERRE
+     GTIPKLTAKS NCRFEIEWVT EYACHRDYLE SRSCSLSSAQ HDVAVDLQPL SRVEASDSLF
+     YTSEADEYTY YLSICGGSQA PICNKKDAAV CQVKKADSTQ VKVAGRPQNL TLRYSDGDLT
+     LIYFGGEECS SGFQRMSVIN FECNQTAGNN GRGAPVFTGE VDCTYFFTWD TKYACVHEKE
+     ALLCGVSDGK QRFDLSALAR HSELEQNWEA VDGSQREAEK KHFFINICHR VLQTGQARGC
+     PEDAAVCAVD KNGSKNLGRF ISSPTREKGN IQLSYSDGDE CGGGQKIITN ITLMCKPGDL
+     ESAPVLTTSR ADGCFYEFEW RTAAACVLSR TEGDNCTVFD SQAGFSFDLT PLTKKDAYKV
+     ETDKYEFHIN VCGPVSVGAC PPDSGACQVS RSDRKSWNLG RSNAKLSYYD GMIQLTYRDG
+     TPYNNEKRTP RATLITFLCD RDAGVGFPEY QEEDNSTYNF RWYTSYACPE EPLECIVTDP
+     VTLDQYDLSR LAKSEGGPGG NWYSLDNGGA RSTWRKYYIN VCRPLNPVPG CDRYASACQM
+     KYQGEQGSYS ETVSISNLGV AKTGPMVEDS GSLLLEYVNG SACTTSDQRR TTYTTRIHLV
+     CSTGSLYTHP IFSLNWECVV SFLWNTAAAC PIRITTDIDQ VCSIKDPNSG YVFDLNPLNN
+     SRGYVVLGIG KTFLFNVCGD MPACGTLDGK PASGCEAEVQ MDDMKTLKPG RLVGLEKSLQ
+     LSTEGFITLN YTGLPSHPNG RADAFIIRFV CNDDVYPGTP KFLHQDIDSS LGIRDTFFEF
+     ETALACVPSP VDCQVTDPAG NEYDLSGLSK ARKPWTAVDT FDEGKKRTFY LSVCTPLPYI
+     PGCHGTAVGC CLVTEDSKLN LGVVQISPQV GANGSLSLVY VNGDKCKNQR FSTRINLECA
+     HTTGSPTFQL QNDCEYVFLW RTVEACPVVR AEGDYCEVRD PRHGNLYNLI PLGLNDTVVR
+     AGEYTYYFRV CGELTSGVCP TSDKSKVISS CQEKRGPQGF QKVAGLFNQK LTYENGVLKM
+     NYTGGDTCHK VYQRSTTIFF YCDRSTQAPV FLQETSDCSY LFEWRTQYAC PPYDLTECSF
+     KNEAGETYDL SSLSRYSDNW EAVTGTGSTE HYLINVCKSL SPQAGSDPCP PEAAVCLLGG
+     PKPVNLGRVR DSPQWSQGLT LLKYVDGDLC PDQIRKKSTT IRFTCSESHV NSRPMFISAV
+     EDCEYTFSWP TAAACAVKSN VHDDCQVTNP ATGHLFDLSS LSGRAGFTAA YSEKGLVYLS
+     VCGDNENCAN GVGACFGQTR ISVGKASKRL TYVDQVLQLV YEGGSPCPSK TGLSYKSVIS
+     FVCRPEVGPT NRPMLISLDK RTCTLFFSWH TPLACEQTTE CSVRNGSSLI DLSPLIHRTG
+     GYEAYDESED DGSDTSPDFY INICQPLNPM HGLACPAGTA VCKVPVDGPP IDIGRVAGPP
+     ILNPIANEVY LNFESSTPCL ADRHFNYTSL ITFHCKRGVS MGTPKLLRTS VCDFVFEWET
+     PLVCPDEVKT DGCSLTDEQL YYSFNLSSLS KSTFKVTRGP HTYSVGVCTA AAGLDEGGCK
+     DGAVCLLSGS KGASFGRLAS MKLDYRHQDE AVILSYANGD TCPPETEDGE PCVFPFVFNG
+     KSYEECVVES RARLWCATTA NYDRDHEWGF CKHSTSHRTS VIIFKCDEDA DVGRPQVFSE
+     VRGCEVTFEW KTKVVCPPKK MECKFVQKHR TYDLRLLSSL TGSWSFVHNG ASYYINLCQK
+     IYKGPQDCSE RASVCKKSTS GEVQVLGLVH TQKLDVVDDR VIVTYSKGHY CGDNKTASAV
+     IELTCAKTVG RPSFTRFDVD SCTYHFSWDS RAACAVKPQE VQMVNGTITN PANGRSFSLG
+     DIYFKRFSAS GDVRTNGDRY IYEIQLSSIT GSSSPACSGA SICQRKANDQ HFSRKVGTSN
+     QTRYYVQDGD LDVVFTSSSK CGKDKTKSVS STIFFHCDPL VKDGIPEFSH ETADCQYLFS
+     WHTSAVCPLG AGFDEEIAGD DAQEHKGLSE RSQAVGAVLS LLLVALTACL LTLLLYKKER
+     REMVMSRLTN CCRRSANVSY KYSKVNKEEE ADENETEWLM EEIQPPAPRP GKEGQENGHV
+     AAKSVRAADT LSALHGDEQD SEDEVLTLPE VKVRPPGRAP GAEGGPPLRP LPRKAPPPLR
+     ADDRVGLVRG EPARRGRPRA AATPISTFHD DSDEDLLHV
+//

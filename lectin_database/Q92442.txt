@@ -1,0 +1,107 @@
+ID   AGLU_MUCJA              Reviewed;         864 AA.
+AC   Q92442;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   25-MAY-2022, entry version 83.
+DE   RecName: Full=Alpha-glucosidase;
+DE            EC=3.2.1.20;
+DE   AltName: Full=Maltase;
+DE   Flags: Precursor;
+OS   Mucor javanicus.
+OC   Eukaryota; Fungi; Fungi incertae sedis; Mucoromycota; Mucoromycotina;
+OC   Mucoromycetes; Mucorales; Mucorineae; Mucoraceae; Mucor.
+OX   NCBI_TaxID=51122;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=DSM 1222 / BCRC 31544 / NBRC 4570 / NRRL 13035;
+RX   PubMed=8830045; DOI=10.1093/oxfordjournals.jbchem.a021269;
+RA   Sugimoto M., Suzuki Y.;
+RT   "Molecular cloning, sequencing, and expression of a cDNA encoding alpha-
+RT   glucosidase from Mucor javanicus.";
+RL   J. Biochem. 119:500-505(1996).
+CC   -!- FUNCTION: Hydrolyzes not only malto-oligosaccharides but also soluble
+CC       starch.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D67034; BAA11053.1; -; mRNA.
+DR   AlphaFoldDB; Q92442; -.
+DR   SMR; Q92442; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   CLAE; AGL31A_MUCJA; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR030459; Glyco_hydro_31_CS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   Pfam; PF16863; NtCtMGAM_N; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+DR   PROSITE; PS00707; GLYCOSYL_HYDROL_F31_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Glycosidase; Hydrolase; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..864
+FT                   /note="Alpha-glucosidase"
+FT                   /id="PRO_0000018580"
+FT   ACT_SITE        430
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        433
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        567
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        187
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        364
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        406
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        466
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        500
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        568
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        734
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   864 AA;  98761 MW;  CFAB4759DC431403 CRC64;
+     MAKVSFIFVA IALITGNVLC QTDATYAVSS SAPGYKIDGH VRKTEAGLHI PLTLNSRGNK
+     KTGIDTFGKT IKDITVDVEY ETEERLHVKI SDKAKKQYLV PDSPLGFERP QIKHYVSPKH
+     SNLDFQYTAK PFSFKVVRKD DKTTIFDTTN MPLVFEDQYL ELSTKVPEDA NIYGIGEVTA
+     PFRRTHNVTT LWARDNPDDF YRNIYGAHPY YQEVRDGKAH GALLMNAHGM DVITTEGRIT
+     YKVIGGILDF YFFAPKSGKP NDLSIAYTDL IGKPMMPSHW MLGWHHCRYG YPNIDKVETV
+     KRKYKEANIP LQTVWVDIDY MEETKDFTFD KVNFPQDRMI GLGEQLHKDG QNYVVMVDPA
+     ISANTTYEPY VRGTEMDVWI KNADGSDFIG SVWPGFTTFP DWWHPNATKY WNKEIIDFVD
+     MLGVDGLWID MNEPASFCLG SCGSGKVDAG NQPYRWTYTE EEQAANHTRW EKELKAMGNP
+     PGEERNLLYP KYAINNGAGN LSEFTVATTA LHYGNIPHYD IHNLYGHAES HITRQALIKH
+     KNKIRPFVLT RSSFPGSGKS VGHWTGDNHS FWPYLKNSIA NILNFQMFGV SYSGADVCGF
+     NSDTTEELCT RWMEIGAFYP FARNHNNNAA KDQEPYLWES TAEASRIAIN TRYEMLPYFY
+     TLFEESNRLG LGVWRPLIFE YPAYEELVSN DVQTLVGSDI LLSPVLDEGK TSVKAQFPGG
+     QWYDWYTHEL TVDNKSNKKV KTVTLDAPLT HIPIHIRGGA IIPTKTPKYT VGETFATPYN
+     LVIALDKKGQ ASGRLYIDDG ESLEVKSSSG YHFHLQEWSP QGFWQVWLQE GRKDWLHHHY
+     WQARQQVAKG SRWQEDYQID PWQE
+//

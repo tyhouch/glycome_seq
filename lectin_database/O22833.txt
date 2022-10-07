@@ -1,0 +1,226 @@
+ID   LRK54_ARATH             Reviewed;         658 AA.
+AC   O22833;
+DT   11-JAN-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   03-AUG-2022, entry version 151.
+DE   RecName: Full=L-type lectin-domain containing receptor kinase V.4 {ECO:0000303|PubMed:19773388};
+DE            Short=Arabidopsis thaliana lectin-receptor kinase c1 {ECO:0000303|PubMed:19773388};
+DE            Short=AthlecRK-c1 {ECO:0000303|Ref.5};
+DE            Short=LecRK-V.4 {ECO:0000303|PubMed:19773388};
+DE            EC=2.7.11.1 {ECO:0000255|PROSITE-ProRule:PRU00159};
+DE   Flags: Precursor;
+GN   Name=LECRK54 {ECO:0000303|PubMed:19773388};
+GN   Synonyms=LECRKC1 {ECO:0000303|Ref.5};
+GN   OrderedLocusNames=At2g43700 {ECO:0000312|Araport:AT2G43700};
+GN   ORFNames=F18O19.19 {ECO:0000312|EMBL:AAB64036.1};
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10617197; DOI=10.1038/45471;
+RA   Lin X., Kaul S., Rounsley S.D., Shea T.P., Benito M.-I., Town C.D.,
+RA   Fujii C.Y., Mason T.M., Bowman C.L., Barnstead M.E., Feldblyum T.V.,
+RA   Buell C.R., Ketchum K.A., Lee J.J., Ronning C.M., Koo H.L., Moffat K.S.,
+RA   Cronin L.A., Shen M., Pai G., Van Aken S., Umayam L., Tallon L.J.,
+RA   Gill J.E., Adams M.D., Carrera A.J., Creasy T.H., Goodman H.M.,
+RA   Somerville C.R., Copenhaver G.P., Preuss D., Nierman W.C., White O.,
+RA   Eisen J.A., Salzberg S.L., Fraser C.M., Venter J.C.;
+RT   "Sequence and analysis of chromosome 2 of the plant Arabidopsis thaliana.";
+RL   Nature 402:761-768(1999).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J., Southwick A.M.,
+RA   Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F., Karlin-Newmann G.,
+RA   Liu S.X., Lam B., Sakano H., Wu T., Yu G., Miranda M., Quach H.L.,
+RA   Tripp M., Chang C.H., Lee J.M., Toriumi M.J., Chan M.M., Tang C.C.,
+RA   Onodera C.S., Deng J.M., Akiyama K., Ansari Y., Arakawa T., Banh J.,
+RA   Banno F., Bowser L., Brooks S.Y., Carninci P., Chao Q., Choy N., Enju A.,
+RA   Goldsmith A.D., Gurjal M., Hansen N.F., Hayashizaki Y., Johnson-Hopson C.,
+RA   Hsuan V.W., Iida K., Karnes M., Khan S., Koesema E., Ishida J., Jiang P.X.,
+RA   Jones T., Kawai J., Kamiya A., Meyers C., Nakajima M., Narusaka M.,
+RA   Seki M., Sakurai T., Satou M., Tamse R., Vaysberg M., Wallender E.K.,
+RA   Wong C., Yamamura Y., Yuan S., Shinozaki K., Davis R.W., Theologis A.,
+RA   Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+RN   [4]
+RP   GENE FAMILY.
+RX   PubMed=10350082; DOI=10.1023/a:1006136701595;
+RA   Herve C., Serres J., Dabos P., Canut H., Barre A., Rouge P., Lescure B.;
+RT   "Characterization of the Arabidopsis lecRK-a genes: members of a
+RT   superfamily encoding putative receptors with an extracellular domain
+RT   homologous to legume lectins.";
+RL   Plant Mol. Biol. 39:671-682(1999).
+RN   [5]
+RP   GENE FAMILY.
+RX   DOI=10.1080/0735-260291044287;
+RA   Barre A., Herve C., Lescure B., Rouge P.;
+RT   "Lectin receptor kinases in plants.";
+RL   Crit. Rev. Plant Sci. 21:379-399(2002).
+RN   [6]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=19773388; DOI=10.1093/jxb/erp277;
+RA   Bouwmeester K., Govers F.;
+RT   "Arabidopsis L-type lectin receptor kinases: phylogeny, classification, and
+RT   expression profiles.";
+RL   J. Exp. Bot. 60:4383-4396(2009).
+RN   [7]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=25083911; DOI=10.1094/mpmi-06-14-0191-r;
+RA   Wang Y., Bouwmeester K., Beseh P., Shan W., Govers F.;
+RT   "Phenotypic analyses of Arabidopsis T-DNA insertion lines and expression
+RT   profiling reveal that multiple L-type lectin receptor kinases are involved
+RT   in plant immunity.";
+RL   Mol. Plant Microbe Interact. 27:1390-1402(2014).
+CC   -!- FUNCTION: Involved in resistance response to the pathogenic oomycetes
+CC       Phytophthora infestans and Phytophthora capsici and to the pathogenic
+CC       bacteria Pseudomonas syringae. {ECO:0000269|PubMed:25083911}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00159};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000255|PROSITE-ProRule:PRU00159};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q9LSR8};
+CC       Single-pass type I membrane protein {ECO:0000255}.
+CC   -!- DISRUPTION PHENOTYPE: Increased susceptibility to the oomycetes
+CC       Phytophthora brassicae and Phytophthora capsici and to the bacteria
+CC       Pseudomonas syringae, characterized by stronger necrotic symptoms.
+CC       {ECO:0000269|PubMed:25083911}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the protein kinase
+CC       superfamily. Ser/Thr protein kinase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the leguminous lectin
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC002333; AAB64036.1; -; Genomic_DNA.
+DR   EMBL; CP002685; AEC10309.1; -; Genomic_DNA.
+DR   EMBL; AY074631; AAL69447.1; -; mRNA.
+DR   PIR; D84869; D84869.
+DR   RefSeq; NP_181898.1; NM_129932.6.
+DR   AlphaFoldDB; O22833; -.
+DR   SMR; O22833; -.
+DR   BioGRID; 4308; 18.
+DR   IntAct; O22833; 18.
+DR   PaxDb; O22833; -.
+DR   PRIDE; O22833; -.
+DR   ProteomicsDB; 238778; -.
+DR   EnsemblPlants; AT2G43700.1; AT2G43700.1; AT2G43700.
+DR   GeneID; 818972; -.
+DR   Gramene; AT2G43700.1; AT2G43700.1; AT2G43700.
+DR   KEGG; ath:AT2G43700; -.
+DR   Araport; AT2G43700; -.
+DR   TAIR; locus:2043909; AT2G43700.
+DR   eggNOG; ENOG502QR0Z; Eukaryota.
+DR   HOGENOM; CLU_000288_62_3_1; -.
+DR   InParanoid; O22833; -.
+DR   OrthoDB; 684563at2759; -.
+DR   PhylomeDB; O22833; -.
+DR   PRO; PR:O22833; -.
+DR   Proteomes; UP000006548; Chromosome 2.
+DR   ExpressionAtlas; O22833; baseline and differential.
+DR   Genevisible; O22833; AT.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004675; F:transmembrane receptor protein serine/threonine kinase activity; IBA:GO_Central.
+DR   GO; GO:0042742; P:defense response to bacterium; IMP:UniProtKB.
+DR   GO; GO:0002229; P:defense response to oomycetes; IMP:UniProtKB.
+DR   GO; GO:0006468; P:protein phosphorylation; IEA:InterPro.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cell membrane; Glycoprotein; Kinase; Lectin; Membrane;
+KW   Nucleotide-binding; Plant defense; Receptor; Reference proteome;
+KW   Serine/threonine-protein kinase; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..658
+FT                   /note="L-type lectin-domain containing receptor kinase V.4"
+FT                   /id="PRO_0000403092"
+FT   TOPO_DOM        26..280
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        281..301
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        302..658
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          334..592
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          26..248
+FT                   /note="Legume-lectin like"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        460
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         340..348
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         363
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   CARBOHYD        66
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        196
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   658 AA;  73906 MW;  66E871108F732BB1 CRC64;
+     MSRTIGSRVI FLILALFCCT ENSRGKLVMQ GSAGFFKGYR TLTSTKKHAY GQAFEDEIVP
+     FKNSANDTVT SFSVTFFFAI APEDKHKGAH GMAFVISPTR GITGASADQY LGIFNKANNG
+     DSSNHVIAVE LDINKDEEFG DINDNHVGIN INGMRSIKFA PAGYYDQEGQ FKDLSLISGS
+     LLRVTILYSQ MEKQLNVTLS SPEEAYYPNK PLLSLNQDLS PYILENMYVG FSASTGSVRA
+     MHYMLSWFVH GGVDVPNLDL GIPTFPPYPK EKSLVYRIVL VTSLALVLFV ALVASALSIF
+     FYRRHKKVKE VLEEWEIQCG PHRFAYKELF KATKGFKQLL GKGGFGQVFK GTLPGSDAEI
+     AVKRISHDSK QGMQEFLAEI STIGRLRHQN LVRLQGYCRY KEELYLVYDF MPNGSLDKYL
+     YHRANQEQLT WNQRFKIIKD IASALCYLHH EWVQVVIHRD IKPANVLIDH QMNARLGDFG
+     LAKLYDQGYD PQTSRVAGTF WYIAPELIRS GRATTGTDVY AFGLFMLEVS CGRRLIERRT
+     ASDEVVLAEW TLKCWENGDI LEAVNDGIRH EDNREQLELV LKLGVLCSHQ AVAIRPDMSK
+     VVQILGGDLQ LPDNLLDIVK AEKVRMWSET SESVLGVLTS QGSIGTLTLT EPFTSRGR
+//

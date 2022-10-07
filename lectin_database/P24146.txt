@@ -1,0 +1,170 @@
+ID   LEC4_GRISI              Reviewed;         243 AA.
+AC   P24146;
+DT   01-MAR-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 3.
+DT   03-AUG-2022, entry version 116.
+DE   RecName: Full=Lectin-4;
+DE   AltName: Full=GS4;
+DE   AltName: Full=Lectin IV;
+OS   Griffonia simplicifolia (Bandeiraea simplicifolia).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Cercidoideae; Cercideae; Cercidinae;
+OC   Griffonia.
+OX   NCBI_TaxID=3850;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) IN COMPLEX WITH
+RP   CARBOHYDRATE; CALCIUM AND MANGANESE IONS.
+RX   PubMed=8478943; DOI=10.1006/jmbi.1993.1212;
+RA   Delbaere L.T.J., Vandonselaar M., Prasad L., Quail J.W., Wilson K.S.,
+RA   Dauter Z.;
+RT   "Structures of the lectin IV of Griffonia simplicifolia and its complex
+RT   with the Lewis b human blood group determinant at 2.0-A resolution.";
+RL   J. Mol. Biol. 230:950-965(1993).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-62, AND PYROGLUTAMATE FORMATION AT GLN-1.
+RC   TISSUE=Seed;
+RX   PubMed=2268264; DOI=10.1042/bj2720343;
+RA   Nikrad P.V., Pearlstone J.R., Carpenter M.R., Lemieux R.U., Smillie L.B.;
+RT   "Molecular-mass heterogeneity of Griffonia simplicifolia lectin IV
+RT   subunits. Differences in the oligosaccharide moieties in the N-terminal
+RT   region.";
+RL   Biochem. J. 272:343-350(1990).
+CC   -!- FUNCTION: Lectin which has a strong affinity for both the Lewis b and y
+CC       human blood-group determinants. {ECO:0000269|PubMed:8478943}.
+CC   -!- SUBUNIT: Homodimer of Alpha and Beta forms.
+CC       {ECO:0000269|PubMed:8478943}.
+CC   -!- PTM: N-glycosylation of Asn-5 converts form Beta to form Alpha.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC       {ECO:0000269|PubMed:8478943}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; S13389; S13389.
+DR   PDB; 1GSL; X-ray; 2.00 A; A=2-243.
+DR   PDB; 1LEC; X-ray; 2.00 A; A=2-243.
+DR   PDB; 1LED; X-ray; 2.00 A; A=2-243.
+DR   PDBsum; 1GSL; -.
+DR   PDBsum; 1LEC; -.
+DR   PDBsum; 1LED; -.
+DR   AlphaFoldDB; P24146; -.
+DR   SMR; P24146; -.
+DR   UniLectin; P24146; -.
+DR   EvolutionaryTrace; P24146; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Glycoprotein; Lectin;
+KW   Manganese; Metal-binding; Pyrrolidone carboxylic acid.
+FT   CHAIN           1..243
+FT                   /note="Lectin-4"
+FT                   /id="PRO_0000105099"
+FT   BINDING         129
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   BINDING         131
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   BINDING         131
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   BINDING         133
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   BINDING         135
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   BINDING         140
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   BINDING         140
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   BINDING         145
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:8478943"
+FT   CARBOHYD        5
+FT                   /note="N-linked (GlcNAc...) asparagine; in alpha chain"
+FT   CARBOHYD        18
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   STRAND          5..9
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          20..26
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          29..31
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          34..36
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          48..58
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          71..86
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          90..97
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   HELIX           106..108
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   TURN            109..111
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   TURN            114..118
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   HELIX           120..122
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          126..131
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   HELIX           136..138
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          145..154
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          156..160
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   HELIX           163..166
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          171..179
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   TURN            180..183
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          184..191
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          196..202
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   HELIX           205..208
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          211..221
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   STRAND          223..237
+FT                   /evidence="ECO:0007829|PDB:1GSL"
+FT   TURN            239..242
+FT                   /evidence="ECO:0007829|PDB:1LED"
+SQ   SEQUENCE   243 AA;  26810 MW;  CFEC0FA389BBBF25 CRC64;
+     QNTVNFTYPD FWSYSLKNGT EITFLGDATR IPGALQLTKT DANGNPVRSS AGQASYSEPV
+     FLWDSTGKAA SFYTSFTFLL KNYGAPTADG LAFFLAPVDS SVKDYGGFLG LFRHETAADP
+     SKNQVVAVEF DTWINKDWND PPYPHIGIDV NSIVSVATTR WENDDAYGSS IATAHITYDA
+     RSKILTVLLS YEHGRDYILS HVVDLAKVLP QKVRIGFSAG VGYDEVTYIL SWHFFSTLDG
+     TNK
+//

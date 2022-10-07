@@ -1,0 +1,170 @@
+ID   NPTX2_MOUSE             Reviewed;         429 AA.
+AC   O70340;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   03-AUG-2022, entry version 150.
+DE   RecName: Full=Neuronal pentraxin-2;
+DE            Short=NP2;
+DE   AltName: Full=Neuronal pentraxin II;
+DE            Short=NP-II;
+DE   Flags: Precursor;
+GN   Name=Nptx2;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=129/SvJ;
+RA   Perin M.S.;
+RT   "Mouse neuronal pentraxin 2 gene.";
+RL   Submitted (NOV-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Mammary gland;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Likely to play role in the modification of cellular
+CC       properties that underlie long-term plasticity. Binds to agar matrix in
+CC       a calcium-dependent manner (By similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homooligomer or heterooligomer (probably pentamer) with
+CC       neuronal pentraxin receptor (NPTXR). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF049124; AAC05131.1; -; mRNA.
+DR   EMBL; AF318618; AAK06745.1; -; Genomic_DNA.
+DR   EMBL; BC026054; AAH26054.1; -; mRNA.
+DR   CCDS; CCDS19849.1; -.
+DR   RefSeq; NP_058069.1; NM_016789.3.
+DR   AlphaFoldDB; O70340; -.
+DR   SMR; O70340; -.
+DR   BioGRID; 207287; 1.
+DR   IntAct; O70340; 2.
+DR   MINT; O70340; -.
+DR   STRING; 10090.ENSMUSP00000071687; -.
+DR   GlyConnect; 2553; 2 N-Linked glycans (2 sites).
+DR   GlyGen; O70340; 3 sites, 2 N-linked glycans (2 sites).
+DR   iPTMnet; O70340; -.
+DR   PhosphoSitePlus; O70340; -.
+DR   MaxQB; O70340; -.
+DR   PaxDb; O70340; -.
+DR   PRIDE; O70340; -.
+DR   ProteomicsDB; 293962; -.
+DR   Antibodypedia; 30245; 232 antibodies from 33 providers.
+DR   DNASU; 53324; -.
+DR   Ensembl; ENSMUST00000071782; ENSMUSP00000071687; ENSMUSG00000059991.
+DR   GeneID; 53324; -.
+DR   KEGG; mmu:53324; -.
+DR   UCSC; uc012egq.1; mouse.
+DR   CTD; 4885; -.
+DR   MGI; MGI:1858209; Nptx2.
+DR   VEuPathDB; HostDB:ENSMUSG00000059991; -.
+DR   eggNOG; ENOG502QV29; Eukaryota.
+DR   GeneTree; ENSGT01050000244805; -.
+DR   HOGENOM; CLU_032051_0_0_1; -.
+DR   InParanoid; O70340; -.
+DR   OMA; PGNRFVC; -.
+DR   OrthoDB; 770812at2759; -.
+DR   PhylomeDB; O70340; -.
+DR   TreeFam; TF330208; -.
+DR   BioGRID-ORCS; 53324; 3 hits in 73 CRISPR screens.
+DR   PRO; PR:O70340; -.
+DR   Proteomes; UP000000589; Chromosome 5.
+DR   RNAct; O70340; protein.
+DR   Bgee; ENSMUSG00000059991; Expressed in lumbar dorsal root ganglion and 81 other tissues.
+DR   Genevisible; O70340; MM.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098892; C:extrinsic component of postsynaptic specialization membrane; ISO:MGI.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008306; P:associative learning; IMP:MGI.
+DR   GO; GO:0099645; P:neurotransmitter receptor localization to postsynaptic specialization membrane; ISO:MGI.
+DR   GO; GO:0098962; P:regulation of postsynaptic neurotransmitter receptor activity; ISO:MGI.
+DR   CDD; cd00152; PTX; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR030476; Pentaxin_CS.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00289; PTX_1; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Disulfide bond; Glycoprotein; Lectin; Metal-binding;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..14
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           15..429
+FT                   /note="Neuronal pentraxin-2"
+FT                   /id="PRO_0000023552"
+FT   DOMAIN          221..422
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         275
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         353
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         353
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         354
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         355
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         355
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         365
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        187
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        391
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        251..311
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+SQ   SEQUENCE   429 AA;  47137 MW;  638EED14C4CECA28 CRC64;
+     MLALLTVGVA LAVAAGRAQD SPIPGSRFVC TALPPEAARA GCPLPAMPMQ GGALSPEEEL
+     RAAVLQLRET VVQQKETLGA QREAIRELTG KLARCEGLAG GKARGTGKDT MGDLPRDPGH
+     VVEQLSRSLQ TLKDRLESLE LQLRTNVSNA GLPSDFREVL QRRLGELERQ LLRKVAELED
+     EKSLLHNETS AHRQKTESTL NALLQRVTEL ERGNSAFKSP DAFKVSLPLR TNYLYGKIKK
+     TLPELYAFTI CLWLRSSASP GIGTPFSYAV PGQANEIVLI EWGNNPIELL INDKVAQLPL
+     FVSDGKWHHI CITWTTRDGM WEAFQDGEKL GTGENLAPWH PIKPGGVLIL GQEQDTVGGR
+     FDATQAFVGE LSQFNIWDRV LRAQEIINIA NCSTNMPGNI IPWVDNNVDV FGGASKWPVE
+     TCEERLLDL
+//

@@ -1,0 +1,62 @@
+ID   SAMP_SALSA              Reviewed;          36 AA.
+AC   P86693;
+DT   10-AUG-2010, integrated into UniProtKB/Swiss-Prot.
+DT   10-AUG-2010, sequence version 1.
+DT   25-MAY-2022, entry version 21.
+DE   RecName: Full=Serum amyloid P-component {ECO:0000250|UniProtKB:P02743};
+DE   AltName: Full=Agarose-binding protein {ECO:0000303|PubMed:9639088};
+DE            Short=Ss-ABP {ECO:0000303|PubMed:9639088};
+DE   Flags: Fragment;
+OS   Salmo salar (Atlantic salmon).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Protacanthopterygii; Salmoniformes;
+OC   Salmonidae; Salmoninae; Salmo.
+OX   NCBI_TaxID=8030;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, COFACTOR, SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Serum {ECO:0000269|PubMed:9639088};
+RX   PubMed=9639088; DOI=10.1016/s0145-305x(97)00051-7;
+RA   Lund V., Olafsen J.A.;
+RT   "A comparative study of pentraxin-like proteins in different fish
+RT   species.";
+RL   Dev. Comp. Immunol. 22:185-194(1998).
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P02743, ECO:0000269|PubMed:9639088};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250|UniProtKB:P02743,
+CC       ECO:0000269|PubMed:9639088};
+CC   -!- SUBUNIT: Homopentamer. Discoid arrangement of 5 covalently bound
+CC       subunits. {ECO:0000250|UniProtKB:P02743, ECO:0000269|PubMed:9639088}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:9639088}.
+CC   -!- SIMILARITY: Belongs to the pentraxin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P86693; -.
+DR   STRING; 8030.ENSSSAP00000026285; -.
+DR   Proteomes; UP000087266; Genome assembly.
+DR   GO; GO:0005615; C:extracellular space; IDA:AgBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IDA:AgBase.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001864; F:pentraxin binding; IDA:AgBase.
+DR   GO; GO:0051260; P:protein homooligomerization; IDA:AgBase.
+DR   GO; GO:0009617; P:response to bacterium; IDA:AgBase.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IDA:AgBase.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   1: Evidence at protein level;
+KW   Amyloid; Calcium; Direct protein sequencing; Lectin; Metal-binding;
+KW   Reference proteome; Secreted.
+FT   CHAIN           1..>36
+FT                   /note="Serum amyloid P-component"
+FT                   /id="PRO_0000397214"
+FT   DOMAIN          6..>36
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   NON_TER         36
+FT                   /evidence="ECO:0000303|PubMed:9639088"
+SQ   SEQUENCE   36 AA;  3879 MW;  7A1D46819990B36E CRC64;
+     AHQDLSGKVF VIPMATSTSH VKLHARVSEP ISAMTM
+//

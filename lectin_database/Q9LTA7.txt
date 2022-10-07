@@ -1,0 +1,89 @@
+ID   JAL47_ARATH             Reviewed;         221 AA.
+AC   Q9LTA7;
+DT   01-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   25-MAY-2022, entry version 110.
+DE   RecName: Full=Jacalin-related lectin 47;
+GN   Name=JAL47; OrderedLocusNames=At5g49860; ORFNames=K21G20.7;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Kaneko T., Katoh T., Asamizu E., Sato S., Nakamura Y., Kotani H.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. XI.";
+RL   Submitted (APR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=18467340; DOI=10.1093/pcp/pcn075;
+RA   Nagano A.J., Fukao Y., Fujiwara M., Nishimura M., Hara-Nishimura I.;
+RT   "Antagonistic jacalin-related lectins regulate the size of ER body-type
+RT   beta-glucosidase complexes in Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 49:969-980(2008).
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB025612; BAA98153.1; -; Genomic_DNA.
+DR   EMBL; CP002688; AED95865.1; -; Genomic_DNA.
+DR   RefSeq; NP_199797.1; NM_124364.1.
+DR   AlphaFoldDB; Q9LTA7; -.
+DR   SMR; Q9LTA7; -.
+DR   PaxDb; Q9LTA7; -.
+DR   PRIDE; Q9LTA7; -.
+DR   EnsemblPlants; AT5G49860.1; AT5G49860.1; AT5G49860.
+DR   GeneID; 835049; -.
+DR   Gramene; AT5G49860.1; AT5G49860.1; AT5G49860.
+DR   KEGG; ath:AT5G49860; -.
+DR   Araport; AT5G49860; -.
+DR   TAIR; locus:2155456; AT5G49860.
+DR   eggNOG; ENOG502SCUZ; Eukaryota.
+DR   HOGENOM; CLU_019384_1_1_1; -.
+DR   InParanoid; Q9LTA7; -.
+DR   OMA; KSSYMLH; -.
+DR   OrthoDB; 102066at71240; -.
+DR   PhylomeDB; Q9LTA7; -.
+DR   PRO; PR:Q9LTA7; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9LTA7; baseline and differential.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 1.
+DR   Gene3D; 2.100.10.30; -; 2.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 2.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 2.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 2.
+PE   3: Inferred from homology;
+KW   Lectin; Reference proteome; Repeat.
+FT   CHAIN           1..221
+FT                   /note="Jacalin-related lectin 47"
+FT                   /id="PRO_0000430404"
+FT   DOMAIN          1..64
+FT                   /note="Jacalin-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          71..217
+FT                   /note="Jacalin-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+SQ   SEQUENCE   221 AA;  24305 MW;  6EC997A5D85AD266 CRC64;
+     MDSNVITSLT FKTSKGRTSP KFGYGTSDSV EFVLESKGCA IVGFYGWYKT GSGYTTALGA
+     YYYPMPLPPS SEKLEAQGGA GGAPWDDGSN FEGVRKIYIG TGEIGIVSIK FLYENDIHEI
+     IVGDHHGNKN LLRHEEFDLD YPSEYLTSVE GSYDVVPGSE EDEVMIMLKF TTNMRTSPCY
+     GLDDDPSFVL HKEGHKIVGF HGKSSTMLHK LGIHVLPITH S
+//

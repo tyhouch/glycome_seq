@@ -1,0 +1,186 @@
+ID   MANA3_ARATH             Reviewed;        1047 AA.
+AC   Q9FKW9;
+DT   06-JUL-2016, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   03-AUG-2022, entry version 134.
+DE   RecName: Full=Probable alpha-mannosidase At5g66150 {ECO:0000305};
+DE            EC=3.2.1.24 {ECO:0000305};
+DE   Flags: Precursor;
+GN   OrderedLocusNames=At5g66150 {ECO:0000312|Araport:AT5G66150};
+GN   ORFNames=K2A18.23 {ECO:0000312|EMBL:BAB10420.1};
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=9679202; DOI=10.1093/dnares/5.2.131;
+RA   Kaneko T., Kotani H., Nakamura Y., Sato S., Asamizu E., Miyajima N.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. V. Sequence
+RT   features of the regions of 1,381,565 bp covered by twenty one physically
+RT   assigned P1 and TAC clones.";
+RL   DNA Res. 5:131-145(1998).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+CC   -!- FUNCTION: Liberates mannose from p-nitrophenyl-alpha-D-mannoside in
+CC       vitro. {ECO:0000250|UniProtKB:P94078}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-mannose residues
+CC         in alpha-D-mannosides.; EC=3.2.1.24;
+CC         Evidence={ECO:0000250|UniProtKB:P94078};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q29451};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:Q29451};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q29451}.
+CC   -!- SUBCELLULAR LOCATION: Vacuole {ECO:0000250|UniProtKB:P94078}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB011474; BAB10420.1; -; Genomic_DNA.
+DR   EMBL; CP002688; AED98165.1; -; Genomic_DNA.
+DR   RefSeq; NP_201416.1; NM_126013.2.
+DR   AlphaFoldDB; Q9FKW9; -.
+DR   SMR; Q9FKW9; -.
+DR   STRING; 3702.AT5G66150.1; -.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   PaxDb; Q9FKW9; -.
+DR   PRIDE; Q9FKW9; -.
+DR   ProteomicsDB; 250820; -.
+DR   EnsemblPlants; AT5G66150.1; AT5G66150.1; AT5G66150.
+DR   GeneID; 836747; -.
+DR   Gramene; AT5G66150.1; AT5G66150.1; AT5G66150.
+DR   KEGG; ath:AT5G66150; -.
+DR   Araport; AT5G66150; -.
+DR   TAIR; locus:2156857; AT5G66150.
+DR   eggNOG; KOG1959; Eukaryota.
+DR   HOGENOM; CLU_004690_2_0_1; -.
+DR   InParanoid; Q9FKW9; -.
+DR   OrthoDB; 201312at2759; -.
+DR   PhylomeDB; Q9FKW9; -.
+DR   BioCyc; ARA:AT5G66150-MON; -.
+DR   PRO; PR:Q9FKW9; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9FKW9; baseline and differential.
+DR   GO; GO:0005773; C:vacuole; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:InterPro.
+DR   Gene3D; 1.20.1270.50; -; 2.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR041147; GH38_C.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF17677; Glyco_hydro38C2; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase; Metal-binding;
+KW   Reference proteome; Signal; Vacuole; Zinc.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..1047
+FT                   /note="Probable alpha-mannosidase At5g66150"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5006751720"
+FT   BINDING         56
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   BINDING         58
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   BINDING         178
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   BINDING         419
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   CARBOHYD        280
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        287
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        345
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        480
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        508
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        541
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        605
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        606
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        668
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        780
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        857
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        455..465
+FT                   /evidence="ECO:0000250|UniProtKB:C0HJB3"
+FT   DISULFID        476..484
+FT                   /evidence="ECO:0000250|UniProtKB:C0HJB3"
+FT   DISULFID        855..860
+FT                   /evidence="ECO:0000250|UniProtKB:C0HJB3"
+SQ   SEQUENCE   1047 AA;  118008 MW;  DAC7CEE58DCBC108 CRC64;
+     MEKPGMSLLK GSLCVIVFLL LLSLVESVKG GGYVKYGTEA KVVPGKLNVH LVPHSHDDVG
+     WLKTVDQYYV GSNNRIQNAC VRNVLDSVVD SLLRDPNRKF VFAEMAFFTR WWEEQSPERQ
+     EQVRRLVKSG QLEFVNGGWA MNDEATCHYI DMIDQTTKGH RFIKQQFNTT PRAAWQIDPF
+     GHSSVQAYLL GAELGLDSVH FARIDYQDRE KRKAEKSLEV IWRGSKTLDS SSQIFTNIFF
+     VHYGPPTGFH YEVTDDYVPL QDNPRFDGYN IKEAVNDFVN ASLVYANVSR GNHVMWTMGD
+     DFQYQFAESW FRQMDRLIHY VNKDGRVNAL YSTPSLYVDA KNVANVTWPL KTHDFFPYAD
+     RAYAYWTGYF TSRPALKRYV RALSGYYMAA RQLEFLVGKN SGGPNTYSLG DALGIAQHHD
+     AVTGTAKQHV TNDYMKRLAL GASEAEAVVN SALACLMNKA PKGGCTKPAI AFSQQCSLMN
+     ISYCPSTEET LPGQKSLILV AYNSLGWNRT EIIRIPVNDA GLSVEDSSGN TLDAQYIPMD
+     NVTSNLRSFY TKAYLGISSL QRPKYWLVFK AKVPPLGWNT FFISKASAQG SNNHKHSSVM
+     LSPMNNTTEI GPGNLKMVFS SDSGRLERMY NSRTGADIKV DQNYFWYASN VGDAKDPQVS
+     GAYIFRPNGS LAYPVSSSKI CTVTSAFIGN GNVQSKLQIV RGPLIDEVHQ QFSPWVAQVV
+     RLYKEKEHAE FEFTIGPISV GKGHLTGKEI ITRMVTDMTT AKEFYTDSNG RDFLKRVRDN
+     RTDWHLEVNE PIAGNYYPLN LGMYIKDEKA ELSVLVDRAT GGASIKDGEI ELMLHRRTSM
+     DDSRGVEESL VETVCVNDTC AGLTIRGNYY VSINKVGEGG RWRRETGQEI YSPLLMAFAH
+     ENKEKWKASN TVKGYAMDHL YTLPQNIALI TLEELDLGNV LLRLAHLYEA GEDSDYSKIA
+     KVELKKLFSG KMIKEVTEMS LSANQEKVKM KEKMKWKVEG EAEQPSSPLR GGPVDKSTLV
+     VELGPMEIRT FVVQFYQKQR RRKLFVG
+//

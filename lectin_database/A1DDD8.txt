@@ -1,0 +1,130 @@
+ID   AGALA_NEOFI             Reviewed;         532 AA.
+AC   A1DDD8;
+DT   23-MAR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   25-MAY-2022, entry version 79.
+DE   RecName: Full=Probable alpha-galactosidase A;
+DE            EC=3.2.1.22;
+DE   AltName: Full=Melibiase A;
+DE   Flags: Precursor;
+GN   Name=aglA; ORFNames=NFIA_073100;
+OS   Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164
+OS   / JCM 1740 / NRRL 181 / WB 181) (Aspergillus fischerianus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=331117;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 /
+RC   NRRL 181 / WB 181;
+RX   PubMed=18404212; DOI=10.1371/journal.pgen.1000046;
+RA   Fedorova N.D., Khaldi N., Joardar V.S., Maiti R., Amedeo P., Anderson M.J.,
+RA   Crabtree J., Silva J.C., Badger J.H., Albarraq A., Angiuoli S., Bussey H.,
+RA   Bowyer P., Cotty P.J., Dyer P.S., Egan A., Galens K., Fraser-Liggett C.M.,
+RA   Haas B.J., Inman J.M., Kent R., Lemieux S., Malavazi I., Orvis J.,
+RA   Roemer T., Ronning C.M., Sundaram J.P., Sutton G., Turner G., Venter J.C.,
+RA   White O.R., Whitty B.R., Youngman P., Wolfe K.H., Goldman G.H.,
+RA   Wortman J.R., Jiang B., Denning D.W., Nierman W.C.;
+RT   "Genomic islands in the pathogenic filamentous fungus Aspergillus
+RT   fumigatus.";
+RL   PLoS Genet. 4:E1000046-E1000046(2008).
+CC   -!- FUNCTION: Hydrolyzes a variety of simple alpha-D-galactoside as well as
+CC       more complex molecules such as oligosaccharides and polysaccharides.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-galactose
+CC         residues in alpha-D-galactosides, including galactose
+CC         oligosaccharides, galactomannans and galactolipids.; EC=3.2.1.22;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 27 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DS027696; EAW17395.1; -; Genomic_DNA.
+DR   RefSeq; XP_001259292.1; XM_001259291.1.
+DR   AlphaFoldDB; A1DDD8; -.
+DR   SMR; A1DDD8; -.
+DR   STRING; 36630.CADNFIAP00006638; -.
+DR   EnsemblFungi; EAW17395; EAW17395; NFIA_073100.
+DR   GeneID; 4586353; -.
+DR   KEGG; nfi:NFIA_073100; -.
+DR   VEuPathDB; FungiDB:NFIA_073100; -.
+DR   eggNOG; KOG2366; Eukaryota.
+DR   HOGENOM; CLU_013093_3_3_1; -.
+DR   OMA; NWARFMC; -.
+DR   OrthoDB; 964130at2759; -.
+DR   Proteomes; UP000006702; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052692; F:raffinose alpha-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd14792; GH27; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR002241; Glyco_hydro_27.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR041233; Melibiase_C.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR11452; PTHR11452; 1.
+DR   Pfam; PF16499; Melibiase_2; 1.
+DR   Pfam; PF17801; Melibiase_C; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   PRINTS; PR00740; GLHYDRLASE27.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase; Lectin;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..532
+FT                   /note="Probable alpha-galactosidase A"
+FT                   /id="PRO_0000393212"
+FT   DOMAIN          410..531
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   ACT_SITE        152
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        210
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        47
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        121
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        201
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        44..76
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        124..154
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        427..441
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        466..478
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   532 AA;  59159 MW;  C30D4F7811422317 CRC64;
+     MYTTKSLLST LIPIMIPLSL GSVSSPNLLP TPPMGFNNWA RFMCDLNETL FLETASAMIS
+     TGLLEAGYNR LNLDDCWMAY DRAADSSLQW NTTKFPHGIP WLAYRLKTQG FHLGIYQDAG
+     NLTCGGYPGS FGYEALDAQT FAAWGIDYLK LDGCNVFPEH SRTLEEEYKA RYAHWHNVLR
+     QMHPPLIFSE SAPAYFADPA NLTSWYEVMD WVPAFGELAR HSTDILVYVG EGSAWDSIMV
+     NYHYNTLLAR YQRPGYFNDP DFLIPDHPGL TLEEKRSQFA LWASFSAPLI VSAYIPGLSG
+     EELAILRNEE LITVDQDVLG LQATLASRGE EVDVLTRSLA HGDQLLTVLN RGDGVPVVRV
+     PVEWMGLQRG CAYVVKNLWD GEVQVLEEEI VIRLNSHATQ VYRIALPEEC STVIPTGIVF
+     NTASGNCLTD ENGERVGFEA CRGSETQVWQ VSELGHLHPL SRTSHCLTAG SQASVQLCTG
+     QKNQQWTYEI TGNLKNEHTK MCLTEGTGIS QCGFERDSQV FGLPSGVDIK SS
+//

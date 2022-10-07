@@ -1,0 +1,186 @@
+ID   CH3L1_RAT               Reviewed;         381 AA.
+AC   Q9WTV1; Q5BJR6;
+DT   04-JAN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 3.
+DT   03-AUG-2022, entry version 145.
+DE   RecName: Full=Chitinase-3-like protein 1;
+DE   AltName: Full=Cartilage glycoprotein 39;
+DE            Short=CGP-39;
+DE            Short=GP-39;
+DE   Flags: Precursor;
+GN   Name=Chi3l1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 20-371.
+RC   STRAIN=Lewis;
+RA   Wendling U., Boots A.M.H., van Eden W.;
+RT   "Cloning of the rat homologue of human cartilage glycoprotein-39 a
+RT   potential autoantigen in arthritis.";
+RL   Submitted (APR-1998) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Carbohydrate-binding lectin with a preference for chitin. Has
+CC       no chitinase activity. May play a role in tissue remodeling and in the
+CC       capacity of cells to respond to and cope with changes in their
+CC       environment. Plays a role in T-helper cell type 2 (Th2) inflammatory
+CC       response and IL-13-induced inflammation, regulating allergen
+CC       sensitization, inflammatory cell apoptosis, dendritic cell accumulation
+CC       and M2 macrophage differentiation. Facilitates invasion of pathogenic
+CC       enteric bacteria into colonic mucosa and lymphoid organs. Mediates
+CC       activation of AKT1 signaling pathway and subsequent IL8 production in
+CC       colonic epithelial cells. Regulates antibacterial responses in lung by
+CC       contributing to macrophage bacterial killing, controlling bacterial
+CC       dissemination and augmenting host tolerance. Also regulates hyperoxia-
+CC       induced injury, inflammation and epithelial apoptosis in lung (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space {ECO:0000250}.
+CC       Cytoplasm {ECO:0000250}. Cytoplasm, perinuclear region {ECO:0000250}.
+CC       Endoplasmic reticulum {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 18 family. {ECO:0000305}.
+CC   -!- CAUTION: Although it belongs to the glycosyl hydrolase 18 family, Leu-
+CC       138 is present instead of the conserved Glu which is an active site
+CC       residue. Therefore this protein lacks chitinase activity.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH91365.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC091365; AAH91365.1; ALT_INIT; mRNA.
+DR   EMBL; AF062038; AAD22610.1; -; mRNA.
+DR   RefSeq; NP_001296749.1; NM_001309820.1.
+DR   RefSeq; NP_446012.2; NM_053560.2.
+DR   AlphaFoldDB; Q9WTV1; -.
+DR   SMR; Q9WTV1; -.
+DR   STRING; 10116.ENSRNOP00000065787; -.
+DR   CAZy; GH18; Glycoside Hydrolase Family 18.
+DR   GlyGen; Q9WTV1; 3 sites.
+DR   PaxDb; Q9WTV1; -.
+DR   PRIDE; Q9WTV1; -.
+DR   Ensembl; ENSRNOT00000078599; ENSRNOP00000074871; ENSRNOG00000053272.
+DR   GeneID; 89824; -.
+DR   KEGG; rno:89824; -.
+DR   UCSC; RGD:620874; rat.
+DR   CTD; 1116; -.
+DR   RGD; 620874; Chi3l1.
+DR   eggNOG; KOG2806; Eukaryota.
+DR   GeneTree; ENSGT00940000161815; -.
+DR   HOGENOM; CLU_002833_3_1_1; -.
+DR   InParanoid; Q9WTV1; -.
+DR   OMA; HRLLGQQ; -.
+DR   OrthoDB; 1289629at2759; -.
+DR   PhylomeDB; Q9WTV1; -.
+DR   TreeFam; TF315610; -.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   PRO; PR:Q9WTV1; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000053272; Expressed in lung and 18 other tissues.
+DR   Genevisible; Q9WTV1; RN.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; ISS:UniProtKB.
+DR   GO; GO:0007250; P:activation of NF-kappaB-inducing kinase activity; ISS:UniProtKB.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0071347; P:cellular response to interleukin-1; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0006032; P:chitin catabolic process; IBA:GO_Central.
+DR   GO; GO:0006954; P:inflammatory response; IEP:UniProtKB.
+DR   GO; GO:0030324; P:lung development; ISS:UniProtKB.
+DR   GO; GO:0045766; P:positive regulation of angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; ISS:UniProtKB.
+DR   GO; GO:0032757; P:positive regulation of interleukin-8 production; ISS:UniProtKB.
+DR   GO; GO:0010800; P:positive regulation of peptidyl-threonine phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0051897; P:positive regulation of protein kinase B signaling; ISS:UniProtKB.
+DR   GO; GO:0070555; P:response to interleukin-1; ISS:UniProtKB.
+DR   GO; GO:0070741; P:response to interleukin-6; ISS:UniProtKB.
+DR   GO; GO:0009612; P:response to mechanical stimulus; ISS:UniProtKB.
+DR   GO; GO:0034612; P:response to tumor necrosis factor; ISS:UniProtKB.
+DR   Gene3D; 3.10.50.10; -; 1.
+DR   InterPro; IPR028538; CHI3L1.
+DR   InterPro; IPR011583; Chitinase_II.
+DR   InterPro; IPR029070; Chitinase_insertion_sf.
+DR   InterPro; IPR001223; Glyco_hydro18_cat.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   PANTHER; PTHR11177:SF202; PTHR11177:SF202; 1.
+DR   Pfam; PF00704; Glyco_hydro_18; 1.
+DR   SMART; SM00636; Glyco_18; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF54556; SSF54556; 1.
+DR   PROSITE; PS51910; GH18_2; 1.
+PE   2: Evidence at transcript level;
+KW   Antimicrobial; Apoptosis; Cytoplasm; Disulfide bond; Endoplasmic reticulum;
+KW   Glycoprotein; Inflammatory response; Lectin; Reference proteome; Secreted;
+KW   Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           20..381
+FT                   /note="Chitinase-3-like protein 1"
+FT                   /id="PRO_0000011968"
+FT   DOMAIN          20..381
+FT                   /note="GH18"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   REGION          322..336
+FT                   /note="Important for AKT1 activation and IL8 production"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         68..69
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         95..98
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         139
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         202..205
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         350
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   CARBOHYD        28
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        36
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        58
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        24..49
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   DISULFID        298..362
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        277
+FT                   /note="T -> S (in Ref. 2; AAD22610)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   381 AA;  42392 MW;  E40BD71A658A2EBB CRC64;
+     MTLQLPGFAV LMLLQSCSAY KLVCYYTNWS QYREGNGSCF PDALDHSLCT HIIYSFANIS
+     NNKLSTSEWN DVTLYGMLNT LKTRNPRLKT LLSVGGWSFG SERFSRIVSN AKSRKTFVQS
+     VAPFLRTYGF DGLDLAWLYP GPKDKQHFTT LIKELKAEFT KEVQPGTEKL LLSAAVSAGK
+     VTLDSGYDVA QIAQHLDFIN LMTYDFHGTW RHTTGHHSPL FRGQQDTGPD RFSNVDYGVG
+     YMLRLGAPTN KLVMGIPTFG KSFTLASSEN QVGAPITGSG LPGRYTKEKG TLAYYEICDF
+     LRGAEVHRIL GQQVPFATKG NQWVGYDDPE SVKNKVKYLK NKQLAGAMVW AVDLDDFRGS
+     FCGHNVHFPL TNAIKEALAV A
+//

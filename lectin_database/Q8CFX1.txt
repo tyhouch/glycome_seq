@@ -1,0 +1,526 @@
+ID   G6PE_MOUSE              Reviewed;         789 AA.
+AC   Q8CFX1; A2A7A9; B2KGW7; Q8BLH1;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 2.
+DT   03-AUG-2022, entry version 137.
+DE   RecName: Full=GDH/6PGL endoplasmic bifunctional protein {ECO:0000305|PubMed:12831846};
+DE   Includes:
+DE     RecName: Full=Hexose-6-phosphate dehydrogenase {ECO:0000303|PubMed:4169027};
+DE     AltName: Full=Glucose 1-dehydrogenase {ECO:0000305|PubMed:4169027};
+DE              EC=1.1.1.47 {ECO:0000269|PubMed:4169027};
+DE     AltName: Full=Glucose-6-phosphate dehydrogenase {ECO:0000305|PubMed:4169027};
+DE              EC=1.1.1.363 {ECO:0000269|PubMed:12831846, ECO:0000269|PubMed:4169027};
+DE   Includes:
+DE     RecName: Full=6-phosphogluconolactonase {ECO:0000303|PubMed:12831846};
+DE              Short=6PGL {ECO:0000303|PubMed:12831846};
+DE              EC=3.1.1.31 {ECO:0000269|PubMed:12831846};
+DE   Flags: Precursor;
+GN   Name=H6pd {ECO:0000312|MGI:MGI:2140356};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=16141072; DOI=10.1126/science.1112014;
+RA   Carninci P., Kasukawa T., Katayama S., Gough J., Frith M.C., Maeda N.,
+RA   Oyama R., Ravasi T., Lenhard B., Wells C., Kodzius R., Shimokawa K.,
+RA   Bajic V.B., Brenner S.E., Batalov S., Forrest A.R., Zavolan M., Davis M.J.,
+RA   Wilming L.G., Aidinis V., Allen J.E., Ambesi-Impiombato A., Apweiler R.,
+RA   Aturaliya R.N., Bailey T.L., Bansal M., Baxter L., Beisel K.W., Bersano T.,
+RA   Bono H., Chalk A.M., Chiu K.P., Choudhary V., Christoffels A.,
+RA   Clutterbuck D.R., Crowe M.L., Dalla E., Dalrymple B.P., de Bono B.,
+RA   Della Gatta G., di Bernardo D., Down T., Engstrom P., Fagiolini M.,
+RA   Faulkner G., Fletcher C.F., Fukushima T., Furuno M., Futaki S.,
+RA   Gariboldi M., Georgii-Hemming P., Gingeras T.R., Gojobori T., Green R.E.,
+RA   Gustincich S., Harbers M., Hayashi Y., Hensch T.K., Hirokawa N., Hill D.,
+RA   Huminiecki L., Iacono M., Ikeo K., Iwama A., Ishikawa T., Jakt M.,
+RA   Kanapin A., Katoh M., Kawasawa Y., Kelso J., Kitamura H., Kitano H.,
+RA   Kollias G., Krishnan S.P., Kruger A., Kummerfeld S.K., Kurochkin I.V.,
+RA   Lareau L.F., Lazarevic D., Lipovich L., Liu J., Liuni S., McWilliam S.,
+RA   Madan Babu M., Madera M., Marchionni L., Matsuda H., Matsuzawa S., Miki H.,
+RA   Mignone F., Miyake S., Morris K., Mottagui-Tabar S., Mulder N., Nakano N.,
+RA   Nakauchi H., Ng P., Nilsson R., Nishiguchi S., Nishikawa S., Nori F.,
+RA   Ohara O., Okazaki Y., Orlando V., Pang K.C., Pavan W.J., Pavesi G.,
+RA   Pesole G., Petrovsky N., Piazza S., Reed J., Reid J.F., Ring B.Z.,
+RA   Ringwald M., Rost B., Ruan Y., Salzberg S.L., Sandelin A., Schneider C.,
+RA   Schoenbach C., Sekiguchi K., Semple C.A., Seno S., Sessa L., Sheng Y.,
+RA   Shibata Y., Shimada H., Shimada K., Silva D., Sinclair B., Sperling S.,
+RA   Stupka E., Sugiura K., Sultana R., Takenaka Y., Taki K., Tammoja K.,
+RA   Tan S.L., Tang S., Taylor M.S., Tegner J., Teichmann S.A., Ueda H.R.,
+RA   van Nimwegen E., Verardo R., Wei C.L., Yagi K., Yamanishi H.,
+RA   Zabarovsky E., Zhu S., Zimmer A., Hide W., Bult C., Grimmond S.M.,
+RA   Teasdale R.D., Liu E.T., Brusic V., Quackenbush J., Wahlestedt C.,
+RA   Mattick J.S., Hume D.A., Kai C., Sasaki D., Tomaru Y., Fukuda S.,
+RA   Kanamori-Katayama M., Suzuki M., Aoki J., Arakawa T., Iida J., Imamura K.,
+RA   Itoh M., Kato T., Kawaji H., Kawagashira N., Kawashima T., Kojima M.,
+RA   Kondo S., Konno H., Nakano K., Ninomiya N., Nishio T., Okada M., Plessy C.,
+RA   Shibata K., Shiraki T., Suzuki S., Tagami M., Waki K., Watahiki A.,
+RA   Okamura-Oho Y., Suzuki H., Kawai J., Hayashizaki Y.;
+RT   "The transcriptional landscape of the mammalian genome.";
+RL   Science 309:1559-1563(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=FVB/N; TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE
+RP   SPECIFICITY, PATHWAY, AND TISSUE SPECIFICITY.
+RX   PubMed=4169027; DOI=10.1016/s0021-9258(18)99426-3;
+RA   Beutler E., Morrison M.;
+RT   "Localization and characteristics of hexose 6-phosphate dehydrogenase
+RT   (glucose dehydrogenase).";
+RL   J. Biol. Chem. 242:5289-5293(1967).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, PATHWAY, SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=12831846; DOI=10.1016/s0003-9861(03)00229-7;
+RA   Clarke J.L., Mason P.J.;
+RT   "Murine hexose-6-phosphate dehydrogenase: a bifunctional enzyme with broad
+RT   substrate specificity and 6-phosphogluconolactonase activity.";
+RL   Arch. Biochem. Biophys. 415:229-234(2003).
+RN   [6]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=16356929; DOI=10.1074/jbc.m512635200;
+RA   Lavery G.G., Walker E.A., Draper N., Jeyasuria P., Marcos J.,
+RA   Shackleton C.H., Parker K.L., White P.C., Stewart P.M.;
+RT   "Hexose-6-phosphate dehydrogenase knock-out mice lack 11 beta-
+RT   hydroxysteroid dehydrogenase type 1-mediated glucocorticoid generation.";
+RL   J. Biol. Chem. 281:6546-6551(2006).
+RN   [7]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=17656460; DOI=10.1210/en.2007-0593;
+RA   Rogoff D., Ryder J.W., Black K., Yan Z., Burgess S.C., McMillan D.R.,
+RA   White P.C.;
+RT   "Abnormalities of glucose homeostasis and the hypothalamic-pituitary-
+RT   adrenal axis in mice lacking hexose-6-phosphate dehydrogenase.";
+RL   Endocrinology 148:5072-5080(2007).
+RN   [8]
+RP   TISSUE SPECIFICITY, AND DISRUPTION PHENOTYPE.
+RX   PubMed=18218694; DOI=10.1210/en.2007-1705;
+RA   Bujalska I.J., Hewitt K.N., Hauton D., Lavery G.G., Tomlinson J.W.,
+RA   Walker E.A., Stewart P.M.;
+RT   "Lack of hexose-6-phosphate dehydrogenase impairs lipid mobilization from
+RT   mouse adipose tissue.";
+RL   Endocrinology 149:2584-2591(2008).
+RN   [9]
+RP   FUNCTION, CATALYTIC ACTIVITY, TISSUE SPECIFICITY, AND DISRUPTION PHENOTYPE.
+RX   PubMed=18222920; DOI=10.1074/jbc.m710067200;
+RA   Lavery G.G., Walker E.A., Turan N., Rogoff D., Ryder J.W., Shelton J.M.,
+RA   Richardson J.A., Falciani F., White P.C., Stewart P.M., Parker K.L.,
+RA   McMillan D.R.;
+RT   "Deletion of hexose-6-phosphate dehydrogenase activates the unfolded
+RT   protein response pathway and induces skeletal myopathy.";
+RL   J. Biol. Chem. 283:8453-8461(2008).
+RN   [10]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brown adipose tissue, Heart, Kidney, Liver, Lung, Pancreas,
+RC   Spleen, and Testis;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [11]
+RP   SUCCINYLATION [LARGE SCALE ANALYSIS] AT LYS-205 AND LYS-424, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=23806337; DOI=10.1016/j.molcel.2013.06.001;
+RA   Park J., Chen Y., Tishkoff D.X., Peng C., Tan M., Dai L., Xie Z., Zhang Y.,
+RA   Zwaans B.M., Skinner M.E., Lombard D.B., Zhao Y.;
+RT   "SIRT5-mediated lysine desuccinylation impacts diverse metabolic
+RT   pathways.";
+RL   Mol. Cell 50:919-930(2013).
+CC   -!- FUNCTION: Bifunctional enzyme localized in the lumen of the endoplasmic
+CC       reticulum that catalyzes the first two steps of the oxidative branch of
+CC       the pentose phosphate pathway/shunt, an alternative to glycolysis and a
+CC       major source of reducing power and metabolic intermediates for
+CC       biosynthetic processes (PubMed:4169027, PubMed:12831846,
+CC       PubMed:16356929, PubMed:18222920). Has a hexose-6-phosphate
+CC       dehydrogenase activity, with broad substrate specificity compared to
+CC       glucose-6-phosphate 1-dehydrogenase/G6PD, and catalyzes the first step
+CC       of the pentose phosphate pathway (PubMed:4169027, PubMed:12831846,
+CC       PubMed:18222920). In addition, acts as a 6-phosphogluconolactonase and
+CC       catalyzes the second step of the pentose phosphate pathway
+CC       (PubMed:12831846). May have a dehydrogenase activity for alternative
+CC       substrates including glucosamine 6-phosphate and glucose 6-sulfate
+CC       (PubMed:12831846). The main function of this enzyme is to provide
+CC       reducing equivalents such as NADPH to maintain the adequate levels of
+CC       reductive cofactors in the oxidizing environment of the endoplasmic
+CC       reticulum (PubMed:12831846, PubMed:16356929, PubMed:17656460,
+CC       PubMed:18222920). By producing NADPH that is needed by reductases of
+CC       the lumen of the endoplasmic reticulum like corticosteroid 11-beta-
+CC       dehydrogenase isozyme 1/HSD11B1, indirectly regulates their activity
+CC       (PubMed:16356929). {ECO:0000269|PubMed:12831846,
+CC       ECO:0000269|PubMed:16356929, ECO:0000269|PubMed:17656460,
+CC       ECO:0000269|PubMed:18222920, ECO:0000269|PubMed:4169027}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose 6-phosphate + NAD(+) = 6-phospho-D-glucono-1,5-
+CC         lactone + H(+) + NADH; Xref=Rhea:RHEA:38215, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:57955,
+CC         ChEBI:CHEBI:61548; EC=1.1.1.363;
+CC         Evidence={ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38216;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose 6-phosphate + NADP(+) = 6-phospho-D-glucono-1,5-
+CC         lactone + H(+) + NADPH; Xref=Rhea:RHEA:15841, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:57955, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:61548; EC=1.1.1.363;
+CC         Evidence={ECO:0000269|PubMed:12831846, ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15842;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=6-phospho-D-glucono-1,5-lactone + H2O = 6-phospho-D-gluconate
+CC         + H(+); Xref=Rhea:RHEA:12556, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57955, ChEBI:CHEBI:58759; EC=3.1.1.31;
+CC         Evidence={ECO:0000269|PubMed:12831846};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12557;
+CC         Evidence={ECO:0000305|PubMed:12831846};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-deoxy-D-glucose 6-phosphate + NAD(+) = 2-deoxy-6-phospho-D-
+CC         glucono-1,5-lactone + H(+) + NADH; Xref=Rhea:RHEA:62064,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:84760, ChEBI:CHEBI:145420;
+CC         Evidence={ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62065;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-deoxy-D-glucose 6-phosphate + NADP(+) = 2-deoxy-6-phospho-D-
+CC         glucono-1,5-lactone + H(+) + NADPH; Xref=Rhea:RHEA:62068,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:84760, ChEBI:CHEBI:145420;
+CC         Evidence={ECO:0000269|PubMed:12831846, ECO:0000269|PubMed:18222920,
+CC         ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62069;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-galactose 6-phosphate + NADP(+) = 6-phospho-D-galactono-1,5-
+CC         lactone + H(+) + NADPH; Xref=Rhea:RHEA:62072, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:91004,
+CC         ChEBI:CHEBI:145419; Evidence={ECO:0000269|PubMed:12831846,
+CC         ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62073;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-galactose 6-phosphate + NAD(+) = 6-phospho-D-galactono-1,5-
+CC         lactone + H(+) + NADH; Xref=Rhea:RHEA:62076, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:91004,
+CC         ChEBI:CHEBI:145419; Evidence={ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62077;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucosamine 6-phosphate + NADP(+) = 2-amino-2-deoxy-6-
+CC         phospho-D-glucono-1,5-lactone + 2 H(+) + NADPH; Xref=Rhea:RHEA:62088,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:58725, ChEBI:CHEBI:145423;
+CC         Evidence={ECO:0000269|PubMed:12831846};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62089;
+CC         Evidence={ECO:0000305|PubMed:12831846};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose + NAD(+) = D-glucono-1,5-lactone + H(+) + NADH;
+CC         Xref=Rhea:RHEA:14293, ChEBI:CHEBI:4167, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16217, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.47;
+CC         Evidence={ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14294;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose + NADP(+) = D-glucono-1,5-lactone + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:14405, ChEBI:CHEBI:4167, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16217, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.47;
+CC         Evidence={ECO:0000269|PubMed:4169027};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14406;
+CC         Evidence={ECO:0000305|PubMed:4169027};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose 6-sulfate + NADP(+) = 6-sulfo-D-glucono-1,5-lactone
+CC         + H(+) + NADPH; Xref=Rhea:RHEA:62080, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:145424,
+CC         ChEBI:CHEBI:145427; Evidence={ECO:0000269|PubMed:12831846};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62081;
+CC         Evidence={ECO:0000305|PubMed:12831846};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=4065 mM for D-glucose (at pH 7.1 in the presence of NADP)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=725 mM for D-glucose (at pH 7.1 in the presence of NAD)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=532 mM for D-glucose (at pH 9.6 in the presence of NAD)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=120 uM for D-glucose 6-phosphate (at pH 9.6 in the presence of
+CC         NADP) {ECO:0000269|PubMed:4169027};
+CC         KM=28 uM for D-glucose 6-phosphate (at pH 9.6 in the presence of NAD)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=66 uM for 2-deoxy-D-glucose 6-phosphate (at pH 7.1 in the presence
+CC         of NADP) {ECO:0000269|PubMed:4169027};
+CC         KM=12 uM for 2-deoxy-D-glucose 6-phosphate (at pH 7.1 in the presence
+CC         of NAD) {ECO:0000269|PubMed:4169027};
+CC         KM=5.89 mM for 2-deoxy-D-glucose 6-phosphate (at pH 9.6 in the
+CC         presence of NADP) {ECO:0000269|PubMed:4169027};
+CC         KM=4.35 mM for 2-deoxy-D-glucose 6-phosphate (at pH 9.6 in the
+CC         presence of NAD) {ECO:0000269|PubMed:4169027};
+CC         KM=7 uM for D-galactopyranose 6-phosphate (at pH 7.1 in the presence
+CC         of NADP) {ECO:0000269|PubMed:4169027};
+CC         KM=504 uM for D-galactopyranose 6-phosphate (at pH 9.6 in the
+CC         presence of NADP) {ECO:0000269|PubMed:4169027};
+CC         KM=223 uM for D-galactopyranose 6-phosphate (at pH 7.1 in the
+CC         presence of NAD) {ECO:0000269|PubMed:4169027};
+CC         KM=9 uM for NADP (at pH 7.1 in the presence of galactose 6-phosphate)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=14 uM for NADP (at pH 9.6 in the presence of galactose
+CC         6-phosphate) {ECO:0000269|PubMed:4169027};
+CC         KM=4 uM for NADP (at pH 9.6 in the presence of D-glucose 6-phosphate)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=12 uM for NADP (at pH 7.1 in the presence of D-glucose)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=52 uM for NAD (at pH 7.1 in the presence of D-glucose)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=47 uM for NADP (at pH 9.6 in the presence of D-glucose)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=261 uM for NAD (at pH 9.6 in the presence of D-glucose)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=34 uM for NAD (at pH 7.1 in the presence of D-glucose)
+CC         {ECO:0000269|PubMed:4169027};
+CC         KM=72 uM for NAD (at pH 9.6 in the presence of D-glucose)
+CC         {ECO:0000269|PubMed:4169027};
+CC       pH dependence:
+CC         Optimum pH is 6.0-8.0. {ECO:0000269|PubMed:12831846};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage).
+CC       {ECO:0000269|PubMed:12831846, ECO:0000269|PubMed:4169027}.
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage): step
+CC       2/3. {ECO:0000269|PubMed:12831846}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:12831846}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen
+CC       {ECO:0000305|PubMed:12831846}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver (at protein level)
+CC       (PubMed:4169027). Expressed in muscles (PubMed:18222920). Expressed in
+CC       adipose tissues (PubMed:18218694). {ECO:0000269|PubMed:18218694,
+CC       ECO:0000269|PubMed:18222920, ECO:0000269|PubMed:4169027}.
+CC   -!- DISRUPTION PHENOTYPE: Mice lacking H6pd are born at the expected
+CC       Mendelian frequency and do not show overt phenotype (PubMed:16356929).
+CC       However, they display cellular inability to convert 11-
+CC       dehydrocorticosterone (11-DHC) to corticosterone and present increased
+CC       corticosterone to 11-DHC conversion associated with adrenal hyperplasia
+CC       (PubMed:16356929). Mutant mice also display fasting hypoglycemia and
+CC       perturbed lipid mobilization that are probably due to the
+CC       aforementioned effect on corticosterone metabolism and blunted
+CC       intracellular action of the hormone (PubMed:17656460, PubMed:18218694).
+CC       Skeletal myopathy associated with a dysregulation of the expression of
+CC       proteins associated with calcium homeostasis in the sarcoplasmic
+CC       reticulum and an activation of the unfolded protein response are also
+CC       observed (PubMed:18222920). {ECO:0000269|PubMed:16356929,
+CC       ECO:0000269|PubMed:17656460, ECO:0000269|PubMed:18218694,
+CC       ECO:0000269|PubMed:18222920}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the glucose-6-
+CC       phosphate dehydrogenase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the
+CC       glucosamine/galactosamine-6-phosphate isomerase family. 6-
+CC       phosphogluconolactonase subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAC32260.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AK045199; BAC32260.1; ALT_INIT; mRNA.
+DR   EMBL; AK159373; BAE35029.1; -; mRNA.
+DR   EMBL; AL606914; CAM16119.1; -; Genomic_DNA.
+DR   EMBL; CU463327; CAQ51682.1; -; Genomic_DNA.
+DR   EMBL; BC042677; AAH42677.1; -; mRNA.
+DR   CCDS; CCDS71524.1; -.
+DR   RefSeq; NP_001277933.1; NM_001291004.1.
+DR   RefSeq; NP_775547.2; NM_173371.4.
+DR   AlphaFoldDB; Q8CFX1; -.
+DR   SMR; Q8CFX1; -.
+DR   BioGRID; 221399; 2.
+DR   STRING; 10090.ENSMUSP00000030830; -.
+DR   GlyConnect; 2334; 2 N-Linked glycans (1 site).
+DR   GlyGen; Q8CFX1; 3 sites, 2 N-linked glycans (1 site).
+DR   iPTMnet; Q8CFX1; -.
+DR   PhosphoSitePlus; Q8CFX1; -.
+DR   SwissPalm; Q8CFX1; -.
+DR   EPD; Q8CFX1; -.
+DR   jPOST; Q8CFX1; -.
+DR   MaxQB; Q8CFX1; -.
+DR   PaxDb; Q8CFX1; -.
+DR   PRIDE; Q8CFX1; -.
+DR   ProteomicsDB; 271657; -.
+DR   Antibodypedia; 1350; 318 antibodies from 28 providers.
+DR   DNASU; 100198; -.
+DR   Ensembl; ENSMUST00000084117; ENSMUSP00000081134; ENSMUSG00000028980.
+DR   GeneID; 100198; -.
+DR   KEGG; mmu:100198; -.
+DR   UCSC; uc008vxh.2; mouse.
+DR   CTD; 9563; -.
+DR   MGI; MGI:2140356; H6pd.
+DR   VEuPathDB; HostDB:ENSMUSG00000028980; -.
+DR   eggNOG; KOG0563; Eukaryota.
+DR   eggNOG; KOG3147; Eukaryota.
+DR   GeneTree; ENSGT00530000063435; -.
+DR   HOGENOM; CLU_018975_0_0_1; -.
+DR   InParanoid; Q8CFX1; -.
+DR   OMA; DLHIFGQ; -.
+DR   OrthoDB; 383995at2759; -.
+DR   SABIO-RK; Q8CFX1; -.
+DR   UniPathway; UPA00115; UER00409.
+DR   BioGRID-ORCS; 100198; 0 hits in 72 CRISPR screens.
+DR   PRO; PR:Q8CFX1; -.
+DR   Proteomes; UP000000589; Chromosome 4.
+DR   RNAct; Q8CFX1; protein.
+DR   Bgee; ENSMUSG00000028980; Expressed in left lobe of liver and 191 other tissues.
+DR   ExpressionAtlas; Q8CFX1; baseline and differential.
+DR   Genevisible; Q8CFX1; MM.
+DR   GO; GO:0005737; C:cytoplasm; ISO:MGI.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IMP:MGI.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; ISS:UniProtKB.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; ISO:MGI.
+DR   GO; GO:0005739; C:mitochondrion; ISO:MGI.
+DR   GO; GO:0016529; C:sarcoplasmic reticulum; IMP:MGI.
+DR   GO; GO:0017057; F:6-phosphogluconolactonase activity; IDA:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; ISO:MGI.
+DR   GO; GO:0047934; F:glucose 1-dehydrogenase (NAD+) activity; IEA:RHEA.
+DR   GO; GO:0047935; F:glucose 1-dehydrogenase (NADP+) activity; IEA:RHEA.
+DR   GO; GO:0047936; F:glucose 1-dehydrogenase [NAD(P)] activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004345; F:glucose-6-phosphate dehydrogenase activity; IDA:MGI.
+DR   GO; GO:0050661; F:NADP binding; ISO:MGI.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; ISO:MGI.
+DR   GO; GO:0006006; P:glucose metabolic process; IBA:GO_Central.
+DR   GO; GO:0006739; P:NADP metabolic process; ISO:MGI.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IDA:MGI.
+DR   GO; GO:0009051; P:pentose-phosphate shunt, oxidative branch; ISS:UniProtKB.
+DR   GO; GO:2000064; P:regulation of cortisol biosynthetic process; IMP:UniProtKB.
+DR   CDD; cd01400; 6PGL; 1.
+DR   InterPro; IPR005900; 6-phosphogluconolactonase_DevB.
+DR   InterPro; IPR001282; G6P_DH.
+DR   InterPro; IPR019796; G6P_DH_AS.
+DR   InterPro; IPR022675; G6P_DH_C.
+DR   InterPro; IPR022674; G6P_DH_NAD-bd.
+DR   InterPro; IPR006148; Glc/Gal-6P_isomerase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   PANTHER; PTHR23429; PTHR23429; 1.
+DR   Pfam; PF02781; G6PD_C; 1.
+DR   Pfam; PF00479; G6PD_N; 1.
+DR   Pfam; PF01182; Glucosamine_iso; 1.
+DR   PRINTS; PR00079; G6PDHDRGNASE.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR01198; pgl; 1.
+DR   PROSITE; PS00069; G6P_DEHYDROGENASE; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Endoplasmic reticulum; Glucose metabolism;
+KW   Glycoprotein; Hydrolase; Multifunctional enzyme; NAD; NADP; Oxidoreductase;
+KW   Pyrrolidone carboxylic acid; Reference proteome; Signal.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000250|UniProtKB:P56201"
+FT   CHAIN           17..789
+FT                   /note="GDH/6PGL endoplasmic bifunctional protein"
+FT                   /id="PRO_0000236794"
+FT   REGION          17..524
+FT                   /note="Hexose-6-phosphate dehydrogenase"
+FT                   /evidence="ECO:0000305"
+FT   REGION          525..538
+FT                   /note="Linker"
+FT                   /evidence="ECO:0000305"
+FT   REGION          539..789
+FT                   /note="6-phosphogluconolactonase"
+FT                   /evidence="ECO:0000305"
+FT   ACT_SITE        264
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P11411"
+FT   BINDING         29..36
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         146
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         171
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         171
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         201..205
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         240
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         259
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         357
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   BINDING         362
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11413"
+FT   MOD_RES         17
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000250|UniProtKB:P56201"
+FT   MOD_RES         205
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0007744|PubMed:23806337"
+FT   MOD_RES         424
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0007744|PubMed:23806337"
+FT   CARBOHYD        154
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        279
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        681
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        77
+FT                   /note="V -> A (in Ref. 1; BAE35029, 2; CAQ51682 and 3;
+FT                   AAH42677)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        106
+FT                   /note="R -> H (in Ref. 1; BAE35029, 2; CAQ51682 and 3;
+FT                   AAH42677)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        285
+FT                   /note="A -> T (in Ref. 1; BAE35029, 2; CAQ51682 and 3;
+FT                   AAH42677)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   789 AA;  88928 MW;  E970CE8B35D3E1E5 CRC64;
+     MLLAAMCLAL LGCLQAQELK GHVSIILLGA TGDLAKKYLW QGLFQLYLDE AGKGHSFSFH
+     GAALTAPQQG QKLMDKVLES LSCPKDLVPS RCDELKGQFL QLSQYRQLKT VEDYQTLNKD
+     IETQVQQDGL WEAGRIFYFS VPPFAYADIA RNINSSCRPH PGAWLRVVFE KPFGHDHLSA
+     QQLASELGSF FQEEEMYRVD HYLGKQAVAQ ILPFRDQNRK ALDGLWNRHH VERVEIILKE
+     TIDAEGRASF YEEYGVIRDT LQNHLTEILT LVAMELPLNI SSSAAVLQHK LWAFQALRGL
+     QKSSAILGQY QAYSGQVRRE LQKPDGFQSL TPTFAGVLVH IDNLRWEGVP FILMSGKALD
+     ERVGYVRIVF KNRAYCTQSE RHWVPEQSRC LPQQIIFYIG HGELGHPAIL VSRNLFKPSL
+     PTQKWKEVQD QPGLRLFGRP LSDYYAYRPV REQDAYSTLL SHIFHCRKES FITTENLLAS
+     WVFWTPLLDS LAFEVPRPYP GGAENGQLLD FEFSGGQLTF SQQQLEVLIP DLGSVPKPSD
+     FQVLGARYRQ SPLITAWPEE LISKLASDIE AAAVQAVRHF GKFHLALSGG SSPIALFQQL
+     ATGHYSFPWA HTHLWLVDER CVPLSDPDSN FQGLQAHLLQ HVRVPYYNIH PMPVHLHQRL
+     CAEEDQGAQT YASEISALVA NSSFDLVLLG MGTDGHTASL FPQSPTGLDG DQLVVLTESP
+     FRPHQRMSLS LPLINRAKKV AVLVMGRTKR EITTLVSRVG HEPKKWPISG VVPLSGQLVW
+     YMDYEAFLG
+//

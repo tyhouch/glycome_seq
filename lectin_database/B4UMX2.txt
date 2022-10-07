@@ -1,0 +1,224 @@
+ID   B4UMX2_CANGA            Unreviewed;      1462 AA.
+AC   B4UMX2;
+DT   23-SEP-2008, integrated into UniProtKB/TrEMBL.
+DT   23-SEP-2008, sequence version 1.
+DT   03-AUG-2022, entry version 65.
+DE   RecName: Full=PA14 domain-containing protein {ECO:0000259|PROSITE:PS51820};
+GN   Name=EPA9 {ECO:0000313|CGD:CAL0126741};
+GN   OrderedLocusNames=CAGL0A01366g {ECO:0000313|CGD:CAL0126741,
+GN   ECO:0000313|EMBL:CAR57996.1};
+OS   Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL
+OS   Y-65) (Yeast) (Torulopsis glabrata).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Nakaseomyces;
+OC   Nakaseomyces/Candida clade.
+OX   NCBI_TaxID=284593 {ECO:0000313|EMBL:CAR57996.1, ECO:0000313|Proteomes:UP000002428};
+RN   [1] {ECO:0000313|EMBL:CAR57996.1, ECO:0000313|Proteomes:UP000002428}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65
+RC   {ECO:0000313|Proteomes:UP000002428};
+RX   PubMed=15229592; DOI=10.1038/nature02579;
+RG   Genolevures;
+RA   Dujon B., Sherman D., Fischer G., Durrens P., Casaregola S., Lafontaine I.,
+RA   de Montigny J., Marck C., Neuveglise C., Talla E., Goffard N., Frangeul L.,
+RA   Aigle M., Anthouard V., Babour A., Barbe V., Barnay S., Blanchin S.,
+RA   Beckerich J.M., Beyne E., Bleykasten C., Boisrame A., Boyer J.,
+RA   Cattolico L., Confanioleri F., de Daruvar A., Despons L., Fabre E.,
+RA   Fairhead C., Ferry-Dumazet H., Groppi A., Hantraye F., Hennequin C.,
+RA   Jauniaux N., Joyet P., Kachouri R., Kerrest A., Koszul R., Lemaire M.,
+RA   Lesur I., Ma L., Muller H., Nicaud J.M., Nikolski M., Oztas S.,
+RA   Ozier-Kalogeropoulos O., Pellenz S., Potier S., Richard G.F., Straub M.L.,
+RA   Suleau A., Swennene D., Tekaia F., Wesolowski-Louvel M., Westhof E.,
+RA   Wirth B., Zeniou-Meyer M., Zivanovic I., Bolotin-Fukuhara M., Thierry A.,
+RA   Bouchier C., Caudron B., Scarpelli C., Gaillardin C., Weissenbach J.,
+RA   Wincker P., Souciet J.L.;
+RT   "Genome evolution in yeasts.";
+RL   Nature 430:35-44(2004).
+RN   [2] {ECO:0007829|PDB:4CP0, ECO:0007829|PDB:4CP1}
+RP   X-RAY CRYSTALLOGRAPHY (2.15 ANGSTROMS) OF 39-305 IN COMPLEX WITH CALCIUM;
+RP   GALACTOSE AND N-ACETYL-D-GLUCOSAMINE, AND DISULFIDE BONDS.
+RA   Diderrich R., Kock M., Maestre-Reyna M., Rupp S., Essen L.-O.,
+RA   Moesch H.-U.;
+RT   "Functional reprogramming of Candida glabrata epithelial adhesins: the role
+RT   of conserved and variable structural motifs in ligand binding.";
+RL   Submitted (JAN-2014) to the PDB data bank.
+RN   [3] {ECO:0007829|PDB:6Y98}
+RP   X-RAY CRYSTALLOGRAPHY (2.80 ANGSTROMS) OF 39-305, AND DISULFIDE BONDS.
+RX   PubMed=32669365; DOI=10.1074/jbc.ra120.013968;
+RA   Hoffmann D., Diderrich R., Reithofer V., Friederichs S., Kock M.,
+RA   Essen L.O., Mosch H.U.;
+RT   "Functional reprogramming of <i>Candida glabrata</i> epithelial adhesins:
+RT   the role of conserved and variable structural motifs in ligand binding.";
+RL   J. Biol. Chem. 295:12512-12524(2020).
+CC   -!- SUBCELLULAR LOCATION: Cell surface {ECO:0000256|ARBA:ARBA00004241}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR380947; CAR57996.1; -; Genomic_DNA.
+DR   RefSeq; XP_002999512.1; XM_002999466.1.
+DR   PDB; 4CP0; X-ray; 2.15 A; A=39-305.
+DR   PDB; 4CP1; X-ray; 2.50 A; A=39-305.
+DR   PDB; 4CP2; X-ray; 2.60 A; A=39-305.
+DR   PDB; 6Y98; X-ray; 2.80 A; A=39-305.
+DR   PDBsum; 4CP0; -.
+DR   PDBsum; 4CP1; -.
+DR   PDBsum; 4CP2; -.
+DR   SMR; B4UMX2; -.
+DR   STRING; 5478.XP_002999512.1; -.
+DR   UniLectin; B4UMX2; -.
+DR   EnsemblFungi; CAR57996; CAR57996; CAGL0A01366g.
+DR   GeneID; 9487960; -.
+DR   KEGG; cgr:CAGL0A01366g; -.
+DR   CGD; CAL0126741; EPA9.
+DR   VEuPathDB; FungiDB:CAGL0A01366g; -.
+DR   HOGENOM; CLU_254288_0_0_1; -.
+DR   InParanoid; B4UMX2; -.
+DR   Proteomes; UP000002428; Chromosome A.
+DR   GO; GO:0009986; C:cell surface; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProt.
+DR   InterPro; IPR018871; GLEYA_adhesin_domain.
+DR   InterPro; IPR037524; PA14/GLEYA.
+DR   Pfam; PF10528; GLEYA; 1.
+DR   PROSITE; PS51820; PA14; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4CP0, ECO:0007829|PDB:4CP1};
+KW   Calcium {ECO:0007829|PDB:4CP0, ECO:0007829|PDB:4CP1};
+KW   Metal-binding {ECO:0007829|PDB:4CP0, ECO:0007829|PDB:4CP1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000002428};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           21..1462
+FT                   /note="PA14 domain-containing protein"
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002824606"
+FT   DOMAIN          119..281
+FT                   /note="PA14"
+FT                   /evidence="ECO:0000259|PROSITE:PS51820"
+FT   REGION          83..102
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1005..1418
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1007..1181
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1194..1208
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1209..1225
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1235..1287
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1301..1366
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1378..1403
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         196
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         196
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4CP0"
+FT   BINDING         196
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         197
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4CP0"
+FT   BINDING         197
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         256
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         257
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         258
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4CP0"
+FT   BINDING         258
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         258
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         258
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         259
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4CP2"
+FT   BINDING         260
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4CP0"
+FT   BINDING         260
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   BINDING         260
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4CP1, ECO:0007829|PDB:4CP2"
+FT   DISULFID        52..211
+FT                   /evidence="ECO:0007829|PDB:4CP0, ECO:0007829|PDB:4CP1"
+FT   DISULFID        109..151
+FT                   /evidence="ECO:0007829|PDB:4CP0, ECO:0007829|PDB:4CP1"
+FT   DISULFID        212..293
+FT                   /evidence="ECO:0007829|PDB:4CP0, ECO:0007829|PDB:4CP1"
+SQ   SEQUENCE   1462 AA;  154741 MW;  25398924CB235C13 CRC64;
+     MNEKIFWYLT LLFLFNLASS LPVEDKLSIK RVFQKRAVDI TPFAHYPRPE GCSSPPNAVS
+     VGLHMDLYNY PYLYVKNPRT GFTNDTDSDA DGETDGDSAG GIEGRAGQCW NPEYQDPNFP
+     RYGYKKYGSF GSSDHVNGKI SWDHNEFKEG CKPIMARLPT AYNYPAKITF SNFTMVLSGY
+     FKPKSTGLYK FEIHADDFIL FNFGSKNAFE CCNREESIDN FGPYVAYAMW PNEADQELEV
+     YLFEDSYYPI RLFYNNRDYH SKFMVGFYPP NTEEITYDFD GYLYMLDDTG NECKDSIRYK
+     TVCDDDVVDD TTFSTQYSTI MEPGGGTEVI TIYYIRMKCE EEDCIGQWDP INNICYTPED
+     CANDGGYWNG DMCDQSCKME GGIVNPDTGD CDKSCIESGG FLDENGNCDT TCRDDGGMLV
+     EGQCDYQCKE AGGILVGDHC DTTCVDSGGK LNEDGTCDHS CRDQGGQLDE SGECDTSCKD
+     SGGMLIEGEC DTSCKDEGGQ LDENNECDTH CKDQGGIIDE NGNCDTSCKD SGGKLDENGA
+     CDTSCRDDGG IIDENGNCNT TCRDDGGIIV GDHCDTSCRD AGGILIEDHC DTTCRDSGGK
+     LNEDGTCDHS CRDQGGQLDE NGKCDYSCKN GGGKLDEDGN CDMSCKENGG KLDENGDCDL
+     SCKEDGGKLD EDGNCDYSCK EEGGIIDESG NCNTTCKDSG GQIIDGECNY GCKEVGGVVI
+     DGECDTSCVD SGGILDGDGN CDRSCIESGG VLEDGACNTT CRDSGGKLNV DGTCDTSCRD
+     DGGMLVGDEC DYQCKEAGGI LVGDHCDTTC VDSGGKLNED GTCDHSCRDQ GGQLDESGEC
+     DTSCKDSGGM LIEGECDTSC KDEGGQLDEN NECDTHCKDQ GGIIDENGNC DTSCKDSGGK
+     LDENGACDTS CRDDGGIIDE NGNCNTTCRD DGGIIVGDHC DTSCRDAGGI LIEDHCDTTC
+     RDSGGKLNED GTCDHSCRDQ GGQLDENGDC DTSCIDAGGV LENGECVFPP TSSSTSETSS
+     TTDQSSSQSD DSSVESSSTP MDSSTIESSS SEIITSESES ESVPIASSSS EVMTSESESE
+     SIPILTSSSQ IPIASSSSEE VTSESESETV PILTSSSKII SSESGSQSVP ISSSSSEIVT
+     SQSESNIPSP NPEPRTTTIT TIITEDGQII TITTTVTGFV PEPTGESEGN GESDDENPEN
+     RIENNSDENE FVDPEFADDI PDDPAGPEDN GGNDPVNPEQ DNNNGPANPG QDSTNGSGNS
+     DQIDNNPPTP EENAGDGNSN GNDPADPSRR TSILGDERTR ASPGGTSQPT GANGNVNGNS
+     PGANVNGGGT GNSNNNNNNN NNNGNAPNGG DGSNGDANQG PSRRTSLLGD ERTRAGQAAP
+     TGGSSPNNGV AGDTSNNGGA IVSQQVDDGG AGSPRRTSIL GDVRSRTTLN GEVLNFEGSG
+     VRRAVAGNLA LPLMMVGLVF NL
+//

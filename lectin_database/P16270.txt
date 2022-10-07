@@ -1,0 +1,70 @@
+ID   LECN_PEA                Reviewed;         265 AA.
+AC   P16270;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 2.
+DT   25-MAY-2022, entry version 91.
+DE   RecName: Full=Non-seed lectin;
+DE   Flags: Precursor;
+OS   Pisum sativum (Garden pea).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; Hologalegina; IRL clade; Fabeae; Pisum.
+OX   NCBI_TaxID=3888;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=cv. Alaska;
+RX   PubMed=1581566; DOI=10.1007/bf00019200;
+RA   Pak J.H., Hendrickson T., Dobres M.S.;
+RT   "Predicted sequence and structure of a vegetative lectin in Pisum
+RT   sativum.";
+RL   Plant Mol. Biol. 18:857-863(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE OF 131-202.
+RC   STRAIN=cv. Alaska;
+RX   PubMed=16666629; DOI=10.1104/pp.89.3.833;
+RA   Dobres M.S., Thompson W.F.;
+RT   "A developmentally regulated bud specific transcript in pea has sequence
+RT   similarity to seed lectins.";
+RL   Plant Physiol. 89:833-838(1989).
+CC   -!- SUBUNIT: Monomer.
+CC   -!- TISSUE SPECIFICITY: Most highly expressed in the epidermal layer of
+CC       developing shoot tips.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L11745; AAA33675.1; -; Genomic_DNA.
+DR   EMBL; M25072; AAA33681.1; -; mRNA.
+DR   AlphaFoldDB; P16270; -.
+DR   SMR; P16270; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Glycoprotein; Lectin; Manganese; Signal.
+FT   SIGNAL          1..21
+FT                   /note="Or 23"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..265
+FT                   /note="Non-seed lectin"
+FT                   /id="PRO_0000017625"
+FT   CARBOHYD        59
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        127
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   265 AA;  28530 MW;  BC3CC98D7DBCA8B2 CRC64;
+     MALYRTKELV SLVSIMFVLL ATNIEALSFN FPKITPGNTA ITLQGNAKIL ANGVLALTNS
+     TQIPPTTTFP STGRALYSTP VPLWDSATGN VASFVTSFSF VILNPSGRVP TDGLVFFIAP
+     PDTEIPNNSQ SQYLGVVDSK TSINRFVGLE FDLYANSFDP YMRHIGIDIN SLISTKTVRY
+     NFVSGSLTKV TIIYDSPSNT LTAVITYENG QISTISQNVD LKAVLPKDVS VGFSATSTIA
+     VSHNIHSWSF TSNLEATTGN IVSQV
+//

@@ -1,0 +1,106 @@
+ID   Y392_MYCLE              Reviewed;         792 AA.
+AC   Q49736;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   03-AUG-2022, entry version 110.
+DE   RecName: Full=Uncharacterized glycosyl hydrolase ML0392;
+DE            EC=3.2.1.-;
+GN   OrderedLocusNames=ML0392; ORFNames=B1620_F1_30;
+OS   Mycobacterium leprae (strain TN).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=272631;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Smith D.R., Robison K.;
+RL   Submitted (MAR-1994) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TN;
+RX   PubMed=11234002; DOI=10.1038/35059006;
+RA   Cole S.T., Eiglmeier K., Parkhill J., James K.D., Thomson N.R.,
+RA   Wheeler P.R., Honore N., Garnier T., Churcher C.M., Harris D.E.,
+RA   Mungall K.L., Basham D., Brown D., Chillingworth T., Connor R.,
+RA   Davies R.M., Devlin K., Duthoy S., Feltwell T., Fraser A., Hamlin N.,
+RA   Holroyd S., Hornsby T., Jagels K., Lacroix C., Maclean J., Moule S.,
+RA   Murphy L.D., Oliver K., Quail M.A., Rajandream M.A., Rutherford K.M.,
+RA   Rutter S., Seeger K., Simon S., Simmonds M., Skelton J., Squares R.,
+RA   Squares S., Stevens K., Taylor K., Whitehead S., Woodward J.R.,
+RA   Barrell B.G.;
+RT   "Massive gene decay in the leprosy bacillus.";
+RL   Nature 409:1007-1011(2001).
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 65 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U00015; AAC43240.1; -; Genomic_DNA.
+DR   EMBL; AL583918; CAC29900.1; -; Genomic_DNA.
+DR   PIR; S72831; S72831.
+DR   RefSeq; NP_301380.1; NC_002677.1.
+DR   RefSeq; WP_010907704.1; NC_002677.1.
+DR   AlphaFoldDB; Q49736; -.
+DR   SMR; Q49736; -.
+DR   STRING; 272631.ML0392; -.
+DR   CAZy; GH65; Glycoside Hydrolase Family 65.
+DR   EnsemblBacteria; CAC29900; CAC29900; CAC29900.
+DR   KEGG; mle:ML0392; -.
+DR   PATRIC; fig|272631.5.peg.660; -.
+DR   Leproma; ML0392; -.
+DR   eggNOG; COG1554; Bacteria.
+DR   HOGENOM; CLU_006285_2_2_11; -.
+DR   OMA; EAYCIPF; -.
+DR   Proteomes; UP000000806; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016757; F:glycosyltransferase activity; IEA:UniProt.
+DR   GO; GO:0016798; F:hydrolase activity, acting on glycosyl bonds; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 1.50.10.10; -; 1.
+DR   Gene3D; 2.70.98.40; -; 1.
+DR   InterPro; IPR008928; 6-hairpin_glycosidase_sf.
+DR   InterPro; IPR012341; 6hp_glycosidase-like_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR005194; Glyco_hydro_65_C.
+DR   InterPro; IPR005195; Glyco_hydro_65_M.
+DR   InterPro; IPR005196; Glyco_hydro_65_N.
+DR   InterPro; IPR037018; Glyco_hydro_65_N_sf.
+DR   InterPro; IPR017045; Malt_Pase/Glycosyl_Hdrlase.
+DR   Pfam; PF03633; Glyco_hydro_65C; 1.
+DR   Pfam; PF03632; Glyco_hydro_65m; 1.
+DR   Pfam; PF03636; Glyco_hydro_65N; 1.
+DR   PIRSF; PIRSF036289; Glycosyl_hydrolase_malt_phosph; 1.
+DR   SUPFAM; SSF48208; SSF48208; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           1..792
+FT                   /note="Uncharacterized glycosyl hydrolase ML0392"
+FT                   /id="PRO_0000108020"
+FT   REGION          753..792
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        488
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q32M88"
+FT   BINDING         361..362
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:D6XZ22"
+FT   BINDING         590..591
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:D6XZ22"
+SQ   SEQUENCE   792 AA;  88087 MW;  DFAFCBBCCA4E20C8 CRC64;
+     MITEEAFPVE PWQIRETRLD LNLLAQSESL FALSNGHIGL RGNLDEGEPY GLPGTYLNSF
+     YEIRPLPYAE AGYGYPEAGQ TVVDVTNGKI LRLFVEDEPF DVRYGEVIFH ERVLDLCAGT
+     LTRRANWRSP ADKQVKVVST RLVSLAHRSV AAIEYVVEAL DKFVRVTVQS ELVSNEDQPE
+     TSGDPRVSAI LDNPLEAVEH EATERGGLLM HRTRASSLMM AAGMDHEVEV PGRVEITTDA
+     RPDLARTTVI CGLRPGQKLR IVKYLAYGWS SLRSRPALHD QATAALHTAR YSGWQGLLDA
+     QRAYLNEFWD SADVEVEGDP ESQQAVRFGL FHLLQASARA ERRAIPSKGL TGTGYDGHAF
+     WDTEGFVLPV LTYTAPHAVA DALRWRASTL QLAKDRAAEL GLDGASFCWR TIRGQECSAY
+     WPAGTAAWHI NADIAMAFER YRIVTGDHSL EEECGLAVLI ETARLWLSLG HHDRHGVWHL
+     DGVTGPDEYT AVVRDNVFTN LMAASNLITA ADACLRQPEA AKAMGVTTEE MAAWRDAADA
+     ANIPYDDELG VHQQCEGFTT FAEWDFEANT TYPLFLHEAY VRLYPAQVIK QADLVLAMQW
+     QSHAFTPEQK ARNVDYYERR MVRDSSLSAC TQAVMCAEVG HLELAHDYAY EAALIDLRDL
+     HRNTRDGLHM ASLAGAWTAL VGGFGGLRDD EGILSIDPQL PHGISRLRFR LRWRGFRLTV
+     DARHADVTYT LRDGPGGELT IRHAGEHLTL KSDSPSTIAV RDRKPLLPPP SQPPGREPVS
+     RRHKSLIISA AR
+//

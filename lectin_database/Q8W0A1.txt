@@ -1,0 +1,162 @@
+ID   BGAL2_ORYSJ             Reviewed;         827 AA.
+AC   Q8W0A1; B7EU06;
+DT   10-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   03-AUG-2022, entry version 116.
+DE   RecName: Full=Beta-galactosidase 2;
+DE            Short=Lactase 2;
+DE            EC=3.2.1.23;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=Os01g0580200, LOC_Os01g39830; ORFNames=P0672C09.21;
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12447438; DOI=10.1038/nature01184;
+RA   Sasaki T., Matsumoto T., Yamamoto K., Sakata K., Baba T., Katayose Y.,
+RA   Wu J., Niimura Y., Cheng Z., Nagamura Y., Antonio B.A., Kanamori H.,
+RA   Hosokawa S., Masukawa M., Arikawa K., Chiden Y., Hayashi M., Okamoto M.,
+RA   Ando T., Aoki H., Arita K., Hamada M., Harada C., Hijishita S., Honda M.,
+RA   Ichikawa Y., Idonuma A., Iijima M., Ikeda M., Ikeno M., Ito S., Ito T.,
+RA   Ito Y., Ito Y., Iwabuchi A., Kamiya K., Karasawa W., Katagiri S.,
+RA   Kikuta A., Kobayashi N., Kono I., Machita K., Maehara T., Mizuno H.,
+RA   Mizubayashi T., Mukai Y., Nagasaki H., Nakashima M., Nakama Y.,
+RA   Nakamichi Y., Nakamura M., Namiki N., Negishi M., Ohta I., Ono N., Saji S.,
+RA   Sakai K., Shibata M., Shimokawa T., Shomura A., Song J., Takazaki Y.,
+RA   Terasawa K., Tsuji K., Waki K., Yamagata H., Yamane H., Yoshiki S.,
+RA   Yoshihara R., Yukawa K., Zhong H., Iwama H., Endo T., Ito H., Hahn J.H.,
+RA   Kim H.-I., Eun M.-Y., Yano M., Jiang J., Gojobori T.;
+RT   "The genome sequence and structure of rice chromosome 1.";
+RL   Nature 420:312-316(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=18089549; DOI=10.1093/nar/gkm978;
+RG   The rice annotation project (RAP);
+RT   "The rice annotation project database (RAP-DB): 2008 update.";
+RL   Nucleic Acids Res. 36:D1028-D1033(2008).
+RN   [4]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=24280374; DOI=10.1186/1939-8433-6-4;
+RA   Kawahara Y., de la Bastide M., Hamilton J.P., Kanamori H., McCombie W.R.,
+RA   Ouyang S., Schwartz D.C., Tanaka T., Wu J., Zhou S., Childs K.L.,
+RA   Davidson R.M., Lin H., Quesada-Ocampo L., Vaillancourt B., Sakai H.,
+RA   Lee S.S., Kim J., Numa H., Itoh T., Buell C.R., Matsumoto T.;
+RT   "Improvement of the Oryza sativa Nipponbare reference genome using next
+RT   generation sequence and optical map data.";
+RL   Rice 6:4-4(2013).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12869764; DOI=10.1126/science.1081288;
+RG   The rice full-length cDNA consortium;
+RT   "Collection, mapping, and annotation of over 28,000 cDNA clones from
+RT   japonica rice.";
+RL   Science 301:376-379(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, apoplast
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 35 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP003546; BAB84455.1; -; Genomic_DNA.
+DR   EMBL; AP008207; BAF05319.1; -; Genomic_DNA.
+DR   EMBL; AP014957; BAS72858.1; -; Genomic_DNA.
+DR   EMBL; AK103045; BAG95853.1; -; mRNA.
+DR   RefSeq; XP_015621619.1; XM_015766133.1.
+DR   AlphaFoldDB; Q8W0A1; -.
+DR   SMR; Q8W0A1; -.
+DR   STRING; 4530.OS01T0580200-01; -.
+DR   CAZy; GH35; Glycoside Hydrolase Family 35.
+DR   PaxDb; Q8W0A1; -.
+DR   PRIDE; Q8W0A1; -.
+DR   EnsemblPlants; Os01t0580200-01; Os01t0580200-01; Os01g0580200.
+DR   GeneID; 4324191; -.
+DR   Gramene; Os01t0580200-01; Os01t0580200-01; Os01g0580200.
+DR   KEGG; osa:4324191; -.
+DR   eggNOG; KOG0496; Eukaryota.
+DR   HOGENOM; CLU_007853_4_0_1; -.
+DR   InParanoid; Q8W0A1; -.
+DR   OMA; QSYNDEP; -.
+DR   OrthoDB; 179316at2759; -.
+DR   Proteomes; UP000000763; Chromosome 1.
+DR   Proteomes; UP000059680; Chromosome 1.
+DR   Genevisible; Q8W0A1; OS.
+DR   GO; GO:0048046; C:apoplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005773; C:vacuole; IBA:GO_Central.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR041392; GHD.
+DR   InterPro; IPR031330; Gly_Hdrlase_35_cat.
+DR   InterPro; IPR019801; Glyco_hydro_35_CS.
+DR   InterPro; IPR001944; Glycoside_Hdrlase_35.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   PANTHER; PTHR23421; PTHR23421; 1.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   Pfam; PF17834; GHD; 1.
+DR   Pfam; PF01301; Glyco_hydro_35; 1.
+DR   PRINTS; PR00742; GLHYDRLASE35.
+DR   SUPFAM; SSF49785; SSF49785; 2.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS01182; GLYCOSYL_HYDROL_F35; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Apoplast; Glycoprotein; Glycosidase; Hydrolase; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           25..827
+FT                   /note="Beta-galactosidase 2"
+FT                   /id="PRO_0000294153"
+FT   DOMAIN          741..827
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   ACT_SITE        182
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        251
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        209
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        458
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   827 AA;  91549 MW;  100D0225FF558261 CRC64;
+     MAASAVAVAF VVAVAAVLAA AASAAVTYDR KAVVVNGQRR ILISGSIHYP RSTPEMWPDL
+     IEKAKDGGLD VVQTYVFWNG HEPSPGQYYF EGRYDLVHFI KLVKQAGLYV NLRIGPYVCA
+     EWNFGGFPVW LKYVPGISFR TDNEPFKAEM QKFTTKIVEM MKSEGLFEWQ GGPIILSQIE
+     NEFGPLEWDQ GEPAKAYASW AANMAVALNT SVPWIMCKED DAPDPIINTC NGFYCDWFSP
+     NKPHKPTMWT EAWTAWYTGF GIPVPHRPVE DLAYGVAKFI QKGGSFVNYY MYHGGTNFGR
+     TAGGPFIATS YDYDAPIDEY GLLREPKWGH LKQLHKAIKL CEPALVAGDP IVTSLGNAQK
+     SSVFRSSTGA CAAFLENKDK VSYARVAFNG MHYDLPPWSI SILPDCKTTV FNTARVGSQI
+     SQMKMEWAGG FAWQSYNEEI NSFGEDPLTT VGLLEQINVT RDNTDYLWYT TYVDVAQDEQ
+     FLSNGENLKL TVMSAGHALH IFINGQLKGT VYGSVDDPKL TYTGNVKLWA GSNTISCLSI
+     AVGLPNVGEH FETWNAGILG PVTLDGLNEG RRDLTWQKWT YQVGLKGESM SLHSLSGSST
+     VEWGEPVQKQ PLTWYKAFFN APDGDEPLAL DMSSMGKGQI WINGQGIGRY WPGYKASGNC
+     GTCDYRGEYD ETKCQTNCGD SSQRWYHVPR SWLSPTGNLL VIFEEWGGDP TGISMVKRSI
+     GSVCADVSEW QPSMKNWHTK DYEKAKVHLQ CDNGQKITEI KFASFGTPQG SCGSYTEGGC
+     HAHKSYDIFW KNCVGQERCG VSVVPEIFGG DPCPGTMKRA VVEAICG
+//

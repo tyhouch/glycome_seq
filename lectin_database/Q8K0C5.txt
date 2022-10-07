@@ -1,0 +1,119 @@
+ID   ZG16_MOUSE              Reviewed;         167 AA.
+AC   Q8K0C5;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   03-AUG-2022, entry version 116.
+DE   RecName: Full=Zymogen granule membrane protein 16;
+DE            Short=Zymogen granule protein 16;
+DE   AltName: Full=Secretory lectin ZG16;
+DE   Flags: Precursor;
+GN   Name=Zg16;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=FVB/N; TISSUE=Colon;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver, Lung, Pancreas, and Spleen;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: May play a role in protein trafficking. May act as a linker
+CC       molecule between the submembranous matrix on the luminal side of
+CC       zymogen granule membrane (ZGM) and aggregated secretory proteins during
+CC       granule formation in the TGN (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250|UniProtKB:O60844}. Zymogen granule lumen
+CC       {ECO:0000250|UniProtKB:Q8CJD3}. Golgi apparatus lumen
+CC       {ECO:0000250|UniProtKB:Q8CJD3}.
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC031800; AAH31800.1; -; mRNA.
+DR   CCDS; CCDS21856.1; -.
+DR   RefSeq; NP_081194.1; NM_026918.2.
+DR   RefSeq; XP_006508238.1; XM_006508175.3.
+DR   AlphaFoldDB; Q8K0C5; -.
+DR   SMR; Q8K0C5; -.
+DR   STRING; 10090.ENSMUSP00000056916; -.
+DR   iPTMnet; Q8K0C5; -.
+DR   PhosphoSitePlus; Q8K0C5; -.
+DR   PaxDb; Q8K0C5; -.
+DR   PeptideAtlas; Q8K0C5; -.
+DR   PRIDE; Q8K0C5; -.
+DR   ProteomicsDB; 275366; -.
+DR   Antibodypedia; 43439; 94 antibodies from 17 providers.
+DR   DNASU; 69036; -.
+DR   Ensembl; ENSMUST00000051122; ENSMUSP00000056916; ENSMUSG00000049350.
+DR   Ensembl; ENSMUST00000205424; ENSMUSP00000145876; ENSMUSG00000049350.
+DR   GeneID; 69036; -.
+DR   KEGG; mmu:69036; -.
+DR   UCSC; uc009jue.1; mouse.
+DR   CTD; 653808; -.
+DR   MGI; MGI:1916286; Zg16.
+DR   VEuPathDB; HostDB:ENSMUSG00000049350; -.
+DR   eggNOG; ENOG502S4MA; Eukaryota.
+DR   GeneTree; ENSGT00940000159195; -.
+DR   HOGENOM; CLU_104246_0_0_1; -.
+DR   InParanoid; Q8K0C5; -.
+DR   OMA; HWDSYPS; -.
+DR   OrthoDB; 1305607at2759; -.
+DR   PhylomeDB; Q8K0C5; -.
+DR   TreeFam; TF333440; -.
+DR   BioGRID-ORCS; 69036; 4 hits in 71 CRISPR screens.
+DR   ChiTaRS; Zg16; mouse.
+DR   PRO; PR:Q8K0C5; -.
+DR   Proteomes; UP000000589; Chromosome 7.
+DR   RNAct; Q8K0C5; protein.
+DR   Bgee; ENSMUSG00000049350; Expressed in left colon and 158 other tissues.
+DR   ExpressionAtlas; Q8K0C5; baseline and differential.
+DR   Genevisible; Q8K0C5; MM.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; ISS:UniProtKB.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005796; C:Golgi lumen; ISS:UniProtKB.
+DR   GO; GO:0070701; C:mucus layer; IDA:MGI.
+DR   GO; GO:0042589; C:zymogen granule membrane; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042834; F:peptidoglycan binding; IDA:MGI.
+DR   GO; GO:0050830; P:defense response to Gram-positive bacterium; IMP:MGI.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   GO; GO:0052373; P:suppression of symbiont entry into host; IMP:MGI.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   InterPro; IPR033563; ZG16.
+DR   PANTHER; PTHR33589:SF4; PTHR33589:SF4; 1.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasmic vesicle; Extracellular matrix; Golgi apparatus; Lectin;
+KW   Protein transport; Reference proteome; Secreted; Signal; Transport.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           17..167
+FT                   /note="Zymogen granule membrane protein 16"
+FT                   /id="PRO_0000017571"
+FT   DOMAIN          24..159
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+SQ   SEQUENCE   167 AA;  18210 MW;  C1D42C5468B86475 CRC64;
+     MLAVALLVLL CASASANSIQ SRTSSYSGEY GGKGGKRFSH SGNQLDGPIT AFRIRVNRYY
+     IVGLQVRYGT VWSDYVGGTQ GDLEEIFLHP GESVIQVSGK YKSYVKQMIF VTDKGRYLPF
+     GKASGTSFNA VPLHPNTVLR FISGRSGSAI DSISLHWDTY PSHCNTC
+//

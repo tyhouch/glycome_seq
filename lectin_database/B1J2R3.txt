@@ -1,0 +1,92 @@
+ID   OPGG_PSEPW              Reviewed;         579 AA.
+AC   B1J2R3;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   03-AUG-2022, entry version 74.
+DE   RecName: Full=Glucans biosynthesis protein G {ECO:0000255|HAMAP-Rule:MF_01069};
+DE   Flags: Precursor;
+GN   Name=opgG {ECO:0000255|HAMAP-Rule:MF_01069};
+GN   OrderedLocusNames=PputW619_0439;
+OS   Pseudomonas putida (strain W619).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=390235;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=W619;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Dalin E., Tice H., Pitluck S., Chain P., Malfatti S.,
+RA   Shin M., Vergez L., Schmutz J., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Kim E., Taghavi S., Vangronsveld D., van der Lelie D.,
+RA   Richardson P.;
+RT   "Complete sequence of Pseudomonas putida W619.";
+RL   Submitted (FEB-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the biosynthesis of osmoregulated periplasmic
+CC       glucans (OPGs). {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000949; ACA70944.1; -; Genomic_DNA.
+DR   AlphaFoldDB; B1J2R3; -.
+DR   SMR; B1J2R3; -.
+DR   STRING; 390235.PputW619_0439; -.
+DR   PRIDE; B1J2R3; -.
+DR   EnsemblBacteria; ACA70944; ACA70944; PputW619_0439.
+DR   KEGG; ppw:PputW619_0439; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; KRPSAWI; -.
+DR   UniPathway; UPA00637; -.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01069; MdoG_OpgG; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR023704; MdoG_OpgG.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..37
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01069"
+FT   CHAIN           38..579
+FT                   /note="Glucans biosynthesis protein G"
+FT                   /id="PRO_5000314592"
+FT   REGION          516..579
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        516..540
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        548..570
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   579 AA;  64620 MW;  4E7084B21D4B479F CRC64;
+     MIVSPHKASR IPGNRLRKAL MASAALVGLM SAGQLWAFNL DDVAAKAKDL AGQKYEAPKS
+     NLPAVFRDMK FADYQKIRFL QEKAEWAKDK TPFKLSFYHQ GMHFDTPVKI NEVTATTVEE
+     IKYDPSRFEF GDVPHDPETT KNLGYAGFRV LYPINKADKQ DEIMTLLGAS YFRVVGKGHV
+     YGLSARGLAI DTALPSGEEF PRFTEFWVEK PKPADKHLVI YALLDSPRST GAYKLILRPG
+     NDTVVDVQSR VFLRDHVSRL GIAPLTSMYL FGPNQPSKVM NYRPALHDSE GLSIHAGNGE
+     WLWRPLNNPK HLSVSNFSVE NPRGFGLMQR HRDFKDYEDL DDNYQKRPSA WIEPKGDWGK
+     GTVDLVEIPT ADETNDNIVA FWSPETLPEP GKPFEYDYRM HWTIDESRFQ AQELGSVTQT
+     MRSTGDVKQS NLIRQPDGSV AFLVDFAGPA LAALPEDAAV RSQISVGDNA EVVENNLRYN
+     PETKGWRLTL RMKIKEANKA TEMRAALVRD VPVEAAKPAE EAKHDKTAAK HGKAEKAAKA
+     EQSANAEQPA ADAASTNGTP ATTEKVLTET WSYQLPADE
+//

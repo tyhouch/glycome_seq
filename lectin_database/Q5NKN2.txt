@@ -1,0 +1,121 @@
+ID   KRBBC_RAT               Reviewed;         223 AA.
+AC   Q5NKN2;
+DT   26-JUN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   03-AUG-2022, entry version 74.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily B member 1B allele C;
+DE   AltName: Full=CD161 antigen-like family member B;
+DE   AltName: Full=Natural killer cell surface protein NKR-P1B allele TO;
+DE   AltName: CD_antigen=CD161b;
+GN   Name=Klrb1b {ECO:0000312|EMBL:AAQ11375.1};
+GN   Synonyms=Nkrp1b {ECO:0000250|UniProtKB:P27812};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:AAQ11375.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=TO {ECO:0000312|EMBL:AAQ11375.1};
+RA   Hundrieser J., Wonigeit K.;
+RT   "mRNA for NKR-P1B protein of Rattus norvegicus strain TO.";
+RL   Submitted (AUG-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, AND TISSUE SPECIFICITY.
+RX   PubMed=16547249; DOI=10.4049/jimmunol.176.7.4133;
+RA   Kveberg L., Baeck C.J., Dai K.-Z., Inngjerdingen M., Rolstad B., Ryan J.C.,
+RA   Vaage J.T., Naper C.;
+RT   "The novel inhibitory NKR-P1C receptor and Ly49s3 identify two
+RT   complementary, functionally distinct NK cell subsets in rats.";
+RL   J. Immunol. 176:4133-4140(2006).
+RN   [3] {ECO:0000305}
+RP   FUNCTION, AND POLYMORPHISM.
+RX   PubMed=17462921; DOI=10.1016/j.immuni.2007.03.013;
+RA   Voigt S., Mesci A., Ettinger J., Fine J.H., Chen P., Chou W., Carlyle J.R.;
+RT   "Cytomegalovirus evasion of innate immunity by subversion of the NKR-
+RT   P1B:Ocil/Clr-b missing-self axis.";
+RL   Immunity 26:617-627(2007).
+CC   -!- FUNCTION: Receptor for CLEC2D/OCIL. Ligand-binding contributes to
+CC       inhibition of cytotoxic natural killer (NK) cells. May mediate MHC
+CC       class I-independent 'missing-self' recognition of allografts, tumor
+CC       cells and virus-infected cells. {ECO:0000269|PubMed:16547249,
+CC       ECO:0000269|PubMed:17462921}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Interacts with tyrosine kinase
+CC       LCK. Binds PTPN6/SHP-1 in a phosphorylation-dependent manner.
+CC       {ECO:0000250|UniProtKB:P27812, ECO:0000269|PubMed:16547249}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Single-pass type II
+CC       membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in a subset of natural killer cells.
+CC       {ECO:0000269|PubMed:16547249}.
+CC   -!- DOMAIN: Contains 1 copy of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). The
+CC       phosphorylated ITIM motif can bind the SH2 domain of several SH2-
+CC       containing phosphatases leading to down-regulation of cell activation
+CC       (By similarity). {ECO:0000250|UniProtKB:P27812}.
+CC   -!- POLYMORPHISM: Alleles A, B and C are highly divergent forms of Klrb1b.
+CC       Alleles A and B differ in their susceptibility to evasion of innate
+CC       immunity by the rat cytomegalovirus (CMV). In contrast to allele B,
+CC       allele A shows very low binding of a viral protein mimicking the Klrb1b
+CC       ligand CLEC2D as well as low susceptibility to this MHC class I-
+CC       independent viral evasion mechanism. {ECO:0000269|PubMed:17462921}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF541943; AAQ11375.1; -; mRNA.
+DR   AlphaFoldDB; Q5NKN2; -.
+DR   SMR; Q5NKN2; -.
+DR   UCSC; RGD:2975; rat.
+DR   RGD; 2975; Klrb1b.
+DR   PhylomeDB; Q5NKN2; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0042269; P:regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Lectin; Membrane; Receptor; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..223
+FT                   /note="Killer cell lectin-like receptor subfamily B member
+FT                   1B allele C"
+FT                   /id="PRO_0000292986"
+FT   TOPO_DOM        1..45
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        46..66
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        67..223
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          101..211
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           5..10
+FT                   /note="ITIM motif"
+FT   MOTIF           31..34
+FT                   /note="LCK-binding motif"
+FT                   /evidence="ECO:0000250|UniProtKB:P27812"
+FT   DISULFID        122..210
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        189..202
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   223 AA;  24882 MW;  F4C01C9FC6577DA2 CRC64;
+     MDTAVVYADL HLARTGEPKR ESPPSLSPDT CQCPRWHRLA LKLGCACFIL LVLSVIGLGV
+     LVLTLLQKPL LQNSPADVQE NRTKSTDSPA KLKCPKDWLS HRDKCFHVSQ TSNSWKESLA
+     DCDGKGATLL LIQDQEELRF VRNLTKGKDR SFWIGLSYTL PDRNWKWING STLNSDVLSI
+     TGDTEKGSCA SVSQDKVLSE SCDSDNIWIC QKELKRESTC NDS
+//

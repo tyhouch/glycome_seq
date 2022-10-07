@@ -1,0 +1,346 @@
+ID   SUSB_BACTN              Reviewed;         738 AA.
+AC   G8JZS4; P71094; Q7C3Z2;
+DT   19-MAR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   25-JAN-2012, sequence version 1.
+DT   03-AUG-2022, entry version 58.
+DE   RecName: Full=Glucan 1,4-alpha-glucosidase SusB;
+DE            EC=3.2.1.3;
+DE   AltName: Full=Alpha-glucosidase SusB;
+DE   AltName: Full=Glucoamylase SusB;
+DE   AltName: Full=Starch-utilization system protein B;
+DE   Flags: Precursor;
+GN   Name=susB; OrderedLocusNames=BT_3703;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND SUBCELLULAR LOCATION.
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=8955399; DOI=10.1128/jb.178.24.7173-7179.1996;
+RA   D'Elia J.N., Salyers A.A.;
+RT   "Contribution of a neopullulanase, a pullulanase, and an alpha-glucosidase
+RT   to growth of Bacteroides thetaiotaomicron on starch.";
+RL   J. Bacteriol. 178:7173-7179(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF 22-738 IN COMPLEX WITH CALCIUM
+RP   AND ACARBOSE, FUNCTION, ACTIVE SITE, COFACTOR, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, CATALYTIC ACTIVITY, SUBUNIT, AND MUTAGENESIS OF GLU-439;
+RP   GLU-508 AND GLU-532.
+RX   PubMed=18981178; DOI=10.1074/jbc.m806115200;
+RA   Kitamura M., Okuyama M., Tanzawa F., Mori H., Kitago Y., Watanabe N.,
+RA   Kimura A., Tanaka I., Yao M.;
+RT   "Structural and functional analysis of a glycoside hydrolase family 97
+RT   enzyme from Bacteroides thetaiotaomicron.";
+RL   J. Biol. Chem. 283:36328-36337(2008).
+CC   -!- FUNCTION: Glucoamylase that hydrolyzes alpha-1,4-glucosidic linkages,
+CC       alpha-1,6-, alpha-1,3- and alpha-1,2-glucosidic linkages during starch
+CC       degradation. {ECO:0000269|PubMed:18981178, ECO:0000269|PubMed:8955399}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal (1->4)-linked alpha-D-glucose residues
+CC         successively from non-reducing ends of the chains with release of
+CC         beta-D-glucose.; EC=3.2.1.3; Evidence={ECO:0000269|PubMed:18981178};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:18981178};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000269|PubMed:18981178};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.05 mM for maltose {ECO:0000269|PubMed:18981178};
+CC         KM=0.29 mM for maltotriose {ECO:0000269|PubMed:18981178};
+CC         KM=0.64 mM for maltotetraose {ECO:0000269|PubMed:18981178};
+CC         KM=1.29 mM for maltopentaose {ECO:0000269|PubMed:18981178};
+CC         KM=2.71 mM for maltohexaose {ECO:0000269|PubMed:18981178};
+CC         KM=4.58 mM for maltoheptaose {ECO:0000269|PubMed:18981178};
+CC         KM=6.89 mM for amylose DP17 {ECO:0000269|PubMed:18981178};
+CC         KM=0.67 mM for soluble starch {ECO:0000269|PubMed:18981178};
+CC         KM=2.39 mM for kojibiose {ECO:0000269|PubMed:18981178};
+CC         KM=3.14 mM for nigerose {ECO:0000269|PubMed:18981178};
+CC         KM=6.34 mM for isomaltose {ECO:0000269|PubMed:18981178};
+CC         KM=0.31 mM for panose {ECO:0000269|PubMed:18981178};
+CC         KM=0.16 mM for p-nitrophenyl alpha-glucoside
+CC         {ECO:0000269|PubMed:18981178};
+CC         Note=kcat is 182 sec(-1) for maltose. kcat is 270 sec(-1) for
+CC         maltotriose. kcat is 321 sec(-1) for maltotetraose. kcat is 434
+CC         sec(-1) for maltopentaose. kcat is 346 sec(-1) for maltohexaose. kcat
+CC         is 381 sec(-1) for maltoheptaose. kcat is 321 sec(-1) for amylose
+CC         DP17. kcat is 115 sec(-1) for soluble starch. kcat is 141 sec(-1) for
+CC         kojibiose. kcat is 207 sec(-1) for nigerose. kcat is 105 sec(-1) for
+CC         isomaltose. kcat is 160 sec(-1) for panose. kcat is 161 sec(-1) for
+CC         p-nitrophenyl alpha-glucoside. {ECO:0000269|PubMed:18981178};
+CC       pH dependence:
+CC         Optimum pH is 6.5. {ECO:0000269|PubMed:18981178};
+CC   -!- PATHWAY: Glycan degradation; starch degradation.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:18981178}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305|PubMed:8955399}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 97 family. {ECO:0000305}.
+CC   -!- CAUTION: Although initially defined as an alpha-glucosidase, it
+CC       produces beta-glucose by an inverting mechanism, suggesting it rather
+CC       acts as a glucan 1,4-alpha-glucosidase. {ECO:0000305|PubMed:18981178}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U66897; AAC44671.1; -; Genomic_DNA.
+DR   EMBL; AE015928; AAO78808.1; -; Genomic_DNA.
+DR   RefSeq; NP_812614.1; NC_004663.1.
+DR   RefSeq; WP_008767003.1; NC_004663.1.
+DR   PDB; 2D73; X-ray; 1.60 A; A/B=22-738.
+DR   PDB; 2JKA; X-ray; 1.90 A; A/B=22-738.
+DR   PDB; 2JKE; X-ray; 1.70 A; A/B=22-738.
+DR   PDB; 2JKP; X-ray; 1.99 A; A/B=22-738.
+DR   PDB; 2ZQ0; X-ray; 1.60 A; A/B=22-738.
+DR   PDB; 3WFA; X-ray; 2.00 A; A/B=22-738.
+DR   PDBsum; 2D73; -.
+DR   PDBsum; 2JKA; -.
+DR   PDBsum; 2JKE; -.
+DR   PDBsum; 2JKP; -.
+DR   PDBsum; 2ZQ0; -.
+DR   PDBsum; 3WFA; -.
+DR   AlphaFoldDB; G8JZS4; -.
+DR   SMR; G8JZS4; -.
+DR   STRING; 226186.BT_3703; -.
+DR   CAZy; GH97; Glycoside Hydrolase Family 97.
+DR   PaxDb; G8JZS4; -.
+DR   PRIDE; G8JZS4; -.
+DR   EnsemblBacteria; AAO78808; AAO78808; BT_3703.
+DR   GeneID; 60924872; -.
+DR   KEGG; bth:BT_3703; -.
+DR   PATRIC; fig|226186.12.peg.3763; -.
+DR   eggNOG; COG1082; Bacteria.
+DR   HOGENOM; CLU_011166_2_0_10; -.
+DR   OMA; MMKTDDG; -.
+DR   SABIO-RK; G8JZS4; -.
+DR   UniPathway; UPA00153; -.
+DR   PRO; PR:G8JZS4; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IDA:MENGO.
+DR   GO; GO:0004558; F:alpha-1,4-glucosidase activity; IMP:MENGO.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004339; F:glucan 1,4-alpha-glucosidase activity; IDA:UniProtKB.
+DR   GO; GO:0005983; P:starch catabolic process; IDA:UniProtKB.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR029483; GH97_C.
+DR   InterPro; IPR019563; GH97_catalytic.
+DR   InterPro; IPR029486; GH97_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF14509; GH97_C; 1.
+DR   Pfam; PF14508; GH97_N; 1.
+DR   Pfam; PF10566; Glyco_hydro_97; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Carbohydrate metabolism; Glycosidase; Hydrolase;
+KW   Metal-binding; Periplasm; Polysaccharide degradation; Reference proteome;
+KW   Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..738
+FT                   /note="Glucan 1,4-alpha-glucosidase SusB"
+FT                   /id="PRO_0000425886"
+FT   ACT_SITE        532
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000305|PubMed:18981178"
+FT   BINDING         194
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18981178"
+FT   BINDING         215..217
+FT                   /ligand="substrate"
+FT   BINDING         437..439
+FT                   /ligand="substrate"
+FT   BINDING         507..508
+FT                   /ligand="substrate"
+FT   BINDING         508
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18981178"
+FT   BINDING         526
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18981178"
+FT   BINDING         532
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18981178"
+FT   SITE            194
+FT                   /note="Substrate"
+FT   SITE            331
+FT                   /note="Substrate"
+FT   SITE            467
+FT                   /note="Substrate"
+FT   MUTAGEN         439
+FT                   /note="E->Q: Abolishes enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:18981178"
+FT   MUTAGEN         508
+FT                   /note="E->Q: Abolishes enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:18981178"
+FT   MUTAGEN         532
+FT                   /note="E->Q: Abolishes enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:18981178"
+FT   STRAND          23..26
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          32..38
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          44..50
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          53..60
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          63..65
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           88..90
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          91..95
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          97..110
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          113..118
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          120..133
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           134..136
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          138..147
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          150..157
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          163..171
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          174..176
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          182..185
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          189..191
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          198..201
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           202..204
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           205..212
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          229..234
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          240..246
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          254..259
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   TURN            260..263
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          264..269
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          279..285
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          288..296
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           297..302
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           305..308
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           318..321
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          325..330
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           332..335
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          338..341
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          343..346
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   TURN            352..354
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           357..359
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           370..382
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          386..390
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           397..399
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          401..403
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           420..429
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          433..439
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           444..460
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          465..469
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           484..499
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          503..506
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           515..517
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          522..525
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           531..535
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           543..545
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           547..549
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   TURN            550..554
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           568..570
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           583..592
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          596..599
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           604..607
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           611..619
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          622..633
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   TURN            634..636
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          637..644
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          650..656
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          661..666
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          676..683
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   TURN            689..691
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          696..703
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          708..713
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   STRAND          718..725
+FT                   /evidence="ECO:0007829|PDB:2D73"
+FT   HELIX           729..731
+FT                   /evidence="ECO:0007829|PDB:2ZQ0"
+SQ   SEQUENCE   738 AA;  84378 MW;  2BFE87C3552C9A12 CRC64;
+     MKKRKILSLI AFLCISFIAN AQQKLTSPDN NLVMTFQVDS KGAPTYELTY KNKVVIKPST
+     LGLELKKEDN TRTDFDWVDR RDLTKLDSKT NLYDGFEVKD TQTATFDETW QPVWGEEKEI
+     RNHYNELAVT LYQPMNDRSI VIRFRLFNDG LGFRYEFPQQ KSLNYFVIKE EHSQFGMNGD
+     HIAFWIPGDY DTQEYDYTIS RLSEIRGLMK EAITPNSSQT PFSQTGVQTA LMMKTDDGLY
+     INLHEAALVD YSCMHLNLDD KNMVFESWLT PDAKGDKGYM QTPCNTPWRT IIVSDDARNI
+     LASRITLNLN EPCKIADAAS WVKPVKYIGV WWDMITGKGS WAYTDELTSV KLGETDYSKT
+     KPNGKHSANT ANVKRYIDFA AAHGFDAVLV EGWNEGWEDW FGNSKDYVFD FVTPYPDFDV
+     KEIHRYAARK GIKMMMHHET SASVRNYERH MDKAYQFMAD NGYNSVKSGY VGNIIPRGEH
+     HYGQWMNNHY LYAVKKAADY KIMVNAHEAT RPTGICRTYP NLIGNESARG TEYESFGGNK
+     VYHTTILPFT RLVGGPMDYT PGIFETHCNK MNPANNSQVR STIARQLALY VTMYSPLQMA
+     ADIPENYERF MDAFQFIKDV ALDWDETNYL EAEPGEYITI ARKAKDTDDW YVGCTAGENG
+     HTSKLVFDFL TPGKQYIATV YADAKDADWK ENPQAYTIKK GILTNKSKLN LHAANGGGYA
+     ISIKEVKDKS EAKGLKRL
+//

@@ -1,0 +1,94 @@
+ID   AGB34_AGAAL             Reviewed;         453 AA.
+AC   A8W969;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   25-MAY-2022, entry version 44.
+DE   RecName: Full=Beta-agarase AgaB34 {ECO:0000250|UniProtKB:P85974, ECO:0000303|Ref.1};
+DE            EC=3.2.1.81;
+DE   Flags: Precursor;
+GN   Name=agaB34 {ECO:0000312|EMBL:ABW77762.1};
+OS   Agarivorans albus.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Alteromonadaceae; Agarivorans.
+OX   NCBI_TaxID=182262;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:ABW77762.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=YKW-34 {ECO:0000312|EMBL:ABW77762.1};
+RA   Fu X.T., Lin H., Pan C.-H., Kim S.M.;
+RT   "Gene cloning, expression, and characterization of a beta-agarase, AgaB34,
+RT   from Agarivorans albus YKW-34.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->4)-beta-D-galactosidic linkages in agarose,
+CC         giving the tetramer as the predominant product.; EC=3.2.1.81;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P85974}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 16 family.
+CC       {ECO:0000250|UniProtKB:P85974}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU200967; ABW77762.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A8W969; -.
+DR   SMR; A8W969; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GH16; Glycoside Hydrolase Family 16.
+DR   BRENDA; 3.2.1.81; 9574.
+DR   BRENDA; 3.2.1.B1; 9574.
+DR   GO; GO:0005576; C:extracellular region; ISS:UniProtKB.
+DR   GO; GO:0033916; F:beta-agarase activity; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; ISS:UniProtKB.
+DR   CDD; cd02178; GH16_beta_agarase; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   InterPro; IPR016287; Beta_agarase.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR000757; GH16.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   PROSITE; PS51762; GH16_2; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Glycosidase; Hydrolase; Lectin; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255, ECO:0000312|EMBL:ABW77762.1"
+FT   CHAIN           24..453
+FT                   /note="Beta-agarase AgaB34"
+FT                   /evidence="ECO:0000312|EMBL:ABW77762.1"
+FT                   /id="PRO_0000347324"
+FT   DOMAIN          24..301
+FT                   /note="GH16"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01098"
+FT   DOMAIN          313..453
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000312|EMBL:ABW77762.1"
+FT   ACT_SITE        147
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:P07883"
+FT   ACT_SITE        152
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P07883"
+FT   DISULFID        327..346
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000312|EMBL:ABW77762.1"
+FT   DISULFID        375..394
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000312|EMBL:ABW77762.1"
+FT   DISULFID        423..442
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000312|EMBL:ABW77762.1"
+SQ   SEQUENCE   453 AA;  50998 MW;  51C5FA72C4FB1BEF CRC64;
+     MKGFTKHSIL MACSIGLAIN ATAADWDNIP IPAELDAGQS WELQQNYSDS FNYSGKNSTF
+     TGKWKDSYFH SWTGPGLTHW SSDESWVGDG NLIISASRRQ GTNKVNAGVI TSKTKVKYPI
+     FLEASIKVSN LELSSNFWLL SENDQREIDV LEVYGGARQD WYAKNMSTNF HVFFRNNDNS
+     IKNDYNDQTH FTPTWGNYWR DGFHRFGVYW KSPTDVTFYI DGQKTTKGAW SQVVMKDKDY
+     TGAILDKSRY NMDQEAFIII DTEDHSWRSE AGHIATDADL ADSDKNKMYV DWIRVYKPTG
+     GSTTPPTGDI TPPSGYTNLQ LAHSNRCVDV INGALWNGST YQQYSCNTGN NNQRFKFTKI
+     ANNQYSINAK VSQLCMELAS GSSANGAKVQ QWICNHANSN QTWSLEDKGS NTFEIRNKQS
+     GKCLEVANSS NANGGQIRQW ACTGATNQRF KFL
+//

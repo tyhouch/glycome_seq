@@ -1,0 +1,329 @@
+ID   LYAG_MOUSE              Reviewed;         953 AA.
+AC   P70699; Q3UJB2; Q8BGI6; Q91Z45;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2004, sequence version 2.
+DT   03-AUG-2022, entry version 178.
+DE   RecName: Full=Lysosomal alpha-glucosidase;
+DE            EC=3.2.1.20 {ECO:0000250|UniProtKB:P10253};
+DE   AltName: Full=Acid maltase;
+DE   Flags: Precursor;
+GN   Name=Gaa;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=BALB/cJ; TISSUE=Liver;
+RA   Ding J.H., Yang B.Z., Reuser A.J.J., Roe C.R.;
+RT   "Cloning and characterization of the mouse liver cDNA encoding lysosomal
+RT   alpha-glucosidase.";
+RL   Submitted (SEP-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J, and NOD;
+RC   TISSUE=Bone marrow, Brain cortex, Heart, and Thymus;
+RX   PubMed=16141072; DOI=10.1126/science.1112014;
+RA   Carninci P., Kasukawa T., Katayama S., Gough J., Frith M.C., Maeda N.,
+RA   Oyama R., Ravasi T., Lenhard B., Wells C., Kodzius R., Shimokawa K.,
+RA   Bajic V.B., Brenner S.E., Batalov S., Forrest A.R., Zavolan M., Davis M.J.,
+RA   Wilming L.G., Aidinis V., Allen J.E., Ambesi-Impiombato A., Apweiler R.,
+RA   Aturaliya R.N., Bailey T.L., Bansal M., Baxter L., Beisel K.W., Bersano T.,
+RA   Bono H., Chalk A.M., Chiu K.P., Choudhary V., Christoffels A.,
+RA   Clutterbuck D.R., Crowe M.L., Dalla E., Dalrymple B.P., de Bono B.,
+RA   Della Gatta G., di Bernardo D., Down T., Engstrom P., Fagiolini M.,
+RA   Faulkner G., Fletcher C.F., Fukushima T., Furuno M., Futaki S.,
+RA   Gariboldi M., Georgii-Hemming P., Gingeras T.R., Gojobori T., Green R.E.,
+RA   Gustincich S., Harbers M., Hayashi Y., Hensch T.K., Hirokawa N., Hill D.,
+RA   Huminiecki L., Iacono M., Ikeo K., Iwama A., Ishikawa T., Jakt M.,
+RA   Kanapin A., Katoh M., Kawasawa Y., Kelso J., Kitamura H., Kitano H.,
+RA   Kollias G., Krishnan S.P., Kruger A., Kummerfeld S.K., Kurochkin I.V.,
+RA   Lareau L.F., Lazarevic D., Lipovich L., Liu J., Liuni S., McWilliam S.,
+RA   Madan Babu M., Madera M., Marchionni L., Matsuda H., Matsuzawa S., Miki H.,
+RA   Mignone F., Miyake S., Morris K., Mottagui-Tabar S., Mulder N., Nakano N.,
+RA   Nakauchi H., Ng P., Nilsson R., Nishiguchi S., Nishikawa S., Nori F.,
+RA   Ohara O., Okazaki Y., Orlando V., Pang K.C., Pavan W.J., Pavesi G.,
+RA   Pesole G., Petrovsky N., Piazza S., Reed J., Reid J.F., Ring B.Z.,
+RA   Ringwald M., Rost B., Ruan Y., Salzberg S.L., Sandelin A., Schneider C.,
+RA   Schoenbach C., Sekiguchi K., Semple C.A., Seno S., Sessa L., Sheng Y.,
+RA   Shibata Y., Shimada H., Shimada K., Silva D., Sinclair B., Sperling S.,
+RA   Stupka E., Sugiura K., Sultana R., Takenaka Y., Taki K., Tammoja K.,
+RA   Tan S.L., Tang S., Taylor M.S., Tegner J., Teichmann S.A., Ueda H.R.,
+RA   van Nimwegen E., Verardo R., Wei C.L., Yagi K., Yamanishi H.,
+RA   Zabarovsky E., Zhu S., Zimmer A., Hide W., Bult C., Grimmond S.M.,
+RA   Teasdale R.D., Liu E.T., Brusic V., Quackenbush J., Wahlestedt C.,
+RA   Mattick J.S., Hume D.A., Kai C., Sasaki D., Tomaru Y., Fukuda S.,
+RA   Kanamori-Katayama M., Suzuki M., Aoki J., Arakawa T., Iida J., Imamura K.,
+RA   Itoh M., Kato T., Kawaji H., Kawagashira N., Kawashima T., Kojima M.,
+RA   Kondo S., Konno H., Nakano K., Ninomiya N., Nishio T., Okada M., Plessy C.,
+RA   Shibata K., Shiraki T., Suzuki S., Tagami M., Waki K., Watahiki A.,
+RA   Okamura-Oho Y., Suzuki H., Kawai J., Hayashizaki Y.;
+RT   "The transcriptional landscape of the mammalian genome.";
+RL   Science 309:1559-1563(2005).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=FVB/N; TISSUE=Mammary tumor;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 376-385, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=OF1; TISSUE=Hippocampus;
+RA   Lubec G., Sunyer B., Chen W.-Q.;
+RL   Submitted (JAN-2009) to UniProtKB.
+RN   [5]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-140 AND ASN-470.
+RX   PubMed=19349973; DOI=10.1038/nbt.1532;
+RA   Wollscheid B., Bausch-Fluck D., Henderson C., O'Brien R., Bibel M.,
+RA   Schiess R., Aebersold R., Watts J.D.;
+RT   "Mass-spectrometric identification and relative quantification of N-linked
+RT   cell surface glycoproteins.";
+RL   Nat. Biotechnol. 27:378-386(2009).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain, Brown adipose tissue, Kidney, Liver, Lung, Pancreas,
+RC   Spleen, and Testis;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: Essential for the degradation of glycogen in lysosomes. Has
+CC       highest activity on alpha-1,4-linked glycosidic linkages, but can also
+CC       hydrolyze alpha-1,6-linked glucans. {ECO:0000250|UniProtKB:P10253}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC         Evidence={ECO:0000250|UniProtKB:P10253};
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000250|UniProtKB:P10253}. Lysosome
+CC       membrane {ECO:0000250|UniProtKB:P10253}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U49351; AAB06943.1; -; mRNA.
+DR   EMBL; AK052211; BAC34888.1; -; mRNA.
+DR   EMBL; AK088481; BAC40382.1; -; mRNA.
+DR   EMBL; AK139333; BAE23960.1; -; mRNA.
+DR   EMBL; AK146538; BAE27243.1; -; mRNA.
+DR   EMBL; AK150970; BAE30001.1; -; mRNA.
+DR   EMBL; BC010210; AAH10210.1; -; mRNA.
+DR   CCDS; CCDS25713.1; -.
+DR   RefSeq; NP_001152796.1; NM_001159324.2.
+DR   RefSeq; NP_032090.3; NM_008064.4.
+DR   AlphaFoldDB; P70699; -.
+DR   SMR; P70699; -.
+DR   BioGRID; 199792; 21.
+DR   STRING; 10090.ENSMUSP00000101866; -.
+DR   BindingDB; P70699; -.
+DR   ChEMBL; CHEMBL1667668; -.
+DR   DrugCentral; P70699; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   GlyConnect; 2490; 10 N-Linked glycans (5 sites).
+DR   GlyGen; P70699; 7 sites, 10 N-linked glycans (5 sites).
+DR   iPTMnet; P70699; -.
+DR   PhosphoSitePlus; P70699; -.
+DR   SwissPalm; P70699; -.
+DR   EPD; P70699; -.
+DR   jPOST; P70699; -.
+DR   MaxQB; P70699; -.
+DR   PaxDb; P70699; -.
+DR   PeptideAtlas; P70699; -.
+DR   PRIDE; P70699; -.
+DR   ProteomicsDB; 292061; -.
+DR   Antibodypedia; 32676; 337 antibodies from 33 providers.
+DR   DNASU; 14387; -.
+DR   Ensembl; ENSMUST00000026666; ENSMUSP00000026666; ENSMUSG00000025579.
+DR   Ensembl; ENSMUST00000106259; ENSMUSP00000101866; ENSMUSG00000025579.
+DR   GeneID; 14387; -.
+DR   KEGG; mmu:14387; -.
+DR   UCSC; uc007mqg.2; mouse.
+DR   CTD; 2548; -.
+DR   MGI; MGI:95609; Gaa.
+DR   VEuPathDB; HostDB:ENSMUSG00000025579; -.
+DR   eggNOG; KOG1065; Eukaryota.
+DR   GeneTree; ENSGT00940000159355; -.
+DR   HOGENOM; CLU_000631_11_2_1; -.
+DR   InParanoid; P70699; -.
+DR   OMA; YDTYTRG; -.
+DR   OrthoDB; 151244at2759; -.
+DR   PhylomeDB; P70699; -.
+DR   TreeFam; TF314577; -.
+DR   Reactome; R-MMU-6798695; Neutrophil degranulation.
+DR   Reactome; R-MMU-70221; Glycogen breakdown (glycogenolysis).
+DR   BioGRID-ORCS; 14387; 2 hits in 72 CRISPR screens.
+DR   ChiTaRS; Gaa; mouse.
+DR   PRO; PR:P70699; -.
+DR   Proteomes; UP000000589; Chromosome 11.
+DR   RNAct; P70699; protein.
+DR   Bgee; ENSMUSG00000025579; Expressed in arcuate nucleus of hypothalamus and 309 other tissues.
+DR   ExpressionAtlas; P70699; baseline and differential.
+DR   Genevisible; P70699; MM.
+DR   GO; GO:0120282; C:autolysosome lumen; IMP:MGI.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; ISO:MGI.
+DR   GO; GO:0005765; C:lysosomal membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005764; C:lysosome; IMP:MGI.
+DR   GO; GO:0016020; C:membrane; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0004558; F:alpha-1,4-glucosidase activity; IDA:MGI.
+DR   GO; GO:0090599; F:alpha-glucosidase activity; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; ISO:MGI.
+DR   GO; GO:0043896; F:glucan 1,6-alpha-glucosidase activity; ISO:MGI.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0060048; P:cardiac muscle contraction; ISO:MGI.
+DR   GO; GO:0002086; P:diaphragm contraction; IMP:MGI.
+DR   GO; GO:0005980; P:glycogen catabolic process; IMP:MGI.
+DR   GO; GO:0005977; P:glycogen metabolic process; IMP:MGI.
+DR   GO; GO:0061723; P:glycophagy; IMP:MGI.
+DR   GO; GO:0003007; P:heart morphogenesis; IMP:MGI.
+DR   GO; GO:0007626; P:locomotory behavior; IMP:MGI.
+DR   GO; GO:0007040; P:lysosome organization; IMP:MGI.
+DR   GO; GO:0046716; P:muscle cell cellular homeostasis; IMP:MGI.
+DR   GO; GO:0050885; P:neuromuscular process controlling balance; IMP:MGI.
+DR   GO; GO:0050884; P:neuromuscular process controlling posture; IMP:MGI.
+DR   GO; GO:0002026; P:regulation of the force of heart contraction; IMP:MGI.
+DR   GO; GO:0006941; P:striated muscle contraction; IMP:MGI.
+DR   GO; GO:0009888; P:tissue development; IMP:MGI.
+DR   GO; GO:0043181; P:vacuolar sequestering; ISO:MGI.
+DR   CDD; cd00111; Trefoil; 1.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   Gene3D; 4.10.110.10; -; 1.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR030459; Glyco_hydro_31_CS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR017957; P_trefoil_CS.
+DR   InterPro; IPR000519; P_trefoil_dom.
+DR   InterPro; IPR044913; P_trefoil_dom_sf.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   Pfam; PF16863; NtCtMGAM_N; 1.
+DR   Pfam; PF00088; Trefoil; 1.
+DR   SMART; SM00018; PD; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+DR   PROSITE; PS00707; GLYCOSYL_HYDROL_F31_2; 1.
+DR   PROSITE; PS00025; P_TREFOIL_1; 1.
+DR   PROSITE; PS51448; P_TREFOIL_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Glycosidase;
+KW   Hydrolase; Lysosome; Membrane; Reference proteome; Signal.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          28..69
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000018569"
+FT   CHAIN           70..953
+FT                   /note="Lysosomal alpha-glucosidase"
+FT                   /id="PRO_0000018570"
+FT   DOMAIN          80..131
+FT                   /note="P-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   ACT_SITE        518
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        521
+FT                   /evidence="ECO:0000250"
+FT   BINDING         404
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   BINDING         600
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   BINDING         616
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   BINDING         674
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   CARBOHYD        140
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973"
+FT   CARBOHYD        233
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        390
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        470
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973"
+FT   CARBOHYD        883
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        926
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        933
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        82..109
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        92..108
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        103..127
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        533..558
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   DISULFID        647..658
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   CONFLICT        62
+FT                   /note="K -> E (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        254
+FT                   /note="S -> A (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        430..431
+FT                   /note="EL -> DV (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        434
+FT                   /note="D -> G (in Ref. 1 and 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        481
+FT                   /note="W -> C (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        615
+FT                   /note="G -> E (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        619
+FT                   /note="S -> T (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        732
+FT                   /note="P -> R (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        777
+FT                   /note="M -> V (in Ref. 1 and 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        871
+FT                   /note="R -> H (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        903
+FT                   /note="R -> K (in Ref. 1; AAB06943)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   953 AA;  106248 MW;  956B89685FB5FF81 CRC64;
+     MNIRKPLCSN SVVGACTLIS LTTAVILGHL MLRELMLLPQ DLHESSSGLW KTYRPHHQEG
+     YKPGPLHIQE QTEQPKEAPT QCDVPPSSRF DCAPDKGISQ EQCEARGCCY VPAGQVLKEP
+     QIGQPWCFFP PSYPSYRLEN LSSTESGYTA TLTRTSPTFF PKDVLTLQLE VLMETDSRLH
+     FKIKDPASKR YEVPLETPRV LSQAPSPLYS VEFSEEPFGV IVRRKLGGRV LLNTTVAPLF
+     FADQFLQLST SLPSQHITGL GEHLSPLMLS TDWARITLWN RDTPPSQGTN LYGSHPFYLA
+     LEDGGLAHGV FLLNSNAMDV ILQPSPALTW RSTGGILDVY VFLGPEPKSV VQQYLDVVGY
+     PFMPPYWGLG FHLCRWGYSS TAIVRQVVEN MTRTHFPLDV QWNDLDYMDA RRDFTFNQDS
+     FADFPDMVRE LHQDGRRYMM IVDPAISSAG PAGSYRPYDE GLRRGVFITN ETGQPLIGKV
+     WPGTTAFPDF TNPETLDWWQ DMVSEFHAQV PFDGMWLDMN EPSNFVRGSQ QGCPNNELEN
+     PPYVPGVVGG ILQAATICAS SHQFLSTHYN LHNLYGLTEA IASSRALVKT RGTRPFVISR
+     STFSGHGRYA GHWTGDVRSS WEHLAYSVPD ILQFNLLGVP LVGADICGFI GDTSEELCVR
+     WTQLGAFYPF MRNHNDLNSV PQEPYRFSET AQQAMRKAFA LRYALLPYLY TLFHRAHVRG
+     DTVARPLFLE FPEDPSTWSV DRQLLWGPAL LITPVLEPGK TEVTGYFPKG TWYNMQMVSV
+     DSLGTLPSPS SASSFRSAVQ SKGQWLTLEA PLDTINVHLR EGYIIPLQGP SLTTTESRKQ
+     PMALAVALTA SGEADGELFW DDGESLAVLE RGAYTLVTFS AKNNTIVNKL VRVTKEGAEL
+     QLREVTVLGV ATAPTQVLSN GIPVSNFTYS PDNKSLAIPV SLLMGELFQI SWS
+//

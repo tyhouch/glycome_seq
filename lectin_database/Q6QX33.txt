@@ -1,0 +1,132 @@
+ID   LECG_BOTIN              Reviewed;         158 AA.
+AC   Q6QX33;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 54.
+DE   RecName: Full=C-type lectin BiL {ECO:0000303|PubMed:15519291};
+DE            Short=BiLec {ECO:0000303|PubMed:16730365};
+DE            Short=CTL {ECO:0000303|PubMed:15519291, ECO:0000303|PubMed:16730365};
+DE   Flags: Precursor;
+OS   Bothrops insularis (Golden lancehead) (Lachesis insularis).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Bothrops.
+OX   NCBI_TaxID=8723;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 24-39 AND 56-78, MASS
+RP   SPECTROMETRY, FUNCTION, SUBUNIT, 3D-STRUCTURE MODELING, AND SUBCELLULAR
+RP   LOCATION.
+RC   TISSUE=Venom, and Venom gland;
+RX   PubMed=15519291; DOI=10.1016/j.abb.2004.08.018;
+RA   Guimaraes-Gomes V., Oliveira-Carvalho A.L., Junqueira-de-Azevedo I.L.M.,
+RA   Dutra D.L.S., Pujol-Luz M., Castro H.C., Ho P.L., Zingali R.B.;
+RT   "Cloning, characterization, and structural analysis of a C-type lectin from
+RT   Bothrops insularis (BiL) venom.";
+RL   Arch. Biochem. Biophys. 432:1-11(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 24-58, FUNCTION, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Venom;
+RX   PubMed=16730365; DOI=10.1016/j.toxicon.2006.02.016;
+RA   Braga M.D., Martins A.M., Amora D.N., de Menezes D.B., Toyama M.H.,
+RA   Toyama D.O., Marangoni S., Barbosa P.S., de Sousa Alves R., Fonteles M.C.,
+RA   Monteiro H.S.;
+RT   "Purification and biological effects of C-type lectin isolated from
+RT   Bothrops insularis venom.";
+RL   Toxicon 47:859-867(2006).
+CC   -!- FUNCTION: Lectin with a hemagglutinating activity that is inhibited by
+CC       galactose, lactose and EDTA (PubMed:15519291). Is calcium-dependent
+CC       (PubMed:15519291). Shows effects on the renal function of isolated
+CC       perfused rat kidneys by increasing both perfusion pressure (PP) and
+CC       renal vascular resistance (RVR) (PubMed:16730365). In addition, the
+CC       urinary flow and glomerular filtration rate (GFR) decreases
+CC       significantly (PubMed:16730365). The changes observed may reflect
+CC       direct injury to the glomerular and tubular renal cells, and the rise
+CC       in permeability in the glomerular endothelial cells, may be the effect
+CC       of interactions of C-type lectin with endothelial cells or due to
+CC       release of other mediators by mesangial, tubular and endothelial cells
+CC       (PubMed:16730365). {ECO:0000269|PubMed:15519291,
+CC       ECO:0000269|PubMed:16730365}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000269|PubMed:15519291}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:15519291}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:15519291}.
+CC   -!- MASS SPECTROMETRY: Mass=16217.85; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:15519291};
+CC   -!- SIMILARITY: Belongs to the true venom lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY522720; AAS01426.1; -; mRNA.
+DR   AlphaFoldDB; Q6QX33; -.
+DR   SMR; Q6QX33; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Hemagglutinin; Lectin;
+KW   Metal-binding; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000269|PubMed:15519291"
+FT   CHAIN           24..158
+FT                   /note="C-type lectin BiL"
+FT                   /evidence="ECO:0000305|PubMed:15519291"
+FT                   /id="PRO_0000355252"
+FT   DOMAIN          33..155
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           119..121
+FT                   /note="Galactose-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P21963"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   BINDING         121
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   BINDING         127
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   BINDING         142
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   BINDING         143
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   DISULFID        26..37
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   DISULFID        54..154
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   DISULFID        61..156
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   DISULFID        109
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   DISULFID        129..146
+FT                   /evidence="ECO:0000250|UniProtKB:P83519"
+FT   CONFLICT        28
+FT                   /note="Q -> S (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        44
+FT                   /note="L -> Q (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   158 AA;  18636 MW;  0FA6303E34967EE4 CRC64;
+     MGRFIFVSFG LLVVFLSLSG AKGNNCPQDW LPMNGLCYKI FDELKAWKDA EMFCRKYKPG
+     CHLASFHLYG ESPEIAEYIS DYHKGQSEVW IGLWDKKKDF SWEWTDRSCT DYLSWDKNQP
+     DHYQNKEFCV ELVSDTGYRL WNDQVCESKN AFLCQCKF
+//

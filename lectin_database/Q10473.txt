@@ -1,0 +1,328 @@
+ID   GALT1_RAT               Reviewed;         559 AA.
+AC   Q10473;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   03-AUG-2022, entry version 159.
+DE   RecName: Full=Polypeptide N-acetylgalactosaminyltransferase 1 {ECO:0000305};
+DE            EC=2.4.1.41 {ECO:0000269|PubMed:12199709, ECO:0000269|PubMed:12364335, ECO:0000269|PubMed:12419318};
+DE   AltName: Full=Polypeptide GalNAc transferase 1;
+DE            Short=GalNAc-T1;
+DE            Short=pp-GaNTase 1;
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase 1;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 1;
+DE   Contains:
+DE     RecName: Full=Polypeptide N-acetylgalactosaminyltransferase 1 soluble form;
+GN   Name=Galnt1 {ECO:0000312|RGD:620358};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Sublingual gland;
+RX   PubMed=8748168; DOI=10.1007/bf00731252;
+RA   Hagen F., Gregorie C.A., Tabak L.A.;
+RT   "Cloning and sequence homology of a rat UDP-GalNAc:polypeptide N-
+RT   acetylgalactosaminyltransferase.";
+RL   Glycoconj. J. 12:901-909(1995).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, PATHWAY, AND
+RP   MUTAGENESIS OF CYS-106; CYS-212; CYS-214; CYS-235; CYS-330; CYS-339 AND
+RP   CYS-408.
+RX   PubMed=12199709; DOI=10.1046/j.1432-1033.2002.03123.x;
+RA   Tenno M., Toba S., Kezdy F.J., Elhammer A.P., Kurosaka A.;
+RT   "Identification of two cysteine residues involved in the binding of UDP-
+RT   GalNAc to UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 1
+RT   (GalNAc-T1).";
+RL   Eur. J. Biochem. 269:4308-4316(2002).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, PATHWAY, AND
+RP   MUTAGENESIS OF CYS-442; ASP-444; GLY-455; PHE-457; CYS-459; ASN-465;
+RP   GLN-466; PHE-468; CYS-482; ASP-484; CYS-497; CYS-523; ASP-525 AND CYS-540.
+RX   PubMed=12364335; DOI=10.1074/jbc.m207369200;
+RA   Tenno M., Saeki A., Kezdy F.J., Elhammer A.P., Kurosaka A.;
+RT   "The lectin domain of UDP-GalNAc:polypeptide N-
+RT   acetylgalactosaminyltransferase 1 is involved in O-glycosylation of a
+RT   polypeptide with multiple acceptor sites.";
+RL   J. Biol. Chem. 277:47088-47096(2002).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, PATHWAY, AND
+RP   MUTAGENESIS OF ASP-444; ASP-484 AND ASP-525.
+RX   PubMed=12419318; DOI=10.1016/s0006-291x(02)02549-4;
+RA   Tenno M., Kezdy F.J., Elhammer A.P., Kurosaka A.;
+RT   "Function of the lectin domain of polypeptide N-
+RT   acetylgalactosaminyltransferase 1.";
+RL   Biochem. Biophys. Res. Commun. 298:755-759(2002).
+CC   -!- FUNCTION: Catalyzes the initial reaction in O-linked oligosaccharide
+CC       biosynthesis, the transfer of an N-acetyl-D-galactosamine residue to a
+CC       serine or threonine residue on the protein receptor (PubMed:12199709,
+CC       PubMed:12364335, PubMed:12419318). Has a broad spectrum of substrates
+CC       such as apomucin-, MUC5AC-, MUC1- and MUC2-derived peptides (By
+CC       similarity). {ECO:0000250|UniProtKB:Q10472,
+CC       ECO:0000269|PubMed:12199709, ECO:0000269|PubMed:12364335,
+CC       ECO:0000269|PubMed:12419318}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC         Evidence={ECO:0000269|PubMed:12199709, ECO:0000269|PubMed:12364335,
+CC         ECO:0000269|PubMed:12419318};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52425;
+CC         Evidence={ECO:0000305|PubMed:12364335, ECO:0000305|PubMed:12419318};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:O08912};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=5.1 uM for UDP-N-acetyl-alpha-D-galactosamine
+CC         {ECO:0000269|PubMed:12199709, ECO:0000269|PubMed:12364335,
+CC         ECO:0000269|PubMed:12419318};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000269|PubMed:12199709, ECO:0000269|PubMed:12364335,
+CC       ECO:0000269|PubMed:12419318}.
+CC   -!- SUBCELLULAR LOCATION: [Polypeptide N-acetylgalactosaminyltransferase
+CC       1]: Golgi apparatus, Golgi stack membrane {ECO:0000250}; Single-pass
+CC       type II membrane protein {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Polypeptide N-acetylgalactosaminyltransferase 1
+CC       soluble form]: Secreted {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Heart, brain, spleen, liver, skeletal muscle and
+CC       kidney.
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC   -!- DOMAIN: The ricin B-type lectin domain directs the glycopeptide
+CC       specificity. It is required in the glycopeptide specificity of enzyme
+CC       activity but not for activity with naked peptide substrates, suggesting
+CC       that it triggers the catalytic domain to act on GalNAc-glycopeptide
+CC       substrates.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U35890; AAC52511.1; -; mRNA.
+DR   RefSeq; NP_077349.1; NM_024373.1.
+DR   RefSeq; XP_006254533.1; XM_006254471.3.
+DR   AlphaFoldDB; Q10473; -.
+DR   SMR; Q10473; -.
+DR   STRING; 10116.ENSRNOP00000022117; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GT27; Glycosyltransferase Family 27.
+DR   GlyGen; Q10473; 2 sites.
+DR   PaxDb; Q10473; -.
+DR   PRIDE; Q10473; -.
+DR   Ensembl; ENSRNOT00000022117; ENSRNOP00000022117; ENSRNOG00000016207.
+DR   GeneID; 79214; -.
+DR   KEGG; rno:79214; -.
+DR   UCSC; RGD:620358; rat.
+DR   CTD; 2589; -.
+DR   RGD; 620358; Galnt1.
+DR   eggNOG; KOG3736; Eukaryota.
+DR   GeneTree; ENSGT00940000154732; -.
+DR   HOGENOM; CLU_013477_0_1_1; -.
+DR   InParanoid; Q10473; -.
+DR   OMA; VAEVWMC; -.
+DR   OrthoDB; 606683at2759; -.
+DR   PhylomeDB; Q10473; -.
+DR   TreeFam; TF313267; -.
+DR   BRENDA; 2.4.1.41; 5301.
+DR   Reactome; R-RNO-6811436; COPI-independent Golgi-to-ER retrograde traffic.
+DR   Reactome; R-RNO-913709; O-linked glycosylation of mucins.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q10473; -.
+DR   Proteomes; UP000002494; Chromosome 18.
+DR   Bgee; ENSRNOG00000016207; Expressed in jejunum and 19 other tissues.
+DR   Genevisible; Q10473; RN.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0032580; C:Golgi cisterna membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030145; F:manganese ion binding; ISS:UniProtKB.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; ISS:UniProtKB.
+DR   GO; GO:0018242; P:protein O-linked glycosylation via serine; ISO:RGD.
+DR   GO; GO:0018243; P:protein O-linked glycosylation via threonine; ISO:RGD.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus; Lectin;
+KW   Manganese; Membrane; Metal-binding; Reference proteome; Secreted;
+KW   Signal-anchor; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..559
+FT                   /note="Polypeptide N-acetylgalactosaminyltransferase 1"
+FT                   /id="PRO_0000223390"
+FT   CHAIN           41..559
+FT                   /note="Polypeptide N-acetylgalactosaminyltransferase 1
+FT                   soluble form"
+FT                   /id="PRO_0000012263"
+FT   TOPO_DOM        1..8
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        9..28
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        29..559
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          429..551
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          115..225
+FT                   /note="Catalytic subdomain A"
+FT   REGION          285..347
+FT                   /note="Catalytic subdomain B"
+FT   BINDING         156
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         186
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         209
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         211
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         316
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         344
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         347
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         352
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        95
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        552
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        106..339
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        330..408
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        442..459
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        482..497
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        523..540
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   MUTAGEN         106
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12199709"
+FT   MUTAGEN         212
+FT                   /note="C->A: Loss of enzyme activity due to absence of
+FT                   interaction between UDP moiety and UDP-GalNAC."
+FT                   /evidence="ECO:0000269|PubMed:12199709"
+FT   MUTAGEN         214
+FT                   /note="C->A: Loss of enzyme activity due to absence of
+FT                   interaction between UDP moiety and UDP-GalNAC."
+FT                   /evidence="ECO:0000269|PubMed:12199709"
+FT   MUTAGEN         235
+FT                   /note="C->A: No effect."
+FT                   /evidence="ECO:0000269|PubMed:12199709"
+FT   MUTAGEN         330
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12199709"
+FT   MUTAGEN         339
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12199709"
+FT   MUTAGEN         408
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12199709"
+FT   MUTAGEN         442
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         444
+FT                   /note="D->A: Induces a strong decrease in activity; loss of
+FT                   function; when associated with A-484 and A-525."
+FT                   /evidence="ECO:0000269|PubMed:12364335,
+FT                   ECO:0000269|PubMed:12419318"
+FT   MUTAGEN         455
+FT                   /note="G->Q: Induces a decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         457
+FT                   /note="F->A: Little or no effect."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         459
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         465
+FT                   /note="N->A: Little or no effect."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         466
+FT                   /note="Q->A: Induces a decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         468
+FT                   /note="F->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         468
+FT                   /note="F->W,Y: Little or no effect."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         482
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         484
+FT                   /note="D->A: Loss of enzyme activity; when associated with
+FT                   A-444 and A-525."
+FT                   /evidence="ECO:0000269|PubMed:12364335,
+FT                   ECO:0000269|PubMed:12419318"
+FT   MUTAGEN         497
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         523
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+FT   MUTAGEN         525
+FT                   /note="D->A: Loss of enzyme activity; when associated with
+FT                   A-444 and A-484."
+FT                   /evidence="ECO:0000269|PubMed:12364335,
+FT                   ECO:0000269|PubMed:12419318"
+FT   MUTAGEN         540
+FT                   /note="C->A: Loss of enzyme activity."
+FT                   /evidence="ECO:0000269|PubMed:12364335"
+SQ   SEQUENCE   559 AA;  64229 MW;  5E36A95D9422C853 CRC64;
+     MRKFAYCKVV LATSLVWVLL DMFLLLYFSE CNKCEEKKER GLPAGDVLEL VQKPHEGPGE
+     MGKPVVIPKE DQEKMKEMFK INQFNLMASE MIAFNRSLPD VRLEGCKTKV YPDSLPTTSV
+     VIVFHNEAWS TLLRTVHSVI NRSPRHMIEE IVLVDDASER DFLKRPLESY VKKLKVPVHV
+     IRMEQRSGLI RARLKGAAVS KGQVITFLDA HCECTVGWLE PLLARIKHDR RTVVCPIIDV
+     ISDDTFEYMA GSDMTYGGFN WKLNFRWYPV PQREMDRRKG DRTLPVRTPT MAGGLFSIDR
+     DYFQEIGTYD AGMDIWGGEN LEISFRIWQC GGTLEIVTCS HVGHVFRKAT PYTFPGGTGQ
+     IINKNNRRLA EVWMDEFKNF FYIISPGVTK VDYGDISSRV GLRHKLQCKP FSWYLENIYP
+     DSQIPRHYFS LGEIRNVETN QCLDNMARKE NEKVGIFNCH GMGGNQVFSY TANKEIRTDD
+     LCLDVSKLNG PVTMLKCHHL KGNQLWEYDP VKLTLQHVNS NQCLDKATEE DSQVPSIRDC
+     TGSRSQQWLL RNVTLPEIF
+//

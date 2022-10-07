@@ -1,0 +1,250 @@
+ID   A0A1Z2WUW0_9BETC        Unreviewed;      1348 AA.
+AC   A0A1Z2WUW0;
+DT   27-SEP-2017, integrated into UniProtKB/TrEMBL.
+DT   27-SEP-2017, sequence version 1.
+DT   03-AUG-2022, entry version 17.
+DE   RecName: Full=Spike glycoprotein {ECO:0000256|HAMAP-Rule:MF_04099};
+DE            Short=S glycoprotein {ECO:0000256|HAMAP-Rule:MF_04099};
+DE   AltName: Full=E2 {ECO:0000256|HAMAP-Rule:MF_04099};
+DE   AltName: Full=Peplomer protein {ECO:0000256|HAMAP-Rule:MF_04099};
+DE   Contains:
+DE     RecName: Full=Spike protein S1 {ECO:0000256|HAMAP-Rule:MF_04099};
+DE   Contains:
+DE     RecName: Full=Spike protein S2 {ECO:0000256|HAMAP-Rule:MF_04099};
+DE   Contains:
+DE     RecName: Full=Spike protein S2' {ECO:0000256|HAMAP-Rule:MF_04099};
+GN   Name=S {ECO:0000256|HAMAP-Rule:MF_04099, ECO:0000313|EMBL:ASB17086.1};
+OS   Porcine hemagglutinating encephalomyelitis virus.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+OC   Betacoronavirus; Embecovirus.
+OX   NCBI_TaxID=42005 {ECO:0000313|EMBL:ASB17086.1};
+RN   [1] {ECO:0000313|EMBL:ASB17086.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=UU {ECO:0000313|EMBL:ASB17086.1};
+RA   Li W., van Kuppeveld F., Rottier P., Bosch B.J.;
+RT   "Spike gene of Porcine hemagglutinating encephamylitis virus.";
+RL   Submitted (JAN-2017) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:6QFY}
+RP   X-RAY CRYSTALLOGRAPHY (2.97 ANGSTROMS) OF 15-300, AND DISULFIDE BONDS.
+RX   PubMed=30679277; DOI=10.1073/pnas.1809667116;
+RA   Hulswit R.J.G., Lang Y., Bakkers M.J.G., Li W., Li Z., Schouten A.,
+RA   Ophorst B., van Kuppeveld F.J.M., Boons G.J., Bosch B.J., Huizinga E.G.,
+RA   de Groot R.J.;
+RT   "Human coronaviruses OC43 and HKU1 bind to 9-<i>O</i>-acetylated sialic
+RT   acids via a conserved receptor-binding site in spike protein domain A.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 116:2681-2690(2019).
+CC   -!- FUNCTION: Spike protein S1: attaches the virion to the cell membrane by
+CC       interacting with host receptor, initiating the infection.
+CC       {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- FUNCTION: Spike protein S2': Acts as a viral fusion peptide which is
+CC       unmasked following S2 cleavage occurring upon virus endocytosis.
+CC       {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- FUNCTION: Spike protein S2: mediates fusion of the virion and cellular
+CC       membranes by acting as a class I viral fusion protein. Under the
+CC       current model, the protein has at least three conformational states:
+CC       pre-fusion native state, pre-hairpin intermediate state, and post-
+CC       fusion hairpin state. During viral and target cell membrane fusion, the
+CC       coiled coil regions (heptad repeats) assume a trimer-of-hairpins
+CC       structure, positioning the fusion peptide in close proximity to the C-
+CC       terminal region of the ectodomain. The formation of this structure
+CC       appears to drive apposition and subsequent fusion of viral and target
+CC       cell membranes. {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- SUBUNIT: Homotrimer; each monomer consists of a S1 and a S2 subunit.
+CC       The resulting peplomers protrude from the virus surface as spikes.
+CC       {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_04099}; Single-pass type I membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_04099}. Host endoplasmic reticulum-Golgi intermediate
+CC       compartment membrane {ECO:0000256|HAMAP-Rule:MF_04099}; Single-pass
+CC       type I membrane protein {ECO:0000256|HAMAP-Rule:MF_04099}. Host cell
+CC       membrane {ECO:0000256|HAMAP-Rule:MF_04099}; Single-pass type I membrane
+CC       protein {ECO:0000256|HAMAP-Rule:MF_04099}. Note=Accumulates in the
+CC       endoplasmic reticulum-Golgi intermediate compartment, where it
+CC       participates in virus particle assembly. Some S oligomers are
+CC       transported to the host plasma membrane, where they may mediate cell-
+CC       cell fusion. {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- DOMAIN: Fusion peptide 1 (FP1) and fusion peptide 2 (FP2) function
+CC       cooperatively and have a membrane-ordering effect on lipid headgroups
+CC       and shallow hydrophobic regions of target bilayers. They are considered
+CC       as two domains of an extended, bipartite FP. The membrane-ordering
+CC       activity is calcium-dependent and also dependent on correct folding,
+CC       which is maintained by an internal disulfide bond in FP2.
+CC       {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- PTM: Specific enzymatic cleavages in vivo yield mature proteins. The
+CC       precursor is processed into S1 and S2 by host cell furin or another
+CC       cellular protease to yield the mature S1 and S2 proteins. Additionally,
+CC       a second cleavage leads to the release of a fusion peptide after viral
+CC       attachment to host cell receptor. {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- PTM: The cytoplasmic Cys-rich domain is palmitoylated. Spike
+CC       glycoprotein is digested within host endosomes. {ECO:0000256|HAMAP-
+CC       Rule:MF_04099}.
+CC   -!- SIMILARITY: Belongs to the betacoronaviruses spike protein family.
+CC       {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_04099}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KY492680; ASB17086.1; -; mRNA.
+DR   PDB; 6QFY; X-ray; 2.97 A; A/B=15-300.
+DR   PDBsum; 6QFY; -.
+DR   SMR; A0A1Z2WUW0; -.
+DR   UniLectin; A0A1Z2WUW0; -.
+DR   GO; GO:0044173; C:host cell endoplasmic reticulum-Golgi intermediate compartment membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0075509; P:endocytosis involved in viral entry into host cell; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039654; P:fusion of virus membrane with host endosome membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046813; P:receptor-mediated virion attachment to host cell; IEA:UniProtKB-UniRule.
+DR   CDD; cd21625; MHV-like_Spike_S1_NTD; 1.
+DR   Gene3D; 2.60.120.960; -; 1.
+DR   HAMAP; MF_04099; BETA_CORONA_SPIKE; 1.
+DR   InterPro; IPR032500; bCoV_S1_N.
+DR   InterPro; IPR042578; BETA_CORONA_SPIKE.
+DR   InterPro; IPR043607; CoV_S1_C.
+DR   InterPro; IPR043473; S2_sf_CoV.
+DR   InterPro; IPR043002; Spike_N_sf.
+DR   InterPro; IPR044339; Spike_S1_NTD_MHV-like.
+DR   InterPro; IPR018548; Spike_S1_RBD_bCoV.
+DR   InterPro; IPR036326; Spike_S1_RBD_sf_bCoV.
+DR   InterPro; IPR002552; Spike_S2_CoV.
+DR   InterPro; IPR043614; Spike_S2_CoV_C.
+DR   InterPro; IPR044873; Spike_S2_CoV_HR1.
+DR   InterPro; IPR044874; Spike_S2_CoV_HR2.
+DR   Pfam; PF16451; bCoV_S1_N; 1.
+DR   Pfam; PF09408; bCoV_S1_RBD; 1.
+DR   Pfam; PF19209; CoV_S1_C; 1.
+DR   Pfam; PF01601; CoV_S2; 1.
+DR   Pfam; PF19214; CoV_S2_C; 1.
+DR   SUPFAM; SSF111474; SSF111474; 2.
+DR   SUPFAM; SSF143587; SSF143587; 1.
+DR   PROSITE; PS51921; BCOV_S1_CTD; 1.
+DR   PROSITE; PS51922; BCOV_S1_NTD; 1.
+DR   PROSITE; PS51923; COV_S2_HR1; 1.
+DR   PROSITE; PS51924; COV_S2_HR2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:6QFY};
+KW   Coiled coil {ECO:0000256|ARBA:ARBA00023054, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Fusion of virus membrane with host endosomal membrane
+KW   {ECO:0000256|ARBA:ARBA00022510, ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Fusion of virus membrane with host membrane {ECO:0000256|ARBA:ARBA00022506,
+KW   ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Glycoprotein {ECO:0000256|ARBA:ARBA00023180, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Host cell membrane {ECO:0000256|ARBA:ARBA00022511, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Host membrane {ECO:0000256|ARBA:ARBA00022870, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Host-virus interaction {ECO:0000256|ARBA:ARBA00022581, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Lipoprotein {ECO:0000256|ARBA:ARBA00023288, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Palmitate {ECO:0000256|ARBA:ARBA00023139, ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729, ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Viral attachment to host cell {ECO:0000256|ARBA:ARBA00022804,
+KW   ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Viral envelope protein {ECO:0000256|ARBA:ARBA00022879, ECO:0000256|HAMAP-
+KW   Rule:MF_04099};
+KW   Viral penetration into host cytoplasm {ECO:0000256|ARBA:ARBA00022595,
+KW   ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844, ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Virulence {ECO:0000256|ARBA:ARBA00023026, ECO:0000256|HAMAP-Rule:MF_04099};
+KW   Virus entry into host cell {ECO:0000256|ARBA:ARBA00023296,
+KW   ECO:0000256|HAMAP-Rule:MF_04099}.
+FT   CHAIN           751..1348
+FT                   /note="Spike protein S2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT                   /id="PRO_5023484327"
+FT   CHAIN           899..1348
+FT                   /note="Spike protein S2'"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT                   /id="PRO_5023484328"
+FT   TRANSMEM        1293..1316
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TOPO_DOM        1314..1348
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   DOMAIN          15..298
+FT                   /note="BetaCoV S1-NTD"
+FT                   /evidence="ECO:0000259|PROSITE:PS51922"
+FT   DOMAIN          329..603
+FT                   /note="BetaCoV S1-CTD"
+FT                   /evidence="ECO:0000259|PROSITE:PS51921"
+FT   DOMAIN          975..1080
+FT                   /note="COV_S2_HR1"
+FT                   /evidence="ECO:0000259|PROSITE:PS51923"
+FT   DOMAIN          1223..1304
+FT                   /note="COV_S2_HR2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51924"
+FT   REGION          899..920
+FT                   /note="Fusion peptide 1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   REGION          918..938
+FT                   /note="Fusion peptide 2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   REGION          999..1049
+FT                   /note="Heptad repeat 1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   COILED          1028..1072
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   COILED          1254..1282
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   MOTIF           1344..1348
+FT                   /note="KxHxx"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   SITE            898..899
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   DISULFID        21..165
+FT                   /evidence="ECO:0007829|PDB:6QFY"
+FT   DISULFID        160..193
+FT                   /evidence="ECO:0007829|PDB:6QFY"
+FT   DISULFID        172..252
+FT                   /evidence="ECO:0007829|PDB:6QFY"
+FT   DISULFID        286..296
+FT                   /evidence="ECO:0007829|PDB:6QFY"
+FT   DISULFID        331..356
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   DISULFID        374..427
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+FT   DISULFID        923..934
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04099"
+SQ   SEQUENCE   1348 AA;  149339 MW;  49E900D4E1904C1D CRC64;
+     MFFILLIFLP SAFAVIGDLK CNTSSINDVD TGVPSISSEV VDVTNGLGTF YVLDRVYLNT
+     TLLLNGYYPI SGATFRNMAL KGTRLLSTLW FKSPFLSPFN DGIFAKVKNS RFSKDGVIYS
+     EFPAITIGST FVNSSHSIVV KPHTSFINGN LQGLLQISVC QYTMCEYPHT ICHPNLGNQR
+     IELWHYDTDV VSCLYKRNFT YDVNADYLYF HFYQEGGTFY AYFTDTGFVT KFLFKLYLGT
+     VLSHYYVMPL TCDSALSLEY WVTPLTTRQF LLAFDQDGVL YHAVDCASDF MSEIMCKTSS
+     ITPPTGVYEL NGYTVQPVAT VYRRIPDLPN CDIEAWLNFN IVSSPLNWER KIFSNCNFNM
+     GRLMSFIQAD SFGCNNIDAS RLYGMCFGSI TIDKFAIPIS RKVDLQLGKS GYLQSSNYKI
+     DTAVSSCQLY YSLPAANVSV THYNPSSWNR RYGFNNQSFG FRSLHDAVYS QQCFNTPNTY
+     CPCRTSKCIG GAGTGTCPVG TTVRKCFAAV TNATTCTCWC QPDPSIYKGV NAWTCPQSKV
+     SIQPGQHCPG LGLVEDDCSG NPCTCKPQAF IGWSSETCLQ NGRCNIFANF ILNDVNSGTT
+     CSTDLQQGNT NITTDVCVNY DLYGITGQGI LIEVNATYYN SWQNLLYDSS GNLYGFRDYL
+     SNRTFLIRSC YSGRVSAVFH AKSSEPALMF RNLKCSHVFN NTILRQIQLV NYFDSYLGCV
+     VNAYNNTASA VSTCDLTVGS GYCVDYVTAL RSRRSFTTGY RFTNFEPFAA NLVNDSIEPV
+     GGLYEIQIPS EFTIGNLEEF IQTSSPKVTI DCATFVCGDY AACRQQLAEY GSFCENINAI
+     LTEVNELLDT TQLQVANSLM SGVTLSTKIK DGIGFNVDDI NFSPVLGCLG SECRASTRSA
+     IEDLLFDKVK LSDVGFVQAY NNCTGGAEIR DLICVQSYNG IKVLPPLLSE NQISGYTSAA
+     TAASLFPPWT AAAGVPFYLN VQYRINGLGV TMDVLSQNQK LIASAFNNAL DAIQEGFDAT
+     NSALVKIQSV VNANAEALNN LLQQLSNRFG AISASLQEIL SRLDALEAKA QIDRLINGRL
+     TALNAYVSQQ LSDSTLVKFS AAQAMEKVNE CVKSQSSRIN FCGNGNHIIS LVQNAPYGLY
+     FIHFSYVPTK YVTAKVSPGL CIAGDTGISP KSGYFINVNN SWMFTGSGYY YPEPITQNNV
+     VMMSTCAVNY TKAPDLMLNT STPYLPDFKE ELYHWFKNQS SVAPDLSFDY LNVTFLGLQD
+     EMSRLQEAIK VLNHSYINLK DIGTYEYYVK WPWYVWLLIG LAGVAMLVLL FFICCCTGCG
+     TSCFKKCGGC CDDYTGHHEF VIKTSHDD
+//

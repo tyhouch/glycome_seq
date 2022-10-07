@@ -1,0 +1,116 @@
+ID   LECG_LACST              Reviewed;         135 AA.
+AC   Q9PSM4;
+DT   19-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 75.
+DE   RecName: Full=C-type lectin LmsL;
+DE            Short=CTL;
+DE   AltName: Full=Galactose-specific lectin;
+DE   AltName: Full=Mutina;
+OS   Lachesis stenophrys (Central American bushmaster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Lachesis.
+OX   NCBI_TaxID=88085 {ECO:0000305};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Venom;
+RX   PubMed=8843577; DOI=10.1016/0041-0101(96)00011-6;
+RA   Aragon-Ortiz F., Mentele R., Auerswald E.A.;
+RT   "Amino acid sequence of a lectin-like protein from Lachesis muta stenophyrs
+RT   venom.";
+RL   Toxicon 34:763-769(1996).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 1-40, FUNCTION, AND INDUCTION.
+RC   TISSUE=Venom;
+RA   Aragon-Ortiz F., Brenes-Brenes J.R., Gubensek F.;
+RT   "Characterization and properties of a lectin-like protein from Lachesis
+RT   muta snake venom.";
+RL   Toxicon 28:143-143(1990).
+RN   [3] {ECO:0000305}
+RP   FUNCTION.
+RC   TISSUE=Venom;
+RX   PubMed=3671807;
+RA   Gomez Leiva M.A., Aragon-Ortiz F.;
+RT   "Purification and some properties of hemagglutinating protein mutina from
+RT   bushmaster Lachesis muta snake venom.";
+RL   Rev. Biol. Trop. 34:49-53(1986).
+CC   -!- FUNCTION: Galactose-binding protein which recognizes specific
+CC       carbohydrate structures and agglutinates a variety of animal cells by
+CC       binding to cell-surface glycoproteins and glycolipids. Is a calcium-
+CC       dependent lectin. Shows high hemagglutinating activity, that is
+CC       inhibited by lactose, galactose and inositol.
+CC       {ECO:0000269|PubMed:3671807, ECO:0000269|Ref.2}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000250|UniProtKB:P21963}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- SIMILARITY: Belongs to the true venom lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; Q9PSM4; -.
+DR   SMR; Q9PSM4; -.
+DR   GO; GO:0005576; C:extracellular region; IDA:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; IPI:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IDA:UniProtKB.
+DR   GO; GO:0007157; P:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules; IDA:UniProtKB.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Hemagglutinin; Lectin;
+KW   Metal-binding; Secreted.
+FT   CHAIN           1..135
+FT                   /note="C-type lectin LmsL"
+FT                   /id="PRO_0000046645"
+FT   DOMAIN          10..132
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           96..98
+FT                   /note="Galactose-binding"
+FT   BINDING         96
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         98
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         104
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         120
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        3..14
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        31..131
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        38..133
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        86
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        106..123
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   135 AA;  16223 MW;  D5E9083A065A8F56 CRC64;
+     NNCPQDWLPM NGLCYKIFDE QKAWEDAEMF CRKYKPGCHL ASFHRYGESL EIAEYISDYH
+     KGQAEVWIGL WDKKKDFSWE WTDRSCTDYL TWDKNQPDHY EGKEFCVELV SLTGYRLWND
+     QVCESKNAFL CQCKF
+//

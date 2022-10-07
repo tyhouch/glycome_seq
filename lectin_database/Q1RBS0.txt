@@ -1,0 +1,88 @@
+ID   Q1RBS0_ECOUT            Unreviewed;       304 AA.
+AC   Q1RBS0;
+DT   16-MAY-2006, integrated into UniProtKB/TrEMBL.
+DT   16-MAY-2006, sequence version 1.
+DT   02-JUN-2021, entry version 87.
+DE   SubName: Full=Putative Fml fimbrial adhesin FmlD {ECO:0000313|EMBL:ABE07194.1};
+GN   Name=fmlD {ECO:0000313|EMBL:ABE07194.1};
+GN   OrderedLocusNames=UTI89_C1716 {ECO:0000313|EMBL:ABE07194.1};
+OS   Escherichia coli (strain UTI89 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=364106 {ECO:0000313|EMBL:ABE07194.1, ECO:0000313|Proteomes:UP000001952};
+RN   [1] {ECO:0000313|EMBL:ABE07194.1, ECO:0000313|Proteomes:UP000001952}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UTI89 / UPEC {ECO:0000313|Proteomes:UP000001952};
+RX   PubMed=16585510; DOI=10.1073/pnas.0600938103;
+RA   Chen S.L., Hung C.S., Xu J., Reigstad C.S., Magrini V., Sabo A.,
+RA   Blasiar D., Bieri T., Meyer R.R., Ozersky P., Armstrong J.R., Fulton R.S.,
+RA   Latreille J.P., Spieth J., Hooton T.M., Mardis E.R., Hultgren S.J.,
+RA   Gordon J.I.;
+RT   "Identification of genes subject to positive selection in uropathogenic
+RT   strains of Escherichia coli: a comparative genomics approach.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5977-5982(2006).
+RN   [2] {ECO:0007829|PDB:6AOW, ECO:0007829|PDB:6AOX}
+RP   X-RAY CRYSTALLOGRAPHY (1.20 ANGSTROMS) OF 25-184, AND DISULFIDE BONDS.
+RX   PubMed=29507247; DOI=10.1073/pnas.1720140115;
+RA   Kalas V., Hibbing M.E., Maddirala A.R., Chugani R., Pinkner J.S.,
+RA   Mydock-McGrane L.K., Conover M.S., Janetka J.W., Hultgren S.J.;
+RT   "Structure-based discovery of glycomimetic FmlH ligands as inhibitors of
+RT   bacterial adhesion during urinary tract infection.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 115:E2819-E2828(2018).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000243; ABE07194.1; -; Genomic_DNA.
+DR   RefSeq; WP_000520594.1; NC_007946.1.
+DR   PDB; 6AOW; X-ray; 1.60 A; A/B=25-184.
+DR   PDB; 6AOX; X-ray; 2.10 A; A/B=25-184.
+DR   PDB; 6AOY; X-ray; 1.80 A; A/B=25-184.
+DR   PDB; 6ARM; X-ray; 1.50 A; A/B=25-184.
+DR   PDB; 6ARN; X-ray; 1.25 A; A/B=25-184.
+DR   PDB; 6ARO; X-ray; 1.20 A; A/B=25-184.
+DR   PDB; 6AS8; X-ray; 2.10 A; A/B=25-184.
+DR   PDBsum; 6AOW; -.
+DR   PDBsum; 6AOX; -.
+DR   PDBsum; 6AOY; -.
+DR   PDBsum; 6ARM; -.
+DR   PDBsum; 6ARN; -.
+DR   PDBsum; 6ARO; -.
+DR   PDBsum; 6AS8; -.
+DR   SMR; Q1RBS0; -.
+DR   UniLectin; Q1RBS0; -.
+DR   EnsemblBacteria; ABE07194; ABE07194; UTI89_C1716.
+DR   KEGG; eci:UTI89_C1716; -.
+DR   HOGENOM; CLU_080390_0_0_6; -.
+DR   OMA; MSQHISC; -.
+DR   Proteomes; UP000001952; Chromosome.
+DR   GO; GO:0009289; C:pilus; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   CDD; cd10466; FimH_man-bind; 1.
+DR   Gene3D; 2.60.40.1090; -; 2.
+DR   InterPro; IPR036937; Adhesion_dom_fimbrial_sf.
+DR   InterPro; IPR008966; Adhesion_dom_sf.
+DR   InterPro; IPR015243; FimH_man-bd.
+DR   Pfam; PF09160; FimH_man-bind; 1.
+DR   SUPFAM; SSF49401; SSF49401; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:6AOW, ECO:0007829|PDB:6AOX};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           25..304
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004196809"
+FT   DOMAIN          27..171
+FT                   /note="FimH_man-bind"
+FT                   /evidence="ECO:0000259|Pfam:PF09160"
+FT   DISULFID        27..66
+FT                   /evidence="ECO:0007829|PDB:6AOW, ECO:0007829|PDB:6AOX"
+SQ   SEQUENCE   304 AA;  31951 MW;  88F1E07518BDB8BA CRC64;
+     MGKTFSIKVL FGIYLLLMAG KVFAFSCNVD GGSSIGAGTT SVYVNLDPVI QPGQNLVVDL
+     SQHISCWNDY GGWYDTDHIN LVQGSAFAGS LQSYKGSLYW NNVTYPFPLT TNTNVLDIGD
+     KTPMPLPLKL YITPVGAAGG VVIKAGEVIA RIHMYKIATL GSGNPRNFTW NIISNNSVVM
+     PTGGCTVDSR NVTVNLPDFP GSAEIPLGVY CSSEQKLSFY LSGATTDSAR QVFANAAPDA
+     TKASGVGVSL IRNGKILATG ENVSLGTVNK SKVPLGLSAT YGQTGNKVAA GAVQSVIGVT
+     FIYE
+//

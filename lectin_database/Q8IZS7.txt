@@ -1,0 +1,138 @@
+ID   CLCL1_HUMAN             Reviewed;         167 AA.
+AC   Q8IZS7;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   03-AUG-2022, entry version 129.
+DE   RecName: Full=C-type lectin-like domain family 1;
+DE   AltName: Full=Dendritic cell-associated lectin 1;
+DE            Short=DC-associated lectin-1;
+DE            Short=DCAL-1;
+GN   Name=CLECL1; Synonyms=DCAL1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=B-cell;
+RX   PubMed=12421943; DOI=10.4049/jimmunol.169.10.5638;
+RA   Ryan E.J., Marshall A.J., Magaletti D., Floyd H., Draves K.E., Olson N.E.,
+RA   Clark E.A.;
+RT   "Dendritic cell-associated lectin-1: a novel dendritic cell-associated, C-
+RT   type lectin-like molecule enhances T cell secretion of IL-4.";
+RL   J. Immunol. 169:5638-5648(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: May function in mediating immune cell-cell interactions. May
+CC       act as a T-cell costimulatory molecule, enhancing anti-CD3-induced
+CC       proliferation. May play a role in the interaction of dendritic cells
+CC       with T-cells and the cells of the adaptive immune response.
+CC       {ECO:0000269|PubMed:12421943}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:12421943};
+CC       Single-pass type II membrane protein {ECO:0000269|PubMed:12421943}.
+CC   -!- TISSUE SPECIFICITY: Expressed in spleen, lymph node, and tonsil. Lower
+CC       expression in peripheral blood, bone marrow, and colon. No expression
+CC       detected in thymus. Highly expressed in dendritic and B-cells.
+CC       {ECO:0000269|PubMed:12421943}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF518873; AAN64752.1; -; mRNA.
+DR   EMBL; BC093857; AAH93857.1; -; mRNA.
+DR   EMBL; BC093859; AAH93859.1; -; mRNA.
+DR   RefSeq; NP_001240679.1; NM_001253750.1.
+DR   RefSeq; NP_001254630.1; NM_001267701.1.
+DR   RefSeq; NP_742001.1; NM_172004.3.
+DR   AlphaFoldDB; Q8IZS7; -.
+DR   SMR; Q8IZS7; -.
+DR   BioGRID; 127755; 1.
+DR   STRING; 9606.ENSP00000483624; -.
+DR   GlyGen; Q8IZS7; 3 sites.
+DR   iPTMnet; Q8IZS7; -.
+DR   PhosphoSitePlus; Q8IZS7; -.
+DR   BioMuta; CLECL1; -.
+DR   DMDM; 74728443; -.
+DR   PaxDb; Q8IZS7; -.
+DR   PeptideAtlas; Q8IZS7; -.
+DR   PRIDE; Q8IZS7; -.
+DR   Antibodypedia; 53007; 54 antibodies from 18 providers.
+DR   DNASU; 160365; -.
+DR   GeneID; 160365; -.
+DR   UCSC; uc001qwj.4; human.
+DR   CTD; 160365; -.
+DR   DisGeNET; 160365; -.
+DR   GeneCards; CLECL1; -.
+DR   HGNC; HGNC:24462; CLECL1.
+DR   HPA; ENSG00000184293; Group enriched (intestine, lymphoid tissue).
+DR   MIM; 607467; gene.
+DR   neXtProt; NX_Q8IZS7; -.
+DR   PharmGKB; PA162382341; -.
+DR   VEuPathDB; HostDB:ENSG00000184293; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   HOGENOM; CLU_1660173_0_0_1; -.
+DR   InParanoid; Q8IZS7; -.
+DR   OrthoDB; 1178201at2759; -.
+DR   PhylomeDB; Q8IZS7; -.
+DR   TreeFam; TF342285; -.
+DR   PathwayCommons; Q8IZS7; -.
+DR   SignaLink; Q8IZS7; -.
+DR   BioGRID-ORCS; 160365; 17 hits in 1064 CRISPR screens.
+DR   GenomeRNAi; 160365; -.
+DR   Pharos; Q8IZS7; Tbio.
+DR   PRO; PR:Q8IZS7; -.
+DR   Proteomes; UP000005640; Chromosome 12.
+DR   RNAct; Q8IZS7; protein.
+DR   Bgee; ENSG00000184293; Expressed in tendon of biceps brachii and 153 other tissues.
+DR   ExpressionAtlas; Q8IZS7; baseline and differential.
+DR   Genevisible; Q8IZS7; HS.
+DR   GO; GO:0034451; C:centriolar satellite; IDA:HPA.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0097323; P:B cell adhesion; IDA:UniProtKB.
+DR   GO; GO:0032753; P:positive regulation of interleukin-4 production; IDA:UniProtKB.
+DR   GO; GO:0042102; P:positive regulation of T cell proliferation; IDA:UniProtKB.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Glycoprotein; Lectin; Membrane; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..167
+FT                   /note="C-type lectin-like domain family 1"
+FT                   /id="PRO_0000317461"
+FT   TOPO_DOM        1..67
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        68..88
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        89..167
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          116..167
+FT                   /note="C-type lectin; atypical"
+FT   CARBOHYD        109
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        140
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        149
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   167 AA;  19115 MW;  581A6F08DB32A53C CRC64;
+     MVSNFFHVIQ VFEKSATLIS KTEHIGFVIY SWRKSTTHLG SRRKFAISIY LSEVSLQKYD
+     CPFSGTSFVV FSLFLICAMA GDVVYADIKT VRTSPLELAF PLQRSVSFNF STVHKSCPAK
+     DWKVHKGKCY WIAETKKSWN KSQNDCAINN SYLMVIQDIT AMVRFNI
+//

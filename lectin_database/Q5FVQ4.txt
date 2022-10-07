@@ -1,0 +1,132 @@
+ID   MLEC_RAT                Reviewed;         291 AA.
+AC   Q5FVQ4;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   03-AUG-2022, entry version 107.
+DE   RecName: Full=Malectin {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=Mlec {ECO:0000312|RGD:1307736};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Spleen;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Carbohydrate-binding protein with a strong ligand preference
+CC       for Glc2-N-glycan. May play a role in the early steps of protein N-
+CC       glycosylation (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with the oligosaccharyltransferase (OST) complex.
+CC       {ECO:0000250|UniProtKB:Q14165}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000250};
+CC       Single-pass type I membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the malectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC089839; AAH89839.1; -; mRNA.
+DR   RefSeq; NP_001014005.1; NM_001013983.1.
+DR   AlphaFoldDB; Q5FVQ4; -.
+DR   SMR; Q5FVQ4; -.
+DR   BioGRID; 257900; 1.
+DR   IntAct; Q5FVQ4; 1.
+DR   STRING; 10116.ENSRNOP00000035497; -.
+DR   CAZy; CBM57; Carbohydrate-Binding Module Family 57.
+DR   GlyGen; Q5FVQ4; 1 site.
+DR   iPTMnet; Q5FVQ4; -.
+DR   PhosphoSitePlus; Q5FVQ4; -.
+DR   SwissPalm; Q5FVQ4; -.
+DR   jPOST; Q5FVQ4; -.
+DR   PaxDb; Q5FVQ4; -.
+DR   PRIDE; Q5FVQ4; -.
+DR   Ensembl; ENSRNOT00000038395; ENSRNOP00000035497; ENSRNOG00000064601.
+DR   GeneID; 304543; -.
+DR   KEGG; rno:304543; -.
+DR   UCSC; RGD:1307736; rat.
+DR   CTD; 9761; -.
+DR   RGD; 1307736; Mlec.
+DR   eggNOG; KOG3593; Eukaryota.
+DR   GeneTree; ENSGT00390000016504; -.
+DR   HOGENOM; CLU_065446_1_0_1; -.
+DR   InParanoid; Q5FVQ4; -.
+DR   OrthoDB; 1057965at2759; -.
+DR   PhylomeDB; Q5FVQ4; -.
+DR   TreeFam; TF314856; -.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   PRO; PR:Q5FVQ4; -.
+DR   Proteomes; UP000002494; Chromosome 12.
+DR   Bgee; ENSRNOG00000021725; Expressed in jejunum and 19 other tissues.
+DR   ExpressionAtlas; Q5FVQ4; baseline and differential.
+DR   Genevisible; Q5FVQ4; RN.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0008250; C:oligosaccharyltransferase complex; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; ISO:RGD.
+DR   InterPro; IPR021720; Malectin_dom.
+DR   InterPro; IPR039155; MLEC.
+DR   PANTHER; PTHR13460; PTHR13460; 1.
+DR   Pfam; PF11721; Malectin; 1.
+PE   2: Evidence at transcript level;
+KW   Carbohydrate metabolism; Endoplasmic reticulum; Glycoprotein; Membrane;
+KW   Reference proteome; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..291
+FT                   /note="Malectin"
+FT                   /id="PRO_0000013984"
+FT   TOPO_DOM        31..268
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        269..289
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        290..291
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          220..264
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        247..264
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         81
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         103
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         130
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         131
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         200
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        267
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   291 AA;  32418 MW;  11FA9277048361BC CRC64;
+     MLKPRAAEGA AVALLRLLLL LLLLPPELRD RGLGVAGAAG AGLPESVIWA VNAGGEAHVD
+     VHGIHFRKDP LEGRVGRASD YGMKLPILRS TPEDQILYQT ERYNEETFGY EVPVKEEGDY
+     VLVLKFAEVY FAQSQQKVFD VRLNGHVVVK DLDIFDRVGH STAHDEIIPM SIRKGKLSVQ
+     GEVSTFTGKL YIEFVKGYYD NPKVCALYIM AGTVDDVPKL QPHPGLEKKE EEEEEEEYDE
+     GSNLKRQTNK NRVQSGPRTP NPYASDNSSL MFPILVAFGV FIPTLFCLCR L
+//

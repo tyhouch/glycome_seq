@@ -1,0 +1,121 @@
+ID   AMYA_PYRFU              Reviewed;         649 AA.
+AC   P49067;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 113.
+DE   RecName: Full=Alpha-amylase;
+DE            EC=3.2.1.1;
+GN   Name=amyA; OrderedLocusNames=PF0272;
+OS   Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=186497;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=8226990; DOI=10.1016/s0021-9258(20)80539-0;
+RA   Laderman K.A., Asada K., Uemori T., Mukai H., Taguchi Y., Kato I.,
+RA   Anfinsen C.B.;
+RT   "Alpha-amylase from the hyperthermophilic archaebacterium Pyrococcus
+RT   furiosus. Cloning and sequencing of the gene and expression in Escherichia
+RT   coli.";
+RL   J. Biol. Chem. 268:24402-24407(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=10430560; DOI=10.1093/genetics/152.4.1299;
+RA   Maeder D.L., Weiss R.B., Dunn D.M., Cherry J.L., Gonzalez J.M.,
+RA   DiRuggiero J., Robb F.T.;
+RT   "Divergence of the hyperthermophilic archaea Pyrococcus furiosus and P.
+RT   horikoshii inferred from complete genomic sequences.";
+RL   Genetics 152:1299-1305(1999).
+RN   [3]
+RP   CHARACTERIZATION.
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=8226989; DOI=10.1016/s0021-9258(20)80538-9;
+RA   Laderman K.A., Davis B.R., Krutzsch H.C., Lewis M.S., Griko Y.V.,
+RA   Privalov P.L., Anfinsen C.B.;
+RT   "The purification and characterization of an extremely thermostable alpha-
+RT   amylase from the hyperthermophilic archaebacterium Pyrococcus furiosus.";
+RL   J. Biol. Chem. 268:24394-24401(1993).
+CC   -!- FUNCTION: Displays a broad range of substrate specificity, with the
+CC       capacity to hydrolyze carbohydrates as simple as maltotriose.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in
+CC         polysaccharides containing three or more (1->4)-alpha-linked D-
+CC         glucose units.; EC=3.2.1.1;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.5-7.5.;
+CC       Temperature dependence:
+CC         Optimum temperature is 100 degrees Celsius. Inactive below 40 degrees
+CC         Celsius. Extremely thermostable.;
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 57 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAL80396.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L22346; AAA72035.1; -; Unassigned_DNA.
+DR   EMBL; AE009950; AAL80396.1; ALT_INIT; Genomic_DNA.
+DR   PIR; A49512; A49512.
+DR   AlphaFoldDB; P49067; -.
+DR   SMR; P49067; -.
+DR   STRING; 186497.PF0272; -.
+DR   CAZy; GH57; Glycoside Hydrolase Family 57.
+DR   PRIDE; P49067; -.
+DR   EnsemblBacteria; AAL80396; AAL80396; PF0272.
+DR   KEGG; pfu:PF0272; -.
+DR   PATRIC; fig|186497.12.peg.284; -.
+DR   eggNOG; arCOG03280; Archaea.
+DR   HOGENOM; CLU_026700_0_0_2; -.
+DR   OMA; HFMSAGL; -.
+DR   PhylomeDB; P49067; -.
+DR   BioCyc; MetaCyc:MON-16304; -.
+DR   Proteomes; UP000001013; Chromosome.
+DR   GO; GO:0004556; F:alpha-amylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR015179; A-amylase/a-glucTrfase_C.
+DR   InterPro; IPR015178; A-amylase/a-glucTrfase_central.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR004300; Glyco_hydro_57_N.
+DR   Pfam; PF09094; DUF1925; 1.
+DR   Pfam; PF09095; DUF1926; 1.
+DR   Pfam; PF03065; Glyco_hydro_57; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Direct protein sequencing; Glycosidase; Hydrolase;
+KW   Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT   CHAIN           2..649
+FT                   /note="Alpha-amylase"
+FT                   /id="PRO_0000184573"
+FT   ACT_SITE        124
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        215
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   649 AA;  76309 MW;  B75840D33D17146F CRC64;
+     MGDKINFIFG IHNHQPLGNF GWVFEEAYEK CYWPFLETLE EYPNMKVAIH TSGPLIEWLQ
+     DNRPEYIDLL RSLVKRGQVE IVVAGFYEPV LASIPKEDRI EQIRLMKEWA KSIGFDARGV
+     WLTERVWQPE LVKTLKESGI DYVIVDDYHF MSAGLSKEEL YWPYYTEDGG EVIAVFPIDE
+     KLRYLIPFRP VDKVLEYLHS LIDGDESKVA VFHDDGEKFG IWPGTYEWVY EKGWLREFFD
+     RISSDEKINL MLYTEYLEKY KPRGLVYLPI ASYFEMSEWS LPAKQARLFV EFVNELKVKG
+     IFEKYRVFVR GGIWKNFFYK YPESNYMHKR MLMVSKLVRN NPEARKYLLR AQCNDAYWHG
+     LFGGVYLPHL RRAIWNNLIK ANSYVSLGKV IRDIDYDGFE EVLIENDNFY AVFKPSYGGS
+     LVEFSSKNRL VNYVDVLARR WEHYHGYVES QFDGVASIHE LEKKIPDEIR KEVAYDKYRR
+     FMLQDHVVPL GTTLEDFMFS RQQEIGEFPR VPYSYELLDG GIRLKREHLG IEVEKTVKLV
+     NDGFEVEYIV NNKTGNPVLF AVELNVAVQS IMESPGVLRG KEIVVDDKYA VGKFALKFED
+     EMEVWKYPVK TLSQSESGWD LIQQGVSYIV PIRLEDKIRF KLKFEEASG
+//

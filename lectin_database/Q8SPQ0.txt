@@ -1,0 +1,281 @@
+ID   CH3L1_CAPHI             Reviewed;         383 AA.
+AC   Q8SPQ0;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   03-AUG-2022, entry version 106.
+DE   RecName: Full=Chitinase-3-like protein 1;
+DE   AltName: Full=BP40;
+DE   AltName: Full=Mammary gland protein 40;
+DE            Short=MGP-40;
+DE   Flags: Precursor;
+GN   Name=CHI3L1;
+OS   Capra hircus (Goat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Caprinae; Capra.
+OX   NCBI_TaxID=9925;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF N-TERMINUS, AND X-RAY
+RP   CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF 22-383 IN COMPLEX WITH CHITIN OLIGOMERS.
+RC   TISSUE=Mammary gland;
+RX   PubMed=12529329; DOI=10.1074/jbc.m208967200;
+RA   Mohanty A.K., Singh G., Paramasivam M., Saravanan K., Jabeen T., Sharma S.,
+RA   Yadav S., Kaur P., Kumar P., Srinivasan A., Singh T.P.;
+RT   "Crystal structure of a novel regulatory 40-kDa mammary gland protein (MGP-
+RT   40) secreted during involution.";
+RL   J. Biol. Chem. 278:14451-14460(2003).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.09 ANGSTROMS) OF 22-381 IN COMPLEXES WITH
+RP   OLIGOSACCHARIDES, GLYCOSYLATION AT ASN-60, AND DISULFIDE BONDS.
+RX   PubMed=17372347; DOI=10.1107/s0907444907001631;
+RA   Kumar J., Ethayathulla A.S., Srivastava D.B., Singh N., Sharma S., Kaur P.,
+RA   Srinivasan A., Singh T.P.;
+RT   "Carbohydrate-binding properties of goat secretory glycoprotein (SPG-40)
+RT   and its functional implications: structures of the native glycoprotein and
+RT   its four complexes with chitin-like oligosaccharides.";
+RL   Acta Crystallogr. D 63:437-446(2007).
+CC   -!- FUNCTION: Carbohydrate-binding lectin with a preference for chitin. Has
+CC       no chitinase activity. May play a role in tissue remodeling and in the
+CC       capacity of cells to respond to and cope with changes in their
+CC       environment. Plays a role in T-helper cell type 2 (Th2) inflammatory
+CC       response and IL-13-induced inflammation, regulating allergen
+CC       sensitization, inflammatory cell apoptosis, dendritic cell accumulation
+CC       and M2 macrophage differentiation. Facilitates invasion of pathogenic
+CC       enteric bacteria into colonic mucosa and lymphoid organs. Mediates
+CC       activation of AKT1 signaling pathway and subsequent IL8 production in
+CC       colonic epithelial cells. Regulates antibacterial responses in lung by
+CC       contributing to macrophage bacterial killing, controlling bacterial
+CC       dissemination and augmenting host tolerance. Also regulates hyperoxia-
+CC       induced injury, inflammation and epithelial apoptosis in lung (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:12529329}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space. Cytoplasm
+CC       {ECO:0000250}. Cytoplasm, perinuclear region {ECO:0000250}. Endoplasmic
+CC       reticulum {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 18 family. {ECO:0000305}.
+CC   -!- CAUTION: Although it belongs to the glycosyl hydrolase 18 family, Leu-
+CC       140 is present instead of the conserved Glu which is an active site
+CC       residue. Therefore this protein lacks chitinase activity.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY081150; AAL87007.1; -; mRNA.
+DR   RefSeq; NP_001272618.1; NM_001285689.1.
+DR   PDB; 1LJY; X-ray; 2.90 A; A=22-383.
+DR   PDB; 1SYT; X-ray; 2.60 A; A=22-381.
+DR   PDB; 1ZBV; X-ray; 3.21 A; A=22-381.
+DR   PDB; 1ZBW; X-ray; 2.80 A; A=22-381.
+DR   PDB; 1ZU8; X-ray; 3.05 A; A=22-383.
+DR   PDB; 2AOS; X-ray; 2.90 A; A=22-381.
+DR   PDB; 2B31; X-ray; 3.10 A; A=22-381.
+DR   PDB; 2DSZ; X-ray; 2.35 A; A=22-381.
+DR   PDB; 2DT0; X-ray; 2.45 A; A=22-381.
+DR   PDB; 2DT1; X-ray; 2.09 A; A=22-381.
+DR   PDB; 2DT2; X-ray; 2.90 A; A=22-381.
+DR   PDB; 2DT3; X-ray; 2.28 A; A=22-381.
+DR   PDB; 2O92; X-ray; 3.00 A; A=22-381.
+DR   PDB; 2OLH; X-ray; 2.78 A; A=22-381.
+DR   PDBsum; 1LJY; -.
+DR   PDBsum; 1SYT; -.
+DR   PDBsum; 1ZBV; -.
+DR   PDBsum; 1ZBW; -.
+DR   PDBsum; 1ZU8; -.
+DR   PDBsum; 2AOS; -.
+DR   PDBsum; 2B31; -.
+DR   PDBsum; 2DSZ; -.
+DR   PDBsum; 2DT0; -.
+DR   PDBsum; 2DT1; -.
+DR   PDBsum; 2DT2; -.
+DR   PDBsum; 2DT3; -.
+DR   PDBsum; 2O92; -.
+DR   PDBsum; 2OLH; -.
+DR   AlphaFoldDB; Q8SPQ0; -.
+DR   SMR; Q8SPQ0; -.
+DR   STRING; 9925.ENSCHIP00000001773; -.
+DR   CAZy; GH18; Glycoside Hydrolase Family 18.
+DR   iPTMnet; Q8SPQ0; -.
+DR   PRIDE; Q8SPQ0; -.
+DR   GeneID; 100860825; -.
+DR   KEGG; chx:100860825; -.
+DR   CTD; 1116; -.
+DR   OrthoDB; 1289629at2759; -.
+DR   EvolutionaryTrace; Q8SPQ0; -.
+DR   Proteomes; UP000291000; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005615; C:extracellular space; ISS:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; ISS:UniProtKB.
+DR   GO; GO:0007250; P:activation of NF-kappaB-inducing kinase activity; ISS:UniProtKB.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; ISS:UniProtKB.
+DR   GO; GO:0006954; P:inflammatory response; ISS:UniProtKB.
+DR   GO; GO:0030324; P:lung development; ISS:UniProtKB.
+DR   GO; GO:0045766; P:positive regulation of angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; ISS:UniProtKB.
+DR   GO; GO:0032757; P:positive regulation of interleukin-8 production; ISS:UniProtKB.
+DR   GO; GO:0010800; P:positive regulation of peptidyl-threonine phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0051897; P:positive regulation of protein kinase B signaling; ISS:UniProtKB.
+DR   GO; GO:0070555; P:response to interleukin-1; ISS:UniProtKB.
+DR   GO; GO:0070741; P:response to interleukin-6; ISS:UniProtKB.
+DR   GO; GO:0009612; P:response to mechanical stimulus; ISS:UniProtKB.
+DR   GO; GO:0034612; P:response to tumor necrosis factor; ISS:UniProtKB.
+DR   Gene3D; 3.10.50.10; -; 1.
+DR   InterPro; IPR028538; CHI3L1.
+DR   InterPro; IPR011583; Chitinase_II.
+DR   InterPro; IPR029070; Chitinase_insertion_sf.
+DR   InterPro; IPR001223; Glyco_hydro18_cat.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   PANTHER; PTHR11177:SF202; PTHR11177:SF202; 1.
+DR   Pfam; PF00704; Glyco_hydro_18; 1.
+DR   SMART; SM00636; Glyco_18; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF54556; SSF54556; 1.
+DR   PROSITE; PS51910; GH18_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antimicrobial; Apoptosis; Cytoplasm;
+KW   Direct protein sequencing; Disulfide bond; Endoplasmic reticulum;
+KW   Glycoprotein; Inflammatory response; Lectin; Reference proteome; Secreted;
+KW   Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000269|PubMed:12529329"
+FT   CHAIN           22..383
+FT                   /note="Chitinase-3-like protein 1"
+FT                   /id="PRO_0000011964"
+FT   DOMAIN          22..383
+FT                   /note="GH18"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   REGION          324..338
+FT                   /note="Important for AKT1 activation and IL8 production"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         70..71
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         97..100
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         141
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         204..207
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   BINDING         263
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT   BINDING         352
+FT                   /ligand="chitin"
+FT                   /ligand_id="ChEBI:CHEBI:17029"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   CARBOHYD        60
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:17372347"
+FT   CARBOHYD        367
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        26..51
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258,
+FT                   ECO:0000269|PubMed:17372347"
+FT   DISULFID        300..364
+FT                   /evidence="ECO:0000269|PubMed:17372347"
+FT   STRAND          23..29
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           30..34
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           37..39
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           43..45
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   TURN            48..50
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          52..62
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          65..67
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           73..81
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           82..85
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          91..97
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          99..101
+FT                   /evidence="ECO:0007829|PDB:2DT3"
+FT   HELIX           103..111
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           113..130
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          133..138
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   TURN            144..146
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           147..164
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           165..167
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          173..178
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           182..188
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           191..195
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          199..203
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          213..215
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          229..231
+FT                   /evidence="ECO:0007829|PDB:2OLH"
+FT   STRAND          234..236
+FT                   /evidence="ECO:0007829|PDB:1LJY"
+FT   HELIX           237..247
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           251..253
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          254..270
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          277..281
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   TURN            286..288
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          293..295
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           296..302
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   TURN            303..305
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          307..311
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   TURN            312..315
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          316..321
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          324..327
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           331..343
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          347..352
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           354..356
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          359..361
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   STRAND          363..367
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+FT   HELIX           371..381
+FT                   /evidence="ECO:0007829|PDB:2DT1"
+SQ   SEQUENCE   383 AA;  42894 MW;  17655ED4BE4E9F5F CRC64;
+     MGLRASGTGF VVLVLLQSCA AYKLICYYTS WSQYREGDGS CFPDAIDPFL CTHIIYSFAN
+     ISNNEIDTWE WNDVTLYDTL NTLKNRNPKL KTLLSVGGWN FGPERFSKIA SKTQSRRTFI
+     KSVPPFLRTH GFDGLDLAWL YPGRRDKRHL TGLVKEMKAE FAREAQAGTE RLLLSAAVSA
+     GKIAIDRGYD IAQISRHLDF ISLLTYDFHG AWRQTVGHHS PLFRGQEDAS SDRFSNADYA
+     VSYMLRLGAP ANKLVMGIPT FGRSFTLASS KTDVGAPISG PGIPGRFTKE KGILAYYEIC
+     DFLHGATTHR FRDQQVPYAT KGNQWVAYDD QESVKNKARY LKNRQLAGAM VWALDLDDFR
+     GTFCGQNLTF PLTSAVKDVL AEV
+//

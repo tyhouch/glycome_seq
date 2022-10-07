@@ -1,0 +1,106 @@
+ID   PBCG_MESAU              Reviewed;         175 AA.
+AC   Q92778; P70109; Q9QYF7;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 2.
+DT   25-MAY-2022, entry version 103.
+DE   RecName: Full=Pancreatic beta cell growth factor;
+DE   AltName: Full=Islet neogenesis-associated protein;
+DE   Flags: Precursor;
+GN   Name=INGAP;
+OS   Mesocricetus auratus (Golden hamster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Mesocricetus.
+OX   NCBI_TaxID=10036;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TISSUE SPECIFICITY, INDUCTION, AND
+RP   SYNTHESIS OF 104-118.
+RC   STRAIN=Syrian; TISSUE=Pancreas;
+RX   PubMed=9151782; DOI=10.1172/jci119383;
+RA   Rafaeloff R., Pittenger G.L., Barlow S.W., Qin X.F., Yan B., Rosenberg L.,
+RA   Duguid W.P., Vinik A.I.;
+RT   "Cloning and sequencing of the pancreatic islet neogenesis associated
+RT   protein (INGAP) gene and its expression in islet neogenesis in hamsters.";
+RL   J. Clin. Invest. 99:2100-2109(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Syrian; TISSUE=Liver;
+RX   PubMed=12757938; DOI=10.1016/s0925-4439(03)00042-5;
+RA   Taylor-Fishwick D.A., Rittman S., Kendall H., Roy L., Shi W., Cao Y.,
+RA   Pittenger G.L., Vinik A.I.;
+RT   "Cloning genomic INGAP: a Reg-related family member with distinct
+RT   transcriptional regulation sites.";
+RL   Biochim. Biophys. Acta 1638:83-89(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE OF 38-175.
+RX   PubMed=10767532; DOI=10.1016/s0378-1119(00)00059-7;
+RA   Abe M., Nata K., Akiyama T., Shervani N.J., Kobayashi S.,
+RA   Tomioka-Kumagai T., Ito S., Takasawa S., Okamoto H.;
+RT   "Identification of a novel Reg family gene, Reg III delta, and mapping of
+RT   all three types of Reg family gene in a 75 kilobase mouse genomic region.";
+RL   Gene 246:111-122(2000).
+CC   -!- FUNCTION: Constituent of ilotropin, which is a partially purified
+CC       preparation of cellophane wrapping (CW) pancreata. Capable of
+CC       initiating duct cell proliferation, a prerequisite for islet
+CC       neogenesis. {ECO:0000269|PubMed:9151782}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed only in CW animals pancreas and to a
+CC       lesser extent in duodenum. In pancreas it is found in acinar cells, but
+CC       not in islets. {ECO:0000269|PubMed:9151782}.
+CC   -!- INDUCTION: Found 1 and 2 days after cellophane wrapping, absent by the
+CC       6th day. This period coincides with islet neogenesis.
+CC       {ECO:0000269|PubMed:9151782}.
+CC   -!- CAUTION: It is uncertain whether Met-1, Met-2 or Met-5 is the
+CC       initiator. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB16754.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=AAB86497.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U41737; AAB86497.1; ALT_INIT; mRNA.
+DR   EMBL; U41738; AAB16754.1; ALT_INIT; mRNA.
+DR   EMBL; AY184211; AAO63559.1; -; Genomic_DNA.
+DR   EMBL; AB035211; BAA88566.1; -; Genomic_DNA.
+DR   RefSeq; NP_001268484.1; NM_001281555.1.
+DR   AlphaFoldDB; Q92778; -.
+DR   SMR; Q92778; -.
+DR   STRING; 10036.XP_005078338.1; -.
+DR   GeneID; 101829186; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   OrthoDB; 1509611at2759; -.
+DR   Proteomes; UP000189706; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Lectin; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           27..175
+FT                   /note="Pancreatic beta cell growth factor"
+FT                   /id="PRO_0000017453"
+FT   DOMAIN          38..175
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        40..51
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        68..171
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        146..163
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   175 AA;  19940 MW;  3854F36BA35D17CE CRC64;
+     MMLPMTLCRM SWMLLSCLMF LSWVEGEESQ KKLPSSRITC PQGSVAYGSY CYSLILIPQT
+     WSNAELSCQM HFSGHLAFLL STGEITFVSS LVKNSLTAYQ YIWIGLHDPS HGTLPNGSGW
+     KWSSSNVLTF YNWERNPSIA ADRGYCAVLS QKSGFQKWRD FNCENELPYI CKFKV
+//

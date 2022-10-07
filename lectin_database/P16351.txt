@@ -1,0 +1,41 @@
+ID   LEC_CROPI               Reviewed;          24 AA.
+AC   P16351;
+DT   01-AUG-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1990, sequence version 1.
+DT   25-MAY-2022, entry version 50.
+DE   RecName: Full=Lectin;
+DE   Flags: Fragment;
+OS   Crotalaria pallida (Smooth rattlebox) (Crotalaria striata).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   genistoids sensu lato; core genistoids; Crotalarieae; Crotalaria.
+OX   NCBI_TaxID=3830;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Seed;
+RX   PubMed=2306467;
+RA   Khang N.Q., Guillaume J.-L., Hoebeke J.;
+RT   "A blood group A specific lectin from the seeds of Crotalaria striata.";
+RL   Biochim. Biophys. Acta 1033:210-213(1990).
+CC   -!- FUNCTION: Agglutinates erythrocytes of blood group A. Binds in
+CC       decreasing order of affinity: N-acetyl-D-galactosamine, D-galactose,
+CC       and D-galactosamine.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; S08292; S08292.
+DR   AlphaFoldDB; P16351; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Lectin.
+FT   CHAIN           1..>24
+FT                   /note="Lectin"
+FT                   /id="PRO_0000105091"
+FT   NON_TER         24
+SQ   SEQUENCE   24 AA;  2875 MW;  DC62B82CD9F9BB66 CRC64;
+     LEEQSFSFTK FSTDQQNLIL QAHY
+//

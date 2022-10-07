@@ -1,0 +1,187 @@
+ID   LECB_PHYAM              Reviewed;         361 AA.
+AC   Q9AVB0;
+DT   07-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   25-MAY-2022, entry version 70.
+DE   RecName: Full=Lectin-B;
+DE   AltName: Full=PL-B;
+DE   Flags: Precursor;
+OS   Phytolacca americana (American pokeweed) (Phytolacca decandra).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   Caryophyllales; Phytolaccaceae; Phytolacca.
+OX   NCBI_TaxID=3527;
+RN   [1] {ECO:0000312|EMBL:BAB40792.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Mizuta S., Ohnuma T., Yamaguchi K., Ishiguro M.;
+RT   "Molecular cloning and mass spectrometric analysis of two pokeweed
+RT   mitogens, PL-B and PL-C: systemic tissue distribution of different classes
+RT   of pokeweed lectins.";
+RL   Submitted (APR-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 42-336, DISULFIDE BONDS, AND GLYCOSYLATION.
+RC   TISSUE=Root {ECO:0000269|PubMed:9145528};
+RX   PubMed=9145528; DOI=10.1271/bbb.61.690;
+RA   Yamaguchi K., Yurino N., Kino M., Ishiguro M., Funatsu G.;
+RT   "The amino acid sequence of mitogenic lectin-B from the roots of pokeweed
+RT   (Phytolacca americana).";
+RL   Biosci. Biotechnol. Biochem. 61:690-698(1997).
+RN   [3] {ECO:0000305}
+RP   PARTIAL PROTEIN SEQUENCE, AND FUNCTION.
+RC   TISSUE=Root {ECO:0000269|PubMed:7772833};
+RX   PubMed=7772833; DOI=10.1271/bbb.59.683;
+RA   Kino M., Yamaguchi K., Umekawa H., Funatsu G.;
+RT   "Purification and characterization of three mitogenic lectins from the
+RT   roots of pokeweed (Phytolacca americana).";
+RL   Biosci. Biotechnol. Biochem. 59:683-688(1995).
+RN   [4] {ECO:0000305}
+RP   GLYCOSYLATION AT ASN-137 AND ASN-180, AND STRUCTURE OF CARBOHYDRATE ON
+RP   ASN-137 AND ASN-180.
+RC   TISSUE=Root {ECO:0000269|PubMed:8901119};
+RX   PubMed=8901119; DOI=10.1271/bbb.60.537;
+RA   Kimura Y., Yamaguchi K., Funatsu G.;
+RT   "Structural analysis of N-linked oligosaccharide of mitogenic lectin-B from
+RT   the roots of pokeweed (Phytolacca americana).";
+RL   Biosci. Biotechnol. Biochem. 60:537-540(1996).
+CC   -!- FUNCTION: N-acetyl-D-glucosamine binding lectin. Has high
+CC       hemagglutinating activity towards human erythrocytes. Shows potent
+CC       mitogenic activity towards human peripheral blood lymphocytes.
+CC       {ECO:0000269|PubMed:7772833, ECO:0000303|PubMed:8901119}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB059241; BAB40792.1; -; mRNA.
+DR   PIR; JC5559; JC5559.
+DR   AlphaFoldDB; Q9AVB0; -.
+DR   SMR; Q9AVB0; -.
+DR   CAZy; CBM18; Carbohydrate-Binding Module Family 18.
+DR   iPTMnet; Q9AVB0; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; ISS:UniProtKB.
+DR   GO; GO:0051781; P:positive regulation of cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0045840; P:positive regulation of mitotic nuclear division; IDA:UniProtKB.
+DR   Gene3D; 3.30.60.10; -; 7.
+DR   InterPro; IPR001002; Chitin-bd_1.
+DR   InterPro; IPR018371; Chitin-binding_1_CS.
+DR   InterPro; IPR036861; Endochitinase-like_sf.
+DR   Pfam; PF00187; Chitin_bind_1; 7.
+DR   PRINTS; PR00451; CHITINBINDNG.
+DR   SMART; SM00270; ChtBD1; 7.
+DR   SUPFAM; SSF57016; SSF57016; 7.
+DR   PROSITE; PS00026; CHIT_BIND_I_1; 2.
+DR   PROSITE; PS50941; CHIT_BIND_I_2; 7.
+PE   1: Evidence at protein level;
+KW   Chitin-binding; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Lectin; Mitogen; Repeat; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          27..41
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:9145528"
+FT                   /id="PRO_0000005268"
+FT   CHAIN           42..336
+FT                   /note="Lectin-B"
+FT                   /evidence="ECO:0000269|PubMed:9145528"
+FT                   /id="PRO_0000005269"
+FT   PROPEP          337..361
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000269|PubMed:9145528"
+FT                   /id="PRO_0000005270"
+FT   DOMAIN          42..83
+FT                   /note="Chitin-binding type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          84..127
+FT                   /note="Chitin-binding type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          128..170
+FT                   /note="Chitin-binding type-1 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          171..211
+FT                   /note="Chitin-binding type-1 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          212..252
+FT                   /note="Chitin-binding type-1 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          253..293
+FT                   /note="Chitin-binding type-1 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          294..335
+FT                   /note="Chitin-binding type-1 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   CARBOHYD        137
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:8901119,
+FT                   ECO:0000269|PubMed:9145528"
+FT   CARBOHYD        180
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:8901119,
+FT                   ECO:0000269|PubMed:9145528"
+FT   DISULFID        45..60
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        54..66
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        59..73
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        77..81
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        87..103
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        96..109
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        102..116
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        120..124
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        131..146
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        140..152
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        145..159
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        163..167
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        174..189
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        183..195
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        188..202
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        206..210
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        215..230
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        224..236
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        229..243
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        247..251
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        256..271
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        265..277
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        270..284
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        288..292
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        297..312
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        306..318
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        311..325
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        329..333
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   CONFLICT        252
+FT                   /note="D -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   361 AA;  39132 MW;  463F667183D7E74B CRC64;
+     MKRISNSIVG MLVVVLSVML LLPVEGHEGH GVVELIMGKL GAPECGREAS GKVCPDDLCC
+     SVFGHCGVSV QHCGDGCQSQ CVTNWRCGKD FDDRTCPKKL LCCSKDGWCG NTDAHCGEGC
+     QSQCEQYNWR CGVDFGNRTC PNDLCCSVGG WCGTTDDHCG EGCQSQCEQY NWHCGVDFGN
+     RTCPNDLCCS EWGWCGITEG YCGEGCQSQC NHQRCGKDFA GRTCLNDLCC SEWGWCGSSE
+     AHCGQGCQSN CDYNRCGRNF GFRTCPNELC CSSGGWCGSN DAHCGKGCQS QCDYWRCGVD
+     FSGRVCPQGR CCSAWGWCGD TEEYCEEGCQ SQCKLSSLPS PLSQILAIRK LNATIPTMAV
+     E
+//

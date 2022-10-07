@@ -1,0 +1,337 @@
+ID   XYNA1_THEST             Reviewed;         651 AA.
+AC   Q8GJ44; Q93AQ5;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2006, sequence version 2.
+DT   03-AUG-2022, entry version 98.
+DE   RecName: Full=Endo-1,4-beta-xylanase A;
+DE            EC=3.2.1.8;
+DE   AltName: Full=1,4-beta-D-xylan xylanohydrolase A;
+DE   AltName: Full=Xylanase 11A;
+DE            Short=Xyn11A;
+DE   Flags: Precursor;
+GN   Name=xynA;
+OS   Thermoclostridium stercorarium (Clostridium stercorarium).
+OC   Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae;
+OC   Thermoclostridium.
+OX   NCBI_TaxID=1510;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, INDUCTION, SUBCELLULAR
+RP   LOCATION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=NCIB 11745;
+RX   PubMed=15256568; DOI=10.1099/mic.0.27066-0;
+RA   Adelsberger H., Hertel C., Glawischnig E., Zverlov V.V., Schwarz W.H.;
+RT   "Enzyme system of Clostridium stercorarium for hydrolysis of arabinoxylan:
+RT   reconstitution of the in vivo system from recombinant enzymes.";
+RL   Microbiology 150:2257-2266(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 235-651, AND FUNCTION.
+RC   STRAIN=NCIB 11745;
+RX   PubMed=11849546; DOI=10.1046/j.1365-2958.2002.02730.x;
+RA   Boraston A.B., McLean B.W., Chen G., Li A., Warren R.A.J., Kilburn D.G.;
+RT   "Co-operative binding of triplicate carbohydrate-binding modules from a
+RT   thermophilic xylanase.";
+RL   Mol. Microbiol. 43:187-194(2002).
+RN   [3] {ECO:0007744|PDB:1NAE, ECO:0007744|PDB:1O8P, ECO:0007744|PDB:1O8S, ECO:0007744|PDB:1OD3}
+RP   X-RAY CRYSTALLOGRAPHY (1.0 ANGSTROMS) OF 507-651 IN COMPLEXES WITH
+RP   D-XYLOTRIOSE; CELLOBIOSE; LAMINARIBIOSE AND CALCIUM IONS.
+RX   PubMed=12634060; DOI=10.1016/s0022-2836(03)00152-9;
+RA   Boraston A.B., Notenboom V., Warren R.A.J., Kilburn D.G., Rose D.R.,
+RA   Davies G.;
+RT   "Structure and ligand binding of carbohydrate-binding module CsCBM6-3
+RT   reveals similarities with fucose-specific lectins and 'galactose-binding'
+RT   domains.";
+RL   J. Mol. Biol. 327:659-669(2003).
+RN   [4] {ECO:0007744|PDB:1UY1, ECO:0007744|PDB:1UY2, ECO:0007744|PDB:1UY3, ECO:0007744|PDB:1UY4}
+RP   X-RAY CRYSTALLOGRAPHY (1.69 ANGSTROMS) OF 235-373 IN COMPLEX WITH
+RP   D-XYLOBIOSE; D-XYLOTRIOSE; D-XYLOTETRAOSE AND CALCIUM IONS.
+RX   PubMed=15223327; DOI=10.1016/j.jmb.2004.05.038;
+RA   Lammerts van Bueren A., Boraston A.B.;
+RT   "Binding sub-site dissection of a carbohydrate-binding module reveals the
+RT   contribution of entropy to oligosaccharide recognition at 'non-primary'
+RT   binding subsites.";
+RL   J. Mol. Biol. 340:869-879(2004).
+CC   -!- FUNCTION: Endoxylanase that degrades arabinoxylan and glucuronoxylan to
+CC       xylobiose and xylotriose (in vitro). {ECO:0000269|PubMed:11849546,
+CC       ECO:0000269|PubMed:15256568}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.;
+CC         EC=3.2.1.8;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.5-7.0. {ECO:0000269|PubMed:15256568};
+CC       Temperature dependence:
+CC         Optimum temperature is 75 degrees Celsius. Thermostable.
+CC         {ECO:0000269|PubMed:15256568};
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:15256568}.
+CC   -!- INDUCTION: Up-regulated by growth on xylan.
+CC       {ECO:0000269|PubMed:15256568}.
+CC   -!- DOMAIN: XynA is a modular enzyme. The number of CBM6 (carbohydrate
+CC       binding type-6) domains varies between strains. The polymeric substrate
+CC       can interact with several of these CBM6 domains.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 11 (cellulase G) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ508403; CAD48307.1; -; Genomic_DNA.
+DR   EMBL; AF417638; AAL14106.1; -; Genomic_DNA.
+DR   PDB; 1NAE; X-ray; 2.05 A; A=507-651.
+DR   PDB; 1O8P; X-ray; 2.00 A; A=507-651.
+DR   PDB; 1O8S; X-ray; 1.15 A; A=507-651.
+DR   PDB; 1OD3; X-ray; 1.00 A; A=507-651.
+DR   PDB; 1UY1; X-ray; 1.80 A; A=235-373.
+DR   PDB; 1UY2; X-ray; 1.70 A; A=235-373.
+DR   PDB; 1UY3; X-ray; 1.89 A; A=235-373.
+DR   PDB; 1UY4; X-ray; 1.69 A; A=235-373.
+DR   PDBsum; 1NAE; -.
+DR   PDBsum; 1O8P; -.
+DR   PDBsum; 1O8S; -.
+DR   PDBsum; 1OD3; -.
+DR   PDBsum; 1UY1; -.
+DR   PDBsum; 1UY2; -.
+DR   PDBsum; 1UY3; -.
+DR   PDBsum; 1UY4; -.
+DR   AlphaFoldDB; Q8GJ44; -.
+DR   SMR; Q8GJ44; -.
+DR   DrugBank; DB03389; alpha-D-Xylopyranose.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   CAZy; CBM6; Carbohydrate-Binding Module Family 6.
+DR   CAZy; GH11; Glycoside Hydrolase Family 11.
+DR   CLAE; XYN11B_CLOST; -.
+DR   BRENDA; 3.2.1.8; 1520.
+DR   UniPathway; UPA00114; -.
+DR   EvolutionaryTrace; Q8GJ44; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0031176; F:endo-1,4-beta-xylanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.60.120.180; -; 1.
+DR   InterPro; IPR006584; Cellulose-bd_IV.
+DR   InterPro; IPR005084; CMB_fam6.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR013319; GH11/12.
+DR   InterPro; IPR018208; GH11_AS_1.
+DR   InterPro; IPR033119; GH11_AS_2.
+DR   InterPro; IPR033123; GH11_dom.
+DR   InterPro; IPR001137; Glyco_hydro_11.
+DR   Pfam; PF03422; CBM_6; 3.
+DR   Pfam; PF00457; Glyco_hydro_11; 1.
+DR   PRINTS; PR00911; GLHYDRLASE11.
+DR   SMART; SM00606; CBD_IV; 3.
+DR   SUPFAM; SSF49785; SSF49785; 3.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51175; CBM6; 3.
+DR   PROSITE; PS00776; GH11_1; 1.
+DR   PROSITE; PS00777; GH11_2; 1.
+DR   PROSITE; PS51761; GH11_3; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Carbohydrate metabolism; Cellulose degradation;
+KW   Glycosidase; Hydrolase; Metal-binding; Polysaccharide degradation; Repeat;
+KW   Secreted; Signal; Xylan degradation.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..651
+FT                   /note="Endo-1,4-beta-xylanase A"
+FT                   /id="PRO_0000236809"
+FT   DOMAIN          33..227
+FT                   /note="GH11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01097"
+FT   DOMAIN          250..370
+FT                   /note="CBM6 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   REPEAT          278..339
+FT                   /note="1"
+FT   DOMAIN          387..507
+FT                   /note="CBM6 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   REPEAT          415..476
+FT                   /note="2"
+FT   DOMAIN          527..647
+FT                   /note="CBM6 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   REPEAT          555..616
+FT                   /note="3"
+FT   REGION          278..616
+FT                   /note="3 X 61 AA approximate repeats"
+FT   ACT_SITE        124
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10062"
+FT   ACT_SITE        214
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10063"
+FT   BINDING         253
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY1, ECO:0007744|PDB:1UY2,
+FT                   ECO:0007744|PDB:1UY3, ECO:0007744|PDB:1UY4"
+FT   BINDING         255
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY1, ECO:0007744|PDB:1UY2,
+FT                   ECO:0007744|PDB:1UY3, ECO:0007744|PDB:1UY4"
+FT   BINDING         270
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY3"
+FT   BINDING         275
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY1, ECO:0007744|PDB:1UY2,
+FT                   ECO:0007744|PDB:1UY3, ECO:0007744|PDB:1UY4"
+FT   BINDING         279
+FT                   /ligand="D-xylobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28309"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY2"
+FT   BINDING         279
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY3"
+FT   BINDING         336
+FT                   /ligand="D-xylobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28309"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY2"
+FT   BINDING         336
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY3"
+FT   BINDING         363
+FT                   /ligand="D-xylobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28309"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY2"
+FT   BINDING         363
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY2"
+FT   BINDING         365
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:15223327,
+FT                   ECO:0007744|PDB:1UY1, ECO:0007744|PDB:1UY2,
+FT                   ECO:0007744|PDB:1UY3, ECO:0007744|PDB:1UY4"
+FT   BINDING         530
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:12634060,
+FT                   ECO:0007744|PDB:1NAE, ECO:0007744|PDB:1O8P,
+FT                   ECO:0007744|PDB:1O8S, ECO:0007744|PDB:1OD3"
+FT   BINDING         532
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:12634060,
+FT                   ECO:0007744|PDB:1NAE, ECO:0007744|PDB:1O8P,
+FT                   ECO:0007744|PDB:1O8S, ECO:0007744|PDB:1OD3"
+FT   BINDING         552
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:12634060,
+FT                   ECO:0007744|PDB:1NAE, ECO:0007744|PDB:1O8P,
+FT                   ECO:0007744|PDB:1O8S, ECO:0007744|PDB:1OD3"
+FT   BINDING         556
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:12634060,
+FT                   ECO:0007744|PDB:1NAE"
+FT   BINDING         613
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:12634060,
+FT                   ECO:0007744|PDB:1NAE"
+FT   BINDING         640
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:12634060,
+FT                   ECO:0007744|PDB:1NAE"
+FT   BINDING         642
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:12634060,
+FT                   ECO:0007744|PDB:1NAE, ECO:0007744|PDB:1O8P,
+FT                   ECO:0007744|PDB:1O8S, ECO:0007744|PDB:1OD3"
+FT   CONFLICT        649..651
+FT                   /note="SGT -> FRNLRV (in Ref. 1; CAD48307)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          258..260
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          266..269
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          275..279
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          285..292
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          297..305
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          310..318
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          323..329
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          339..348
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          350..360
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          363..371
+FT                   /evidence="ECO:0007829|PDB:1UY4"
+FT   STRAND          523..527
+FT                   /evidence="ECO:0007829|PDB:1O8P"
+FT   STRAND          535..538
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          543..546
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          550..555
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          562..569
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          574..582
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          587..595
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          600..606
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          616..625
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          627..637
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+FT   STRAND          640..647
+FT                   /evidence="ECO:0007829|PDB:1OD3"
+SQ   SEQUENCE   651 AA;  70151 MW;  52E501A16F9D1423 CRC64;
+     MKRKVKKMAA MATSIIMAIM IILHSIPVLA GRIIYDNETG THGGYDYELW KDYGNTIMEL
+     NDGGTFSCQW SNIGNALFRK GRKFNSDKTY QELGDIVVEY GCDYNPNGNS YLCVYGWTRN
+     PLVEYYIVES WGSWRPPGAT PKGTITVDGG TYEIYETTRV NQPSIDGTAT FQQYWSVRTS
+     KRTSGTISVT EHFKQWERMG MRMGKMYEVA LTVEGYQSSG YANVYKNEIR IGANPTPAPS
+     QSPIRRDAFS IIEAEEYNST NSSTLQVIGT PNNGRGIGYI ENGNTVTYSN IDFGSGATGF
+     SATVATEVNT SIQIRSDSPT GTLLGTLYVS STGSWNTYQT VSTNISKITG VHDIVLVFSG
+     PVNVDNFIFS RSSPVPAPGD NTRDAYSIIQ AEDYDSSYGP NLQIFSLPGG GSAIGYIENG
+     YSTTYNNVNF ANGLSSITAR VATQISTSIQ VRAGGATGTL LGTIYVPSTN SWDSYQNVTA
+     NLSNITGVHD ITLVFSGPVN VDYFVFTPAN VNSGPTSPVG GTRSAFSNIQ AEDYDSSYGP
+     NLQIFSLPGG GSAIGYIENG YSTTYKNIDF GDGATSVTAR VATQNATTIQ VRLGSPSGTL
+     LGTIYVGSTG SFDTYRDVSA TISNTAGVKD IVLVFSGPVN VDWFVFSKSG T
+//

@@ -1,0 +1,145 @@
+ID   CGL3_COPCI              Reviewed;         164 AA.
+AC   Q206Z5;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   18-APR-2006, sequence version 1.
+DT   03-AUG-2022, entry version 59.
+DE   RecName: Full=Galectin-3;
+DE   AltName: Full=Cgl-III;
+DE   AltName: Full=Galectin III;
+GN   Name=Cgl3;
+OS   Coprinopsis cinerea (Inky cap fungus) (Hormographiella aspergillata).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Psathyrellaceae; Coprinopsis.
+OX   NCBI_TaxID=5346;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND INDUCTION.
+RC   STRAIN=AmutBmut;
+RX   PubMed=16607020; DOI=10.1128/ec.5.4.732-744.2006;
+RA   Waelti M.A., Villalba C., Buser R.M., Gruenler A., Aebi M., Kuenzler M.;
+RT   "Targeted gene silencing in the model mushroom Coprinopsis cinerea
+RT   (Coprinus cinereus) by expression of homologous hairpin RNAs.";
+RL   Eukaryot. Cell 5:732-744(2006).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) IN COMPLEX WITH CHITOTRIOSE,
+RP   FUNCTION, SUBUNIT, MUTAGENESIS OF ILE-43; ASN-45; ARG-81 AND ASN-138, AND
+RP   INDUCTION.
+RX   PubMed=18440554; DOI=10.1016/j.jmb.2008.03.062;
+RA   Waelti M.A., Walser P.J., Thore S., Gruenler A., Bednar M., Kuenzler M.,
+RA   Aebi M.;
+RT   "Structural basis for chitotetraose coordination by CGL3, a novel galectin-
+RT   related protein from Coprinopsis cinerea.";
+RL   J. Mol. Biol. 379:146-159(2008).
+CC   -!- FUNCTION: Binds complex carbohydrates, such as chitooligosaccharides.
+CC       Does not bind lactose. May play a role in fruiting body formation.
+CC       {ECO:0000269|PubMed:18440554}.
+CC   -!- SUBUNIT: Homotetramer. Oligomerization is required for carbohydrate
+CC       binding (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}. Secreted, cell wall {ECO:0000250}.
+CC   -!- INDUCTION: Induced during fruiting body formation.
+CC       {ECO:0000269|PubMed:16607020, ECO:0000269|PubMed:18440554}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ408306; ABD64675.1; -; Genomic_DNA.
+DR   PDB; 2R0F; X-ray; 2.00 A; A/B=1-164.
+DR   PDB; 2R0H; X-ray; 1.90 A; A/B/C/D=1-164.
+DR   PDBsum; 2R0F; -.
+DR   PDBsum; 2R0H; -.
+DR   AlphaFoldDB; Q206Z5; -.
+DR   SMR; Q206Z5; -.
+DR   UniLectin; Q206Z5; -.
+DR   VEuPathDB; FungiDB:CC1G_00723; -.
+DR   VEuPathDB; FungiDB:CC2G_000186; -.
+DR   EvolutionaryTrace; Q206Z5; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell wall; Extracellular matrix; Fruiting body; Lectin;
+KW   Secreted.
+FT   CHAIN           1..164
+FT                   /note="Galectin-3"
+FT                   /id="PRO_0000333263"
+FT   DOMAIN          9..154
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         45
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         64
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         73
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         81
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         84
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         138
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   MUTAGEN         43
+FT                   /note="I->A: Abolishes chitooligosaccharide binding; when
+FT                   associated with A-45."
+FT                   /evidence="ECO:0000269|PubMed:18440554"
+FT   MUTAGEN         45
+FT                   /note="N->A: Abolishes chitooligosaccharide binding; when
+FT                   associated with A-43."
+FT                   /evidence="ECO:0000269|PubMed:18440554"
+FT   MUTAGEN         81
+FT                   /note="R->A: Alters binding specificity, leading to lactose
+FT                   binding and reduced affinity for chitooligosaccharide."
+FT                   /evidence="ECO:0000269|PubMed:18440554"
+FT   MUTAGEN         81
+FT                   /note="R->W: Alters binding specificity, leading to lactose
+FT                   binding and loss of chitooligosaccharide binding."
+FT                   /evidence="ECO:0000269|PubMed:18440554"
+FT   MUTAGEN         138
+FT                   /note="N->A: Abolishes chitooligosaccharide binding."
+FT                   /evidence="ECO:0000269|PubMed:18440554"
+FT   STRAND          2..6
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          9..12
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          22..26
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   TURN            39..41
+FT                   /evidence="ECO:0007829|PDB:2R0F"
+FT   STRAND          46..52
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          57..64
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   TURN            65..68
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          69..75
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          85..88
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   TURN            90..92
+FT                   /evidence="ECO:0007829|PDB:2R0F"
+FT   STRAND          100..105
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          107..114
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          117..123
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          130..137
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   STRAND          147..154
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+FT   HELIX           156..159
+FT                   /evidence="ECO:0007829|PDB:2R0H"
+SQ   SEQUENCE   164 AA;  18735 MW;  4AAF6E1507F88617 CRC64;
+     MFHILRLEST VDLSEPLKDN GIIVFQSDKL DLEPSPNLGP TGIDNTNVNL INAKGDVLLH
+     IGIRRRENAF VFNSIPYGES RGPEERIPLE GTFGDRRDPS ITIFDHPDRY QIMIDYKTVY
+     YYKKRLEGRC EKVSYKINEG QTPPFSDVLG VTVLYFANVM PRAN
+//

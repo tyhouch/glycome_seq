@@ -1,0 +1,205 @@
+ID   A3DD67_ACET2            Unreviewed;       571 AA.
+AC   A3DD67;
+DT   20-MAR-2007, integrated into UniProtKB/TrEMBL.
+DT   20-MAR-2007, sequence version 1.
+DT   03-AUG-2022, entry version 90.
+DE   SubName: Full=Ricin B lectin {ECO:0000313|EMBL:ABN51896.1};
+DE   Flags: Precursor;
+GN   OrderedLocusNames=Cthe_0661 {ECO:0000313|EMBL:ABN51896.1};
+OS   Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC
+OS   103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum).
+OC   Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae;
+OC   Acetivibrio.
+OX   NCBI_TaxID=203119 {ECO:0000313|EMBL:ABN51896.1, ECO:0000313|Proteomes:UP000002145};
+RN   [1] {ECO:0000313|Proteomes:UP000002145}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 /
+RC   NRRL B-4536 / VPI 7372 {ECO:0000313|Proteomes:UP000002145};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N., Wu J.H.D.,
+RA   Newcomb M., Richardson P.;
+RT   "Complete sequence of Clostridium thermocellum ATCC 27405.";
+RL   Submitted (FEB-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:3VSF, ECO:0007829|PDB:3VSZ}
+RP   X-RAY CRYSTALLOGRAPHY (2.76 ANGSTROMS) OF 31-520 IN COMPLEX WITH GALACTOSE.
+RX   PubMed=22960181; DOI=10.1016/j.jsb.2012.08.005;
+RA   Jiang D., Fan J., Wang X., Zhao Y., Huang B., Liu J., Zhang X.C.;
+RT   "Crystal structure of 1,3Gal43A, an exo-beta-1,3-galactanase from
+RT   Clostridium thermocellum.";
+RL   J. Struct. Biol. 180:447-457(2012).
+RN   [3] {ECO:0000313|EMBL:ABN51896.1, ECO:0000313|Proteomes:UP000002145}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 /
+RC   NRRL B-4536 / VPI 7372 {ECO:0000313|Proteomes:UP000002145};
+RX   PubMed=24295562; DOI=10.1186/1754-6834-6-179;
+RA   Wilson C.M., Rodriguez M.Jr., Johnson C.M., Martin S.L., Chu T.M.,
+RA   Wolfinger R.D., Hauser L.J., Land M.L., Klingeman D.M., Syed M.H.,
+RA   Ragauskas A.J., Tschaplinski T.J., Mielenz J.R., Brown S.D.;
+RT   "Global transcriptome analysis of Clostridium thermocellum ATCC 27405
+RT   during growth on dilute acid pretreated Populus and switchgrass.";
+RL   Biotechnol. Biofuels 6:179-179(2013).
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 43 family.
+CC       {ECO:0000256|ARBA:ARBA00009865, ECO:0000256|RuleBase:RU361187}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000568; ABN51896.1; -; Genomic_DNA.
+DR   RefSeq; WP_011837884.1; NC_009012.1.
+DR   PDB; 3VSF; X-ray; 2.76 A; A/B/C/D/E/F=31-520.
+DR   PDB; 3VSZ; X-ray; 2.89 A; A/B/C/D/E/F=31-520.
+DR   PDB; 3VT0; X-ray; 2.91 A; A/B/C/D/E/F=31-520.
+DR   PDB; 3VT1; X-ray; 3.19 A; A/B/C/D/E/F=31-520.
+DR   PDB; 3VT2; X-ray; 3.00 A; A/B/C/D/E/F=31-520.
+DR   PDBsum; 3VSF; -.
+DR   PDBsum; 3VSZ; -.
+DR   PDBsum; 3VT0; -.
+DR   PDBsum; 3VT1; -.
+DR   PDBsum; 3VT2; -.
+DR   SMR; A3DD67; -.
+DR   STRING; 203119.Cthe_0661; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GH43; Glycoside Hydrolase Family 43.
+DR   UniLectin; A3DD67; -.
+DR   EnsemblBacteria; ABN51896; ABN51896; Cthe_0661.
+DR   KEGG; cth:Cthe_0661; -.
+DR   eggNOG; COG3507; Bacteria.
+DR   HOGENOM; CLU_016116_0_0_9; -.
+DR   OMA; DQWDSNS; -.
+DR   OrthoDB; 1622507at2; -.
+DR   BRENDA; 3.2.1.145; 1530.
+DR   Proteomes; UP000002145; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:InterPro.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 1.10.1330.10; -; 1.
+DR   Gene3D; 2.115.10.20; -; 1.
+DR   InterPro; IPR002105; Dockerin_1_rpt.
+DR   InterPro; IPR016134; Dockerin_dom.
+DR   InterPro; IPR036439; Dockerin_dom_sf.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR006710; Glyco_hydro_43.
+DR   InterPro; IPR023296; Glyco_hydro_beta-prop_sf.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00404; Dockerin_1; 1.
+DR   Pfam; PF04616; Glyco_hydro_43; 1.
+DR   Pfam; PF14200; RicinB_lectin_2; 2.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF63446; SSF63446; 1.
+DR   SUPFAM; SSF75005; SSF75005; 1.
+DR   PROSITE; PS00448; CLOS_CELLULOSOME_RPT; 2.
+DR   PROSITE; PS51766; DOCKERIN; 1.
+DR   PROSITE; PS00018; EF_HAND_1; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3VSF, ECO:0007829|PDB:3VSZ};
+KW   Glycosidase {ECO:0000256|RuleBase:RU361187};
+KW   Hydrolase {ECO:0000256|RuleBase:RU361187};
+KW   Lectin {ECO:0000313|EMBL:ABN51896.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000002145};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..31
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           32..571
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002652248"
+FT   DOMAIN          353..491
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   DOMAIN          504..571
+FT                   /note="Dockerin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51766"
+FT   BINDING         112
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         113
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         137
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ"
+FT   BINDING         180
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VT1"
+FT   BINDING         229
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         249
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ"
+FT   BINDING         250
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         282
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VT1"
+FT   BINDING         369
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VT1"
+FT   BINDING         372
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VT1"
+FT   BINDING         384
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VT1"
+FT   BINDING         389
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VT1"
+FT   BINDING         391
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VT1"
+FT   BINDING         416
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         419
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         420
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         431
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         434
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+FT   BINDING         438
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:3VSZ, ECO:0007829|PDB:3VT1"
+SQ   SEQUENCE   571 AA;  63895 MW;  5034D6F32BBA3CA4 CRC64;
+     MVKKNVGLRF LSILILMALL IGNVQSFNVA AAEGVIVNGT QFKDTSGNVI HAHGGGMLKH
+     GDYYYWYGEY RDDSNLFLGV SCYRSKDLVN WEYRGEVLSR NSAPELNHCN IERPKVMYNA
+     STGEFVMWMH WENGINYGQA RAAVAYSKTP DGKFTYIRSF RPMQDTGVMD HGLPGYMSRD
+     CNVFVDTDGK GYFISAANEN MDLHLYELTP DYKNIASLKA KLFVGQQREA PCLIKRNGYY
+     YLITSGCTGW NPNQAKYAYS KDLASGWSQL YNLGNSTTYR SQPTFIIPVQ GSSGTSYLYM
+     GDRWAGAWGG KVNDSQYVWL PLNFISDTTL ELPYYDSVKI DASSGIISEY IPDTTRYKLV
+     NKNSGKVLDV LDGSVDNAAQ IVQWTDNGSL SQQWYLVDVG GGYKKIVNVK SGRALDVKDE
+     SKEDGGVLIQ YTSNGGYNQH WKFTDIGDGY YKISSRHCGK LIDVRKWSTE DGGIIQQWSD
+     AGGTNQHWKL VLVSSPEPSP SPSPQVVKGD VNGDLKVNST DFSMLRRYLL KTIDNFPTEN
+     GKQAADLNGD GRINSSDLTM LKRYLLMEVD L
+//

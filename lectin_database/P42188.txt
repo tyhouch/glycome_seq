@@ -1,0 +1,96 @@
+ID   PAPG3_ECOLX             Reviewed;         335 AA.
+AC   P42188;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   25-MAY-2022, entry version 77.
+DE   RecName: Full=Fimbrial adhesin PapGIII {ECO:0000303|PubMed:31361021};
+DE   AltName: Full=Adhesin;
+DE   Flags: Precursor;
+GN   Name=papGIII {ECO:0000303|PubMed:31361021};
+GN   Synonyms=prsG {ECO:0000303|PubMed:7902954};
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=1442;
+RX   PubMed=1357526; DOI=10.1111/j.1365-2958.1992.tb01399.x;
+RA   Marklund B.-I., Tennent J.M., Garcia E., Hamers A., Baga M., Lindberg F.,
+RA   Gaastra W., Normark S.;
+RT   "Horizontal gene transfer of the Escherichia coli pap and prs pili operons
+RT   as a mechanism for the development of tissue-specific adhesive
+RT   properties.";
+RL   Mol. Microbiol. 6:2225-2242(1992).
+RN   [2]
+RP   FUNCTION.
+RC   STRAIN=ATCC 700336 / J96 / UPEC;
+RX   PubMed=1693334; DOI=10.1002/j.1460-2075.1990.tb08328.x;
+RA   Stroemberg N., Marklund B.I., Lund B., Ilver D., Hamers A., Gaastra W.,
+RA   Karlsson K.A., Normark S.;
+RT   "Host-specificity of uropathogenic Escherichia coli depends on differences
+RT   in binding specificity to Gal alpha 1-4Gal-containing isoreceptors.";
+RL   EMBO J. 9:2001-2010(1990).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=7902954; DOI=10.1006/mpat.1993.1062;
+RA   Johanson I.M., Plos K., Marklund B.I., Svanborg C.;
+RT   "Pap, papG and prsG DNA sequences in Escherichia coli from the fecal flora
+RT   and the urinary tract.";
+RL   Microb. Pathog. 15:121-129(1993).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=31361021; DOI=10.1093/glycob/cwz059;
+RA   Legros N., Ptascheck S., Pohlentz G., Karch H., Dobrindt U., Muething J.;
+RT   "PapG subtype-specific binding characteristics of Escherichia coli towards
+RT   globo-series glycosphingolipids of human kidney and bladder uroepithelial
+RT   cells.";
+RL   Glycobiology 29:789-802(2019).
+CC   -!- FUNCTION: Tip adhesin component of type P pili that binds
+CC       preferentially to Gal-alpha(1-4)-Gal-containing glycolipids such as
+CC       globoside (PubMed:1693334, PubMed:31361021). This tip is common in
+CC       E.coli strains that cause human cystitis, but rare in pyelonephritic
+CC       isolates (PubMed:7902954). {ECO:0000269|PubMed:1693334,
+CC       ECO:0000269|PubMed:31361021, ECO:0000269|PubMed:7902954}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P13720}. Fimbrium
+CC       {ECO:0000250|UniProtKB:P13720}. Note=At the tip of P pili.
+CC       {ECO:0000250|UniProtKB:P13720}.
+CC   -!- SIMILARITY: Belongs to the adhesin PapG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X62158; CAA44089.1; -; Genomic_DNA.
+DR   PIR; S25212; S25212.
+DR   AlphaFoldDB; P42188; -.
+DR   SMR; P42188; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009289; C:pilus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   CDD; cd00239; PapG_CBD; 1.
+DR   Gene3D; 2.60.40.1090; -; 1.
+DR   Gene3D; 2.60.40.1370; -; 1.
+DR   InterPro; IPR036937; Adhesion_dom_fimbrial_sf.
+DR   InterPro; IPR008966; Adhesion_dom_sf.
+DR   InterPro; IPR005310; PapG_carb-bd_N.
+DR   InterPro; IPR038420; PapG_carbohydrate-bd_sf.
+DR   InterPro; IPR005309; PapG_chaper-bd_C.
+DR   Pfam; PF03628; PapG_C; 1.
+DR   Pfam; PF03627; PapG_N; 1.
+DR   SUPFAM; SSF49401; SSF49401; 1.
+PE   3: Inferred from homology;
+KW   Cell adhesion; Fimbrium; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           22..335
+FT                   /note="Fimbrial adhesin PapGIII"
+FT                   /id="PRO_0000022155"
+SQ   SEQUENCE   335 AA;  37170 MW;  B473E1C87705C11E CRC64;
+     MKKWLPAFLF LSLSGCNDAL AANQSTMFYS FNDNIYRPQL SVKVTDIVQF IVDINSASST
+     ATLSYVACNG FTWTHGLYWS EYFAWLVVPK HVSYNGYNIY LELQSRGSFS LDAEDNDNYY
+     LTKGFAWDEA NTSGQTCFNI GEKRSLAWSF GGVTLNARLP VDLPKGDYTF PVKFLRGIQR
+     NNYDYIGGRY KIPSSLMKTF PFNGTLNFSI KNTGGCRPSA QSLEINHGDL SINSANNHYA
+     AQTLSVSCDV PTNIRFFLLS NTNPAYSHGQ QFSVGLGHGW DSIISINGVD TGETTMRWYR
+     AGTQNLTTGS RLYGESSKIQ PGVLSGSATL LMILP
+//

@@ -1,0 +1,136 @@
+ID   FCN1A_XENLA             Reviewed;         315 AA.
+AC   Q7ZT75; Q3B8A5; Q5XG23;
+DT   25-OCT-2017, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2017, sequence version 2.
+DT   03-AUG-2022, entry version 98.
+DE   RecName: Full=Ficolin-1-A {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=fcn1-a {ECO:0000305};
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355 {ECO:0000312|EMBL:BAC76375.1};
+RN   [1] {ECO:0000312|EMBL:BAC76375.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 20-54, FUNCTION, SUBUNIT,
+RP   SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND GLYCOSYLATION.
+RC   TISSUE=Liver {ECO:0000312|EMBL:BAC76375.1};
+RX   PubMed=12679857; DOI=10.1007/s00251-003-0552-2;
+RA   Kakinuma Y., Endo Y., Takahashi M., Nakata M., Matsushita M.,
+RA   Takenoshita S., Fujita T.;
+RT   "Molecular cloning and characterization of novel ficolins from Xenopus
+RT   laevis.";
+RL   Immunogenetics 55:29-37(2003).
+RN   [2] {ECO:0000312|EMBL:AAH84648.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 2-315.
+RC   TISSUE=Liver {ECO:0000312|EMBL:AAI06667.1}, and Spleen
+RC   {ECO:0000312|EMBL:AAH84648.1};
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (OCT-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: May function in innate immunity through activation of the
+CC       lectin complement pathway (By similarity). Binds to GalNAc and GlcNAc
+CC       carbohydrate moieties (PubMed:12679857). {ECO:0000250|UniProtKB:O00602,
+CC       ECO:0000269|PubMed:12679857}.
+CC   -!- SUBUNIT: Homotrimer (By similarity). May form higher-order oligomers
+CC       (PubMed:12679857). {ECO:0000250|UniProtKB:O00602,
+CC       ECO:0000269|PubMed:12679857}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305|PubMed:12679857}.
+CC   -!- TISSUE SPECIFICITY: Strongly expressed in spleen, liver and heart. Also
+CC       detected at lower levels in lung. {ECO:0000269|PubMed:12679857}.
+CC   -!- DOMAIN: The fibrinogen C-terminal domain mediates binding to
+CC       carbohydrates. {ECO:0000250|UniProtKB:O00602}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:12679857}.
+CC   -!- SIMILARITY: Belongs to the ficolin lectin family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAC76375.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB091339; BAC76375.1; ALT_FRAME; mRNA.
+DR   EMBL; BC084648; AAH84648.1; -; mRNA.
+DR   EMBL; BC106666; AAI06667.1; -; mRNA.
+DR   RefSeq; NP_001082604.1; NM_001089135.1.
+DR   RefSeq; XP_018084222.1; XM_018228733.1.
+DR   AlphaFoldDB; Q7ZT75; -.
+DR   SMR; Q7ZT75; -.
+DR   GeneID; 398598; -.
+DR   KEGG; xla:398598; -.
+DR   CTD; 398598; -.
+DR   Xenbase; XB-GENE-6256022; fcn1.L.
+DR   OrthoDB; 1035379at2759; -.
+DR   Proteomes; UP000186698; Chromosome 8L.
+DR   Bgee; 398598; Expressed in liver and 14 other tissues.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   CDD; cd00087; FReD; 1.
+DR   Gene3D; 3.90.215.10; -; 1.
+DR   InterPro; IPR008160; Collagen.
+DR   InterPro; IPR036056; Fibrinogen-like_C.
+DR   InterPro; IPR014716; Fibrinogen_a/b/g_C_1.
+DR   InterPro; IPR002181; Fibrinogen_a/b/g_C_dom.
+DR   InterPro; IPR020837; Fibrinogen_CS.
+DR   Pfam; PF01391; Collagen; 1.
+DR   Pfam; PF00147; Fibrinogen_C; 1.
+DR   SMART; SM00186; FBG; 1.
+DR   SUPFAM; SSF56496; SSF56496; 1.
+DR   PROSITE; PS00514; FIBRINOGEN_C_1; 1.
+DR   PROSITE; PS51406; FIBRINOGEN_C_2; 1.
+PE   1: Evidence at protein level;
+KW   Collagen; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Immunity; Innate immunity; Lectin; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000269|PubMed:12679857"
+FT   CHAIN           20..315
+FT                   /note="Ficolin-1-A"
+FT                   /id="PRO_5004298665"
+FT   DOMAIN          42..99
+FT                   /note="Collagen-like"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          100..315
+FT                   /note="Fibrinogen C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   REGION          75..99
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         270..272
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:O00602"
+FT   CARBOHYD        213
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        244
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        254
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        284
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        293
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        109..137
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   DISULFID        258..271
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   CONFLICT        62
+FT                   /note="K -> N (in Ref. 2; AAI06667)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        115
+FT                   /note="Q -> K (in Ref. 2; AAI06667)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        132
+FT                   /note="T -> P (in Ref. 2; AAI06667)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   315 AA;  34353 MW;  3A9A12B6336414B5 CRC64;
+     MTRWVQTFLL LVAVIRSYAE DSCPDVKVIG VGASDKLTIL RGCPGIQGVP GPQGPAGPVG
+     AKGFAGARGI PGDIGPTGLK GEQGYPGARG LKGEKGDPGV PVPGTAQNCK EWLDQGVTIS
+     GWYTIYTPNG LTLSVLCDME TDGGGWIVFQ RRADGSVDFN RDWNSYKRGF GRKDSEFWLG
+     NDNLHLLTAT GNFQLRVDLT DFSDKSTYAS YSNFSIAEES QSYTLSLRSF MGGDAGDSLS
+     GHKNFSFSTK DRDNKSNCAH TFKGGWWYET CHYSNLNGLY LHGNHTSYAN GVNWSTGRGY
+     HYSYKVSEMK FRPQP
+//

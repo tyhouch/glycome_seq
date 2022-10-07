@@ -1,0 +1,506 @@
+ID   CABC2_BACT4             Reviewed;        1014 AA.
+AC   C5G6D7;
+DT   31-OCT-2012, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2012, sequence version 2.
+DT   03-AUG-2022, entry version 44.
+DE   RecName: Full=Chondroitin sulfate ABC exolyase {ECO:0000303|PubMed:18512954, ECO:0000312|EMBL:ABV21364.1};
+DE            EC=4.2.2.21 {ECO:0000269|PubMed:18227125, ECO:0000269|PubMed:18512954};
+DE   AltName: Full=Chondroitin ABC exoeliminase {ECO:0000250|UniProtKB:C7S340};
+DE   AltName: Full=Chondroitin ABC lyase II {ECO:0000250|UniProtKB:C7S340, ECO:0000303|PubMed:18227125};
+DE   AltName: Full=Chondroitin sulfate ABC lyase II {ECO:0000250|UniProtKB:C7S340, ECO:0000303|PubMed:18512954};
+DE            Short=ChS ABC lyase II {ECO:0000250|UniProtKB:C7S340};
+DE   AltName: Full=Chondroitinase ABC II {ECO:0000250|UniProtKB:C7S340, ECO:0000303|PubMed:18227125};
+DE            Short=cABC II {ECO:0000250|UniProtKB:C7S340};
+DE   AltName: Full=Exochondroitinase ABC {ECO:0000250|UniProtKB:C7S340};
+DE   Flags: Precursor;
+GN   Name=chonabc;
+OS   Bacteroides thetaiotaomicron.
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=818;
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   SUBSTRATE SPECIFICITY, ACTIVITY REGULATION, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   ACTIVE SITE RESIDUES, AND MUTAGENESIS OF HIS-344; HIS-345; HIS-453;
+RP   HIS-454; TYR-461 AND GLU-628.
+RC   STRAIN=ATCC 29741 / DSM 2255 / WAL 2926 {ECO:0000269|PubMed:18512954};
+RX   PubMed=18512954; DOI=10.1021/bi800353g;
+RA   Shaya D., Hahn B.S., Park N.Y., Sim J.S., Kim Y.S., Cygler M.;
+RT   "Characterization of chondroitin sulfate lyase ABC from Bacteroides
+RT   thetaiotaomicron WAL2926.";
+RL   Biochemistry 47:6650-6661(2008).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:ABV21364.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], CATALYTIC ACTIVITY, COFACTOR, ACTIVITY
+RP   REGULATION, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, ACTIVE SITE RESIDUES,
+RP   MUTAGENESIS OF ARG-172; GLN-173; ARG-267; HIS-344; HIS-345; HIS-453;
+RP   HIS-454; TYR-461; ARG-514 AND GLU-628, AND X-RAY CRYSTALLOGRAPHY (2.85
+RP   ANGSTROMS) IN COMPLEX WITH CALCIUM.
+RC   STRAIN=ATCC 29741 / DSM 2255 / WAL 2926 {ECO:0000312|EMBL:ABV21364.1};
+RX   PubMed=18227125; DOI=10.1093/glycob/cwn002;
+RA   Shaya D., Hahn B.S., Bjerkan T.M., Kim W.S., Park N.Y., Sim J.S., Kim Y.S.,
+RA   Cygler M.;
+RT   "Composite active site of chondroitin lyase ABC accepting both epimers of
+RT   uronic acid.";
+RL   Glycobiology 18:270-277(2008).
+CC   -!- FUNCTION: Broad-specificity glycosaminoglycan lyase, which acts in an
+CC       exolytic fashion degrading chondroitin sulfates and dermatan sulfate to
+CC       yield only disaccharide products. Has a preference for chondroitin 4-
+CC       sulfate over chondroitin 6-sulfate. Has extremely low activity against
+CC       hyaluronic acid. Is not active against acharan sulfate, heparin or
+CC       heparan sulfate. {ECO:0000269|PubMed:18512954}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Exolytic removal of Delta(4)-unsaturated disaccharide residues
+CC         from the non-reducing ends of both polymeric chondroitin/dermatan
+CC         sulfates and their oligosaccharide fragments.; EC=4.2.2.21;
+CC         Evidence={ECO:0000269|PubMed:18227125, ECO:0000269|PubMed:18512954};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:18227125, ECO:0000269|PubMed:18512954};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:18227125, ECO:0000269|PubMed:18512954};
+CC       Note=Divalent metal cation. Requires divalent metal cation for binding
+CC       of dermatan sulfate substrate, whereas it is not necessary for the
+CC       binding of chondroitin sulfate substrates. Prefers Ca(2+) or Mg(2+),
+CC       binding 1 ion per subunit. {ECO:0000269|PubMed:18227125,
+CC       ECO:0000269|PubMed:18512954};
+CC   -!- ACTIVITY REGULATION: Specific activity for chondroitin sulfate
+CC       substrates increases moderately (2-fold) while an increase of 25-fold
+CC       is observed for dermatan sulfate as substrate upon addition of Ca(2+)
+CC       or Mg(2+) ions (PubMed:18227125). Increasing the concentration of
+CC       Na(+), K(+) or Cs(+) chloride from 0 to 0.1 M, increases the activity
+CC       against all substrates. Further increases in salt concentration reduces
+CC       the activity dramatically, with 50% inhibition occurring at 0.15 M and
+CC       nearly complete inhibition at 0.4 M salt. The addition of 10 mM Ca(2+)
+CC       or Mg(2+) ions increases the activity against chondroitin 4- and 6-
+CC       sulfates by 2-3-fold, while the activity against dermatan sulfate
+CC       increases much more significantly by 50-fold (PubMed:18512954).
+CC       Addition of Mn(2+) and Zn(2+) reduces activity against chondroitin
+CC       sulfate substrates, but increases the activity against dermatan
+CC       sulfate. Increasing the concentration of CaCl(2) with both chondroitin
+CC       4- and 6-sulfates from 0 to 0.04 M increases the activity. A further
+CC       increase reduces activity, with 50% inhibition at 0.065-0.085 M and a
+CC       complete inhibition of the reaction at 0.2 M. In case of dermatan
+CC       sulfate, the addition of low concentration of CaCl(2) dramatically
+CC       increases the activity from the basal level. The maximal activity is
+CC       reached at 0.01 M CaCl(2). {ECO:0000269|PubMed:18227125,
+CC       ECO:0000269|PubMed:18512954}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=67 uM for chondroitin 4-sulfate from porcine or bovine trachea (at
+CC         37 degrees Celsius and pH 7.6) {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC         KM=33 uM for chondroitin 6-sulfate from shark cartilage (at 37
+CC         degrees Celsius and pH 7.6) {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC         KM=61 uM for dermatan sulfate from porcine intestinal mucosa (at 37
+CC         degrees Celsius and pH 7.6) {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC         Vmax=77.6 umol/min/mg enzyme with chondroitin 4-sulfate from bovine
+CC         trachea as substrate (at 37 degrees Celsius and in 50 mM phosphate at
+CC         pH 7.6) {ECO:0000269|PubMed:18227125, ECO:0000269|PubMed:18512954};
+CC         Vmax=47.4 umol/min/mg enzyme with chondroitin 6-sulfate from shark
+CC         cartilage as substrate (at 37 degrees Celsius and in 50 mM phosphate
+CC         at pH 7.6) {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC         Vmax=14.4 umol/min/mg enzyme with chondroitin 2,6-sulfate from skate
+CC         cartilage as substrate (at 37 degrees Celsius and in 50 mM phosphate
+CC         at pH 7.6) {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC         Vmax=28.5 umol/min/mg enzyme with chondroitin 4,6-sulfate from squid
+CC         cartilage as substrate (at 37 degrees Celsius and in 50 mM phosphate
+CC         at pH 7.6) {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC         Vmax=9.1 umol/min/mg enzyme with dermatan sulfate from porcine
+CC         intestinal mucosa as substrate (at 37 degrees Celsius and in 50 mM
+CC         phosphate at pH 7.6) {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC         Note=kcat is 15792 min(-1) with chondroitin 4-sulfate from porcine or
+CC         bovine trachea as substrate. kcat is 10404 min(-1) with chondroitin
+CC         6-sulfate from shark cartilage as substrate. kcat is 2307 min(-1)
+CC         with dermatan sulfate from porcine intestinal mucosa as substrate.
+CC         {ECO:0000269|PubMed:18227125, ECO:0000269|PubMed:18512954};
+CC       pH dependence:
+CC         Optimum pH is 7.6. Decreased activity at pH values below 7.0 and
+CC         above 8.0. The activity against chondroitin 6-sulfate remains higher
+CC         than with other substrates at low pH. At pH 6.5 the enzyme exhibits
+CC         almost 60% of its maximal activity against chondroitin 6-sulfate,
+CC         only 20% activity against chondroitin 4-sulfate and no measurable
+CC         activity against dermatan sulfate. In contrast, at pH of 8.5 about
+CC         30% of enzyme's maximal activity against all substrates is displayed.
+CC         {ECO:0000269|PubMed:18227125, ECO:0000269|PubMed:18512954};
+CC       Temperature dependence:
+CC         Optimum temperature is 37 degrees Celsius. No significant reduction
+CC         in activity at temperatures in the range of 25-40 degrees Celsius. At
+CC         50 degrees Celsius, activity of 45% for dermatan sulfate, 60% for
+CC         chondroitin 4-sulfate and 75% for chondroitin 6-sulfate is detected.
+CC         Thermal denaturation curve is bimodal with two consecutive thermal
+CC         denaturation midpoints (Tm) corresponding to 44 and 50 degrees
+CC         Celsius, respectively. {ECO:0000269|PubMed:18227125,
+CC         ECO:0000269|PubMed:18512954};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:18227125}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250|UniProtKB:Q8A2I1}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 8 family.
+CC       {ECO:0000255}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABV21364.1; Type=Miscellaneous discrepancy; Note=Cloning artifact.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF639172; ABV21364.1; ALT_SEQ; Genomic_DNA.
+DR   PDB; 2Q1F; X-ray; 2.85 A; A/B=1-1014.
+DR   PDBsum; 2Q1F; -.
+DR   AlphaFoldDB; C5G6D7; -.
+DR   SMR; C5G6D7; -.
+DR   CAZy; PL8; Polysaccharide Lyase Family 8.
+DR   SABIO-RK; C5G6D7; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0042597; C:periplasmic space; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0034000; F:chondroitin-sulfate-ABC endolyase activity; IEA:InterPro.
+DR   GO; GO:0034001; F:chondroitin-sulfate-ABC exolyase activity; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0030209; P:dermatan sulfate catabolic process; IDA:UniProtKB.
+DR   GO; GO:0006027; P:glycosaminoglycan catabolic process; IDA:UniProtKB.
+DR   Gene3D; 1.50.10.100; -; 1.
+DR   Gene3D; 2.60.220.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR039174; Chondroitin_ABC_lyase.
+DR   InterPro; IPR008929; Chondroitin_lyas.
+DR   InterPro; IPR024200; Chondroitinase_ABC_I.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR011071; Lyase_8-like_C.
+DR   InterPro; IPR003159; Lyase_8_central_dom.
+DR   InterPro; IPR015177; Lyase_catalyt.
+DR   InterPro; IPR015176; Lyase_N.
+DR   PANTHER; PTHR37322; PTHR37322; 1.
+DR   Pfam; PF02278; Lyase_8; 1.
+DR   Pfam; PF09093; Lyase_catalyt; 1.
+DR   Pfam; PF09092; Lyase_N; 1.
+DR   PIRSF; PIRSF034515; Chondroitinase; 1.
+DR   SUPFAM; SSF48230; SSF48230; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF49863; SSF49863; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Carbohydrate metabolism; Lyase; Metal-binding;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..14
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           15..1014
+FT                   /note="Chondroitin sulfate ABC exolyase"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000420123"
+FT   ACT_SITE        345
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   ACT_SITE        454
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   ACT_SITE        461
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   BINDING         24
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   BINDING         26
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   BINDING         50
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   BINDING         53
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   BINDING         161
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   SITE            172
+FT                   /note="Important for catalytic activity against all
+FT                   substrates"
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   SITE            344
+FT                   /note="Important for catalytic activity against dermatan
+FT                   sulfate substrate"
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   SITE            514
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   SITE            628
+FT                   /note="Important for catalytic activity against all
+FT                   substrates"
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         172
+FT                   /note="R->A: Loss of activity against all substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   MUTAGEN         173
+FT                   /note="Q->A: Reduced activity against all substrates by a
+FT                   factor of about 2-10."
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   MUTAGEN         267
+FT                   /note="R->A: Reduced activity against all substrates by a
+FT                   factor of about 2-10."
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   MUTAGEN         344
+FT                   /note="H->A: No detectable activity against dermatan
+FT                   sulfate in the standard assay, but after overnight
+FT                   incubation shows traces of degradation products, also still
+FT                   degrades chondroitin sulfate albeit with 10- to 30-fold
+FT                   lower catalytic efficiency."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         344
+FT                   /note="H->D,E: Loss of activity against all substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         344
+FT                   /note="H->N: Retains 5-25% catalytic efficiency against all
+FT                   substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         344
+FT                   /note="H->Q: Retains 5% catalytic efficiency against
+FT                   chondroitin 4-sulfate only."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         345
+FT                   /note="H->A: No activity against dermatan sulfate even
+FT                   after overnight incubation, but still degrades chondroitin
+FT                   sulfate albeit with 10- to 30-fold lower catalytic
+FT                   efficiency."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         345
+FT                   /note="H->D,E: Loss of activity against all substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         345
+FT                   /note="H->N,Q: Low levels of activity against chondroitin
+FT                   sulfate substrates, but no activity against dermatan
+FT                   sulfate."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         453
+FT                   /note="H->A: Slightly reduced activity against all
+FT                   substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         453
+FT                   /note="H->N: Shows no activity against dermatan sulfate
+FT                   while retaining about 10% of its catalytic efficiency
+FT                   against chondroitin 4- and 6-sulfates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         454
+FT                   /note="H->A,D,N,Q: Loss of activity against all
+FT                   substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         461
+FT                   /note="Y->A: Loss of activity against all substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         514
+FT                   /note="R->A: Loss of activity against all substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125"
+FT   MUTAGEN         628
+FT                   /note="E->A,D: Loss of activity against all substrates."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   MUTAGEN         628
+FT                   /note="E->Q: Retains low levels of activity against
+FT                   chondroitin sulfate substrates, but not against dermatan
+FT                   sulfate as substrate."
+FT                   /evidence="ECO:0000269|PubMed:18227125,
+FT                   ECO:0000269|PubMed:18512954"
+FT   STRAND          27..29
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          34..46
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          54..67
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          85..96
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          99..108
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          111..119
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          123..131
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            132..135
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          136..138
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          146..150
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          156..169
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            181..186
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            190..192
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           194..198
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           211..228
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           236..247
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          252..254
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          257..259
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           266..271
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            273..275
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           283..286
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           291..306
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           313..332
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           346..348
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            349..352
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           353..358
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           361..366
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           370..380
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           383..386
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          391..393
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           397..402
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           404..412
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           418..435
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          443..445
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          451..453
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           459..476
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           485..501
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          502..506
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           509..511
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           524..531
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           544..553
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           574..585
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          596..600
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            601..604
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          605..610
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          613..618
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          622..624
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          628..630
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            638..641
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          642..648
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            658..662
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          677..679
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           683..686
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          699..702
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          710..715
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            716..718
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          719..727
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          737..745
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          748..757
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          761..773
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           777..782
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          790..794
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          800..802
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          808..818
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            820..822
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          825..840
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          842..853
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           856..864
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          869..882
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            883..886
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          887..894
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          903..929
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          946..948
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   HELIX           955..957
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   TURN            959..962
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          968..976
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          986..991
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          993..1002
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+FT   STRAND          1007..1013
+FT                   /evidence="ECO:0007829|PDB:2Q1F"
+SQ   SEQUENCE   1014 AA;  114921 MW;  10C46B91CF02A44A CRC64;
+     MLILSFLCPA FLNAQIVTDE RMFSFEEPQL PACITGVQSQ LGISGAHYKD GKHSLEWTFE
+     PNGRLELRKD LKFEKKDPTG KDLYLSAFIV WIYNEQPQDA AIEFEFLKDG RKCASFPFGI
+     NFKGWRAAWV CYERDMQGTP EEGMNELRIV APDAKGRLFI DHLITATKVD ARQQTADLQV
+     PFVNAGTTNH WLVLYKHSLL KPDIELTPVS DKQRQEMKLL EKRFRDMIYT KGKVTEKEAE
+     TIRKKYDLYQ ITYKDGQVSG VPVFMVRASE AYERMIPDWD KDMLTKMGIE MRAYFDLMKR
+     IAVAYNNSEA GSPIRKEMRR KFLAMYDHIT DQGVAYGSCW GNIHHYGYSV RGLYPAYFLM
+     KDVLREEGKL LEAERTLRWY AITNEVYPKP EGNGIDMDSF NTQTTGRIAS ILMMEDTPEK
+     LQYLKSFSRW IDYGCRPAPG LAGSFKVDGG AFHHRNNYPA YAVGGLDGAT NMIYLFSRTS
+     LAVSELAHRT VKDVLLAMRF YCNKLNFPLS MSGRHPDGKG KLVPMHYAIM AIAGTPDGKG
+     DFDKEMASAY LRLVSSDSSS AEQAPEYMPK VSNAQERKIA KRLVENGFRA EPDPQGNLSL
+     GYGCVSVQRR ENWSAVARGH SRYLWAAEHY LGHNLYGRYL AHGSLQILTA PPGQTVTPTT
+     SGWQQEGFDW NRIPGVTSIH LPLDLLKANV LNVDTFSGME EMLYSDEAFA GGLSQGKMNG
+     NFGMKLHEHD KYNGTHRARK SFHFIDGMIV CLGSDIENTN MDYPTETTIF QLAVTDKAAH
+     DYWKNNAGEG KVWMDHLGTG YYVPVAARFE KNFPQYSRMQ DTGKETKGDW VSLIIDHGKA
+     PKAGSYEYAI LPGTDRKTMT AFAKKPAYSV LQQDRNAHIL ESPSDRITSY VLFETPQSLL
+     PGGLLQRTDT SCLVMVRKES ADKVLLTVAQ PDLALYRGPS DEAFDKDGKR MERSIYSRPW
+     IDNESGEIPV TVTLKGRWKV VETPYCKVVS EDKKQTVLRF LCKDGASYEV ELEK
+//

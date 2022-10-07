@@ -1,0 +1,277 @@
+ID   CD24_MOUSE              Reviewed;          76 AA.
+AC   P24807; P26691;
+DT   01-MAR-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-1992, sequence version 1.
+DT   03-AUG-2022, entry version 165.
+DE   RecName: Full=Signal transducer CD24;
+DE   AltName: Full=Lymphocyte antigen 52;
+DE            Short=Ly-52;
+DE   AltName: Full=M1/69-J11D heat stable antigen;
+DE            Short=HSA;
+DE   AltName: Full=Nectadrin;
+DE   AltName: Full=R13-Ag;
+DE   AltName: Full=X62 heat stable antigen;
+DE   AltName: CD_antigen=CD24;
+DE   Flags: Precursor;
+GN   Name=Cd24; Synonyms=Cd24a, Ly-52;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2118158;
+RA   Kay R., Takei F., Humphries R.K.;
+RT   "Expression cloning of a cDNA encoding M1/69-J11d heat-stable antigens.";
+RL   J. Immunol. 145:1952-1959(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=C57BL/6 X CBA, and Swiss albino X BALB/c; TISSUE=Spleen;
+RX   PubMed=2019286; DOI=10.1002/eji.1830210427;
+RA   Wenger R.H., Ayane M., Bose R., Koehler G., Nielsen P.J.;
+RT   "The genes for a mouse hematopoietic differentiation marker called the
+RT   heat-stable antigen.";
+RL   Eur. J. Immunol. 21:1039-1046(1991).
+RN   [3]
+RP   SEQUENCE REVISION.
+RA   Nielsen P.J.;
+RL   Submitted (JUL-1992) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=C57BL/6 X CBA; TISSUE=Spleen;
+RX   PubMed=8226859; DOI=10.1016/s0021-9258(19)49469-6;
+RA   Wenger R.H., Rochelle J.M., Seldin M.F., Koehler G., Nielsen P.J.;
+RT   "The heat stable antigen (mouse CD24) gene is differentially regulated but
+RT   has a housekeeping promoter.";
+RL   J. Biol. Chem. 268:23345-23352(1993).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 27-53, AND GLYCOSYLATION AT ASN-27; SER-30; ASN-39;
+RP   SER-41; SER-43; ASN-48 AND THR-51.
+RC   STRAIN=C57BL/6J;
+RX   PubMed=1530634; DOI=10.1016/0006-291x(92)91262-o;
+RA   Hitsumoto Y., Nakano A., Ohnishi H., Hamada F., Saheki S., Takeuchi N.;
+RT   "Purification of the murine heat-stable antigen from erythrocytes.";
+RL   Biochem. Biophys. Res. Commun. 187:773-777(1992).
+RN   [7]
+RP   FUNCTION, AND INTERACTION WITH SIGLEC10 AND HMGB1.
+RX   PubMed=19264983; DOI=10.1126/science.1168988;
+RA   Chen G.Y., Tang J., Zheng P., Liu Y.;
+RT   "CD24 and Siglec-10 selectively repress tissue damage-induced immune
+RT   responses.";
+RL   Science 323:1722-1725(2009).
+RN   [8]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=20200274; DOI=10.4049/jimmunol.0902711;
+RA   Jellusova J., Wellmann U., Amann K., Winkler T.H., Nitschke L.;
+RT   "CD22 x Siglec-G double-deficient mice have massively increased B1 cell
+RT   numbers and develop systemic autoimmunity.";
+RL   J. Immunol. 184:3618-3627(2010).
+CC   -!- FUNCTION: May have a pivotal role in cell differentiation of different
+CC       cell types. May have a specific role in early thymocyte development.
+CC       Signaling could be triggered by the binding of a lectin-like ligand to
+CC       the CD24 carbohydrates, and transduced by the release of second
+CC       messengers derived from the GPI-anchor. Modulates B-cell activation
+CC       responses (By similarity). In association with SIGLEC10 may be involved
+CC       in the selective suppression of the immune response to danger-
+CC       associated molecular patterns (DAMPs) such as HMGB1, HSP70 and HSP90
+CC       (PubMed:19264983). Plays a role in the control of autoimmunity
+CC       (PubMed:20200274). {ECO:0000250|UniProtKB:P25063,
+CC       ECO:0000269|PubMed:19264983, ECO:0000269|PubMed:20200274}.
+CC   -!- SUBUNIT: Interacts with SIGLEC10; the probable CD24:SIGLEC10 complex is
+CC       proposed to inhibit HGMB1-mediated tissue damage immune response.
+CC       {ECO:0000269|PubMed:19264983}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Lipid-anchor, GPI-anchor.
+CC   -!- TISSUE SPECIFICITY: In lymphoid, myeloid, and erythroid cells.
+CC   -!- PTM: The identity of the N- and O-linked polysaccharides are not
+CC       reported in PubMed:1530634. The O-linked polysaccharides on Ser-30,
+CC       Ser-41, Ser-43, and Thr-51 are probably the mucin type linked to
+CC       GalNAc. {ECO:0000269|PubMed:1530634}.
+CC   -!- DISRUPTION PHENOTYPE: Cd22/Siglec10 double-deficient mice develop
+CC       autoimmune disease, which is not observed in single-deficient mice.
+CC       {ECO:0000269|PubMed:20200274}.
+CC   -!- SIMILARITY: Belongs to the CD24 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M58661; AAA39481.1; -; mRNA.
+DR   EMBL; X56469; CAA39841.1; -; Genomic_DNA.
+DR   EMBL; X72910; CAA51415.1; -; Genomic_DNA.
+DR   EMBL; X53825; CAA37822.1; -; mRNA.
+DR   EMBL; BC075622; AAH75622.1; -; mRNA.
+DR   CCDS; CCDS23821.1; -.
+DR   PIR; A43537; A43537.
+DR   RefSeq; NP_033976.1; NM_009846.2.
+DR   AlphaFoldDB; P24807; -.
+DR   STRING; 10090.ENSMUSP00000057983; -.
+DR   GlyGen; P24807; 7 sites.
+DR   iPTMnet; P24807; -.
+DR   PaxDb; P24807; -.
+DR   PRIDE; P24807; -.
+DR   DNASU; 12484; -.
+DR   Ensembl; ENSMUST00000058714; ENSMUSP00000057983; ENSMUSG00000047139.
+DR   GeneID; 12484; -.
+DR   KEGG; mmu:12484; -.
+DR   UCSC; uc007ezl.1; mouse.
+DR   CTD; 12484; -.
+DR   MGI; MGI:88323; Cd24a.
+DR   VEuPathDB; HostDB:ENSMUSG00000047139; -.
+DR   eggNOG; ENOG502RVSX; Eukaryota.
+DR   GeneTree; ENSGT00390000018829; -.
+DR   HOGENOM; CLU_198463_1_0_1; -.
+DR   InParanoid; P24807; -.
+DR   OMA; PQNTWTA; -.
+DR   OrthoDB; 1640445at2759; -.
+DR   PhylomeDB; P24807; -.
+DR   TreeFam; TF338512; -.
+DR   BioGRID-ORCS; 12484; 1 hit in 73 CRISPR screens.
+DR   ChiTaRS; Cd24a; mouse.
+DR   PRO; PR:P24807; -.
+DR   Proteomes; UP000000589; Chromosome 10.
+DR   RNAct; P24807; protein.
+DR   Bgee; ENSMUSG00000047139; Expressed in fetal liver hematopoietic progenitor cell and 296 other tissues.
+DR   ExpressionAtlas; P24807; baseline and differential.
+DR   Genevisible; P24807; MM.
+DR   GO; GO:0031362; C:anchored component of external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0009986; C:cell surface; IDA:MGI.
+DR   GO; GO:0060170; C:ciliary membrane; IDA:MGI.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; ISO:MGI.
+DR   GO; GO:0016020; C:membrane; IDA:MGI.
+DR   GO; GO:0045121; C:membrane raft; IDA:UniProtKB.
+DR   GO; GO:0031528; C:microvillus membrane; IDA:MGI.
+DR   GO; GO:0005886; C:plasma membrane; IDA:MGI.
+DR   GO; GO:0098793; C:presynapse; IEA:GOC.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0030544; F:Hsp70 protein binding; IDA:UniProtKB.
+DR   GO; GO:0051879; F:Hsp90 protein binding; IDA:UniProtKB.
+DR   GO; GO:0019901; F:protein kinase binding; ISS:UniProtKB.
+DR   GO; GO:0030296; F:protein tyrosine kinase activator activity; ISS:UniProtKB.
+DR   GO; GO:0008637; P:apoptotic mitochondrial changes; IDA:MGI.
+DR   GO; GO:0030262; P:apoptotic nuclear changes; IDA:MGI.
+DR   GO; GO:0097190; P:apoptotic signaling pathway; IDA:MGI.
+DR   GO; GO:0001783; P:B cell apoptotic process; IDA:MGI.
+DR   GO; GO:0042100; P:B cell proliferation; IDA:MGI.
+DR   GO; GO:0032597; P:B cell receptor transport into membrane raft; ISS:UniProtKB.
+DR   GO; GO:0019722; P:calcium-mediated signaling; IDA:MGI.
+DR   GO; GO:0035739; P:CD4-positive, alpha-beta T cell proliferation; IDA:MGI.
+DR   GO; GO:0001775; P:cell activation; ISS:UniProtKB.
+DR   GO; GO:0016477; P:cell migration; IMP:UniProtKB.
+DR   GO; GO:0007166; P:cell surface receptor signaling pathway; IDA:MGI.
+DR   GO; GO:0032600; P:chemokine receptor transport out of membrane raft; IMP:UniProtKB.
+DR   GO; GO:0042632; P:cholesterol homeostasis; IMP:UniProtKB.
+DR   GO; GO:0072139; P:glomerular parietal epithelial cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0007157; P:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules; IDA:MGI.
+DR   GO; GO:0034109; P:homotypic cell-cell adhesion; IMP:MGI.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0033622; P:integrin activation; IDA:MGI.
+DR   GO; GO:0007159; P:leukocyte cell-cell adhesion; IDA:MGI.
+DR   GO; GO:0002523; P:leukocyte migration involved in inflammatory response; IMP:MGI.
+DR   GO; GO:0030889; P:negative regulation of B cell proliferation; IDA:MGI.
+DR   GO; GO:0034119; P:negative regulation of erythrocyte aggregation; IMP:MGI.
+DR   GO; GO:0034107; P:negative regulation of erythrocyte clearance; IMP:MGI.
+DR   GO; GO:0106015; P:negative regulation of inflammatory response to wounding; IPI:UniProtKB.
+DR   GO; GO:0032715; P:negative regulation of interleukin-6 production; IMP:UniProtKB.
+DR   GO; GO:0071638; P:negative regulation of monocyte chemotactic protein-1 production; IMP:UniProtKB.
+DR   GO; GO:0007406; P:negative regulation of neuroblast proliferation; IMP:MGI.
+DR   GO; GO:0050768; P:negative regulation of neurogenesis; IMP:MGI.
+DR   GO; GO:0045665; P:negative regulation of neuron differentiation; IMP:MGI.
+DR   GO; GO:0046014; P:negative regulation of T cell homeostatic proliferation; IMP:MGI.
+DR   GO; GO:0032913; P:negative regulation of transforming growth factor beta3 production; ISS:UniProtKB.
+DR   GO; GO:0032720; P:negative regulation of tumor necrosis factor production; IMP:UniProtKB.
+DR   GO; GO:0007405; P:neuroblast proliferation; IMP:MGI.
+DR   GO; GO:0007274; P:neuromuscular synaptic transmission; IMP:MGI.
+DR   GO; GO:0031175; P:neuron projection development; IDA:MGI.
+DR   GO; GO:0018108; P:peptidyl-tyrosine phosphorylation; IDA:MGI.
+DR   GO; GO:0072112; P:podocyte differentiation; ISS:UniProtKB.
+DR   GO; GO:0042104; P:positive regulation of activated T cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0046641; P:positive regulation of alpha-beta T cell proliferation; IDA:MGI.
+DR   GO; GO:0002904; P:positive regulation of B cell apoptotic process; IDA:MGI.
+DR   GO; GO:0050850; P:positive regulation of calcium-mediated signaling; IDA:MGI.
+DR   GO; GO:2000563; P:positive regulation of CD4-positive, alpha-beta T cell proliferation; IDA:MGI.
+DR   GO; GO:0033630; P:positive regulation of cell adhesion mediated by integrin; IDA:MGI.
+DR   GO; GO:0022409; P:positive regulation of cell-cell adhesion; IDA:MGI.
+DR   GO; GO:0033634; P:positive regulation of cell-cell adhesion mediated by integrin; IDA:MGI.
+DR   GO; GO:0007204; P:positive regulation of cytosolic calcium ion concentration; ISS:UniProtKB.
+DR   GO; GO:0002863; P:positive regulation of inflammatory response to antigenic stimulus; IMP:MGI.
+DR   GO; GO:0106016; P:positive regulation of inflammatory response to wounding; IMP:UniProtKB.
+DR   GO; GO:0033625; P:positive regulation of integrin activation; IDA:MGI.
+DR   GO; GO:0043406; P:positive regulation of MAP kinase activity; ISS:UniProtKB.
+DR   GO; GO:2000768; P:positive regulation of nephron tubule epithelial cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0010976; P:positive regulation of neuron projection development; IDA:MGI.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; IDA:MGI.
+DR   GO; GO:0042103; P:positive regulation of T cell homeostatic proliferation; IMP:MGI.
+DR   GO; GO:0002842; P:positive regulation of T cell mediated immune response to tumor cell; IDA:MGI.
+DR   GO; GO:0002329; P:pre-B cell differentiation; IMP:MGI.
+DR   GO; GO:0045577; P:regulation of B cell differentiation; IMP:MGI.
+DR   GO; GO:0022407; P:regulation of cell-cell adhesion; IDA:MGI.
+DR   GO; GO:0033632; P:regulation of cell-cell adhesion mediated by integrin; IDA:MGI.
+DR   GO; GO:0001959; P:regulation of cytokine-mediated signaling pathway; IMP:UniProtKB.
+DR   GO; GO:0043408; P:regulation of MAPK cascade; ISS:UniProtKB.
+DR   GO; GO:0042325; P:regulation of phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0045730; P:respiratory burst; ISS:UniProtKB.
+DR   GO; GO:0043627; P:response to estrogen; ISS:UniProtKB.
+DR   GO; GO:0001666; P:response to hypoxia; ISS:UniProtKB.
+DR   GO; GO:0002237; P:response to molecule of bacterial origin; IDA:UniProtKB.
+DR   GO; GO:0048488; P:synaptic vesicle endocytosis; IMP:MGI.
+DR   GO; GO:0031295; P:T cell costimulation; ISS:UniProtKB.
+DR   GO; GO:0001777; P:T cell homeostatic proliferation; IMP:MGI.
+DR   InterPro; IPR028029; CD24.
+DR   PANTHER; PTHR16676; PTHR16676; 1.
+DR   Pfam; PF14984; CD24; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Glycoprotein; GPI-anchor;
+KW   Immunity; Innate immunity; Lipoprotein; Membrane; Reference proteome;
+KW   Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   PEPTIDE         27..53
+FT                   /note="Signal transducer CD24"
+FT                   /id="PRO_0000020895"
+FT   PROPEP          54..76
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000020896"
+FT   REGION          37..57
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            45
+FT                   /note="Not glycosylated"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   LIPID           53
+FT                   /note="GPI-anchor amidated glycine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        27
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   CARBOHYD        30
+FT                   /note="O-linked (GalNAc...) serine"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   CARBOHYD        39
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   CARBOHYD        41
+FT                   /note="O-linked (GalNAc...) serine; partial"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   CARBOHYD        43
+FT                   /note="O-linked (GalNAc...) serine; partial"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   CARBOHYD        48
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+FT   CARBOHYD        51
+FT                   /note="O-linked (GalNAc...) threonine; partial"
+FT                   /evidence="ECO:0000269|PubMed:1530634"
+SQ   SEQUENCE   76 AA;  7797 MW;  6853F121B33625EB CRC64;
+     MGRAMVARLG LGLLLLALLL PTQIYCNQTS VAPFPGNQNI SASPNPSNAT TRGGGSSLQS
+     TAGLLALSLS LLHLYC
+//

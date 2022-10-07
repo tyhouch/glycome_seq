@@ -1,0 +1,233 @@
+ID   LY75_MESAU              Reviewed;        1722 AA.
+AC   Q920P9;
+DT   19-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   25-MAY-2022, entry version 96.
+DE   RecName: Full=Lymphocyte antigen 75;
+DE            Short=Ly-75;
+DE   AltName: Full=DEC-205;
+DE   AltName: CD_antigen=CD205;
+DE   Flags: Precursor;
+GN   Name=LY75;
+OS   Mesocricetus auratus (Golden hamster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Mesocricetus.
+OX   NCBI_TaxID=10036 {ECO:0000312|EMBL:BAB69491.1};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Bone marrow;
+RX   PubMed=12175539; DOI=10.1016/s0304-3835(02)00067-8;
+RA   Maruyama K., Akiyama Y., Cheng J., Nara-Ashizawa N., Hojo T., Sasaki K.,
+RA   Yamaguchi K.;
+RT   "Hamster DEC-205, its primary structure, tissue and cellular
+RT   distribution.";
+RL   Cancer Lett. 181:223-232(2002).
+CC   -!- FUNCTION: Acts as an endocytic receptor to direct captured antigens
+CC       from the extracellular space to a specialized antigen-processing
+CC       compartment. Causes reduced proliferation of B lymphocytes (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000269|PubMed:12175539}; Single-
+CC       pass type I membrane protein {ECO:0000269|PubMed:12175539}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the thymus and cultured bone marrow
+CC       cells. {ECO:0000269|PubMed:12175539}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB059273; BAB69491.1; -; mRNA.
+DR   RefSeq; NP_001268813.1; NM_001281884.1.
+DR   AlphaFoldDB; Q920P9; -.
+DR   SMR; Q920P9; -.
+DR   STRING; 10036.XP_005069054.1; -.
+DR   PRIDE; Q920P9; -.
+DR   GeneID; 101830769; -.
+DR   CTD; 4065; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   OrthoDB; 29241at2759; -.
+DR   Proteomes; UP000189706; Unplaced.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006897; P:endocytosis; IEA:UniProtKB-KW.
+DR   CDD; cd00062; FN2; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.10.10.10; -; 1.
+DR   Gene3D; 3.10.100.10; -; 10.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000562; FN_type2_dom.
+DR   InterPro; IPR036943; FN_type2_sf.
+DR   InterPro; IPR013806; Kringle-like.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00040; fn2; 1.
+DR   Pfam; PF00059; Lectin_C; 9.
+DR   SMART; SM00034; CLECT; 10.
+DR   SMART; SM00059; FN2; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF56436; SSF56436; 10.
+DR   SUPFAM; SSF57440; SSF57440; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 9.
+DR   PROSITE; PS00023; FN2_1; 1.
+DR   PROSITE; PS51092; FN2_2; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Endocytosis; Glycoprotein; Lectin; Membrane;
+KW   Phosphoprotein; Receptor; Reference proteome; Repeat; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           28..1722
+FT                   /note="Lymphocyte antigen 75"
+FT                   /id="PRO_0000017553"
+FT   TOPO_DOM        28..1666
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1667..1691
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1692..1722
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          32..182
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DOMAIN          164..211
+FT                   /note="Fibronectin type-II"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00479"
+FT   DOMAIN          225..341
+FT                   /note="C-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          368..486
+FT                   /note="C-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          493..625
+FT                   /note="C-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          652..791
+FT                   /note="C-type lectin 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          958..1091
+FT                   /note="C-type lectin 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          1110..1222
+FT                   /note="C-type lectin 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          1251..1374
+FT                   /note="C-type lectin 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          1401..1513
+FT                   /note="C-type lectin 8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          1542..1661
+FT                   /note="C-type lectin 9"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOD_RES         933
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60449"
+FT   MOD_RES         1703
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q60767"
+FT   MOD_RES         1719
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q60767"
+FT   CARBOHYD        135
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        345
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        377
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        529
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        843
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        865
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        934
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1076
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1225
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1320
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1392
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1593
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1626
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        169..194
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        183..209
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        247..340
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        317..332
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        389..485
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        462..477
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        597..614
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        678..790
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        752..782
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1060..1080
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1197..1211
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1488..1502
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1635..1650
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1722 AA;  197892 MW;  ACE0D451927654AF CRC64;
+     MGTRRVTPGC AAGLLVLLLR CFGLAEPSEF SGDDSFTIVN ENTGKCIQPL SDWIVAQDCS
+     ETRSMLWKWV SQHRLFHLES QKCLGLDMTK AADNLRMFRC DSSVLLWWKC EHHSLYSAAH
+     YRLDLKDGYA TASTNSSAVW KKGGSKENLC DQPYREIYTR DGNSYGRPCE FPFLVGETWH
+     HDCIRDENHS GPWCATTLNY EYDQKWGICL KPESGCEGNW EKNEQIGSCY QFNNQEVLSW
+     KEAYVSCQNQ GADLLSIHSA AELAYITGKE DIARIVWIGL NQLYSARGWE WSDFKPLKFL
+     NWDPGTPSAP MIGGSSCARM DTETGLWRSV SCEAQQPYVC KKPLNNTVEL PDVWTYSDTH
+     CDVGWLPQNG FCYLLANESG PWDAAHLKCK AFGGDLISIH SLADVEVVVT KLHSGDVKEE
+     IWTGLRNVNS PTLFQWSDGT EVTLTYWNEN EPSVPYNKTP NCVSYLGKLG QWKVQSCEKK
+     LRYVCKKKGE ITNDTRSDKL CPPDEGWKRH GETCYKIYEN EVPFGTNCNL TITSRFEQEF
+     LNDMMKKYDK SFQKYFWTGL RDADARGEYS WAATGGLKQA MTFSNWNFLQ PASPGGCVAM
+     STGKTLGRWE VKSCRSFRAL SICKKMSGPQ EPEEATPKPD EPCPEGWHTF PSNLSCYKVF
+     HIERTVRRRT WEEAERFCQA LGAHLPSFSH MNEVKEFLHL LQDQFSVQRW LWIGLNKRSP
+     DLQGSWQWSD RTPVSTVIMH REFQQDYDVR DCAAIKVLDN AWLRTWYYYD ERKFGYLKPF
+     SCDAKLDWVC QIPKGSTLQV PDWYNPERTG IHGPPVIIDG SEYWFVEEPR LNYEEAVLYC
+     ASNHSFLATI TTFTKLKAIR GKMENLSGEE QKWWVKANAN PIDHYFLRTR PLWHRFSMLL
+     DEECLQMSAK MWHLDLNKRA DCNDKLPFVC EKYNVSSLEK YSPDSAAKVQ CTGKWIPFQN
+     KCFLKVKSEP VTFSQASSTC HTYGGTLPSV LSKSEQDFII SLLPEMETSL WIGLRWTAYD
+     RISKWTDGRN LTYSNFHPLL VGRRLSIAAY FIDEESHYHC ALMLNLRKSP LTGTWNFTSC
+     SERHSLSLCQ KYSENEDGRP WETNSETVKY LNNLYKIISK PLTWHGALKE CLNENMRLVS
+     ITDPYQQAFL SVQATLRNTS FWIGLSSQDD ELNFGWSDGT YLHFSNWAVD NEKLDDCVIL
+     DTDGFWKTAD CDENQPGAIC YYPGNETSKE VRPLNSAKCP SPAQSTPWVP FQNSCYNFMI
+     TKNRHRTITQ KEVHSLCQKL HSKAQILSIR NEEENNFVVE QLLYFNYIAS WVMLGVTYEN
+     NSLMWFDKTA LSYTHWRAGR PAVKNHKFLA GLSTDGFWDI QSFNVIDETL HFYQHSILAC
+     KIEMVDYKEE RNSTLPEFIP YEDGVYNVIQ KRVTWYQALS MCSQSGRHLA SVHNPKEQLF
+     LEDIVNRDGF PLWVGLSSHD GSESSFEWSD GSAFDYIPWK SQGSPGNCVI LDPKGTWKHE
+     NCLSVKDGAI CYKPTKFKEL ASHAHSSKCP LVKRNGSQWV QYGDHCYSAE QALHTFAEAK
+     KLCQELDHSA TVVTIADENE NKFVSRLMRE NYNITMRVWL GLSQHSLDQS WSWLDGLDVT
+     FVKWENKSKN GDGKCSILIA SNETWKKVEC SRGYARVVCK VPLSPDYRGI AVLFAVLSVL
+     ALISGLIWFL VQRNHFRWTG LSSVRYEHGA NEDEVMLPSF HD
+//

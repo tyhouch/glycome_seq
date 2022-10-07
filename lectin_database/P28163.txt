@@ -1,0 +1,74 @@
+ID   SM30_STRPU              Reviewed;         290 AA.
+AC   P28163;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   25-MAY-2022, entry version 88.
+DE   RecName: Full=30 kDa spicule matrix protein;
+DE   Flags: Precursor;
+GN   Name=SM30;
+OS   Strongylocentrotus purpuratus (Purple sea urchin).
+OC   Eukaryota; Metazoa; Echinodermata; Eleutherozoa; Echinozoa; Echinoidea;
+OC   Euechinoidea; Echinacea; Camarodonta; Echinidea; Strongylocentrotidae;
+OC   Strongylocentrotus.
+OX   NCBI_TaxID=7668;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Embryo;
+RX   PubMed=1717322; DOI=10.1016/0012-1606(91)90291-a;
+RA   George N.C., Killian C.E., Wilt F.H.;
+RT   "Characterization and expression of a gene encoding a 30.6-kDa
+RT   Strongylocentrotus purpuratus spicule matrix protein.";
+RL   Dev. Biol. 147:334-342(1991).
+CC   -!- FUNCTION: Matrix protein of the sea urchin embryo spicule. The function
+CC       of the matrix proteins is to direct crystal growth in certain
+CC       orientations and inhibit growth in others.
+CC   -!- TISSUE SPECIFICITY: Accumulates exclusively in mineralized tissues.
+CC   -!- DEVELOPMENTAL STAGE: Is increased at middle to late mesenchyme blastula
+CC       stage, level remains high through the 3-day pluteus stage.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M63840; AAA30070.1; -; mRNA.
+DR   PIR; A43897; A43897.
+DR   RefSeq; NP_999766.1; NM_214601.1.
+DR   AlphaFoldDB; P28163; -.
+DR   SMR; P28163; -.
+DR   EnsemblMetazoa; NM_214601; NP_999766; GeneID_373441.
+DR   GeneID; 373441; -.
+DR   KEGG; spu:373441; -.
+DR   CTD; 373441; -.
+DR   HOGENOM; CLU_960835_0_0_1; -.
+DR   InParanoid; P28163; -.
+DR   PhylomeDB; P28163; -.
+DR   Proteomes; UP000007110; Unassembled WGS sequence.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Reference proteome; Signal.
+FT   SIGNAL          1..15
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           16..290
+FT                   /note="30 kDa spicule matrix protein"
+FT                   /id="PRO_0000017559"
+FT   DOMAIN          92..162
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        102
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   290 AA;  31806 MW;  E1E3E27E40796DF2 CRC64;
+     MRGFVYVLVC VLALASFSRA QLPGAGGPVL PGGGPTIGPV NPDPTRTEVC AKFWVQEGNS
+     CYLFDSGAFL RQVAASRPVV VNNQDGLFQA AANMYCGQMH PNASLVTVNS LEENNFLYEW
+     AVRMMIEPEP VWIGLHAGPT GQWQWYSGEP VTYTNWERMT PPIAEPGLGA MIFDADIIAQ
+     MFNNQVEITP QWVPEQAIND RHALICEYHP SGMTAAAAAP TNAPTFPPMT TAPPMAATTR
+     GPVMFQNNPR NLVNSLTGGR FGGSLLHEIP RRQRMRPSNY RKNPYFGIQP
+//

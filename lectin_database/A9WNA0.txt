@@ -1,0 +1,226 @@
+ID   GH101_RENSM             Reviewed;        1509 AA.
+AC   A9WNA0; A9WNA1; A9WNA2; A9WNA3;
+DT   31-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   31-MAY-2011, sequence version 2.
+DT   03-AUG-2022, entry version 82.
+DE   RecName: Full=Putative endo-alpha-N-acetylgalactosaminidase;
+DE            EC=3.2.1.97 {ECO:0000250|UniProtKB:Q8DR60};
+DE   Flags: Precursor;
+GN   OrderedLocusNames=RSal33209_1326, RSal33209_1327, RSal33209_1328,
+GN   RSal33209_1329;
+OS   Renibacterium salmoninarum (strain ATCC 33209 / DSM 20767 / JCM 11484 /
+OS   NBRC 15589 / NCIMB 2235).
+OC   Bacteria; Actinobacteria; Micrococcales; Micrococcaceae; Renibacterium.
+OX   NCBI_TaxID=288705;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33209 / DSM 20767 / JCM 11484 / NBRC 15589 / NCIMB 2235;
+RX   PubMed=18723615; DOI=10.1128/jb.00721-08;
+RA   Wiens G.D., Rockey D.D., Wu Z., Chang J., Levy R., Crane S., Chen D.S.,
+RA   Capri G.R., Burnett J.R., Sudheesh P.S., Schipma M.J., Burd H.,
+RA   Bhattacharyya A., Rhodes L.D., Kaul R., Strom M.S.;
+RT   "Genome sequence of the fish pathogen Renibacterium salmoninarum suggests
+RT   reductive evolution away from an environmental Arthrobacter ancestor.";
+RL   J. Bacteriol. 190:6970-6982(2008).
+RN   [2]
+RP   IDENTIFICATION, AND FAMILY ASSIGNMENT.
+RX   PubMed=20556855; DOI=10.1142/s0219720010004628;
+RA   Naumoff D.G.;
+RT   "GH101 family of glycoside hydrolases: subfamily structure and evolutionary
+RT   connections with other families.";
+RL   J. Bioinform. Comput. Biol. 8:437-451(2010).
+CC   -!- FUNCTION: Probably involved in the breakdown of mucin-type O-linked
+CC       glycans. Specifically removes the T-antigen disaccharide (Gal-beta-1,3-
+CC       GalNAc-alpha) from extracellular host glycoproteins.
+CC       {ECO:0000250|UniProtKB:Q8DR60}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O(3)-[beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-
+CC         galactosaminyl]-L-threonyl-[protein] = beta-D-galactosyl-(1->3)-N-
+CC         acetyl-D-galactosamine + L-threonyl-[protein]; Xref=Rhea:RHEA:54540,
+CC         Rhea:RHEA-COMP:11060, Rhea:RHEA-COMP:13923, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30013, ChEBI:CHEBI:137950, ChEBI:CHEBI:546807;
+CC         EC=3.2.1.97; Evidence={ECO:0000250|UniProtKB:Q8DR60};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O(3)-[beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-
+CC         galactosaminyl]-L-seryl-[protein] = beta-D-galactosyl-(1->3)-N-
+CC         acetyl-D-galactosamine + L-seryl-[protein]; Xref=Rhea:RHEA:30983,
+CC         Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:13922, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:29999, ChEBI:CHEBI:137949, ChEBI:CHEBI:546807;
+CC         EC=3.2.1.97; Evidence={ECO:0000250|UniProtKB:Q8DR60};
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall {ECO:0000305}; Peptidoglycan-
+CC       anchor {ECO:0000305}.
+CC   -!- MISCELLANEOUS: The hydrolysis reaction proceeds with retention of the
+CC       anomeric configuration. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 101 family. A subfamily.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: The sequence shown here is a temptative reconstruction from
+CC       the four submitted CDS; the exact positions of the frameshifts are
+CC       unsure. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABY23063.1; Type=Frameshift; Note=Produces separate ORFs.; Evidence={ECO:0000305};
+CC       Sequence=ABY23064.1; Type=Frameshift; Note=Produces separate ORFs.; Evidence={ECO:0000305};
+CC       Sequence=ABY23065.1; Type=Frameshift; Note=Produces separate ORFs.; Evidence={ECO:0000305};
+CC       Sequence=ABY23066.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=ABY23066.1; Type=Frameshift; Note=Produces separate ORFs.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000910; ABY23063.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; CP000910; ABY23064.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; CP000910; ABY23065.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; CP000910; ABY23066.1; ALT_SEQ; Genomic_DNA.
+DR   AlphaFoldDB; A9WNA0; -.
+DR   SMR; A9WNA0; -.
+DR   STRING; 288705.RSal33209_1326; -.
+DR   CAZy; CBM51; Carbohydrate-Binding Module Family 51.
+DR   CAZy; GH101; Glycoside Hydrolase Family 101.
+DR   EnsemblBacteria; ABY23063; ABY23063; RSal33209_1326.
+DR   EnsemblBacteria; ABY23064; ABY23064; RSal33209_1327.
+DR   EnsemblBacteria; ABY23065; ABY23065; RSal33209_1328.
+DR   EnsemblBacteria; ABY23066; ABY23066; RSal33209_1329.
+DR   KEGG; rsa:RSal33209_1326; -.
+DR   KEGG; rsa:RSal33209_1327; -.
+DR   KEGG; rsa:RSal33209_1328; -.
+DR   KEGG; rsa:RSal33209_1329; -.
+DR   eggNOG; COG0366; Bacteria.
+DR   eggNOG; COG1470; Bacteria.
+DR   HOGENOM; CLU_406451_0_0_11; -.
+DR   Proteomes; UP000002007; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0033926; F:glycopeptide alpha-N-acetylgalactosaminidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050110; F:mucinaminylserine mucinaminidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008152; P:metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd14244; GH_101_like; 1.
+DR   Gene3D; 2.60.120.1060; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR018905; A-galactase_NEW3.
+DR   InterPro; IPR025706; Endoa_GalNAc.
+DR   InterPro; IPR040633; Gal_mutarotas_3.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR040502; GalBD-like.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR035364; Glyco_hyd_101_beta.
+DR   InterPro; IPR013222; Glyco_hyd_98_carb-bd.
+DR   InterPro; IPR019931; LPXTG_anchor.
+DR   InterPro; IPR038637; NPCBM_sf.
+DR   Pfam; PF18080; Gal_mutarotas_3; 1.
+DR   Pfam; PF17974; GalBD_like; 1.
+DR   Pfam; PF17451; Glyco_hyd_101C; 1.
+DR   Pfam; PF12905; Glyco_hydro_101; 1.
+DR   Pfam; PF08305; NPCBM; 1.
+DR   Pfam; PF10633; NPCBM_assoc; 1.
+DR   SMART; SM00776; NPCBM; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   PROSITE; PS50847; GRAM_POS_ANCHORING; 1.
+PE   3: Inferred from homology;
+KW   Calcium; Cell wall; Glycosidase; Hydrolase; Metal-binding;
+KW   Peptidoglycan-anchor; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..41
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           42..1478
+FT                   /note="Putative endo-alpha-N-acetylgalactosaminidase"
+FT                   /id="PRO_0000408866"
+FT   PROPEP          1479..1509
+FT                   /note="Removed by sortase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00477"
+FT                   /id="PRO_0000408867"
+FT   REGION          313..585
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1176..1197
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1403..1439
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           1475..1479
+FT                   /note="LPXTG sorting signal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00477"
+FT   ACT_SITE        472
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        498
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         288
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         290
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         292
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         294
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         299
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         369
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         878
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         880
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         926
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         929
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1478
+FT                   /note="Pentaglycyl murein peptidoglycan amidated threonine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00477"
+SQ   SEQUENCE   1509 AA;  157347 MW;  6700242A747EE1A5 CRC64;
+     MPFRGRRRQS ALRGLSLAAT FCLAAGSSGI SGALFATPAQ ADPLPTAAGL SINSANLTVE
+     VSADFPQALS YTETSSAKHL SGARTLASSI TINGTDQPVK VSSQKADAQT VNYLITPNNL
+     AGVSLDAQLR VEGMTLTFKI SKIKDTAENR VNNLQIKNQD LVTVSSQEPG ATVASAVVSV
+     DRAVSGDTIT NLSSTTALDP TAKRSMLAIA ATDQLAAGFE TNSLYDSGNT IGPSDQGKFW
+     RQALADGTGA DGKPAVKMAV SSGAWLYRSA GSDQTEELPW SKVVISGDAN ADGKVDWQDG
+     AIAYRSIESK PAGGDDVKNR VVTHIPFNFA SQATHPFLRT LDDVKHIALA TDGLGQMALE
+     KGYTSEGHDS ANSDFGGNFN ERAGGLTDFN AMLSGGSAYG ATFGVHINNT EAYPEANSFS
+     NDFVDPTKKG WNWLDQSFYI DQQRDILSGS QQQRIDQLRS EAGPNLTMAY VDVYYESGWK
+     SYRLQKGLKD AGFSVASEFA TAMPANNTWS HWANDEKHGG SNNIKAGTQI LRFVDNSQRD
+     IWNPDPLLGT SHIVEWEGWT NQNDYNAFLK NIWGNNLPVK FLQQQQITSW KSRSVDLTGG
+     LKVTGTSLAD RVISQQGVPV LKGSNYLLPW SAAPVSFGSG AVNDTTQNKL YHYSADGGTS
+     TWQLTPQFAT ASSLQIYKLT DYGRELIGSV PVVNGSVTLT AEANQAYVLV ADASVTTVPA
+     DPSYGAGSKV KDPGFNSAGL KDWNATGGAA VERTAQGLLV AKLGQGSSAI SQTLGSLDPG
+     SYSIGAWVEI EPTTLTVTPA GGAPISVTVD QSGAENFVAS DEKRGTYFQR LRVLVDIANA
+     GAPQLSISAP AGEAAVRIDD VRVVKANKVP TTGILSENFE NTDQGWLPFI KGDAGGQTDP
+     RTHIAKLNAP YTQKGWNGKT TSDVLDDTYS LHSHEENQGL VYRTSNYTLP LQAGRQYRVS
+     FDYQASLANQ YTWVSGYDSG KNPVQTASTA IPVATDTTRW SQTLSAGSCG PAWVGLQRTG
+     SSGGAEFSMD NLLVEDLGPS AETPACASLS LTSGQDVIEQ GQTNTFSASF SSSEAQSIAG
+     LSVALDLPAG WTASAATPAT AATLPAGGSL ETQWKVQVPA DADGDYTIKA KASYQTTVDP
+     IGSRSATTET AVYTLPKPPT KDTYASDMQW IGTPSNGWGP VEKDQANGEQ AQGDGPPLKL
+     GGVTYPKGLG AHAASSIRYY VGSQCSAFTA VIGIDDFQKL KGQAVFSVLG DGNSLYTSPV
+     MKGGAAAQTI TVPLNGAKYV DLKVAISGAN NGNAWSDWAN AKFLCSAPVA PITLQPTLSV
+     PTDSLQPGSA FTVRVDQLKS GSTAKAELHS DPIDLGSVQA NNDGVASFQV TLAQDAPLGN
+     HQIVVTGTDK NGLAATGTVD AQIKAANPNP GTGSNPGTGS NPGTDPGTGS AGGNSSGGGA
+     NGSGANGTYV NGSGGSFGNG AGMDAKTGSN SASSLAETGF SGLVLPLGIG LMLLLIGAAA
+     IIVRRHRHS
+//

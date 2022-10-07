@@ -1,0 +1,175 @@
+ID   LEC1_CRAMO              Reviewed;         234 AA.
+AC   P83721;
+DT   16-FEB-2004, integrated into UniProtKB/Swiss-Prot.
+DT   02-FEB-2004, sequence version 1.
+DT   03-AUG-2022, entry version 81.
+DE   RecName: Full=Mannose/glucose-specific lectin Cramoll;
+DE   AltName: Full=Iso1;
+DE   Contains:
+DE     RecName: Full=Cramoll alpha chain;
+DE   Contains:
+DE     RecName: Full=Cramoll beta chain;
+DE   Flags: Fragments;
+OS   Cratylia mollis (Camaratu bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Cratylia.
+OX   NCBI_TaxID=252530 {ECO:0000305};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, SUBUNIT, METAL-BINDING, AND X-RAY CRYSTALLOGRAPHY (1.77
+RP   ANGSTROMS).
+RC   TISSUE=Seed {ECO:0000269|PubMed:12966038};
+RX   PubMed=12966038; DOI=10.1093/glycob/cwg115;
+RA   De Souza G.A., Oliveira P.S.L., Trapani S., Santos A.C.O., Rosa J.C.,
+RA   Laure H.J., Faca V.M., Correia M.T.S., Tavares G.A., Oliva G.,
+RA   Coelho L.C.B.B., Greene L.J.;
+RT   "Amino acid sequence and tertiary structure of Cratylia mollis seed
+RT   lectin.";
+RL   Glycobiology 13:961-972(2003).
+RN   [2] {ECO:0000305}
+RP   FUNCTION.
+RX   PubMed=8579345; DOI=10.1007/bf02786865;
+RA   Correia M.T.S., Coelho L.C.B.B.;
+RT   "Purification of a glucose/mannose specific lectin, isoform 1, from seeds
+RT   of Cratylia mollis Mart. (Camaratu bean).";
+RL   Appl. Biochem. Biotechnol. 55:261-273(1995).
+CC   -!- FUNCTION: Glucose/D-mannose specific lectin.
+CC       {ECO:0000269|PubMed:8579345}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:12966038}.
+CC   -!- PTM: The alpha and beta chains are produced by partial proteolytic
+CC       processing of the lectin precursor by an asparaginyl endopeptidase.
+CC       {ECO:0000303|PubMed:12966038}.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1MVQ; X-ray; 1.77 A; A=1-234.
+DR   PDBsum; 1MVQ; -.
+DR   AlphaFoldDB; P83721; -.
+DR   SMR; P83721; -.
+DR   UniLectin; P83721; -.
+DR   EvolutionaryTrace; P83721; -.
+DR   GO; GO:0005536; F:glucose binding; IDA:UniProtKB.
+DR   GO; GO:0005537; F:mannose binding; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 2.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Lectin; Manganese;
+KW   Mannose-binding; Metal-binding.
+FT   CHAIN           1..116
+FT                   /note="Cramoll alpha chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000017591"
+FT   CHAIN           117..234
+FT                   /note="Cramoll beta chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000017592"
+FT   BINDING         8
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         10
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         10
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         12
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         12
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         14
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         19
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         19
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         24
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         34
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         99..100
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         205
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         225
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   NON_CONS        114..115
+FT                   /evidence="ECO:0000303|PubMed:12966038"
+FT   STRAND          4..10
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   HELIX           15..17
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          24..33
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          35..39
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          47..55
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   TURN            56..59
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          60..67
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   TURN            68..70
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          71..78
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   HELIX           81..83
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          87..96
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          98..100
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          105..114
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          116..119
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          121..130
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          138..142
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          152..155
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          167..174
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          184..195
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          199..202
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   STRAND          206..213
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   HELIX           224..226
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+FT   TURN            227..229
+FT                   /evidence="ECO:0007829|PDB:1MVQ"
+SQ   SEQUENCE   234 AA;  25130 MW;  6DC1F3FF1D3C1C58 CRC64;
+     ADTIVAVELD TYPNTDIGDP SYQHIGINIK SIRSKATTRW DVQNGKVGTA HISYNSVAKR
+     LSAVVSYPGG SSATVSYDVD LNNILPEWVR VGLSASTGLY KETNTILSWS FTSKSNSTAD
+     AQSLHFTFNQ FSQSPKDLIL QGDASTDSDG NLQLTRVSNG SPQSDSVGRA LYYAPVHIWD
+     KSAVVASFDA TFTFLIKSPD REIADGIAFF IANTDSSIPH GSGGRLLGLF PDAN
+//

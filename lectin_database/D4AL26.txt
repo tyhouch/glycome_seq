@@ -1,0 +1,181 @@
+ID   LECF_ARTBC              Reviewed;         365 AA.
+AC   D4AL26;
+DT   11-NOV-2015, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAY-2010, sequence version 1.
+DT   03-AUG-2022, entry version 33.
+DE   RecName: Full=Fucose-specific lectin {ECO:0000250|UniProtKB:P18891};
+DE   Flags: Precursor;
+GN   ORFNames=ARB_05022;
+OS   Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) (Trichophyton
+OS   mentagrophytes).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Onygenales; Arthrodermataceae; Trichophyton.
+OX   NCBI_TaxID=663331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC MYA-4681 / CBS 112371;
+RX   PubMed=21247460; DOI=10.1186/gb-2011-12-1-r7;
+RA   Burmester A., Shelest E., Gloeckner G., Heddergott C., Schindler S.,
+RA   Staib P., Heidel A., Felder M., Petzold A., Szafranski K., Feuermann M.,
+RA   Pedruzzi I., Priebe S., Groth M., Winkler R., Li W., Kniemeyer O.,
+RA   Schroeckh V., Hertweck C., Hube B., White T.C., Platzer M., Guthke R.,
+RA   Heitman J., Woestemeyer J., Zipfel P.F., Monod M., Brakhage A.A.;
+RT   "Comparative and functional genomics provide insights into the
+RT   pathogenicity of dermatophytic fungi.";
+RL   Genome Biol. 12:R7.1-R7.16(2011).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND SUBCELLULAR LOCATION.
+RX   PubMed=21919205; DOI=10.1002/pmic.201100234;
+RA   Sriranganadane D., Waridel P., Salamin K., Feuermann M., Mignon B.,
+RA   Staib P., Neuhaus J.M., Quadroni M., Monod M.;
+RT   "Identification of novel secreted proteases during extracellular
+RT   proteolysis by dermatophytes at acidic pH.";
+RL   Proteomics 11:4422-4433(2011).
+CC   -!- FUNCTION: Probable L-fucose-binding lectin.
+CC       {ECO:0000250|UniProtKB:P18891}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P18891}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:21919205}.
+CC   -!- DOMAIN: Adopts the six-bladed beta-propeller fold and contains six
+CC       binding sites per monomer, each located between two adjacent blades (By
+CC       similarity). The six binding sites that are non-equivalent, and owing
+CC       to minor differences in amino-acid composition they exhibit a marked
+CC       difference in specific ligand recognition (By similarity).
+CC       {ECO:0000250|UniProtKB:Q4WW81}.
+CC   -!- SIMILARITY: Belongs to the fungal fucose-specific lectin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; ABSU01000002; EFE36085.1; -; Genomic_DNA.
+DR   RefSeq; XP_003016730.1; XM_003016684.1.
+DR   AlphaFoldDB; D4AL26; -.
+DR   SMR; D4AL26; -.
+DR   EnsemblFungi; EFE36085; EFE36085; ARB_05022.
+DR   GeneID; 9522215; -.
+DR   KEGG; abe:ARB_05022; -.
+DR   eggNOG; ENOG502SNJJ; Eukaryota.
+DR   HOGENOM; CLU_057373_0_0_1; -.
+DR   OMA; KNGISEW; -.
+DR   Proteomes; UP000008866; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR012475; Fungal_lectin.
+DR   Pfam; PF07938; Fungal_lectin; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Lectin; Reference proteome; Repeat; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..365
+FT                   /note="Fucose-specific lectin"
+FT                   /id="PRO_5003054087"
+FT   REPEAT          22..79
+FT                   /note="1"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          80..141
+FT                   /note="2"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          142..206
+FT                   /note="3"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          207..261
+FT                   /note="4"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          262..309
+FT                   /note="5"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          310..365
+FT                   /note="6"
+FT                   /evidence="ECO:0000305"
+FT   REGION          22..365
+FT                   /note="6 X approximate tandem repeats"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         51
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         63
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         70
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         111
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         123
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         132
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         164
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         176
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         201
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         231
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         283
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         333
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   BINDING         347
+FT                   /ligand="beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42589"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2UNX8"
+FT   CARBOHYD        26
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        76
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        85
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        118
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        248
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+SQ   SEQUENCE   365 AA;  40297 MW;  CCDD3526FCA39D3F CRC64;
+     MKLLHFTILL QVSLFPASSL AQAGGNNTEV QVQQTLPGTG IAAVNSVNLL RIYSQDTSGG
+     IREARFEGYW SGGLANDTIA KARANSSIAA ASDDLELYKS SSSTNFLLKI RVYYLLPNNT
+     LGEAASDSQS RWYTGSLNQY NFQVASHSRL AAVFVPSTQR PRLRIYAQLG DNTIQEFGYD
+     VSPLSQLEPM FANYLKVGRG WQRLANFGPA LPGTGIAALT YTTGLRRSTT RVYFQTTDRR
+     VVERVYDNRS WSDGGTVVRT AKPRTPLAAT SFLLTPGNPQ SVRVYYGTED NRILEKGTEG
+     GTYWYDGAFE HSAIPDSQVA AVDWGNGGVF NIRLYIQDGA FKNGISEWAW FRRSWRRGIL
+     AIPPA
+//

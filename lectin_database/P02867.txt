@@ -1,0 +1,233 @@
+ID   LEC_PEA                 Reviewed;         275 AA.
+AC   P02867;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   03-AUG-2022, entry version 136.
+DE   RecName: Full=Lectin;
+DE   Contains:
+DE     RecName: Full=Lectin beta chain;
+DE   Contains:
+DE     RecName: Full=Lectin alpha chain;
+DE   Flags: Precursor;
+GN   Name=LECA; Synonyms=PSL1;
+OS   Pisum sativum (Garden pea).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; Hologalegina; IRL clade; Fabeae; Pisum.
+OX   NCBI_TaxID=3888;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Feltham First; TISSUE=Seed;
+RX   PubMed=3658708; DOI=10.1093/nar/15.18.7642;
+RA   Gatehouse J.A., Bown D., Evans I.M., Gatehouse L.N., Jobes D., Preston P.,
+RA   Croy R.R.D.;
+RT   "Sequence of the seed lectin gene from pea (Pisum sativum L.).";
+RL   Nucleic Acids Res. 15:7642-7642(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE.
+RX   AGRICOLA=IND91054566; DOI=10.1007/BF00015881;
+RA   Kaminski P.A., Buffard D., Strosberg A.D.;
+RT   "The pea lectin gene family contains only one functional gene.";
+RL   Plant Mol. Biol. 9:497-507(1987).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. P1/G086;
+RX   PubMed=6688253; DOI=10.1016/s0021-9258(17)44701-6;
+RA   Higgins T.J.V., Chandler P.M., Zurawski G., Button S.C., Spencer D.;
+RT   "The biosynthesis and primary structure of pea seed lectin.";
+RL   J. Biol. Chem. 258:9544-9549(1983).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=cv. Feltham First;
+RA   de Pater B.S., Pham K.T., Katagiri F., Chua N.H., Kijne J.W.;
+RL   Submitted (MAY-1992) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   PROTEIN SEQUENCE OF 218-271.
+RX   PubMed=728447; DOI=10.1016/0005-2795(78)90514-7;
+RA   Richardson C., Behnke W.D., Freisheim J.H., Blumenthal K.M.;
+RT   "The complete amino acid sequence of the alpha-subunit of pea lectin, Pisum
+RT   sativum.";
+RL   Biochim. Biophys. Acta 537:310-319(1978).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS).
+RX   PubMed=3782132; DOI=10.1016/s0021-9258(18)66597-4;
+RA   Einspahr H., Parks E.H., Suguna K., Subramanian E., Suddath F.L.;
+RT   "The crystal structure of pea lectin at 3.0-A resolution.";
+RL   J. Biol. Chem. 261:16518-16527(1986).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS).
+RX   PubMed=8486683; DOI=10.2210/pdb1rin/pdb;
+RA   Rini J.M., Hardman K.D., Einspahr H., Suddath F.L., Carver J.P.;
+RT   "X-ray crystal structure of a pea lectin-trimannoside complex at 2.6-A
+RT   resolution.";
+RL   J. Biol. Chem. 268:10126-10132(1993).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS).
+RA   Ruzeinikov S.N., Mikhailova I.Y., Tsygannik I.N., Pangborn W., Duax W.,
+RA   Pletnev V.Z.;
+RT   "The structure of the pea lectin-D-mannopyranose complex at a 2.1 A
+RT   resolution.";
+RL   Russ. J. Bioorg. Chem. 24:277-279(1998).
+RN   [9]
+RP   MUTAGENESIS.
+RX   PubMed=1463840; DOI=10.1007/bf00028892;
+RA   van Eijsden R.R., Hoedemaeker F.J., Diaz C.L., Lugtenberg B.J.J.,
+RA   de Pater B.S., Kijne J.W.;
+RT   "Mutational analysis of pea lectin. Substitution of Asn125 for Asp in the
+RT   monosaccharide-binding site eliminates mannose/glucose-binding activity.";
+RL   Plant Mol. Biol. 20:1049-1058(1992).
+CC   -!- FUNCTION: D-mannose specific lectin.
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta chains.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y00440; CAA68497.1; -; Genomic_DNA.
+DR   EMBL; M18160; AAA33676.1; -; mRNA.
+DR   EMBL; J01254; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; X66368; CAA47011.1; -; Genomic_DNA.
+DR   PIR; A26844; LNPM.
+DR   PDB; 1BQP; X-ray; 2.10 A; A/C=31-211, B/D=218-264.
+DR   PDB; 1HKD; X-ray; 2.09 A; A/C=31-211, B/D=218-269.
+DR   PDB; 1OFS; X-ray; 1.80 A; A/C=31-217, B/D=218-265.
+DR   PDB; 1RIN; X-ray; 2.60 A; A/C=31-210, B/D=218-266.
+DR   PDB; 2BQP; X-ray; 1.90 A; A/B=31-264.
+DR   PDB; 2LTN; X-ray; 1.70 A; A/C=31-211, B/D=218-269.
+DR   PDB; 5T7P; X-ray; 2.16 A; A/B=31-266.
+DR   PDBsum; 1BQP; -.
+DR   PDBsum; 1HKD; -.
+DR   PDBsum; 1OFS; -.
+DR   PDBsum; 1RIN; -.
+DR   PDBsum; 2BQP; -.
+DR   PDBsum; 2LTN; -.
+DR   PDBsum; 5T7P; -.
+DR   AlphaFoldDB; P02867; -.
+DR   PCDDB; P02867; -.
+DR   SMR; P02867; -.
+DR   MINT; P02867; -.
+DR   Allergome; 8818; Pis s Agglutinin.
+DR   UniLectin; P02867; -.
+DR   EnsemblPlants; Psat7g231520.1; Psat7g231520.1.cds1; Psat7g231520.
+DR   Gramene; Psat7g231520.1; Psat7g231520.1.cds1; Psat7g231520.
+DR   EvolutionaryTrace; P02867; -.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Glycoprotein; Lectin;
+KW   Manganese; Mannose-binding; Metal-binding; Signal.
+FT   SIGNAL          1..30
+FT   CHAIN           31..217
+FT                   /note="Lectin beta chain"
+FT                   /id="PRO_0000017623"
+FT   CHAIN           218..275
+FT                   /note="Lectin alpha chain"
+FT                   /id="PRO_0000017624"
+FT   BINDING         149
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         151
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         151
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         153
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         155
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         159
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         159
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         166
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        217
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        269
+FT                   /note="Missing (in Ref. 4)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          32..40
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          48..52
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          55..57
+FT                   /evidence="ECO:0007829|PDB:1OFS"
+FT   STRAND          58..64
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          71..78
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   TURN            85..87
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          92..102
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          104..108
+FT                   /evidence="ECO:0007829|PDB:1HKD"
+FT   STRAND          112..119
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   HELIX           128..130
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   TURN            131..133
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   HELIX           141..143
+FT                   /evidence="ECO:0007829|PDB:1OFS"
+FT   STRAND          146..151
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   TURN            156..158
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          166..175
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          177..181
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          190..197
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   TURN            198..201
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          202..209
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          219..226
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   HELIX           229..232
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          235..244
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+FT   STRAND          246..248
+FT                   /evidence="ECO:0007829|PDB:1OFS"
+FT   STRAND          251..263
+FT                   /evidence="ECO:0007829|PDB:2LTN"
+SQ   SEQUENCE   275 AA;  30270 MW;  FD7BE8E00A811222 CRC64;
+     MASLQTQMIS FYAIFLSILL TTILFFKVNS TETTSFLITK FSPDQQNLIF QGDGYTTKEK
+     LTLTKAVKNT VGRALYSSPI HIWDRETGNV ANFVTSFTFV INAPNSYNVA DGFTFFIAPV
+     DTKPQTGGGY LGVFNSAEYD KTTQTVAVEF DTFYNAAWDP SNRDRHIGID VNSIKSVNTK
+     SWKLQNGEEA NVVIAFNAAT NVLTVSLTYP NSLEEENVTS YTLSDVVSLK DVVPEWVRIG
+     FSATTGAEYA AHEVLSWSFH SELSGTSSSK QAADA
+//

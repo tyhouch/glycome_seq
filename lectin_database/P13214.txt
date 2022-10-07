@@ -1,0 +1,263 @@
+ID   ANXA4_BOVIN             Reviewed;         319 AA.
+AC   P13214; Q3SYU5;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 172.
+DE   RecName: Full=Annexin A4;
+DE   AltName: Full=35-beta calcimedin;
+DE   AltName: Full=Annexin IV;
+DE   AltName: Full=Annexin-4;
+DE   AltName: Full=Carbohydrate-binding protein p33/p41;
+DE   AltName: Full=Chromobindin-4;
+DE   AltName: Full=Endonexin I;
+DE   AltName: Full=Lipocortin IV;
+DE   AltName: Full=P32.5;
+DE   AltName: Full=PP4-X;
+DE   AltName: Full=Placental anticoagulant protein II;
+DE            Short=PAP-II;
+DE   AltName: Full=Protein II;
+GN   Name=ANXA4; Synonyms=ANX4;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=2847715; DOI=10.1016/s0006-291x(88)80893-3;
+RA   Hamman H.C., Gaffey L.C., Lynch K.R., Creutz C.E.;
+RT   "Cloning and characterization of a cDNA encoding bovine endonexin
+RT   (chromobindin 4).";
+RL   Biochem. Biophys. Res. Commun. 156:660-667(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=8631806; DOI=10.1074/jbc.271.13.7679;
+RA   Kojima K., Yamamoto K., Irimura T., Osawa T., Ogawa H., Matsumoto I.;
+RT   "Characterization of carbohydrate-binding protein p33/41: relation with
+RT   annexin IV, molecular basis of the doublet forms (p33 and p41), and
+RT   modulation of the carbohydrate binding activity by phospholipids.";
+RL   J. Biol. Chem. 271:7679-7685(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Crossbred X Angus; TISSUE=Ileum;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PROTEIN SEQUENCE OF 10-24; 28-48; 101-118; 194-212 AND 260-288.
+RC   TISSUE=Kidney;
+RX   PubMed=1400371; DOI=10.1016/s0021-9258(19)36715-8;
+RA   Kojima K., Ogawa H.K., Seno N., Yamamoto K., Irimura T., Osawa T.,
+RA   Matsumoto I.;
+RT   "Carbohydrate-binding proteins in bovine kidney have consensus amino acid
+RT   sequences of annexin family proteins.";
+RL   J. Biol. Chem. 267:20536-20539(1992).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 29-44; 111-118; 162-190 AND 226-235, AND INTERACTION
+RP   WITH SFTPA1.
+RX   PubMed=7492310; DOI=10.1042/bj3120175;
+RA   Sohma H., Matsushima N., Watanabe T., Hattori A., Kuroki Y., Akino T.;
+RT   "Ca(2+)-dependent binding of annexin IV to surfactant protein A and
+RT   lamellar bodies in alveolar type II cells.";
+RL   Biochem. J. 312:175-181(1995).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS).
+RA   Sutton R.B., Sprang S.R.;
+RL   Submitted (SEP-1995) to the PDB data bank.
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (3 ANGSTROMS).
+RX   PubMed=9405281; DOI=10.1042/bj3290101;
+RA   Zanotti G., Malpeli G., Gliubich F., Folli C., Stoppini M., Olivi L.,
+RA   Savoia A., Berni R.;
+RT   "Structure of the trigonal crystal form of bovine annexin IV.";
+RL   Biochem. J. 329:101-106(1998).
+CC   -!- FUNCTION: May play a role in alveolar type II cells through interaction
+CC       with the surfactant protein SFTPA1 (SP-A).
+CC   -!- SUBUNIT: Monomer. Binds to SFTPA1 in a Ca(2+)-dependent manner.
+CC   -!- SUBCELLULAR LOCATION: Zymogen granule membrane
+CC       {ECO:0000250|UniProtKB:P50994}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:P50994}.
+CC   -!- DOMAIN: A pair of annexin repeats may form one binding site for calcium
+CC       and phospholipid.
+CC   -!- MISCELLANEOUS: Seems to bind one calcium ion with high affinity.
+CC   -!- SIMILARITY: Belongs to the annexin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01245, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M22248; AAA30507.1; -; mRNA.
+DR   EMBL; X13627; CAA31954.1; -; mRNA.
+DR   EMBL; D78178; BAA11243.1; -; mRNA.
+DR   EMBL; BC103381; AAI03382.1; -; mRNA.
+DR   PIR; A31578; LUBO4.
+DR   RefSeq; NP_001001440.2; NM_001001440.2.
+DR   PDB; 1ANN; X-ray; 2.30 A; A=2-319.
+DR   PDB; 1AOW; X-ray; 3.00 A; A=11-319.
+DR   PDB; 1I4A; X-ray; 2.00 A; A=2-319.
+DR   PDBsum; 1ANN; -.
+DR   PDBsum; 1AOW; -.
+DR   PDBsum; 1I4A; -.
+DR   AlphaFoldDB; P13214; -.
+DR   SMR; P13214; -.
+DR   STRING; 9913.ENSBTAP00000001463; -.
+DR   ChEMBL; CHEMBL3308973; -.
+DR   PaxDb; P13214; -.
+DR   PeptideAtlas; P13214; -.
+DR   PRIDE; P13214; -.
+DR   Ensembl; ENSBTAT00000001463; ENSBTAP00000001463; ENSBTAG00000001105.
+DR   GeneID; 281625; -.
+DR   KEGG; bta:281625; -.
+DR   CTD; 307; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000001105; -.
+DR   VGNC; VGNC:25966; ANXA4.
+DR   eggNOG; KOG0819; Eukaryota.
+DR   GeneTree; ENSGT00940000156575; -.
+DR   HOGENOM; CLU_025300_0_0_1; -.
+DR   InParanoid; P13214; -.
+DR   OMA; RHFMIVL; -.
+DR   OrthoDB; 856254at2759; -.
+DR   TreeFam; TF105452; -.
+DR   EvolutionaryTrace; P13214; -.
+DR   Proteomes; UP000009136; Chromosome 11.
+DR   Bgee; ENSBTAG00000001105; Expressed in urinary bladder and 108 other tissues.
+DR   ExpressionAtlas; P13214; baseline and differential.
+DR   GO; GO:0016324; C:apical plasma membrane; TAS:AgBase.
+DR   GO; GO:0009986; C:cell surface; IEA:Ensembl.
+DR   GO; GO:0042584; C:chromaffin granule membrane; IDA:AgBase.
+DR   GO; GO:0005829; C:cytosol; IDA:AgBase.
+DR   GO; GO:0016020; C:membrane; IDA:AgBase.
+DR   GO; GO:0031965; C:nuclear membrane; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; IDA:AgBase.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:Ensembl.
+DR   GO; GO:0005509; F:calcium ion binding; IBA:GO_Central.
+DR   GO; GO:0005544; F:calcium-dependent phospholipid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0048306; F:calcium-dependent protein binding; IEA:Ensembl.
+DR   GO; GO:0030246; F:carbohydrate binding; TAS:AgBase.
+DR   GO; GO:0035374; F:chondroitin sulfate binding; IDA:AgBase.
+DR   GO; GO:0008201; F:heparin binding; IDA:AgBase.
+DR   GO; GO:0042802; F:identical protein binding; IEA:Ensembl.
+DR   GO; GO:0051059; F:NF-kappaB binding; IEA:Ensembl.
+DR   GO; GO:0030855; P:epithelial cell differentiation; IEA:Ensembl.
+DR   GO; GO:0032717; P:negative regulation of interleukin-8 production; IEA:Ensembl.
+DR   GO; GO:0032088; P:negative regulation of NF-kappaB transcription factor activity; IEA:Ensembl.
+DR   GO; GO:0007219; P:Notch signaling pathway; IEA:Ensembl.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IEA:Ensembl.
+DR   Gene3D; 1.10.220.10; -; 4.
+DR   InterPro; IPR001464; Annexin.
+DR   InterPro; IPR018502; Annexin_repeat.
+DR   InterPro; IPR018252; Annexin_repeat_CS.
+DR   InterPro; IPR037104; Annexin_sf.
+DR   InterPro; IPR002391; ANX4.
+DR   PANTHER; PTHR10502:SF28; PTHR10502:SF28; 1.
+DR   Pfam; PF00191; Annexin; 4.
+DR   PRINTS; PR00196; ANNEXIN.
+DR   SMART; SM00335; ANX; 4.
+DR   SUPFAM; SSF47874; SSF47874; 1.
+DR   PROSITE; PS00223; ANNEXIN_1; 4.
+DR   PROSITE; PS51897; ANNEXIN_2; 4.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Annexin; Calcium; Calcium/phospholipid-binding;
+KW   Cytoplasmic vesicle; Direct protein sequencing; Membrane; Phosphoprotein;
+KW   Reference proteome; Repeat.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P09525"
+FT   CHAIN           2..319
+FT                   /note="Annexin A4"
+FT                   /id="PRO_0000067480"
+FT   REPEAT          14..85
+FT                   /note="Annexin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01245"
+FT   REPEAT          86..157
+FT                   /note="Annexin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01245"
+FT   REPEAT          169..241
+FT                   /note="Annexin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01245"
+FT   REPEAT          245..316
+FT                   /note="Annexin 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01245"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09525"
+FT   MOD_RES         7
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08132"
+FT   MOD_RES         12
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09525"
+FT   MOD_RES         213
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09525"
+FT   MOD_RES         293
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09525"
+FT   MOD_RES         300
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09525"
+FT   CONFLICT        95
+FT                   /note="L -> V (in Ref. 2; BAA11243)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        198
+FT                   /note="C -> Y (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        211
+FT                   /note="E -> K (in Ref. 2; BAA11243)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           16..27
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   STRAND          28..31
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           34..41
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           46..60
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           64..71
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           74..84
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           87..99
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   STRAND          100..103
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           106..115
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           118..132
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           136..143
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           146..156
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           168..181
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   TURN            184..186
+FT                   /evidence="ECO:0007829|PDB:1ANN"
+FT   HELIX           190..199
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           202..216
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           220..227
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           230..258
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   STRAND          259..262
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           265..275
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   TURN            276..278
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           280..291
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           295..302
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+FT   HELIX           305..315
+FT                   /evidence="ECO:0007829|PDB:1I4A"
+SQ   SEQUENCE   319 AA;  35889 MW;  A795DD72B0EE961F CRC64;
+     MAAKGGTVKA ASGFNAAEDA QTLRKAMKGL GTDEDAIINV LAYRSTAQRQ EIRTAYKTTI
+     GRDLMDDLKS ELSGNFEQVI LGMMTPTVLY DVQELRKAMK GAGTDEGCLI EILASRTPEE
+     IRRINQTYQL QYGRSLEDDI RSDTSFMFQR VLVSLSAGGR DESNYLDDAL MRQDAQDLYE
+     AGEKKWGTDE VKFLTVLCSR NRNHLLHVFD EYKRIAQKDI EQSIKSETSG SFEDALLAIV
+     KCMRNKSAYF AERLYKSMKG LGTDDDTLIR VMVSRAEIDM LDIRANFKRL YGKSLYSFIK
+     GDTSGDYRKV LLILCGGDD
+//

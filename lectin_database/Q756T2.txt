@@ -1,0 +1,126 @@
+ID   OS9_ASHGO               Reviewed;         421 AA.
+AC   Q756T2;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 90.
+DE   RecName: Full=Protein OS-9 homolog;
+DE   Flags: Precursor;
+GN   Name=YOS9; OrderedLocusNames=AER171W;
+OS   Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)
+OS   (Yeast) (Eremothecium gossypii).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Eremothecium.
+OX   NCBI_TaxID=284811;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=15001715; DOI=10.1126/science.1095781;
+RA   Dietrich F.S., Voegeli S., Brachat S., Lerch A., Gates K., Steiner S.,
+RA   Mohr C., Poehlmann R., Luedi P., Choi S., Wing R.A., Flavier A.,
+RA   Gaffney T.D., Philippsen P.;
+RT   "The Ashbya gossypii genome as a tool for mapping the ancient Saccharomyces
+RT   cerevisiae genome.";
+RL   Science 304:304-307(2004).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=23749448; DOI=10.1534/g3.112.002881;
+RA   Dietrich F.S., Voegeli S., Kuo S., Philippsen P.;
+RT   "Genomes of Ashbya fungi isolated from insects reveal four mating-type
+RT   loci, numerous translocations, lack of transposons, and distinct gene
+RT   duplications.";
+RL   G3 (Bethesda) 3:1225-1239(2013).
+CC   -!- FUNCTION: Lectin involved in the quality control of the secretory
+CC       pathway. As a member of the endoplasmic reticulum-associated
+CC       degradation lumenal (ERAD-L) surveillance system, targets misfolded
+CC       endoplasmic reticulum lumenal glycoproteins for degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with missfolded ER lumenal proteins. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}; Lumenal side {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016818; AAS52853.1; -; Genomic_DNA.
+DR   RefSeq; NP_985029.1; NM_210383.1.
+DR   AlphaFoldDB; Q756T2; -.
+DR   SMR; Q756T2; -.
+DR   STRING; 33169.AAS52853; -.
+DR   EnsemblFungi; AAS52853; AAS52853; AGOS_AER171W.
+DR   GeneID; 4621237; -.
+DR   KEGG; ago:AGOS_AER171W; -.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   HOGENOM; CLU_679768_0_0_1; -.
+DR   InParanoid; Q756T2; -.
+DR   OMA; ANTIYCT; -.
+DR   Proteomes; UP000000591; Chromosome V.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IEA:InterPro.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR041039; Yos9_DD.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF17880; Yos9_DD; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Membrane;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..421
+FT                   /note="Protein OS-9 homolog"
+FT                   /id="PRO_0000042757"
+FT   DOMAIN          99..220
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          375..403
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        375..397
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         115
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         180
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         202
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         208
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        125
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        271
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        332
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        173..206
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        188..218
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   421 AA;  47924 MW;  6E57E2FE19181651 CRC64;
+     MWRWSTGVRT MLGYAMCFLA LGSALTVRLH STRTNLPQYL TREIGDDEFE ELLRSSASAG
+     HKWHVEQFVD GSRCYVPETE QNMAPVPDDL LERGIKLVEE ATVGKKLEYL PISYWGYKFI
+     NSELNKTVIQ HKDQHQVLLG SMVKADPQTV QHSLERDEDS YYISERFGDG DLCSLLEEDR
+     TVEVQYRCKY DTPLEIILDL KEYETCRYTM LVSIPSLCEL PEFGPYTRQT PANTIYCTAP
+     ATPEFNIATL VEAYKPTFLG HGFYHLAPHA NLTHKETTAM LMYHQQPIPG NEEDDGTMDS
+     AFIKHSTMAY MQLLEMGLLN GPDGLPFSEE GNFTVYAKVI GFDGGLITVT RFQISHGEVI
+     IDHVVPEVLE DMEQGNSEDY EQQAPEQLDE EEAELTSQSD DPAIMRVHLQ EFITPEYDAI
+     E
+//

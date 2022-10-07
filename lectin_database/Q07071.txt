@@ -1,0 +1,328 @@
+ID   GCKR_RAT                Reviewed;         627 AA.
+AC   Q07071;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   03-AUG-2022, entry version 128.
+DE   RecName: Full=Glucokinase regulatory protein {ECO:0000303|PubMed:7682971};
+DE            Short=Glucokinase regulator {ECO:0000250|UniProtKB:Q14397};
+GN   Name=Gckr {ECO:0000312|RGD:2671};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Liver;
+RX   PubMed=7682971; DOI=10.1016/0014-5793(93)80089-d;
+RA   Detheux M., Vandekerckhove J., van Schaftingen E.;
+RT   "Cloning and sequencing of rat liver cDNAs encoding the regulatory protein
+RT   of glucokinase.";
+RL   FEBS Lett. 321:111-115(1993).
+RN   [2]
+RP   SEQUENCE REVISION.
+RX   PubMed=8112473; DOI=10.1016/0014-5793(94)80437-0;
+RA   Detheux M., Vandekerckhove J., van Schaftingen E.;
+RT   "Cloning and sequencing of rat liver cDNAs encoding the regulatory protein
+RT   of glucokinase.";
+RL   FEBS Lett. 339:312-312(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=10518020; DOI=10.1016/s0014-5793(99)01249-1;
+RA   Fernandez-Novell J.M., Castel S., Bellido D., Ferrer J.C., Vilaro S.,
+RA   Guinovart J.J.;
+RT   "Intracellular distribution of hepatic glucokinase and glucokinase
+RT   regulatory protein during the fasted to refed transition in rats.";
+RL   FEBS Lett. 459:211-214(1999).
+RN   [5]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=10456334; DOI=10.1016/s0014-5793(99)00971-0;
+RA   de la Iglesia N., Veiga-da-Cunha M., Van Schaftingen E., Guinovart J.J.,
+RA   Ferrer J.C.;
+RT   "Glucokinase regulatory protein is essential for the proper subcellular
+RT   localisation of liver glucokinase.";
+RL   FEBS Lett. 456:332-338(1999).
+RN   [6]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH GCK.
+RX   PubMed=10601273; DOI=10.1074/jbc.274.52.37125;
+RA   Shiota C., Coffey J., Grimsby J., Grippo J.F., Magnuson M.A.;
+RT   "Nuclear import of hepatic glucokinase depends upon glucokinase regulatory
+RT   protein, whereas export is due to a nuclear export signal sequence in
+RT   glucokinase.";
+RL   J. Biol. Chem. 274:37125-37130(1999).
+RN   [7]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH GCK.
+RX   PubMed=16542652; DOI=10.1016/j.febslet.2006.03.009;
+RA   Arden C., Baltrusch S., Agius L.;
+RT   "Glucokinase regulatory protein is associated with mitochondria in
+RT   hepatocytes.";
+RL   FEBS Lett. 580:2065-2070(2006).
+RN   [8] {ECO:0007744|PDB:4LC9}
+RP   X-RAY CRYSTALLOGRAPHY (3.4 ANGSTROMS) IN COMPLEX WITH HUMAN GCK AND
+RP   BETA-D-FRUCTOSE-6-PHOSPHATE, FUNCTION, FRUCTOSE-6-PHOSPHATE BINDING SITES,
+RP   AND SUBUNIT.
+RX   PubMed=23957911; DOI=10.1021/bi400838t;
+RA   Beck T., Miller B.G.;
+RT   "Structural basis for regulation of human glucokinase by glucokinase
+RT   regulatory protein.";
+RL   Biochemistry 52:6232-6239(2013).
+CC   -!- FUNCTION: Regulates glucokinase (GCK) by forming an inactive complex
+CC       with this enzyme (PubMed:23957911). Acts by promoting GCK recruitment
+CC       to the nucleus, possibly to provide a reserve of GCK that can be
+CC       quickly released in the cytoplasm after a meal (PubMed:10456334). The
+CC       affinity of GCKR for GCK is modulated by fructose metabolites: GCKR
+CC       with bound fructose 6-phosphate has increased affinity for GCK, while
+CC       GCKR with bound fructose 1-phosphate has strongly decreased affinity
+CC       for GCK and does not inhibit GCK activity (PubMed:23957911).
+CC       {ECO:0000269|PubMed:10456334, ECO:0000269|PubMed:23957911}.
+CC   -!- SUBUNIT: Interacts (fructose 6-phosphate bound form) with GCK.
+CC       {ECO:0000269|PubMed:10601273, ECO:0000269|PubMed:23957911}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:10456334,
+CC       ECO:0000269|PubMed:10518020, ECO:0000269|PubMed:16542652}. Nucleus
+CC       {ECO:0000269|PubMed:10456334, ECO:0000269|PubMed:10601273}.
+CC       Mitochondrion {ECO:0000269|PubMed:16542652}. Note=Under low glucose
+CC       concentrations, GCKR associates with GCK and the inactive complex is
+CC       recruited to the hepatocyte nucleus. {ECO:0000269|PubMed:10456334}.
+CC   -!- TISSUE SPECIFICITY: Detected in liver (at protein level)
+CC       (PubMed:7682971, PubMed:10518020). Not detected in muscle, brain,
+CC       heart, testis, intestine or spleen (PubMed:10518020).
+CC       {ECO:0000269|PubMed:10518020, ECO:0000269|PubMed:7682971}.
+CC   -!- DOMAIN: Fructose 1-phosphate and fructose 6-phosphate compete for the
+CC       same binding site. {ECO:0000269|PubMed:23957911}.
+CC   -!- SIMILARITY: Belongs to the GCKR family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X68497; CAA48511.1; -; mRNA.
+DR   EMBL; BC081843; AAH81843.1; -; mRNA.
+DR   PIR; S41745; S41745.
+DR   RefSeq; NP_037252.1; NM_013120.2.
+DR   PDB; 4LC9; X-ray; 3.40 A; A=1-627.
+DR   PDBsum; 4LC9; -.
+DR   AlphaFoldDB; Q07071; -.
+DR   SMR; Q07071; -.
+DR   IntAct; Q07071; 3.
+DR   MINT; Q07071; -.
+DR   STRING; 10116.ENSRNOP00000064260; -.
+DR   BindingDB; Q07071; -.
+DR   ChEMBL; CHEMBL3124733; -.
+DR   iPTMnet; Q07071; -.
+DR   PhosphoSitePlus; Q07071; -.
+DR   PaxDb; Q07071; -.
+DR   PRIDE; Q07071; -.
+DR   Ensembl; ENSRNOT00000073228; ENSRNOP00000064260; ENSRNOG00000048874.
+DR   GeneID; 25658; -.
+DR   KEGG; rno:25658; -.
+DR   CTD; 2646; -.
+DR   RGD; 2671; Gckr.
+DR   eggNOG; ENOG502QS2J; Eukaryota.
+DR   GeneTree; ENSGT00390000005345; -.
+DR   HOGENOM; CLU_031122_0_0_1; -.
+DR   InParanoid; Q07071; -.
+DR   OMA; ANSKLFW; -.
+DR   OrthoDB; 858819at2759; -.
+DR   PhylomeDB; Q07071; -.
+DR   Reactome; R-RNO-170822; Regulation of Glucokinase by Glucokinase Regulatory Protein.
+DR   SABIO-RK; Q07071; -.
+DR   PRO; PR:Q07071; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000048874; Expressed in liver and 11 other tissues.
+DR   Genevisible; Q07071; RN.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IDA:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IDA:BHF-UCL.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0019899; F:enzyme binding; IMP:RGD.
+DR   GO; GO:0004857; F:enzyme inhibitor activity; IDA:RGD.
+DR   GO; GO:0070095; F:fructose-6-phosphate binding; ISS:UniProtKB.
+DR   GO; GO:0019904; F:protein domain specific binding; IPI:RGD.
+DR   GO; GO:1901135; P:carbohydrate derivative metabolic process; IEA:InterPro.
+DR   GO; GO:0001678; P:cellular glucose homeostasis; ISO:RGD.
+DR   GO; GO:0051594; P:detection of glucose; NAS:BHF-UCL.
+DR   GO; GO:0042593; P:glucose homeostasis; IBA:GO_Central.
+DR   GO; GO:0006006; P:glucose metabolic process; TAS:RGD.
+DR   GO; GO:0033132; P:negative regulation of glucokinase activity; IDA:BHF-UCL.
+DR   GO; GO:1903300; P:negative regulation of hexokinase activity; IDA:RGD.
+DR   GO; GO:0033133; P:positive regulation of glucokinase activity; ISO:RGD.
+DR   GO; GO:0006606; P:protein import into nucleus; IDA:BHF-UCL.
+DR   GO; GO:0034504; P:protein localization to nucleus; ISO:RGD.
+DR   GO; GO:0009750; P:response to fructose; IDA:BHF-UCL.
+DR   GO; GO:0070328; P:triglyceride homeostasis; ISO:RGD.
+DR   GO; GO:0046415; P:urate metabolic process; ISO:RGD.
+DR   InterPro; IPR005486; Glucokinase_regulatory_CS.
+DR   InterPro; IPR040190; MURQ/GCKR.
+DR   InterPro; IPR001347; SIS_dom.
+DR   InterPro; IPR046348; SIS_dom_sf.
+DR   PANTHER; PTHR10088; PTHR10088; 1.
+DR   SUPFAM; SSF53697; SSF53697; 2.
+DR   PROSITE; PS01272; GCKR; 1.
+DR   PROSITE; PS51464; SIS; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cytoplasm;
+KW   Direct protein sequencing; Mitochondrion; Nucleus; Reference proteome;
+KW   Repeat.
+FT   CHAIN           1..627
+FT                   /note="Glucokinase regulatory protein"
+FT                   /id="PRO_0000214827"
+FT   DOMAIN          90..286
+FT                   /note="SIS 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00797"
+FT   DOMAIN          320..499
+FT                   /note="SIS 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00797"
+FT   REGION          199..200
+FT                   /note="Important for interaction with GCK"
+FT                   /evidence="ECO:0000269|PubMed:10601273"
+FT   REGION          463..465
+FT                   /note="Essential for interaction with GCK"
+FT                   /evidence="ECO:0000269|PubMed:10601273"
+FT   BINDING         109..110
+FT                   /ligand="beta-D-fructose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:138881"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14397"
+FT   BINDING         109..110
+FT                   /ligand="beta-D-fructose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57634"
+FT                   /evidence="ECO:0000269|PubMed:23957911,
+FT                   ECO:0007744|PDB:4LC9"
+FT   BINDING         153
+FT                   /ligand="beta-D-fructose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:138881"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14397"
+FT   BINDING         179..181
+FT                   /ligand="beta-D-fructose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:138881"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14397"
+FT   BINDING         179..181
+FT                   /ligand="beta-D-fructose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57634"
+FT                   /evidence="ECO:0000269|PubMed:23957911,
+FT                   ECO:0007744|PDB:4LC9"
+FT   BINDING         348
+FT                   /ligand="beta-D-fructose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:138881"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14397"
+FT   BINDING         514
+FT                   /ligand="beta-D-fructose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:138881"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14397"
+FT   BINDING         514
+FT                   /ligand="beta-D-fructose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57634"
+FT                   /evidence="ECO:0000269|PubMed:23957911,
+FT                   ECO:0007744|PDB:4LC9"
+FT   TURN            23..25
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            30..32
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            39..43
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           46..58
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           59..61
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          66..68
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           77..95
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          100..107
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           108..127
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          134..138
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           143..146
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           150..154
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           156..167
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          171..178
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           185..195
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            198..200
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          201..206
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           211..213
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           226..237
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            238..240
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          243..245
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            258..260
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           261..280
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           289..307
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           310..325
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          330..335
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           337..352
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            357..359
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          360..365
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           397..399
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          405..411
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           416..425
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          433..440
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           447..452
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   STRAND          457..461
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            467..469
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           470..495
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   TURN            496..498
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           513..527
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           531..543
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           550..553
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           557..564
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           570..579
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           584..592
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+FT   HELIX           597..604
+FT                   /evidence="ECO:0007829|PDB:4LC9"
+SQ   SEQUENCE   627 AA;  68917 MW;  2C330146A0289928 CRC64;
+     MPGTKRYQHV IETPEPGEWE LSGYEAAVPI TEKSNPLTRN LDKADAEKIV KLLGQCDAEI
+     FQEEGQIVPT YQRLYSESVL TTMLQVAGKV QEVLKEPDGG LVVLSGGGTS GRMAFLMSVS
+     FNQLMKGLGQ KPLYTYLIAG GDRSVVASRE QTEDSALHGI EELKKVAAGK KRVVVIGISV
+     GLSAPFVAGQ MDYCMDNTAV FLPVLVGFNP VSMARNDPIE DWRSTFRQVA ERMQKMQEKQ
+     EAFVLNPAIG PEGLSGSSRM KGGGATKILL ETLLLAAHKT VDQGVVSSQR CLLEILRTFE
+     RAHQVTYSQS SKIATLMKQV GISLEKKGRV HLVGWQTLGI IAIMDGVECI HTFGADFQDI
+     RGFLIGDHSD MFNQKDELTN QGPQFTFSQD DFLTSILPSL TETDTVVFIF TLDDNLTEVQ
+     ALAERVREKC QNIQALVHST VGQSLPAPLK KLFPSLISIT WPLLFFDYEG TYVQKFQREL
+     STKWVLNTVS TGAHVLLGKI LQNHMLDLRI ANSKLFWRAL AMLQRFSGQS KARCIESLLQ
+     AIHFPQPLSD DVRAAPISCH VQVAHEKEKV IPTALLSLLL RCSISEAKAR LSAASSVCEV
+     VRSALSGPGQ KRSTQALEDP PACGTLN
+//

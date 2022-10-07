@@ -1,0 +1,204 @@
+ID   E1BHM0_BOVIN            Unreviewed;       211 AA.
+AC   E1BHM0;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   10-APR-2019, sequence version 2.
+DT   03-AUG-2022, entry version 78.
+DE   SubName: Full=C-type lectin domain family 4 member E {ECO:0000313|Ensembl:ENSBTAP00000016163};
+GN   Name=CLEC4E {ECO:0000313|Ensembl:ENSBTAP00000016163,
+GN   ECO:0000313|VGNC:VGNC:27432};
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913 {ECO:0000313|Ensembl:ENSBTAP00000016163, ECO:0000313|Proteomes:UP000009136};
+RN   [1] {ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW}
+RP   X-RAY CRYSTALLOGRAPHY (1.40 ANGSTROMS) OF 79-208 IN COMPLEX WITH CALCIUM,
+RP   AND DISULFIDE BONDS.
+RX   PubMed=23960080; DOI=10.1074/jbc.M113.497149;
+RA   Feinberg H., Jegouzo S.A., Rowntree T.J., Guan Y., Brash M.A., Taylor M.E.,
+RA   Weis W.I., Drickamer K.;
+RT   "Mechanism for recognition of an unusual mycobacterial glycolipid by the
+RT   macrophage receptor mincle.";
+RL   J. Biol. Chem. 288:28457-28465(2013).
+RN   [2] {ECO:0007829|PDB:4ZRV, ECO:0007829|PDB:4ZRW}
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 64-208, AND DISULFIDE BONDS.
+RX   PubMed=27542410; DOI=10.1074/jbc.M116.749515;
+RA   Feinberg H., Rambaruth N.D., Jegouzo S.A., Jacobsen K.M., Djurhuus R.,
+RA   Poulsen T.B., Weis W.I., Taylor M.E., Drickamer K.;
+RT   "Binding Sites for Acylated Trehalose Analogs of Glycolipid Ligands on an
+RT   Extended Carbohydrate Recognition Domain of the Macrophage Receptor
+RT   Mincle.";
+RL   J. Biol. Chem. 291:21222-21233(2016).
+RN   [3] {ECO:0000313|Ensembl:ENSBTAP00000016163}
+RP   IDENTIFICATION.
+RC   STRAIN=Hereford {ECO:0000313|Ensembl:ENSBTAP00000016163};
+RG   Ensembl;
+RL   Submitted (MAR-2016) to UniProtKB.
+RN   [4] {ECO:0000313|Ensembl:ENSBTAP00000016163, ECO:0000313|Proteomes:UP000009136}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hereford {ECO:0000313|Ensembl:ENSBTAP00000016163,
+RC   ECO:0000313|Proteomes:UP000009136};
+RA   Rosen B.D., Bickhart D.M., Koren S., Schnabel R.D., Hall R., Zimin A.,
+RA   Dreischer C., Schultheiss S., Schroeder S.G., Elsik C.G., Couldrey C.,
+RA   Liu G.E., Van Tassell C.P., Phillippy A.M., Smith T.P.L., Medrano J.F.;
+RT   "ARS-UCD1.2.";
+RL   Submitted (MAR-2018) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_010803863.1; XM_010805561.2.
+DR   RefSeq; XP_010826222.1; XM_010827920.2.
+DR   PDB; 4KZV; X-ray; 1.40 A; A/B=79-211.
+DR   PDB; 4KZW; X-ray; 1.85 A; A/B=79-211.
+DR   PDB; 4ZRV; X-ray; 2.10 A; A/B/C=79-211.
+DR   PDB; 4ZRW; X-ray; 2.60 A; A=64-208.
+DR   PDB; 5KTH; X-ray; 2.21 A; A=64-208.
+DR   PDB; 5KTI; X-ray; 1.80 A; A=64-208.
+DR   PDBsum; 4KZV; -.
+DR   PDBsum; 4KZW; -.
+DR   PDBsum; 4ZRV; -.
+DR   PDBsum; 4ZRW; -.
+DR   PDBsum; 5KTH; -.
+DR   PDBsum; 5KTI; -.
+DR   SMR; E1BHM0; -.
+DR   STRING; 9913.ENSBTAP00000016163; -.
+DR   UniLectin; E1BHM0; -.
+DR   PaxDb; E1BHM0; -.
+DR   Ensembl; ENSBTAT00000016163.6; ENSBTAP00000016163.6; ENSBTAG00000012185.6.
+DR   GeneID; 514797; -.
+DR   KEGG; bta:514797; -.
+DR   CTD; 26253; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000012185; -.
+DR   VGNC; VGNC:27432; CLEC4E.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000160666; -.
+DR   HOGENOM; CLU_049894_7_5_1; -.
+DR   InParanoid; E1BHM0; -.
+DR   OrthoDB; 1118305at2759; -.
+DR   TreeFam; TF333341; -.
+DR   Proteomes; UP000009136; Chromosome 5.
+DR   Bgee; ENSBTAG00000012185; Expressed in monocyte and 63 other tissues.
+DR   ExpressionAtlas; E1BHM0; baseline and differential.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030670; C:phagocytic vesicle membrane; IEA:Ensembl.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:Ensembl.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0051861; F:glycolipid binding; IEA:Ensembl.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; IEA:Ensembl.
+DR   GO; GO:0061760; P:antifungal innate immune response; IBA:GO_Central.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:Ensembl.
+DR   GO; GO:0038094; P:Fc-gamma receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0006955; P:immune response; IBA:GO_Central.
+DR   GO; GO:0002221; P:pattern recognition receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0001819; P:positive regulation of cytokine production; IEA:Ensembl.
+DR   GO; GO:0002292; P:T cell differentiation involved in immune response; IEA:Ensembl.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW};
+KW   Calcium {ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Metal-binding {ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000009136};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        20..48
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          86..205
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50041"
+FT   BINDING         116
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   BINDING         118
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   BINDING         122
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   BINDING         142
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4ZRV, ECO:0007829|PDB:4ZRW"
+FT   BINDING         146
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4ZRV, ECO:0007829|PDB:4ZRW"
+FT   BINDING         168
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   BINDING         170
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   BINDING         171
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4ZRV, ECO:0007829|PDB:4ZRW"
+FT   BINDING         176
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4ZRV, ECO:0007829|PDB:4ZRW"
+FT   BINDING         176
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4ZRV"
+FT   BINDING         177
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4ZRV, ECO:0007829|PDB:4ZRW"
+FT   BINDING         192
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   BINDING         193
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   BINDING         205
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   DISULFID        67..78
+FT                   /evidence="ECO:0007829|PDB:4ZRW, ECO:0007829|PDB:5KTH"
+FT   DISULFID        79..90
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   DISULFID        107..204
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+FT   DISULFID        178..196
+FT                   /evidence="ECO:0007829|PDB:4KZV, ECO:0007829|PDB:4KZW"
+SQ   SEQUENCE   211 AA;  24255 MW;  686FF2B4DDBA880F CRC64;
+     MNSSTSPASQ TERRCFSFQL FSWAIAGTSI LLLSACFITR CVVTYSIFQL CDEKKFQPPG
+     DSMELSCYND GSGSVKNCCP LKWFHFQSSC YLFSPDTMSW RASLKNCSSM GAHLVVINTQ
+     EEQEFLYYTK PRKKEFYIGL TDQVTEGQWQ WVDGTPFTKS LSFWDAGEPN NLVIVEDCAT
+     IRDSSNPRQN WNDVPCFFNM FRVCEMPERK I
+//

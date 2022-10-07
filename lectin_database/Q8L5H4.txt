@@ -1,0 +1,158 @@
+ID   Q8L5H4_MUSAC            Unreviewed;       141 AA.
+AC   Q8L5H4;
+DT   01-OCT-2002, integrated into UniProtKB/TrEMBL.
+DT   01-OCT-2002, sequence version 1.
+DT   03-AUG-2022, entry version 71.
+DE   SubName: Full=Lectin {ECO:0000313|EMBL:AAM48480.1};
+OS   Musa acuminata (Banana) (Musa cavendishii).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Zingiberales; Musaceae; Musa.
+OX   NCBI_TaxID=4641 {ECO:0000313|EMBL:AAM48480.1};
+RN   [1] {ECO:0000313|EMBL:AAM48480.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Pulp {ECO:0000313|EMBL:AAM48480.1};
+RA   Zhang D., Xu B., Jin Z.;
+RT   "Musa auminata genomic sequence for lectin.";
+RL   Submitted (MAY-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:1X1V}
+RP   X-RAY CRYSTALLOGRAPHY (2.45 ANGSTROMS) IN COMPLEX WITH ZINC.
+RX   PubMed=15958419; DOI=10.1093/glycob/cwi087;
+RA   Singh D.D., Saikrishnan K., Kumar P., Surolia A., Sekar K., Vijayan M.;
+RT   "Unusual sugar specificity of banana lectin from Musa paradisiaca and its
+RT   probable evolutionary origin. Crystallographic and modelling studies.";
+RL   Glycobiology 15:1025-1032(2005).
+RN   [3] {ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU}
+RP   X-RAY CRYSTALLOGRAPHY (2.32 ANGSTROMS) IN COMPLEX WITH MANNOSE AND ZINC.
+RX   PubMed=20729346; DOI=10.1093/glycob/cwq128;
+RA   Sharma A., Vijayan M.;
+RT   "Influence of glycosidic linkage on the nature of carbohydrate binding in
+RT   beta-prism I fold lectins: an X-ray and molecular dynamics investigation on
+RT   banana lectin-carbohydrate complexes.";
+RL   Glycobiology 21:23-33(2011).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY103481; AAM48480.1; -; Genomic_DNA.
+DR   PDB; 1X1V; X-ray; 2.45 A; A/B=1-141.
+DR   PDB; 3MIT; X-ray; 2.32 A; A/B=1-141.
+DR   PDB; 3MIU; X-ray; 2.63 A; A/B=1-141.
+DR   PDB; 3MIV; X-ray; 3.50 A; A/B=1-141.
+DR   PDBsum; 1X1V; -.
+DR   PDBsum; 3MIT; -.
+DR   PDBsum; 3MIU; -.
+DR   PDBsum; 3MIV; -.
+DR   SMR; Q8L5H4; -.
+DR   UniLectin; Q8L5H4; -.
+DR   EvolutionaryTrace; Q8L5H4; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 1.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1X1V, ECO:0007829|PDB:3MIT};
+KW   Lectin {ECO:0000256|ARBA:ARBA00022734};
+KW   Metal-binding {ECO:0007829|PDB:1X1V, ECO:0007829|PDB:3MIT};
+KW   Zinc {ECO:0007829|PDB:1X1V, ECO:0007829|PDB:3MIT}.
+FT   DOMAIN          4..141
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51752"
+FT   BINDING         15
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         33
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         34
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         35
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         36
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         38
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         41
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:1X1V, ECO:0007829|PDB:3MIT"
+FT   BINDING         41
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3MIU"
+FT   BINDING         54
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:1X1V, ECO:0007829|PDB:3MIT"
+FT   BINDING         54
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3MIU"
+FT   BINDING         60
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         63
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         64
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:3MIT"
+FT   BINDING         84
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:3MIU"
+FT   BINDING         84
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0007829|PDB:3MIT"
+FT   BINDING         105
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         106
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         130
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         131
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+FT   BINDING         133
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3MIT, ECO:0007829|PDB:3MIU"
+SQ   SEQUENCE   141 AA;  14670 MW;  D740117F511E562E CRC64;
+     MNGAIKVGAW GGNGGSAFDM GPAYRIISVK IFSGDVVDAV DVTFTYYGKT ETRHFGGSGG
+     TPHEIVLQEG EYLVGMKGEF GNYHGVVVVG KLGFSTNKKS YGPFGNTGGT PFSLPIAAGK
+     ISGFFGRGGD FIDAIGVYLE P
+//

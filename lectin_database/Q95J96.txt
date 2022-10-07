@@ -1,0 +1,266 @@
+ID   CD209_MACMU             Reviewed;         404 AA.
+AC   Q95J96; Q8HXL6; Q8HXL7; Q8HXL8; Q8HXL9; Q8SQB2; Q95LA8;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   13-APR-2004, sequence version 2.
+DT   03-AUG-2022, entry version 105.
+DE   RecName: Full=CD209 antigen;
+DE   AltName: Full=Dendritic cell-specific ICAM-3-grabbing non-integrin 1;
+DE            Short=DC-SIGN1;
+DE   AltName: CD_antigen=CD209;
+GN   Name=CD209;
+OS   Macaca mulatta (Rhesus macaque).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9544;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE (ISOFORM 1), TISSUE SPECIFICITY, AND INTERACTION WITH
+RP   ICAM2; ICAM3 AND HIV-1 GP120.
+RC   TISSUE=Lymph node;
+RX   PubMed=11595296; DOI=10.1016/s0165-2478(01)00279-6;
+RA   Geijtenbeek T.B.H., Koopman G., van Duijnhoven G.C.F., van Vliet S.J.,
+RA   van Schijndel A.C.H.W., Engering A., Heeney J.L., van Kooyk Y.;
+RT   "Rhesus and chimpanzee DC-SIGN act as HIV/SIV gp120 trans-receptors,
+RT   similar as human DC-SIGN.";
+RL   Immunol. Lett. 79:101-107(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE (ISOFORM 2), AND INTERACTION WITH HIV-1; HIV-2; SIV AND
+RP   ICAM3.
+RX   PubMed=11581396; DOI=10.1128/jvi.75.21.10281-10289.2001;
+RA   Baribaud F., Pohlmann S., Sparwasser T., Kimata M.T., Choi Y.K.,
+RA   Haggarty B.S., Ahmad N., Macfarlan T., Edwards T.G., Leslie G.J.,
+RA   Arnason J., Reinhart T.A., Kimata J.T., Littman D.R., Hoxie J.A.,
+RA   Doms R.W.;
+RT   "Functional and antigenic characterization of human, rhesus macaque,
+RT   pigtailed macaque, and murine DC-SIGN.";
+RL   J. Virol. 75:10281-10289(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), AND INTERACTION WITH HIV-1 AND SIV.
+RX   PubMed=11818554; DOI=10.1073/pnas.032654399;
+RA   Wu L., Bashirova A.A., Martin T.D., Villamide L., Mehlhop E., Chertov A.O.,
+RA   Unutmaz D., Pope M., Carrington M., Kewalramani V.N.;
+RT   "Rhesus macaque dendritic cells efficiently transmit primate lentiviruses
+RT   independently of DC-SIGN.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:1568-1573(2002).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 2; 3; 4 AND 5).
+RX   PubMed=12230940; DOI=10.1089/088922202760265641;
+RA   Santos P.R., Petitprez K., Butor C.;
+RT   "Gene for Chinese rhesus macaque DC-SIGN predicts the existence of A but
+RT   not B isoforms of the protein.";
+RL   AIDS Res. Hum. Retroviruses 18:977-981(2002).
+CC   -!- FUNCTION: Pathogen-recognition receptor expressed on the surface of
+CC       immature dendritic cells (DCs) and involved in initiation of primary
+CC       immune response. Thought to mediate the endocytosis of pathogens which
+CC       are subsequently degraded in lysosomal compartments. The receptor
+CC       returns to the cell membrane surface and the pathogen-derived antigens
+CC       are presented to resting T-cells via MHC class II proteins to initiate
+CC       the adaptive immune response. Probably recognizes in a calcium-
+CC       dependent manner high mannose N-linked oligosaccharides in a variety of
+CC       pathogen antigens (By similarity). {ECO:0000250}.
+CC   -!- FUNCTION: On DCs it is a high affinity receptor for ICAM2 and ICAM3 by
+CC       binding to mannose-like carbohydrates. May act as a DC rolling receptor
+CC       that mediates transendothelial migration of DC presursors from blood to
+CC       tissues by binding endothelial ICAM2. Seems to regulate DC-induced T-
+CC       cell proliferation by binding to ICAM3 on T-cells in the immunological
+CC       synapse formed between DC and T-cells (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homotetramer. Interacts with C1QBP; the interaction is
+CC       indicative for a C1q:C1QBP:CD209 signaling complex. Interacts with
+CC       ICAM2 and ICAM3 by binding to mannose-like carbohydrates. Interacts
+CC       (via C-type lectin domain) with CEACAM1 (via Lewis X moieties); this
+CC       interaction is regulated by the glycosylation pattern of CEACAM1 on
+CC       cell types and regulates contact between dendritic cells and
+CC       neutrophils. {ECO:0000250|UniProtKB:Q9NNX6}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=5;
+CC       Name=1;
+CC         IsoId=Q95J96-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q95J96-2; Sequence=VSP_010053;
+CC       Name=3;
+CC         IsoId=Q95J96-3; Sequence=VSP_010053, VSP_010054;
+CC       Name=4;
+CC         IsoId=Q95J96-4; Sequence=VSP_010052;
+CC       Name=5;
+CC         IsoId=Q95J96-5; Sequence=VSP_010051;
+CC   -!- MISCELLANEOUS: In vitro, is a receptor for HIV-1, HIV-2 and SIV and
+CC       transmits viruses to permissive T-cells.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF391086; AAK97459.1; -; mRNA.
+DR   EMBL; AF369755; AAL14438.1; -; mRNA.
+DR   EMBL; AY040319; AAK74185.1; -; mRNA.
+DR   EMBL; AJ439425; CAD28396.1; -; Genomic_DNA.
+DR   EMBL; AJ439425; CAD28397.1; -; Genomic_DNA.
+DR   EMBL; AJ439425; CAD28398.1; -; Genomic_DNA.
+DR   EMBL; AJ439425; CAD28399.1; -; Genomic_DNA.
+DR   RefSeq; NP_001028042.1; NM_001032870.1.
+DR   RefSeq; NP_001028261.1; NM_001033089.1.
+DR   AlphaFoldDB; Q95J96; -.
+DR   SMR; Q95J96; -.
+DR   STRING; 9544.ENSMMUP00000029556; -.
+DR   GeneID; 574211; -.
+DR   KEGG; mcc:574211; -.
+DR   CTD; 30835; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; Q95J96; -.
+DR   OrthoDB; 1232767at2759; -.
+DR   Proteomes; UP000006718; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0005537; F:mannose binding; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0006897; P:endocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Adaptive immunity; Alternative splicing; Calcium; Cell adhesion;
+KW   Disulfide bond; Endocytosis; Glycoprotein; Immunity; Innate immunity;
+KW   Lectin; Mannose-binding; Membrane; Metal-binding; Receptor;
+KW   Reference proteome; Repeat; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..404
+FT                   /note="CD209 antigen"
+FT                   /id="PRO_0000046599"
+FT   TOPO_DOM        1..37
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        38..58
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        59..404
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          96..118
+FT                   /note="1"
+FT   REPEAT          119..141
+FT                   /note="2"
+FT   REPEAT          142..164
+FT                   /note="3"
+FT   REPEAT          165..187
+FT                   /note="4"
+FT   REPEAT          188..210
+FT                   /note="5"
+FT   REPEAT          211..233
+FT                   /note="6"
+FT   REPEAT          234..257
+FT                   /note="7"
+FT   DOMAIN          263..378
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          96..257
+FT                   /note="7 X approximate tandem repeats"
+FT   REGION          382..404
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           14..15
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           16..18
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           31..34
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         347
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         349
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         351
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         354
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         365
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         366
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        80
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        256..267
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        284..377
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        356..369
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         74..308
+FT                   /note="Missing (in isoform 5)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_010051"
+FT   VAR_SEQ         143..235
+FT                   /note="LQEIYQELTRLKAAVGELPEKSKMQEIYQELSRLKAAVGDLPEKSKQQEIYQ
+FT                   ELSRLKAAVGDLPEKSKQQEIYQKLTQLKAAVDGLPDRSKQ -> L (in isoform
+FT                   4)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_010052"
+FT   VAR_SEQ         165..187
+FT                   /note="Missing (in isoform 2 and isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:11818554"
+FT                   /id="VSP_010053"
+FT   VAR_SEQ         301..306
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_010054"
+FT   CONFLICT        13
+FT                   /note="D -> G (in Ref. 2 and 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        112
+FT                   /note="G -> D (in Ref. 1; AAK97459)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        152
+FT                   /note="R -> W (in Ref. 1; AAK97459)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        197
+FT                   /note="S -> T (in Ref. 1; AAK97459)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        205
+FT                   /note="D -> E (in Ref. 4; CAD28397/CAD28398)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        254
+FT                   /note="H -> R (in Ref. 2 and 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        279
+FT                   /note="D -> N (in Ref. 2 and 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        404
+FT                   /note="A -> E (in Ref. 3; AAK74185)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   404 AA;  45554 MW;  E4C5D69FA7FCDB70 CRC64;
+     MSDSKEPRLQ QLDLLEEEQL GGVGFRQTRG YKSLAGCLGH GPLVLQLLSF TLLAGLLVQV
+     SKVPSSLSQG QSKQDAIYQN LTQLKVAVSE LSEKSKQQEI YQELTRLKAA VGELPEKSKQ
+     QEIYEELTRL KAAVGELPEK SKLQEIYQEL TRLKAAVGEL PEKSKMQEIY QELSRLKAAV
+     GDLPEKSKQQ EIYQELSRLK AAVGDLPEKS KQQEIYQKLT QLKAAVDGLP DRSKQQEIYQ
+     ELIQLKAAVE RLCHPCPWEW TFFQGNCYFM SNSQRNWHDS ITACQEVGAQ LVVIKSAEEQ
+     NFLQLQSSRS NRFTWMGLSD LNHEGTWQWV DGSPLLPSFK QYWNKGEPNN IGEEDCAEFS
+     GNGWNDDKCN LAKFWICKKS AASCSGDEER LLSPAPTTPN PPPA
+//

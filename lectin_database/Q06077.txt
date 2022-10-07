@@ -1,0 +1,193 @@
+ID   ABRB_ABRPR              Reviewed;         527 AA.
+AC   Q06077; P81374;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 107.
+DE   RecName: Full=Abrin-b;
+DE   Contains:
+DE     RecName: Full=Abrin-b A chain;
+DE              EC=3.2.2.22;
+DE     AltName: Full=rRNA N-glycosidase;
+DE   Contains:
+DE     RecName: Full=Linker peptide;
+DE   Contains:
+DE     RecName: Full=Abrin-b B chain;
+DE   Flags: Precursor;
+OS   Abrus precatorius (Indian licorice) (Glycine abrus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Abreae; Abrus.
+OX   NCBI_TaxID=3816;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=8421313; DOI=10.1006/jmbi.1993.1029;
+RA   Hung C.-H., Lee M.-C., Lee T.-C., Lin J.-Y.;
+RT   "Primary structure of three distinct isoabrins determined by cDNA
+RT   sequencing. Conservation and significance.";
+RL   J. Mol. Biol. 229:263-267(1993).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 260-527.
+RC   TISSUE=Seed;
+RX   PubMed=7763422; DOI=10.1271/bbb.57.166;
+RA   Kimura M., Sumizawa T., Funatsu G.;
+RT   "The complete amino acid sequences of the B-chains of abrin-a and abrin-b,
+RT   toxic proteins from the seeds of Abrus precatorius.";
+RL   Biosci. Biotechnol. Biochem. 57:166-169(1993).
+CC   -!- FUNCTION: The A chain is responsible for inhibiting protein synthesis
+CC       through the catalytic inactivation of 60S ribosomal subunits by
+CC       removing adenine from position 4,324 of 28S rRNA. Abrin-a is more toxic
+CC       than ricin.
+CC   -!- FUNCTION: The B chain is a galactose-specific lectin that facilitates
+CC       the binding of abrin to the cell membrane that precedes endocytosis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC   -!- SUBUNIT: Disulfide-linked dimer of A and B chains.
+CC   -!- DOMAIN: The B chain is composed of two domains, each domain consists of
+CC       3 homologous subdomains (alpha, beta, gamma).
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the ribosome-
+CC       inactivating protein family. Type 2 RIP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M98345; AAA32625.1; -; mRNA.
+DR   PIR; S32430; S32430.
+DR   AlphaFoldDB; Q06077; -.
+DR   SMR; Q06077; -.
+DR   Proteomes; UP000694853; Unplaced.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Hydrolase; Lectin;
+KW   Plant defense; Protein synthesis inhibitor; Pyrrolidone carboxylic acid;
+KW   Reference proteome; Repeat; Toxin.
+FT   CHAIN           1..250
+FT                   /note="Abrin-b A chain"
+FT                   /id="PRO_0000030732"
+FT   PEPTIDE         251..260
+FT                   /note="Linker peptide"
+FT                   /id="PRO_0000030733"
+FT   CHAIN           261..527
+FT                   /note="Abrin-b B chain"
+FT                   /id="PRO_0000030734"
+FT   DOMAIN          272..399
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          282..324
+FT                   /note="1-alpha"
+FT   REPEAT          325..365
+FT                   /note="1-beta"
+FT   REPEAT          368..400
+FT                   /note="1-gamma"
+FT   DOMAIN          402..526
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          413..448
+FT                   /note="2-alpha"
+FT   REPEAT          452..491
+FT                   /note="2-beta"
+FT   REPEAT          494..527
+FT                   /note="2-gamma"
+FT   ACT_SITE        163
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        110
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        360
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        400
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        246..268
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        285..304
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        328..345
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        416..429
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        455..472
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   CONFLICT        282
+FT                   /note="N -> D (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        291
+FT                   /note="D -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        350..351
+FT                   /note="AE -> PQ (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        378
+FT                   /note="S -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        426
+FT                   /note="L -> M (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        428
+FT                   /note="Y -> D (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        431
+FT                   /note="N -> S (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        484
+FT                   /note="R -> K (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        491
+FT                   /note="N -> S (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        493
+FT                   /note="H -> Y (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        502
+FT                   /note="R -> G (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        509
+FT                   /note="E -> Q (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        513
+FT                   /note="H -> W (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        516
+FT                   /note="H -> T (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   527 AA;  59115 MW;  3253AE490CE9494A CRC64;
+     QDQVIKFTTE GATSQSYKQF IEALRQRLTG GLIHGIPVLP DPTTLQERNR YISVELSNSD
+     TESIEAGIDV SNAYVVAYRA GNRSYFLRDA PTSASRYLFT GTQQYSLRFN GSYIDLERLA
+     RQTRQQIPLG LQALRHAISF LQSGTDDQEI ARTLIVIIQM ASEAARYRFI SYRVGVSIRT
+     NTAFQPDAAM ISLENNWDNL SGGVQQSVQD TFPNAVTLRS VNNQPVIVDS LTHQSVAVLA
+     LMLFVCNPPN ANQSPLLIRS IVEKSKICSS RYEPTVRIGG RNGMCVDVYD DGYHNGNRII
+     AWKCKDRLEE NQLWTLKSDK TIRSNGKCLT TEGYAPGNYV MIYDCTSAVA EATYWEIWDN
+     GTIINPKSAL VLSAESSSMG GTLTVQTNEY LMRQGWRTGN NTSPFVTSIS GYSDLCMQAQ
+     GSNVWLAYCD NNKKEQQWAL YTDGSIRSVQ NTNNCLTSKD HKQGSPIVLM ACSNGWASQR
+     WLFRNDGSIY NLHDDMVMDV KRSDPSLKEI ILHPYHGKPN QIWLTLF
+//

@@ -1,0 +1,106 @@
+ID   MANB_PIRSP              Reviewed;         571 AA.
+AC   P55297;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   03-AUG-2022, entry version 100.
+DE   RecName: Full=Mannan endo-1,4-beta-mannosidase B;
+DE            EC=3.2.1.78;
+DE   AltName: Full=1,4-beta-D-mannan mannanohydrolase B;
+DE   AltName: Full=Beta-mannanase B;
+DE   Flags: Precursor;
+GN   Name=MANB;
+OS   Piromyces sp.
+OC   Eukaryota; Fungi; Fungi incertae sedis; Chytridiomycota;
+OC   Chytridiomycota incertae sedis; Neocallimastigomycetes; Neocallimastigales;
+OC   Neocallimastigaceae; Piromyces; unclassified Piromyces.
+OX   NCBI_TaxID=45796;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=8768520; DOI=10.1111/j.1574-6968.1996.tb08382.x;
+RA   Millward-Sadler S.J., Hall J., Black G.W., Hazlewood G.P., Gilbert H.J.;
+RT   "Evidence that the Piromyces gene family encoding endo-1,4-mannanases arose
+RT   through gene duplication.";
+RL   FEMS Microbiol. Lett. 141:183-188(1996).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Random hydrolysis of (1->4)-beta-D-mannosidic linkages in
+CC         mannans, galactomannans and glucomannans.; EC=3.2.1.78;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 26 family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01100, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X97408; CAA66061.1; -; mRNA.
+DR   AlphaFoldDB; P55297; -.
+DR   SMR; P55297; -.
+DR   CAZy; CBM35; Carbohydrate-Binding Module Family 35.
+DR   CAZy; GH26; Glycoside Hydrolase Family 26.
+DR   CLAE; MAN26B_PIRSP; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016985; F:mannan endo-1,4-beta-mannosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006080; P:substituted mannan metabolic process; IEA:InterPro.
+DR   Gene3D; 3.90.1220.10; -; 2.
+DR   InterPro; IPR002883; CBM10/Dockerin_dom.
+DR   InterPro; IPR005084; CMB_fam6.
+DR   InterPro; IPR009034; Dockerin_dom_fun_sf.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR022790; GH26_dom.
+DR   InterPro; IPR000805; Glyco_hydro_26.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   PANTHER; PTHR40079; PTHR40079; 1.
+DR   Pfam; PF02013; CBM_10; 2.
+DR   Pfam; PF16990; CBM_35; 1.
+DR   Pfam; PF02156; Glyco_hydro_26; 1.
+DR   PRINTS; PR00739; GLHYDRLASE26.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF64571; SSF64571; 2.
+DR   PROSITE; PS51763; CBM10; 2.
+DR   PROSITE; PS51175; CBM6; 1.
+DR   PROSITE; PS51764; GH26; 1.
+PE   2: Evidence at transcript level;
+KW   Glycosidase; Hydrolase; Repeat; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..571
+FT                   /note="Mannan endo-1,4-beta-mannosidase B"
+FT                   /id="PRO_0000012175"
+FT   DOMAIN          22..141
+FT                   /note="CBM6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   DOMAIN          165..459
+FT                   /note="GH26"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01100"
+FT   DOMAIN          491..527
+FT                   /note="CBM10 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01099"
+FT   DOMAIN          534..571
+FT                   /note="CBM10 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01099"
+FT   ACT_SITE        319
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01100"
+FT   ACT_SITE        407
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01100"
+FT   BINDING         286
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:B4XC07"
+FT   BINDING         324
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:B4XC07"
+FT   BINDING         379
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:B4XC07"
+SQ   SEQUENCE   571 AA;  64397 MW;  B13E44581FAA9DAA CRC64;
+     MNSLSLLLFC IFFVFSTFAK KVYYEAENGK LDGVTVYKSD LTGFSGTGYV GRFENPGNSV
+     TVTVEVPQTG MYDLTIVYCA NMGQKINSLT VNGQSAGDIT FTENTKFEDL NVGAIYLNKG
+     KNTIGLVSSW GWMWVDAFVI NDAPNAAKDV TSKLNPTLIN PKAIPAAKKL YDFLKTNYGK
+     RILSGQVGAA GQAGDEGQEI QRIQKATGKL PAVWNMDFIF ESNDCTWRPQ NPDITEMAIN
+     WWKKYQGKGI MSAQWHWNIA GKTGDFAFYK KDTTFSIDNA VTEGTWEYEK IIKDIDRVAG
+     HIKKLQAVNM PLIWRPLHEN DGDWFWWGNN PKSCAKLWKI LYERMVNYHG LNNLIWLWNG
+     KNDANTPVDY IDIIGVDIYA NDHGPQTTAY NTHFDFYGGK KMVVLSENGR IPDIQQCVDQ
+     NAWWGYFQTW NSEFILQDSY HTDAQLKEYF THKTVMNMDE LPSFNVNSYE YQSGNNNNNS
+     SNNNNNNNSS ECFSIPLGYP CCKGNTVVYT DNDGDWGVEN NEWCGIGNSS SAVVCWSEAL
+     GYPCCVSSSD VYYTDNDGEW GVENGDWCGI I
+//

@@ -1,0 +1,128 @@
+ID   LEG1_SHEEP              Reviewed;         135 AA.
+AC   P81184;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 99.
+DE   RecName: Full=Galectin-1;
+DE            Short=Gal-1;
+DE   AltName: Full=14 kDa lectin;
+DE   AltName: Full=Beta-galactoside-binding lectin L-14-I;
+DE   AltName: Full=Galaptin;
+DE   AltName: Full=Lactose-binding lectin 1;
+DE   AltName: Full=Lectin galactoside-binding soluble 1;
+DE   AltName: Full=OPG-1;
+DE   AltName: Full=S-Lac lectin 1;
+GN   Name=LGALS1;
+OS   Ovis aries (Sheep).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Caprinae; Ovis.
+OX   NCBI_TaxID=9940;
+RN   [1]
+RP   PROTEIN SEQUENCE OF 2-135, AND FUNCTION.
+RC   TISSUE=Placenta;
+RX   PubMed=9546655; DOI=10.1046/j.1432-1327.1998.2520400.x;
+RA   Iglesias M.M., Rabinovich G.A., Ivanovic V., Sotomayor C.,
+RA   Wolfenstein-Todel C.;
+RT   "Galectin-1 from ovine placenta -- amino-acid sequence, physicochemical
+RT   properties and implications in T-cell death.";
+RL   Eur. J. Biochem. 252:400-407(1998).
+CC   -!- FUNCTION: Lectin that binds beta-galactoside and a wide array of
+CC       complex carbohydrates. Plays a role in regulating apoptosis, cell
+CC       proliferation and cell differentiation (PubMed:9546655). Inhibits CD45
+CC       protein phosphatase activity and therefore the dephosphorylation of Lyn
+CC       kinase (By similarity). Strong inducer of T-cell apoptosis
+CC       (PubMed:9546655). {ECO:0000250|UniProtKB:P09382,
+CC       ECO:0000269|PubMed:9546655}.
+CC   -!- SUBUNIT: Homodimer. Binds LGALS3BP. Interacts with CD2, CD3, CD4, CD6,
+CC       CD7, CD43, ALCAM and CD45. Interacts with laminin (via poly-N-
+CC       acetyllactosamine). Interacts with SUSD2. Interacts with cargo receptor
+CC       TMED10; the interaction mediates the translocation from the cytoplasm
+CC       into the ERGIC (endoplasmic reticulum-Golgi intermediate compartment)
+CC       and thereby secretion. {ECO:0000250|UniProtKB:P09382}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250|UniProtKB:P09382}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P09382}. Secreted
+CC       {ECO:0000250|UniProtKB:P09382}. Note=Can be secreted; the secretion is
+CC       dependent on protein unfolding and facilitated by the cargo receptor
+CC       TMED10; it results in protein translocation from the cytoplasm into the
+CC       ERGIC (endoplasmic reticulum-Golgi intermediate compartment) followed
+CC       by vesicle entry and secretion. {ECO:0000250|UniProtKB:P09382}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P81184; -.
+DR   SMR; P81184; -.
+DR   STRING; 9940.ENSOARP00000014976; -.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   Proteomes; UP000002356; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Apoptosis; Cytoplasm; Direct protein sequencing;
+KW   Extracellular matrix; Lectin; Phosphoprotein; Reference proteome; Secreted.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382,
+FT                   ECO:0000269|PubMed:9546655"
+FT   CHAIN           2..135
+FT                   /note="Galectin-1"
+FT                   /id="PRO_0000076921"
+FT   DOMAIN          4..135
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         45..49
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         53
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         62
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         69..72
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         13
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         29
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         30
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         108
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         108
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         128
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+SQ   SEQUENCE   135 AA;  14704 MW;  6B4842FC35C72610 CRC64;
+     MACGLVASNL NLKPGECLRV RGEVAADAKS FSLNLGKDDN NLCLHFNPRF NAHGDINTIV
+     CNSKDGGAWG AEQRETAFPF QPGSVAEVCI SFNQTDLTIK LPDGYEFKFP NRLNLEAINY
+     LSAGGDFKIK CVAFE
+//

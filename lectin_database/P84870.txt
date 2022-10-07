@@ -1,0 +1,76 @@
+ID   LEC1_HYPCE              Reviewed;          90 AA.
+AC   P84870;
+DT   11-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUL-2006, sequence version 1.
+DT   25-MAY-2022, entry version 15.
+DE   RecName: Full=Lectin-1;
+DE   AltName: Full=HCA;
+DE   Contains:
+DE     RecName: Full=Lectin-1 N-terminal subunit;
+DE   Contains:
+DE     RecName: Full=Lectin-1 C-terminal subunit;
+OS   Hypnea cervicornis (Brazilian red alga).
+OC   Eukaryota; Rhodophyta; Florideophyceae; Rhodymeniophycidae; Gigartinales;
+OC   Hypneaceae; Hypnea.
+OX   NCBI_TaxID=387623;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, PYROGLUTAMATE FORMATION AT GLN-1, FUNCTION, CLEAVAGE,
+RP   DISULFIDE BONDS, AND MASS SPECTROMETRY.
+RX   PubMed=16046632; DOI=10.1110/ps.051498505;
+RA   Nagano C.S., Debray H., Nascimento K.S., Pinto V.P.T., Cavada B.S.,
+RA   Saker-Sampaio S., Farias W.R.L., Sampaio A.H., Calvete J.J.;
+RT   "HCA and HML isolated from the red marine algae Hypnea cervicornis and
+RT   Hypnea musciformis define a novel lectin family.";
+RL   Protein Sci. 14:2167-2176(2005).
+CC   -!- FUNCTION: Lectin with specificity for complex N-linked glycans and O-
+CC       linked glycans. Has hemagglutinating activity towards rabbit
+CC       erythrocytes that is inhibited by N-acetyl-D-galactosamine.
+CC       {ECO:0000269|PubMed:16046632}.
+CC   -!- PTM: The N-terminus is blocked. {ECO:0000269|PubMed:16046632}.
+CC   -!- PTM: Contains seven disulfide bonds. {ECO:0000269|PubMed:16046632,
+CC       ECO:0000305}.
+CC   -!- PTM: Proteolytically cleaved. Major form may consist of cleaved,
+CC       disulfide-bonded subunits. {ECO:0000269|PubMed:16046632}.
+CC   -!- MASS SPECTROMETRY: [Lectin-1]: Mass=9193; Mass_error=3; Method=MALDI;
+CC       Note=The measured mass is that of the native single chain.;
+CC       Evidence={ECO:0000269|PubMed:16046632};
+CC   -!- MASS SPECTROMETRY: [Lectin-1]: Mass=9990; Method=MALDI; Note=The
+CC       measured mass is that of the reduced and carbamidomethylated single
+CC       chain.; Evidence={ECO:0000269|PubMed:16046632};
+CC   -!- MASS SPECTROMETRY: [Lectin-1 N-terminal subunit]: Mass=5643;
+CC       Method=MALDI; Note=The measured mass is that of the reduced and
+CC       carbamidomethylated N-terminal subunit.;
+CC       Evidence={ECO:0000269|PubMed:16046632};
+CC   -!- MASS SPECTROMETRY: [Lectin-1 C-terminal subunit]: Mass=4380;
+CC       Method=MALDI; Note=The measured mass is that of the reduced and
+CC       carbamidomethylated C-terminal subunit.;
+CC       Evidence={ECO:0000269|PubMed:16046632};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P84870; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Hemagglutinin; Lectin;
+KW   Pyrrolidone carboxylic acid.
+FT   CHAIN           1..90
+FT                   /note="Lectin-1"
+FT                   /id="PRO_0000245158"
+FT   CHAIN           1..50
+FT                   /note="Lectin-1 N-terminal subunit"
+FT                   /id="PRO_0000245159"
+FT   CHAIN           51..90
+FT                   /note="Lectin-1 C-terminal subunit"
+FT                   /id="PRO_0000245160"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:16046632"
+FT   DISULFID        46..71
+FT                   /note="Interchain (between N-terminal and C-terminal
+FT                   subunits)"
+FT                   /evidence="ECO:0000255, ECO:0000303|PubMed:16046632"
+SQ   SEQUENCE   90 AA;  9194 MW;  DACFF313ACA32D4E CRC64;
+     QKACTMDYFP VCCQIVLGGG AYTAGNPCSC QGFVASKGTC DNPYPCPCTT EAQFPVCCTT
+     QWGLVSATGN CACGCMGGVP VSDGPCPEVY
+//

@@ -1,0 +1,119 @@
+ID   P2A08_ARATH             Reviewed;         354 AA.
+AC   Q9FHE9;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   03-AUG-2022, entry version 94.
+DE   RecName: Full=Protein PHLOEM PROTEIN 2-LIKE A8;
+DE            Short=AtPP2-A8;
+DE            EC=3.2.2.6 {ECO:0000255|PROSITE-ProRule:PRU00204};
+GN   Name=PP2A8; OrderedLocusNames=At5g45070; ORFNames=K17O22.3;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10718197; DOI=10.1093/dnares/7.1.31;
+RA   Sato S., Nakamura Y., Kaneko T., Katoh T., Asamizu E., Kotani H.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. X. Sequence
+RT   features of the regions of 3,076,755 bp covered by sixty P1 and TAC
+RT   clones.";
+RL   DNA Res. 7:31-63(2000).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RA   Cheuk R.F., Chen H., Kim C.J., Shinn P., Ecker J.R.;
+RT   "Arabidopsis cDNA clones.";
+RL   Submitted (MAY-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=12529520; DOI=10.1104/pp.013086;
+RA   Dinant S., Clark A.M., Zhu Y., Vilaine F., Palauqui J.-C., Kusiak C.,
+RA   Thompson G.A.;
+RT   "Diversity of the superfamily of phloem lectins (phloem protein 2) in
+RT   angiosperms.";
+RL   Plant Physiol. 131:114-128(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NAD(+) = ADP-D-ribose + H(+) + nicotinamide;
+CC         Xref=Rhea:RHEA:16301, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17154, ChEBI:CHEBI:57540, ChEBI:CHEBI:57967; EC=3.2.2.6;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00204};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16302;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00204};
+CC   -!- DOMAIN: The TIR domain mediates NAD(+) hydrolase (NADase) activity.
+CC       Self-association of TIR domains is required for NADase activity.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00204}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB019224; BAB09490.1; -; Genomic_DNA.
+DR   EMBL; CP002688; AED95197.1; -; Genomic_DNA.
+DR   EMBL; BT010864; AAR24231.1; -; mRNA.
+DR   EMBL; BT012618; AAT06437.1; -; mRNA.
+DR   RefSeq; NP_199320.1; NM_123875.3.
+DR   AlphaFoldDB; Q9FHE9; -.
+DR   SMR; Q9FHE9; -.
+DR   STRING; 3702.AT5G45070.1; -.
+DR   iPTMnet; Q9FHE9; -.
+DR   PaxDb; Q9FHE9; -.
+DR   PRIDE; Q9FHE9; -.
+DR   ProteomicsDB; 248688; -.
+DR   EnsemblPlants; AT5G45070.1; AT5G45070.1; AT5G45070.
+DR   GeneID; 834538; -.
+DR   Gramene; AT5G45070.1; AT5G45070.1; AT5G45070.
+DR   KEGG; ath:AT5G45070; -.
+DR   Araport; AT5G45070; -.
+DR   TAIR; locus:2153212; AT5G45070.
+DR   eggNOG; KOG0017; Eukaryota.
+DR   HOGENOM; CLU_786077_0_0_1; -.
+DR   InParanoid; Q9FHE9; -.
+DR   OMA; NEREFMN; -.
+DR   OrthoDB; 898150at2759; -.
+DR   PhylomeDB; Q9FHE9; -.
+DR   PRO; PR:Q9FHE9; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   Genevisible; Q9FHE9; AT.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:TAIR.
+DR   GO; GO:0050135; F:NAD(P)+ nucleosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0061809; F:NAD+ nucleotidase, cyclic ADP-ribose generating; IEA:UniProtKB-EC.
+DR   GO; GO:0007165; P:signal transduction; IEA:InterPro.
+DR   Gene3D; 3.40.50.10140; -; 1.
+DR   InterPro; IPR025886; PP2-like.
+DR   InterPro; IPR000157; TIR_dom.
+DR   InterPro; IPR035897; Toll_tir_struct_dom_sf.
+DR   Pfam; PF14299; PP2; 1.
+DR   Pfam; PF01582; TIR; 1.
+DR   SMART; SM00255; TIR; 1.
+DR   SUPFAM; SSF52200; SSF52200; 1.
+DR   PROSITE; PS50104; TIR; 1.
+PE   2: Evidence at transcript level;
+KW   Hydrolase; NAD; Reference proteome.
+FT   CHAIN           1..354
+FT                   /note="Protein PHLOEM PROTEIN 2-LIKE A8"
+FT                   /id="PRO_0000285283"
+FT   DOMAIN          12..179
+FT                   /note="TIR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00204"
+FT   ACT_SITE        86
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00204"
+SQ   SEQUENCE   354 AA;  40106 MW;  2E2A1E525B377997 CRC64;
+     MAASSSVRPT PTGPQVFINF RGKDLRNGFL SFLEPAMREA NINVFIDKDE VVGTDLVNLF
+     VRIQESRVAV VIFSKDYTSS EWCLDELAEI KDCINQGGLN AIPIFYKLAP SSVLELKGGF
+     GDTFRVLKEK YKNDPERTQK WQEALESIPK LKGLRLAEKS DRNEREFMNE MILEIQKALW
+     QIAMKGNPKV ESNSKGGFLV PARRLTIAHS DNPEKWTWSA IYDRPHKADI EIATMINTHA
+     LIKISGDFHT RKLIPGKKYE VVFIVSLDDT SLGWKNEVTL TLKVVMSDEA ANVKAKKLCL
+     DEYIGENWVD IPVGDFEAPQ EKEDAKIFFS MYQLLNTERK SGLVVKGFAI RPAQ
+//

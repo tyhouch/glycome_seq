@@ -1,0 +1,227 @@
+ID   M4YV75_9INFA            Unreviewed;       560 AA.
+AC   M4YV75;
+DT   29-MAY-2013, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2013, sequence version 1.
+DT   03-AUG-2022, entry version 61.
+DE   RecName: Full=Hemagglutinin {ECO:0000256|HAMAP-Rule:MF_04072};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin HA1 chain {ECO:0000256|HAMAP-Rule:MF_04072};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin HA2 chain {ECO:0000256|HAMAP-Rule:MF_04072};
+GN   Name=HA {ECO:0000256|HAMAP-Rule:MF_04072,
+GN   ECO:0000313|EMBL:AGI60301.1};
+OS   Influenza A virus (A/Hangzhou/1/2013(H7N9)).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus.
+OX   NCBI_TaxID=1314758 {ECO:0000313|EMBL:AGI60301.1, ECO:0000313|Proteomes:UP000096523};
+RN   [1] {ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB}
+RP   X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS) OF 19-339 AND 340-516, DISULFIDE
+RP   BONDS, AND GLYCOSYLATION AT ASN-30; ASN-46; ASN-141; ASN-249 AND ASN-421.
+RX   PubMed=23787694; DOI=10.1038/NATURE12372;
+RA   Xiong X., Martin S.R., Haire L.F., Wharton S.A., Daniels R.S.,
+RA   Bennett M.S., McCauley J.W., Collins P.J., Walker P.A., Skehel J.J.,
+RA   Gamblin S.J.;
+RT   "Receptor binding by an H7N9 influenza virus from humans.";
+RL   Nature 499:496-499(2013).
+RN   [2] {ECO:0000313|EMBL:AGI60301.1, ECO:0000313|Proteomes:UP000096523}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A/Hangzhou/1/2013 {ECO:0000313|EMBL:AGI60301.1};
+RX   PubMed=23657795; DOI=10.1007/s11427-013-4491-3;
+RA   Li J., Yu X.F., Pu X.Y., Xie L., Sun Y.X., Xiao H.X., Wang F.J., Din H.,
+RA   Wu Y., Liu D., Zhao G.Q., Liu J., Pan J.C.;
+RT   "Environmental connections of novel avian-origin H7N9 influenza virus
+RT   infection and virus adaptation to the human.";
+RL   Sci. China Life Sci. 56:485-492(2013).
+CC   -!- FUNCTION: Binds to sialic acid-containing receptors on the cell
+CC       surface, bringing about the attachment of the virus particle to the
+CC       cell. This attachment induces virion internalization either through
+CC       clathrin-dependent endocytosis or through clathrin- and caveolin-
+CC       independent pathway. Plays a major role in the determination of host
+CC       range restriction and virulence. Class I viral fusion protein.
+CC       Responsible for penetration of the virus into the cell cytoplasm by
+CC       mediating the fusion of the membrane of the endocytosed virus particle
+CC       with the endosomal membrane. Low pH in endosomes induces an
+CC       irreversible conformational change in HA2, releasing the fusion
+CC       hydrophobic peptide. Several trimers are required to form a competent
+CC       fusion pore. {ECO:0000256|HAMAP-Rule:MF_04072}.
+CC   -!- FUNCTION: Binds to sialic acid-containing receptors on the cell
+CC       surface, bringing about the attachment of the virus particle to the
+CC       cell. This attachment induces virion internalization of about two third
+CC       of the virus particles through clathrin-dependent endocytosis and about
+CC       one third through a clathrin- and caveolin-independent pathway. Plays a
+CC       major role in the determination of host range restriction and
+CC       virulence. Class I viral fusion protein. Responsible for penetration of
+CC       the virus into the cell cytoplasm by mediating the fusion of the
+CC       membrane of the endocytosed virus particle with the endosomal membrane.
+CC       Low pH in endosomes induces an irreversible conformational change in
+CC       HA2, releasing the fusion hydrophobic peptide. Several trimers are
+CC       required to form a competent fusion pore.
+CC       {ECO:0000256|RuleBase:RU003324}.
+CC   -!- SUBUNIT: Homotrimer of disulfide-linked HA1-HA2. {ECO:0000256|HAMAP-
+CC       Rule:MF_04072, ECO:0000256|RuleBase:RU003324}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000256|ARBA:ARBA00004247}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004247}. Cell membrane
+CC       {ECO:0000256|ARBA:ARBA00004251}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004251}. Host apical cell membrane
+CC       {ECO:0000256|ARBA:ARBA00004310, ECO:0000256|HAMAP-Rule:MF_04072};
+CC       Single-pass type I membrane protein {ECO:0000256|ARBA:ARBA00004310,
+CC       ECO:0000256|HAMAP-Rule:MF_04072}. Membrane
+CC       {ECO:0000256|ARBA:ARBA00004479}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004479}. Virion membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_04072}; Single-pass type I membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_04072}. Note=Targeted to the apical plasma membrane in
+CC       epithelial polarized cells through a signal present in the
+CC       transmembrane domain. Associated with glycosphingolipid- and
+CC       cholesterol-enriched detergent-resistant lipid rafts.
+CC       {ECO:0000256|HAMAP-Rule:MF_04072}.
+CC   -!- PTM: In natural infection, inactive HA is matured into HA1 and HA2
+CC       outside the cell by one or more trypsin-like, arginine-specific
+CC       endoprotease secreted by the bronchial epithelial cells. One identified
+CC       protease that may be involved in this process is secreted in lungs by
+CC       Clara cells. {ECO:0000256|HAMAP-Rule:MF_04072}.
+CC   -!- PTM: Palmitoylated. {ECO:0000256|HAMAP-Rule:MF_04072}.
+CC   -!- SIMILARITY: Belongs to the influenza viruses hemagglutinin family.
+CC       {ECO:0000256|ARBA:ARBA00006321, ECO:0000256|HAMAP-Rule:MF_04072,
+CC       ECO:0000256|RuleBase:RU003324}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_04072}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KC853766; AGI60301.1; -; Viral_cRNA.
+DR   PDB; 4BSA; X-ray; 2.30 A; A=19-339, B=340-516.
+DR   PDB; 4BSB; X-ray; 2.35 A; A=19-339, B=340-516.
+DR   PDB; 4BSC; X-ray; 2.55 A; A=19-339, B=340-516.
+DR   PDB; 4BSD; X-ray; 2.40 A; A=19-339, B=340-516.
+DR   PDB; 4BSE; X-ray; 2.55 A; A=19-339, B=340-516.
+DR   PDB; 4BSF; X-ray; 2.76 A; A=19-339, B=340-516.
+DR   PDBsum; 4BSA; -.
+DR   PDBsum; 4BSB; -.
+DR   PDBsum; 4BSC; -.
+DR   PDBsum; 4BSD; -.
+DR   PDBsum; 4BSE; -.
+DR   PDBsum; 4BSF; -.
+DR   SMR; M4YV75; -.
+DR   UniLectin; M4YV75; -.
+DR   Proteomes; UP000096523; Genome.
+DR   GO; GO:0016324; C:apical plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046789; F:host cell surface receptor binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0075512; P:clathrin-dependent endocytosis of virus by host cell; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039654; P:fusion of virus membrane with host endosome membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; IEA:InterPro.
+DR   GO; GO:0046761; P:viral budding from plasma membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.209.20; -; 1.
+DR   HAMAP; MF_04072; INFV_HEMA; 1.
+DR   InterPro; IPR008980; Capsid_hemagglutn.
+DR   InterPro; IPR013828; Hemagglutn_HA1_a/b_dom_sf.
+DR   InterPro; IPR000149; Hemagglutn_influenz_A.
+DR   InterPro; IPR001364; Hemagglutn_influenz_A/B.
+DR   Pfam; PF00509; Hemagglutinin; 1.
+DR   PRINTS; PR00330; HEMAGGLUTN1.
+DR   PRINTS; PR00329; HEMAGGLUTN12.
+DR   SUPFAM; SSF49818; SSF49818; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB};
+KW   Clathrin- and caveolin-independent endocytosis of virus by host
+KW   {ECO:0000256|ARBA:ARBA00023261, ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Clathrin-mediated endocytosis of virus by host
+KW   {ECO:0000256|ARBA:ARBA00022570, ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Fusion of virus membrane with host endosomal membrane
+KW   {ECO:0000256|ARBA:ARBA00022510, ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Fusion of virus membrane with host membrane {ECO:0000256|ARBA:ARBA00022506,
+KW   ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Glycoprotein {ECO:0000256|ARBA:ARBA00023180, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Hemagglutinin {ECO:0000256|ARBA:ARBA00022546, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Host cell membrane {ECO:0000256|ARBA:ARBA00022511, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Host membrane {ECO:0000256|ARBA:ARBA00022870, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Host-virus interaction {ECO:0000256|ARBA:ARBA00022581, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Lipoprotein {ECO:0000256|ARBA:ARBA00023288, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Palmitate {ECO:0000256|ARBA:ARBA00023139, ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Signal {ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Viral attachment to host cell {ECO:0000256|ARBA:ARBA00022804,
+KW   ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Viral envelope protein {ECO:0000256|ARBA:ARBA00022879, ECO:0000256|HAMAP-
+KW   Rule:MF_04072};
+KW   Viral penetration into host cytoplasm {ECO:0000256|ARBA:ARBA00022595,
+KW   ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844, ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Virus endocytosis by host {ECO:0000256|ARBA:ARBA00022890,
+KW   ECO:0000256|HAMAP-Rule:MF_04072};
+KW   Virus entry into host cell {ECO:0000256|ARBA:ARBA00023296,
+KW   ECO:0000256|HAMAP-Rule:MF_04072}.
+FT   TRANSMEM        524..549
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04072"
+FT   SITE            339..340
+FT                   /note="Cleavage; by host"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04072"
+FT   LIPID           556
+FT                   /note="S-palmitoyl cysteine; by host"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04072"
+FT   LIPID           559
+FT                   /note="S-palmitoyl cysteine; by host"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04072"
+FT   CARBOHYD        30
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   CARBOHYD        141
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   CARBOHYD        249
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   CARBOHYD        421
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   DISULFID        22
+FT                   /note="Interchain (with C-476)"
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   DISULFID        60..286
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   DISULFID        72..84
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04072,
+FT                   ECO:0007829|PDB:4BSA"
+FT   DISULFID        105..147
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   DISULFID        290..314
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04072,
+FT                   ECO:0007829|PDB:4BSA"
+FT   DISULFID        476
+FT                   /note="Interchain (with C-22)"
+FT                   /evidence="ECO:0007829|PDB:4BSA, ECO:0007829|PDB:4BSB"
+FT   DISULFID        483..487
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_04072,
+FT                   ECO:0007829|PDB:4BSA"
+SQ   SEQUENCE   560 AA;  62108 MW;  52227F5725F6A2E6 CRC64;
+     MNTQILVFAL IAIIPTNADK ICLGHHAVSN GTKVNTLTER GVEVVNATET VERTNIPRIC
+     SKGKRTVDLG QCGLLGTITG PPQCDQFLEF SADLIIERRE GSDVCYPGKF VNEEALRQIL
+     RESGGIDKEA MGFTYSGIRT NGATSACRRS GSSFYAEMKW LLSNTDNAAF PQMTKSYKNT
+     RKSPALIVWG IHHSVSTAEQ TKLYGSGNKL VTVGSSNYQQ SFVPSPGARP QVNGISGRID
+     FHWLMLNPND TVTFSFNGAF IAPDRASFLR GKSMGIQSGV QVDANCEGDC YHSGGTIISN
+     LPFQNIDSRA VGKCPRYVKQ RSLLLATGMK NVPEIPKGRG LFGAIAGFIE NGWEGLIDGW
+     YGFRHQNAQG EGTAADYKST QSAIDQITGK LNRLIEKTNQ QFELIDNEFN EVEKQIGNVI
+     NWTRDSITEV WSYNAELLVA MENQHTIDLA DSEMDKLYER VKRQLRENAE EDGTGCFEIF
+     HKCDDDCMAS IRNNTYDHSK YREEAMQNRI QIDPVKLSSG YKDVILWFSF GASCFILLAI
+     VMGLVFICVK NGNMRCTICI
+//

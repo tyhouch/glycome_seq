@@ -1,0 +1,272 @@
+ID   LEG4_HUMAN              Reviewed;         323 AA.
+AC   P56470;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 1.
+DT   03-AUG-2022, entry version 184.
+DE   RecName: Full=Galectin-4;
+DE            Short=Gal-4;
+DE   AltName: Full=Antigen NY-CO-27;
+DE   AltName: Full=L-36 lactose-binding protein;
+DE            Short=L36LBP;
+DE   AltName: Full=Lactose-binding lectin 4;
+GN   Name=LGALS4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Gastric carcinoma;
+RA   Kato S.;
+RL   Submitted (SEP-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Colon carcinoma;
+RX   PubMed=9310382; DOI=10.1111/j.1432-1033.1997.00225.x;
+RA   Rechreche H., Mallo G.V., Montalto G., Dagorn J.-C., Iovanna J.L.;
+RT   "Cloning and expression of the mRNA of human galectin-4, an S-type lectin
+RT   down-regulated in colorectal cancer.";
+RL   Eur. J. Biochem. 248:225-230(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9162064; DOI=10.1074/jbc.272.22.14294;
+RA   Huflejt M.E., Jordan E.T., Gitt M.A., Barondes S.H., Leffler H.;
+RT   "Strikingly different localization of galectin-3 and galectin-4 in human
+RT   colon adenocarcinoma T84 cells. Galectin-4 is localized at sites of cell
+RT   adhesion.";
+RL   J. Biol. Chem. 272:14294-14303(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Colon, and Skin;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   STRUCTURE BY NMR OF 173-323.
+RG   RIKEN structural genomics initiative (RSGI);
+RT   "Solution structure of the C-terminal Gal-bind lectin domain from human
+RT   galectin-4.";
+RL   Submitted (NOV-2005) to the PDB data bank.
+CC   -!- FUNCTION: Galectin that binds lactose and a related range of sugars.
+CC       May be involved in the assembly of adherens junctions.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       P56470; Q8N9N5-2: BANP; NbExp=3; IntAct=EBI-720805, EBI-11524452;
+CC       P56470; Q53EZ4: CEP55; NbExp=3; IntAct=EBI-720805, EBI-747776;
+CC       P56470; O00167-2: EYA2; NbExp=3; IntAct=EBI-720805, EBI-12807776;
+CC       P56470; A6NEM1: GOLGA6L9; NbExp=3; IntAct=EBI-720805, EBI-5916454;
+CC       P56470; P49639: HOXA1; NbExp=3; IntAct=EBI-720805, EBI-740785;
+CC       P56470; O75031: HSF2BP; NbExp=3; IntAct=EBI-720805, EBI-7116203;
+CC       P56470; Q8IUC1: KRTAP11-1; NbExp=3; IntAct=EBI-720805, EBI-1052037;
+CC       P56470; Q9NZQ3-3: NCKIPSD; NbExp=3; IntAct=EBI-720805, EBI-10963850;
+CC       P56470; Q8HWS3: RFX6; NbExp=3; IntAct=EBI-720805, EBI-746118;
+CC       P56470; Q6N022: TENM4; NbExp=3; IntAct=EBI-720805, EBI-12827077;
+CC       P56470; Q96NM4-3: TOX2; NbExp=3; IntAct=EBI-720805, EBI-12815137;
+CC   -!- DOMAIN: Contains two homologous but distinct carbohydrate-binding
+CC       domains.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Galectin-4;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_hum_Stlect_00119";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB006781; BAA22165.1; -; mRNA.
+DR   EMBL; AF014838; AAC51763.1; -; mRNA.
+DR   EMBL; U82953; AAB86590.1; -; mRNA.
+DR   EMBL; BC003661; AAH03661.1; -; mRNA.
+DR   EMBL; BC005146; AAH05146.1; -; mRNA.
+DR   EMBL; BC034750; AAH34750.1; -; mRNA.
+DR   CCDS; CCDS12521.1; -.
+DR   RefSeq; NP_006140.1; NM_006149.3.
+DR   PDB; 1X50; NMR; -; A=173-323.
+DR   PDB; 4XZP; X-ray; 1.48 A; A=1-152.
+DR   PDB; 4YLZ; X-ray; 2.10 A; A/B/C/D=171-323.
+DR   PDB; 4YM0; X-ray; 2.30 A; A/B/C/D=171-323.
+DR   PDB; 4YM1; X-ray; 2.00 A; A/B/C/D=171-323.
+DR   PDB; 4YM2; X-ray; 2.10 A; A/B/C/D=171-323.
+DR   PDB; 4YM3; X-ray; 1.89 A; A/B/C/D=171-323.
+DR   PDB; 5CBL; X-ray; 1.78 A; A/B/C/D=179-323.
+DR   PDB; 5DUU; X-ray; 2.00 A; A/B/C/D=1-155.
+DR   PDB; 5DUV; X-ray; 1.90 A; A/B/C/D=1-155.
+DR   PDB; 5DUW; X-ray; 1.70 A; A/B/C/D=1-155.
+DR   PDB; 5DUX; X-ray; 1.85 A; A/B/C/D=1-155.
+DR   PDB; 6WAB; X-ray; 2.28 A; A/B/C/D=184-323.
+DR   PDBsum; 1X50; -.
+DR   PDBsum; 4XZP; -.
+DR   PDBsum; 4YLZ; -.
+DR   PDBsum; 4YM0; -.
+DR   PDBsum; 4YM1; -.
+DR   PDBsum; 4YM2; -.
+DR   PDBsum; 4YM3; -.
+DR   PDBsum; 5CBL; -.
+DR   PDBsum; 5DUU; -.
+DR   PDBsum; 5DUV; -.
+DR   PDBsum; 5DUW; -.
+DR   PDBsum; 5DUX; -.
+DR   PDBsum; 6WAB; -.
+DR   AlphaFoldDB; P56470; -.
+DR   SMR; P56470; -.
+DR   BioGRID; 110151; 17.
+DR   IntAct; P56470; 16.
+DR   STRING; 9606.ENSP00000302100; -.
+DR   BindingDB; P56470; -.
+DR   ChEMBL; CHEMBL1671608; -.
+DR   UniLectin; P56470; -.
+DR   iPTMnet; P56470; -.
+DR   PhosphoSitePlus; P56470; -.
+DR   BioMuta; LGALS4; -.
+DR   DMDM; 3024079; -.
+DR   jPOST; P56470; -.
+DR   MassIVE; P56470; -.
+DR   PaxDb; P56470; -.
+DR   PeptideAtlas; P56470; -.
+DR   PRIDE; P56470; -.
+DR   ProteomicsDB; 56919; -.
+DR   Antibodypedia; 30166; 380 antibodies from 35 providers.
+DR   DNASU; 3960; -.
+DR   Ensembl; ENST00000307751.9; ENSP00000302100.3; ENSG00000171747.9.
+DR   Ensembl; ENST00000634573.2; ENSP00000489411.1; ENSG00000282992.2.
+DR   GeneID; 3960; -.
+DR   KEGG; hsa:3960; -.
+DR   MANE-Select; ENST00000307751.9; ENSP00000302100.3; NM_006149.4; NP_006140.1.
+DR   CTD; 3960; -.
+DR   DisGeNET; 3960; -.
+DR   GeneCards; LGALS4; -.
+DR   HGNC; HGNC:6565; LGALS4.
+DR   HPA; ENSG00000171747; Tissue enriched (intestine).
+DR   MIM; 602518; gene.
+DR   neXtProt; NX_P56470; -.
+DR   OpenTargets; ENSG00000171747; -.
+DR   PharmGKB; PA30342; -.
+DR   VEuPathDB; HostDB:ENSG00000171747; -.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   GeneTree; ENSGT00940000160378; -.
+DR   HOGENOM; CLU_037794_1_0_1; -.
+DR   InParanoid; P56470; -.
+DR   OMA; HWGGRFY; -.
+DR   OrthoDB; 829777at2759; -.
+DR   PhylomeDB; P56470; -.
+DR   TreeFam; TF315551; -.
+DR   PathwayCommons; P56470; -.
+DR   SignaLink; P56470; -.
+DR   BioGRID-ORCS; 3960; 15 hits in 1066 CRISPR screens.
+DR   ChiTaRS; LGALS4; human.
+DR   EvolutionaryTrace; P56470; -.
+DR   GeneWiki; LGALS4; -.
+DR   GenomeRNAi; 3960; -.
+DR   Pharos; P56470; Tchem.
+DR   PRO; PR:P56470; -.
+DR   Proteomes; UP000005640; Chromosome 19.
+DR   RNAct; P56470; protein.
+DR   Bgee; ENSG00000171747; Expressed in mucosa of transverse colon and 94 other tissues.
+DR   ExpressionAtlas; P56470; baseline and differential.
+DR   Genevisible; P56470; HS.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; HDA:BHF-UCL.
+DR   GO; GO:0005829; C:cytosol; TAS:ProtInc.
+DR   GO; GO:0005615; C:extracellular space; IEA:Ensembl.
+DR   GO; GO:0005886; C:plasma membrane; TAS:ProtInc.
+DR   GO; GO:0030246; F:carbohydrate binding; TAS:ProtInc.
+DR   GO; GO:0016936; F:galactoside binding; IEA:Ensembl.
+DR   GO; GO:0002780; P:antibacterial peptide biosynthetic process; IEA:Ensembl.
+DR   GO; GO:0007155; P:cell adhesion; TAS:ProtInc.
+DR   CDD; cd00070; GLECT; 2.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR015533; Galectin4/6.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   PANTHER; PTHR11346:SF32; PTHR11346:SF32; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 2.
+DR   SMART; SM00908; Gal-bind_lectin; 2.
+DR   SMART; SM00276; GLECT; 2.
+DR   SUPFAM; SSF49899; SSF49899; 2.
+DR   PROSITE; PS51304; GALECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Lectin; Phosphoprotein; Reference proteome; Repeat.
+FT   CHAIN           1..323
+FT                   /note="Galectin-4"
+FT                   /id="PRO_0000076934"
+FT   DOMAIN          19..150
+FT                   /note="Galectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   DOMAIN          194..323
+FT                   /note="Galectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         256..262
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         258
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P38552"
+FT   VARIANT         16
+FT                   /note="T -> M (in dbSNP:rs8106404)"
+FT                   /id="VAR_049769"
+FT   STRAND          12..14
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          17..22
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          32..38
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          46..55
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          60..67
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          69..71
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          73..80
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          88..91
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          100..107
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          109..116
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          119..125
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   HELIX           130..132
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          135..150
+FT                   /evidence="ECO:0007829|PDB:4XZP"
+FT   STRAND          187..189
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          192..197
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          206..213
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          220..226
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   TURN            228..230
+FT                   /evidence="ECO:0007829|PDB:4YM3"
+FT   STRAND          233..240
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   TURN            241..244
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          245..251
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          273..280
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          282..289
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          292..298
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          300..302
+FT                   /evidence="ECO:0007829|PDB:4YM3"
+FT   HELIX           304..306
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          309..315
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+FT   STRAND          317..322
+FT                   /evidence="ECO:0007829|PDB:5CBL"
+SQ   SEQUENCE   323 AA;  35941 MW;  E79EC0A9AB3990EF CRC64;
+     MAYVPAPGYQ PTYNPTLPYY QPIPGGLNVG MSVYIQGVAS EHMKRFFVNF VVGQDPGSDV
+     AFHFNPRFDG WDKVVFNTLQ GGKWGSEERK RSMPFKKGAA FELVFIVLAE HYKVVVNGNP
+     FYEYGHRLPL QMVTHLQVDG DLQLQSINFI GGQPLRPQGP PMMPPYPGPG HCHQQLNSLP
+     TMEGPPTFNP PVPYFGRLQG GLTARRTIII KGYVPPTGKS FAINFKVGSS GDIALHINPR
+     MGNGTVVRNS LLNGSWGSEE KKITHNPFGP GQFFDLSIRC GLDRFKVYAN GQHLFDFAHR
+     LSAFQRVDTL EIQGDVTLSY VQI
+//

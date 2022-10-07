@@ -1,0 +1,153 @@
+ID   EVA1_CAEEL              Reviewed;         461 AA.
+AC   Q9XU98; P91865;
+DT   09-JAN-2013, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 2.
+DT   03-AUG-2022, entry version 131.
+DE   RecName: Full=Protein eva-1;
+DE   AltName: Full=Enhancer of ventral-axon guidance defects of unc-40 mutants;
+DE   Flags: Precursor;
+GN   Name=eva-1; ORFNames=F32A7.3;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [2]
+RP   FUNCTION, DEVELOPMENTAL STAGE, AND INTERACTION WITH SAX-3 AND SLT-1.
+RX   PubMed=17901337; DOI=10.1126/science.1144874;
+RA   Fujisawa K., Wrana J.L., Culotti J.G.;
+RT   "The slit receptor EVA-1 coactivates a SAX-3/Robo mediated guidance signal
+RT   in C. elegans.";
+RL   Science 317:1934-1938(2007).
+RN   [3]
+RP   FUNCTION, INTERACTION WITH MADD-4; SLT-1 AND UNC-40, AND DOMAIN.
+RX   PubMed=25122090; DOI=10.1371/journal.pgen.1004521;
+RA   Chan K.K., Seetharaman A., Bagg R., Selman G., Zhang Y., Kim J., Roy P.J.;
+RT   "EVA-1 functions as an UNC-40 Co-receptor to enhance attraction to the
+RT   MADD-4 guidance cue in Caenorhabditis elegans.";
+RL   PLoS Genet. 10:E1004521-E1004521(2014).
+CC   -!- FUNCTION: Acts as a receptor for slt-1 (PubMed:17901337). Required for
+CC       the guidance of the AVM pioneer axon to the ventral nerve cord
+CC       (PubMed:17901337). Acts as a unc-40 coreceptor to enhance the
+CC       sensitivity of unc-40 to the madd-4 midline guidance cue to guide
+CC       muscle arm extensions (muscle arms) and AVM mechanosensory axons
+CC       towards the dorsoventral midline (PubMed:25122090).
+CC       {ECO:0000269|PubMed:17901337, ECO:0000269|PubMed:25122090}.
+CC   -!- SUBUNIT: Interacts with sax-3 (PubMed:17901337). Interacts with slt-1
+CC       (PubMed:17901337, PubMed:25122090). Interacts (via the SUEL-type lectin
+CC       domain) with madd-4 (PubMed:25122090). Interacts (via the transmembrane
+CC       domain) with unc-40 (PubMed:25122090). {ECO:0000269|PubMed:17901337,
+CC       ECO:0000269|PubMed:25122090}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9XU98-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9XU98-2; Sequence=VSP_044684;
+CC   -!- DEVELOPMENTAL STAGE: Widely expressed in the developing nervous system
+CC       during the period of embryogenesis. In first-larval-stage animals,
+CC       strong expression is observed in ventral and dorsal nerve cords and in
+CC       the PVM neurons but not in the AVM neurons.
+CC       {ECO:0000269|PubMed:17901337}.
+CC   -!- DOMAIN: The SUEL-type lectin domain, the transmembrane domain and the
+CC       C-terminal region are required for the guidance of the muscle arm
+CC       extensions to the midline neurons. {ECO:0000269|PubMed:25122090}.
+CC   -!- SIMILARITY: Belongs to the EVA1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z83107; CAB05503.2; -; Genomic_DNA.
+DR   EMBL; Z83107; CAB05506.2; -; Genomic_DNA.
+DR   PIR; T21628; T21628.
+DR   RefSeq; NP_493590.2; NM_061189.4. [Q9XU98-1]
+DR   RefSeq; NP_493591.2; NM_061190.4.
+DR   AlphaFoldDB; Q9XU98; -.
+DR   SMR; Q9XU98; -.
+DR   BioGRID; 38738; 7.
+DR   DIP; DIP-25574N; -.
+DR   IntAct; Q9XU98; 1.
+DR   MINT; Q9XU98; -.
+DR   STRING; 6239.F32A7.3a; -.
+DR   EPD; Q9XU98; -.
+DR   PaxDb; Q9XU98; -.
+DR   EnsemblMetazoa; F32A7.3a.1; F32A7.3a.1; WBGene00009304. [Q9XU98-1]
+DR   EnsemblMetazoa; F32A7.3b.1; F32A7.3b.1; WBGene00009304. [Q9XU98-2]
+DR   EnsemblMetazoa; F32A7.3b.2; F32A7.3b.2; WBGene00009304. [Q9XU98-2]
+DR   EnsemblMetazoa; F32A7.3b.3; F32A7.3b.3; WBGene00009304. [Q9XU98-2]
+DR   EnsemblMetazoa; F32A7.3b.4; F32A7.3b.4; WBGene00009304. [Q9XU98-2]
+DR   GeneID; 173355; -.
+DR   KEGG; cel:CELE_F32A7.3; -.
+DR   UCSC; F32A7.3a; c. elegans.
+DR   CTD; 173355; -.
+DR   WormBase; F32A7.3a; CE36144; WBGene00009304; eva-1. [Q9XU98-1]
+DR   WormBase; F32A7.3b; CE36145; WBGene00009304; eva-1. [Q9XU98-2]
+DR   eggNOG; KOG4729; Eukaryota.
+DR   InParanoid; Q9XU98; -.
+DR   OMA; LMCLTAF; -.
+DR   PhylomeDB; Q9XU98; -.
+DR   Reactome; R-CEL-381426; Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).
+DR   Reactome; R-CEL-8957275; Post-translational protein phosphorylation.
+DR   SignaLink; Q9XU98; -.
+DR   PRO; PR:Q9XU98; -.
+DR   Proteomes; UP000001940; Chromosome I.
+DR   Bgee; WBGene00009304; Expressed in pharyngeal muscle cell (C elegans) and 3 other tissues.
+DR   ExpressionAtlas; Q9XU98; baseline and differential.
+DR   GO; GO:0030054; C:cell junction; HDA:WormBase.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0031430; C:M band; HDA:WormBase.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0055120; C:striated muscle dense body; HDA:WormBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell membrane; Membrane; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..461
+FT                   /note="Protein eva-1"
+FT                   /id="PRO_0000420839"
+FT   TRANSMEM        370..390
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          55..160
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   REGION          397..429
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        399..413
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        414..429
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   VAR_SEQ         1..105
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_044684"
+SQ   SEQUENCE   461 AA;  52073 MW;  AC745CF2CAEB0B60 CRC64;
+     MNMHIVSPVL LLFWFGIIVT DGKLKSGFIG GSHHHEVNPI EGILRESLRS NRVQACDGER
+     ITLSCPRNTQ ISVQTGFYGR VVPENQLCPP QAGRKHSEAN LDPLSMIHHS STCDVIQAHT
+     RISELCDKRR KCTVVVDSNT FEDDPCPTTS KYLQMAYGCI PMSFDEETFC TPKPTDPPRP
+     EIRLECREGR RLAVYSAQMK TSPQCDPETE IRHECVSDVL PQVLRQCHAK EGCTLKSDGI
+     KGHCRHGHLH VVYVCVNEEI FSEEAIKGEL TSLETYLKEA DAMQKQDDER FFKDVNDKTQ
+     WERVVDSEPA KDPDVHQIAN DASYVTHDEY RMEKQDPPPI TERVEPNLVG VGHDLLQVVQ
+     FFKENKEKAV MCIVLAVSMA AIVVLSACII TRLCSSNKDS SRSSRRSRSR RSLETSKLVS
+     SNYGGSITPQ HMMQDIEDEQ FLRFSMGSAA TSNPHYSHYD F
+//

@@ -1,0 +1,140 @@
+ID   LEC1_PSOTE              Reviewed;         242 AA.
+AC   O24313;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   25-MAY-2022, entry version 87.
+DE   RecName: Full=Basic agglutinin;
+DE   AltName: Full=WBA I;
+GN   Name=WBAI;
+OS   Psophocarpus tetragonolobus (Winged bean) (Dolichos tetragonolobus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Psophocarpus.
+OX   NCBI_TaxID=3891;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8766718; DOI=10.1016/0014-5793(96)00613-8;
+RA   Sharma V., Srinivas V.R., Surolia A.;
+RT   "Cloning and sequencing of winged bean (Psophocarpus tetragonolobus) basic
+RT   agglutinin (WBA I): presence of second glycosylation site and its
+RT   implications in quaternary structure.";
+RL   FEBS Lett. 389:289-292(1996).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS).
+RX   PubMed=9500920; DOI=10.1006/jmbi.1997.1568;
+RA   Prabu M.M., Sankaranarayanan R., Puri K.D., Sharma V., Surolia A.,
+RA   Vijayan M., Suguna K.;
+RT   "Carbohydrate specificity and quaternary association in basic winged bean
+RT   lectin: X-ray analysis of the lectin at 2.5-A resolution.";
+RL   J. Mol. Biol. 276:787-796(1998).
+CC   -!- FUNCTION: Lectin.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U60765; AAC49422.1; -; Genomic_DNA.
+DR   PIR; S70467; S70467.
+DR   PDB; 1WBF; X-ray; 2.30 A; A/B=1-242.
+DR   PDB; 1WBL; X-ray; 2.50 A; A/B/C/D=2-242.
+DR   PDB; 2D3S; X-ray; 2.35 A; A/B/C/D=1-242.
+DR   PDB; 2DTW; X-ray; 2.40 A; A/B/C/D=2-242.
+DR   PDB; 2DTY; X-ray; 2.65 A; A/B/C/D=2-242.
+DR   PDB; 2DU0; X-ray; 2.70 A; A/B/C/D=2-242.
+DR   PDB; 2DU1; X-ray; 2.60 A; A/B/C/D=2-242.
+DR   PDB; 2E51; X-ray; 2.50 A; A/B/C/D=2-242.
+DR   PDB; 2E53; X-ray; 2.40 A; A/B/C/D=2-242.
+DR   PDB; 2E7Q; X-ray; 2.75 A; A/B/C/D=2-238.
+DR   PDB; 2E7T; X-ray; 2.65 A; A/B/C/D=2-238.
+DR   PDB; 2ZMK; X-ray; 2.50 A; A/B/C/D=2-242.
+DR   PDB; 2ZML; X-ray; 2.65 A; A/B/C/D=2-242.
+DR   PDB; 2ZMN; X-ray; 2.90 A; A/B/C/D=2-242.
+DR   PDBsum; 1WBF; -.
+DR   PDBsum; 1WBL; -.
+DR   PDBsum; 2D3S; -.
+DR   PDBsum; 2DTW; -.
+DR   PDBsum; 2DTY; -.
+DR   PDBsum; 2DU0; -.
+DR   PDBsum; 2DU1; -.
+DR   PDBsum; 2E51; -.
+DR   PDBsum; 2E53; -.
+DR   PDBsum; 2E7Q; -.
+DR   PDBsum; 2E7T; -.
+DR   PDBsum; 2ZMK; -.
+DR   PDBsum; 2ZML; -.
+DR   PDBsum; 2ZMN; -.
+DR   AlphaFoldDB; O24313; -.
+DR   SMR; O24313; -.
+DR   UniLectin; O24313; -.
+DR   EvolutionaryTrace; O24313; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycoprotein; Lectin.
+FT   CHAIN           1..242
+FT                   /note="Basic agglutinin"
+FT                   /id="PRO_0000105123"
+FT   CARBOHYD        45
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        220
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   STRAND          3..10
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          18..22
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          32..35
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          47..54
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   TURN            61..63
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          68..76
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          88..95
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   HELIX           105..107
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   TURN            108..110
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          113..115
+FT                   /evidence="ECO:0007829|PDB:2ZMK"
+FT   STRAND          120..125
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          134..146
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          148..152
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          161..168
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   TURN            169..172
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          173..180
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   TURN            181..184
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          185..192
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   HELIX           195..198
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          201..211
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   HELIX           214..216
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+FT   STRAND          226..235
+FT                   /evidence="ECO:0007829|PDB:1WBF"
+SQ   SEQUENCE   242 AA;  26615 MW;  8BD4368E26F72294 CRC64;
+     MKTISFNFNQ FHQNEEQLKL QRDARISSNS VLELTKVVNG VPTWNSTGRA LYAKPVQVWD
+     STTGNVASFE TRFSFSIRQP FPRPHPADGL VFFIAPPNTQ TGEGGGYFGI YNPLSPYPFV
+     AVEFDTFRNT WDPQIPHIGI DVNSVISTKT VPFTLDNGGI ANVVIKYDAS TKILHVVLVF
+     PSLGTIYTIA DIVDLKQVLP ESVNVGFSAA TGDPSGKQRN ATETHDILSW SFSASLPGTN
+     EF
+//

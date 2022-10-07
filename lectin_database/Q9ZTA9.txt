@@ -1,0 +1,232 @@
+ID   FRIL_LABPU              Reviewed;         272 AA.
+AC   Q9ZTA9;
+DT   11-NOV-2015, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   03-AUG-2022, entry version 105.
+DE   RecName: Full=Flt3 receptor-interacting lectin {ECO:0000303|PubMed:9892687};
+DE   Contains:
+DE     RecName: Full=Lectin alpha chain {ECO:0000303|PubMed:9892687};
+DE   Contains:
+DE     RecName: Full=Lectin beta chain {ECO:0000303|PubMed:9892687};
+DE   Contains:
+DE     RecName: Full=Lectin alpha-1 chain {ECO:0000303|PubMed:9892687};
+DE   Flags: Precursor;
+GN   Name=FRIL {ECO:0000303|PubMed:9892687};
+OS   Lablab purpureus (Hyacinth bean) (Dolichos lablab).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Lablab.
+OX   NCBI_TaxID=35936 {ECO:0000312|EMBL:AAD10734.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 9-38 AND 125-152,
+RP   GLYCOSYLATION AT ASN-131, FUNCTION, AND BIOTECHNOLOGY.
+RC   TISSUE=Cotyledon;
+RX   PubMed=9892687; DOI=10.1073/pnas.96.2.646;
+RA   Colucci G., Moore J.G., Feldman M., Chrispeels M.J.;
+RT   "cDNA cloning of FRIL, a lectin from Dolichos lablab, that preserves
+RT   hematopoietic progenitors in suspension culture.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:646-650(1999).
+RN   [2]
+RP   PARTIAL PROTEIN SEQUENCE, IDENTIFICATION BY MASS SPECTROMETRY,
+RP   GLYCOSYLATION AT ASN-125 AND ASN-131, AND SUBCELLULAR LOCATION.
+RX   PubMed=24907509; DOI=10.1016/j.ijbiomac.2014.05.073;
+RA   B S G.K., Pohlentz G., Schulte M., Mormann M., Nadimpalli S.K.;
+RT   "N-glycan analysis of mannose/glucose specific lectin from Dolichos lablab
+RT   seeds.";
+RL   Int. J. Biol. Macromol. 69:400-407(2014).
+RN   [3]
+RP   SUBUNIT, AND FUNCTION.
+RX   PubMed=9949194; DOI=10.1093/glycob/9.2.173;
+RA   Mo H., Meah Y., Moore J.G., Goldstein I.J.;
+RT   "Purification and characterization of Dolichos lablab lectin.";
+RL   Glycobiology 9:173-179(1999).
+RN   [4]
+RP   BIOTECHNOLOGY.
+RX   PubMed=10880759; DOI=10.1016/s0301-472x(00)00163-6;
+RA   Kollet O., Moore J.G., Aviram R., Ben-Hur H., Liu B.L., Nagler A.,
+RA   Shultz L., Feldman M., Lapidot T.;
+RT   "The plant lectin FRIL supports prolonged in vitro maintenance of quiescent
+RT   human cord blood CD34(+)CD38(-/low)/SCID repopulating stem cells.";
+RL   Exp. Hematol. 28:726-736(2000).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (3.50 ANGSTROMS) OF 9-121 AND 140-272 IN COMPLEX WITH
+RP   MANNOSE, AND SUBUNIT.
+RX   PubMed=10843844; DOI=10.1006/jmbi.2000.3785;
+RA   Hamelryck T.W., Moore J.G., Chrispeels M.J., Loris R., Wyns L.;
+RT   "The role of weak protein-protein interactions in multivalent lectin-
+RT   carbohydrate binding: crystal structure of cross-linked FRIL.";
+RL   J. Mol. Biol. 299:875-883(2000).
+CC   -!- FUNCTION: Mannose-binding lectin (PubMed:9892687). Accommodates most
+CC       effectively a non-reducing terminal alpha-d-mannosyl unit. Strongly
+CC       precipitates murine IgM but not IgG (PubMed:9949194).
+CC       {ECO:0000269|PubMed:9892687, ECO:0000269|PubMed:9949194}.
+CC   -!- SUBUNIT: Dimer (alpha/beta)2 (PubMed:9949194). Tetramer (alpha/beta)4
+CC       (PubMed:10843844). {ECO:0000269|PubMed:10843844,
+CC       ECO:0000269|PubMed:9949194}.
+CC   -!- SUBCELLULAR LOCATION: Protein storage vacuole lumen
+CC       {ECO:0000303|PubMed:24907509}.
+CC   -!- PTM: Glycosylated at Asn-125 by either a paucimannose type N-glycan
+CC       (alpha-4) or a single N-acetylglucosamine (alpha-3). Glycosylated at
+CC       Asn-131 by a paucimannose type N-glycan (alpha-2, alpha-3 and alpha-4).
+CC       In alpha-2, Asn-125 is deamidated to an Asp, possibly due to the action
+CC       of intrinsic peptide N-glycosidase (PGNase).
+CC       {ECO:0000269|PubMed:24907509}.
+CC   -!- BIOTECHNOLOGY: Preserves hematopoietic progenitors in suspension
+CC       culture by preventing their proliferation and differentiation even in
+CC       the presence of a cytokine known for its strong induction of
+CC       proliferation and differentiation (PubMed:9892687). FRIL's ability to
+CC       preserve quiescent primitive cells in a reversible manner may
+CC       significantly expand the time and range of ex vivo manipulations of
+CC       human stem cells for clinical applications (PubMed:10880759).
+CC       {ECO:0000269|PubMed:10880759, ECO:0000269|PubMed:9892687}.
+CC   -!- MISCELLANEOUS: Four different alpha subunits (alpha-1, alpha-2, alpha-3
+CC       and alpha-4) are observed and their different polypeptide masses might
+CC       be due to differential C-terminal processing of the corresponding
+CC       polypeptide or to differential N-glycosylation of subunits. Alpha-1
+CC       lacks the 8 amino acids N-terminal sequence present in the other alpha
+CC       subunits. Alpha-2 and Alpha-4 differ in their glycosylation pattern.
+CC       Alpha-3 et Alpha-4 are N-glycosylated at their N-terminus. The Asn N-
+CC       terminus of alpha-2 is deamidated into Asp.
+CC       {ECO:0000269|PubMed:9892687}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   -!- CAUTION: The amino acid substitutions in both the subunits found in
+CC       PubMed:24907509 might have resulted from different cultivars or growing
+CC       conditions of the plant used in the study.
+CC       {ECO:0000303|PubMed:24907509}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF067417; AAD10734.1; -; mRNA.
+DR   PDB; 1QMO; X-ray; 3.50 A; A/B/C/D=9-121, E/F/G/H=140-272.
+DR   PDBsum; 1QMO; -.
+DR   AlphaFoldDB; Q9ZTA9; -.
+DR   SMR; Q9ZTA9; -.
+DR   UniLectin; Q9ZTA9; -.
+DR   iPTMnet; Q9ZTA9; -.
+DR   EvolutionaryTrace; Q9ZTA9; -.
+DR   GO; GO:0034495; C:protein storage vacuole lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Glycoprotein; Lectin; Signal;
+KW   Vacuole.
+FT   SIGNAL          1..8
+FT                   /evidence="ECO:0000305|PubMed:9892687"
+FT   CHAIN           9..124
+FT                   /note="Lectin beta chain"
+FT                   /evidence="ECO:0000305|PubMed:9892687"
+FT                   /id="PRO_0000434745"
+FT   CHAIN           125..272
+FT                   /note="Lectin alpha chain"
+FT                   /evidence="ECO:0000305|PubMed:9892687"
+FT                   /id="PRO_0000434746"
+FT   CHAIN           133..272
+FT                   /note="Lectin alpha-1 chain"
+FT                   /evidence="ECO:0000305|PubMed:9892687"
+FT                   /id="PRO_0000434747"
+FT   BINDING         94
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007744|PDB:1QMO"
+FT   BINDING         112
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000269|PubMed:10843844,
+FT                   ECO:0007744|PDB:1QMO"
+FT   BINDING         152
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000269|PubMed:10843844,
+FT                   ECO:0007744|PDB:1QMO"
+FT   BINDING         237..238
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000269|PubMed:10843844,
+FT                   ECO:0007744|PDB:1QMO"
+FT   CARBOHYD        125
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:24907509"
+FT   CARBOHYD        131
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:24907509,
+FT                   ECO:0000269|PubMed:9892687"
+FT   CONFLICT        34
+FT                   /note="S -> SS (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        41
+FT                   /note="V -> L (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000269|PubMed:24907509"
+FT   CONFLICT        148
+FT                   /note="D -> K (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        203
+FT                   /note="S -> T (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000269|PubMed:24907509"
+FT   CONFLICT        206
+FT                   /note="A -> P (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000269|PubMed:24907509"
+FT   STRAND          10..18
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          26..30
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          33..35
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          38..40
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          55..62
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          71..85
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          87..90
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          95..101
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   HELIX           111..113
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   TURN            114..116
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          143..148
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   HELIX           153..155
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          162..171
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          173..177
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          186..193
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   TURN            194..197
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          198..204
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          206..208
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          211..216
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   HELIX           219..221
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          225..234
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          236..238
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+FT   STRAND          241..255
+FT                   /evidence="ECO:0007829|PDB:1QMO"
+SQ   SEQUENCE   272 AA;  29900 MW;  EA6C004307441495 CRC64;
+     MFPSKVKSAQ SLSFSFTKFD PNQEDLIFQG HATSTNNVLQ VTKLDSAGNP VSSSAGRVLY
+     SAPLRLWEDS AVLTSFDTII NFEISTPYTS RIADGLAFFI APPDSVISYH GGFLGLFPNA
+     NTLNNSSTSE NQTTTKAASS NVVAVEFDTY LNPDYGDPNY IHIGIDVNSI RSKVTAKWDW
+     QNGKIATAHI SYNSVSKRLS VTSYYAGSKP ATLSYDIELH TVLPEWVRVG LSASTGQDKE
+     RNTVHSWSFT SSLWTNVAKK ENENKYITRG VL
+//

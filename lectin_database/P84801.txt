@@ -1,0 +1,109 @@
+ID   GRFIN_GRISQ             Reviewed;         121 AA.
+AC   P84801;
+DT   21-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 1.
+DT   02-JUN-2021, entry version 46.
+DE   RecName: Full=Griffithsin;
+DE            Short=GRFT;
+OS   Griffithsia sp. (strain Q66D336) (Red alga).
+OC   Eukaryota; Rhodophyta; Florideophyceae; Rhodymeniophycidae; Ceramiales;
+OC   Ceramiaceae; Griffithsia; unclassified Griffithsia.
+OX   NCBI_TaxID=373036;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, AND MASS SPECTROMETRY.
+RX   PubMed=15613479; DOI=10.1074/jbc.m411122200;
+RA   Mori T., O'Keefe B.R., Sowder R.C. II, Bringans S., Gardella R., Berg S.,
+RA   Cochran P., Turpin J.A., Buckheit R.W. Jr., McMahon J.B., Boyd M.R.;
+RT   "Isolation and characterization of griffithsin, a novel HIV-inactivating
+RT   protein, from the red alga Griffithsia sp.";
+RL   J. Biol. Chem. 280:9345-9353(2005).
+CC   -!- FUNCTION: Mixed specificity lectin with anti-HIV activity. Binds to HIV
+CC       envelope glycoproteins, including exterior membrane glycoprotein gp120,
+CC       and inhibits viral entry into cells. Binding to gp120 is dependent on
+CC       gp120 being glycosylated, and is inhibited by mannose, glucose and N-
+CC       acetylglucosamine. {ECO:0000269|PubMed:15613479}.
+CC   -!- INTERACTION:
+CC       P84801; P84801: -; NbExp=3; IntAct=EBI-8453570, EBI-8453570;
+CC       P84801; Q75760: env; Xeno; NbExp=2; IntAct=EBI-8453570, EBI-8453491;
+CC   -!- MASS SPECTROMETRY: Mass=12770.05; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:15613479};
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 2GTY; X-ray; 1.30 A; A/B=1-121.
+DR   PDB; 2GUC; X-ray; 1.79 A; A/B=1-121.
+DR   PDB; 2GUD; X-ray; 0.94 A; A/B=1-121.
+DR   PDB; 2GUE; X-ray; 2.02 A; A/B=1-121.
+DR   PDB; 2GUX; X-ray; 2.00 A; A=1-121.
+DR   PDB; 2HYQ; X-ray; 2.00 A; A/B=1-121.
+DR   PDB; 2HYR; X-ray; 1.51 A; A/B=1-121.
+DR   PDB; 2NU5; X-ray; 1.56 A; A/B=1-121.
+DR   PDB; 2NUO; X-ray; 1.50 A; A/B=1-121.
+DR   PDB; 3LKY; X-ray; 1.11 A; A=1-121.
+DR   PDB; 3LL0; X-ray; 1.70 A; A=1-121.
+DR   PDB; 3LL1; X-ray; 0.97 A; A=1-119.
+DR   PDB; 3LL2; X-ray; 0.97 A; A=1-121.
+DR   PDBsum; 2GTY; -.
+DR   PDBsum; 2GUC; -.
+DR   PDBsum; 2GUD; -.
+DR   PDBsum; 2GUE; -.
+DR   PDBsum; 2GUX; -.
+DR   PDBsum; 2HYQ; -.
+DR   PDBsum; 2HYR; -.
+DR   PDBsum; 2NU5; -.
+DR   PDBsum; 2NUO; -.
+DR   PDBsum; 3LKY; -.
+DR   PDBsum; 3LL0; -.
+DR   PDBsum; 3LL1; -.
+DR   PDBsum; 3LL2; -.
+DR   BMRB; P84801; -.
+DR   SMR; P84801; -.
+DR   DIP; DIP-29130N; -.
+DR   IntAct; P84801; 1.
+DR   MINT; P84801; -.
+DR   UniLectin; P84801; -.
+DR   EvolutionaryTrace; P84801; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0005536; F:glucose binding; IDA:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0005537; F:mannose binding; IDA:UniProtKB.
+DR   GO; GO:0046871; F:N-acetylgalactosamine binding; IDA:UniProtKB.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Lectin; Mannose-binding.
+FT   CHAIN           1..121
+FT                   /note="Griffithsin"
+FT                   /id="PRO_0000228815"
+FT   DOMAIN          1..120
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   STRAND          2..8
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+FT   STRAND          12..15
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+FT   STRAND          20..34
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+FT   STRAND          37..40
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+FT   STRAND          44..46
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+FT   STRAND          58..76
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+FT   STRAND          81..86
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+FT   STRAND          90..120
+FT                   /evidence="ECO:0007829|PDB:2GUD"
+SQ   SEQUENCE   121 AA;  12731 MW;  F89843AF6DE5049D CRC64;
+     SLTHRKFGGS GGSPFSGLSS IAVRSGSYLD XIIIDGVHHG GSGGNLSPTF TFGSGEYISN
+     MTIRSGDYID NISFETNMGR RFGPYGGSGG SANTLSNVKV IQINGSAGDY LDSLDIYYEQ
+     Y
+//

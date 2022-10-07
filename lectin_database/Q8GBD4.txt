@@ -1,0 +1,80 @@
+ID   GBPA_YEREN              Reviewed;         494 AA.
+AC   Q8GBD4;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   25-MAY-2022, entry version 72.
+DE   RecName: Full=GlcNAc-binding protein A {ECO:0000255|HAMAP-Rule:MF_01905};
+DE   Flags: Precursor;
+GN   Name=gbpA {ECO:0000255|HAMAP-Rule:MF_01905}; Synonyms=chiY;
+OS   Yersinia enterocolitica.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=630;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 51871 / WA-314 / Serotype O:8;
+RX   PubMed=12654803; DOI=10.1128/iai.71.4.1872-1879.2003;
+RA   Iwobi A., Heesemann J., Garcia E., Igwe E., Noelting C., Rakin A.;
+RT   "Novel virulence-associated type II secretion system unique to high-
+RT   pathogenicity Yersinia enterocolitica.";
+RL   Infect. Immun. 71:1872-1879(2003).
+CC   -!- FUNCTION: Probably interacts with GlcNAc residues. May promote
+CC       attachment to both epithelial cell surfaces and chitin.
+CC       {ECO:0000255|HAMAP-Rule:MF_01905}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000255|HAMAP-Rule:MF_01905}.
+CC   -!- SIMILARITY: Belongs to the GbpA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01905}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ344214; CAC83040.2; -; Genomic_DNA.
+DR   RefSeq; WP_005173861.1; NZ_NBTE02000004.1.
+DR   AlphaFoldDB; Q8GBD4; -.
+DR   SMR; Q8GBD4; -.
+DR   CAZy; AA10; Auxiliary Activities 10.
+DR   CAZy; CBM5; Carbohydrate-Binding Module Family 5.
+DR   KEGG; yew:CH47_34; -.
+DR   OrthoDB; 1005693at2; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008061; F:chitin binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   HAMAP; MF_01905; GbpA; 1.
+DR   InterPro; IPR036573; CBM_sf_5/12.
+DR   InterPro; IPR004302; Cellulose/chitin-bd_N.
+DR   InterPro; IPR041029; GbpA_2.
+DR   InterPro; IPR020879; GlcNAc-bd_A.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   Pfam; PF18416; GbpA_2; 1.
+DR   Pfam; PF03067; LPMO_10; 1.
+DR   SUPFAM; SSF51055; SSF51055; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Chitin-binding; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01905"
+FT   CHAIN           22..494
+FT                   /note="GlcNAc-binding protein A"
+FT                   /id="PRO_0000229728"
+FT   DOMAIN          22..192
+FT                   /note="Chitin-binding type-4"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01905"
+FT   DOMAIN          435..484
+FT                   /note="Chitin-binding type-3"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01905"
+FT   REGION          474..494
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   494 AA;  53425 MW;  E85D14542CBFF109 CRC64;
+     MKLNKIMLAM VVMSISGTAM AHGYIENPPS RNFLCNAQGG SLNKDCGGVQ YEPQSSGETA
+     DGFPQQGPVD GKLASGDNWV SVNLNQQTAE RWTKVKMKAG PQEFKWKFTA AHPIADFKYY
+     MTKQDWNPNQ PLTRDSLDLT PFCVIPGGPA STTGSTTHTC NIPERTGYQV IYGAWDVSDT
+     PGTFYNMIDA EFDGATGEVV VSEWTKSIGN IEPHDDLNAG DTVKLRMFDQ QGERSDLVVE
+     ITIADAKEGK KNNWSHALAS KLNNTHQDIR AGKKDSKGTV TATHGANAIF INANSNILRA
+     EVQIEKSPAG EVSATDASFS ANGMKKEYQM ADGALAIHFD VKTMGSMDLE AKVFAADNSV
+     KGYKDMTLED ASQHVSIAMT GLKAGKHTLV ILGTDAQGKT QQQSIDFMVK GETVKPEVKP
+     EVKPEVDGAN KQCTAPAWSN KSSYQAKDTV THNGRIYMSK WWADKASVPG DAAVTDTTGN
+     GSGWGKVWED KGAC
+//

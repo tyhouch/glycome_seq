@@ -1,0 +1,107 @@
+ID   MBHA_MYXXA              Reviewed;         267 AA.
+AC   P07386;
+DT   01-APR-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1988, sequence version 1.
+DT   25-MAY-2022, entry version 58.
+DE   RecName: Full=Myxobacterial hemagglutinin;
+DE   AltName: Full=Lectin;
+GN   Name=mbhA;
+OS   Myxococcus xanthus.
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;
+OC   Cystobacterineae; Myxococcaceae; Myxococcus.
+OX   NCBI_TaxID=34;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3092212; DOI=10.1073/pnas.83.17.6332;
+RA   Romeo J.M., Esmon B., Zusman D.R.;
+RT   "Nucleotide sequence of the myxobacterial hemagglutinin gene contains four
+RT   homologous domains.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 83:6332-6336(1986).
+CC   -!- FUNCTION: This lectin might have a role in the differentiation of
+CC       cells.
+CC   -!- DEVELOPMENTAL STAGE: M.xanthus is a rod-shaped bacterium with a complex
+CC       life cycle that includes formation of fruiting bodies. This protein is
+CC       induced during the aggregation phase of fruiting body formation.
+CC   -!- SIMILARITY: Belongs to the bacterial lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M13831; AAA25399.1; -; Genomic_DNA.
+DR   PIR; A23542; HMYZMX.
+DR   RefSeq; WP_011556980.1; NZ_JABFNQ010000012.1.
+DR   PDB; 4FBR; X-ray; 1.60 A; A=1-267.
+DR   PDB; 4FBV; X-ray; 1.76 A; A=1-267.
+DR   PDBsum; 4FBR; -.
+DR   PDBsum; 4FBV; -.
+DR   AlphaFoldDB; P07386; -.
+DR   SMR; P07386; -.
+DR   UniLectin; P07386; -.
+DR   PRIDE; P07386; -.
+DR   GeneID; 41364236; -.
+DR   OMA; TYNGEGP; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR040964; SBD.
+DR   Pfam; PF17882; SBD; 4.
+PE   1: Evidence at protein level;
+KW   3D-structure; Fruiting body; Hemagglutinin; Lectin; Repeat.
+FT   CHAIN           1..267
+FT                   /note="Myxobacterial hemagglutinin"
+FT                   /id="PRO_0000096268"
+FT   REPEAT          1..66
+FT                   /note="1"
+FT   REPEAT          67..133
+FT                   /note="2"
+FT   REPEAT          134..200
+FT                   /note="3"
+FT   REPEAT          201..267
+FT                   /note="4"
+FT   REGION          1..267
+FT                   /note="4 X 65 AA tandem repeats"
+FT   STRAND          3..9
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          18..24
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          33..39
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          45..53
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          59..65
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          70..79
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          84..91
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          100..106
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          112..120
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          126..132
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          137..143
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          152..158
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          167..173
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          179..187
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          193..201
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          204..210
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          219..225
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          234..240
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          246..254
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+FT   STRAND          260..266
+FT                   /evidence="ECO:0007829|PDB:4FBR"
+SQ   SEQUENCE   267 AA;  27916 MW;  B736B406595B349D CRC64;
+     MAAYLVQNQW GGSQATWNPG GLWLIGARDK QNVVALDIKS DDGGKTLKGT MTYNGEGPIG
+     FRGTLSSANN YTVENQWGGT SAPWQPGGVW VLGARDKQNI VAVSIKSNDG GKTLTGTTTY
+     NGEGPIGFKS EVTDGDTYSV ENQWGGSAAP WHSGGVWVLG TRGKQNVINV DAKSNDGGKT
+     LSGTMTYNGE GPIGFRGTLT SPDTYTVENQ WGGSTAPWNP GGFWMIGARN GQNVVALNVA
+     SSDGGKTLAG TMIYNGEGPI GFRARLG
+//

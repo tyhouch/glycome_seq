@@ -1,0 +1,174 @@
+ID   LEC1_REMVI              Reviewed;         256 AA.
+AC   B5LYJ9;
+DT   07-OCT-2020, integrated into UniProtKB/Swiss-Prot.
+DT   14-OCT-2008, sequence version 1.
+DT   03-AUG-2022, entry version 43.
+DE   RecName: Full=Mannose-specific lectin 1 {ECO:0000305};
+DE   AltName: Full=Agglutinin {ECO:0000305};
+DE   Contains:
+DE     RecName: Full=Mannose-specific lectin 1 chain 1 {ECO:0000305};
+DE   Contains:
+DE     RecName: Full=Mannose-specific lectin 1 chain 2 {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=L1 {ECO:0000303|Ref.1};
+GN   Synonyms=RVL {ECO:0000303|PubMed:21788359};
+OS   Remusatia vivipara (Hitchhiker elephant ear) (Arum viviparum).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Araceae; Aroideae; Colocasieae;
+OC   Remusatia.
+OX   NCBI_TaxID=189456;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Neekhra V., Bhat R.S., Chandrashekar T.M., Bhat G., Basingi S.M.,
+RA   Udikeri S.S., Swamy B.M., Kuruvinashetti M.S.;
+RT   "Cloning and expression of a novel mannose-binding lectin gene from
+RT   Remusatia vivipara.";
+RL   Submitted (JUL-2008) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS) OF 24-132 AND 140-249, DISULFIDE
+RP   BONDS, PROTEIN SEQUENCE OF 24-31 AND 140-147, AND SUBUNIT.
+RX   PubMed=21788359; DOI=10.1093/glycob/cwr100;
+RA   Shetty K.N., Bhat G.G., Inamdar S.R., Swamy B.M., Suguna K.;
+RT   "Crystal structure of a beta-prism II lectin from Remusatia vivipara.";
+RL   Glycobiology 22:56-69(2012).
+CC   -!- FUNCTION: Mannose-specific lectin. Shows agglutinating activity towards
+CC       erythrocytes from rabbit. {ECO:0000250|UniProtKB:R9RL27}.
+CC   -!- SUBUNIT: Forms heterodimers. {ECO:0000269|PubMed:21788359}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU924066; ACH41914.1; -; Genomic_DNA.
+DR   PDB; 3R0E; X-ray; 2.40 A; A/C=24-132, B/D=140-249.
+DR   PDBsum; 3R0E; -.
+DR   AlphaFoldDB; B5LYJ9; -.
+DR   SMR; B5LYJ9; -.
+DR   UniLectin; B5LYJ9; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   CDD; cd00028; B_lectin; 2.
+DR   Gene3D; 2.90.10.10; -; 2.
+DR   InterPro; IPR001480; Bulb-type_lectin_dom.
+DR   InterPro; IPR036426; Bulb-type_lectin_dom_sf.
+DR   SMART; SM00108; B_lectin; 2.
+DR   SUPFAM; SSF51110; SSF51110; 2.
+DR   PROSITE; PS50927; BULB_LECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Hemagglutinin;
+KW   Lectin; Mannose-binding; Repeat; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000269|PubMed:21788359"
+FT   CHAIN           24..139
+FT                   /note="Mannose-specific lectin 1 chain 1"
+FT                   /id="PRO_5002836532"
+FT   CHAIN           140..256
+FT                   /note="Mannose-specific lectin 1 chain 2"
+FT                   /id="PRO_0000450782"
+FT   DOMAIN          26..131
+FT                   /note="Bulb-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   DOMAIN          145..252
+FT                   /note="Bulb-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   MOTIF           51..59
+FT                   /note="Carbohydrate-binding motif 1"
+FT                   /evidence="ECO:0000305|PubMed:21788359"
+FT   MOTIF           170..178
+FT                   /note="Carbohydrate-binding motif 2"
+FT                   /evidence="ECO:0000305|PubMed:21788359"
+FT   BINDING         51..55
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:A5HMM7"
+FT   BINDING         59
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:A5HMM7"
+FT   BINDING         63
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:R9RL27"
+FT   BINDING         64
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:A5HMM7"
+FT   BINDING         170..174
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:R9RL27"
+FT   BINDING         178
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:Q39487"
+FT   BINDING         182..185
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:Q39487"
+FT   DISULFID        54..74
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038,
+FT                   ECO:0000269|PubMed:21788359, ECO:0007744|PDB:3R0E"
+FT   DISULFID        173..195
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038,
+FT                   ECO:0000269|PubMed:21788359, ECO:0007744|PDB:3R0E"
+FT   STRAND          27..30
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          40..43
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          46..50
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          56..59
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   TURN            60..62
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          75..78
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          84..87
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          93..96
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          102..104
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          107..111
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   TURN            112..114
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          115..119
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          121..126
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          147..149
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          153..155
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          158..161
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          166..169
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          175..178
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          180..182
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          191..194
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          196..199
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          205..208
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          214..217
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          223..225
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          228..231
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          237..240
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+FT   STRAND          242..247
+FT                   /evidence="ECO:0007829|PDB:3R0E"
+SQ   SEQUENCE   256 AA;  28100 MW;  A6388CF15EDA62D3 CRC64;
+     MAKLLLFLLP AILGLLVPRS AVALGTNYLL SGQTLDTEGH LKNGDFDLVM QDDCNLVLYN
+     GNWQSNTANN GRDCKLTLTD YGELVIKNGD GSTVWKSGAQ SVKGNYAAVV HPDGRLVVLG
+     PSVFKIDPWV RGLNSLRFRN IPFTNNLLFS GQVLYGDGRL TAKNHQLVMQ GDCNLVLYGG
+     KYGWQSNTHG NGEHCFLRLN HKGELIIKDD DFKTIWSSRS SSKQGEYVLI LQDDGFGVIY
+     GPAIFETSSK RSIAAS
+//

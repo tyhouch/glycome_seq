@@ -1,0 +1,111 @@
+ID   BGBP1_MANSE             Reviewed;         487 AA.
+AC   Q9NJ98;
+DT   27-SEP-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   25-MAY-2022, entry version 75.
+DE   RecName: Full=Beta-1,3-glucan-binding protein 1;
+DE            Short=BGBP-1;
+DE   AltName: Full=Beta-1,3-glucan recognition protein 1;
+DE            Short=BetaGRP-1;
+DE   Flags: Precursor;
+OS   Manduca sexta (Tobacco hawkmoth) (Tobacco hornworm).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Lepidoptera; Glossata; Ditrysia; Bombycoidea;
+OC   Sphingidae; Sphinginae; Sphingini; Manduca.
+OX   NCBI_TaxID=7130;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAF44011.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 20-42, FUNCTION, SUBUNIT,
+RP   SUBCELLULAR LOCATION, TISSUE SPECIFICITY, MASS SPECTROMETRY, AND
+RP   GLYCOSYLATION.
+RC   TISSUE=Fat body {ECO:0000312|EMBL:AAF44011.1}, and Larval hemolymph
+RC   {ECO:0000269|PubMed:10713054};
+RX   PubMed=10713054; DOI=10.1074/jbc.275.11.7505;
+RA   Ma C., Kanost M.R.;
+RT   "A beta1,3-glucan recognition protein from an insect, Manduca sexta,
+RT   agglutinates microorganisms and activates the phenoloxidase cascade.";
+RL   J. Biol. Chem. 275:7505-7514(2000).
+RN   [2] {ECO:0000305}
+RP   DEVELOPMENTAL STAGE.
+RX   PubMed=14976985; DOI=10.1016/j.ibmb.2003.09.006;
+RA   Jiang H., Ma C., Lu Z.-Q., Kanost M.R.;
+RT   "Beta-1,3-glucan recognition protein-2 (betaGRP-2) from Manduca sexta: an
+RT   acute-phase protein that binds beta-1,3-glucan and lipoteichoic acid to
+RT   aggregate fungi and bacteria and stimulate prophenoloxidase activation.";
+RL   Insect Biochem. Mol. Biol. 34:89-100(2004).
+CC   -!- FUNCTION: Involved in the recognition of invading microorganisms. Binds
+CC       specifically to beta-1,3-glucan and activates the phenoloxidase
+CC       cascade. Causes aggregation of invading microorganisms.
+CC       {ECO:0000269|PubMed:10713054}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:10713054}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:10713054}.
+CC   -!- TISSUE SPECIFICITY: Fat body and hemolymph.
+CC       {ECO:0000269|PubMed:10713054}.
+CC   -!- DEVELOPMENTAL STAGE: Expression is maintained at a moderate level
+CC       during larval feeding and wandering stages.
+CC       {ECO:0000269|PubMed:14976985}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:10713054}.
+CC   -!- MASS SPECTROMETRY: Mass=53583; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:10713054};
+CC   -!- SIMILARITY: Belongs to the insect beta-1,3-glucan binding protein
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF177982; AAF44011.1; -; mRNA.
+DR   AlphaFoldDB; Q9NJ98; -.
+DR   SMR; Q9NJ98; -.
+DR   CAZy; CBM39; Carbohydrate-Binding Module Family 39.
+DR   CAZy; GH16; Glycoside Hydrolase Family 16.
+DR   iPTMnet; Q9NJ98; -.
+DR   GO; GO:0005576; C:extracellular region; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; IDA:UniProtKB.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0002752; P:cell surface pattern recognition receptor signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0045088; P:regulation of innate immune response; IDA:UniProtKB.
+DR   CDD; cd02179; GH16_beta_GRP; 1.
+DR   Gene3D; 2.60.40.2140; -; 1.
+DR   InterPro; IPR031756; BGBP_N.
+DR   InterPro; IPR043030; BGBP_N_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR000757; GH16.
+DR   InterPro; IPR035806; GH16_GRP_C.
+DR   Pfam; PF15886; CBM39; 1.
+DR   Pfam; PF00722; Glyco_hydro_16; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51969; CBM39; 1.
+DR   PROSITE; PS51762; GH16_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Immunity; Innate immunity;
+KW   Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:10713054"
+FT   CHAIN           20..487
+FT                   /note="Beta-1,3-glucan-binding protein 1"
+FT                   /id="PRO_0000002821"
+FT   DOMAIN          20..119
+FT                   /note="CBM39"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01314"
+FT   DOMAIN          157..487
+FT                   /note="GH16"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01098"
+FT   REGION          123..151
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        368
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305|PubMed:10713054"
+SQ   SEQUENCE   487 AA;  54567 MW;  3BA4869C5ADE934A CRC64;
+     MLKSVFVLFL VNYLNSVRCL EVPDAKLEAI YPKGLRVSIP DDGYTLFAFH GKLNEEMEGL
+     EAGHWSRDIT KAKNGRWIFR DRNAKLKIGD KIYFWTYILK DGLGYRQDNG EWTVTGYVNE
+     DGEPLDANFE PRSTASTAAP PQAGAGQAPG PSYPCELSVS EVSVPGFVCK GQMLFEDNFN
+     KPLADGRIWT PEIMFPGEPD YPFNVYMKET DNLHVGNGNL VIKPMPLVTA FGEDAIWKTL
+     DLSDRCTGLL GTAQCKRDPS DAIIVPPIVT AKINTKKTFA FKYGRVEISA KMPRGDWLVP
+     LIQLEPVNKN YGIRNYVSGL LRVACVKGNT EYIKTLVGGP IMSEAEPYRT ANLKEFISNE
+     PWTNEFHNYT LEWSPDAITM AVDGIVYGRV TAPAGGFYKE ANEQNVEAAA RWIQGSNIAP
+     FDDMFYISLG MDVGGVHEFP DEAINKPWKN TATKAMVNFW NARSQWNPTW LESEKALLVD
+     YVRVYAL
+//

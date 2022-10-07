@@ -1,0 +1,128 @@
+ID   LEG5_RAT                Reviewed;         145 AA.
+AC   P47967;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 130.
+DE   RecName: Full=Galectin-5;
+DE            Short=Gal-5;
+DE   AltName: Full=RL-18;
+GN   Name=Lgals5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, CLEAVAGE OF INITIATOR
+RP   METHIONINE, AND ACETYLATION AT SER-2.
+RC   TISSUE=Reticulocyte;
+RX   PubMed=7890611; DOI=10.1074/jbc.270.10.5032;
+RA   Gitt M.A., Wiser M.F., Leffler H., Herrmann J., Xia Y.-R., Massa S.M.,
+RA   Cooper D.N.W., Lusis A.J., Barondes S.H.;
+RT   "Sequence and mapping of galectin-5, a beta-galactoside-binding lectin,
+RT   found in rat erythrocytes.";
+RL   J. Biol. Chem. 270:5032-5038(1995).
+CC   -!- FUNCTION: May function in erythrocyte differentiation.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- TISSUE SPECIFICITY: Erythrocytes.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L36862; AAC42050.1; -; mRNA.
+DR   EMBL; L21711; AAA65445.1; -; mRNA.
+DR   PIR; A55932; A55932.
+DR   RefSeq; NP_037108.1; NM_012976.2.
+DR   PDB; 5JP5; X-ray; 1.70 A; A/B/C/D/E/F=1-145.
+DR   PDB; 5JPG; X-ray; 1.90 A; A/B=1-145.
+DR   PDBsum; 5JP5; -.
+DR   PDBsum; 5JPG; -.
+DR   AlphaFoldDB; P47967; -.
+DR   SMR; P47967; -.
+DR   STRING; 10116.ENSRNOP00000016897; -.
+DR   UniLectin; P47967; -.
+DR   iPTMnet; P47967; -.
+DR   PhosphoSitePlus; P47967; -.
+DR   PRIDE; P47967; -.
+DR   GeneID; 25475; -.
+DR   KEGG; rno:25475; -.
+DR   CTD; 25475; -.
+DR   RGD; 3004; Lgals5.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   InParanoid; P47967; -.
+DR   OrthoDB; 829777at2759; -.
+DR   PhylomeDB; P47967; -.
+DR   PRO; PR:P47967; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0016936; F:galactoside binding; IBA:GO_Central.
+DR   GO; GO:0030395; F:lactose binding; ISO:RGD.
+DR   GO; GO:2000562; P:negative regulation of CD4-positive, alpha-beta T cell proliferation; IBA:GO_Central.
+DR   GO; GO:0032689; P:negative regulation of interferon-gamma production; IBA:GO_Central.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IBA:GO_Central.
+DR   GO; GO:0070234; P:positive regulation of T cell apoptotic process; ISO:RGD.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Lectin;
+KW   Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:7890611"
+FT   CHAIN           2..145
+FT                   /note="Galectin-5"
+FT                   /id="PRO_0000076938"
+FT   DOMAIN          17..145
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         77..83
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:7890611"
+FT   CONFLICT        128..136
+FT                   /note="Missing (in Ref. 1; AAA65445)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          3..10
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          15..20
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          30..37
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          43..50
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          53..61
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   TURN            62..65
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          66..73
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          85..87
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          95..102
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          104..111
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          114..120
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   HELIX           126..128
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+FT   STRAND          131..144
+FT                   /evidence="ECO:0007829|PDB:5JP5"
+SQ   SEQUENCE   145 AA;  16196 MW;  A6F0FB8C460DDBA4 CRC64;
+     MSSFSTQTPY PNLAVPFFTS IPNGLYPSKS IVISGVVLSD AKRFQINLRC GGDIAFHLNP
+     RFDENAVVRN TQINNSWGPE ERSLPGSMPF SRGQRFSVWI LCEGHCFKVA VDGQHICEYS
+     HRLMNLPDIN TLEVAGDIQL THVET
+//

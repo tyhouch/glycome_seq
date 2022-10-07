@@ -1,0 +1,157 @@
+ID   G4N991_MAGO7            Unreviewed;       340 AA.
+AC   G4N991;
+DT   14-DEC-2011, integrated into UniProtKB/TrEMBL.
+DT   14-DEC-2011, sequence version 1.
+DT   03-AUG-2022, entry version 58.
+DE   RecName: Full=LysM domain-containing protein {ECO:0000259|PROSITE:PS51782};
+GN   ORFNames=MGG_03307 {ECO:0000313|EMBL:EHA50335.1};
+OS   Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) (Rice blast
+OS   fungus) (Pyricularia oryzae).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Sordariomycetidae; Magnaporthales; Pyriculariaceae; Pyricularia.
+OX   NCBI_TaxID=242507 {ECO:0000313|EMBL:EHA50335.1, ECO:0000313|Proteomes:UP000009058};
+RN   [1] {ECO:0000313|EMBL:EHA50335.1, ECO:0000313|Proteomes:UP000009058}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=70-15 / ATCC MYA-4617 / FGSC 8958
+RC   {ECO:0000313|Proteomes:UP000009058};
+RX   PubMed=15846337; DOI=10.1038/nature03449;
+RA   Dean R.A., Talbot N.J., Ebbole D.J., Farman M.L., Mitchell T.K.,
+RA   Orbach M.J., Thon M., Kulkarni R., Xu J.R., Pan H., Read N.D., Lee Y.H.,
+RA   Carbone I., Brown D., Oh Y.Y., Donofrio N., Jeong J.S., Soanes D.M.,
+RA   Djonovic S., Kolomiets E., Rehmeyer C., Li W., Harding M., Kim S.,
+RA   Lebrun M.H., Bohnert H., Coughlan S., Butler J., Calvo S., Ma L.J.,
+RA   Nicol R., Purcell S., Nusbaum C., Galagan J.E., Birren B.W.;
+RT   "The genome sequence of the rice blast fungus Magnaporthe grisea.";
+RL   Nature 434:980-986(2005).
+RN   [2] {ECO:0007829|PDB:2L9Y}
+RP   STRUCTURE BY NMR OF 174-340.
+RX   PubMed=21565701; DOI=10.1016/j.str.2011.03.004;
+RA   Koharudin L.M., Viscomi A.R., Montanini B., Kershaw M.J., Talbot N.J.,
+RA   Ottonello S., Gronenborn A.M.;
+RT   "Structure-function analysis of a CVNH-LysM lectin expressed during plant
+RT   infection by the rice blast fungus Magnaporthe oryzae.";
+RL   Structure 19:662-674(2011).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=70-15;
+RG   The Broad Institute Genome Sequencing Platform;
+RA   Ma L.-J., Dead R., Young S.K., Zeng Q., Gargeya S., Fitzgerald M., Haas B.,
+RA   Abouelleil A., Alvarado L., Arachchi H.M., Berlin A., Brown A.,
+RA   Chapman S.B., Chen Z., Dunbar C., Freedman E., Gearin G., Gellesch M.,
+RA   Goldberg J., Griggs A., Gujja S., Heiman D., Howarth C., Larson L., Lui A.,
+RA   MacDonald P.J.P., Mehta T., Montmayeur A., Murphy C., Neiman D.,
+RA   Pearson M., Priest M., Roberts A., Saif S., Shea T., Shenoy N., Sisk P.,
+RA   Stolte C., Sykes S., Yandava C., Wortman J., Nusbaum C., Birren B.;
+RT   "The Genome Sequence of Magnaporthe oryzae 70-15.";
+RL   Submitted (MAY-2011) to the EMBL/GenBank/DDBJ databases.
+RN   [4] {ECO:0007829|PDB:5C8O, ECO:0007829|PDB:5C8P}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 174-340 IN COMPLEX WITH
+RP   N-ACETYL-D-GLUCOSAMINE.
+RX   PubMed=26455798; DOI=10.1016/j.str.2015.07.023;
+RA   Koharudin L.M., Debiec K.T., Gronenborn A.M.;
+RT   "Structural Insight into Fungal Cell Wall Recognition by a CVNH Protein
+RT   with a Single LysM Domain.";
+RL   Structure 23:2143-2154(2015).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CM001234; EHA50335.1; -; Genomic_DNA.
+DR   RefSeq; XP_003716654.1; XM_003716606.1.
+DR   PDB; 2L9Y; NMR; -; A=174-340.
+DR   PDB; 5C8O; X-ray; 2.09 A; A=174-340.
+DR   PDB; 5C8P; X-ray; 2.20 A; A=174-340.
+DR   PDB; 5C8Q; X-ray; 1.90 A; B=174-340.
+DR   PDBsum; 2L9Y; -.
+DR   PDBsum; 5C8O; -.
+DR   PDBsum; 5C8P; -.
+DR   PDBsum; 5C8Q; -.
+DR   SMR; G4N991; -.
+DR   STRING; 318829.MGG_03307T0; -.
+DR   UniLectin; G4N991; -.
+DR   EnsemblFungi; MGG_03307T0; MGG_03307T0; MGG_03307.
+DR   GeneID; 2676453; -.
+DR   KEGG; mgr:MGG_03307; -.
+DR   VEuPathDB; FungiDB:MGG_03307; -.
+DR   eggNOG; ENOG502S756; Eukaryota.
+DR   HOGENOM; CLU_060567_0_0_1; -.
+DR   InParanoid; G4N991; -.
+DR   OMA; DQIWPGQ; -.
+DR   OrthoDB; 1498051at2759; -.
+DR   Proteomes; UP000009058; Chromosome 4.
+DR   CDD; cd00118; LysM; 1.
+DR   Gene3D; 2.30.60.10; -; 1.
+DR   Gene3D; 3.10.350.10; -; 1.
+DR   InterPro; IPR011058; Cyanovirin-N.
+DR   InterPro; IPR036673; Cyanovirin-N_sf.
+DR   InterPro; IPR018392; LysM_dom.
+DR   InterPro; IPR036779; LysM_dom_sf.
+DR   Pfam; PF08881; CVNH; 1.
+DR   Pfam; PF01476; LysM; 1.
+DR   SMART; SM01111; CVNH; 1.
+DR   SMART; SM00257; LysM; 1.
+DR   SUPFAM; SSF51322; SSF51322; 1.
+DR   SUPFAM; SSF54106; SSF54106; 1.
+DR   PROSITE; PS51782; LYSM; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2L9Y, ECO:0007829|PDB:5C8O};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000009058}.
+FT   DOMAIN          236..280
+FT                   /note="LysM"
+FT                   /evidence="ECO:0000259|PROSITE:PS51782"
+FT   REGION          1..81
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          122..177
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..37
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        122..163
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         183
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8Q"
+FT   BINDING         243
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8P, ECO:0007829|PDB:5C8Q"
+FT   BINDING         246
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8P"
+FT   BINDING         247
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8P, ECO:0007829|PDB:5C8Q"
+FT   BINDING         270
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8P, ECO:0007829|PDB:5C8Q"
+FT   BINDING         272
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8P, ECO:0007829|PDB:5C8Q"
+FT   BINDING         301
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8Q"
+FT   BINDING         332
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8Q"
+FT   BINDING         334
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5C8P, ECO:0007829|PDB:5C8Q"
+SQ   SEQUENCE   340 AA;  36711 MW;  F177AEB2847241AD CRC64;
+     MSYNSGYGNQ QGGANSSYYN SGGPQNQGQN PYGGPPPLNG QQQGGPPPSY NHGPGFNQGG
+     NHGPPHHGGP GGVGQDGERG ILGAMGGGAA GGFAGHKMGH GILGAIGGAV AGHFAEEKVK
+     DWRDDKKEEE ERRKREEEDR RRREDDDKRR REEDDRRRHD NNNNNNRGCS PPRGNYAGNF
+     SGSSRDICLD GARLRAECRR GDGGYSTSVI DLNRYLSNDN GHFRWVSGGG GGGGTATVTV
+     QQGDTLRDIG RRFDCDFHEI ARRNNIQNED LIYPGQVLQV PTKGGSGGGA GNFWDSARDV
+     RLVDGGKVLE AELRYSGGWN RSRIYLDEHI GNRNGELIHC
+//

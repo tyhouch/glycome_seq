@@ -1,0 +1,155 @@
+ID   Q8WS31_PLAFA            Unreviewed;      1210 AA.
+AC   Q8WS31;
+DT   01-MAR-2002, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2002, sequence version 1.
+DT   03-AUG-2022, entry version 70.
+DE   SubName: Full=Erythrocyte binding antigen 140 {ECO:0000313|EMBL:AAL58319.1};
+OS   Plasmodium falciparum (malaria parasite P. falciparum).
+OC   Eukaryota; Sar; Alveolata; Apicomplexa; Aconoidasida; Haemosporida;
+OC   Plasmodiidae; Plasmodium; Plasmodium (Laverania).
+OX   NCBI_TaxID=5833 {ECO:0000313|EMBL:AAL58319.1};
+RN   [1] {ECO:0000313|EMBL:AAL58319.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=3D7 {ECO:0000313|EMBL:AAL58319.1};
+RA   Thompson J.K., Triglia T., Reed M.B., Cowman A.F.;
+RT   "A novel ligand from Plasmodium falciparum that binds to a sialic acid-
+RT   containing receptor on the surface of human erythrocytes.";
+RL   Mol. Microbiol. 0:0-0(2002).
+RN   [2] {ECO:0007829|PDB:4GF2}
+RP   X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS) OF 141-755, AND DISULFIDE BONDS.
+RX   PubMed=22989878; DOI=10.1074/jbc.M112.409276;
+RA   Lin D.H., Malpede B.M., Batchelor J.D., Tolia N.H.;
+RT   "Crystal and solution structures of Plasmodium falciparum erythrocyte-
+RT   binding antigen 140 reveal determinants of receptor specificity during
+RT   erythrocyte invasion.";
+RL   J. Biol. Chem. 287:36830-36836(2012).
+RN   [3] {ECO:0007829|PDB:4JNO}
+RP   X-RAY CRYSTALLOGRAPHY (3.00 ANGSTROMS) OF 141-755, AND DISULFIDE BONDS.
+RX   PubMed=23508963; DOI=10.1074/jbc.M113.450643;
+RA   Malpede B.M., Lin D.H., Tolia N.H.;
+RT   "Molecular basis for sialic acid-dependent receptor recognition by the
+RT   Plasmodium falciparum invasion protein erythrocyte-binding antigen-
+RT   140/BAEBL.";
+RL   J. Biol. Chem. 288:12406-12415(2013).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF384554; AAL58319.1; -; Genomic_DNA.
+DR   PDB; 4GF2; X-ray; 2.40 A; A=141-755.
+DR   PDB; 4JNO; X-ray; 3.00 A; A=141-755.
+DR   PDBsum; 4GF2; -.
+DR   PDBsum; 4JNO; -.
+DR   SMR; Q8WS31; -.
+DR   UniLectin; Q8WS31; -.
+DR   VEuPathDB; PlasmoDB:PF3D7_1301600; -.
+DR   VEuPathDB; PlasmoDB:Pf7G8-2_000404600; -.
+DR   VEuPathDB; PlasmoDB:Pf7G8_130005600; -.
+DR   VEuPathDB; PlasmoDB:PfCD01_130006500; -.
+DR   VEuPathDB; PlasmoDB:PfDd2_130007000; -.
+DR   VEuPathDB; PlasmoDB:PfGA01_130007000; -.
+DR   VEuPathDB; PlasmoDB:PfGB4_130007100; -.
+DR   VEuPathDB; PlasmoDB:PfGN01_130007700; -.
+DR   VEuPathDB; PlasmoDB:PfHB3_130007300; -.
+DR   VEuPathDB; PlasmoDB:PfIT_130006400; -.
+DR   VEuPathDB; PlasmoDB:PfKE01_130006800; -.
+DR   VEuPathDB; PlasmoDB:PfKH01_130005400; -.
+DR   VEuPathDB; PlasmoDB:PfKH02_000009600; -.
+DR   VEuPathDB; PlasmoDB:PfML01_000034100; -.
+DR   VEuPathDB; PlasmoDB:PfNF135_130006500; -.
+DR   VEuPathDB; PlasmoDB:PfNF166_130006800; -.
+DR   VEuPathDB; PlasmoDB:PfNF54_130006700; -.
+DR   VEuPathDB; PlasmoDB:PfSD01_130007400; -.
+DR   VEuPathDB; PlasmoDB:PfSN01_000019200; -.
+DR   VEuPathDB; PlasmoDB:PfTG01_130006900; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0046789; F:host cell surface receptor binding; IEA:InterPro.
+DR   Gene3D; 1.10.1740.170; -; 1.
+DR   Gene3D; 1.20.1310.20; -; 2.
+DR   InterPro; IPR042202; Duffy-ag-bd_sf.
+DR   InterPro; IPR008602; Duffy-antigen-binding.
+DR   InterPro; IPR021620; EBA-175_C.
+DR   InterPro; IPR043057; EBA-175_C_sf.
+DR   Pfam; PF05424; Duffy_binding; 2.
+DR   Pfam; PF11556; EBA-175_VI; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        1134..1153
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          1046..1126
+FT                   /note="EBA-175_VI"
+FT                   /evidence="ECO:0000259|Pfam:PF11556"
+FT   REGION          109..131
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          772..969
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1013..1042
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        772..799
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        815..928
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        939..969
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1025..1042
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   DISULFID        154..184
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        165..175
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        227..306
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        342..355
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        351..421
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        359..419
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        456..489
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        468..480
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        532..607
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        631..714
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        648..653
+FT                   /evidence="ECO:0007829|PDB:4GF2"
+FT   DISULFID        658..738
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+FT   DISULFID        662..735
+FT                   /evidence="ECO:0007829|PDB:4GF2, ECO:0007829|PDB:4JNO"
+SQ   SEQUENCE   1210 AA;  140596 MW;  FF44FBB8DA69D605 CRC64;
+     MKGYFNIYFL IPLIFLYNVI RINESIIGRT LYNRQDESSD ISRVNSPELN NNHKTNIYDS
+     DYEDVNNKLI NSFVENKSVK KKRSLSFINN KTKSYDIIPP SYSYRNDKFN SLSENEDNSG
+     NTNSNNFANT SEISIGKDNK QYTFIQKRTH LFACGIKRKS IKWICRENSE KITVCVPDRK
+     IQLCIANFLN SRLETMEKFK EIFLISVNTE AKLLYNKNEG KDPSIFCNEL RNSFSDFRNS
+     FIGDDMDFGG NTDRVKGYIN KKFSDYYKEK NVEKLNNIKK EWWEKNKANL WNHMIVNHKG
+     NISKECAIIP AEEPQINLWI KEWNENFLME KKRLFLNIKD KCVENKKYEA CFGGCRLPCS
+     SYTSFMKKSK TQMEVLTNLY KKKNSGVDKN NFLNDLFKKN NKNDLDDFFK NEKEYDDLCD
+     CRYTATIIKS FLNGPAKNDV DIASQINVND LRGFGCNYKS NNEKSWNCTG TFTNKFPGTC
+     EPPRRQTLCL GRTYLLHRGH EEDYKEHLLG ASIYEAQLLK YKYKEKDENA LCSIIQNSYA
+     DLADIIKGSD IIKDYYGKKM EENLNKVNKD KKRNEESLKI FREKWWDENK ENVWKVMSAV
+     LKNKETCKDY DKFQKIPQFL RWFKEWGDDF CEKRKEKIYS FESFKVECKK KDCDENTCKN
+     KCSEYKKWID LKKSEYEKQV DKYTKDKNKK MYDNIDEVKN KEANVYLKEK SKECKDVNFD
+     DKIFNESPNE YEDMCKKCDE IKYLNEIKYP KTKHDIYDID TFSDTFGDGT PISINANINE
+     QQSGKDTSNT GNSETSDSPV SHEPESDAAI NVEKLSGDES SSETRGILDI NDPSVTNNVN
+     EVHDASNTQG SVSNTSDITN GHSESSLNRT TNAQDIKIGR SGNEQSDNQE NSSHSSDNSG
+     SLTIGQVPSE DNTQNTYDSQ NPHRDTPNAL ASLPSDDKIN EIEGFDSSRD SENGRGDTTS
+     NTHDVRRTNI VSERRVNSHD FIRNGMANNN AHHQYITQIE NNGIIRGQEE SAGNSVNYKD
+     NPKRSNFSSE NDHKKNIQEY NSRDTKRVRE EIIKLSKQNK CNNEYSMEYC TYSDERNSSP
+     GPCSREERKK LCCQISDYCL KYFNFYSIEY YNCIKSEIKS PEYKCFKSEG QSSIPYFAAG
+     GILVVIVLLL SSASRMGKSN EEYDIGESNI EATFEENNYL NKLSRIFNQE VQETNISDYS
+     EYNYNEKNMY
+//

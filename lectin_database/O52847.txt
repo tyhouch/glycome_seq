@@ -1,0 +1,115 @@
+ID   BGAL_PRIM3              Reviewed;        1034 AA.
+AC   O52847; D5DFH9;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   03-AUG-2022, entry version 107.
+DE   RecName: Full=Beta-galactosidase;
+DE            Short=Beta-gal;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Lactase;
+GN   Name=bgaM; OrderedLocusNames=BMD_2126;
+OS   Priestia megaterium (strain DSM 319 / IMG 1521) (Bacillus megaterium).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia.
+OX   NCBI_TaxID=592022;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Strey J.;
+RL   Submitted (SEP-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 319 / IMG 1521;
+RX   PubMed=21705586; DOI=10.1128/jb.00449-11;
+RA   Eppinger M., Bunk B., Johns M.A., Edirisinghe J.N., Kutumbaka K.K.,
+RA   Koenig S.S., Creasy H.H., Rosovitz M.J., Riley D.R., Daugherty S.,
+RA   Martin M., Elbourne L.D., Paulsen I., Biedendieck R., Braun C.,
+RA   Grayburn S., Dhingra S., Lukyanchuk V., Ball B., Ul-Qamar R., Seibel J.,
+RA   Bremer E., Jahn D., Ravel J., Vary P.S.;
+RT   "Genome sequences of the biotechnologically important Bacillus megaterium
+RT   strains QM B1551 and DSM319.";
+RL   J. Bacteriol. 193:4199-4213(2011).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ000733; CAA04267.1; -; Genomic_DNA.
+DR   EMBL; CP001982; ADF38979.1; -; Genomic_DNA.
+DR   PIR; T30574; T30574.
+DR   RefSeq; WP_013082993.1; NC_014103.1.
+DR   AlphaFoldDB; O52847; -.
+DR   SMR; O52847; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   PRIDE; O52847; -.
+DR   EnsemblBacteria; ADF38979; ADF38979; BMD_2126.
+DR   KEGG; bmd:BMD_2126; -.
+DR   PATRIC; fig|592022.4.peg.2076; -.
+DR   HOGENOM; CLU_002346_0_2_9; -.
+DR   OMA; DYPQYTN; -.
+DR   Proteomes; UP000002365; Chromosome.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IEA:InterPro.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase; Hydrolase.
+FT   CHAIN           1..1034
+FT                   /note="Beta-galactosidase"
+FT                   /id="PRO_0000057659"
+FT   ACT_SITE        481
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        547
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1034 AA;  118674 MW;  38644C9A649415E9 CRC64;
+     MLKTGKKFHY TAPANGYPEW NNNPEIFQLN RSKAHALLMP YQTVEEALKN DRKSSVYYQS
+     LNGSWYFHFA ENADGRVKNF FAPEFSYEKW DSISVPSHWQ LQGYDYPQYT NVTYPWVENE
+     ELEPPFAPTK YNPVGQYVRT FTPKSEWKDQ PVYISFQGVE SAFYVWINGE FVGYSEDSFT
+     PAEFDITSYL QEGENTIAVE VYRWSDASWL EDQDFWRMSG IFRDVYLYST PQVHIYDFSV
+     RSSLDNNYED GELSVSADIL NYFEHDTQDL TFEVMLYDAN AQEVLQAPLQ TNLSVSDQRT
+     VSLRTHIKSP AKWSAESPNL YTLVLSLKNA AGSIIETESC KVGFRTFEIK NGLMTINGKR
+     IVLRGVNRHE FDSVKGRAGI TREDMIHDIL LMKQHNINAV RTSHYPNDSV WYELCNEYGL
+     YVIDETNLET HGTWTYLQEG EQKAVPGSKP EWKENVLDRC RSMYERDKNH PSIIIWSLGN
+     ESFGGENFQH MYTFFKEKDS TRLVHYEGIF HHRDYDASDI ESTMYVKPAD VERYALMNPK
+     KPYILCEYSH AMGNSCGNLY KYWELFDQYP ILQGGFIWDW KDQALQATAE DGTSYLAYGG
+     DFGDTPNDGN FCGNGLIFAD GTASPKIAEV KKCYQPVKWT AVDPAKGKFA VQNKHLFTNL
+     NAYDFVWTVE KNGELVEKHA SLLNVAPDGT DELTLSYPLY EQENETDEFV LTLSLRLSKD
+     TAWASAGYEV AYEQFVLPAK AAMPSVKAAH PALTVDQNEQ TLTVTGTNFT AIFDKRKGQF
+     ISYNYERTEL LASGFRPNFW RAVTDNDLGN KLHERCQTWR QASLEQHVKK VTVQPQVDFV
+     IISVELALDN SLASCYVTYT LYNDGEMKIE QSLAPSETMP EIPEIGMLFT MNAAFDSLTW
+     YGRGPHENYW DRKTGAKLAL HKGSVKEQVT PYLRPQECGN KTDVRWATIT NDQGRGFLIK
+     GLPTVELNAL PYSPFELEAY DHFYKLPASD SVTVRVNYKQ MGVGGDDSWQ AKTHPNYTLY
+     ANRSYTNTFT LKPL
+//

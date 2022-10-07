@@ -1,0 +1,63 @@
+ID   I0IV54_9METZ            Unreviewed;       146 AA.
+AC   I0IV54;
+DT   13-JUN-2012, integrated into UniProtKB/TrEMBL.
+DT   13-JUN-2012, sequence version 1.
+DT   02-JUN-2021, entry version 36.
+DE   RecName: Full=Galectin {ECO:0000256|RuleBase:RU102079};
+DE   Flags: Fragment;
+GN   Name=CchGc {ECO:0000313|EMBL:BAM09153.1};
+OS   Cinachyrella sp. IRI35.
+OC   Eukaryota; Metazoa; Porifera; Demospongiae; Heteroscleromorpha;
+OC   Tetractinellida; Spirophorina; Tetillidae; Cinachyrella;
+OC   unclassified Cinachyrella.
+OX   NCBI_TaxID=1150987 {ECO:0000313|EMBL:BAM09153.1};
+RN   [1] {ECO:0007829|PDB:4AGG, ECO:0007829|PDB:4AGR}
+RP   X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 2-146, AND DISULFIDE BONDS.
+RX   PubMed=22948917; DOI=10.1107/S0907444912022834;
+RA   Freymann D.M., Nakamura Y., Focia P.J., Sakai R., Swanson G.T.;
+RT   "Structure of a tetrameric galectin from Cinachyrella sp. (ball sponge).";
+RL   Acta Crystallogr. D 68:1163-1174(2012).
+RN   [2] {ECO:0000313|EMBL:BAM09153.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=IRI35 {ECO:0000313|EMBL:BAM09153.1};
+RA   Ueda T., Nakamura Y., Smith C.M., Copits B.A., Inoue A., Ojima T.,
+RA   Matsunaga S., Swanson G.T., Sakai R.;
+RT   "Isolation of novel prototype galectins from the marine ball sponge
+RT   Cinachyrella sp. guided by their modulatory activity on mammalian
+RT   glutamate-gated ion channels.";
+RL   Glycobiology 23:415-425(2013).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB699346; BAM09153.1; -; mRNA.
+DR   PDB; 4AGG; X-ray; 2.98 A; A/B=1-146.
+DR   PDB; 4AGR; X-ray; 2.10 A; A/B/C/D=1-146.
+DR   PDB; 4AGV; X-ray; 2.65 A; A/B/C/D=1-146.
+DR   PDBsum; 4AGG; -.
+DR   PDBsum; 4AGR; -.
+DR   PDBsum; 4AGV; -.
+DR   SMR; I0IV54; -.
+DR   UniLectin; I0IV54; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-UniRule.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4AGG, ECO:0007829|PDB:4AGR};
+KW   Lectin {ECO:0000256|RuleBase:RU102079}.
+FT   DOMAIN          1..145
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51304"
+FT   DISULFID        81..82
+FT                   /evidence="ECO:0007829|PDB:4AGG, ECO:0007829|PDB:4AGR"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:BAM09153.1"
+SQ   SEQUENCE   146 AA;  16072 MW;  2D546555ACC7291B CRC64;
+     TGPIQSIKVD PKKSGGLGVV YRSPDKGRVS LYLYNDGEDI LLVVDARFDW RGEQNVLVLN
+     SKFAGGEWGP EVRPEGFPFP CCGYVTTITV RVEIGADGFI ISANGIEIVK YPYRDGLPPP
+     VTKFQYVFQD QGASETAQLE SLSAYY
+//

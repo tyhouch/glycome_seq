@@ -1,0 +1,195 @@
+ID   PAPG2_ECOLX             Reviewed;         336 AA.
+AC   Q47450;
+DT   02-JUN-2021, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 90.
+DE   RecName: Full=Fimbrial adhesin PapGII {ECO:0000303|PubMed:31361021};
+DE   Flags: Precursor;
+GN   Name=papGII {ECO:0000303|PubMed:31361021};
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=AD110 / UPEC;
+RX   PubMed=2895103; DOI=10.1128/jb.170.4.1887-1894.1988;
+RA   Lund B., Lindberg F., Normark S.;
+RT   "Structure and antigenic properties of the tip-located P pilus proteins of
+RT   uropathogenic Escherichia coli.";
+RL   J. Bacteriol. 170:1887-1894(1988).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=31361021; DOI=10.1093/glycob/cwz059;
+RA   Legros N., Ptascheck S., Pohlentz G., Karch H., Dobrindt U., Muething J.;
+RT   "PapG subtype-specific binding characteristics of Escherichia coli towards
+RT   globo-series glycosphingolipids of human kidney and bladder uroepithelial
+RT   cells.";
+RL   Glycobiology 29:789-802(2019).
+RN   [3] {ECO:0007744|PDB:1J8R, ECO:0007744|PDB:1J8S}
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 21-216 IN COMPLEX WITH GALACTOSE,
+RP   DISULFIDE BONDS, FUNCTION, AND MUTAGENESIS OF TRP-127 AND ARG-190.
+RX   PubMed=11440716; DOI=10.1016/s0092-8674(01)00388-9;
+RA   Dodson K.W., Pinkner J.S., Rose T., Magnusson G., Hultgren S.J.,
+RA   Waksman G.;
+RT   "Structural basis of the interaction of the pyelonephritic E. coli adhesin
+RT   to its human kidney receptor.";
+RL   Cell 105:733-743(2001).
+RN   [4] {ECO:0007744|PDB:6CD2}
+RP   X-RAY CRYSTALLOGRAPHY (3.70 ANGSTROMS) OF 21-336, AND DISULFIDE BONDS.
+RX   PubMed=30275511; DOI=10.1038/s41564-018-0255-y;
+RA   Omattage N.S., Deng Z., Pinkner J.S., Dodson K.W., Almqvist F., Yuan P.,
+RA   Hultgren S.J.;
+RT   "Structural basis for usher activation and intramolecular subunit transfer
+RT   in P pilus biogenesis in Escherichia coli.";
+RL   Nat. Microbiol. 3:1362-1368(2018).
+CC   -!- FUNCTION: Tip adhesin component of type P pili that plays a critical
+CC       role in kidney infection through targeted interaction with the
+CC       globoseries glycolipids containing the Gal-alpha(1-4)-Gal disaccharide
+CC       present on uroepithelial cells (PubMed:11440716, PubMed:31361021). In
+CC       turn, transcriptionally regulates host gene expression in kidney cells,
+CC       leading to inflammatory pathway activation and renal tissue damage.
+CC       Acts thereby as key determinant of invasive uropathogenic E.coli
+CC       (UPEC), which cause pyelonephritis and urinary-source bacteremia (By
+CC       similarity). {ECO:0000250|UniProtKB:A0A0H2VAQ6,
+CC       ECO:0000269|PubMed:11440716, ECO:0000269|PubMed:31361021}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P13720}. Fimbrium
+CC       {ECO:0000250|UniProtKB:P13720}. Note=At the tip of P pili.
+CC       {ECO:0000250|UniProtKB:P13720}.
+CC   -!- MISCELLANEOUS: Strains of E.coli that cause infection of the human
+CC       urinary tract produce pap-pili (P pili) which are hair-like appendages
+CC       consisting of about 1000 helically arranged subunits of the protein
+CC       PapA. These pili mediate binding to digalactoside-containing
+CC       glycolipids present on the epithelial cells which line the urinary
+CC       tract.
+CC   -!- SIMILARITY: Belongs to the adhesin PapG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M20182; AAA24296.1; -; Genomic_DNA.
+DR   PIR; H27743; H27743.
+DR   PIR; I27743; I27743.
+DR   PDB; 1J8R; X-ray; 1.80 A; A=21-216.
+DR   PDB; 1J8S; X-ray; 2.10 A; A=21-216.
+DR   PDB; 3ME0; X-ray; 2.03 A; B=215-336.
+DR   PDB; 6CD2; X-ray; 3.70 A; B=21-336.
+DR   PDB; 7LHG; EM; 3.80 A; G=1-336.
+DR   PDB; 7LHH; EM; 7.20 A; G=1-336.
+DR   PDB; 7LHI; EM; 7.60 A; G=1-336.
+DR   PDBsum; 1J8R; -.
+DR   PDBsum; 1J8S; -.
+DR   PDBsum; 3ME0; -.
+DR   PDBsum; 6CD2; -.
+DR   PDBsum; 7LHG; -.
+DR   PDBsum; 7LHH; -.
+DR   PDBsum; 7LHI; -.
+DR   AlphaFoldDB; Q47450; -.
+DR   SMR; Q47450; -.
+DR   IntAct; Q47450; 1.
+DR   UniLectin; Q47450; -.
+DR   EvolutionaryTrace; Q47450; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009289; C:pilus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   CDD; cd00239; PapG_CBD; 1.
+DR   Gene3D; 2.60.40.1090; -; 1.
+DR   Gene3D; 2.60.40.1370; -; 1.
+DR   InterPro; IPR036937; Adhesion_dom_fimbrial_sf.
+DR   InterPro; IPR008966; Adhesion_dom_sf.
+DR   InterPro; IPR005310; PapG_carb-bd_N.
+DR   InterPro; IPR038420; PapG_carbohydrate-bd_sf.
+DR   InterPro; IPR005309; PapG_chaper-bd_C.
+DR   Pfam; PF03628; PapG_C; 1.
+DR   Pfam; PF03627; PapG_N; 1.
+DR   SUPFAM; SSF49401; SSF49401; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Fimbrium; Secreted; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..336
+FT                   /note="Fimbrial adhesin PapGII"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5004233089"
+FT   BINDING         79
+FT                   /ligand="D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:4139"
+FT                   /evidence="ECO:0007744|PDB:1J8R"
+FT   BINDING         124..127
+FT                   /ligand="D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:4139"
+FT                   /evidence="ECO:0007744|PDB:1J8R"
+FT   DISULFID        64..138
+FT                   /evidence="ECO:0000269|PubMed:30275511,
+FT                   ECO:0007744|PDB:1J8R, ECO:0007744|PDB:1J8S,
+FT                   ECO:0007744|PDB:6CD2"
+FT   DISULFID        217..249
+FT                   /evidence="ECO:0000269|PubMed:30275511,
+FT                   ECO:0007744|PDB:6CD2"
+FT   MUTAGEN         127
+FT                   /note="W->A: Abolished receptor binding activity."
+FT                   /evidence="ECO:0000269|PubMed:11440716"
+FT   MUTAGEN         190
+FT                   /note="R->A: Abolished receptor binding activity."
+FT                   /evidence="ECO:0000269|PubMed:11440716"
+FT   STRAND          22..29
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          32..40
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          47..50
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          55..64
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          68..70
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          72..74
+FT                   /evidence="ECO:0007829|PDB:1J8S"
+FT   STRAND          76..91
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          97..104
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          109..111
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          116..131
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          135..138
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          144..147
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          154..159
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          166..186
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   HELIX           195..198
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          205..213
+FT                   /evidence="ECO:0007829|PDB:1J8R"
+FT   STRAND          217..219
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          225..227
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          231..234
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          240..251
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          253..261
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          274..278
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          281..287
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          292..315
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          317..319
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+FT   STRAND          326..334
+FT                   /evidence="ECO:0007829|PDB:3ME0"
+SQ   SEQUENCE   336 AA;  37667 MW;  DF6047C92C3F9BAA CRC64;
+     MKKWFPALLF SLCVSGESSA WNNIVFYSLG DVNSYQGGNV VITQRPQFIT SWRPGIATVT
+     WNQCNGPEFA DGFWAYYREY IAWVVFPKKV MTQNGYPLFI EVHNKGSWSE ENTGDNDSYF
+     FLKGYKWDER AFDAGNLCQK PGEITRLTEK FDDIIFKVAL PADLPLGDYS VKIPYTSGMQ
+     RHFASYLGAR FKIPYNVAKT LPRENEMLFL FKNIGGCRPS AQSLEIKHGD LSINSANNHY
+     AAQTLSVSCD VPANIRFMLL RNTTPTYSHG KKFSVGLGHG WDSIVSVNGV DTGETTMRWY
+     KAGTQNLTIG SRLYGESSKI QPGVLSGSAT LLMILP
+//

@@ -1,0 +1,93 @@
+ID   GBPA_YERE8              Reviewed;         494 AA.
+AC   A1JQE6;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   25-MAY-2022, entry version 75.
+DE   RecName: Full=GlcNAc-binding protein A {ECO:0000255|HAMAP-Rule:MF_01905};
+DE   Flags: Precursor;
+GN   Name=gbpA {ECO:0000255|HAMAP-Rule:MF_01905}; OrderedLocusNames=YE3576;
+OS   Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 /
+OS   8081).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=393305;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 13174 / 8081;
+RX   PubMed=17173484; DOI=10.1371/journal.pgen.0020206;
+RA   Thomson N.R., Howard S., Wren B.W., Holden M.T.G., Crossman L.,
+RA   Challis G.L., Churcher C., Mungall K., Brooks K., Chillingworth T.,
+RA   Feltwell T., Abdellah Z., Hauser H., Jagels K., Maddison M., Moule S.,
+RA   Sanders M., Whitehead S., Quail M.A., Dougan G., Parkhill J.,
+RA   Prentice M.B.;
+RT   "The complete genome sequence and comparative genome analysis of the high
+RT   pathogenicity Yersinia enterocolitica strain 8081.";
+RL   PLoS Genet. 2:2039-2051(2006).
+CC   -!- FUNCTION: Probably interacts with GlcNAc residues. May promote
+CC       attachment to both epithelial cell surfaces and chitin.
+CC       {ECO:0000255|HAMAP-Rule:MF_01905}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000255|HAMAP-Rule:MF_01905}.
+CC   -!- SIMILARITY: Belongs to the GbpA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01905}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM286415; CAL13602.1; -; Genomic_DNA.
+DR   RefSeq; WP_005173861.1; NC_008800.1.
+DR   RefSeq; YP_001007736.1; NC_008800.1.
+DR   AlphaFoldDB; A1JQE6; -.
+DR   SMR; A1JQE6; -.
+DR   STRING; 393305.YE3576; -.
+DR   CAZy; AA10; Auxiliary Activities 10.
+DR   CAZy; CBM5; Carbohydrate-Binding Module Family 5.
+DR   PRIDE; A1JQE6; -.
+DR   EnsemblBacteria; CAL13602; CAL13602; YE3576.
+DR   KEGG; yen:YE3576; -.
+DR   PATRIC; fig|393305.7.peg.3799; -.
+DR   eggNOG; COG3397; Bacteria.
+DR   HOGENOM; CLU_039396_2_0_6; -.
+DR   OMA; WTFTANH; -.
+DR   Proteomes; UP000000642; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0008061; F:chitin binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   HAMAP; MF_01905; GbpA; 1.
+DR   InterPro; IPR036573; CBM_sf_5/12.
+DR   InterPro; IPR004302; Cellulose/chitin-bd_N.
+DR   InterPro; IPR041029; GbpA_2.
+DR   InterPro; IPR020879; GlcNAc-bd_A.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   Pfam; PF18416; GbpA_2; 1.
+DR   Pfam; PF03067; LPMO_10; 1.
+DR   SUPFAM; SSF51055; SSF51055; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Chitin-binding; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01905"
+FT   CHAIN           22..494
+FT                   /note="GlcNAc-binding protein A"
+FT                   /id="PRO_5000201303"
+FT   DOMAIN          22..192
+FT                   /note="Chitin-binding type-4"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01905"
+FT   DOMAIN          435..484
+FT                   /note="Chitin-binding type-3"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01905"
+FT   REGION          474..494
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   494 AA;  53425 MW;  E85D14542CBFF109 CRC64;
+     MKLNKIMLAM VVMSISGTAM AHGYIENPPS RNFLCNAQGG SLNKDCGGVQ YEPQSSGETA
+     DGFPQQGPVD GKLASGDNWV SVNLNQQTAE RWTKVKMKAG PQEFKWKFTA AHPIADFKYY
+     MTKQDWNPNQ PLTRDSLDLT PFCVIPGGPA STTGSTTHTC NIPERTGYQV IYGAWDVSDT
+     PGTFYNMIDA EFDGATGEVV VSEWTKSIGN IEPHDDLNAG DTVKLRMFDQ QGERSDLVVE
+     ITIADAKEGK KNNWSHALAS KLNNTHQDIR AGKKDSKGTV TATHGANAIF INANSNILRA
+     EVQIEKSPAG EVSATDASFS ANGMKKEYQM ADGALAIHFD VKTMGSMDLE AKVFAADNSV
+     KGYKDMTLED ASQHVSIAMT GLKAGKHTLV ILGTDAQGKT QQQSIDFMVK GETVKPEVKP
+     EVKPEVDGAN KQCTAPAWSN KSSYQAKDTV THNGRIYMSK WWADKASVPG DAAVTDTTGN
+     GSGWGKVWED KGAC
+//

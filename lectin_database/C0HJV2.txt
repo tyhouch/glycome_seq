@@ -1,0 +1,224 @@
+ID   LEC_LUFAC               Reviewed;         209 AA.
+AC   C0HJV2;
+DT   06-JUL-2016, integrated into UniProtKB/Swiss-Prot.
+DT   06-JUL-2016, sequence version 1.
+DT   25-MAY-2022, entry version 6.
+DE   RecName: Full=Lectin {ECO:0000303|PubMed:26597132};
+DE   AltName: Full=Agglutinin {ECO:0000303|PubMed:26597132};
+DE            Short=LAA {ECO:0000303|PubMed:26597132};
+OS   Luffa acutangula (Ridged gourd) (Cucumis acutangulus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Cucurbitales; Cucurbitaceae; Sicyoeae; Luffa.
+OX   NCBI_TaxID=56866 {ECO:0000303|PubMed:26597132};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, MASS SPECTROMETRY, DIMERIZATION, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Phloem {ECO:0000303|PubMed:26597132};
+RX   PubMed=26597132; DOI=10.1002/iub.1451;
+RA   Kumar G., Mishra P., Anantharam V., Surolia A.;
+RT   "Luffa acutangula agglutinin: primary structure determination and
+RT   identification of a tryptophan residue involved in its carbohydrate-binding
+RT   activity using mass spectrometry.";
+RL   IUBMB Life 67:943-953(2015).
+CC   -!- FUNCTION: Binds chito-oligosaccherides. Has hemagglutinating activity
+CC       towards rabbit erythrocytes. {ECO:0000269|PubMed:26597132}.
+CC   -!- SUBUNIT: Homodimer; non-covalently linked.
+CC       {ECO:0000269|PubMed:26597132}.
+CC   -!- MASS SPECTROMETRY: Mass=23270; Mass_error=2; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:26597132};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; C0HJV2; -.
+DR   SMR; C0HJV2; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR025886; PP2-like.
+DR   Pfam; PF14299; PP2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Hemagglutinin; Lectin.
+FT   CHAIN           1..209
+FT                   /note="Lectin"
+FT                   /evidence="ECO:0000269|PubMed:26597132"
+FT                   /id="PRO_0000436785"
+FT   SITE            102
+FT                   /note="Important for carbohydrate binding"
+FT                   /evidence="ECO:0000269|PubMed:26597132"
+FT   UNSURE          3
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          9
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          14
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          17
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          18
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          19
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          21
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          32
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          33
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          34
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          37
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          42
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          44
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          49
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          55
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          64
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          69
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          70
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          71
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          75
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          77
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          86
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          92
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          97
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          98
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          103
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          105
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          109
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          114
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          118
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          128
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          137
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          142
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          143
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          144
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          151
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          154
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          157
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          158
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          160
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          168
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          174
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          175
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          181
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          184
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          188
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          190
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          192
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          195
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          198
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          199
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          201
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          203
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          205
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          206
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          208
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+FT   UNSURE          209
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000303|PubMed:26597132"
+SQ   SEQUENCE   209 AA;  23720 MW;  4B98502BD14C1F2C CRC64;
+     GELVGGEVKV GHNLEAILKG LDVDVYSVPS FIKLYDQVTA GIFLNNRTKR YWFDKNAESN
+     CFMLYARDLL ITWSQDKRYW RWNPFQEHGN TLEVAELIDV CWLNIVGNIE TSVLSPGISY
+     EAAFEVMLTN SASGWRIPVD VKLKMPDGSE QESQVNLQDK PRGVWFFISV GHFKISVGET
+     IGNIEFSIVQ HQEAKRGLLV KGLVIQPKQ
+//

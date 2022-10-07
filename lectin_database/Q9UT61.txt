@@ -1,0 +1,377 @@
+ID   MAN1_SCHPO              Reviewed;        1077 AA.
+AC   Q9UT61;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 122.
+DE   RecName: Full=Alpha-mannosidase;
+DE            EC=3.2.1.24;
+DE   AltName: Full=Alpha-D-mannoside mannohydrolase;
+GN   Name=ams1; Synonyms=mns2; ORFNames=SPAC513.05;
+OS   Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+OC   Schizosaccharomycetes; Schizosaccharomycetales; Schizosaccharomycetaceae;
+OC   Schizosaccharomyces.
+OX   NCBI_TaxID=284812;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=972 / ATCC 24843;
+RX   PubMed=11859360; DOI=10.1038/nature724;
+RA   Wood V., Gwilliam R., Rajandream M.A., Lyne M.H., Lyne R., Stewart A.,
+RA   Sgouros J.G., Peat N., Hayles J., Baker S.G., Basham D., Bowman S.,
+RA   Brooks K., Brown D., Brown S., Chillingworth T., Churcher C.M., Collins M.,
+RA   Connor R., Cronin A., Davis P., Feltwell T., Fraser A., Gentles S.,
+RA   Goble A., Hamlin N., Harris D.E., Hidalgo J., Hodgson G., Holroyd S.,
+RA   Hornsby T., Howarth S., Huckle E.J., Hunt S., Jagels K., James K.D.,
+RA   Jones L., Jones M., Leather S., McDonald S., McLean J., Mooney P.,
+RA   Moule S., Mungall K.L., Murphy L.D., Niblett D., Odell C., Oliver K.,
+RA   O'Neil S., Pearson D., Quail M.A., Rabbinowitsch E., Rutherford K.M.,
+RA   Rutter S., Saunders D., Seeger K., Sharp S., Skelton J., Simmonds M.N.,
+RA   Squares R., Squares S., Stevens K., Taylor K., Taylor R.G., Tivey A.,
+RA   Walsh S.V., Warren T., Whitehead S., Woodward J.R., Volckaert G., Aert R.,
+RA   Robben J., Grymonprez B., Weltjens I., Vanstreels E., Rieger M.,
+RA   Schaefer M., Mueller-Auer S., Gabel C., Fuchs M., Duesterhoeft A.,
+RA   Fritzc C., Holzer E., Moestl D., Hilbert H., Borzym K., Langer I., Beck A.,
+RA   Lehrach H., Reinhardt R., Pohl T.M., Eger P., Zimmermann W., Wedler H.,
+RA   Wambutt R., Purnelle B., Goffeau A., Cadieu E., Dreano S., Gloux S.,
+RA   Lelaure V., Mottier S., Galibert F., Aves S.J., Xiang Z., Hunt C.,
+RA   Moore K., Hurst S.M., Lucas M., Rochet M., Gaillardin C., Tallada V.A.,
+RA   Garzon A., Thode G., Daga R.R., Cruzado L., Jimenez J., Sanchez M.,
+RA   del Rey F., Benito J., Dominguez A., Revuelta J.L., Moreno S.,
+RA   Armstrong J., Forsburg S.L., Cerutti L., Lowe T., McCombie W.R.,
+RA   Paulsen I., Potashkin J., Shpakovski G.V., Ussery D., Barrell B.G.,
+RA   Nurse P.;
+RT   "The genome sequence of Schizosaccharomyces pombe.";
+RL   Nature 415:871-880(2002).
+RN   [2]
+RP   SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS].
+RX   PubMed=16823372; DOI=10.1038/nbt1222;
+RA   Matsuyama A., Arai R., Yashiroda Y., Shirai A., Kamata A., Sekido S.,
+RA   Kobayashi Y., Hashimoto A., Hamamoto M., Hiraoka Y., Horinouchi S.,
+RA   Yoshida M.;
+RT   "ORFeome cloning and global analysis of protein localization in the fission
+RT   yeast Schizosaccharomyces pombe.";
+RL   Nat. Biotechnol. 24:841-847(2006).
+CC   -!- FUNCTION: Degrades free oligosaccharides in the vacuole. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-mannose residues
+CC         in alpha-D-mannosides.; EC=3.2.1.24;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:16823372}. Vacuole
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU329670; CAB58728.1; -; Genomic_DNA.
+DR   PIR; T38900; T38900.
+DR   RefSeq; NP_593979.1; NM_001019405.2.
+DR   PDB; 6LZ1; EM; 3.20 A; A/B/C/D=1-1077.
+DR   PDB; 7DD9; EM; 2.40 A; A/C/E/G=1-1077.
+DR   PDBsum; 6LZ1; -.
+DR   PDBsum; 7DD9; -.
+DR   AlphaFoldDB; Q9UT61; -.
+DR   SMR; Q9UT61; -.
+DR   BioGRID; 279905; 1.
+DR   STRING; 4896.SPAC513.05.1; -.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   iPTMnet; Q9UT61; -.
+DR   MaxQB; Q9UT61; -.
+DR   PaxDb; Q9UT61; -.
+DR   PRIDE; Q9UT61; -.
+DR   EnsemblFungi; SPAC513.05.1; SPAC513.05.1:pep; SPAC513.05.
+DR   GeneID; 2543485; -.
+DR   KEGG; spo:SPAC513.05; -.
+DR   PomBase; SPAC513.05; ams1.
+DR   VEuPathDB; FungiDB:SPAC513.05; -.
+DR   eggNOG; KOG4342; Eukaryota.
+DR   HOGENOM; CLU_003442_0_1_1; -.
+DR   InParanoid; Q9UT61; -.
+DR   OMA; GQYWDAW; -.
+DR   PhylomeDB; Q9UT61; -.
+DR   Reactome; R-SPO-8853383; Lysosomal oligosaccharide catabolism.
+DR   PRO; PR:Q9UT61; -.
+DR   Proteomes; UP000002485; Chromosome I.
+DR   GO; GO:0005829; C:cytosol; HDA:PomBase.
+DR   GO; GO:0000328; C:fungal-type vacuole lumen; IDA:PomBase.
+DR   GO; GO:0000329; C:fungal-type vacuole membrane; ISO:PomBase.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0052767; F:mannosyl-oligosaccharide 1,6-alpha-mannosidase activity; ISS:PomBase.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:InterPro.
+DR   GO; GO:0009313; P:oligosaccharide catabolic process; IBA:GO_Central.
+DR   Gene3D; 1.20.1270.50; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR041147; GH38_C.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF17677; Glyco_hydro38C2; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Glycosidase; Hydrolase; Metal-binding;
+KW   Reference proteome; Vacuole; Zinc.
+FT   CHAIN           1..1077
+FT                   /note="Alpha-mannosidase"
+FT                   /id="PRO_0000363389"
+FT   ACT_SITE        402
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         290
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         292
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         402
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         615
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   HELIX           17..22
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           23..26
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           34..36
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           38..41
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          42..45
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           51..53
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          62..69
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          71..73
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            79..84
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          89..91
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          103..111
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           114..117
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          123..131
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          141..143
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            147..149
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          152..154
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          157..159
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            160..163
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          165..174
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          180..182
+FT                   /evidence="ECO:0007829|PDB:6LZ1"
+FT   STRAND          193..201
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           205..223
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           229..244
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           251..264
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           271..275
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          282..288
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          293..297
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           299..319
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          325..327
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           330..339
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           341..352
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          356..358
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          362..364
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          368..371
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           373..390
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          397..399
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           410..416
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          421..423
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           426..429
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          438..443
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          447..453
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          456..458
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          460..462
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           466..474
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            477..481
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          485..490
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          493..495
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           500..515
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           528..538
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            539..544
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          547..550
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           558..561
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           565..591
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           599..611
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            615..620
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           624..652
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          654..656
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            658..660
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           663..665
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          666..669
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          672..674
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          678..686
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          688..692
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          697..702
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          712..715
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          720..723
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          725..731
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          737..742
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            743..746
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          747..749
+FT                   /evidence="ECO:0007829|PDB:6LZ1"
+FT   STRAND          753..756
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          761..768
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   TURN            775..777
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           781..785
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          786..790
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          794..800
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          802..814
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          817..826
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          828..830
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           831..833
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          837..845
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          848..857
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          863..869
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          872..879
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           883..887
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          889..892
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          894..900
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          905..912
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          915..919
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          922..929
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          941..956
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   HELIX           958..967
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          972..977
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          979..981
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          988..993
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          997..1004
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          1006..1009
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          1011..1021
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          1023..1029
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          1034..1040
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          1046..1050
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          1061..1065
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+FT   STRAND          1070..1077
+FT                   /evidence="ECO:0007829|PDB:7DD9"
+SQ   SEQUENCE   1077 AA;  122438 MW;  8774DDF4A2194A46 CRC64;
+     MTLFPVLNNT PVGKQVDSIY ESRLDQFLSE GQYRDFNLPS VYDHARIDNP SGDVNNDLSK
+     GFVDLKVYRV PDLSRPSFNE VVGHKKFDET ASKGDTFGPS WATFWFEVHI RLPKSWAKYE
+     QVIFQWNCDN EGLVYSQDGV PLQAFSGSER TDFILPDSWK TTEDTFYIEM ACNGMFGTGA
+     GSQIAPPDPN RYFTLTKADL VAPNLPAMAL AYDFLLMQQC VKQLPSNCWQ KYKARQICND
+     IMNTFHPNDL STINECRNLA KAFLGNDIDS EAVFEKNNDK ANVFAIGHCH IDTAWLWPFA
+     ETRRKIVRSW ATQMNIMDRY PEYQFVCSQA LQYLWLKEDH PDVFEKLKEY VNQNKFIPIG
+     GSWVEHDTNI PNGESLIRQF LLGQHFFEKE FGVRCRTFWL PDTFGYSSQI PQICRLCGMD
+     RFLTQKLSWN NINSFPTSTF NWVALDGSQV ICHMPPANTY TADTNVNDVL HSIDQHKNLV
+     NDQAGLLVFG IGDGGGGPTP EMLEKLRRCK GIANTVGYLP NVKLGNTVDE FFDGILKRTN
+     AGQTLPSWNG ELYFEFHRGT YTTQAELKKL MRKVEIALHD AEYVSTLASI FSKDYSYPKE
+     SLQDLWRDTL LCQFHDVLPG SCIEMVYKDA IPIMSKVLKN TEALLWQAIE QLGFKKASSS
+     DNKEQLCLLN TLPWNVRGVI TETEENKLVY FESCDGKGIL TAAHTSLKHP AAAYQKDDNF
+     ILVNDHLRVT IAPNGLILSL FDLHKEREIL DLKSGKNHAG ANQYVLFEDT PLSWQAWDTE
+     VFSLEKYEVL DKGKVSIKES GPLRASVVVD IPISELSHMK ATISLEGYND CSEFTGVNFT
+     CEVDWHESCK FLKVEFPVDI HSEFASYETQ FGITKRPTHY NTSWDVAKFE VCHQKFADYS
+     DFTYGVSVLN DCKYGFSTHG NLMRLSLLRS PKQPDAHADM GKHTIRYAVY PHSKPLDSST
+     VRAAHKFNSN FRLLTRASDT ANLDIFDAFQ LVGEPNVILS HIKMAEKGKS IILRVYESLG
+     GKSRARLVIK SLTVASVTKC NGLEEDLEEL CTLKSNDYYE VPIELRAFEI ATFKVNL
+//

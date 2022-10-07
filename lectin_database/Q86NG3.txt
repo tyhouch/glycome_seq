@@ -1,0 +1,106 @@
+ID   CLC88_CAEEL             Reviewed;         228 AA.
+AC   Q86NG3;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   03-AUG-2022, entry version 108.
+DE   RecName: Full=C-type lectin domain-containing protein 88;
+DE   AltName: Full=Chondroitin proteoglycan 6;
+DE   Flags: Precursor;
+GN   Name=clec-88 {ECO:0000312|WormBase:K10B2.3a};
+GN   Synonyms=cpg-6 {ECO:0000312|EMBL:ABC65816.1}; ORFNames=K10B2.3;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:ABC65816.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], IDENTIFICATION BY MASS SPECTROMETRY, AND
+RP   GLYCOSYLATION AT SER-27.
+RX   PubMed=16785326; DOI=10.1083/jcb.200603003;
+RA   Olson S.K., Bishop J.R., Yates J.R., Oegema K., Esko J.D.;
+RT   "Identification of novel chondroitin proteoglycans in Caenorhabditis
+RT   elegans: embryonic cell division depends on CPG-1 and CPG-2.";
+RL   J. Cell Biol. 173:985-994(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [3]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-220, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Bristol N2;
+RX   PubMed=17761667; DOI=10.1074/mcp.m600392-mcp200;
+RA   Kaji H., Kamiie J., Kawakami H., Kido K., Yamauchi Y., Shinkawa T.,
+RA   Taoka M., Takahashi N., Isobe T.;
+RT   "Proteomics reveals N-linked glycoprotein diversity in Caenorhabditis
+RT   elegans and suggests an atypical translocation mechanism for integral
+RT   membrane proteins.";
+RL   Mol. Cell. Proteomics 6:2100-2109(2007).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ340628; ABC65816.1; -; mRNA.
+DR   EMBL; FO080748; CCD66394.1; -; Genomic_DNA.
+DR   RefSeq; NP_495283.2; NM_062882.7.
+DR   AlphaFoldDB; Q86NG3; -.
+DR   SMR; Q86NG3; -.
+DR   STRING; 6239.K10B2.3b; -.
+DR   iPTMnet; Q86NG3; -.
+DR   EPD; Q86NG3; -.
+DR   PeptideAtlas; Q86NG3; -.
+DR   EnsemblMetazoa; K10B2.3a.1; K10B2.3a.1; WBGene00019606.
+DR   GeneID; 174056; -.
+DR   UCSC; K10B2.3a.1; c. elegans.
+DR   CTD; 174056; -.
+DR   WormBase; K10B2.3a; CE33419; WBGene00019606; clec-88.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00970000196041; -.
+DR   HOGENOM; CLU_093598_0_0_1; -.
+DR   InParanoid; Q86NG3; -.
+DR   PRO; PR:Q86NG3; -.
+DR   Proteomes; UP000001940; Chromosome II.
+DR   Bgee; WBGene00019606; Expressed in germ line (C elegans) and 4 other tissues.
+DR   ExpressionAtlas; Q86NG3; baseline and differential.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Lectin; Proteoglycan; Reference proteome;
+KW   Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..228
+FT                   /note="C-type lectin domain-containing protein 88"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000320339"
+FT   DOMAIN          88..218
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        27
+FT                   /note="O-linked (Xyl...) (chondroitin sulfate) serine"
+FT                   /evidence="ECO:0000269|PubMed:16785326"
+FT   CARBOHYD        220
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:17761667"
+FT   DISULFID        109..217
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        188..209
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   228 AA;  26070 MW;  00C2ED5666DF96AF CRC64;
+     MQFIFFGTLF SGLLLVCAVT NDIEDASGET PGIVSQITEE QPHQRQKLYN WDYKDLGTIA
+     FEDIPFPTLQ PSQTIDQSEN CPEGWIRYSD SCYWVETELL GFAKAERKCS EKQSTLFVAN
+     SIDEWEAIRG HSKDSFSSWI GLVRFSHYER SEQLPRWQTE GAVNPSKINW LIKPYSPLVN
+     GWSQLANCAA SYKSPASLET ASYTYFYPCT YLFYSICERN STIANSLH
+//

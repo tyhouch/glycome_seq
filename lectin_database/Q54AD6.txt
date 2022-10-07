@@ -1,0 +1,86 @@
+ID   Q54AD6_9CALI            Unreviewed;       535 AA.
+AC   Q54AD6;
+DT   24-MAY-2005, integrated into UniProtKB/TrEMBL.
+DT   24-MAY-2005, sequence version 1.
+DT   03-AUG-2022, entry version 45.
+DE   SubName: Full=VP1 protein {ECO:0000313|EMBL:BAD20208.1};
+OS   Norwalk-like virus.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Caliciviridae; Norovirus.
+OX   NCBI_TaxID=95340 {ECO:0000313|EMBL:BAD20208.1, ECO:0000313|Proteomes:UP000136094};
+RN   [1] {ECO:0000313|EMBL:BAD20208.1, ECO:0000313|Proteomes:UP000136094}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hu/Norovirus/hiroshima/1999/JP {ECO:0000313|EMBL:BAD20208.1};
+RX   PubMed=15593412; DOI=10.1007/s00705-004-0345-4;
+RA   Hansman G.S., Doan L.T., Kguyen T.A., Okitsu S., Katayama K., Ogawa S.,
+RA   Natori K., Takeda N., Kato Y., Nishio O., Noda M., Ushijima H.;
+RT   "Detection of norovirus and sapovirus infection among children with
+RT   gastroenteritis in Ho Chi Minh City, Vietnam.";
+RL   Arch. Virol. 149:1673-1688(2004).
+RN   [2] {ECO:0007829|PDB:3R6J, ECO:0007829|PDB:3R6K}
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF 225-525 IN COMPLEX WITH FUCOSE.
+RX   PubMed=21525337; DOI=10.1128/JVI.00246-11;
+RA   Hansman G.S., Biertumpfel C., Georgiev I., McLellan J.S., Chen L., Zhou T.,
+RA   Katayama K., Kwong P.D.;
+RT   "Crystal structures of GII.10 and GII.12 norovirus protruding domains in
+RT   complex with histo-blood group antigens reveal details for a potential site
+RT   of vulnerability.";
+RL   J. Virol. 85:6687-6701(2011).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB044366; BAD20208.1; -; Genomic_RNA.
+DR   RefSeq; YP_009237898.1; NC_029646.1.
+DR   PDB; 3R6J; X-ray; 1.75 A; A=224-525.
+DR   PDB; 3R6K; X-ray; 1.60 A; A=225-525.
+DR   PDBsum; 3R6J; -.
+DR   PDBsum; 3R6K; -.
+DR   SMR; Q54AD6; -.
+DR   UniLectin; Q54AD6; -.
+DR   GeneID; 27042432; -.
+DR   KEGG; vg:27042432; -.
+DR   Proteomes; UP000136094; Genome.
+DR   CDD; cd00205; rhv_like; 1.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   InterPro; IPR004005; Calicivirus_coat.
+DR   InterPro; IPR013643; Calicivirus_coat_C.
+DR   InterPro; IPR033703; Rhv-like.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00915; Calici_coat; 1.
+DR   Pfam; PF08435; Calici_coat_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3R6J, ECO:0007829|PDB:3R6K}.
+FT   DOMAIN          12..275
+FT                   /note="Calici_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00915"
+FT   DOMAIN          305..533
+FT                   /note="Calici_coat_C"
+FT                   /evidence="ECO:0000259|Pfam:PF08435"
+FT   BINDING         345
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3R6K"
+FT   BINDING         346
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3R6K"
+FT   BINDING         375
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3R6K"
+FT   BINDING         438
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:3R6K"
+SQ   SEQUENCE   535 AA;  58450 MW;  02B77FFB68B7B158 CRC64;
+     MKMASSDAAP SNDGAAGLVP EANNETMALE PVAGASIAAP LTGQNNIIDP WIRLNFVQAP
+     NGEFTVSPRN SPGEVLLNLE LGPELNPYLA HLSRMYNGYA GGVEVQVLLA GNAFTAGKLV
+     FAAVPPHFPL ENISPGQITM FPHVIIDVRT LEPVLLPLPD VRNNFFHYNQ QNEPRMRLVA
+     MLYTPLRSNG SGDDVFTVSC RVLTRPSPDF DFNYLVPPTV ESKTKPFTLP ILTIGELTNS
+     RFPVPIDELY TSPNESLVVQ PQNGRCALDG ELQGTTQLLP TAICSFRGRI NQKVSGENHV
+     WNMQVTNING TPFDPTEDVP APLGTPDFSG KLFGVLSQRD HDNACRSHDA VIATNSAKFT
+     PKLGAIQIGT WEEDDVHINQ PTKFTPVGLF EDGGFNQWTL PNYSGALTLN MGLAPPVAPT
+     FPGEQILFFR SHIPLKGGVA DPVIDCLLPQ EWIQHLYQES APSQSDVALI RFTNPDTGRV
+     LFEAKLHRSG YITVANTGSR PIVVPANGYF RFDSWVNQFY SLAPMGTGNG RRRVQ
+//

@@ -1,0 +1,217 @@
+ID   ASGR2_RAT               Reviewed;         301 AA.
+AC   P08290; Q5M8C9;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 4.
+DT   03-AUG-2022, entry version 159.
+DE   RecName: Full=Asialoglycoprotein receptor 2;
+DE            Short=ASGP-R 2;
+DE            Short=ASGPR 2;
+DE   AltName: Full=Hepatic lectin R2/3;
+DE            Short=HL-2;
+DE            Short=rHL-2;
+GN   Name=Asgr2; Synonyms=Asgr-2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3600647; DOI=10.1128/mcb.7.5.1841-1847.1987;
+RA   McPhaul M., Berg P.;
+RT   "Identification and characterization of cDNA clones encoding two homologous
+RT   proteins that are part of the asialoglycoprotein receptor.";
+RL   Mol. Cell. Biol. 7:1841-1847(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3597443; DOI=10.1016/s0021-9258(18)48008-8;
+RA   Halberg D.F., Wager R.E., Farrell D.C., Hildreth J., Quesenberry M.S.,
+RA   Loeb J.A., Holland E.C., Drickamer K.;
+RT   "Major and minor forms of the rat liver asialoglycoprotein receptor are
+RT   independent galactose-binding proteins. Primary structure and glycosylation
+RT   heterogeneity of minor receptor forms.";
+RL   J. Biol. Chem. 262:9828-9838(1987).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=3234178; DOI=10.1089/dna.1988.7.721;
+RA   Sanford J.P., Elliott R.W., Doyle D.;
+RT   "Asialoglycoprotein receptor genes are linked on chromosome 11 in the
+RT   mouse.";
+RL   DNA 7:721-728(1988).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 201-301.
+RX   PubMed=6319386; DOI=10.1016/s0021-9258(17)43524-1;
+RA   Drickamer K., Mamon J.F., Binns G., Leung J.O.;
+RT   "Primary structure of the rat liver asialoglycoprotein receptor. Structural
+RT   evidence for multiple polypeptide species.";
+RL   J. Biol. Chem. 259:770-778(1984).
+RN   [6]
+RP   PALMITOYLATION AT CYS-54.
+RX   PubMed=8943311; DOI=10.1074/jbc.271.50.32454;
+RA   Zeng F.Y., Weigel P.H.;
+RT   "Fatty acylation of the rat and human asialoglycoprotein receptors. A
+RT   conserved cytoplasmic cysteine residue is acylated in all receptor
+RT   subunits.";
+RL   J. Biol. Chem. 271:32454-32460(1996).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-13, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Mediates the endocytosis of plasma glycoproteins to which the
+CC       terminal sialic acid residue on their complex carbohydrate moieties has
+CC       been removed. The receptor recognizes terminal galactose and N-
+CC       acetylgalactosamine units. After ligand binding to the receptor, the
+CC       resulting complex is internalized and transported to a sorting
+CC       organelle, where receptor and ligand are disassociated. The receptor
+CC       then returns to the cell membrane surface.
+CC   -!- SUBUNIT: Interacts with LASS2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed exclusively in hepatic parenchymal cells.
+CC   -!- MISCELLANEOUS: Calcium is required for ligand binding.
+CC   -!- MISCELLANEOUS: Two types of rat hepatic lectin have been identified,
+CC       RHL-1 and RHL-2/3, having a relative abundance of 4:1. RHL-2 and RHL-3
+CC       only differs in their carbohydrate structures.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Hepatic asialoglycoprotein receptor subunit 2/3;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_rat_Ctlect_357";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M16347; AAA42038.1; -; mRNA.
+DR   EMBL; J02762; AAA41522.1; -; mRNA.
+DR   EMBL; X07636; CAA30476.1; -; mRNA.
+DR   EMBL; BC088099; AAH88099.1; -; mRNA.
+DR   PIR; B28462; LNRT2.
+DR   RefSeq; NP_058885.1; NM_017189.2.
+DR   RefSeq; XP_006246738.1; XM_006246676.3.
+DR   AlphaFoldDB; P08290; -.
+DR   SMR; P08290; -.
+DR   IntAct; P08290; 1.
+DR   STRING; 10116.ENSRNOP00000060474; -.
+DR   GlyGen; P08290; 3 sites.
+DR   iPTMnet; P08290; -.
+DR   PhosphoSitePlus; P08290; -.
+DR   SwissPalm; P08290; -.
+DR   PaxDb; P08290; -.
+DR   PRIDE; P08290; -.
+DR   Ensembl; ENSRNOT00000065370; ENSRNOP00000060474; ENSRNOG00000030726.
+DR   GeneID; 29403; -.
+DR   KEGG; rno:29403; -.
+DR   UCSC; RGD:2161; rat.
+DR   CTD; 433; -.
+DR   RGD; 2161; Asgr2.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000162310; -.
+DR   HOGENOM; CLU_049894_2_0_1; -.
+DR   InParanoid; P08290; -.
+DR   OMA; RTLTCQM; -.
+DR   OrthoDB; 1247924at2759; -.
+DR   PhylomeDB; P08290; -.
+DR   TreeFam; TF352155; -.
+DR   Reactome; R-RNO-446203; Asparagine N-linked glycosylation.
+DR   PRO; PR:P08290; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000030726; Expressed in liver and 15 other tissues.
+DR   ExpressionAtlas; P08290; baseline and differential.
+DR   Genevisible; P08290; RN.
+DR   GO; GO:0044322; C:endoplasmic reticulum quality control compartment; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0030282; P:bone mineralization; IEP:RGD.
+DR   GO; GO:0006897; P:endocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0009100; P:glycoprotein metabolic process; ISO:RGD.
+DR   GO; GO:0055088; P:lipid homeostasis; ISO:RGD.
+DR   GO; GO:0031647; P:regulation of protein stability; ISO:RGD.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Endocytosis;
+KW   Glycoprotein; Lectin; Lipoprotein; Membrane; Palmitate; Phosphoprotein;
+KW   Receptor; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..301
+FT                   /note="Asialoglycoprotein receptor 2"
+FT                   /id="PRO_0000046656"
+FT   TOPO_DOM        1..58
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        59..79
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        80..301
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          169..295
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..29
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..24
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         13
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   LIPID           54
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000269|PubMed:8943311"
+FT   CARBOHYD        97
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        119
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        165
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   DISULFID        170..181
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        198..293
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        271..285
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CONFLICT        153
+FT                   /note="R -> A (in Ref. 1; AAA42038)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        202
+FT                   /note="N -> I (in Ref. 1; AAA42038)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        260
+FT                   /note="W -> C (in Ref. 1; AAA42038 and 5; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        282..283
+FT                   /note="DN -> ND (in Ref. 5; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   301 AA;  35027 MW;  21832FA713C3433C CRC64;
+     MEKDFQDIQQ LDSEENDHQL IGDEEQGSHV QNLRTENPRW GGQPPSRPFP QRLCSKFRLS
+     LLALAFNILL LVVICVVSSQ SMQLQKEFWT LKETLSNFST TTLMEFKALD SHGGSRNDNL
+     TSWETILEKK QKDIKADHST LLFHLKHFPL DLRTLTCQLA FFLSNGTECC PVNWVEFGGS
+     CYWFSRDGLT WAEADQYCQM ENAHLLVINS REEQEFVVKH RGAFHIWIGL TDKDGSWKWV
+     DGTEYRSNFK NWAFTQPDNW QGHEEGGSED CAEILSDGLW NDNFCQQVNR WACERKRDIT
+     Y
+//

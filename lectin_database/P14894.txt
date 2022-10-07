@@ -1,0 +1,201 @@
+ID   CONA_CANGL              Reviewed;         290 AA.
+AC   P14894;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 1.
+DT   03-AUG-2022, entry version 126.
+DE   RecName: Full=Concanavalin-A;
+DE            Short=Con A;
+DE   Flags: Precursor;
+OS   Canavalia gladiata (Sword bean) (Dolichos gladiatus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Canavalia.
+OX   NCBI_TaxID=3824;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   TISSUE=Seedling;
+RX   PubMed=2404793; DOI=10.1016/0014-5793(90)80083-u;
+RA   Yamauchi D., Minamikawa T.;
+RT   "Structure of the gene encoding concanavalin A from Canavalia gladiata and
+RT   its expression in Escherichia coli cells.";
+RL   FEBS Lett. 260:127-130(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   TISSUE=Seed;
+RA   Yamauchi D., Nakamura K., Asahi T., Minamikawa T.;
+RT   "Nucleotide sequence of cDNA for concanavalin A from Canavalia gladiata
+RT   seeds.";
+RL   Plant Cell Physiol. 30:147-150(1989).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 164-183, AND FUNCTION.
+RC   TISSUE=Fruit;
+RX   PubMed=15935326; DOI=10.1016/j.abb.2005.05.004;
+RA   Wong J.H., Ng T.B.;
+RT   "Isolation and characterization of a glucose/mannose/rhamnose-specific
+RT   lectin from the knife bean Canavalia gladiata.";
+RL   Arch. Biochem. Biophys. 439:91-98(2005).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 30-281 IN COMPLEX WITH
+RP   ALPHA-AMINOBUTYRIC ACID; ALPHA-METHYL-MANNOSIDE; CALCIUM AND MANGANESE
+RP   IONS, IDENTIFICATION BY MASS SPECTROMETRY, AND SUBUNIT.
+RX   PubMed=17683532; DOI=10.1186/1472-6807-7-52;
+RA   Delatorre P., Rocha B.A.M., Souza E.P., Oliveira T.M., Bezerra G.A.,
+RA   Moreno F.B.M.B., Freitas B.T., Santi-Gadelha T., Sampaio A.H.,
+RA   Azevedo W.F. Jr., Cavada B.S.;
+RT   "Structure of a lectin from Canavalia gladiata seeds: new structural
+RT   insights for old molecules.";
+RL   BMC Struct. Biol. 7:52-52(2007).
+CC   -!- FUNCTION: Glucose/D-mannose/rhamnose specific lectin. Has
+CC       hemagglutinating activity towards rabbit erythrocytes. Has mitogenic
+CC       activity towards murine splenocytes that is inhibited by glucose.
+CC       Inhibits HIV-1 reverse transcriptase with an IC(50) of 35 uM. Has a
+CC       potent antiproliferative activity against L1210 leukemia cells in vitro
+CC       that is not inhibited by glucose. Inhibits translation in cell-free
+CC       rabbit reticulocyte system with an IC(50) of 2.08 uM. Lacks anti-fungal
+CC       activity against M.arachidicola, B.cenera and F.oxysporum.
+CC       {ECO:0000269|PubMed:15935326}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:17683532}.
+CC   -!- PTM: The mature chain consists of residues 164-281 followed by 30-148.
+CC       To form a mature chain the precursor undergoes further post-
+CC       translational modification after removal of the signal sequence;
+CC       cleavage after Asn at positions Asn-148, Asn-163, and Asn-281 is
+CC       followed by transposition and ligation (By formation of a new peptide
+CC       bond) of residues 164-281 and 30-148.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X16041; CAA34163.1; -; Genomic_DNA.
+DR   PIR; A34139; A34139.
+DR   PDB; 1WUV; X-ray; 2.30 A; A/D/G/J=28-148.
+DR   PDB; 2D7F; X-ray; 2.31 A; A/F/L/S=28-148.
+DR   PDB; 2EF6; X-ray; 2.10 A; A/B/C/D=28-148.
+DR   PDB; 2OVU; X-ray; 1.50 A; A=28-148.
+DR   PDB; 2P2K; X-ray; 1.98 A; A/B/C/D=28-148.
+DR   PDBsum; 1WUV; -.
+DR   PDBsum; 2D7F; -.
+DR   PDBsum; 2EF6; -.
+DR   PDBsum; 2OVU; -.
+DR   PDBsum; 2P2K; -.
+DR   AlphaFoldDB; P14894; -.
+DR   SMR; P14894; -.
+DR   UniLectin; P14894; -.
+DR   EvolutionaryTrace; P14894; -.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0048029; F:monosaccharide binding; IDA:UniProtKB.
+DR   GO; GO:0045892; P:negative regulation of transcription, DNA-templated; IDA:UniProtKB.
+DR   GO; GO:0051781; P:positive regulation of cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0045840; P:positive regulation of mitotic nuclear division; IDA:UniProtKB.
+DR   GO; GO:0050688; P:regulation of defense response to virus; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antiviral protein; Calcium; Direct protein sequencing;
+KW   Glycoprotein; Hemagglutinin; Lectin; Manganese; Mannose-binding;
+KW   Metal-binding; Mitogen; Signal.
+FT   SIGNAL          1..29
+FT   CHAIN           30..148
+FT                   /note="Concanavalin-A, 2nd part"
+FT                   /id="PRO_0000017573"
+FT   PROPEP          149..163
+FT                   /evidence="ECO:0000269|PubMed:15935326"
+FT                   /id="PRO_0000017574"
+FT   CHAIN           164..281
+FT                   /note="Concanavalin-A, 1st part"
+FT                   /id="PRO_0000017575"
+FT   PROPEP          282..290
+FT                   /id="PRO_0000017576"
+FT   BINDING         119
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         139
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         171
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         173
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:17683532"
+FT   BINDING         173
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         175
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:17683532"
+FT   BINDING         177
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:17683532"
+FT   BINDING         182
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:17683532"
+FT   BINDING         182
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         187
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         262..263
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   SITE            148..149
+FT                   /note="Cleavage"
+FT   SITE            163..164
+FT                   /note="Cleavage"
+FT   SITE            281..282
+FT                   /note="Cleavage"
+FT   CARBOHYD        152
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          28..32
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   STRAND          34..43
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   STRAND          51..55
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   STRAND          61..63
+FT                   /evidence="ECO:0007829|PDB:2P2K"
+FT   STRAND          65..68
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   STRAND          81..88
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   STRAND          97..109
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   STRAND          113..116
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   STRAND          120..127
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   HELIX           138..140
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+FT   TURN            141..143
+FT                   /evidence="ECO:0007829|PDB:2OVU"
+SQ   SEQUENCE   290 AA;  31421 MW;  3A1C9E9ADADA3580 CRC64;
+     MAISKKSSLF LPIFTFITMF LMVVNKVSSS THETNALHFM FNQFSKDQKD LILQGDATTG
+     TDGNLELTRV SSNGSPQGSS VGRALFYAPV HIWESSAVVA SFDATFTFLI KSPDSHPADG
+     IAFFISNIDS SIPSGSTGRL LGLFPDANVI RNSTTIDFNA AYNADTIVAV ELDTYPNTDI
+     GDPNYPHIGI DIKSVRSKKT AKWNMQNGKV GTAHIIYNSV GKRLSAVVSY PNGDSATVSY
+     DVDLDNVLPE WVRVGLSAST GLYKETNTIL SWSFTSKLKS NEIPDIATVV
+//

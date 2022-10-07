@@ -1,0 +1,254 @@
+ID   LPHN_DROPS              Reviewed;        1693 AA.
+AC   Q292N4;
+DT   20-APR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   14-OCT-2008, sequence version 2.
+DT   03-AUG-2022, entry version 86.
+DE   RecName: Full=Latrophilin Cirl {ECO:0000250|UniProtKB:A1Z7G7};
+GN   Name=Cirl {ECO:0000250|UniProtKB:A1Z7G7}; ORFNames=GA21229;
+OS   Drosophila pseudoobscura pseudoobscura (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=46245;
+RN   [1] {ECO:0000312|EMBL:EAL24828.2}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MV2-25 / Tucson 14011-0121.94;
+RX   PubMed=15632085; DOI=10.1101/gr.3059305;
+RA   Richards S., Liu Y., Bettencourt B.R., Hradecky P., Letovsky S.,
+RA   Nielsen R., Thornton K., Hubisz M.J., Chen R., Meisel R.P., Couronne O.,
+RA   Hua S., Smith M.A., Zhang P., Liu J., Bussemaker H.J., van Batenburg M.F.,
+RA   Howells S.L., Scherer S.E., Sodergren E., Matthews B.B., Crosby M.A.,
+RA   Schroeder A.J., Ortiz-Barrientos D., Rives C.M., Metzker M.L., Muzny D.M.,
+RA   Scott G., Steffen D., Wheeler D.A., Worley K.C., Havlak P., Durbin K.J.,
+RA   Egan A., Gill R., Hume J., Morgan M.B., Miner G., Hamilton C., Huang Y.,
+RA   Waldron L., Verduzco D., Clerc-Blankenburg K.P., Dubchak I., Noor M.A.F.,
+RA   Anderson W., White K.P., Clark A.G., Schaeffer S.W., Gelbart W.M.,
+RA   Weinstock G.M., Gibbs R.A.;
+RT   "Comparative genome sequencing of Drosophila pseudoobscura: chromosomal,
+RT   gene, and cis-element evolution.";
+RL   Genome Res. 15:1-18(2005).
+CC   -!- SUBUNIT: Forms a heterodimer, consisting of a large extracellular
+CC       region non-covalently linked to a seven-transmembrane moiety.
+CC       {ECO:0000250|UniProtKB:O88923}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000250|UniProtKB:O88923, ECO:0000255}.
+CC   -!- PTM: Proteolytically cleaved into 2 subunits, an extracellular subunit
+CC       and a seven-transmembrane subunit. {ECO:0000250|UniProtKB:O88923}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 2 family. LN-TM7
+CC       subfamily. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CM000071; EAL24828.2; -; Genomic_DNA.
+DR   AlphaFoldDB; Q292N4; -.
+DR   SMR; Q292N4; -.
+DR   STRING; 7237.FBpp0277076; -.
+DR   eggNOG; KOG4193; Eukaryota.
+DR   eggNOG; KOG4729; Eukaryota.
+DR   HOGENOM; CLU_003272_0_0_1; -.
+DR   InParanoid; Q292N4; -.
+DR   OMA; SMRGAYR; -.
+DR   ChiTaRS; Cirl; fly.
+DR   Proteomes; UP000001819; Genome assembly.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007166; P:cell surface receptor signaling pathway; IEA:InterPro.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   Gene3D; 2.60.220.50; -; 1.
+DR   Gene3D; 4.10.1240.10; -; 1.
+DR   InterPro; IPR032471; GAIN_dom_N.
+DR   InterPro; IPR046338; GAIN_dom_sf.
+DR   InterPro; IPR017981; GPCR_2-like.
+DR   InterPro; IPR036445; GPCR_2_extracell_dom_sf.
+DR   InterPro; IPR000203; GPS.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   Pfam; PF16489; GAIN; 1.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   Pfam; PF01825; GPS; 1.
+DR   SMART; SM00303; GPS; 1.
+DR   PROSITE; PS50261; G_PROTEIN_RECEP_F2_4; 1.
+DR   PROSITE; PS50221; GPS; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; G-protein coupled receptor; Glycoprotein; Lectin; Membrane;
+KW   Phosphoprotein; Receptor; Reference proteome; Transducer; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..1693
+FT                   /note="Latrophilin Cirl"
+FT                   /id="PRO_0000393378"
+FT   TOPO_DOM        1..774
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        775..795
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        796..808
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        809..829
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        830..835
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        836..856
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        857..882
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        883..903
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        904..927
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        928..948
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        949..975
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        976..996
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        997..1003
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1004..1024
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1025..1693
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          30..119
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   DOMAIN          713..760
+FT                   /note="GPS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00098"
+FT   REGION          190..309
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          379..406
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1089..1109
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1237..1264
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1279..1362
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1450..1529
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1596..1678
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        231..248
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        249..272
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        281..309
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        389..406
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1301..1327
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1336..1354
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1455..1477
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1485..1499
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1506..1521
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1634..1661
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1165
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1256
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1263
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1324
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1325
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   CARBOHYD        147
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        260
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        306
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        345
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        405
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        662
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        710
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        737
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   1693 AA;  185677 MW;  1A059ECAD209313A CRC64;
+     MVLQGAKQRL CSSKNLDTCV LTPKYQTAYA CEGKKLTIEC EQGELINLIR ANYGRFSITI
+     CNDHGNVEWS VNCMFPKSLT VLNSRCAHKN SCSVLAATSM FGDPCPGTHK YLEAHYQCVS
+     AAQTSTTTNR PSPPPWVLNN GPPIFGNGSG LIHPTNIGGG SGGASAPPRL PTLPGVVGIN
+     GNGGMFNVPP PATHATPPGS TATLPGGRLK GVATSTTTTK HPAGRRDGLP PPPQLHHHHN
+     HHTDETTPTK PSGKVPAASN ATAPSNTRIL TGVGGGGTDD GTLLTTKSSP NRTPGTAASG
+     PSVSSNGSAV RTINNINLNA AGMAGADDET KLFCGPTHAR NLFWNMTRVG DVNVQPCPGG
+     AAGIAKWRCV LMKRMPDSSF DEDDEEMAGT STTTPMSTSG DCLHNSSSCE PPVTMAHKVN
+     QRLRNFEPTW HPLTPDLTQC RSLWLNNLEM RVNQRDSSLI SIANDMSEVT SSKTLYGGDM
+     LVTTKIIQTV SEKMLHDKET FPDQRQREAM IMELLHCVVK TGSNLLDESQ LSSWLDLNPE
+     DQMRVATSLL TGLEYNAFLL ADTIIRERSV VQKVKNILLS VRVLETKTIQ SSVVFPDSDQ
+     WPISSDRIEL PRAALIENSE GGLVRIVFAA FDRLESILKP SYDHFDLKSS RSYVRNTAIL
+     TNDSDASAGD LQQRLRILNS KVISASLGKG RHIQLSQPIT LTLKHLKTEN VTNPTCVFWN
+     YIDHAWSANG CSLESTNRTH SVCSCNHLTN FAILMDVVDE HQHSLFTMFD GNMRIFIYIS
+     IAICVVFIVI ALLTLKLFNG VFVKSARTSI YINIYICLLA IELLFLLGIE QTETSIFCGF
+     ITVFLHCAIL SGTSWFCYEA FHSYSTLTSD ELLLEVDQTP KVNCYYLLSY GLSLSVVAIS
+     LVINPSTYTQ NDYCVLMEAN AVFYATFVAP VLIFFMAAIG YTFLSWIIMC RKSRTGLKTK
+     EHTRLATVRF DIRCSFVFFL LLSAVWCSAY FYLRGAKMDE DVTGIYGYNF ICFNTLLGLY
+     IFVFHCIQNE KIRREYRKYV RQHAWLPKCL RCSKTSISSG IVAGGGTGLG GTNAGTLCSV
+     STAKKSKLPL GTNDDAHDEQ QQQQHMSATE DAIMGASSDC ELNEAQQRRT LKSGLITGTL
+     QPSQSLGGHV VLERGNTLRS TGHASPTSSA GSTHLIFAHK QQQQQPPLGE AYYHQPDYYS
+     WKQTAGGMKA QREYYNNAGA ATSSPQQAHE VFYWTQKPNS QHGKKKRGGV GAIPASPSGS
+     LHSRATAASQ VLFYPSYKKT KPGQQAHPHY AEALDPPQPP NTAAYYQQQQ QLRQQRQQQQ
+     QQLSSDEEQA EQHAHLLHLQ HQQQQQQQRR AGGQQQLPAP PPHMAQYQQE FMQRQYRNKH
+     SNCDLGDAYY NQGSVGGADG GPVYEEILSN RNSDAQHYEV GDFDVDEVYN NSVGTGVFNN
+     MRAAVAAGGS RYGGSLSGGS VSSRNQQQQQ HSLAQPISAR RCTADEDDDE DEDDEETTAA
+     EQLHDGVCDE EEEDEESDME DDSHGLPPQS AERMRRLMAL QDEDFKRRFQ RQQRKHGAPV
+     DYGTLPPGSA QAVIGGAHPE HNGAVFGVSG GVGEGSMRGA LRQQHAKSPS ARLAVNELFG
+     HGNTGPPLPP ANQTPAQKRQ QLQKLSPQST TSSSSHTSHS NPHSHPPHHQ QRHLSAMLDE
+     NNTVRCYLEP LAK
+//

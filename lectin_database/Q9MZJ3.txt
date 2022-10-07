@@ -1,0 +1,179 @@
+ID   NKG2A_MACMU             Reviewed;         233 AA.
+AC   Q9MZJ3; Q9MZI8; Q9MZJ0; Q9MZJ1;
+DT   15-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   25-MAY-2022, entry version 99.
+DE   RecName: Full=NKG2-A/NKG2-B type II integral membrane protein;
+DE   AltName: Full=CD159 antigen-like family member A;
+DE   AltName: Full=NK cell receptor A;
+DE   AltName: Full=NKG2-A/B-activating NK receptor;
+DE   AltName: CD_antigen=CD159a;
+GN   Name=NKG2A;
+OS   Macaca mulatta (Rhesus macaque).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9544;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS NKG2-A; NKG2-ADTM; NKG2-B AND
+RP   NKG2-BDTM).
+RX   PubMed=10866118; DOI=10.1007/s002510050650;
+RA   LaBonte M.L., Levy D.B., Letvin N.L.;
+RT   "Characterization of rhesus monkey CD94/NKG2 family members and
+RT   identification of novel transmembrane-deleted forms of NKG2-A, B, C, and
+RT   D.";
+RL   Immunogenetics 51:496-499(2000).
+CC   -!- FUNCTION: Immune inhibitory receptor involved in self-nonself
+CC       discrimination. In complex with KLRD1 on cytotoxic and regulatory
+CC       lymphocyte subsets, recognizes non-classical major histocompatibility
+CC       (MHC) class Ib molecule MHC-E loaded with self-peptides derived from
+CC       the signal sequence of classical MHC class Ia molecules. Enables
+CC       cytotoxic cells to monitor the expression of MHC class I molecules in
+CC       healthy cells and to tolerate self. Upon MHC-E-peptide binding,
+CC       transmits intracellular signals through two immunoreceptor tyrosine-
+CC       based inhibition motifs (ITIMs) by recruiting INPP5D/SHP-1 and
+CC       INPPL1/SHP-2 tyrosine phosphatases to ITIMs, and ultimately opposing
+CC       signals transmitted by activating receptors through dephosphorylation
+CC       of proximal signaling molecules. Key inhibitory receptor on natural
+CC       killer (NK) cells that regulates their activation and effector
+CC       functions. Dominantly counteracts T cell receptor signaling on a subset
+CC       of memory/effector CD8-positive T cells as part of an antigen-driven
+CC       response to avoid autoimmunity. On intraepithelial CD8-positive gamma-
+CC       delta regulatory T cells triggers TGFB1 secretion, which in turn limits
+CC       the cytotoxic programming of intraepithelial CD8-positive alpha-beta T
+CC       cells, distinguishing harmless from pathogenic antigens. In MHC-E-rich
+CC       tumor microenvironment, acts as an immune inhibitory checkpoint and may
+CC       contribute to progressive loss of effector functions of NK cells and
+CC       tumor-specific T cells, a state known as cell exhaustion.
+CC       {ECO:0000250|UniProtKB:P26715}.
+CC   -!- SUBUNIT: Heterodimer with KLRD1; disulfide-linked. KLRD1-KLRC1
+CC       heterodimer interacts with peptide-bound MHC-E-B2M heterotrimeric
+CC       complex. Competes with KLRC2 for its interaction with MHC-E. Interacts
+CC       (via ITIM) with INPP5D/SHIP-1 and INPPL1/SHIP-2 (via SH2 domain).
+CC       {ECO:0000250|UniProtKB:P26715}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P26715};
+CC       Single-pass type II membrane protein {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=4;
+CC       Name=NKG2-A;
+CC         IsoId=Q9MZJ3-1; Sequence=Displayed;
+CC       Name=NKG2-B;
+CC         IsoId=Q9MZJ3-2; Sequence=VSP_003064;
+CC       Name=NKG2-Adtm;
+CC         IsoId=Q9MZJ3-3; Sequence=VSP_003063;
+CC       Name=NKG2-Bdtm;
+CC         IsoId=Q9MZJ3-4; Sequence=VSP_003065;
+CC   -!- TISSUE SPECIFICITY: Natural killer cells.
+CC   -!- DOMAIN: The cytosolic N-terminus contains two immunoreceptor tyrosine-
+CC       based inhibitory motifs (ITIMs), which are essential for the
+CC       association with INPP5D/SHIP-1 and INPPL1/SHIP-2 phosphatases and
+CC       functional inhibition. {ECO:0000250|UniProtKB:P26715}.
+CC   -!- PTM: Phosphorylated. {ECO:0000250|UniProtKB:P26715}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF190979; AAF73835.1; -; mRNA.
+DR   EMBL; AF190981; AAF73837.1; -; mRNA.
+DR   EMBL; AF190982; AAF73838.1; -; mRNA.
+DR   EMBL; AF190984; AAF73840.1; -; mRNA.
+DR   AlphaFoldDB; Q9MZJ3; -.
+DR   SMR; Q9MZJ3; -.
+DR   STRING; 9544.ENSMMUP00000024076; -.
+DR   eggNOG; ENOG502S6IE; Eukaryota.
+DR   InParanoid; Q9MZJ3; -.
+DR   Proteomes; UP000006718; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0062082; F:HLA-E specific inhibitory MHC class Ib receptor activity; ISS:UniProtKB.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0002305; P:CD8-positive, gamma-delta intraepithelial T cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0045953; P:negative regulation of natural killer cell mediated cytotoxicity; ISS:UniProtKB.
+DR   GO; GO:0001915; P:negative regulation of T cell mediated cytotoxicity; ISS:UniProtKB.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Adaptive immunity; Alternative splicing; Cell membrane; Disulfide bond;
+KW   Glycoprotein; Immunity; Innate immunity; Lectin; Membrane; Phosphoprotein;
+KW   Receptor; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..233
+FT                   /note="NKG2-A/NKG2-B type II integral membrane protein"
+FT                   /id="PRO_0000046660"
+FT   TOPO_DOM        1..70
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        71..93
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        94..233
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          118..231
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..28
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           6..11
+FT                   /note="Immunoreceptor tyrosine-based inhibition motif
+FT                   (ITIM)"
+FT                   /evidence="ECO:0000250|UniProtKB:P26715"
+FT   MOTIF           38..43
+FT                   /note="Immunoreceptor tyrosine-based inhibition motif
+FT                   (ITIM)"
+FT                   /evidence="ECO:0000250|UniProtKB:P26715"
+FT   MOD_RES         8
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P26715"
+FT   MOD_RES         40
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P26715"
+FT   CARBOHYD        102
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        103
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        151
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        116
+FT                   /note="Interchain (with C-59 in KLRD1)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        119..130
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        147..229
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        208..221
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         63..112
+FT                   /note="Missing (in isoform NKG2-Bdtm)"
+FT                   /evidence="ECO:0000303|PubMed:10866118"
+FT                   /id="VSP_003065"
+FT   VAR_SEQ         63..95
+FT                   /note="DLLSAPEKLIAGILGIICLVLMASVVTIVVIPS -> A (in isoform
+FT                   NKG2-Adtm)"
+FT                   /evidence="ECO:0000303|PubMed:10866118"
+FT                   /id="VSP_003063"
+FT   VAR_SEQ         96..113
+FT                   /note="Missing (in isoform NKG2-B)"
+FT                   /evidence="ECO:0000303|PubMed:10866118"
+FT                   /id="VSP_003064"
+SQ   SEQUENCE   233 AA;  26286 MW;  237B2BE36E489E76 CRC64;
+     MDNQGVIYSD LNLPPNPKRQ QQKPKGNTSS ILVTEQEITY AELNLQKTSQ DFQGNDKTNH
+     CKDLLSAPEK LIAGILGIIC LVLMASVVTI VVIPSTLTQK HNNSSLNTRT QKARHCGHCP
+     EEWITYSNSC YYIGKEKRTW AESLLACTSK NSSLLSIDNE EEMKFLTAIL TSSWIDVFRD
+     SSHHPWVTIN GLTFKHEIKE SDHAEHNCAM LHVRGLFSDE CGSSKIYHCK HKL
+//

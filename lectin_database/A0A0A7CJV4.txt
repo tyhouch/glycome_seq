@@ -1,0 +1,71 @@
+ID   A0A0A7CJV4_9CALI        Unreviewed;       538 AA.
+AC   A0A0A7CJV4;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   03-AUG-2022, entry version 32.
+DE   SubName: Full=Capsid protein {ECO:0000313|EMBL:AID51513.1};
+OS   Norovirus 13-BH-1/2013/GII.17.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Caliciviridae; Norovirus.
+OX   NCBI_TaxID=1508693 {ECO:0000313|EMBL:AID51513.1};
+RN   [1] {ECO:0000313|EMBL:AID51513.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=13-BH-1/2013/GII.17 {ECO:0000313|EMBL:AID51513.1};
+RA   Wu F.-T., Chen H.-C., Wu C.-Y., Lu C.-T.;
+RT   "Norovirus GII.17 strain.";
+RL   Submitted (JAN-2014) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:5F4M}
+RP   X-RAY CRYSTALLOGRAPHY (2.27 ANGSTROMS) OF 225-528.
+RX   PubMed=26699640; DOI=10.1128/JVI.03119-15;
+RA   Singh B.K., Koromyslova A., Hefele L., Gurth C., Hansman G.S.;
+RT   "Structural Evolution of the Emerging 2014-2015 GII.17 Noroviruses.";
+RL   J. Virol. 90:2710-2715(2015).
+RN   [3] {ECO:0007829|PDB:5O02}
+RP   X-RAY CRYSTALLOGRAPHY (1.72 ANGSTROMS) OF 225-528.
+RX   PubMed=29095961; DOI=10.1371/journal.ppat.1006636;
+RA   Koromyslova A.D., Hansman G.S.;
+RT   "Nanobodies targeting norovirus capsid reveal functional epitopes and
+RT   potential mechanisms of neutralization.";
+RL   PLoS Pathog. 13:e1006636-e1006636(2017).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KJ156329; AID51513.1; -; Genomic_RNA.
+DR   PDB; 5F4M; X-ray; 2.27 A; A/B=225-528.
+DR   PDB; 5O02; X-ray; 1.72 A; A=225-528.
+DR   PDBsum; 5F4M; -.
+DR   PDBsum; 5O02; -.
+DR   SMR; A0A0A7CJV4; -.
+DR   UniLectin; A0A0A7CJV4; -.
+DR   ABCD; A0A0A7CJV4; 1 sequenced antibody.
+DR   CDD; cd00205; rhv_like; 1.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   InterPro; IPR004005; Calicivirus_coat.
+DR   InterPro; IPR013643; Calicivirus_coat_C.
+DR   InterPro; IPR033703; Rhv-like.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00915; Calici_coat; 1.
+DR   Pfam; PF08435; Calici_coat_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5F4M, ECO:0007829|PDB:5O02}.
+FT   DOMAIN          13..275
+FT                   /note="Calici_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00915"
+FT   DOMAIN          304..536
+FT                   /note="Calici_coat_C"
+FT                   /evidence="ECO:0000259|Pfam:PF08435"
+FT   REGION          1..23
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   538 AA;  59027 MW;  2813415EEC8A467B CRC64;
+     MKMASNDAAP SNDGAAGLVP EGNNETLPLE PVAGAAIAAP VTGQNNIIDP WIRTNFVQAP
+     NGEFTVSPRN SPGEILLNLE LGPDLNPYLA HLSRMYNGYA GGVEVQVLLA GNAFTAGKIL
+     FAAVPPNFPV EFLSPAQITM LPHLIVDVRT LEPIMIPLPD VRNTFFHYNN QPNSRMRLVA
+     MLYTPLRSNG SGDDVFTVSC RVLTRPTPDF EFTYLVPPSV ESKTKPFSLP ILTLSELTNS
+     RFPVPIDSLF TAQNNVLQVQ CQNGRCTLDG ELQGTTQLLP SGICAFRGRV TAETDHRDKW
+     HMQLQNLNGT TYDPTDDVPA PLGTPDFKGV VFGVASQRNV GNDAPGSTRA HEAVISTYSP
+     QFVPKLGSVN FRSNDNDFQL QPTKFTPVGI NDDGDHPFRQ WELPDYSGLL TLNMNLAPPV
+     APNFPGEQLL FFRSFVPCSG GYNQGIVDCL IPQEWIQHFY QESAPSQSDV ALIRYVNPDT
+     GRTLFEAKLH RSGYITVAHS GDYPLVVPAN GYFRFDSWVN QFYSLAPMGT GNGRRRAQ
+//

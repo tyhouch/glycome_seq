@@ -1,0 +1,83 @@
+ID   ERYD_BRUA2              Reviewed;         316 AA.
+AC   Q2YIQ4; Q578Y8; Q9ZB29;
+DT   08-MAY-2019, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   25-MAY-2022, entry version 74.
+DE   RecName: Full=Erythritol catabolism regulatory protein EryD {ECO:0000305};
+GN   Name=eryD {ECO:0000303|PubMed:10708387};
+GN   OrderedLocusNames=BAB2_0369 {ECO:0000312|EMBL:CAJ12535.1};
+OS   Brucella abortus (strain 2308).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Hyphomicrobiales;
+OC   Brucellaceae; Brucella/Ochrobactrum group; Brucella.
+OX   NCBI_TaxID=359391;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, ACTIVITY REGULATION,
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=2308;
+RX   PubMed=10708387; DOI=10.1099/00221287-146-2-487;
+RA   Sangari F.J., Aguero J., Garcia-Lobo J.M.;
+RT   "The genes for erythritol catabolism are organized as an inducible operon
+RT   in Brucella abortus.";
+RL   Microbiology 146:487-495(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2308;
+RX   PubMed=16299333; DOI=10.1128/iai.73.12.8353-8361.2005;
+RA   Chain P.S., Comerci D.J., Tolmasky M.E., Larimer F.W., Malfatti S.A.,
+RA   Vergez L.M., Aguero F., Land M.L., Ugalde R.A., Garcia E.;
+RT   "Whole-genome analyses of speciation events in pathogenic Brucellae.";
+RL   Infect. Immun. 73:8353-8361(2005).
+CC   -!- FUNCTION: Represses the expression of the eryABCD operon, which is
+CC       involved in erythritol catabolism. {ECO:0000269|PubMed:10708387}.
+CC   -!- ACTIVITY REGULATION: Erythritol may act as an inducer, probably by
+CC       binding to EryD and inhibiting its repressor activity.
+CC       {ECO:0000269|PubMed:10708387}.
+CC   -!- INDUCTION: Induced by erythritol and negatively autoregulated.
+CC       {ECO:0000269|PubMed:10708387}.
+CC   -!- DISRUPTION PHENOTYPE: Mutant shows increased transcription from the ery
+CC       promoter. {ECO:0000269|PubMed:10708387}.
+CC   -!- SIMILARITY: Belongs to the SorC transcriptional regulatory family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U57100; AAD11522.1; -; Genomic_DNA.
+DR   EMBL; AM040265; CAJ12535.1; -; Genomic_DNA.
+DR   RefSeq; WP_002965779.1; NZ_KN046823.1.
+DR   AlphaFoldDB; Q2YIQ4; -.
+DR   SMR; Q2YIQ4; -.
+DR   STRING; 359391.BAB2_0369; -.
+DR   EnsemblBacteria; CAJ12535; CAJ12535; BAB2_0369.
+DR   GeneID; 45053871; -.
+DR   KEGG; bmf:BAB2_0369; -.
+DR   PATRIC; fig|235.14.peg.919; -.
+DR   HOGENOM; CLU_054506_0_0_5; -.
+DR   OMA; SNEFITH; -.
+DR   PhylomeDB; Q2YIQ4; -.
+DR   Proteomes; UP000002719; Chromosome II.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR007324; Sugar-bd_dom_put.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   Pfam; PF04198; Sugar-bind; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+PE   2: Evidence at transcript level;
+KW   DNA-binding; Reference proteome; Repressor; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..316
+FT                   /note="Erythritol catabolism regulatory protein EryD"
+FT                   /id="PRO_0000446540"
+FT   DNA_BIND        23..42
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   316 AA;  33587 MW;  C7A09C1B60696D0B CRC64;
+     MADADDSLAL RAAWLHFVAG MTQSAVAKRL GLPSVKAHRL IAKAVADGAV KVTIDGDITE
+     CIDLENRLAD LYGLDYCEVA PDIGEEGLPL MALGHAGANF MRREIEHGDH EVIGIGHGRT
+     LSAAVGYMPR VMANDLRFVS LLGGLTRNFA ANPHDVMHRI AEKTGMPAYV MPVPFFANTA
+     EDREVLLAQR GVTTVFDMGC RAELKIVGIG TVDAQAQLVT SGMIELGEVE EIANLGGVGE
+     MLGHFFNANG QWLETALTGR TIAASVENAD MSRIVALAGG LSKVDAIRAV LKSGRLYGLI
+     TDERTAKALI GQPNGK
+//

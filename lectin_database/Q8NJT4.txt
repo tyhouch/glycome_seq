@@ -1,0 +1,203 @@
+ID   LECF_ASPFM              Reviewed;         314 AA.
+AC   Q8NJT4;
+DT   20-DEC-2017, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   03-AUG-2022, entry version 47.
+DE   RecName: Full=Fucose-specific lectin {ECO:0000303|PubMed:23695231};
+DE   AltName: Full=Aspergillus fumigatus lectin {ECO:0000303|PubMed:23695231};
+DE            Short=AFL {ECO:0000303|PubMed:23695231};
+GN   Name=fleA {ECO:0000303|PubMed:23695231}; ORFNames=CDV58_04824;
+OS   Neosartorya fumigata (Aspergillus fumigatus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=746128;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=NIH 5233 / ATCC 13073;
+RX   PubMed=23695231; DOI=10.1007/s10156-013-0614-9;
+RA   Kuboi S., Ishimaru T., Tamada S., Bernard E.M., Perlin D.S., Armstrong D.;
+RT   "Molecular characterization of AfuFleA, an L-fucose-specific lectin from
+RT   Aspergillus fumigatus.";
+RL   J. Infect. Chemother. 19:1021-1028(2013).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=HMR AF 706;
+RA   Fournier E., Martineau C., Dufresne P.J., De Repentigny L., Dufresne S.F.;
+RT   "Prevalence of cryptic Aspergillus fumigatus species and azole resistance:
+RT   a 2000 to 2013 survey in a Montreal hospital.";
+RL   Submitted (OCT-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Multispecific lectin that is able to recognize L-fucose in
+CC       all possible linkages (PubMed:23695231). These could be found not only
+CC       in decomposed plant matter in soil, which is the natural environment
+CC       for A.fumigatus, but also in various epitopes on human tissues (By
+CC       similarity). Mediates binding of A.fumigatus conidia to airway mucin in
+CC       a fucose dependent manner (By similarity). Stimulates IL-8 production
+CC       by human bronchial cells in a dose-dependent manner, contributing to
+CC       the inflammatory response observed upon the exposure of a patient to
+CC       A.fumigatus, and thus might be an important virulence factor involved
+CC       in an early stage of A.fumigatus infection (By similarity).
+CC       {ECO:0000250|UniProtKB:Q4WW81, ECO:0000269|PubMed:23695231}.
+CC   -!- SUBUNIT: Homodimer (By similarity). {ECO:0000250|UniProtKB:Q4WW81}.
+CC   -!- DOMAIN: AFL adopts the six-bladed beta-propeller fold and contains six
+CC       binding sites per monomer, each located between two adjacent blades (By
+CC       similarity). The six binding sites that are non-equivalent, and owing
+CC       to minor differences in amino-acid composition they exhibit a marked
+CC       difference in specific ligand recognition (By similarity).
+CC       {ECO:0000250|UniProtKB:Q4WW81}.
+CC   -!- BIOTECHNOLOGY: Lectins have particular value as specific probes for
+CC       investigating the distribution, structure and biological function of
+CC       carbohydrate chains on the cell surface of animal, plant, and
+CC       microorganism because of their specificity for defined carbohydrate
+CC       structures. AFL is suitable for detecting core fucose on cell surface
+CC       glycoproteins. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the fungal fucose-specific lectin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF517830; AAM66707.1; -; Genomic_DNA.
+DR   EMBL; NKHS01000178; OXN04839.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q8NJT4; -.
+DR   SMR; Q8NJT4; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR012475; Fungal_lectin.
+DR   Pfam; PF07938; Fungal_lectin; 1.
+PE   3: Inferred from homology;
+KW   Lectin; Metal-binding; Repeat; Zinc.
+FT   CHAIN           1..314
+FT                   /note="Fucose-specific lectin"
+FT                   /id="PRO_0000442746"
+FT   REPEAT          2..53
+FT                   /note="1"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          54..103
+FT                   /note="2"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          104..155
+FT                   /note="3"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          156..206
+FT                   /note="4"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          207..259
+FT                   /note="5"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          260..314
+FT                   /note="6"
+FT                   /evidence="ECO:0000305"
+FT   REGION          2..314
+FT                   /note="6 X approximate tandem repeats"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         25
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         37
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         44
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         73
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         85
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         94
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         98
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         126
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         138
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         146
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         150
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         177
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         188
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         197
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         229
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         241
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         243
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         245
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         251
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         281
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+FT   BINDING         295
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4WW81"
+SQ   SEQUENCE   314 AA;  34520 MW;  A1CCAF527E6139BD CRC64;
+     MSTPGAQQVL FRTGIAAVNS TNHLRVYFQD VYGSIRESLY EGSWANGTEK NVIGNAKLGS
+     PVAATSKELK HIRVYTLTEG NTLQEFAYDS GTGWYNGGLG GAKFQVAPYS RIAAVFLAGT
+     DALQLRIYAQ KPDNTIQEYM WNGDGWKEGT NLGGALPGTG IGATSFRYTD YNGPSIRIWF
+     QTDLKLVQRA YDPHKGWYPD LVTIFDRAPP RTAIAATSFG AGNSSIYMRI YFVNSDNTIW
+     QVCWDHGKGY HDKGTITPVI QGSEVAIISW GSFANNGPDL RLYFQNGTYI SAVSEWVWNR
+     AHGSQLGRSA LPPA
+//

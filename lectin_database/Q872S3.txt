@@ -1,0 +1,173 @@
+ID   OS9_NEUCR               Reviewed;         590 AA.
+AC   Q872S3; Q1K8N3;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   03-AUG-2022, entry version 97.
+DE   RecName: Full=Protein OS-9 homolog;
+DE   Flags: Precursor;
+GN   Name=yos-9; ORFNames=B13B3.010, NCU08445;
+OS   Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 /
+OS   FGSC 987).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Sordariomycetidae; Sordariales; Sordariaceae; Neurospora.
+OX   NCBI_TaxID=367110;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987;
+RX   PubMed=12655011; DOI=10.1093/nar/gkg293;
+RA   Mannhaupt G., Montrone C., Haase D., Mewes H.-W., Aign V., Hoheisel J.D.,
+RA   Fartmann B., Nyakatura G., Kempken F., Maier J., Schulte U.;
+RT   "What's in the genome of a filamentous fungus? Analysis of the Neurospora
+RT   genome sequence.";
+RL   Nucleic Acids Res. 31:1944-1954(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987;
+RX   PubMed=12712197; DOI=10.1038/nature01554;
+RA   Galagan J.E., Calvo S.E., Borkovich K.A., Selker E.U., Read N.D.,
+RA   Jaffe D.B., FitzHugh W., Ma L.-J., Smirnov S., Purcell S., Rehman B.,
+RA   Elkins T., Engels R., Wang S., Nielsen C.B., Butler J., Endrizzi M.,
+RA   Qui D., Ianakiev P., Bell-Pedersen D., Nelson M.A., Werner-Washburne M.,
+RA   Selitrennikoff C.P., Kinsey J.A., Braun E.L., Zelter A., Schulte U.,
+RA   Kothe G.O., Jedd G., Mewes H.-W., Staben C., Marcotte E., Greenberg D.,
+RA   Roy A., Foley K., Naylor J., Stange-Thomann N., Barrett R., Gnerre S.,
+RA   Kamal M., Kamvysselis M., Mauceli E.W., Bielke C., Rudd S., Frishman D.,
+RA   Krystofova S., Rasmussen C., Metzenberg R.L., Perkins D.D., Kroken S.,
+RA   Cogoni C., Macino G., Catcheside D.E.A., Li W., Pratt R.J., Osmani S.A.,
+RA   DeSouza C.P.C., Glass N.L., Orbach M.J., Berglund J.A., Voelker R.,
+RA   Yarden O., Plamann M., Seiler S., Dunlap J.C., Radford A., Aramayo R.,
+RA   Natvig D.O., Alex L.A., Mannhaupt G., Ebbole D.J., Freitag M., Paulsen I.,
+RA   Sachs M.S., Lander E.S., Nusbaum C., Birren B.W.;
+RT   "The genome sequence of the filamentous fungus Neurospora crassa.";
+RL   Nature 422:859-868(2003).
+CC   -!- FUNCTION: Lectin involved in the quality control of the secretory
+CC       pathway. As a member of the endoplasmic reticulum-associated
+CC       degradation lumenal (ERAD-L) surveillance system, targets misfolded
+CC       endoplasmic reticulum lumenal glycoproteins for degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with missfolded ER lumenal proteins. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000255|PROSITE-ProRule:PRU10138}; Peripheral membrane protein
+CC       {ECO:0000250}; Lumenal side {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX284762; CAD70506.1; -; Genomic_DNA.
+DR   EMBL; CM002237; EAA34179.1; -; Genomic_DNA.
+DR   RefSeq; XP_963415.1; XM_958322.2.
+DR   AlphaFoldDB; Q872S3; -.
+DR   SMR; Q872S3; -.
+DR   STRING; 5141.EFNCRP00000007811; -.
+DR   EnsemblFungi; EAA34179; EAA34179; NCU08445.
+DR   GeneID; 3879555; -.
+DR   KEGG; ncr:NCU08445; -.
+DR   VEuPathDB; FungiDB:NCU08445; -.
+DR   HOGENOM; CLU_025069_0_0_1; -.
+DR   InParanoid; Q872S3; -.
+DR   OMA; RRKNTID; -.
+DR   Proteomes; UP000001805; Chromosome 6, Linkage Group II.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IBA:GO_Central.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:0030970; P:retrograde protein transport, ER to cytosol; IBA:GO_Central.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IBA:GO_Central.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR012913; OS9-like_dom.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF07915; PRKCSH; 1.
+DR   SUPFAM; SSF50911; SSF50911; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Membrane;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..590
+FT                   /note="Protein OS-9 homolog"
+FT                   /id="PRO_0000043273"
+FT   DOMAIN          167..312
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          83..106
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          198..248
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          357..376
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          436..472
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          545..590
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           587..590
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   COMPBIAS        83..104
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        208..248
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        361..376
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         176
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         177
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         189
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         266
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         272
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         294
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         300
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        136
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        169..182
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        265..298
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        280..310
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   590 AA;  64567 MW;  7F1D509692ACF72D CRC64;
+     MRRPSLALLA LSSLPFGSAR QPASFSIHQD LLAHPQFEVI FSDSYVFEAD AFALLEAANK
+     TPKPTPASDG AHDGSTTRTD LTSAIRESAT ANADTDNGDE SIGGTSPLRE TYELIAHPPM
+     RYLCSIPIIA PPPALNKTAT ELAKAEEARE VTRAYNKGWE LMRGLENQCL HFVSGWWSYQ
+     YCYGKSIVQY HAVPNPKGGP PLRDKNSQEY ILGTSLPPSS HSQKGKQIEV PNNEQKQLSP
+     PPNTELQAKD NQRYLVQRLD GGTICDLTGR PRTIEIQYHC NPALSGDRIG WIKEVTTCAY
+     LMVIHTPRLC ADVAFLPPKE TKAHPITCRQ IITSDEEALS FNQRRKNTID SAAAAAAAVT
+     TEDQKQGSES GSPEKLSYQG LTVAGIPIGA RRILPSTHVL PLPRHLQQQR QEAQQGNLLE
+     ALTKAAFKAD VFGDYGDDNN NNNNNHHPKA GKGRKAAGAG KGQSGQKEMK KMRISERDID
+     KLGLDQQTLD ALREEIRAAG LDPDRNLNDE REAGGEIVWE FYADVSGDED DGAVAEEGKE
+     VFVWYEDEDE GGEPAEAGKD QKESKKGGNG EGSGSGSEEG SKEEYYRDEL
+//

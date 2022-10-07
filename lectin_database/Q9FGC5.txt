@@ -1,0 +1,117 @@
+ID   JAL41_ARATH             Reviewed;         444 AA.
+AC   Q9FGC5;
+DT   01-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   03-AUG-2022, entry version 112.
+DE   RecName: Full=Jacalin-related lectin 41;
+GN   Name=JAL41; OrderedLocusNames=At5g35940; ORFNames=MEE13.1;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Kaneko T., Katoh T., Asamizu E., Sato S., Nakamura Y., Kotani H.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. XI.";
+RL   Submitted (APR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=18467340; DOI=10.1093/pcp/pcn075;
+RA   Nagano A.J., Fukao Y., Fujiwara M., Nishimura M., Hara-Nishimura I.;
+RT   "Antagonistic jacalin-related lectins regulate the size of ER body-type
+RT   beta-glucosidase complexes in Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 49:969-980(2008).
+RN   [4]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22223895; DOI=10.1074/mcp.m111.015131;
+RA   Bienvenut W.V., Sumpton D., Martinez A., Lilla S., Espagne C., Meinnel T.,
+RA   Giglione C.;
+RT   "Comparative large-scale characterisation of plant vs. mammal proteins
+RT   reveals similar and idiosyncratic N-alpha acetylation features.";
+RL   Mol. Cell. Proteomics 11:M111.015131-M111.015131(2012).
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB026643; BAB09250.1; -; Genomic_DNA.
+DR   EMBL; CP002688; AED94030.1; -; Genomic_DNA.
+DR   RefSeq; NP_001318679.1; NM_001344123.1.
+DR   AlphaFoldDB; Q9FGC5; -.
+DR   SMR; Q9FGC5; -.
+DR   BioGRID; 18836; 1.
+DR   STRING; 3702.AT5G35940.1; -.
+DR   iPTMnet; Q9FGC5; -.
+DR   PaxDb; Q9FGC5; -.
+DR   PRIDE; Q9FGC5; -.
+DR   ProteomicsDB; 238974; -.
+DR   EnsemblPlants; AT5G35940.1; AT5G35940.1; AT5G35940.
+DR   GeneID; 833584; -.
+DR   Gramene; AT5G35940.1; AT5G35940.1; AT5G35940.
+DR   KEGG; ath:AT5G35940; -.
+DR   Araport; AT5G35940; -.
+DR   TAIR; locus:2162828; AT5G35940.
+DR   HOGENOM; CLU_041730_0_0_1; -.
+DR   InParanoid; Q9FGC5; -.
+DR   OMA; TMLHQIG; -.
+DR   OrthoDB; 740117at2759; -.
+DR   PhylomeDB; Q9FGC5; -.
+DR   PRO; PR:Q9FGC5; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9FGC5; baseline and differential.
+DR   Genevisible; Q9FGC5; AT.
+DR   GO; GO:0009506; C:plasmodesma; HDA:TAIR.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 3.
+DR   Gene3D; 2.100.10.30; -; 3.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 3.
+DR   SMART; SM00915; Jacalin; 3.
+DR   SUPFAM; SSF51101; SSF51101; 3.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 3.
+PE   1: Evidence at protein level;
+KW   Acetylation; Lectin; Reference proteome; Repeat.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0007744|PubMed:22223895"
+FT   CHAIN           2..444
+FT                   /note="Jacalin-related lectin 41"
+FT                   /id="PRO_0000430398"
+FT   DOMAIN          2..143
+FT                   /note="Jacalin-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          146..289
+FT                   /note="Jacalin-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          297..441
+FT                   /note="Jacalin-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0007744|PubMed:22223895"
+SQ   SEQUENCE   444 AA;  48515 MW;  2E77AF08E899B522 CRC64;
+     MALMVNAKGG NGGKEWDDGF DYEGVTKIHV RAGSEGIQFI KFDYVKVGKT IDGPIHGVSG
+     LGMTQTFEIN HLQKEYLVSI EGYYDKSTGV IQSIQFKTNV KTSDMMGFNK GTKFSLGIIR
+     NKIIGFHGFS DKNVYSLGAY FIKVLATKSG MQGGQNTGKS YDYGGDYDGI RKVYVTYDGT
+     SIRHMRVDYD KAGQVECYEY GDKTGTQYKI TVNYPYECIT SVEGSYANTQ PYGCIVLRSL
+     TFKTSNGRTL VIGTVTGTKF LLESKGNAIV GFHGRVGSCV DSIGAYYAPF SPSPPPTQKL
+     EGQGGDGGDS WDDGAFLNVK KVYIGQGSNG IVAVKFEYEN DASEVVVGDE HGKTTLLGYE
+     VFELDYPNEY ITSLEGCHDK VMGAETGVIT MLRFKTNKRT SPPFGLEAGV NFVLQKESHK
+     ITGFHGKSST MLHQIGVHVV PITE
+//

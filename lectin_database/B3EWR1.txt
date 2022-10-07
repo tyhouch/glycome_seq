@@ -1,0 +1,246 @@
+ID   LEC1_MYTGA              Reviewed;         187 AA.
+AC   B3EWR1; A0A140KFU1;
+DT   31-OCT-2012, integrated into UniProtKB/Swiss-Prot.
+DT   29-SEP-2021, sequence version 2.
+DT   03-AUG-2022, entry version 19.
+DE   RecName: Full=Alpha-D-galactose-binding lectin {ECO:0000303|PubMed:23093409, ECO:0000303|PubMed:27187419};
+DE   AltName: Full=Galactose-binding lectin {ECO:0000303|PubMed:27321048};
+DE   AltName: Full=Lectin {ECO:0000303|PubMed:23093409};
+DE   AltName: Full=MytiLec {ECO:0000303|PubMed:23093409, ECO:0000303|PubMed:26694420, ECO:0000303|PubMed:27321048};
+DE   AltName: Full=MytiLec-1 {ECO:0000303|PubMed:27187419};
+DE   AltName: Full=R-type lectin {ECO:0000303|PubMed:26694420, ECO:0000303|PubMed:27187419};
+DE   Flags: Precursor;
+OS   Mytilus galloprovincialis (Mediterranean mussel).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Bivalvia;
+OC   Autobranchia; Pteriomorphia; Mytilida; Mytiloidea; Mytilidae; Mytilinae;
+OC   Mytilus.
+OX   NCBI_TaxID=29158;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, ACTIVITY REGULATION, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=27187419; DOI=10.3390/md14050092;
+RA   Hasan I., Gerdol M., Fujii Y., Rajia S., Koide Y., Yamamoto D.,
+RA   Kawsar S.M., Ozeki Y.;
+RT   "cDNA and Gene Structure of MytiLec-1, A Bacteriostatic R-Type Lectin from
+RT   the Mediterranean Mussel (Mytilus galloprovincialis).";
+RL   Mar. Drugs 14:0-0(2016).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 39-187, FUNCTION, MASS SPECTROMETRY, AND ACETYLATION AT
+RP   THR-39.
+RC   TISSUE=Mantle {ECO:0000269|PubMed:23093409};
+RX   PubMed=23093409; DOI=10.1074/jbc.m112.418012;
+RA   Fujii Y., Dohmae N., Takio K., Kawsar S.M., Matsumoto R., Hasan I.,
+RA   Koide Y., Kanaly R.A., Yasumitsu H., Ogawa Y., Sugawara S., Hosono M.,
+RA   Nitta K., Hamako J., Matsui T., Ozeki Y.;
+RT   "A lectin from the mussel Mytilus galloprovincialis has a highly novel
+RT   primary structure and induces glycan-mediated cytotoxicity of
+RT   globotriaosylceramide-expressing lymphoma cells.";
+RL   J. Biol. Chem. 287:44772-44783(2012).
+RN   [3]
+RP   FUNCTION, AND BIOTECHNOLOGY.
+RX   PubMed=26694420; DOI=10.3390/md13127071;
+RA   Hasan I., Sugawara S., Fujii Y., Koide Y., Terada D., Iimura N.,
+RA   Fujiwara T., Takahashi K.G., Kojima N., Rajia S., Kawsar S.M., Kanaly R.A.,
+RA   Uchiyama H., Hosono M., Ogawa Y., Fujita H., Hamako J., Matsui T.,
+RA   Ozeki Y.;
+RT   "MytiLec, a Mussel R-Type Lectin, Interacts with Surface Glycan Gb3 on
+RT   Burkitt's Lymphoma Cells to Trigger Apoptosis through Multiple Pathways.";
+RL   Mar. Drugs 13:7377-7389(2015).
+RN   [4] {ECO:0000312|PDB:3WMU, ECO:0000312|PDB:3WMV}
+RP   X-RAY CRYSTALLOGRAPHY (1.05 ANGSTROMS) OF 39-187 AND IN COMPLEX WITH
+RP   N-ACETYL-ALPHA-D-GALACTOSAMINE, FUNCTION, SUBUNIT, BIOTECHNOLOGY, AND
+RP   MUTAGENESIS OF PHE-131 AND PHE-132.
+RX   PubMed=27321048; DOI=10.1038/srep28344;
+RA   Terada D., Kawai F., Noguchi H., Unzai S., Hasan I., Fujii Y., Park S.Y.,
+RA   Ozeki Y., Tame J.R.;
+RT   "Crystal structure of MytiLec, a galactose-binding lectin from the mussel
+RT   Mytilus galloprovincialis with cytotoxicity against certain cancer cell
+RT   types.";
+RL   Sci. Rep. 6:28344-28344(2016).
+CC   -!- FUNCTION: Alpha-D-galactose-binding lectin (PubMed:27187419,
+CC       PubMed:23093409, PubMed:27321048). Binds D-GalNAc, but not glucose or
+CC       its derivatives (PubMed:27321048). Has hemagglutinating activity
+CC       towards rabbit erythrocytes (PubMed:23093409, PubMed:27321048).
+CC       Agglutinates bacteria. Has bacteriostatic activity on both Gram-
+CC       positive and Gram-negative bacteria including B.subtilis, S.aureus,
+CC       E.coli and V.parahaemolyticus, respectively (PubMed:27187419). Has a
+CC       dose-dependent cytotoxic effect on the human globotriaosylceramide
+CC       (Gb3)-expressing Epstein-Barr virus (EBV)-positive Burkitt's lymphoma
+CC       (Raji) cell line (PubMed:23093409, PubMed:27321048). Has dose-dependent
+CC       cytotoxic effect on another Burkitt's lymphoma (Ramos) cell line, which
+CC       does not possess the EBV genome, but also expresses Gb3. Binds to Gb3
+CC       in these cells leading to phosphorylation of MEK1/2, ERK1/2, JNK and
+CC       p38 kinase, activation of caspase-9/3 and to expression of p21 and
+CC       tumor necrosis factor (TNF)-alpha (PubMed:26694420). No cytotoxic
+CC       effect on the human chronic myelogenous leukemia (K-562) cell line,
+CC       which does not express Gb3 (PubMed:23093409, PubMed:26694420). May be
+CC       involved in innate immunity acting as an antibacterial or antifungal
+CC       agent (PubMed:26694420, PubMed:27321048). May be a pattern recognition
+CC       receptor (PRR) involved in recognition of glycans found on parasitic or
+CC       symbiotic microorganisms (PubMed:27187419).
+CC       {ECO:0000269|PubMed:23093409, ECO:0000269|PubMed:26694420,
+CC       ECO:0000269|PubMed:27187419, ECO:0000269|PubMed:27321048}.
+CC   -!- ACTIVITY REGULATION: Agglutination of E.coli is inhibited by alpha-
+CC       galactoside melibiose, but not by beta-galactoside lactose.
+CC       {ECO:0000269|PubMed:27187419}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:27321048}.
+CC   -!- TISSUE SPECIFICITY: Highest expression in the posterior part of the
+CC       mantle. Highly expressed in gills and to a lesser extent in mid mantle
+CC       and anterior muscle. Lowest expression in digestive gland and posterior
+CC       adductor muscle. Scarcely detectable in hemocytes.
+CC       {ECO:0000269|PubMed:27187419}.
+CC   -!- MASS SPECTROMETRY: Mass=16812.59; Mass_error=10.63;
+CC       Method=Electrospray; Note=The mass determined is that of range 39-187.;
+CC       Evidence={ECO:0000269|PubMed:23093409};
+CC   -!- BIOTECHNOLOGY: This protein may have potential for the development of
+CC       new diagnostic agents or treatments for cancer since Gb3 is a cell-
+CC       surface marker expressed by several different cancer cell lines.
+CC       {ECO:0000305|PubMed:26694420, ECO:0000305|PubMed:27321048}.
+CC   -!- CAUTION: Was originally thought to be a monomer in solution on the
+CC       basis of gel filtration. {ECO:0000269|PubMed:23093409}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LC125182; BAU68218.1; -; mRNA.
+DR   EMBL; UYJE01006457; VDI46190.1; -; Genomic_DNA.
+DR   PDB; 3WMU; X-ray; 1.10 A; A/B=39-187.
+DR   PDB; 3WMV; X-ray; 1.05 A; A/B=39-187.
+DR   PDBsum; 3WMU; -.
+DR   PDBsum; 3WMV; -.
+DR   AlphaFoldDB; B3EWR1; -.
+DR   SMR; B3EWR1; -.
+DR   UniLectin; B3EWR1; -.
+DR   iPTMnet; B3EWR1; -.
+DR   Proteomes; UP000596742; Unassembled WGS sequence.
+DR   GO; GO:0005534; F:galactose binding; IDA:UniProtKB.
+DR   GO; GO:0031640; P:killing of cells of another organism; IDA:UniProtKB.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Hemagglutinin;
+KW   Lectin; Reference proteome; Signal.
+FT   SIGNAL          1..37
+FT                   /evidence="ECO:0000305|PubMed:27187419"
+FT   CHAIN           38..187
+FT                   /note="Alpha-D-galactose-binding lectin"
+FT                   /id="PRO_0000420129"
+FT   BINDING         53..56
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         64
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         72..76
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         101
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         104
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         112
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         120..122
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         145
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         148
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         156
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   BINDING         164..166
+FT                   /ligand="N-acetyl-alpha-D-galactosamine"
+FT                   /ligand_id="ChEBI:CHEBI:40356"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:27321048,
+FT                   ECO:0007744|PDB:3WMV"
+FT   SITE            38
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000305|PubMed:23093409"
+FT   MOD_RES         39
+FT                   /note="N-acetylthreonine"
+FT                   /evidence="ECO:0000269|PubMed:23093409"
+FT   MUTAGEN         131..132
+FT                   /note="FF->DS: Loss of homodimerization. Weak
+FT                   hemagglutinating activity. Loss of cytotoxic effect on the
+FT                   Burkitt's lymphoma (Raji) cell line."
+FT                   /evidence="ECO:0000269|PubMed:27321048"
+FT   STRAND          41..45
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   TURN            46..48
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          51..54
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          65..71
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   HELIX           75..77
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          79..85
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          88..93
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   TURN            94..96
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          99..102
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          114..119
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   HELIX           123..125
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          127..130
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   TURN            131..134
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          135..138
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          143..146
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          157..163
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   HELIX           167..169
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          171..175
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+FT   STRAND          178..182
+FT                   /evidence="ECO:0007829|PDB:3WMV"
+SQ   SEQUENCE   187 AA;  21083 MW;  644D7D7F6930CDD9 CRC64;
+     MTFAKQSCFN SIILLSIATS YFKIGHKISE LGNRIEKMTT FLIKHKASGK FLHPKGGSSN
+     PANDTNLVLH SDIHERMYFQ FDVVDERWGY IKHAASGKIV HPLGGKADPP NETKLVLHQD
+     RHDRALFAMD FFNDNIIHKA GKYVHPKGGS TNPPNETLTV MHGDKHGAME FIFVSPKNKD
+     KRVLVYV
+//

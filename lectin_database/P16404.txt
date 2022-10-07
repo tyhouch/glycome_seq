@@ -1,0 +1,191 @@
+ID   LEC_ERYCO               Reviewed;         281 AA.
+AC   P16404;
+DT   01-AUG-1990, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 3.
+DT   25-MAY-2022, entry version 120.
+DE   RecName: Full=Lectin;
+DE   AltName: Full=ECorL;
+DE   Flags: Precursor;
+OS   Erythrina corallodendron (Coral tree).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Erythrina.
+OX   NCBI_TaxID=3843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1692539; DOI=10.1016/0014-5793(90)80777-g;
+RA   Arango R., Rozenblatt S., Sharon N.;
+RT   "Cloning and sequence analysis of the Erythrina corallodendron lectin
+RT   cDNA.";
+RL   FEBS Lett. 264:109-111(1990).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 27-270.
+RX   PubMed=2806566; DOI=10.1016/0014-5793(89)81791-0;
+RA   Adar R., Richardson M., Lis H., Sharon N.;
+RT   "The amino acid sequence of Erythrina corallodendron lectin and its
+RT   homology with other legume lectins.";
+RL   FEBS Lett. 257:81-85(1989).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 27-55; 77-99; 126-166 AND 247-267, VARIANT GLN-160,
+RP   PROTEOLYTIC PROCESSING, AND GLYCOSYLATION.
+RX   PubMed=7852319; DOI=10.1074/jbc.270.6.2563;
+RA   Young N.M., Watson D.C., Yaguchi M., Adar R., Arango R.,
+RA   Rodriguez-Arango E., Sharon N., Blay P.K., Thibault P.;
+RT   "C-terminal post-translational proteolysis of plant lectins and their
+RT   recombinant forms expressed in Escherichia coli. Characterization of
+RT   'ragged ends' by mass spectrometry.";
+RL   J. Biol. Chem. 270:2563-2570(1995).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS).
+RX   PubMed=1948067; DOI=10.1126/science.1948067;
+RA   Shaanan B., Lis H., Sharon N.;
+RT   "Structure of a legume lectin with an ordered N-linked carbohydrate in
+RT   complex with lactose.";
+RL   Science 254:862-866(1991).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 27-265.
+RX   PubMed=9545381; DOI=10.1006/jmbi.1998.1664;
+RA   Elgavish S., Shaanan B.;
+RT   "Structures of the Erythrina corallodendron lectin and of its complexes
+RT   with mono- and disaccharides.";
+RL   J. Mol. Biol. 277:917-932(1998).
+CC   -!- FUNCTION: Galactose and N-acetyllactosamine specific lectin. Binds to
+CC       the H-2 blood type determinant fucosyl-N-acetyllactosamine.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- PTM: A minor C-terminal proteolytic processing site is observed at
+CC       position 268. {ECO:0000269|PubMed:7852319}.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X52782; CAA36986.1; -; mRNA.
+DR   PIR; S09697; S09697.
+DR   PDB; 1AX0; X-ray; 1.90 A; A=27-265.
+DR   PDB; 1AX1; X-ray; 1.95 A; A=27-265.
+DR   PDB; 1AX2; X-ray; 1.95 A; A=27-265.
+DR   PDB; 1AXY; X-ray; 1.95 A; A=27-265.
+DR   PDB; 1AXZ; X-ray; 1.95 A; A=27-265.
+DR   PDB; 1FYU; X-ray; 2.60 A; A/B=27-281.
+DR   PDB; 1LTE; X-ray; 2.00 A; A=27-265.
+DR   PDB; 1SFY; X-ray; 2.55 A; A/B/C/D/E/F=27-265.
+DR   PDB; 3N35; X-ray; 2.00 A; A=27-268.
+DR   PDB; 3N36; X-ray; 2.30 A; A=27-268.
+DR   PDB; 3N3H; X-ray; 2.00 A; A=27-268.
+DR   PDBsum; 1AX0; -.
+DR   PDBsum; 1AX1; -.
+DR   PDBsum; 1AX2; -.
+DR   PDBsum; 1AXY; -.
+DR   PDBsum; 1AXZ; -.
+DR   PDBsum; 1FYU; -.
+DR   PDBsum; 1LTE; -.
+DR   PDBsum; 1SFY; -.
+DR   PDBsum; 3N35; -.
+DR   PDBsum; 3N36; -.
+DR   PDBsum; 3N3H; -.
+DR   AlphaFoldDB; P16404; -.
+DR   SMR; P16404; -.
+DR   UniLectin; P16404; -.
+DR   GlyConnect; 332; 1 N-Linked glycan.
+DR   iPTMnet; P16404; -.
+DR   EvolutionaryTrace; P16404; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Glycoprotein; Lectin;
+KW   Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000269|PubMed:2806566,
+FT                   ECO:0000269|PubMed:7852319"
+FT   CHAIN           27..268
+FT                   /note="Lectin"
+FT                   /id="PRO_0000017617"
+FT   PROPEP          269..281
+FT                   /id="PRO_0000017618"
+FT   CARBOHYD        43
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:7852319"
+FT   CARBOHYD        139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:7852319"
+FT   VARIANT         48
+FT                   /note="G -> A"
+FT   VARIANT         160
+FT                   /note="P -> Q"
+FT                   /evidence="ECO:0000269|PubMed:7852319"
+FT   VARIANT         225
+FT                   /note="D -> V"
+FT   CONFLICT        49..54
+FT                   /note="AALITQ -> DSIPET (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        139
+FT                   /note="N -> F (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          28..36
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          42..48
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          58..61
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          67..69
+FT                   /evidence="ECO:0007829|PDB:3N35"
+FT   STRAND          74..81
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   TURN            88..90
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          95..103
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          109..111
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          115..123
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   HELIX           132..134
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   TURN            135..137
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          138..142
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   HELIX           145..147
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          150..155
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          166..177
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          179..183
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          192..199
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   TURN            200..203
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          204..210
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   TURN            212..214
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          217..223
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   HELIX           226..228
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          232..242
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+FT   STRAND          253..263
+FT                   /evidence="ECO:0007829|PDB:1AX0"
+SQ   SEQUENCE   281 AA;  30752 MW;  311DE5A43AEF1E67 CRC64;
+     MATYKLCSVL ALSLTLFLLI LNKVNSVETI SFSFSEFEPG NDNLTLQGAA LITQSGVLQL
+     TKINQNGMPA WDSTGRTLYA KPVHIWDMTT GTVASFETRF SFSIEQPYTR PLPADGLVFF
+     MGPTKSKPAQ GYGYLGIFNN SKQDNSYQTL GVEFDTFSNP WDPPQVPHIG IDVNSIRSIK
+     TQPFQLDNGQ VANVVIKYDA SSKILHAVLV YPSSGAIYTI AEIVDVKQVL PEWVDVGLSG
+     ATGAQRDAAE THDVYSWSFQ ASLPETNDAV IPTSNHNTFA I
+//

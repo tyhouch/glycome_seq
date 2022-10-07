@@ -1,0 +1,237 @@
+ID   VP1_POVMP               Reviewed;         384 AA.
+AC   P49302;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 118.
+DE   RecName: Full=Capsid protein VP1;
+OS   Murine polyomavirus (strain P16 small-plaque) (MPyV).
+OC   Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Papovaviricetes;
+OC   Sepolyvirales; Polyomaviridae; Alphapolyomavirus.
+OX   NCBI_TaxID=47935;
+OH   NCBI_TaxID=10090; Mus musculus (Mouse).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1845896; DOI=10.1128/jvi.65.1.350-355.1991;
+RA   Freund R., Garcea R.L., Sahli R., Benjamin T.L.;
+RT   "A single-amino-acid substitution in polyomavirus VP1 correlates with
+RT   plaque size and hemagglutination behavior.";
+RL   J. Virol. 65:350-355(1991).
+RN   [2]
+RP   REVIEW.
+RX   PubMed=19157478; DOI=10.1016/j.virol.2008.12.021;
+RA   Neu U., Stehle T., Atwood W.J.;
+RT   "The Polyomaviridae: Contributions of virus structure to our understanding
+RT   of virus receptors and infectious entry.";
+RL   Virology 384:389-399(2009).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (3.65 ANGSTROMS).
+RX   PubMed=8177322; DOI=10.1038/369160a0;
+RA   Stehle T., Yan Y., Benjamin T.L., Harrison S.C.;
+RT   "Structure of murine polyomavirus complexed with an oligosaccharide
+RT   receptor fragment.";
+RL   Nature 369:160-163(1994).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (3.65 ANGSTROMS).
+RX   PubMed=8805524; DOI=10.1016/s0969-2126(96)00021-4;
+RA   Stehle T., Harrison S.C.;
+RT   "Crystal structures of murine polyomavirus in complex with straight-chain
+RT   and branched-chain sialyloligosaccharide receptor fragments.";
+RL   Structure 4:183-194(1996).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS).
+RX   PubMed=9305654; DOI=10.1093/emboj/16.16.5139;
+RA   Stehle T., Harrison S.C.;
+RT   "High-resolution structure of a polyomavirus VP1-oligosaccharide complex:
+RT   implications for assembly and receptor binding.";
+RL   EMBO J. 16:5139-5148(1997).
+CC   -!- FUNCTION: Forms an icosahedral capsid with a T=7 symmetry and a 40 nm
+CC       diameter. The capsid is composed of 72 pentamers linked to each other
+CC       by disulfide bonds and associated with VP2 or VP3 proteins. Interacts
+CC       with terminal alpha(2,3)-linked sialic acids on the cell surface to
+CC       provide virion attachment to target cell. This attachment induces
+CC       virion internalization predominantly through caveolin-mediated
+CC       endocytosis. Once attached, the virion is internalized by caveolin-
+CC       mediated endocytosis and traffics to the endoplasmic reticulum. Inside
+CC       the endoplasmic reticulum, the protein folding machinery isomerizes VP1
+CC       interpentamer disulfide bonds, thereby triggering initial uncoating.
+CC       Next, the virion uses the endoplasmic reticulum-associated degradation
+CC       machinery to probably translocate in the cytosol before reaching the
+CC       nucleus. Nuclear entry of the viral DNA involves the selective exposure
+CC       and importin recognition of VP2/Vp3 nuclear localization signal. In
+CC       late phase of infection, neo-synthesized VP1 encapsulates replicated
+CC       genomic DNA in the nucleus, and participates in rearranging nucleosomes
+CC       around the viral DNA. {ECO:0000250|UniProtKB:P03087,
+CC       ECO:0000305|PubMed:19157478}.
+CC   -!- SUBUNIT: Homomultimer; disulfide-linked. The virus capsid is composed
+CC       of 72 icosahedral units, each one composed of five disulfide-linked
+CC       copies of VP1. Interacts with minor capsid proteins VP2 and VP3.
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- SUBCELLULAR LOCATION: Virion. Host nucleus
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- DOMAIN: A DNA-binding domain overlapping a bipartite nuclear
+CC       localization signal is present in the N-terminal region of the protein
+CC       and is required for efficient virus formation.
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- DOMAIN: The intrinsically disordered C-terminal arm interacts with
+CC       neighboring pentamers. The unstructured nature of this region allows to
+CC       make different interactions depending on the structural context:
+CC       pentamers present at the 12 icosahedral fivefold axes bind five
+CC       pentamers, whereas pentamers present at the 60 icosahedral six-fold
+CC       axes interact with six pentamers. {ECO:0000250|UniProtKB:P03087}.
+CC   -!- SIMILARITY: Belongs to the polyomaviruses coat protein VP1 family.
+CC       {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Virus Particle ExploreR db; Note=Icosahedral capsid
+CC       structure in complex with 3'sialyl lactose;
+CC       URL="https://viperdb.scripps.edu/Info_Page.php?VDB=1sid";
+CC   -!- WEB RESOURCE: Name=Virus Particle ExploreR db; Note=Icosahedral capsid
+CC       structure in complex with a disialylated oligosaccharide;
+CC       URL="https://viperdb.scripps.edu/Info_Page.php?VDB=1sie";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M34958; AAA46561.1; -; Genomic_DNA.
+DR   PDB; 1CN3; X-ray; 2.20 A; A/B/C/D/E=35-317.
+DR   PDB; 1SID; X-ray; 3.65 A; A/B/C/D/E/F=2-384.
+DR   PDB; 1SIE; X-ray; 3.65 A; A/B/C/D/E/F=2-384.
+DR   PDB; 1VPN; X-ray; 2.00 A; A/B/C/D/E=33-321.
+DR   PDB; 1VPS; X-ray; 1.90 A; A/B/C/D/E=33-321.
+DR   PDB; 5CPU; X-ray; 1.64 A; A/B/C/D/E=34-317.
+DR   PDB; 5CPW; X-ray; 1.75 A; A/B/C/D/E=34-317.
+DR   PDB; 5CPX; X-ray; 1.87 A; A/B/C/D/E=34-317.
+DR   PDB; 5CPY; X-ray; 1.93 A; A/B/C/D/E=34-317.
+DR   PDB; 5CPZ; X-ray; 1.71 A; A/B/C/D/E=34-317.
+DR   PDB; 5CQ0; X-ray; 1.90 A; A/B/C/D/E=34-317.
+DR   PDB; 7K25; EM; 2.90 A; A/B/C/D/E=2-384.
+DR   PDBsum; 1CN3; -.
+DR   PDBsum; 1SID; -.
+DR   PDBsum; 1SIE; -.
+DR   PDBsum; 1VPN; -.
+DR   PDBsum; 1VPS; -.
+DR   PDBsum; 5CPU; -.
+DR   PDBsum; 5CPW; -.
+DR   PDBsum; 5CPX; -.
+DR   PDBsum; 5CPY; -.
+DR   PDBsum; 5CPZ; -.
+DR   PDBsum; 5CQ0; -.
+DR   PDBsum; 7K25; -.
+DR   SMR; P49302; -.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   DrugBank; DB03721; N-acetyl-alpha-neuraminic acid.
+DR   TCDB; 1.A.83.1.5; the sv40 virus viroporin vp2 (sv40 vp2) family.
+DR   UniLectin; P49302; -.
+DR   EvolutionaryTrace; P49302; -.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0039620; C:T=7 icosahedral viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0075513; P:caveolin-mediated endocytosis of virus by host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.175.10; -; 1.
+DR   InterPro; IPR000662; Capsid_VP1_Polyomavir.
+DR   InterPro; IPR011222; dsDNA_vir_gr_I_capsid.
+DR   InterPro; IPR036931; Polyomavir_VP1_sf.
+DR   Pfam; PF00718; Polyoma_coat; 1.
+DR   PIRSF; PIRSF003376; Capsid_VP1_Polyomavir; 1.
+DR   SUPFAM; SSF88648; SSF88648; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Capsid protein;
+KW   Caveolin-mediated endocytosis of virus by host; Disulfide bond;
+KW   Host nucleus; Host-virus interaction; Late protein; Phosphoprotein;
+KW   T=7 icosahedral capsid protein; Viral attachment to host cell;
+KW   Viral penetration into host cytoplasm; Virion; Virus endocytosis by host;
+KW   Virus entry into host cell.
+FT   INIT_MET        1
+FT                   /note="Removed; by host"
+FT   CHAIN           2..384
+FT                   /note="Capsid protein VP1"
+FT                   /id="PRO_0000115025"
+FT   REGION          322..384
+FT                   /note="C-terminal arm"
+FT                   /evidence="ECO:0000250|UniProtKB:P03087"
+FT   MOTIF           4..18
+FT                   /note="Bipartite nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:P03087"
+FT   MOD_RES         358
+FT                   /note="Phosphothreonine; by host"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        12
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        115
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+FT   STRAND          36..40
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          47..54
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   TURN            67..70
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   HELIX           71..73
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          84..87
+FT                   /evidence="ECO:0007829|PDB:7K25"
+FT   HELIX           93..95
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          100..105
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          118..130
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   HELIX           133..137
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          141..143
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          145..147
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   TURN            148..151
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          152..155
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          158..160
+FT                   /evidence="ECO:0007829|PDB:7K25"
+FT   STRAND          162..171
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          174..177
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          188..191
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   HELIX           194..198
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   HELIX           204..207
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          214..216
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          219..221
+FT                   /evidence="ECO:0007829|PDB:7K25"
+FT   TURN            225..227
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          228..230
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          238..245
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          253..259
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   HELIX           275..277
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          278..291
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          298..302
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   STRAND          305..317
+FT                   /evidence="ECO:0007829|PDB:5CPU"
+FT   TURN            324..326
+FT                   /evidence="ECO:0007829|PDB:7K25"
+FT   STRAND          369..371
+FT                   /evidence="ECO:0007829|PDB:7K25"
+FT   STRAND          373..378
+FT                   /evidence="ECO:0007829|PDB:7K25"
+SQ   SEQUENCE   384 AA;  42505 MW;  324AACBB94BAA63B CRC64;
+     MAPKRKSGVS KCETKCTKAC PRPAPVPKLL IKGGMEVLDL VTGPDSVTEI EAFLNPRMGQ
+     PPTPESLTEG GQYYGWSRGI NLATSDTEDS PGNNTLPTWS MAKLQLPMLN EDLTCDTLQM
+     WEAVSVKTEV VGSGSLLDVH GFNKPTDTVN TKGISTPVEG SQYHVFAVGG EPLDLQGLVT
+     DARTKYKEEG VVTIKTITKK DMVNKDQVLN PISKAKLDKD GMYPVEIWHP DPAKNENTRY
+     FGNYTGGTTT PPVLQFTNTL TTVLLDENGV GPLCKGEGLY LSCVDIMGWR VTRNYDVHHW
+     RGLPRYFKIT LRKRWVKNPY PMASLISSLF NNMLPQVQGQ PMEGENTQVE EVRVYDGTEP
+     VPGDPDMTRY VDRFGKTKTV FPGN
+//

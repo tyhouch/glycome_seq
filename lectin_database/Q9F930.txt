@@ -1,0 +1,264 @@
+ID   PULA_STREE              Reviewed;        1287 AA.
+AC   Q9F930;
+DT   10-FEB-2021, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   03-AUG-2022, entry version 132.
+DE   RecName: Full=Pullulanase A {ECO:0000303|PubMed:11083842};
+DE            EC=3.2.1.41 {ECO:0000269|PubMed:11083842};
+DE   AltName: Full=Alpha-dextrin endo-1,6-alpha-glucosidase {ECO:0000305};
+DE   AltName: Full=Pullulan 6-glucanohydrolase {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=spuA {ECO:0000303|PubMed:11083842, ECO:0000312|EMBL:AAG33958.1};
+OS   Streptococcus pneumoniae.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=1313 {ECO:0000312|EMBL:AAG33958.1};
+RN   [1] {ECO:0000312|EMBL:AAG33958.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY, AND
+RP   SUBCELLULAR LOCATION.
+RC   STRAIN=3.B / Serotype 1 {ECO:0000303|PubMed:11083842,
+RC   ECO:0000312|EMBL:AAG33958.1};
+RX   PubMed=11083842; DOI=10.1128/iai.68.12.7141-7143.2000;
+RA   Bongaerts R.J., Heinz H.P., Hadding U., Zysk G.;
+RT   "Antigenicity, expression, and molecular characterization of surface-
+RT   located pullulanase of Streptococcus pneumoniae.";
+RL   Infect. Immun. 68:7141-7143(2000).
+CC   -!- FUNCTION: Virulence factor (By similarity). Involved in the degradation
+CC       of glycogen of the mammalian host cells. Hydrolyzes the alpha-1,6-
+CC       branchpoints of glycogen (By similarity). Hydrolyzes pullulan
+CC       (PubMed:11083842). Does not hydrolyze dextran. Binds to mouse lung
+CC       alveolar type II cells that are rich in glycogen stores. Is an alpha-
+CC       glucan-specific carbohydrate-binding protein, which binds to amylose
+CC       (pure alpha-(1,4)-linked glucose), amylopectin (alpha-(1,4)-linked
+CC       glucose with alpha-(1,6) branch points), pullulan (linear polymer of
+CC       mixed alpha-(1,4)- and alpha-(1,6)-linked glucose) and glycogen
+CC       (similar to amylopectin with more frequent alpha-(1,6) branch points)
+CC       in vitro. Does not bind to dextran (a linear polymer of alpha-(1,6)-
+CC       linked glucose) (By similarity). {ECO:0000250|UniProtKB:A0A0H2UNG0,
+CC       ECO:0000250|UniProtKB:A0A0H2ZL64, ECO:0000269|PubMed:11083842}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->6)-alpha-D-glucosidic linkages in pullulan,
+CC         amylopectin and glycogen, and in the alpha- and beta-limit dextrins
+CC         of amylopectin and glycogen.; EC=3.2.1.41;
+CC         Evidence={ECO:0000269|PubMed:11083842};
+CC   -!- ACTIVITY REGULATION: Inhibited by 4-O-alpha-D-glucopyranosylmoranoline
+CC       (G1M). {ECO:0000250|UniProtKB:A0A0H2UNG0}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall {ECO:0000255|PROSITE-
+CC       ProRule:PRU00477}; Peptidoglycan-anchor {ECO:0000255|PROSITE-
+CC       ProRule:PRU00477}. Cell surface {ECO:0000269|PubMed:11083842}.
+CC       Note=Localizes to cytoplasm in the lung alveolar type II cells of the
+CC       mouse and human hosts. {ECO:0000250|UniProtKB:A0A0H2UNG0}.
+CC   -!- DOMAIN: The N-terminal tandem family 41 carbohydrate-binding modules
+CC       (CBM) are involved in carbohydrate binding. The C-terminal glycosyl
+CC       hydrolase 13 (GH13) domain is involved in catalysis.
+CC       {ECO:0000250|UniProtKB:A0A0H2UNG0}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 13 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF217414; AAG33958.1; -; Genomic_DNA.
+DR   RefSeq; WP_001860626.1; NZ_FYSI01000010.1.
+DR   AlphaFoldDB; Q9F930; -.
+DR   SMR; Q9F930; -.
+DR   CAZy; CBM41; Carbohydrate-Binding Module Family 41.
+DR   CAZy; CBM48; Carbohydrate-Binding Module Family 48.
+DR   CAZy; GH13; Glycoside Hydrolase Family 13.
+DR   GO; GO:0009986; C:cell surface; IDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0009275; C:Gram-positive-bacterium-type cell wall; IC:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051060; F:pullulanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd10315; CBM41_pullulanase; 2.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 2.60.40.1220; -; 1.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR005323; CBM41_pullulanase.
+DR   InterPro; IPR014755; Cu-Rt/internalin_Ig-like.
+DR   InterPro; IPR006047; Glyco_hydro_13_cat_dom.
+DR   InterPro; IPR004193; Glyco_hydro_13_N.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR019931; LPXTG_anchor.
+DR   InterPro; IPR011838; Pullulan_Gpos.
+DR   InterPro; IPR040806; SpuA_C.
+DR   InterPro; IPR005877; YSIRK_signal_dom.
+DR   Pfam; PF00128; Alpha-amylase; 2.
+DR   Pfam; PF02922; CBM_48; 1.
+DR   Pfam; PF00746; Gram_pos_anchor; 1.
+DR   Pfam; PF03714; PUD; 2.
+DR   Pfam; PF18033; SpuA_C; 1.
+DR   Pfam; PF04650; YSIRK_signal; 1.
+DR   SMART; SM00642; Aamy; 1.
+DR   SUPFAM; SSF49452; SSF49452; 2.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+DR   TIGRFAMs; TIGR02102; pullulan_Gpos; 1.
+DR   TIGRFAMs; TIGR01168; YSIRK_signal; 1.
+DR   PROSITE; PS50847; GRAM_POS_ANCHORING; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cell wall; Glycosidase; Hydrolase; Metal-binding;
+KW   Peptidoglycan-anchor; Secreted; Signal; Virulence.
+FT   SIGNAL          1..44
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           45..1287
+FT                   /note="Pullulanase A"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000451848"
+FT   PROPEP          1257..1287
+FT                   /note="Removed by sortase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00477"
+FT                   /id="PRO_5025750514"
+FT   REGION          42..139
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1147..1255
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           1253..1257
+FT                   /note="LPXTG sorting signal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00477"
+FT   COMPBIAS        42..89
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        109..134
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1156..1200
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1205..1223
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1239..1255
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        785
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   ACT_SITE        814
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         163..165
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         175
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         221
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         270..272
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         283
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         325
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         330
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         668
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         670
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         674..675
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         750
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         816
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         835
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         838
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         839
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         846
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         849
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         856
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         889
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         893
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         903
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         976
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         996..998
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   BINDING         999
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   SITE            902
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H2UNG0"
+FT   MOD_RES         1256
+FT                   /note="Pentaglycyl murein peptidoglycan amidated threonine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00477"
+SQ   SEQUENCE   1287 AA;  143317 MW;  ECFCA3E3D1ED73E4 CRC64;
+     MRKTPSHTEK KMVYSIRSLK NGTGSVLIGA SLVLLAMATP TISSDESTPT TNEPNNRNTT
+     TLAQPLTDTA AGSGKNESDI SSPGNANASL EKTEEKPATE PTTPAASPAD PAPQTGQDRS
+     SEPTTSTSPV TTETKAEEPI EDNYFRIHVK KLPEENKDAQ GLWTWDDVEK PSENWPNGAL
+     SFKDAKKDDY GYYLDVKLKG EQAKKISFLI NNTAGKNLTG DKSVEKLVPK MNEAWLDQDY
+     KVFSYEPQPA GTVRVNYYRT DGNYDKKSLW YWGDVKNPSS AQWPDGTDFT ATGKYGRYID
+     IPLNEAAREF GFLLLDESKQ GDDVKIRKEN YKFTDLKNHS QIFLKDDDES IYTNPYYVHD
+     IRMTGAQHVG TSSIESSFST LVGAKKEDIL KHSNITNHLG NKVTITDVAI DEAGKKVTYS
+     GDFSDTKHPY TVSYNSDQFT TKTSWRLKDE TYSYDGKLGA DLKEEGKQVD LTLWSPSADK
+     VSVVVYDKND PDKVVGTVAL EKGERGTWKQ TLDSTNKLGI TDFTGYYYQY QIERQGKTVL
+     ALDPYAKSLA AWNSDDAKID DAHKVAKAAF VDPAKLGPQD LTYGKIHNFK TREDAVIYEA
+     HVRDFTSDPA IAKDLTKPFG TFEAFIEKLD YLKDLGVTHI QLLPVLSYYF VNELKNHEHL
+     SDYASSNSNY NWGYDPQNYF SLTGMYSSDP KNPEKRIAEF KNLINEIHKR GMGAILDVVY
+     NHTAKVDIFE DLEPNYYHFM DADGTPRTSF GGGRLGTTHH MTKRLLVDSI KYLVDTYKVD
+     GFRFDMMGDH DAASIEEAYK AARALNPNLI MLGEGWRTYA GDENMPTKAA DQDWMKHTDT
+     VAVFSDDIRN NLKSGYPNEG QPAFITGGKR DVNTIFKNLI AQPTNFEADS PGDVIQYIAA
+     HDNLTLFDII AQSIKKDPSK AENYAEIHRR LRLGNLMVLT AQGTPFIHSG QEYGRTKQFR
+     NPAYRTPVAE DKVPNKSHLL RDKDGNPFDY PYFIHDSYDS SDAVNKFDWT KATDGKAYPE
+     NVKSRDYMKG LIALRQSTDA FRLKSLQDIK DRVHLITVPG QNGVEKEDVV IGYQITAPNG
+     DIYAVFVNAD EKAREFNLGT AFAHLRNAEV LADENQAGSV GIANPKGLEW TEKGLKLNAL
+     TATVLRVSQN GTSHESTAEE KPDSTPSKPE HQNEASHPAH QDPAPEARPD STKPDAKVAD
+     AENKPSQATA DSQAEQPAQE AQASSVKEAV RKESVENSSK ENISATPDRQ AELPNTGIKN
+     ENKLLFAGIS LLALLGLGFL LKNKKEN
+//

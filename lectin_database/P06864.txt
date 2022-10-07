@@ -1,0 +1,220 @@
+ID   BGA2_ECOLI              Reviewed;        1030 AA.
+AC   P06864; P76660; Q2M9D0; Q6BF50;
+DT   01-JAN-1988, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 4.
+DT   03-AUG-2022, entry version 182.
+DE   RecName: Full=Evolved beta-galactosidase subunit alpha;
+DE            Short=Beta-gal;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Lactase;
+GN   Name=ebgA; OrderedLocusNames=b3076, JW5511;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2515108; DOI=10.1093/genetics/123.4.635;
+RA   Hall B.G., Betts P.W., Wootton J.C.;
+RT   "DNA sequence analysis of artificially evolved ebg enzyme and ebg repressor
+RT   genes.";
+RL   Genetics 123:635-648(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3939707; DOI=10.1093/oxfordjournals.molbev.a040372;
+RA   Stokes H.W., Betts P.W., Hall B.G.;
+RT   "Sequence of the ebgA gene of Escherichia coli: comparison with the lacZ
+RT   gene.";
+RL   Mol. Biol. Evol. 2:469-477(1985).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   SEQUENCE REVISION TO 275 AND 891-892.
+RX   PubMed=16397293; DOI=10.1093/nar/gkj405;
+RA   Riley M., Abe T., Arnaud M.B., Berlyn M.K.B., Blattner F.R.,
+RA   Chaudhuri R.R., Glasner J.D., Horiuchi T., Keseler I.M., Kosuge T.,
+RA   Mori H., Perna N.T., Plunkett G. III, Rudd K.E., Serres M.H., Thomas G.H.,
+RA   Thomson N.R., Wishart D., Wanner B.L.;
+RT   "Escherichia coli K-12: a cooperatively developed annotation snapshot
+RT   -- 2005.";
+RL   Nucleic Acids Res. 34:1-9(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [6]
+RP   ACTIVE SITE REGIONS.
+RX   PubMed=6411710; DOI=10.1016/s0021-9258(17)44440-1;
+RA   Fowler A.V., Smith P.J.;
+RT   "The active site regions of lacZ and ebg beta-galactosidases are
+RT   homologous.";
+RL   J. Biol. Chem. 258:10204-10207(1983).
+RN   [7]
+RP   SUBUNIT.
+RX   PubMed=1540130; DOI=10.1042/bj2820155;
+RA   Elliott A.C., Sinnott M.L., Smith P.J., Bommuswamy J., Guo Z., Hall B.G.,
+RA   Zhang Y.;
+RT   "The catalytic consequences of experimental evolution. Studies on the
+RT   subunit structure of the second (ebg) beta-galactosidase of Escherichia
+RT   coli, and on catalysis by ebgab, an experimental evolvant containing two
+RT   amino acid substitutions.";
+RL   Biochem. J. 282:155-164(1992).
+CC   -!- FUNCTION: The wild-type enzyme is an ineffective lactase. Two classes
+CC       of point mutations dramatically improve activity of the enzyme.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- SUBUNIT: Heterooctamer of 4 alpha and 4 beta subunits.
+CC       {ECO:0000269|PubMed:1540130}.
+CC   -!- INTERACTION:
+CC       P06864; P32053: intA; NbExp=3; IntAct=EBI-558098, EBI-552967;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA57877.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M64441; AAA61971.1; -; Genomic_DNA.
+DR   EMBL; X52031; CAA36274.1; -; Genomic_DNA.
+DR   EMBL; X03228; CAA26977.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; U18997; AAA57877.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAT48164.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77126.1; -; Genomic_DNA.
+DR   PIR; A65096; GBECE.
+DR   RefSeq; WP_001082856.1; NZ_LN832404.1.
+DR   RefSeq; YP_026199.1; NC_000913.3.
+DR   AlphaFoldDB; P06864; -.
+DR   SMR; P06864; -.
+DR   BioGRID; 4263419; 6.
+DR   BioGRID; 851899; 6.
+DR   DIP; DIP-2893N; -.
+DR   IntAct; P06864; 7.
+DR   STRING; 511145.b3076; -.
+DR   DrugBank; DB00581; Lactulose.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   PaxDb; P06864; -.
+DR   PRIDE; P06864; -.
+DR   EnsemblBacteria; AAT48164; AAT48164; b3076.
+DR   EnsemblBacteria; BAE77126; BAE77126; BAE77126.
+DR   GeneID; 947583; -.
+DR   KEGG; ecj:JW5511; -.
+DR   KEGG; eco:b3076; -.
+DR   PATRIC; fig|511145.12.peg.3170; -.
+DR   EchoBASE; EB0248; -.
+DR   eggNOG; COG3250; Bacteria.
+DR   HOGENOM; CLU_002346_0_2_6; -.
+DR   InParanoid; P06864; -.
+DR   OMA; WCDHGIL; -.
+DR   PhylomeDB; P06864; -.
+DR   BioCyc; EcoCyc:EG10252-MON; -.
+DR   SABIO-RK; P06864; -.
+DR   PRO; PR:P06864; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IBA:GO_Central.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005990; P:lactose catabolic process; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   1: Evidence at protein level;
+KW   Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           1..1030
+FT                   /note="Evolved beta-galactosidase subunit alpha"
+FT                   /id="PRO_0000057651"
+FT   ACT_SITE        449
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000269|PubMed:6411710"
+FT   ACT_SITE        512
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   VARIANT         92
+FT                   /note="D -> N (improve activity)"
+FT   VARIANT         93
+FT                   /note="E -> K (improve activity)"
+FT   VARIANT         976
+FT                   /note="W -> C (improve activity)"
+FT   VARIANT         978
+FT                   /note="S -> G (improve activity)"
+FT   CONFLICT        275
+FT                   /note="S -> T (in Ref. 1, 2 and 3; AAA57877)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        465
+FT                   /note="A -> R (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        640
+FT                   /note="T -> S (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        649
+FT                   /note="R -> P (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        767
+FT                   /note="M -> MM (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        891..892
+FT                   /note="ST -> QA (in Ref. 1, 2 and 3; AAA57877)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1026
+FT                   /note="S -> T (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1030 AA;  117879 MW;  FEC4D7A558C6EE94 CRC64;
+     MNRWENIQLT HENRLAPRAY FFSYDSVAQA RTFARETSSL FLPLSGQWNF HFFDHPLQVP
+     EAFTSELMAD WGHITVPAMW QMEGHGKLQY TDEGFPFPID VPFVPSDNPT GAYQRIFTLS
+     DGWQGKQTLI KFDGVETYFE VYVNGQYVGF SKGSRLTAEF DISAMVKTGD NLLCVRVMQW
+     ADSTYVEDQD MWWSAGIFRD VYLVGKHLTH INDFTVRTDF DEAYCDATLS CEVVLENLAA
+     SPVVTTLEYT LFDGERVVHS SAIDHLAIEK LTSASFAFTV EQPQQWSAES PYLYHLVMTL
+     KDANGNVLEV VPQRVGFRDI KVRDGLFWIN NRYVMLHGVN RHDNDHRKGR AVGMDRVEKD
+     LQLMKQHNIN SVRTAHYPND PRFYELCDIY GLFVMAETDV ESHGFANVGD ISRITDDPQW
+     EKVYVERIVR HIHAQKNHPS IIIWSLGNES GYGCNIRAMY HAAKALDDTR LVHYEEDRDA
+     EVVDIISTMY TRVPLMNEFG EYPHPKPRII CEYAHAMGNG PGGLTEYQNV FYKHDCIQGH
+     YVWEWCDHGI QAQDDHGNVW YKFGGDYGDY PNNYNFCLDG LIYSDQTPGP GLKEYKQVIA
+     PVKIHARDLT RGELKVENKL WFTTLDDYTL HAEVRAEGET LATQQIKLRD VAPNSEAPLQ
+     ITLPQLDARE AFLNITVTKD SRTRYSEAGH PIATYQFPLK ENTAQPVPFA PNNARPLTLE
+     DDRLSCTVRG YNFAITFSKM SGKPTSWQVN GESLLTREPK INFFKPMIDN HKQEYEGLWQ
+     PNHLQIMQEH LRDFAVEQSD GEVLIISRTV IAPPVFDFGM RCTYIWRIAA DGQVNVALSG
+     ERYGDYPHII PCIGFTMGIN GEYDQVAYYG RGPGENYADS QQANIIDIWR STVDAMFENY
+     PFPQNNGNRQ HVRWTALTNR HGNGLLVVPQ RPINFSAWHY TQENIHAAQH CNELQRSDDI
+     TLNLDHQLLG LGSNSWGSEV LDSWRVWFRD FSYGFTLLPV SGGEATAQSL ASYEFGAGFF
+     STNLHSENKQ
+//

@@ -1,0 +1,66 @@
+ID   Q1W2P6_CHICK            Unreviewed;       296 AA.
+AC   Q1W2P6;
+DT   02-MAY-2006, integrated into UniProtKB/TrEMBL.
+DT   02-MAY-2006, sequence version 1.
+DT   03-AUG-2022, entry version 76.
+DE   RecName: Full=Galectin {ECO:0000256|RuleBase:RU102079};
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031 {ECO:0000313|EMBL:ABD97855.1};
+RN   [1] {ECO:0000313|EMBL:ABD97855.1}
+RP   NUCLEOTIDE SEQUENCE.
+RA   Muernseer M., Kaltner H., Gabius H.-J.;
+RT   "Gallus gallus galectin-8 variant I.";
+RL   Submitted (MAR-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:4WVV, ECO:0007829|PDB:4WVW}
+RP   X-RAY CRYSTALLOGRAPHY (1.21 ANGSTROMS) OF 9-153.
+RX   PubMed=26270612; DOI=10.1002/chem.201501961;
+RA   Ruiz F.M., Gilles U., Lindner I., Andre S., Romero A., Reusch D.,
+RA   Gabius H.J.;
+RT   "Combining Crystallography and Hydrogen-Deuterium Exchange to Study
+RT   Galectin-Ligand Complexes.";
+RL   Chemistry 21:13558-13568(2015).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ443719; ABD97855.1; -; mRNA.
+DR   PDB; 4WVV; X-ray; 1.21 A; A=9-153.
+DR   PDB; 4WVW; X-ray; 1.47 A; A=9-152.
+DR   PDBsum; 4WVV; -.
+DR   PDBsum; 4WVW; -.
+DR   SMR; Q1W2P6; -.
+DR   UniLectin; Q1W2P6; -.
+DR   VEuPathDB; HostDB:geneid_430948; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd00070; GLECT; 2.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR030638; Galectin_8.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 2.
+DR   PANTHER; PTHR11346:SF22; PTHR11346:SF22; 2.
+DR   Pfam; PF00337; Gal-bind_lectin; 2.
+DR   SMART; SM00908; Gal-bind_lectin; 2.
+DR   SMART; SM00276; GLECT; 2.
+DR   SUPFAM; SSF49899; SSF49899; 2.
+DR   PROSITE; PS51304; GALECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4WVV, ECO:0007829|PDB:4WVW};
+KW   Lectin {ECO:0000256|RuleBase:RU102079}.
+FT   DOMAIN          18..151
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51304"
+FT   DOMAIN          166..296
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51304"
+SQ   SEQUENCE   296 AA;  33703 MW;  85DB34C366AFC3DF CRC64;
+     MMSLDGPQKK ISNPIIPYVG TILGGLVPGE LIVLHGSIPD DADRFQVDLQ CGSSIKPRAD
+     VAFHFNPRFK WSGCVVCNTL EREKWGWEEI TYEMPFQKGR PFEIVIMILK DKFQVSVNKK
+     HLLLYNHRIS LERIDTLGIY GKVQIKSIEF VSNGEMPDGL QFGVPYVGKL VSALHPGCTV
+     AIKGEVNKNP KSFTINLKSS DSKDIALHLN PRLKNKVFVR NSYLHDSWGE EEKEVTNFPF
+     SPGMYFELII FCDAHQFKVA VNGVHTLEYK HRFKQLEKIN LLEVTGDVQL LDVRSW
+//

@@ -1,0 +1,47 @@
+ID   O60949_PHYPO            Unreviewed;       104 AA.
+AC   O60949;
+DT   01-AUG-1998, integrated into UniProtKB/TrEMBL.
+DT   01-AUG-1998, sequence version 1.
+DT   07-APR-2021, entry version 40.
+DE   SubName: Full=Haemagglutinin I {ECO:0000313|EMBL:AAC39014.1};
+OS   Physarum polycephalum (Slime mold).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Myxogastria;
+OC   Myxogastromycetidae; Physariida; Physaraceae; Physarum.
+OX   NCBI_TaxID=5791 {ECO:0000313|EMBL:AAC39014.1};
+RN   [1] {ECO:0000313|EMBL:AAC39014.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Ng-1 {ECO:0000313|EMBL:AAC39014.1};
+RX   PubMed=9579080;
+RA   Morita M.;
+RT   "Molecular analysis of Physarum haemagglutinin I: lack of a signal
+RT   sequence, sulphur amino acids and post-translational modifications.";
+RL   Microbiology 144:1077-1084(1998).
+RN   [2] {ECO:0007829|PDB:3A5P}
+RP   X-RAY CRYSTALLOGRAPHY (1.82 ANGSTROMS).
+RX   PubMed=21094650; DOI=10.1016/j.jmb.2010.11.024;
+RA   Kouno T., Watanabe N., Sakai N., Nakamura T., Nabeshima Y., Morita M.,
+RA   Mizuguchi M., Aizawa T., Demura M., Imanaka T., Tanaka I., Kawano K.;
+RT   "The Structure of Physarum polycephalum hemagglutinin I suggests a minimal
+RT   carbohydrate recognition domain of legume lectin fold.";
+RL   J. Mol. Biol. 405:560-569(2011).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U86761; AAC39014.1; -; mRNA.
+DR   PDB; 3A5P; X-ray; 1.82 A; A/B/C/D=1-104.
+DR   PDBsum; 3A5P; -.
+DR   SMR; O60949; -.
+DR   UniLectin; O60949; -.
+DR   EvolutionaryTrace; O60949; -.
+DR   InterPro; IPR040862; HA1.
+DR   Pfam; PF18239; HA1; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3A5P}.
+FT   DOMAIN          16..75
+FT                   /note="HA1"
+FT                   /evidence="ECO:0000259|Pfam:PF18239"
+SQ   SEQUENCE   104 AA;  10892 MW;  4EB04C2F443821DC CRC64;
+     MVWSVQIVDN AGLGANLALY PSGNSSTVPR YVTVTGYAPI TFSEIGPKTV HQSWYITVHN
+     GDDRAFQLGY EGGGVATATF TAGGNVSIST GFGDAQHLTL KKLA
+//

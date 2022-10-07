@@ -1,0 +1,207 @@
+ID   BGAL_ENTAG              Reviewed;        1028 AA.
+AC   A3FEW8;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAR-2009, sequence version 2.
+DT   03-AUG-2022, entry version 52.
+DE   RecName: Full=Beta-galactosidase;
+DE            Short=Beta-gal;
+DE            Short=Bga;
+DE            EC=3.2.1.23;
+DE   AltName: Full=Lactase;
+DE   AltName: Full=Transglycosylating beta-galactosidase;
+GN   Name=lacZ;
+OS   Enterobacter agglomerans (Erwinia herbicola) (Pantoea agglomerans).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Erwiniaceae; Pantoea; Pantoea agglomerans group.
+OX   NCBI_TaxID=549;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-9, FUNCTION AS
+RP   TRANSGLYCOSYLATING BETA-GALACTOSIDASE, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   ACTIVITY REGULATION, AND SUBUNIT.
+RC   STRAIN=B1;
+RX   PubMed=17336932; DOI=10.1016/j.bbrc.2007.02.106;
+RA   Lu L., Xiao M., Xu X., Li Z., Li Y.;
+RT   "A novel beta-galactosidase capable of glycosyl transfer from Enterobacter
+RT   agglomerans B1.";
+RL   Biochem. Biophys. Res. Commun. 356:78-84(2007).
+CC   -!- FUNCTION: This beta-galactosidase is also able to catalyze glycosyl
+CC       transfer to a series of acceptors, including hexose, pentose, beta- or
+CC       alpha-disaccharides, hexahydroxy alcohol, cyclitol, and aromatic
+CC       glycosides, resulting in the production of galacto-oligosaccharides
+CC       (GOS). {ECO:0000269|PubMed:17336932}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000305};
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000305};
+CC       Note=Binds 2 magnesium ions per monomer. Can also use manganese and
+CC       iron. {ECO:0000305};
+CC   -!- COFACTOR:
+CC       Name=Na(+); Xref=ChEBI:CHEBI:29101; Evidence={ECO:0000305};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000305};
+CC       Note=Binds 1 sodium ion per monomer. Can also use potassium.
+CC       {ECO:0000305};
+CC   -!- ACTIVITY REGULATION: Completely inhibited by Hg(2+), Cu(2+) Ag(2+), and
+CC       partially inhibited by Zn(2+), imidazole and EDTA. Activated by Ca(2+),
+CC       Co(2+), Ni(2+). {ECO:0000269|PubMed:17336932}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.06 mM for o-nitrophenyl-beta-D-galactopyranoside (at 37 degrees
+CC         Celsius) {ECO:0000269|PubMed:17336932};
+CC         KM=114 mM for lactose (at 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:17336932};
+CC         Vmax=0.43 mmol/min/mg enzyme for
+CC         o-nitrophenyl-beta-D-galactopyranoside (at 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:17336932};
+CC         Vmax=2.9 mmol/min/mg enzyme for
+CC         o-nitrophenyl-beta-D-galactopyranoside (at 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:17336932};
+CC       pH dependence:
+CC         Optimum pH is 7.5-8.0. Stable between 7.5-10.0.
+CC         {ECO:0000269|PubMed:17336932};
+CC       Temperature dependence:
+CC         Optimum temperature is 37-40 degrees Celsius. Stable below 37 degrees
+CC         Celsius. {ECO:0000269|PubMed:17336932};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:17336932}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABN42680.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF371803; ABN42680.1; ALT_INIT; Genomic_DNA.
+DR   AlphaFoldDB; A3FEW8; -.
+DR   SMR; A3FEW8; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   SABIO-RK; A3FEW8; -.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IEA:InterPro.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01687; Beta_gal; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR023933; Glyco_hydro_2_beta_Galsidase.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycosidase; Hydrolase; Magnesium;
+KW   Metal-binding; Sodium.
+FT   CHAIN           1..1028
+FT                   /note="Beta-galactosidase"
+FT                   /id="PRO_0000366982"
+FT   ACT_SITE        463
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        539
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         104
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         203
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         203
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         418
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         420
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         463
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         463
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         539..542
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         599
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         603
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         606
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         606
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         1004
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            359
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   SITE            393
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   SITE            1004
+FT                   /note="Important for ensuring that an appropriate
+FT                   proportion of lactose is converted to allolactose"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1028 AA;  116394 MW;  5A72487AB243185D CRC64;
+     MFTASPMSLS KILARRDWEN PGVTQWHRLP AHAPFNSWRD EASARADDNA SRKRSLNGDW
+     QFSYYAAPEQ VPDSWVTEDC ADAVTTPVPS NWQMQGFDTP IYTNDTYPIP VNPPFVPAEN
+     PTGCYSLTFE VDEQWLESGQ TRIVFDGVNS AFYLWCNGKW MGYSQDSRLP AEFDLSAVLR
+     PGTNRLAVLV LRWCDGSYLE DQDMWRMSGI FRDVSLLHKP HTHIADYHAV TELNADYDRA
+     KLQVEVALAG EQFADCEVAV TLWRDGLSVA TVSAKPGSAI IDERGNWAER LNVTLPVKDP
+     ALWSAETPEL YRLTFALRDG QGEILDVEAC DVGFRCVEIS NGLLKVNGKP LLIRGVNRHE
+     HHPENGQVMD EATMCRDIEL MKQHNFNAVR CSHYPNHPLW YTLCDRYGLY VVDEANIETH
+     GMVPMSRLAD DPRWLPAMSE RVTRMVLRDR NHPSIIIWSL GNESGHGANH DALYRWVKTT
+     DPTRPVQYEG GGANTAATDI VCPMYARVDQ DQPFEAVPKW SLKKWIGMPD ETRPLILCEY
+     AHAMGNSFGG FAKYWQAFRN HPRLQGGFVW DWVDQALTKK DDNGNAFWAY GGDFGDTPND
+     RQFCLNGLVF PDRTPHPALF EAQRAQQFFT FTLVSTSPLV IDVHSDYLFR QCDNEQLRWN
+     IARDGEVLAS GEVALTIAPQ QTQRIEIDAP EFAAAAGEIW LNVDIVQTAA TAWSPADHRC
+     AWDQWQLPAP LYIAPPVEGT AKPDLKVKED VLEVSHQSQR WHFDRASGNL TQWWNNGTAT
+     LLAPLSDNFT RAPLDNDIGV SEATRIDPNA WVERWKAAGM YNLTPRLLLC EGEQLAQAVT
+     ITTLHAWESN GKALFLSRKV WKIDRAGVLH GDVQVQVAND IPQPARIGLS CQLAQTPQTA
+     SWLGLGPDEN YPDRKLAARQ GRWTLPLDAL HTAYIFPTDN GLRCDTRELT FDTHQMQGDF
+     HFSLSRYSQQ QLRDTSHHHL LEAEPGCWLN IDAFHMGVGG DDSWSPSVSP EFILQRREMR
+     YAFSWRQD
+//

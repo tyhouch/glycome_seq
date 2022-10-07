@@ -1,0 +1,65 @@
+ID   YCR2_PSEVU              Reviewed;         529 AA.
+AC   Q01336;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   25-MAY-2022, entry version 60.
+DE   RecName: Full=Uncharacterized family 31 glucosidase ORF2;
+DE            EC=3.2.1.-;
+DE   Flags: Fragment;
+OS   Pseudescherichia vulneris (Escherichia vulneris).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Pseudescherichia.
+OX   NCBI_TaxID=566;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 39368 / Eho10;
+RX   PubMed=7808389; DOI=10.1007/bf00302252;
+RA   Hundle B., Alberti M., Nievelstein V., Beyer P., Kleinig H.,
+RA   Armstrong G.A., Burke D.H., Hearst J.E.;
+RT   "Functional assignment of Erwinia herbicola Eho10 carotenoid genes
+RT   expressed in Escherichia coli.";
+RL   Mol. Gen. Genet. 245:406-416(1994).
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M87280; AAA64974.1; -; Genomic_DNA.
+DR   PIR; S52976; S52976.
+DR   AlphaFoldDB; Q01336; -.
+DR   SMR; Q01336; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase; Hydrolase.
+FT   CHAIN           1..>529
+FT                   /note="Uncharacterized family 31 glucosidase ORF2"
+FT                   /id="PRO_0000185373"
+FT   ACT_SITE        389
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        392
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        459
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         529
+SQ   SEQUENCE   529 AA;  60812 MW;  24ECE92B09A01180 CRC64;
+     MSELIEHANA IEWRFERQIL RLEPWGKNSL RVRATCAPEF TSALHALLTP ESCQAEILRD
+     AETLTLRNGN ISAVLNLKGQ LAFYNQRGEL LLEEMWRQRS TVGIGASEKS QDKYVSALKL
+     DGREFKPLPG GKYQLTVRFE ARQGEKLYGM GQYQQPWLDL KGCSLELAQR NSQASVPFVQ
+     SSLGYGLLWN NPAIGEASFA KNHSQWTSRV TQEMDYWITA GDSVMEITRQ YAKATGTPPA
+     APEFISGLWQ CKLRYRTQQE VLDVAREYHR RNLPLSVMVI DFFHWPNQGT WCFDPVDWPD
+     PRAMVEELES MGIRLMVSVW PTVEARSPLF PQMKAKGWLV TSDRGVQVNL DFMGNTTFFD
+     ATHPQARQFV WDTVKKNYFD YGIKLFWLDE AEPEYRAYDF DNYRYHAGPV LEVGNRYPRD
+     FAQGFYDGLR AEGENEIVNL VRCSWAGSQR YGVLAWSGDV HSSFHSFRNQ LAAGLNMGLA
+     GIPWWTTDIG GFQGGNIHDP AFHELLIRWF QWAVFCPVLR MHGYREPRI
+//

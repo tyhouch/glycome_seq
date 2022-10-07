@@ -1,0 +1,206 @@
+ID   CLC10_MOUSE             Reviewed;         304 AA.
+AC   P49300; Q549F6; Q91YT3;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   03-AUG-2022, entry version 150.
+DE   RecName: Full=C-type lectin domain family 10 member A;
+DE   AltName: Full=MMGL;
+DE   AltName: Full=Macrophage asialoglycoprotein-binding protein 1;
+DE            Short=M-ASGP-BP-1;
+DE   AltName: Full=Macrophage galactose/N-acetylgalactosamine-specific lectin;
+GN   Name=Clec10a; Synonyms=Mgl, Mgl1;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=C3H/HeN;
+RX   PubMed=1587794; DOI=10.1093/oxfordjournals.jbchem.a123758;
+RA   Sato M., Kawakamyi K., Osawa T., Toyoshima S.;
+RT   "Molecular cloning and expression of cDNA encoding a galactose/N-
+RT   acetylgalactosamine-specific lectin on mouse tumoricidal macrophages.";
+RL   J. Biochem. 111:331-336(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=129/SvJ;
+RX   PubMed=10541808; DOI=10.1007/s002510050687;
+RA   Tsuiji M., Fujimori M., Seldin M.F., Taketo M.M., Irimura T.;
+RT   "Genomic structure and chromosomal location of the mouse macrophage C-type
+RT   lectin gene.";
+RL   Immunogenetics 50:67-70(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RG   The mouse genome sequencing consortium;
+RL   Submitted (JAN-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=FVB/N; TISSUE=Mammary tumor;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 102-120 AND 137-151.
+RC   STRAIN=C3H/HeN;
+RX   PubMed=3241002; DOI=10.1093/oxfordjournals.jbchem.a122518;
+RA   Oda S., Sato M., Toyoshima S., Osawa T.;
+RT   "Purification and characterization of a lectin-like molecule specific for
+RT   galactose/N-acetyl-galactosamine from tumoricidal macrophages.";
+RL   J. Biochem. 104:600-605(1988).
+RN   [7]
+RP   TISSUE SPECIFICITY, AND DEVELOPMENTAL STAGE.
+RX   PubMed=12016228; DOI=10.1074/jbc.m203774200;
+RA   Tsuiji M., Fujimori M., Ohashi Y., Higashi N., Onami T.M., Hedrick S.M.,
+RA   Irimura T.;
+RT   "Molecular cloning and characterization of a novel mouse macrophage C-type
+RT   lectin, mMGL2, which has a distinct carbohydrate specificity from mMGL1.";
+RL   J. Biol. Chem. 277:28892-28901(2002).
+RN   [8]
+RP   INTERACTION WITH SIGLEC1, AND TISSUE SPECIFICITY.
+RX   PubMed=15364954; DOI=10.1074/jbc.m409300200;
+RA   Kumamoto Y., Higashi N., Denda-Nagai K., Tsuiji M., Sato K., Crocker P.R.,
+RA   Irimura T.;
+RT   "Identification of sialoadhesin as a dominant lymph node counter-receptor
+RT   for mouse macrophage galactose-type C-type lectin 1.";
+RL   J. Biol. Chem. 279:49274-49280(2004).
+RN   [9]
+RP   FUNCTION.
+RX   PubMed=19995956; DOI=10.1084/jem.20091333;
+RA   Westcott D.J., Delproposto J.B., Geletka L.M., Wang T., Singer K.,
+RA   Saltiel A.R., Lumeng C.N.;
+RT   "MGL1 promotes adipose tissue inflammation and insulin resistance by
+RT   regulating 7/4hi monocytes in obesity.";
+RL   J. Exp. Med. 206:3143-3156(2009).
+CC   -!- FUNCTION: Recognizes terminal galactose and N-acetylgalactosamine
+CC       units. May participate in the interaction between tumoricidal
+CC       macrophages and tumor cells. Plays a role in the recruitment of
+CC       inflammatory monocytes to adipose tissue in diet-induced obesity.
+CC       {ECO:0000269|PubMed:19995956}.
+CC   -!- SUBUNIT: Homooligomer. Interacts with SIGLEC1, which may act as a
+CC       counter-receptor for CLEC10A in lymph node.
+CC       {ECO:0000269|PubMed:15364954}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Detected in lymph node in the subcapsular sinus,
+CC       interfollicular regions, T and B-cell boundary and in the areas
+CC       surrounding high endothelial venules (at protein level). Expressed on
+CC       the surface of activated macrophages. Expressed in heart, lung, testis,
+CC       skeletal muscle, spleen, brain, kidney and thymus. Expressed in P388,
+CC       RAW 264.7 and M1 cell lines. {ECO:0000269|PubMed:12016228,
+CC       ECO:0000269|PubMed:15364954}.
+CC   -!- DEVELOPMENTAL STAGE: Detected in 7 dpc, 11 dpc, 15 dpc and 17 dpc
+CC       embryo. {ECO:0000269|PubMed:12016228}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=MGL1;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_158";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S36676; AAB22171.1; -; mRNA.
+DR   EMBL; AF132744; AAD31028.1; -; Genomic_DNA.
+DR   EMBL; CH466596; EDL12536.1; -; Genomic_DNA.
+DR   EMBL; AL669869; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CR933731; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC014811; AAH14811.1; -; mRNA.
+DR   CCDS; CCDS24936.1; -.
+DR   PIR; JX0209; JX0209.
+DR   RefSeq; NP_034926.1; NM_010796.3.
+DR   AlphaFoldDB; P49300; -.
+DR   SMR; P49300; -.
+DR   STRING; 10090.ENSMUSP00000000327; -.
+DR   GlyGen; P49300; 2 sites.
+DR   iPTMnet; P49300; -.
+DR   PhosphoSitePlus; P49300; -.
+DR   PaxDb; P49300; -.
+DR   PRIDE; P49300; -.
+DR   ProteomicsDB; 283275; -.
+DR   DNASU; 17312; -.
+DR   Ensembl; ENSMUST00000102571; ENSMUSP00000099631; ENSMUSG00000000318.
+DR   GeneID; 17312; -.
+DR   KEGG; mmu:17312; -.
+DR   UCSC; uc007jtx.2; mouse.
+DR   CTD; 10462; -.
+DR   MGI; MGI:96975; Clec10a.
+DR   VEuPathDB; HostDB:ENSMUSG00000000318; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000162036; -.
+DR   HOGENOM; CLU_049894_2_0_1; -.
+DR   InParanoid; P49300; -.
+DR   PhylomeDB; P49300; -.
+DR   BioGRID-ORCS; 17312; 2 hits in 74 CRISPR screens.
+DR   ChiTaRS; Clec10a; mouse.
+DR   PRO; PR:P49300; -.
+DR   Proteomes; UP000000589; Chromosome 11.
+DR   RNAct; P49300; protein.
+DR   Bgee; ENSMUSG00000000318; Expressed in stroma of bone marrow and 112 other tissues.
+DR   ExpressionAtlas; P49300; baseline and differential.
+DR   Genevisible; P49300; MM.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0002248; P:connective tissue replacement involved in inflammatory response wound healing; IMP:MGI.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Glycoprotein; Lectin;
+KW   Membrane; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..304
+FT                   /note="C-type lectin domain family 10 member A"
+FT                   /id="PRO_0000046657"
+FT   TOPO_DOM        1..35
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        36..56
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        57..304
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          172..298
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        74
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        166
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        173..184
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        201..296
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        274..288
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CONFLICT        71
+FT                   /note="T -> I (in Ref. 5; AAH14811)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        128
+FT                   /note="V -> L (in Ref. 5; AAH14811)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   304 AA;  34596 MW;  3F79CD12C34F5BCC CRC64;
+     MIYENLQNSR IEEKTQEPGK APSQSFLWRI LSWTHLLLFS LGLSLLLLVV VSVIGSQNSQ
+     LRRDLGTLRA TLDNTTSKIK AEFQSLDSRA DSFEKGISSL KVDVEDHRQE LQAGRDLSQK
+     VTSLESTVEK REQALKTDLS DLTDHVQQLR KDLKALTCQL ANLKNNGSEV ACCPLHWTEH
+     EGSCYWFSES EKSWPEADKY CRLENSHLVV VNSLEEQNFL QNRLANVVSW IGLTDQNGPW
+     RWVDGTDFEK GFKNWAPLQP DNWFGHGLGG GEDCAHITTG GPWNDDVCQR TFRWICEMKL
+     AKES
+//

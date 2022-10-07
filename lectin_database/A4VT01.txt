@@ -1,0 +1,137 @@
+ID   A4VT01_STRSY            Unreviewed;       698 AA.
+AC   A4VT01;
+DT   29-MAY-2007, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2007, sequence version 1.
+DT   03-AUG-2022, entry version 90.
+DE   SubName: Full=Translation initiation factor 2 (IF-2 GTPase) {ECO:0000313|EMBL:ABP89240.1};
+GN   OrderedLocusNames=SSU05_0272 {ECO:0000313|EMBL:ABP89240.1};
+OS   Streptococcus suis (strain 05ZYH33).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=391295 {ECO:0000313|EMBL:ABP89240.1, ECO:0000313|Proteomes:UP000000243};
+RN   [1] {ECO:0000313|EMBL:ABP89240.1, ECO:0000313|Proteomes:UP000000243}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=05ZYH33 {ECO:0000313|EMBL:ABP89240.1,
+RC   ECO:0000313|Proteomes:UP000000243};
+RX   PubMed=17375201; DOI=10.1371/journal.pone.0000315;
+RG   BGI;
+RA   Chen C., Tang J., Dong W., Wang C., Feng Y., Wang J., Zheng F., Pan X.,
+RA   Liu D., Li M., Song Y., Zhu X., Sun H., Feng T., Guo Z., Ju A., Ge J.,
+RA   Dong Y., Sun W., Jiang Y., Wang J., Yan J., Yang H., Wang X., Gao G.F.,
+RA   Yang R., Wang J., Yu J.;
+RT   "A glimpse of streptococcal toxic shock syndrome from comparative genomics
+RT   of S. suis 2 Chinese isolates.";
+RL   PLoS ONE 2:E315-E315(2007).
+RN   [2] {ECO:0007829|PDB:5BOB}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 139-343.
+RX   PubMed=26365348; DOI=10.1016/j.bbrc.2015.09.040;
+RA   Zhang C., Yu Y., Yang M., Jiang Y.;
+RT   "Expression, purification, crystallization and structure determination of
+RT   the N terminal domain of Fhb, a factor H binding protein from Streptococcus
+RT   suis.";
+RL   Biochem. Biophys. Res. Commun. 466:413-417(2015).
+RN   [3] {ECO:0007829|PDB:5BOA}
+RP   X-RAY CRYSTALLOGRAPHY (2.71 ANGSTROMS) OF 139-343 IN COMPLEX WITH
+RP   GALACTOSE.
+RX   PubMed=27086582; DOI=10.1002/1873-3468.12174;
+RA   Zhang C., Hao H., Yu Y., Kong D., Chen S., Jiang H., Yuan Y., Zheng Y.,
+RA   Yang M., Jiang Y.;
+RT   "Structural basis of the interaction between the meningitis pathogen
+RT   Streptococcus suis adhesin Fhb and its human receptor.";
+RL   FEBS Lett. 590:1384-1392(2016).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000407; ABP89240.1; -; Genomic_DNA.
+DR   PDB; 5BOA; X-ray; 2.71 A; A/B/C/D/E/F=139-343.
+DR   PDB; 5BOB; X-ray; 1.50 A; A/B/C/D/E=139-343.
+DR   PDBsum; 5BOA; -.
+DR   PDBsum; 5BOB; -.
+DR   SMR; A4VT01; -.
+DR   STRING; 391295.SSU05_0272; -.
+DR   UniLectin; A4VT01; -.
+DR   EnsemblBacteria; ABP89240; ABP89240; SSU05_0272.
+DR   KEGG; ssu:SSU05_0272; -.
+DR   eggNOG; COG3087; Bacteria.
+DR   HOGENOM; CLU_386805_0_0_9; -.
+DR   OMA; QMDKPHT; -.
+DR   BioCyc; SSUI391295:GHI8-302-MON; -.
+DR   Proteomes; UP000000243; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0009274; C:peptidoglycan-based cell wall; IDA:CAFA.
+DR   GO; GO:0070051; F:fibrinogen binding; IPI:CAFA.
+DR   GO; GO:0003743; F:translation initiation factor activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR019931; LPXTG_anchor.
+DR   Pfam; PF00746; Gram_pos_anchor; 1.
+DR   PROSITE; PS50847; GRAM_POS_ANCHORING; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5BOA, ECO:0007829|PDB:5BOB};
+KW   Cell wall {ECO:0000256|ARBA:ARBA00022512};
+KW   Initiation factor {ECO:0000313|EMBL:ABP89240.1};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Peptidoglycan-anchor {ECO:0000256|ARBA:ARBA00023088};
+KW   Protein biosynthesis {ECO:0000313|EMBL:ABP89240.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000243};
+KW   Secreted {ECO:0000256|ARBA:ARBA00022512};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729, ECO:0000256|SAM:SignalP};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   SIGNAL          1..44
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           45..698
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5005659898"
+FT   TRANSMEM        674..692
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          665..698
+FT                   /note="GRAM_POS_ANCHORING"
+FT                   /evidence="ECO:0000259|PROSITE:PS50847"
+FT   REGION          79..158
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          331..673
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        79..93
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        334..355
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        386..411
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        454..469
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        470..644
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         258
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:5BOA"
+FT   BINDING         316
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:5BOA"
+FT   BINDING         327
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:5BOA"
+SQ   SEQUENCE   698 AA;  77253 MW;  3D5DE62F0AA001FF CRC64;
+     MGKCINLYFK KEPIMSKQKV VSSLLLSTVV LGGLAFYSTT TVKAESLEPD VTSVNASDAT
+     NKPVVPNEEG GDFLAEEELE DDDTLEEELN EKAEEVTEPS SPEALLQPRA MMSDSETSGM
+     EEIPMNDEPS DNTEEKVEKQ QSPLIQTSNA DYKSGKDQEK LRTSVSINLL KAEEGQIQWK
+     VTFDTSEWSF NVKHGGVYFI LPNGLDLTKI VDNNQHDITA SFPTDINDYR NSGQEKYRFF
+     SSKQGLDNEN GFNSQWNWSA GQANPSETVN SWKSGNRLSK IYFINQITDT TELTYTLTAK
+     VTEPNQQSFP LLAVMKSFTY TNSKSTEVTS LGAREITLEK EKTLPPKENP KPEPEAPKPD
+     APQAPSAPES PTEEPKKEDA PAPSTPEKQP EVPESPNPET PDAPSTPKDE PQVPSIPEEQ
+     PKETPAPEEP KKEDTPQTPQ APSTPKEEAP KEEVPTPPAP SVPEEQPKET PTPEVPKQED
+     VQPEAPKSDK VESDKQMPET KKPDMKQPKA DDMPKEQKPK ADEPKAEQPQ MDKPQMEAPK
+     KDSEAPKSDK VETDKQLPET KQPDMKQPKA DDMPKEQKPK ADEPKAEQPQ MDKPQMEAPK
+     KDSEAPKSDK VETDKPMPET KQPDMKQPKA DKPEAEKAQM PRTEGMKPES KASMMPKAEA
+     PKATLPNTGE ASSAIGWLGG ALATLATGLY LFKNKKEE
+//

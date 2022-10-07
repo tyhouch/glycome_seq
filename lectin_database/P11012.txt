@@ -1,0 +1,143 @@
+ID   CALR_ONCVO              Reviewed;         388 AA.
+AC   P11012;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 2.
+DT   03-AUG-2022, entry version 115.
+DE   RecName: Full=Calreticulin;
+DE   AltName: Full=41 kDa larval antigen;
+DE   AltName: Full=Protein ral-1;
+DE   AltName: Full=RAL1 antigen;
+DE   Flags: Precursor;
+GN   Name=crt-1; Synonyms=ral-1;
+OS   Onchocerca volvulus.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Spirurina; Spiruromorpha; Filarioidea; Onchocercidae; Onchocerca.
+OX   NCBI_TaxID=6282;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=7520419; DOI=10.1128/iai.62.9.3696-3704.1994;
+RA   Rokeach L.A., Zimmerman P.A., Unnasch T.R.;
+RT   "Epitopes of the Onchocerca volvulus RAL1 antigen, a member of the
+RT   calreticulin family of proteins, recognized by sera from patients with
+RT   onchocerciasis.";
+RL   Infect. Immun. 62:3696-3704(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 53-388.
+RX   PubMed=2455736; DOI=10.1172/jci113581;
+RA   Unnasch T.R., Gallin M.Y., Soboslay P.T., Erttmann K.D., Greene B.M.;
+RT   "Isolation and characterization of expression cDNA clones encoding antigens
+RT   of Onchocerca volvulus infective larvae.";
+RL   J. Clin. Invest. 82:262-269(1988).
+CC   -!- FUNCTION: Molecular calcium-binding chaperone promoting folding,
+CC       oligomeric assembly and quality control in the ER via the
+CC       calreticulin/calnexin cycle. This lectin may interact transiently with
+CC       almost all of the monoglucosylated glycoproteins that are synthesized
+CC       in the ER (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M20565; AAA59056.1; -; mRNA.
+DR   PIR; A32507; A32507.
+DR   AlphaFoldDB; P11012; -.
+DR   SMR; P11012; -.
+DR   STRING; 6282.P11012; -.
+DR   HOGENOM; CLU_328267_0_0_1; -.
+DR   Proteomes; UP000024404; Unassembled WGS sequence.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:InterPro.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009169; Calreticulin.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 2.
+DR   PIRSF; PIRSF002356; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 3.
+PE   2: Evidence at transcript level;
+KW   Calcium; Chaperone; Disulfide bond; Endoplasmic reticulum; Lectin;
+KW   Metal-binding; Reference proteome; Repeat; Signal; Zinc.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..388
+FT                   /note="Calreticulin"
+FT                   /id="PRO_0000004196"
+FT   REPEAT          189..200
+FT                   /note="1-1"
+FT   REPEAT          208..219
+FT                   /note="1-2"
+FT   REPEAT          225..236
+FT                   /note="1-3"
+FT   REPEAT          242..253
+FT                   /note="1-4"
+FT   REPEAT          257..267
+FT                   /note="2-1"
+FT   REPEAT          271..281
+FT                   /note="2-2"
+FT   REPEAT          285..295
+FT                   /note="2-3"
+FT   REGION          189..253
+FT                   /note="4 X approximate repeats"
+FT   REGION          193..282
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          257..295
+FT                   /note="3 X approximate repeats"
+FT   REGION          349..388
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        193..219
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        227..252
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        263..282
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        353..388
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         107
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         109
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         126
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         133
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         315
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   DISULFID        103..135
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   388 AA;  45298 MW;  9537F298A2D31CD6 CRC64;
+     MQLSLLVGLV CFSAINAKIY FKEDFSDDDW EKRWIKSKHK DDFGKWEISH GKFYGDAVKD
+     KGLKTTQDAK FYSIGAKFDK SFSNKGKSLV IQFSVKHEQD IDCGGGYVKL MASDVNLEDS
+     HGETPYHIMF GPDICGPGTK KVHVIFHYKD RNHMIKKDIR CKDDVFTHLY TLIVNSDNTY
+     EVQIDGEKAE SGELEADWDF LPPKKIKDPD AKKPEDWDER EFIDDEDDKK PEDWDKPEHI
+     PDPDAKKPED WDDEMDGEWE PPMVDNPEYK GEWKPKQKKN PAYKGKWIHP EIEIPDYTPD
+     DNLYVYDDIG AIGFDLWQVK SGTIFDDVIV TDSVEEAKKF GEKTLKITRE GEKKKGKKTK
+     KQKKKEKNEK IKKEKMKKRK RANRKKKK
+//

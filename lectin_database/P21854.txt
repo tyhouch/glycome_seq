@@ -1,0 +1,182 @@
+ID   CD72_HUMAN              Reviewed;         359 AA.
+AC   P21854;
+DT   01-MAY-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1991, sequence version 1.
+DT   03-AUG-2022, entry version 189.
+DE   RecName: Full=B-cell differentiation antigen CD72;
+DE   AltName: Full=Lyb-2;
+DE   AltName: CD_antigen=CD72;
+GN   Name=CD72;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2141045;
+RA   von Hoegen I., Nakayama E., Parnes J.R.;
+RT   "Identification of a human protein homologous to the mouse Lyb-2 B cell
+RT   differentiation antigen and sequence of the corresponding cDNA.";
+RL   J. Immunol. 144:4870-4877(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pancreas, and Spleen;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Plays a role in B-cell proliferation and differentiation.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Associates with CD5. Interacts
+CC       (tyrosine phosphorylated) with PTPN6/SHP-1 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       P21854; O75787: ATP6AP2; NbExp=3; IntAct=EBI-307924, EBI-2512037;
+CC       P21854; Q13323: BIK; NbExp=3; IntAct=EBI-307924, EBI-700794;
+CC       P21854; Q99675: CGRRF1; NbExp=3; IntAct=EBI-307924, EBI-2130213;
+CC       P21854; O95471: CLDN7; NbExp=3; IntAct=EBI-307924, EBI-740744;
+CC       P21854; Q96BA8: CREB3L1; NbExp=5; IntAct=EBI-307924, EBI-6942903;
+CC       P21854; Q8TDT2: GPR152; NbExp=3; IntAct=EBI-307924, EBI-13345167;
+CC       P21854; Q8IYS0: GRAMD1C; NbExp=3; IntAct=EBI-307924, EBI-7054335;
+CC       P21854; Q8TAF8: LHFPL5; NbExp=3; IntAct=EBI-307924, EBI-2820517;
+CC       P21854; Q8N386: LRRC25; NbExp=3; IntAct=EBI-307924, EBI-11304917;
+CC       P21854; Q8N112: LSMEM2; NbExp=3; IntAct=EBI-307924, EBI-10264855;
+CC       P21854; Q96HJ5: MS4A3; NbExp=3; IntAct=EBI-307924, EBI-12806656;
+CC       P21854; Q9GZW8: MS4A7; NbExp=3; IntAct=EBI-307924, EBI-721391;
+CC       P21854; Q02297-10: NRG1; NbExp=3; IntAct=EBI-307924, EBI-12842334;
+CC       P21854; Q9HBV2: SPACA1; NbExp=3; IntAct=EBI-307924, EBI-17498703;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Pre-B-cells and B-cells but not terminally
+CC       differentiated plasma cells.
+CC   -!- PTM: Phosphorylated upon engagement of the B-cell receptor, probably by
+CC       LYN or SYK. Phosphorylation at Tyr-7 is important for interaction with
+CC       PTPN6/SHP-1 (By similarity). {ECO:0000250}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=CD72;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_hum_Ctlect_237";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M54992; AAA36189.1; -; mRNA.
+DR   EMBL; BC030227; AAH30227.1; -; mRNA.
+DR   CCDS; CCDS6581.1; -.
+DR   PIR; A43532; A43532.
+DR   RefSeq; NP_001773.1; NM_001782.2.
+DR   AlphaFoldDB; P21854; -.
+DR   SMR; P21854; -.
+DR   BioGRID; 107409; 26.
+DR   IntAct; P21854; 19.
+DR   STRING; 9606.ENSP00000379980; -.
+DR   GlyGen; P21854; 1 site.
+DR   iPTMnet; P21854; -.
+DR   PhosphoSitePlus; P21854; -.
+DR   SwissPalm; P21854; -.
+DR   BioMuta; CD72; -.
+DR   DMDM; 116029; -.
+DR   jPOST; P21854; -.
+DR   MassIVE; P21854; -.
+DR   PaxDb; P21854; -.
+DR   PeptideAtlas; P21854; -.
+DR   PRIDE; P21854; -.
+DR   ProteomicsDB; 53933; -.
+DR   ABCD; P21854; 1 sequenced antibody.
+DR   Antibodypedia; 3742; 594 antibodies from 39 providers.
+DR   DNASU; 971; -.
+DR   Ensembl; ENST00000259633.9; ENSP00000259633.4; ENSG00000137101.14.
+DR   GeneID; 971; -.
+DR   KEGG; hsa:971; -.
+DR   MANE-Select; ENST00000259633.9; ENSP00000259633.4; NM_001782.3; NP_001773.1.
+DR   CTD; 971; -.
+DR   DisGeNET; 971; -.
+DR   GeneCards; CD72; -.
+DR   HGNC; HGNC:1696; CD72.
+DR   HPA; ENSG00000137101; Tissue enriched (lymphoid).
+DR   MIM; 107272; gene.
+DR   neXtProt; NX_P21854; -.
+DR   OpenTargets; ENSG00000137101; -.
+DR   PharmGKB; PA26235; -.
+DR   VEuPathDB; HostDB:ENSG00000137101; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00390000003668; -.
+DR   HOGENOM; CLU_066571_0_0_1; -.
+DR   InParanoid; P21854; -.
+DR   OMA; TCRLEWN; -.
+DR   OrthoDB; 987250at2759; -.
+DR   PhylomeDB; P21854; -.
+DR   TreeFam; TF337121; -.
+DR   PathwayCommons; P21854; -.
+DR   Reactome; R-HSA-416700; Other semaphorin interactions.
+DR   SignaLink; P21854; -.
+DR   SIGNOR; P21854; -.
+DR   BioGRID-ORCS; 971; 13 hits in 1068 CRISPR screens.
+DR   ChiTaRS; CD72; human.
+DR   GenomeRNAi; 971; -.
+DR   Pharos; P21854; Tbio.
+DR   PRO; PR:P21854; -.
+DR   Proteomes; UP000005640; Chromosome 9.
+DR   RNAct; P21854; protein.
+DR   Bgee; ENSG00000137101; Expressed in spleen and 110 other tissues.
+DR   ExpressionAtlas; P21854; baseline and differential.
+DR   Genevisible; P21854; HS.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005102; F:signaling receptor binding; TAS:ProtInc.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; NAS:UniProtKB.
+DR   GO; GO:0007155; P:cell adhesion; TAS:ProtInc.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR039689; CD72-like.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   PANTHER; PTHR15028; PTHR15028; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Lectin; Membrane; Phosphoprotein;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..359
+FT                   /note="B-cell differentiation antigen CD72"
+FT                   /id="PRO_0000046585"
+FT   TOPO_DOM        1..95
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        96..116
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        117..359
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          232..352
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOD_RES         7
+FT                   /note="Phosphotyrosine; by LYN"
+FT                   /evidence="ECO:0000250|UniProtKB:P21855"
+FT   MOD_RES         39
+FT                   /note="Phosphotyrosine; by LYN"
+FT                   /evidence="ECO:0000250|UniProtKB:P21855"
+FT   CARBOHYD        136
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        233..244
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        261..350
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        325..342
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VARIANT         234
+FT                   /note="P -> L (in dbSNP:rs34791102)"
+FT                   /id="VAR_033729"
+SQ   SEQUENCE   359 AA;  40220 MW;  87A52C028AC17E44 CRC64;
+     MAEAITYADL RFVKAPLKKS ISSRLGQDPG ADDDGEITYE NVQVPAVLGV PSSLASSVLG
+     DKAAVKSEQP TASWRAVTSP AVGRILPCRT TCLRYLLLGL LLTCLLLGVT AICLGVRYLQ
+     VSQQLQQTNR VLEVTNSSLR QQLRLKITQL GQSAEDLQGS RRELAQSQEA LQVEQRAHQA
+     AEGQLQACQA DRQKTKETLQ SEEQQRRALE QKLSNMENRL KPFFTCGSAD TCCPSGWIMH
+     QKSCFYISLT SKNWQESQKQ CETLSSKLAT FSEIYPQSHS YYFLNSLLPN GGSGNSYWTG
+     LSSNKDWKLT DDTQRTRTYA QSSKCNKVHK TWSWWTLESE SCRSSLPYIC EMTAFRFPD
+//

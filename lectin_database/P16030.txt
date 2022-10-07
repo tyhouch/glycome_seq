@@ -1,0 +1,121 @@
+ID   LEC_BAUPU               Reviewed;         290 AA.
+AC   P16030;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-1992, sequence version 2.
+DT   03-AUG-2022, entry version 95.
+DE   RecName: Full=Lectin;
+DE   Flags: Precursor;
+OS   Bauhinia purpurea (Camel's foot tree) (Phanera purpurea).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Cercidoideae; Cercideae; Bauhiniinae;
+OC   Bauhinia.
+OX   NCBI_TaxID=3806;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=1657898; DOI=10.1093/oxfordjournals.jbchem.a123477;
+RA   Kusui K., Yamamoto K., Konami Y., Osawa T.;
+RT   "cDNA cloning and expression of Bauhinia purpurea lectin.";
+RL   J. Biochem. 109:899-903(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 29-62.
+RA   Young N.M., Watson D.C., Williams R.E.;
+RT   "Lectins and legume chemotaxonomy. Characterisation of the N-acetyl-D-
+RT   galactosamine specific lectin of Bauhinia purpurea.";
+RL   FEBS Lett. 182:403-405(1985).
+CC   -!- FUNCTION: N-acetyl-D-galactosamine specific lectin.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D12481; BAA02049.1; -; mRNA.
+DR   PIR; JX0175; JX0175.
+DR   AlphaFoldDB; P16030; -.
+DR   SMR; P16030; -.
+DR   IntAct; P16030; 1.
+DR   iPTMnet; P16030; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Glycoprotein; Lectin; Manganese;
+KW   Metal-binding; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000269|Ref.2"
+FT   CHAIN           29..290
+FT                   /note="Lectin"
+FT                   /id="PRO_0000017584"
+FT   BINDING         161
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         163
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         163
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         165
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         167
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         172
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         172
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         177
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        48
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1657898"
+FT   CARBOHYD        57
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1657898"
+FT   CARBOHYD        183
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        255
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        270
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        35
+FT                   /note="G -> S (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        55
+FT                   /note="Missing (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        62
+FT                   /note="P -> W (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   290 AA;  32238 MW;  9DBC144630D2C768 CRC64;
+     MLLYNSKSYV LQLIFITLLL TQLNKVKSTS STLTGFTFPN FWSNTQENGT EIIFLGNATY
+     TPGALRLTRI GEDGIPLKSN AGQASYSRPV FLWDSTGHVA SFYTSFSFIV RSIDVPHITA
+     DGFAFFLAPV DSSVKDYGGC LGLFRYKTAT DPSKNQVVAV EFDTWPNTEW SDLRYPHIGI
+     NVNSTVSVAT TRWDNDDAYV TKSTAHITYD ATSKIITVLL TYDNGRHYQL SHVVDLPKIL
+     PERVRIGFSG GTGFNETQYI LSWSFTSTLN STKISALTQK LRSSASYSSM
+//

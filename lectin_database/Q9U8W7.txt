@@ -1,0 +1,119 @@
+ID   TL5B_TACTR              Reviewed;         316 AA.
+AC   Q9U8W7; Q9U8W6;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 58.
+DE   RecName: Full=Techylectin-5B;
+DE   Flags: Precursor;
+OS   Tachypleus tridentatus (Japanese horseshoe crab).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Merostomata;
+OC   Xiphosura; Limulidae; Tachypleus.
+OX   NCBI_TaxID=6853;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:BAA84189.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 28-33 AND 242-247,
+RP   FUNCTION, SUBUNIT, AND TISSUE SPECIFICITY.
+RC   TISSUE=Hemocyte {ECO:0000269|PubMed:10468566};
+RX   PubMed=10468566; DOI=10.1073/pnas.96.18.10086;
+RA   Gokudan S., Muta T., Tsuda R., Koori K., Kawahara T., Seki N., Mizunoe Y.,
+RA   Wai S.N., Iwanaga S., Kawabata S.;
+RT   "Horseshoe crab acetyl group-recognizing lectins involved in innate
+RT   immunity are structurally related to fibrinogen.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:10086-10091(1999).
+CC   -!- FUNCTION: Lectin involved in innate immunity. Agglutinates all types of
+CC       human erythrocytes, Gram-positive and Gram-negative bacteria. Has a
+CC       stronger agglutinating activity towards Gram-negative bacteria than
+CC       towards Gram-positive bacteria. Specifically recognizes acetyl group-
+CC       containing substances on agglutinated cells. The hemagglutinating
+CC       activity was inhibited by EDTA, acetyl group-containing mono- and
+CC       disaccharides, N-acetyl derivatives of amino acids, other acetyl group-
+CC       containing substances, propionamide and benzamide. Enhances the
+CC       antimicrobial activity of big defensin against Gram-positive bacteria
+CC       but not against Gram-negative bacteria. {ECO:0000269|PubMed:10468566}.
+CC   -!- SUBUNIT: Tetramer. {ECO:0000269|PubMed:10468566}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Hemocytes. {ECO:0000269|PubMed:10468566}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA84190.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB024738; BAA84189.1; -; mRNA.
+DR   EMBL; AB024739; BAA84190.1; ALT_INIT; mRNA.
+DR   AlphaFoldDB; Q9U8W7; -.
+DR   SMR; Q9U8W7; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0098609; P:cell-cell adhesion; IDA:UniProtKB.
+DR   CDD; cd00087; FReD; 1.
+DR   Gene3D; 3.90.215.10; -; 1.
+DR   InterPro; IPR036056; Fibrinogen-like_C.
+DR   InterPro; IPR014716; Fibrinogen_a/b/g_C_1.
+DR   InterPro; IPR002181; Fibrinogen_a/b/g_C_dom.
+DR   InterPro; IPR020837; Fibrinogen_CS.
+DR   Pfam; PF00147; Fibrinogen_C; 1.
+DR   SMART; SM00186; FBG; 1.
+DR   SUPFAM; SSF56496; SSF56496; 1.
+DR   PROSITE; PS00514; FIBRINOGEN_C_1; 1.
+DR   PROSITE; PS51406; FIBRINOGEN_C_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Glycoprotein; Lectin;
+KW   Metal-binding; Secreted; Signal.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000269|PubMed:10468566"
+FT   CHAIN           28..316
+FT                   /note="Techylectin-5B"
+FT                   /evidence="ECO:0000269|PubMed:10468566"
+FT                   /id="PRO_0000260046"
+FT   DOMAIN          86..307
+FT                   /note="Fibrinogen C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   BINDING         242
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U8W8"
+FT   SITE            254
+FT                   /note="Implicated in ligand binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U8W8"
+FT   SITE            264
+FT                   /note="Implicated in ligand binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U8W8"
+FT   SITE            281
+FT                   /note="Implicated in ligand binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U8W8"
+FT   CARBOHYD        80
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        103
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        162
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        293
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        95..124
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U8W8,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   DISULFID        250..263
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U8W8,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   CONFLICT        3
+FT                   /note="T -> S (in Ref. 1; BAA84190)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        28
+FT                   /note="D -> N (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        65
+FT                   /note="P -> S (in Ref. 1; BAA84190)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   316 AA;  36112 MW;  6FFBEFD4159EDF1D CRC64;
+     MHTVLYSNMK NMFQLLSFLC VSLLVAGDVH HHAACSTVCS LKGILDSVSD LTDLAKERLA
+     TLQNPICSKD KAFYMETYTN VTQNKAEKNG LPINCATVYQ QGNRTSGIYM IWPLFLNHPI
+     SVFCDMETAG GGWTVIQRRG DFGQPIQNFY QTWESYKNGF GNLTKEFWLG NDIIFVLTNQ
+     DSVVLRVDLE DFEGGRRYAE AVEFLVRSEI ELYKMSFKTY KGDAGDSLSQ HNNMPFTTKD
+     RDNDKWEKNC AEAYKGGWWY NACHHSNLNG MYLRGPHEES AVGVNWYQWR GHNYSLKVSE
+     MKIRPIIFVP GEGLPK
+//

@@ -1,0 +1,185 @@
+ID   ABL_AGABI               Reviewed;         143 AA.
+AC   Q00022;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   03-AUG-2022, entry version 88.
+DE   RecName: Full=Agaricus bisporus lectin;
+DE            Short=ABL;
+DE   AltName: Full=Agaricus bisporus agglutinin;
+DE            Short=ABA;
+DE   AltName: Full=Gal-beta-1,3-GalNAc-binding lectin;
+DE   AltName: Full=TF antigen-binding lectin;
+OS   Agaricus bisporus (White button mushroom).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Agaricaceae; Agaricus.
+OX   NCBI_TaxID=5341;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Fruiting body;
+RX   PubMed=7770537; DOI=10.1104/pp.107.4.1465;
+RA   Crenshaw R.W., Harper S.N., Moyer M., Privalle L.S.;
+RT   "Isolation and characterization of a cDNA clone encoding a lectin gene from
+RT   Agaricus bisporus.";
+RL   Plant Physiol. 107:1465-1466(1995).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=4343164; DOI=10.1016/s0021-9258(19)44676-0;
+RA   Presant C.A., Kornfeld S.;
+RT   "Characterization of the cell surface receptor for the Agaricus bisporus
+RT   hemagglutinin.";
+RL   J. Biol. Chem. 247:6937-6945(1972).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=8402638;
+RA   Yu L.-G., Fernig D.G., Smith J.A., Milton J.D., Rhodes J.M.;
+RT   "Reversible inhibition of proliferation of epithelial cell lines by
+RT   Agaricus bisporus (edible mushroom) lectin.";
+RL   Cancer Res. 53:4627-4632(1993).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=9988731; DOI=10.1074/jbc.274.8.4890;
+RA   Yu L.-G., Fernig D.G., White M.R., Spiller D.G., Appleton P., Evans R.C.,
+RA   Grierson I., Smith J.A., Davies H., Gerasimenko O.V., Petersen O.H.,
+RA   Milton J.D., Rhodes J.M.;
+RT   "Edible mushroom (Agaricus bisporus) lectin, which reversibly inhibits
+RT   epithelial cell proliferation, blocks nuclear localization sequence-
+RT   dependent nuclear protein import.";
+RL   J. Biol. Chem. 274:4890-4899(1999).
+RN   [5] {ECO:0007744|PDB:1Y2T, ECO:0007744|PDB:1Y2U, ECO:0007744|PDB:1Y2V, ECO:0007744|PDB:1Y2W, ECO:0007744|PDB:1Y2X}
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS) IN COMPLEX WITH CARBOHYDRATE,
+RP   SEQUENCE REVISION, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=15596442; DOI=10.1074/jbc.m411989200;
+RA   Carrizo M.E., Capaldi S., Perduca M., Irazoqui F.J., Nores G.A.,
+RA   Monaco H.L.;
+RT   "The antineoplastic lectin of the common edible mushroom (Agaricus
+RT   bisporus) has two binding sites, each specific for a different
+RT   configuration at a single epimeric hydroxyl.";
+RL   J. Biol. Chem. 280:10614-10623(2005).
+CC   -!- FUNCTION: Lectin that recognizes O-linked galactose-beta-1,3-N-
+CC       acetylgalactosamine, a disaccharide (Thomsen-Friedenreich antigen or T-
+CC       disaccharide), present on cell surface glycoproteins. Can also bind
+CC       galactose-beta-1,3-N-acetylglucosamine. Does not bind monosaccharides.
+CC       Can be internalized by clathrin-coated vesicles after binding to
+CC       surface glycoproteins. After internalization it inhibits nuclear import
+CC       of nuclear localization signal dependent proteins. Inhibits
+CC       proliferation of malignant cells without cytotoxicity for normal cells.
+CC       {ECO:0000269|PubMed:4343164, ECO:0000269|PubMed:8402638,
+CC       ECO:0000269|PubMed:9988731}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:15596442}.
+CC   -!- BIOTECHNOLOGY: Lectins can be used to recognize and purifiy specific
+CC       glycoproteins, and for the purification of cells with specific surface
+CC       glycoproteins. Has potential as anti-proliferative agent. Sold under
+CC       the name lectin from Agaricus bisporus by Sigma-Aldrich and under the
+CC       name of Agaricus bisporus (Mushroom) agglutinin (ABA) by USBiological.
+CC   -!- MISCELLANEOUS: Each monomer has 2 distinct carbohydrate binding sites,
+CC       one for galactose-beta-1,3-N-acetylgalactosamine and another for
+CC       galactose-beta-1,3-N-acetylglucosamine.
+CC   -!- SIMILARITY: Belongs to the fungal fruit body lectin family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA85813.1; Type=Frameshift; Note=Frameshift correction allows the C-terminal sequence to be compatible with the results of mass spectrometry and X-ray crystallography.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U14936; AAA85813.1; ALT_FRAME; mRNA.
+DR   PDB; 1Y2T; X-ray; 1.50 A; A/B=2-133.
+DR   PDB; 1Y2U; X-ray; 1.85 A; A/B=2-143.
+DR   PDB; 1Y2V; X-ray; 1.90 A; A/B=2-143.
+DR   PDB; 1Y2W; X-ray; 1.74 A; A/B=2-143.
+DR   PDB; 1Y2X; X-ray; 2.36 A; A/B/C/D=2-143.
+DR   PDBsum; 1Y2T; -.
+DR   PDBsum; 1Y2U; -.
+DR   PDBsum; 1Y2V; -.
+DR   PDBsum; 1Y2W; -.
+DR   PDBsum; 1Y2X; -.
+DR   AlphaFoldDB; Q00022; -.
+DR   SMR; Q00022; -.
+DR   UniLectin; Q00022; -.
+DR   EvolutionaryTrace; Q00022; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.270.20; -; 1.
+DR   InterPro; IPR015926; Cytolysin/lectin.
+DR   InterPro; IPR009960; Fruit_body_lectin_fun.
+DR   Pfam; PF07367; FB_lectin; 1.
+DR   SUPFAM; SSF63724; SSF63724; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Hemagglutinin; Lectin.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT   CHAIN           2..143
+FT                   /note="Agaricus bisporus lectin"
+FT                   /id="PRO_0000223094"
+FT   REGION          48..49
+FT                   /note="beta-D-Gal-(1->3)-alpha-D-GalNAc"
+FT                   /evidence="ECO:0000269|PubMed:15596442,
+FT                   ECO:0007744|PDB:1Y2X"
+FT   BINDING         29
+FT                   /ligand="beta-D-Gal-(1->3)-alpha-D-GalNAc"
+FT                   /ligand_id="ChEBI:CHEBI:61820"
+FT                   /evidence="ECO:0000269|PubMed:15596442,
+FT                   ECO:0007744|PDB:1Y2X"
+FT   BINDING         73
+FT                   /ligand="beta-D-Gal-(1->3)-alpha-D-GalNAc"
+FT                   /ligand_id="ChEBI:CHEBI:61820"
+FT                   /evidence="ECO:0000269|PubMed:15596442,
+FT                   ECO:0007744|PDB:1Y2X"
+FT   BINDING         82
+FT                   /ligand="N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28009"
+FT                   /evidence="ECO:0000269|PubMed:15596442,
+FT                   ECO:0007744|PDB:1Y2X"
+FT   BINDING         103
+FT                   /ligand="N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28009"
+FT                   /evidence="ECO:0000269|PubMed:15596442,
+FT                   ECO:0007744|PDB:1Y2X"
+FT   BINDING         114
+FT                   /ligand="N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:28009"
+FT                   /evidence="ECO:0000269|PubMed:15596442,
+FT                   ECO:0007744|PDB:1Y2X"
+FT   CONFLICT        64
+FT                   /note="S -> I (in Ref. 1; AAA85813)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        134..143
+FT                   /note="DNLKANLIIG -> IISRPISSSDKCFIRLPSQKS (in Ref. 1; AA
+FT                   sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          3..11
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          14..16
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          19..25
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   HELIX           28..30
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          33..37
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          40..49
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          51..58
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   TURN            59..62
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          63..72
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          75..83
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   HELIX           90..96
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   TURN            97..99
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   HELIX           101..108
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          112..117
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          123..130
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+FT   STRAND          132..142
+FT                   /evidence="ECO:0007829|PDB:1Y2T"
+SQ   SEQUENCE   143 AA;  16185 MW;  5704CFD273E1FB78 CRC64;
+     MTYTISIRVY QTTPKGFFRP VERTNWKYAN GGTWDEVRGE YVLTMGGSGT SGSLRFVSSD
+     TDESFVATFG VHNYKRWCDI VTNLTNEQTA LVINQEYYGV PIRDQARENQ LTSYNVANAK
+     GRRFAIEYTV TEGDNLKANL IIG
+//

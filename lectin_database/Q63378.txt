@@ -1,0 +1,124 @@
+ID   KLRBF_RAT               Reviewed;         217 AA.
+AC   Q63378;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 108.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily B member 1F;
+DE   AltName: Full=Natural killer cell surface protein NKR-P1F;
+GN   Name=Klrb1f {ECO:0000250|UniProtKB:Q8VD98};
+GN   Synonyms=Klrb1c {ECO:0000312|EMBL:ABO15819.1}, Nkrp1b, Nkrp1d
+GN   {ECO:0000303|PubMed:9390275}, Nkrp1f {ECO:0000303|PubMed:17462921};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:CAA66111.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Fischer 344 {ECO:0000312|EMBL:CAA66111.1};
+RX   PubMed=9390275;
+RA   Appasamy P.M., Kenniston T.W., Brissette-Storkus C.S., Chambers W.H.;
+RT   "NKR-P1dim/TCR alpha beta + T cells and natural killer cells share
+RT   expression of NKR-P1A and NKR-P1D.";
+RL   Nat. Immunol. 15:259-268(1996).
+RN   [2] {ECO:0000312|EMBL:ABO15819.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:ABO15825.1}, and WAG
+RC   {ECO:0000312|EMBL:ABO15819.1};
+RC   TISSUE=Spleen {ECO:0000312|EMBL:ABO15819.1};
+RX   PubMed=17462921; DOI=10.1016/j.immuni.2007.03.013;
+RA   Voigt S., Mesci A., Ettinger J., Fine J.H., Chen P., Chou W., Carlyle J.R.;
+RT   "Cytomegalovirus evasion of innate immunity by subversion of the NKR-
+RT   P1B:Ocil/Clr-b missing-self axis.";
+RL   Immunity 26:617-627(2007).
+CC   -!- FUNCTION: Binds CLEC2I/Clr-g leading to activation of natural killer
+CC       cells or stimulation of IL-2 production and proliferation of T-cells in
+CC       response to antigen stimulation. May contribute to the formation of the
+CC       immunological synapse between T-cells and antigen-presenting dendritic
+CC       cells (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Single-pass type II
+CC       membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in natural killer cells and a subset of
+CC       T-cells. {ECO:0000269|PubMed:9390275}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X97477; CAA66111.1; -; mRNA.
+DR   EMBL; EF100679; ABO15819.1; -; mRNA.
+DR   EMBL; EF100685; ABO15825.1; -; mRNA.
+DR   RefSeq; NP_001078872.1; NM_001085403.1.
+DR   RefSeq; XP_008761551.1; XM_008763329.1.
+DR   RefSeq; XP_008761552.1; XM_008763330.2.
+DR   AlphaFoldDB; Q63378; -.
+DR   SMR; Q63378; -.
+DR   STRING; 10116.ENSRNOP00000010312; -.
+DR   PaxDb; Q63378; -.
+DR   Ensembl; ENSRNOT00000010312; ENSRNOP00000010312; ENSRNOG00000007811.
+DR   GeneID; 683758; -.
+DR   KEGG; rno:683758; -.
+DR   CTD; 17059; -.
+DR   RGD; 1583336; LOC683758.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000154685; -.
+DR   HOGENOM; CLU_049894_8_2_1; -.
+DR   InParanoid; Q63378; -.
+DR   OMA; QSTERSH; -.
+DR   OrthoDB; 1341815at2759; -.
+DR   PhylomeDB; Q63378; -.
+DR   PRO; PR:Q63378; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000007811; Expressed in spleen and 11 other tissues.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0038023; F:signaling receptor activity; ISO:RGD.
+DR   GO; GO:0030101; P:natural killer cell activation; ISO:RGD.
+DR   GO; GO:0045954; P:positive regulation of natural killer cell mediated cytotoxicity; ISO:RGD.
+DR   GO; GO:0042269; P:regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Lectin; Membrane; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..217
+FT                   /note="Killer cell lectin-like receptor subfamily B member
+FT                   1F"
+FT                   /id="PRO_0000317212"
+FT   TOPO_DOM        1..45
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        46..66
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        67..217
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          101..211
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           31..34
+FT                   /note="LCK-binding motif"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        122..210
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        189..202
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   217 AA;  24543 MW;  D8ED2D1A07DEBFE4 CRC64;
+     MDTSRVYGNV KTFRSPGHKQ ASFPSLSTDA CRCPHWHHLA LKLGCATLIL LLLTLIGLSV
+     FVRFLVQKPL IEKCSMAAQE NGTEPTGRSA ILECPRHWQP HRNKCLIISQ ISRPWAEGLV
+     ACSMKEATLL IIENEEELKF VQNILKGRQQ LFFIGLNYVQ TEMTWKWING SVLKPNILRI
+     TGSEVENSCA LISHTEVFSD SCSSDNHWIC QKTLKHV
+//

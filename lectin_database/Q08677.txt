@@ -1,0 +1,75 @@
+ID   HLY4_AERSA              Reviewed;         578 AA.
+AC   Q08677;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   25-MAY-2022, entry version 88.
+DE   RecName: Full=Hemolysin 4;
+DE   Flags: Precursor;
+GN   Name=ash4;
+OS   Aeromonas salmonicida.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales;
+OC   Aeromonadaceae; Aeromonas.
+OX   NCBI_TaxID=645;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=17-2;
+RX   PubMed=8309354; DOI=10.1006/mpat.1993.1077;
+RA   Hirono I., Aoki T.;
+RT   "Cloning and characterization of three hemolysin genes from Aeromonas
+RT   salmonicida.";
+RL   Microb. Pathog. 15:269-282(1993).
+CC   -!- FUNCTION: Bacterial hemolysins are exotoxins that attack blood cell
+CC       membranes and cause cell rupture by mechanisms not clearly defined.
+CC   -!- SIMILARITY: Belongs to the HlyA hemolysin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X65049; CAA46185.1; -; Genomic_DNA.
+DR   PIR; I39671; S26577.
+DR   AlphaFoldDB; Q08677; -.
+DR   SMR; Q08677; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in another organism; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.30.110.130; -; 1.
+DR   InterPro; IPR022220; Hemolysin_N.
+DR   InterPro; IPR043080; Hemolysin_N_sf.
+DR   InterPro; IPR016183; Leukocidin/Hemolysin_toxin.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF12563; Hemolysin_N; 1.
+DR   Pfam; PF07968; Leukocidin; 2.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Cytolysis; Hemolysis; Lectin; Signal; Toxin; Virulence.
+FT   SIGNAL          1..?
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           ?..578
+FT                   /note="Hemolysin 4"
+FT                   /id="PRO_0000013367"
+FT   DOMAIN          448..539
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          289..322
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        298..314
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   578 AA;  63401 MW;  B07DB1FA854B8E52 CRC64;
+     MLASLQSEQG LVYLNASSWL DEQQAAKALT RDQLRERVLG QGERIFIDFS GITDKAEPEQ
+     ARKAMEQLAG ISFDADWVLV SAYKGELLFT PLGPPDDPAF YQVMERIDTL AGQGKRHKRS
+     LTQTATAEAG LPRGAFYLKL NRKISVAECT FPRSRTWDRG DRLFCDSPNI SLVYRVNLER
+     SLQFGNTGSA TPDAKIVRIS LDDESAGGGI QLNEDLTWSE NIADYLLLDG WARDYATDAI
+     AQDYRFTIDA SNTKAAVLKS LPTNLNSKYE HRRISGFEVG VTGGVEVNKD GPKASWRRRP
+     SSASSVTMPT TPRIIGSNAR PECPEGEFQL GAGSIRDGGV TALLQDRHRL GNGVRCGSQP
+     HPAAELQGLR AESGCHLQGG ADETGSTEFK IDSSVNIRPI YTGIYKHYYV VGGHVSFQGF
+     EDVDKRRRVT ASTSFKVDWN HPVFTGGRPV NLQLGGFDNR CLSAGAEHGL SAVTCDETSA
+     AQSFIYDQYG RYVSALDTRR CLDGNNLGQL QSCRLSLGQR WEWKADSDAL SNLSAHQLLG
+     HNKQTGELAL YDENGNPADV SVRTLTSYTR ILRATAGN
+//

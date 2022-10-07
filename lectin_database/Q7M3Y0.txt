@@ -1,0 +1,50 @@
+ID   SJL1_STIJA              Reviewed;         143 AA.
+AC   Q7M3Y0;
+DT   24-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   25-MAY-2022, entry version 47.
+DE   RecName: Full=Lectin 1;
+DE   AltName: Full=Stichopus japonicus lectin 1;
+DE            Short=SjL-1;
+OS   Stichopus japonicus (Sea cucumber).
+OC   Eukaryota; Metazoa; Echinodermata; Eleutherozoa; Echinozoa; Holothuroidea;
+OC   Aspidochirotacea; Aspidochirotida; Stichopodidae; Apostichopus.
+OX   NCBI_TaxID=307972;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RX   PubMed=8089084; DOI=10.1093/oxfordjournals.jbchem.a124397;
+RA   Himeshima T., Hatakeyama T., Yamasaki N.;
+RT   "Amino acid sequence of a lectin from the sea cucumber, Stichopus
+RT   japonicus, and its structural relationship to the C-type animal lectin
+RT   family.";
+RL   J. Biochem. 115:689-692(1994).
+CC   -!- FUNCTION: May be calcium-dependent and galactose-specific.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; JC2286; JC2286.
+DR   AlphaFoldDB; Q7M3Y0; -.
+DR   SMR; Q7M3Y0; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Lectin.
+FT   CHAIN           1..143
+FT                   /note="Lectin 1"
+FT                   /id="PRO_0000046648"
+FT   DOMAIN          11..138
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   143 AA;  15835 MW;  7C6DD6870ACCE7C8 CRC64;
+     CSCYPDWMAI PGSGCYKYVD TPKTFEEAES TCRHFSPGPY GFGHLASVHS TEEYEALASM
+     VPGATDSWNP QVFIGLRLID GVSPAWTDGS YYDYQNWCGN DPNAHPDGYG AFSGGSYCNG
+     QWVDVHTFTN DQFPFKCKLP CIE
+//

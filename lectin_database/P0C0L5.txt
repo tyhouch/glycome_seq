@@ -1,0 +1,933 @@
+ID   CO4B_HUMAN              Reviewed;        1744 AA.
+AC   P0C0L5; A2BHY4; P01028; P78445; Q13160; Q13906; Q14033; Q14835; Q6U2E9;
+AC   Q6U2G1; Q6U2I5; Q6U2L1; Q6U2L7; Q6U2L9; Q6U2M5; Q6VCV8; Q96SA7; Q9NPK5;
+AC   Q9UIP5;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2013, sequence version 2.
+DT   03-AUG-2022, entry version 158.
+DE   RecName: Full=Complement C4-B;
+DE   AltName: Full=Basic complement C4;
+DE   AltName: Full=C3 and PZP-like alpha-2-macroglobulin domain-containing protein 3;
+DE   Contains:
+DE     RecName: Full=Complement C4 beta chain;
+DE   Contains:
+DE     RecName: Full=Complement C4-B alpha chain;
+DE   Contains:
+DE     RecName: Full=C4a anaphylatoxin;
+DE   Contains:
+DE     RecName: Full=C4b-B;
+DE   Contains:
+DE     RecName: Full=C4d-B;
+DE   Contains:
+DE     RecName: Full=Complement C4 gamma chain;
+DE   Flags: Precursor;
+GN   Name=C4B; Synonyms=CO4, CPAMD3;
+GN   and
+GN   Name=C4B_2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT PHE-1317.
+RC   TISSUE=Blood;
+RX   PubMed=8575831; DOI=10.1007/bf00587313;
+RA   Ulgiati D., Townend D.C., Christiansen F.T., Dawkins R.L., Abraham L.J.;
+RT   "Complete sequence of the complement C4 gene from the HLA-A1, B8, C4AQ0,
+RT   C4B1, DR3 haplotype.";
+RL   Immunogenetics 43:250-252(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS TYR-347 AND ALA-907.
+RA   Rowen L., Dankers C., Baskin D., Faust J., Loretz C., Ahearn M.E.,
+RA   Banta A., Swartzell S., Smith T.M., Spies T., Hood L.;
+RT   "Sequence determination of 300 kilobases of the human class III MHC
+RT   locus.";
+RL   Submitted (OCT-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS ALA-907 AND ASP-1073.
+RA   Sayer D., Puschendorf M., Wetherall J.;
+RT   "Molecular genetics of complement C4: implications for MHC evolution and
+RT   disease susceptibility gene mapping.";
+RL   Submitted (SEP-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND VARIANTS TYR-347 AND
+RP   ALA-907.
+RX   PubMed=14574404; DOI=10.1038/nature02055;
+RA   Mungall A.J., Palmer S.A., Sims S.K., Edwards C.A., Ashurst J.L.,
+RA   Wilming L., Jones M.C., Horton R., Hunt S.E., Scott C.E., Gilbert J.G.R.,
+RA   Clamp M.E., Bethel G., Milne S., Ainscough R., Almeida J.P., Ambrose K.D.,
+RA   Andrews T.D., Ashwell R.I.S., Babbage A.K., Bagguley C.L., Bailey J.,
+RA   Banerjee R., Barker D.J., Barlow K.F., Bates K., Beare D.M., Beasley H.,
+RA   Beasley O., Bird C.P., Blakey S.E., Bray-Allen S., Brook J., Brown A.J.,
+RA   Brown J.Y., Burford D.C., Burrill W., Burton J., Carder C., Carter N.P.,
+RA   Chapman J.C., Clark S.Y., Clark G., Clee C.M., Clegg S., Cobley V.,
+RA   Collier R.E., Collins J.E., Colman L.K., Corby N.R., Coville G.J.,
+RA   Culley K.M., Dhami P., Davies J., Dunn M., Earthrowl M.E., Ellington A.E.,
+RA   Evans K.A., Faulkner L., Francis M.D., Frankish A., Frankland J.,
+RA   French L., Garner P., Garnett J., Ghori M.J., Gilby L.M., Gillson C.J.,
+RA   Glithero R.J., Grafham D.V., Grant M., Gribble S., Griffiths C.,
+RA   Griffiths M.N.D., Hall R., Halls K.S., Hammond S., Harley J.L., Hart E.A.,
+RA   Heath P.D., Heathcott R., Holmes S.J., Howden P.J., Howe K.L., Howell G.R.,
+RA   Huckle E., Humphray S.J., Humphries M.D., Hunt A.R., Johnson C.M.,
+RA   Joy A.A., Kay M., Keenan S.J., Kimberley A.M., King A., Laird G.K.,
+RA   Langford C., Lawlor S., Leongamornlert D.A., Leversha M., Lloyd C.R.,
+RA   Lloyd D.M., Loveland J.E., Lovell J., Martin S., Mashreghi-Mohammadi M.,
+RA   Maslen G.L., Matthews L., McCann O.T., McLaren S.J., McLay K., McMurray A.,
+RA   Moore M.J.F., Mullikin J.C., Niblett D., Nickerson T., Novik K.L.,
+RA   Oliver K., Overton-Larty E.K., Parker A., Patel R., Pearce A.V., Peck A.I.,
+RA   Phillimore B.J.C.T., Phillips S., Plumb R.W., Porter K.M., Ramsey Y.,
+RA   Ranby S.A., Rice C.M., Ross M.T., Searle S.M., Sehra H.K., Sheridan E.,
+RA   Skuce C.D., Smith S., Smith M., Spraggon L., Squares S.L., Steward C.A.,
+RA   Sycamore N., Tamlyn-Hall G., Tester J., Theaker A.J., Thomas D.W.,
+RA   Thorpe A., Tracey A., Tromans A., Tubby B., Wall M., Wallis J.M.,
+RA   West A.P., White S.S., Whitehead S.L., Whittaker H., Wild A., Willey D.J.,
+RA   Wilmer T.E., Wood J.M., Wray P.W., Wyatt J.C., Young L., Younger R.M.,
+RA   Bentley D.R., Coulson A., Durbin R.M., Hubbard T., Sulston J.E., Dunham I.,
+RA   Rogers J., Beck S.;
+RT   "The DNA sequence and analysis of human chromosome 6.";
+RL   Nature 425:805-811(2003).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 680-756.
+RX   PubMed=6167582; DOI=10.1016/s0021-9258(19)68898-8;
+RA   Moon K.E., Gorski J.P., Hugli T.E.;
+RT   "Complete primary structure of human C4a anaphylatoxin.";
+RL   J. Biol. Chem. 256:8685-8692(1981).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 757-771 AND 980-990.
+RX   PubMed=1699796; DOI=10.1016/0014-5793(90)80389-z;
+RA   Hessing M., van 't Veer C., Hackeng T.M., Bouma B.N., Iwanaga S.;
+RT   "Importance of the alpha 3-fragment of complement C4 for the binding with
+RT   C4b-binding protein.";
+RL   FEBS Lett. 271:131-136(1990).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 956-1336, AND VARIANT ASP-1073.
+RC   TISSUE=Liver;
+RX   PubMed=6546707; DOI=10.1016/0092-8674(84)90040-0;
+RA   Belt K.T., Carroll M.C., Porter R.R.;
+RT   "The structural basis of the multiple forms of human complement component
+RT   C4.";
+RL   Cell 36:907-914(1984).
+RN   [8]
+RP   PROTEIN SEQUENCE OF 957-1044.
+RX   PubMed=6978711; DOI=10.1042/bj1990359;
+RA   Campbell R.D., Gagnon J., Porter R.R.;
+RT   "Amino acid sequence around the thiol and reactive acyl groups of human
+RT   complement component C4.";
+RL   Biochem. J. 199:359-370(1981).
+RN   [9]
+RP   PROTEIN SEQUENCE OF 957-1336.
+RX   PubMed=3696167; DOI=10.1016/0161-5890(87)90165-9;
+RA   Chakravarti D.N., Campbell R.D., Porter R.R.;
+RT   "The chemical structure of the C4d fragment of the human complement
+RT   component C4.";
+RL   Mol. Immunol. 24:1187-1197(1987).
+RN   [10]
+RP   PROTEIN SEQUENCE OF 990-1037.
+RX   PubMed=6950384; DOI=10.1073/pnas.78.12.7388;
+RA   Harrison R.A., Thomas M.L., Tack B.F.;
+RT   "Sequence determination of the thiolester site of the fourth component of
+RT   human complement.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 78:7388-7392(1981).
+RN   [11]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1055-1225 (ALLOTYPE C4B12).
+RX   PubMed=9759862;
+RA   Martinez-Quiles N., Paz-Artal E., Moreno-Pelayo M.A., Longas J.,
+RA   Ferre-Lopez S., Rosal M., Arnaiz-Villena A.;
+RT   "C4d DNA sequences of two infrequent human allotypes (C4A13 and C4B12) and
+RT   the presence of signal sequences enhancing recombination.";
+RL   J. Immunol. 161:3438-3443(1998).
+RN   [12]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1055-1225, AND VARIANTS ASN-1176;
+RP   VAL-1207 AND LEU-1210.
+RX   PubMed=14989716; DOI=10.1111/j.0001-2815.2004.00147.x;
+RA   Lopez-Goyanes A., Moreno M.A., Ferre S., Paz-Artal E.;
+RT   "C4d DNA sequence of complement C4B93 and recombination mechanisms for its
+RT   generation.";
+RL   Tissue Antigens 63:260-262(2004).
+RN   [13]
+RP   PROTEIN SEQUENCE OF 1199-1304.
+RX   PubMed=6832377; DOI=10.1016/0014-5793(83)80188-4;
+RA   Chakravarti D.N., Campbell R.D., Gagnon J.;
+RT   "Amino acid sequence of a polymorphic segment from fragment C4d of human
+RT   complement component C4.";
+RL   FEBS Lett. 154:387-390(1983).
+RN   [14]
+RP   PROTEIN SEQUENCE OF 1405-1431, AND SULFATION AT TYR-1417; TYR-1420 AND
+RP   TYR-1422.
+RX   PubMed=3944109; DOI=10.1016/s0021-9258(17)36009-x;
+RA   Hortin G., Sims H., Strauss A.W.;
+RT   "Identification of the site of sulfation of the fourth component of human
+RT   complement.";
+RL   J. Biol. Chem. 261:1786-1793(1986).
+RN   [15]
+RP   INVOLVEMENT IN C4BD AND SLE.
+RX   PubMed=3265961;
+RA   Wilson W.A., Perez M.C.;
+RT   "Complete C4B deficiency in black Americans with systemic lupus
+RT   erythematosus.";
+RL   J. Rheumatol. 15:1855-1858(1988).
+RN   [16]
+RP   INTERACTION WITH CR1.
+RX   PubMed=2972794; DOI=10.1084/jem.168.5.1699;
+RA   Klickstein L.B., Bartow T.J., Miletic V., Rabson L.D., Smith J.A.,
+RA   Fearon D.T.;
+RT   "Identification of distinct C3b and C4b recognition sites in the human
+RT   C3b/C4b receptor (CR1, CD35) by deletion mutagenesis.";
+RL   J. Exp. Med. 168:1699-1717(1988).
+RN   [17]
+RP   FUNCTION, INVOLVEMENT OF HIS-1125 IN IMMUNOGLOBULIN-BINDING AND HEMOLYSIS,
+RP   AND MUTAGENESIS OF LEU-1120; SER-1121; ILE-1124 AND HIS-1125.
+RX   PubMed=2395880; DOI=10.1073/pnas.87.17.6868;
+RA   Carroll M.C., Fathallah D.M., Bergamaschini L., Alicot E.M., Isenman D.E.;
+RT   "Substitution of a single amino acid (aspartic acid for histidine) converts
+RT   the functional activity of human complement C4B to C4A.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:6868-6872(1990).
+RN   [18]
+RP   INTERACTION WITH CR1.
+RX   PubMed=8175757; DOI=10.1016/s0021-9258(17)36829-1;
+RA   Krych M., Clemenza L., Howdeshell D., Hauhart R., Hourcade D.,
+RA   Atkinson J.P.;
+RT   "Analysis of the functional domains of complement receptor type 1 (C3b/C4b
+RT   receptor; CD35) by substitution mutagenesis.";
+RL   J. Biol. Chem. 269:13273-13278(1994).
+RN   [19]
+RP   FUNCTION.
+RX   PubMed=8538770; DOI=10.1038/379177a0;
+RA   Dodds A.W., Ren X.D., Willis A.C., Law S.K.;
+RT   "The reaction mechanism of the internal thioester in the human complement
+RT   component C4.";
+RL   Nature 379:177-179(1996).
+RN   [20]
+RP   INVOLVEMENT IN SLE.
+RX   PubMed=10092831;
+RA   Lokki M.L., Circolo A., Ahokas P., Rupert K.L., Yu C.Y., Colten H.R.;
+RT   "Deficiency of human complement protein C4 due to identical frameshift
+RT   mutations in the C4A and C4B genes.";
+RL   J. Immunol. 162:3687-3693(1999).
+RN   [21]
+RP   REVIEW, DESCRIPTION OF ALLOTYPES, AND TISSUE SPECIFICITY.
+RX   PubMed=11367523; DOI=10.1016/s1567-5769(01)00019-4;
+RA   Blanchong C.A., Chung E.K., Rupert K.L., Yang Y., Yang Z., Zhou B.,
+RA   Moulds J.M., Yu C.Y.;
+RT   "Genetic, structural and functional diversities of human complement
+RT   components C4A and C4B and their mouse homologues, Slp and C4.";
+RL   Int. Immunopharmacol. 1:365-392(2001).
+RN   [22]
+RP   GLYCOSYLATION AT ASN-226.
+RX   PubMed=12754519; DOI=10.1038/nbt827;
+RA   Zhang H., Li X.-J., Martin D.B., Aebersold R.;
+RT   "Identification and quantification of N-linked glycoproteins using
+RT   hydrazide chemistry, stable isotope labeling and mass spectrometry.";
+RL   Nat. Biotechnol. 21:660-666(2003).
+RN   [23]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-1391.
+RC   TISSUE=Plasma;
+RX   PubMed=14760718; DOI=10.1002/pmic.200300556;
+RA   Bunkenborg J., Pilch B.J., Podtelejnikov A.V., Wisniewski J.R.;
+RT   "Screening for N-glycosylated proteins by liquid chromatography mass
+RT   spectrometry.";
+RL   Proteomics 4:454-465(2004).
+RN   [24]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-1328.
+RC   TISSUE=Saliva;
+RX   PubMed=16740002; DOI=10.1021/pr050492k;
+RA   Ramachandran P., Boontheung P., Xie Y., Sondej M., Wong D.T., Loo J.A.;
+RT   "Identification of N-linked glycoproteins in human saliva by glycoprotein
+RT   capture and mass spectrometry.";
+RL   J. Proteome Res. 5:1493-1503(2006).
+RN   [25]
+RP   STRUCTURAL BASIS OF POLYMORPHISM.
+RX   PubMed=2431902; DOI=10.1002/j.1460-2075.1986.tb04582.x;
+RA   Yu C.Y., Belt K.T., Giles C.M., Campbell R.D., Porter R.R.;
+RT   "Structural basis of the polymorphism of human complement components C4A
+RT   and C4B: gene size, reactivity and antigenicity.";
+RL   EMBO J. 5:2873-2881(1986).
+RN   [26]
+RP   INVOLVEMENT IN SLE.
+RX   PubMed=17503323; DOI=10.1086/518257;
+RA   Yang Y., Chung E.K., Wu Y.L., Savelli S.L., Nagaraja H.N., Zhou B.,
+RA   Hebert M., Jones K.N., Shu Y., Kitzmiller K., Blanchong C.A., McBride K.L.,
+RA   Higgins G.C., Rennebohm R.M., Rice R.R., Hackshaw K.V., Roubey R.A.,
+RA   Grossman J.M., Tsao B.P., Birmingham D.J., Rovin B.H., Hebert L.A.,
+RA   Yu C.Y.;
+RT   "Gene copy-number variation and associated polymorphisms of complement
+RT   component C4 in human systemic lupus erythematosus (SLE): low copy number
+RT   is a risk factor for and high copy number is a protective factor against
+RT   SLE susceptibility in European Americans.";
+RL   Am. J. Hum. Genet. 80:1037-1054(2007).
+RN   [27]
+RP   POLYMORPHISM, TISSUE SPECIFICITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=26814963; DOI=10.1038/nature16549;
+RG   Schizophrenia Working Group of the Psychiatric Genomics Consortium;
+RA   Sekar A., Bialas A.R., de Rivera H., Davis A., Hammond T.R., Kamitaki N.,
+RA   Tooley K., Presumey J., Baum M., Van Doren V., Genovese G., Rose S.A.,
+RA   Handsaker R.E., Daly M.J., Carroll M.C., Stevens B., McCarroll S.A.;
+RT   "Schizophrenia risk from complex variation of complement component 4.";
+RL   Nature 530:177-183(2016).
+CC   -!- FUNCTION: Non-enzymatic component of the C3 and C5 convertases and thus
+CC       essential for the propagation of the classical complement pathway.
+CC       Covalently binds to immunoglobulins and immune complexes and enhances
+CC       the solubilization of immune aggregates and the clearance of IC through
+CC       CR1 on erythrocytes. C4A isotype is responsible for effective binding
+CC       to form amide bonds with immune aggregates or protein antigens, while
+CC       C4B isotype catalyzes the transacylation of the thioester carbonyl
+CC       group to form ester bonds with carbohydrate antigens.
+CC   -!- FUNCTION: Derived from proteolytic degradation of complement C4, C4a
+CC       anaphylatoxin is a mediator of local inflammatory process. It induces
+CC       the contraction of smooth muscle, increases vascular permeability and
+CC       causes histamine release from mast cells and basophilic leukocytes.
+CC   -!- SUBUNIT: Circulates in blood as a disulfide-linked trimer of alpha,
+CC       beta and gamma chains. C4b interacts with CR1 (via Sushi 1 and Sushi 2
+CC       domains). {ECO:0000269|PubMed:2972794, ECO:0000269|PubMed:8175757}.
+CC   -!- INTERACTION:
+CC       PRO_0000042699; O00187: MASP2; NbExp=4; IntAct=EBI-26369106, EBI-7965040;
+CC   -!- SUBCELLULAR LOCATION: Secreted. Synapse {ECO:0000269|PubMed:26814963}.
+CC       Cell projection, axon {ECO:0000269|PubMed:26814963}. Cell projection,
+CC       dendrite {ECO:0000269|PubMed:26814963}.
+CC   -!- TISSUE SPECIFICITY: Complement component C4 is expressed at highest
+CC       levels in the liver, at moderate levels in the adrenal cortex, adrenal
+CC       medulla, thyroid gland, and the kidney, and at lowest levels in the
+CC       heart, ovary, small intestine, thymus, pancreas and spleen. The extra-
+CC       hepatic sites of expression may be important for the local protection
+CC       and inflammatory response. {ECO:0000269|PubMed:11367523}.
+CC   -!- PTM: Prior to secretion, the single-chain precursor is enzymatically
+CC       cleaved to yield non-identical chains alpha, beta and gamma. During
+CC       activation, the alpha chain is cleaved by C1 into C4a and C4b, and C4b
+CC       stays linked to the beta and gamma chains. Further degradation of C4b
+CC       by C1 into the inactive fragments C4c and C4d blocks the generation of
+CC       C3 convertase. The proteolytic cleavages often are incomplete so that
+CC       many structural forms can be found in plasma.
+CC   -!- POLYMORPHISM: The complement component C4 is the most polymorphic
+CC       protein of the complement system. It is the product of 2 closely linked
+CC       and highly homologous genes, C4A and C4B. Once polymorphic variation is
+CC       discounted, the 2 isotypes differ by only 4 amino acids at positions
+CC       1120-1125: PCPVLD for C4A and LSPVIH for C4B. The 2 isotypes bear
+CC       several antigenic determinants defining Chido/Rodgers blood group
+CC       system [MIM:614374]. Rodgers determinants are generally associated with
+CC       C4A allotypes, and Chido with C4B. Variations at these loci involve not
+CC       only nucleotide polymorphisms, but also gene number and gene size. The
+CC       second copy of C4B gene present in some individuals has been called
+CC       C4B_2 by the HUGO Gene Nomenclature Committee (HGNC). Some individuals
+CC       may lack either C4A, or C4B gene. Partial deficiency of C4A or C4B is
+CC       the most commonly inherited immune deficiency known in humans with a
+CC       combined frequency over 31% in the normal Caucasian population
+CC       (PubMed:11367523). Common copy-number variants of C4A and C4B affecting
+CC       expression of complement component C4 in the brain have been associated
+CC       with schizophrenia risk (PubMed:26814963).
+CC       {ECO:0000269|PubMed:11367523, ECO:0000269|PubMed:26814963}.
+CC   -!- DISEASE: Systemic lupus erythematosus (SLE) [MIM:152700]: A chronic,
+CC       relapsing, inflammatory, and often febrile multisystemic disorder of
+CC       connective tissue, characterized principally by involvement of the
+CC       skin, joints, kidneys and serosal membranes. It is of unknown etiology,
+CC       but is thought to represent a failure of the regulatory mechanisms of
+CC       the autoimmune system. The disease is marked by a wide range of system
+CC       dysfunctions, an elevated erythrocyte sedimentation rate, and the
+CC       formation of LE cells in the blood or bone marrow.
+CC       {ECO:0000269|PubMed:10092831, ECO:0000269|PubMed:17503323}.
+CC       Note=Disease susceptibility is associated with variants affecting the
+CC       gene represented in this entry. Interindividual copy-number variation
+CC       (CNV) of complement component C4 and associated polymorphisms result in
+CC       different susceptibilities to SLE. The risk of SLE susceptibility has
+CC       been shown to be significantly increased among subjects with only two
+CC       copies of total C4. A high copy number is a protective factor against
+CC       SLE.
+CC   -!- DISEASE: Complement component 4B deficiency (C4BD) [MIM:614379]: A rare
+CC       defect of the complement classical pathway associated with the
+CC       development of autoimmune disorders, mainly systemic lupus with or
+CC       without associated glomerulonephritis. {ECO:0000269|PubMed:3265961}.
+CC       Note=The disease is caused by variants affecting the gene represented
+CC       in this entry.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA99717.1; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC   -!- WEB RESOURCE: Name=dbRBC/BGMUT; Note=Blood group antigen gene mutation
+CC       database;
+CC       URL="https://www.ncbi.nlm.nih.gov/gv/mhc/xslcgi.cgi?cmd=bgmut/systems_info&system=chrg";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U24578; AAA99717.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AF019413; AAB67980.1; -; Genomic_DNA.
+DR   EMBL; AY379860; AAR89087.1; -; Genomic_DNA.
+DR   EMBL; AY379862; AAR89089.1; -; Genomic_DNA.
+DR   EMBL; AY379864; AAR89091.1; -; Genomic_DNA.
+DR   EMBL; AY379866; AAR89093.1; -; Genomic_DNA.
+DR   EMBL; AY379868; AAR89095.1; -; Genomic_DNA.
+DR   EMBL; AY379870; AAR89097.1; -; Genomic_DNA.
+DR   EMBL; AY379872; AAR89099.1; -; Genomic_DNA.
+DR   EMBL; AY379874; AAR89101.1; -; Genomic_DNA.
+DR   EMBL; AY379876; AAR89103.1; -; Genomic_DNA.
+DR   EMBL; AY379878; AAR89105.1; -; Genomic_DNA.
+DR   EMBL; AY379880; AAR89107.1; -; Genomic_DNA.
+DR   EMBL; AY379882; AAR89109.1; -; Genomic_DNA.
+DR   EMBL; AY379884; AAR89111.1; -; Genomic_DNA.
+DR   EMBL; AY379886; AAR89113.1; -; Genomic_DNA.
+DR   EMBL; AY379888; AAR89115.1; -; Genomic_DNA.
+DR   EMBL; AY379890; AAR89117.1; -; Genomic_DNA.
+DR   EMBL; AY379892; AAR89119.1; -; Genomic_DNA.
+DR   EMBL; AY379894; AAR89121.1; -; Genomic_DNA.
+DR   EMBL; AY379896; AAR89123.1; -; Genomic_DNA.
+DR   EMBL; AY379898; AAR89125.1; -; Genomic_DNA.
+DR   EMBL; AY379900; AAR89127.1; -; Genomic_DNA.
+DR   EMBL; AY379902; AAR89130.1; -; Genomic_DNA.
+DR   EMBL; AY379904; AAR89132.1; -; Genomic_DNA.
+DR   EMBL; AY379906; AAR89134.1; -; Genomic_DNA.
+DR   EMBL; AY379908; AAR89136.1; -; Genomic_DNA.
+DR   EMBL; AY379910; AAR89138.1; -; Genomic_DNA.
+DR   EMBL; AY379912; AAR89139.1; -; Genomic_DNA.
+DR   EMBL; AY379914; AAR89142.1; -; Genomic_DNA.
+DR   EMBL; AY379916; AAR89144.1; -; Genomic_DNA.
+DR   EMBL; AY379918; AAR89145.1; -; Genomic_DNA.
+DR   EMBL; AY379920; AAR89148.1; -; Genomic_DNA.
+DR   EMBL; AY379922; AAR89150.1; -; Genomic_DNA.
+DR   EMBL; AY379924; AAR89151.1; -; Genomic_DNA.
+DR   EMBL; AY379959; AAR89163.1; -; Genomic_DNA.
+DR   EMBL; AY379936; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379937; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379938; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379939; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379940; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379941; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379942; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379943; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379944; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379945; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379946; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379947; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379948; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379949; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379950; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379951; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379952; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379953; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379954; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379955; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379956; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379957; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AY379958; AAR89163.1; JOINED; Genomic_DNA.
+DR   EMBL; AL049547; CAB89302.1; -; Genomic_DNA.
+DR   EMBL; BX679671; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; K02404; AAA59651.1; -; mRNA.
+DR   EMBL; U77887; AAK49811.1; -; Genomic_DNA.
+DR   EMBL; AY343497; AAQ99144.1; -; Genomic_DNA.
+DR   CCDS; CCDS47405.1; -.
+DR   PIR; B20807; B20807.
+DR   RefSeq; NP_001002029.3; NM_001002029.3.
+DR   RefSeq; NP_001229752.1; NM_001242823.2.
+DR   PDB; 4XAM; X-ray; 4.20 A; A/B=20-675.
+DR   PDB; 6YSQ; X-ray; 3.30 A; A/B=1-1744.
+DR   PDBsum; 4XAM; -.
+DR   PDBsum; 6YSQ; -.
+DR   AlphaFoldDB; P0C0L5; -.
+DR   SMR; P0C0L5; -.
+DR   BioGRID; 107182; 7.
+DR   BioGRID; 945184; 1.
+DR   ComplexPortal; CPX-6156; Classical and lectin pathway C3 convertase complex C4b2a-B.
+DR   DIP; DIP-47260N; -.
+DR   IntAct; P0C0L5; 14.
+DR   MINT; P0C0L5; -.
+DR   STRING; 9606.ENSP00000415941; -.
+DR   DrugBank; DB09130; Copper.
+DR   DrugBank; DB00028; Human immunoglobulin G.
+DR   DrugBank; DB01593; Zinc.
+DR   DrugBank; DB14487; Zinc acetate.
+DR   DrugBank; DB14533; Zinc chloride.
+DR   DrugBank; DB14548; Zinc sulfate, unspecified form.
+DR   MEROPS; I39.951; -.
+DR   GlyConnect; 1146; 32 N-Linked glycans (4 sites), 1 O-Linked glycan (1 site).
+DR   GlyGen; P0C0L5; 5 sites, 34 N-linked glycans (4 sites), 1 O-linked glycan (1 site).
+DR   iPTMnet; P0C0L5; -.
+DR   PhosphoSitePlus; P0C0L5; -.
+DR   BioMuta; C4B; -.
+DR   DMDM; 476007828; -.
+DR   SWISS-2DPAGE; P0C0L5; -.
+DR   CPTAC; non-CPTAC-1107; -.
+DR   EPD; P0C0L5; -.
+DR   jPOST; P0C0L5; -.
+DR   MassIVE; P0C0L5; -.
+DR   PaxDb; P0C0L5; -.
+DR   PeptideAtlas; P0C0L5; -.
+DR   PRIDE; P0C0L5; -.
+DR   ProteomicsDB; 67395; -.
+DR   TopDownProteomics; P0C0L5; -.
+DR   Antibodypedia; 35326; 372 antibodies from 21 providers.
+DR   DNASU; 721; -.
+DR   Ensembl; ENST00000375177.9; ENSP00000364321.5; ENSG00000228454.7.
+DR   Ensembl; ENST00000411583.6; ENSP00000407942.2; ENSG00000228267.8.
+DR   Ensembl; ENST00000435363.7; ENSP00000415941.2; ENSG00000224389.9.
+DR   Ensembl; ENST00000435500.6; ENSP00000412786.2; ENSG00000233312.8.
+DR   Ensembl; ENST00000449788.6; ENSP00000414200.2; ENSG00000236625.8.
+DR   GeneID; 100293534; -.
+DR   GeneID; 721; -.
+DR   KEGG; hsa:100293534; -.
+DR   KEGG; hsa:721; -.
+DR   MANE-Select; ENST00000435363.7; ENSP00000415941.2; NM_001002029.4; NP_001002029.3.
+DR   UCSC; uc011dpd.3; human.
+DR   CTD; 100293534; -.
+DR   CTD; 721; -.
+DR   DisGeNET; 100293534; -.
+DR   DisGeNET; 721; -.
+DR   GeneCards; C4B; -.
+DR   GeneCards; C4B_2; -.
+DR   HGNC; HGNC:1324; C4B.
+DR   HGNC; HGNC:42398; C4B_2.
+DR   HPA; ENSG00000224389; Group enriched (adrenal gland, liver).
+DR   MalaCards; C4B; -.
+DR   MIM; 120820; gene.
+DR   MIM; 152700; phenotype.
+DR   MIM; 614374; phenotype.
+DR   MIM; 614379; phenotype.
+DR   neXtProt; NX_P0C0L5; -.
+DR   OpenTargets; ENSG00000224389; -.
+DR   Orphanet; 169147; Immunodeficiency due to a classical component pathway complement deficiency.
+DR   Orphanet; 536; Systemic lupus erythematosus.
+DR   PharmGKB; PA25904; -.
+DR   VEuPathDB; HostDB:ENSG00000224389; -.
+DR   eggNOG; KOG1366; Eukaryota.
+DR   GeneTree; ENSGT00940000155739; -.
+DR   InParanoid; P0C0L5; -.
+DR   OMA; CVRQKSN; -.
+DR   OrthoDB; 28894at2759; -.
+DR   PhylomeDB; P0C0L5; -.
+DR   TreeFam; TF313285; -.
+DR   PathwayCommons; P0C0L5; -.
+DR   Reactome; R-HSA-166663; Initial triggering of complement.
+DR   Reactome; R-HSA-174577; Activation of C3 and C5.
+DR   Reactome; R-HSA-977606; Regulation of Complement cascade.
+DR   SABIO-RK; P0C0L5; -.
+DR   SignaLink; P0C0L5; -.
+DR   SIGNOR; P0C0L5; -.
+DR   BioGRID-ORCS; 100293534; 6 hits in 65 CRISPR screens.
+DR   BioGRID-ORCS; 721; 8 hits in 671 CRISPR screens.
+DR   ChiTaRS; C4B; human.
+DR   GeneWiki; Complement_component_4B; -.
+DR   Pharos; P0C0L5; Tbio.
+DR   PRO; PR:P0C0L5; -.
+DR   Proteomes; UP000005640; Chromosome 6.
+DR   RNAct; P0C0L5; protein.
+DR   Bgee; ENSG00000224389; Expressed in right lobe of liver and 91 other tissues.
+DR   ExpressionAtlas; P0C0L5; baseline and differential.
+DR   Genevisible; P0C0L5; HS.
+DR   GO; GO:0070161; C:anchoring junction; IEA:UniProtKB-KW.
+DR   GO; GO:0030424; C:axon; IEA:UniProtKB-SubCell.
+DR   GO; GO:0072562; C:blood microparticle; HDA:UniProtKB.
+DR   GO; GO:0005601; C:classical-complement-pathway C3/C5 convertase complex; IPI:ComplexPortal.
+DR   GO; GO:0030425; C:dendrite; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070062; C:extracellular exosome; HDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; TAS:Reactome.
+DR   GO; GO:0005615; C:extracellular space; IDA:BHF-UCL.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0106139; C:symbiont cell surface; IDA:BHF-UCL.
+DR   GO; GO:0045202; C:synapse; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:BHF-UCL.
+DR   GO; GO:0001848; F:complement binding; IDA:BHF-UCL.
+DR   GO; GO:0004866; F:endopeptidase inhibitor activity; IEA:InterPro.
+DR   GO; GO:0006956; P:complement activation; IDA:ComplexPortal.
+DR   GO; GO:0006958; P:complement activation, classical pathway; IEA:UniProtKB-KW.
+DR   GO; GO:0032490; P:detection of molecule of bacterial origin; IDA:BHF-UCL.
+DR   GO; GO:0006954; P:inflammatory response; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0008228; P:opsonization; TAS:BHF-UCL.
+DR   GO; GO:2000427; P:positive regulation of apoptotic cell clearance; IGI:BHF-UCL.
+DR   GO; GO:0050778; P:positive regulation of immune response; IC:ComplexPortal.
+DR   GO; GO:1903028; P:positive regulation of opsonization; IC:ComplexPortal.
+DR   CDD; cd00017; ANATO; 1.
+DR   Gene3D; 2.40.50.120; -; 1.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.60.40.690; -; 1.
+DR   InterPro; IPR009048; A-macroglobulin_rcpt-bd.
+DR   InterPro; IPR036595; A-macroglobulin_rcpt-bd_sf.
+DR   InterPro; IPR011625; A2M_N_BRD.
+DR   InterPro; IPR011626; Alpha-macroglobulin_TED.
+DR   InterPro; IPR000020; Anaphylatoxin/fibulin.
+DR   InterPro; IPR018081; Anaphylatoxin_comp_syst.
+DR   InterPro; IPR001840; Anaphylatoxn_comp_syst_dom.
+DR   InterPro; IPR037569; Complement_C4A.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR001599; Macroglobln_a2.
+DR   InterPro; IPR019742; MacrogloblnA2_CS.
+DR   InterPro; IPR002890; MG2.
+DR   InterPro; IPR041555; MG3.
+DR   InterPro; IPR040839; MG4.
+DR   InterPro; IPR001134; Netrin_domain.
+DR   InterPro; IPR018933; Netrin_module_non-TIMP.
+DR   InterPro; IPR008930; Terpenoid_cyclase/PrenylTrfase.
+DR   InterPro; IPR008993; TIMP-like_OB-fold.
+DR   PANTHER; PTHR11412:SF86; PTHR11412:SF86; 1.
+DR   Pfam; PF00207; A2M; 1.
+DR   Pfam; PF07703; A2M_BRD; 1.
+DR   Pfam; PF07677; A2M_recep; 1.
+DR   Pfam; PF01821; ANATO; 1.
+DR   Pfam; PF01835; MG2; 1.
+DR   Pfam; PF17791; MG3; 1.
+DR   Pfam; PF17789; MG4; 1.
+DR   Pfam; PF01759; NTR; 1.
+DR   Pfam; PF07678; TED_complement; 1.
+DR   PRINTS; PR00004; ANAPHYLATOXN.
+DR   SMART; SM01360; A2M; 1.
+DR   SMART; SM01359; A2M_N_2; 1.
+DR   SMART; SM01361; A2M_recep; 1.
+DR   SMART; SM00104; ANATO; 1.
+DR   SMART; SM00643; C345C; 1.
+DR   SUPFAM; SSF47686; SSF47686; 1.
+DR   SUPFAM; SSF48239; SSF48239; 1.
+DR   SUPFAM; SSF49410; SSF49410; 1.
+DR   SUPFAM; SSF50242; SSF50242; 1.
+DR   PROSITE; PS00477; ALPHA_2_MACROGLOBULIN; 1.
+DR   PROSITE; PS01177; ANAPHYLATOXIN_1; 1.
+DR   PROSITE; PS01178; ANAPHYLATOXIN_2; 1.
+DR   PROSITE; PS50189; NTR; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Blood group antigen; Cell projection;
+KW   Cleavage on pair of basic residues; Complement pathway;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Immunity;
+KW   Inflammatory response; Innate immunity; Phosphoprotein; Reference proteome;
+KW   Secreted; Signal; Sulfation; Synapse; Systemic lupus erythematosus;
+KW   Thioester bond.
+FT   SIGNAL          1..19
+FT   CHAIN           20..675
+FT                   /note="Complement C4 beta chain"
+FT                   /id="PRO_0000042699"
+FT   PROPEP          676..679
+FT                   /evidence="ECO:0000269|PubMed:6167582"
+FT                   /id="PRO_0000042700"
+FT   CHAIN           680..1446
+FT                   /note="Complement C4-B alpha chain"
+FT                   /id="PRO_0000042701"
+FT   CHAIN           680..756
+FT                   /note="C4a anaphylatoxin"
+FT                   /id="PRO_0000042702"
+FT   CHAIN           757..1446
+FT                   /note="C4b-B"
+FT                   /id="PRO_0000042703"
+FT   CHAIN           957..1336
+FT                   /note="C4d-B"
+FT                   /id="PRO_0000042704"
+FT   PROPEP          1447..1453
+FT                   /id="PRO_0000042705"
+FT   CHAIN           1454..1744
+FT                   /note="Complement C4 gamma chain"
+FT                   /id="PRO_0000042706"
+FT   DOMAIN          702..736
+FT                   /note="Anaphylatoxin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00022"
+FT   DOMAIN          1595..1742
+FT                   /note="NTR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+FT   MOD_RES         918
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P0C0L4"
+FT   MOD_RES         1417
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000269|PubMed:3944109"
+FT   MOD_RES         1420
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000269|PubMed:3944109"
+FT   MOD_RES         1422
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000269|PubMed:3944109"
+FT   CARBOHYD        226
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12754519"
+FT   CARBOHYD        862
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1328
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:16740002"
+FT   CARBOHYD        1391
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:14760718"
+FT   DISULFID        702..728
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        703..735
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        716..736
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1595..1673
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1618..1742
+FT                   /evidence="ECO:0000250"
+FT   CROSSLNK        1010..1013
+FT                   /note="Isoglutamyl cysteine thioester (Cys-Gln)"
+FT   VARIANT         347
+FT                   /note="S -> Y (in allotype C4B-long; dbSNP:rs139889867)"
+FT                   /evidence="ECO:0000269|PubMed:14574404, ECO:0000269|Ref.2"
+FT                   /id="VAR_023729"
+FT   VARIANT         478
+FT                   /note="P -> L (in allotype C4B1-hi)"
+FT                   /id="VAR_069160"
+FT   VARIANT         907
+FT                   /note="T -> A (in allotype C4B-long and allotype C4B2;
+FT                   dbSNP:rs796750528)"
+FT                   /evidence="ECO:0000269|PubMed:14574404, ECO:0000269|Ref.2,
+FT                   ECO:0000269|Ref.3"
+FT                   /id="VAR_023730"
+FT   VARIANT         1073
+FT                   /note="G -> D (in allotype C4B2 and allotype C4B5-Rg1;
+FT                   dbSNP:rs2258218)"
+FT                   /evidence="ECO:0000269|PubMed:6546707, ECO:0000269|Ref.3"
+FT                   /id="VAR_023731"
+FT   VARIANT         1176
+FT                   /note="S -> N (in allotype C4B1a; dbSNP:rs2746414)"
+FT                   /evidence="ECO:0000269|PubMed:14989716"
+FT                   /id="VAR_023732"
+FT   VARIANT         1207
+FT                   /note="A -> V (in allotype C4B5-Rg1; dbSNP:rs2229403)"
+FT                   /evidence="ECO:0000269|PubMed:14989716"
+FT                   /id="VAR_023734"
+FT   VARIANT         1210
+FT                   /note="R -> L (in allotype C4B5-Rg1; dbSNP:rs2229409)"
+FT                   /evidence="ECO:0000269|PubMed:14989716"
+FT                   /id="VAR_023735"
+FT   VARIANT         1317
+FT                   /note="I -> F (in allotype C4B1-SC01; dbSNP:rs2023616)"
+FT                   /evidence="ECO:0000269|PubMed:8575831"
+FT                   /id="VAR_069161"
+FT   MUTAGEN         1120
+FT                   /note="L->P: No effect on hemolytic activity, nor on
+FT                   C1-dependent binding to IgG."
+FT                   /evidence="ECO:0000269|PubMed:2395880"
+FT   MUTAGEN         1121
+FT                   /note="S->C: 30-40% decrease in hemolytic activity and
+FT                   C1-dependent binding to IgG."
+FT                   /evidence="ECO:0000269|PubMed:2395880"
+FT   MUTAGEN         1124
+FT                   /note="I->A: 50-60% decrease in hemolytic activity and
+FT                   C1-dependent binding to IgG."
+FT                   /evidence="ECO:0000269|PubMed:2395880"
+FT   MUTAGEN         1125
+FT                   /note="H->A: 20% decrease in hemolytic activity, 2-fold
+FT                   increase in C1-dependent binding to IgG."
+FT                   /evidence="ECO:0000269|PubMed:2395880"
+FT   MUTAGEN         1125
+FT                   /note="H->D: 2.5-3 fold-decrease in hemolytic activity,
+FT                   3-fold increase in C1-dependent binding to IgG."
+FT                   /evidence="ECO:0000269|PubMed:2395880"
+FT   CONFLICT        714
+FT                   /note="R -> S (in Ref. 3; AAR89101)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        729
+FT                   /note="R -> Q (in Ref. 3; AAR89127)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        980..981
+FT                   /note="VT -> LQ (in Ref. 1; AAA99717)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1013
+FT                   /note="Q -> E (in Ref. 8; AA sequence, 9; AA sequence and
+FT                   10; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1109..1110
+FT                   /note="SQ -> IA (in Ref. 9; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1271
+FT                   /note="H -> V (in Ref. 9; AA sequence and 13; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1300
+FT                   /note="R -> V (in Ref. 9; AA sequence and 13; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1654
+FT                   /note="T -> RA (in Ref. 1; AAA99717)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1698
+FT                   /note="H -> Q (in Ref. 1; AAA99717)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          22..32
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          37..45
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          52..60
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          66..69
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          72..76
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          78..80
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          82..87
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           91..97
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          107..113
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   TURN            115..120
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          126..135
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          139..146
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          148..150
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          155..163
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          167..169
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          174..179
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          181..183
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          185..191
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          194..203
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          210..221
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          228..233
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          240..250
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          252..254
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          262..270
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          278..287
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          293..295
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          301..304
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          309..314
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           316..325
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           330..332
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          337..346
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   TURN            347..349
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          352..357
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          361..364
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          366..370
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          384..392
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          402..409
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          412..414
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          417..424
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          430..435
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          443..450
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          452..454
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          456..463
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          472..476
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          488..498
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          504..511
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          514..522
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          525..532
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           535..537
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          539..549
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          552..561
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          571..574
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          586..605
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           608..611
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           622..628
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           629..631
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          641..643
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           644..650
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          652..655
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1465..1474
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1484..1489
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1494..1496
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           1498..1501
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           1502..1504
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1506..1509
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1512..1517
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1519..1527
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1534..1536
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1539..1544
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1554..1560
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1564..1567
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1573..1575
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1581..1584
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1587..1590
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           1613..1618
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1625..1634
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1640..1652
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1664..1670
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1681..1687
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1695..1699
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   STRAND          1708..1711
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           1715..1718
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+FT   HELIX           1724..1739
+FT                   /evidence="ECO:0007829|PDB:6YSQ"
+SQ   SEQUENCE   1744 AA;  192751 MW;  E724B85F7FA673C5 CRC64;
+     MRLLWGLIWA SSFFTLSLQK PRLLLFSPSV VHLGVPLSVG VQLQDVPRGQ VVKGSVFLRN
+     PSRNNVPCSP KVDFTLSSER DFALLSLQVP LKDAKSCGLH QLLRGPEVQL VAHSPWLKDS
+     LSRTTNIQGI NLLFSSRRGH LFLQTDQPIY NPGQRVRYRV FALDQKMRPS TDTITVMVEN
+     SHGLRVRKKE VYMPSSIFQD DFVIPDISEP GTWKISARFS DGLESNSSTQ FEVKKYVLPN
+     FEVKITPGKP YILTVPGHLD EMQLDIQARY IYGKPVQGVA YVRFGLLDED GKKTFFRGLE
+     SQTKLVNGQS HISLSKAEFQ DALEKLNMGI TDLQGLRLYV AAAIIESPGG EMEEAELTSW
+     YFVSSPFSLD LSKTKRHLVP GAPFLLQALV REMSGSPASG IPVKVSATVS SPGSVPEVQD
+     IQQNTDGSGQ VSIPIIIPQT ISELQLSVSA GSPHPAIARL TVAAPPSGGP GFLSIERPDS
+     RPPRVGDTLN LNLRAVGSGA TFSHYYYMIL SRGQIVFMNR EPKRTLTSVS VFVDHHLAPS
+     FYFVAFYYHG DHPVANSLRV DVQAGACEGK LELSVDGAKQ YRNGESVKLH LETDSLALVA
+     LGALDTALYA AGSKSHKPLN MGKVFEAMNS YDLGCGPGGG DSALQVFQAA GLAFSDGDQW
+     TLSRKRLSCP KEKTTRKKRN VNFQKAINEK LGQYASPTAK RCCQDGVTRL PMMRSCEQRA
+     ARVQQPDCRE PFLSCCQFAE SLRKKSRDKG QAGLQRALEI LQEEDLIDED DIPVRSFFPE
+     NWLWRVETVD RFQILTLWLP DSLTTWEIHG LSLSKTKGLC VATPVQLRVF REFHLHLRLP
+     MSVRRFEQLE LRPVLYNYLD KNLTVSVHVS PVEGLCLAGG GGLAQQVLVP AGSARPVAFS
+     VVPTAATAVS LKVVARGSFE FPVGDAVSKV LQIEKEGAIH REELVYELNP LDHRGRTLEI
+     PGNSDPNMIP DGDFNSYVRV TASDPLDTLG SEGALSPGGV ASLLRLPRGC GEQTMIYLAP
+     TLAASRYLDK TEQWSTLPPE TKDHAVDLIQ KGYMRIQQFR KADGSYAAWL SRGSSTWLTA
+     FVLKVLSLAQ EQVGGSPEKL QETSNWLLSQ QQADGSFQDL SPVIHRSMQG GLVGNDETVA
+     LTAFVTIALH HGLAVFQDEG AEPLKQRVEA SISKASSFLG EKASAGLLGA HAAAITAYAL
+     TLTKAPADLR GVAHNNLMAM AQETGDNLYW GSVTGSQSNA VSPTPAPRNP SDPMPQAPAL
+     WIETTAYALL HLLLHEGKAE MADQAAAWLT RQGSFQGGFR STQDTVIALD ALSAYWIASH
+     TTEERGLNVT LSSTGRNGFK SHALQLNNRQ IRGLEEELQF SLGSKINVKV GGNSKGTLKV
+     LRTYNVLDMK NTTCQDLQIE VTVKGHVEYT MEANEDYEDY EYDELPAKDD PDAPLQPVTP
+     LQLFEGRRNR RRREAPKVVE EQESRVHYTV CIWRNGKVGL SGMAIADVTL LSGFHALRAD
+     LEKLTSLSDR YVSHFETEGP HVLLYFDSVP TSRECVGFEA VQEVPVGLVQ PASATLYDYY
+     NPERRCSVFY GAPSKSRLLA TLCSAEVCQC AEGKCPRQRR ALERGLQDED GYRMKFACYY
+     PRVEYGFQVK VLREDSRAAF RLFETKITQV LHFTKDVKAA ANQMRNFLVR ASCRLRLEPG
+     KEYLIMGLDG ATYDLEGHPQ YLLDSNSWIE EMPSERLCRS TRQRAACAQL NDFLQEYGTQ
+     GCQV
+//

@@ -1,0 +1,150 @@
+ID   SL17_ENTHI              Reviewed;        1285 AA.
+AC   P23502;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 2.
+DT   25-MAY-2022, entry version 65.
+DE   RecName: Full=170 kDa surface lectin;
+DE   Flags: Precursor;
+GN   Name=CEL-170/4;
+OS   Entamoeba histolytica.
+OC   Eukaryota; Amoebozoa; Evosea; Archamoebae; Mastigamoebida; Entamoebidae;
+OC   Entamoeba.
+OX   NCBI_TaxID=5759;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 16-33.
+RX   PubMed=2000392; DOI=10.1073/pnas.88.5.1849;
+RA   Tannich E., Ebert F., Horstmann R.D.;
+RT   "Primary structure of the 170-kDa surface lectin of pathogenic Entamoeba
+RT   histolytica.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 88:1849-1853(1991).
+RN   [2]
+RP   SEQUENCE REVISION TO N-TERMINUS.
+RA   Tannich E., Nickel R., Ebert F., Horstmann R.D.;
+RL   Submitted (AUG-1991) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PROTEIN SEQUENCE OF 16-30.
+RX   PubMed=2536731; DOI=10.1016/s0021-9258(19)81714-3;
+RA   Petri W.A. Jr., Chapman M.D., Snodgrass T., Mann B.J., Broman J.,
+RA   Ravdin J.I.;
+RT   "Subunit structure of the galactose and N-acetyl-D-galactosamine-
+RT   inhibitable adherence lectin of Entamoeba histolytica.";
+RL   J. Biol. Chem. 264:3007-3012(1989).
+CC   -!- FUNCTION: Mediates adherence of E.histolytica to colonic mucins, an
+CC       essential step for pathogenic tissue invasion.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- PTM: Phosphorylated regions may have a role in signal transduction.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M60498; AAA29106.1; -; Genomic_DNA.
+DR   EMBL; X61003; CAA43321.1; -; Genomic_DNA.
+DR   PIR; A39117; A39117.
+DR   AlphaFoldDB; P23502; -.
+DR   STRING; 5759.rna_EHI_012270-1; -.
+DR   VEuPathDB; AmoebaDB:EHI5A_097310; -.
+DR   VEuPathDB; AmoebaDB:EHI5A_206100; -.
+DR   VEuPathDB; AmoebaDB:EHI5A_223980; -.
+DR   VEuPathDB; AmoebaDB:EHI7A_034930; -.
+DR   VEuPathDB; AmoebaDB:EHI8A_064380; -.
+DR   VEuPathDB; AmoebaDB:EHI_012270; -.
+DR   VEuPathDB; AmoebaDB:KM1_116600; -.
+DR   VEuPathDB; AmoebaDB:KM1_116910; -.
+DR   VEuPathDB; AmoebaDB:KM1_117020; -.
+DR   VEuPathDB; AmoebaDB:KM1_117130; -.
+DR   VEuPathDB; AmoebaDB:KM1_117340; -.
+DR   eggNOG; KOG1225; Eukaryota.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Lectin; Membrane; Phosphoprotein;
+KW   Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..15
+FT                   /evidence="ECO:0000269|PubMed:2000392,
+FT                   ECO:0000269|PubMed:2536731"
+FT   CHAIN           16..1285
+FT                   /note="170 kDa surface lectin"
+FT                   /id="PRO_0000022350"
+FT   TOPO_DOM        16..1218
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1219..1247
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1248..1285
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          378..407
+FT                   /note="1"
+FT   REPEAT          408..438
+FT                   /note="2"
+FT   REPEAT          439..464
+FT                   /note="3"
+FT   REPEAT          465..497
+FT                   /note="4"
+FT   REPEAT          498..525
+FT                   /note="5"
+FT   REPEAT          526..554
+FT                   /note="6"
+FT   REPEAT          555..584
+FT                   /note="7"
+FT   REPEAT          585..620
+FT                   /note="8"
+FT   REPEAT          621..653
+FT                   /note="9"
+FT   REGION          378..653
+FT                   /note="9 X approximate tandem repeats"
+FT   CARBOHYD        200
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        236
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        330
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        383
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        461
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        651
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        882
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1196
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1206
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        16
+FT                   /note="D -> G (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1285 AA;  144411 MW;  64BB2DFD2AD8ECBA CRC64;
+     MKLLLLNILL LCCLADKLNE FSADIDYYDL GIMSRGKNAG SWYHSYTHQY DVFYYLAMQP
+     WRHFVWTTCE TTKGNKECYK YIINEDHNLN AQQLNNIKNL DKQDFCQKEY AYPIEKYEVD
+     WDNVPVDEQQ IESVDINGKT CFKYAAKRPL AYVYLNTKMT YATKTEAYDV CRMDFIGGRS
+     ITFRSFNNEN KDFIDQYNTN TTSKCIIDVH KNNVNTHLAI ILGITDSTVI KSLQENLSLL
+     SQLKQSRVTL YYLKDDSYAT DNIKLKDLKY ETLVKYTAGQ GQVDPLVNQA KNDLFKMISD
+     KKIKRGTMVV LMDNALGSEF NAETEFDRKN ISVHTVVLNR NKDSKITYSA LKLVSLGPHY
+     HEFTSNSEVS TTIDELFKGI RANLTERCDR DKCSGFCDAM NRCTCPMCCE NDCFYTSCDV
+     ETGSCIPWPK AKPKAKKECP ATCVGLYECK DLEGCVVTKY NASCEPKVKC MVPYCDDDNN
+     LKEVCKQKAN CEADQKPSSD GYCWSYTCDE TTGFCKKYKH GNLCTGKTTN CQEYVCDSEQ
+     RCTVQEKVCV KTSPYIEMSC YVAKCNLNTG MCENRLSCDT YSSCGGDSTG SVCKCDASTG
+     NQCKCNKVEN GNYCDSSKHE ICDYTGDKPK CIVSECTEDL VRDGCLIKRC NKTSKTTYWE
+     NVDCSNTKIE FAQDGKSETM CKPYYSATCL NGQCVVQAVG DVSNVGCGYC SMGTDNVITY
+     HDDCDSRKSQ CGNFNGKCQP NGDNSYSCVF EKDKTSSKSD NDICAECSSL TCPADTTYRT
+     YTYDSKTGTC KATVKPTPSC SVCEKGKFVE KSKDQKLERK VTLEDGKEYQ YNIPKDCVNE
+     QCIPRTYVDC LANDDNFGEI YKFYLPCQAY VTATYHYSSL FNLTSYKLHL PQSEEFMKEA
+     DKEAYCTYEI TTRECKTCSL TETKEKVEEI DLCAEETKNG GVPFKCKNNN CIIDPNFDCQ
+     PIECKIQEIV ITEKDGIKTT TCKDGTKTTC DTNNKRIEDA RKAFIEGKEG IEQVECASTV
+     CQNDNSCPII ADVEKCNQNT EVDYGCKAMT GECDGTTYLC KFVQLTDDPS LDSEHFRTKS
+     GVELNNACLK YKCVESKGSD GKITHKWEID TERSNIDPKP RNPCETATCD QTTGETIYTK
+     KTCTVSEEFP TITPNQGRCF YCQCSYLDGS SVLTMYGETD KEYYDLDACG NCRVWNQTDR
+     TQQLNNHTEC ILAGEINNVG AIAAATTVAV VVVAVVVALI VVSIGLFKTY QLVSSAMKNA
+     ITTTNENAEY VGADNEATNA ATYNG
+//

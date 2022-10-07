@@ -1,0 +1,245 @@
+ID   XYNA1_PAESJ             Reviewed;        1462 AA.
+AC   C6CRV0; Q53I45;
+DT   31-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-SEP-2009, sequence version 1.
+DT   25-MAY-2022, entry version 73.
+DE   RecName: Full=Endo-1,4-beta-xylanase A;
+DE            EC=3.2.1.8;
+DE   AltName: Full=1,4-beta-D-xylan xylanohydrolase A;
+DE   Flags: Precursor;
+GN   Name=xynA1; Synonyms=xynA; OrderedLocusNames=Pjdr2_0221;
+OS   Paenibacillus sp. (strain JDR-2).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus.
+OX   NCBI_TaxID=324057;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND SUBCELLULAR LOCATION.
+RC   STRAIN=JDR-2;
+RX   PubMed=16461704; DOI=10.1128/aem.72.2.1496-1506.2006;
+RA   Stjohn F.J., Rice J.D., Preston J.F.;
+RT   "Paenibacillus sp. strain JDR-2 and XynA1: a novel system for
+RT   methylglucuronoxylan utilization.";
+RL   Appl. Environ. Microbiol. 72:1496-1506(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JDR-2;
+RX   PubMed=22675593; DOI=10.4056/sigs.2374349;
+RA   Chow V., Nong G., St John F.J., Rice J.D., Dickstein E., Chertkov O.,
+RA   Bruce D., Detter C., Brettin T., Han J., Woyke T., Pitluck S., Nolan M.,
+RA   Pati A., Martin J., Copeland A., Land M.L., Goodwin L., Jones J.B.,
+RA   Ingram L.O., Shanmugam K.T., Preston J.F.;
+RT   "Complete genome sequence of Paenibacillus sp. strain JDR-2.";
+RL   Stand. Genomic Sci. 6:1-10(2012).
+CC   -!- FUNCTION: Catalyzes the depolymerization of methylglucuronoxylan
+CC       (MeGAXn), a beta-1,4 xylan in which 10% to 20% of the xylose residues
+CC       are substituted with alpha-1,2-4-O-methylglucuronate (MeGA) residues,
+CC       which is predominant in hemicellulose fractions of hardwood and crop
+CC       residues. Generates xylobiose (X2) and aldotetrauronate (MeGAX3) as the
+CC       predominant products of MeGAXn hydrolysis; these products are then
+CC       directly assimilated by the bacterium for subsequent metabolism. Thus,
+CC       allows the bacterium to efficiently use polymeric MeGAXn as a growth
+CC       substrate. {ECO:0000269|PubMed:16461704}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.;
+CC         EC=3.2.1.8; Evidence={ECO:0000269|PubMed:16461704};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         Vmax=8 umol/min/mg enzyme with sweet gum methylglucuronoxylan as
+CC         substrate {ECO:0000269|PubMed:16461704};
+CC       pH dependence:
+CC         Optimum pH is 6.5 with sweet gum methylglucuronoxylan as substrate.
+CC         {ECO:0000269|PubMed:16461704};
+CC       Temperature dependence:
+CC         Optimum temperature is 45 degrees Celsius with sweet gum
+CC         methylglucuronoxylan as substrate. {ECO:0000269|PubMed:16461704};
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall
+CC       {ECO:0000269|PubMed:16461704}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 10 (cellulase F) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ938162; CAI79477.1; -; Genomic_DNA.
+DR   EMBL; CP001656; ACS98901.1; -; Genomic_DNA.
+DR   RefSeq; WP_012772223.1; NC_012914.1.
+DR   PDB; 3RDK; X-ray; 1.49 A; A/B=518-851.
+DR   PDB; 3RO8; X-ray; 1.34 A; A/B/C/D/E/F/G/H=518-851.
+DR   PDB; 4E4P; X-ray; 1.92 A; A/B=518-851.
+DR   PDBsum; 3RDK; -.
+DR   PDBsum; 3RO8; -.
+DR   PDBsum; 4E4P; -.
+DR   AlphaFoldDB; C6CRV0; -.
+DR   SMR; C6CRV0; -.
+DR   STRING; 324057.Pjdr2_0221; -.
+DR   CAZy; CBM22; Carbohydrate-Binding Module Family 22.
+DR   CAZy; CBM9; Carbohydrate-Binding Module Family 9.
+DR   CAZy; GH10; Glycoside Hydrolase Family 10.
+DR   EnsemblBacteria; ACS98901; ACS98901; Pjdr2_0221.
+DR   KEGG; pjd:Pjdr2_0221; -.
+DR   eggNOG; COG3693; Bacteria.
+DR   HOGENOM; CLU_001408_1_0_9; -.
+DR   OMA; IARVTFW; -.
+DR   OrthoDB; 654705at2; -.
+DR   UniPathway; UPA00114; -.
+DR   GO; GO:0005618; C:cell wall; IDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0031176; F:endo-1,4-beta-xylanase activity; IDA:UniProtKB.
+DR   GO; GO:0045493; P:xylan catabolic process; IDA:UniProtKB.
+DR   InterPro; IPR010502; Carb-bd_dom_fam9.
+DR   InterPro; IPR003305; CenC_carb-bd.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR044846; GH10.
+DR   InterPro; IPR031158; GH10_AS.
+DR   InterPro; IPR001000; GH10_dom.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR001119; SLH_dom.
+DR   PANTHER; PTHR31490; PTHR31490; 1.
+DR   Pfam; PF06452; CBM9_1; 1.
+DR   Pfam; PF02018; CBM_4_9; 3.
+DR   Pfam; PF00331; Glyco_hydro_10; 1.
+DR   Pfam; PF00395; SLH; 3.
+DR   PRINTS; PR00134; GLHYDRLASE10.
+DR   SMART; SM00633; Glyco_10; 1.
+DR   SUPFAM; SSF49785; SSF49785; 3.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00591; GH10_1; 1.
+DR   PROSITE; PS51760; GH10_2; 1.
+DR   PROSITE; PS51272; SLH; 3.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cell wall; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Repeat; Secreted; Signal; Xylan degradation.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..1462
+FT                   /note="Endo-1,4-beta-xylanase A"
+FT                   /id="PRO_5000484609"
+FT   DOMAIN          64..165
+FT                   /note="CBM-cenC 1"
+FT   DOMAIN          207..319
+FT                   /note="CBM-cenC 2"
+FT   DOMAIN          360..490
+FT                   /note="CBM-cenC 3"
+FT   DOMAIN          514..851
+FT                   /note="GH10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01096"
+FT   DOMAIN          1279..1342
+FT                   /note="SLH 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00777"
+FT   DOMAIN          1345..1404
+FT                   /note="SLH 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00777"
+FT   DOMAIN          1407..1462
+FT                   /note="SLH 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00777"
+FT   ACT_SITE        651
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        706
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        775
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10061"
+FT   CONFLICT        313
+FT                   /note="S -> T (in Ref. 1; CAI79477)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        454..461
+FT                   /note="SLASKTIT -> TPTTQAWQARRLP (in Ref. 1; CAI79477)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           520..523
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   TURN            524..527
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          529..534
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           536..539
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           541..550
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          552..558
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           562..565
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           575..586
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          590..597
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          599..601
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           604..606
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          608..610
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          616..618
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           621..639
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           640..642
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          643..650
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           664..666
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           671..676
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           680..694
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          701..707
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           712..732
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   TURN            733..735
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          741..744
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          747..749
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           754..765
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   TURN            766..768
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          770..779
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           787..807
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           808..811
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   STRAND          812..817
+FT                   /evidence="ECO:0007829|PDB:3RO8"
+FT   HELIX           822..824
+FT                   /evidence="ECO:0007829|PDB:3RDK"
+FT   HELIX           828..830
+FT                   /evidence="ECO:0007829|PDB:3RDK"
+FT   STRAND          833..835
+FT                   /evidence="ECO:0007829|PDB:3RDK"
+FT   HELIX           843..849
+FT                   /evidence="ECO:0007829|PDB:3RDK"
+SQ   SEQUENCE   1462 AA;  157322 MW;  AE29664CDEA3BF3E CRC64;
+     MSRSLKKFVS ILLAAALLIP IGRLAPVAEA AENPTIVYHE DFAIDKGKAI QSGGASLTQV
+     TGKVFDGNND GSALYVSNRA NTWDAADFKF ADIGLQNGKT YTVTVKGYVD QDATVPSGAQ
+     AFLQAVDSNN YGFLASANFA AGTAFTLTKE FTVDTSVSTQ LRVQSSEEGK AVPFYIGDIL
+     ITANPTTTTN TVYHEDFATD KGKAVQSGGA NLAQVADKVF DGNDDGKALY VSNRANTWDA
+     ADFKFADIGL QNGKTYTVTV KGYVDQDATV PSGAQAFLQA VDSNNYGFLA SANFAARSAF
+     TLTKEFTVDT SVSTQLRVQS SEEGKAVPFY IGDILITETV NSGGGQEDPP RPPALPFNTI
+     TFEDQTAGGF TGRAGTETLT VTNESNHTAD GSYSLKVEGR TTSWHGPSLR VEKYVDKGYE
+     YKVTAWVKLL SPETSTKLEL ASQVGDGGSA NYPSLASKTI TAADGWVQLQ GNYRYNSVGG
+     EYLTIYVQSS NATASYYIDD ISFESTGSGP VGIQKDLAPL KDVYKNDFLI GNAISAEDLE
+     GTRLELLKMH HDVVTAGNAM KPDALQPTKG NFTFTAADAM IDKVLAEGMK MHGHVLVWHQ
+     QSPAWLNTKK DDNNNTVPLG RDEALDNLRT HIQTVMKHFG NKVISWDVVN EAMNDNPSNP
+     ADYKASLRQT PWYQAIGSDY VEQAFLAARE VLDENPSWNI KLYYNDYNED NQNKATAIYN
+     MVKDINDRYA AAHNGKLLID GVGMQGHYNI NTNPDNVKLS LEKFISLGVE VSVSELDVTA
+     GNNYTLPENL AVGQAYLYAQ LFKLYKEHAD HIARVTFWGM DDNTSWRAEN NPLLFDKNLQ
+     AKPAYYGVID PDKYMEEHAP ESKDANQAEA QYGTPVIDGT VDSIWSNAQA MPVNRYQMAW
+     QGATGTAKAL WDDQNLYVLI QVSDSQLNKA NENAWEQDSV EVFLDQNNGK TTFYQNDDGQ
+     YRVNFDNETS FSPASIAAGF ESQTKKTANS YTVELKIPLT AVTPANQKKL GFDVQINDAT
+     DGARTSVAAW NDTTGNGYQD TSVYGELTLA GKGTGGTGTV GTTVPQTGNV VKNPDGSTTL
+     KPEVKTTNGN AVGTVTGDDL KKALDQAAPA AGGKKQVIID VPLQANAATY AVQLPTQSLK
+     SQDGYQLTAK IANAFIQIPS NMLANTNVTT DQVSIRVAKA SLDNVDAATR ELIGNRPVID
+     LSLVAGGNVI AWNNPTAPVT VAVPYAPTAE ELKHPEHILI WYIDGSGKAT PVPNSRYDAA
+     LGAVVFQTTH FSTYAAVSVF TTFGDLAKVP WAKEAIDAMA SRGVIKGTGE NTFSPAASIK
+     RADFIALLVR ALELHGTGTT DTAMFSDVPA NAYYYNELAV AKQLGIATGF EDNTFKPDSS
+     ISRQDMMVLT TRALAVLGKQ LPAGGSLNAF SDAASVAGYA QDSVAALVKA GVVQGSGSKL
+     APNDQLTRAE AAVILYRIWK LQ
+//

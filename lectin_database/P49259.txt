@@ -1,0 +1,259 @@
+ID   PLA2R_BOVIN             Reviewed;        1463 AA.
+AC   P49259;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   03-AUG-2022, entry version 157.
+DE   RecName: Full=Secretory phospholipase A2 receptor;
+DE            Short=PLA2-R;
+DE            Short=PLA2R;
+DE   AltName: Full=180 kDa secretory phospholipase A2 receptor;
+DE   AltName: Full=M-type receptor;
+DE   Contains:
+DE     RecName: Full=Soluble secretory phospholipase A2 receptor;
+DE              Short=Soluble PLA2-R;
+DE              Short=Soluble PLA2R;
+DE   Flags: Precursor;
+GN   Name=PLA2R1;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF N-TERMINUS.
+RX   PubMed=7509792; DOI=10.1016/s0021-9258(17)37546-4;
+RA   Ishizaki J., Hanasaki K., Higashino K., Kishino J., Kikuchi N., Ohara O.,
+RA   Arita H.;
+RT   "Molecular cloning of pancreatic group I phospholipase A2 receptor.";
+RL   J. Biol. Chem. 269:5897-5904(1994).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=7726849; DOI=10.1006/bbrc.1995.1502;
+RA   Fujita H., Kawamoto K., Hanasaki K., Arita H.;
+RT   "Glycosylation-dependent binding of pancreatic type I phospholipase A2 to
+RT   its specific receptor.";
+RL   Biochem. Biophys. Res. Commun. 209:293-299(1995).
+CC   -!- FUNCTION: Receptor for secretory phospholipase A2 (sPLA2). Also able to
+CC       bind to snake PA2-like toxins. Although its precise function remains
+CC       unclear, binding of sPLA2 to its receptor participates in both positive
+CC       and negative regulation of sPLA2 functions as well as clearance of
+CC       sPLA2. Binding of sPLA2-IB/PLA2G1B induces various effects depending on
+CC       the cell type, such as activation of the mitogen-activated protein
+CC       kinase (MAPK) cascade to induce cell proliferation, the production of
+CC       lipid mediators, selective release of arachidonic acid in bone marrow-
+CC       derived mast cells. In neutrophils, binding of sPLA2-IB/PLA2G1B can
+CC       activate p38 MAPK to stimulate elastase release and cell adhesion. May
+CC       be involved in responses in pro-inflammatory cytokine productions
+CC       during endotoxic shock. Also has endocytic properties and rapidly
+CC       internalizes sPLA2 ligands, which is particularly important for the
+CC       clearance of extracellular sPLA2s to protect their potent enzymatic
+CC       activities. The soluble secretory phospholipase A2 receptor form is
+CC       circulating and acts as a negative regulator of sPLA2 functions by
+CC       blocking the biological functions of sPLA2-IB/PLA2G1B and sPLA2-
+CC       X/PLA2G10. {ECO:0000269|PubMed:7726849}.
+CC   -!- SUBUNIT: Interacts with sPLA2-IB/PLA2G1B; this interaction mediates
+CC       intracellular signaling as well as clearance of extracellular sPLA2-
+CC       IB/PLA2G1B via endocytotic pathway (By similarity). Interacts with
+CC       sPLA2-X/PLA2G10; this interaction mediates sPLA2-X/PLA2G10 clearance
+CC       and inactivation (By similarity). {ECO:0000250|UniProtKB:Q13018,
+CC       ECO:0000250|UniProtKB:Q62028}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Soluble secretory phospholipase A2 receptor]:
+CC       Secreted {ECO:0000250}.
+CC   -!- DOMAIN: C-type lectin domains 3-5 mediate the interaction with
+CC       phospholipase PLA2G1B. {ECO:0000250}.
+CC   -!- DOMAIN: The endocytosis signal probably mediates endocytosis via
+CC       clathrin-coated pits. {ECO:0000250}.
+CC   -!- PTM: The secretory phospholipase A2 receptor form may be produced by
+CC       the action of metalloproteinases. It contains all extracellular domains
+CC       and only lacks transmembrane and cytosolic regions. It is however
+CC       unclear whether this form is produced by proteolytic cleavage as
+CC       suggested by some experiments, or by alternative splicing (By
+CC       similarity). {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D16109; BAA03683.1; -; mRNA.
+DR   PIR; A53210; A53210.
+DR   RefSeq; NP_778221.1; NM_175051.1.
+DR   AlphaFoldDB; P49259; -.
+DR   SMR; P49259; -.
+DR   STRING; 9913.ENSBTAP00000043437; -.
+DR   PaxDb; P49259; -.
+DR   Ensembl; ENSBTAT00000046112; ENSBTAP00000043437; ENSBTAG00000032515.
+DR   GeneID; 317777; -.
+DR   KEGG; bta:317777; -.
+DR   CTD; 22925; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000032515; -.
+DR   VGNC; VGNC:32966; PLA2R1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT01050000244842; -.
+DR   HOGENOM; CLU_002069_2_0_1; -.
+DR   InParanoid; P49259; -.
+DR   OrthoDB; 29241at2759; -.
+DR   TreeFam; TF316663; -.
+DR   Proteomes; UP000009136; Chromosome 2.
+DR   Bgee; ENSBTAG00000032515; Expressed in omental fat pad and 97 other tissues.
+DR   ExpressionAtlas; P49259; baseline and differential.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043235; C:receptor complex; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043274; F:phospholipase binding; ISS:UniProtKB.
+DR   GO; GO:0038023; F:signaling receptor activity; ISS:UniProtKB.
+DR   GO; GO:0090403; P:oxidative stress-induced premature senescence; ISS:UniProtKB.
+DR   GO; GO:0090238; P:positive regulation of arachidonic acid secretion; ISS:UniProtKB.
+DR   GO; GO:0001819; P:positive regulation of cytokine production; ISS:UniProtKB.
+DR   GO; GO:0043517; P:positive regulation of DNA damage response, signal transduction by p53 class mediator; ISS:UniProtKB.
+DR   GO; GO:0072593; P:reactive oxygen species metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006898; P:receptor-mediated endocytosis; ISS:UniProtKB.
+DR   GO; GO:0090399; P:replicative senescence; ISS:UniProtKB.
+DR   CDD; cd00062; FN2; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.10.10.10; -; 1.
+DR   Gene3D; 3.10.100.10; -; 8.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000562; FN_type2_dom.
+DR   InterPro; IPR036943; FN_type2_sf.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00040; fn2; 1.
+DR   Pfam; PF00059; Lectin_C; 8.
+DR   SMART; SM00034; CLECT; 8.
+DR   SMART; SM00059; FN2; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF56436; SSF56436; 8.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 3.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 8.
+DR   PROSITE; PS00023; FN2_1; 1.
+DR   PROSITE; PS51092; FN2_2; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Disulfide bond; Endocytosis;
+KW   Glycoprotein; Lectin; Membrane; Receptor; Reference proteome; Repeat;
+KW   Secreted; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000269|PubMed:7509792"
+FT   CHAIN           21..1463
+FT                   /note="Secretory phospholipase A2 receptor"
+FT                   /id="PRO_0000017550"
+FT   CHAIN           21..?
+FT                   /note="Soluble secretory phospholipase A2 receptor"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000311249"
+FT   TOPO_DOM        21..1392
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1393..1421
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1422..1463
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          38..115
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DOMAIN          173..221
+FT                   /note="Fibronectin type-II"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00479"
+FT   DOMAIN          229..353
+FT                   /note="C-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          357..500
+FT                   /note="C-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          504..641
+FT                   /note="C-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          646..795
+FT                   /note="C-type lectin 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          799..937
+FT                   /note="C-type lectin 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          941..1095
+FT                   /note="C-type lectin 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          1099..1230
+FT                   /note="C-type lectin 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          1235..1376
+FT                   /note="C-type lectin 8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           1436..1442
+FT                   /note="Endocytosis signal"
+FT   CARBOHYD        93
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        454
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1057
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        178..204
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        192..219
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        260..354
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        330..346
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        406..501
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        478..493
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        617..634
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        699..796
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        774..788
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        840..938
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        915..930
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        992..1096
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1068..1088
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1209..1223
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1280..1377
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1354..1369
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1463 AA;  168651 MW;  4276FF206F92A397 CRC64;
+     MPLLSLSLLL LLLQVPAGSA ETAAWAVTPE RLREWQDKGI FIIQSENLEK CIQASKSTLT
+     LENCKPPNKY MLWKWVSNHR LFNIGGSGCL GLNVSSPEQP LSIYECDSTH VSLKWHCNKK
+     TITGPLQYLV QVKQDNTLVA SRKYLHKWVS YMSGGGGICD YLHKDLYTIK GNAHGTPCMF
+     PFQYNQQWHH ECTREGREDN LLWCATTSRY ERDEKWGFCP DPTSTEVGCD AVWEKDLHSR
+     ICYQFNLLSS LSWSEAHSSC QMQGAALLSI ADETEENFVR KHLGSEAVEV WMGLNQLDED
+     AGWQWSDRTP LNYLNWKPEI NFEPFVEYHC GTFNAFMPKA WKSRDCESTL PYVCKKYLNP
+     TDHGVVEKDA WKYYATHCEP GWNPHNRNCY KLQKEKKTWN EALQSCQSNN SVLTDITSLA
+     EVEFLVTLLG DENASETWIG LSSHKIPVSF EWSNGSSVTF TNWHTLEPHI FPNRSQLCVS
+     AEQSEGHWKV KNCEETLFYL CKKTGLVLSD TESGCQKGWE RHGKFCYKID TVLRSFDHAS
+     SGYYCPPALI TITSRFEQAF ITSLISSVVK TKDTYFWIAL QDQNNTGEYT WKTAGQQLEP
+     VKYTHWNTRQ PRYSGGCVVM RGRSHPGRWE VRDCRHFKAM SLCKQPVENR EKTKQEEGWP
+     FHPCYLDWES EPGLASCFKV FHSEKVLMKR TWRQAEEFCE EFGAHLASFA HIEEENFVNE
+     LLHSKFNRTE ERQFWIGFNK RNPLNAGSWE WSDGTPVVSS FLDNSYFGED ARNCAVYKAN
+     KTLLPSYCGS KREWICKIPR DVRPKVPPWY QYDAPWLFYQ DAEYLFHISA SEWSSFEFVC
+     GWLRSDILTI HSAHEQEFIH SKIRALSKYG VNWWIGLREE RASDEFRWRD GSPVIYQNWD
+     KGKERSMGLN ESQRCGFISS ITGLWASEEC SISMPSICKR KKVWVIEKKK DIPKQHGTCP
+     KGWLYFDYKC LLLKIPEGPS DWKNWTSAQD FCVEEGGTLV AIENEVEQAF ITMNLFGHTT
+     NVWIGLQDDD YEKWLNGRPV SYSNWSPFDT KNIPNHNTTE VQKRIPLCGL LSNNPNFHFT
+     GKWYFEDCRE GYGFVCEKMQ DASGHSINTS DMYPIPNTLE YGNRTYKIIN ANMTWYTALK
+     TCLMHGAELA SITDQYHQSF LTVILNRVGY AHWIGLFTED NGLSFDWSDG TKSSFTFWKD
+     DESSFLGDCV FADTSGRWSS TACESYLQGA ICQVPTETRL SGRLELCSET SIPWIKFKSN
+     CYSFSTVLES TSFEAAHEFC KKKGSNLLTI KDEAENSFLL EELLAFRSSV QMIWLNAQFD
+     GDNETIKWFD GTPTDQSNWG IRKPEVYHFK PHLCVALRIP EGVWQLSSCQ DKKGFICKME
+     ADIHTVKKHP GKGPSHSVIP LTVALTLLVI LAISTLSFCM YKHSHIIFGR LAQFRNPYYP
+     SANFSTVHLE ENILISDLEK NDQ
+//

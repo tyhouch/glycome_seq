@@ -1,0 +1,137 @@
+ID   F17BG_ECOLX             Reviewed;         343 AA.
+AC   Q47200;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 2.
+DT   03-AUG-2022, entry version 79.
+DE   RecName: Full=F17b-G fimbrial adhesin;
+DE   Flags: Precursor;
+GN   Name=f17bG;
+OS   Escherichia coli.
+OG   Plasmid Vir.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=S5 / EIEC;
+RX   PubMed=7910597; DOI=10.1128/iai.62.6.2633-2638.1994;
+RA   el Mazouari K., Oswald E., Hernalsteens J.-P., Lintermans P.F.L.,
+RA   De Greve H.M.J.;
+RT   "F17-like fimbriae from an invasive Escherichia coli strain producing
+RT   cytotoxic necrotizing factor type 2 toxin.";
+RL   Infect. Immun. 62:2633-2638(1994).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS) OF 23-198 IN COMPLEX WITH
+RP   N-ACETYL-D-GLUCOSAMINE.
+RX   PubMed=16041081; DOI=10.1107/s0907444905017038;
+RA   Buts L., Wellens A., Van Molle I., Wyns L., Loris R., Lahmann M.,
+RA   Oscarson S., De Greve H.M.J., Bouckaert J.;
+RT   "Impact of natural variation in bacterial F17G adhesins on crystallization
+RT   behaviour.";
+RL   Acta Crystallogr. D 61:1149-1159(2005).
+CC   -!- FUNCTION: Essential fimbrial adhesion factor that mediates binding to
+CC       N-acetylglucosamine-containing receptors in the host intestinal
+CC       microvilli, leading to colonization of the intestinal tissue, and
+CC       diarrhea or septicemia. Also confers adhesiveness to laminin and
+CC       basement membranes. {ECO:0000269|PubMed:7910597}.
+CC   -!- SUBCELLULAR LOCATION: Fimbrium {ECO:0000250}. Note=Attached to the tip
+CC       of the fimbrial filaments. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the fimbrial protein family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L14319; AAA23736.1; -; Genomic_DNA.
+DR   PIR; I41205; I41205.
+DR   PDB; 2BS7; X-ray; 2.10 A; 1=23-198.
+DR   PDB; 2BS8; X-ray; 2.25 A; A=23-198.
+DR   PDB; 3FFO; X-ray; 2.10 A; A=23-198.
+DR   PDB; 4K0O; X-ray; 2.15 A; A=23-198.
+DR   PDBsum; 2BS7; -.
+DR   PDBsum; 2BS8; -.
+DR   PDBsum; 3FFO; -.
+DR   PDBsum; 4K0O; -.
+DR   AlphaFoldDB; Q47200; -.
+DR   SMR; Q47200; -.
+DR   UniLectin; Q47200; -.
+DR   EvolutionaryTrace; Q47200; -.
+DR   GO; GO:0009289; C:pilus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044406; P:adhesion of symbiont to host; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   Gene3D; 2.60.40.1090; -; 1.
+DR   InterPro; IPR000259; Adhesion_dom_fimbrial.
+DR   InterPro; IPR036937; Adhesion_dom_fimbrial_sf.
+DR   InterPro; IPR008966; Adhesion_dom_sf.
+DR   InterPro; IPR015303; Fimbrial_adhesin_lectin_dom.
+DR   Pfam; PF09222; Fim-adh_lectin; 1.
+DR   Pfam; PF00419; Fimbrial; 1.
+DR   SUPFAM; SSF49401; SSF49401; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Fimbrium; Lectin; Plasmid; Signal; Virulence.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           23..343
+FT                   /note="F17b-G fimbrial adhesin"
+FT                   /id="PRO_5000142177"
+FT   REGION          23..199
+FT                   /note="Receptor-binding lectin domain"
+FT   REGION          200..343
+FT                   /note="Fimbrillin-binding domain"
+FT   REGION          287..307
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         65..66
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         110..111
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         138..141
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   DISULFID        75..132
+FT   STRAND          24..26
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          30..35
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          39..43
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          49..53
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          59..73
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          75..82
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          86..90
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          93..112
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   HELIX           113..115
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          116..118
+FT                   /evidence="ECO:0007829|PDB:4K0O"
+FT   STRAND          121..123
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          125..132
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          135..150
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          155..157
+FT                   /evidence="ECO:0007829|PDB:2BS8"
+FT   STRAND          158..161
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          164..173
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          185..190
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+FT   STRAND          193..197
+FT                   /evidence="ECO:0007829|PDB:2BS7"
+SQ   SEQUENCE   343 AA;  36418 MW;  7ECB996497B3F71A CRC64;
+     MTNFYKVFLA VFILVCCNIS HAVVSFIGST ENDVGPSQGS YSSTHAMDNL PFVYNTGYNI
+     GYQNANVWRI GGGFCVGLDG KVDLPVVGSL DGQSIYGLTE EVGLLIWMGD TNYSRGTAMS
+     GNSWENVFSG WCVGNYLSTQ GLSVHVRPVI LKRNSSAQYS VQKTSIGSIR MRPYNGSSAG
+     SVQTTVNFSL NPFTLNDTVT SCRLLTPSAV NVSLAAISAG QLPSSGDEVV AGTTSLKLQC
+     DAGVTVWATL TDATTPSNRS DILTLTGAST ATGVGLRIYK NTDSTPLKFG PDSPVKGNEN
+     QWQLSTGTET SPSVRLYVKY VNTGEGINPG TVNGISTFTF SYQ
+//

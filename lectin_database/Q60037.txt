@@ -1,0 +1,193 @@
+ID   XYNA_THEMA              Reviewed;        1059 AA.
+AC   Q60037;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   03-AUG-2022, entry version 152.
+DE   RecName: Full=Endo-1,4-beta-xylanase A;
+DE            Short=Xylanase A;
+DE            EC=3.2.1.8;
+DE   AltName: Full=1,4-beta-D-xylan xylanohydrolase A;
+DE   Flags: Precursor;
+GN   Name=xynA; OrderedLocusNames=TM_0061;
+OS   Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826
+OS   / MSB8).
+OC   Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+OX   NCBI_TaxID=243274;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8;
+RX   PubMed=7783614; DOI=10.1111/j.1365-2958.1995.tb02257.x;
+RA   Winterhalter C., Heinrich P., Candussio A., Wich G., Liebl W.;
+RT   "Identification of a novel cellulose-binding domain within the multidomain
+RT   120 kDa xylanase XynA of the hyperthermophilic bacterium Thermotoga
+RT   maritima.";
+RL   Mol. Microbiol. 15:431-444(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8;
+RX   PubMed=10360571; DOI=10.1038/20601;
+RA   Nelson K.E., Clayton R.A., Gill S.R., Gwinn M.L., Dodson R.J., Haft D.H.,
+RA   Hickey E.K., Peterson J.D., Nelson W.C., Ketchum K.A., McDonald L.A.,
+RA   Utterback T.R., Malek J.A., Linher K.D., Garrett M.M., Stewart A.M.,
+RA   Cotton M.D., Pratt M.S., Phillips C.A., Richardson D.L., Heidelberg J.F.,
+RA   Sutton G.G., Fleischmann R.D., Eisen J.A., White O., Salzberg S.L.,
+RA   Smith H.O., Venter J.C., Fraser C.M.;
+RT   "Evidence for lateral gene transfer between Archaea and Bacteria from
+RT   genome sequence of Thermotoga maritima.";
+RL   Nature 399:323-329(1999).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.;
+CC         EC=3.2.1.8;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.2.;
+CC       Temperature dependence:
+CC         Optimum temperature is 90 degrees Celsius. Thermostable.;
+CC   -!- DOMAIN: The C-terminal CBM-CenC domains mediate the binding of XynA to
+CC       microcrystalline cellulose. CBM-CenC 2 alone can also promote cellulose
+CC       binding.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 10 (cellulase F) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z46264; CAA86406.1; -; Genomic_DNA.
+DR   EMBL; AE000512; AAD35155.1; -; Genomic_DNA.
+DR   PIR; S61311; S61311.
+DR   RefSeq; NP_227877.1; NC_000853.1.
+DR   RefSeq; WP_004082550.1; NZ_CP011107.1.
+DR   PDB; 1I82; X-ray; 1.90 A; A=871-1059.
+DR   PDB; 1I8A; X-ray; 1.90 A; A=871-1059.
+DR   PDB; 1I8U; X-ray; 1.90 A; A=871-1059.
+DR   PDBsum; 1I82; -.
+DR   PDBsum; 1I8A; -.
+DR   PDBsum; 1I8U; -.
+DR   AlphaFoldDB; Q60037; -.
+DR   SMR; Q60037; -.
+DR   STRING; 243274.THEMA_04500; -.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   CAZy; CBM22; Carbohydrate-Binding Module Family 22.
+DR   CAZy; CBM9; Carbohydrate-Binding Module Family 9.
+DR   CAZy; GH10; Glycoside Hydrolase Family 10.
+DR   EnsemblBacteria; AAD35155; AAD35155; TM_0061.
+DR   KEGG; tma:TM0061; -.
+DR   eggNOG; COG3693; Bacteria.
+DR   InParanoid; Q60037; -.
+DR   OMA; TYAFEAW; -.
+DR   OrthoDB; 654705at2; -.
+DR   BioCyc; MetaCyc:MON-16897; -.
+DR   BRENDA; 3.2.1.8; 6331.
+DR   EvolutionaryTrace; Q60037; -.
+DR   Proteomes; UP000008183; Chromosome.
+DR   GO; GO:0110165; C:cellular anatomical entity; IEA:UniProt.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0031176; F:endo-1,4-beta-xylanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR010502; Carb-bd_dom_fam9.
+DR   InterPro; IPR003305; CenC_carb-bd.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR044846; GH10.
+DR   InterPro; IPR031158; GH10_AS.
+DR   InterPro; IPR001000; GH10_dom.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   PANTHER; PTHR31490; PTHR31490; 1.
+DR   Pfam; PF06452; CBM9_1; 2.
+DR   Pfam; PF02018; CBM_4_9; 2.
+DR   Pfam; PF00331; Glyco_hydro_10; 1.
+DR   PRINTS; PR00134; GLHYDRLASE10.
+DR   SMART; SM00633; Glyco_10; 1.
+DR   SUPFAM; SSF49785; SSF49785; 2.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00591; GH10_1; 1.
+DR   PROSITE; PS51760; GH10_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Reference proteome; Repeat; Signal;
+KW   Xylan degradation.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..1059
+FT                   /note="Endo-1,4-beta-xylanase A"
+FT                   /id="PRO_0000007986"
+FT   DOMAIN          364..692
+FT                   /note="GH10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01096"
+FT   DOMAIN          700..870
+FT                   /note="CBM-cenC 1"
+FT   DOMAIN          871..1059
+FT                   /note="CBM-cenC 2"
+FT   REGION          47..199
+FT                   /note="A-1"
+FT   REGION          200..354
+FT                   /note="A-2"
+FT   ACT_SITE        502
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        608
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10061"
+FT   STRAND          872..877
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          882..885
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   HELIX           888..892
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          895..897
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          900..904
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   TURN            906..908
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          911..918
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          920..930
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          938..940
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   HELIX           941..943
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          944..952
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          965..971
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          976..978
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   HELIX           984..986
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          987..994
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          997..1005
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          1015..1026
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          1032..1039
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          1041..1043
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   TURN            1045..1047
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   HELIX           1049..1051
+FT                   /evidence="ECO:0007829|PDB:1I82"
+FT   STRAND          1052..1058
+FT                   /evidence="ECO:0007829|PDB:1I82"
+SQ   SEQUENCE   1059 AA;  119643 MW;  045936844A2D72E2 CRC64;
+     MQVRKRRGLL DVSTAVLVGI LAGFLGVVLA ASGVLSFGKE ASSKGDSSLE TVLALSFEGT
+     TEGVVPFGKD VVLTASQDVA ADGEYSLKVE NRTSPWDGVE IDLTGKVKSG ADYLLSFQVY
+     QSSDAPQLFN VVARTEDEKG ERYDVILDKV VVSDHWKEIL VPFSPTFEGT PAKYSLIIVA
+     SKNTNFNFYL DKVQVLAPKE SGPKVIYETS FENGVGDWQP RGDVNIEASS EVAHSGKSSL
+     FISNRQKGWQ GAQINLKGIL KTGKTYAFEA WVYQNSGQDQ TIIMTMQRKY SSDASTQYEW
+     IKSATVPSGQ WVQLSGTYTI PAGVTVEDLT LYFESQNPTL EFYVDDVKIV DTTSAEIKIE
+     MEPEKEIPAL KEVLKDYFKV GVALPSKVFL NPKDIELITK HFNSITAENE MKPESLLAGI
+     ENGKLKFRFE TADKYIQFVE ENGMVIRGHT LVWHNQTPDW FFKDENGNLL SKEAMTERLK
+     EYIHTVVGHF KGKVYAWDVV NEAVDPNQPD GLRRSTWYQI MGPDYIELAF KFAREADPDA
+     KLFYNDYNTF EPRKRDIIYN LVKDLKEKGL IDGIGMQCHI SLATDIKQIE EAIKKFSTIP
+     GIEIHITELD MSVYRDSSSN YPEAPRTALI EQAHKMMQLF EIFKKYSNVI TNVTFWGLKD
+     DYSWRATRRN DWPLIFDKDH QAKLAYWAIV APEVLPPLPK ESRISEGEAV VVGMMDDSYL
+     MSKPIEILDE EGNVKATIRA VWKDSTIYIY GEVQDKTKKP AEDGVAIFIN PNNERTPYLQ
+     PDDTYAVLWT NWKTEVNRED VQVKKFVGPG FRRYSFEMSI TIPGVEFKKD SYIGFDAAVI
+     DDGKWYSWSD TTNSQKTNTM NYGTLKLEGI MVATAKYGTP VIDGEIDEIW NTTEEIETKA
+     VAMGSLDKNA TAKVRVLWDE NYLYVLAIVK DPVLNKDNSN PWEQDSVEIF IDENNHKTGY
+     YEDDDAQFRV NYMNEQTFGT GGSPARFKTA VKLIEGGYIV EAAIKWKTIK PTPNTVIGFN
+     IQVNDANEKG QRVGIISWSD PTNNSWRDPS KFGNLRLIK
+//

@@ -1,0 +1,206 @@
+ID   SFTPD_PIG               Reviewed;         378 AA.
+AC   Q9N1X4;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 138.
+DE   RecName: Full=Pulmonary surfactant-associated protein D;
+DE            Short=PSP-D;
+DE            Short=SP-D;
+DE   AltName: Full=Lung surfactant protein D;
+DE   Flags: Precursor;
+GN   Name=SFTPD;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=10640760; DOI=10.4049/jimmunol.164.3.1442;
+RA   van Eijk M., Haagsman H.P., Skinner T., Archibald A.L., Reid K.B.M.,
+RA   Lawson P.R.;
+RT   "Porcine lung surfactant protein D: complementary DNA cloning, chromosomal
+RT   localization, and tissue distribution.";
+RL   J. Immunol. 164:1442-1450(2000).
+CC   -!- FUNCTION: Contributes to the lung's defense against inhaled
+CC       microorganisms, organic antigens and toxins. Interacts with compounds
+CC       such as bacterial lipopolysaccharides, oligosaccharides and fatty acids
+CC       and modulates leukocyte action in immune response. May participate in
+CC       the extracellular reorganization or turnover of pulmonary surfactant.
+CC       Binds strongly maltose residues and to a lesser extent other alpha-
+CC       glucosyl moieties (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Oligomeric complex of 4 set of homotrimers. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}. Secreted, extracellular space, surface film
+CC       {ECO:0000250}.
+CC   -!- PTM: Hydroxylation on proline residues within the sequence motif, GXPG,
+CC       is most likely to be 4-hydroxy as this fits the requirement for 4-
+CC       hydroxylation in vertebrates. {ECO:0000250}.
+CC   -!- PTM: S-nitrosylation at Cys-35 and Cys-40 alters the quaternary
+CC       structure which results in a pro-inflammatory chemoattractive signaling
+CC       activity with macrophages. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Pulmonary surfactant consists of 90% lipid and 10%
+CC       protein. There are 4 surfactant-associated proteins: 2 collagenous,
+CC       carbohydrate-binding glycoproteins (SP-A and SP-D) and 2 small
+CC       hydrophobic proteins (SP-B and SP-C).
+CC   -!- SIMILARITY: Belongs to the SFTPD family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF132496; AAF22145.2; -; mRNA.
+DR   RefSeq; NP_999275.1; NM_214110.1.
+DR   RefSeq; XP_013838830.1; XM_013983376.1.
+DR   PDB; 4DN8; X-ray; 2.20 A; A=223-378.
+DR   PDB; 6BBD; X-ray; 1.90 A; A=225-378.
+DR   PDB; 6BBE; X-ray; 1.90 A; A=223-378.
+DR   PDBsum; 4DN8; -.
+DR   PDBsum; 6BBD; -.
+DR   PDBsum; 6BBE; -.
+DR   AlphaFoldDB; Q9N1X4; -.
+DR   SMR; Q9N1X4; -.
+DR   STRING; 9823.ENSSSCP00000011020; -.
+DR   UniLectin; Q9N1X4; -.
+DR   PaxDb; Q9N1X4; -.
+DR   PeptideAtlas; Q9N1X4; -.
+DR   PRIDE; Q9N1X4; -.
+DR   Ensembl; ENSSSCT00005050684; ENSSSCP00005031332; ENSSSCG00005031583.
+DR   Ensembl; ENSSSCT00030028687; ENSSSCP00030012809; ENSSSCG00030020739.
+DR   Ensembl; ENSSSCT00040049871; ENSSSCP00040020708; ENSSSCG00040037098.
+DR   Ensembl; ENSSSCT00050068407; ENSSSCP00050029347; ENSSSCG00050050252.
+DR   Ensembl; ENSSSCT00065023689; ENSSSCP00065009643; ENSSSCG00065017815.
+DR   Ensembl; ENSSSCT00070002361; ENSSSCP00070001974; ENSSSCG00070001221.
+DR   GeneID; 397198; -.
+DR   KEGG; ssc:397198; -.
+DR   CTD; 6441; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   HOGENOM; CLU_049894_3_0_1; -.
+DR   InParanoid; Q9N1X4; -.
+DR   OMA; EMFTNGK; -.
+DR   TreeFam; TF330481; -.
+DR   Reactome; R-SSC-166016; Toll Like Receptor 4 (TLR4) Cascade.
+DR   Reactome; R-SSC-198933; Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell.
+DR   Reactome; R-SSC-391160; Signal regulatory protein family interactions.
+DR   Reactome; R-SSC-5683826; Surfactant metabolism.
+DR   Reactome; R-SSC-5686938; Regulation of TLR by endogenous ligand.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Chromosome 14.
+DR   Genevisible; Q9N1X4; SS.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005771; C:multivesicular body; IBA:GO_Central.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0048286; P:lung alveolus development; ISS:UniProtKB.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; IBA:GO_Central.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:UniProtKB-KW.
+DR   GO; GO:0043129; P:surfactant homeostasis; ISS:UniProtKB.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR008160; Collagen.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR015097; Surfac_D-trimer.
+DR   Pfam; PF01391; Collagen; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF09006; Surfac_D-trimer; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Coiled coil; Collagen; Disulfide bond;
+KW   Extracellular matrix; Gaseous exchange; Glycoprotein; Hydroxylation;
+KW   Immunity; Innate immunity; Lectin; Reference proteome; Repeat;
+KW   S-nitrosylation; Secreted; Signal; Surface film.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..378
+FT                   /note="Pulmonary surfactant-associated protein D"
+FT                   /id="PRO_5000056060"
+FT   DOMAIN          46..222
+FT                   /note="Collagen-like"
+FT   DOMAIN          260..378
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          43..221
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          223..254
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        49..63
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        103..117
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         35
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35248"
+FT   MOD_RES         40
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35248"
+FT   MOD_RES         78
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         87
+FT                   /note="5-hydroxylysine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         96
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         99
+FT                   /note="5-hydroxylysine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         171
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         177
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        323
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        281..376
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        354..368
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   HELIX           226..253
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   TURN            254..256
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   STRAND          257..260
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   STRAND          263..272
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   HELIX           274..283
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   STRAND          286..288
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   HELIX           294..307
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   STRAND          311..316
+FT                   /evidence="ECO:0007829|PDB:4DN8"
+FT   STRAND          318..320
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   HELIX           347..349
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   STRAND          354..357
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   STRAND          363..366
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+FT   STRAND          372..378
+FT                   /evidence="ECO:0007829|PDB:6BBD"
+SQ   SEQUENCE   378 AA;  37986 MW;  3504E8C1E56C341D CRC64;
+     MLLLPLSVLI LLTQPPRSLG AEMKTYSQRA VANACALVMC SPMENGLPGR DGRDGREGPR
+     GEKGDPGLPG AVGRAGMPGL AGPVGPKGDN GSTGEPGAKG DIGPCGPPGP PGIPGPAGKE
+     GPSGQQGNIG PPGTPGPKGE TGPKGEVGAL GMQGSTGARG PAGLKGERGA PGERGAPGSA
+     GAAGPAGATG PQGPSGARGP PGLKGDRGPP GERGAKGESG LPGITALRQQ VETLQGQVQR
+     LQKAFSQYKK VELFPNGRGV GEKIFKTGGF EKTFQDAQQV CTQAGGQMAS PRSETENEAL
+     SQLVTAQNKA AFLSMTDIKT EGNFTYPTGE PLVYANWAPG EPNNNGGSSG AENCVEIFPN
+     GKWNDKACGE LRLVICEF
+//

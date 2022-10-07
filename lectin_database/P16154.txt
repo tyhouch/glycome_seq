@@ -1,0 +1,1258 @@
+ID   TCDA_CLODI              Reviewed;        2710 AA.
+AC   P16154; M4NKU2;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   03-AUG-2022, entry version 118.
+DE   RecName: Full=Toxin A {ECO:0000303|PubMed:2109310};
+DE            EC=3.4.22.- {ECO:0000269|PubMed:17334356, ECO:0000269|PubMed:19553670, ECO:0000269|PubMed:27571750};
+DE   Contains:
+DE     RecName: Full=Glucosyltransferase TcdA {ECO:0000305};
+DE              EC=2.4.1.- {ECO:0000269|PubMed:22267739, ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:24905543, ECO:0000269|PubMed:30622517, ECO:0000269|PubMed:7775453};
+GN   Name=tcdA {ECO:0000303|PubMed:24958798};
+GN   Synonyms=toxA {ECO:0000303|PubMed:2109310};
+OS   Clostridioides difficile (Peptoclostridium difficile).
+OC   Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae;
+OC   Clostridioides.
+OX   NCBI_TaxID=1496;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=2109310; DOI=10.1093/nar/18.6.1629;
+RA   Sauerborn M., von Eichel-Streiber C.;
+RT   "Nucleotide sequence of Clostridium difficile toxin A.";
+RL   Nucleic Acids Res. 18:1629-1630(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=2105276; DOI=10.1128/iai.58.2.480-488.1990;
+RA   Dove C.H., Wang S.-Z., Price S.B., Phelps C.J., Lyerly D.M., Wilkins T.D.,
+RA   Johnson J.L.;
+RT   "Molecular characterization of the Clostridium difficile toxin A gene.";
+RL   Infect. Immun. 58:480-488(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=24958798; DOI=10.1128/jcm.03487-13;
+RA   Du P., Cao B., Wang J., Li W., Jia H., Zhang W., Lu J., Li Z., Yu H.,
+RA   Chen C., Cheng Y.;
+RT   "Sequence variation in tcdA and tcdB of Clostridium difficile: ST37 with
+RT   truncated tcdA is a potential epidemic strain in China.";
+RL   J. Clin. Microbiol. 52:3264-3270(2014).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RA   von Eichel-Streiber C.;
+RL   Submitted (JAN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   FUNCTION (TOXIN A).
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=1670930; DOI=10.1128/iai.59.1.73-78.1991;
+RA   Tucker K.D., Wilkins T.D.;
+RT   "Toxin A of Clostridium difficile binds to the human carbohydrate antigens
+RT   I, X, and Y.";
+RL   Infect. Immun. 59:73-78(1991).
+RN   [6]
+RP   FUNCTION (GLUCOSYLTRANSFERASE TCDA), AND CATALYTIC ACTIVITY
+RP   (GLUCOSYLTRANSFERASE TCDA).
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=7775453; DOI=10.1074/jbc.270.23.13932;
+RA   Just I., Wilm M., Selzer J., Rex G., von Eichel-Streiber C., Mann M.,
+RA   Aktories K.;
+RT   "The enterotoxin from Clostridium difficile (ToxA) monoglucosylates the Rho
+RT   proteins.";
+RL   J. Biol. Chem. 270:13932-13936(1995).
+RN   [7]
+RP   FUNCTION (TOXIN A), PROTEOLYTIC CLEAVAGE (TOXIN A), AND ACTIVITY REGULATION
+RP   (TOXIN A).
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=17334356; DOI=10.1038/nature05622;
+RA   Reineke J., Tenzer S., Rupnik M., Koschinski A., Hasselmayer O.,
+RA   Schrattenholz A., Schild H., von Eichel-Streiber C.;
+RT   "Autocatalytic cleavage of Clostridium difficile toxin B.";
+RL   Nature 446:415-419(2007).
+RN   [8]
+RP   CAUTION.
+RX   PubMed=18411291; DOI=10.1128/iai.00326-08;
+RA   Na X., Kim H., Moyer M.P., Pothoulakis C., LaMont J.T.;
+RT   "gp96 is a human colonocyte plasma membrane binding protein for Clostridium
+RT   difficile toxin A.";
+RL   Infect. Immun. 76:2862-2871(2008).
+RN   [9]
+RP   FUNCTION.
+RC   STRAIN=630 / Type X;
+RX   PubMed=19252482; DOI=10.1038/nature07822;
+RA   Lyras D., O'Connor J.R., Howarth P.M., Sambol S.P., Carter G.P.,
+RA   Phumoonna T., Poon R., Adams V., Vedantam G., Johnson S., Gerding D.N.,
+RA   Rood J.I.;
+RT   "Toxin B is essential for virulence of Clostridium difficile.";
+RL   Nature 458:1176-1179(2009).
+RN   [10]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=630 / Type X;
+RX   PubMed=20844489; DOI=10.1038/nature09397;
+RA   Kuehne S.A., Cartman S.T., Heap J.T., Kelly M.L., Cockayne A., Minton N.P.;
+RT   "The role of toxin A and toxin B in Clostridium difficile infection.";
+RL   Nature 467:711-713(2010).
+RN   [11]
+RP   SUBCELLULAR LOCATION (TOXIN A).
+RX   PubMed=20498856; DOI=10.1371/journal.pone.0010673;
+RA   Papatheodorou P., Zamboglou C., Genisyuerek S., Guttenberg G., Aktories K.;
+RT   "Clostridial glucosylating toxins enter cells via clathrin-mediated
+RT   endocytosis.";
+RL   PLoS ONE 5:e10673-e10673(2010).
+RN   [12]
+RP   SUBCELLULAR LOCATION (TOXIN A).
+RC   STRAIN=630 / Type X;
+RX   PubMed=22685398; DOI=10.1371/journal.ppat.1002727;
+RA   Govind R., Dupuy B.;
+RT   "Secretion of Clostridium difficile toxins A and B requires the holin-like
+RT   protein TcdE.";
+RL   PLoS Pathog. 8:e1002727-e1002727(2012).
+RN   [13]
+RP   FUNCTION (GLUCOSYLTRANSFERASE TCDA), AND CATALYTIC ACTIVITY
+RP   (GLUCOSYLTRANSFERASE TCDA).
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=24905543; DOI=10.1111/cmi.12321;
+RA   Genth H., Pauillac S., Schelle I., Bouvet P., Bouchier C.,
+RA   Varela-Chavez C., Just I., Popoff M.R.;
+RT   "Haemorrhagic toxin and lethal toxin from Clostridium sordellii strain
+RT   vpi9048: molecular characterization and comparative analysis of substrate
+RT   specificity of the large clostridial glucosylating toxins.";
+RL   Cell. Microbiol. 16:1706-1721(2014).
+RN   [14]
+RP   DOMAIN.
+RX   PubMed=25882477; DOI=10.1111/cmi.12449;
+RA   Varela Chavez C., Hoos S., Haustant G.M., Chenal A., England P.,
+RA   Blondel A., Pauillac S., Lacy D.B., Popoff M.R.;
+RT   "The catalytic domains of Clostridium sordellii lethal toxin and related
+RT   large clostridial glucosylating toxins specifically recognize the
+RT   negatively charged phospholipids phosphatidylserine and phosphatidic
+RT   acid.";
+RL   Cell. Microbiol. 17:1477-1493(2015).
+RN   [15]
+RP   FUNCTION (TOXIN A).
+RX   PubMed=27680706; DOI=10.1038/nature19799;
+RA   Tao L., Zhang J., Meraner P., Tovaglieri A., Wu X., Gerhard R., Zhang X.,
+RA   Stallcup W.B., Miao J., He X., Hurdle J.G., Breault D.T., Brass A.L.,
+RA   Dong M.;
+RT   "Frizzled proteins are colonic epithelial receptors for C. difficile toxin
+RT   B.";
+RL   Nature 538:350-355(2016).
+RN   [16]
+RP   FUNCTION (GLUCOSYLTRANSFERASE TCDA), AND CATALYTIC ACTIVITY
+RP   (GLUCOSYLTRANSFERASE TCDA).
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=30622517; DOI=10.3389/fmicb.2018.03078;
+RA   Genth H., Junemann J., Laemmerhirt C.M., Luecke A.C., Schelle I., Just I.,
+RA   Gerhard R., Pich A.;
+RT   "Difference in mono-O-glucosylation of Ras subtype GTPases between toxin A
+RT   and toxin B from Clostridioides difficile strain 10463 and lethal toxin
+RT   from Clostridium sordellii strain 6018.";
+RL   Front. Microbiol. 9:3078-3078(2018).
+RN   [17]
+RP   REVIEW.
+RX   PubMed=29146177; DOI=10.1016/j.toxicon.2017.11.003;
+RA   Popoff M.R.;
+RT   "Clostridium difficile and Clostridium sordellii toxins, proinflammatory
+RT   versus anti-inflammatory response.";
+RL   Toxicon 149:54-64(2018).
+RN   [18]
+RP   FUNCTION (TOXIN A), AND INTERACTION WITH HOST LDLR.
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=31160825; DOI=10.1038/s41564-019-0464-z;
+RA   Tao L., Tian S., Zhang J., Liu Z., Robinson-McCarthy L., Miyashita S.I.,
+RA   Breault D.T., Gerhard R., Oottamasathien S., Whelan S.P.J., Dong M.;
+RT   "Sulfated glycosaminoglycans and low-density lipoprotein receptor
+RT   contribute to Clostridium difficile toxin A entry into cells.";
+RL   Nat. Microbiol. 4:1760-1769(2019).
+RN   [19] {ECO:0007744|PDB:2F6E}
+RP   X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF 2583-2709.
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=16344467; DOI=10.1073/pnas.0506391102;
+RA   Ho J.G., Greco A., Rupnik M., Ng K.K.;
+RT   "Crystal structure of receptor-binding C-terminal repeats from Clostridium
+RT   difficile toxin A.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:18373-18378(2005).
+RN   [20] {ECO:0007744|PDB:2G7C}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 2456-2710 IN COMPLEX WITH
+RP   N-LINKED CARBOHYDRATE, FUNCTION (TOXIN A), AND DOMAIN (TOXIN A).
+RC   STRAIN=48489;
+RX   PubMed=16622409; DOI=10.1038/nsmb1084;
+RA   Greco A., Ho J.G., Lin S.J., Palcic M.M., Rupnik M., Ng K.K.;
+RT   "Carbohydrate recognition by Clostridium difficile toxin A.";
+RL   Nat. Struct. Mol. Biol. 13:460-461(2006).
+RN   [21] {ECO:0007744|PDB:3HO6}
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF 543-809 IN COMPLEX WITH
+RP   1D-MYO-INOSITOL HEXAKISPHOSPHATE, FUNCTION (TOXIN A), PROTEOLYTIC CLEAVAGE
+RP   (TOXIN A), ACTIVE SITES (PROTEASE ACTIVITY), ACTIVITY REGULATION (TOXIN A),
+RP   AND MUTAGENESIS OF LEU-542; ASP-589; ASP-590; HIS-655 AND CYS-700.
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=19553670; DOI=10.1074/jbc.m109.018929;
+RA   Pruitt R.N., Chagot B., Cover M., Chazin W.J., Spiller B., Lacy D.B.;
+RT   "Structure-function analysis of inositol hexakisphosphate-induced
+RT   autoprocessing in Clostridium difficile toxin A.";
+RL   J. Biol. Chem. 284:21934-21940(2009).
+RN   [22] {ECO:0007744|PDB:4DMV, ECO:0007744|PDB:4DMW}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 1-541 IN COMPLEX WITH UDP AND
+RP   MANGANESE, COFACTOR, FUNCTION (GLUCOSYLTRANSFERASE TCDA), CATALYTIC
+RP   ACTIVITY (GLUCOSYLTRANSFERASE TCDA), AND BIOPHYSICOCHEMICAL PROPERTIES
+RP   (GLUCOSYLTRANSFERASE TCDA).
+RC   STRAIN=630 / Type X;
+RX   PubMed=22747490; DOI=10.1111/j.1742-4658.2012.08688.x;
+RA   D'Urzo N., Malito E., Biancucci M., Bottomley M.J., Maione D.,
+RA   Scarselli M., Martinelli M.;
+RT   "The structure of Clostridium difficile toxin A glucosyltransferase domain
+RT   bound to Mn2+ and UDP provides insights into glucosyltransferase activity
+RT   and product release.";
+RL   FEBS J. 279:3085-3097(2012).
+RN   [23] {ECO:0007744|PDB:3SRZ, ECO:0007744|PDB:3SS1}
+RP   X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 1-542 IN COMPLEX WITH
+RP   UDP-ALPHA-D-GLUCOSE AND MANGANESE, FUNCTION (GLUCOSYLTRANSFERASE TCDA),
+RP   CATALYTIC ACTIVITY (GLUCOSYLTRANSFERASE TCDA), PROTEOLYTIC CLEAVAGE (TOXIN
+RP   A), AND COFACTOR.
+RX   PubMed=22267739; DOI=10.1074/jbc.m111.298414;
+RA   Pruitt R.N., Chumbler N.M., Rutherford S.A., Farrow M.A., Friedman D.B.,
+RA   Spiller B., Lacy D.B.;
+RT   "Structural determinants of Clostridium difficile toxin A
+RT   glucosyltransferase activity.";
+RL   J. Biol. Chem. 287:8013-8020(2012).
+RN   [24] {ECO:0007744|PDB:4NBX, ECO:0007744|PDB:4NBZ}
+RP   X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) OF 2573-2709.
+RX   PubMed=24311789; DOI=10.1074/jbc.m113.505917;
+RA   Murase T., Eugenio L., Schorr M., Hussack G., Tanha J., Kitova E.N.,
+RA   Klassen J.S., Ng K.K.;
+RT   "Structural basis for antibody recognition in the receptor-binding domains
+RT   of toxins A and B from Clostridium difficile.";
+RL   J. Biol. Chem. 289:2331-2343(2014).
+RN   [25] {ECO:0007744|PDB:4R04}
+RP   X-RAY CRYSTALLOGRAPHY (3.26 ANGSTROMS) OF 1-1832 IN COMPLEX WITH ZINC,
+RP   FUNCTION (TOXIN A), COFACTOR, ACTIVE SITES, AND MUTAGENESIS OF HIS-655;
+RP   CYS-700 AND HIS-759.
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=27571750; DOI=10.1038/nmicrobiol.2015.2;
+RA   Chumbler N.M., Rutherford S.A., Zhang Z., Farrow M.A., Lisher J.P.,
+RA   Farquhar E., Giedroc D.P., Spiller B.W., Melnyk R.A., Lacy D.B.;
+RT   "Crystal structure of Clostridium difficile toxin A.";
+RL   Nat. Microbiol. 1:15002-15002(2016).
+RN   [26] {ECO:0007744|PDB:5UMI}
+RP   X-RAY CRYSTALLOGRAPHY (3.23 ANGSTROMS) OF 2461-2710.
+RX   PubMed=28705932; DOI=10.1074/jbc.m117.781112;
+RA   Kroh H.K., Chandrasekaran R., Rosenthal K., Woods R., Jin X., Ohi M.D.,
+RA   Nyborg A.C., Rainey G.J., Warrener P., Spiller B.W., Lacy D.B.;
+RT   "Use of a neutralizing antibody helps identify structural features critical
+RT   for binding of Clostridium difficile toxin TcdA to the host cell surface.";
+RL   J. Biol. Chem. 292:14401-14412(2017).
+RN   [27] {ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL}
+RP   X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF 1-544 IN COMPLEX WITH
+RP   UDP-ALPHA-D-GLUCOSE AND MANGANESE, AND COFACTOR.
+RC   STRAIN=ATCC 4325 / VPI 10463;
+RX   PubMed=28433497; DOI=10.1016/j.jsb.2017.04.006;
+RA   Alvin J.W., Lacy D.B.;
+RT   "Clostridium difficile toxin glucosyltransferase domains in complex with a
+RT   non-hydrolyzable UDP-glucose analogue.";
+RL   J. Struct. Biol. 198:203-209(2017).
+CC   -!- FUNCTION: [Toxin A]: Precursor of a cytotoxin that targets and disrupts
+CC       the colonic epithelium, inducing the host inflammatory and innate
+CC       immune responses and resulting in diarrhea and pseudomembranous colitis
+CC       (PubMed:20844489). TcdA and TcdB constitute the main toxins that
+CC       mediate the pathology of C.difficile infection, an opportunistic
+CC       pathogen that colonizes the colon when the normal gut microbiome is
+CC       disrupted (PubMed:19252482, PubMed:20844489). Compared to TcdB, TcdA is
+CC       less virulent and less important for inducing the host inflammatory and
+CC       innate immune responses (PubMed:19252482). This form constitutes the
+CC       precursor of the toxin: it enters into host cells and mediates
+CC       autoprocessing to release the active toxin (Glucosyltransferase TcdA)
+CC       into the host cytosol (By similarity). Targets colonic epithelia by
+CC       binding to some receptor, and enters host cells via clathrin-mediated
+CC       endocytosis (By similarity). Binding to LDLR, as well as carbohydrates
+CC       and sulfated glycosaminoglycans on host cell surface contribute to
+CC       entry into cells (PubMed:1670930, PubMed:31160825, PubMed:16622409). In
+CC       contrast to TcdB, Frizzled receptors FZD1, FZD2 and FZD7 do not act as
+CC       host receptors in the colonic epithelium for TcdA (PubMed:27680706).
+CC       Once entered into host cells, acidification in the endosome promotes
+CC       the membrane insertion of the translocation region and formation of a
+CC       pore, leading to translocation of the GT44 and peptidase C80 domains
+CC       across the endosomal membrane (By similarity). This activates the
+CC       peptidase C80 domain and autocatalytic processing, releasing the N-
+CC       terminal part (Glucosyltransferase TcdA), which constitutes the active
+CC       part of the toxin, in the cytosol (PubMed:17334356, PubMed:19553670,
+CC       PubMed:27571750). {ECO:0000250|UniProtKB:P18177,
+CC       ECO:0000269|PubMed:16622409, ECO:0000269|PubMed:1670930,
+CC       ECO:0000269|PubMed:17334356, ECO:0000269|PubMed:19252482,
+CC       ECO:0000269|PubMed:19553670, ECO:0000269|PubMed:20844489,
+CC       ECO:0000269|PubMed:27571750, ECO:0000269|PubMed:27680706,
+CC       ECO:0000269|PubMed:31160825}.
+CC   -!- FUNCTION: [Glucosyltransferase TcdA]: Active form of the toxin, which
+CC       is released into the host cytosol following autoprocessing and
+CC       inactivates small GTPases (PubMed:7775453, PubMed:24905543,
+CC       PubMed:30622517, PubMed:22747490, PubMed:22267739). Acts by mediating
+CC       monoglucosylation of small GTPases of the Rho family (Rac1, RhoA, RhoB,
+CC       RhoC, Rap2A and Cdc42) in host cells at the conserved threonine residue
+CC       located in the switch I region ('Thr-37/35'), using UDP-alpha-D-glucose
+CC       as the sugar donor (PubMed:7775453, PubMed:24905543, PubMed:30622517,
+CC       PubMed:22747490, PubMed:22267739). Monoglucosylation of host small
+CC       GTPases completely prevents the recognition of the downstream effector,
+CC       blocking the GTPases in their inactive form, leading to actin
+CC       cytoskeleton disruption and cell death, resulting in the loss of
+CC       colonic epithelial barrier function (PubMed:7775453). Also able to
+CC       catalyze monoglucosylation of some members of the Ras family (H-
+CC       Ras/HRAS, K-Ras/KRAS and N-Ras/NRAS), but with much less efficiency
+CC       than with Rho proteins, suggesting that it does not act on Ras proteins
+CC       in vivo (PubMed:30622517). {ECO:0000269|PubMed:22267739,
+CC       ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:24905543,
+CC       ECO:0000269|PubMed:30622517, ECO:0000269|PubMed:7775453}.
+CC   -!- CATALYTIC ACTIVITY: [Glucosyltransferase TcdA]:
+CC       Reaction=L-threonyl-[protein] + UDP-alpha-D-glucose = 3-O-(alpha-D-
+CC         glucosyl)-L-threonyl-[protein] + H(+) + UDP; Xref=Rhea:RHEA:64684,
+CC         Rhea:RHEA-COMP:11060, Rhea:RHEA-COMP:16656, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30013, ChEBI:CHEBI:58223, ChEBI:CHEBI:58885,
+CC         ChEBI:CHEBI:156085; Evidence={ECO:0000269|PubMed:22267739,
+CC         ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:24905543,
+CC         ECO:0000269|PubMed:30622517, ECO:0000269|PubMed:7775453};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64685;
+CC         Evidence={ECO:0000269|PubMed:22267739, ECO:0000269|PubMed:22747490,
+CC         ECO:0000269|PubMed:24905543, ECO:0000269|PubMed:30622517,
+CC         ECO:0000269|PubMed:7775453};
+CC   -!- COFACTOR: [Toxin A]:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:27571750};
+CC       Note=Binds 1 Zn(2+) ion per subunit (PubMed:27571750). Zn(2+) is
+CC       required for autocatalytic cleavage (PubMed:27571750).
+CC       {ECO:0000269|PubMed:27571750};
+CC   -!- COFACTOR: [Glucosyltransferase TcdA]:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:22267739, ECO:0000269|PubMed:22747490,
+CC         ECO:0000269|PubMed:28433497};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P18177};
+CC       Note=Has higher activity with Mn(2+), but most likely uses Mg(2+) in
+CC       host cells (By similarity). Required for glucosyltransferase activity
+CC       (PubMed:22747490). {ECO:0000250|UniProtKB:P18177,
+CC       ECO:0000269|PubMed:22747490};
+CC   -!- ACTIVITY REGULATION: [Toxin A]: Protease activity is activated upon
+CC       binding to 1D-myo-inositol hexakisphosphate (InsP6), which induces
+CC       conformational reorganization. {ECO:0000269|PubMed:17334356,
+CC       ECO:0000269|PubMed:19553670}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES: [Glucosyltransferase TcdA]:
+CC       Kinetic parameters:
+CC         KM=43.9 uM for UDP-alpha-D-glucose (in presence of K(+))
+CC         {ECO:0000269|PubMed:22747490};
+CC         KM=36.3 uM for UDP-alpha-D-glucose (in presence of NH4(+))
+CC         {ECO:0000269|PubMed:22747490};
+CC         KM=51.1 uM for UDP-alpha-D-glucose (in presence of Na(+))
+CC         {ECO:0000269|PubMed:22747490};
+CC         Vmax=252.2 pmol/min/ug enzyme with UDP-alpha-D-glucose (in presence
+CC         of K(+)) {ECO:0000269|PubMed:22747490};
+CC         Vmax=162.8 pmol/min/ug enzyme with UDP-alpha-D-glucose (in presence
+CC         of NH4(+)) {ECO:0000269|PubMed:22747490};
+CC         Vmax=36.4 pmol/min/ug enzyme with UDP-alpha-D-glucose (in presence of
+CC         Na(+)) {ECO:0000269|PubMed:22747490};
+CC   -!- SUBUNIT: [Toxin A]: Interacts with host LDLR; LDLR probably does not
+CC       constitute a major receptor but may contribute to entry into cells.
+CC       {ECO:0000269|PubMed:31160825}.
+CC   -!- SUBCELLULAR LOCATION: [Toxin A]: Secreted
+CC       {ECO:0000269|PubMed:22685398}. Host endosome membrane
+CC       {ECO:0000250|UniProtKB:P18177}. Note=Secreted from C.difficile cell
+CC       into the extracellular environment via help of holin-like protein
+CC       TcdE/UtxA (PubMed:22685398). Binds to the cell surface receptors via
+CC       the receptor-binding region and enters the cells via clathrin-mediated
+CC       endocytosis (PubMed:20498856). Acidification in the endosome triggers
+CC       conformational changes that promote the membrane insertion of the
+CC       translocation region, allowing formation of a pore, leading to
+CC       translocation of the GT44 and peptidase C80 domains across the
+CC       endosomal membrane (By similarity). 1D-myo-inositol hexakisphosphate-
+CC       binding (InsP6) activates the peptidase C80 domain and autoprocessing,
+CC       generating the Glucosyltransferase TcdA form, which is released in the
+CC       host cytosol (PubMed:19553670). {ECO:0000250|UniProtKB:P18177,
+CC       ECO:0000269|PubMed:19553670, ECO:0000269|PubMed:20498856,
+CC       ECO:0000269|PubMed:22685398}.
+CC   -!- SUBCELLULAR LOCATION: [Glucosyltransferase TcdA]: Host cytoplasm, host
+CC       cytosol {ECO:0000250|UniProtKB:P18177}. Host cell membrane
+CC       {ECO:0000250|UniProtKB:Q46342}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q46342}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:Q46342}. Note=Binding to phospholipids, such as
+CC       phosphatidylserine and phosphatidic acid promotes localization to the
+CC       inner face of the cell membrane close to its membrane anchored
+CC       substrates (small GTPases). {ECO:0000250|UniProtKB:Q46342}.
+CC   -!- DOMAIN: [Toxin A]: Consists of 4 functional domains: (1) the N-terminal
+CC       GT44 domain (glucosyltransferase, also named GTD), which mediates
+CC       glucosylation of host small GTPases, (2) an autoprocessing region that
+CC       catalyzes autoprocessing to release the N-terminal GT44 domain in the
+CC       host cytosol, (3) the translocation region that forms a pore to promote
+CC       translocation of the GT44 and peptidase C80 domains across the
+CC       endosomal membrane and (4) the receptor-binding (CROPS) region that
+CC       mediates binding to host cells and contribute to entry into cells.
+CC       {ECO:0000303|PubMed:29146177}.
+CC   -!- DOMAIN: [Toxin A]: The receptor-binding (CROPS) region is dynamic and
+CC       can have open and closed conformations depending of the pH: has an open
+CC       conformation at endosomal pH and a closed conformation at neutral pH.
+CC       {ECO:0000250|UniProtKB:P18177}.
+CC   -!- DOMAIN: [Toxin A]: The cell wall-binding repeats bind carbohydrates,
+CC       such as Galalpha1-3Galbeta1-4GlcNAc, probably contributing to entry
+CC       into cells. {ECO:0000269|PubMed:16622409, ECO:0000305|PubMed:1670930}.
+CC   -!- DOMAIN: [Glucosyltransferase TcdA]: The four-helical bundle region
+CC       mediates binding to phospholipids, such as phosphatidylserine and
+CC       phosphatidic acid (PubMed:25882477). This promotes localization to the
+CC       inner face of the cell membrane close to small GTPases (By similarity).
+CC       {ECO:0000250|UniProtKB:Q46342, ECO:0000269|PubMed:25882477}.
+CC   -!- PTM: [Toxin A]: Undergoes autocatalytic cleavage to release the N-
+CC       terminal part (Glucosyltransferase TcdA), which constitutes the active
+CC       part of the toxin, in the host cytosol (PubMed:17334356,
+CC       PubMed:22267739, PubMed:19553670, PubMed:27571750). 1D-myo-inositol
+CC       hexakisphosphate-binding (InsP6) activates the peptidase C80 domain and
+CC       promotes autoprocessing (PubMed:17334356, PubMed:19553670).
+CC       {ECO:0000269|PubMed:17334356, ECO:0000269|PubMed:19553670,
+CC       ECO:0000269|PubMed:22267739, ECO:0000269|PubMed:27571750}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking tcdA display virulence and
+CC       cytotoxity, because of the presence of TcdB (PubMed:20844489). Cells
+CC       lacking both tcdA and tcdB display a strongly reduced virulence
+CC       (PubMed:20844489). {ECO:0000269|PubMed:20844489}.
+CC   -!- SIMILARITY: Belongs to the clostridial glucosylating toxin (LCGT)
+CC       family. {ECO:0000305}.
+CC   -!- CAUTION: Host HSP90B1/gp96 was initially identified as a possible
+CC       receptor for TcdA (PubMed:18411291). However, as HSP90B1/gp96 localizes
+CC       in the endoplasmic reticulum and not at the cell membrane, it probably
+CC       does not act as a receptor for TcdA. {ECO:0000269|PubMed:18411291,
+CC       ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X51797; CAA36094.1; -; Genomic_DNA.
+DR   EMBL; M30307; AAA23283.1; -; Genomic_DNA.
+DR   EMBL; KC292122; AGG91568.1; -; Genomic_DNA.
+DR   EMBL; X92982; CAA63564.1; -; Genomic_DNA.
+DR   PIR; A37052; A37052.
+DR   RefSeq; WP_009902072.1; NZ_PZRE01000002.1.
+DR   PDB; 2F6E; X-ray; 1.85 A; A=2583-2709.
+DR   PDB; 2G7C; X-ray; 2.00 A; A/B=2456-2710.
+DR   PDB; 2QJ6; X-ray; 2.50 A; A/B=2387-2706.
+DR   PDB; 3HO6; X-ray; 1.60 A; A/B=543-809.
+DR   PDB; 3SRZ; X-ray; 2.58 A; A=1-542.
+DR   PDB; 3SS1; X-ray; 2.20 A; A=1-542.
+DR   PDB; 4DMV; X-ray; 1.50 A; A=1-541.
+DR   PDB; 4DMW; X-ray; 2.50 A; A=1-541.
+DR   PDB; 4NBX; X-ray; 1.75 A; A=2573-2709.
+DR   PDB; 4NBZ; X-ray; 1.75 A; A/C=2573-2709.
+DR   PDB; 4R04; X-ray; 3.26 A; A=1-1832.
+DR   PDB; 5UMI; X-ray; 3.23 A; C=2461-2710.
+DR   PDB; 5UQK; X-ray; 1.85 A; A=1-544.
+DR   PDB; 5UQL; X-ray; 1.97 A; A=1-544.
+DR   PDB; 7U1Z; X-ray; 3.18 A; A/B=843-2481.
+DR   PDBsum; 2F6E; -.
+DR   PDBsum; 2G7C; -.
+DR   PDBsum; 2QJ6; -.
+DR   PDBsum; 3HO6; -.
+DR   PDBsum; 3SRZ; -.
+DR   PDBsum; 3SS1; -.
+DR   PDBsum; 4DMV; -.
+DR   PDBsum; 4DMW; -.
+DR   PDBsum; 4NBX; -.
+DR   PDBsum; 4NBZ; -.
+DR   PDBsum; 4R04; -.
+DR   PDBsum; 5UMI; -.
+DR   PDBsum; 5UQK; -.
+DR   PDBsum; 5UQL; -.
+DR   PDBsum; 7U1Z; -.
+DR   SMR; P16154; -.
+DR   BindingDB; P16154; -.
+DR   ChEMBL; CHEMBL3580504; -.
+DR   CAZy; GT44; Glycosyltransferase Family 44.
+DR   MEROPS; C80.002; -.
+DR   TCDB; 1.C.57.1.2; the clostridial cytotoxin (cct) family.
+DR   UniLectin; P16154; -.
+DR   PRIDE; P16154; -.
+DR   ABCD; P16154; 2 sequenced antibodies.
+DR   EnsemblBacteria; PBG26087; PBG26087; BGU81_11750.
+DR   BRENDA; 2.4.1.B62; 1473.
+DR   BRENDA; 3.1.4.B4; 1473.
+DR   EvolutionaryTrace; P16154; -.
+DR   PHI-base; PHI:9028; -.
+DR   GO; GO:0005576; C:extracellular region; IDA:UniProtKB.
+DR   GO; GO:0044164; C:host cell cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044175; C:host cell endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0008234; F:cysteine-type peptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016757; F:glycosyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000822; F:inositol hexakisphosphate binding; IDA:UniProtKB.
+DR   GO; GO:0008289; F:lipid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008233; F:peptidase activity; IDA:UniProtKB.
+DR   GO; GO:0090729; F:toxin activity; IDA:UniProtKB.
+DR   GO; GO:0035251; F:UDP-glucosyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0044083; P:modulation by symbiont of host Rho protein signal transduction; IDA:UniProtKB.
+DR   GO; GO:0034260; P:negative regulation of GTPase activity; IDA:UniProtKB.
+DR   GO; GO:0030836; P:positive regulation of actin filament depolymerization; IDA:UniProtKB.
+DR   GO; GO:0016540; P:protein autoprocessing; IDA:UniProtKB.
+DR   GO; GO:0018243; P:protein O-linked glycosylation via threonine; IDA:UniProtKB.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.11050; -; 1.
+DR   InterPro; IPR018337; Cell_wall/Cho-bd_repeat.
+DR   InterPro; IPR020974; CPD_dom.
+DR   InterPro; IPR038383; CPD_dom_sf.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR024770; TcdA/TcdB_cat.
+DR   InterPro; IPR024772; TcdA/TcdB_N.
+DR   InterPro; IPR024769; TcdA/TcdB_pore_forming.
+DR   Pfam; PF01473; Choline_bind_1; 5.
+DR   Pfam; PF19127; Choline_bind_3; 5.
+DR   Pfam; PF11713; Peptidase_C80; 1.
+DR   Pfam; PF12919; TcdA_TcdB; 1.
+DR   Pfam; PF12920; TcdA_TcdB_pore; 1.
+DR   Pfam; PF12918; TcdB_N; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS51771; CGT_MARTX_CPD; 1.
+DR   PROSITE; PS51170; CW; 32.
+PE   1: Evidence at protein level;
+KW   3D-structure; Autocatalytic cleavage; Enterotoxin; Glycosyltransferase;
+KW   Host cell membrane; Host cytoplasm; Host endosome; Host membrane;
+KW   Hydrolase; Lipid-binding; Magnesium; Manganese; Membrane; Metal-binding;
+KW   Protease; Repeat; Secreted; Thiol protease; Toxin; Transferase; Virulence;
+KW   Zinc.
+FT   CHAIN           1..2710
+FT                   /note="Toxin A"
+FT                   /id="PRO_0000072634"
+FT   CHAIN           1..542
+FT                   /note="Glucosyltransferase TcdA"
+FT                   /evidence="ECO:0000305|PubMed:19553670"
+FT                   /id="PRO_0000451191"
+FT   DOMAIN          95..467
+FT                   /note="GT44"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          569..776
+FT                   /note="Peptidase C80"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01107"
+FT   REPEAT          1810..1829
+FT                   /note="Cell wall-binding 1"
+FT   REPEAT          1851..1870
+FT                   /note="Cell wall-binding 2"
+FT   REPEAT          1872..1891
+FT                   /note="Cell wall-binding 3"
+FT   REPEAT          1923..1942
+FT                   /note="Cell wall-binding 4"
+FT   REPEAT          1943..1962
+FT                   /note="Cell wall-binding 5"
+FT   REPEAT          1964..1983
+FT                   /note="Cell wall-binding 6"
+FT   REPEAT          1985..2004
+FT                   /note="Cell wall-binding 7"
+FT   REPEAT          2006..2025
+FT                   /note="Cell wall-binding 8"
+FT   REPEAT          2057..2076
+FT                   /note="Cell wall-binding 9"
+FT   REPEAT          2077..2096
+FT                   /note="Cell wall-binding 10"
+FT   REPEAT          2098..2117
+FT                   /note="Cell wall-binding 11"
+FT   REPEAT          2119..2138
+FT                   /note="Cell wall-binding 12"
+FT   REPEAT          2140..2159
+FT                   /note="Cell wall-binding 13"
+FT   REPEAT          2191..2210
+FT                   /note="Cell wall-binding 14"
+FT   REPEAT          2211..2230
+FT                   /note="Cell wall-binding 15"
+FT   REPEAT          2232..2251
+FT                   /note="Cell wall-binding 16"
+FT   REPEAT          2252..2271
+FT                   /note="Cell wall-binding 17"
+FT   REPEAT          2305..2324
+FT                   /note="Cell wall-binding 18"
+FT   REPEAT          2325..2344
+FT                   /note="Cell wall-binding 19"
+FT   REPEAT          2346..2365
+FT                   /note="Cell wall-binding 20"
+FT   REPEAT          2367..2386
+FT                   /note="Cell wall-binding 21"
+FT   REPEAT          2388..2407
+FT                   /note="Cell wall-binding 22"
+FT   REPEAT          2439..2458
+FT                   /note="Cell wall-binding 23"
+FT   REPEAT          2459..2478
+FT                   /note="Cell wall-binding 24"
+FT   REPEAT          2480..2499
+FT                   /note="Cell wall-binding 25"
+FT   REPEAT          2501..2520
+FT                   /note="Cell wall-binding 26"
+FT   REPEAT          2552..2571
+FT                   /note="Cell wall-binding 27"
+FT   REPEAT          2572..2591
+FT                   /note="Cell wall-binding 28"
+FT   REPEAT          2593..2612
+FT                   /note="Cell wall-binding 29"
+FT   REPEAT          2643..2662
+FT                   /note="Cell wall-binding 30"
+FT   REPEAT          2663..2682
+FT                   /note="Cell wall-binding 31"
+FT   REPEAT          2685..2704
+FT                   /note="Cell wall-binding 32"
+FT   REGION          1..90
+FT                   /note="Four-helical bundle"
+FT                   /evidence="ECO:0000305|PubMed:25882477"
+FT   REGION          95..467
+FT                   /note="Glucosyltransferase region"
+FT                   /evidence="ECO:0000303|PubMed:29146177"
+FT   REGION          543..801
+FT                   /note="Autoprocessing region"
+FT                   /evidence="ECO:0000303|PubMed:29146177"
+FT   REGION          802..1497
+FT                   /note="Translocation region"
+FT                   /evidence="ECO:0000303|PubMed:29146177"
+FT   REGION          1832..2483
+FT                   /note="Receptor-binding (CROPS) region"
+FT                   /evidence="ECO:0000303|PubMed:29146177"
+FT   ACT_SITE        655
+FT                   /note="For protease activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01107,
+FT                   ECO:0000269|PubMed:19553670, ECO:0000269|PubMed:27571750"
+FT   ACT_SITE        700
+FT                   /note="Nucleophile; for protease activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01107,
+FT                   ECO:0000269|PubMed:19553670, ECO:0000269|PubMed:27571750"
+FT   BINDING         100..102
+FT                   /ligand="UDP-alpha-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:58885"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:28433497,
+FT                   ECO:0007744|PDB:3SRZ, ECO:0007744|PDB:4DMV,
+FT                   ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL"
+FT   BINDING         138
+FT                   /ligand="UDP-alpha-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:58885"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0000269|PubMed:28433497, ECO:0007744|PDB:3SRZ,
+FT                   ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL"
+FT   BINDING         268..272
+FT                   /ligand="UDP-alpha-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:58885"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:28433497,
+FT                   ECO:0007744|PDB:3SRZ, ECO:0007744|PDB:4DMV,
+FT                   ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL"
+FT   BINDING         285..287
+FT                   /ligand="UDP-alpha-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:58885"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:28433497,
+FT                   ECO:0007744|PDB:3SRZ, ECO:0007744|PDB:4DMV,
+FT                   ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL"
+FT   BINDING         285
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0007744|PDB:3SS1"
+FT   BINDING         287
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:28433497,
+FT                   ECO:0007744|PDB:3SRZ, ECO:0007744|PDB:3SS1,
+FT                   ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL"
+FT   BINDING         514
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:28433497,
+FT                   ECO:0007744|PDB:3SRZ, ECO:0007744|PDB:3SS1,
+FT                   ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL"
+FT   BINDING         517..519
+FT                   /ligand="UDP-alpha-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:58885"
+FT                   /evidence="ECO:0000269|PubMed:22267739,
+FT                   ECO:0000269|PubMed:22747490, ECO:0000269|PubMed:28433497,
+FT                   ECO:0007744|PDB:3SRZ, ECO:0007744|PDB:4DMV,
+FT                   ECO:0007744|PDB:5UQK, ECO:0007744|PDB:5UQL"
+FT   BINDING         544
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:27571750,
+FT                   ECO:0007744|PDB:4R04"
+FT   BINDING         545
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:27571750,
+FT                   ECO:0007744|PDB:4R04"
+FT   BINDING         551
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         579
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         602
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         649
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         655
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:27571750,
+FT                   ECO:0007744|PDB:4R04"
+FT   BINDING         753..754
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         759
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:27571750,
+FT                   ECO:0007744|PDB:4R04"
+FT   BINDING         766
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         777
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         794
+FT                   /ligand="1D-myo-inositol hexakisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58130"
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0007744|PDB:3HO6"
+FT   BINDING         2540
+FT                   /ligand="alpha-D-galactosyl-(1->3)-beta-D-galactosyl-
+FT                   (1->4)-N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:62327"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:16622409,
+FT                   ECO:0007744|PDB:2G7C"
+FT   BINDING         2547..2550
+FT                   /ligand="alpha-D-galactosyl-(1->3)-beta-D-galactosyl-
+FT                   (1->4)-N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:62327"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:16622409,
+FT                   ECO:0007744|PDB:2G7C"
+FT   BINDING         2567..2570
+FT                   /ligand="alpha-D-galactosyl-(1->3)-beta-D-galactosyl-
+FT                   (1->4)-N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:62327"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:16622409,
+FT                   ECO:0007744|PDB:2G7C"
+FT   BINDING         2631
+FT                   /ligand="alpha-D-galactosyl-(1->3)-beta-D-galactosyl-
+FT                   (1->4)-N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:62327"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:16622409,
+FT                   ECO:0007744|PDB:2G7C"
+FT   BINDING         2638..2641
+FT                   /ligand="alpha-D-galactosyl-(1->3)-beta-D-galactosyl-
+FT                   (1->4)-N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:62327"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:16622409,
+FT                   ECO:0007744|PDB:2G7C"
+FT   BINDING         2658..2661
+FT                   /ligand="alpha-D-galactosyl-(1->3)-beta-D-galactosyl-
+FT                   (1->4)-N-acetyl-beta-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:62327"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:16622409,
+FT                   ECO:0007744|PDB:2G7C"
+FT   SITE            542..543
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000305|PubMed:19553670"
+FT   MUTAGEN         542
+FT                   /note="L->A: Abolished cleavage."
+FT                   /evidence="ECO:0000269|PubMed:19553670"
+FT   MUTAGEN         589
+FT                   /note="D->N: Abolished protease activity and
+FT                   autoprocessing."
+FT                   /evidence="ECO:0000269|PubMed:19553670"
+FT   MUTAGEN         590
+FT                   /note="D->N: Does not affect protease activity and
+FT                   autoprocessing."
+FT                   /evidence="ECO:0000269|PubMed:19553670"
+FT   MUTAGEN         655
+FT                   /note="H->A: Abolished protease activity and
+FT                   autoprocessing."
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0000269|PubMed:27571750"
+FT   MUTAGEN         700
+FT                   /note="C->A,S: Abolished protease activity and
+FT                   autoprocessing."
+FT                   /evidence="ECO:0000269|PubMed:19553670,
+FT                   ECO:0000269|PubMed:27571750"
+FT   MUTAGEN         759
+FT                   /note="H->A: Abolished autoprocessing."
+FT                   /evidence="ECO:0000269|PubMed:27571750"
+FT   CONFLICT        2080
+FT                   /note="L -> W (in Ref. 3; AGG91568)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           6..12
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           21..34
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           41..61
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           68..88
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          95..100
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           108..120
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            121..123
+FT                   /evidence="ECO:0007829|PDB:5UQK"
+FT   STRAND          124..130
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           137..160
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           167..192
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          194..197
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           201..212
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           217..232
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            233..235
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          236..238
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            239..243
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           248..258
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            259..261
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           264..279
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          281..284
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            294..299
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           308..323
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          325..328
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           334..336
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           339..350
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           355..357
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          366..368
+FT                   /evidence="ECO:0007829|PDB:4DMW"
+FT   STRAND          373..377
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          380..388
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           393..417
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            418..420
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           423..435
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            440..442
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           443..449
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           452..454
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            455..457
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   STRAND          458..460
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           464..467
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           470..482
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           494..497
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           498..500
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           504..506
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           512..517
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   HELIX           523..536
+FT                   /evidence="ECO:0007829|PDB:4DMV"
+FT   TURN            546..548
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           558..563
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           565..569
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          578..585
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           590..602
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           604..606
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          607..611
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           612..617
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          619..623
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          630..634
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           640..642
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          646..653
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          658..661
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          665..667
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           670..684
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   TURN            685..687
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          691..701
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           709..711
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           713..728
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           734..736
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          737..741
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          746..748
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          754..757
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          761..764
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           766..771
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          778..783
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   TURN            784..787
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   STRAND          788..795
+FT                   /evidence="ECO:0007829|PDB:3HO6"
+FT   HELIX           796..811
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          812..815
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           817..839
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           853..877
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          884..893
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          895..904
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   TURN            905..907
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          910..915
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           919..935
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           960..971
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           972..974
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           982..996
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1000..1002
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1006..1018
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1029..1031
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1043..1052
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1056..1066
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1075..1093
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   TURN            1100..1103
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1110..1114
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1116..1118
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1119..1134
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1137..1141
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   TURN            1142..1144
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1145..1148
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1154..1158
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   TURN            1159..1162
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1163..1166
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1169..1172
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1181..1185
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1196..1199
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1201..1203
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1204..1207
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1220..1223
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1230..1233
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1236..1238
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1248..1259
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   TURN            1261..1263
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1266..1276
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1279..1283
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1288..1291
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1297..1300
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1307..1311
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1314..1318
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1324..1327
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1334..1338
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1345..1348
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1350..1353
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1354..1359
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1362..1368
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1372..1375
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1380..1384
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1389..1394
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1403..1412
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1414..1420
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   TURN            1421..1424
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1425..1432
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1434..1451
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1456..1463
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1465..1467
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1469..1475
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   TURN            1476..1479
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1480..1487
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1490..1497
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1500..1506
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1511..1518
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1521..1529
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1530..1532
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1537..1544
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1546..1548
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1550..1557
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1559..1570
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1582..1589
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1591..1594
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1602..1613
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1615..1623
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1625..1627
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1629..1637
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1639..1646
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1653..1657
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1670..1675
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1676..1678
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1681..1684
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1688..1690
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1698..1702
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1714..1716
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1726..1732
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1737..1742
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1745..1754
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1757..1765
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1768..1770
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1772..1775
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1778..1781
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          1783..1785
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   HELIX           1790..1796
+FT                   /evidence="ECO:0007829|PDB:4R04"
+FT   STRAND          2395..2397
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2399..2401
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2410..2412
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2424..2429
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2442..2445
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2448..2451
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2454..2457
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2462..2465
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2468..2472
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2474..2478
+FT                   /evidence="ECO:0007829|PDB:2QJ6"
+FT   STRAND          2482..2486
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2489..2493
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   TURN            2495..2497
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2503..2507
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2510..2514
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2523..2527
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2530..2534
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2539..2542
+FT                   /evidence="ECO:0007829|PDB:5UMI"
+FT   STRAND          2553..2558
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2561..2565
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+FT   STRAND          2574..2578
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2581..2585
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   TURN            2587..2589
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2590..2592
+FT                   /evidence="ECO:0007829|PDB:4NBZ"
+FT   STRAND          2595..2599
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2602..2607
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2614..2618
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2621..2626
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2630..2633
+FT                   /evidence="ECO:0007829|PDB:5UMI"
+FT   STRAND          2644..2649
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2652..2656
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2660..2662
+FT                   /evidence="ECO:0007829|PDB:2F6E"
+FT   STRAND          2665..2669
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2672..2676
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   TURN            2678..2680
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2686..2691
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2694..2698
+FT                   /evidence="ECO:0007829|PDB:4NBX"
+FT   STRAND          2700..2702
+FT                   /evidence="ECO:0007829|PDB:5UMI"
+FT   STRAND          2704..2707
+FT                   /evidence="ECO:0007829|PDB:2G7C"
+SQ   SEQUENCE   2710 AA;  308056 MW;  0A6E52CE84C14421 CRC64;
+     MSLISKEELI KLAYSIRPRE NEYKTILTNL DEYNKLTTNN NENKYLQLKK LNESIDVFMN
+     KYKTSSRNRA LSNLKKDILK EVILIKNSNT SPVEKNLHFV WIGGEVSDIA LEYIKQWADI
+     NAEYNIKLWY DSEAFLVNTL KKAIVESSTT EALQLLEEEI QNPQFDNMKF YKKRMEFIYD
+     RQKRFINYYK SQINKPTVPT IDDIIKSHLV SEYNRDETVL ESYRTNSLRK INSNHGIDIR
+     ANSLFTEQEL LNIYSQELLN RGNLAAASDI VRLLALKNFG GVYLDVDMLP GIHSDLFKTI
+     SRPSSIGLDR WEMIKLEAIM KYKKYINNYT SENFDKLDQQ LKDNFKLIIE SKSEKSEIFS
+     KLENLNVSDL EIKIAFALGS VINQALISKQ GSYLTNLVIE QVKNRYQFLN QHLNPAIESD
+     NNFTDTTKIF HDSLFNSATA ENSMFLTKIA PYLQVGFMPE ARSTISLSGP GAYASAYYDF
+     INLQENTIEK TLKASDLIEF KFPENNLSQL TEQEINSLWS FDQASAKYQF EKYVRDYTGG
+     SLSEDNGVDF NKNTALDKNY LLNNKIPSNN VEEAGSKNYV HYIIQLQGDD ISYEATCNLF
+     SKNPKNSIII QRNMNESAKS YFLSDDGESI LELNKYRIPE RLKNKEKVKV TFIGHGKDEF
+     NTSEFARLSV DSLSNEISSF LDTIKLDISP KNVEVNLLGC NMFSYDFNVE ETYPGKLLLS
+     IMDKITSTLP DVNKNSITIG ANQYEVRINS EGRKELLAHS GKWINKEEAI MSDLSSKEYI
+     FFDSIDNKLK AKSKNIPGLA SISEDIKTLL LDASVSPDTK FILNNLKLNI ESSIGDYIYY
+     EKLEPVKNII HNSIDDLIDE FNLLENVSDE LYELKKLNNL DEKYLISFED ISKNNSTYSV
+     RFINKSNGES VYVETEKEIF SKYSEHITKE ISTIKNSIIT DVNGNLLDNI QLDHTSQVNT
+     LNAAFFIQSL IDYSSNKDVL NDLSTSVKVQ LYAQLFSTGL NTIYDSIQLV NLISNAVNDT
+     INVLPTITEG IPIVSTILDG INLGAAIKEL LDEHDPLLKK ELEAKVGVLA INMSLSIAAT
+     VASIVGIGAE VTIFLLPIAG ISAGIPSLVN NELILHDKAT SVVNYFNHLS ESKKYGPLKT
+     EDDKILVPID DLVISEIDFN NNSIKLGTCN ILAMEGGSGH TVTGNIDHFF SSPSISSHIP
+     SLSIYSAIGI ETENLDFSKK IMMLPNAPSR VFWWETGAVP GLRSLENDGT RLLDSIRDLY
+     PGKFYWRFYA FFDYAITTLK PVYEDTNIKI KLDKDTRNFI MPTITTNEIR NKLSYSFDGA
+     GGTYSLLLSS YPISTNINLS KDDLWIFNID NEVREISIEN GTIKKGKLIK DVLSKIDINK
+     NKLIIGNQTI DFSGDIDNKD RYIFLTCELD DKISLIIEIN LVAKSYSLLL SGDKNYLISN
+     LSNTIEKINT LGLDSKNIAY NYTDESNNKY FGAISKTSQK SIIHYKKDSK NILEFYNDST
+     LEFNSKDFIA EDINVFMKDD INTITGKYYV DNNTDKSIDF SISLVSKNQV KVNGLYLNES
+     VYSSYLDFVK NSDGHHNTSN FMNLFLDNIS FWKLFGFENI NFVIDKYFTL VGKTNLGYVE
+     FICDNNKNID IYFGEWKTSS SKSTIFSGNG RNVVVEPIYN PDTGEDISTS LDFSYEPLYG
+     IDRYINKVLI APDLYTSLIN INTNYYSNEY YPEIIVLNPN TFHKKVNINL DSSSFEYKWS
+     TEGSDFILVR YLEESNKKIL QKIRIKGILS NTQSFNKMSI DFKDIKKLSL GYIMSNFKSF
+     NSENELDRDH LGFKIIDNKT YYYDEDSKLV KGLININNSL FYFDPIEFNL VTGWQTINGK
+     KYYFDINTGA ALTSYKIING KHFYFNNDGV MQLGVFKGPD GFEYFAPANT QNNNIEGQAI
+     VYQSKFLTLN GKKYYFDNNS KAVTGWRIIN NEKYYFNPNN AIAAVGLQVI DNNKYYFNPD
+     TAIISKGWQT VNGSRYYFDT DTAIAFNGYK TIDGKHFYFD SDCVVKIGVF STSNGFEYFA
+     PANTYNNNIE GQAIVYQSKF LTLNGKKYYF DNNSKAVTGL QTIDSKKYYF NTNTAEAATG
+     WQTIDGKKYY FNTNTAEAAT GWQTIDGKKY YFNTNTAIAS TGYTIINGKH FYFNTDGIMQ
+     IGVFKGPNGF EYFAPANTDA NNIEGQAILY QNEFLTLNGK KYYFGSDSKA VTGWRIINNK
+     KYYFNPNNAI AAIHLCTINN DKYYFSYDGI LQNGYITIER NNFYFDANNE SKMVTGVFKG
+     PNGFEYFAPA NTHNNNIEGQ AIVYQNKFLT LNGKKYYFDN DSKAVTGWQT IDGKKYYFNL
+     NTAEAATGWQ TIDGKKYYFN LNTAEAATGW QTIDGKKYYF NTNTFIASTG YTSINGKHFY
+     FNTDGIMQIG VFKGPNGFEY FAPANTDANN IEGQAILYQN KFLTLNGKKY YFGSDSKAVT
+     GLRTIDGKKY YFNTNTAVAV TGWQTINGKK YYFNTNTSIA STGYTIISGK HFYFNTDGIM
+     QIGVFKGPDG FEYFAPANTD ANNIEGQAIR YQNRFLYLHD NIYYFGNNSK AATGWVTIDG
+     NRYYFEPNTA MGANGYKTID NKNFYFRNGL PQIGVFKGSN GFEYFAPANT DANNIEGQAI
+     RYQNRFLHLL GKIYYFGNNS KAVTGWQTIN GKVYYFMPDT AMAAAGGLFE IDGVIYFFGV
+     DGVKAPGIYG
+//

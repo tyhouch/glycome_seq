@@ -1,0 +1,245 @@
+ID   LPHN_DROGR              Reviewed;        1777 AA.
+AC   B4J780;
+DT   20-APR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   25-MAY-2022, entry version 68.
+DE   RecName: Full=Latrophilin Cirl {ECO:0000250|UniProtKB:A1Z7G7};
+GN   Name=Cirl {ECO:0000250|UniProtKB:A1Z7G7}; ORFNames=GH20083;
+OS   Drosophila grimshawi (Hawaiian fruit fly) (Idiomyia grimshawi).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Hawaiian Drosophila.
+OX   NCBI_TaxID=7222;
+RN   [1] {ECO:0000312|EMBL:EDW02098.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Tucson 15287-2541.00 {ECO:0000312|EMBL:EDW02098.1};
+RX   PubMed=17994087; DOI=10.1038/nature06341;
+RG   Drosophila 12 genomes consortium;
+RT   "Evolution of genes and genomes on the Drosophila phylogeny.";
+RL   Nature 450:203-218(2007).
+CC   -!- SUBUNIT: Forms a heterodimer, consisting of a large extracellular
+CC       region non-covalently linked to a seven-transmembrane moiety.
+CC       {ECO:0000250|UniProtKB:O88923}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000250|UniProtKB:O88923, ECO:0000255}.
+CC   -!- PTM: Proteolytically cleaved into 2 subunits, an extracellular subunit
+CC       and a seven-transmembrane subunit. {ECO:0000250|UniProtKB:O88923}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 2 family. LN-TM7
+CC       subfamily. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH916367; EDW02098.1; -; Genomic_DNA.
+DR   RefSeq; XP_001987231.1; XM_001987195.1.
+DR   AlphaFoldDB; B4J780; -.
+DR   SMR; B4J780; -.
+DR   STRING; 7222.FBpp0153989; -.
+DR   MEROPS; P02.A01; -.
+DR   EnsemblMetazoa; FBtr0470157; FBpp0420233; FBgn0127547.
+DR   eggNOG; KOG4193; Eukaryota.
+DR   eggNOG; KOG4729; Eukaryota.
+DR   HOGENOM; CLU_003272_0_0_1; -.
+DR   InParanoid; B4J780; -.
+DR   OMA; SMRGAYR; -.
+DR   OrthoDB; 77744at2759; -.
+DR   PhylomeDB; B4J780; -.
+DR   ChiTaRS; Cirl; fly.
+DR   Proteomes; UP000001070; Unassembled WGS sequence.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008344; P:adult locomotory behavior; IEA:EnsemblMetazoa.
+DR   GO; GO:0007166; P:cell surface receptor signaling pathway; IEA:InterPro.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   Gene3D; 2.60.220.50; -; 1.
+DR   Gene3D; 4.10.1240.10; -; 1.
+DR   InterPro; IPR032471; GAIN_dom_N.
+DR   InterPro; IPR046338; GAIN_dom_sf.
+DR   InterPro; IPR017981; GPCR_2-like.
+DR   InterPro; IPR036445; GPCR_2_extracell_dom_sf.
+DR   InterPro; IPR000203; GPS.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   Pfam; PF16489; GAIN; 1.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   Pfam; PF01825; GPS; 1.
+DR   SMART; SM00303; GPS; 1.
+DR   PROSITE; PS50261; G_PROTEIN_RECEP_F2_4; 1.
+DR   PROSITE; PS50221; GPS; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; G-protein coupled receptor; Glycoprotein; Lectin; Membrane;
+KW   Phosphoprotein; Receptor; Reference proteome; Transducer; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..1777
+FT                   /note="Latrophilin Cirl"
+FT                   /id="PRO_0000393374"
+FT   TOPO_DOM        1..786
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        787..807
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        808..820
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        821..841
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        842..847
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        848..868
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        869..894
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        895..915
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        916..940
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        941..961
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        962..988
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        989..1009
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1010..1016
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1017..1037
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1038..1777
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          45..134
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   DOMAIN          725..772
+FT                   /note="GPS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00098"
+FT   REGION          189..304
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1096..1127
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1235..1257
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1270..1300
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1344..1369
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1511..1596
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1684..1756
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        223..246
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        247..269
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        278..304
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1105..1125
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1516..1536
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1545..1562
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1700..1756
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1189
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1289
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1296
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1366
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   MOD_RES         1367
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A1Z7G7"
+FT   CARBOHYD        5
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        162
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        257
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        300
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        351
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        415
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        674
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        722
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        749
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   1777 AA;  194170 MW;  C82E7FDE4C4B8918 CRC64;
+     MYLKNHTLGL RTKASQGAPL AKAAQSLLQL KKLDCVPPKY QTAYACEGKK LTIECEPGDL
+     INLIRANYGR FSITICNDHG NVEWSVNCMF PKSLTVLNSK CSHKQSCSVL AATSMFGDPC
+     PGTHKYLEAH YQCISAAQTS TTTNRPSPPP WVLSNGPPIF GNGSGLIQPT PQPPPRLPTL
+     PGVVGIHGIN GVPPTHATPS SSTAMLPGGR LKGVTSATTK HPGGRHDGLR PPPQLHHHHH
+     HTDDTAPTKS SSGSAGNVTA PSNTRILTGV GGGGSDDGTL LTTKSSPNRT PGTAASAANN
+     NSLGIGGTAP GSGGGVVRTI NNINLNAAGM GAEDESKLFC GPTHARNLFW NMTRVGDVNV
+     QPCPGGAAGI AKWRCVLMKR VPDAGYDEYD DEMPVASSTT PMPPPSSAGG DCLHNSSSCE
+     PPVSMAHKVN QNQRLRNFEP TWHPLTPDLT QCRSLWLNSL EMRVNQQDSS LISIANDLSE
+     VTSSKTLYGG DMLVTTKIIQ RMSEKMLHDK GTFPDQRQRE AIIMELLHGV VKTGSNLLDE
+     SQLSSWLDLN QEDQMRVATS LLTGLEYNAF LLADTIIRER NVVQKVKNIL LSVRVLETKT
+     IQGNVVFPDS DQWPLSSDRI ELPRTALKEN SEGGLVRIVF AAFDRLESIL KPSYDHFDLK
+     SARSYVRNTA ILSNDSDTNA GEMQQRVRIL NSKVISASLG KGRHIQLSQP IKLVLKHLKT
+     ENVSNPTCVF WNYIDHAWSA NGCSLESTNR THSVCSCNHL TNFAILMDVV DEHQHSLFTM
+     FDGNMRIFIY ISVAICVVFI IIALLTLKLF NGVFVKSART SIYSSIYICL LAIELLFLLG
+     IEQTETSIFC GFITVFLHCA ILSGTAWFCY EAFHSYSTLT SDELLLEVDQ TPKVNCYYLL
+     SYGLSLSVVA ISLGINPSTY TLRNDYCVLM EANALFYVTF VAPILIFFVA AISYTFLSWI
+     IMRRKSRTAL KTKEHTRLAN VRFDIRCSFV FLLLLSADWC CAYFYLRGAK LDEDVAAIYG
+     YCFVCFNTLM GLYIFVFHCI QNEKIRREYR KYVRQHAWLP KCLRCSKTSI SSGIVSGNGG
+     PGGVSGGVAT NSAGTLSKSK SKLPLGSSDD GHDEEQPHQQ QHQHDQPANE DAIIMGAGSD
+     CELSEAQQRR TLKSGLLAGS LQPVTPVGAV VLERGTLRST GMASVGHASP TSSAGSTHLI
+     FAHKHQQQLQ QQPGESYYHQ PDYYSWKHPQ AGGQREYYNN TGVPGGGGGV GVGGASPQQS
+     HEVFYWTQKH NNQHGKKKRG GGAGAVPASP SGSLHSRVTP ASQVLFYPSY KKTSGMKQPP
+     PSAQQAYPHY AEALDPPNNA AYYQQQLQQQ QQLRQQRQQQ QQQQLSSDEE QAHLLHLQHQ
+     QRRAGGQQQL PAPPPHMAQY QQELLAQQQR QQYRNKHSNC DLSQGIGLGM NMGMGQGLGG
+     DAYYNQGGGG SSNGGGVGGD GPVYEEILSN RNSDAQHYEV GDFDVDEVYN NSVGTGVFNS
+     MRAAVAAGGS RYGGGSLSGG SVTSRNQQQQ LQAKQKQPPR RCAADDDDDD DDDDDEYDDE
+     VTAAEQLHDS VCDDEDNESD MDDDDTHGLP PQSDERMRRL MALQDEDFKR RFQRQQRKNG
+     LPLDYGAPPQ TSAGATIAHP IEHNGAVFGV SGGVGEGSMR GAYRQQQQQL NAKSPSARLA
+     VNELFGHGNA GPPLPPANQT PAQKRQQLQK LSPQSTTSSS SHTSHSNLQQ HSAPTHHHLQ
+     HQQPQLHHHQ QQQQARNLSA MLDENNTVRC YLEPLAK
+//

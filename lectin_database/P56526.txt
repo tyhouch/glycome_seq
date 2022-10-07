@@ -1,0 +1,194 @@
+ID   AGLU_ASPNG              Reviewed;         985 AA.
+AC   P56526; O13451;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 1.
+DT   25-MAY-2022, entry version 97.
+DE   RecName: Full=Alpha-glucosidase;
+DE            EC=3.2.1.20;
+DE   AltName: Full=Maltase;
+DE   Flags: Precursor;
+GN   Name=aglA;
+OS   Aspergillus niger.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=5061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=GN-3;
+RX   PubMed=9165762; DOI=10.1016/s0168-1656(97)01664-7;
+RA   Nakamura A., Nishimura I., Yokoyama A., Lee D.-G., Hidaka M., Masaki H.,
+RA   Kimura A., Chiba S., Uozumi T.;
+RT   "Cloning and sequencing of an alpha-glucosidase gene from Aspergillus niger
+RT   and its expression in A. nidulans.";
+RL   J. Biotechnol. 53:75-84(1997).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 26-252 AND 267-985, AND GLYCOSYLATION AT THR-36;
+RP   ASN-124; ASN-143; ASN-218; ASN-347; ASN-422; ASN-506; ASN-534; SER-545;
+RP   SER-550; THR-559; SER-560; THR-561; SER-562; THR-571; ASN-601; ASN-623;
+RP   ASN-835; ASN-881; SER-895; ASN-899; ASN-957 AND ASN-970.
+RC   STRAIN=GN-8;
+RX   PubMed=1368849; DOI=10.1271/bbb.56.1368;
+RA   Kimura A., Takata M., Sakai O., Matsui H., Takai N., Takayanagi T.,
+RA   Nishimua I., Uozumi T., Chiba S.;
+RT   "Complete amino acid sequence of crystalline alpha-glucosidase from
+RT   Aspergillus niger.";
+RL   Biosci. Biotechnol. Biochem. 56:1368-1370(1992).
+CC   -!- FUNCTION: Hydrolyzes malto-oligosaccharides, but has a low activity
+CC       toward soluble starch.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC   -!- PTM: The O-linked saccharide is not identified, but is probably
+CC       mannose. {ECO:0000269|PubMed:1368849}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D45356; BAA23616.1; -; Genomic_DNA.
+DR   PIR; JC1199; JC1199.
+DR   PIR; JC1200; JC1200.
+DR   PIR; JC5561; JC5561.
+DR   AlphaFoldDB; P56526; -.
+DR   SMR; P56526; -.
+DR   STRING; 5061.CADANGAP00004308; -.
+DR   BindingDB; P56526; -.
+DR   ChEMBL; CHEMBL3435; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   CLAE; AGL31A_ASPNG; -.
+DR   GlyConnect; 43; 7 N-Linked glycans.
+DR   iPTMnet; P56526; -.
+DR   VEuPathDB; FungiDB:An04g06920; -.
+DR   VEuPathDB; FungiDB:ASPNIDRAFT2_1146704; -.
+DR   VEuPathDB; FungiDB:ATCC64974_81710; -.
+DR   VEuPathDB; FungiDB:M747DRAFT_360506; -.
+DR   eggNOG; KOG1065; Eukaryota.
+DR   BRENDA; 3.2.1.20; 518.
+DR   GO; GO:0004558; F:alpha-1,4-glucosidase activity; IDA:AspGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR030459; Glyco_hydro_31_CS.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   Pfam; PF16863; NtCtMGAM_N; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+DR   PROSITE; PS00707; GLYCOSYL_HYDROL_F31_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Glycosidase; Hydrolase; Signal.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CHAIN           26..985
+FT                   /note="Alpha-glucosidase"
+FT                   /id="PRO_0000018576"
+FT   ACT_SITE        490
+FT                   /note="Nucleophile"
+FT   ACT_SITE        493
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        660
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        36
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        124
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        143
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        218
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        347
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        422
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        506
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        534
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        537
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        545
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        550
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        559
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        560
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        561
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        562
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        571
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        601
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        623
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        835
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        881
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        895
+FT                   /note="O-linked (Man) serine"
+FT                   /evidence="ECO:0000305|PubMed:1368849"
+FT   CARBOHYD        899
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        957
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   CARBOHYD        970
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1368849"
+FT   VARIANT         27..28
+FT                   /note="TT -> LL (in strain: GN-8)"
+FT   VARIANT         42
+FT                   /note="D -> A (in strain: GN-8)"
+FT   VARIANT         929
+FT                   /note="N -> M (in strain: GN-8)"
+SQ   SEQUENCE   985 AA;  108913 MW;  9A18772AEB2E0927 CRC64;
+     MVKLTHLLAR AWLVPLAYGA SQSLLSTTAP SQPQFTIPAS ADVGAQLIAN IDDPQAADAQ
+     SVCPGYKASK VQHNSRGFTA SLQLAGRPCN VYGTDVESLT LSVEYQDSDR LNIQILPTHV
+     DSTNASWYFL SENLVPRPKA SLNASVSQSD LFVSWSNEPS FNFKVIRKAT GDALFSTEGT
+     VLVYENQFIE FVTALPEEYN LYGLGEHITQ FRLQRNANLT IYPSDDGTPI DQNLYGQHPF
+     YLDTRYYKGD RQNGSYIPVK SSEADASQDY ISLSHGVFLR NSHGLEILLR SQKLIWRTLG
+     GGIDLTFYSG PAPADVTRQY LTSTVGLPAM QQYNTLGFHQ CRWGYNNWSD LADVVANFEK
+     FEIPLEYIWT DIDYMHGYRN FDNDQHRFSY SEGDEFLSKL HESGRYYVPI VDAALYIPNP
+     ENASDAYATY DRGAADDVFL KNPDGSLYIG AVWPGYTVFP DWHHPKAVDF WANELVIWSK
+     KVAFDGVWYD MSEVSSFCVG SCGTGNLTLN PAHPSFLLPG EPGDIIYDYP EAFNITNATE
+     AASASAGASS QAAATATTTS TSVSYLRTTP TPGVRNVEHP PYVINHDQEG HDLSVHAVSP
+     NATHVDGVEE YDVHGLYGHQ GLNATYQGLL EVWSHKRRPF IIGRSTFAGS GKWAGHWGGD
+     NYSKWWSMYY SISQALSFSL FGIPMFGADT CGFNGNSDEE LCNRWMQLSA FFPFYRNHNE
+     LSTIPQEPYR WASVIEATKS AMRIRYAILP YFYTLFDLAH TTGSTVMRAL SWEFPNDPTL
+     AAVETQFMVG PAIMVVPVLE PLVNTVKGVF PGVGHGEVWY DWYTQAAVDA KPGVNTTISA
+     PLGHIPVYVR GGNILPMQEP ALTTREARQT PWALLAALGS NGTASGQLYL DDGESIYPNA
+     TLHVDFTASR SSLRSSAQGR WKERNPLANV TVLGVNKEPS AVTLNGQAVF PGSVTYNSTS
+     QVLFVGGLQN LTKGGAWAEN WVLEW
+//

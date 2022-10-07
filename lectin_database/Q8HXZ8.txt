@@ -1,0 +1,177 @@
+ID   CD209_GORGO             Reviewed;         427 AA.
+AC   Q8HXZ8;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   03-AUG-2022, entry version 82.
+DE   RecName: Full=CD209 antigen;
+DE   AltName: Full=Dendritic cell-specific ICAM-3-grabbing non-integrin 1;
+DE            Short=DC-SIGN1;
+DE   AltName: CD_antigen=CD209;
+GN   Name=CD209;
+OS   Gorilla gorilla gorilla (Western lowland gorilla).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Gorilla.
+OX   NCBI_TaxID=9595;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Isolate Ggo3;
+RX   PubMed=12477827; DOI=10.1128/jvi.77.1.217-227.2003;
+RA   Bashirova A.A., Wu L., Cheng J., Martin T.D., Martin M.P., Benveniste R.E.,
+RA   Lifson J.D., Kewalramani V.N., Hughes A., Carrington M.;
+RT   "Novel member of the CD209 (DC-SIGN) gene family in primates.";
+RL   J. Virol. 77:217-227(2003).
+CC   -!- FUNCTION: Pathogen-recognition receptor expressed on the surface of
+CC       immature dendritic cells (DCs) and involved in initiation of primary
+CC       immune response. Thought to mediate the endocytosis of pathogens which
+CC       are subsequently degraded in lysosomal compartments. The receptor
+CC       returns to the cell membrane surface and the pathogen-derived antigens
+CC       are presented to resting T-cells via MHC class II proteins to initiate
+CC       the adaptive immune response. Probably recognizes in a calcium-
+CC       dependent manner high mannose N-linked oligosaccharides in a variety of
+CC       pathogen antigens (By similarity). {ECO:0000250}.
+CC   -!- FUNCTION: On DCs it is a high affinity receptor for ICAM2 and ICAM3 by
+CC       binding to mannose-like carbohydrates. May act as a DC rolling receptor
+CC       that mediates transendothelial migration of DC presursors from blood to
+CC       tissues by binding endothelial ICAM2. Seems to regulate DC-induced T-
+CC       cell proliferation by binding to ICAM3 on T-cells in the immunological
+CC       synapse formed between DC and T-cells (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homotetramer. Interacts with C1QBP; the interaction is
+CC       indicative for a C1q:C1QBP:CD209 signaling complex. Interacts with
+CC       ICAM2 and ICAM3 by binding to mannose-like carbohydrates. Interacts
+CC       (via C-type lectin domain) with CEACAM1 (via Lewis X moieties); this
+CC       interaction is regulated by the glycosylation pattern of CEACAM1 on
+CC       cell types and regulates contact between dendritic cells and
+CC       neutrophils. {ECO:0000250|UniProtKB:Q9NNX6}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}.
+CC   -!- DOMAIN: The tandem repeat domain, also called neck domain, mediates
+CC       oligomerization. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY078912; AAL89543.1; -; Genomic_DNA.
+DR   EMBL; AY078906; AAL89543.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078907; AAL89543.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078908; AAL89543.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078909; AAL89543.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078910; AAL89543.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078911; AAL89543.1; JOINED; Genomic_DNA.
+DR   AlphaFoldDB; Q8HXZ8; -.
+DR   SMR; Q8HXZ8; -.
+DR   STRING; 9593.ENSGGOP00000019779; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; Q8HXZ8; -.
+DR   Proteomes; UP000001519; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0005537; F:mannose binding; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0006897; P:endocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   3: Inferred from homology;
+KW   Adaptive immunity; Calcium; Cell adhesion; Disulfide bond; Endocytosis;
+KW   Glycoprotein; Immunity; Innate immunity; Lectin; Mannose-binding; Membrane;
+KW   Metal-binding; Receptor; Reference proteome; Repeat; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..427
+FT                   /note="CD209 antigen"
+FT                   /id="PRO_0000046594"
+FT   TOPO_DOM        1..37
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        38..58
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        59..427
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          96..118
+FT                   /note="1"
+FT   REPEAT          119..141
+FT                   /note="2"
+FT   REPEAT          142..164
+FT                   /note="3"
+FT   REPEAT          165..187
+FT                   /note="4"
+FT   REPEAT          188..210
+FT                   /note="5"
+FT   REPEAT          211..233
+FT                   /note="6"
+FT   REPEAT          234..256
+FT                   /note="7"
+FT   REPEAT          257..280
+FT                   /note="8"
+FT   DOMAIN          286..401
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          96..280
+FT                   /note="8 X approximate tandem repeats"
+FT   MOTIF           14..15
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           16..18
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           31..34
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         370
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         372
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         374
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         377
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         388
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         389
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        80
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        279..290
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        307..400
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        379..392
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   427 AA;  48400 MW;  2A75B519E7FFE3B2 CRC64;
+     MSDSKEPRLQ QLGLLEEEQL RGLGFRQTRG YKSLAGCLGH GPLVLQLLSF TLLAALLVQV
+     SKVPSSISQE QSRQDAIYQN LTQFKAAVGE LSEKSKLQEI YQELTQLKAA VGELPEKSKQ
+     QEIYQELSQL KAAVGELPEK SKQQEIYQEL SQLKAAVGEL PEKSKQQEIY QELTRLKAAV
+     GELPEKSKQQ EIYQELSQLK AAVGELPEKS KQQEIYQELS QLKAAVGELP EKSKQQEIYQ
+     ELTQLKAAVG ELPEKSKQQE IYQELTQLKA AVERLCRRCP WEWTFFQGNC YFMSNSQRNW
+     HDSITACQEV GAQLVVIKSA EEQNFLQLQS SRSNRFTWMG LSDLNHEGTW QWVDGSPLLP
+     SFKQYWNRGE PNNVGEEDCA EFSGNGWNDD KCNLAKFWIC KKSAASCSRD EEQFLSPASA
+     TPNPPPE
+//

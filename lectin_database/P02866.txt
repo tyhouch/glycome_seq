@@ -1,0 +1,431 @@
+ID   CONA_CANEN              Reviewed;         290 AA.
+AC   P02866; Q947H0;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2003, sequence version 2.
+DT   03-AUG-2022, entry version 157.
+DE   RecName: Full=Concanavalin-A;
+DE            Short=Con A;
+DE   Flags: Precursor;
+OS   Canavalia ensiformis (Jack bean) (Dolichos ensiformis).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Canavalia.
+OX   NCBI_TaxID=3823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3965973; DOI=10.1038/313064a0;
+RA   Carrington D.M., Auffret A., Hanke D.E.;
+RT   "Polypeptide ligation occurs during post-translational modification of
+RT   concanavalin A.";
+RL   Nature 313:64-67(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. U-02;
+RA   Ramis C., Gomord V.;
+RL   Submitted (SEP-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PROTEIN SEQUENCE OF 30-148.
+RX   PubMed=1112814; DOI=10.1016/s0021-9258(19)41841-3;
+RA   Cunningham B.A., Wang J.L., Waxdal M.J., Edelman G.M.;
+RT   "The covalent and three-dimensional structure of concanavalin A. II. Amino
+RT   acid sequence of cyanogen bromide fragment F3.";
+RL   J. Biol. Chem. 250:1503-1512(1975).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 164-281.
+RX   PubMed=1112813; DOI=10.1016/s0021-9258(19)41840-1;
+RA   Wang J.L., Cunningham B.A., Waxdal M.J., Edelman G.M.;
+RT   "The covalent and three-dimensional structural of concanavalin A. I. Amino
+RT   acid sequence of cyanogen bromide fragments F1 and F2.";
+RL   J. Biol. Chem. 250:1490-1502(1975).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS).
+RX   PubMed=4638345; DOI=10.1021/bi00776a006;
+RA   Hardman K.D., Ainsworth C.F.;
+RT   "Structure of concanavalin A at 2.4-A resolution.";
+RL   Biochemistry 11:4910-4919(1972).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS).
+RX   PubMed=1112815; DOI=10.1016/s0021-9258(19)41842-5;
+RA   Becker J.W., Reeke G.N. Jr., Wang J.L., Cunningham B.A., Edelman G.M.;
+RT   "The covalent and three-dimensional structure of concanavalin A. III.
+RT   Structure of the monomer and its interactions with metals and
+RT   saccharides.";
+RL   J. Biol. Chem. 250:1513-1524(1975).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS).
+RX   PubMed=1112816; DOI=10.1016/s0021-9258(19)41843-7;
+RA   Reeke G.N. Jr., Becker J.W., Edelman G.M.;
+RT   "The covalent and three-dimensional structure of concanavalin A. IV. Atomic
+RT   coordinates, hydrogen bonding, and quaternary structure.";
+RL   J. Biol. Chem. 250:1525-1547(1975).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 164-290 IN COMPLEX WITH
+RP   METHYL-ALPHA-D-MANNOPYRANOSIDE; CALCIUM AND MANGANESE IONS, AND SUBUNIT.
+RX   PubMed=2792084; DOI=10.1002/j.1460-2075.1989.tb08341.x;
+RA   Derewenda Z., Yariv J., Helliwell J.R., Kalb A.J., Dodson E.J., Papiz M.Z.,
+RA   Wan T., Campbell J.;
+RT   "The structure of the saccharide-binding site of concanavalin A.";
+RL   EMBO J. 8:2189-2193(1989).
+RN   [9]
+RP   X-RAY CRYSTALLOGRAPHY (1.2 ANGSTROMS).
+RX   PubMed=15299577; DOI=10.1107/s0907444996009237;
+RA   Parkin S., Rupp B., Hope H.;
+RT   "Atomic resolution structure of concanavalin A at 120 K.";
+RL   Acta Crystallogr. D 52:1161-1168(1996).
+RN   [10]
+RP   X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS).
+RX   PubMed=10748006; DOI=10.1074/jbc.m001251200;
+RA   Bouckaert J., Dewallef Y., Poortmans F., Wyns L., Loris R.;
+RT   "The structural features of concanavalin A governing non-proline peptide
+RT   isomerization.";
+RL   J. Biol. Chem. 275:19778-19787(2000).
+CC   -!- FUNCTION: D-mannose specific lectin.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:2792084}.
+CC   -!- PTM: The mature chain consists of residues 164-281 followed by 30-148.
+CC       To form a mature chain the precursor undergoes further post-
+CC       translational modification after removal of the signal sequence;
+CC       cleavage after Asn at positions 148, 163, and 281 is followed by
+CC       transposition and ligation (By formation of a new peptide bond) of
+CC       residues 164-281 and 30-148.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Worthington enzyme manual;
+CC       URL="http://www.worthington-biochem.com/CONA/";
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Con A (Canavalia ensiformis);
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_pla_other_414";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X01632; CAA25787.1; -; mRNA.
+DR   EMBL; AF308777; AAL09432.1; -; mRNA.
+DR   PIR; A03357; CVJBP.
+DR   PDB; 1APN; X-ray; 2.50 A; A/B=28-148.
+DR   PDB; 1BXH; X-ray; 2.75 A; A/B/C/D=148-164.
+DR   PDB; 1C57; Neutron; 2.40 A; A=148-164.
+DR   PDB; 1CES; X-ray; 2.70 A; A/B=28-148.
+DR   PDB; 1CJP; X-ray; 2.78 A; A/B/C/D=30-148.
+DR   PDB; 1CN1; X-ray; 3.20 A; A/B=30-281.
+DR   PDB; 1CON; X-ray; 2.00 A; A=28-148.
+DR   PDB; 1CVN; X-ray; 2.30 A; A/B/C/D=30-148.
+DR   PDB; 1DQ0; X-ray; 1.70 A; A=28-148.
+DR   PDB; 1DQ1; X-ray; 2.15 A; A=28-148.
+DR   PDB; 1DQ2; X-ray; 2.05 A; A/B=28-148.
+DR   PDB; 1DQ4; X-ray; 2.90 A; A/B=28-148.
+DR   PDB; 1DQ5; X-ray; 2.00 A; A=28-148.
+DR   PDB; 1DQ6; X-ray; 1.90 A; A=28-148.
+DR   PDB; 1ENQ; X-ray; 2.50 A; A/B/C/D=30-148.
+DR   PDB; 1ENR; X-ray; 1.83 A; A=28-148.
+DR   PDB; 1ENS; X-ray; 2.80 A; A/B=30-148.
+DR   PDB; 1GIC; X-ray; 2.00 A; A/B=28-148.
+DR   PDB; 1GKB; X-ray; 1.56 A; A/B=148-164.
+DR   PDB; 1HQW; X-ray; 2.40 A; A=30-148.
+DR   PDB; 1I3H; X-ray; 1.20 A; A=28-148.
+DR   PDB; 1JBC; X-ray; 1.15 A; A=28-148.
+DR   PDB; 1JN2; X-ray; 1.90 A; P=28-148.
+DR   PDB; 1JOJ; X-ray; 3.00 A; A/B/C/D=28-148.
+DR   PDB; 1JUI; X-ray; 2.75 A; A/B/C/D=28-148.
+DR   PDB; 1JW6; X-ray; 1.93 A; A=28-148.
+DR   PDB; 1JYC; X-ray; 2.75 A; A/B/C/D=28-148.
+DR   PDB; 1JYI; X-ray; 2.75 A; A/B/C/D=28-148.
+DR   PDB; 1NLS; X-ray; 0.94 A; A=28-148.
+DR   PDB; 1NXD; X-ray; 1.90 A; 1/2/3/4=148-164.
+DR   PDB; 1ONA; X-ray; 2.35 A; A/B/C/D=30-148.
+DR   PDB; 1QGL; X-ray; 2.66 A; A/B=30-148.
+DR   PDB; 1QNY; X-ray; 1.80 A; A=28-148.
+DR   PDB; 1SCR; X-ray; 2.00 A; A=28-148.
+DR   PDB; 1SCS; X-ray; 1.60 A; A=28-148.
+DR   PDB; 1TEI; X-ray; 2.70 A; A/B/C/D/E/F/G/H=28-148.
+DR   PDB; 1VAL; X-ray; 3.00 A; A/B/C/D=30-148.
+DR   PDB; 1VAM; X-ray; 2.75 A; A/B/C/D=30-148.
+DR   PDB; 1XQN; Neutron; 2.50 A; A=28-148.
+DR   PDB; 2CNA; X-ray; 2.00 A; A=28-148.
+DR   PDB; 2CTV; X-ray; 1.95 A; A=28-148.
+DR   PDB; 2ENR; X-ray; 2.35 A; A=28-148.
+DR   PDB; 2UU8; X-ray; 0.94 A; A=148-164.
+DR   PDB; 2YZ4; Neutron; 2.20 A; A=28-148.
+DR   PDB; 3CNA; X-ray; 2.40 A; A=30-281.
+DR   PDB; 3D4K; X-ray; 1.80 A; A/B/C/D=148-164.
+DR   PDB; 3ENR; X-ray; 2.40 A; A/B=148-164.
+DR   PDB; 3NWK; X-ray; 2.09 A; A/B/C/D=148-164.
+DR   PDB; 4P9W; X-ray; 2.11 A; A/B/C/D=28-148.
+DR   PDB; 4P9X; X-ray; 2.06 A; A/B/C/D=28-148.
+DR   PDB; 4P9Y; X-ray; 1.89 A; A/B=28-148.
+DR   PDB; 4PF5; X-ray; 2.04 A; A/B=28-148.
+DR   PDB; 5CNA; X-ray; 2.00 A; A/B/C/D=28-148.
+DR   PDB; 5O6N; X-ray; 1.35 A; A=148-164.
+DR   PDB; 5WEY; Other; 1.80 A; A=148-164.
+DR   PDB; 5Z5L; X-ray; 2.30 A; A/B/C/D=148-164.
+DR   PDB; 5Z5N; X-ray; 2.04 A; A/B/C/D=148-164.
+DR   PDB; 5Z5P; X-ray; 1.40 A; A/B=148-164.
+DR   PDB; 5Z5Y; X-ray; 1.89 A; A/B=148-164.
+DR   PDB; 5ZAC; X-ray; 2.59 A; A/B/C/D=148-164.
+DR   PDB; 6AHG; X-ray; 2.83 A; A/B/C=148-164.
+DR   PDB; 6H2M; X-ray; 1.93 A; A=148-164.
+DR   PDB; 6XT6; X-ray; 2.10 A; A/B=30-290.
+DR   PDB; 7MG1; X-ray; 2.00 A; A=148-164.
+DR   PDB; 7MG2; X-ray; 1.80 A; A=148-164.
+DR   PDB; 7MG3; X-ray; 1.60 A; A=148-164.
+DR   PDB; 7MG4; X-ray; 2.00 A; A=148-164.
+DR   PDB; 7MG5; X-ray; 2.10 A; A/B=148-164.
+DR   PDB; 7MG6; X-ray; 1.70 A; A/B=148-164.
+DR   PDB; 7MG7; X-ray; 1.75 A; A/B=148-164.
+DR   PDB; 7MG8; X-ray; 3.00 A; A/B=148-164.
+DR   PDB; 7MG9; X-ray; 2.55 A; A/B=148-164.
+DR   PDB; 7MGA; X-ray; 2.00 A; A/B=148-164.
+DR   PDB; 7MGB; X-ray; 2.45 A; A/B/C/D=148-164.
+DR   PDB; 7MGC; X-ray; 2.92 A; A/B/C/D=148-164.
+DR   PDB; 7MGD; X-ray; 2.05 A; A/B/C/D=148-164.
+DR   PDBsum; 1APN; -.
+DR   PDBsum; 1BXH; -.
+DR   PDBsum; 1C57; -.
+DR   PDBsum; 1CES; -.
+DR   PDBsum; 1CJP; -.
+DR   PDBsum; 1CN1; -.
+DR   PDBsum; 1CON; -.
+DR   PDBsum; 1CVN; -.
+DR   PDBsum; 1DQ0; -.
+DR   PDBsum; 1DQ1; -.
+DR   PDBsum; 1DQ2; -.
+DR   PDBsum; 1DQ4; -.
+DR   PDBsum; 1DQ5; -.
+DR   PDBsum; 1DQ6; -.
+DR   PDBsum; 1ENQ; -.
+DR   PDBsum; 1ENR; -.
+DR   PDBsum; 1ENS; -.
+DR   PDBsum; 1GIC; -.
+DR   PDBsum; 1GKB; -.
+DR   PDBsum; 1HQW; -.
+DR   PDBsum; 1I3H; -.
+DR   PDBsum; 1JBC; -.
+DR   PDBsum; 1JN2; -.
+DR   PDBsum; 1JOJ; -.
+DR   PDBsum; 1JUI; -.
+DR   PDBsum; 1JW6; -.
+DR   PDBsum; 1JYC; -.
+DR   PDBsum; 1JYI; -.
+DR   PDBsum; 1NLS; -.
+DR   PDBsum; 1NXD; -.
+DR   PDBsum; 1ONA; -.
+DR   PDBsum; 1QGL; -.
+DR   PDBsum; 1QNY; -.
+DR   PDBsum; 1SCR; -.
+DR   PDBsum; 1SCS; -.
+DR   PDBsum; 1TEI; -.
+DR   PDBsum; 1VAL; -.
+DR   PDBsum; 1VAM; -.
+DR   PDBsum; 1XQN; -.
+DR   PDBsum; 2CNA; -.
+DR   PDBsum; 2CTV; -.
+DR   PDBsum; 2ENR; -.
+DR   PDBsum; 2UU8; -.
+DR   PDBsum; 2YZ4; -.
+DR   PDBsum; 3CNA; -.
+DR   PDBsum; 3D4K; -.
+DR   PDBsum; 3ENR; -.
+DR   PDBsum; 3NWK; -.
+DR   PDBsum; 4P9W; -.
+DR   PDBsum; 4P9X; -.
+DR   PDBsum; 4P9Y; -.
+DR   PDBsum; 4PF5; -.
+DR   PDBsum; 5CNA; -.
+DR   PDBsum; 5O6N; -.
+DR   PDBsum; 5WEY; -.
+DR   PDBsum; 5Z5L; -.
+DR   PDBsum; 5Z5N; -.
+DR   PDBsum; 5Z5P; -.
+DR   PDBsum; 5Z5Y; -.
+DR   PDBsum; 5ZAC; -.
+DR   PDBsum; 6AHG; -.
+DR   PDBsum; 6H2M; -.
+DR   PDBsum; 6XT6; -.
+DR   PDBsum; 7MG1; -.
+DR   PDBsum; 7MG2; -.
+DR   PDBsum; 7MG3; -.
+DR   PDBsum; 7MG4; -.
+DR   PDBsum; 7MG5; -.
+DR   PDBsum; 7MG6; -.
+DR   PDBsum; 7MG7; -.
+DR   PDBsum; 7MG8; -.
+DR   PDBsum; 7MG9; -.
+DR   PDBsum; 7MGA; -.
+DR   PDBsum; 7MGB; -.
+DR   PDBsum; 7MGC; -.
+DR   PDBsum; 7MGD; -.
+DR   AlphaFoldDB; P02866; -.
+DR   PCDDB; P02866; -.
+DR   SMR; P02866; -.
+DR   IntAct; P02866; 109.
+DR   BindingDB; P02866; -.
+DR   ChEMBL; CHEMBL5820; -.
+DR   UniLectin; P02866; -.
+DR   ABCD; P02866; 6 sequenced antibodies.
+DR   EvolutionaryTrace; P02866; -.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Glycoprotein; Lectin;
+KW   Manganese; Mannose-binding; Metal-binding; Signal.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000269|PubMed:1112814"
+FT   CHAIN           30..148
+FT                   /note="Concanavalin-A, 2nd part"
+FT                   /id="PRO_0000017577"
+FT   PROPEP          149..163
+FT                   /evidence="ECO:0000269|PubMed:1112813"
+FT                   /id="PRO_0000017578"
+FT   CHAIN           164..281
+FT                   /note="Concanavalin-A, 1st part"
+FT                   /id="PRO_0000017579"
+FT   PROPEP          282..290
+FT                   /id="PRO_0000017580"
+FT   BINDING         119
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         139
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         171
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         173
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:2792084"
+FT   BINDING         173
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         175
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:2792084"
+FT   BINDING         177
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:2792084"
+FT   BINDING         182
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:2792084"
+FT   BINDING         182
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         187
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         262..263
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   SITE            148..149
+FT                   /note="Cleavage"
+FT   SITE            163..164
+FT                   /note="Cleavage"
+FT   SITE            281..282
+FT                   /note="Cleavage"
+FT   CARBOHYD        152
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CONFLICT        33
+FT                   /note="E -> Q (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        35
+FT                   /note="N -> D (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        62
+FT                   /note="D -> E (in Ref. 1; CAA25787)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        66
+FT                   /note="E -> R (in Ref. 1; CAA25787)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        77
+FT                   /note="Q -> E (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        98..101
+FT                   /note="VVAS -> TVSA (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        107
+FT                   /note="T -> A (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        207
+FT                   /note="N -> D (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        245..246
+FT                   /note="DN -> ND (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          3..8
+FT                   /evidence="ECO:0007829|PDB:1JBC"
+FT   STRAND          10..12
+FT                   /evidence="ECO:0007829|PDB:1JBC"
+FT   STRAND          28..32
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   STRAND          34..42
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   STRAND          51..55
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   HELIX           61..63
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   STRAND          64..68
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   TURN            72..74
+FT                   /evidence="ECO:0007829|PDB:1GIC"
+FT   STRAND          81..88
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   STRAND          97..109
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   STRAND          113..116
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   STRAND          120..126
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   HELIX           138..140
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   TURN            141..143
+FT                   /evidence="ECO:0007829|PDB:1NLS"
+FT   STRAND          167..173
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   HELIX           178..180
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          187..196
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          198..202
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          209..218
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   TURN            219..222
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          223..229
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          236..241
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   HELIX           244..246
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          250..259
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          261..263
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+FT   STRAND          268..280
+FT                   /evidence="ECO:0007829|PDB:6XT6"
+SQ   SEQUENCE   290 AA;  31480 MW;  0F2F7DBBCF547E42 CRC64;
+     MAISKKSSLF LPIFTFITMF LMVVNKVSSS THETNALHFM FNQFSKDQKD LILQGDATTG
+     TDGNLELTRV SSNGSPQGSS VGRALFYAPV HIWESSAVVA SFEATFTFLI KSPDSHPADG
+     IAFFISNIDS SIPSGSTGRL LGLFPDANVI RNSTTIDFNA AYNADTIVAV ELDTYPNTDI
+     GDPSYPHIGI DIKSVRSKKT AKWNMQNGKV GTAHIIYNSV DKRLSAVVSY PNADSATVSY
+     DVDLDNVLPE WVRVGLSAST GLYKETNTIL SWSFTSKLKS NEIPDIATVV
+//

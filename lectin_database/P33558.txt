@@ -1,0 +1,204 @@
+ID   XYNA2_THEST             Reviewed;         512 AA.
+AC   P33558;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   03-AUG-2022, entry version 114.
+DE   RecName: Full=Endo-1,4-beta-xylanase A;
+DE            Short=Xylanase A;
+DE            EC=3.2.1.8;
+DE   AltName: Full=1,4-beta-D-xylan xylanohydrolase A;
+DE   Flags: Precursor;
+GN   Name=xynA;
+OS   Thermoclostridium stercorarium (Clostridium stercorarium).
+OC   Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae;
+OC   Thermoclostridium.
+OX   NCBI_TaxID=1510;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 31-40.
+RC   STRAIN=F-9;
+RX   PubMed=7763496; DOI=10.1271/bbb.57.273;
+RA   Sakka K., Kojima Y., Kondo T., Karita S., Ohmiya K., Shimada K.;
+RT   "Nucleotide sequence of the Clostridium stercorarium xynA gene encoding
+RT   xylanase A: identification of catalytic and cellulose binding domains.";
+RL   Biosci. Biotechnol. Biochem. 57:273-277(1993).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Sakka K.;
+RL   Submitted (SEP-1995) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.;
+CC         EC=3.2.1.8;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Temperature dependence:
+CC         Optimum temperature is 70 degrees Celsius. Thermostable.;
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC   -!- DOMAIN: XynA is a modular enzyme. The number of CBM6 (carbohydrate
+CC       binding type-6) domains varies between strains. The polymeric substrate
+CC       can interact with several of these CBM6 domains (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 11 (cellulase G) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D13325; BAA02584.1; -; Genomic_DNA.
+DR   AlphaFoldDB; P33558; -.
+DR   SMR; P33558; -.
+DR   CAZy; CBM6; Carbohydrate-Binding Module Family 6.
+DR   CAZy; GH11; Glycoside Hydrolase Family 11.
+DR   CLAE; XYN11A_CLOST; -.
+DR   UniPathway; UPA00114; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0031176; F:endo-1,4-beta-xylanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.60.120.180; -; 1.
+DR   InterPro; IPR006584; Cellulose-bd_IV.
+DR   InterPro; IPR005084; CMB_fam6.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR013319; GH11/12.
+DR   InterPro; IPR018208; GH11_AS_1.
+DR   InterPro; IPR033119; GH11_AS_2.
+DR   InterPro; IPR033123; GH11_dom.
+DR   InterPro; IPR001137; Glyco_hydro_11.
+DR   Pfam; PF03422; CBM_6; 2.
+DR   Pfam; PF00457; Glyco_hydro_11; 1.
+DR   PRINTS; PR00911; GLHYDRLASE11.
+DR   SMART; SM00606; CBD_IV; 2.
+DR   SUPFAM; SSF49785; SSF49785; 2.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51175; CBM6; 2.
+DR   PROSITE; PS00776; GH11_1; 1.
+DR   PROSITE; PS00777; GH11_2; 1.
+DR   PROSITE; PS51761; GH11_3; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Carbohydrate metabolism; Cellulose degradation;
+KW   Direct protein sequencing; Glycosidase; Hydrolase; Metal-binding;
+KW   Polysaccharide degradation; Repeat; Signal; Xylan degradation.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..512
+FT                   /note="Endo-1,4-beta-xylanase A"
+FT                   /id="PRO_0000008002"
+FT   DOMAIN          33..228
+FT                   /note="GH11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01097"
+FT   DOMAIN          251..371
+FT                   /note="CBM6 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   REPEAT          279..340
+FT                   /note="1"
+FT   DOMAIN          388..508
+FT                   /note="CBM6 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   REPEAT          416..477
+FT                   /note="2"
+FT   REGION          279..477
+FT                   /note="2 X 61 AA approximate repeats"
+FT   ACT_SITE        124
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10062"
+FT   ACT_SITE        215
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10063"
+FT   BINDING         254
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         256
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         271
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         276
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         280
+FT                   /ligand="D-xylobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28309"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         280
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         337
+FT                   /ligand="D-xylobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28309"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         337
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         364
+FT                   /ligand="D-xylobiose"
+FT                   /ligand_id="ChEBI:CHEBI:28309"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         364
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         366
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         391
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         393
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         413
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         417
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         474
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         501
+FT                   /ligand="D-xylotriose"
+FT                   /ligand_id="ChEBI:CHEBI:62783"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+FT   BINDING         503
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8GJ44"
+SQ   SEQUENCE   512 AA;  55843 MW;  1E133CBF4C139305 CRC64;
+     MKRKVKKMAA MATSIIMAIM IILHSIPVLA GRIIYDNETG THGGYDYELW KDYGNTIMEL
+     NDGGTFSCQW SNIGNALFRK GRKFNSDKTY QELGDIVVEY GCDYNPNGNS YLCVYGWTRN
+     PLVEYYIVES WGSWRPPGAT PKGTITQWMA GTYEIYETTR VNQPSIDGTA TFQQYWSVRT
+     SKRTSGTISV TEHFKQWERM GMRMGKMYEV ALTVEGYQSS GYANVYKNEI RIGANPTPAP
+     SQSPIRRDAF SIIEAEEYNS TNSSTLQVIG TPNNGRGIGY IENGNTVTYS NIDFGSGATG
+     FSATVATEVN TSIQIRSDSP TGTLLGTLYV SSTGSWNTYQ TVSTNISKIT GVHDIVLVFS
+     GPVNVDNFIF SRSSPVPAPG DNTRDAYSII QAEDYDSSYG PNLQIFSLPG GGSAIGYIEN
+     GYSTTYKNID FGDGATSVTA RVATQNATTI QVRLGSPSGT LLGTIYVGST GSFDTYRDVS
+     ATISNTAGVK DIVLVFSGPV NVDWFVFSKS GT
+//

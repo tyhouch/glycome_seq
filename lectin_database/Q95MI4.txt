@@ -1,0 +1,108 @@
+ID   NKG2E_PANTR             Reviewed;         240 AA.
+AC   Q95MI4; Q95MI3;
+DT   15-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   25-MAY-2022, entry version 98.
+DE   RecName: Full=NKG2-E type II integral membrane protein;
+DE   AltName: Full=NK cell receptor E;
+DE   AltName: Full=NKG2-E-activating NK receptor;
+GN   Name=KLRC3; Synonyms=NKG2E;
+OS   Pan troglodytes (Chimpanzee).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pan.
+OX   NCBI_TaxID=9598;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT ARG-213.
+RX   PubMed=11751968; DOI=10.4049/jimmunol.168.1.240;
+RA   Shum B.P., Flodin L.R., Muir D.G., Rajalingam R., Khakoo S.I., Cleland S.,
+RA   Guethlein L.A., Uhrberg M., Parham P.;
+RT   "Conservation and variation in human and common chimpanzee CD94 and NKG2
+RT   genes.";
+RL   J. Immunol. 168:240-252(2002).
+CC   -!- FUNCTION: Plays a role as a receptor for the recognition of MHC class I
+CC       HLA-E molecules by NK cells and some cytotoxic T-cells.
+CC   -!- SUBUNIT: Can form disulfide-bonded heterodimer with CD94.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Natural killer cells.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF350006; AAK83793.1; -; mRNA.
+DR   EMBL; AF350007; AAK83794.1; -; mRNA.
+DR   RefSeq; NP_001009017.1; NM_001009017.1.
+DR   AlphaFoldDB; Q95MI4; -.
+DR   SMR; Q95MI4; -.
+DR   STRING; 9598.ENSPTRP00000007991; -.
+DR   PaxDb; Q95MI4; -.
+DR   GeneID; 449624; -.
+DR   KEGG; ptr:449624; -.
+DR   CTD; 3823; -.
+DR   eggNOG; ENOG502S6IE; Eukaryota.
+DR   InParanoid; Q95MI4; -.
+DR   OrthoDB; 1161111at2759; -.
+DR   Proteomes; UP000002277; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0045954; P:positive regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   GO; GO:0002223; P:stimulatory C-type lectin receptor signaling pathway; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Lectin; Membrane; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..240
+FT                   /note="NKG2-E type II integral membrane protein"
+FT                   /id="PRO_0000046672"
+FT   TOPO_DOM        1..70
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        71..93
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        94..240
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          116..230
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..31
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..15
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        149
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        179
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        117..128
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        207..220
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VARIANT         213
+FT                   /note="C -> R (in allele NKG2-E*02)"
+FT                   /evidence="ECO:0000269|PubMed:11751968"
+FT                   /id="VAR_018702"
+SQ   SEQUENCE   240 AA;  26996 MW;  BC28FB3CEA93A5E0 CRC64;
+     MNKQRGTFSE VSLAQDPKRQ QRKPKGNKSS ISATEQEIFQ VELNLQNASL NHQGIDKIYD
+     CQGLLPPPEK LTAKMLGIIC IVLMSAVLKT IVLIPFLEQN NSSPNTRTQK ARPCGHCPEE
+     WITYSNSCYY IGKERRTWEE SLQACASKNS SSLLSIDNEE EMKFLASILP SSWIGVFCNS
+     SHHPWVTING LAFKHEIKDS DHAERNCAML HVCGLISDQC GSSRIIRRGF IMLTRLVLNS
+//

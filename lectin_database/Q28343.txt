@@ -1,0 +1,402 @@
+ID   PGCA_CANLF              Reviewed;        2333 AA.
+AC   Q28343; Q28310;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   11-JAN-2001, sequence version 2.
+DT   03-AUG-2022, entry version 148.
+DE   RecName: Full=Aggrecan core protein;
+DE   AltName: Full=Cartilage-specific proteoglycan core protein;
+DE            Short=CSPCP;
+DE   Flags: Precursor;
+GN   Name=ACAN; Synonyms=AGC1;
+OS   Canis lupus familiaris (Dog) (Canis familiaris).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis.
+OX   NCBI_TaxID=9615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Glant T.T., Adams M.E., Kwok S.X.F., Huang D., Fueloep C.;
+RT   "Complete coding sequence and deduced amino acid sequence of aggrecan of
+RT   canine cartilage.";
+RL   Submitted (APR-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 774-833.
+RC   TISSUE=Cartilage;
+RX   PubMed=7827755; DOI=10.1016/0945-053x(94)90198-8;
+RA   Barry F.P., Neame P.J., Sasse J., Pearson D.;
+RT   "Length variation in the keratan sulfate domain of mammalian aggrecan.";
+RL   Matrix Biol. 14:323-328(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1830-2333.
+RA   Adams M.E., Kowk S.X.F., Huang D., Glant T.T., Fullop C.;
+RL   Submitted (AUG-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 2082-2118.
+RC   TISSUE=Cartilage;
+RX   PubMed=8349621; DOI=10.1016/s0021-9258(19)85345-0;
+RA   Fueloep C., Walcz E., Valyon M., Glant T.T.;
+RT   "Expression of alternatively spliced epidermal growth factor-like domains
+RT   in aggrecans of different species. Evidence for a novel module.";
+RL   J. Biol. Chem. 268:17377-17383(1993).
+CC   -!- FUNCTION: This proteoglycan is a major component of extracellular
+CC       matrix of cartilagenous tissues. A major function of this protein is to
+CC       resist compression in cartilage. It binds avidly to hyaluronic acid via
+CC       an N-terminal globular region. May play a regulatory role in the matrix
+CC       assembly of the cartilage.
+CC   -!- SUBUNIT: Interacts with FBLN1 and COMP. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}.
+CC   -!- DOMAIN: Two globular domains, G1 and G2, comprise the N-terminus of the
+CC       proteoglycan, while another globular region, G3, makes up the C-
+CC       terminus. G1 contains Link domains and thus consists of three
+CC       disulfide-bonded loop structures designated as the A, B, B' motifs. G2
+CC       is similar to G1. The keratan sulfate (KS) and the chondroitin sulfate
+CC       (CS) attachment domains lie between G2 and G3.
+CC   -!- PTM: Contains mostly chondroitin sulfate, but also keratan sulfate
+CC       chains, N-linked and O-linked oligosaccharides. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the aggrecan/versican proteoglycan family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U65989; AAB06238.2; -; mRNA.
+DR   EMBL; S74662; AAC60527.1; -; mRNA.
+DR   EMBL; L07054; -; NOT_ANNOTATED_CDS; mRNA.
+DR   PIR; I46998; I46998.
+DR   AlphaFoldDB; Q28343; -.
+DR   SMR; Q28343; -.
+DR   STRING; 9612.ENSCAFP00000016949; -.
+DR   PaxDb; Q28343; -.
+DR   PRIDE; Q28343; -.
+DR   eggNOG; ENOG502QUX8; Eukaryota.
+DR   InParanoid; Q28343; -.
+DR   Proteomes; UP000002254; Unplaced.
+DR   GO; GO:0031012; C:extracellular matrix; IBA:GO_Central.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005540; F:hyaluronic acid binding; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0007417; P:central nervous system development; IBA:GO_Central.
+DR   GO; GO:0001501; P:skeletal system development; IBA:GO_Central.
+DR   CDD; cd00033; CCP; 1.
+DR   CDD; cd03588; CLECT_CSPGs; 1.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 3.10.100.10; -; 5.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033987; CSPG_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR001881; EGF-like_Ca-bd_dom.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR000152; EGF-type_Asp/Asn_hydroxyl_site.
+DR   InterPro; IPR018097; EGF_Ca-bd_CS.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003006; Ig/MHC_CS.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   InterPro; IPR000538; Link_dom.
+DR   InterPro; IPR035976; Sushi/SCR/CCP_sf.
+DR   InterPro; IPR000436; Sushi_SCR_CCP_dom.
+DR   Pfam; PF00008; EGF; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF00084; Sushi; 1.
+DR   Pfam; PF07686; V-set; 1.
+DR   Pfam; PF00193; Xlink; 4.
+DR   PRINTS; PR01265; LINKMODULE.
+DR   SMART; SM00032; CCP; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SMART; SM00181; EGF; 1.
+DR   SMART; SM00179; EGF_CA; 1.
+DR   SMART; SM00409; IG; 1.
+DR   SMART; SM00406; IGv; 1.
+DR   SMART; SM00445; LINK; 4.
+DR   SUPFAM; SSF48726; SSF48726; 1.
+DR   SUPFAM; SSF56436; SSF56436; 5.
+DR   SUPFAM; SSF57535; SSF57535; 1.
+DR   PROSITE; PS00010; ASX_HYDROXYL; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS00022; EGF_1; 1.
+DR   PROSITE; PS50026; EGF_3; 1.
+DR   PROSITE; PS01187; EGF_CA; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+DR   PROSITE; PS00290; IG_MHC; 1.
+DR   PROSITE; PS01241; LINK_1; 4.
+DR   PROSITE; PS50963; LINK_2; 4.
+DR   PROSITE; PS50923; SUSHI; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Disulfide bond; EGF-like domain; Extracellular matrix;
+KW   Glycoprotein; Immunoglobulin domain; Lectin; Metal-binding; Proteoglycan;
+KW   Reference proteome; Repeat; Secreted; Signal; Sushi.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           17..2333
+FT                   /note="Aggrecan core protein"
+FT                   /id="PRO_0000017503"
+FT   DOMAIN          34..147
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          153..248
+FT                   /note="Link 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          253..350
+FT                   /note="Link 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          496..591
+FT                   /note="Link 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          597..693
+FT                   /note="Link 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          2081..2117
+FT                   /note="EGF-like; calcium-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          2130..2245
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          2248..2308
+FT                   /note="Sushi"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   REGION          48..140
+FT                   /note="G1-A"
+FT   REGION          152..247
+FT                   /note="G1-B"
+FT   REGION          253..349
+FT                   /note="G1-B'"
+FT   REGION          495..589
+FT                   /note="G2-B"
+FT   REGION          596..691
+FT                   /note="G2-B'"
+FT   REGION          694..816
+FT                   /note="KS"
+FT   REGION          751..1376
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          819..1394
+FT                   /note="CS-1"
+FT   REGION          1395..2079
+FT                   /note="CS-2"
+FT   REGION          1490..1510
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1540..1627
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1655..1723
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1749..1800
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1848..2006
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2042..2079
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2080..2333
+FT                   /note="G3"
+FT   COMPBIAS        772..794
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        843..876
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1303..1317
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1495..1510
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1540..1559
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1566..1627
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1669..1691
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1708..1722
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1781..1800
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1848..1877
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1893..1907
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2044..2074
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         2184
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2188
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2188
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2208
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2210
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2211
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2218
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2218
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2231
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         2232
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        126
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        239
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        333
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        371
+FT                   /note="O-linked (Xyl...) (keratan sulfate) threonine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        376
+FT                   /note="O-linked (Xyl...) (keratan sulfate) threonine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        387
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        444
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        620
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        676
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        747
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        51..133
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        175..246
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        199..220
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        273..348
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        297..318
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        518..589
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        542..563
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        616..691
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        640..661
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2085..2096
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2090..2105
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2107..2116
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2123..2134
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2151..2243
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2219..2235
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2250..2293
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2279..2306
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   2333 AA;  240576 MW;  8B9ED78F3508B596 CRC64;
+     MTTLLWVFVT LRVITAASSE ETSDHDNSLS VSIPEPSPMR VLLGSSLTIP CYFIDPMHPV
+     TTAPSTAPLA PRIKWSRITK EKEVVLLVAT EGQVRINSAY QDKVSLPNYP AIPSDATLEI
+     QNLRSNDSGI YRCEVMHGIE DSEATLEVVV KGIVFHYRAI STRYTLDFDR AQRACLQNSA
+     IIATPEQLQA AYEDGFHQCD AGWLADQTVR YPIHTPREGC YGDKDEFPGV RTYGIRDTNE
+     TYDVYCFAEE MEGEVLYATS PEKFTFQEAA NECRRLGARL ATTGQLYLAW QGGMDMCSAG
+     WLADRSVRYP ISKARPNCGG NLLGVRTVYL HANQTGYPDP SSRYDAICYT GEDFVDIPEN
+     FFGVGGEEDI TIQTVTWPDV ELPLPRNITE GEARGNVILT VKPIFDLSPT APEPEEPFTF
+     VPEPEKPFTF ATDVGVTAFP EAENRTGEAT RPWGVPEEST PGPAFTAFTS EDHVVQVTAV
+     PGAAEVPGQP RLPGGVVFHY RPGSARYSLT FEEAQQACLR TGAVIASPEQ LQAAYEAGYE
+     QCDAGWLQDQ TVRYPIVSPR TPCVGDKDSS PGVRTYGVRP PSETYDVYCY VDKLEGEVFF
+     ITRLEQFTFQ EALAFCESHN ATLASTGQLY AAWRQGLDKC YAGWLSDGSL RYPIVTPRPS
+     CGGDKPGVRT VYLYPNQTGL PDPLSRHHVF CFRGVSGVPS PGEEEGGTPT PSVVEDWIPT
+     QVGPVVPSVP MGEETTAILD FTIEPENQTE WEPAYSPAGT SPLPGIPPTW PPTSTATEES
+     TEGPSGTEVP SVSEEPSPSE EPFPWEELST LSPPGPSGTE LPGSGEASGV PEVSGDFTGS
+     GEVSGHPDSS GQLSGESASG LPSEDLDSSG LTSAVGSGLA SGDEDRITLS SIPKVEGEGL
+     ETSASGVEDL SGLPSGREGL ETSTSGVGDL SGLPSGEGLE VSASGVEDLS GLPSGEGPET
+     STSGVGDLSR LPSGEGPEVS ASGVGDLSGL PSGREGLETS TSGVEDLSGL PSGEGPEAST
+     SGVGDLSRLP SGEGPEVSAS GVEDLSGLPS GEGLEASASG VGDLSGLPSG EGPEASASGV
+     GDLSRLPSGE GPEVSASGVE DLSGLSSGES PEASASGVGD LSGLPSGREG LETSASGVGD
+     LSGLPSGEGQ EASASGVEDL SRLPSGEGPE ASASGVGELS GLPSGREGLE TSASGVGDLS
+     GLPSGEGPEA FASGVEDLSI LPSGEGPEAS ASGVGDLSGL PSGREGLETS TSGVGDLSGL
+     PSGREGLETS TSGVGDLSGL PSGEGPEASA SGIGDISGLP SGREGLETSS SGVEDHPETS
+     ASGVEDLSGL PSGVEGHPET SASGVEDLSD LSSGGEGLET SASGAEDLSG FPSGKEDLIG
+     SASGALDFGR IPSGTLGSGQ APEASSLPSG FSGEYSGVDF GSGPISGLPD FSGLPSGFPT
+     ISLVDTTLVE VITTTSASEL EGRGTIGISG AGETSGLPVS ELDISGAVSG LPSGAELSGQ
+     ASGSPDMSGE TSGFFGVSGQ PSGFPDISGG TSGLFEVSGQ PSGFSGETSG VTELSGLYSG
+     QPDVSGEASG VPSGSGQPFG MTDLSGETSG VPDISGQPSG LPEFSGTTSG IPDLVSSTMS
+     GSGESSGITF VDTSLVEVTP TTFKEKKRLG SVELSGLPSG EVDLSGASGT MDISGQSSGA
+     TDSSGLTSHL PKFSGLPSGA AEVSGESSGA EVGSSLPSGT YEGSGNFHPA FPTVFLVDRT
+     LVESVTQAPT AQEAGEGPSG ILELSGAHSG APDVSGDHSG SLDLSGMQSG LVEPSGEPSS
+     TPYFSGDFSG TMDVTGEPST AMSASGEASG LLEVTLITSE FVEGVTEPTV SQELAQRPPV
+     THTPQLFESS GEASASGEIS GATPAFPGSG LEASSVPESS SETSDFPERA VGVSAAPEAS
+     GGASGAPDVS EATSTFPEAD VEGASGLGVS GGTSAFPEAP REGSATPEVQ EEPTTSYDVG
+     REALGWPSAT PTASGDRIEV SGDLSGHTSG LDVVISTSVP ESEWIQQTQR PAEAHLEIEA
+     SSPLHSGEET QTAETATSPT DDASIPTSPS GTDESAPAIP DIDECLSSPC LNGATCVDAI
+     DSFTCLCLPS YRGDLCEIDQ ELCEEGWTKF QGHCYRYFPD RESWVDAESR CRAQQSHLSS
+     IVTPEEQEFV NNNAQDYQWI GLNDRTIEGD FRWSDGHSLQ FENWRPNQPD NFFVSGEDCV
+     VMIWHEKGEW NDVPCNYYLP FTCKKGTVAC GDPPVVEHAR TFGQKKDRYE INSLVRYQCT
+     EGFVQRHVPT IRCQPSGHWE KPRITCTDPS TYKRRLQKRS SRAPRRSRPS TAH
+//

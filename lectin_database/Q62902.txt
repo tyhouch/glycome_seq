@@ -1,0 +1,289 @@
+ID   LMAN1_RAT               Reviewed;         517 AA.
+AC   Q62902;
+DT   04-APR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 154.
+DE   RecName: Full=Protein ERGIC-53;
+DE   AltName: Full=ER-Golgi intermediate compartment 53 kDa protein;
+DE   AltName: Full=Lectin mannose-binding 1;
+DE   AltName: Full=p58;
+DE   Flags: Precursor;
+GN   Name=Lman1; Synonyms=Ergic53;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=8626736; DOI=10.1074/jbc.271.8.4031;
+RA   Lahtinen U., Hellman U., Wernstedt C., Saraste J., Pettersson R.F.;
+RT   "Molecular cloning and expression of a 58-kDa cis-Golgi and intermediate
+RT   compartment protein.";
+RL   J. Biol. Chem. 271:4031-4037(1996).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.46 ANGSTROMS), AND DISULFIDE BOND.
+RX   PubMed=11850423; DOI=10.1074/jbc.m112098200;
+RA   Velloso L.M., Svensson K., Schneider G., Pettersson R.F., Lindqvist Y.;
+RT   "Crystal structure of the carbohydrate recognition domain of p58/ERGIC-53,
+RT   a protein involved in glycoprotein export from the endoplasmic reticulum.";
+RL   J. Biol. Chem. 277:15979-15984(2002).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 43-284 IN COMPLEX WITH CALCIUM
+RP   IONS, AND DISULFIDE BOND.
+RX   PubMed=14643651; DOI=10.1016/j.jmb.2003.10.031;
+RA   Velloso L.M., Svensson K., Pettersson R.F., Lindqvist Y.;
+RT   "The crystal structure of the carbohydrate-recognition domain of the
+RT   glycoprotein sorting receptor p58/ERGIC-53 reveals an unpredicted metal-
+RT   binding site and conformational changes associated with calcium ion
+RT   binding.";
+RL   J. Mol. Biol. 334:845-851(2003).
+CC   -!- FUNCTION: Mannose-specific lectin. May recognize sugar residues of
+CC       glycoproteins, glycolipids, or glycosylphosphatidyl inositol anchors
+CC       and may be involved in the sorting or recycling of proteins, lipids, or
+CC       both. The LMAN1-MCFD2 complex forms a specific cargo receptor for the
+CC       ER-to-Golgi transport of selected proteins (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Exists both as a covalent disulfide-linked homohexamer, and a
+CC       complex of three disulfide-linked dimers non-covalently kept together.
+CC       Interacts with MCFD2. May interact with TMEM115. Interacts with
+CC       RAB3GAP1 and RAB3GAP2. Interacts with UBXN6. Interacts with
+CC       SERPINA1/alpha1-antitrypsin (By similarity).
+CC       {ECO:0000250|UniProtKB:P49257}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum-Golgi intermediate
+CC       compartment membrane {ECO:0000250}; Single-pass type I membrane protein
+CC       {ECO:0000250}. Golgi apparatus membrane {ECO:0000250}; Single-pass
+CC       membrane protein {ECO:0000250}. Endoplasmic reticulum membrane
+CC       {ECO:0000250}; Single-pass membrane protein {ECO:0000250}.
+CC   -!- DOMAIN: The FF ER export motif at the C-terminus is not sufficient to
+CC       support endoplasmic reticulum exit, and needs assistance of Gln-508 for
+CC       proper recognition of COPII coat components. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U44129; AAC52434.1; -; mRNA.
+DR   RefSeq; NP_446338.1; NM_053886.2.
+DR   PDB; 1GV9; X-ray; 1.46 A; A=25-284.
+DR   PDB; 1R1Z; X-ray; 2.40 A; A/B/C/D=43-284.
+DR   PDBsum; 1GV9; -.
+DR   PDBsum; 1R1Z; -.
+DR   AlphaFoldDB; Q62902; -.
+DR   SMR; Q62902; -.
+DR   BioGRID; 250550; 1.
+DR   IntAct; Q62902; 6.
+DR   MINT; Q62902; -.
+DR   STRING; 10116.ENSRNOP00000035966; -.
+DR   UniLectin; Q62902; -.
+DR   iPTMnet; Q62902; -.
+DR   PhosphoSitePlus; Q62902; -.
+DR   jPOST; Q62902; -.
+DR   PaxDb; Q62902; -.
+DR   PeptideAtlas; Q62902; -.
+DR   PRIDE; Q62902; -.
+DR   GeneID; 116666; -.
+DR   KEGG; rno:116666; -.
+DR   UCSC; RGD:71020; rat.
+DR   CTD; 3998; -.
+DR   RGD; 71020; Lman1.
+DR   eggNOG; KOG3838; Eukaryota.
+DR   InParanoid; Q62902; -.
+DR   OrthoDB; 1377709at2759; -.
+DR   PhylomeDB; Q62902; -.
+DR   Reactome; R-RNO-204005; COPII-mediated vesicle transport.
+DR   Reactome; R-RNO-5694530; Cargo concentration in the ER.
+DR   Reactome; R-RNO-8980692; RHOA GTPase cycle.
+DR   Reactome; R-RNO-9013106; RHOC GTPase cycle.
+DR   Reactome; R-RNO-9013404; RAC2 GTPase cycle.
+DR   Reactome; R-RNO-9013405; RHOD GTPase cycle.
+DR   Reactome; R-RNO-9013408; RHOG GTPase cycle.
+DR   Reactome; R-RNO-9013423; RAC3 GTPase cycle.
+DR   EvolutionaryTrace; Q62902; -.
+DR   PRO; PR:Q62902; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030134; C:COPII-coated ER to Golgi transport vesicle; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IDA:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0005793; C:endoplasmic reticulum-Golgi intermediate compartment; IDA:RGD.
+DR   GO; GO:0033116; C:endoplasmic reticulum-Golgi intermediate compartment membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; IDA:RGD.
+DR   GO; GO:0000139; C:Golgi membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IDA:RGD.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IDA:RGD.
+DR   GO; GO:0030017; C:sarcomere; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; TAS:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IDA:RGD.
+DR   GO; GO:0005537; F:mannose binding; IBA:GO_Central.
+DR   GO; GO:0007029; P:endoplasmic reticulum organization; ISO:RGD.
+DR   GO; GO:0006888; P:endoplasmic reticulum to Golgi vesicle-mediated transport; IBA:GO_Central.
+DR   GO; GO:0007030; P:Golgi organization; ISO:RGD.
+DR   GO; GO:0010638; P:positive regulation of organelle organization; ISO:RGD.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   DisProt; DP02789; -.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR005052; Lectin_leg.
+DR   InterPro; IPR033085; LMAN1.
+DR   PANTHER; PTHR12223:SF32; PTHR12223:SF32; 1.
+DR   Pfam; PF03388; Lectin_leg-like; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51328; L_LECTIN_LIKE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Endoplasmic reticulum; ER-Golgi transport;
+KW   Golgi apparatus; Lectin; Membrane; Metal-binding; Phosphoprotein;
+KW   Protein transport; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..517
+FT                   /note="Protein ERGIC-53"
+FT                   /id="PRO_0000017662"
+FT   TOPO_DOM        31..484
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        485..505
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        506..517
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          52..275
+FT                   /note="L-type lectin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   REGION          276..297
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          377..396
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          506..517
+FT                   /note="Mediates interaction with RAB3GAP1, RAB3GAP2 and
+FT                   UBXN6"
+FT                   /evidence="ECO:0000250|UniProtKB:P49257"
+FT   MOTIF           516..517
+FT                   /note="ER export motif"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        281..297
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         96
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   BINDING         129
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   BINDING         160
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT   BINDING         162
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT   BINDING         163
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT   BINDING         164
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   BINDING         164
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT   BINDING         165
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT   BINDING         169
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT   BINDING         170
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT   BINDING         186
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   BINDING         189
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT   BINDING         189
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT   BINDING         259..261
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   SITE            508
+FT                   /note="Required for ER export"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         433
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49257"
+FT   DISULFID        198..238
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658,
+FT                   ECO:0000269|PubMed:11850423, ECO:0000269|PubMed:14643651"
+FT   DISULFID        473
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   DISULFID        482
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   HELIX           43..46
+FT                   /evidence="ECO:0007829|PDB:1R1Z"
+FT   STRAND          51..54
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   HELIX           56..58
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          60..64
+FT                   /evidence="ECO:0007829|PDB:1R1Z"
+FT   STRAND          75..79
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          88..91
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          98..105
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          110..121
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          123..125
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          130..138
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          153..160
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          172..180
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   HELIX           186..193
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          195..198
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          209..216
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          219..225
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          227..230
+FT                   /evidence="ECO:0007829|PDB:1R1Z"
+FT   STRAND          236..241
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          248..257
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+FT   STRAND          264..276
+FT                   /evidence="ECO:0007829|PDB:1GV9"
+SQ   SEQUENCE   517 AA;  57957 MW;  DFD9036C6773F7EE CRC64;
+     MAVSRRRGPQ AGAQSFFCAL LLSFSQFVGS DGMGGDAAAP GAAGTQAELP HRRFEYKYSF
+     KGPHLVQSDG TVPFWAHAGN AIPSADQIRI APSLKSQRGS VWTKTKAAFE NWEVEVTFRV
+     TGRGRIGADG LAIWYTENQG LDGPVFGSAD MWNGVGIFFD SFDNDGKKNN PAIVVVGNNG
+     QINYDHQNDG ATQALASCQR DFRNKPYPVR AKITYYQKTL TVMINNGFTP DKNDYEFCAK
+     VENMVIPTQG HFGISAATGG LADDHDVLSF LTFQLTEPGK EPPTPEKDIS EKEKEKYQEE
+     FEHFQQELDK KKEEFQKGHP DLQGQPADDI FESIGDRELR QVFEGQNRIH LEIKQLNRQL
+     DMILDEQRRY VSSLTEEISR RGAGTPGQPG QVSQQELDTV VRTQLEILRQ VNEMKNSMRE
+     TMRLVSGVQH PGSAGVYETT QHFMDIKEHL HIVKRDIDSL AQRSMSSNEK PKCPDLPAFP
+     SCLSTVHFVI FIVVQTVLFI GYIMYRTQQE AAAKKFF
+//

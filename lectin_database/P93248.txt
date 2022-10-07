@@ -1,0 +1,137 @@
+ID   MALB_MAAAM              Reviewed;         286 AA.
+AC   P93248;
+DT   18-JAN-2017, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   03-AUG-2022, entry version 110.
+DE   RecName: Full=Bark leucoagglutinin {ECO:0000303|PubMed:9249142};
+DE   AltName: Full=Bark leukoagglutinin {ECO:0000305};
+DE   Flags: Precursor; Fragment;
+GN   Name=MAL {ECO:0000303|PubMed:9249142};
+OS   Maackia amurensis (Amur maackia).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   genistoids sensu lato; core genistoids; Sophoreae; Maackia.
+OX   NCBI_TaxID=37501;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RC   TISSUE=Bark;
+RX   PubMed=9249142; DOI=10.1023/a:1018595300863;
+RA   Van Damme E.J., Van Leuven F., Peumans W.J.;
+RT   "Isolation, characterization and molecular cloning of the bark lectins from
+RT   Maackia amurensis.";
+RL   Glycoconj. J. 14:449-456(1997).
+CC   -!- FUNCTION: Sialic acid-binding lectin specifically recognizing the
+CC       trisaccharide sequence Neu5Ac/Gc-alpha-2,3-Gal-beta-1,4-GlcNAc/Glc.
+CC       {ECO:0000305|PubMed:9249142}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U65010; AAB39934.1; -; mRNA.
+DR   AlphaFoldDB; P93248; -.
+DR   SMR; P93248; -.
+DR   EvolutionaryTrace; P93248; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Glycoprotein; Lectin; Manganese; Metal-binding; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   CHAIN           29..286
+FT                   /note="Bark leucoagglutinin"
+FT                   /id="PRO_5004161572"
+FT   PROPEP          278..286
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT                   /id="PRO_0000438712"
+FT   BINDING         73
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         115
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         135
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         155
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         157
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         157
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         159
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         159
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         165
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         165
+FT                   /ligand="N-acetyl-alpha-neuraminyl-(2->3)-beta-D-
+FT                   galactosyl-(1->4)-beta-D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:59226"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         168
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         168
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   BINDING         173
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DKL3"
+FT   CARBOHYD        89
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        141
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        219
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   286 AA;  31209 MW;  0F2E27617A0F6D00 CRC64;
+     ATSNSKPTQV LLATFLTFFF LLLNNVNSSD ELSFTINNFV PNEADLLFQG EASVSSTGVL
+     QLTRVENGQP QQYSVGRALY AAPVRIWDNT TGSVASFSTS FTFVVKAPNP TITSDGLAFF
+     LAPPDSQIPS GRVSKYLGLF NNSNSDSSNQ IVAVEFDTYF GHSYDPWDPN YRHIGIDVNG
+     IESIKTVQWD WINGGVAFAT ITYLAPNKTL IASLVYPSNQ TSFIVAASVD LKEILPEWVR
+     VGFSAATGYP TQVETHDVLS WSFTSTLEAN SDAATENNVH IARYTA
+//

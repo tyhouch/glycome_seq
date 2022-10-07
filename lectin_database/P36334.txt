@@ -1,0 +1,577 @@
+ID   SPIKE_CVHOC             Reviewed;        1353 AA.
+AC   P36334; Q66199; Q66290; Q66291; Q696Q6; Q6TNF9; Q86623;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   03-AUG-2022, entry version 128.
+DE   RecName: Full=Spike glycoprotein {ECO:0000255|HAMAP-Rule:MF_04099};
+DE            Short=S glycoprotein {ECO:0000255|HAMAP-Rule:MF_04099};
+DE   AltName: Full=E2 {ECO:0000255|HAMAP-Rule:MF_04099};
+DE   AltName: Full=Peplomer protein {ECO:0000255|HAMAP-Rule:MF_04099};
+DE   Contains:
+DE     RecName: Full=Spike protein S1 {ECO:0000255|HAMAP-Rule:MF_04099};
+DE   Contains:
+DE     RecName: Full=Spike protein S2 {ECO:0000255|HAMAP-Rule:MF_04099};
+DE   Contains:
+DE     RecName: Full=Spike protein S2' {ECO:0000255|HAMAP-Rule:MF_04099};
+DE   Flags: Precursor;
+GN   Name=S {ECO:0000255|HAMAP-Rule:MF_04099}; ORFNames=3;
+OS   Human coronavirus OC43 (HCoV-OC43).
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+OC   Betacoronavirus; Embecovirus.
+OX   NCBI_TaxID=31631;
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=8376972; DOI=10.1099/0022-1317-74-9-1981;
+RA   Mounir S., Talbot P.J.;
+RT   "Molecular characterization of the S protein gene of human coronavirus
+RT   OC43.";
+RL   J. Gen. Virol. 74:1981-1987(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=8317096; DOI=10.1006/viro.1993.1360;
+RA   Kuenkel F., Herrler G.;
+RT   "Structural and functional analysis of the surface protein of human
+RT   coronavirus OC43.";
+RL   Virology 195:195-202(1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RC   STRAIN=Isolate AT, Isolate CU, and Isolate VA;
+RX   PubMed=8712929; DOI=10.1007/bf01718615;
+RA   Kuenkel F., Herrler G.;
+RT   "Structural and functional analysis of the S proteins of two human
+RT   coronavirus OC43 strains adapted to growth in different cells.";
+RL   Arch. Virol. 141:1123-1131(1996).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RC   STRAIN=Isolate ATCC VR-759;
+RX   PubMed=15280490; DOI=10.1128/jvi.78.16.8824-8834.2004;
+RA   St Jean J.R., Jacomy H., Desforges M., Vabret A., Freymuth F., Talbot P.J.;
+RT   "Human respiratory coronavirus OC43: genetic stability and neuroinvasion.";
+RL   J. Virol. 78:8824-8834(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RC   STRAIN=Isolate ATCC VR-759;
+RX   PubMed=15650185; DOI=10.1128/jvi.79.3.1595-1604.2005;
+RA   Vijgen L., Keyaerts E., Moes E., Thoelen I., Wollants E., Lemey P.,
+RA   Vandamme A.M., Van Ranst M.;
+RT   "Complete genomic sequence of human coronavirus OC43: molecular clock
+RT   analysis suggests a relatively recent zoonotic coronavirus transmission
+RT   event.";
+RL   J. Virol. 79:1595-1604(2005).
+RN   [6]
+RP   REVIEW.
+RX   PubMed=11162792; DOI=10.1006/viro.2000.0757;
+RA   Gallagher T.M., Buchmeier M.J.;
+RT   "Coronavirus spike proteins in viral entry and pathogenesis.";
+RL   Virology 279:371-374(2001).
+CC   -!- FUNCTION: S1 attaches the virion to the cell membrane by interacting
+CC       with sialic acid-containing cell receptors, initiating the infection.
+CC   -!- FUNCTION: [Spike protein S1]: Attaches the virion to the cell membrane
+CC       by interacting with host receptor, initiating the infection.
+CC       {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- FUNCTION: [Spike protein S2]: Mediates fusion of the virion and
+CC       cellular membranes by acting as a class I viral fusion protein. Under
+CC       the current model, the protein has at least three conformational
+CC       states: pre-fusion native state, pre-hairpin intermediate state, and
+CC       post-fusion hairpin state. During viral and target cell membrane
+CC       fusion, the coiled coil regions (heptad repeats) assume a trimer-of-
+CC       hairpins structure, positioning the fusion peptide in close proximity
+CC       to the C-terminal region of the ectodomain. The formation of this
+CC       structure appears to drive apposition and subsequent fusion of viral
+CC       and target cell membranes. {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- FUNCTION: [Spike protein S2']: Acts as a viral fusion peptide which is
+CC       unmasked following S2 cleavage occurring upon virus endocytosis.
+CC       {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- SUBUNIT: Homotrimer; each monomer consists of a S1 and a S2 subunit.
+CC       The resulting peplomers protrude from the virus surface as spikes.
+CC       {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_04099}; Single-pass type I membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_04099}. Host endoplasmic reticulum-Golgi intermediate
+CC       compartment membrane {ECO:0000255|HAMAP-Rule:MF_04099}; Single-pass
+CC       type I membrane protein {ECO:0000255|HAMAP-Rule:MF_04099}. Host cell
+CC       membrane {ECO:0000255|HAMAP-Rule:MF_04099}; Single-pass type I membrane
+CC       protein {ECO:0000255|HAMAP-Rule:MF_04099}. Note=Accumulates in the
+CC       endoplasmic reticulum-Golgi intermediate compartment, where it
+CC       participates in virus particle assembly. Some S oligomers are
+CC       transported to the host plasma membrane, where they may mediate cell-
+CC       cell fusion. {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- DOMAIN: Fusion peptide 1 (FP1) and fusion peptide 2 (FP2) function
+CC       cooperatively and have a membrane-ordering effect on lipid headgroups
+CC       and shallow hydrophobic regions of target bilayers. They are considered
+CC       as two domains of an extended, bipartite FP. The membrane-ordering
+CC       activity is calcium-dependent and also dependent on correct folding,
+CC       which is maintained by an internal disulfide bond in FP2.
+CC       {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- PTM: Specific enzymatic cleavages in vivo yield mature proteins. The
+CC       precursor is processed into S1 and S2 by host cell furin or another
+CC       cellular protease to yield the mature S1 and S2 proteins. Additionally,
+CC       a second cleavage leads to the release of a fusion peptide after viral
+CC       attachment to host cell receptor. {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- PTM: The cytoplasmic Cys-rich domain is palmitoylated. Spike
+CC       glycoprotein is digested within host endosomes. {ECO:0000255|HAMAP-
+CC       Rule:MF_04099}.
+CC   -!- SIMILARITY: Belongs to the betacoronaviruses spike protein family.
+CC       {ECO:0000255|HAMAP-Rule:MF_04099}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB27260.2; Type=Miscellaneous discrepancy; Note=Unknown reason.;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L14643; AAA03055.1; -; Genomic_RNA.
+DR   EMBL; S62886; AAB27260.2; ALT_SEQ; Genomic_RNA.
+DR   EMBL; Z21849; CAA79896.1; -; Genomic_RNA.
+DR   EMBL; Z32768; CAA83660.1; -; Genomic_RNA.
+DR   EMBL; Z32769; CAA83661.1; -; Genomic_RNA.
+DR   EMBL; AY585228; AAT84354.1; -; Genomic_RNA.
+DR   EMBL; AY391777; AAR01015.1; -; Genomic_RNA.
+DR   PIR; A37474; A37474.
+DR   PIR; JQ2168; JQ2168.
+DR   PIR; S29998; S29998.
+DR   PIR; S44240; S44240.
+DR   PIR; S44241; S44241.
+DR   PDB; 7M51; X-ray; 1.80 A; A=1232-1246.
+DR   PDBsum; 7M51; -.
+DR   SMR; P36334; -.
+DR   SABIO-RK; P36334; -.
+DR   Proteomes; UP000007552; Genome.
+DR   Proteomes; UP000180344; Genome.
+DR   GO; GO:0044173; C:host cell endoplasmic reticulum-Golgi intermediate compartment membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; NAS:UniProtKB.
+DR   GO; GO:0019031; C:viral envelope; NAS:UniProtKB.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; NAS:UniProtKB.
+DR   GO; GO:0046789; F:host cell surface receptor binding; TAS:UniProtKB.
+DR   GO; GO:0075509; P:endocytosis involved in viral entry into host cell; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039654; P:fusion of virus membrane with host endosome membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; TAS:UniProtKB.
+DR   GO; GO:0046813; P:receptor-mediated virion attachment to host cell; IEA:UniProtKB-UniRule.
+DR   CDD; cd21485; HCoV-OC43-like_Spike_S1_RBD; 1.
+DR   CDD; cd21625; MHV-like_Spike_S1_NTD; 1.
+DR   Gene3D; 2.60.120.960; -; 1.
+DR   HAMAP; MF_04099; BETA_CORONA_SPIKE; 1.
+DR   InterPro; IPR032500; bCoV_S1_N.
+DR   InterPro; IPR042578; BETA_CORONA_SPIKE.
+DR   InterPro; IPR043607; CoV_S1_C.
+DR   InterPro; IPR043473; S2_sf_CoV.
+DR   InterPro; IPR043002; Spike_N_sf.
+DR   InterPro; IPR044339; Spike_S1_NTD_MHV-like.
+DR   InterPro; IPR018548; Spike_S1_RBD_bCoV.
+DR   InterPro; IPR044372; Spike_S1_RBD_HCoV-OC43-like.
+DR   InterPro; IPR036326; Spike_S1_RBD_sf_bCoV.
+DR   InterPro; IPR002552; Spike_S2_CoV.
+DR   InterPro; IPR043614; Spike_S2_CoV_C.
+DR   InterPro; IPR044873; Spike_S2_CoV_HR1.
+DR   InterPro; IPR044874; Spike_S2_CoV_HR2.
+DR   Pfam; PF16451; bCoV_S1_N; 1.
+DR   Pfam; PF09408; bCoV_S1_RBD; 1.
+DR   Pfam; PF19209; CoV_S1_C; 1.
+DR   Pfam; PF01601; CoV_S2; 1.
+DR   Pfam; PF19214; CoV_S2_C; 1.
+DR   SUPFAM; SSF111474; SSF111474; 2.
+DR   SUPFAM; SSF143587; SSF143587; 1.
+DR   PROSITE; PS51921; BCOV_S1_CTD; 1.
+DR   PROSITE; PS51922; BCOV_S1_NTD; 1.
+DR   PROSITE; PS51923; COV_S2_HR1; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Coiled coil; Disulfide bond;
+KW   Fusion of virus membrane with host endosomal membrane;
+KW   Fusion of virus membrane with host membrane; Glycoprotein;
+KW   Host cell membrane; Host membrane; Host-virus interaction; Lipoprotein;
+KW   Membrane; Palmitate; Signal; Transmembrane; Transmembrane helix;
+KW   Viral attachment to host cell; Viral envelope protein;
+KW   Viral penetration into host cytoplasm; Virion; Virulence;
+KW   Virus entry into host cell.
+FT   SIGNAL          1..13
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CHAIN           14..1353
+FT                   /note="Spike glycoprotein"
+FT                   /id="PRO_0000037205"
+FT   CHAIN           14..758
+FT                   /note="Spike protein S1"
+FT                   /id="PRO_0000037206"
+FT   CHAIN           759..1353
+FT                   /note="Spike protein S2"
+FT                   /id="PRO_0000037207"
+FT   CHAIN           904..1353
+FT                   /note="Spike protein S2'"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT                   /id="PRO_0000444081"
+FT   TOPO_DOM        14..1297
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   TRANSMEM        1298..1318
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   TOPO_DOM        1319..1353
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   DOMAIN          15..302
+FT                   /note="BetaCoV S1-NTD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01270"
+FT   DOMAIN          333..607
+FT                   /note="BetaCoV S1-CTD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01269"
+FT   REGION          904..925
+FT                   /note="Fusion peptide 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   REGION          923..943
+FT                   /note="Fusion peptide 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   REGION          1004..1054
+FT                   /note="Heptad repeat 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   REGION          1248..1286
+FT                   /note="Heptad repeat 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   COILED          1033..1077
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   COILED          1259..1287
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   MOTIF           1349..1353
+FT                   /note="KxHxx"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   SITE            758..759
+FT                   /note="Cleavage; by host"
+FT                   /evidence="ECO:0000250"
+FT   SITE            903..904
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        59
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        133
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        202
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        363
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        441
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        496
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        639
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        666
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        686
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        704
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        729
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        778
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        927
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        1184
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        1214
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        1224
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        1243
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        1257
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   CARBOHYD        1278
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   DISULFID        21..169
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01270"
+FT   DISULFID        164..197
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01270"
+FT   DISULFID        176..256
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01270"
+FT   DISULFID        290..300
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01270"
+FT   DISULFID        335..360
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01269"
+FT   DISULFID        378..431
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01269"
+FT   DISULFID        390..605
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01269"
+FT   DISULFID        928..939
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04099"
+FT   VARIANT         11..13
+FT                   /note="TAF -> MAL (in strain: Isolate VA)"
+FT   VARIANT         23..25
+FT                   /note="SDN -> TVA (in strain: Isolate VA)"
+FT   VARIANT         23..25
+FT                   /note="SDN -> TVS (in strain: Isolate CU)"
+FT   VARIANT         25
+FT                   /note="N -> TSY (in strain: Isolate AT and Isolate
+FT                   ATCCVR-759)"
+FT   VARIANT         29
+FT                   /note="K -> I (in strain: Isolate CU)"
+FT   VARIANT         29
+FT                   /note="K -> V (in strain: Isolate VA)"
+FT   VARIANT         33..36
+FT                   /note="PPPI -> VPST (in strain: Isolate VA)"
+FT   VARIANT         33..35
+FT                   /note="PPP -> APS (in strain: Isolate CU)"
+FT   VARIANT         40
+FT                   /note="T -> I (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         62
+FT                   /note="L -> F (in strain: Isolate AT)"
+FT   VARIANT         63
+FT                   /note="F -> L (in strain: Isolate AT, Isolate CU and
+FT                   Isolate VA)"
+FT   VARIANT         83..84
+FT                   /note="SV -> TL (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         115
+FT                   /note="D -> H (in strain: Isolate VA)"
+FT   VARIANT         115
+FT                   /note="D -> K (in strain: Isolate CU)"
+FT   VARIANT         116
+FT                   /note="R -> G (in strain: Isolate AT, Isolate CU and
+FT                   Isolate VA)"
+FT   VARIANT         143..151
+FT                   /note="RTINSTQDG -> HTTNL (in strain: Isolate CU and
+FT                   Isolate VA)"
+FT   VARIANT         152
+FT                   /note="D -> Y (in strain: Isolate AT and Isolate
+FT                   ATCCVR-759)"
+FT   VARIANT         161
+FT                   /note="V -> I (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         167
+FT                   /note="N -> T (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         173
+FT                   /note="Q -> H (in strain: Isolate CU)"
+FT   VARIANT         173
+FT                   /note="Q -> N (in strain: Isolate VA)"
+FT   VARIANT         183..185
+FT                   /note="HRK -> RRV (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         190
+FT                   /note="L -> W (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         222
+FT                   /note="T -> I (in strain: Isolate VA)"
+FT   VARIANT         244..245
+FT                   /note="MA -> TV (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         248
+FT                   /note="H -> Y (in strain: Isolate VA)"
+FT   VARIANT         252
+FT                   /note="M -> L (in strain: Isolate CU)"
+FT   VARIANT         259..260
+FT                   /note="KL -> AM (in strain: Isolate CU, Isolate ATCCVR-759
+FT                   and Isolate VA)"
+FT   VARIANT         260
+FT                   /note="L -> VKNGF (in strain: Isolate AT and Isolate
+FT                   ATCCVR-759)"
+FT   VARIANT         272
+FT                   /note="R -> K (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         283
+FT                   /note="I -> V (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         288
+FT                   /note="E -> V (in strain: Isolate AT, Isolate ATCCVR-759,
+FT                   Isolate CU and Isolate VA)"
+FT   VARIANT         291
+FT                   /note="M -> K (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         303
+FT                   /note="Q -> L (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         308
+FT                   /note="P -> S (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         329
+FT                   /note="K -> I (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         330
+FT                   /note="P -> L (in strain: Isolate ATCCVR-759)"
+FT   VARIANT         334
+FT                   /note="N -> D (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         451
+FT                   /note="T -> I (in strain: Isolate VA)"
+FT   VARIANT         454
+FT                   /note="K -> R (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         459..461
+FT                   /note="IED -> TEQ (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         467
+FT                   /note="R -> Q (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         469..474
+FT                   /note="AGVLTN -> VGVFTH (in strain: Isolate CU)"
+FT   VARIANT         472..474
+FT                   /note="LTN -> FTD (in strain: Isolate VA)"
+FT   VARIANT         488
+FT                   /note="K -> T (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         496
+FT                   /note="N -> D (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         499..536
+FT                   /note="CVGSGPGKNNGIGTCPAGTNYLTCDNLCTPDPITFTGT -> LCVGNGPGID
+FT                   AGYKNSGIGTCPAGTNYLTCHNAAQCDCLCTPDPITSKSTGP (in strain:
+FT                   Isolate CU and Isolate VA)"
+FT   VARIANT         533
+FT                   /note="F -> FKA (in strain: Isolate AT and Isolate
+FT                   ATCCVR-759)"
+FT   VARIANT         544
+FT                   /note="S -> Y (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         557
+FT                   /note="V -> I (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         566
+FT                   /note="S -> P (in strain: Isolate AT, Isolate CU and
+FT                   Isolate VA)"
+FT   VARIANT         570
+FT                   /note="R -> Q (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         579
+FT                   /note="A -> V (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         587
+FT                   /note="K -> R (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         603
+FT                   /note="L -> T (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         612
+FT                   /note="A -> S (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         630
+FT                   /note="L -> T (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         641
+FT                   /note="T -> P (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         664..665
+FT                   /note="II -> LT (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         665
+FT                   /note="I -> T (in strain: Isolate AT and Isolate
+FT                   ATCCVR-759)"
+FT   VARIANT         694
+FT                   /note="F -> S (in strain: Isolate AT)"
+FT   VARIANT         700
+FT                   /note="N -> S (in strain: Isolate CU)"
+FT   VARIANT         706..708
+FT                   /note="SLT -> TLS (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         728
+FT                   /note="Y -> D (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         732..734
+FT                   /note="AIS -> SSV (in strain: Isolate CU)"
+FT   VARIANT         733..734
+FT                   /note="IS -> SA (in strain: Isolate VA)"
+FT   VARIANT         752..753
+FT                   /note="KN -> TK (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         758
+FT                   /note="G -> R (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         783
+FT                   /note="P -> H (in strain: Isolate VA)"
+FT   VARIANT         802
+FT                   /note="V -> E (in strain: Isolate AT, Isolate ATCCVR-759,
+FT                   Isolate CU and Isolate VA)"
+FT   VARIANT         817
+FT                   /note="A -> S (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         824
+FT                   /note="Y -> C (in strain: Isolate VA)"
+FT   VARIANT         833
+FT                   /note="E -> G (in strain: Isolate AT)"
+FT   VARIANT         884
+FT                   /note="I -> V (in strain: Isolate VA)"
+FT   VARIANT         896
+FT                   /note="E -> C (in strain: Isolate CU)"
+FT   VARIANT         898..900
+FT                   /note="SKA -> NKV (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         912
+FT                   /note="D -> S (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         915
+FT                   /note="K -> R (in strain: Isolate VA)"
+FT   VARIANT         933
+FT                   /note="E -> G (in strain: Isolate VA)"
+FT   VARIANT         944
+FT                   /note="K -> N (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         955
+FT                   /note="E -> D (in strain: Isolate VA)"
+FT   VARIANT         955
+FT                   /note="E -> V (in strain: Isolate CU)"
+FT   VARIANT         969
+FT                   /note="S -> N (in strain: Isolate VA)"
+FT   VARIANT         973
+FT                   /note="P -> L (in strain: Isolate ATCCVR-759)"
+FT   VARIANT         975
+FT                   /note="T -> S (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         993
+FT                   /note="L -> I (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1012
+FT                   /note="N -> S (in strain: Isolate CU)"
+FT   VARIANT         1016
+FT                   /note="Y -> D (in strain: Isolate AT, Isolate CU and
+FT                   Isolate VA)"
+FT   VARIANT         1039
+FT                   /note="N -> D (in strain: Isolate VA)"
+FT   VARIANT         1058
+FT                   /note="S -> G (in strain: Isolate CU)"
+FT   VARIANT         1059
+FT                   /note="A -> S (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1074
+FT                   /note="E -> Q (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1089
+FT                   /note="N -> D (in strain: Isolate VA)"
+FT   VARIANT         1160
+FT                   /note="R -> K (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1189
+FT                   /note="Y -> F (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1193
+FT                   /note="G -> R (in strain: Isolate VA)"
+FT   VARIANT         1197
+FT                   /note="P -> L (in strain: Isolate AT)"
+FT   VARIANT         1202
+FT                   /note="E -> G (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1211
+FT                   /note="C -> W (in strain: Isolate AT)"
+FT   VARIANT         1220
+FT                   /note="Y -> D (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1225..1227
+FT                   /note="TSI -> IST (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1231
+FT                   /note="P -> H (in strain: Isolate CU)"
+FT   VARIANT         1246
+FT                   /note="S -> L (in strain: Isolate VA)"
+FT   VARIANT         1265
+FT                   /note="V -> D (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1305..1306
+FT                   /note="CL -> GF (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1331
+FT                   /note="K -> I (in strain: Isolate CU)"
+FT   VARIANT         1342
+FT                   /note="Y -> H (in strain: Isolate CU and Isolate VA)"
+FT   VARIANT         1352..1353
+FT                   /note="DD -> EG (in strain: Isolate VA)"
+FT   HELIX           1233..1241
+FT                   /evidence="ECO:0007829|PDB:7M51"
+SQ   SEQUENCE   1353 AA;  150089 MW;  7B1CE3CBDB1A902A CRC64;
+     MFLILLISLP TAFAVIGDLK CTSDNINDKD TGPPPISTDT VDVTNGLGTY YVLDRVYLNT
+     TLFLNGYYPT SGSTYRNMAL KGSVLLSRLW FKPPFLSDFI NGIFAKVKNT KVIKDRVMYS
+     EFPAITIGST FVNTSYSVVV QPRTINSTQD GDNKLQGLLE VSVCQYNMCE YPQTICHPNL
+     GNHRKELWHL DTGVVSCLYK RNFTYDVNAD YLYFHFYQEG GTFYAYFTDT GVVTKFLFNV
+     YLGMALSHYY VMPLTCNSKL TLEYWVTPLT SRQYLLAFNQ DGIIFNAEDC MSDFMSEIKC
+     KTQSIAPPTG VYELNGYTVQ PIADVYRRKP NLPNCNIEAW LNDKSVPSPL NWERKTFSNC
+     NFNMSSLMSF IQADSFTCNN IDAAKIYGMC FSSITIDKFA IPNGRKVDLQ LGNLGYLQSF
+     NYRIDTTATS CQLYYNLPAA NVSVSRFNPS TWNKRFGFIE DSVFKPRPAG VLTNHDVVYA
+     QHCFKAPKNF CPCKLNGSCV GSGPGKNNGI GTCPAGTNYL TCDNLCTPDP ITFTGTYKCP
+     QTKSLVGIGE HCSGLAVKSD YCGGNSCTCR PQAFLGWSAD SCLQGDKCNI FANFILHDVN
+     SGLTCSTDLQ KANTDIILGV CVNYDLYGIL GQGIFVEVNA TYYNSWQNLL YDSNGNLYGF
+     RDYIINRTFM IRSCYSGRVS AAFHANSSEP ALLFRNIKCN YVFNNSLTRQ LQPINYFDSY
+     LGCVVNAYNS TAISVQTCDL TVGSGYCVDY SKNRRSRGAI TTGYRFTNFE PFTVNSVNDS
+     LEPVGGLYEI QIPSEFTIGN MVEFIQTSSP KVTIDCAAFV CGDYAACKSQ LVEYGSFCDN
+     INAILTEVNE LLDTTQLQVA NSLMNGVTLS TKLKDGVNFN VDDINFSPVL GCLGSECSKA
+     SSRSAIEDLL FDKVKLSDVG FVEAYNNCTG GAEIRDLICV QSYKGIKVLP PLLSENQISG
+     YTLAATSASL FPPWTAAAGV PFYLNVQYRI NGLGVTMDVL SQNQKLIANA FNNALYAIQE
+     GFDATNSALV KIQAVVNANA EALNNLLQQL SNRFGAISAS LQEILSRLDA LEAEAQIDRL
+     INGRLTALNA YVSQQLSDST LVKFSAAQAM EKVNECVKSQ SSRINFCGNG NHIISLVQNA
+     PYGLYFIHFS YVPTKYVTAR VSPGLCIAGD RGIAPKSGYF VNVNNTWMYT GSGYYYPEPI
+     TENNVVVMST CAVNYTKAPY VMLNTSIPNL PDFKEELDQW FKNQTSVAPD LSLDYINVTF
+     LDLQVEMNRL QEAIKVLNQS YINLKDIGTY EYYVKWPWYV WLLICLAGVA MLVLLFFICC
+     CTGCGTSCFK KCGGCCDDYT GYQELVIKTS HDD
+//

@@ -1,0 +1,121 @@
+ID   AMY_STRLI               Reviewed;         919 AA.
+AC   Q05884;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   03-AUG-2022, entry version 107.
+DE   RecName: Full=Alpha-amylase;
+DE            EC=3.2.1.1;
+DE   AltName: Full=1,4-alpha-D-glucan glucanohydrolase;
+DE   Flags: Precursor;
+GN   Name=amy;
+OS   Streptomyces lividans.
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=1916;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 34-43.
+RC   STRAIN=TK24;
+RX   PubMed=8424949; DOI=10.1016/0167-4781(93)90063-j;
+RA   Tsao L.-S., Lin L.-L., Chen J.-C., Chen J.-H., Hsu W.-H.;
+RT   "Cloning and characterization of an alpha-amylase gene from Streptomyces
+RT   lividans.";
+RL   Biochim. Biophys. Acta 1171:255-262(1993).
+RN   [2]
+RP   ERRATUM OF PUBMED:8424949.
+RX   PubMed=8485150;
+RA   Tsao L.-S., Lin L.-L., Chen J.-C., Chen J.-H., Hsu W.-H.;
+RL   Biochim. Biophys. Acta 1173:119-119(1993).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in
+CC         polysaccharides containing three or more (1->4)-alpha-linked D-
+CC         glucose units.; EC=3.2.1.1;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 13 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X70255; CAA49759.1; -; Genomic_DNA.
+DR   PIR; S28179; S28179.
+DR   AlphaFoldDB; Q05884; -.
+DR   SMR; Q05884; -.
+DR   CAZy; CBM41; Carbohydrate-Binding Module Family 41.
+DR   CAZy; GH13; Glycoside Hydrolase Family 13.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004556; F:alpha-amylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd10315; CBM41_pullulanase; 2.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   InterPro; IPR006048; A-amylase/branching_C.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR005323; CBM41_pullulanase.
+DR   InterPro; IPR006047; Glyco_hydro_13_cat_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF00128; Alpha-amylase; 1.
+DR   Pfam; PF02806; Alpha-amylase_C; 1.
+DR   Pfam; PF03714; PUD; 2.
+DR   SMART; SM00642; Aamy; 1.
+DR   SUPFAM; SSF49452; SSF49452; 2.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Carbohydrate metabolism; Direct protein sequencing; Glycosidase;
+KW   Hydrolase; Metal-binding; Secreted; Signal.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000269|PubMed:8424949"
+FT   CHAIN           34..919
+FT                   /note="Alpha-amylase"
+FT                   /id="PRO_0000001345"
+FT   REGION          704..729
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        706..729
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        312
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        346
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         182
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         281
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         316
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   SITE            417
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   919 AA;  100642 MW;  035B59FB80F0BD10 CRC64;
+     MPATRRTARV RRVAAVTVTA LAAALLPPLA ARADTPPAPP SDAKLAKTAA RHDLTREQFY
+     FSCRTLRQRG RRERPRRLTG TRLTTGYDPT DKGFYQGGDL KGLTEKLDYI KGLGTTSIWM
+     APIFKNQPVQ GTGKDASAGY HGYWITDFTQ VDPHFGTNKD LKNLISKAHA KGMKVFFDVI
+     TNHTADVVDY EEKSYDYLSK GAFPYLTKDG QPFDDADYAD GERRFPRVDS GSFPRTPTVP
+     TAKKNLKVPS WLNDPAMYHN RGDSTWAGES ATYGDFNGLD DLWTERPEVV GGMEKIYQRW
+     VEDFAIDGFR IDTVKHVDME FWTQWATALD AYAAKKGRDD FFMFGEVYSA DTSVTAPYVT
+     QGRLDSTLDF PFQDAARAYA SQGGSARKLA AVFGDDYKYT TDKANAYEQV TFLGNHDMGR
+     IGTFLKQDAP EAGDAELLKK DRLANELMFL SRGNPVIYYG DEQGFTGAGG DKDARQPMFA
+     SRTADYLDDD QLGTDRTHAE AAYDTSAPLY RQISALAELR KANPALADGV QTERYAADGA
+     GIYAFSRTDA KTGTEYVVAF NNAGTEPSAA FATGSAGMTF RGLYGTDATV KSGADSKVTV
+     TVPARSAVVL KAAGRLAAPA AEPTISLHAP DPGATGTVEL SADVAGGQLN RVVFAAQTGD
+     GKWRTLGTAD HAPYKVTHTV DADTPAGTAL RYKAVVVDSA GRTASGRLHH RHPARRGGAH
+     RRLPGPRGRP LQARRRELRR LGPVRLGRPR RREAHHLARH PPLHRPGRLR AFAYVKLKPG
+     ASTVGFLVID KDGNKDVAAD RTIDVTETGE VWIEQGEEQL VTERPEYPAQ DTTKAVLHYK
+     RADGNYDGWG LHVWGDAANP TDWAKPLQPV RTDPYGAVFE VPLTDGASSL SYMVHKGDEK
+     DLPTDQAWTS RPTATRCGC
+//

@@ -1,0 +1,734 @@
+ID   MA2B1_HUMAN             Reviewed;        1011 AA.
+AC   O00754; G5E928; O15330; Q16680; Q93094; Q9BW13;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2006, sequence version 3.
+DT   03-AUG-2022, entry version 216.
+DE   RecName: Full=Lysosomal alpha-mannosidase;
+DE            Short=Laman;
+DE            EC=3.2.1.24;
+DE   AltName: Full=Lysosomal acid alpha-mannosidase;
+DE   AltName: Full=Mannosidase alpha class 2B member 1;
+DE   AltName: Full=Mannosidase alpha-B;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase A peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase B peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase C peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase D peptide;
+DE   Contains:
+DE     RecName: Full=Lysosomal alpha-mannosidase E peptide;
+DE   Flags: Precursor;
+GN   Name=MAN2B1; Synonyms=LAMAN, MANB;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   PubMed=8166692; DOI=10.1006/bbrc.1994.1440;
+RA   Nebes V.L., Schmidt M.C.;
+RT   "Human lysosomal alpha-mannosidase: isolation and nucleotide sequence of
+RT   the full-length cDNA.";
+RL   Biochem. Biophys. Res. Commun. 200:239-245(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), PARTIAL PROTEIN SEQUENCE, AND
+RP   VARIANT MANSA LEU-72.
+RC   TISSUE=Lung, and Skin;
+RX   PubMed=9158146; DOI=10.1093/hmg/6.5.717;
+RA   Nilssen O., Berg T., Riise H.M.F., Ramachandran U., Evjen G., Hansen G.M.,
+RA   Malm D., Tranebjaerg L., Tollersrud O.-K.;
+RT   "Alpha-mannosidosis: functional cloning of the lysosomal alpha-mannosidase
+RT   cDNA and identification of a mutation in two affected siblings.";
+RL   Hum. Mol. Genet. 6:717-726(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 1).
+RX   PubMed=9192839; DOI=10.1006/geno.1997.4668;
+RA   Riise H.M.F., Berg T., Nilssen O., Romeo G., Tollersrud O.-K.,
+RA   Ceccherini I.;
+RT   "Genomic structure of the human lysosomal alpha-mannosidase gene (MANB).";
+RL   Genomics 42:200-207(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J., Lamerdin J.E.,
+RA   Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M., Aerts A.,
+RA   Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E., Caenepeel S.,
+RA   Carrano A.V., Caoile C., Chan Y.M., Christensen M., Cleland C.A.,
+RA   Copeland A., Dalin E., Dehal P., Denys M., Detter J.C., Escobar J.,
+RA   Flowers D., Fotopulos D., Garcia C., Georgescu A.M., Glavina T., Gomez M.,
+RA   Gonzales E., Groza M., Hammon N., Hawkins T., Haydu L., Ho I., Huang W.,
+RA   Israni S., Jett J., Kadner K., Kimball H., Kobayashi A., Larionov V.,
+RA   Leem S.-H., Lopez F., Lou Y., Lowry S., Malfatti S., Martinez D.,
+RA   McCready P.M., Medina C., Morgan J., Nelson K., Nolan M., Ovcharenko I.,
+RA   Pitluck S., Pollard M., Popkie A.P., Predki P., Quan G., Ramirez L.,
+RA   Rash S., Retterer J., Rodriguez A., Rogers S., Salamov A., Salazar A.,
+RA   She X., Smith D., Slezak T., Solovyev V., Thayer N., Tice H., Tsai M.,
+RA   Ustaszewska A., Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J.,
+RA   Dubchak I., Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L., Mobarry C.M.,
+RA   Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R., Flanigan M.J.,
+RA   Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V., Hannenhalli S.,
+RA   Turner R., Yooseph S., Lu F., Nusskern D.R., Shue B.C., Zheng X.H.,
+RA   Zhong F., Delcher A.L., Huson D.H., Kravitz S.A., Mouchard L., Reinert K.,
+RA   Remington K.A., Clark A.G., Waterman M.S., Eichler E.E., Adams M.D.,
+RA   Hunkapiller M.W., Myers E.W., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 9-1010 (ISOFORM 1).
+RC   TISSUE=Spleen;
+RX   PubMed=8910458; DOI=10.1074/jbc.271.45.28348;
+RA   Liao Y.-F., Lal A., Moremen K.W.;
+RT   "Cloning, expression, purification, and characterization of the human broad
+RT   specificity lysosomal acid alpha-mannosidase.";
+RL   J. Biol. Chem. 271:28348-28358(1996).
+RN   [8]
+RP   PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=7832746; DOI=10.1042/bj3050363;
+RA   Emiliani C., Martino S., Stirling J.L., Maras B., Orlacchio A.;
+RT   "Partial sequence of the purified protein confirms the identity of cDNA
+RT   coding for human lysosomal alpha-mannosidase B.";
+RL   Biochem. J. 305:363-366(1995).
+RN   [9]
+RP   GLYCOSYLATION AT ASN-930.
+RX   PubMed=12754519; DOI=10.1038/nbt827;
+RA   Zhang H., Li X.-J., Martin D.B., Aebersold R.;
+RT   "Identification and quantification of N-linked glycoproteins using
+RT   hydrazide chemistry, stable isotope labeling and mass spectrometry.";
+RL   Nat. Biotechnol. 21:660-666(2003).
+RN   [10]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-367 AND ASN-766.
+RC   TISSUE=Liver;
+RX   PubMed=19159218; DOI=10.1021/pr8008012;
+RA   Chen R., Jiang X., Sun D., Han G., Wang F., Ye M., Wang L., Zou H.;
+RT   "Glycoproteomics analysis of human liver tissue by combination of multiple
+RT   enzyme digestion and hydrazide chemistry.";
+RL   J. Proteome Res. 8:651-661(2009).
+RN   [11]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [12]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [13]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25944712; DOI=10.1002/pmic.201400617;
+RA   Vaca Jacome A.S., Rabilloud T., Schaeffer-Reiss C., Rompais M., Ayoub D.,
+RA   Lane L., Bairoch A., Van Dorsselaer A., Carapito C.;
+RT   "N-terminome analysis of the human mitochondrial proteome.";
+RL   Proteomics 15:2519-2524(2015).
+RN   [14]
+RP   VARIANTS MANSA LEU-72; ARG-356 AND TRP-750.
+RX   PubMed=9758606; DOI=10.1086/302048;
+RA   Gotoda Y., Wakamatsu N., Kawai H., Nishida Y., Matsumoto T.;
+RT   "Missense and nonsense mutations in the lysosomal alpha-mannosidase gene
+RT   (MANB) in severe and mild forms of alpha-mannosidosis.";
+RL   Am. J. Hum. Genet. 63:1015-1024(1998).
+RN   [15]
+RP   VARIANTS MANSA PRO-355; LYS-402; ARG-714 AND PRO-809, AND VARIANTS VAL-278;
+RP   ILE-312; GLN-337 AND SER-413.
+RX   PubMed=9915946; DOI=10.1086/302183;
+RA   Berg T., Riise H.M.F., Hansen G.M., Malm D., Tranebjaerg L.,
+RA   Tollersrud O.-K., Nilssen O.;
+RT   "Spectrum of mutations in alpha-mannosidosis.";
+RL   Am. J. Hum. Genet. 64:77-88(1999).
+RN   [16]
+RP   VARIANT MANSA TYR-453.
+RX   PubMed=12718372;
+RA   Oelmez A., Nilssen O., Coskun T., Klenow H.;
+RT   "Alpha-mannosidosis and mutational analysis in a Turkish patient.";
+RL   Turk. J. Pediatr. 45:46-50(2003).
+RN   [17]
+RP   VARIANTS MANSA LEU-200 AND ASP-801, AND CHARACTERIZATION OF VARIANTS MANSA
+RP   LEU-200 AND ASP-801.
+RX   PubMed=15712269; DOI=10.1002/humu.9310;
+RA   Sbaragli M., Bibi L., Pittis M.G., Balducci C., Heikinheimo P., Ricci R.,
+RA   Antuzzi D., Parini R., Spaccini L., Bembi B., Beccari T.;
+RT   "Identification and characterization of five novel MAN2B1 mutations in
+RT   Italian patients with alpha-mannosidosis.";
+RL   Hum. Mutat. 25:320-320(2005).
+RN   [18]
+RP   VARIANTS MANSA PHE-55; GLU-74; PRO-95; HIS-99; ASN-159; ARG-197; ASN-200;
+RP   LEU-200; PRO-202; TRP-229; LEU-263; LEU-318; 339-VAL--GLN-342 DEL; PRO-352;
+RP   LEU-379; CYS-390; LYS-402; VAL-420; TYR-445; CYS-451; TYR-453; PHE-453;
+RP   GLU-457; SER-501; PRO-565; ARG-745; ARG-800; TRP-800; HIS-ARG-815 INS;
+RP   ARG-891; PRO-892; CYS-916; HIS-916; PRO-950; ARG-956 AND SER-1000, VARIANTS
+RP   LEU-248; VAL-278; SER-282; ILE-312; GLN-337; SER-413; SER-481 AND LEU-669,
+RP   AND CHARACTERIZATION OF VARIANTS MANSA PHE-55; GLU-74; PRO-95; HIS-99;
+RP   ASN-159; ARG-197; ASN-200; LEU-200; PRO-202; TRP-229; LEU-263; LEU-318;
+RP   PRO-352; LEU-379; CYS-390; LYS-402; VAL-420; TYR-445; CYS-451; TYR-453;
+RP   PHE-453; GLU-457; SER-501; PRO-565; ARG-745; ARG-800; TRP-800; HIS-ARG-815
+RP   INS; ARG-891; PRO-892; CYS-916; HIS-916; PRO-950; ARG-956 AND SER-1000.
+RX   PubMed=22161967; DOI=10.1002/humu.22005;
+RA   Riise Stensland H.M., Klenow H.B., Van Nguyen L., Hansen G.M., Malm D.,
+RA   Nilssen O.;
+RT   "Identification of 83 novel alpha-mannosidosis-associated sequence
+RT   variants: functional analysis of MAN2B1 missense mutations.";
+RL   Hum. Mutat. 33:511-520(2012).
+CC   -!- FUNCTION: Necessary for the catabolism of N-linked carbohydrates
+CC       released during glycoprotein turnover. Cleaves all known types of
+CC       alpha-mannosidic linkages.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-mannose residues
+CC         in alpha-D-mannosides.; EC=3.2.1.24;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Lysosome.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=O00754-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=O00754-2; Sequence=VSP_047391;
+CC   -!- PTM: First processed into 3 peptides of 70 kDa, 42 kDa (D) and 13/15
+CC       kDa (E). The 70 kDa peptide is further processed into three peptides
+CC       (A, B and C). The A, B and C peptides are disulfide-linked.
+CC   -!- PTM: Heavily glycosylated. {ECO:0000269|PubMed:12754519,
+CC       ECO:0000269|PubMed:19159218}.
+CC   -!- DISEASE: Mannosidosis, alpha B, lysosomal (MANSA) [MIM:248500]: A
+CC       lysosomal storage disease characterized by accumulation of unbranched
+CC       oligosaccharide chains. This accumulation is expressed histologically
+CC       as cytoplasmic vacuolation predominantly in the CNS and parenchymatous
+CC       organs. Depending on the clinical findings at the age of onset, a
+CC       severe infantile (type I) and a mild juvenile (type II) form of alpha-
+CC       mannosidosis are recognized. There is considerable variation in the
+CC       clinical expression with intellectual disability, recurrent infections,
+CC       impaired hearing and Hurler-like skeletal changes being the most
+CC       consistent abnormalities. {ECO:0000269|PubMed:12718372,
+CC       ECO:0000269|PubMed:15712269, ECO:0000269|PubMed:22161967,
+CC       ECO:0000269|PubMed:9158146, ECO:0000269|PubMed:9758606,
+CC       ECO:0000269|PubMed:9915946}. Note=The disease is caused by variants
+CC       affecting the gene represented in this entry.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB03816.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AAC50812.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   -!- WEB RESOURCE: Name=Mendelian genes mannosidase, alpha, class 2B, member
+CC       1 (MAN2B1); Note=Leiden Open Variation Database (LOVD);
+CC       URL="https://databases.lovd.nl/shared/genes/MAN2B1";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U05572; AAB03816.1; ALT_INIT; mRNA.
+DR   EMBL; U60266; AAC34130.1; -; mRNA.
+DR   EMBL; U60899; AAC51362.1; -; Genomic_DNA.
+DR   EMBL; U60885; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60886; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60887; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60888; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60889; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60890; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60891; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60892; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60893; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60894; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60895; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60896; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60897; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; U60898; AAC51362.1; JOINED; Genomic_DNA.
+DR   EMBL; AC010422; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471106; EAW84279.1; -; Genomic_DNA.
+DR   EMBL; BC000736; AAH00736.1; -; mRNA.
+DR   EMBL; U68567; AAC50812.1; ALT_INIT; mRNA.
+DR   CCDS; CCDS32919.1; -. [O00754-1]
+DR   CCDS; CCDS54224.1; -. [O00754-2]
+DR   RefSeq; NP_000519.2; NM_000528.3. [O00754-1]
+DR   RefSeq; NP_001166969.1; NM_001173498.1. [O00754-2]
+DR   AlphaFoldDB; O00754; -.
+DR   SMR; O00754; -.
+DR   BioGRID; 110298; 85.
+DR   IntAct; O00754; 5.
+DR   MINT; O00754; -.
+DR   STRING; 9606.ENSP00000395473; -.
+DR   BindingDB; O00754; -.
+DR   ChEMBL; CHEMBL4059; -.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   GlyConnect; 775; 16 N-Linked glycans (6 sites).
+DR   GlyGen; O00754; 13 sites, 17 N-linked glycans (6 sites), 1 O-linked glycan (1 site).
+DR   iPTMnet; O00754; -.
+DR   PhosphoSitePlus; O00754; -.
+DR   BioMuta; MAN2B1; -.
+DR   CPTAC; CPTAC-2225; -.
+DR   EPD; O00754; -.
+DR   jPOST; O00754; -.
+DR   MassIVE; O00754; -.
+DR   MaxQB; O00754; -.
+DR   PaxDb; O00754; -.
+DR   PeptideAtlas; O00754; -.
+DR   PRIDE; O00754; -.
+DR   ProteomicsDB; 33811; -.
+DR   ProteomicsDB; 48018; -. [O00754-1]
+DR   Antibodypedia; 26063; 56 antibodies from 11 providers.
+DR   DNASU; 4125; -.
+DR   Ensembl; ENST00000221363.8; ENSP00000221363.4; ENSG00000104774.13. [O00754-2]
+DR   Ensembl; ENST00000456935.7; ENSP00000395473.2; ENSG00000104774.13. [O00754-1]
+DR   GeneID; 4125; -.
+DR   KEGG; hsa:4125; -.
+DR   MANE-Select; ENST00000456935.7; ENSP00000395473.2; NM_000528.4; NP_000519.2.
+DR   UCSC; uc002mub.3; human. [O00754-1]
+DR   CTD; 4125; -.
+DR   DisGeNET; 4125; -.
+DR   GeneCards; MAN2B1; -.
+DR   GeneReviews; MAN2B1; -.
+DR   HGNC; HGNC:6826; MAN2B1.
+DR   HPA; ENSG00000104774; Low tissue specificity.
+DR   MalaCards; MAN2B1; -.
+DR   MIM; 248500; phenotype.
+DR   MIM; 609458; gene.
+DR   neXtProt; NX_O00754; -.
+DR   OpenTargets; ENSG00000104774; -.
+DR   Orphanet; 309288; Alpha-mannosidosis, adult form.
+DR   Orphanet; 309282; Alpha-mannosidosis, infantile form.
+DR   PharmGKB; PA30575; -.
+DR   VEuPathDB; HostDB:ENSG00000104774; -.
+DR   eggNOG; KOG1959; Eukaryota.
+DR   GeneTree; ENSGT01030000234638; -.
+DR   HOGENOM; CLU_004690_2_0_1; -.
+DR   InParanoid; O00754; -.
+DR   OMA; LEFIWRP; -.
+DR   OrthoDB; 172471at2759; -.
+DR   PhylomeDB; O00754; -.
+DR   TreeFam; TF313840; -.
+DR   BRENDA; 3.2.1.24; 2681.
+DR   PathwayCommons; O00754; -.
+DR   Reactome; R-HSA-6798695; Neutrophil degranulation.
+DR   Reactome; R-HSA-8853383; Lysosomal oligosaccharide catabolism.
+DR   SignaLink; O00754; -.
+DR   BioGRID-ORCS; 4125; 13 hits in 1078 CRISPR screens.
+DR   ChiTaRS; MAN2B1; human.
+DR   GenomeRNAi; 4125; -.
+DR   Pharos; O00754; Tchem.
+DR   PRO; PR:O00754; -.
+DR   Proteomes; UP000005640; Chromosome 19.
+DR   RNAct; O00754; protein.
+DR   Bgee; ENSG00000104774; Expressed in bone marrow cell and 95 other tissues.
+DR   ExpressionAtlas; O00754; baseline and differential.
+DR   Genevisible; O00754; HS.
+DR   GO; GO:0035578; C:azurophil granule lumen; TAS:Reactome.
+DR   GO; GO:0070062; C:extracellular exosome; HDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; TAS:Reactome.
+DR   GO; GO:0005615; C:extracellular space; IDA:UniProtKB.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IDA:HPA.
+DR   GO; GO:0043202; C:lysosomal lumen; TAS:Reactome.
+DR   GO; GO:0005764; C:lysosome; IBA:GO_Central.
+DR   GO; GO:0005654; C:nucleoplasm; IDA:HPA.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007611; P:learning or memory; IEA:Ensembl.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:Ensembl.
+DR   GO; GO:0006517; P:protein deglycosylation; TAS:ProtInc.
+DR   GO; GO:0036211; P:protein modification process; IDA:UniProtKB.
+DR   Gene3D; 1.20.1270.50; -; 2.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR041147; GH38_C.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF17677; Glyco_hydro38C2; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Direct protein sequencing; Disease variant;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase; Lysosome;
+KW   Metal-binding; Reference proteome; Signal; Zinc; Zymogen.
+FT   SIGNAL          1..49
+FT   CHAIN           50..1011
+FT                   /note="Lysosomal alpha-mannosidase"
+FT                   /id="PRO_0000012069"
+FT   CHAIN           50..345
+FT                   /note="Lysosomal alpha-mannosidase A peptide"
+FT                   /id="PRO_0000012070"
+FT   CHAIN           346..429
+FT                   /note="Lysosomal alpha-mannosidase B peptide"
+FT                   /id="PRO_0000012071"
+FT   CHAIN           430..601
+FT                   /note="Lysosomal alpha-mannosidase C peptide"
+FT                   /id="PRO_0000012072"
+FT   CHAIN           602..882
+FT                   /note="Lysosomal alpha-mannosidase D peptide"
+FT                   /id="PRO_0000012073"
+FT   CHAIN           883..1011
+FT                   /note="Lysosomal alpha-mannosidase E peptide"
+FT                   /id="PRO_0000012074"
+FT   ACT_SITE        196
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         72
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         74
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         196
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         446
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        133
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        310
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        367
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19159218"
+FT   CARBOHYD        497
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        645
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        651
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        692
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        766
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19159218"
+FT   CARBOHYD        832
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        930
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12754519"
+FT   CARBOHYD        989
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        55..358
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        268..273
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        412..472
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        493..501
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         343
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_047391"
+FT   VARIANT         55
+FT                   /note="C -> F (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621975)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068034"
+FT   VARIANT         72
+FT                   /note="H -> L (in MANSA; type II; dbSNP:rs387906261)"
+FT                   /evidence="ECO:0000269|PubMed:9158146,
+FT                   ECO:0000269|PubMed:9758606"
+FT                   /id="VAR_003338"
+FT   VARIANT         74
+FT                   /note="D -> E (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs746702002)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068035"
+FT   VARIANT         95
+FT                   /note="A -> P (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs754036398)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068036"
+FT   VARIANT         99
+FT                   /note="Y -> H (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs794727484)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068037"
+FT   VARIANT         159
+FT                   /note="D -> N (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621976)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068038"
+FT   VARIANT         197
+FT                   /note="P -> R (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621977)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068039"
+FT   VARIANT         200
+FT                   /note="H -> L (in MANSA; no residual enzyme activity;
+FT                   dbSNP:rs864621978)"
+FT                   /evidence="ECO:0000269|PubMed:15712269,
+FT                   ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_026412"
+FT   VARIANT         200
+FT                   /note="H -> N (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs772108001)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068040"
+FT   VARIANT         202
+FT                   /note="R -> P (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs864621979)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068041"
+FT   VARIANT         229
+FT                   /note="R -> W (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs763257568)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068042"
+FT   VARIANT         248
+FT                   /note="P -> L (in dbSNP:rs117843968)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068043"
+FT   VARIANT         250
+FT                   /note="A -> S (in dbSNP:rs3745650)"
+FT                   /id="VAR_049209"
+FT   VARIANT         263
+FT                   /note="P -> L (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs746808159)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068044"
+FT   VARIANT         278
+FT                   /note="L -> V (in dbSNP:rs1054486)"
+FT                   /evidence="ECO:0000269|PubMed:22161967,
+FT                   ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003339"
+FT   VARIANT         282
+FT                   /note="P -> S (in dbSNP:rs45576136)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068045"
+FT   VARIANT         312
+FT                   /note="T -> I (in dbSNP:rs1054487)"
+FT                   /evidence="ECO:0000269|PubMed:22161967,
+FT                   ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003340"
+FT   VARIANT         318
+FT                   /note="S -> L (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs774034389)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068046"
+FT   VARIANT         337
+FT                   /note="R -> Q (in dbSNP:rs1133330)"
+FT                   /evidence="ECO:0000269|PubMed:22161967,
+FT                   ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003341"
+FT   VARIANT         339..342
+FT                   /note="Missing (in MANSA)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068047"
+FT   VARIANT         352
+FT                   /note="L -> P (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621980)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068048"
+FT   VARIANT         355
+FT                   /note="T -> P (in MANSA; dbSNP:rs864621992)"
+FT                   /evidence="ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003342"
+FT   VARIANT         356
+FT                   /note="P -> R (in MANSA; type I; dbSNP:rs121434333)"
+FT                   /evidence="ECO:0000269|PubMed:9758606"
+FT                   /id="VAR_003343"
+FT   VARIANT         379
+FT                   /note="P -> L (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs864621981)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068049"
+FT   VARIANT         390
+FT                   /note="G -> C (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621982)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068050"
+FT   VARIANT         402
+FT                   /note="E -> K (in MANSA; unknown pathological significance;
+FT                   dbSNP:rs370760999)"
+FT                   /evidence="ECO:0000269|PubMed:22161967,
+FT                   ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003344"
+FT   VARIANT         413
+FT                   /note="N -> S (in dbSNP:rs35836657)"
+FT                   /evidence="ECO:0000269|PubMed:22161967,
+FT                   ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003345"
+FT   VARIANT         420
+FT                   /note="G -> V (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs772853856)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068051"
+FT   VARIANT         445
+FT                   /note="H -> Y (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621983)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068052"
+FT   VARIANT         451
+FT                   /note="G -> C (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs368899357)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068053"
+FT   VARIANT         453
+FT                   /note="S -> F (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs864621984)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068054"
+FT   VARIANT         453
+FT                   /note="S -> Y (in MANSA; dbSNP:rs864621984)"
+FT                   /evidence="ECO:0000269|PubMed:12718372,
+FT                   ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_026413"
+FT   VARIANT         457
+FT                   /note="V -> E (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs864621985)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068055"
+FT   VARIANT         481
+FT                   /note="A -> S (in dbSNP:rs34544747)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_049210"
+FT   VARIANT         501
+FT                   /note="C -> S (in MANSA; reduced enzyme activity;
+FT                   dbSNP:rs747721968)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068056"
+FT   VARIANT         565
+FT                   /note="L -> P (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621986)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068057"
+FT   VARIANT         669
+FT                   /note="P -> L (in dbSNP:rs75029862)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068058"
+FT   VARIANT         714
+FT                   /note="W -> R (in MANSA; dbSNP:rs864621993)"
+FT                   /evidence="ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003346"
+FT   VARIANT         745
+FT                   /note="T -> R (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621987)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068059"
+FT   VARIANT         750
+FT                   /note="R -> W (in MANSA; type II; dbSNP:rs80338680)"
+FT                   /evidence="ECO:0000269|PubMed:9758606"
+FT                   /id="VAR_003347"
+FT   VARIANT         800
+FT                   /note="G -> R (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs398123456)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068060"
+FT   VARIANT         800
+FT                   /note="G -> W (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs398123456)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068061"
+FT   VARIANT         801
+FT                   /note="G -> D (in MANSA; no residual enzyme activity;
+FT                   dbSNP:rs864621994)"
+FT                   /evidence="ECO:0000269|PubMed:15712269"
+FT                   /id="VAR_026414"
+FT   VARIANT         809
+FT                   /note="L -> P (in MANSA; dbSNP:rs80338681)"
+FT                   /evidence="ECO:0000269|PubMed:9915946"
+FT                   /id="VAR_003348"
+FT   VARIANT         815
+FT                   /note="R -> RHR (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity)"
+FT                   /id="VAR_068062"
+FT   VARIANT         891
+FT                   /note="G -> R (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621988)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068063"
+FT   VARIANT         892
+FT                   /note="L -> P (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621989)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068064"
+FT   VARIANT         916
+FT                   /note="R -> C (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621990)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068065"
+FT   VARIANT         916
+FT                   /note="R -> H (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs758765126)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068066"
+FT   VARIANT         950
+FT                   /note="R -> P (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs139041112)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068067"
+FT   VARIANT         956
+FT                   /note="L -> R (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs768233248)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068068"
+FT   VARIANT         1000
+FT                   /note="F -> S (in MANSA; results in less than 20% of
+FT                   wild-type enzyme activity; dbSNP:rs864621991)"
+FT                   /evidence="ECO:0000269|PubMed:22161967"
+FT                   /id="VAR_068069"
+FT   CONFLICT        3
+FT                   /note="Missing (in Ref. 3; AAC51362)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        186
+FT                   /note="D -> V (in Ref. 2; AAC34130)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        384
+FT                   /note="P -> H (in Ref. 7; AAC50812)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1011 AA;  113744 MW;  E11C77C19D8BD88C CRC64;
+     MGAYARASGV CARGCLDSAG PWTMSRALRP PLPPLCFFLL LLAAAGARAG GYETCPTVQP
+     NMLNVHLLPH THDDVGWLKT VDQYFYGIKN DIQHAGVQYI LDSVISALLA DPTRRFIYVE
+     IAFFSRWWHQ QTNATQEVVR DLVRQGRLEF ANGGWVMNDE AATHYGAIVD QMTLGLRFLE
+     DTFGNDGRPR VAWHIDPFGH SREQASLFAQ MGFDGFFFGR LDYQDKWVRM QKLEMEQVWR
+     ASTSLKPPTA DLFTGVLPNG YNPPRNLCWD VLCVDQPLVE DPRSPEYNAK ELVDYFLNVA
+     TAQGRYYRTN HTVMTMGSDF QYENANMWFK NLDKLIRLVN AQQAKGSSVH VLYSTPACYL
+     WELNKANLTW SVKHDDFFPY ADGPHQFWTG YFSSRPALKR YERLSYNFLQ VCNQLEALVG
+     LAANVGPYGS GDSAPLNEAM AVLQHHDAVS GTSRQHVAND YARQLAAGWG PCEVLLSNAL
+     ARLRGFKDHF TFCQQLNISI CPLSQTAARF QVIVYNPLGR KVNWMVRLPV SEGVFVVKDP
+     NGRTVPSDVV IFPSSDSQAH PPELLFSASL PALGFSTYSV AQVPRWKPQA RAPQPIPRRS
+     WSPALTIENE HIRATFDPDT GLLMEIMNMN QQLLLPVRQT FFWYNASIGD NESDQASGAY
+     IFRPNQQKPL PVSRWAQIHL VKTPLVQEVH QNFSAWCSQV VRLYPGQRHL ELEWSVGPIP
+     VGDTWGKEVI SRFDTPLETK GRFYTDSNGR EILERRRDYR PTWKLNQTEP VAGNYYPVNT
+     RIYITDGNMQ LTVLTDRSQG GSSLRDGSLE LMVHRRLLKD DGRGVSEPLM ENGSGAWVRG
+     RHLVLLDTAQ AAAAGHRLLA EQEVLAPQVV LAPGGGAAYN LGAPPRTQFS GLRRDLPPSV
+     HLLTLASWGP EMVLLRLEHQ FAVGEDSGRN LSAPVTLNLR DLFSTFTITR LQETTLVANQ
+     LREAASRLKW TTNTGPTPHQ TPYQLDPANI TLEPMEIRTF LASVQWKEVD G
+//

@@ -1,0 +1,159 @@
+ID   FAEG3_ECOLX             Reviewed;         285 AA.
+AC   P14191;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 1.
+DT   03-AUG-2022, entry version 79.
+DE   RecName: Full=K88 fimbrial protein AD;
+DE   AltName: Full=K88 antigen;
+DE   AltName: Full=K88 pilin;
+DE   Flags: Precursor;
+GN   Name=faeG;
+OS   Escherichia coli.
+OG   Plasmid pFM205.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2412961; DOI=10.1128/iai.50.1.279-283.1985;
+RA   Dykes C.W., Halliday I.J., Read M.J., Hobden A.N., Harford S.;
+RT   "Nucleotide sequences of four variants of the K88 gene of porcine
+RT   enterotoxigenic Escherichia coli.";
+RL   Infect. Immun. 50:279-283(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 28-275.
+RA   Gaastra W., Klemm P., de Graaf F.K.;
+RT   "The nucleotide sequence of the K88ad protein subunit of porcine
+RT   enterotoxigenic Escherichia coli.";
+RL   FEMS Microbiol. Lett. 18:177-183(1983).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-51 AND 272-285.
+RX   PubMed=1400188; DOI=10.1128/jb.174.20.6350-6358.1992;
+RA   Bakker D., Willemsen P.T.J., Willems R.H., Huisman T.T., Mooi F.R.,
+RA   Oudega B., Stegehuis F., de Graaf F.K.;
+RT   "Identification of minor fimbrial subunits involved in biosynthesis of K88
+RT   fimbriae.";
+RL   J. Bacteriol. 174:6350-6358(1992).
+CC   -!- FUNCTION: K88 major fimbrial subunit. Fimbriae (also called pili), are
+CC       polar filaments radiating from the surface of the bacterium to a length
+CC       of 0.5-1.5 micrometers and numbering 100-300 per cell. They enable
+CC       bacteria to colonize the epithelium of specific host organs.
+CC   -!- SUBUNIT: K88 fimbria, 0.1-1 micrometer in length and 7 nanometers in
+CC       diameter, is composed of about 100 identical subunits.
+CC   -!- SUBCELLULAR LOCATION: Fimbrium.
+CC   -!- MISCELLANEOUS: The protein exists in several antigenic variants.
+CC   -!- SIMILARITY: Belongs to the fimbrial K88 protein family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M29376; AAA24035.1; -; Genomic_DNA.
+DR   EMBL; M35637; AAA24036.1; -; Genomic_DNA.
+DR   EMBL; Z11699; CAA77758.1; -; Genomic_DNA.
+DR   EMBL; Z11700; CAA77759.1; -; Genomic_DNA.
+DR   EMBL; Z11710; CAA77770.1; -; Genomic_DNA.
+DR   PIR; I41319; I41319.
+DR   PDB; 3GEA; X-ray; 1.70 A; A/B=43-285.
+DR   PDB; 3GEW; X-ray; 2.00 A; A/D=43-285.
+DR   PDB; 3GGH; X-ray; 1.64 A; A/B=43-285.
+DR   PDB; 3HLR; X-ray; 2.30 A; A=22-285.
+DR   PDB; 4WEI; X-ray; 2.30 A; A=40-285.
+DR   PDB; 4WEU; X-ray; 2.61 A; A/B=40-285.
+DR   PDBsum; 3GEA; -.
+DR   PDBsum; 3GEW; -.
+DR   PDBsum; 3GGH; -.
+DR   PDBsum; 3HLR; -.
+DR   PDBsum; 4WEI; -.
+DR   PDBsum; 4WEU; -.
+DR   AlphaFoldDB; P14191; -.
+DR   SMR; P14191; -.
+DR   UniLectin; P14191; -.
+DR   EvolutionaryTrace; P14191; -.
+DR   GO; GO:0009289; C:pilus; IEA:UniProtKB-SubCell.
+PE   1: Evidence at protein level;
+KW   3D-structure; Fimbrium; Plasmid; Signal.
+FT   SIGNAL          1..21
+FT   CHAIN           22..285
+FT                   /note="K88 fimbrial protein AD"
+FT                   /id="PRO_0000009196"
+FT   CONFLICT        59
+FT                   /note="N -> S (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        70
+FT                   /note="K -> E (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        81
+FT                   /note="I -> S (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        87
+FT                   /note="K -> R (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        95..96
+FT                   /note="TS -> VG (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        123
+FT                   /note="T -> I (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        188
+FT                   /note="K -> Q (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        191
+FT                   /note="E -> A (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        193
+FT                   /note="K -> P (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        257
+FT                   /note="G -> R (in Ref. 2; AAA24036)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          46..50
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          53..55
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          57..60
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   HELIX           61..63
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   TURN            66..69
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          70..74
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          79..88
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          90..93
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          98..107
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          127..135
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   TURN            137..139
+FT                   /evidence="ECO:0007829|PDB:3HLR"
+FT   STRAND          141..158
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          163..171
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   TURN            178..182
+FT                   /evidence="ECO:0007829|PDB:4WEI"
+FT   HELIX           195..205
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   HELIX           210..220
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          226..235
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   TURN            241..243
+FT                   /evidence="ECO:0007829|PDB:3HLR"
+FT   STRAND          245..254
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          259..266
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          272..275
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+FT   STRAND          278..284
+FT                   /evidence="ECO:0007829|PDB:3GGH"
+SQ   SEQUENCE   285 AA;  29602 MW;  FBEF2F57910D91ED CRC64;
+     MKKTLIALAI AASAASGMAH AWMTGDFNGS VDIGGSITAD DYRQKWEWKV GTGLNGFGNV
+     LNDLTNGGTK LTITVTGNKP ILLGRTKEAF ATPVTSGVDG IPHIAFTDYE GASVELRNPD
+     GETEKGLAYF VLPMKNAEGT KVGSVKVNAS YAGALGRGGV TSADGELMSL FAEGSHAIFY
+     GGLPTNVKNS ELKGGSAAAA RTELFGSLSK NDILGQIQRV NANITSLVNV PGSFNENMAY
+     TDGSVVSVAY ALGIANGQTI EATFNQAVTT STQWSAPLNV AITYY
+//

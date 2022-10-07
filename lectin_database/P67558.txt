@@ -1,0 +1,100 @@
+ID   OPGG_SALTI              Reviewed;         511 AA.
+AC   P67558; Q8XFF6;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   25-MAY-2022, entry version 93.
+DE   RecName: Full=Glucans biosynthesis protein G;
+DE   Flags: Precursor;
+GN   Name=mdoG; Synonyms=opgG; OrderedLocusNames=STY1187, t1770;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Involved in the biosynthesis of osmoregulated periplasmic
+CC       glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08274.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO69393.1; -; Genomic_DNA.
+DR   RefSeq; NP_455644.1; NC_003198.1.
+DR   RefSeq; WP_001562609.1; NZ_WSUR01000018.1.
+DR   AlphaFoldDB; P67558; -.
+DR   SMR; P67558; -.
+DR   STRING; 220341.16502321; -.
+DR   EnsemblBacteria; AAO69393; AAO69393; t1770.
+DR   KEGG; stt:t1770; -.
+DR   KEGG; sty:STY1187; -.
+DR   PATRIC; fig|220341.7.peg.1188; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; KRPSAWI; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01069; MdoG_OpgG; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR023704; MdoG_OpgG.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..511
+FT                   /note="Glucans biosynthesis protein G"
+FT                   /id="PRO_0000020233"
+SQ   SEQUENCE   511 AA;  57845 MW;  ACC51ABD22081B23 CRC64;
+     MMKMRWLGAA IMLTLYASSS WAFSIDDVAK QAQSLAGKGY EAPKSNLPSV FRDMKYADYQ
+     QIQFNSDKAY WNNLKTPFKL EFYHQGMYFD TPVKINEVTA TTVKRIKYSP DYFNFGNVQH
+     DKDTVKDLGF AGFKVLYPIN SKDKNDEIVS MLGASYFRVI GAGQVYGLSA RGLAIDTALP
+     SGEEFPRFRE FWIERPKPTD KRLTVYALLD SPRATGAYRF VIIPGRDTVV DVQSKVYLRD
+     KVGKLGVAPL TSMFLFGPNQ PSPTTNYRPE LHDSNGLSIH AGNGEWIWRP LNNPKHLAVS
+     SYAMENPQGF GLLQRGREFS RFEDLDDRYD LRPSAWITPK GDWGKGKVEL VEIPTNDETN
+     DNIVAYWTPD QLPEPGKEMN FKYTLTFSRD EDKLHAPDNA WVLQTRRSTG DVKQSNLIRQ
+     PDGTIAFVVD FVGADMKKLP PDTPVAAQTS IGDNGEIVDS NVRYNPVTKG WRLMLRVKVK
+     DAKKTTEMRA ALVNADQTLS ETWSYQLPAN E
+//

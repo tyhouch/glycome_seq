@@ -1,0 +1,272 @@
+ID   VP4_ROTHJ               Reviewed;         775 AA.
+AC   Q01641;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   23-FEB-2022, entry version 109.
+DE   RecName: Full=Outer capsid protein VP4 {ECO:0000255|HAMAP-Rule:MF_04132};
+DE   AltName: Full=Hemagglutinin {ECO:0000255|HAMAP-Rule:MF_04132};
+DE   Contains:
+DE     RecName: Full=Outer capsid protein VP8* {ECO:0000255|HAMAP-Rule:MF_04132};
+DE   Contains:
+DE     RecName: Full=Outer capsid protein VP5* {ECO:0000255|HAMAP-Rule:MF_04132};
+OS   Rotavirus A (strain RVA/Human/Japan/K8/1977/G1P3A[9]) (RV-A).
+OC   Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes;
+OC   Reovirales; Reoviridae; Sedoreovirinae; Rotavirus; Rotavirus A.
+OX   NCBI_TaxID=39012;
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=2474677; DOI=10.1128/jvi.63.9.4101-4106.1989;
+RA   Taniguchi K., Nishikawa K., Urasawa T., Urasawa S., Midthun K.,
+RA   Kapikian A.Z., Gorziglia M.;
+RT   "Complete nucleotide sequence of the gene encoding VP4 of a human rotavirus
+RT   (strain K8) which has unique VP4 neutralization epitopes.";
+RL   J. Virol. 63:4101-4106(1989).
+RN   [2]
+RP   SIALIC ACID INDEPENDENCY.
+RX   PubMed=11907248; DOI=10.1128/jvi.76.8.4087-4095.2002;
+RA   Ciarlet M., Ludert J.E., Iturriza-Gomara M., Liprandi F., Gray J.J.,
+RA   Desselberger U., Estes M.K.;
+RT   "Initial interaction of rotavirus strains with N-acetylneuraminic (sialic)
+RT   acid residues on the cell surface correlates with VP4 genotype, not species
+RT   of origin.";
+RL   J. Virol. 76:4087-4095(2002).
+RN   [3]
+RP   REVIEW.
+RX   PubMed=16575520; DOI=10.1007/s10719-006-5435-y;
+RA   Isa P., Arias C.F., Lopez S.;
+RT   "Role of sialic acids in rotavirus infection.";
+RL   Glycoconj. J. 23:27-37(2006).
+RN   [4] {ECO:0007744|PDB:5CAZ, ECO:0007744|PDB:5CB7}
+RP   X-RAY CRYSTALLOGRAPHY (1.35 ANGSTROMS) OF 64-224 IN COMPLEX WITH FUCOSE AND
+RP   GALACTOSE.
+RX   PubMed=26250751; DOI=10.1002/cbic.201500360;
+RA   Yu X., Mishra R., Holloway G., von Itzstein M., Coulson B.S., Blanchard H.;
+RT   "Substantial Receptor-induced Structural Rearrangement of Rotavirus VP8*:
+RT   Potential Implications for Cross-Species Infection.";
+RL   ChemBioChem 16:2176-2181(2015).
+CC   -!- FUNCTION: [Outer capsid protein VP4]: Spike-forming protein that
+CC       mediates virion attachment to the host epithelial cell receptors and
+CC       plays a major role in cell penetration, determination of host range
+CC       restriction and virulence. Rotavirus attachment and entry into the host
+CC       cell probably involves multiple sequential contacts between the outer
+CC       capsid proteins VP4 and VP7, and the cell receptors. It is subsequently
+CC       lost, together with VP7, following virus entry into the host cell.
+CC       Following entry into the host cell, low intracellular or intravesicular
+CC       Ca(2+) concentration probably causes the calcium-stabilized VP7 trimers
+CC       to dissociate from the virion. This step is probably necessary for the
+CC       membrane-disrupting entry step and the release of VP4, which is locked
+CC       onto the virion by VP7. During the virus exit from the host cell, VP4
+CC       seems to be required to target the newly formed virions to the host
+CC       cell lipid rafts. {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- FUNCTION: [Outer capsid protein VP5*]: Forms the spike 'foot' and
+CC       'body' and acts as a membrane permeabilization protein that mediates
+CC       release of viral particles from endosomal compartments into the
+CC       cytoplasm. During entry, the part of VP5* that protrudes from the virus
+CC       folds back on itself and reorganizes from a local dimer to a trimer.
+CC       This reorganization may be linked to membrane penetration by exposing
+CC       VP5* hydrophobic region. In integrin-dependent strains, VP5* targets
+CC       the integrin heterodimer ITGA2/ITGB1 for cell attachment.
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- FUNCTION: [Outer capsid protein VP8*]: Forms the head of the spikes and
+CC       mediates the recognition of specific host cell surface glycans. It is
+CC       the viral hemagglutinin and an important target of neutralizing
+CC       antibodies. In sialic acid-dependent strains, VP8* binds to host cell
+CC       sialic acid, most probably a ganglioside, providing the initial
+CC       contact. In some other strains, VP8* mediates the attachment to histo-
+CC       blood group antigens (HBGAs) for viral entry. {ECO:0000255|HAMAP-
+CC       Rule:MF_04132}.
+CC   -!- SUBUNIT: [Outer capsid protein VP4]: Homotrimer. VP4 adopts a dimeric
+CC       appearance above the capsid surface, while forming a trimeric base
+CC       anchored inside the capsid layer. Only hints of the third molecule are
+CC       observed above the capsid surface. It probably performs a series of
+CC       molecular rearrangements during viral entry. Prior to trypsin cleavage,
+CC       it is flexible. The priming trypsin cleavage triggers its rearrangement
+CC       into rigid spikes with approximate two-fold symmetry of their
+CC       protruding parts. After an unknown second triggering event, cleaved VP4
+CC       may undergo another rearrangement, in which two VP5* subunits fold back
+CC       on themselves and join a third subunit to form a tightly associated
+CC       trimer, shaped like a folded umbrella. Interacts with VP6. Interacts
+CC       with VP7. {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- SUBUNIT: [Outer capsid protein VP5*]: Homotrimer. The trimer is coiled-
+CC       coil stabilized by its C-terminus, however, its N-terminus, known as
+CC       antigen domain or 'body', seems to be flexible allowing it to self-
+CC       associate either as a dimer or a trimer. {ECO:0000255|HAMAP-
+CC       Rule:MF_04132}.
+CC   -!- SUBCELLULAR LOCATION: [Outer capsid protein VP4]: Virion
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}. Host rough endoplasmic reticulum
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}. Host cell membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}. Host cytoplasm, host cytoskeleton
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}. Host endoplasmic reticulum-Golgi
+CC       intermediate compartment {ECO:0000255|HAMAP-Rule:MF_04132}. Note=The
+CC       outer layer contains 180 copies of VP4, grouped as 60 dimers. Immature
+CC       double-layered particles assembled in the cytoplasm bud across the
+CC       membrane of the endoplasmic reticulum, acquiring during this process a
+CC       transient lipid membrane that is modified with the ER resident viral
+CC       glycoproteins NSP4 and VP7; these enveloped particles also contain VP4.
+CC       As the particles move towards the interior of the ER cisternae, the
+CC       transient lipid membrane and the non-structural protein NSP4 are lost,
+CC       while the virus surface proteins VP4 and VP7 rearrange to form the
+CC       outermost virus protein layer, yielding mature infectious triple-
+CC       layered particles. VP4 also seems to associate with lipid rafts of the
+CC       host cell membrane probably for the exit of the virus from the infected
+CC       cell by an alternate pathway. {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- SUBCELLULAR LOCATION: [Outer capsid protein VP8*]: Virion
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}. Note=Outer capsid protein.
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- SUBCELLULAR LOCATION: [Outer capsid protein VP5*]: Virion
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}. Note=Outer capsid protein.
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- DOMAIN: [Outer capsid protein VP4]: The VP4 spike is divided into a
+CC       foot, a stalk and body, and a head. {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- PTM: [Outer capsid protein VP4]: Proteolytic cleavage by trypsin
+CC       results in activation of VP4 functions and greatly increases
+CC       infectivity. The penetration into the host cell is dependent on trypsin
+CC       treatment of VP4. It produces two peptides, VP5* and VP8* that remain
+CC       associated with the virion. Cleavage of VP4 by trypsin probably occurs
+CC       in vivo in the lumen of the intestine prior to infection of
+CC       enterocytes. Trypsin seems to be incorporated into the three-layered
+CC       viral particles but remains inactive as long as the viral outer capsid
+CC       is intact and would only be activated upon the solubilization of the
+CC       latter. {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- MISCELLANEOUS: This strain probably does not use sialic acid to attach
+CC       to the host cell. {ECO:0000269|PubMed:11907248,
+CC       ECO:0000303|PubMed:16575520}.
+CC   -!- MISCELLANEOUS: In group A rotaviruses, VP4 defines the P serotype.
+CC       {ECO:0000255|HAMAP-Rule:MF_04132}.
+CC   -!- MISCELLANEOUS: Some rotavirus strains are neuraminidase-sensitive and
+CC       require sialic acid to attach to the cell surface. Some rotavirus
+CC       strains are integrin-dependent. Some rotavirus strains depend on
+CC       ganglioside for their entry into the host cell. Hsp70 also seems to be
+CC       involved in the entry of some strains. {ECO:0000255|HAMAP-
+CC       Rule:MF_04132}.
+CC   -!- SIMILARITY: Belongs to the rotavirus VP4 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_04132}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D90260; BAA14307.1; -; Genomic_RNA.
+DR   PDB; 5CAZ; X-ray; 1.80 A; A=64-224.
+DR   PDB; 5CB7; X-ray; 1.35 A; A/B=64-224.
+DR   PDBsum; 5CAZ; -.
+DR   PDBsum; 5CB7; -.
+DR   SMR; Q01641; -.
+DR   UniLectin; Q01641; -.
+DR   GO; GO:0044172; C:host cell endoplasmic reticulum-Golgi intermediate compartment; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044168; C:host cell rough endoplasmic reticulum; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044163; C:host cytoskeleton; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0039624; C:viral outer capsid; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039665; P:permeabilization of host organelle membrane involved in viral entry into host cell; IEA:UniProtKB-UniRule.
+DR   GO; GO:0099008; P:viral entry via permeabilization of inner membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_04132; Rota_A_VP4; 1.
+DR   HAMAP; MF_04125; Rota_VP4; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR042546; Rota_A_VP4.
+DR   InterPro; IPR035330; Rota_VP4_MID.
+DR   InterPro; IPR038017; Rota_VP4_MID_sf.
+DR   InterPro; IPR035329; VP4_helical.
+DR   Pfam; PF17477; Rota_VP4_MID; 1.
+DR   Pfam; PF17478; VP4_helical; 1.
+DR   SUPFAM; SSF111379; SSF111379; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Capsid protein; Coiled coil; Disulfide bond; Hemagglutinin;
+KW   Host cell membrane; Host cytoplasm; Host cytoskeleton;
+KW   Host endoplasmic reticulum; Host membrane; Host-virus interaction;
+KW   Membrane; Outer capsid protein; Viral attachment to host cell;
+KW   Viral penetration into host cytoplasm;
+KW   Viral penetration via permeabilization of host membrane; Virion;
+KW   Virus entry into host cell.
+FT   CHAIN           1..775
+FT                   /note="Outer capsid protein VP4"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT                   /id="PRO_0000041057"
+FT   CHAIN           1..231
+FT                   /note="Outer capsid protein VP8*"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT                   /id="PRO_0000041058"
+FT   CHAIN           248..775
+FT                   /note="Outer capsid protein VP5*"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT                   /id="PRO_0000041059"
+FT   REGION          65..224
+FT                   /note="Spike head"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   REGION          248..479
+FT                   /note="Spike body and stalk (antigen domain)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   REGION          389..409
+FT                   /note="Hydrophobic; possible role in virus entry into host
+FT                   cell"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   REGION          510..775
+FT                   /note="Spike foot"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   COILED          484..511
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   MOTIF           448..450
+FT                   /note="YGL motif; interaction with ITGA4"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   SITE            231..232
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   SITE            241..242
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   SITE            247..248
+FT                   /note="Cleavage; associated with enhancement of
+FT                   infectivity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   DISULFID        318..380
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04132"
+FT   STRAND          66..69
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          71..75
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          80..85
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          87..96
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          98..100
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          102..108
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          110..121
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          124..132
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          138..147
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          153..160
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          165..170
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          173..180
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          185..191
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   STRAND          198..209
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   HELIX           210..212
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+FT   HELIX           213..222
+FT                   /evidence="ECO:0007829|PDB:5CB7"
+SQ   SEQUENCE   775 AA;  87250 MW;  43F8CC155785D5AB CRC64;
+     MASLIYRQLL SNSYVTNISD EVNEIGTKKT TNVTVNPGPF AQTGYAPVDW GHGELPDSTL
+     VQPTLDGPYQ PTSLNLPVDY WMLIAPTREG KVAEGTNTTD RWFACVLVEP NVQNTQRQYV
+     LDGQNVQLHV SNDSSTSWKF ILFIKLTPYG TYTQYSTLST PHKLCAWMKR DNRVYWYQGA
+     TPNASESYYL TINNDNSNVS SDAEFYLIPQ SQTAMCTQYI NNGLPPIQNT RNIVPVNITS
+     RQIKDVRAQM NEDIVISKTS LWKEMQYNRD IIIRFKFANS IIKSGGLGYK WSEISFKPMN
+     YQYTYTRDEE EVTAHTTCSV NGVNDFNYNG GTLPTDFAIS RFEVIKENSY VYVDYWDDSQ
+     AFRNMVYVRS LAANLNDVVC SGGSYSFALP VGNHPVMSGG AVTLTSAGVT LSTQYTDYVS
+     LNSLQFRFRL AVSEPSFSIS RTRMSGIYGL PAVNPNNSAE YYEIAGRFSL ISLVPTNDDY
+     QTPIANSVTV RQDLERQLGE LREEFNSLSQ EIAVSQLIDL ATLPLDMFSM FSGIKSTVEA
+     VKSMTTNVMK RFKTSSLANA ISDLTSNMSE AASSVRLTSV RSVGTITLPR ARVSLQVGDD
+     LRSMQDVSTQ VSNVSRNLRL KEFTTQTDTL SFDDISAAVL KTKLDKSTQI SQQTMPDIIA
+     ESSEKFIPKR SYRIVDEDIR FETGIDGTFY AYKVDTFNEI PFDMERFNKL ITDSPVLSAI
+     IDFKTLKNLN DNYGITKKQA MELLHSNPKT LKEFINNNNP IIRNRIENLI SQCRL
+//

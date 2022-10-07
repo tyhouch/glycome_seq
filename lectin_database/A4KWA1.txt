@@ -1,0 +1,174 @@
+ID   KRBBA_RAT               Reviewed;         223 AA.
+AC   A4KWA1; Q62983;
+DT   26-JUN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 1.
+DT   03-AUG-2022, entry version 90.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily B member 1B allele A;
+DE   AltName: Full=CD161 antigen-like family member B;
+DE   AltName: Full=Natural killer cell surface protein NKR-P1B allele RNK/SD/BN/F344;
+DE   AltName: CD_antigen=CD161b;
+GN   Name=Klrb1b {ECO:0000312|RGD:2975};
+GN   Synonyms=Nkrp1b {ECO:0000312|EMBL:AAB01986.1};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:ABO15822.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND POLYMORPHISM.
+RC   STRAIN=Fischer 344 {ECO:0000312|EMBL:ABO15822.1}, and Sprague-Dawley
+RC   {ECO:0000312|EMBL:ABO15824.1}; TISSUE=Natural killer cell;
+RX   PubMed=17462921; DOI=10.1016/j.immuni.2007.03.013;
+RA   Voigt S., Mesci A., Ettinger J., Fine J.H., Chen P., Chou W., Carlyle J.R.;
+RT   "Cytomegalovirus evasion of innate immunity by subversion of the NKR-
+RT   P1B:Ocil/Clr-b missing-self axis.";
+RL   Immunity 26:617-627(2007).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:AAB01986.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Fischer 344 {ECO:0000312|EMBL:AAB01986.1};
+RC   TISSUE=Natural killer cell;
+RA   Ryan J.C., Dissen E., Seaman W.E., Fossum S.;
+RL   Submitted (APR-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, AND TISSUE SPECIFICITY.
+RX   PubMed=16547249; DOI=10.4049/jimmunol.176.7.4133;
+RA   Kveberg L., Baeck C.J., Dai K.-Z., Inngjerdingen M., Rolstad B., Ryan J.C.,
+RA   Vaage J.T., Naper C.;
+RT   "The novel inhibitory NKR-P1C receptor and Ly49s3 identify two
+RT   complementary, functionally distinct NK cell subsets in rats.";
+RL   J. Immunol. 176:4133-4140(2006).
+CC   -!- FUNCTION: Receptor for CLEC2D/OCIL. Ligand-binding contributes to
+CC       inhibition of cytotoxic natural killer (NK) cells. May mediate MHC
+CC       class I-independent 'missing-self' recognition of allografts, tumor
+CC       cells and virus-infected cells. {ECO:0000269|PubMed:16547249,
+CC       ECO:0000269|PubMed:17462921}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Interacts with tyrosine kinase
+CC       LCK. Binds PTPN6/SHP-1 in a phosphorylation-dependent manner.
+CC       {ECO:0000250|UniProtKB:P27812, ECO:0000269|PubMed:16547249}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Single-pass type II
+CC       membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in a subset of natural killer cells.
+CC       {ECO:0000269|PubMed:16547249}.
+CC   -!- DOMAIN: Contains 1 copy of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). The
+CC       phosphorylated ITIM motif can bind the SH2 domain of several SH2-
+CC       containing phosphatases leading to down-regulation of cell activation
+CC       (By similarity). {ECO:0000250|UniProtKB:P27812}.
+CC   -!- POLYMORPHISM: Alleles A, B and C are highly divergent forms of Klrb1b.
+CC       Alleles A and B differ in their susceptibility to evasion of innate
+CC       immunity by the rat cytomegalovirus (CMV). In contrast to allele B,
+CC       allele A shows very low binding of a viral protein mimicking the Klrb1b
+CC       ligand CLEC2D as well as low susceptibility to this MHC class I-
+CC       independent viral evasion mechanism. {ECO:0000269|PubMed:17462921}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF100682; ABO15822.1; -; mRNA.
+DR   EMBL; EF100684; ABO15824.1; -; mRNA.
+DR   EMBL; U56936; AAB01986.1; -; mRNA.
+DR   RefSeq; NP_775414.2; NM_173292.2.
+DR   PDB; 5J2S; X-ray; 2.00 A; A/B=78-223.
+DR   PDBsum; 5J2S; -.
+DR   AlphaFoldDB; A4KWA1; -.
+DR   SMR; A4KWA1; -.
+DR   STRING; 10116.ENSRNOP00000009904; -.
+DR   PaxDb; A4KWA1; -.
+DR   PRIDE; A4KWA1; -.
+DR   Ensembl; ENSRNOT00000111200; ENSRNOP00000095158; ENSRNOG00000007310.
+DR   GeneID; 25192; -.
+DR   KEGG; rno:25192; -.
+DR   CTD; 80782; -.
+DR   RGD; 2975; Klrb1b.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000154685; -.
+DR   HOGENOM; CLU_049894_8_2_1; -.
+DR   InParanoid; A4KWA1; -.
+DR   OrthoDB; 1341815at2759; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000007310; Expressed in spleen and 16 other tissues.
+DR   ExpressionAtlas; A4KWA1; baseline and differential.
+DR   Genevisible; A4KWA1; RN.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0042269; P:regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Lectin; Membrane; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..223
+FT                   /note="Killer cell lectin-like receptor subfamily B member
+FT                   1B allele A"
+FT                   /id="PRO_0000292984"
+FT   TOPO_DOM        1..45
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        46..66
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        67..223
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          101..211
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           5..10
+FT                   /note="ITIM motif"
+FT   MOTIF           31..34
+FT                   /note="LCK-binding motif"
+FT                   /evidence="ECO:0000250|UniProtKB:P27812"
+FT   DISULFID        122..210
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        189..202
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CONFLICT        87..88
+FT                   /note="DS -> EV (in Ref. 1; AAB01986)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        101
+FT                   /note="H -> L (in Ref. 1; AAB01986)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        149
+FT                   /note="S -> I (in Ref. 1; AAB01986)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          99..101
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   STRAND          104..108
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   HELIX           115..124
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   HELIX           135..144
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   TURN            145..148
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   STRAND          152..158
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   HELIX           160..162
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   STRAND          164..167
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   TURN            175..177
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   STRAND          188..192
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   STRAND          198..200
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+FT   STRAND          208..211
+FT                   /evidence="ECO:0007829|PDB:5J2S"
+SQ   SEQUENCE   223 AA;  24772 MW;  87CF74BBEA40BE52 CRC64;
+     MDTAVVYADL HLARTGEPKR EPPPSLSPDT CQCPRWHRLA LKLGCACLIL LVLSVIGLGV
+     LVLTLLQKPL IQNSPADVQE NRTKTTDSPA KLKCPKDWHS HQDKCFHVSQ TSITWKGSLA
+     DCGGKGATLL LVQDQEELRF LRNLTKRISS SFWIGLSYTL SDEKWKWING STLNSDALNI
+     TGDTEKDSCA SVSQDKVLSE SCDSDNIWIC QKELKRESTC NDS
+//

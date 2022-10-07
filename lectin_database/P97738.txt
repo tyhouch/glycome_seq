@@ -1,0 +1,141 @@
+ID   NPTX2_RAT               Reviewed;         432 AA.
+AC   P97738;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   03-AUG-2022, entry version 133.
+DE   RecName: Full=Neuronal pentraxin-2;
+DE            Short=NP2;
+DE   AltName: Full=Neuronal activity-regulated pentraxin;
+DE   AltName: Full=Neuronal pentraxin II;
+DE            Short=NP-II;
+DE   Flags: Precursor;
+GN   Name=Nptx2; Synonyms=Narp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CHARACTERIZATION.
+RC   TISSUE=Hippocampus;
+RX   PubMed=8786423; DOI=10.1523/jneurosci.16-08-02463.1996;
+RA   Tsui C.C., Copeland N.G., Gilbert D.J., Jenkins N.A., Barnes C.,
+RA   Worley P.F.;
+RT   "Narp, a novel member of the pentraxin family, promotes neurite outgrowth
+RT   and is dynamically regulated by neuronal activity.";
+RL   J. Neurosci. 16:2463-2478(1996).
+CC   -!- FUNCTION: Likely to play role in the modification of cellular
+CC       properties that underlie long-term plasticity. Binds to agar matrix in
+CC       a calcium-dependent manner.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homooligomer or heterooligomer (probably pentamer) with
+CC       neuronal pentraxin receptor (NPTXR). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- INDUCTION: Rapidly induced in neurons of the hippocampus and cortex by
+CC       physiological synaptic activity.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S82649; AAB46783.1; -; mRNA.
+DR   AlphaFoldDB; P97738; -.
+DR   SMR; P97738; -.
+DR   STRING; 10116.ENSRNOP00000001331; -.
+DR   GlyGen; P97738; 3 sites.
+DR   iPTMnet; P97738; -.
+DR   PhosphoSitePlus; P97738; -.
+DR   PaxDb; P97738; -.
+DR   PRIDE; P97738; -.
+DR   RGD; 1309447; Nptx2.
+DR   eggNOG; ENOG502QV29; Eukaryota.
+DR   InParanoid; P97738; -.
+DR   PhylomeDB; P97738; -.
+DR   PRO; PR:P97738; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098892; C:extrinsic component of postsynaptic specialization membrane; IDA:SynGO.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008306; P:associative learning; ISO:RGD.
+DR   GO; GO:0099645; P:neurotransmitter receptor localization to postsynaptic specialization membrane; IDA:SynGO.
+DR   GO; GO:0098962; P:regulation of postsynaptic neurotransmitter receptor activity; ISO:RGD.
+DR   CDD; cd00152; PTX; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR030476; Pentaxin_CS.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00289; PTX_1; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Disulfide bond; Glycoprotein; Lectin; Metal-binding;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..14
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           15..432
+FT                   /note="Neuronal pentraxin-2"
+FT                   /id="PRO_0000023553"
+FT   DOMAIN          224..425
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         278
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         356
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         356
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         357
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         358
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         358
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         368
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        149
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        190
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        394
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        254..314
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+SQ   SEQUENCE   432 AA;  47429 MW;  DD642A6AA323D24A CRC64;
+     MLALLTAGVA LAVAAGQAQD NPIPGSRFVC TALPPEAARA GCPLPAMPMQ GGALSPEEEL
+     RAAVLHWRET VVQQKETLGA QREAIRELTS KLARCEGLAG GKARGTGATG KDTMGDLPRD
+     PGHVVEQLSR SLQTLKDRLE SLELQLHTNA SNAGLPSDFR EVLQRRLGEL ERQLLRKVAE
+     LEDEKSLLHN ETSAHRQKTE NTLNALLQRV TELERGNSAF KSPDAFKVSL PLRTNYLYGK
+     IKKTLPELYA FTICLWLRSS ASPGIGTPFS YAVPGQANEI VLIEWGNNPI ELLINDKVAQ
+     LPLFVSDGKW HHICITWTTR DGMWEAFQDG EKLGTGENLA PWHPIKPGGV LILGQEQDTV
+     GGRFDATQAF VGELSQFNIW DRVLRAQEII NIANCSTNMP GNIIPWVDNN VDVFGGASKW
+     PVETCEERLL DL
+//

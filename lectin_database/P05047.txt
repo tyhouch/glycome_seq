@@ -1,0 +1,79 @@
+ID   LECA_SARPE              Reviewed;         283 AA.
+AC   P05047;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   13-AUG-1987, sequence version 1.
+DT   25-MAY-2022, entry version 81.
+DE   RecName: Full=Lectin subunit alpha;
+DE   Flags: Precursor;
+OS   Sarcophaga peregrina (Flesh fly) (Boettcherisca peregrina).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Oestroidea;
+OC   Sarcophagidae; Sarcophaga; Boettcherisca.
+OX   NCBI_TaxID=7386;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=2413021; DOI=10.1016/s0021-9258(17)39014-2;
+RA   Takahashi H., Komano H., Kawaguchi N., Kitamura N., Nakanishi S.,
+RA   Natori S.;
+RT   "Cloning and sequencing of cDNA of Sarcophaga peregrina humoral lectin
+RT   induced on injury of the body wall.";
+RL   J. Biol. Chem. 260:12228-12233(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8307011; DOI=10.1111/j.1432-1033.1994.tb19958.x;
+RA   Matsui M., Kobayashi A., Kubo T., Natori S.;
+RT   "Purification and characterization of ATBP, a novel protein that binds to
+RT   A/T stretches in three segments of the Sarcophaga lectin gene.";
+RL   Eur. J. Biochem. 219:449-454(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-38.
+RX   PubMed=2480809; DOI=10.1016/0167-4781(89)90109-7;
+RA   Kobayashi A., Hirai H., Kubo T., Veno K., Nakanishi Y., Natori S.;
+RT   "Cloning and in vitro transcription of the Sarcophaga lectin gene.";
+RL   Biochim. Biophys. Acta 1009:244-250(1989).
+CC   -!- FUNCTION: Role in the defense system of the organism against
+CC       microorganisms. This lectin binds galactose.
+CC   -!- INDUCTION: By injury of the body wall.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-5 is the initiator.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M11673; AAA29983.1; -; mRNA.
+DR   EMBL; D14870; BAA03586.1; -; Genomic_DNA.
+DR   EMBL; X16659; CAA34645.1; -; Genomic_DNA.
+DR   PIR; S07759; LNFHLS.
+DR   AlphaFoldDB; P05047; -.
+DR   SMR; P05047; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Lectin; Signal.
+FT   SIGNAL          1..23
+FT   CHAIN           24..283
+FT                   /note="Lectin subunit alpha"
+FT                   /id="PRO_0000017393"
+FT   DOMAIN          51..159
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        53..157
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        132..149
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   283 AA;  32991 MW;  F324BF1A1140B3AC CRC64;
+     MSLTMKNVEG FVIFLVIFTS TAAVPQLQKA LDGREYLIET ELKYNWHQAW HECARHDQQL
+     VTIESADKNN AIIDLVKRVV GKSHNLWLGG NDEYSSSRDY GRPFFWSPTG QAFSFAYWSE
+     NNPDNYKHQE HCVHIWDTKP LYQWNDNDCN VKMGYICEPN HFRETYDQAL KQKCEAIKIT
+     NSKISTEFDQ LHAKQSLEFD SITQNVAKVN EDWKIEIQKL QNATQIAIQQ IMENHEKKIR
+     DLSDNLLKQL QDSNEQLKQS TDHMNASFGE KLKGQQAENN EIC
+//

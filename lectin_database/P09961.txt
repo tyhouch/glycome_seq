@@ -1,0 +1,112 @@
+ID   AMY1_DICT6              Reviewed;         686 AA.
+AC   P09961; B5YDK4;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 113.
+DE   RecName: Full=Alpha-amylase 1;
+DE            EC=3.2.1.1;
+DE   AltName: Full=1,4-alpha-D-glucan glucanohydrolase;
+GN   Name=amyA; OrderedLocusNames=DICTH_0745;
+OS   Dictyoglomus thermophilum (strain ATCC 35947 / DSM 3960 / H-6-12).
+OC   Bacteria; Dictyoglomi; Dictyoglomales; Dictyoglomaceae; Dictyoglomus.
+OX   NCBI_TaxID=309799;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 2-13.
+RX   PubMed=2453362; DOI=10.1111/j.1432-1033.1988.tb14056.x;
+RA   Fukusumi S., Kamizono A., Horinouchi S., Beppu T.;
+RT   "Cloning and nucleotide sequence of a heat-stable amylase gene from an
+RT   anaerobic thermophile, Dictyoglomus thermophilum.";
+RL   Eur. J. Biochem. 174:15-21(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35947 / DSM 3960 / H-6-12;
+RX   PubMed=24558247; DOI=10.1128/genomea.00109-14;
+RA   Coil D.A., Badger J.H., Forberger H.C., Riggs F., Madupu R., Fedorova N.,
+RA   Ward N., Robb F.T., Eisen J.A.;
+RT   "Complete Genome Sequence of the Extreme Thermophile Dictyoglomus
+RT   thermophilum H-6-12.";
+RL   Genome Announc. 2:0-0(2014).
+CC   -!- FUNCTION: This amylase is a highly liquefying-type: oligomers appeared
+CC       at the beginning of incubation, followed by a graded decrease in the
+CC       amounts of maltotriose, maltose and glucose in prolonged incubation.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in
+CC         polysaccharides containing three or more (1->4)-alpha-linked D-
+CC         glucose units.; EC=3.2.1.1;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 5.5. Stable above pH 5.5.;
+CC       Temperature dependence:
+CC         Optimum temperature is about 90 degrees Celsius. Highly thermostable.
+CC         Retains 70% of its maximal activity after heating 1 hour at 90
+CC         degrees Celsius, but no decrease in activity was observed within the
+CC         same time at 80 degrees Celsius.;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 57 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X07896; CAA30735.1; -; Genomic_DNA.
+DR   EMBL; CP001146; ACI18637.1; -; Genomic_DNA.
+DR   PIR; S00628; ALDYAT.
+DR   RefSeq; WP_012547269.1; NC_011297.1.
+DR   AlphaFoldDB; P09961; -.
+DR   SMR; P09961; -.
+DR   STRING; 309799.DICTH_0745; -.
+DR   CAZy; GH57; Glycoside Hydrolase Family 57.
+DR   PRIDE; P09961; -.
+DR   EnsemblBacteria; ACI18637; ACI18637; DICTH_0745.
+DR   KEGG; dth:DICTH_0745; -.
+DR   eggNOG; COG1449; Bacteria.
+DR   HOGENOM; CLU_026700_0_0_0; -.
+DR   OMA; HFMSAGL; -.
+DR   OrthoDB; 94039at2; -.
+DR   Proteomes; UP000001733; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004556; F:alpha-amylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR015179; A-amylase/a-glucTrfase_C.
+DR   InterPro; IPR015178; A-amylase/a-glucTrfase_central.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR004300; Glyco_hydro_57_N.
+DR   Pfam; PF09094; DUF1925; 1.
+DR   Pfam; PF09095; DUF1926; 1.
+DR   Pfam; PF03065; Glyco_hydro_57; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Cytoplasm; Direct protein sequencing; Glycosidase;
+KW   Hydrolase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:2453362"
+FT   CHAIN           2..686
+FT                   /note="Alpha-amylase 1"
+FT                   /id="PRO_0000184571"
+FT   ACT_SITE        125
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        216
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   686 AA;  81192 MW;  DFF73F94A439E187 CRC64;
+     MTKSIYFSLG IHNHQPVGNF DFVIERAYEM SYKPLINFFF KHPDFPINVH FSGFLLLWLE
+     KNHPEYFEKL KIMAERGQIE FVSGGFYEPI LPIIPDKDKV QQIKKLNKYI YDKFGQTPKG
+     MWLAERVWEP HLVKYIAEAG IEYVVVDDAH FFSVGLKEED LFGYYLMEEQ GYKLAVFPIS
+     MKLRYLIPFA DPEETITYLD KFASEDKSKI ALLFDDGEKF GLWPDTYRTV YEEGWLETFV
+     SKIKENFLLV TPVNLYTYMQ RVKPKGRIYL PTASYREMME WVLFPEAQKE LEELVEKLKT
+     ENLWDKFSPY VKGGFWRNFL AKYDESNHMQ KKMLYVWKKV QDSPNEEVKE KAMEEVFQGQ
+     ANDAYWHGIF GGLYLPHLRT AIYEHLIKAE NYLENSEIRF NIFDFDCDGN DEIIVESPFF
+     NLYLSPNHGG SVLEWDFKTK AFNLTNVLTR RKEAYHSKLS YVTSEAQGKS IHERWTAKEE
+     GLENILFYDN HRRVSFTEKI FESEPVLEDL WKDSSRLEVD SFYENYDYEI NKDENKIRVL
+     FSGVFRGFEL CKSYILYKDK SFVDVVYEIK NVSETPISLN FGWEINLNFL APNHPDYYFL
+     IGDQKYPLSS FGIEKVNNWK IFSGIGIELE CVLDVEASLY RYPIETVSLS EEGFERVYQG
+     SALIHFYKVD LPVGSTWRTT IRFWVK
+//

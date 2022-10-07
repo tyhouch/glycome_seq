@@ -1,0 +1,61 @@
+ID   LEG1_PODHI              Reviewed;          58 AA.
+AC   P82447;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   03-AUG-2022, entry version 63.
+DE   RecName: Full=Galectin-1;
+DE            Short=Gal-1;
+DE   Flags: Fragment;
+OS   Podarcis hispanicus (Iberian wall lizard).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Laterata;
+OC   Lacertibaenia; Lacertidae; Podarcis.
+OX   NCBI_TaxID=74081;
+RN   [1]
+RP   PROTEIN SEQUENCE, FUNCTION, AND MASS SPECTROMETRY.
+RC   TISSUE=Skin;
+RX   PubMed=11159924; DOI=10.1093/glycob/10.12.1325;
+RA   Solis D., Lopez-Lucendo M.I.F., Leon S., Varela J., Diaz-Maurino T.;
+RT   "Description of a monomeric prototype galectin from the lizard Podarcis
+RT   hispanica.";
+RL   Glycobiology 10:1325-1331(2000).
+CC   -!- FUNCTION: May regulate cell apoptosis and cell differentiation. Binds
+CC       beta-galactoside and a wide array of complex carbohydrates (By
+CC       similarity). {ECO:0000250, ECO:0000269|PubMed:11159924}.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Detected in most tissues, most abundantly in skin.
+CC   -!- MASS SPECTROMETRY: Mass=14500; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:11159924};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Extracellular matrix; Lectin; Secreted.
+FT   CHAIN           1..>58
+FT                   /note="Galectin-1"
+FT                   /id="PRO_0000076923"
+FT   DOMAIN          2..>58
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         43..47
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         51
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         58
+SQ   SEQUENCE   58 AA;  6131 MW;  799B1D5A68A2F792 CRC64;
+     PGITXTSLHV APGARLAVKG DIPAGAKSWV INLGKGENDI MLHFNARFDA HGDIRTIV
+//

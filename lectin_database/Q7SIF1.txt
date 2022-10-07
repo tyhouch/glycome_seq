@@ -1,0 +1,63 @@
+ID   Q7SIF1_TRIKI            Unreviewed;       254 AA.
+AC   Q7SIF1;
+DT   15-DEC-2003, integrated into UniProtKB/TrEMBL.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 57.
+DE   SubName: Full=Sugar binding protein {ECO:0000313|PDB:1GGP};
+OS   Trichosanthes kirilowii (Chinese snake gourd) (Chinese cucumber).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Cucurbitales; Cucurbitaceae; Sicyoeae; Trichosanthes.
+OX   NCBI_TaxID=3677 {ECO:0000313|PDB:1GGP};
+RN   [1] {ECO:0007829|PDB:1GGP}
+RP   X-RAY CRYSTALLOGRAPHY (2.70 ANGSTROMS), AND DISULFIDE BONDS.
+RA   Li M., Chai J.J., Wang Y.P., Wang K.Y., Bi R.C.;
+RT   "Crystal Structure of Trichosanthes Kirilowii Lectin-1 and its Relation to
+RT   the Type 2 Ribosome Inactivating Proteins.";
+RL   Protein Pept. Lett. 8:81-87(2003).
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the ribosome-
+CC       inactivating protein family. Type 2 RIP subfamily.
+CC       {ECO:0000256|ARBA:ARBA00010414}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1GGP; X-ray; 2.70 A; B=1-254.
+DR   PDBsum; 1GGP; -.
+DR   SMR; Q7SIF1; -.
+DR   UniLectin; Q7SIF1; -.
+DR   EvolutionaryTrace; Q7SIF1; -.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:InterPro.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:InterPro.
+DR   CDD; cd00161; RICIN; 2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0000313|PDB:1GGP, ECO:0007829|PDB:1GGP}.
+FT   DOMAIN          2..125
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   DOMAIN          128..253
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   DISULFID        15..33
+FT                   /evidence="ECO:0007829|PDB:1GGP"
+FT   DISULFID        55..71
+FT                   /evidence="ECO:0007829|PDB:1GGP"
+FT   DISULFID        142..157
+FT                   /evidence="ECO:0007829|PDB:1GGP"
+FT   DISULFID        183..200
+FT                   /evidence="ECO:0007829|PDB:1GGP"
+SQ   SEQUENCE   254 AA;  26629 MW;  250B73CE631AF983 CRC64;
+     CAAATVRIAG RDGFCADVNG EGQNGAAIIL KKCAENDNQL WTLKREATIR SNGGCLTTAA
+     AEQAKAGIYD CTQATAELSA WEIADNGTII NPASSLVLSS GAANSLLDLG VQTNSYASAQ
+     GWRTGNETSA SVTQISGSAQ LCMQAGNGPA NLWMSECRAG KAEQQWALLT DKSIRSETNS
+     DNCLTSAADA GPKTILLALC SGPASQRWVF DDDGSILSLY DDKQMDSEGA AAAAKQIILW
+     WNAAEPNQIW LALF
+//

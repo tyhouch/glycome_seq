@@ -1,0 +1,146 @@
+ID   LEG3_CRILO              Reviewed;         245 AA.
+AC   P47953;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 103.
+DE   RecName: Full=Galectin-3;
+DE            Short=Gal-3;
+DE   AltName: Full=35 kDa lectin;
+DE   AltName: Full=CBP30;
+DE   AltName: Full=Carbohydrate-binding protein 35;
+DE            Short=CBP 35;
+DE   AltName: Full=Galactose-specific lectin 3;
+DE   AltName: Full=IgE-binding protein;
+DE   AltName: Full=Laminin-binding protein;
+DE   AltName: Full=Lectin L-29;
+DE   AltName: Full=Mac-2 antigen;
+GN   Name=LGALS3;
+OS   Cricetulus longicaudatus (Long-tailed dwarf hamster) (Chinese hamster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Cricetulus.
+OX   NCBI_TaxID=10030;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=8027086; DOI=10.1016/s0021-9258(17)32441-9;
+RA   Mehul B., Bawumia S., Martin S.R., Hughes R.C.;
+RT   "Structure of baby hamster kidney carbohydrate-binding protein CBP30, an S-
+RT   type animal lectin.";
+RL   J. Biol. Chem. 269:18250-18258(1994).
+CC   -!- FUNCTION: Galactose-specific lectin which binds IgE. May mediate with
+CC       the alpha-3, beta-1 integrin the stimulation by CSPG4 of endothelial
+CC       cells migration. Together with DMBT1, required for terminal
+CC       differentiation of columnar epithelial cells during early
+CC       embryogenesis. In the nucleus: acts as a pre-mRNA splicing factor.
+CC       Involved in acute inflammatory responses including neutrophil
+CC       activation and adhesion, chemoattraction of monocytes macrophages,
+CC       opsonization of apoptotic neutrophils, and activation of mast cells.
+CC       Together with TRIM16, coordinates the recognition of membrane damage
+CC       with mobilization of the core autophagy regulators ATG16L1 and BECN1 in
+CC       response to damaged endomembranes (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Probably forms homo- or heterodimers. Interacts with DMBT1 (By
+CC       similarity). Interacts with CD6 and ALCAM. Forms a complex with the
+CC       ITGA3, ITGB1 and CSPG4. Interacts with LGALS3BP, LYPD3, CYHR1 and UACA.
+CC       Interacts with TRIM16; this interaction mediates autophagy of damage
+CC       endomembranes (By similarity). {ECO:0000250|UniProtKB:P08699,
+CC       ECO:0000250|UniProtKB:P16110, ECO:0000250|UniProtKB:P17931}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P17931}. Nucleus
+CC       {ECO:0000250|UniProtKB:P17931}. Secreted
+CC       {ECO:0000250|UniProtKB:P17931}. Note=Secreted by a non-classical
+CC       secretory pathway and associates with the cell surface. Can be
+CC       secreted; the secretion is dependent on protein unfolding and
+CC       facilitated by the cargo receptor TMED10; it results in protein
+CC       translocation from the cytoplasm into the ERGIC (endoplasmic reticulum-
+CC       Golgi intermediate compartment) followed by vesicle entry and
+CC       secretion. {ECO:0000250|UniProtKB:P17931}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X78879; CAA55479.1; -; mRNA.
+DR   AlphaFoldDB; P47953; -.
+DR   SMR; P47953; -.
+DR   PRIDE; P47953; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005681; C:spliceosomal complex; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019863; F:IgE binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0008380; P:RNA splicing; IEA:UniProtKB-KW.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR015534; Galectin_3.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   PANTHER; PTHR11346:SF26; PTHR11346:SF26; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Cytoplasm; Differentiation; Disulfide bond;
+KW   IgE-binding protein; Immunity; Innate immunity; Lectin; mRNA processing;
+KW   mRNA splicing; Nucleus; Phosphoprotein; Repeat; Secreted; Spliceosome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P38486"
+FT   CHAIN           2..245
+FT                   /note="Galectin-3"
+FT                   /id="PRO_0000076929"
+FT   REPEAT          35..43
+FT                   /note="1"
+FT   REPEAT          44..52
+FT                   /note="2"
+FT   REPEAT          53..61
+FT                   /note="3"
+FT   REPEAT          62..70
+FT                   /note="4"
+FT   REPEAT          71..78
+FT                   /note="5; approximate"
+FT   REPEAT          79..88
+FT                   /note="6; approximate"
+FT   REPEAT          89..99
+FT                   /note="7; approximate"
+FT   DOMAIN          113..243
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   REGION          1..30
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          35..99
+FT                   /note="7 X 9 AA tandem repeats of Y-P-G-X(3)-P-[GS]-A"
+FT   REGION          47..68
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           221..236
+FT                   /note="Nuclear export signal"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         176..182
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P38486"
+FT   MOD_RES         6
+FT                   /note="Phosphoserine; by CK1"
+FT                   /evidence="ECO:0000250|UniProtKB:P38486"
+FT   MOD_RES         183
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17931"
+FT   DISULFID        168
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   245 AA;  25739 MW;  9469B9AA146EEF76 CRC64;
+     MADGFSLNDA LAGSGNPNPQ GWPGAWGNQP GAGGYPGASY PGAYPGQAPP GAYPGQAPPG
+     AYPGPTAPGA YPGPAPGAYP GQPGASGAYP SAPGAYPAAG PYGAPTGALT VPYKLPLAGG
+     VMPRMLITIM GTVKPNANRI ILNFLRGNDI AFHFNPRFNE NNRRVIVCNT KQDNNWGREE
+     RQSAFPFESG RPFKIQVLVE ADHFKVAVND AHLLQYNHRM KNLREINQME ISGDITLTSA
+     APTMI
+//

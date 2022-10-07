@@ -1,0 +1,133 @@
+ID   CFAE_ECOLX              Reviewed;         360 AA.
+AC   P25734;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1992, sequence version 1.
+DT   25-MAY-2022, entry version 67.
+DE   RecName: Full=CFA/I fimbrial subunit E;
+DE   AltName: Full=Colonization factor antigen I subunit E;
+GN   Name=cfaE;
+OS   Escherichia coli.
+OG   Plasmid NTP513.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ETEC;
+RX   PubMed=2569152; DOI=10.1016/0882-4010(89)90103-4;
+RA   Hamers A.M., Pel H.J., Willshaw G.A., Kusters J.G., van der Zeijst B.A.M.,
+RA   Gaastra W.;
+RT   "The nucleotide sequence of the first two genes of the CFA/I fimbrial
+RT   operon of human enterotoxigenic Escherichia coli.";
+RL   Microb. Pathog. 6:297-309(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1352712; DOI=10.3109/10425179209020811;
+RA   Jordi B.J.A.M., Willshaw G.A., van der Zeijst B.A.M., Gaastra W.;
+RT   "The complete nucleotide sequence of region 1 of the CFA/I fimbrial operon
+RT   of human enterotoxigenic Escherichia coli.";
+RL   DNA Seq. 2:257-263(1992).
+CC   -!- SUBCELLULAR LOCATION: Fimbrium {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M55661; AAC41417.1; -; Genomic_DNA.
+DR   PIR; D56617; D56617.
+DR   RefSeq; WP_001033658.1; NZ_UEMW01000053.1.
+DR   PDB; 2HB0; X-ray; 2.30 A; A/B=23-360.
+DR   PDB; 3F83; X-ray; 2.30 A; A=23-360.
+DR   PDB; 3VAC; X-ray; 2.60 A; A/B=23-360.
+DR   PDB; 6K73; X-ray; 2.77 A; C/D=24-360.
+DR   PDBsum; 2HB0; -.
+DR   PDBsum; 3F83; -.
+DR   PDBsum; 3VAC; -.
+DR   PDBsum; 6K73; -.
+DR   AlphaFoldDB; P25734; -.
+DR   SMR; P25734; -.
+DR   UniLectin; P25734; -.
+DR   EvolutionaryTrace; P25734; -.
+DR   GO; GO:0009289; C:pilus; IEA:UniProtKB-SubCell.
+DR   Gene3D; 2.60.40.2520; -; 1.
+DR   InterPro; IPR010888; CblD.
+DR   InterPro; IPR043037; CfaE_adhesin.
+DR   Pfam; PF07434; CblD; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Fimbrium; Plasmid.
+FT   CHAIN           1..360
+FT                   /note="CFA/I fimbrial subunit E"
+FT                   /id="PRO_0000196352"
+FT   STRAND          30..40
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          41..43
+FT                   /evidence="ECO:0007829|PDB:6K73"
+FT   STRAND          48..58
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          60..62
+FT                   /evidence="ECO:0007829|PDB:3F83"
+FT   STRAND          66..71
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          73..76
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   HELIX           78..80
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          89..92
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          98..106
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   TURN            107..109
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          112..124
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          143..145
+FT                   /evidence="ECO:0007829|PDB:3F83"
+FT   STRAND          150..157
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   HELIX           161..164
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          165..167
+FT                   /evidence="ECO:0007829|PDB:3F83"
+FT   STRAND          169..181
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          186..199
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   HELIX           201..203
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          205..207
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          215..218
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          222..225
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          228..240
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          248..255
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          261..263
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          265..269
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          272..285
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          288..290
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          298..302
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          308..310
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          315..318
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          324..339
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          342..355
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+FT   STRAND          358..360
+FT                   /evidence="ECO:0007829|PDB:2HB0"
+SQ   SEQUENCE   360 AA;  39903 MW;  691509B63A8E69CE CRC64;
+     MNKILFIFTL FFSSGFFTFA VSADKNPGSE NMTNTIGPHD RGGSSPIYNI LNSYLTAYNG
+     SHHLYDRMSF LCLSSQNTLN GACPSSDAPG TATIDGETNI TLQFTEKRSL IKRELQIKGY
+     KQFLFKNANC PSKLALNSSH FQCNREQASG ATLSLYIPAG ELNKLPFGGV WNAVLKLNVK
+     RRYDTTYGTY TINITVNLTD KGNIQIWLPQ FKSNARVDLN LRPTGGGTYI GRNSVDMCFY
+     DGYSTNSSSL EIRFQDDNSK SDGKFYLKKI NDDSKELVYT LSLLLAGKNL TPTNGQALNI
+     NTASLETNWN RITAVTMPEI SVPVLCWPGR LQLDAKVKNP EAGQYMGNIK ITFTPSSQTL
+//

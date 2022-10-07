@@ -1,0 +1,194 @@
+ID   LYAG_RAT                Reviewed;         953 AA.
+AC   Q6P7A9;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 95.
+DE   RecName: Full=Lysosomal alpha-glucosidase;
+DE            EC=3.2.1.20 {ECO:0000250|UniProtKB:P10253};
+DE   AltName: Full=Acid maltase;
+DE   Flags: Precursor;
+GN   Name=Gaa;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Essential for the degradation of glycogen in lysosomes. Has
+CC       highest activity on alpha-1,4-linked glycosidic linkages, but can also
+CC       hydrolyze alpha-1,6-linked glucans. {ECO:0000250|UniProtKB:P10253}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC         Evidence={ECO:0000250|UniProtKB:P10253};
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000250|UniProtKB:P10253}. Lysosome
+CC       membrane {ECO:0000250|UniProtKB:P10253}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC061753; AAH61753.1; -; mRNA.
+DR   RefSeq; NP_954549.1; NM_199118.1.
+DR   AlphaFoldDB; Q6P7A9; -.
+DR   SMR; Q6P7A9; -.
+DR   BioGRID; 266559; 1.
+DR   IntAct; Q6P7A9; 1.
+DR   STRING; 10116.ENSRNOP00000064500; -.
+DR   BindingDB; Q6P7A9; -.
+DR   ChEMBL; CHEMBL3513; -.
+DR   DrugCentral; Q6P7A9; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   GlyGen; Q6P7A9; 7 sites, 2 N-linked glycans (1 site).
+DR   iPTMnet; Q6P7A9; -.
+DR   PhosphoSitePlus; Q6P7A9; -.
+DR   jPOST; Q6P7A9; -.
+DR   PaxDb; Q6P7A9; -.
+DR   PRIDE; Q6P7A9; -.
+DR   GeneID; 367562; -.
+DR   KEGG; rno:367562; -.
+DR   CTD; 2548; -.
+DR   RGD; 735227; Gaa.
+DR   eggNOG; KOG1065; Eukaryota.
+DR   InParanoid; Q6P7A9; -.
+DR   OrthoDB; 151244at2759; -.
+DR   PhylomeDB; Q6P7A9; -.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   Reactome; R-RNO-70221; Glycogen breakdown (glycogenolysis).
+DR   SABIO-RK; Q6P7A9; -.
+DR   PRO; PR:Q6P7A9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005765; C:lysosomal membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005764; C:lysosome; IDA:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0004558; F:alpha-1,4-glucosidase activity; IDA:RGD.
+DR   GO; GO:0090599; F:alpha-glucosidase activity; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0060048; P:cardiac muscle contraction; ISO:RGD.
+DR   GO; GO:0002086; P:diaphragm contraction; ISO:RGD.
+DR   GO; GO:0005980; P:glycogen catabolic process; IDA:RGD.
+DR   GO; GO:0005977; P:glycogen metabolic process; ISO:RGD.
+DR   GO; GO:0003007; P:heart morphogenesis; ISO:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; ISO:RGD.
+DR   GO; GO:0007040; P:lysosome organization; ISO:RGD.
+DR   GO; GO:0046716; P:muscle cell cellular homeostasis; ISO:RGD.
+DR   GO; GO:0050885; P:neuromuscular process controlling balance; ISO:RGD.
+DR   GO; GO:0050884; P:neuromuscular process controlling posture; ISO:RGD.
+DR   GO; GO:0002026; P:regulation of the force of heart contraction; ISO:RGD.
+DR   GO; GO:0006941; P:striated muscle contraction; ISO:RGD.
+DR   GO; GO:0009888; P:tissue development; ISO:RGD.
+DR   GO; GO:0043181; P:vacuolar sequestering; ISO:RGD.
+DR   CDD; cd00111; Trefoil; 1.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   Gene3D; 4.10.110.10; -; 1.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR030459; Glyco_hydro_31_CS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR017957; P_trefoil_CS.
+DR   InterPro; IPR000519; P_trefoil_dom.
+DR   InterPro; IPR044913; P_trefoil_dom_sf.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   Pfam; PF16863; NtCtMGAM_N; 1.
+DR   Pfam; PF00088; Trefoil; 1.
+DR   SMART; SM00018; PD; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+DR   PROSITE; PS00707; GLYCOSYL_HYDROL_F31_2; 1.
+DR   PROSITE; PS00025; P_TREFOIL_1; 1.
+DR   PROSITE; PS51448; P_TREFOIL_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase; Lysosome; Membrane;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          28..69
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000260442"
+FT   CHAIN           70..953
+FT                   /note="Lysosomal alpha-glucosidase"
+FT                   /id="PRO_0000260443"
+FT   DOMAIN          80..131
+FT                   /note="P-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   ACT_SITE        518
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        521
+FT                   /evidence="ECO:0000250"
+FT   BINDING         404
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   BINDING         600
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   BINDING         616
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   BINDING         674
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   CARBOHYD        140
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        233
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        390
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        470
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        652
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        883
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        926
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        82..109
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        92..108
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        103..127
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        533..558
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+FT   DISULFID        647..658
+FT                   /evidence="ECO:0000250|UniProtKB:P10253"
+SQ   SEQUENCE   953 AA;  106207 MW;  D99723779AD41E05 CRC64;
+     MNIRKPLCSN SVVGACTLVS LTTAVILGHL MLRELMLLPQ DLHESSSGLW KTYRPHHQES
+     YEPAPLHIQE HAEQLRAVPT QCDVTPNSRF DCAPDKGITQ EQCEARGCCW VPAGQVLNGP
+     VMGQPWCFFP PSYPSYRLEN LSSTESGYTA TLTRTSPTFF PKDVLTLQLE VLMETDSRLH
+     FMIKDPTSKR YEVPLETPRV LSQAPSPLYS VEFSEEPFGV IVRRKLGGRV LLNTTVAPLF
+     FADQFLQLST SLPSQHIAGL GEHLSPLMLS TEWTRITLWN RDVAPSQGVN LYGSHPFYLA
+     LEDGGLAHGV FLLNSNAMDV VLQPSPALTW RSTGGILDVY VFLGPEPKSV VQQYLDVVGY
+     PFMPPYWGLG FHLCRWGYSS TAIVRQVVEN MTRTHFPLDV QWNDLDYMDA RRDFTFNQDG
+     FADFPDMVHE LHQGGRRYMM IVDPAISSSG PAGSYRPYDE GLRRGVFITN ETGQPLIGKV
+     WPGSTAFPDF TNPETLDWWQ DMVSEFHAQV PFDGMWIDMN EPSNFIRGSQ QGCPDNELEN
+     PPYVPGVVGG ALQAATICAS SHQFLSTHYN LHNLYGLTEA IASSRALVKT RGTRPFVISR
+     STFAGHGRYA GHWTGDVWSS WEHLAYSVPE ILQFNLLGVP LVGADICGFQ GNTTEELCVR
+     WTQLGAFYPF MRNHNDLNSL PQEPYRFSET AQQAMRKAFT LRYALLPYLY TLFHGAHVKG
+     DTVARPLFLE FPEDPSTWSV DRQLLWGPAL LITPVLEPGK TDVTGYFPKG MWYNLQMVPV
+     ETLGSLPSSS PASSFRSIVH SKGQWLTLEA PLDTINVHLR AGYIIPLQGP SLTTTESRKQ
+     PMALAVALTE SGEASGELFW DDGESLGVLE RGAYTLVTFS AKNNTIVNKL VHVTKEGGEL
+     QLREVTILGV TTAPTQVLSN GISVSNFTYS PDDKSLSIPV SLLMGERFQI DWS
+//

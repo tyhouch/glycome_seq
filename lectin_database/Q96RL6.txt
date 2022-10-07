@@ -1,0 +1,280 @@
+ID   SIG11_HUMAN             Reviewed;         698 AA.
+AC   Q96RL6;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   20-APR-2010, sequence version 2.
+DT   03-AUG-2022, entry version 175.
+DE   RecName: Full=Sialic acid-binding Ig-like lectin 11;
+DE            Short=Sialic acid-binding lectin 11;
+DE            Short=Siglec-11;
+DE   Flags: Precursor;
+GN   Name=SIGLEC11; ORFNames=UNQ9222/PRO28718;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND INTERACTION WITH PTPN6 AND
+RP   PTPN11.
+RX   PubMed=11986327; DOI=10.1074/jbc.m202833200;
+RA   Angata T., Kerr S.C., Greaves D.R., Varki N.M., Crocker P.R., Varki A.;
+RT   "Cloning and characterization of human Siglec-11. A recently evolved
+RT   signaling molecule that can interact with SHP-1 and SHP-2 and is expressed
+RT   by tissue macrophages, including brain microglia.";
+RL   J. Biol. Chem. 277:24466-24474(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J., Lamerdin J.E.,
+RA   Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M., Aerts A.,
+RA   Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E., Caenepeel S.,
+RA   Carrano A.V., Caoile C., Chan Y.M., Christensen M., Cleland C.A.,
+RA   Copeland A., Dalin E., Dehal P., Denys M., Detter J.C., Escobar J.,
+RA   Flowers D., Fotopulos D., Garcia C., Georgescu A.M., Glavina T., Gomez M.,
+RA   Gonzales E., Groza M., Hammon N., Hawkins T., Haydu L., Ho I., Huang W.,
+RA   Israni S., Jett J., Kadner K., Kimball H., Kobayashi A., Larionov V.,
+RA   Leem S.-H., Lopez F., Lou Y., Lowry S., Malfatti S., Martinez D.,
+RA   McCready P.M., Medina C., Morgan J., Nelson K., Nolan M., Ovcharenko I.,
+RA   Pitluck S., Pollard M., Popkie A.P., Predki P., Quan G., Ramirez L.,
+RA   Rash S., Retterer J., Rodriguez A., Rogers S., Salamov A., Salazar A.,
+RA   She X., Smith D., Slezak T., Solovyev V., Thayer N., Tice H., Tsai M.,
+RA   Ustaszewska A., Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J.,
+RA   Dubchak I., Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [3]
+RP   PARTIAL NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RX   PubMed=12975309; DOI=10.1101/gr.1293003;
+RA   Clark H.F., Gurney A.L., Abaya E., Baker K., Baldwin D.T., Brush J.,
+RA   Chen J., Chow B., Chui C., Crowley C., Currell B., Deuel B., Dowd P.,
+RA   Eaton D., Foster J.S., Grimaldi C., Gu Q., Hass P.E., Heldens S., Huang A.,
+RA   Kim H.S., Klimowski L., Jin Y., Johnson S., Lee J., Lewis L., Liao D.,
+RA   Mark M.R., Robbie E., Sanchez C., Schoenfeld J., Seshagiri S., Simmons L.,
+RA   Singh J., Smith V., Stinson J., Vagts A., Vandlen R.L., Watanabe C.,
+RA   Wieand D., Woods K., Xie M.-H., Yansura D.G., Yi S., Yu G., Yuan J.,
+RA   Zhang M., Zhang Z., Goddard A.D., Wood W.I., Godowski P.J., Gray A.M.;
+RT   "The secreted protein discovery initiative (SPDI), a large-scale effort to
+RT   identify novel human secreted and transmembrane proteins: a bioinformatics
+RT   assessment.";
+RL   Genome Res. 13:2265-2270(2003).
+CC   -!- FUNCTION: Putative adhesion molecule that mediates sialic-acid
+CC       dependent binding to cells. Preferentially binds to alpha-2,8-linked
+CC       sialic acid. The sialic acid recognition site may be masked by cis
+CC       interactions with sialic acids on the same cell surface. In the immune
+CC       response, may act as an inhibitory receptor upon ligand induced
+CC       tyrosine phosphorylation by recruiting cytoplasmic phosphatase(s) via
+CC       their SH2 domain(s) that block signal transduction through
+CC       dephosphorylation of signaling molecules.
+CC   -!- SUBUNIT: Interacts with PTPN6/SHP-1 and PTPN11/SHP-2 upon
+CC       phosphorylation. {ECO:0000269|PubMed:11986327}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q96RL6-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q96RL6-2; Sequence=VSP_008764;
+CC   -!- TISSUE SPECIFICITY: Expressed by macrophages in various tissues
+CC       including Kupffer cells. Also found in brain microglia.
+CC   -!- DOMAIN: Contains 1 copy of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). This motif is
+CC       involved in modulation of cellular responses. The phosphorylated ITIM
+CC       motif can bind the SH2 domain of several SH2-containing phosphatases.
+CC   -!- PTM: Phosphorylated on tyrosine residues.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-13 is the initiator.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK72907.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AAQ88502.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF337818; AAK72907.1; ALT_INIT; mRNA.
+DR   EMBL; AC011452; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AY358135; AAQ88502.1; ALT_INIT; mRNA.
+DR   CCDS; CCDS12790.2; -. [Q96RL6-1]
+DR   CCDS; CCDS46150.1; -. [Q96RL6-2]
+DR   RefSeq; NP_001128635.1; NM_001135163.1. [Q96RL6-2]
+DR   RefSeq; NP_443116.2; NM_052884.2. [Q96RL6-1]
+DR   AlphaFoldDB; Q96RL6; -.
+DR   SMR; Q96RL6; -.
+DR   BioGRID; 125285; 5.
+DR   IntAct; Q96RL6; 8.
+DR   STRING; 9606.ENSP00000412361; -.
+DR   GlyGen; Q96RL6; 8 sites.
+DR   iPTMnet; Q96RL6; -.
+DR   PhosphoSitePlus; Q96RL6; -.
+DR   SwissPalm; Q96RL6; -.
+DR   BioMuta; SIGLEC11; -.
+DR   DMDM; 294862467; -.
+DR   MassIVE; Q96RL6; -.
+DR   PaxDb; Q96RL6; -.
+DR   PeptideAtlas; Q96RL6; -.
+DR   PRIDE; Q96RL6; -.
+DR   ProteomicsDB; 77982; -. [Q96RL6-1]
+DR   ProteomicsDB; 77983; -. [Q96RL6-2]
+DR   Antibodypedia; 32226; 218 antibodies from 30 providers.
+DR   DNASU; 114132; -.
+DR   Ensembl; ENST00000426971.2; ENSP00000398891.2; ENSG00000161640.15. [Q96RL6-2]
+DR   Ensembl; ENST00000447370.6; ENSP00000412361.2; ENSG00000161640.15. [Q96RL6-1]
+DR   GeneID; 114132; -.
+DR   KEGG; hsa:114132; -.
+DR   MANE-Select; ENST00000447370.6; ENSP00000412361.2; NM_052884.3; NP_443116.2.
+DR   UCSC; uc010ybh.3; human. [Q96RL6-1]
+DR   CTD; 114132; -.
+DR   GeneCards; SIGLEC11; -.
+DR   HGNC; HGNC:15622; SIGLEC11.
+DR   HPA; ENSG00000161640; Group enriched (lymphoid tissue, ovary).
+DR   MIM; 607157; gene.
+DR   neXtProt; NX_Q96RL6; -.
+DR   OpenTargets; ENSG00000161640; -.
+DR   PharmGKB; PA38005; -.
+DR   VEuPathDB; HostDB:ENSG00000161640; -.
+DR   eggNOG; ENOG502S41V; Eukaryota.
+DR   GeneTree; ENSGT01040000240469; -.
+DR   HOGENOM; CLU_024444_5_1_1; -.
+DR   InParanoid; Q96RL6; -.
+DR   OMA; RNAHGEQ; -.
+DR   OrthoDB; 1124645at2759; -.
+DR   PhylomeDB; Q96RL6; -.
+DR   TreeFam; TF332441; -.
+DR   PathwayCommons; Q96RL6; -.
+DR   Reactome; R-HSA-198933; Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell.
+DR   SignaLink; Q96RL6; -.
+DR   BioGRID-ORCS; 114132; 68 hits in 1065 CRISPR screens.
+DR   GenomeRNAi; 114132; -.
+DR   Pharos; Q96RL6; Tbio.
+DR   PRO; PR:Q96RL6; -.
+DR   Proteomes; UP000005640; Chromosome 19.
+DR   RNAct; Q96RL6; protein.
+DR   Bgee; ENSG00000161640; Expressed in adrenal tissue and 107 other tissues.
+DR   ExpressionAtlas; Q96RL6; baseline and differential.
+DR   Genevisible; Q96RL6; HS.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019902; F:phosphatase binding; IPI:UniProtKB.
+DR   GO; GO:0033691; F:sialic acid binding; IDA:UniProtKB.
+DR   GO; GO:0007155; P:cell adhesion; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; -; 4.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003006; Ig/MHC_CS.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   Pfam; PF07679; I-set; 1.
+DR   Pfam; PF07686; V-set; 1.
+DR   SMART; SM00409; IG; 4.
+DR   SMART; SM00408; IGc2; 2.
+DR   SUPFAM; SSF48726; SSF48726; 5.
+DR   PROSITE; PS50835; IG_LIKE; 3.
+DR   PROSITE; PS00290; IG_MHC; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell adhesion; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Lectin; Membrane; Phosphoprotein;
+KW   Reference proteome; Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..698
+FT                   /note="Sialic acid-binding Ig-like lectin 11"
+FT                   /id="PRO_0000014951"
+FT   TOPO_DOM        28..561
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        562..584
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        585..698
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          31..134
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          159..244
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          251..350
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          355..452
+FT                   /note="Ig-like C2-type 3"
+FT   REGION          596..635
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          675..698
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           642..647
+FT                   /note="ITIM motif"
+FT   COMPBIAS        603..627
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         132
+FT                   /ligand="N-acetylneuraminate"
+FT                   /ligand_id="ChEBI:CHEBI:35418"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         668
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96LC7"
+FT   CARBOHYD        55
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        262
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        366
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        375
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        497
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        515
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        49..186
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        54..114
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        177..228
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        287..334
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        391..436
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   VAR_SEQ         455..551
+FT                   /note="YPPQLLGPSCSWEAEGLHCSCSSQASPAPSLRWWLGEELLEGNSSQGSFEVT
+FT                   PSSAGPWANSSLSLHGGLSSGLRLRCKAWNVHGAQSGSVFQLLPG -> W (in
+FT                   isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_008764"
+FT   CONFLICT        96
+FT                   /note="E -> A (in Ref. 3; AAQ88502)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        365
+FT                   /note="A -> G (in Ref. 3; AAQ88502)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   698 AA;  75795 MW;  61CF0F530DCDD62F CRC64;
+     MVPGQAQPQS PEMLLLPLLL PVLGAGSLNK DPSYSLQVQR QVPVPEGLCV IVSCNLSYPR
+     DGWDESTAAY GYWFKGRTSP KTGAPVATNN QSREVEMSTR DRFQLTGDPG KGSCSLVIRD
+     AQREDEAWYF FRVERGSRVR HSFLSNAFFL KVTALTKKPD VYIPETLEPG QPVTVICVFN
+     WAFKKCPAPS FSWTGAALSP RRTRPSTSHF SVLSFTPSPQ DHDTDLTCHV DFSRKGVSAQ
+     RTVRLRVAYA PKDLIISISH DNTSALELQG NVIYLEVQKG QFLRLLCAAD SQPPATLSWV
+     LQDRVLSSSH PWGPRTLGLE LRGVRAGDSG RYTCRAENRL GSQQQALDLS VQYPPENLRV
+     MVSQANRTVL ENLGNGTSLP VLEGQSLRLV CVTHSSPPAR LSWTRWGQTV GPSQPSDPGV
+     LELPPIQMEH EGEFTCHAQH PLGSQHVSLS LSVHYPPQLL GPSCSWEAEG LHCSCSSQAS
+     PAPSLRWWLG EELLEGNSSQ GSFEVTPSSA GPWANSSLSL HGGLSSGLRL RCKAWNVHGA
+     QSGSVFQLLP GKLEHGGGLG LGAALGAGVA ALLAFCSCLV VFRVKICRKE ARKRAAAEQD
+     VPSTLGPISQ GHQHECSAGS SQDHPPPGAA TYTPGKGEEQ ELHYASLSFQ GLRLWEPADQ
+     EAPSTTEYSE IKIHTGQPLR GPGFGLQLER EMSGMVPK
+//

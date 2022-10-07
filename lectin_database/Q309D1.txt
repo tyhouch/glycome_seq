@@ -1,0 +1,431 @@
+ID   Q309D1_9AGAR            Unreviewed;       395 AA.
+AC   Q309D1;
+DT   06-DEC-2005, integrated into UniProtKB/TrEMBL.
+DT   06-DEC-2005, sequence version 1.
+DT   03-AUG-2022, entry version 59.
+DE   SubName: Full=Lectin PVL {ECO:0000313|EMBL:ABB17278.1};
+DE   Flags: Fragment;
+GN   Name=pvl {ECO:0000313|EMBL:ABB17278.1};
+OS   Lacrymaria velutina.
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Agaricaceae; Lacrymaria.
+OX   NCBI_TaxID=71681 {ECO:0000313|EMBL:ABB17278.1};
+RN   [1] {ECO:0000313|EMBL:ABB17278.1, ECO:0007829|PDB:2BWM}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=F {ECO:0000313|EMBL:ABB17278.1};
+RC   TISSUE=Fruiting body {ECO:0000313|EMBL:ABB17278.1};
+RX   PubMed=16497330; DOI=10.1016/j.jmb.2006.01.066;
+RA   Cioci G., Mitchell E.P., Chazalet V., Debray H., Oscarson S., Lahmann M.,
+RA   Gautier C., Breton C., Perez S., Imberty A.;
+RT   "Beta-propeller crystal structure of Psathyrella velutina lectin: an
+RT   integrin-like fungal protein interacting with monosaccharides and
+RT   calcium.";
+RL   J. Mol. Biol. 357:1575-1591(2006).
+RN   [2] {ECO:0007829|PDB:4UP4}
+RP   X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) IN COMPLEX WITH CALCIUM; GALACTOSE
+RP   AND N-ACETYL-D-GLUCOSAMINE.
+RX   PubMed=26042789; DOI=10.1371/JOURNAL.PONE.0128190;
+RA   Audfray A., Beldjoudi M., Breiman A., Hurbin A., Boos I., Unverzagt C.,
+RA   Bouras M., Lantuejoul S., Coll J.L., Varrot A., Le Pendu J., Busser B.,
+RA   Imberty A.;
+RT   "A recombinant fungal lectin for labeling truncated glycans on human cancer
+RT   cells.";
+RL   PLoS ONE 10:e0128190-e0128190(2015).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ232759; ABB17278.1; -; mRNA.
+DR   PDB; 2BWM; X-ray; 1.80 A; A=1-395.
+DR   PDB; 2BWR; X-ray; 1.50 A; A/B=1-395.
+DR   PDB; 2C25; X-ray; 1.80 A; A/B=1-395.
+DR   PDB; 2C4D; X-ray; 2.60 A; A=1-395.
+DR   PDB; 4UP4; X-ray; 1.95 A; A/B=1-395.
+DR   PDBsum; 2BWM; -.
+DR   PDBsum; 2BWR; -.
+DR   PDBsum; 2C25; -.
+DR   PDBsum; 2C4D; -.
+DR   PDBsum; 4UP4; -.
+DR   SMR; Q309D1; -.
+DR   UniLectin; Q309D1; -.
+DR   EvolutionaryTrace; Q309D1; -.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR013517; FG-GAP.
+DR   InterPro; IPR028994; Integrin_alpha_N.
+DR   Pfam; PF13517; FG-GAP_3; 2.
+DR   SUPFAM; SSF69318; SSF69318; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR};
+KW   Calcium {ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR};
+KW   Metal-binding {ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729}.
+FT   BINDING         40
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         40
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         46
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         46
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         48
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         48
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         53
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         53
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         73
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         73
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         74
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         74
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         77
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         77
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D"
+FT   BINDING         97
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         103
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         105
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         110
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         130
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         134
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         143
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         143
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         153
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         153
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         158
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         158
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         160
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         160
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         163
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D"
+FT   BINDING         165
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         165
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         171
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         173
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         175
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         177
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         179
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         185
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         185
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         186
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         186
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         196
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         208
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         208
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         214
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         214
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         215
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         216
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         216
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         227
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         229
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         231
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         233
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         235
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         241
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         241
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         245
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         245
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         260
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D"
+FT   BINDING         264
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         264
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         269
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         271
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         271
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         276
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         276
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         296
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         296
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         300
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         300
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         319
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         319
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         324
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         324
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D"
+FT   BINDING         326
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         326
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         337
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         339
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         341
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         343
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:2BWM, ECO:0007829|PDB:2BWR"
+FT   BINDING         345
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:2BWR, ECO:0007829|PDB:2C25"
+FT   BINDING         351
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         351
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   BINDING         352
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         352
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         355
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4UP4"
+FT   BINDING         355
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:2C4D, ECO:0007829|PDB:4UP4"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:ABB17278.1"
+SQ   SEQUENCE   395 AA;  42420 MW;  893411A40C4443F9 CRC64;
+     QALPVPTRIP GVADLVGFGN GGVYIIRNSL LIQVVKVINN FGYDAGGWRV EKHVRLLADT
+     TGDNQSDVVG FGENGVWIST NNGNNTFVDP PKMVLANFAY AAGGWRVEKH IRFMADLRKT
+     GRADIVGFGD GGIYISRNNG GGQFAPAQLA LNNFGYAQGW RLDRHLRFLA DVTGDGLLDV
+     VGFGENQVYI ARNSSNGTFQ PAQAVVNNFC IGAGGWTISA HPRVVADLTG DRKADILGFG
+     VAGVYTSLNN GNGTFGAVNL VLKDFGVNSG WRVEKHVRCV SSLTNKKVGD IIGFGDAGVY
+     VALNNGNGTF GPVKRVIDNF GYNQGWRVDK HPRFVVDLTG DGCADIVGFG ENSVWACMNK
+     GDGTFGPIMK LIDDMTVSKG WTLQKTVRYA ANLYL
+//

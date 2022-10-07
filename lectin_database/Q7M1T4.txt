@@ -1,0 +1,116 @@
+ID   Q7M1T4_ARTIN            Unreviewed;       149 AA.
+AC   Q7M1T4;
+DT   15-DEC-2003, integrated into UniProtKB/TrEMBL.
+DT   15-DEC-2003, sequence version 1.
+DT   03-AUG-2022, entry version 77.
+DE   SubName: Full=Mannose-specific lectin KM+ {ECO:0000313|PIR:A58801};
+OS   Artocarpus integer (Jack fruit) (Artocarpus integrifolia).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Rosales; Moraceae; Artocarpus.
+OX   NCBI_TaxID=3490 {ECO:0000313|PIR:A58801};
+RN   [1] {ECO:0007829|PDB:1J4S, ECO:0007829|PDB:1J4T}
+RP   X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS), AND ACETYLATION AT ALA-1.
+RX   PubMed=11902840; DOI=10.1006/jmbi.2001.5432;
+RA   Pratap J.V., Jeyaprakash A.A., Rani P.G., Sekar K., Surolia A., Vijayan M.;
+RT   "Crystal structures of artocarpin, a Moraceae lectin with mannose
+RT   specificity, and its complex with methyl-alpha-D-mannose: implications to
+RT   the generation of carbohydrate specificity.";
+RL   J. Mol. Biol. 317:237-247(2002).
+RN   [2] {ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP}
+RP   X-RAY CRYSTALLOGRAPHY (2.35 ANGSTROMS) OF 1-147 IN COMPLEX WITH MANNOSE.
+RX   PubMed=15099743; DOI=10.1016/j.jmb.2004.03.040;
+RA   Jeyaprakash A.A., Srivastav A., Surolia A., Vijayan M.;
+RT   "Structural basis for the carbohydrate specificities of artocarpin:
+RT   variation in the length of a loop as a strategy for generating ligand
+RT   specificity.";
+RL   J. Mol. Biol. 338:757-770(2004).
+RN   [3] {ECO:0007829|PDB:4AKD}
+RP   X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS).
+RX   PubMed=24915077; DOI=10.1107/S2053230X14008966;
+RA   Gabrielsen M., Abdul-Rahman P.S., Othman S., Hashim O.H., Cogdell R.J.;
+RT   "Structures and binding specificity of galactose- and mannose-binding
+RT   lectins from champedak: differences from jackfruit lectins.";
+RL   Acta Crystallogr. F Struct. Biol. Commun. 70:709-716(2014).
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family.
+CC       {ECO:0000256|ARBA:ARBA00006568}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A58801; A58801.
+DR   PDB; 1J4S; X-ray; 2.50 A; A/B/C/D=1-149.
+DR   PDB; 1J4T; X-ray; 2.40 A; A/B/C/D/E/F/G/H=1-149.
+DR   PDB; 1J4U; X-ray; 2.90 A; A/B/C/D=1-149.
+DR   PDB; 1VBO; X-ray; 2.35 A; A/B/C/D/E/F/G/H=1-149.
+DR   PDB; 1VBP; X-ray; 3.50 A; A/B=1-149.
+DR   PDB; 4AKD; X-ray; 2.10 A; A/B/C/D=1-149.
+DR   PDBsum; 1J4S; -.
+DR   PDBsum; 1J4T; -.
+DR   PDBsum; 1J4U; -.
+DR   PDBsum; 1VBO; -.
+DR   PDBsum; 1VBP; -.
+DR   PDBsum; 4AKD; -.
+DR   SMR; Q7M1T4; -.
+DR   UniLectin; Q7M1T4; -.
+DR   EvolutionaryTrace; Q7M1T4; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 1.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1J4S, ECO:0007829|PDB:1J4T};
+KW   Lectin {ECO:0000256|ARBA:ARBA00022734}.
+FT   DOMAIN          4..149
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51752"
+FT   BINDING         15
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP"
+FT   BINDING         57
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO"
+FT   BINDING         90
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP"
+FT   BINDING         91
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP"
+FT   BINDING         93
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBP"
+FT   BINDING         137
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP"
+FT   BINDING         138
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP"
+FT   BINDING         139
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP"
+FT   BINDING         141
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1VBO, ECO:0007829|PDB:1VBP"
+FT   MOD_RES         1
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0007829|PDB:1J4T, ECO:0007829|PDB:1J4U"
+SQ   SEQUENCE   149 AA;  16082 MW;  A958A6EEE50F4E9D CRC64;
+     ASQTITVGPW GGPGGNGWDD GSYTGIRQIE LSYKEAIGSF SVIYDLNGEP FSGPKHTSKL
+     PYKNVKIELR FPDEFLESVS GYTAPFSALA TPTPVVRSLT FKTNKGRTFG PYGDEEGTYF
+     NLPIENGLIV GFKGRTGDLL DAIGVHMAL
+//

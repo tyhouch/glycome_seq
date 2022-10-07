@@ -1,0 +1,134 @@
+ID   LEG1_CAPHI              Reviewed;         135 AA.
+AC   C0HJR3;
+DT   29-APR-2015, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2015, sequence version 1.
+DT   03-AUG-2022, entry version 22.
+DE   RecName: Full=Galectin-1 {ECO:0000303|PubMed:21210196};
+DE            Short=Gal-1 {ECO:0000250|UniProtKB:P09382};
+DE   AltName: Full=14 kDa lectin {ECO:0000250|UniProtKB:P09382};
+DE   AltName: Full=Beta-galactoside-binding lectin L-14-I {ECO:0000250|UniProtKB:P09382};
+DE   AltName: Full=Galaptin {ECO:0000250|UniProtKB:P09382};
+DE   AltName: Full=Lactose-binding lectin 1 {ECO:0000250|UniProtKB:P09382};
+DE   AltName: Full=Lectin galactoside-binding soluble 1 {ECO:0000250|UniProtKB:P09382};
+DE   AltName: Full=S-Lac lectin 1 {ECO:0000250|UniProtKB:P09382};
+GN   Name=LGALS1 {ECO:0000250|UniProtKB:P09382};
+OS   Capra hircus (Goat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Caprinae; Capra.
+OX   NCBI_TaxID=9925;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 2-135, FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   SUBUNIT.
+RC   TISSUE=Heart {ECO:0000303|PubMed:21210196};
+RX   PubMed=21210196; DOI=10.1007/s10930-010-9300-2;
+RA   Ashraf G.M., Banu N., Ahmad A., Singh L.P., Kumar R.;
+RT   "Purification, characterization, sequencing and biological chemistry of
+RT   galectin-1 purified from Capra hircus (goat) heart.";
+RL   Protein J. 30:39-51(2011).
+CC   -!- FUNCTION: Lectin that binds beta-galactoside and a wide array of
+CC       complex carbohydrates (PubMed:21210196). Plays a role in regulating
+CC       apoptosis, cell proliferation and cell differentiation. Inhibits CD45
+CC       protein phosphatase activity and therefore the dephosphorylation of Lyn
+CC       kinase. Strong inducer of T-cell apoptosis. Has hemaglutinating
+CC       activity towards human erythrocytes (PubMed:21210196).
+CC       {ECO:0000250|UniProtKB:P09382, ECO:0000269|PubMed:21210196}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH for hemagglutinating activity is 7.4.
+CC         {ECO:0000269|PubMed:21210196};
+CC       Temperature dependence:
+CC         Retains hemagglutinating activity up to 42 degrees Celsius. The
+CC         activity then drops and is completely lost at 65 degrees Celsius.
+CC         {ECO:0000269|PubMed:21210196};
+CC   -!- SUBUNIT: Homodimer. Binds LGALS3BP. Interacts with CD2, CD3, CD4, CD6,
+CC       CD7, CD43, ALCAM and CD45. Interacts with laminin (via poly-N-
+CC       acetyllactosamine). Interacts with SUSD2. Interacts with cargo receptor
+CC       TMED10; the interaction mediates the translocation from the cytoplasm
+CC       into the ERGIC (endoplasmic reticulum-Golgi intermediate compartment)
+CC       and thereby secretion. {ECO:0000250|UniProtKB:P09382}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250|UniProtKB:P09382}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P09382}. Secreted
+CC       {ECO:0000250|UniProtKB:P09382}. Note=Can be secreted; the secretion is
+CC       dependent on protein unfolding and facilitated by the cargo receptor
+CC       TMED10; it results in protein translocation from the cytoplasm into the
+CC       ERGIC (endoplasmic reticulum-Golgi intermediate compartment) followed
+CC       by vesicle entry and secretion. {ECO:0000250|UniProtKB:P09382}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; C0HJR3; -.
+DR   SMR; C0HJR3; -.
+DR   Proteomes; UP000291000; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Apoptosis; Cytoplasm; Direct protein sequencing;
+KW   Extracellular matrix; Hemagglutinin; Lectin; Phosphoprotein;
+KW   Reference proteome; Secreted.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   CHAIN           2..135
+FT                   /note="Galectin-1"
+FT                   /evidence="ECO:0000269|PubMed:21210196"
+FT                   /id="PRO_0000432997"
+FT   DOMAIN          4..135
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         45..49
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   BINDING         53
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   BINDING         62
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   BINDING         69..72
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         13
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         29
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         30
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         108
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         108
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         128
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+SQ   SEQUENCE   135 AA;  14798 MW;  25C092F9D9BF130A CRC64;
+     MACGLVASNL NLKPGECLRV RGELAADAKS FVLNLGKDSN NLCLHFNPRF NAHGDANTIV
+     CNSKDDGTWG AEQREVAFPF QPGSVVEVCI SFNQADLTVK LPDGHEFKFP NRLNMEAINY
+     MSADGDFKIK CVAFE
+//

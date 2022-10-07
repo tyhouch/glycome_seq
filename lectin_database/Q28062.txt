@@ -1,0 +1,184 @@
+ID   PGCB_BOVIN              Reviewed;         912 AA.
+AC   Q28062;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   25-MAY-2022, entry version 130.
+DE   RecName: Full=Brevican core protein;
+DE   Flags: Precursor;
+GN   Name=BCAN;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Brain;
+RX   PubMed=8144512; DOI=10.1016/s0021-9258(17)36998-3;
+RA   Yamada H., Watanabe K., Shimonaka M., Yamaguchi Y.;
+RT   "Molecular cloning of brevican, a novel brain proteoglycan of the
+RT   aggrecan/versican family.";
+RL   J. Biol. Chem. 269:10119-10126(1994).
+CC   -!- FUNCTION: May play a role in the terminally differentiating and the
+CC       adult nervous system during postnatal development. Could stabilize
+CC       interactions between hyaluronan (HA) and brain proteoglycans.
+CC   -!- SUBUNIT: Interacts with TNR. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Brain; expressed in cerebellar astrocytes but not
+CC       in neurons.
+CC   -!- PTM: Contains mostly chondroitin sulfate.
+CC   -!- SIMILARITY: Belongs to the aggrecan/versican proteoglycan family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X75887; CAA53481.1; -; mRNA.
+DR   PIR; A54423; A54423.
+DR   AlphaFoldDB; Q28062; -.
+DR   SMR; Q28062; -.
+DR   STRING; 9913.ENSBTAP00000020965; -.
+DR   PaxDb; Q28062; -.
+DR   PRIDE; Q28062; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; Q28062; -.
+DR   Proteomes; UP000009136; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005540; F:hyaluronic acid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   CDD; cd00033; CCP; 1.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 3.10.100.10; -; 3.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003006; Ig/MHC_CS.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   InterPro; IPR000538; Link_dom.
+DR   InterPro; IPR035976; Sushi/SCR/CCP_sf.
+DR   InterPro; IPR000436; Sushi_SCR_CCP_dom.
+DR   Pfam; PF00008; EGF; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF00084; Sushi; 1.
+DR   Pfam; PF07686; V-set; 1.
+DR   Pfam; PF00193; Xlink; 2.
+DR   PRINTS; PR01265; LINKMODULE.
+DR   SMART; SM00032; CCP; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SMART; SM00181; EGF; 1.
+DR   SMART; SM00409; IG; 1.
+DR   SMART; SM00406; IGv; 1.
+DR   SMART; SM00445; LINK; 2.
+DR   SUPFAM; SSF48726; SSF48726; 1.
+DR   SUPFAM; SSF56436; SSF56436; 3.
+DR   SUPFAM; SSF57535; SSF57535; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS00022; EGF_1; 1.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS50026; EGF_3; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+DR   PROSITE; PS00290; IG_MHC; 1.
+DR   PROSITE; PS01241; LINK_1; 2.
+DR   PROSITE; PS50963; LINK_2; 2.
+DR   PROSITE; PS50923; SUSHI; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; EGF-like domain;
+KW   Extracellular matrix; Glycoprotein; Hyaluronic acid; Immunoglobulin domain;
+KW   Lectin; Phosphoprotein; Proteoglycan; Reference proteome; Repeat; Secreted;
+KW   Signal; Sushi.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..912
+FT                   /note="Brevican core protein"
+FT                   /id="PRO_0000017509"
+FT   DOMAIN          36..155
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          157..252
+FT                   /note="Link 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          257..354
+FT                   /note="Link 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          647..683
+FT                   /note="EGF-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          683..811
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          814..874
+FT                   /note="Sushi"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   REGION          408..427
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          438..651
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        461..479
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        516..541
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         418
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P55068"
+FT   CARBOHYD        130
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        337
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        57..137
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        179..250
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        203..224
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        277..352
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        301..322
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        651..662
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        656..671
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        673..682
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        689..700
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        717..809
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        785..801
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        816..859
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        845..872
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   912 AA;  99554 MW;  677B3EB1C688C4D7 CRC64;
+     MAPLFLPLLA TLVLAWIPVA LADALEGDSS EDRAFRVRIA GDAPLQGVLG GALTIPCHVH
+     YLRPSPSRRA AQGSPRVKWT FLSGGREAEV LVARGLRVKV SEAYRFRVAL PAYPASLTDV
+     SLVLSELRPN DSGIYRCEVQ HGIDDSSDAV EVKVKGVVFL YREGSARYAF SFAGAQEACA
+     RIGARIATPE QLYAAYLGGY EQCDAGWLSD QTVRYPIQTP REACYGDMDG FPGVRNYGVV
+     DPDDLYDVYC YAEELNGELF LGAPPDKLTL EEARTYCQER GAKIATTGQL YAAWDGGLDR
+     CSSGWLSDGS VRYPIVTPSQ RCGGGLPGVK TLFLFPNQTG FPNKHSRFNV YCFRDSAQPS
+     AIPEAANPAS HLASDALEAI VTVTETLEEL KLPQEAVESE SRGAIYSIPI IEDGGGGSST
+     PEDPAEAPRT LLEFETQSIV PPLGSSEEEG KVLEQEEKYR GEEEKEEEEE EEEVEDEALW
+     AWPSELSSLD PEAPLPTEPV PEESLTQASP PVRAALQPGV SPPPYDEPEA PRPPRVLGPP
+     TKTLPTPREG NLASPPPSTL VGAREIEEET GGPELSGAPR GESEETGSSE DAPSLLPATR
+     APGDTRDLET PSEENSRRTV PAGTSVRAQP VLPTDSASRG GVAVAPSSGD CVPSPCHNGG
+     TCLEEEEGVR CLCLPGYGGD LCDVGLHFCS PGWDAFQGAC YKHFSARRSW EEAENKCRMY
+     GAHLASISTP EEQDFINNRY REYQWIGLND RTIEGDFLWS DGVPLLYENW NPGQPDSYFL
+     SGENCVVMVW HDQGQWSDVP CNYHLSYTCK MGLVSCGPPP ELPLAEVFGR PRLRYEVDTV
+     LRYRCREGLT QRNLPLIRCQ ENGRWGLPQI SCVPRRPARA LRPVEAQEGR PWRLVGHWKA
+     RLNPSPNPAP GP
+//

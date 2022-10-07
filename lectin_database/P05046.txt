@@ -1,0 +1,157 @@
+ID   LEC_SOYBN               Reviewed;         285 AA.
+AC   P05046;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   13-AUG-1987, sequence version 1.
+DT   03-AUG-2022, entry version 137.
+DE   RecName: Full=Lectin;
+DE   AltName: Full=Agglutinin;
+DE   AltName: Full=SBA;
+DE   Flags: Precursor;
+GN   Name=LE1;
+OS   Glycine max (Soybean) (Glycine hispida).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Glycine;
+OC   Glycine subgen. Soja.
+OX   NCBI_TaxID=3847;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6313203; DOI=10.1016/0092-8674(83)90560-3;
+RA   Vodkin L.O., Rhodes P.R., Goldberg R.B.;
+RT   "cA lectin gene insertion has the structural features of a transposable
+RT   element.";
+RL   Cell 34:1023-1031(1983).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS).
+RX   PubMed=7711015; DOI=10.1021/bi00015a004;
+RA   Dessen A., Gupta D., Sabesan S., Brewer C.F., Sacchettini J.C.;
+RT   "X-ray crystal structure of the soybean agglutinin cross-linked with a
+RT   biantennary analog of the blood group I carbohydrate antigen.";
+RL   Biochemistry 34:4933-4942(1995).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.52 ANGSTROMS).
+RX   PubMed=9398234; DOI=10.1021/bi971828+;
+RA   Olsen L.R., Dessen A., Gupta D., Sabesan S., Sacchettini J.C., Brewer C.F.;
+RT   "X-ray crystallographic studies of unique cross-linked lattices between
+RT   four isomeric biantennary oligosaccharides and soybean agglutinin.";
+RL   Biochemistry 36:15073-15080(1997).
+CC   -!- FUNCTION: Binds GalNAc and galactose.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; K00821; AAA33983.1; -; Genomic_DNA.
+DR   PIR; S27365; S27365.
+DR   RefSeq; XP_003518800.1; XM_003518752.3.
+DR   PDB; 1G9F; X-ray; 2.50 A; A=33-285.
+DR   PDB; 1SBD; X-ray; 2.52 A; A=33-285.
+DR   PDB; 1SBE; X-ray; 2.80 A; A=33-285.
+DR   PDB; 1SBF; X-ray; 2.43 A; A=33-285.
+DR   PDB; 2SBA; X-ray; 2.60 A; A=33-285.
+DR   PDB; 4D69; X-ray; 2.70 A; A/B/C/D/E/F/G/H/I/J/K/L=33-285.
+DR   PDBsum; 1G9F; -.
+DR   PDBsum; 1SBD; -.
+DR   PDBsum; 1SBE; -.
+DR   PDBsum; 1SBF; -.
+DR   PDBsum; 2SBA; -.
+DR   PDBsum; 4D69; -.
+DR   AlphaFoldDB; P05046; -.
+DR   SMR; P05046; -.
+DR   IntAct; P05046; 1.
+DR   STRING; 3847.GLYMA02G01590.1; -.
+DR   ChEMBL; CHEMBL1649056; -.
+DR   Allergome; 1429; Gly m Agglutinin.
+DR   UniLectin; P05046; -.
+DR   GlyConnect; 333; 5 N-Linked glycans.
+DR   PRIDE; P05046; -.
+DR   EnsemblPlants; KRH69220; KRH69220; GLYMA_02G012600.
+DR   Gramene; KRH69220; KRH69220; GLYMA_02G012600.
+DR   eggNOG; ENOG502QTX3; Eukaryota.
+DR   HOGENOM; CLU_000288_62_2_1; -.
+DR   InParanoid; P05046; -.
+DR   OMA; YNESHDI; -.
+DR   OrthoDB; 1377709at2759; -.
+DR   EvolutionaryTrace; P05046; -.
+DR   PRO; PR:P05046; -.
+DR   Proteomes; UP000008827; Chromosome 2.
+DR   Genevisible; P05046; GM.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycoprotein; Lectin; Reference proteome; Signal.
+FT   SIGNAL          1..32
+FT   CHAIN           33..285
+FT                   /note="Lectin"
+FT                   /id="PRO_0000017647"
+FT   CARBOHYD        107
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   STRAND          34..42
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          50..54
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          60..62
+FT                   /evidence="ECO:0007829|PDB:2SBA"
+FT   STRAND          71..73
+FT                   /evidence="ECO:0007829|PDB:1SBD"
+FT   STRAND          80..87
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   TURN            94..96
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          101..111
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   TURN            113..116
+FT                   /evidence="ECO:0007829|PDB:1SBE"
+FT   STRAND          120..128
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   HELIX           137..139
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   TURN            140..142
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          145..147
+FT                   /evidence="ECO:0007829|PDB:4D69"
+FT   STRAND          153..158
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          167..179
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          181..185
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          194..200
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   TURN            202..204
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          206..213
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   TURN            214..217
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          218..225
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   HELIX           228..231
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          234..244
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          246..248
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   STRAND          252..264
+FT                   /evidence="ECO:0007829|PDB:1SBF"
+FT   HELIX           277..281
+FT                   /evidence="ECO:0007829|PDB:1G9F"
+SQ   SEQUENCE   285 AA;  30928 MW;  B3704533C9315C52 CRC64;
+     MATSKLKTQN VVVSLSLTLT LVLVLLTSKA NSAETVSFSW NKFVPKQPNM ILQGDAIVTS
+     SGKLQLNKVD ENGTPKPSSL GRALYSTPIH IWDKETGSVA SFAASFNFTF YAPDTKRLAD
+     GLAFFLAPID TKPQTHAGYL GLFNENESGD QVVAVEFDTF RNSWDPPNPH IGINVNSIRS
+     IKTTSWDLAN NKVAKVLITY DASTSLLVAS LVYPSQRTSN ILSDVVDLKT SLPEWVRIGF
+     SAATGLDIPG ESHDVLSWSF ASNLPHASSN IDPLDLTSFV LHEAI
+//

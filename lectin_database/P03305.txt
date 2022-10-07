@@ -1,0 +1,1060 @@
+ID   POLG_FMDVO              Reviewed;        2332 AA.
+AC   P03305;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   03-AUG-2022, entry version 206.
+DE   RecName: Full=Genome polyprotein;
+DE   Contains:
+DE     RecName: Full=Leader protease;
+DE              Short=Lb(pro);
+DE              EC=3.4.22.46 {ECO:0000269|PubMed:11034318};
+DE   Contains:
+DE     RecName: Full=Capsid protein VP0;
+DE     AltName: Full=VP4-VP2;
+DE   Contains:
+DE     RecName: Full=Capsid protein VP4;
+DE     AltName: Full=P1A;
+DE     AltName: Full=Virion protein 4;
+DE   Contains:
+DE     RecName: Full=Capsid protein VP2;
+DE     AltName: Full=P1B;
+DE     AltName: Full=Virion protein 2;
+DE   Contains:
+DE     RecName: Full=Capsid protein VP3;
+DE     AltName: Full=P1C;
+DE     AltName: Full=Virion protein 3;
+DE   Contains:
+DE     RecName: Full=Capsid protein VP1;
+DE     AltName: Full=P1D;
+DE     AltName: Full=Virion protein 1;
+DE   Contains:
+DE     RecName: Full=Protein 2A;
+DE              Short=P2A;
+DE     AltName: Full=P52;
+DE   Contains:
+DE     RecName: Full=Protein 2B;
+DE              Short=P2B;
+DE   Contains:
+DE     RecName: Full=Protein 2C;
+DE              Short=P2C;
+DE              EC=3.6.1.15;
+DE   Contains:
+DE     RecName: Full=Protein 3A;
+DE              Short=P3A;
+DE   Contains:
+DE     RecName: Full=Protein 3B-1;
+DE              Short=P3B-1;
+DE     AltName: Full=Genome-linked protein VPg1;
+DE   Contains:
+DE     RecName: Full=Protein 3B-2;
+DE              Short=P3B-2;
+DE     AltName: Full=Genome-linked protein VPg2;
+DE   Contains:
+DE     RecName: Full=Protein 3B-3;
+DE              Short=P3B-3;
+DE     AltName: Full=Genome-linked protein VPg3;
+DE   Contains:
+DE     RecName: Full=Protease 3C;
+DE              EC=3.4.22.28 {ECO:0000269|PubMed:3041041};
+DE     AltName: Full=Picornain 3C;
+DE              Short=P3C;
+DE     AltName: Full=Protease P20B;
+DE   Contains:
+DE     RecName: Full=RNA-directed RNA polymerase 3D-POL;
+DE              Short=P3D-POL;
+DE              EC=2.7.7.48;
+DE     AltName: Full=P56A;
+OS   Foot-and-mouth disease virus (isolate Bovine/Germany/O1Kaufbeuren/1966
+OS   serotype O) (FMDV).
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Picornaviridae; Aphthovirus.
+OX   NCBI_TaxID=73482;
+OH   NCBI_TaxID=9913; Bos taurus (Bovine).
+OH   NCBI_TaxID=9925; Capra hircus (Goat).
+OH   NCBI_TaxID=9850; Cervidae (deer).
+OH   NCBI_TaxID=9363; Erinaceidae (hedgehogs).
+OH   NCBI_TaxID=9785; Loxodonta africana (African elephant).
+OH   NCBI_TaxID=9940; Ovis aries (Sheep).
+OH   NCBI_TaxID=10116; Rattus norvegicus (Rat).
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=6089122; DOI=10.1093/nar/12.16.6587;
+RA   Forss S., Strebel K., Beck E., Schaller H.;
+RT   "Nucleotide sequence and genome organization of foot-and-mouth disease
+RT   virus.";
+RL   Nucleic Acids Res. 12:6587-6601(1984).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RC   STRAIN=Isolate O1BFS/Britain/1968;
+RX   PubMed=6298715; DOI=10.1093/nar/10.24.8285;
+RA   Makoff A.J., Paynter C.A., Rowlands D.J., Boothroyd J.C.;
+RT   "Comparison of the amino acid sequence of the major immunogen from three
+RT   serotypes of foot and mouth disease virus.";
+RL   Nucleic Acids Res. 10:8285-8295(1982).
+RN   [3]
+RP   CHARACTERIZATION.
+RX   PubMed=15350134; DOI=10.1021/bi049340d;
+RA   Kuehnel E., Cencic R., Foeger N., Skern T.;
+RT   "Foot-and-mouth disease virus leader proteinase: specificity at the P2 and
+RT   P3 positions and comparison with other papain-like enzymes.";
+RL   Biochemistry 43:11482-11490(2004).
+RN   [4]
+RP   ALTERNATIVE INITIATION.
+RX   PubMed=3033601; DOI=10.1093/nar/15.8.3305;
+RA   Sangar D.V., Newton S.E., Rowlands D.J., Clarke B.E.;
+RT   "All foot and mouth disease virus serotypes initiate protein synthesis at
+RT   two separate AUGs.";
+RL   Nucleic Acids Res. 15:3305-3315(1987).
+RN   [5]
+RP   FUNCTION (PROTEASE 3C).
+RX   PubMed=3041041; DOI=10.1128/jvi.61.10.3199-3207.1987;
+RA   Vakharia V.N., Devaney M.A., Moore D.M., Dunn J.J., Grubman M.J.;
+RT   "Proteolytic processing of foot-and-mouth disease virus polyproteins
+RT   expressed in a cell-free system from clone-derived transcripts.";
+RL   J. Virol. 61:3199-3207(1987).
+RN   [6]
+RP   FUNCTION (CAPSID PROTEIN VP1).
+RX   PubMed=2543752; DOI=10.1099/0022-1317-70-3-625;
+RA   Fox G., Parry N.R., Barnett P.V., McGinn B., Rowlands D.J., Brown F.;
+RT   "The cell attachment site on foot-and-mouth disease virus includes the
+RT   amino acid sequence RGD (arginine-glycine-aspartic acid).";
+RL   J. Gen. Virol. 70:625-637(1989).
+RN   [7]
+RP   FUNCTION (PROTEIN 2A).
+RX   PubMed=1658199; DOI=10.1099/0022-1317-72-11-2727;
+RA   Ryan M.D., King A.M., Thomas G.P.;
+RT   "Cleavage of foot-and-mouth disease virus polyprotein is mediated by
+RT   residues located within a 19 amino acid sequence.";
+RL   J. Gen. Virol. 72:2727-2732(1991).
+RN   [8]
+RP   FUNCTION (LEADER PROTEASE).
+RX   PubMed=8386879; DOI=10.1006/viro.1993.1267;
+RA   Medina M., Domingo E., Brangwyn J.K., Belsham G.J.;
+RT   "The two species of the foot-and-mouth disease virus leader protein,
+RT   expressed individually, exhibit the same activities.";
+RL   Virology 194:355-359(1993).
+RN   [9]
+RP   FUNCTION (LEADER PROTEASE).
+RC   STRAIN=Isolate O1k;
+RX   PubMed=11034318; DOI=10.1016/s0014-5793(00)01928-1;
+RA   Glaser W., Skern T.;
+RT   "Extremely efficient cleavage of eIF4G by picornaviral proteinases L and 2A
+RT   in vitro.";
+RL   FEBS Lett. 480:151-155(2000).
+RN   [10]
+RP   POLYPROTEIN PROCESSING.
+RX   PubMed=11297676; DOI=10.1099/0022-1317-82-5-1013;
+RA   Donnelly M.L.L., Luke G., Mehrotra A., Li X., Hughes L.E., Gani D.,
+RA   Ryan M.D.;
+RT   "Analysis of the aphthovirus 2A/2B polyprotein 'cleavage' mechanism
+RT   indicates not a proteolytic reaction, but a novel translational effect: a
+RT   putative ribosomal 'skip'.";
+RL   J. Gen. Virol. 82:1013-1025(2001).
+RN   [11]
+RP   FUNCTION (LEADER PROTEASE).
+RX   PubMed=15016848; DOI=10.1128/jvi.78.7.3271-3278.2004;
+RA   Gradi A., Foeger N., Strong R., Svitkin Y.V., Sonenberg N., Skern T.,
+RA   Belsham G.J.;
+RT   "Cleavage of eukaryotic translation initiation factor 4GII within foot-and-
+RT   mouth disease virus-infected cells: identification of the L-protease
+RT   cleavage site in vitro.";
+RL   J. Virol. 78:3271-3278(2004).
+RN   [12]
+RP   COVALENT RNA LINKAGE OF 3B PROTEINS, URIDYLYLATION, AND FUNCTION
+RP   (RNA-DIRECTED RNA POLYMERASE 3D-POL).
+RX   PubMed=15919922; DOI=10.1128/jvi.79.12.7698-7706.2005;
+RA   Nayak A., Goodfellow I.G., Belsham G.J.;
+RT   "Factors required for the uridylylation of the foot-and-mouth disease virus
+RT   3B1, 3B2, and 3B3 peptides by the RNA-dependent RNA polymerase (3Dpol) in
+RT   vitro.";
+RL   J. Virol. 79:7698-7706(2005).
+RN   [13]
+RP   FUNCTION (LEADER PROTEASE), AND SUBCELLULAR LOCATION (LEADER PROTEASE).
+RX   PubMed=17881445; DOI=10.1128/jvi.01467-07;
+RA   de Los Santos T., Diaz-San Segundo F., Grubman M.J.;
+RT   "Degradation of nuclear factor kappa B during foot-and-mouth disease virus
+RT   infection.";
+RL   J. Virol. 81:12803-12815(2007).
+RN   [14]
+RP   FUNCTION (CAPSID PROTEIN VP2), FUNCTION (CAPSID PROTEIN VP3), AND FUNCTION
+RP   (CAPSID PROTEIN VP1).
+RX   PubMed=18614639; DOI=10.1128/jvi.00732-08;
+RA   O'Donnell V., Larocco M., Baxt B.;
+RT   "Heparan sulfate-binding foot-and-mouth disease virus enters cells via
+RT   caveola-mediated endocytosis.";
+RL   J. Virol. 82:9075-9085(2008).
+RN   [15]
+RP   FUNCTION (CAPSID PROTEIN VP1).
+RX   PubMed=18045932; DOI=10.1128/jvi.01480-07;
+RA   Dicara D., Burman A., Clark S., Berryman S., Howard M.J., Hart I.R.,
+RA   Marshall J.F., Jackson T.;
+RT   "Foot-and-mouth disease virus forms a highly stable, EDTA-resistant complex
+RT   with its principal receptor, integrin alphavbeta6: implications for
+RT   infectiousness.";
+RL   J. Virol. 82:1537-1546(2008).
+RN   [16]
+RP   REVIEW.
+RX   PubMed=19556802; DOI=10.1159/000226121;
+RA   Ruiz-Saenz J., Goez Y., Tabares W., Lopez-Herrera A.;
+RT   "Cellular receptors for foot and mouth disease virus.";
+RL   Intervirology 52:201-212(2009).
+RN   [17]
+RP   FUNCTION (PROTEIN 2C).
+RX   PubMed=20507978; DOI=10.1074/jbc.m110.129940;
+RA   Sweeney T.R., Cisnetto V., Bose D., Bailey M., Wilson J.R., Zhang X.,
+RA   Belsham G.J., Curry S.;
+RT   "Foot-and-mouth disease virus 2C is a hexameric AAA+ protein with a
+RT   coordinated ATP hydrolysis mechanism.";
+RL   J. Biol. Chem. 285:24347-24359(2010).
+RN   [18]
+RP   FUNCTION (LEADER PROTEASE).
+RX   PubMed=21307201; DOI=10.1128/jvi.02589-10;
+RA   Wang D., Fang L., Li P., Sun L., Fan J., Zhang Q., Luo R., Liu X., Li K.,
+RA   Chen H., Chen Z., Xiao S.;
+RT   "The leader proteinase of foot-and-mouth disease virus negatively regulates
+RT   the type I interferon pathway by acting as a viral deubiquitinase.";
+RL   J. Virol. 85:3758-3766(2011).
+RN   [19]
+RP   FUNCTION (PROTEIN 2C), AND INTERACTION WITH HOST BECN1 (PROTEIN 2C).
+RX   PubMed=22933281; DOI=10.1128/jvi.01610-12;
+RA   Gladue D.P., O'Donnell V., Baker-Branstetter R., Holinka L.G.,
+RA   Pacheco J.M., Fernandez-Sainz I., Lu Z., Brocchi E., Baxt B., Piccone M.E.,
+RA   Rodriguez L., Borca M.V.;
+RT   "Foot-and-mouth disease virus nonstructural protein 2C interacts with
+RT   Beclin1, modulating virus replication.";
+RL   J. Virol. 86:12080-12090(2012).
+RN   [20]
+RP   FUNCTION (PROTEIN 2C), AND INTERACTION WITH HOST VIM (PROTEIN 2C).
+RX   PubMed=23576498; DOI=10.1128/jvi.00448-13;
+RA   Gladue D.P., O'Donnell V., Baker-Branstetter R., Holinka L.G.,
+RA   Pacheco J.M., Fernandez Sainz I., Lu Z., Ambroggio X., Rodriguez L.,
+RA   Borca M.V.;
+RT   "Foot-and-mouth disease virus modulates cellular vimentin for virus
+RT   survival.";
+RL   J. Virol. 87:6794-6803(2013).
+RN   [21]
+RP   SUBCELLULAR LOCATION (RNA-DIRECTED RNA POLYMERASE 3D-POL), AND NUCLEAR
+RP   LOCALIZATIION SIGNAL (RNA-DIRECTED RNA POLYMERASE 3D-POL).
+RX   PubMed=23886493; DOI=10.1016/j.virol.2013.06.011;
+RA   Sanchez-Aparicio M.T., Rosas M.F., Sobrino F.;
+RT   "Characterization of a nuclear localization signal in the foot-and-mouth
+RT   disease virus polymerase.";
+RL   Virology 444:203-210(2013).
+RN   [22]
+RP   TOPOLOGY (PROTEIN 3A), AND SUBCELLULAR LOCATION (PROTEIN 3A).
+RX   PubMed=25275544; DOI=10.1371/journal.pone.0106685;
+RA   Gonzalez-Magaldi M., Martin-Acebes M.A., Kremer L., Sobrino F.;
+RT   "Membrane topology and cellular dynamics of foot-and-mouth disease virus 3A
+RT   protein.";
+RL   PLoS ONE 9:E106685-E106685(2014).
+RN   [23]
+RP   FUNCTION (PROTEIN 3A), INTERACTION WITH HOST DCTN3 (PROTEIN 3A), AND
+RP   SUBCELLULAR LOCATION (PROTEIN 3A).
+RX   PubMed=24352458; DOI=10.1128/jvi.03059-13;
+RA   Gladue D.P., O'Donnell V., Baker-Bransetter R., Pacheco J.M., Holinka L.G.,
+RA   Arzt J., Pauszek S., Fernandez-Sainz I., Fletcher P., Brocchi E., Lu Z.,
+RA   Rodriguez L.L., Borca M.V.;
+RT   "Interaction of foot-and-mouth disease virus nonstructural protein 3A with
+RT   host protein DCTN3 is important for viral virulence in cattle.";
+RL   J. Virol. 88:2737-2747(2014).
+RN   [24]
+RP   FUNCTION (PROTEIN 2B), SUBUNIT (PROTEIN 2B), SUBCELLULAR LOCATION (PROTEIN
+RP   2B), AND TOPOLOGY (PROTEIN 2B).
+RX   PubMed=25946195; DOI=10.1371/journal.pone.0125828;
+RA   Ao D., Guo H.C., Sun S.Q., Sun D.H., Fung T.S., Wei Y.Q., Han S.C.,
+RA   Yao X.P., Cao S.Z., Liu D.X., Liu X.T.;
+RT   "Viroporin Activity of the Foot-and-Mouth Disease Virus Non-Structural 2B
+RT   Protein.";
+RL   PLoS ONE 10:E0125828-E0125828(2015).
+RN   [25]
+RP   FUNCTION (CAPSID PROTEIN VP1), AND INTERACTION WITH HOST ITGAV/ITGB6
+RP   (CAPSID PROTEIN VP1).
+RX   PubMed=28534487; DOI=10.1038/ncomms15408;
+RA   Kotecha A., Wang Q., Dong X., Ilca S.L., Ondiviela M., Zihe R., Seago J.,
+RA   Charleston B., Fry E.E., Abrescia N.G.A., Springer T.A., Huiskonen J.T.,
+RA   Stuart D.I.;
+RT   "Rules of engagement between alphavbeta6 integrin and foot-and-mouth
+RT   disease virus.";
+RL   Nat. Commun. 8:15408-15408(2017).
+RN   [26]
+RP   FUNCTION (LEADER PROTEASE), AND INTERACTION WITH HOST ISG15 (LEADER
+RP   PROTEASE).
+RX   PubMed=29463763; DOI=10.1073/pnas.1710617115;
+RA   Swatek K.N., Aumayr M., Pruneda J.N., Visser L.J., Berryman S., Kueck A.F.,
+RA   Geurink P.P., Ovaa H., van Kuppeveld F.J.M., Tuthill T.J., Skern T.,
+RA   Komander D.;
+RT   "Irreversible inactivation of ISG15 by a viral leader protease enables
+RT   alternative infection detection strategies.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 115:2371-2376(2018).
+RN   [27]
+RP   FUNCTION (PROTEIN 3A), AND SUBCELLULAR LOCATION (PROTEIN 3A).
+RX   PubMed=29536193; DOI=10.1007/s00705-018-3795-9;
+RA   Lotufo C.M., Wilda M., Giraldez A.N., Grigera P.R., Mattion N.M.;
+RT   "Relevance of the N-terminal and major hydrophobic domains of non-
+RT   structural protein 3A in the replicative process of a DNA-launched foot-
+RT   and-mouth disease virus replicon.";
+RL   Arch. Virol. 163:1769-1778(2018).
+RN   [28]
+RP   FUNCTION (CAPSID PROTEIN VP1), AND INTERACTION WITH HOST MAVS (CAPSID
+RP   PROTEIN VP1).
+RX   PubMed=33232374; DOI=10.1371/journal.ppat.1009057;
+RA   Ekanayaka P., Lee S.Y., Herath T.U.B., Kim J.H., Kim T.H., Lee H.,
+RA   Chathuranga K., Chathuranga W.A.G., Park J.H., Lee J.S.;
+RT   "Foot-and-mouth disease virus VP1 target the MAVS to inhibit type-I
+RT   interferon signaling and VP1 E83K mutation results in virus attenuation.";
+RL   PLoS Pathog. 16:e1009057-e1009057(2020).
+RN   [29]
+RP   X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS), FUNCTION (CAPSID PROTEIN VP2),
+RP   FUNCTION (CAPSID PROTEIN VP3), FUNCTION (CAPSID PROTEIN VP1), SUBCELLULAR
+RP   LOCATION (CAPSID PROTEIN VP2), SUBCELLULAR LOCATION (CAPSID PROTEIN VP3),
+RP   AND SUBCELLULAR LOCATION (CAPSID PROTEIN VP1).
+RX   PubMed=2537470; DOI=10.1038/337709a0;
+RA   Acharya R., Fry E., Stuart D., Fox G., Rowlands D., Brown F.;
+RT   "The three-dimensional structure of foot-and-mouth disease virus at 2.9-A
+RT   resolution.";
+RL   Nature 337:709-716(1989).
+RN   [30]
+RP   X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS) OF 29-201 OF MUTANT ALA-51.
+RX   PubMed=9857201; DOI=10.1093/emboj/17.24.7469;
+RA   Guarne A., Tormo J., Kirchweger R., Pfistermueller D., Fita I., Skern T.;
+RT   "Structure of the foot-and-mouth disease virus leader protease: a papain-
+RT   like fold adapted for self-processing and eIF4G recognition.";
+RL   EMBO J. 17:7469-7479(1998).
+RN   [31]
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 202-286; 287-504 AND 505-724.
+RX   PubMed=9927414; DOI=10.1093/emboj/18.3.543;
+RA   Fry E.E., Lea S.M., Jackson T., Newman J.W., Ellard F.M., Blakemore W.E.,
+RA   Abu-Ghazaleh R., Samuel A., King A.M., Stuart D.I.;
+RT   "The structure and function of a foot-and-mouth disease virus-
+RT   oligosaccharide receptor complex.";
+RL   EMBO J. 18:543-554(1999).
+RN   [32]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 29-195 OF MUTANT ALA-51/SER-133.
+RX   PubMed=11183785; DOI=10.1006/jmbi.2000.4115;
+RA   Guarne A., Hampoelz B., Glaser W., Carpena X., Tormo J., Fita I., Skern T.;
+RT   "Structural and biochemical features distinguish the foot-and-mouth disease
+RT   virus leader proteinase from other papain-like enzymes.";
+RL   J. Mol. Biol. 302:1227-1240(2000).
+RN   [33]
+RP   STRUCTURE BY NMR OF 29-195.
+RX   PubMed=17897674; DOI=10.1016/j.jmb.2007.08.061;
+RA   Cencic R., Mayer C., Juliano M.A., Juliano L., Konrat R., Kontaxis G.,
+RA   Skern T.;
+RT   "Investigating the substrate specificity and oligomerisation of the leader
+RT   protease of foot and mouth disease virus using NMR.";
+RL   J. Mol. Biol. 373:1071-1087(2007).
+RN   [34]
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF 29-195, FUNCTION (LEADER
+RP   PROTEASE), AND ACTIVE SITE (LEADER PROTEASE).
+RX   PubMed=25240326; DOI=10.1016/j.virol.2014.08.023;
+RA   Steinberger J., Grishkovskaya I., Cencic R., Juliano L., Juliano M.A.,
+RA   Skern T.;
+RT   "Foot-and-mouth disease virus leader proteinase: structural insights into
+RT   the mechanism of intermolecular cleavage.";
+RL   Virology 468:397-408(2014).
+CC   -!- FUNCTION: [Leader protease]: Autocatalytically cleaves itself from the
+CC       polyprotein at the L/VP0 junction. Cleaves also the host translation
+CC       initiation factors EIF4G1 and EIF4G3, in order to shutoff the capped
+CC       cellular mRNA transcription. Plays a role in counteracting host innate
+CC       antiviral response using diverse mechanisms. Possesses a deubiquitinase
+CC       activity acting on both 'Lys'-48 and 'Lys'-63-linked polyubiquitin
+CC       chains. In turn, inhibits the ubiquitination and subsequent activation
+CC       of key signaling molecules of type I IFN response such as host DDX58,
+CC       TBK1, TRAF3 and TRAF6. Inhibits host NF-kappa-B activity by inducing a
+CC       decrease in RELA mRNA levels. Cleaves a peptide bond in the C-terminus
+CC       of host ISG15, resulting in the damaging of this mofidier that can no
+CC       longer be attached to target proteins. Cleaves also host G3BP1 and
+CC       G3BP2 in order to inhibit cytoplasmic stress granules assembly.
+CC       {ECO:0000250|UniProtKB:P03308, ECO:0000269|PubMed:11034318,
+CC       ECO:0000269|PubMed:15016848, ECO:0000269|PubMed:17881445,
+CC       ECO:0000269|PubMed:21307201, ECO:0000269|PubMed:29463763,
+CC       ECO:0000269|PubMed:8386879}.
+CC   -!- FUNCTION: [Capsid protein VP4]: Lies on the inner surface of the capsid
+CC       shell. After binding to the host receptor, the capsid undergoes
+CC       conformational changes. Capsid protein VP4 is released, capsid protein
+CC       VP1 N-terminus is externalized, and together, they shape a pore in the
+CC       host membrane through which the viral genome is translocated into the
+CC       host cell cytoplasm. After genome has been released, the channel
+CC       shrinks. {ECO:0000250|UniProtKB:P03300}.
+CC   -!- FUNCTION: [Capsid protein VP2]: Forms an icosahedral capsid of pseudo
+CC       T=3 symmetry with capsid proteins VP1 and VP3. The capsid is composed
+CC       of 60 copies of each capsid protein organized in the form of twelve
+CC       pentamers and encloses the viral positive strand RNA genome.
+CC       {ECO:0000269|PubMed:2537470}.
+CC   -!- FUNCTION: [Capsid protein VP1]: Forms an icosahedral capsid of pseudo
+CC       T=3 symmetry with capsid proteins VP2 and VP3. The capsid is composed
+CC       of 60 copies of each capsid protein organized in the form of twelve
+CC       pentamers and encloses the viral positive strand RNA genome. Mediates
+CC       cell entry by attachment to an integrin receptor, usually host
+CC       ITGAV/ITGB6, via a conserved arginine-glycine-aspartic acid (R-G-D)
+CC       motif. In addition, targets host MAVS to suppress type I IFN pathway
+CC       (PubMed:33232374). {ECO:0000269|PubMed:18045932,
+CC       ECO:0000269|PubMed:2537470, ECO:0000269|PubMed:2543752,
+CC       ECO:0000269|PubMed:28534487, ECO:0000269|PubMed:33232374}.
+CC   -!- FUNCTION: [Capsid protein VP3]: Forms an icosahedral capsid of pseudo
+CC       T=3 symmetry with capsid proteins VP0 and VP3. The capsid is composed
+CC       of 60 copies of each capsid protein organized in the form of twelve
+CC       pentamers and encloses the viral positive strand RNA genome.
+CC       {ECO:0000269|PubMed:2537470}.
+CC   -!- FUNCTION: [Protein 2A]: Mediates self-processing of the polyprotein by
+CC       a translational effect termed 'ribosome skipping'. Mechanistically, 2A-
+CC       mediated cleavage occurs between the C-terminal glycine and the proline
+CC       of the downstream protein 2B. In the case of foot-and-mouth disease
+CC       virus, the 2A oligopeptide is post-translationally 'trimmed' from the
+CC       C-terminus of the upstream protein 1D by 3C proteinase.
+CC       {ECO:0000269|PubMed:1658199}.
+CC   -!- FUNCTION: [Protein 2B]: Plays an essential role in the virus
+CC       replication cycle by acting as a viroporin. Creates a pore in the host
+CC       reticulum endoplasmic and as a consequence releases Ca2+ in the
+CC       cytoplasm of infected cell. In turn, high levels of cytoplasmic calcium
+CC       may trigger membrane trafficking and transport of viral ER-associated
+CC       proteins to viroplasms, sites of viral genome replication.
+CC       {ECO:0000269|PubMed:25946195}.
+CC   -!- FUNCTION: [Protein 2C]: Associates with and induces structural
+CC       rearrangements of intracellular membranes. Triggers host autophagy by
+CC       interacting with host BECN1 and thereby promotes viral replication.
+CC       Participates in viral replication and interacts with host DHX9.
+CC       Displays RNA-binding, nucleotide binding and NTPase activities. May
+CC       play a role in virion morphogenesis and viral RNA encapsidation by
+CC       interacting with the capsid protein VP3. {ECO:0000269|PubMed:20507978,
+CC       ECO:0000269|PubMed:21307201, ECO:0000269|PubMed:22933281,
+CC       ECO:0000269|PubMed:23576498}.
+CC   -!- FUNCTION: [Protein 3A]: Plays important roles in virus replication,
+CC       virulence and host range. {ECO:0000269|PubMed:24352458,
+CC       ECO:0000269|PubMed:29536193}.
+CC   -!- FUNCTION: [Protein 3B-1]: Covalently linked to the 5'-end of both the
+CC       positive-strand and negative-strand genomic RNAs. Acts as a genome-
+CC       linked replication primer. {ECO:0000269|PubMed:15919922}.
+CC   -!- FUNCTION: [Protein 3B-2]: Covalently linked to the 5'-end of both the
+CC       positive-strand and negative-strand genomic RNAs. Acts as a genome-
+CC       linked replication primer. {ECO:0000269|PubMed:15919922}.
+CC   -!- FUNCTION: [Protein 3B-3]: Covalently linked to the 5'-end of both the
+CC       positive-strand and negative-strand genomic RNAs. Acts as a genome-
+CC       linked replication primer. {ECO:0000269|PubMed:15919922}.
+CC   -!- FUNCTION: [Protease 3C]: Cysteine protease that generates mature viral
+CC       proteins from the precursor polyprotein. In addition to its proteolytic
+CC       activity, binds to viral RNA and thus influences viral genome
+CC       replication. RNA and substrate bind cooperatively to the protease.
+CC       {ECO:0000269|PubMed:3041041}.
+CC   -!- FUNCTION: RNA-directed RNA polymerase 3D-POL replicates genomic and
+CC       antigenomic RNA by recognizing replications specific signals.
+CC       Covalently attaches UMP to a tyrosine of VPg, which is used to prime
+CC       RNA synthesis. The positive stranded RNA genome is first replicated at
+CC       virus induced membranous vesicles, creating a dsRNA genomic replication
+CC       form. This dsRNA is then used as template to synthesize positive
+CC       stranded RNA genomes. ss(+)RNA genomes are either translated,
+CC       replicated or encapsidated. {ECO:0000255|PROSITE-ProRule:PRU00539,
+CC       ECO:0000269|PubMed:15919922}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Autocatalytically cleaves itself from the polyprotein of the
+CC         foot-and-mouth disease virus by hydrolysis of a Lys-|-Gly bond, but
+CC         then cleaves host cell initiation factor eIF-4G at bonds -Gly-|-
+CC         Arg- and -Lys-|-Arg-.; EC=3.4.22.46;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + H2O = a ribonucleoside 5'-
+CC         diphosphate + H(+) + phosphate; Xref=Rhea:RHEA:23680,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:61557; EC=3.6.1.15;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:14527, Rhea:RHEA-
+CC         COMP:17342, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:140395;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|PROSITE-ProRule:PRU00539};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Selective cleavage of Gln-|-Gly bond in the poliovirus
+CC         polyprotein. In other picornavirus reactions Glu may be substituted
+CC         for Gln, and Ser or Thr for Gly.; EC=3.4.22.28;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU01222};
+CC   -!- SUBUNIT: [Leader protease]: Interacts with host ISG15
+CC       (PubMed:29463763). {ECO:0000269|PubMed:29463763}.
+CC   -!- SUBUNIT: [Capsid protein VP1]: Interacts (via R-G-D motif) with host
+CC       ITGAV/ITGB6 (PubMed:28534487). Interacts with host MAVS; this
+CC       interaction inhibits binding of host TRAF3 to MAVS, thereby suppressing
+CC       interferon-mediated responses (PubMed:33232374).
+CC       {ECO:0000269|PubMed:28534487, ECO:0000269|PubMed:33232374}.
+CC   -!- SUBUNIT: [Protein 2B]: Forms homooligomers. {ECO:0000305}.
+CC   -!- SUBUNIT: [Protein 2C]: Interacts with host VIM (PubMed:23576498).
+CC       Interacts with host BECN1 (PubMed:22933281).
+CC       {ECO:0000269|PubMed:22933281, ECO:0000269|PubMed:23576498}.
+CC   -!- SUBUNIT: [Protein 3A]: Interacts with host DCTN3 (PubMed:24352458).
+CC       {ECO:0000269|PubMed:24352458}.
+CC   -!- SUBCELLULAR LOCATION: [Leader protease]: Host nucleus
+CC       {ECO:0000269|PubMed:17881445}. Host cytoplasm
+CC       {ECO:0000269|PubMed:17881445}.
+CC   -!- SUBCELLULAR LOCATION: [Capsid protein VP2]: Virion
+CC       {ECO:0000269|PubMed:2537470}. Host cytoplasm {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [Capsid protein VP3]: Virion
+CC       {ECO:0000269|PubMed:2537470}. Host cytoplasm {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [Capsid protein VP1]: Virion
+CC       {ECO:0000269|PubMed:2537470}. Host cytoplasm {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [Protein 2B]: Host endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:25946195}.
+CC   -!- SUBCELLULAR LOCATION: [Protein 2C]: Host cytoplasmic vesicle membrane
+CC       {ECO:0000305}; Peripheral membrane protein {ECO:0000305}; Cytoplasmic
+CC       side {ECO:0000305}. Note=Probably localizes to the surface of
+CC       intracellular membrane vesicles that are induced after virus infection
+CC       as the site for viral RNA replication. These vesicles are derived from
+CC       the endoplasmic reticulum (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Protein 3A]: Host cytoplasm
+CC       {ECO:0000269|PubMed:24352458, ECO:0000269|PubMed:29536193}. Host
+CC       endoplasmic reticulum membrane {ECO:0000269|PubMed:25275544}.
+CC       Note=Interacts with host endoplasmic reticulum membranes through its
+CC       hydrophobic stretch, while its N- and C-terminus face the cytosol being
+CC       accessible to other viral proteins for viral replication.
+CC       {ECO:0000269|PubMed:25275544}.
+CC   -!- SUBCELLULAR LOCATION: [Protein 3B-1]: Virion {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [Protein 3B-2]: Virion {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [Protein 3B-3]: Virion {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [Protease 3C]: Host cytoplasm {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [RNA-directed RNA polymerase 3D-POL]: Host
+CC       cytoplasm {ECO:0000269|PubMed:23886493}. Host nucleus
+CC       {ECO:0000269|PubMed:23886493}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative initiation; Named isoforms=2;
+CC       Name=Lab;
+CC         IsoId=P03305-1; Sequence=Displayed;
+CC       Name=Lb;
+CC         IsoId=P03305-2; Sequence=VSP_018982;
+CC   -!- PTM: [Leader protease]: Removes six residues from its own C-terminus,
+CC       generating sLb(pro). {ECO:0000269|PubMed:25240326}.
+CC   -!- PTM: [Genome polyprotein]: Specific enzymatic cleavages in vivo by the
+CC       viral proteases yield a variety of precursors and mature proteins. The
+CC       polyprotein seems to be cotranslationally cleaved at the 2A/2B junction
+CC       by a ribosomal skip from one codon to the next without formation of a
+CC       peptide bond. This process would release the L-P1-2A peptide from the
+CC       translational complex. {ECO:0000269|PubMed:11297676}.
+CC   -!- PTM: [Capsid protein VP0]: During virion maturation, immature virions
+CC       are rendered infectious following cleavage of VP0 into VP4 and VP2.
+CC       This maturation seems to be an autocatalytic event triggered by the
+CC       presence of RNA in the capsid and is followed by a conformational
+CC       change of the particle. {ECO:0000250|UniProtKB:P03303}.
+CC   -!- PTM: [Capsid protein VP4]: Myristoylation is required during RNA
+CC       encapsidation and formation of the mature virus particle.
+CC       {ECO:0000250}.
+CC   -!- PTM: [Protein 3B-1]: Uridylylated by the polymerase and are covalently
+CC       linked to the 5'-end of genomic RNA. These uridylylated forms act as a
+CC       nucleotide-peptide primer for the polymerase.
+CC       {ECO:0000269|PubMed:15919922}.
+CC   -!- PTM: [Protein 3B-2]: Uridylylated by the polymerase and are covalently
+CC       linked to the 5'-end of genomic RNA. These uridylylated forms act as a
+CC       nucleotide-peptide primer for the polymerase.
+CC       {ECO:0000269|PubMed:15919922}.
+CC   -!- PTM: [Protein 3B-3]: Uridylylated by the polymerase and are covalently
+CC       linked to the 5'-end of genomic RNA. These uridylylated forms act as a
+CC       nucleotide-peptide primer for the polymerase.
+CC       {ECO:0000269|PubMed:15919922}.
+CC   -!- MISCELLANEOUS: [Capsid protein VP1]: Contains the main antigenic
+CC       determinants of the virion; therefore, changes in its sequence must be
+CC       responsible for the high antigenic variability of the virus.
+CC   -!- SIMILARITY: Belongs to the picornaviruses polyprotein family.
+CC       {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Virus Particle ExploreR db; Note=Icosahedral capsid
+CC       structure;
+CC       URL="https://viperdb.scripps.edu/Info_Page.php?VDB=1bbt";
+CC   -!- WEB RESOURCE: Name=Virus Particle ExploreR db; Note=Icosahedral capsid
+CC       structure;
+CC       URL="https://viperdb.scripps.edu/Info_Page.php?VDB=1fod";
+CC   -!- WEB RESOURCE: Name=Virus Particle ExploreR db; Note=Icosahedral capsid
+CC       structure complexed with oligosaccharide receptor;
+CC       URL="https://viperdb.scripps.edu/Info_Page.php?VDB=1qqp";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X00871; CAA25416.1; -; Genomic_RNA.
+DR   EMBL; J02185; AAA42635.1; -; Genomic_RNA.
+DR   PDB; 1QMY; X-ray; 1.90 A; A/B/C=29-195.
+DR   PDB; 1QOL; X-ray; 3.00 A; A/B/C/D/E/F/G/H=29-201.
+DR   PDB; 1QQP; X-ray; 1.90 A; 1=725-937, 2=287-504, 3=505-724, 4=202-286.
+DR   PDB; 2JQF; NMR; -; R/S=29-201.
+DR   PDB; 2JQG; NMR; -; R=29-195.
+DR   PDB; 4QBB; X-ray; 1.60 A; A/B/C=29-195.
+DR   PDB; 6FFA; X-ray; 1.50 A; A=29-195.
+DR   PDBsum; 1QMY; -.
+DR   PDBsum; 1QOL; -.
+DR   PDBsum; 1QQP; -.
+DR   PDBsum; 2JQF; -.
+DR   PDBsum; 2JQG; -.
+DR   PDBsum; 4QBB; -.
+DR   PDBsum; 6FFA; -.
+DR   BMRB; P03305; -.
+DR   SMR; P03305; -.
+DR   ELM; P03305; -.
+DR   MEROPS; C03.008; -.
+DR   TCDB; 1.A.85.1.8; the poliovirus 2b viroporin (2b viroporin) family.
+DR   UniLectin; P03305; -.
+DR   PRIDE; P03305; -.
+DR   KEGG; ag:CAA25416; -.
+DR   BRENDA; 3.4.22.46; 2315.
+DR   EvolutionaryTrace; P03305; -.
+DR   Proteomes; UP000008765; Genome.
+DR   GO; GO:0030430; C:host cell cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0044162; C:host cell cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044167; C:host cell endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042025; C:host cell nucleus; IDA:UniProtKB.
+DR   GO; GO:0044385; C:integral to membrane of host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0039618; C:T=pseudo3 icosahedral viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004197; F:cysteine-type endopeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005216; F:ion channel activity; IEA:UniProtKB-KW.
+DR   GO; GO:0019785; F:ISG15-specific peptidase activity; IDA:UniProtKB.
+DR   GO; GO:0017111; F:nucleoside-triphosphatase activity; IEA:RHEA.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:InterPro.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0075512; P:clathrin-dependent endocytosis of virus by host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0039520; P:induction by virus of host autophagy; IDA:UniProtKB.
+DR   GO; GO:0039525; P:modulation by virus of host chromatin organization; IEA:UniProtKB-KW.
+DR   GO; GO:0039648; P:modulation by virus of host protein ubiquitination; IDA:UniProtKB.
+DR   GO; GO:0039707; P:pore formation by virus in membrane of host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0039690; P:positive stranded viral RNA replication; ISS:UniProtKB.
+DR   GO; GO:0051259; P:protein complex oligomerization; IEA:UniProtKB-KW.
+DR   GO; GO:0006508; P:proteolysis; IDA:UniProtKB.
+DR   GO; GO:0006417; P:regulation of translation; IEA:UniProtKB-KW.
+DR   GO; GO:0018144; P:RNA-protein covalent cross-linking; IEA:UniProtKB-KW.
+DR   GO; GO:0039579; P:suppression by virus of host ISG15-protein conjugation; IDA:UniProtKB.
+DR   GO; GO:0039644; P:suppression by virus of host NF-kappaB cascade; IDA:UniProtKB.
+DR   GO; GO:0039611; P:suppression by virus of host translation initiation factor activity; IDA:UniProtKB.
+DR   GO; GO:0039502; P:suppression by virus of host type I interferon-mediated signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0019082; P:viral protein processing; IEA:InterPro.
+DR   GO; GO:0039694; P:viral RNA genome replication; IEA:InterPro.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   CDD; cd00205; rhv_like; 3.
+DR   Gene3D; 2.40.10.10; -; 2.
+DR   Gene3D; 2.60.120.20; -; 3.
+DR   Gene3D; 3.30.70.270; -; 2.
+DR   Gene3D; 4.10.90.10; -; 1.
+DR   InterPro; IPR015031; Capsid_VP4_Picornavir.
+DR   InterPro; IPR037080; Capsid_VP4_sf_Picornavirus.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR004080; FMDV_VP1_coat.
+DR   InterPro; IPR004004; Helic/Pol/Pept_Calicivir-typ.
+DR   InterPro; IPR000605; Helicase_SF3_ssDNA/RNA_vir.
+DR   InterPro; IPR014759; Helicase_SF3_ssRNA_vir.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR038765; Papain-like_cys_pep_sf.
+DR   InterPro; IPR044067; PCV_3C_PRO.
+DR   InterPro; IPR008739; Peptidase_C28.
+DR   InterPro; IPR000199; Peptidase_C3A/C3B_picornavir.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR001676; Picornavirus_capsid.
+DR   InterPro; IPR043128; Rev_trsase/Diguanyl_cyclase.
+DR   InterPro; IPR033703; Rhv-like.
+DR   InterPro; IPR001205; RNA-dir_pol_C.
+DR   InterPro; IPR007094; RNA-dir_pol_PSvirus.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF05408; Peptidase_C28; 1.
+DR   Pfam; PF00548; Peptidase_C3; 1.
+DR   Pfam; PF00680; RdRP_1; 1.
+DR   Pfam; PF00073; Rhv; 3.
+DR   Pfam; PF00910; RNA_helicase; 1.
+DR   Pfam; PF08935; VP4_2; 1.
+DR   PRINTS; PR00918; CALICVIRUSNS.
+DR   PRINTS; PR01542; FMDVP1COAT.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54001; SSF54001; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS51887; APHTHOVIRUS_LPRO; 1.
+DR   PROSITE; PS51874; PCV_3C_PRO; 1.
+DR   PROSITE; PS50507; RDRP_SSRNA_POS; 1.
+DR   PROSITE; PS51218; SF3_HELICASE_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative initiation; ATP-binding; Autocatalytic cleavage;
+KW   Capsid protein;
+KW   Clathrin- and caveolin-independent endocytosis of virus by host;
+KW   Clathrin-mediated endocytosis of virus by host;
+KW   Covalent protein-RNA linkage; Disulfide bond; Helicase; Host cytoplasm;
+KW   Host cytoplasmic vesicle; Host endoplasmic reticulum; Host membrane;
+KW   Host nucleus; Host-virus interaction; Hydrolase; Ion channel;
+KW   Ion transport; Lipoprotein; Membrane;
+KW   Modulation of host chromatin by virus; Myristate; Nucleotide-binding;
+KW   Nucleotidyltransferase; Phosphoprotein; Protease; RNA-binding;
+KW   RNA-directed RNA polymerase; T=pseudo3 icosahedral capsid protein;
+KW   Thiol protease; Transferase; Translation regulation; Transport;
+KW   Viral attachment to host cell; Viral ion channel;
+KW   Viral penetration into host cytoplasm; Viral RNA replication; Virion;
+KW   Virus endocytosis by host; Virus entry into host cell.
+FT   CHAIN           1..2332
+FT                   /note="Genome polyprotein"
+FT                   /id="PRO_0000039872"
+FT   CHAIN           1..201
+FT                   /note="Leader protease"
+FT                   /id="PRO_0000039873"
+FT   CHAIN           202..504
+FT                   /note="Capsid protein VP0"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000374076"
+FT   CHAIN           202..286
+FT                   /note="Capsid protein VP4"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039876"
+FT   CHAIN           287..504
+FT                   /note="Capsid protein VP2"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039877"
+FT   CHAIN           505..724
+FT                   /note="Capsid protein VP3"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039878"
+FT   CHAIN           725..935
+FT                   /note="Capsid protein VP1"
+FT                   /id="PRO_0000039879"
+FT   CHAIN           936..953
+FT                   /note="Protein 2A"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039880"
+FT   CHAIN           954..1107
+FT                   /note="Protein 2B"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000310976"
+FT   CHAIN           1108..1425
+FT                   /note="Protein 2C"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039881"
+FT   CHAIN           1426..1578
+FT                   /note="Protein 3A"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039882"
+FT   CHAIN           1579..1601
+FT                   /note="Protein 3B-1"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039883"
+FT   CHAIN           1602..1625
+FT                   /note="Protein 3B-2"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000310977"
+FT   CHAIN           1626..1649
+FT                   /note="Protein 3B-3"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000310978"
+FT   CHAIN           1650..1862
+FT                   /note="Protease 3C"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039884"
+FT   CHAIN           1863..2332
+FT                   /note="RNA-directed RNA polymerase 3D-POL"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000039885"
+FT   TOPO_DOM        1..1480
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   INTRAMEM        1481..1501
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1502..2332
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          1..201
+FT                   /note="Peptidase C28"
+FT   DOMAIN          1189..1353
+FT                   /note="SF3 helicase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00551"
+FT   DOMAIN          1652..1848
+FT                   /note="Peptidase C3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222"
+FT   DOMAIN          2096..2214
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00539"
+FT   REGION          197..218
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          237..265
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1529..1584
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           869..871
+FT                   /note="Cell attachment site"
+FT                   /evidence="ECO:0000269|PubMed:2543752"
+FT   MOTIF           1879..1886
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000269|PubMed:23886493"
+FT   COMPBIAS        203..218
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        51
+FT                   /note="For leader protease activity"
+FT   ACT_SITE        148
+FT                   /note="For leader protease activity"
+FT   ACT_SITE        163
+FT                   /note="For leader protease activity"
+FT   ACT_SITE        1695
+FT                   /note="For protease 3C activity; Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222"
+FT   ACT_SITE        1733
+FT                   /note="For protease 3C activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222"
+FT   ACT_SITE        1812
+FT                   /note="For protease 3C activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222"
+FT   ACT_SITE        2200
+FT                   /note="For RdRp activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P12296"
+FT   BINDING         1217..1224
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00551"
+FT   SITE            201..202
+FT                   /note="Cleavage; by leader protease"
+FT                   /evidence="ECO:0000255"
+FT   SITE            286..287
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000255"
+FT   SITE            504..505
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            724..725
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            935..936
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            953..954
+FT                   /note="Cleavage; by ribosomal skip"
+FT                   /evidence="ECO:0000255"
+FT   SITE            1107..1108
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            1425..1426
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            1578..1579
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            1601..1602
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            1625..1626
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            1649..1650
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   SITE            1862..1863
+FT                   /note="Cleavage; by picornain 3C"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         1581
+FT                   /note="O-(5'-phospho-RNA)-tyrosine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1604
+FT                   /note="O-(5'-phospho-RNA)-tyrosine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1628
+FT                   /note="O-(5'-phospho-RNA)-tyrosine"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           202
+FT                   /note="N-myristoyl glycine; by host"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        406..858
+FT                   /note="Interchain (between VP2 and VP1 chains)"
+FT   DISULFID        511
+FT                   /note="Interchain; in VP3 dimer"
+FT   VAR_SEQ         1..28
+FT                   /note="Missing (in isoform Lb)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_018982"
+FT   VARIANT         780
+FT                   /note="I -> V (in strain: Isolate O1BFS)"
+FT   VARIANT         808
+FT                   /note="G -> R (in strain: Isolate O1BFS)"
+FT   VARIANT         861
+FT                   /note="N -> S (in strain: Isolate O1BFS)"
+FT   STRAND          30..33
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          38..40
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          47..49
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   HELIX           51..63
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   HELIX           66..68
+FT                   /evidence="ECO:0007829|PDB:1QOL"
+FT   HELIX           69..72
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          73..76
+FT                   /evidence="ECO:0007829|PDB:2JQG"
+FT   HELIX           79..90
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   HELIX           100..107
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   HELIX           108..110
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          111..113
+FT                   /evidence="ECO:0007829|PDB:2JQF"
+FT   STRAND          115..120
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          123..126
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          129..131
+FT                   /evidence="ECO:0007829|PDB:2JQG"
+FT   HELIX           134..136
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          137..143
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          145..147
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          149..155
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          158..163
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          166..169
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   HELIX           174..176
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   STRAND          177..182
+FT                   /evidence="ECO:0007829|PDB:6FFA"
+FT   TURN            195..197
+FT                   /evidence="ECO:0007829|PDB:1QOL"
+FT   HELIX           229..232
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           268..274
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           297..299
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          301..305
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          308..314
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           332..334
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           342..344
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          348..355
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          364..370
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           376..383
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          384..397
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          404..413
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           421..428
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          429..434
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   TURN            436..438
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          440..446
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          451..455
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   TURN            457..459
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          463..474
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   TURN            476..478
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          483..499
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           548..554
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   TURN            562..564
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          565..569
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          577..583
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           588..590
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           594..599
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          602..607
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          609..615
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          622..630
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           640..643
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          646..652
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          658..663
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          668..670
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          672..675
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          687..697
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          702..709
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          714..718
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           739..742
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           752..754
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           756..760
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          762..766
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           777..779
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           785..791
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          793..808
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          810..813
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   HELIX           819..823
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          827..830
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          837..841
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          846..852
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          891..893
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          895..912
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+FT   STRAND          921..924
+FT                   /evidence="ECO:0007829|PDB:1QQP"
+SQ   SEQUENCE   2332 AA;  258927 MW;  4A83176F43447D68 CRC64;
+     MNTTDCFIAL VQAIREIKAL FLSRTTGKME LTLYNGEKKT FYSRPNNHDN CWLNAILQLF
+     RYVEEPFFDW VYSSPENLTL EAIKQLEDLT GLELHEGGPP ALVIWNIKHL LHTGIGTASR
+     PSEVCMVDGT DMCLADFHAG IFLKGQEHAV FACVTSNGWY AIDDEDFYPW TPDPSDVLVF
+     VPYDQEPLNG EWKAKVQRKL KGAGQSSPAT GSQNQSGNTG SIINNYYMQQ YQNSMDTQLG
+     DNAISGGSNE GSTDTTSTHT TNTQNNDWFS KLASSAFSGL FGALLADKKT EETTLLEDRI
+     LTTRNGHTTS TTQSSVGVTY GYATAEDFVS GPNTSGLETR VVQAERFFKT HLFDWVTSDS
+     FGRCHLLELP TDHKGVYGSL TDSYAYMRNG WDVEVTAVGN QFNGGCLLVA MVPELYSIQK
+     RELYQLTLFP HQFINPRTNM TAHITVPFVG VNRYDQYKVH KPWTLVVMVV APLTVNTEGA
+     PQIKVYANIA PTNVHVAGEF PSKEGIFPVA CSDGYGGLVT TDPKTADPVY GKVFNPPRNQ
+     LPGRFTNLLD VAEACPTFLR FEGGVPYVTT KTDSDRVLAQ FDMSLAAKQM SNTFLAGLAQ
+     YYTQYSGTIN LHFMFTGPTD AKARYMVAYA PPGMEPPKTP EAAAHCIHAE WDTGLNSKFT
+     FSIPYLSAAD YAYTASGVAE TTNVQGWVCL FQITHGKADG DALVVLASAG KDFELRLPVD
+     ARAETTSAGE SADPVTTTVE NYGGETQIQR RQHTDVSFIM DRFVKVTPQN QINILDLMQI
+     PSHTLVGALL RASTYYFSDL EIAVKHEGDL TWVPNGAPEK ALDNTTNPTA YHKAPLTRLA
+     LPYTAPHRVL ATVYNGECRY NRNAVPNLRG DLQVLAQKVA RTLPTSFNYG AIKATRVTEL
+     LYRMKRAETY CPRPLLAIHP TEARHKQKIV APVKQTLNFD LLKLAGDVES NPGPFFFSDV
+     RSNFSKLVET INQMQEDMST KHGPDFNRLV SAFEELAIGV KAIRTGLDEA KPWYKLIKLL
+     SRLSCMAAVA ARSKDPVLVA IMLADTGLEI LDSTFVVKKI SDSLSSLFHV PAPVFSFGAP
+     VLLAGLVKVA SSFFRSTPED LERAEKQLKA RDINDIFAIL KNGEWLVKLI LAIRDWIKAW
+     IASEEKFVTM TDLVPGILEK QRDLNDPSKY KEAKEWLDNA RQACLKSGNV HIANLCKVVA
+     PAPSKSRPEP VVVCLRGKSG QGKSFLANVL AQAISTHFTG RIDSVWYCPP DPDHFDGYNQ
+     QTVVVMDDLG QNPDGKDFKY FAQMVSTTGF IPPMASLEDK GKPFNSKVII ATTNLYSGFT
+     PRTMVCPDAL NRRFHFDIDV SAKDGYKINS KLDIIKALED THANPVAMFQ YDCALLNGMA
+     VEMKRMQQDM FKPQPPLQNV YQLVQEVIDR VELHEKVSSH PIFKQISIPS QKSVLYFLIE
+     KGQHEAAIEF FEGMVHDSIK EELRPLIQQT SFVKRAFKRL KENFEIVALC LTLLANIVIM
+     IRETRKRQKM VDDAVNEYIE KANITTDDKT LDEAEKSPLE TSGASTVGFR ERTLPGQKAC
+     DDVNSEPAQP VEEQPQAEGP YAGPLERQKP LKVRAKLPQQ EGPYAGPMER QKPLKVKAKA
+     PVVKEGPYEG PVKKPVALKV KAKNLIVTES GAPPTDLQKM VMGNTKPVEL ILDGKTVAIC
+     CATGVFGTAY LVPRHLFAEK YDKIMVDGRA MTDSDYRVFE FEIKVKGQDM LSDAALMVLH
+     RGNRVRDITK HFRDTARMKK GTPVVGVINN ADVGRLIFSG EALTYKDIVV CMDGDTMPGL
+     FAYRAATKAG YCGGAVLAKD GADTFIVGTH SAGGNGVGYC SCVSRSMLLK MKAHIDPEPH
+     HEGLIVDTRD VEERVHVMRK TKLAPTVAHG VFNPEFGPAA LSNKDPRLNE GVVLDEVIFS
+     KHKGDTKMSE EDKALFRRCA ADYASRLHSV LGTANAPLSI YEAIKGVDGL DAMEPDTAPG
+     LPWALQGKRR GALIDFENGT VGPEVEAALK LMEKREYKFV CQTFLKDEIR PLEKVRAGKT
+     RIVDVLPVEH ILYTRMMIGR FCAQMHSNNG PQIGSAVGCN PDVDWQRFGT HFAQYRNVWD
+     VDYSAFDANH CSDAMNIMFE EVFRTEFGFH PNAEWILKTL VNTEHAYENK RITVGGGMPS
+     GCSATSIINT ILNNIYVLYA LRRHYEGVEL DTYTMISYGD DIVVASDYDL DFEALKPHFK
+     SLGQTITPAD KSDKGFVLGH SITDVTFLKR HFHMDYGTGF YKPVMASKTL EAILSFARRG
+     TIQEKLISVA GLAVHSGPDE YRRLFEPFQG LFEIPSYRSL YLRWVNAVCG DA
+//

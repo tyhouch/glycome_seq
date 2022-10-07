@@ -1,0 +1,130 @@
+ID   SVN_SCYVA               Reviewed;          95 AA.
+AC   P86041;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-OCT-2008, sequence version 1.
+DT   25-MAY-2022, entry version 17.
+DE   RecName: Full=Scytovirin {ECO:0000303|PubMed:12614152};
+DE            Short=SVN {ECO:0000303|PubMed:16647158};
+OS   Scytonema varium.
+OC   Bacteria; Cyanobacteria; Nostocales; Scytonemataceae; Scytonema.
+OX   NCBI_TaxID=423208;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, MASS SPECTROMETRY, AND DISULFIDE BONDS.
+RC   STRAIN=HG-24-1 {ECO:0000269|PubMed:12614152};
+RX   PubMed=12614152; DOI=10.1021/bi0205698;
+RA   Bokesch H.R., O'Keefe B.R., McKee T.C., Pannell L.K., Patterson G.M.L.,
+RA   Gardella R.S., Sowder R.C. II, Turpin J., Watson K., Buckheit R.W. Jr.,
+RA   Boyd M.R.;
+RT   "A potent novel anti-HIV protein from the cultured cyanobacterium Scytonema
+RT   varium.";
+RL   Biochemistry 42:2578-2584(2003).
+RN   [2] {ECO:0000305}
+RP   FUNCTION.
+RX   PubMed=16647158; DOI=10.1016/j.peptides.2006.03.018;
+RA   Xiong C., O'Keefe B.R., Byrd R.A., McMahon J.B.;
+RT   "Potent anti-HIV activity of scytovirin domain 1 peptide.";
+RL   Peptides 27:1668-1675(2006).
+RN   [3] {ECO:0000305}
+RP   SYNTHESIS.
+RX   PubMed=16289703; DOI=10.1016/j.pep.2005.09.019;
+RA   Xiong C., O'Keefe B.R., Botos I., Wlodawer A., McMahon J.B.;
+RT   "Overexpression and purification of scytovirin, a potent, novel anti-HIV
+RT   protein from the cultured cyanobacterium Scytonema varium.";
+RL   Protein Expr. Purif. 46:233-239(2006).
+RN   [4] {ECO:0000305}
+RP   FUNCTION.
+RX   PubMed=17269926; DOI=10.2174/138161207779313650;
+RA   Ratner D.M., Seeberger P.H.;
+RT   "Carbohydrate microarrays as tools in HIV glycobiology.";
+RL   Curr. Pharm. Des. 13:173-183(2007).
+RN   [5] {ECO:0000305}
+RP   STRUCTURE BY NMR, AND FUNCTION.
+RX   PubMed=17434526; DOI=10.1016/j.jmb.2007.03.030;
+RA   McFeeters R.L., Xiong C., O'Keefe B.R., Bokesch H.R., McMahon J.B.,
+RA   Ratner D.M., Castelli R., Seeberger P.H., Byrd R.A.;
+RT   "The novel fold of scytovirin reveals a new twist for antiviral entry
+RT   inhibitors.";
+RL   J. Mol. Biol. 369:451-461(2007).
+RN   [6] {ECO:0000305}
+RP   X-RAY CRYSTALLOGRAPHY (1.0 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=17965185; DOI=10.1110/ps.073157507;
+RA   Moulaei T., Botos I., Ziolkowska N.E., Bokesch H.R., Krumpe L.R.,
+RA   McKee T.C., O'Keefe B.R., Dauter Z., Wlodawer A.;
+RT   "Atomic-resolution crystal structure of the antiviral lectin scytovirin.";
+RL   Protein Sci. 16:2756-2760(2007).
+CC   -!- FUNCTION: Has strong anti-HIV activity against T-tropic strains of HIV-
+CC       1 and weaker activity against M-tropic strains of HIV-1. Inhibits HIV-1
+CC       fusion and infection of CD4 LTR beta-gal cells in vitro. Inhibits
+CC       fusion of HIV infected CEM-SS cells with uninfected CEM-SS cells, and
+CC       fusion of HIV-1 Env expressing HL2/3 cells with CD4 LTR beta-gal cells.
+CC       Binds to HIV gp120, HIV gp160 and to a lesser extent HIV gp41. Binding
+CC       to HIV gp120 is glycosylation dependent. Binds with high specificity to
+CC       the tetrasaccharide Man-alpha-1,2-Man-alpha-1,6-Man-alpha-1,6-Man and
+CC       also binds the higher-order oligosaccharides oligomannose 8 and
+CC       oligomannose 9. Does not bind to monosaccharides, complex or hybrid N-
+CC       linked oligosaccharides or chitin. {ECO:0000269|PubMed:12614152,
+CC       ECO:0000269|PubMed:16647158, ECO:0000269|PubMed:17269926,
+CC       ECO:0000269|PubMed:17434526}.
+CC   -!- MASS SPECTROMETRY: Mass=9712.8; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:12614152};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 2JMV; NMR; -; A=1-95.
+DR   PDB; 2QSK; X-ray; 1.00 A; A=1-95.
+DR   PDB; 2QT4; X-ray; 1.30 A; A=1-95.
+DR   PDBsum; 2JMV; -.
+DR   PDBsum; 2QSK; -.
+DR   PDBsum; 2QT4; -.
+DR   AlphaFoldDB; P86041; -.
+DR   SMR; P86041; -.
+DR   UniLectin; P86041; -.
+DR   EvolutionaryTrace; P86041; -.
+DR   GO; GO:0030247; F:polysaccharide binding; IDA:UniProtKB.
+DR   GO; GO:0050688; P:regulation of defense response to virus; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antiviral protein; Direct protein sequencing; Disulfide bond;
+KW   Lectin.
+FT   CHAIN           1..95
+FT                   /note="Scytovirin"
+FT                   /id="PRO_0000352757"
+FT   REGION          3..41
+FT                   /note="SD1"
+FT   REGION          51..89
+FT                   /note="SD2"
+FT   DISULFID        7..55
+FT                   /evidence="ECO:0000269|PubMed:12614152,
+FT                   ECO:0000269|PubMed:17965185"
+FT   DISULFID        20..32
+FT                   /evidence="ECO:0000269|PubMed:17965185"
+FT   DISULFID        26..38
+FT                   /evidence="ECO:0000269|PubMed:17965185"
+FT   DISULFID        68..80
+FT                   /evidence="ECO:0000269|PubMed:17965185"
+FT   DISULFID        74..86
+FT                   /evidence="ECO:0000269|PubMed:17965185"
+FT   HELIX           10..12
+FT                   /evidence="ECO:0007829|PDB:2QSK"
+FT   STRAND          14..18
+FT                   /evidence="ECO:0007829|PDB:2JMV"
+FT   HELIX           23..25
+FT                   /evidence="ECO:0007829|PDB:2QSK"
+FT   STRAND          36..40
+FT                   /evidence="ECO:0007829|PDB:2QSK"
+FT   STRAND          44..47
+FT                   /evidence="ECO:0007829|PDB:2QSK"
+FT   STRAND          50..53
+FT                   /evidence="ECO:0007829|PDB:2JMV"
+FT   HELIX           58..60
+FT                   /evidence="ECO:0007829|PDB:2QSK"
+FT   STRAND          61..66
+FT                   /evidence="ECO:0007829|PDB:2JMV"
+FT   HELIX           71..73
+FT                   /evidence="ECO:0007829|PDB:2QSK"
+FT   STRAND          84..88
+FT                   /evidence="ECO:0007829|PDB:2QSK"
+SQ   SEQUENCE   95 AA;  9722 MW;  E8F34DFB2E7659AC CRC64;
+     GSGPTYCWNE ANNPGGPNRC SNNKQCDGAR TCSSSGFCQG TSRKPDPGPK GPTYCWDEAK
+     NPGGPNRCSN SKQCDGARTC SSSGFCQGTA GHAAA
+//

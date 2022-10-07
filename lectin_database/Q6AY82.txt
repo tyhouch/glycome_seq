@@ -1,0 +1,113 @@
+ID   MUCEN_RAT               Reviewed;         250 AA.
+AC   Q6AY82;
+DT   19-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   03-AUG-2022, entry version 96.
+DE   RecName: Full=Endomucin;
+DE   Flags: Precursor;
+GN   Name=Emcn;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Endothelial sialomucin, also called endomucin or mucin-like
+CC       sialoglycoprotein, which interferes with the assembly of focal adhesion
+CC       complexes and inhibits interaction between cells and the extracellular
+CC       matrix. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- PTM: Highly O-glycosylated. Sialic acid-rich glycoprotein (By
+CC       similarity). {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079155; AAH79155.1; -; mRNA.
+DR   RefSeq; NP_001004228.1; NM_001004228.1.
+DR   AlphaFoldDB; Q6AY82; -.
+DR   SMR; Q6AY82; -.
+DR   STRING; 10116.ENSRNOP00000033031; -.
+DR   GlyGen; Q6AY82; 3 sites.
+DR   PaxDb; Q6AY82; -.
+DR   PRIDE; Q6AY82; -.
+DR   Ensembl; ENSRNOT00000035700; ENSRNOP00000033031; ENSRNOG00000022910.
+DR   GeneID; 295490; -.
+DR   KEGG; rno:295490; -.
+DR   CTD; 51705; -.
+DR   RGD; 1303218; Emcn.
+DR   eggNOG; ENOG502S6VA; Eukaryota.
+DR   GeneTree; ENSGT00390000012139; -.
+DR   HOGENOM; CLU_092835_0_0_1; -.
+DR   InParanoid; Q6AY82; -.
+DR   OMA; XPQSDKE; -.
+DR   OrthoDB; 1471475at2759; -.
+DR   PhylomeDB; Q6AY82; -.
+DR   TreeFam; TF337783; -.
+DR   PRO; PR:Q6AY82; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000022910; Expressed in lung and 20 other tissues.
+DR   Genevisible; Q6AY82; RN.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISS:HGNC-UCL.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:HGNC-UCL.
+DR   GO; GO:0001525; P:angiogenesis; ISS:HGNC-UCL.
+DR   GO; GO:0098609; P:cell-cell adhesion; ISS:HGNC-UCL.
+DR   GO; GO:0061484; P:hematopoietic stem cell homeostasis; ISO:RGD.
+DR   GO; GO:0030155; P:regulation of cell adhesion; ISS:HGNC-UCL.
+DR   InterPro; IPR010740; Endomucin.
+DR   PANTHER; PTHR15869; PTHR15869; 1.
+DR   Pfam; PF07010; Endomucin; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Membrane; Phosphoprotein; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..250
+FT                   /note="Endomucin"
+FT                   /id="PRO_0000249727"
+FT   TRANSMEM        180..200
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          24..83
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          105..153
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          210..250
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        24..66
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        214..239
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         226
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9R0H2"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        115
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        119
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   250 AA;  26516 MW;  5E84CFC5CCEA4B30 CRC64;
+     MRLLQVTALF FLLSNSLCRG ENSKALTETS TTKASATTPD MVSITNKSTG GTPPKGTTNS
+     ATPKTPLMPA LDSPTTPKHE TTTRGVIKNE VSTIKTTVAN PTISNAVSTL SSPQNKTENQ
+     SSIRTTEISG TNQLPDDQKP KTTETPSASL TTAKTISQIQ DTEDGKITAT TSTTPSYSSV
+     ILPVVIALIV ITVLVFTLVG LYRICWKRDP GTPESGNDQP QSDKESVKLL TVKTISHESG
+     EHSAQGKAKN
+//

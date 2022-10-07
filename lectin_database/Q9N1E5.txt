@@ -1,0 +1,254 @@
+ID   CD22_PANPA              Reviewed;         847 AA.
+AC   Q9N1E5; A0A2R9BGU9;
+DT   19-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-FEB-2022, sequence version 2.
+DT   03-AUG-2022, entry version 95.
+DE   RecName: Full=B-cell receptor CD22 {ECO:0000250|UniProtKB:P20273};
+DE   AltName: Full=Sialic acid-binding Ig-like lectin 2;
+DE            Short=Siglec-2;
+DE   AltName: CD_antigen=CD22;
+DE   Flags: Precursor;
+GN   Name=CD22 {ECO:0000250|UniProtKB:P20273}; Synonyms=SIGLEC2;
+OS   Pan paniscus (Pygmy chimpanzee) (Bonobo).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pan.
+OX   NCBI_TaxID=9597;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=22722832; DOI=10.1038/nature11128;
+RA   Prufer K., Munch K., Hellmann I., Akagi K., Miller J.R., Walenz B.,
+RA   Koren S., Sutton G., Kodira C., Winer R., Knight J.R., Mullikin J.C.,
+RA   Meader S.J., Ponting C.P., Lunter G., Higashino S., Hobolth A., Dutheil J.,
+RA   Karakoc E., Alkan C., Sajjadian S., Catacchio C.R., Ventura M.,
+RA   Marques-Bonet T., Eichler E.E., Andre C., Atencia R., Mugisha L.,
+RA   Junhold J., Patterson N., Siebauer M., Good J.M., Fischer A., Ptak S.E.,
+RA   Lachmann M., Symer D.E., Mailund T., Schierup M.H., Andres A.M., Kelso J.,
+RA   Paabo S.;
+RT   "The bonobo genome compared with the chimpanzee and human genomes.";
+RL   Nature 486:527-531(2012).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-332.
+RX   PubMed=10722703; DOI=10.1074/jbc.275.12.8633;
+RA   Brinkman-Van der Linden E.C.M., Sjoberg E.R., Juneja L.R., Crocker P.R.,
+RA   Varki N., Varki A.;
+RT   "Loss of N-glycolylneuraminic acid in human evolution: implications for
+RT   sialic acid recognition by siglecs.";
+RL   J. Biol. Chem. 275:8633-8640(2000).
+CC   -!- FUNCTION: Mediates B-cell B-cell interactions. May be involved in the
+CC       localization of B-cells in lymphoid tissues. Binds sialylated
+CC       glycoproteins; one of which is CD45. Preferentially binds to alpha-2,6-
+CC       linked sialic acid (By similarity). Upon ligand-induced tyrosine
+CC       phosphorylation in the immune response seems to be involved in
+CC       regulation of B-cell antigen receptor signaling. Plays a role in
+CC       positive regulation through interaction with Src family tyrosine
+CC       kinases and may also act as an inhibitory receptor by recruiting
+CC       cytoplasmic phosphatases via their SH2 domains that block signal
+CC       transduction through dephosphorylation of signaling cascade key
+CC       molecules. {ECO:0000250}.
+CC   -!- SUBUNIT: Predominantly monomer of isoform CD22-beta. Also found as
+CC       heterodimer of isoform CD22-beta and a shorter isoform. Interacts with
+CC       PTPN6/SHP-1, LYN, SYK, PIK3R1/PIK3R2 and PLCG1 upon phosphorylation.
+CC       Interacts with GRB2, INPP5D and SHC1 upon phosphorylation (By
+CC       similarity). May form a complex with INPP5D/SHIP, GRB2 and SHC1 (By
+CC       similarity). {ECO:0000250, ECO:0000250|UniProtKB:P20273}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- DOMAIN: Contains 4 copies of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). This motif is
+CC       involved in modulation of cellular responses. The phosphorylated ITIM
+CC       motif can bind the SH2 domain of several SH2-containing phosphatases.
+CC       {ECO:0000250|UniProtKB:P20273}.
+CC   -!- PTM: Phosphorylation of Tyr-762, Tyr-807 and Tyr-822 are involved in
+CC       binding to SYK, GRB2 and SYK, respectively. Phosphorylation of Tyr-842
+CC       is involved in binding to SYK, PLCG2 and PIK3R1/PIK3R2.
+CC       {ECO:0000250|UniProtKB:P20273}.
+CC   -!- PTM: Phosphorylated on tyrosine residues by LYN. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJFE02054495; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AJFE02054496; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AJFE02054497; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AF199416; AAF44615.1; -; mRNA.
+DR   RefSeq; XP_008967442.1; XM_008969194.1.
+DR   AlphaFoldDB; Q9N1E5; -.
+DR   STRING; 9597.XP_008967442.1; -.
+DR   Ensembl; ENSPPAT00000051718; ENSPPAP00000028870; ENSPPAG00000037462.
+DR   eggNOG; KOG4475; Eukaryota.
+DR   GeneTree; ENSGT01050000244990; -.
+DR   Proteomes; UP000240080; Chromosome 19.
+DR   Bgee; ENSPPAG00000037462; Expressed in liver and 5 other tissues.
+DR   GO; GO:0005769; C:early endosome; IEA:Ensembl.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0055037; C:recycling endosome; IEA:Ensembl.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042113; P:B cell activation; IEA:Ensembl.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0050859; P:negative regulation of B cell receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0030100; P:regulation of endocytosis; IEA:Ensembl.
+DR   Gene3D; 2.60.40.10; -; 7.
+DR   InterPro; IPR013162; CD80_C2-set.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   Pfam; PF08205; C2-set_2; 1.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   SMART; SM00409; IG; 7.
+DR   SMART; SM00408; IGc2; 4.
+DR   SUPFAM; SSF48726; SSF48726; 7.
+DR   PROSITE; PS50835; IG_LIKE; 6.
+PE   2: Evidence at transcript level;
+KW   Cell adhesion; Cell membrane; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Isopeptide bond; Lectin; Membrane; Phosphoprotein;
+KW   Reference proteome; Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..847
+FT                   /note="B-cell receptor CD22"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000014875"
+FT   TOPO_DOM        20..687
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        688..708
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        709..847
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          20..138
+FT                   /note="Ig-like V-type"
+FT                   /evidence="ECO:0000250|UniProtKB:P20273"
+FT   DOMAIN          143..235
+FT                   /note="Ig-like C2-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          242..326
+FT                   /note="Ig-like C2-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          331..416
+FT                   /note="Ig-like C2-type 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          419..500
+FT                   /note="Ig-like C2-type 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          505..582
+FT                   /note="Ig-like C2-type 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          593..676
+FT                   /note="Ig-like C2-type 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   MOTIF           760..765
+FT                   /note="ITIM motif 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P20273"
+FT   MOTIF           794..799
+FT                   /note="ITIM motif 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P20273"
+FT   MOTIF           820..825
+FT                   /note="ITIM motif 3"
+FT                   /evidence="ECO:0000250|UniProtKB:P20273"
+FT   MOTIF           840..845
+FT                   /note="ITIM motif 4"
+FT                   /evidence="ECO:0000250|UniProtKB:P20273"
+FT   BINDING         120
+FT                   /ligand="N-acetylneuraminate"
+FT                   /ligand_id="ChEBI:CHEBI:35418"
+FT                   /evidence="ECO:0000250|UniProtKB:P20273"
+FT   MOD_RES         725
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35329"
+FT   MOD_RES         726
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35329"
+FT   MOD_RES         729
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35329"
+FT   MOD_RES         762
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35329"
+FT   MOD_RES         807
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35329"
+FT   MOD_RES         822
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35329"
+FT   MOD_RES         842
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35329"
+FT   CARBOHYD        67
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        112
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        135
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        164
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        231
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        363
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        428
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        445
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        448
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        479
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        574
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        634
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        161..219
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        265..309
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        353..396
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        442..484
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        529..571
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        616..659
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   CONFLICT        81
+FT                   /note="K -> E (in Ref. 2; AAF44615)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   847 AA;  95214 MW;  94BB0E8C23004403 CRC64;
+     MHLLGPWLLL LVLEYLAFSD SSKWAFEHPE TLYAWEGACV WIPCTYRALD RDLESFILFH
+     NPEYNKNTSK FDGTRLYEST KDGKVPSEQK RVQFLGDKNK NCTLSIHPVH VNDSGQLGLR
+     MESKTAKWME RIHLNVSERP FPPHIQLPPE IQESQEVTLT CLLNFSCYGY PIQLQWLLEG
+     VPMRQAAVTS TSLTIKSVFT RSELKFSPQW SHHGKIVTCQ LQDADGKFLS NDTVQLNVKH
+     TPKLEIKVTP SDAIVREGES VTMTCEVSSS NPEYTTISWL KDGTSLKKQN TLMLNLHEVT
+     KDQSGKYCCQ VSNDVGPGRS AEVFLQVQYA PEPSTVQILH SPAVEGSQVE FLCMSLANPL
+     PTNYTWYHNG KEMQGRTEEK VHIPKILPWH AGTYSCVAEN ILGTGQRGPG AELDVQYPPK
+     KVTTVIQNPT PIREGDTVTL SCNYNSSNPS VTRYEWKPHG AWEEPSLGVL KIQNVGWGNT
+     TIACAACNSW CSWASPVALN VQYAPRDVRV RKIKPLSEIH SGNSVSLQCD FSSSHPKEVQ
+     FFWEKNGRLL GKESRLNFDS ISPEDAGSYS CWVNNSIGQT ASKAWTLEVL YAPRRLRVSM
+     SPGDQVMEGK SATLTCESDA NPPVSHYTWF DWNNQSLPYH SQKLRLEPVK VQHSGAYWCQ
+     GTNSVGKGHS PLSTLTVYYS PETIGRRVAV GFGSCLAILI LAICGLKLQR RWKRTQSQQG
+     LQENSSGQSF FVRNKKVRRA PLSEGPHSLG CYNPMMEDGI SYTTLRFPET NIPRTGDAET
+     SEMQSPPPDC DDTVTYSVLH KRQMGDYENV IPDFSEDEGI HYSELIQFGV GERPQAQENV
+     DYVILKH
+//

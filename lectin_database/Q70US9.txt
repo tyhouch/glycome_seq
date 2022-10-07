@@ -1,0 +1,280 @@
+ID   VOLK_ADEVO              Reviewed;         523 AA.
+AC   Q70US9;
+DT   22-APR-2020, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 72.
+DE   RecName: Full=Volkensin {ECO:0000303|PubMed:14686924, ECO:0000303|PubMed:16997573, ECO:0000303|PubMed:19591862, ECO:0000303|PubMed:3932357, ECO:0000312|EMBL:CAD61022.1};
+DE   AltName: Allergen=Ade v RIP {ECO:0000305};
+DE   Contains:
+DE     RecName: Full=Volkensin A chain {ECO:0000303|PubMed:14686924, ECO:0000303|PubMed:16997573, ECO:0000303|PubMed:3932357};
+DE              Short=VKA {ECO:0000303|PubMed:16997573};
+DE              EC=3.2.2.22 {ECO:0000269|PubMed:14686924, ECO:0000269|PubMed:16997573, ECO:0000269|PubMed:3932357};
+DE     AltName: Full=Ribosome-inactivating protein volkensin {ECO:0000303|PubMed:14686924, ECO:0000303|PubMed:16997573, ECO:0000303|PubMed:19591862};
+DE              Short=RIP VK {ECO:0000303|PubMed:14686924, ECO:0000303|PubMed:16997573};
+DE     AltName: Full=rRNA N-glycosidase {ECO:0000303|PubMed:14686924};
+DE   Contains:
+DE     RecName: Full=Volkensin B chain {ECO:0000303|PubMed:14686924, ECO:0000303|PubMed:16997573, ECO:0000303|PubMed:3932357};
+DE              Short=VKB {ECO:0000303|PubMed:16997573};
+DE   Flags: Fragment;
+GN   Name=volk38 {ECO:0000312|EMBL:CAD61022.1};
+OS   Adenia volkensii (Kilyambiti plant).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Malpighiales; Passifloraceae; Adenia.
+OX   NCBI_TaxID=219186 {ECO:0000312|EMBL:CAD61022.1};
+RN   [1] {ECO:0000312|EMBL:CAD61022.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-31; 23-38; 69-107;
+RP   101-123; 105-117; 117-155; 118-139; 124-139; 127-137; 160-191; 168-174;
+RP   185-205; 193-222; 206-235; 222-237; 238-250; 242-250; 266-285; 302-316;
+RP   314-323; 353-368; 436-445; 445-460; 497-523 AND 506-523, FUNCTION
+RP   (VOLKENSIN A CHAIN), CATALYTIC ACTIVITY (VOLKENSIN A CHAIN), SUBUNIT,
+RP   TISSUE SPECIFICITY, MASS SPECTROMETRY (VOLKENSIN A CHAIN), AND 3D-STRUCTURE
+RP   MODELING.
+RC   TISSUE=Leaf {ECO:0000303|PubMed:14686924}, and Root
+RC   {ECO:0000303|PubMed:14686924};
+RX   PubMed=14686924; DOI=10.1046/j.1432-1033.2003.03909.x;
+RA   Chambery A., Di Maro A., Monti M.M., Stirpe F., Parente A.;
+RT   "Volkensin from Adenia volkensii Harms (kilyambiti plant), a type 2
+RT   ribosome-inactivating protein.";
+RL   Eur. J. Biochem. 271:108-117(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-7; 101-123; 127-137 AND 507-523, SUBUNIT, TISSUE
+RP   SPECIFICITY, AND 3D-STRUCTURE MODELING.
+RC   TISSUE=Root {ECO:0000269|PubMed:19591862};
+RX   PubMed=19591862; DOI=10.1016/j.ijbiomac.2009.06.015;
+RA   Severino V., Paiardini A., Pascarella S., Parente A., Chambery A.;
+RT   "Structural analysis of toxic volkensin, a type 2 ribosome inactivating
+RT   protein from Adenia volkensii Harm (kilyambiti plant): molecular modeling
+RT   and surface analysis by computational methods and limited proteolysis.";
+RL   Int. J. Biol. Macromol. 45:407-413(2009).
+RN   [3]
+RP   FUNCTION (VOLKENSIN A CHAIN AND VOLKENSIN B CHAIN), CATALYTIC ACTIVITY
+RP   (VOLKENSIN A CHAIN), ACTIVITY REGULATION (VOLKENSIN B CHAIN),
+RP   BIOPHYSICOCHEMICAL PROPERTIES (VOLKENSIN A CHAIN), SUBUNIT, TISSUE
+RP   SPECIFICITY, GLYCOSYLATION, AND TOXIC DOSE.
+RX   PubMed=3932357; DOI=10.1016/s0021-9258(17)38608-8;
+RA   Stirpe F., Barbieri L., Abbondanza A., Falasca A.I., Brown A.N.,
+RA   Sandvig K., Olsnes S., Pihl A.;
+RT   "Properties of volkensin, a toxic lectin from Adenia volkensii.";
+RL   J. Biol. Chem. 260:14589-14595(1985).
+RN   [4]
+RP   FUNCTION (VOLKENSIN A CHAIN).
+RX   PubMed=2930482; DOI=10.1042/bj2570723;
+RA   Brigotti M., Rambelli F., Zamboni M., Montanaro L., Sperti S.;
+RT   "Effect of alpha-sarcin and ribosome-inactivating proteins on the
+RT   interaction of elongation factors with ribosomes.";
+RL   Biochem. J. 257:723-727(1989).
+RN   [5]
+RP   ALLERGEN.
+RX   PubMed=16238796; DOI=10.1111/j.1365-2222.2005.02338.x;
+RA   Szalai K., Schoell I., Foerster-Waldl E., Polito L., Bolognesi A.,
+RA   Untersmayr E., Riemer A.B., Boltz-Nitulescu G., Stirpe F.,
+RA   Jensen-Jarolim E.;
+RT   "Occupational sensitization to ribosome-inactivating proteins in
+RT   researchers.";
+RL   Clin. Exp. Allergy 35:1354-1360(2005).
+RN   [6]
+RP   FUNCTION (VOLKENSIN A CHAIN AND VOLKENSIN B CHAIN), CATALYTIC ACTIVITY
+RP   (VOLKENSIN A CHAIN), SUBUNIT, AND TISSUE SPECIFICITY.
+RX   PubMed=16997573; DOI=10.1016/j.pep.2006.08.004;
+RA   Chambery A., Severino V., Stirpe F., Parente A.;
+RT   "Cloning and expression of the B chain of volkensin, type 2 ribosome
+RT   inactivating protein from Adenia volkensii harms: co-folding with the A
+RT   chain for heterodimer reconstitution.";
+RL   Protein Expr. Purif. 51:209-215(2007).
+CC   -!- FUNCTION: [Volkensin A chain]: Has N-glycosidase activity and is
+CC       responsible for inhibiting protein synthesis through the catalytic
+CC       inactivation of 60S ribosomal subunits by removing a specific adenine
+CC       of 28S rRNA (PubMed:14686924, PubMed:3932357, PubMed:2930482,
+CC       PubMed:16997573). Inhibits GTP-dependent binding of EF2 (elongation
+CC       factor 2) to ribosomes (PubMed:2930482). {ECO:0000269|PubMed:14686924,
+CC       ECO:0000269|PubMed:16997573, ECO:0000269|PubMed:2930482,
+CC       ECO:0000269|PubMed:3932357}.
+CC   -!- FUNCTION: [Volkensin B chain]: Binds to cell receptors and probably
+CC       facilitates the entry into the cell of the A chain (By similarity).
+CC       Acts also as a galactose-specific lectin responsible for cell
+CC       agglutination (PubMed:3932357, PubMed:16997573).
+CC       {ECO:0000250|UniProtKB:P81446, ECO:0000269|PubMed:16997573,
+CC       ECO:0000269|PubMed:3932357}.
+CC   -!- CATALYTIC ACTIVITY: [Volkensin A chain]:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22; Evidence={ECO:0000255,
+CC         ECO:0000269|PubMed:14686924, ECO:0000269|PubMed:16997573,
+CC         ECO:0000269|PubMed:3932357};
+CC   -!- ACTIVITY REGULATION: [Volkensin B chain]: Hemagglutinating activity is
+CC       inhibited by galactose and structurally related sugars.
+CC       {ECO:0000269|PubMed:3932357}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES: [Volkensin A chain]:
+CC       Temperature dependence:
+CC         Loss of protein synthesis inhibiting activity of the rabbit
+CC         reticulocyte lysate by heating at 70 degrees Celsius for 20 minutes.
+CC         The inhibitory activity of the solution is almost completely lost
+CC         after storage for 2 weeks at 4 degrees Celsius in the presence of 1%
+CC         2-mercaptoethanol. {ECO:0000269|PubMed:3932357};
+CC   -!- SUBUNIT: Disulfide-linked dimer of A and B chains.
+CC       {ECO:0000269|PubMed:14686924, ECO:0000269|PubMed:16997573,
+CC       ECO:0000269|PubMed:19591862, ECO:0000269|PubMed:3932357}.
+CC   -!- TISSUE SPECIFICITY: Expressed in roots (at protein level)
+CC       (PubMed:14686924, PubMed:3932357, PubMed:16997573, PubMed:19591862).
+CC       Expressed in seeds (at protein level) (PubMed:3932357).
+CC       {ECO:0000269|PubMed:14686924, ECO:0000269|PubMed:16997573,
+CC       ECO:0000269|PubMed:19591862, ECO:0000269|PubMed:3932357}.
+CC   -!- PTM: N-glycosylated. Contains mannose and galactose.
+CC       {ECO:0000269|PubMed:3932357}.
+CC   -!- MASS SPECTROMETRY: [Volkensin A chain]: Mass=28064;
+CC       Method=Electrospray; Note=The measured mass is that of the reduced
+CC       form.; Evidence={ECO:0000269|PubMed:14686924};
+CC   -!- ALLERGEN: Causes an allergic reaction in human. Natural protein was
+CC       found to bind to IgE of a patient who had been working with ribosome-
+CC       inactivating proteins for two years in a research laboratory setting.
+CC       {ECO:0000269|PubMed:16238796}.
+CC   -!- TOXIC DOSE: LD(50) is 0.32 ug/kg by intraperitoneal injection into rats
+CC       (at 48 hours post-injection). {ECO:0000269|PubMed:3932357}.
+CC   -!- TOXIC DOSE: LD(50) is 1.73 ug/kg by intraperitoneal injection into mice
+CC       (at 48 hours post-injection). {ECO:0000269|PubMed:3932357}.
+CC   -!- TOXIC DOSE: LD(50) is 0.061 ug/kg by intraperitoneal injection into
+CC       rats (at 14 days post-injection). {ECO:0000269|PubMed:3932357}.
+CC   -!- TOXIC DOSE: LD(50) is 1.38 ug/kg by intraperitoneal injection into mice
+CC       (at 14 days post-injection). {ECO:0000269|PubMed:3932357}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the ribosome-
+CC       inactivating protein family. Type 2 RIP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ537497; CAD61022.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q70US9; -.
+DR   SMR; Q70US9; -.
+DR   Allergome; 2795; Ade v RIP.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0008152; P:metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   Allergen; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Glycosidase; Hydrolase; Lectin; Plant defense; Protein synthesis inhibitor;
+KW   Toxin.
+FT   CHAIN           <1..250
+FT                   /note="Volkensin A chain"
+FT                   /evidence="ECO:0000305|PubMed:14686924"
+FT                   /id="PRO_0000449524"
+FT   PROPEP          251..265
+FT                   /note="Linker peptide"
+FT                   /evidence="ECO:0000305|PubMed:14686924"
+FT                   /id="PRO_0000449525"
+FT   CHAIN           266..>523
+FT                   /note="Volkensin B chain"
+FT                   /evidence="ECO:0000305|PubMed:14686924"
+FT                   /id="PRO_0000449526"
+FT   DOMAIN          270..397
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DOMAIN          400..523
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   ACT_SITE        74
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   ACT_SITE        113
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   ACT_SITE        162
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   ACT_SITE        165
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   BINDING         111..113
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   BINDING         287..291
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P06750"
+FT   BINDING         300
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P06750"
+FT   BINDING         305
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P06750"
+FT   BINDING         311
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P06750"
+FT   BINDING         358
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P06750"
+FT   BINDING         398
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P06750"
+FT   CARBOHYD        358
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        398
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        245..269
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000250|UniProtKB:P06750"
+FT   DISULFID        285..304
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        328..343
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        414..427
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        453..471
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   CONFLICT        105
+FT                   /note="R -> H (in Ref. 1; AA sequence and 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        118
+FT                   /note="N -> H (in Ref. 1; AA sequence and 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        131
+FT                   /note="V -> I (in Ref. 1; AA sequence and 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        180
+FT                   /note="P -> L (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        182
+FT                   /note="D -> E (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000312|EMBL:CAD61022.1"
+FT   NON_TER         523
+FT                   /evidence="ECO:0000312|EMBL:CAD61022.1"
+SQ   SEQUENCE   523 AA;  58251 MW;  BBC5FE5B7F07D81A CRC64;
+     VFPKVPFDVP KATVESYTRF IRVLRDELAG GVSPQGIRRL RNPAEIQPSQ GFILIQLTGY
+     VGSVTLIMDV RNAYLLGYLS HNVLYHFNDV SASSIASVFP DAQRRQLPFG GGYPSMRNYA
+     PERDQIDHGI VELAYAVDRL YYSQNNNQIA LGLVICAGMV AEASRFRYIE GLVRQSIVGP
+     GDYRTFRPDA LMYSIVTQWQ TLSERIQGSF NGAFQPVQLG YASDPFYWDN VAQAITRLSL
+     MLFVCSQPPR QSDSPLVIRS FVDRNDPVCP SGETTAFIVG RDGRCVDVKV EEFFDGNKVQ
+     MWPCKSSQNA NQLWTLKRDG TIRCQGKCLT VRSPQLYAMI WDCTTFYAPA TKWEVWDNGT
+     IINPASGRVL TAPTGEAGVT LNLQFNEYAA SQAWRVTNVT VPTVTTIVGY DDLCLETNGN
+     GVWLANCVKG KAQQRWTLYA DGTIRSQSTL SKCLACSGSC VKLAKIVNTD CAGSANSRWY
+     FDNYGGIVNL RTGMVMDVKE SNPSLNEIIA HPWHGNSNQQ WFL
+//

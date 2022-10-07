@@ -1,0 +1,86 @@
+ID   OPGG_NITEU              Reviewed;         518 AA.
+AC   Q82SA9;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   03-JUL-2003, sequence version 2.
+DT   03-AUG-2022, entry version 92.
+DE   RecName: Full=Glucans biosynthesis protein G;
+DE   Flags: Precursor;
+GN   Name=opgG; Synonyms=mdoG; OrderedLocusNames=NE2437;
+OS   Nitrosomonas europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC
+OS   14298).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosomonas.
+OX   NCBI_TaxID=228410;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298;
+RX   PubMed=12700255; DOI=10.1128/jb.185.9.2759-2773.2003;
+RA   Chain P., Lamerdin J.E., Larimer F.W., Regala W., Lao V., Land M.L.,
+RA   Hauser L., Hooper A.B., Klotz M.G., Norton J., Sayavedra-Soto L.A.,
+RA   Arciero D.M., Hommes N.G., Whittaker M.M., Arp D.J.;
+RT   "Complete genome sequence of the ammonia-oxidizing bacterium and obligate
+RT   chemolithoautotroph Nitrosomonas europaea.";
+RL   J. Bacteriol. 185:2759-2773(2003).
+CC   -!- FUNCTION: Involved in the biosynthesis of osmoregulated periplasmic
+CC       glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAD86349.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL954747; CAD86349.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_041357353.1; NC_004757.1.
+DR   AlphaFoldDB; Q82SA9; -.
+DR   SMR; Q82SA9; -.
+DR   STRING; 228410.NE2437; -.
+DR   PRIDE; Q82SA9; -.
+DR   EnsemblBacteria; CAD86349; CAD86349; NE2437.
+DR   KEGG; neu:NE2437; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_4; -.
+DR   OMA; KRPSAWI; -.
+DR   PhylomeDB; Q82SA9; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000001416; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01069; MdoG_OpgG; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR023704; MdoG_OpgG.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           30..518
+FT                   /note="Glucans biosynthesis protein G"
+FT                   /id="PRO_0000020225"
+SQ   SEQUENCE   518 AA;  59062 MW;  E60191DBE88A86B9 CRC64;
+     MRHKPQIIKM RWLGVAVTLL VLYASSAWAF SINDVAKQAQ LLASESYETP ETNLPSIFRD
+     MKYADYQQIQ FNHDKAYWNN LKTPFKLEFY HQGMYFDTPV KINEVTATSV HQIKYTPDYF
+     NFGNVQHDKD TVKDLGFAGF KVLNPINSKN KNDEILSMLG ASYFRMIGAG QVYGLSARGL
+     AIDTALPSGE EFPRFREFWI ERPKPADRHL IIYALLDSPR ATGAYRFVIM PNRDITVNVQ
+     SKIYLRDKVG KLGIAPLTSM FLFGSNHPSP MVNFRPELHD SNGLSIHASN GEWIWRPLNN
+     PRRLAISSFS TENPQGFGLL QRGRQFSRFE DLDDRYDLRP SAWITPKGKW GKGSVELIEI
+     PTNDETNDNI VAFWTPDQLP EAGKEINFKY TLTFSKDEDK LHAPDNAYVM QTLRSTGDVK
+     QSNLIRQPDG TIAFIIDFTG RKMKKLPQDT PVAAQASIDD NGTIVESSVR YNPIIKGWRL
+     TLRVKVKDVE KITEMRAALV NGDQILSETW SYQLPADE
+//

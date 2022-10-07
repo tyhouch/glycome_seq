@@ -1,0 +1,169 @@
+ID   MAN2_SPOFR              Reviewed;        1130 AA.
+AC   O18497;
+DT   12-AUG-2020, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   03-AUG-2022, entry version 77.
+DE   RecName: Full=Alpha-mannosidase 2 {ECO:0000305};
+DE            EC=3.2.1.114 {ECO:0000269|PubMed:9061370};
+DE   AltName: Full=Alpha-mannosidase II {ECO:0000303|PubMed:9061370};
+DE   AltName: Full=Class II alpha-mannosidase {ECO:0000303|PubMed:9061370};
+DE   AltName: Full=Mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase {ECO:0000305};
+OS   Spodoptera frugiperda (Fall armyworm).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Lepidoptera; Glossata; Ditrysia; Noctuoidea;
+OC   Noctuidae; Amphipyrinae; Spodoptera.
+OX   NCBI_TaxID=7108 {ECO:0000312|EMBL:AAB62719.1};
+RN   [1] {ECO:0000312|EMBL:AAB62719.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], CATALYTIC ACTIVITY, ACTIVITY REGULATION,
+RP   SUBCELLULAR LOCATION, AND GLYCOSYLATION.
+RX   PubMed=9061370; DOI=10.1093/glycob/7.1.113;
+RA   Jarvis D.L., Bohlmeyer D.A., Liao Y.F., Lomax K.K., Merkle R.K.,
+RA   Weinkauf C., Moremen K.W.;
+RT   "Isolation and characterization of a class II alpha-mannosidase cDNA from
+RT   lepidopteran insect cells.";
+RL   Glycobiology 7:113-127(1997).
+CC   -!- FUNCTION: Catalyzes the first committed step in the biosynthesis of
+CC       complex N-glycans. It controls conversion of high mannose to complex N-
+CC       glycans; the final hydrolytic step in the N-glycan maturation pathway.
+CC       {ECO:0000250|UniProtKB:P28494}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H2O + N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->3)-[alpha-
+CC         D-Man-(1->3)-[alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-
+CC         (1->4)-beta-D-GlcNAc-(1->4)-beta-D-GlcNAc}-L-asparaginyl-[protein] =
+CC         2 alpha-D-mannopyranose + N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-
+CC         (1->3)-[alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         beta-D-GlcNAc}-L-asparaginyl-[protein]; Xref=Rhea:RHEA:56052,
+CC         Rhea:RHEA-COMP:14368, Rhea:RHEA-COMP:14369, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28729, ChEBI:CHEBI:60615, ChEBI:CHEBI:60625;
+CC         EC=3.2.1.114; Evidence={ECO:0000269|PubMed:9061370};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|RuleBase:RU361199};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|RuleBase:RU361199};
+CC   -!- ACTIVITY REGULATION: Inhibited by swainsonine.
+CC       {ECO:0000269|PubMed:9061370}.
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:P28494}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000250|UniProtKB:P28494}.
+CC   -!- SUBCELLULAR LOCATION: Microsome membrane {ECO:0000269|PubMed:9061370};
+CC       Single-pass type II membrane protein {ECO:0000269|PubMed:9061370}.
+CC       Golgi apparatus membrane {ECO:0000250|UniProtKB:Q24451}; Single-pass
+CC       type II membrane protein {ECO:0000305}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:9061370}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family.
+CC       {ECO:0000255|RuleBase:RU361199}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF005034; AAB62719.1; -; mRNA.
+DR   PIR; T29089; T29089.
+DR   AlphaFoldDB; O18497; -.
+DR   SMR; O18497; -.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   UniPathway; UPA00378; -.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IEA:UniProtKB-KW.
+DR   GO; GO:0000139; C:Golgi membrane; ISS:UniProtKB.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004572; F:mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase activity; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006013; P:mannose metabolic process; IDA:UniProtKB.
+DR   GO; GO:0006491; P:N-glycan processing; ISS:UniProtKB.
+DR   GO; GO:0006486; P:protein glycosylation; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.20.1270.50; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Glycosidase;
+KW   Golgi apparatus; Hydrolase; Membrane; Metal-binding; Microsome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix; Zinc.
+FT   CHAIN           1..1130
+FT                   /note="Alpha-mannosidase 2"
+FT                   /id="PRO_0000450694"
+FT   TOPO_DOM        1..14
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        15..35
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        36..1130
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   ACT_SITE        247
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   BINDING         133
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   BINDING         135
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   BINDING         247
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   BINDING         527
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+FT   CARBOHYD        117
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        166
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        622
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        683
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1056
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1095
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        553
+FT                   /note="Interchain (with C-414)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q29451"
+SQ   SEQUENCE   1130 AA;  131066 MW;  2714BC98775E2DDA CRC64;
+     MRTRVLRCRP FSTRILLLLL FVLAFGVYCY FYNASPQNYN KPRISYPASM EHFKSSLTHT
+     VKSRDEPTPD QCPALKESEA DIDTVAIYPT FDFQPSWLRT KEFWDKSFED RYERIHNDTT
+     RPRLKVIVVP HSHNDPGWLK TFEQYFEWKT KNIINNIVNK LHQYPNMTFI WTEISFLNAW
+     WERSHPVKQK ALKKLIKEGR LEITTGGWVM PDEACTHIYA LIDQFIEGHH WVKTNLGVIP
+     KTGWSIDPFG HGATVPYLLD QSGLEGTIIQ RIHYAWKQWL AERQIEEFYW LASWATTKPS
+     MIVHNQPFDI YSIKSTCGPH PSICLSFDFR KIPGEYSEYT AKHEDITEHN LHSKAKTLIE
+     EYDRIGSLTP HNVVLVPLGD DFRYEYSVEF DAQYVNYMKM FNYINAHKEI FNADVQFGTP
+     LDYFNAMKER HQNIPSLKGD FFVYSDIFSE GKPAYWSGYY TTRPYQKILA RQFEHQLRSA
+     EILFTLVSNY IRQMGRQGEF GASEKKLEKS YEQLIYARRN LGLFQHHDAI TGTSKSSVMQ
+     DYGTKLFTSL YHCIRLQEAA LTTIMLPDQS LHSQSIIQSE VEWETYGKPP KKLQVSFIDK
+     KKVILFNPLA ETRTEVVTVR SNTSNIRVYD THKRKHVLYQ IMPSITIQDN GKSIVSDTTF
+     DIMFVATIPP LTSISYKLQE HTNTSHHCVI FCNNCEQYQK SNVFQIKKMM PGDIQLENAV
+     LKLLVNRNTG FLRQVYRKDI RKRTVVDVQF GAYQSAQRHS GAYLFMPHYD SPEKNVLHPY
+     TNQNNMQDDN IIIVSGPIST EITTMYLPFL VHTIRIYNVP DPVLSRAILL ETDVDFEAPP
+     KNRETELFMR LQTDIQNGDI PEFYTDQNGF QYQKRVKVNK LGIEANYYPI TTMACLQDEE
+     TRLTLLTNHA QGAAAYEPGR LEVMLDRRTL YDDFRGIGEG VVDNKPTTFQ NWILIESMPG
+     VTRAKRDTSE PGFKFVNERR FGPGQKESPY QVPSQTADYL SRMFNYPVNV YLVDTSEVGE
+     IEVKPYQSFL QSFPPGIHLV TLRTITDDVL ELFPSNESYM VLHRPGYSCA VGEKPVAKSP
+     KFSSKTRFNG LNIQNITAVS LTGLKSLRPL TGLSDIHLNA MEVKTYKIRF
+//

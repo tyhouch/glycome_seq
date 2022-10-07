@@ -1,0 +1,97 @@
+ID   RGLA_ASPNG              Reviewed;         499 AA.
+AC   Q8NJK5;
+DT   18-MAY-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   25-MAY-2022, entry version 61.
+DE   RecName: Full=Rhamnogalacturonate lyase A;
+DE            EC=4.2.2.23;
+DE   Flags: Precursor; Fragment;
+GN   Name=rglA;
+OS   Aspergillus niger.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=5061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 9029 / NRRL 3 / CBS 120.49 / DSM 2466 / N400 / FGSC 732;
+RX   PubMed=12387863; DOI=10.1016/s0014-5793(02)03391-4;
+RA   de Vries R.P., Jansen J., Aguilar G., Paenicova L., Joosten J.A.E.,
+RA   Wulfert F., Visser J.;
+RT   "Expression profiling of pectinolytic genes from Aspergillus niger.";
+RL   FEBS Lett. 530:41-47(2002).
+CC   -!- FUNCTION: Pectinolytic enzymes consist of four classes of enzymes:
+CC       pectin lyase, polygalacturonase, pectin methylesterase and
+CC       rhamnogalacturonase. Degrades the rhamnogalacturonan I (RG-I) backbone
+CC       of pectin (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endotype eliminative cleavage of L-alpha-rhamnopyranosyl-
+CC         (1->4)-alpha-D-galactopyranosyluronic acid bonds of
+CC         rhamnogalacturonan I domains in ramified hairy regions of pectin
+CC         leaving L-rhamnopyranose at the reducing end and 4-deoxy-4,5-
+CC         unsaturated D-galactopyranosyluronic acid at the non-reducing end.;
+CC         EC=4.2.2.23;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 4 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ489944; CAD36194.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q8NJK5; -.
+DR   SMR; Q8NJK5; -.
+DR   STRING; 5061.CADANGAP00010833; -.
+DR   CAZy; PL4; Polysaccharide Lyase Family 4.
+DR   VEuPathDB; FungiDB:An14g01130; -.
+DR   VEuPathDB; FungiDB:ASPNIDRAFT2_1115401; -.
+DR   VEuPathDB; FungiDB:ATCC64974_1090; -.
+DR   VEuPathDB; FungiDB:M747DRAFT_271668; -.
+DR   eggNOG; ENOG502QTKY; Eukaryota.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0102210; F:rhamnogalacturonan endolyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd10316; RGL4_M; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR029413; RG-lyase_II.
+DR   InterPro; IPR029411; RG-lyase_III.
+DR   InterPro; IPR016590; Rhamnogalacturonase_B.
+DR   InterPro; IPR015364; RhgB_N.
+DR   PANTHER; PTHR36574; PTHR36574; 1.
+DR   Pfam; PF14683; CBM-like; 1.
+DR   Pfam; PF14686; fn3_3; 1.
+DR   Pfam; PF09284; RhgB_N; 1.
+DR   PIRSF; PIRSF011794; Rhamnogalacturonase_B; 1.
+DR   SUPFAM; SSF49452; SSF49452; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cell wall biogenesis/degradation; Disulfide bond;
+KW   Lyase; Polysaccharide degradation; Secreted; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..499
+FT                   /note="Rhamnogalacturonate lyase A"
+FT                   /id="PRO_0000394368"
+FT   DISULFID        49..92
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        183..192
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         499
+SQ   SEQUENCE   499 AA;  53915 MW;  0CBD6E4A4EFB0D1E CRC64;
+     MLSKTSLLSL LSLAAGVVNA DFGITTSDSY VINANSPNSL VFTVDRGSCD ITSIVHYGTE
+     LQYSGKGSHI GSGLGTATVS ATKSGDYIKV TCETDTLTQY MGVHDGDRII HMATYITEEP
+     SIGELRFIAR LNSDVLPNEE PFGDVSNTAD GEPIEGSDVF LVDGETRSKF YSSQRFIDDQ
+     RHCIAGDEHR VCMILNQYET SSGGPFHRDI NSNNGGDYNS LYWYMNSGHV QLESYRMGLH
+     GPYSMYFSRS GTPSTDIDTS FFADLDIEGY VAESGRGTVS GTASGADSSF DWVVHWYNDD
+     AQYWTYTSSS GSFTSPAMKP GTYTMVYYQG EYVVATSEVT VSAGSSTSKD ISGSVETGTT
+     IFKIGDWDGQ PTGFRNAENQ LRMHPSDSRM SDWGPLTYTV GSSSLTDFPM AIFKSVNSPV
+     TIKFTATSDQ TGAATLRIRT TLSFAGGRPQ ATINDYEGSA PSAPTNLDSR GVTRGAYRGY
+     GDVYDVSVPE GTIVEGENT
+//

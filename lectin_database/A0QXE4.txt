@@ -1,0 +1,170 @@
+ID   DERK_MYCS2              Reviewed;         580 AA.
+AC   A0QXE4;
+DT   17-FEB-2016, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   03-AUG-2022, entry version 103.
+DE   RecName: Full=D-erythrulose kinase {ECO:0000303|PubMed:26560079};
+DE            EC=2.7.1.210 {ECO:0000269|PubMed:26560079};
+GN   Name=derK {ECO:0000303|PubMed:26560079};
+GN   OrderedLocusNames=MSMEG_3271 {ECO:0000312|EMBL:ABK70898.1}, MSMEI_3187
+GN   {ECO:0000312|EMBL:AFP39650.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, INDUCTION, DISRUPTION PHENOTYPE, AND PATHWAY.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=26560079; DOI=10.1021/jacs.5b08968;
+RA   Huang H., Carter M.S., Vetting M.W., Al-Obaidi N., Patskovsky Y.,
+RA   Almo S.C., Gerlt J.A.;
+RT   "A general strategy for the discovery of metabolic pathways: D-threitol, L-
+RT   threitol, and erythritol utilization in Mycobacterium smegmatis.";
+RL   J. Am. Chem. Soc. 137:14570-14573(2015).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of D-erythrulose to D-
+CC       erythrulose-4P. Involved in the degradation pathways of erythritol and
+CC       D-threitol, that allow M.smegmatis to grow on these compounds as the
+CC       sole carbon source. {ECO:0000269|PubMed:26560079}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-erythrulose = ADP + D-erythrulose 4-phosphate + H(+);
+CC         Xref=Rhea:RHEA:48768, ChEBI:CHEBI:15378, ChEBI:CHEBI:16023,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:90796, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.210; Evidence={ECO:0000269|PubMed:26560079};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=4.6 uM for D-erythrulose {ECO:0000269|PubMed:26560079};
+CC         KM=396 uM for L-erythrulose {ECO:0000269|PubMed:26560079};
+CC         KM=339 uM for dihydroxyacetone {ECO:0000269|PubMed:26560079};
+CC         Note=kcat is 2.88 sec(-1) with D-erythrulose as substrate. kcat is
+CC         0.091 sec(-1) with L-erythrulose as substrate. kcat is 0.063 sec(-1)
+CC         with dihydroxyacetone as substrate. {ECO:0000269|PubMed:26560079};
+CC   -!- PATHWAY: Carbohydrate metabolism; erythritol degradation.
+CC       {ECO:0000269|PubMed:26560079}.
+CC   -!- PATHWAY: Carbohydrate metabolism; D-threitol degradation.
+CC       {ECO:0000269|PubMed:26560079}.
+CC   -!- INDUCTION: Up-regulated during growth on erythritol, D-threitol or L-
+CC       threitol relative to growth on glycerol. {ECO:0000269|PubMed:26560079}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene are defective for growth
+CC       with D-threitol and are totally unable to grow on erythritol.
+CC       {ECO:0000269|PubMed:26560079}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK70898.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP39650.1; -; Genomic_DNA.
+DR   RefSeq; WP_011728941.1; NZ_SIJM01000015.1.
+DR   RefSeq; YP_887582.1; NC_008596.1.
+DR   AlphaFoldDB; A0QXE4; -.
+DR   SMR; A0QXE4; -.
+DR   STRING; 246196.MSMEI_3187; -.
+DR   PRIDE; A0QXE4; -.
+DR   EnsemblBacteria; ABK70898; ABK70898; MSMEG_3271.
+DR   EnsemblBacteria; AFP39650; AFP39650; MSMEI_3187.
+DR   GeneID; 66734671; -.
+DR   KEGG; msg:MSMEI_3187; -.
+DR   KEGG; msm:MSMEG_3271; -.
+DR   PATRIC; fig|246196.19.peg.3232; -.
+DR   eggNOG; COG2376; Bacteria.
+DR   OMA; TALNMNG; -.
+DR   OrthoDB; 857242at2; -.
+DR   BioCyc; MetaCyc:MON-19890; -.
+DR   BRENDA; 2.7.1.210; 3512.
+DR   UniPathway; UPA01065; -.
+DR   UniPathway; UPA01066; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0019200; F:carbohydrate kinase activity; IDA:UniProtKB.
+DR   GO; GO:0004371; F:glycerone kinase activity; IEA:InterPro.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IMP:UniProtKB.
+DR   GO; GO:0009758; P:carbohydrate utilization; IMP:UniProtKB.
+DR   GO; GO:0071322; P:cellular response to carbohydrate stimulus; IDA:UniProtKB.
+DR   GO; GO:0006071; P:glycerol metabolic process; IEA:InterPro.
+DR   Gene3D; 1.25.40.340; -; 1.
+DR   InterPro; IPR004006; DhaK_dom.
+DR   InterPro; IPR004007; DhaL_dom.
+DR   InterPro; IPR036117; DhaL_dom_sf.
+DR   Pfam; PF02733; Dak1; 1.
+DR   Pfam; PF02734; Dak2; 1.
+DR   SMART; SM01120; Dak2; 1.
+DR   SUPFAM; SSF101473; SSF101473; 1.
+DR   PROSITE; PS51481; DHAK; 1.
+DR   PROSITE; PS51480; DHAL; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Carbohydrate metabolism; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..580
+FT                   /note="D-erythrulose kinase"
+FT                   /id="PRO_0000435515"
+FT   DOMAIN          7..327
+FT                   /note="DhaK"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00814"
+FT   DOMAIN          368..570
+FT                   /note="DhaL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00813"
+FT   REGION          329..360
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        217
+FT                   /note="Tele-hemiaminal-histidine intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P76015"
+FT   BINDING         397..403
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         443..444
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         485
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         542
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+FT   BINDING         555..557
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P76014"
+SQ   SEQUENCE   580 AA;  59699 MW;  418C44867C921CC1 CRC64;
+     MTKLFNDPAR FTEDMLVGFL DANSRYVVGV PGGVVRAQTT RPGKVAVVIG GGSGHYPAFC
+     GTVGPGFADG AVVGNIFTSP SAEEAASVAR AAHSDAGVLL TTGNYAGDVM NFNLAVDQLR
+     SEGIEAQYFA VTDDVASAER GQEAKRRGIA GDFTVFKCAS AAAEEGLDLA GVVRVAEAAN
+     AATRTLGVAF DGCTLPGADH PLFTVPEGHM GLGLGIHGEP GVSEEKMPTA AGLAATLVDG
+     VLGDRPDAPE KRIAVILNGL GRTKYEELFV VWGEVSRLLR DRGYTIVEPE VGELVTSLDM
+     AGCSLTVMWL DEELERYWAA PADTPAYKKG AAQQHVSGER RSEATARSAS SGPKLAELSD
+     EDGRAGARLV ARAFDAMAEA LADAEEELGR IDAVAGDGDH GRGMVKGSSA AREAAASALS
+     EGAGQGSVLN AAGKAWAAKA GGTSGVLWGA LLTALGARLG DTGRPDSSVI AAGVRDAYDA
+     LIRLGGAAPG DKTMLDAMLP FTEELERRVA QDESWQSAWR AAADVATEAA RATADLRPKI
+     GRARPLAERS VGTPDAGATS LALCARTVAD CVTLSTQGEN
+//

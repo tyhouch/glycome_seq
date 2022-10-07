@@ -1,0 +1,161 @@
+ID   CHBP_VIBFU              Reviewed;         800 AA.
+AC   Q9F8X1;
+DT   16-OCT-2013, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   03-AUG-2022, entry version 68.
+DE   RecName: Full=N,N'-diacetylchitobiose phosphorylase;
+DE            EC=2.4.1.280;
+DE   AltName: Full=Chitobiose phosphorylase;
+GN   Name=chbP;
+OS   Vibrio furnissii.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=29494;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-10, FUNCTION,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND CATALYTIC ACTIVITY.
+RX   PubMed=10913116; DOI=10.1074/jbc.m001042200;
+RA   Park J.K., Keyhani N.O., Roseman S.;
+RT   "Chitin catabolism in the marine bacterium Vibrio furnissii.
+RT   Identification, molecular cloning, and characterization of A N, N'-
+RT   diacetylchitobiose phosphorylase.";
+RL   J. Biol. Chem. 275:33077-33083(2000).
+CC   -!- FUNCTION: Catalyzes the reversible phosphorolysis of chitobiose (N,N'-
+CC       diacetylchitobiose or (GlcNAc)(2)) into alpha-GlcNAc-1-phosphate and
+CC       GlcNAc with inversion of the anomeric configuration.
+CC       {ECO:0000269|PubMed:10913116}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N,N'-diacetylchitobiose + phosphate = N-acetyl-alpha-D-
+CC         glucosamine 1-phosphate + N-acetyl-D-glucosamine;
+CC         Xref=Rhea:RHEA:32527, ChEBI:CHEBI:28681, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57776, ChEBI:CHEBI:506227; EC=2.4.1.280;
+CC         Evidence={ECO:0000269|PubMed:10913116};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.58 mM for N,N'-diacetylchitobiose {ECO:0000269|PubMed:10913116};
+CC         KM=0.51 mM for phosphate {ECO:0000269|PubMed:10913116};
+CC         Vmax=4.6 nmol/min/ug enzyme with N,N'-diacetylchitobiose as substrate
+CC         {ECO:0000269|PubMed:10913116};
+CC         Vmax=4.8 nmol/min/ug enzyme with phosphate as substrate
+CC         {ECO:0000269|PubMed:10913116};
+CC       pH dependence:
+CC         Optimum pH is 6.5-7.0. {ECO:0000269|PubMed:10913116};
+CC       Temperature dependence:
+CC         Optimum temperature is 20-37 degrees Celsius.
+CC         {ECO:0000269|PubMed:10913116};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 94 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF230379; AAG23740.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q9F8X1; -.
+DR   SMR; Q9F8X1; -.
+DR   CAZy; GH94; Glycoside Hydrolase Family 94.
+DR   KEGG; ag:AAG23740; -.
+DR   BioCyc; MetaCyc:MON-16878; -.
+DR   BRENDA; 2.4.1.280; 6631.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016757; F:glycosyltransferase activity; IEA:UniProt.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd11755; GH94N_ChBP_like; 1.
+DR   Gene3D; 1.50.10.10; -; 1.
+DR   Gene3D; 2.70.98.40; -; 1.
+DR   InterPro; IPR008928; 6-hairpin_glycosidase_sf.
+DR   InterPro; IPR012341; 6hp_glycosidase-like_sf.
+DR   InterPro; IPR009342; Carb-bd_put_dom.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR033432; GH36_catalytic.
+DR   InterPro; IPR037828; GH94N_ChBP.
+DR   InterPro; IPR037018; Glyco_hydro_65_N_sf.
+DR   InterPro; IPR010383; Glyco_hydrolase_94.
+DR   Pfam; PF17167; Glyco_hydro_36; 1.
+DR   Pfam; PF06165; Glyco_transf_36; 1.
+DR   SMART; SM01068; CBM_X; 1.
+DR   SUPFAM; SSF48208; SSF48208; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Metal-binding; Transferase.
+FT   CHAIN           1..800
+FT                   /note="N,N'-diacetylchitobiose phosphorylase"
+FT                   /id="PRO_0000424108"
+FT   ACT_SITE        489
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         140
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         186
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         187
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         190
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         196
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         333
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         343
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         349..350
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         490..492
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         637
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         644
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         690
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         709..710
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         790
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         792
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   800 AA;  89667 MW;  6775D823C051122A CRC64;
+     MKYGYFDNDN REYVITRPDV PAPWTNYLGT EKFCTVISHN AGGYSFYHSP EYNRVTKFRP
+     NFTQDRPGHY IYLRDDETGD FWSVSWQPVA KNLDDAHYEV RHGLSYSKFR CDYNGIVATK
+     TLFVPKGEDA QVWDVEIENT SDQPRTISAF GYVEFSFSHI ASDNQNHQMS LYSAGTEYNN
+     GVLEYDLYYN TDDFLGFYYL TATFDADSYD GQRDAFLGMY RDEANPIAVA NGRCSNSAQT
+     CYNHCGALHK QFVLQPGEKV RFAVILGVGK GNGEKLRAKY QDLSQVDAAF AGIKQHWDER
+     CAKFQVRSPN QGLDTMINAW TLYQAETCVV WSRFASFIEV GGRTGLGYRD TAQDAISVPH
+     TNPAMTRKRL VDLLRGQVKA GYGLHLFDPD WFDPEKADVK PSKSPTVVPT PSDEDKIHGI
+     KDTCSDDHLW IVPTILNFVK ETGDLSFIDE VIPYADGGDA TVYQHMMAAL DFSAEYVGQT
+     GICKGLRADW NDCLNLGGGE SAMVSFLHFW ALEAFLELAR HRQDAAAIDK YQAMANGVRE
+     ACETHLWDDN GGWYIRGLTK DGDKIGTFEQ QEGKVHLESN TLAVLSGAVS QQRGEKAMDA
+     VYEYLFSPYG LHLNAPSFAT PNDDIGFVTR VYQGVKENGA IFSHPNPWAW VAEAKLGRGD
+     RAMEFYDSLN PYNQNDIIET RVAEPYSYVQ FIMGRDHQDH GRANHPWLTG TSGWAYYATT
+     NFILGVRTGF DTLTVDPCIP AAWSGFEVTR EWRGATYHIS VQNPNGVSKG VQSILVNGEA
+     VDAINAQPAG SENQVTVILG
+//

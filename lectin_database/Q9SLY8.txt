@@ -1,0 +1,267 @@
+ID   CALR_ORYSJ              Reviewed;         424 AA.
+AC   Q9SLY8; Q6ZLM7; Q6ZLM8;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 2.
+DT   03-AUG-2022, entry version 139.
+DE   RecName: Full=Calreticulin {ECO:0000303|PubMed:10651810};
+DE   AltName: Full=56 kDa protein {ECO:0000303|PubMed:8888618};
+DE   Flags: Precursor;
+GN   Name=CRO1 {ECO:0000303|PubMed:10651810};
+GN   Synonyms=pp56 {ECO:0000303|PubMed:8888618};
+GN   OrderedLocusNames=Os07g0246200, LOC_Os07g14270;
+GN   ORFNames=OJ1058_C08.34-1, OJ1058_C08.34-2, OSJNBa0003K21.18-1,
+GN   OSJNBa0003K21.18-2;
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=10651810; DOI=10.1046/j.1432-1327.2000.01052.x;
+RA   Li Z., Komatsu S.;
+RT   "Molecular cloning and characterization of calreticulin, a calcium-binding
+RT   protein involved in the regeneration of rice cultured suspension cells.";
+RL   Eur. J. Biochem. 267:737-745(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=24280374; DOI=10.1186/1939-8433-6-4;
+RA   Kawahara Y., de la Bastide M., Hamilton J.P., Kanamori H., McCombie W.R.,
+RA   Ouyang S., Schwartz D.C., Tanaka T., Wu J., Zhou S., Childs K.L.,
+RA   Davidson R.M., Lin H., Quesada-Ocampo L., Vaillancourt B., Sakai H.,
+RA   Lee S.S., Kim J., Numa H., Itoh T., Buell C.R., Matsumoto T.;
+RT   "Improvement of the Oryza sativa Nipponbare reference genome using next
+RT   generation sequence and optical map data.";
+RL   Rice 6:4-4(2013).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2).
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12869764; DOI=10.1126/science.1081288;
+RG   The rice full-length cDNA consortium;
+RT   "Collection, mapping, and annotation of over 28,000 cDNA clones from
+RT   japonica rice.";
+RL   Science 301:376-379(2003).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 30-39; 81-90; 94-103; 111-120 AND 245-253.
+RC   STRAIN=cv. Nipponbare;
+RC   TISSUE=Anther, Embryo, Panicle, Sheath, and Stem;
+RX   PubMed=14681440; DOI=10.1093/nar/gkh020;
+RA   Komatsu S., Kojima K., Suzuki K., Ozaki K., Higo K.;
+RT   "Rice proteome database based on two-dimensional polyacrylamide gel
+RT   electrophoresis: its status in 2003.";
+RL   Nucleic Acids Res. 32:D388-D392(2004).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 30-39; 93-103; 110-120 AND 244-254, AND
+RP   PHOSPHORYLATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=8888618; DOI=10.1093/oxfordjournals.pcp.a029009;
+RA   Komatsu S., Masuda T., Abe K.;
+RT   "Phosphorylation of a protein (pp56) is related to the regeneration of rice
+RT   cultured suspension cells.";
+RL   Plant Cell Physiol. 37:748-753(1996).
+CC   -!- FUNCTION: Molecular calcium-binding chaperone promoting folding,
+CC       oligomeric assembly and quality control in the ER via the
+CC       calreticulin/calnexin cycle. This lectin may interact transiently with
+CC       almost all of the monoglucosylated glycoproteins that are synthesized
+CC       in the ER (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000255|PROSITE-
+CC       ProRule:PRU10138}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9SLY8-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9SLY8-2; Sequence=VSP_016726;
+CC   -!- DOMAIN: Can be divided into a N-terminal globular domain, a proline-
+CC       rich P-domain forming an elongated arm-like structure and a C-terminal
+CC       acidic domain. The P-domain binds one molecule of calcium with high
+CC       affinity, whereas the acidic C-domain binds multiple calcium ions with
+CC       low affinity (By similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The interaction with glycans occurs through a binding site in
+CC       the globular lectin domain. {ECO:0000250}.
+CC   -!- DOMAIN: The zinc binding sites are localized to the N-domain.
+CC       {ECO:0000250}.
+CC   -!- PTM: Phosphorylated. {ECO:0000269|PubMed:8888618}.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB021259; BAA88900.1; -; mRNA.
+DR   EMBL; AP003738; BAC82932.1; -; Genomic_DNA.
+DR   EMBL; AP003738; BAC82933.1; -; Genomic_DNA.
+DR   EMBL; AP006266; BAD31961.1; -; Genomic_DNA.
+DR   EMBL; AP006266; BAD31962.1; -; Genomic_DNA.
+DR   EMBL; AP014963; BAT00809.1; -; Genomic_DNA.
+DR   EMBL; AP014963; BAT00810.1; -; Genomic_DNA.
+DR   EMBL; AK065341; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; AK104328; -; NOT_ANNOTATED_CDS; mRNA.
+DR   RefSeq; XP_015647166.1; XM_015791680.1. [Q9SLY8-2]
+DR   RefSeq; XP_015647167.1; XM_015791681.1. [Q9SLY8-1]
+DR   AlphaFoldDB; Q9SLY8; -.
+DR   SMR; Q9SLY8; -.
+DR   STRING; 4530.OS07T0246200-03; -.
+DR   PaxDb; Q9SLY8; -.
+DR   PRIDE; Q9SLY8; -.
+DR   EnsemblPlants; Os07t0246200-01; Os07t0246200-01; Os07g0246200. [Q9SLY8-1]
+DR   EnsemblPlants; Os07t0246200-02; Os07t0246200-02; Os07g0246200. [Q9SLY8-1]
+DR   EnsemblPlants; Os07t0246200-03; Os07t0246200-03; Os07g0246200. [Q9SLY8-2]
+DR   GeneID; 4342826; -.
+DR   Gramene; Os07t0246200-01; Os07t0246200-01; Os07g0246200. [Q9SLY8-1]
+DR   Gramene; Os07t0246200-02; Os07t0246200-02; Os07g0246200. [Q9SLY8-1]
+DR   Gramene; Os07t0246200-03; Os07t0246200-03; Os07g0246200. [Q9SLY8-2]
+DR   KEGG; osa:4342826; -.
+DR   eggNOG; KOG0674; Eukaryota.
+DR   HOGENOM; CLU_018224_0_2_1; -.
+DR   InParanoid; Q9SLY8; -.
+DR   OMA; MMWCKTV; -.
+DR   Proteomes; UP000000763; Chromosome 7.
+DR   Proteomes; UP000059680; Chromosome 7.
+DR   ExpressionAtlas; Q9SLY8; baseline and differential.
+DR   Genevisible; Q9SLY8; OS.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; ISS:Gramene.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:Gramene.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051082; F:unfolded protein binding; ISS:Gramene.
+DR   GO; GO:0006457; P:protein folding; IBA:GO_Central.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IBA:GO_Central.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009169; Calreticulin.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 2.
+DR   PIRSF; PIRSF002356; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 2.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Calcium; Chaperone; Direct protein sequencing;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Repeat; Signal; Zinc.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000269|PubMed:14681440"
+FT   CHAIN           30..424
+FT                   /note="Calreticulin"
+FT                   /id="PRO_0000004193"
+FT   REPEAT          201..212
+FT                   /note="1-1"
+FT   REPEAT          220..231
+FT                   /note="1-2"
+FT   REPEAT          237..248
+FT                   /note="1-3"
+FT   REPEAT          255..266
+FT                   /note="1-4"
+FT   REPEAT          270..280
+FT                   /note="2-1"
+FT   REPEAT          284..294
+FT                   /note="2-2"
+FT   REPEAT          298..308
+FT                   /note="2-3"
+FT   REGION          201..266
+FT                   /note="4 X approximate repeats"
+FT   REGION          217..289
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          270..308
+FT                   /note="3 X approximate repeats"
+FT   REGION          356..424
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           421..424
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   COMPBIAS        217..260
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        356..382
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        383..413
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         119
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         121
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         138
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         145
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         328
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   CARBOHYD        61
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        115..147
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         422..424
+FT                   /note="DEL -> VCNTPAFS (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12869764"
+FT                   /id="VSP_016726"
+FT   CONFLICT        193
+FT                   /note="T -> S (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        263..265
+FT                   /note="DWD -> AGA (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        278
+FT                   /note="P -> R (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        302
+FT                   /note="A -> P (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        306..307
+FT                   /note="DN -> AT (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        311
+FT                   /note="K -> Q (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        324
+FT                   /note="Y -> S (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        341
+FT                   /note="F -> I (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        347..348
+FT                   /note="PE -> AA (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        359
+FT                   /note="G -> A (in Ref. 1; BAA88900)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   424 AA;  48309 MW;  EFAE5723CB03BAE0 CRC64;
+     MAIRARSSSY AAAAVALALA LASVAAVAGE VFFQEKFEDG WESRWVKSEW KKDENMAGEW
+     NHTSGKWNGD PEDKGIQTSE DYRFYAISAE YPEFSNKDKT LVLQFSVKHE QKLDCGGGYV
+     KLLGGDVDQK KFGGDTPYSI MFGPDICGYS TKKVHTIFTK NDKNHLIKKD VPCETDQLSH
+     VYTLIIHPDA TYTILIDNVE KQSGSIYEHW DILPPKQIKD PEAKKPEDWD DKEYIPDPED
+     KKPEGYDDIP KEIPDPDAKK PEDWDDEEDG EWTAPTIPNP EYKGPWKQKK IKNPNYQGKW
+     KAPMIDNPDF KDDPYIYAFD SLKYIGIELW QVKSGTLFDN FLITDDPELA KTFAEETWGK
+     HKDAEKAAFD EAEKKKEEEE AAKAGEDDDD LDDEDAEDED KADEKADSDA EDGKDSDDEK
+     HDEL
+//

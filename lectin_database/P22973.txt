@@ -1,0 +1,152 @@
+ID   LEC2_ULEEU              Reviewed;         249 AA.
+AC   P22973;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   03-AUG-2022, entry version 103.
+DE   RecName: Full=Anti-H(O) lectin 2;
+DE   AltName: Full=Anti-H(O) lectin II;
+DE   AltName: Full=UEA-II;
+OS   Ulex europaeus (Furze).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   genistoids sensu lato; core genistoids; Genisteae; Ulex.
+OX   NCBI_TaxID=3902;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND GLYCOSYLATION AT ASN-245.
+RC   TISSUE=Seed;
+RX   PubMed=1869520; DOI=10.1093/oxfordjournals.jbchem.a123435;
+RA   Konami Y., Yamamoto K., Osawa T.;
+RT   "The primary structures of two types of the Ulex europeus seed lectin.";
+RL   J. Biochem. 109:650-658(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-36.
+RX   PubMed=1859632; DOI=10.1515/bchm3.1991.372.1.95;
+RA   Konami Y., Yamamoto K., Osawa T.;
+RT   "Purification and characterization of a new type lactose-binding Ulex
+RT   europaeus lectin by affinity chromatography.";
+RL   Biol. Chem. Hoppe-Seyler 372:95-102(1991).
+CC   -!- FUNCTION: Di-N-acetylchitobiose specific lectin.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; JX0163; JX0163.
+DR   PDB; 1QNW; X-ray; 2.35 A; A/B/C/D=1-245.
+DR   PDBsum; 1QNW; -.
+DR   AlphaFoldDB; P22973; -.
+DR   SMR; P22973; -.
+DR   UniLectin; P22973; -.
+DR   iPTMnet; P22973; -.
+DR   EvolutionaryTrace; P22973; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Glycoprotein; Lectin;
+KW   Manganese; Metal-binding.
+FT   CHAIN           1..249
+FT                   /note="Anti-H(O) lectin 2"
+FT                   /id="PRO_0000105112"
+FT   BINDING         130
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         132
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         132
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         134
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         140
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         145
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         145
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         148
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        118
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1869520"
+FT   CARBOHYD        245
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:1869520"
+FT   STRAND          5..12
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          20..24
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          34..37
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          46..54
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   TURN            61..63
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          68..76
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          90..97
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   HELIX           108..110
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   TURN            111..113
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          115..117
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          127..132
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   TURN            137..139
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          148..157
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          159..163
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          172..179
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   TURN            180..183
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          184..190
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   TURN            192..194
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          197..203
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   HELIX           207..210
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          213..224
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   HELIX           226..228
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+FT   STRAND          232..241
+FT                   /evidence="ECO:0007829|PDB:1QNW"
+SQ   SEQUENCE   249 AA;  26928 MW;  DFA7FEFCC4A7A64E CRC64;
+     NLSDDLSFNF DKFVPNQKNI IFQGDASVST KGVLEVTKVS KPTTRSIGRA LYAAPIQIWD
+     SITGKVASFA TSFSFVVKDE PDEKIDGVDG LAFFLAPANS QIPSGSSAGM FGLFCSSNDS
+     KSSNQIIAVE FDSYFGKTYN PWDPDFKHIG IDVNSIKSIK TVKDDWRNGE VADVVITYRA
+     PTKSLTVSLS YPSDGTSNIV TASSVDLKAI LPEWVSVGFS GGVGNAAKFD HDVLSWYFTS
+     NLEANQSQT
+//

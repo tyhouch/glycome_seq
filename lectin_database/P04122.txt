@@ -1,0 +1,163 @@
+ID   LECB_LATOC              Reviewed;         181 AA.
+AC   P04122;
+DT   01-NOV-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1986, sequence version 1.
+DT   03-AUG-2022, entry version 114.
+DE   RecName: Full=Lectin beta-1 and beta-2 chains;
+OS   Lathyrus ochrus (Cyprus-vetch) (Pisum ochrus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; Hologalegina; IRL clade; Fabeae; Lathyrus.
+OX   NCBI_TaxID=3858;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RA   Yarwood A., Richardson M., Sousa-Cavada B., Rouge P.;
+RT   "The complete amino acid sequences of the beta-1- and beta-2-subunits of
+RT   the isolectins LoL1 and LoL11 from seeds of Lathyrus ochrus (L.) DC.";
+RL   FEBS Lett. 184:104-109(1985).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS).
+RX   PubMed=2380988; DOI=10.1016/0022-2836(90)90199-v;
+RA   Bourne Y., Abergel C., Cambillau C., Frey M., Rouge P.,
+RA   Fontecilla-Camps J.-C.;
+RT   "X-ray crystal structure determination and refinement at 1.9-A resolution
+RT   of isolectin I from the seeds of Lathyrus ochrus.";
+RL   J. Mol. Biol. 214:571-584(1990).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS).
+RX   PubMed=2091026; DOI=10.1002/prot.340080410;
+RA   Bourne Y., Roussel A., Frey M., Rouge P., Fontecilla-Camps J.-C.,
+RA   Cambillau C.;
+RT   "Three-dimensional structures of complexes of Lathyrus ochrus isolectin I
+RT   with glucose and mannose: fine specificity of the monosaccharide-binding
+RT   site.";
+RL   Proteins 8:365-376(1990).
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta chains.
+CC   -!- INTERACTION:
+CC       P04122; P12307; NbExp=2; IntAct=EBI-9019549, EBI-16210416;
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- MISCELLANEOUS: The sequence shown is that of the beta-1.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A05087; A05087.
+DR   PIR; A05088; A05088.
+DR   PDB; 1LGB; X-ray; 3.30 A; A=1-181.
+DR   PDB; 1LGC; X-ray; 2.80 A; A/C/E=1-181.
+DR   PDB; 1LOA; X-ray; 2.20 A; A/C/E/G=1-181.
+DR   PDB; 1LOB; X-ray; 2.00 A; A/C/E/G=1-181.
+DR   PDB; 1LOC; X-ray; 2.05 A; A/C/E/G=1-181.
+DR   PDB; 1LOD; X-ray; 2.05 A; A/C/E/G=1-181.
+DR   PDB; 1LOE; X-ray; 1.90 A; A/C=1-181.
+DR   PDB; 1LOF; X-ray; 2.30 A; A/C=1-181.
+DR   PDB; 1LOG; X-ray; 2.10 A; A/C=1-181.
+DR   PDBsum; 1LGB; -.
+DR   PDBsum; 1LGC; -.
+DR   PDBsum; 1LOA; -.
+DR   PDBsum; 1LOB; -.
+DR   PDBsum; 1LOC; -.
+DR   PDBsum; 1LOD; -.
+DR   PDBsum; 1LOE; -.
+DR   PDBsum; 1LOF; -.
+DR   PDBsum; 1LOG; -.
+DR   AlphaFoldDB; P04122; -.
+DR   SMR; P04122; -.
+DR   DIP; DIP-6190N; -.
+DR   IntAct; P04122; 1.
+DR   Allergome; 8817; Lat oc Agglutinin.
+DR   UniLectin; P04122; -.
+DR   EvolutionaryTrace; P04122; -.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Lectin; Manganese;
+KW   Mannose-binding; Metal-binding.
+FT   CHAIN           1..181
+FT                   /note="Lectin beta-1 and beta-2 chains"
+FT                   /id="PRO_0000105104"
+FT   BINDING         119
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         121
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         121
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         123
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         125
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         129
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         129
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   BINDING         136
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT   VARIANT         16
+FT                   /note="Q -> P (in beta-2)"
+FT   VARIANT         66
+FT                   /note="S -> A (in beta-2)"
+FT   VARIANT         168
+FT                   /note="A -> G (in beta-2)"
+FT   STRAND          2..10
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          18..22
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          25..27
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          30..34
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          41..48
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   TURN            55..57
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          62..72
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          74..78
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          82..89
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   HELIX           98..100
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   TURN            101..103
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   HELIX           111..113
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          116..121
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   TURN            126..128
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          136..145
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          147..151
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          159..167
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   TURN            168..171
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+FT   STRAND          172..178
+FT                   /evidence="ECO:0007829|PDB:1LOE"
+SQ   SEQUENCE   181 AA;  19889 MW;  C9AD28FC03A48215 CRC64;
+     TETTSFSITK FGPDQQNLIF QGDGYTTKER LTLTKAVRNT VGRALYSSPI HIWDSKTGNV
+     ANFVTSFTFV IDAPNSYNVA DGFTFFIAPV DTKPQTGGGY LGVFNSKDYD KTSQTVAVEF
+     DTFYNTAWDP SNGDRHIGID VNSIKSINTK SWKLQNGKEA NVVIAFNAAT NVLTVSLTYP
+     N
+//

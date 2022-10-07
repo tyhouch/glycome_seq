@@ -1,0 +1,177 @@
+ID   LEC_PARPC               Reviewed;         447 AA.
+AC   P83304;
+DT   28-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   25-MAY-2022, entry version 65.
+DE   RecName: Full=Mannose/glucose-specific lectin;
+DE   Flags: Fragment;
+OS   Parkia platycephala.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Caesalpinioideae; mimosoid clade;
+OC   Mimoseae; Parkia.
+OX   NCBI_TaxID=185447 {ECO:0000305};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, SUBUNIT, MASS SPECTROMETRY, AND VARIANTS VAL-70; ARG-227
+RP   AND ASN-296.
+RC   TISSUE=Seed;
+RX   PubMed=11502201; DOI=10.1046/j.1432-1327.2001.02368.x;
+RA   Mann K., Farias C.M.S.A., Del Sol F.G., Santos C.F., Grangeiro T.B.,
+RA   Nagano C.S., Cavada B.S., Calvete J.J.;
+RT   "The amino-acid sequence of the glucose/mannose-specific lectin isolated
+RT   from Parkia platycephala seeds reveals three tandemly arranged jacalin-
+RT   related domains.";
+RL   Eur. J. Biochem. 268:4414-4422(2001).
+RN   [2] {ECO:0000305}
+RP   FUNCTION.
+RA   Ramos M.V., Cavada B.S., Bomfim L.R., Debray H., Mazard A.-M.,
+RA   Calvete J.J., Grangeiro T.B., Rouge P.;
+RT   "Interaction of the seed lectin from Parkia platycephala (Mimosoideae) with
+RT   carbohydrates and complex glycans.";
+RL   Protein Pept. Lett. 6:215-222(1999).
+CC   -!- FUNCTION: Mannose/glucose specific lectin. Shows agglutinating activity
+CC       against rabbit erythrocytes. {ECO:0000269|Ref.2}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:11502201}.
+CC   -!- PTM: The N-terminus is blocked.
+CC   -!- MASS SPECTROMETRY: Mass=47946; Mass_error=6; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:11502201};
+CC   -!- MASS SPECTROMETRY: Mass=47951; Mass_error=9; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:11502201};
+CC   -!- MISCELLANEOUS: PubMed:11502201 authors report the absence of the
+CC       blocked N-terminal residue, together with 3 to 5 amino acids from the
+CC       N-terminal part of the protein.
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1ZGR; X-ray; 2.50 A; A/B=1-447.
+DR   PDB; 1ZGS; X-ray; 2.50 A; A/B=1-447.
+DR   PDBsum; 1ZGR; -.
+DR   PDBsum; 1ZGS; -.
+DR   AlphaFoldDB; P83304; -.
+DR   SMR; P83304; -.
+DR   UniLectin; P83304; -.
+DR   EvolutionaryTrace; P83304; -.
+DR   GO; GO:0005536; F:glucose binding; IDA:UniProtKB.
+DR   GO; GO:0005537; F:mannose binding; IDA:UniProtKB.
+DR   GO; GO:0007157; P:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules; IDA:UniProtKB.
+DR   CDD; cd09612; Jacalin; 3.
+DR   Gene3D; 2.100.10.30; -; 3.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 3.
+DR   SMART; SM00915; Jacalin; 3.
+DR   SUPFAM; SSF51101; SSF51101; 3.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 3.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Lectin; Mannose-binding; Repeat.
+FT   CHAIN           <1..447
+FT                   /note="Mannose/glucose-specific lectin"
+FT                   /id="PRO_0000072804"
+FT   REPEAT          1..149
+FT                   /note="1"
+FT                   /evidence="ECO:0000269|PubMed:11502201"
+FT   DOMAIN          5..148
+FT                   /note="Jacalin-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   REPEAT          150..295
+FT                   /note="2"
+FT                   /evidence="ECO:0000269|PubMed:11502201"
+FT   DOMAIN          153..294
+FT                   /note="Jacalin-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   REPEAT          296..447
+FT                   /note="3"
+FT                   /evidence="ECO:0000269|PubMed:11502201"
+FT   DOMAIN          300..443
+FT                   /note="Jacalin-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   REGION          1..447
+FT                   /note="3 X approximate tandem repeats"
+FT   VARIANT         70
+FT                   /note="I -> V"
+FT                   /evidence="ECO:0000269|PubMed:11502201"
+FT   VARIANT         227
+FT                   /note="K -> R"
+FT                   /evidence="ECO:0000269|PubMed:11502201"
+FT   VARIANT         296
+FT                   /note="D -> N"
+FT                   /evidence="ECO:0000269|PubMed:11502201"
+FT   NON_TER         1
+FT   STRAND          6..12
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          16..22
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          27..45
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          53..55
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          61..63
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          66..71
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   TURN            74..76
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          79..89
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          92..104
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          106..111
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          114..119
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          123..148
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          154..160
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          165..171
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          176..194
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          199..204
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          213..218
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   TURN            221..223
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          226..236
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          239..251
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          253..258
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          262..266
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          269..294
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          301..307
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          311..317
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          322..340
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          359..364
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   TURN            367..369
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          372..400
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          402..407
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          411..415
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+FT   STRAND          418..443
+FT                   /evidence="ECO:0007829|PDB:1ZGR"
+SQ   SEQUENCE   447 AA;  47521 MW;  8F14ED460874BBB2 CRC64;
+     SLKGMISVGP WGGSGGNYWS FKANHAITEI VIHVKDNIKS ISFKDASGDI SGTFGGKDPR
+     ENEKGDEKKI KIHWPTEYLK SISGSYGDYN GVLVIRSLSF ITNLTTYGPF GSTSGGESFS
+     IPIADSVVVG FHGRAGYYLD ALGIFVQPVP HGTISFGPWG GPAGDDAFNF KVGSWIKDII
+     IYADAAINSI AFKDANGHCY GKFGGQDPND IGVEKKVEID GNLEHLKSIS GTYGNYKGFE
+     VVTSLSFITN VTKHGPFGIA SGTSFSIPIE GSLVTGFHGK SGYYLDSIGI YVKPRDVEGS
+     ISIGPWGGSG GDPWSYTANE GINQIIIYAG SNIKSVAFKD TSGLDSATFG GVNPKDTGEK
+     NTVSINWPSE YLTSISGTYG QYKFKDVFTT ITSLSFTTNL ATYGPFGKAS ATSFSIPIHN
+     NMVVGFHGRA GDYLDAIGIF VKPDTAV
+//

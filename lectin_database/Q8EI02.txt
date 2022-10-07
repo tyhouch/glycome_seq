@@ -1,0 +1,90 @@
+ID   OPGD_SHEON              Reviewed;         540 AA.
+AC   Q8EI02;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   03-JUL-2003, sequence version 2.
+DT   03-AUG-2022, entry version 95.
+DE   RecName: Full=Probable glucans biosynthesis protein D;
+DE   Flags: Precursor;
+GN   Name=opgD; OrderedLocusNames=SO_1051;
+OS   Shewanella oneidensis (strain MR-1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=211586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MR-1;
+RX   PubMed=12368813; DOI=10.1038/nbt749;
+RA   Heidelberg J.F., Paulsen I.T., Nelson K.E., Gaidos E.J., Nelson W.C.,
+RA   Read T.D., Eisen J.A., Seshadri R., Ward N.L., Methe B.A., Clayton R.A.,
+RA   Meyer T., Tsapin A., Scott J., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Dodson R.J., Durkin A.S., Haft D.H., Kolonay J.F., Madupu R.,
+RA   Peterson J.D., Umayam L.A., White O., Wolf A.M., Vamathevan J.J.,
+RA   Weidman J.F., Impraim M., Lee K., Berry K.J., Lee C., Mueller J.,
+RA   Khouri H.M., Gill J., Utterback T.R., McDonald L.A., Feldblyum T.V.,
+RA   Smith H.O., Venter J.C., Nealson K.H., Fraser C.M.;
+RT   "Genome sequence of the dissimilatory metal ion-reducing bacterium
+RT   Shewanella oneidensis.";
+RL   Nat. Biotechnol. 20:1118-1123(2002).
+CC   -!- FUNCTION: Probably involved in the control of the structural glucose
+CC       backbone of osmoregulated periplasmic glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014299; AAN54124.2; -; Genomic_DNA.
+DR   RefSeq; NP_716679.2; NC_004347.2.
+DR   AlphaFoldDB; Q8EI02; -.
+DR   SMR; Q8EI02; -.
+DR   STRING; 211586.SO_1051; -.
+DR   PaxDb; Q8EI02; -.
+DR   KEGG; son:SO_1051; -.
+DR   PATRIC; fig|211586.12.peg.1007; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; DVQFFHV; -.
+DR   OrthoDB; 1049230at2; -.
+DR   PhylomeDB; Q8EI02; -.
+DR   BioCyc; SONE211586:G1GMP-972-MON; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000008186; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0051274; P:beta-glucan biosynthetic process; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01068; MdoD_OpgD; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023724; Glucan_biosyn_MdoD.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..34
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           35..540
+FT                   /note="Probable glucans biosynthesis protein D"
+FT                   /id="PRO_0000020214"
+SQ   SEQUENCE   540 AA;  61245 MW;  E7847541D3292110 CRC64;
+     MPSLEAPSTR SRLQRMVGSV LLTCSVLLSL SACAAGKASA PQEEEFSYAW LKGYAHTLAT
+     ESYVSHKGEL PKSLQGMSWD DYQQFHFKKK AALWREDDSE FRAELFHLGL YFDTPVHIYQ
+     LENGKAKRIE YSPSMFDYGK SKVKGSQLPK DLGFAGFRMQ FNTDWQRDVV AFLGASYFRA
+     VGQEMQYGLS ARGLAVDTAL PKPEEFPMFT RFWLEKPQPG SNIATVYALL DSPSVTGAYR
+     FDIEPGERLK MKVDAAIYPR KAIERLGVAP LTSMFMVGEN DRRTGYDWRQ EIHDSDGLAM
+     HTGNGEWIWR PLGNPSNLRF NAYSDENPKG FGLLQRDRNF DHYQDDGVFY EKRPSLWIEP
+     TGNWGKGSVQ LVEIPTLDET FDNIVAFWNP AEPIQPGQEL LYSYNMYWGG IPPEQSPRAR
+     VVDTFTGIGG VVGQKRKYYS KRFVIDFAGG SLPMLGKDAQ VKAVISTSQG RVEIESARPQ
+     HAINGYRAMF DIVPPEDSVE PINLRVYLEV DGQPLTETWM YQWTPPPMNE RELHNAGHLQ
+//

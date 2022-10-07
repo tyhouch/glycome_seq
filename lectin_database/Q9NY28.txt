@@ -1,0 +1,283 @@
+ID   GALT8_HUMAN             Reviewed;         637 AA.
+AC   Q9NY28; B2RU02;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 155.
+DE   RecName: Full=Probable polypeptide N-acetylgalactosaminyltransferase 8 {ECO:0000305};
+DE            EC=2.4.1.41 {ECO:0000250|UniProtKB:Q9HCQ5};
+DE   AltName: Full=Polypeptide GalNAc transferase 8;
+DE            Short=GalNAc-T8;
+DE            Short=pp-GaNTase 8;
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase 8;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 8;
+GN   Name=GALNT8;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND VARIANTS ASN-53;
+RP   GLY-267; SER-312; VAL-337; GLY-438; PHE-515 AND MET-611.
+RC   TISSUE=Fetal brain;
+RX   PubMed=10767557; DOI=10.1016/s0378-1119(00)00050-0;
+RA   White K.E., Lorenz B., Evans W.E., Meitinger T., Strom T.M., Econs M.J.;
+RT   "Molecular cloning of a novel human UDP-GalNAc:polypeptide N-
+RT   acetylgalactosaminyltransferase, GalNAc-T8, and analysis as a candidate
+RT   autosomal dominant hypophosphatemic rickets (ADHR) gene.";
+RL   Gene 246:347-356(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Probably catalyzes the initial reaction in O-linked
+CC       oligosaccharide biosynthesis, the transfer of an N-acetyl-D-
+CC       galactosamine residue to a serine or threonine residue on the protein
+CC       receptor. {ECO:0000250|UniProtKB:Q9HCQ5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HCQ5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HCQ5};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q10471};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:Q9HCQ5}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q9HCQ5}; Single-pass type II membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed. Expressed in heart, skeletal
+CC       muscle, kidney, liver, small intestine and placenta. Weakly expressed
+CC       in colon, thymus, spleen, lung and leukocyte.
+CC       {ECO:0000269|PubMed:10767557}.
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC       {ECO:0000250|UniProtKB:O08912}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds to GalNAc and contributes
+CC       to the glycopeptide specificity. {ECO:0000250|UniProtKB:Q8N4A0}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - GTase; Note=Probable
+CC       polypeptide N-acetylgalactosaminyltransferase 8;
+CC       URL="http://www.functionalglycomics.org/glycomics/molecule/jsp/glycoEnzyme/viewGlycoEnzyme.jsp?gbpId=gt_hum_490";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ271385; CAB89199.1; -; mRNA.
+DR   EMBL; BC140888; AAI40889.1; -; mRNA.
+DR   EMBL; BC140889; AAI40890.1; -; mRNA.
+DR   CCDS; CCDS8533.1; -.
+DR   RefSeq; NP_059113.1; NM_017417.1.
+DR   AlphaFoldDB; Q9NY28; -.
+DR   SMR; Q9NY28; -.
+DR   BioGRID; 117671; 8.
+DR   IntAct; Q9NY28; 1.
+DR   STRING; 9606.ENSP00000252318; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GT27; Glycosyltransferase Family 27.
+DR   GlyGen; Q9NY28; 3 sites.
+DR   iPTMnet; Q9NY28; -.
+DR   PhosphoSitePlus; Q9NY28; -.
+DR   BioMuta; GALNT8; -.
+DR   DMDM; 51316106; -.
+DR   EPD; Q9NY28; -.
+DR   MassIVE; Q9NY28; -.
+DR   PaxDb; Q9NY28; -.
+DR   PeptideAtlas; Q9NY28; -.
+DR   PRIDE; Q9NY28; -.
+DR   ProteomicsDB; 83157; -.
+DR   Antibodypedia; 2423; 59 antibodies from 12 providers.
+DR   DNASU; 26290; -.
+DR   Ensembl; ENST00000252318.7; ENSP00000252318.2; ENSG00000130035.9.
+DR   GeneID; 26290; -.
+DR   KEGG; hsa:26290; -.
+DR   MANE-Select; ENST00000252318.7; ENSP00000252318.2; NM_017417.2; NP_059113.1.
+DR   UCSC; uc001qne.2; human.
+DR   CTD; 26290; -.
+DR   DisGeNET; 26290; -.
+DR   GeneCards; GALNT8; -.
+DR   HGNC; HGNC:4130; GALNT8.
+DR   HPA; ENSG00000130035; Group enriched (intestine, testis).
+DR   MIM; 606250; gene.
+DR   neXtProt; NX_Q9NY28; -.
+DR   OpenTargets; ENSG00000130035; -.
+DR   PharmGKB; PA28543; -.
+DR   VEuPathDB; HostDB:ENSG00000130035; -.
+DR   eggNOG; KOG3736; Eukaryota.
+DR   GeneTree; ENSGT00940000160161; -.
+DR   HOGENOM; CLU_013477_4_1_1; -.
+DR   InParanoid; Q9NY28; -.
+DR   OMA; GLHIYWD; -.
+DR   OrthoDB; 271144at2759; -.
+DR   PhylomeDB; Q9NY28; -.
+DR   TreeFam; TF352661; -.
+DR   PathwayCommons; Q9NY28; -.
+DR   Reactome; R-HSA-913709; O-linked glycosylation of mucins.
+DR   SignaLink; Q9NY28; -.
+DR   UniPathway; UPA00378; -.
+DR   BioGRID-ORCS; 26290; 7 hits in 1067 CRISPR screens.
+DR   ChiTaRS; GALNT8; human.
+DR   GenomeRNAi; 26290; -.
+DR   Pharos; Q9NY28; Tbio.
+DR   PRO; PR:Q9NY28; -.
+DR   Proteomes; UP000005640; Chromosome 12.
+DR   RNAct; Q9NY28; protein.
+DR   Bgee; ENSG00000130035; Expressed in cortical plate and 156 other tissues.
+DR   ExpressionAtlas; Q9NY28; baseline and differential.
+DR   Genevisible; Q9NY28; HS.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; TAS:Reactome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0016266; P:O-glycan processing; TAS:Reactome.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; IBA:GO_Central.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus; Lectin;
+KW   Manganese; Membrane; Metal-binding; Reference proteome; Signal-anchor;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..637
+FT                   /note="Probable polypeptide N-
+FT                   acetylgalactosaminyltransferase 8"
+FT                   /id="PRO_0000059119"
+FT   TOPO_DOM        1..6
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        7..29
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        30..637
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          496..634
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          180..294
+FT                   /note="Catalytic subdomain A"
+FT   REGION          351..412
+FT                   /note="Catalytic subdomain B"
+FT   BINDING         221
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         255
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         278
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         280
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         409
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         412
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         417
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        85
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        107
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        160
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        171..404
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        395..474
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        509..525
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        556..571
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        599..617
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   VARIANT         53
+FT                   /note="Y -> D (in dbSNP:rs10849133)"
+FT                   /id="VAR_019581"
+FT   VARIANT         53
+FT                   /note="Y -> N (in dbSNP:rs10849133)"
+FT                   /evidence="ECO:0000269|PubMed:10767557"
+FT                   /id="VAR_019582"
+FT   VARIANT         234
+FT                   /note="E -> K (in dbSNP:rs16931676)"
+FT                   /id="VAR_033947"
+FT   VARIANT         267
+FT                   /note="E -> G (in dbSNP:rs34776842)"
+FT                   /evidence="ECO:0000269|PubMed:10767557"
+FT                   /id="VAR_019583"
+FT   VARIANT         312
+FT                   /note="F -> S (in dbSNP:rs34829532)"
+FT                   /evidence="ECO:0000269|PubMed:10767557"
+FT                   /id="VAR_019584"
+FT   VARIANT         337
+FT                   /note="A -> V (in dbSNP:rs199920896)"
+FT                   /evidence="ECO:0000269|PubMed:10767557"
+FT                   /id="VAR_019585"
+FT   VARIANT         438
+FT                   /note="D -> G (in dbSNP:rs559663039)"
+FT                   /evidence="ECO:0000269|PubMed:10767557"
+FT                   /id="VAR_019586"
+FT   VARIANT         515
+FT                   /note="V -> F (in dbSNP:rs1468556)"
+FT                   /evidence="ECO:0000269|PubMed:10767557"
+FT                   /id="VAR_019587"
+FT   VARIANT         611
+FT                   /note="V -> M (in dbSNP:rs34114277)"
+FT                   /evidence="ECO:0000269|PubMed:10767557"
+FT                   /id="VAR_019588"
+FT   VARIANT         630
+FT                   /note="D -> G (in dbSNP:rs16931692)"
+FT                   /id="VAR_049241"
+SQ   SEQUENCE   637 AA;  72851 MW;  4C8BA5DC9A9A1F64 CRC64;
+     MMFWRKLPKA LFIGLTLAIA VNLLLVFSSK GTLQNLFTGG LHRELPLHLN KRYGAVIKRL
+     SHLEVELQDL KESMKLALRQ QENVNSTLKR AKDEVRPLLK AMETKVNETK KHKTQMKLFP
+     HSQLFRQWGE DLSEAQQKAA QDLFRKFGYN AYLSNQLPLN RTIPDTRDYR CLRKTYPSQL
+     PSLSVILIFV NEALSIIQRA ITSIINRTPS RLLKEIILVD DFSSNGELKV HLDEKIKLYN
+     QKYPGLLKII RHPERKGLAQ ARNTGWEAAT ADVVAILDAH IEVNVGWAEP ILARIQEDRT
+     VIVSPVFDNI RFDTFKLDKY ELAVDGFNWE LWCRYDALPQ AWIDLHDVTA PVKSPSIMGI
+     LAANRHFLGE IGSLDGGMLI YGGENVELSL RVWQCGGKVE ILPCSRIAHL ERHHKPYALD
+     LTAALKRNAL RVAEIWMDEH KHMVYLAWNI PLQNSGIDFG DVSSRMALRE KLKCKTFDWY
+     LKNVYPLLKP LHTIVGYGRM KNLLDENVCL DQGPVPGNTP IMYYCHEFSS QNVYYHLTGE
+     LYVGQLIAEA SASDRCLTDP GKAEKPTLEP CSKAAKNRLH IYWDFKPGGA VINRDTKRCL
+     EMKKDLLGSH VLVLQTCSTQ VWEIQHTVRD WGQTNSQ
+//

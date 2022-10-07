@@ -1,0 +1,272 @@
+ID   RGLA_ASPAC              Reviewed;         527 AA.
+AC   Q00019;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 97.
+DE   RecName: Full=Rhamnogalacturonate lyase A;
+DE            EC=4.2.2.23;
+DE   AltName: Full=Rhamnogalacturonan lyase;
+DE   Flags: Precursor;
+GN   Name=rglA; Synonyms=RGL4;
+OS   Aspergillus aculeatus.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=5053;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=KSM 510;
+RX   PubMed=7961884; DOI=10.1016/s0021-9258(19)62028-4;
+RA   Kofod L.V., Kauppinen S., Christgau S., Andersen L.N., Heldt-Hansen H.P.,
+RA   Doerreich K., Dalboege H.;
+RT   "Cloning and characterization of two structurally and functionally
+RT   divergent rhamnogalacturonases from Aspergillus aculeatus.";
+RL   J. Biol. Chem. 269:29182-29189(1994).
+RN   [2]
+RP   CHARACTERIZATION.
+RX   PubMed=8720076; DOI=10.1093/glycob/5.8.783;
+RA   Azadi P., O'Neill M.A., Bergmann C., Darvill A.G., Albersheim P.;
+RT   "The backbone of the pectic polysaccharide rhamnogalacturonan I is cleaved
+RT   by an endohydrolase and an endolyase.";
+RL   Glycobiology 5:783-789(1995).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=8587995; DOI=10.1104/pp.110.1.73;
+RA   Mutter M., Colquhoun I.J., Schols H.A., Beldman G., Voragen A.G.;
+RT   "Rhamnogalacturonase B from Aspergillus aculeatus is a rhamnogalacturonan
+RT   alpha-L-rhamnopyranosyl-(1-->4)-alpha-D-galactopyranosyluronide lyase.";
+RL   Plant Physiol. 110:73-77(1996).
+RN   [4]
+RP   FUNCTION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=9576783; DOI=10.1104/pp.117.1.141;
+RA   Mutter M., Colquhoun I.J., Beldman G., Schols H.A., Bakx E.J.,
+RA   Voragen A.G.;
+RT   "Characterization of recombinant rhamnogalacturonan alpha-L-
+RT   rhamnopyranosyl-(1,4)-alpha-D-galactopyranosyluronide lyase from
+RT   Aspergillus aculeatus. An enzyme that fragments rhamnogalacturonan I
+RT   regions of pectin.";
+RL   Plant Physiol. 117:141-152(1998).
+RN   [5]
+RP   CRYSTALLIZATION.
+RX   PubMed=12136151; DOI=10.1107/s0907444902009137;
+RA   Kadirvelraj R., Harris P., Poulsen J.C., Kauppinen S., Larsen S.;
+RT   "A stepwise optimization of crystals of rhamnogalacturonan lyase from
+RT   Aspergillus aculeatus.";
+RL   Acta Crystallogr. D 58:1346-1349(2002).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.52 ANGSTROMS) OF 20-527, AND DISULFIDE BOND.
+RX   PubMed=15135077; DOI=10.1016/j.febslet.2004.03.094;
+RA   McDonough M.A., Kadirvelraj R., Harris P., Poulsen J.C., Larsen S.;
+RT   "Rhamnogalacturonan lyase reveals a unique three-domain modular structure
+RT   for polysaccharide lyase family 4.";
+RL   FEBS Lett. 565:188-194(2004).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (1.52 ANGSTROMS) OF 20-527 OF MUTANTS ALA-169 AND
+RP   ALA-229, DISULFIDE BOND, AND FUNCTION.
+RX   PubMed=20851126; DOI=10.1016/j.jmb.2010.09.013;
+RA   Jensen M.H., Otten H., Christensen U., Borchert T.V., Christensen L.L.,
+RA   Larsen S., Leggio L.L.;
+RT   "Structural and biochemical studies elucidate the mechanism of
+RT   rhamnogalacturonan lyase from Aspergillus aculeatus.";
+RL   J. Mol. Biol. 404:100-111(2010).
+CC   -!- FUNCTION: Pectinolytic enzyme that has a positive effect in the apple
+CC       hot-mash liquefaction process. This endolyase hydrolyzes the alpha-L-
+CC       rhamnopyranosyl-(1,4)-alpha-D-galacturonopyranosyl glycosidic linkage
+CC       by beta-elimination, thereby generating oligosaccharides terminating at
+CC       the non-reducing end with a hex-4-enopyranosyluronic acid residue.
+CC       {ECO:0000269|PubMed:20851126, ECO:0000269|PubMed:8587995,
+CC       ECO:0000269|PubMed:9576783}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endotype eliminative cleavage of L-alpha-rhamnopyranosyl-
+CC         (1->4)-alpha-D-galactopyranosyluronic acid bonds of
+CC         rhamnogalacturonan I domains in ramified hairy regions of pectin
+CC         leaving L-rhamnopyranose at the reducing end and 4-deoxy-4,5-
+CC         unsaturated D-galactopyranosyluronic acid at the non-reducing end.;
+CC         EC=4.2.2.23;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.0, enzymatic activity becomes unstable below this
+CC         value. {ECO:0000269|PubMed:9576783};
+CC       Temperature dependence:
+CC         Optimum temperature is 50 degrees Celsius.
+CC         {ECO:0000269|PubMed:9576783};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 4 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L35500; AAA64368.1; -; mRNA.
+DR   PIR; B55415; B55415.
+DR   PDB; 1NKG; X-ray; 1.50 A; A=20-527.
+DR   PDB; 2XHN; X-ray; 1.52 A; A/B=20-527.
+DR   PDB; 3NJV; X-ray; 2.40 A; A=20-527.
+DR   PDB; 3NJX; X-ray; 1.94 A; A=20-527.
+DR   PDBsum; 1NKG; -.
+DR   PDBsum; 2XHN; -.
+DR   PDBsum; 3NJV; -.
+DR   PDBsum; 3NJX; -.
+DR   AlphaFoldDB; Q00019; -.
+DR   SMR; Q00019; -.
+DR   CAZy; PL4; Polysaccharide Lyase Family 4.
+DR   KEGG; ag:AAA64368; -.
+DR   VEuPathDB; FungiDB:ASPACDRAFT_35293; -.
+DR   BioCyc; MetaCyc:MON-16403; -.
+DR   BRENDA; 4.2.2.23; 488.
+DR   EvolutionaryTrace; Q00019; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0102210; F:rhamnogalacturonan endolyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd10316; RGL4_M; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR029413; RG-lyase_II.
+DR   InterPro; IPR029411; RG-lyase_III.
+DR   InterPro; IPR016590; Rhamnogalacturonase_B.
+DR   InterPro; IPR015364; RhgB_N.
+DR   PANTHER; PTHR36574; PTHR36574; 1.
+DR   Pfam; PF14683; CBM-like; 1.
+DR   Pfam; PF14686; fn3_3; 1.
+DR   Pfam; PF09284; RhgB_N; 1.
+DR   PIRSF; PIRSF011794; Rhamnogalacturonase_B; 1.
+DR   SUPFAM; SSF49452; SSF49452; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cell wall biogenesis/degradation;
+KW   Disulfide bond; Glycoprotein; Lyase; Polysaccharide degradation; Secreted;
+KW   Signal.
+FT   SIGNAL          1..19
+FT   CHAIN           20..527
+FT                   /note="Rhamnogalacturonate lyase A"
+FT                   /id="PRO_0000024912"
+FT   CARBOHYD        350
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        49..92
+FT   DISULFID        183..192
+FT   MUTAGEN         169
+FT                   /note="K->A: Impairs enzyme activity."
+FT   MUTAGEN         229
+FT                   /note="H->A: Impairs enzyme activity."
+FT   STRAND          22..25
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          27..33
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          40..45
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   TURN            46..48
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          51..56
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          64..66
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          68..70
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          78..84
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          87..93
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          95..104
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          109..118
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          125..131
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   TURN            133..135
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          138..140
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           143..146
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          152..155
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   TURN            156..158
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          159..162
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          165..168
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           169..172
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           176..178
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          180..185
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          190..194
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          212..214
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          219..226
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          238..250
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           260..264
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           273..275
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          277..286
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          292..297
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          302..306
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          312..314
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          320..329
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          332..341
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          346..348
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          359..365
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          367..370
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           377..380
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          397..399
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   TURN            400..402
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           405..407
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          408..413
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   TURN            414..416
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          420..426
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           428..430
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          434..444
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          448..453
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           472..474
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          483..488
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          495..505
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   HELIX           512..514
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+FT   STRAND          515..526
+FT                   /evidence="ECO:0007829|PDB:1NKG"
+SQ   SEQUENCE   527 AA;  56190 MW;  B0E14412E5CDC080 CRC64;
+     MLKASLLSFV AFTAQVAHAA FGITTSSSAY VIDTNAPNQL KFTVSRSSCD ITSIIHYGTE
+     LQYSSQGSHI GSGLGSATVT ATQSGDYIKV TCVTDTLTQY MVVHNGDPII HMATYITAEP
+     SIGELRFIAR LNSDLLPNEE PFGDVSTTAD GTAIEGSDVF LVGSETRSKF YSSERFIDDQ
+     RHCIAGDAHR VCMILNQYES SSGGPFHRDI NSNNGGSYNA LYWYMNSGHV QTESYRMGLH
+     GPYSMYFSRS GTPSTSIDTS FFADLDIKGY VAASGRGKVA GTASGADSSM DWVVHWYNDA
+     AQYWTYTSSS GSFTSPAMKP GTYTMVYYQG EYAVATSSVT VSAGSTTTKN ISGSVKTGTT
+     IFKIGEWDGQ PTGFRNAANQ LRMHPSDSRM SSWGPLTYTV GSSALTDFPM AVFKSVNNPV
+     TIKFTATSAQ TGAATLRIGT TLSFAGGRPQ ATINSYTGSA PAAPTNLDSR GVTRGAYRGL
+     GEVYDVSIPS GTIVAGTNTI TINVISGSSG DTYLSPNFIF DCVELFQ
+//

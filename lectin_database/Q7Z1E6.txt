@@ -1,0 +1,223 @@
+ID   CALR_BOMMO              Reviewed;         398 AA.
+AC   Q7Z1E6; P82199; Q869E0;
+DT   06-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   03-AUG-2022, entry version 86.
+DE   RecName: Full=Calreticulin;
+DE   Flags: Precursor;
+GN   Name=crt {ECO:0000312|EMBL:BAC57964.1};
+OS   Bombyx mori (Silk moth).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Lepidoptera; Glossata; Ditrysia; Bombycoidea;
+OC   Bombycidae; Bombycinae; Bombyx.
+OX   NCBI_TaxID=7091;
+RN   [1] {ECO:0000312|EMBL:AAP50845.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RA   Kim S.R., Lee K.S., Kim I., Kang S.W., Nho S.K., Sohn H.D., Jin B.R.;
+RT   "Molecular cloning of a cDNA encoding putative calreticulin from the
+RT   silkworm, Bombyx mori.";
+RL   Int. J. Ind. Entomol. 6:93-97(2003).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:AAP50845.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=16172913; DOI=10.1007/s11033-004-5908-7;
+RA   Goo T.W., Park S., Jin B.R., Yun E.Y., Kim I., Nho S.-K., Kang S.-W.,
+RA   Kwon O.-Y.;
+RT   "Endoplasmic reticulum stress response of Bombyx mori calreticulin.";
+RL   Mol. Biol. Rep. 32:133-139(2005).
+RN   [3] {ECO:0000312|EMBL:BAC57964.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=p50T; TISSUE=Fat body {ECO:0000312|EMBL:BAC57964.1};
+RA   Takahashi T., Yamashita T.;
+RL   Submitted (AUG-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [4] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 20-49.
+RC   STRAIN=Xinhang X Keming {ECO:0000269|PubMed:11280994};
+RC   TISSUE=Body wall {ECO:0000269|PubMed:11280994}, and Fat body
+RC   {ECO:0000269|PubMed:11280994};
+RX   PubMed=11280994;
+RA   Zhong B.-X.;
+RT   "Protein database for several tissues derived from five instar of
+RT   silkworm.";
+RL   Yi Chuan Xue Bao 28:217-224(2001).
+CC   -!- FUNCTION: Molecular calcium-binding chaperone promoting folding,
+CC       oligomeric assembly and quality control in the ER via the
+CC       calreticulin/calnexin cycle. This lectin may interact transiently with
+CC       almost all of the monoglucosylated glycoproteins that are synthesized
+CC       in the ER (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:P27797}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen.
+CC   -!- TISSUE SPECIFICITY: Expressed in fat bodies. Not expressed in midgut,
+CC       silk gland, ovary or testis. {ECO:0000269|PubMed:16172913,
+CC       ECO:0000269|Ref.1}.
+CC   -!- INDUCTION: Induced by disturbances in intracellular calcium levels
+CC       caused by the chelators BAPTA-AM and EDTA, the endoplasmic reticulum
+CC       calcium-ATPase inhibitor thapsigargin and by calcium. Not induced by
+CC       the endoplasmic reticulum stress-inducing drugs brefeldin A, DTT and
+CC       tunicamycin, or by heat stress and hydrogen peroxide.
+CC       {ECO:0000269|PubMed:16172913}.
+CC   -!- DOMAIN: Can be divided into a N-terminal globular domain, a proline-
+CC       rich P-domain forming an elongated arm-like structure and a C-terminal
+CC       acidic domain. The P-domain binds one molecule of calcium with high
+CC       affinity, whereas the acidic C-domain binds multiple calcium ions with
+CC       low affinity (By similarity). {ECO:0000250|UniProtKB:P27797}.
+CC   -!- DOMAIN: The interaction with glycans occurs through a binding site in
+CC       the globular lectin domain. {ECO:0000250|UniProtKB:P27797}.
+CC   -!- DOMAIN: The zinc binding sites are localized to the N-domain.
+CC       {ECO:0000250|UniProtKB:P27797}.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY297158; AAP50845.1; -; mRNA.
+DR   EMBL; AB090887; BAC57964.1; -; mRNA.
+DR   RefSeq; NP_001037075.1; NM_001043610.1.
+DR   AlphaFoldDB; Q7Z1E6; -.
+DR   SMR; Q7Z1E6; -.
+DR   STRING; 7091.BGIBMGA000475-TA; -.
+DR   PRIDE; Q7Z1E6; -.
+DR   GeneID; 692629; -.
+DR   KEGG; bmor:692629; -.
+DR   CTD; 45841; -.
+DR   eggNOG; KOG0674; Eukaryota.
+DR   HOGENOM; CLU_018224_0_2_1; -.
+DR   InParanoid; Q7Z1E6; -.
+DR   OrthoDB; 822188at2759; -.
+DR   Proteomes; UP000005204; Unassembled WGS sequence.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:InterPro.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009169; Calreticulin.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 2.
+DR   PIRSF; PIRSF002356; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 3.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Chaperone; Direct protein sequencing; Disulfide bond;
+KW   Endoplasmic reticulum; Lectin; Metal-binding; Reference proteome; Repeat;
+KW   Signal; Zinc.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..398
+FT                   /note="Calreticulin"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000279696"
+FT   REPEAT          191..202
+FT                   /note="1-1"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          210..221
+FT                   /note="1-2"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          227..238
+FT                   /note="1-3"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          244..255
+FT                   /note="1-4"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          259..269
+FT                   /note="2-1"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          273..283
+FT                   /note="2-2"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          287..297
+FT                   /note="2-3"
+FT                   /evidence="ECO:0000255"
+FT   REGION          20..197
+FT                   /note="N-domain"
+FT                   /evidence="ECO:0000255"
+FT   REGION          191..255
+FT                   /note="4 X approximate repeats"
+FT                   /evidence="ECO:0000255"
+FT   REGION          198..308
+FT                   /note="P-domain"
+FT                   /evidence="ECO:0000255"
+FT   REGION          207..257
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          259..297
+FT                   /note="3 X approximate repeats"
+FT                   /evidence="ECO:0000255"
+FT   REGION          309..398
+FT                   /note="C-domain"
+FT                   /evidence="ECO:0000255"
+FT   REGION          334..398
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           395..398
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        207..248
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        334..372
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        373..398
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         109
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         111
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         128
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         135
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         317
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   DISULFID        105..137
+FT                   /evidence="ECO:0000250|UniProtKB:P27797"
+FT   CONFLICT        36
+FT                   /note="W -> K (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        41
+FT                   /note="H -> A (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        45
+FT                   /note="E -> D (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        47
+FT                   /note="G -> E (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        49
+FT                   /note="F -> K (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        205
+FT                   /note="N -> P (in Ref. 3; BAC57964)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        285
+FT                   /note="Y -> F (in Ref. 3; BAC57964)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   398 AA;  45802 MW;  0BC049839F5950EA CRC64;
+     MKAVVLVVVS LLALSSINCD VFFEEKFPDD SWESNWVYSE HPGKEFGKFK LTAGKFFSDP
+     EDDKGLKTSE DARFYALSRK FKPFSNEGKP LVVQFTVKHE QDIDCGGGYL KVFDCKLEQK
+     DMHGETPYEI MFGPDICGPG TKKVHVIFSY KGKNHLIKKD IRCKDDVYTH LYTLIVKPDN
+     TYEVLIDNEK VESGDLEADW DFLPNKKIKD PEAKKPEDWD DKPTIPDPED KKPEDWDKPE
+     HIPDPDATKP EDWDDEMDGE WEPPMIDNPD YKGVWAPKQI DNPAYKGPWV HPEIDNPEYT
+     PDSNLYKRDE ICAVGLDLWQ VKSGTIFDDF LITDDPAAAK ERGEVIKKRQ EGEKKMKSEQ
+     DEAEREKEKA EKPDDEEDDE DLDDETGDAA PVEEHDEL
+//

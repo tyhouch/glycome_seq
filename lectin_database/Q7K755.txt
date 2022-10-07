@@ -1,0 +1,219 @@
+ID   GLT11_CAEEL             Reviewed;         605 AA.
+AC   Q7K755; Q9XW72;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2004, sequence version 2.
+DT   03-AUG-2022, entry version 132.
+DE   RecName: Full=Putative polypeptide N-acetylgalactosaminyltransferase 11;
+DE            Short=pp-GaNTase 11;
+DE            EC=2.4.1.41;
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase 11;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 11;
+GN   Name=gly-11; ORFNames=Y75B8A.9;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND ALTERNATIVE SPLICING.
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+CC   -!- FUNCTION: May catalyze the initial reaction in O-linked oligosaccharide
+CC       biosynthesis, the transfer of an N-acetyl-D-galactosamine residue to a
+CC       serine or threonine residue on the protein receptor. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000250}; Single-
+CC       pass type II membrane protein {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=a;
+CC         IsoId=Q7K755-1; Sequence=Displayed;
+CC       Name=b;
+CC         IsoId=Q7K755-2; Sequence=VSP_011242, VSP_011243;
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds to GalNAc and contributes
+CC       to the glycopeptide specificity. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL033514; CAA22098.1; -; Genomic_DNA.
+DR   EMBL; AL033514; CAE47472.1; -; Genomic_DNA.
+DR   PIR; T27397; T27397.
+DR   RefSeq; NP_001022948.1; NM_001027777.3. [Q7K755-1]
+DR   RefSeq; NP_001022949.1; NM_001027778.3. [Q7K755-2]
+DR   AlphaFoldDB; Q7K755; -.
+DR   SMR; Q7K755; -.
+DR   BioGRID; 41826; 3.
+DR   STRING; 6239.Y75B8A.9a; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GT27; Glycosyltransferase Family 27.
+DR   iPTMnet; Q7K755; -.
+DR   EPD; Q7K755; -.
+DR   PaxDb; Q7K755; -.
+DR   PeptideAtlas; Q7K755; -.
+DR   PRIDE; Q7K755; -.
+DR   EnsemblMetazoa; Y75B8A.9a.1; Y75B8A.9a.1; WBGene00001636. [Q7K755-1]
+DR   EnsemblMetazoa; Y75B8A.9b.1; Y75B8A.9b.1; WBGene00001636. [Q7K755-2]
+DR   GeneID; 176647; -.
+DR   KEGG; cel:CELE_Y75B8A.9; -.
+DR   UCSC; Y75B8A.9a; c. elegans. [Q7K755-1]
+DR   CTD; 176647; -.
+DR   WormBase; Y75B8A.9a; CE23021; WBGene00001636; gly-11. [Q7K755-1]
+DR   WormBase; Y75B8A.9b; CE35810; WBGene00001636; gly-11. [Q7K755-2]
+DR   eggNOG; KOG3736; Eukaryota.
+DR   GeneTree; ENSGT00940000165841; -.
+DR   InParanoid; Q7K755; -.
+DR   OMA; CHNQGAH; -.
+DR   OrthoDB; 606683at2759; -.
+DR   PhylomeDB; Q7K755; -.
+DR   Reactome; R-CEL-913709; O-linked glycosylation of mucins.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q7K755; -.
+DR   Proteomes; UP000001940; Chromosome III.
+DR   Bgee; WBGene00001636; Expressed in pharyngeal muscle cell (C elegans) and 3 other tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005112; F:Notch binding; IBA:GO_Central.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; IBA:GO_Central.
+DR   GO; GO:0008593; P:regulation of Notch signaling pathway; IBA:GO_Central.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR027791; Galactosyl_T_C.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF02709; Glyco_transf_7C; 1.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Alternative splicing; Disulfide bond; Glycoprotein; Glycosyltransferase;
+KW   Golgi apparatus; Lectin; Manganese; Membrane; Metal-binding;
+KW   Reference proteome; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..605
+FT                   /note="Putative polypeptide N-
+FT                   acetylgalactosaminyltransferase 11"
+FT                   /id="PRO_0000059154"
+FT   TOPO_DOM        1..11
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        12..29
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        30..605
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          481..605
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          49..87
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          158..271
+FT                   /note="Catalytic subdomain A"
+FT   REGION          329..391
+FT                   /note="Catalytic subdomain B"
+FT   COMPBIAS        49..64
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         199
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         255
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         256
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         257
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         360
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         388
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         391
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         396
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        205
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        490
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        149..383
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        374..450
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        494..515
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        541..553
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        578..594
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   VAR_SEQ         436
+FT                   /note="G -> V (in isoform b)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_011242"
+FT   VAR_SEQ         437..605
+FT                   /note="Missing (in isoform b)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_011243"
+SQ   SEQUENCE   605 AA;  69597 MW;  F84C132FA794C661 CRC64;
+     MLLLWRRKTV GLICLFSILL TIYLYVSMYP EDNERVWNSG NADIQRKHEK LNNGGQGRHD
+     FDDDEGAEKD EEDAVEKQNI AAPPLPKSFT TFPDRSKEIE IDTDLLGKIN GKAEDDLQVE
+     GYKKYQFNGL LSDRIGSRRK IKDSRNARCS SLTYSDSLPA ASIVVCYFNE SPSVLIRMVN
+     SIFDRTKPEH LHEILLVDDS SEWSNATDEA IKYREKHIIQ WEKVKFLKTD KNEGLIRAKI
+     FGARRANGEV LVFLDSHCEV NEEWLPPLLD QIKQNRRRVV CPIIDIIDAI TMKYVESPVC
+     TGGVNWAMTF KWDYPHRSYF EDPMNYVNPL KSPTMAGGLF AIDKEYFFEI GSYDEGMDVW
+     GAENVEISVR IWTCGGELLI MPCSRVGHIF RRQRPYGIKT DSMGKNSVRL ARVWLDEYLE
+     NFFEARPNYR TFTDYGDLTS RISLRRNLQC KPFKWYLENI YPELLPDNTP NQLNNQILVA
+     GKKYLIKMAN GTHCLSAENS QGRIANGNRV EMRKCNHMER MQQWKYSSTN ELRPMGSSRM
+     CLDSLRGISV ILCHNQGAHQ MWQVSNAGKL YSRSVNKCAT GSNDVSALST LKFCSLANSF
+     QFVEL
+//

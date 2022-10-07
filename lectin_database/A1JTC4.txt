@@ -1,0 +1,185 @@
+ID   BGAL_YERE8              Reviewed;        1050 AA.
+AC   A1JTC4;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   03-AUG-2022, entry version 82.
+DE   RecName: Full=Beta-galactosidase {ECO:0000255|HAMAP-Rule:MF_01687};
+DE            Short=Beta-gal {ECO:0000255|HAMAP-Rule:MF_01687};
+DE            EC=3.2.1.23 {ECO:0000255|HAMAP-Rule:MF_01687};
+DE   AltName: Full=Lactase {ECO:0000255|HAMAP-Rule:MF_01687};
+GN   Name=lacZ {ECO:0000255|HAMAP-Rule:MF_01687}; OrderedLocusNames=YE2592;
+OS   Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 /
+OS   8081).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=393305;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 13174 / 8081;
+RX   PubMed=17173484; DOI=10.1371/journal.pgen.0020206;
+RA   Thomson N.R., Howard S., Wren B.W., Holden M.T.G., Crossman L.,
+RA   Challis G.L., Churcher C., Mungall K., Brooks K., Chillingworth T.,
+RA   Feltwell T., Abdellah Z., Hauser H., Jagels K., Maddison M., Moule S.,
+RA   Sanders M., Whitehead S., Quail M.A., Dougan G., Parkhill J.,
+RA   Prentice M.B.;
+RT   "The complete genome sequence and comparative genome analysis of the high
+RT   pathogenicity Yersinia enterocolitica strain 8081.";
+RL   PLoS Genet. 2:2039-2051(2006).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01687};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01687};
+CC       Note=Binds 2 magnesium ions per monomer. {ECO:0000255|HAMAP-
+CC       Rule:MF_01687};
+CC   -!- COFACTOR:
+CC       Name=Na(+); Xref=ChEBI:CHEBI:29101; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01687};
+CC       Note=Binds 1 sodium ion per monomer. {ECO:0000255|HAMAP-Rule:MF_01687};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01687}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01687}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM286415; CAL12630.1; -; Genomic_DNA.
+DR   RefSeq; WP_011816626.1; NC_008800.1.
+DR   RefSeq; YP_001006792.1; NC_008800.1.
+DR   AlphaFoldDB; A1JTC4; -.
+DR   SMR; A1JTC4; -.
+DR   STRING; 393305.YE2592; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   PRIDE; A1JTC4; -.
+DR   EnsemblBacteria; CAL12630; CAL12630; YE2592.
+DR   KEGG; yen:YE2592; -.
+DR   PATRIC; fig|393305.7.peg.2750; -.
+DR   eggNOG; COG3250; Bacteria.
+DR   HOGENOM; CLU_002346_0_2_6; -.
+DR   OMA; SNWQLQG; -.
+DR   Proteomes; UP000000642; Chromosome.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IEA:InterPro.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01687; Beta_gal; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR023933; Glyco_hydro_2_beta_Galsidase.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase; Hydrolase; Magnesium; Metal-binding; Sodium.
+FT   CHAIN           1..1050
+FT                   /note="Beta-galactosidase"
+FT                   /id="PRO_0000367014"
+FT   ACT_SITE        477
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   ACT_SITE        553
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         110
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         209
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         209
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         432
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         434
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         477
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         477
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         553..556
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         613
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         617
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         620
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         620
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   BINDING         1023
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   SITE            373
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+FT   SITE            407
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01687"
+SQ   SEQUENCE   1050 AA;  121234 MW;  86889BDB17379594 CRC64;
+     MTAQQEVKPQ ATPALSQILF RRDWENPQIT QYNRLEAHPP FYSWRHLDAA QNDTPSPQRQ
+     LLNGQWSFSY FTQPESVPDE WVEHDLPEAI SMPVPSNWQL HGYDIPIYTN VQYPIPVDPP
+     RVPQNNPTGC YSYNFTLEPD WILSGQTRII FDGVNSAFYL WCNGRWVGYS QDSRLPAEFD
+     LTPYLKAGNN RIAVLVLRWS DGSYLEDQDM WRMSGIFRDV SLLHKPDIHL RDIHISTHLS
+     PEFSSAHLEV MAAVNIPLLD INNSQVTKAY QIQVQLWLAD SLVASLRQPL GTQPIDERGH
+     YTDRTHLSLR VEHPLLWSAE QPALYRTVVS LLDSQQKLIE AEAYDVGFRQ VAIHQGLLKI
+     NGKAVLIRGV NRHEHHPQTG QAIDEESMLQ DIILMKQHNF NAVRCSHYPN HPLWYRLCDR
+     YGLYVVDEAN IETHGMQPMR RLADDPQWFS AFSERVTRMV QRDRNHPCII IWSLGNESGH
+     GATHDALYRW IKTNDPTRPV QYEGGGANTQ ATDIVCPMYA RVDEDQPFPA VPKWAIKKWI
+     GLPNESRPLI LCEYAHAMGN SFGGFARYWQ AFRQYPRLQG GFVWDWVDQS LTRNDENGQP
+     YWAYGGDFGD SPNDRQFCMN GLVFPDRTPH PCLYEAQCAQ QFFQFSLVST SPLIIKVTSE
+     YLFRNSDNEH LYWRIELAGK SVLEGSFPLD LLPESTQQFS LTERLPAICG PGDLWLNVEV
+     RQVEETPWSP SHHRCAWFQW RLPHSLAVLS RGLSDSATSN NLKLHQDIQH ITVTHQQQHW
+     QFNRQTGLLE QWCVGGENRL LTPLRDQFVR APLDNDIGIS ETTRIDPNAW VERWKKAGIY
+     QLEQRCLSLH ADTLSQAIQI SAEYIYEFAQ EQLLHTHWLY RFDQQGHMTI DVRVQIATSL
+     PSLARVGMCC QLSDIYENVE WLGLGPHENY PDRQLSAQHS HWSQPLDQMH TPYIFPSENG
+     LRCNTSMLSY GNWQLTGQFH FGISRYSTQQ LMAASHQHLL RSEAGTWLNI DGFHMGVGGD
+     DSWSPSVHAD NLLTNEIYQY QVCWQYKDSI
+//

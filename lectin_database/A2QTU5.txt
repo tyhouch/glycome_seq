@@ -1,0 +1,296 @@
+ID   XYLA_ASPNC              Reviewed;         736 AA.
+AC   A2QTU5;
+DT   01-APR-2015, integrated into UniProtKB/Swiss-Prot.
+DT   06-MAR-2007, sequence version 1.
+DT   25-MAY-2022, entry version 75.
+DE   RecName: Full=Alpha-xylosidase A {ECO:0000303|PubMed:22033931};
+DE            EC=3.2.1.177 {ECO:0000269|PubMed:22033931};
+DE   Flags: Precursor;
+GN   Name=axlA {ECO:0000303|PubMed:22033931}; ORFNames=An09g03300;
+OS   Aspergillus niger (strain CBS 513.88 / FGSC A1513).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=425011;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CBS 513.88 / FGSC A1513 / ATCC MYA-4892;
+RX   PubMed=17259976; DOI=10.1038/nbt1282;
+RA   Pel H.J., de Winde J.H., Archer D.B., Dyer P.S., Hofmann G., Schaap P.J.,
+RA   Turner G., de Vries R.P., Albang R., Albermann K., Andersen M.R.,
+RA   Bendtsen J.D., Benen J.A.E., van den Berg M., Breestraat S., Caddick M.X.,
+RA   Contreras R., Cornell M., Coutinho P.M., Danchin E.G.J., Debets A.J.M.,
+RA   Dekker P., van Dijck P.W.M., van Dijk A., Dijkhuizen L., Driessen A.J.M.,
+RA   d'Enfert C., Geysens S., Goosen C., Groot G.S.P., de Groot P.W.J.,
+RA   Guillemette T., Henrissat B., Herweijer M., van den Hombergh J.P.T.W.,
+RA   van den Hondel C.A.M.J.J., van der Heijden R.T.J.M., van der Kaaij R.M.,
+RA   Klis F.M., Kools H.J., Kubicek C.P., van Kuyk P.A., Lauber J., Lu X.,
+RA   van der Maarel M.J.E.C., Meulenberg R., Menke H., Mortimer M.A.,
+RA   Nielsen J., Oliver S.G., Olsthoorn M., Pal K., van Peij N.N.M.E.,
+RA   Ram A.F.J., Rinas U., Roubos J.A., Sagt C.M.J., Schmoll M., Sun J.,
+RA   Ussery D., Varga J., Vervecken W., van de Vondervoort P.J.J., Wedler H.,
+RA   Woesten H.A.B., Zeng A.-P., van Ooyen A.J.J., Visser J., Stam H.;
+RT   "Genome sequencing and analysis of the versatile cell factory Aspergillus
+RT   niger CBS 513.88.";
+RL   Nat. Biotechnol. 25:221-231(2007).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=22033931; DOI=10.1074/jbc.m111.307397;
+RA   Scott-Craig J.S., Borrusch M.S., Banerjee G., Harvey C.M., Walton J.D.;
+RT   "Biochemical and molecular characterization of secreted alpha-xylosidase
+RT   from Aspergillus niger.";
+RL   J. Biol. Chem. 286:42848-42854(2011).
+CC   -!- FUNCTION: Catalyzes the liberation of alpha-xylose from the non-
+CC       reducing terminal glucose of xyloglucan oligosaccharides.
+CC       {ECO:0000269|PubMed:22033931}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-xylose residues
+CC         with release of alpha-D-xylose.; EC=3.2.1.177;
+CC         Evidence={ECO:0000269|PubMed:22033931};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.68 mM for isoprimeverose {ECO:0000269|PubMed:22033931};
+CC         KM=9.78 mM for pNP-alpha-D-xyloside {ECO:0000269|PubMed:22033931};
+CC       pH dependence:
+CC         Optimum pH is 3.0-4.0. {ECO:0000269|PubMed:22033931};
+CC       Temperature dependence:
+CC         Optimum temperature is 55 degrees Celsius.
+CC         {ECO:0000269|PubMed:22033931};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:22033931}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM270197; CAK40270.1; -; Genomic_DNA.
+DR   RefSeq; XP_001393647.1; XM_001393610.1.
+DR   PDB; 6DRU; X-ray; 2.70 A; A/B=19-736.
+DR   PDBsum; 6DRU; -.
+DR   AlphaFoldDB; A2QTU5; -.
+DR   SMR; A2QTU5; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   CLAE; AXL31A_ASPNG; -.
+DR   PaxDb; A2QTU5; -.
+DR   PRIDE; A2QTU5; -.
+DR   EnsemblFungi; CAK40270; CAK40270; An09g03300.
+DR   GeneID; 4983866; -.
+DR   KEGG; ang:ANI_1_1306084; -.
+DR   VEuPathDB; FungiDB:An09g03300; -.
+DR   HOGENOM; CLU_000631_7_3_1; -.
+DR   Proteomes; UP000006706; Chromosome 1L.
+DR   GO; GO:0005576; C:extracellular region; IDA:AspGD.
+DR   GO; GO:0016020; C:membrane; IDA:AspGD.
+DR   GO; GO:0061634; F:alpha-D-xyloside xylohydrolase; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IDA:AspGD.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycoprotein; Glycosidase; Hydrolase; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..736
+FT                   /note="Alpha-xylosidase A"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5000220438"
+FT   ACT_SITE        413
+FT                   /evidence="ECO:0000250|UniProtKB:P31434"
+FT   ACT_SITE        505
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P31434"
+FT   CARBOHYD        24
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        279
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        332
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        376
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        471
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        655
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        676
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        690
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        701
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   STRAND          28..32
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          35..41
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          46..55
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          70..73
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          83..86
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          88..90
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          92..96
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          99..104
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          112..114
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          116..120
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          126..132
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          136..138
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          141..145
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          148..151
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          153..160
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          167..172
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          174..176
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          184..186
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          193..201
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   TURN            202..204
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          205..209
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          215..219
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          221..232
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          234..240
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           246..257
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           265..268
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          269..272
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           280..292
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          298..302
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          307..309
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   TURN            317..319
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           323..334
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          337..342
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          344..346
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           353..358
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          364..369
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          373..375
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          378..383
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           388..401
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           403..405
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          409..412
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          416..426
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           431..435
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           450..453
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           454..456
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           457..473
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          485..488
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           494..496
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          497..502
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          507..509
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           510..526
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   TURN            545..548
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           553..566
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          569..574
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          585..587
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   TURN            597..599
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           600..612
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           614..627
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          631..633
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           636..639
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   TURN            640..642
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           646..651
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           655..658
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          661..663
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   TURN            664..666
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          667..669
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          674..676
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          678..684
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          695..697
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   TURN            698..700
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          706..713
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   STRAND          721..725
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+FT   HELIX           727..730
+FT                   /evidence="ECO:0007829|PDB:6DRU"
+SQ   SEQUENCE   736 AA;  82593 MW;  0AA2256B6288F48A CRC64;
+     MYFSSFLALG ALVQAAAATY FAPNSTGLRI QHGFETILIQ PFGYDGFRVR AWPFRPPSGN
+     EISFIYDPPI EGYEDTAHGM SYDTATTGTE PRTLRNGNII LRTTGWGGTT AGYRLSFYRV
+     NDDGSETLLT NEYAPLKSLN PRYYYWPGPG AEFSAEFSFS ATPDEQIYGT GTQQDHMINK
+     KGSVIDMVNF NSYIPTPVFM SNKGYAFIWN MPAEGRMEFG TLRTRFTAAS TTLVDYVIVA
+     AQPGDYDTLQ QRISALTGRA PAPPDFSLGY IQSKLRYENQ TEVELLAQNF HDRNIPVSMI
+     VIDYQSWAHQ GDWALDPRLW PNVAQMSARV KNLTGAEMMA SLWPSVADDS VNYAALQANG
+     LLSATRDGPG TTDSWNGSYI RNYDSTNPSA RKFLWSMLKK NYYDKGIKNF WIDQADGGAL
+     GEAYENNGQS TYIESIPFTL PNVNYAAGTQ LSVGKLYPWA HQQAIEEGFR NATDTKEGSA
+     CDHVSLSRSG YIGSQRFCSM IWSGDTTSVW DTLAVQVASG LSAAATGWGW WTVDAGGFEV
+     DSTVWWSGNI DTPEYRELYV RWLAWTTFLP FMRTHGSRTC YFQDAYTCAN EPWSYGASNT
+     PIIVSYIHLR YQLGAYLKSI FNQFHLTGRS IMRPLYMDFE KTDPKISQLV SSNSNYTTQQ
+     YMFGPRLLVS PVTLPNVTEW PVYLPQTGQN NTKPWTYWWT NETYAGGQVV KVPAPLQHIP
+     VFHLGSREEL LSGNVF
+//

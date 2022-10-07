@@ -1,0 +1,90 @@
+ID   TXLB1_CYRSC             Reviewed;          83 AA.
+AC   B3FIS6;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   22-JUL-2008, sequence version 1.
+DT   25-MAY-2022, entry version 37.
+DE   RecName: Full=U5-theraphotoxin-Hs1b 1 {ECO:0000305};
+DE            Short=U5-TRTX-Hs1b {ECO:0000305};
+DE   AltName: Full=Lectin SHL-Ib1 {ECO:0000303|PubMed:18482741};
+DE   Flags: Precursor;
+OS   Cyriopagopus schmidti (Chinese bird spider) (Haplopelma schmidti).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida; Araneae;
+OC   Mygalomorphae; Theraphosidae; Cyriopagopus.
+OX   NCBI_TaxID=29017;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Venom gland;
+RX   PubMed=18482741; DOI=10.1016/j.toxicon.2008.03.024;
+RA   Jiang L., Peng L., Chen J., Zhang Y., Xiong X., Liang S.;
+RT   "Molecular diversification based on analysis of expressed sequence tags
+RT   from the venom glands of the Chinese bird spider Ornithoctonus huwena.";
+RL   Toxicon 51:1479-1489(2008).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.89 ANGSTROMS) OF 50-81, FUNCTION, SYNTHESIS OF
+RP   50-81, AND DISULFIDE BONDS.
+RX   PubMed=29483648; DOI=10.1038/s41594-018-0033-9;
+RA   Correnti C.E., Gewe M.M., Mehlin C., Bandaranayake A.D., Johnsen W.A.,
+RA   Rupert P.B., Brusniak M.Y., Clarke M., Burke S.E., De Van Der Schueren W.,
+RA   Pilat K., Turnbaugh S.M., May D., Watson A., Chan M.K., Bahl C.D.,
+RA   Olson J.M., Strong R.K.;
+RT   "Screening, large-scale production and structure-based classification of
+RT   cystine-dense peptides.";
+RL   Nat. Struct. Mol. Biol. 25:270-278(2018).
+CC   -!- FUNCTION: Weakly inhibits 5HT3A receptors and Kv1.3/KCNA3 voltage-gated
+CC       potassium channels (PubMed:29483648). Agglutinates erythrocytes (By
+CC       similarity). {ECO:0000250|UniProtKB:Q86C51,
+CC       ECO:0000269|PubMed:29483648}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305|PubMed:18482741}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:18482741}.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC   -!- SIMILARITY: Belongs to the neurotoxin 10 (Hwtx-1) family. 51 (Hntx-8)
+CC       subfamily. Hntx-8 sub-subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU195270; ABY77723.1; -; mRNA.
+DR   PDB; 6AV8; X-ray; 1.89 A; A=50-82.
+DR   PDBsum; 6AV8; -.
+DR   AlphaFoldDB; B3FIS6; -.
+DR   SMR; B3FIS6; -.
+DR   ArachnoServer; AS000698; U5-theraphotoxin-Hs1b.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008200; F:ion channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0015459; F:potassium channel regulator activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR011696; Huwentoxin-1.
+DR   Pfam; PF07740; Toxin_12; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cleavage on pair of basic residues; Disulfide bond;
+KW   Ion channel impairing toxin; Knottin; Lectin;
+KW   Potassium channel impairing toxin; Secreted; Signal; Toxin;
+KW   Voltage-gated potassium channel impairing toxin.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          22..49
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000380174"
+FT   CHAIN           50..81
+FT                   /note="U5-theraphotoxin-Hs1b 1"
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000380175"
+FT   DISULFID        51..63
+FT                   /evidence="ECO:0000312|PDB:6AV8"
+FT   DISULFID        56..68
+FT                   /evidence="ECO:0000312|PDB:6AV8"
+FT   DISULFID        62..75
+FT                   /evidence="ECO:0000312|PDB:6AV8"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007829|PDB:6AV8"
+FT   TURN            70..72
+FT                   /evidence="ECO:0007829|PDB:6AV8"
+FT   STRAND          73..76
+FT                   /evidence="ECO:0007829|PDB:6AV8"
+SQ   SEQUENCE   83 AA;  9477 MW;  987E1F556585190D CRC64;
+     MKTSMFLTLT GLVLLFVVCY ASESEEKEFP KELLSSIFAA DSDFKEEERG CFGYKCDYYK
+     GCCSGYVCSP TWKWCVRPGP GRR
+//

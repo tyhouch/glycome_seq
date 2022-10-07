@@ -1,0 +1,249 @@
+ID   LYAM2_RABIT             Reviewed;         551 AA.
+AC   P27113;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   03-AUG-2022, entry version 137.
+DE   RecName: Full=E-selectin;
+DE   AltName: Full=CD62 antigen-like family member E;
+DE   AltName: Full=Endothelial leukocyte adhesion molecule 1;
+DE            Short=ELAM-1 {ECO:0000303|PubMed:1372169};
+DE   AltName: Full=Leukocyte-endothelial cell adhesion molecule 2;
+DE            Short=LECAM2;
+DE   AltName: CD_antigen=CD62E;
+DE   Flags: Precursor;
+GN   Name=SELE;
+OS   Oryctolagus cuniculus (Rabbit).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Oryctolagus.
+OX   NCBI_TaxID=9986;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND INDUCTION BY CYTOKINES.
+RC   TISSUE=Heart;
+RX   PubMed=1372169; DOI=10.1089/dna.1992.11.149;
+RA   Larigan J.D., Tsang T.C., Rumberger J.M., Burns D.K.;
+RT   "Characterization of cDNA and genomic sequences encoding rabbit ELAM-1:
+RT   conservation of structure and functional interactions with leukocytes.";
+RL   DNA Cell Biol. 11:149-162(1992).
+CC   -!- FUNCTION: Cell-surface glycoprotein having a role in immunoadhesion.
+CC       Mediates in the adhesion of blood neutrophils in cytokine-activated
+CC       endothelium through interaction with SELPLG/PSGL1. May have a role in
+CC       capillary morphogenesis. {ECO:0000250|UniProtKB:P16581}.
+CC   -!- SUBUNIT: Interacts with SELPLG/PSGL1 and PODXL2 through the sialyl
+CC       Lewis X epitope. SELPLG sulfation appears not to be required for this
+CC       interaction. {ECO:0000250|UniProtKB:P16581}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P16581};
+CC       Single-pass type I membrane protein {ECO:0000250|UniProtKB:P16581}.
+CC   -!- INDUCTION: By cytokines. {ECO:0000269|PubMed:1372169}.
+CC   -!- SIMILARITY: Belongs to the selectin/LECAM family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M91004; AAA31243.1; -; mRNA.
+DR   EMBL; M91005; AAA31244.1; -; mRNA.
+DR   PIR; I46709; I46709.
+DR   RefSeq; NP_001075781.1; NM_001082312.1.
+DR   AlphaFoldDB; P27113; -.
+DR   SMR; P27113; -.
+DR   STRING; 9986.ENSOCUP00000026008; -.
+DR   GeneID; 100009151; -.
+DR   KEGG; ocu:100009151; -.
+DR   CTD; 6401; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; P27113; -.
+DR   OrthoDB; 445079at2759; -.
+DR   Proteomes; UP000001811; Unplaced.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:1903238; P:positive regulation of leukocyte tethering or rolling; ISS:UniProtKB.
+DR   CDD; cd00033; CCP; 5.
+DR   CDD; cd03592; CLECT_selectins_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR033991; Selectin_CTLD.
+DR   InterPro; IPR002396; Selectin_superfamily.
+DR   InterPro; IPR035976; Sushi/SCR/CCP_sf.
+DR   InterPro; IPR000436; Sushi_SCR_CCP_dom.
+DR   Pfam; PF00008; EGF; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF00084; Sushi; 5.
+DR   PRINTS; PR00343; SELECTIN.
+DR   SMART; SM00032; CCP; 5.
+DR   SMART; SM00034; CLECT; 1.
+DR   SMART; SM00181; EGF; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   SUPFAM; SSF57535; SSF57535; 5.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS00022; EGF_1; 1.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS50026; EGF_3; 1.
+DR   PROSITE; PS50923; SUSHI; 5.
+PE   2: Evidence at transcript level;
+KW   Calcium; Cell adhesion; Cell membrane; Disulfide bond; EGF-like domain;
+KW   Glycoprotein; Lectin; Membrane; Metal-binding; Reference proteome; Repeat;
+KW   Signal; Sushi; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..23
+FT   CHAIN           24..551
+FT                   /note="E-selectin"
+FT                   /id="PRO_0000017495"
+FT   TOPO_DOM        24..495
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        496..517
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        518..551
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          24..141
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          142..177
+FT                   /note="EGF-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          180..241
+FT                   /note="Sushi 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          242..303
+FT                   /note="Sushi 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          305..366
+FT                   /note="Sushi 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          368..429
+FT                   /note="Sushi 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          430..488
+FT                   /note="Sushi 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   BINDING         103..111
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   BINDING         103
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   BINDING         105
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   BINDING         111
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   BINDING         115..120
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   BINDING         128..130
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   BINDING         128
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   BINDING         129
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   CARBOHYD        32
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        45
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        162
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        194
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        201
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        205
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        267
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        314
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        321
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        334
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        442
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        466
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        42..140
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        113..132
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        145..156
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        150..165
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        167..176
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        182..226
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        195..208
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        212..239
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        244..288
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        257..270
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        274..301
+FT                   /evidence="ECO:0000250|UniProtKB:P16581"
+FT   DISULFID        306..351
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        337..364
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        369..414
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        400..427
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        432..473
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        459..486
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        308
+FT                   /note="T -> A (in Ref. 1; AAA31244)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        328
+FT                   /note="T -> A (in Ref. 1; AAA31244)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        491
+FT                   /note="A -> V (in Ref. 1; AAA31244)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   551 AA;  60347 MW;  23BC8A883B23240E CRC64;
+     MVASWLLSTL TFALVLLIKE TSTWTYHFSA ENMTYDEASA YCQQNYTHLV AIQNKEEIDY
+     LNSILDYSPS YYWIGIRKVN NVWIWVGTHK PLTEGAKNWA PGEPNNKQNN EDCVEIYIKR
+     PKDTGMWNDE RCSKKKLALC YTAACTEASC SGHGECIETI NNYSCKCYPG FSGLKCEQVV
+     TCEAQVQPQH GSLNCTHPLG NFSYNSSCSV SCERGYLPSS TETTWCTSSG EWSAPPATCK
+     VVECDTMGKP ANGDVKCSPS QGSAPWNTTC TFDCEEGFTL LGARSLQCTS SGSWDNEKPT
+     CKAVSCDTIH HPQNGSVSCS NSSEGKFTFR SSCNFTCEEN FLLRGPAQVE CTAQGQWTQQ
+     APVCEAVKCD PVHTLEDGFV KCTHPHTGEF TYKSSCTFNC REGFELHGSA QLECTSQGQW
+     AQELPSCQVV QCPSLAVLGK TNVSCSGEPV FGTVCNFACP EGWTLNGSAA LMCGAEGQWS
+     GMLPTCEEPI ASNVPLAVGL SVSGTSFLTL TSFLLWFLKY FRKKAKKFVP ASSRYVGLEA
+     HGNCQVPSHL I
+//

@@ -1,0 +1,325 @@
+ID   ANX1_ARATH              Reviewed;         850 AA.
+AC   Q9SR05;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 146.
+DE   RecName: Full=Receptor-like protein kinase ANXUR1;
+DE            EC=2.7.11.1;
+DE   Flags: Precursor;
+GN   Name=ANX1; OrderedLocusNames=At3g04690; ORFNames=F7O18.16;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=11130713; DOI=10.1038/35048706;
+RA   Salanoubat M., Lemcke K., Rieger M., Ansorge W., Unseld M., Fartmann B.,
+RA   Valle G., Bloecker H., Perez-Alonso M., Obermaier B., Delseny M.,
+RA   Boutry M., Grivell L.A., Mache R., Puigdomenech P., De Simone V.,
+RA   Choisne N., Artiguenave F., Robert C., Brottier P., Wincker P.,
+RA   Cattolico L., Weissenbach J., Saurin W., Quetier F., Schaefer M.,
+RA   Mueller-Auer S., Gabel C., Fuchs M., Benes V., Wurmbach E., Drzonek H.,
+RA   Erfle H., Jordan N., Bangert S., Wiedelmann R., Kranz H., Voss H.,
+RA   Holland R., Brandt P., Nyakatura G., Vezzi A., D'Angelo M., Pallavicini A.,
+RA   Toppo S., Simionati B., Conrad A., Hornischer K., Kauer G., Loehnert T.-H.,
+RA   Nordsiek G., Reichelt J., Scharfe M., Schoen O., Bargues M., Terol J.,
+RA   Climent J., Navarro P., Collado C., Perez-Perez A., Ottenwaelder B.,
+RA   Duchemin D., Cooke R., Laudie M., Berger-Llauro C., Purnelle B., Masuy D.,
+RA   de Haan M., Maarse A.C., Alcaraz J.-P., Cottet A., Casacuberta E.,
+RA   Monfort A., Argiriou A., Flores M., Liguori R., Vitale D., Mannhaupt G.,
+RA   Haase D., Schoof H., Rudd S., Zaccaria P., Mewes H.-W., Mayer K.F.X.,
+RA   Kaul S., Town C.D., Koo H.L., Tallon L.J., Jenkins J., Rooney T., Rizzo M.,
+RA   Walts A., Utterback T., Fujii C.Y., Shea T.P., Creasy T.H., Haas B.,
+RA   Maiti R., Wu D., Peterson J., Van Aken S., Pai G., Militscher J.,
+RA   Sellers P., Gill J.E., Feldblyum T.V., Preuss D., Lin X., Nierman W.C.,
+RA   Salzberg S.L., White O., Venter J.C., Fraser C.M., Kaneko T., Nakamura Y.,
+RA   Sato S., Kato T., Asamizu E., Sasamoto S., Kimura T., Idesawa K.,
+RA   Kawashima K., Kishida Y., Kiyokawa C., Kohara M., Matsumoto M., Matsuno A.,
+RA   Muraki A., Nakayama S., Nakazaki N., Shinpo S., Takeuchi C., Wada T.,
+RA   Watanabe A., Yamada M., Yasuda M., Tabata S.;
+RT   "Sequence and analysis of chromosome 3 of the plant Arabidopsis thaliana.";
+RL   Nature 408:820-822(2000).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   FUNCTION, TISSUE SPECIFICITY, SUBCELLULAR LOCATION, AND DISRUPTION
+RP   PHENOTYPE.
+RX   PubMed=19646876; DOI=10.1016/j.cub.2009.06.064;
+RA   Miyazaki S., Murata T., Sakurai-Ozato N., Kubo M., Demura T., Fukuda H.,
+RA   Hasebe M.;
+RT   "ANXUR1 and 2, sister genes to FERONIA/SIRENE, are male factors for
+RT   coordinated fertilization.";
+RL   Curr. Biol. 19:1327-1331(2009).
+RN   [4]
+RP   GENE FAMILY.
+RX   PubMed=19529822; DOI=10.1093/mp/ssn083;
+RA   Chae L., Sudat S., Dudoit S., Zhu T., Luan S.;
+RT   "Diverse transcriptional programs associated with environmental stress and
+RT   hormones in the Arabidopsis receptor-like kinase gene family.";
+RL   Mol. Plant 2:84-107(2009).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 27-410, AND GLYCOSYLATION AT
+RP   ASN-114; ASN-132; ASN-292 AND ASN-302.
+RX   PubMed=29388293; DOI=10.1002/pro.3381;
+RA   Du S., Qu L.J., Xiao J.;
+RT   "Crystal structures of the extracellular domains of the CrRLK1L receptor-
+RT   like kinases ANXUR1 and ANXUR2.";
+RL   Protein Sci. 27:886-892(2018).
+CC   -!- FUNCTION: Receptor-like protein kinase that controls pollen tube
+CC       behavior by directing rupture at proper timing to release the sperm
+CC       cell. {ECO:0000269|PubMed:19646876}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed in pollen, but not in pistils or
+CC       seedlings. {ECO:0000269|PubMed:19646876}.
+CC   -!- DISRUPTION PHENOTYPE: No effect on male fertility and pollen
+CC       germination, but siliques slightly shorter. Anx1 and anx2 double
+CC       mutants show defects in male gametophytes due to premature pollen tube
+CC       rupture. {ECO:0000269|PubMed:19646876}.
+CC   -!- MISCELLANEOUS: Male paralog of FERONIA, a female factor expressed in
+CC       synergid cells that controls pollen tube behavior.
+CC   -!- MISCELLANEOUS: Named Anxur after the husband of the Etruscan goddess of
+CC       fertility Feronia.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr protein
+CC       kinase family. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC011437; AAF04910.1; -; Genomic_DNA.
+DR   EMBL; CP002686; AEE74120.1; -; Genomic_DNA.
+DR   RefSeq; NP_187120.1; NM_111341.3.
+DR   PDB; 5Y96; X-ray; 1.80 A; A=27-410, B=28-410.
+DR   PDB; 6A5A; X-ray; 2.94 A; A/B=26-410.
+DR   PDB; 6FIG; X-ray; 1.48 A; A/B=26-429.
+DR   PDBsum; 5Y96; -.
+DR   PDBsum; 6A5A; -.
+DR   PDBsum; 6FIG; -.
+DR   AlphaFoldDB; Q9SR05; -.
+DR   SMR; Q9SR05; -.
+DR   STRING; 3702.AT3G04690.1; -.
+DR   UniLectin; Q9SR05; -.
+DR   iPTMnet; Q9SR05; -.
+DR   PaxDb; Q9SR05; -.
+DR   PRIDE; Q9SR05; -.
+DR   ProteomicsDB; 244468; -.
+DR   EnsemblPlants; AT3G04690.1; AT3G04690.1; AT3G04690.
+DR   GeneID; 819627; -.
+DR   Gramene; AT3G04690.1; AT3G04690.1; AT3G04690.
+DR   KEGG; ath:AT3G04690; -.
+DR   Araport; AT3G04690; -.
+DR   TAIR; locus:2084953; AT3G04690.
+DR   eggNOG; KOG1187; Eukaryota.
+DR   HOGENOM; CLU_000288_42_4_1; -.
+DR   InParanoid; Q9SR05; -.
+DR   OMA; HFYPSEY; -.
+DR   OrthoDB; 684563at2759; -.
+DR   PhylomeDB; Q9SR05; -.
+DR   PRO; PR:Q9SR05; -.
+DR   Proteomes; UP000006548; Chromosome 3.
+DR   ExpressionAtlas; Q9SR05; baseline and differential.
+DR   Genevisible; Q9SR05; AT.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:TAIR.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0090404; C:pollen tube tip; IDA:TAIR.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004672; F:protein kinase activity; IBA:GO_Central.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kinase activity; IEA:InterPro.
+DR   GO; GO:0046777; P:protein autophosphorylation; IBA:GO_Central.
+DR   InterPro; IPR045272; ANXUR1-like.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR024788; Malectin-like_Carb-bd_dom.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR27003; PTHR27003; 1.
+DR   Pfam; PF12819; Malectin_like; 1.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cell membrane; Fertilization; Glycoprotein;
+KW   Kinase; Membrane; Nucleotide-binding; Reference proteome;
+KW   Serine/threonine-protein kinase; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..850
+FT                   /note="Receptor-like protein kinase ANXUR1"
+FT                   /id="PRO_0000385331"
+FT   TOPO_DOM        27..429
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        430..450
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        451..850
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          517..790
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          796..850
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        797..811
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        641
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         523..531
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         545
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   CARBOHYD        114
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:29388293,
+FT                   ECO:0007744|PDB:5Y96"
+FT   CARBOHYD        132
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:29388293,
+FT                   ECO:0007744|PDB:5Y96"
+FT   CARBOHYD        292
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:29388293,
+FT                   ECO:0007744|PDB:5Y96"
+FT   CARBOHYD        302
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:29388293,
+FT                   ECO:0007744|PDB:5Y96"
+FT   CARBOHYD        330
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   STRAND          29..32
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          46..50
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           51..53
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          54..57
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          60..63
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   TURN            75..78
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          79..85
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          87..92
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          97..105
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           115..117
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          120..124
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          127..133
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           135..142
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          147..153
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          159..167
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          169..171
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          176..186
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          192..195
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          198..200
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          202..204
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          210..217
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           225..227
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           229..231
+FT                   /evidence="ECO:0007829|PDB:6A5A"
+FT   STRAND          236..239
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           240..242
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          245..247
+FT                   /evidence="ECO:0007829|PDB:5Y96"
+FT   STRAND          250..253
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           267..269
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           272..275
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          277..280
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           285..289
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          293..298
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          301..312
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          324..328
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          331..334
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   HELIX           342..346
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          352..362
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   TURN            363..365
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          369..376
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          388..397
+FT                   /evidence="ECO:0007829|PDB:6FIG"
+FT   STRAND          399..402
+FT                   /evidence="ECO:0007829|PDB:6A5A"
+SQ   SEQUENCE   850 AA;  94048 MW;  3168704E7338820A CRC64;
+     MSGKTRILFF LTCLSFLLVF PTRSNGQDLA LSCGTSEASA DQDKKKWEPD TKFLKTGNSI
+     HATATYQDPS LLSTVPYMTA RIFTAPATYE IPIKGDKRHL LRLYFYPSTY TGLNISNSYF
+     TVEANDVTLL SNFSAAITCQ ALTQAYLVKE YSLAPTDKDV LSIKFTPSDK YRDAFAFING
+     IEVIQMPELF DTAALVGFTD QTMDAKTANL QSMFRLNVGG QDIPGSQDSG GLTRTWYNDA
+     PYIFSAGLGV TLQASNNFRI NYQNMPVSIA PADIYKTARS QGPNGDINLK SNLTWMFQID
+     KNFTYILRLH FCEFQLSKIN QKVFNIYINN RTAQADTTPA DIIGWTGEKG IPMYKDYAIY
+     VDANNGGEEI TLQMTPSTFG QPEYYDSSLN GLEIFKMDTM KNLAGPNPEP SPMQAEEEVK
+     KEFKNEKRHA FIIGSAGGVL AVLIGALCFT AYKKKQGYQG GDSHTSSWLP IYGNSTTSGT
+     KSTISGKSNN GSHLSNLAAG LCRRFSLPEI KHGTQNFDDS NVIGVGGFGK VYKGVIDGTT
+     KVAVKKSNPN SEQGLNEFET EIELLSRLRH KHLVSLIGYC DEGGEMCLVY DYMAFGTLRE
+     HLYNTKKPQL TWKRRLEIAI GAARGLHYLH TGAKYTIIHR DVKTTNILVD ENWVAKVSDF
+     GLSKTGPNMN GGHVTTVVKG SFGYLDPEYF RRQQLTEKSD VYSFGVVLFE ILCARPALNP
+     SLPKEQVSLG DWAMNCKRKG NLEDIIDPNL KGKINAECLK KFADTAEKCL NDSGLERPTM
+     GDVLWNLEFA LQLQETADGT RHRTPNNGGS SEDLGRGGMA VNVAGRDDVS DLSSEDNTEI
+     FSQIVNPKGR
+//

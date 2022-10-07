@@ -1,0 +1,53 @@
+ID   LECA_IRIHO              Reviewed;          28 AA.
+AC   P36230;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   25-MAY-2022, entry version 58.
+DE   RecName: Full=N-acetyl-D-galactosamine-binding lectin subunit A;
+DE            EC=3.2.2.22;
+DE   AltName: Full=A-disaccharide-binding lectin subunit A;
+DE   AltName: Full=rRNA N-glycosidase;
+DE   Flags: Fragment;
+OS   Iris hollandica (Dutch iris) (Iris tingitana x Iris xiphium).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Asparagales; Iridaceae;
+OC   Iridoideae; Irideae; Iris.
+OX   NCBI_TaxID=35876;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   STRAIN=cv. Golden Harvest, and cv. Prof. Blaauw; TISSUE=Bulb;
+RX   PubMed=8125993; DOI=10.1016/s0021-9258(17)37339-8;
+RA   Mo H., van Damme E.J.M., Peumans W.J., Goldstein I.J.;
+RT   "Isolation and characterization of an N-acetyl-D-galactosamine-binding
+RT   lectin from Dutch Iris bulbs which recognizes the blood group A
+RT   disaccharide (GalNAc alpha 1-3Gal).";
+RL   J. Biol. Chem. 269:7666-7673(1994).
+CC   -!- FUNCTION: Gal / GalNAc-specific lectin. Agglutinates both native and
+CC       trypsin-treated rabbit erythrocytes but not human erythrocytes
+CC       irrespective of blood group type.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC   -!- SUBUNIT: Disulfide-linked heterodimer of A and B chains.
+CC   -!- SIMILARITY: Belongs to the ribosome-inactivating protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Hydrolase; Lectin;
+KW   Protein synthesis inhibitor; Toxin.
+FT   CHAIN           1..>28
+FT                   /note="N-acetyl-D-galactosamine-binding lectin subunit A"
+FT                   /id="PRO_0000221422"
+FT   NON_TER         28
+SQ   SEQUENCE   28 AA;  3270 MW;  6D806E619B97E05D CRC64;
+     YDKVEFHITG XTKDTYSAFI QSLRTHLS
+//

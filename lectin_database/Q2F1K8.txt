@@ -1,0 +1,82 @@
+ID   Q2F1K8_HELPO            Unreviewed;       121 AA.
+AC   Q2F1K8;
+DT   21-MAR-2006, integrated into UniProtKB/TrEMBL.
+DT   21-MAR-2006, sequence version 1.
+DT   03-AUG-2022, entry version 61.
+DE   SubName: Full=Agglutinin {ECO:0000313|EMBL:ABC69854.1};
+GN   Name=hpa {ECO:0000313|EMBL:ABC69854.1};
+OS   Helix pomatia (Roman snail) (Edible snail).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Heterobranchia; Euthyneura; Panpulmonata; Eupulmonata; Stylommatophora;
+OC   Helicina; Helicoidea; Helicidae; Helix.
+OX   NCBI_TaxID=6536 {ECO:0000313|EMBL:ABC69854.1};
+RN   [1] {ECO:0000313|EMBL:ABC69854.1, ECO:0007829|PDB:2CCV}
+RP   X-RAY CRYSTALLOGRAPHY (1.30 ANGSTROMS) OF 21-121, GLYCOSYLATION AT ASN-54,
+RP   AND DISULFIDE BONDS.
+RX   PubMed=16704980; DOI=10.1074/jbc.M603452200;
+RA   Sanchez J.F., Lescar J., Chazalet V., Audfray A., Gagnon J., Alvarez R.,
+RA   Breton C., Imberty A., Mitchell E.P.;
+RT   "Biochemical and structural analysis of Helix pomatia agglutinin. A
+RT   hexameric lectin with a novel fold.";
+RL   J. Biol. Chem. 281:20171-20180(2006).
+RN   [2] {ECO:0007829|PDB:2CGY, ECO:0007829|PDB:2CGZ}
+RP   X-RAY CRYSTALLOGRAPHY (2.80 ANGSTROMS) OF 21-121, GLYCOSYLATION AT ASN-54,
+RP   AND DISULFIDE BONDS.
+RX   PubMed=17652409; DOI=10.1093/glycob/cwm077;
+RA   Lescar J., Sanchez J.F., Audfray A., Coll J.L., Breton C., Mitchell E.P.,
+RA   Imberty A.;
+RT   "Structural basis for recognition of breast and colon cancer epitopes Tn
+RT   antigen and Forssman disaccharide by Helix pomatia lectin.";
+RL   Glycobiology 17:1077-1083(2007).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ341310; ABC69854.1; -; mRNA.
+DR   PDB; 2CCV; X-ray; 1.30 A; A=21-121.
+DR   PDB; 2CE6; X-ray; 2.40 A; A=21-121.
+DR   PDB; 2CGY; X-ray; 2.80 A; A=21-121.
+DR   PDB; 2CGZ; X-ray; 2.80 A; A=21-121.
+DR   PDBsum; 2CCV; -.
+DR   PDBsum; 2CE6; -.
+DR   PDBsum; 2CGY; -.
+DR   PDBsum; 2CGZ; -.
+DR   SMR; Q2F1K8; -.
+DR   UniLectin; Q2F1K8; -.
+DR   EvolutionaryTrace; Q2F1K8; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   Gene3D; 2.60.40.2080; -; 1.
+DR   InterPro; IPR037221; H-type_lectin_dom_sf.
+DR   InterPro; IPR019019; H-type_lectin_domain.
+DR   Pfam; PF09458; H_lectin; 1.
+DR   SUPFAM; SSF141086; SSF141086; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2CCV, ECO:0007829|PDB:2CE6};
+KW   Metal-binding {ECO:0007829|PDB:2CCV}; Signal {ECO:0000256|SAM:SignalP};
+KW   Zinc {ECO:0007829|PDB:2CCV}.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           20..121
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004207708"
+FT   DOMAIN          53..117
+FT                   /note="H_lectin"
+FT                   /evidence="ECO:0000259|Pfam:PF09458"
+FT   BINDING         104
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /evidence="ECO:0007829|PDB:2CCV"
+FT   CARBOHYD        54
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:2CCV, ECO:0007829|PDB:2CGY"
+FT   DISULFID        29..100
+FT                   /evidence="ECO:0007829|PDB:2CCV, ECO:0007829|PDB:2CE6"
+FT   DISULFID        62
+FT                   /evidence="ECO:0007829|PDB:2CCV, ECO:0007829|PDB:2CE6"
+SQ   SEQUENCE   121 AA;  13426 MW;  007503C8365571C0 CRC64;
+     MQAFYSGLLL LCVVAFAAAQ RVQSGKIDCG NDAGWAKVPS DDPGRDNTRE LAKNITFASP
+     YCRPPVVLLS ITQLDVEQSQ NLRVIARLYS VSPTGFKASC YTWHNTKVYS MSISWISIEN
+     Y
+//

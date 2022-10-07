@@ -1,0 +1,81 @@
+ID   OPGG_ECOSM              Reviewed;         517 AA.
+AC   B1LIW2;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   25-MAY-2022, entry version 70.
+DE   RecName: Full=Glucans biosynthesis protein G {ECO:0000255|HAMAP-Rule:MF_01069};
+DE   Flags: Precursor;
+GN   Name=mdoG {ECO:0000255|HAMAP-Rule:MF_01069};
+GN   Synonyms=opgG {ECO:0000255|HAMAP-Rule:MF_01069};
+GN   OrderedLocusNames=EcSMS35_2081;
+OS   Escherichia coli (strain SMS-3-5 / SECEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=439855;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SMS-3-5 / SECEC;
+RX   PubMed=18708504; DOI=10.1128/jb.00661-08;
+RA   Fricke W.F., Wright M.S., Lindell A.H., Harkins D.M., Baker-Austin C.,
+RA   Ravel J., Stepanauskas R.;
+RT   "Insights into the environmental resistance gene pool from the genome
+RT   sequence of the multidrug-resistant environmental isolate Escherichia coli
+RT   SMS-3-5.";
+RL   J. Bacteriol. 190:6779-6794(2008).
+CC   -!- FUNCTION: Involved in the biosynthesis of osmoregulated periplasmic
+CC       glucans (OPGs). {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01069}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000970; ACB18269.1; -; Genomic_DNA.
+DR   AlphaFoldDB; B1LIW2; -.
+DR   SMR; B1LIW2; -.
+DR   EnsemblBacteria; ACB18269; ACB18269; EcSMS35_2081.
+DR   KEGG; ecm:EcSMS35_2081; -.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; KRPSAWI; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000007011; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01069; MdoG_OpgG; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR023704; MdoG_OpgG.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01069"
+FT   CHAIN           29..517
+FT                   /note="Glucans biosynthesis protein G"
+FT                   /id="PRO_1000136614"
+SQ   SEQUENCE   517 AA;  58648 MW;  548D833FF88D9FD1 CRC64;
+     MKHKLQMMKM RWLSAAVMLT LYTSSSWAFS IDDVAKQAQS LAGKGYEAPK SNLPSVFRDM
+     KYADYQQIQF NHDKAYWNNL KTPFKLEFYH QGMYFDTPVK INEVTATAVK RIKYSPDYFT
+     FGDVQHDKDT VKDLGFAGFK VLYPINSKDK NDEIVSMLGA SYFRVIGAGQ VYGLSARGLA
+     IDTALPSGEE FPRFKEFWIE RPKPTDKRLT IYALLDSPRA TGAYKFVVMP GRDTVVDVQS
+     KIYLRDKVGK LGVAPLTSMF LFGPNQPSPA NNYRPELHDS NGLSIHAGNG EWIWRPLNNP
+     KHLAVSSFSM ENPQGFGLLQ RGRDFSRFED LDDRYDLRPS AWVTPKGEWG KGSVELVEIP
+     TNDETNDNIV AYWTPDQLPE PGKEMNFKYT ITFSRDEDKL HAPDNAWVQQ TRRSTGDVKQ
+     SNLIRQPDGT IAFVVDFTGA EMKKLPEDTP VTAQTSIGDN GEIVESTVRY NPVTKGWRLV
+     MRVKVKDAKK TTEMRAALVN ADQTLSETWS YQLPANE
+//

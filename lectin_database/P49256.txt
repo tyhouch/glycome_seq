@@ -1,0 +1,245 @@
+ID   LMAN2_CANLF             Reviewed;         356 AA.
+AC   P49256;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   03-AUG-2022, entry version 139.
+DE   RecName: Full=Vesicular integral-membrane protein VIP36;
+DE   AltName: Full=Lectin mannose-binding 2;
+DE   AltName: Full=Vesicular integral-membrane protein 36;
+DE            Short=VIP36;
+DE   Flags: Precursor;
+GN   Name=LMAN2;
+OS   Canis lupus familiaris (Dog) (Canis familiaris).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis.
+OX   NCBI_TaxID=9615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 45-55 AND 304-314.
+RC   STRAIN=Cocker spaniel; TISSUE=Kidney;
+RX   PubMed=8157011; DOI=10.1002/j.1460-2075.1994.tb06437.x;
+RA   Fiedler K., Parton R.G., Kellner R., Etzold T., Simons K.;
+RT   "VIP36, a novel component of glycolipid rafts and exocytic carrier vesicles
+RT   in epithelial cells.";
+RL   EMBO J. 13:1729-1740(1994).
+RN   [2]
+RP   SIMILARITY TO LEGUMINOUS LECTINS.
+RX   PubMed=8205612; DOI=10.1016/0092-8674(94)90047-7;
+RA   Fiedler K., Simons K.;
+RT   "A putative novel class of animal lectins in the secretory pathway
+RT   homologous to leguminous lectins.";
+RL   Cell 77:625-626(1994).
+RN   [3]
+RP   CHARACTERIZATION, AND GLYCOSYLATION AT ASN-183.
+RX   PubMed=8834812; DOI=10.1242/jcs.109.1.271;
+RA   Fiedler K., Simons K.;
+RT   "Characterization of VIP36, an animal lectin homologous to leguminous
+RT   lectins.";
+RL   J. Cell Sci. 109:271-276(1996).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=11872745; DOI=10.1074/jbc.m112188200;
+RA   Hara-Kuge S., Ohkura T., Ideo H., Shimada O., Atsumi S., Yamashita K.;
+RT   "Involvement of VIP36 in intracellular transport and secretion of
+RT   glycoproteins in polarized Madin-Darby canine kidney (MDCK) cells.";
+RL   J. Biol. Chem. 277:16332-16339(2002).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) OF 51-301 ALONE AND IN COMPLEX WITH
+RP   HIGH MANNOSE GLYCANS AND CALCIUM IONS, SUBUNIT, FUNCTION, AND DISULFIDE
+RP   BOND.
+RX   PubMed=17652092; DOI=10.1074/jbc.m703064200;
+RA   Satoh T., Cowieson N.P., Hakamata W., Ideo H., Fukushima K., Kurihara M.,
+RA   Kato R., Yamashita K., Wakatsuki S.;
+RT   "Structural basis for recognition of high mannose type glycoproteins by
+RT   mammalian transport lectin VIP36.";
+RL   J. Biol. Chem. 282:28246-28255(2007).
+CC   -!- FUNCTION: Plays a role as an intracellular lectin in the early
+CC       secretory pathway. Interacts with N-acetyl-D-galactosamine and high-
+CC       mannose type glycans and may also bind to O-linked glycans. Involved in
+CC       the transport and sorting of glycoproteins carrying high mannose-type
+CC       glycans. {ECO:0000269|PubMed:11872745, ECO:0000269|PubMed:17652092}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC       Note=Binds 2 calcium ions per subunit.;
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:17652092}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane; Single-pass type I
+CC       membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed in kidney, liver, intestine, lung, spleen
+CC       and heart. Low expression in brain.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X76392; CAA53977.1; -; mRNA.
+DR   RefSeq; NP_001003258.1; NM_001003258.2.
+DR   PDB; 2DUO; X-ray; 1.80 A; A/B=51-301.
+DR   PDB; 2DUP; X-ray; 2.10 A; A/B=51-301.
+DR   PDB; 2DUQ; X-ray; 1.80 A; A/B=51-301.
+DR   PDB; 2DUR; X-ray; 1.65 A; A/B=51-301.
+DR   PDB; 2E6V; X-ray; 2.50 A; A/B/C/D/E=51-301.
+DR   PDBsum; 2DUO; -.
+DR   PDBsum; 2DUP; -.
+DR   PDBsum; 2DUQ; -.
+DR   PDBsum; 2DUR; -.
+DR   PDBsum; 2E6V; -.
+DR   AlphaFoldDB; P49256; -.
+DR   SMR; P49256; -.
+DR   STRING; 9612.ENSCAFP00000040025; -.
+DR   UniLectin; P49256; -.
+DR   iPTMnet; P49256; -.
+DR   PaxDb; P49256; -.
+DR   PRIDE; P49256; -.
+DR   Ensembl; ENSCAFT00000047011; ENSCAFP00000040025; ENSCAFG00000016430.
+DR   Ensembl; ENSCAFT00030005676; ENSCAFP00030005052; ENSCAFG00030003029.
+DR   Ensembl; ENSCAFT00040028322; ENSCAFP00040024605; ENSCAFG00040015376.
+DR   Ensembl; ENSCAFT00845018663; ENSCAFP00845014570; ENSCAFG00845010502.
+DR   GeneID; 403938; -.
+DR   KEGG; cfa:403938; -.
+DR   CTD; 10960; -.
+DR   VEuPathDB; HostDB:ENSCAFG00845010502; -.
+DR   VGNC; VGNC:42708; LMAN2.
+DR   eggNOG; KOG3839; Eukaryota.
+DR   GeneTree; ENSGT00940000158355; -.
+DR   HOGENOM; CLU_041093_0_0_1; -.
+DR   InParanoid; P49256; -.
+DR   OrthoDB; 1377709at2759; -.
+DR   Reactome; R-CFA-204005; COPII-mediated vesicle transport.
+DR   Reactome; R-CFA-5694530; Cargo concentration in the ER.
+DR   EvolutionaryTrace; P49256; -.
+DR   Proteomes; UP000002254; Chromosome 4.
+DR   GO; GO:0009986; C:cell surface; IEA:Ensembl.
+DR   GO; GO:0030137; C:COPI-coated vesicle; IDA:UniProtKB.
+DR   GO; GO:0030134; C:COPII-coated ER to Golgi transport vesicle; IBA:GO_Central.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IDA:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0005793; C:endoplasmic reticulum-Golgi intermediate compartment; IBA:GO_Central.
+DR   GO; GO:0070382; C:exocytic vesicle; IDA:CAFA.
+DR   GO; GO:0005615; C:extracellular space; IEA:Ensembl.
+DR   GO; GO:0005794; C:Golgi apparatus; IDA:UniProtKB.
+DR   GO; GO:0000139; C:Golgi membrane; IBA:GO_Central.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IEA:Ensembl.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0031072; F:heat shock protein binding; IEA:Ensembl.
+DR   GO; GO:0005537; F:mannose binding; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007029; P:endoplasmic reticulum organization; IBA:GO_Central.
+DR   GO; GO:0006888; P:endoplasmic reticulum to Golgi vesicle-mediated transport; IBA:GO_Central.
+DR   GO; GO:0007030; P:Golgi organization; IBA:GO_Central.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; IEA:Ensembl.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   GO; GO:0006890; P:retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum; IEA:Ensembl.
+DR   CDD; cd06901; lectin_VIP36_VIPL; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR005052; Lectin_leg.
+DR   InterPro; IPR035664; VIP36_lectin.
+DR   Pfam; PF03388; Lectin_leg-like; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51328; L_LECTIN_LIKE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Disulfide bond;
+KW   Glycoprotein; Golgi apparatus; Lectin; Membrane; Metal-binding;
+KW   Protein transport; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   SIGNAL          1..44
+FT                   /evidence="ECO:0000269|PubMed:8157011"
+FT   CHAIN           45..356
+FT                   /note="Vesicular integral-membrane protein VIP36"
+FT                   /id="PRO_0000017665"
+FT   TOPO_DOM        45..322
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        323..345
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        346..356
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          52..276
+FT                   /note="L-type lectin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   BINDING         96
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         131
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         162
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         164..166
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         164
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         166
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         190
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   BINDING         193
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         260..262
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT   CARBOHYD        183
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:8834812"
+FT   DISULFID        202..239
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658,
+FT                   ECO:0000269|PubMed:17652092"
+FT   HELIX           56..58
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   TURN            65..67
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          68..71
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          74..79
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          88..91
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          93..105
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          110..121
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          132..139
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          144..150
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          155..162
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          167..169
+FT                   /evidence="ECO:0007829|PDB:2E6V"
+FT   STRAND          174..184
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   HELIX           190..192
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   HELIX           195..197
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          200..203
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          213..220
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          223..229
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          231..234
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          237..242
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          249..262
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   STRAND          265..275
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   HELIX           282..286
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+FT   HELIX           289..291
+FT                   /evidence="ECO:0007829|PDB:2DUR"
+SQ   SEQUENCE   356 AA;  40214 MW;  AD9646E2BCB37A85 CRC64;
+     MAAEGWIWRW GWGRRCLGRP GLPGPGPGPA TPLFLLLLLG PVVADITDGN SEHLKREHSL
+     IKPYQGVGSS SMPLWDFQGS TILTSQYVRL TPDERSKEGS IWNHQPCFLK DWEMHVHFKV
+     HGTGKKNLHG DGIALWYTRD RLVPGPVFGS KDNFHGLAIF LDTYPNDETT ERVFPYISVM
+     VNNGSLSYDH SKDGRWTELA GCTADFRNRD HDTFLAVRYS RGRLTVMTDL EDKNEWKNCI
+     DITGVRLPTG YYFGASAGTG DLSDNHDIIS MKLFQLMVEH TPDEENIDWT KIEPSVNFLK
+     SPKDNVDDPT GNFRSGPLTG WRVFLLLLCA LLGIIVCAVV GAVVFQKRQE RNKRFY
+//

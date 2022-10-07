@@ -1,0 +1,176 @@
+ID   OS9_CANGA               Reviewed;         696 AA.
+AC   Q6FV52;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 88.
+DE   RecName: Full=Protein OS-9 homolog;
+DE   Flags: Precursor;
+GN   Name=YOS9; OrderedLocusNames=CAGL0E04686g;
+OS   Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL
+OS   Y-65) (Yeast) (Torulopsis glabrata).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Nakaseomyces;
+OC   Nakaseomyces/Candida clade.
+OX   NCBI_TaxID=284593;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65;
+RX   PubMed=15229592; DOI=10.1038/nature02579;
+RA   Dujon B., Sherman D., Fischer G., Durrens P., Casaregola S., Lafontaine I.,
+RA   de Montigny J., Marck C., Neuveglise C., Talla E., Goffard N., Frangeul L.,
+RA   Aigle M., Anthouard V., Babour A., Barbe V., Barnay S., Blanchin S.,
+RA   Beckerich J.-M., Beyne E., Bleykasten C., Boisrame A., Boyer J.,
+RA   Cattolico L., Confanioleri F., de Daruvar A., Despons L., Fabre E.,
+RA   Fairhead C., Ferry-Dumazet H., Groppi A., Hantraye F., Hennequin C.,
+RA   Jauniaux N., Joyet P., Kachouri R., Kerrest A., Koszul R., Lemaire M.,
+RA   Lesur I., Ma L., Muller H., Nicaud J.-M., Nikolski M., Oztas S.,
+RA   Ozier-Kalogeropoulos O., Pellenz S., Potier S., Richard G.-F.,
+RA   Straub M.-L., Suleau A., Swennen D., Tekaia F., Wesolowski-Louvel M.,
+RA   Westhof E., Wirth B., Zeniou-Meyer M., Zivanovic Y., Bolotin-Fukuhara M.,
+RA   Thierry A., Bouchier C., Caudron B., Scarpelli C., Gaillardin C.,
+RA   Weissenbach J., Wincker P., Souciet J.-L.;
+RT   "Genome evolution in yeasts.";
+RL   Nature 430:35-44(2004).
+CC   -!- FUNCTION: Lectin involved in the quality control of the secretory
+CC       pathway. As a member of the endoplasmic reticulum-associated
+CC       degradation lumenal (ERAD-L) surveillance system, targets misfolded
+CC       endoplasmic reticulum lumenal glycoproteins for degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with missfolded ER lumenal proteins. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}; Lumenal side {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR380951; CAG58811.1; -; Genomic_DNA.
+DR   RefSeq; XP_445892.1; XM_445892.1.
+DR   AlphaFoldDB; Q6FV52; -.
+DR   SMR; Q6FV52; -.
+DR   STRING; 5478.XP_445892.1; -.
+DR   PRIDE; Q6FV52; -.
+DR   EnsemblFungi; CAG58811; CAG58811; CAGL0E04686g.
+DR   GeneID; 2887510; -.
+DR   KEGG; cgr:CAGL0E04686g; -.
+DR   CGD; CAL0128972; CAGL0E04686g.
+DR   VEuPathDB; FungiDB:CAGL0E04686g; -.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   HOGENOM; CLU_395859_0_0_1; -.
+DR   InParanoid; Q6FV52; -.
+DR   OMA; RETKICH; -.
+DR   Proteomes; UP000002428; Chromosome E.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IEA:InterPro.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR012913; OS9-like_dom.
+DR   InterPro; IPR041039; Yos9_DD.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF07915; PRKCSH; 1.
+DR   Pfam; PF17880; Yos9_DD; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Membrane;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..15
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           16..696
+FT                   /note="Protein OS-9 homolog"
+FT                   /id="PRO_0000043268"
+FT   DOMAIN          106..224
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          450..600
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          667..696
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        450..464
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        465..498
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        499..514
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        529..557
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        578..600
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        675..696
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         116
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         128
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         178
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         184
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         206
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         212
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        35
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        68
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        276
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        290
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        372
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        588
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        108..121
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        177..210
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        192..222
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   696 AA;  77860 MW;  0C2B391B255BC082 CRC64;
+     MLVVAFASLL GAARAIMMPI DDPTTSDKFQ ITYANESLWD TLVMKNKTAL ESGELFDLGP
+     DTKCFLPNMT RLHEQNVQSV NDPEYKQKLI DTLDMGAHII DASLKNQCLV SQNGFWTYRY
+     CGSGDFTQYH GVAPDPNDKL TYTLGRSSKQ IENREFQLLY DDYGYYISEI IESGDICDVT
+     GTPRAIEIQY TCGNVMRPGT LQWTRETKIC HYEAQVIVPD LCQLELLSKN QDKKNAVPII
+     CHMSNDVPDK HNIVDIVSNY DVSFVANQVY FLLPMNNSNV DRALLMYTGN ATEDGLEMDP
+     FPMEIYKKFI DVMNKMLGLG LLSPPDGKPF DVHDSYQWIG DIVDMHGNYL NRLRLDVDVN
+     MEATLIIDKS INFTGPNNFQ WYFRGSDRTK NSKSRFGSLT NDNMMLAGGS IINVDDISKE
+     NAQELLEKLV AAGKLSGVIE DNKITQGSPI EASKTKVTKA SESTPVSEKN KKAKTVTKTI
+     IRSRDKEEYF KENEKQGEEN NAQVPFSAHN NEQHGTISKS ERKEENTNQK QLANTQKGDT
+     DTPPQSSQSS ANDKLSRSGM GQKEPGVDEI GSELRGNSKK ALGSNIDNSS GRSTLNDNSD
+     RIAVENEARE IINSNAYDQS EASVDPNYRN DQQRLNSAKE HTFSQSKEKK SINSEEILET
+     KILNSETLGN NDGVASDVKD EEVVESDRNG VIDDEL
+//

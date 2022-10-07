@@ -1,0 +1,247 @@
+ID   ML3_VISAL               Reviewed;         569 AA.
+AC   P82683; P87800; Q6H268; Q6H269; Q8RXH7; Q9S7D0;
+DT   27-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   17-APR-2007, sequence version 2.
+DT   03-AUG-2022, entry version 75.
+DE   RecName: Full=Beta-galactoside-specific lectin 3;
+DE   AltName: Full=Beta-galactoside-specific lectin II;
+DE   AltName: Full=Beta-galactoside-specific lectin III;
+DE   Contains:
+DE     RecName: Full=Beta-galactoside-specific lectin 3 chain A isoform 1;
+DE              EC=3.2.2.22;
+DE     AltName: Full=Beta-galactoside-specific lectin III chain A isoform 1;
+DE     AltName: Full=Lectin chain A isoform 2;
+DE     AltName: Full=ML-3 A;
+DE     AltName: Full=ML-III A;
+DE     AltName: Full=rRNA N-glycosidase;
+DE   Contains:
+DE     RecName: Full=Beta-galactoside-specific lectin 3 chain B;
+DE     AltName: Full=Beta-galactoside-specific lectin III chain B;
+DE     AltName: Full=ML-3 B;
+DE     AltName: Full=ML-III B;
+DE   Flags: Precursor;
+OS   Viscum album (European mistletoe).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   Santalales; Viscaceae; Viscum.
+OX   NCBI_TaxID=3972;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], AND FUNCTION.
+RC   TISSUE=Leaf;
+RX   PubMed=15182350; DOI=10.1111/j.1432-1033.2004.04153.x;
+RA   Kourmanova A.G., Soudarkina O.J., Olsnes S., Kozlov J.V.;
+RT   "Cloning and characterization of the genes encoding toxic lectins in
+RT   mistletoe (Viscum album L).";
+RL   Eur. J. Biochem. 271:2350-2360(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 34-287, AND VARIANTS ARG-127; THR-131 AND ALA-138.
+RX   PubMed=15113086; DOI=10.1002/psc.505;
+RA   Wacker R., Stoeva S., Pfuller K., Pfuller U., Voelter W.;
+RT   "Complete structure determination of the A chain of mistletoe lectin III
+RT   from Viscum album L. ssp. album.";
+RL   J. Pept. Sci. 10:138-148(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 34-282, PROTEIN SEQUENCE OF 34-53, AND
+RP   FUNCTION.
+RC   TISSUE=Leaf;
+RX   PubMed=15001393; DOI=10.1016/j.abb.2003.12.033;
+RA   Mishra V., Sharma R.S., Yadav S., Babu C.R., Singh T.P.;
+RT   "Purification and characterization of four isoforms of Himalayan mistletoe
+RT   ribosome-inactivating protein from Viscum album having unique sugar
+RT   affinity.";
+RL   Arch. Biochem. Biophys. 423:288-301(2004).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 34-62, AND FUNCTION.
+RX   PubMed=1450445; DOI=10.1097/00001813-199210000-00010;
+RA   Dietrich J.B., Ribereau-Gayon G., Jung M.L., Franz H., Beck J.P., Anton R.;
+RT   "Identity of the N-terminal sequences of the three A chains of mistletoe
+RT   (Viscum album L.) lectins: homology with ricin-like plant toxins and
+RT   single-chain ribosome-inhibiting proteins.";
+RL   Anticancer Drugs 3:507-511(1992).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 308-569, VARIANTS PHE-358; LEU-430 AND PHE-569, AND
+RP   GLYCOSYLATION AT ASN-402 AND ASN-442.
+RC   TISSUE=Leaf;
+RX   PubMed=15635663; DOI=10.1002/psc.627;
+RA   Wacker R., Stoeva S., Betzel C., Voelter W.;
+RT   "Complete structure determination of N-acetyl-D-galactosamine-binding
+RT   mistletoe lectin-3 from Viscum album L. album.";
+RL   J. Pept. Sci. 11:289-302(2005).
+CC   -!- FUNCTION: The A chain is responsible for inhibiting protein synthesis
+CC       through the catalytic inactivation of 60S ribosomal subunits by
+CC       removing adenine from position 4,324 of 28S rRNA. The B chain binds to
+CC       cell receptors and probably facilitates the entry into the cell of the
+CC       A chain; B chains are also responsible for cell agglutination (lectin
+CC       activity). Inhibits growth of the human tumor cell line Molt4.
+CC       {ECO:0000269|PubMed:1450445, ECO:0000269|PubMed:15001393,
+CC       ECO:0000269|PubMed:15182350}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC   -!- SUBUNIT: Disulfide-linked dimer of A and B chains.
+CC   -!- MISCELLANEOUS: Several isoforms exist.
+CC   -!- SIMILARITY: Belongs to the ribosome-inactivating protein family. Type 2
+CC       RIP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY377892; AAR25547.1; -; Genomic_DNA.
+DR   EMBL; AY377893; AAR25548.1; -; mRNA.
+DR   EMBL; AY081148; AAL87005.1; -; mRNA.
+DR   AlphaFoldDB; P82683; -.
+DR   SMR; P82683; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   iPTMnet; P82683; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 2.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Hydrolase; Lectin;
+KW   Plant defense; Protein synthesis inhibitor; Repeat; Signal; Toxin.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000269|PubMed:1450445,
+FT                   ECO:0000269|PubMed:15001393, ECO:0000269|PubMed:15113086"
+FT   CHAIN           34..287
+FT                   /note="Beta-galactoside-specific lectin 3 chain A isoform
+FT                   1"
+FT                   /id="PRO_0000221393"
+FT   PROPEP          288..307
+FT                   /note="Connecting peptide"
+FT                   /evidence="ECO:0000269|PubMed:15635663"
+FT                   /id="PRO_0000284729"
+FT   CHAIN           308..569
+FT                   /note="Beta-galactoside-specific lectin 3 chain B"
+FT                   /id="PRO_0000221394"
+FT   DOMAIN          314..441
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DOMAIN          445..568
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   ACT_SITE        198
+FT                   /evidence="ECO:0000250"
+FT   BINDING         329..331
+FT                   /ligand="D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:4139"
+FT   BINDING         541..543
+FT                   /ligand="D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:4139"
+FT   CARBOHYD        402
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:15635663"
+FT   CARBOHYD        442
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:15635663"
+FT   DISULFID        280..311
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000305"
+FT   DISULFID        327..346
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        370..387
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        458..471
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        497..514
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   VARIANT         127
+FT                   /note="D -> R"
+FT                   /evidence="ECO:0000269|PubMed:15113086"
+FT   VARIANT         131
+FT                   /note="R -> T"
+FT                   /evidence="ECO:0000269|PubMed:15113086"
+FT   VARIANT         138
+FT                   /note="T -> A"
+FT                   /evidence="ECO:0000269|PubMed:15113086"
+FT   VARIANT         358
+FT                   /note="I -> F"
+FT                   /evidence="ECO:0000269|PubMed:15635663"
+FT   VARIANT         430
+FT                   /note="Q -> L"
+FT                   /evidence="ECO:0000269|PubMed:15635663"
+FT   VARIANT         569
+FT                   /note="P -> F"
+FT                   /evidence="ECO:0000269|PubMed:15635663"
+FT   CONFLICT        9
+FT                   /note="G -> R (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        17
+FT                   /note="I -> M (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        24
+FT                   /note="A -> R (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        48
+FT                   /note="D -> E (in Ref. 3; AA sequence and 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        62
+FT                   /note="S -> G (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        94
+FT                   /note="Q -> E (in Ref. 3; AAL87005)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        127
+FT                   /note="D -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        190
+FT                   /note="I -> L (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        191
+FT                   /note="I -> V (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        244
+FT                   /note="D -> Y (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        281..282
+FT                   /note="RD -> GE (in Ref. 2; AA sequence and 3; AAL87005)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        475
+FT                   /note="T -> K (in Ref. 1; AAR25548 and 5; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        479
+FT                   /note="N -> D (in Ref. 5; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        500
+FT                   /note="C -> S (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        506
+FT                   /note="A -> S (in Ref. 1; AAR25548 and 5; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        535
+FT                   /note="N -> K (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        568
+FT                   /note="V -> L (in Ref. 1; AAR25548)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   569 AA;  62686 MW;  7860722EA6425D3E CRC64;
+     MNAVMDSRGA WVSCFLILGL VFGATVKAET KFSYERLRLR VTHQTTGDEY FRFITLLRDY
+     VSSGSFSNEI PLLRQSTIPV SDAQRFVLVE LTNQGGDSIT AAIDVTNLYV VAYQAGDQSY
+     FLRDAPDGAE RHLFTGTTRS SLPFTGSYTD LERYAGHRDQ IPLGIEELIQ SVSALRYPGG
+     STRAQARSII ILIQMISEAA RFNPIFWRVR QDINSGESFL PDMYMLELET SWGQQSTQVQ
+     QSTDGVFNNP FRLAISTGNF VTLSNVRDVI ASLAIMLFVC RDRPSSSEVR YWPLVIRPVL
+     ENSGAVDDVT CTASEPTVRI VGRDGLCVDV RDGKFHNGNP IQLSPCKSNT DPNQLWTIRR
+     DGTIRSNGRC LTTYGYTAGV YVMIFDCNTA VREATLWQIW GNGTIINPRS NLVLGAASGS
+     SGTTLTVQTQ VYSLGQGWLA GNDTAPREVT IYGFRDLCME ANGASVWVET CGSSTENQNW
+     ALYGDGSIRP KQNQDQCLTC QGDSVATVIN IVSCSAGSSG QRWVFTNEGT ILNLNNGLVM
+     DVAQSNPSLR RIIIYPATGN PNQMWLPVP
+//

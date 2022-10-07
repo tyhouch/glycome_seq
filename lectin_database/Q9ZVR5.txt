@@ -1,0 +1,101 @@
+ID   PP2B2_ARATH             Reviewed;         310 AA.
+AC   Q9ZVR5;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   31-MAY-2011, sequence version 2.
+DT   03-AUG-2022, entry version 114.
+DE   RecName: Full=Putative F-box protein PP2-B2;
+DE   AltName: Full=Protein PHLOEM PROTEIN 2-LIKE B2;
+DE            Short=AtPP2-B2;
+GN   Name=PP2B2; OrderedLocusNames=At2g02250; ORFNames=T16F16.4;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10617197; DOI=10.1038/45471;
+RA   Lin X., Kaul S., Rounsley S.D., Shea T.P., Benito M.-I., Town C.D.,
+RA   Fujii C.Y., Mason T.M., Bowman C.L., Barnstead M.E., Feldblyum T.V.,
+RA   Buell C.R., Ketchum K.A., Lee J.J., Ronning C.M., Koo H.L., Moffat K.S.,
+RA   Cronin L.A., Shen M., Pai G., Van Aken S., Umayam L., Tallon L.J.,
+RA   Gill J.E., Adams M.D., Carrera A.J., Creasy T.H., Goodman H.M.,
+RA   Somerville C.R., Copenhaver G.P., Preuss D., Nierman W.C., White O.,
+RA   Eisen J.A., Salzberg S.L., Fraser C.M., Venter J.C.;
+RT   "Sequence and analysis of chromosome 2 of the plant Arabidopsis thaliana.";
+RL   Nature 402:761-768(1999).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=12529520; DOI=10.1104/pp.013086;
+RA   Dinant S., Clark A.M., Zhu Y., Vilaine F., Palauqui J.-C., Kusiak C.,
+RA   Thompson G.A.;
+RT   "Diversity of the superfamily of phloem lectins (phloem protein 2) in
+RT   angiosperms.";
+RL   Plant Physiol. 131:114-128(2003).
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAC78509.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC005312; AAC78509.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; CP002685; AEC05561.1; -; Genomic_DNA.
+DR   PIR; F84434; F84434.
+DR   RefSeq; NP_178332.2; NM_126284.3.
+DR   AlphaFoldDB; Q9ZVR5; -.
+DR   PaxDb; Q9ZVR5; -.
+DR   PRIDE; Q9ZVR5; -.
+DR   ProteomicsDB; 248970; -.
+DR   EnsemblPlants; AT2G02250.1; AT2G02250.1; AT2G02250.
+DR   GeneID; 814756; -.
+DR   Gramene; AT2G02250.1; AT2G02250.1; AT2G02250.
+DR   KEGG; ath:AT2G02250; -.
+DR   Araport; AT2G02250; -.
+DR   TAIR; locus:2056196; AT2G02250.
+DR   eggNOG; ENOG502QRA4; Eukaryota.
+DR   HOGENOM; CLU_050973_0_0_1; -.
+DR   InParanoid; Q9ZVR5; -.
+DR   OMA; ELYFAIC; -.
+DR   OrthoDB; 1051457at2759; -.
+DR   PRO; PR:Q9ZVR5; -.
+DR   Proteomes; UP000006548; Chromosome 2.
+DR   ExpressionAtlas; Q9ZVR5; baseline and differential.
+DR   Genevisible; Q9ZVR5; AT.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:TAIR.
+DR   InterPro; IPR036047; F-box-like_dom_sf.
+DR   InterPro; IPR001810; F-box_dom.
+DR   InterPro; IPR025886; PP2-like.
+DR   Pfam; PF00646; F-box; 1.
+DR   Pfam; PF14299; PP2; 1.
+DR   SMART; SM00256; FBOX; 1.
+DR   SUPFAM; SSF81383; SSF81383; 1.
+DR   PROSITE; PS50181; FBOX; 1.
+PE   4: Predicted;
+KW   Reference proteome.
+FT   CHAIN           1..310
+FT                   /note="Putative F-box protein PP2-B2"
+FT                   /id="PRO_0000272212"
+FT   DOMAIN          44..90
+FT                   /note="F-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00080"
+FT   REGION          1..34
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   310 AA;  34930 MW;  71D141C38A40C56C CRC64;
+     MIQSTMGHKQ SVDSRGKGRK VPGSSSMVQK HRVESSGGAI ISGPSLFDNL PEDCISNIIS
+     FTSPRDACVA ASVSKTFESA VNSDSVWDKF LPSDYSSLVP PSRVFSSKKE LYFAICDNPV
+     LVEDGGKSFW LEKENGKKCF MLSPKKSMWI TWVSTPQYWR WISIPEARFE EVPELLNVCW
+     FEVRGGMNTK ELSPGTRYSA YIVFKTKNGC PNLGDVPVEA TVGLVGQESS QRHIYFVGPS
+     DQRRDRETRD VTRPTKRKDG WMEAELGQFF NESGCDVVDT SILEIKTPYW KRGLIIQGIE
+     FRPTKSLFYI
+//

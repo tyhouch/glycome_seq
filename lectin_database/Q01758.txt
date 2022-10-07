@@ -1,0 +1,76 @@
+ID   ISP2_OSMMO              Reviewed;         175 AA.
+AC   Q01758;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   25-MAY-2022, entry version 80.
+DE   RecName: Full=Type-2 ice-structuring protein;
+DE   AltName: Full=Type II antifreeze protein;
+DE            Short=AFP;
+DE   Flags: Precursor;
+OS   Osmerus mordax (Rainbow smelt) (Atherina mordax).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Stomiati; Osmeriformes; Osmeridae;
+OC   Osmerus.
+OX   NCBI_TaxID=8014;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 49-65; 69-78; 145-154
+RP   AND 161-173.
+RC   TISSUE=Liver;
+RX   PubMed=1599470; DOI=10.1016/s0006-291x(05)90005-3;
+RA   Ewart K.V., Rubinsky B., Fletcher G.L.;
+RT   "Structural and functional similarity between fish antifreeze proteins and
+RT   calcium-dependent lectins.";
+RL   Biochem. Biophys. Res. Commun. 185:335-340(1992).
+CC   -!- FUNCTION: Antifreeze proteins lower the blood freezing point.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M96154; AAA49442.1; -; mRNA.
+DR   PIR; JH0626; JH0626.
+DR   AlphaFoldDB; Q01758; -.
+DR   SMR; Q01758; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR002353; AntifreezeII.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   PRINTS; PR00356; ANTIFREEZEII.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Antifreeze protein; Direct protein sequencing; Disulfide bond; Lectin;
+KW   Secreted; Signal.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          17..33
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000017546"
+FT   CHAIN           34..175
+FT                   /note="Type-2 ice-structuring protein"
+FT                   /id="PRO_0000017547"
+FT   DOMAIN          36..163
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        38..49
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        66..159
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        103..134
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        123..145
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        135..151
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   175 AA;  19054 MW;  E2A72D8C030AFAA3 CRC64;
+     MLAALLVCAM VALTRAANGD TGKEAVMTGS SGKNLTECPT DWKMFNGRCF LFNPLQLHWA
+     HAQISCMKDG ANLASIHSLE EYAFVKELTT AGLIPAWIGG SDCHVSTYWF WMDSTSMDFT
+     DWCAAQPDFT LTECCIQINV GVGKCWNDTP CTHLHASVCA KPATVIPEVT PPSIM
+//

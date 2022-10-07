@@ -1,0 +1,66 @@
+ID   G3M189_9CAUD            Unreviewed;       770 AA.
+AC   G3M189;
+DT   16-NOV-2011, integrated into UniProtKB/TrEMBL.
+DT   16-NOV-2011, sequence version 1.
+DT   03-AUG-2022, entry version 51.
+DE   SubName: Full=Tailspike protein {ECO:0000313|EMBL:AEM91896.1};
+GN   Name=orf210 {ECO:0000313|EMBL:AEM91896.1};
+OS   Escherichia phage Cba120.
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Ackermannviridae; Cvivirinae; Kuttervirus.
+OX   NCBI_TaxID=2886902 {ECO:0000313|EMBL:AEM91896.1, ECO:0000313|Proteomes:UP000008535};
+RN   [1] {ECO:0000313|EMBL:AEM91896.1, ECO:0000313|Proteomes:UP000008535}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VB_EcoM_CBA120 {ECO:0000313|EMBL:AEM91896.1};
+RA   Kutter E.M., Blasdel B.G., Kropinski A., Brabban A.D.;
+RT   "Genome of vB_EcoM_CBA120.";
+RL   Submitted (AUG-2011) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:4OJ5, ECO:0007829|PDB:4OJ6}
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS).
+RX   PubMed=24671238; DOI=10.1371/journal.pone.0093156;
+RA   Chen C., Bales P., Greenfield J., Heselpoth R.D., Nelson D.C., Herzberg O.;
+RT   "Crystal structure of ORF210 from E. coli O157:H1 phage CBA120 (TSP1), a
+RT   putative tailspike protein.";
+RL   PLoS ONE 9:e93156-e93156(2014).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JN593240; AEM91896.1; -; Genomic_DNA.
+DR   PDB; 4OJ5; X-ray; 1.80 A; A/B/C=1-770.
+DR   PDB; 4OJ6; X-ray; 1.80 A; A/B/C=1-770.
+DR   PDB; 4OJL; X-ray; 2.00 A; A/B/C=1-770.
+DR   PDB; 4OJO; X-ray; 2.00 A; A/B/C=1-770.
+DR   PDB; 4OJP; X-ray; 1.95 A; A/B/C=1-770.
+DR   PDBsum; 4OJ5; -.
+DR   PDBsum; 4OJ6; -.
+DR   PDBsum; 4OJL; -.
+DR   PDBsum; 4OJO; -.
+DR   PDBsum; 4OJP; -.
+DR   SMR; G3M189; -.
+DR   UniLectin; G3M189; -.
+DR   Proteomes; UP000008535; Genome.
+DR   Gene3D; 2.160.20.10; -; 1.
+DR   InterPro; IPR012334; Pectin_lyas_fold.
+DR   InterPro; IPR040775; Tail_spike_N.
+DR   Pfam; PF18668; Tail_spike_N; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4OJ5, ECO:0007829|PDB:4OJ6}.
+FT   DOMAIN          91..156
+FT                   /note="Tail_spike_N"
+FT                   /evidence="ECO:0000259|Pfam:PF18668"
+SQ   SEQUENCE   770 AA;  81954 MW;  7AC089EFCF0E6A00 CRC64;
+     MNEMFSQGGK GSTGILTNKQ AVARHFGVKQ SEVVYFSVGV DLGGYKVIYD KETQRAYSLP
+     VGIASGTTAV SLSTAAVLVH SAGSVDLGSL AVSREEYVTL PGSFDSGSTL NVKNELLTYT
+     DGKYRWDGIL PKTVAPGSTP ASTGGVGLGA WISVGDASLR TQLANGDGSL IGIHPQGTLN
+     NVLTVRTPEQ YNAVGDGIAD DTSKLKEMLS DINNVPETLP DAAAVNSYME QVAVKIDLTK
+     LYRFTETLYI PPGVSIEIPT SNFFTRECKQ GLFYDPVDKN TAAISLMVYR KQPDGSYKLN
+     KDVDYYPTGL DIDNGDAITC ARKIDINNLN LITAPGVKVG VKWIGGAGCT TKGLSIGENT
+     GSDITTARLP RVGLLQSASW GSIHENLRIL YKTQGAVFID SNGGAAVNNA YISRLGNTNG
+     ELEQAVYKPA GFTEVGDVAV TQFAGSEVKF NSPIIEQASF DFVHAGRDTD SYGLFMVDKP
+     HIESSGGKKK HSFYLINTSS NVTLSGVGLS GQDPDLDSMY FLKNCPETAR NVVRGQMPIS
+     GVKLVRGTGN YPTLVLDCTN MGSQFQFGEV GDIFYIKDVV GVKADTLYID PVNGNNYNWG
+     TNGTKPIREL TNIAKICQLF RCKSVYLNAG ESVITSNTEL PMVVFEGPGS LKANSGSSFL
+     IKAGGTLSLI GLSGISTDGG HMFRVSTVEK VNIHTNCSVN AGAAYVVLSE VQGNIEYRQL
+     FYSVNCSKYI GATAGQTIAG IMVKTATRPT GIDAAPVDGN VSLTYKIIES
+//

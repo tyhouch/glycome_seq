@@ -1,0 +1,211 @@
+ID   OLR1_RAT                Reviewed;         364 AA.
+AC   O70156;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   25-MAY-2022, entry version 139.
+DE   RecName: Full=Oxidized low-density lipoprotein receptor 1;
+DE            Short=Ox-LDL receptor 1;
+DE   AltName: Full=Lectin-like oxidized LDL receptor 1;
+DE            Short=LOX-1;
+DE            Short=Lectin-like oxLDL receptor 1;
+DE   AltName: Full=Lectin-type oxidized LDL receptor 1;
+DE   Contains:
+DE     RecName: Full=Oxidized low-density lipoprotein receptor 1, soluble form;
+GN   Name=Olr1; Synonyms=Lox1, Oldlr1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=SHR; TISSUE=Kidney;
+RX   PubMed=9494115; DOI=10.1042/bj3301417;
+RA   Nagase M., Hirose S., Fujita T.;
+RT   "Unique repetitive sequence and unexpected regulation of expression of rat
+RT   endothelial receptor for oxidized low-density lipoprotein (LOX-1).";
+RL   Biochem. J. 330:1417-1422(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=9837956; DOI=10.1074/jbc.273.50.33702;
+RA   Nagase M., Abe J., Takahashi K., Ando J., Hirose S., Fujita T.;
+RT   "Genomic organization and regulation of expression of the lectin-like
+RT   oxidized low-density lipoprotein receptor (LOX-1) gene.";
+RL   J. Biol. Chem. 273:33702-33707(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=12538855; DOI=10.1073/pnas.0337528100;
+RA   Honjo M., Nakamura K., Yamashiro K., Kiryu J., Tanihara H., McEvoy L.M.,
+RA   Honda Y., Butcher E.C., Masaki T., Sawamura T.;
+RT   "Lectin-like oxidized LDL receptor-1 is a cell-adhesion molecule involved
+RT   in endotoxin-induced inflammation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:1274-1279(2003).
+CC   -!- FUNCTION: Receptor that mediates the recognition, internalization and
+CC       degradation of oxidatively modified low density lipoprotein (oxLDL) by
+CC       vascular endothelial cells. OxLDL is a marker of atherosclerosis that
+CC       induces vascular endothelial cell activation and dysfunction, resulting
+CC       in pro-inflammatory responses, pro-oxidative conditions and apoptosis.
+CC       Its association with oxLDL induces the activation of NF-kappa-B through
+CC       an increased production of intracellular reactive oxygen and a variety
+CC       of pro-atherogenic cellular responses including a reduction of nitric
+CC       oxide (NO) release, monocyte adhesion and apoptosis. In addition to
+CC       binding oxLDL, it acts as a receptor for the HSP70 protein involved in
+CC       antigen cross-presentation to naive T-cells in dendritic cells, thereby
+CC       participating in cell-mediated antigen cross-presentation. Also
+CC       involved in inflammatory process, by acting as a leukocyte-adhesion
+CC       molecule at the vascular interface in endotoxin-induced inflammation.
+CC       Also acts as a receptor for advanced glycation end (AGE) products,
+CC       activated platelets, monocytes, apoptotic cells and both Gram-negative
+CC       and Gram-positive bacteria. {ECO:0000269|PubMed:12538855,
+CC       ECO:0000269|PubMed:9837956}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. May form a hexamer composed of 3
+CC       homodimers. Interacts with HSP70 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Lipid-anchor
+CC       {ECO:0000250}. Cell membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}. Membrane raft {ECO:0000250}. Secreted
+CC       {ECO:0000250}. Note=A secreted form also exists. Localization to
+CC       membrane rafts requires palmitoylation (By similarity). {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in lung and at lower level
+CC       in kidney. Expressed in macrophages but not in vascular smooth muscle
+CC       cells. {ECO:0000269|PubMed:9494115}.
+CC   -!- INDUCTION: By hypertension. Up-regulated by shear stress,
+CC       lipopolysaccharide and TNF-alpha in cultured vascular endothelial
+CC       cells. {ECO:0000269|PubMed:9494115, ECO:0000269|PubMed:9837956}.
+CC   -!- DOMAIN: The cytoplasmic region is required for subcellular sorting on
+CC       the cell surface. {ECO:0000250}.
+CC   -!- DOMAIN: The C-type lectin domain mediates the recognition and binding
+CC       of oxLDL. {ECO:0000250}.
+CC   -!- DOMAIN: The Neck region contains 3 internal repeats that are only found
+CC       in rodents.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB005900; BAA25785.1; -; mRNA.
+DR   EMBL; AB018104; BAA35123.1; -; Genomic_DNA.
+DR   EMBL; BC097290; AAH97290.1; -; mRNA.
+DR   RefSeq; NP_579840.2; NM_133306.2.
+DR   AlphaFoldDB; O70156; -.
+DR   SMR; O70156; -.
+DR   STRING; 10116.ENSRNOP00000011196; -.
+DR   GlyGen; O70156; 3 sites.
+DR   PhosphoSitePlus; O70156; -.
+DR   jPOST; O70156; -.
+DR   PaxDb; O70156; -.
+DR   PRIDE; O70156; -.
+DR   GeneID; 140914; -.
+DR   KEGG; rno:140914; -.
+DR   UCSC; RGD:620515; rat.
+DR   CTD; 4973; -.
+DR   RGD; 620515; Olr1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; O70156; -.
+DR   OrthoDB; 1201127at2759; -.
+DR   PhylomeDB; O70156; -.
+DR   TreeFam; TF336674; -.
+DR   Reactome; R-RNO-202733; Cell surface interactions at the vascular wall.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   PRO; PR:O70156; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0045121; C:membrane raft; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0005041; F:low-density lipoprotein particle receptor activity; ISO:RGD.
+DR   GO; GO:0008219; P:cell death; IMP:RGD.
+DR   GO; GO:0002376; P:immune system process; IEA:UniProtKB-KW.
+DR   GO; GO:0006954; P:inflammatory response; IMP:RGD.
+DR   GO; GO:0007159; P:leukocyte cell-cell adhesion; IMP:RGD.
+DR   GO; GO:0042157; P:lipoprotein metabolic process; IMP:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; IMP:BHF-UCL.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell adhesion; Cell membrane; Coiled coil; Disulfide bond; Glycoprotein;
+KW   Immunity; Inflammatory response; Lectin; Lipoprotein; Membrane; Palmitate;
+KW   Receptor; Reference proteome; Repeat; Secreted; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..364
+FT                   /note="Oxidized low-density lipoprotein receptor 1"
+FT                   /id="PRO_0000017451"
+FT   CHAIN           ?..364
+FT                   /note="Oxidized low-density lipoprotein receptor 1, soluble
+FT                   form"
+FT                   /id="PRO_0000017452"
+FT   TOPO_DOM        1..31
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        32..54
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        55..364
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          96..141
+FT                   /note="1"
+FT   REPEAT          142..187
+FT                   /note="2"
+FT   REPEAT          188..233
+FT                   /note="3"
+FT   DOMAIN          242..355
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..21
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          55..242
+FT                   /note="Neck"
+FT   COILED          83..233
+FT                   /evidence="ECO:0000255"
+FT   LIPID           35
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           45
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        72
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        92
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        138
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        235..246
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        262..354
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        333..346
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   364 AA;  41890 MW;  0AD2839C07206E09 CRC64;
+     MAFDDKMKPV NGQPDQKSCG KKPKGLHLLS STWWCPAAVT LAILCLVLSV TLIVQQTQLL
+     QVSDLLKQYQ ANLTQQDHIL EGQMSAQKKA ENASQESKRE LKEQIDTLTW KLNEKSKEQE
+     KLLQQNQNLQ EALQRAVNAS EESKWELKEQ IDILNWKLNG ISKEQKELLQ QNQNLQEALQ
+     KAEKYSEESQ RELKEQIDTL SWKLNEKSKE QEELLQQNQN LQEALQRAAN SSGPCPQDWI
+     WHKENCYLFH GPFNWEKSRE NCLSLDAQLL QISTTDDLNF VLQATSHSTS PFWMGLHRKN
+     PNHPWLWENG SPLSFQFFRT RGVSLQMYSS GTCAYIQGGV VFAENCILTA FSICQKKANL
+     LLTQ
+//

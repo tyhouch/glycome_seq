@@ -1,0 +1,182 @@
+ID   JAL21_ARATH             Reviewed;         471 AA.
+AC   O49326; F4IUU4;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   25-MAY-2022, entry version 128.
+DE   RecName: Full=Nitrile-specifier protein 2;
+DE            Short=AtNSP2;
+DE   AltName: Full=Jacalin-related lectin 21;
+GN   Name=NSP2; Synonyms=JAL21; OrderedLocusNames=At2g33070;
+GN   ORFNames=F25I18.19;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10617197; DOI=10.1038/45471;
+RA   Lin X., Kaul S., Rounsley S.D., Shea T.P., Benito M.-I., Town C.D.,
+RA   Fujii C.Y., Mason T.M., Bowman C.L., Barnstead M.E., Feldblyum T.V.,
+RA   Buell C.R., Ketchum K.A., Lee J.J., Ronning C.M., Koo H.L., Moffat K.S.,
+RA   Cronin L.A., Shen M., Pai G., Van Aken S., Umayam L., Tallon L.J.,
+RA   Gill J.E., Adams M.D., Carrera A.J., Creasy T.H., Goodman H.M.,
+RA   Somerville C.R., Copenhaver G.P., Preuss D., Nierman W.C., White O.,
+RA   Eisen J.A., Salzberg S.L., Fraser C.M., Venter J.C.;
+RT   "Sequence and analysis of chromosome 2 of the plant Arabidopsis thaliana.";
+RL   Nature 402:761-768(1999).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J., Southwick A.M.,
+RA   Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F., Karlin-Newmann G.,
+RA   Liu S.X., Lam B., Sakano H., Wu T., Yu G., Miranda M., Quach H.L.,
+RA   Tripp M., Chang C.H., Lee J.M., Toriumi M.J., Chan M.M., Tang C.C.,
+RA   Onodera C.S., Deng J.M., Akiyama K., Ansari Y., Arakawa T., Banh J.,
+RA   Banno F., Bowser L., Brooks S.Y., Carninci P., Chao Q., Choy N., Enju A.,
+RA   Goldsmith A.D., Gurjal M., Hansen N.F., Hayashizaki Y., Johnson-Hopson C.,
+RA   Hsuan V.W., Iida K., Karnes M., Khan S., Koesema E., Ishida J., Jiang P.X.,
+RA   Jones T., Kawai J., Kamiya A., Meyers C., Nakajima M., Narusaka M.,
+RA   Seki M., Sakurai T., Satou M., Tamse R., Vaysberg M., Wallender E.K.,
+RA   Wong C., Yamamura Y., Yuan S., Shinozaki K., Davis R.W., Theologis A.,
+RA   Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+RN   [4]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=18467340; DOI=10.1093/pcp/pcn075;
+RA   Nagano A.J., Fukao Y., Fujiwara M., Nishimura M., Hara-Nishimura I.;
+RT   "Antagonistic jacalin-related lectins regulate the size of ER body-type
+RT   beta-glucosidase complexes in Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 49:969-980(2008).
+RN   [5]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=18987211; DOI=10.1104/pp.108.130732;
+RA   Burow M., Losansky A., Muller R., Plock A., Kliebenstein D.J.,
+RA   Wittstock U.;
+RT   "The genetic basis of constitutive and herbivore-induced ESP-independent
+RT   nitrile formation in Arabidopsis.";
+RL   Plant Physiol. 149:561-574(2009).
+CC   -!- FUNCTION: Promotes simple nitriles, but not epithionitrile or
+CC       thiocyanate formation. Converts allylglucosinolate and
+CC       benzylglucosinolate to their corresponding simple nitriles in the
+CC       presence of myrosinase. {ECO:0000269|PubMed:18987211}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=O49326-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=O49326-2; Sequence=VSP_056709;
+CC   -!- DISRUPTION PHENOTYPE: No visible phenotype.
+CC       {ECO:0000269|PubMed:18987211}.
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC002334; AAC04913.1; -; Genomic_DNA.
+DR   EMBL; CP002685; AEC08780.1; -; Genomic_DNA.
+DR   EMBL; CP002685; AEC08781.1; -; Genomic_DNA.
+DR   EMBL; CP002685; AEC08782.1; -; Genomic_DNA.
+DR   EMBL; AY070077; AAL49772.1; -; mRNA.
+DR   EMBL; AY091331; AAM14270.1; -; mRNA.
+DR   PIR; A84741; A84741.
+DR   RefSeq; NP_001031468.1; NM_001036391.1. [O49326-1]
+DR   RefSeq; NP_001189663.1; NM_001202734.1. [O49326-2]
+DR   RefSeq; NP_180866.1; NM_128867.3. [O49326-1]
+DR   AlphaFoldDB; O49326; -.
+DR   SMR; O49326; -.
+DR   STRING; 3702.AT2G33070.3; -.
+DR   iPTMnet; O49326; -.
+DR   PaxDb; O49326; -.
+DR   PRIDE; O49326; -.
+DR   ProteomicsDB; 250656; -. [O49326-1]
+DR   EnsemblPlants; AT2G33070.1; AT2G33070.1; AT2G33070. [O49326-1]
+DR   EnsemblPlants; AT2G33070.2; AT2G33070.2; AT2G33070. [O49326-1]
+DR   EnsemblPlants; AT2G33070.3; AT2G33070.3; AT2G33070. [O49326-2]
+DR   GeneID; 817869; -.
+DR   Gramene; AT2G33070.1; AT2G33070.1; AT2G33070. [O49326-1]
+DR   Gramene; AT2G33070.2; AT2G33070.2; AT2G33070. [O49326-1]
+DR   Gramene; AT2G33070.3; AT2G33070.3; AT2G33070. [O49326-2]
+DR   KEGG; ath:AT2G33070; -.
+DR   Araport; AT2G33070; -.
+DR   TAIR; locus:2046560; AT2G33070.
+DR   eggNOG; KOG0379; Eukaryota.
+DR   InParanoid; O49326; -.
+DR   OMA; FCGRELD; -.
+DR   OrthoDB; 933937at2759; -.
+DR   PhylomeDB; O49326; -.
+DR   PRO; PR:O49326; -.
+DR   Proteomes; UP000006548; Chromosome 2.
+DR   ExpressionAtlas; O49326; baseline and differential.
+DR   Genevisible; O49326; AT.
+DR   GO; GO:0005783; C:endoplasmic reticulum; HDA:TAIR.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030234; F:enzyme regulator activity; IBA:GO_Central.
+DR   GO; GO:0019762; P:glucosinolate catabolic process; IDA:TAIR.
+DR   GO; GO:0080028; P:nitrile biosynthetic process; IDA:TAIR.
+DR   CDD; cd09612; Jacalin; 1.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   Gene3D; 2.120.10.80; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   InterPro; IPR015915; Kelch-typ_b-propeller.
+DR   InterPro; IPR006652; Kelch_1.
+DR   InterPro; IPR035429; NSP1/2/3.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   Pfam; PF01344; Kelch_1; 1.
+DR   PIRSF; PIRSF038118; Myrosinase-db_jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SMART; SM00612; Kelch; 3.
+DR   SUPFAM; SSF117281; SSF117281; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Kelch repeat; Lectin; Reference proteome; Repeat.
+FT   CHAIN           1..471
+FT                   /note="Nitrile-specifier protein 2"
+FT                   /id="PRO_0000363143"
+FT   DOMAIN          2..144
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   REPEAT          47..94
+FT                   /note="Kelch 1"
+FT   REPEAT          178..226
+FT                   /note="Kelch 2"
+FT   REPEAT          231..277
+FT                   /note="Kelch 3"
+FT   REPEAT          281..330
+FT                   /note="Kelch 4"
+FT   REPEAT          332..379
+FT                   /note="Kelch 5"
+FT   REPEAT          381..435
+FT                   /note="Kelch 6"
+FT   VAR_SEQ         156
+FT                   /note="K -> KVV (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_056709"
+SQ   SEQUENCE   471 AA;  51215 MW;  880B8B24E24E2BD8 CRC64;
+     MVQKVEARGG EIGDVWDDGA YDGVRKVYVG QGEDGIAFVK FEYVNGSQEV VGDERGKKTL
+     LGAEEFEVDP DDYIVYVEGY HEKVFGVTTK EIISTLTFKT YKGKTSPPFG IVSGTKFVLQ
+     GGKIVGFHGR STDVLHSLGA YISSPATPKL RGKWIKVEQK GEGPGPRCSH DIAQVGNKIF
+     SFGGELTPNQ PIDKHLYVFD LETRTWSISP ATGDVPNLSC LGVRMVSIGS SLYVFGGRDA
+     SRKYNGFYSF DTTKNEWKLL TPVEQGPTPR SFHSMTADEN NVYVFGGVSA TVRLKTLDAY
+     NIVDHKWVQC STPGGSCSVR GGAGLEVVQG KVWVVYGFNG CEVDDVHCYD PAQDKWTQVE
+     TFGEKPCARS VFASAVVGKH ILVFGGEIAM DPKAHEGPGQ LSGGTFALDT ETLKWEKLDK
+     LGEEEETPSI RGWSASTTGT IDGKKGLVMF GGKAQTNDRF GDLFFYGVDS A
+//

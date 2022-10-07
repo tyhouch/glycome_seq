@@ -1,0 +1,172 @@
+ID   KLRA1_MOUSE             Reviewed;         262 AA.
+AC   P20937;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   25-MAY-2022, entry version 142.
+DE   RecName: Full=T-cell surface glycoprotein YE1/48;
+DE   AltName: Full=Lymphocyte antigen 49a;
+DE            Short=Ly-49a;
+DE   AltName: Full=T lymphocyte antigen A1;
+GN   Name=Klra1; Synonyms=Ly-49, Ly-49a, Ly49, Ly49A;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2783949;
+RA   Chan P.-Y., Takei F.;
+RT   "Molecular cloning and characterization of a novel murine T cell surface
+RT   antigen, YE1/48.";
+RL   J. Immunol. 142:1727-1736(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2787364;
+RA   Yokoyama W.M., Jacobs L., Kanagawa O., Shevach E.M., Cohen D.I.;
+RT   "A murine T lymphocyte antigen belongs to a supergene family of type II
+RT   integral membrane proteins.";
+RL   J. Immunol. 143:1379-1386(1989).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 127-262 IN COMPLEX WITH
+RP   UNGLYCOSYLATED H-2D, SUBUNIT, AND DISULFIDE BONDS.
+RX   PubMed=10604468; DOI=10.1038/45170;
+RA   Tormo J., Natarajan K., Margulies D.H., Mariuzza R.A.;
+RT   "Crystal structure of a lectin-like natural killer cell receptor bound to
+RT   its MHC class I ligand.";
+RL   Nature 402:623-631(1999).
+CC   -!- FUNCTION: Receptor on natural killer (NK) cells for H-2d alleles.
+CC       Inhibits the activity of NK cells thus preventing cell lysis.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000269|PubMed:10604468}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: High, in T-lymphoma lines, very low in normal
+CC       lymphocytes.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M25775; AAA40578.1; ALT_SEQ; mRNA.
+DR   EMBL; M25812; AAA37242.1; -; mRNA.
+DR   CCDS; CCDS20602.1; -.
+DR   PIR; A30573; A30573.
+DR   PIR; A45813; A45813.
+DR   PDB; 1QO3; X-ray; 2.30 A; C/D=126-262.
+DR   PDBsum; 1QO3; -.
+DR   AlphaFoldDB; P20937; -.
+DR   SMR; P20937; -.
+DR   STRING; 10090.ENSMUSP00000032288; -.
+DR   GlyGen; P20937; 3 sites.
+DR   MaxQB; P20937; -.
+DR   PaxDb; P20937; -.
+DR   PRIDE; P20937; -.
+DR   ProteomicsDB; 263556; -.
+DR   MGI; MGI:101907; Klra1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; P20937; -.
+DR   PhylomeDB; P20937; -.
+DR   ChiTaRS; Klra1; mouse.
+DR   EvolutionaryTrace; P20937; -.
+DR   PRO; PR:P20937; -.
+DR   Proteomes; UP000000589; Unplaced.
+DR   RNAct; P20937; protein.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; TAS:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IDA:MGI.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR013600; Ly49_N.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF08391; Ly49; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell adhesion; Disulfide bond; Glycoprotein; Lectin;
+KW   Membrane; Receptor; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..262
+FT                   /note="T-cell surface glycoprotein YE1/48"
+FT                   /id="PRO_0000046679"
+FT   TOPO_DOM        1..44
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        45..66
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        67..262
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          138..257
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           137..139
+FT                   /note="Cell attachment site"
+FT   CARBOHYD        86
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        103
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        123
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        145..150
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:10604468"
+FT   DISULFID        163..251
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:10604468"
+FT   DISULFID        167..253
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:10604468"
+FT   DISULFID        232..245
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:10604468"
+FT   CONFLICT        76..78
+FT                   /note="NCE -> KLQ (in Ref. 2; AAA37242)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        106
+FT                   /note="I -> M (in Ref. 2; AAA37242)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        166
+FT                   /note="A -> T (in Ref. 2; AAA40578/AAA37242)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        223
+FT                   /note="G -> R (in Ref. 2; AAA37242)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          141..146
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   STRAND          149..158
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   HELIX           160..169
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   HELIX           180..189
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   STRAND          195..202
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   HELIX           203..205
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   STRAND          207..210
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   HELIX           227..229
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   STRAND          231..235
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   STRAND          240..243
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+FT   STRAND          249..256
+FT                   /evidence="ECO:0007829|PDB:1QO3"
+SQ   SEQUENCE   262 AA;  30498 MW;  3C3328D265F71B5E CRC64;
+     MSEQEVTYSM VRFHKSAGLQ KQVRPEETKG PREAGYRRCS FHWKFIVIAL GIFCFLLLVA
+     VSVLAIKIFQ YDQQKNCEEF LNHHNNCSNM QSDINLKDEM LKNKSIECDL LESLNRDQNR
+     LYNKTKTVLD SLQHTGRGDK VYWFCYGMKC YYFVMDRKTW SGCKQACQSS SLSLLKIDDE
+     DELKFLQLVV PSDSCWVGLS YDNKKKDWAW IDNRPSKLAL NTGKYNIRDG GCMLLSKTRL
+     DNGNCDQVFI CICGKRLDKF PH
+//

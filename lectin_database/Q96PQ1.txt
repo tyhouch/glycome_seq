@@ -1,0 +1,299 @@
+ID   SIG12_HUMAN             Reviewed;         595 AA.
+AC   Q96PQ1; Q8IYH7;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   03-AUG-2022, entry version 182.
+DE   RecName: Full=Sialic acid-binding Ig-like lectin 12;
+DE            Short=Siglec-12;
+DE   AltName: Full=Sialic acid-binding Ig-like lectin-like 1;
+DE            Short=Siglec-L1;
+DE   Flags: Precursor;
+GN   Name=SIGLEC12; Synonyms=SIGLECL1, SLG; ORFNames=UNQ9215/PRO34042;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS LONG AND SHORT).
+RC   TISSUE=Bone marrow;
+RX   PubMed=11409877; DOI=10.1006/bbrc.2001.5052;
+RA   Foussias G., Taylor S.M., Yousef G.M., Tropak M.B., Ordon M.H.,
+RA   Diamandis E.P.;
+RT   "Cloning and molecular characterization of two splice variants of a new
+RT   putative member of the Siglec-3-like subgroup of Siglecs.";
+RL   Biochem. Biophys. Res. Commun. 284:887-899(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM LONG).
+RX   PubMed=11546777; DOI=10.1074/jbc.m105926200;
+RA   Angata T., Varki N.M., Varki A.;
+RT   "A second uniquely human mutation affecting sialic acid biology.";
+RL   J. Biol. Chem. 276:40282-40287(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM LONG).
+RX   PubMed=12975309; DOI=10.1101/gr.1293003;
+RA   Clark H.F., Gurney A.L., Abaya E., Baker K., Baldwin D.T., Brush J.,
+RA   Chen J., Chow B., Chui C., Crowley C., Currell B., Deuel B., Dowd P.,
+RA   Eaton D., Foster J.S., Grimaldi C., Gu Q., Hass P.E., Heldens S., Huang A.,
+RA   Kim H.S., Klimowski L., Jin Y., Johnson S., Lee J., Lewis L., Liao D.,
+RA   Mark M.R., Robbie E., Sanchez C., Schoenfeld J., Seshagiri S., Simmons L.,
+RA   Singh J., Smith V., Stinson J., Vagts A., Vandlen R.L., Watanabe C.,
+RA   Wieand D., Woods K., Xie M.-H., Yansura D.G., Yi S., Yu G., Yuan J.,
+RA   Zhang M., Zhang Z., Goddard A.D., Wood W.I., Godowski P.J., Gray A.M.;
+RT   "The secreted protein discovery initiative (SPDI), a large-scale effort to
+RT   identify novel human secreted and transmembrane proteins: a bioinformatics
+RT   assessment.";
+RL   Genome Res. 13:2265-2270(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM LONG).
+RC   TISSUE=Blood;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Putative adhesion molecule that mediates sialic-acid
+CC       dependent binding to cells. The sialic acid recognition site may be
+CC       masked by cis interactions with sialic acids on the same cell surface.
+CC   -!- INTERACTION:
+CC       Q96PQ1; Q96CM8: ACSF2; NbExp=3; IntAct=EBI-17640454, EBI-2876502;
+CC       Q96PQ1; Q15848: ADIPOQ; NbExp=3; IntAct=EBI-17640454, EBI-10827839;
+CC       Q96PQ1; P18859: ATP5PF; NbExp=3; IntAct=EBI-17640454, EBI-2606700;
+CC       Q96PQ1; O14735: CDIPT; NbExp=3; IntAct=EBI-17640454, EBI-358858;
+CC       Q96PQ1; Q6UXB4: CLEC4G; NbExp=3; IntAct=EBI-17640454, EBI-2114729;
+CC       Q96PQ1; Q96LL9: DNAJC30; NbExp=3; IntAct=EBI-17640454, EBI-8639143;
+CC       Q96PQ1; Q01638-2: IL1RL1; NbExp=3; IntAct=EBI-17640454, EBI-12838366;
+CC       Q96PQ1; P10620: MGST1; NbExp=3; IntAct=EBI-17640454, EBI-2691601;
+CC       Q96PQ1; Q8IY26: PLPP6; NbExp=3; IntAct=EBI-17640454, EBI-11721828;
+CC       Q96PQ1; Q96GM1: PLPPR2; NbExp=3; IntAct=EBI-17640454, EBI-12955265;
+CC       Q96PQ1; Q59EV6: PPGB; NbExp=3; IntAct=EBI-17640454, EBI-14210385;
+CC       Q96PQ1; Q13635-3: PTCH1; NbExp=3; IntAct=EBI-17640454, EBI-14199621;
+CC       Q96PQ1; Q9NRS4: TMPRSS4; NbExp=3; IntAct=EBI-17640454, EBI-10313040;
+CC       Q96PQ1; Q9Y548: YIPF1; NbExp=3; IntAct=EBI-17640454, EBI-7850136;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long; Synonyms=SLG-L;
+CC         IsoId=Q96PQ1-1; Sequence=Displayed;
+CC       Name=Short; Synonyms=SLG-S;
+CC         IsoId=Q96PQ1-2; Sequence=VSP_002566;
+CC   -!- TISSUE SPECIFICITY: Isoform Short is highly expressed in spleen, small
+CC       intestine and adrenal gland; it is lower expressed in thyroid,
+CC       placenta, brain, stomach, bone marrow, spinal cord and breast. Isoform
+CC       Long is highly expressed in spleen, small intestine and bone marrow; it
+CC       is lower expressed in thyroid, placenta, thymus, trachea, stomach,
+CC       lung, adrenal gland, fetal brain and testis.
+CC   -!- DOMAIN: Contains 1 copy of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). This motif is
+CC       involved in modulation of cellular responses. The phosphorylated ITIM
+CC       motif can bind the SH2 domain of several SH2-containing phosphatases.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Siglec-L1;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_hum_Itlect_276";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF277806; AAK51233.1; -; Genomic_DNA.
+DR   EMBL; AF277806; AAK51234.1; -; Genomic_DNA.
+DR   EMBL; AF282256; AAK71521.1; -; mRNA.
+DR   EMBL; AY358140; AAQ88507.1; -; mRNA.
+DR   EMBL; BC035809; AAH35809.2; -; mRNA.
+DR   CCDS; CCDS12833.1; -. [Q96PQ1-1]
+DR   CCDS; CCDS59416.1; -. [Q96PQ1-2]
+DR   RefSeq; NP_201586.1; NM_033329.2. [Q96PQ1-2]
+DR   RefSeq; NP_443729.1; NM_053003.3. [Q96PQ1-1]
+DR   RefSeq; XP_011525743.1; XM_011527441.2. [Q96PQ1-2]
+DR   AlphaFoldDB; Q96PQ1; -.
+DR   BioGRID; 124623; 72.
+DR   IntAct; Q96PQ1; 22.
+DR   STRING; 9606.ENSP00000291707; -.
+DR   GlyGen; Q96PQ1; 7 sites.
+DR   iPTMnet; Q96PQ1; -.
+DR   PhosphoSitePlus; Q96PQ1; -.
+DR   BioMuta; SIGLEC12; -.
+DR   DMDM; 25009264; -.
+DR   MassIVE; Q96PQ1; -.
+DR   PaxDb; Q96PQ1; -.
+DR   PeptideAtlas; Q96PQ1; -.
+DR   PRIDE; Q96PQ1; -.
+DR   ProteomicsDB; 77728; -. [Q96PQ1-1]
+DR   ProteomicsDB; 77729; -. [Q96PQ1-2]
+DR   Antibodypedia; 52796; 210 antibodies from 26 providers.
+DR   DNASU; 89858; -.
+DR   Ensembl; ENST00000291707.8; ENSP00000291707.3; ENSG00000254521.7. [Q96PQ1-1]
+DR   Ensembl; ENST00000598614.1; ENSP00000472873.1; ENSG00000254521.7. [Q96PQ1-2]
+DR   GeneID; 89858; -.
+DR   KEGG; hsa:89858; -.
+DR   MANE-Select; ENST00000291707.8; ENSP00000291707.3; NM_053003.4; NP_443729.1.
+DR   UCSC; uc002pww.3; human. [Q96PQ1-1]
+DR   CTD; 89858; -.
+DR   DisGeNET; 89858; -.
+DR   GeneCards; SIGLEC12; -.
+DR   HGNC; HGNC:15482; SIGLEC12.
+DR   HPA; ENSG00000254521; Group enriched (intestine, lymphoid tissue).
+DR   MIM; 606094; gene.
+DR   neXtProt; NX_Q96PQ1; -.
+DR   OpenTargets; ENSG00000254521; -.
+DR   PharmGKB; PA37966; -.
+DR   VEuPathDB; HostDB:ENSG00000254521; -.
+DR   eggNOG; ENOG502S41V; Eukaryota.
+DR   GeneTree; ENSGT01040000240469; -.
+DR   HOGENOM; CLU_024444_6_1_1; -.
+DR   InParanoid; Q96PQ1; -.
+DR   OMA; IDMEGAN; -.
+DR   OrthoDB; 324083at2759; -.
+DR   PhylomeDB; Q96PQ1; -.
+DR   PathwayCommons; Q96PQ1; -.
+DR   Reactome; R-HSA-198933; Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell.
+DR   SignaLink; Q96PQ1; -.
+DR   BioGRID-ORCS; 89858; 6 hits in 1068 CRISPR screens.
+DR   GeneWiki; Sialic_acid-binding_Ig-like_lectin_12; -.
+DR   GenomeRNAi; 89858; -.
+DR   Pharos; Q96PQ1; Tbio.
+DR   PRO; PR:Q96PQ1; -.
+DR   Proteomes; UP000005640; Chromosome 19.
+DR   RNAct; Q96PQ1; protein.
+DR   Bgee; ENSG00000254521; Expressed in spleen and 71 other tissues.
+DR   ExpressionAtlas; Q96PQ1; baseline and differential.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033691; F:sialic acid binding; IBA:GO_Central.
+DR   GO; GO:0007155; P:cell adhesion; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; -; 4.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   Pfam; PF07686; V-set; 2.
+DR   SMART; SM00409; IG; 4.
+DR   SMART; SM00408; IGc2; 3.
+DR   SUPFAM; SSF48726; SSF48726; 4.
+DR   PROSITE; PS50835; IG_LIKE; 3.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell adhesion; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Lectin; Membrane; Phosphoprotein;
+KW   Reference proteome; Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..595
+FT                   /note="Sialic acid-binding Ig-like lectin 12"
+FT                   /id="PRO_0000014953"
+FT   TOPO_DOM        19..481
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        482..502
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        503..595
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          19..142
+FT                   /note="Ig-like V-type 1"
+FT   DOMAIN          143..269
+FT                   /note="Ig-like V-type 2"
+FT   DOMAIN          275..358
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          365..462
+FT                   /note="Ig-like C2-type 2"
+FT   REGION          512..560
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           563..568
+FT                   /note="ITIM motif"
+FT   MOTIF           586..591
+FT                   /note="SLAM-like motif"
+FT   MOD_RES         565
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91Y57"
+FT   MOD_RES         588
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91Y57"
+FT   CARBOHYD        140
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        179
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        230
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        290
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        360
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        367
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        385
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        44..104
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        166..299
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        171..231
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        293..342
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        401..446
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   VAR_SEQ         4..141
+FT                   /note="LLLLLPPLLCGRVGAKEQKDYLLTMQKSVTVQEGLCVSVLCSFSYPQNGWTA
+FT                   SDPVHGYWFRAGDHVSRNIPVATNNPARAVQEETRDRFHLLGDPQNKDCTLSIRDTRES
+FT                   DAGTYVFCVERGNMKWNYKYDQLSVNV -> PLLWANEERDSGGWADPRFS (in
+FT                   isoform Short)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002566"
+FT   VARIANT         81
+FT                   /note="P -> H (in dbSNP:rs2034891)"
+FT                   /id="VAR_049931"
+FT   VARIANT         81
+FT                   /note="P -> T (in dbSNP:rs2034891)"
+FT                   /id="VAR_014259"
+FT   VARIANT         82
+FT                   /note="A -> V (in dbSNP:rs3810110)"
+FT                   /id="VAR_049932"
+FT   VARIANT         217
+FT                   /note="H -> Q (in dbSNP:rs6509544)"
+FT                   /id="VAR_024501"
+FT   VARIANT         218
+FT                   /note="G -> R (in dbSNP:rs6509544)"
+FT                   /id="VAR_049933"
+FT   VARIANT         398
+FT                   /note="H -> Y (in dbSNP:rs11668530)"
+FT                   /id="VAR_049934"
+FT   VARIANT         478
+FT                   /note="T -> M (in dbSNP:rs3829658)"
+FT                   /id="VAR_020088"
+FT   VARIANT         494
+FT                   /note="Y -> S (in dbSNP:rs3752135)"
+FT                   /id="VAR_020089"
+FT   VARIANT         546
+FT                   /note="P -> Q (in dbSNP:rs57043266)"
+FT                   /id="VAR_061327"
+FT   VARIANT         586
+FT                   /note="Y -> C (in dbSNP:rs7245807)"
+FT                   /id="VAR_049935"
+FT   CONFLICT        528
+FT                   /note="R -> W (in Ref. 3; AAQ88507)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   595 AA;  64984 MW;  D05662176274C5C3 CRC64;
+     MLLLLLLLPP LLCGRVGAKE QKDYLLTMQK SVTVQEGLCV SVLCSFSYPQ NGWTASDPVH
+     GYWFRAGDHV SRNIPVATNN PARAVQEETR DRFHLLGDPQ NKDCTLSIRD TRESDAGTYV
+     FCVERGNMKW NYKYDQLSVN VTASQDLLSR YRLEVPESVT VQEGLCVSVP CSVLYPHYNW
+     TASSPVYGSW FKEGADIPWD IPVATNTPSG KVQEDTHGRF LLLGDPQTNN CSLSIRDARK
+     GDSGKYYFQV ERGSRKWNYI YDKLSVHVTA LTHMPTFSIP GTLESGHPRN LTCSVPWACE
+     QGTPPTITWM GASVSSLDPT ITRSSMLSLI PQPQDHGTSL TCQVTLPGAG VTMTRAVRLN
+     ISYPPQNLTM TVFQGDGTAS TTLRNGSALS VLEGQSLHLV CAVDSNPPAR LSWTWGSLTL
+     SPSQSSNLGV LELPRVHVKD EGEFTCRAQN PLGSQHISLS LSLQNEYTGK MRPISGVTLG
+     AFGGAGATAL VFLYFCIIFV VVRSCRKKSA RPAVGVGDTG MEDANAVRGS ASQGPLIESP
+     ADDSPPHHAP PALATPSPEE GEIQYASLSF HKARPQYPQE QEAIGYEYSE INIPK
+//

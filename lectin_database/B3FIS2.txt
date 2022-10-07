@@ -1,0 +1,66 @@
+ID   TXLA3_CYRSC             Reviewed;          83 AA.
+AC   B3FIS2;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   22-JUL-2008, sequence version 1.
+DT   25-MAY-2022, entry version 34.
+DE   RecName: Full=U5-theraphotoxin-Hs1a 3;
+DE            Short=U5-TRTX-Hs1a;
+DE   AltName: Full=Lectin SHL-Ia3;
+DE   Flags: Precursor;
+OS   Cyriopagopus schmidti (Chinese bird spider) (Haplopelma schmidti).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida; Araneae;
+OC   Mygalomorphae; Theraphosidae; Cyriopagopus.
+OX   NCBI_TaxID=29017;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Venom gland;
+RX   PubMed=18482741; DOI=10.1016/j.toxicon.2008.03.024;
+RA   Jiang L., Peng L., Chen J., Zhang Y., Xiong X., Liang S.;
+RT   "Molecular diversification based on analysis of expressed sequence tags
+RT   from the venom glands of the Chinese bird spider Ornithoctonus huwena.";
+RL   Toxicon 51:1479-1489(2008).
+CC   -!- FUNCTION: Agglutinates erythrocytes. {ECO:0000250|UniProtKB:Q86C51}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC   -!- SIMILARITY: Belongs to the neurotoxin 10 (Hwtx-1) family. 51 (Hntx-8)
+CC       subfamily. Hntx-8 sub-subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU195266; ABY77719.1; -; mRNA.
+DR   AlphaFoldDB; B3FIS2; -.
+DR   BMRB; B3FIS2; -.
+DR   SMR; B3FIS2; -.
+DR   ArachnoServer; AS000355; U5-theraphotoxin-Hs1a.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008200; F:ion channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR011696; Huwentoxin-1.
+DR   InterPro; IPR013140; Huwentoxin_CS1.
+DR   Pfam; PF07740; Toxin_12; 1.
+DR   PROSITE; PS60021; HWTX_1; 1.
+PE   2: Evidence at transcript level;
+KW   Cleavage on pair of basic residues; Disulfide bond; Knottin; Lectin;
+KW   Secreted; Signal; Toxin.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          22..49
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000380166"
+FT   CHAIN           50..81
+FT                   /note="U5-theraphotoxin-Hs1a 3"
+FT                   /id="PRO_0000380167"
+FT   DISULFID        51..63
+FT                   /evidence="ECO:0000250|UniProtKB:B3FIS6"
+FT   DISULFID        56..68
+FT                   /evidence="ECO:0000250|UniProtKB:B3FIS6"
+FT   DISULFID        62..75
+FT                   /evidence="ECO:0000250|UniProtKB:B3FIS6"
+SQ   SEQUENCE   83 AA;  9407 MW;  8EBA82546599AD69 CRC64;
+     MKTSMFLTLT GLVLLFVVCY ASESEEKDFP KELLSSIFAA DSDFKVEERG CLGDKCDYNN
+     GCCSGYVCSR TWKWCVLAGP WRR
+//

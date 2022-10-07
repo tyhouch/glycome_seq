@@ -1,0 +1,253 @@
+ID   GLU2A_YEAST             Reviewed;         954 AA.
+AC   P38138;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   03-AUG-2022, entry version 166.
+DE   RecName: Full=Glucosidase 2 subunit alpha;
+DE            EC=3.2.1.207 {ECO:0000305|PubMed:16373354, ECO:0000305|PubMed:8910335};
+DE   AltName: Full=Alpha-glucosidase II subunit alpha;
+DE   AltName: Full=Glucosidase II subunit alpha;
+DE   AltName: Full=Reversal of TOR2 lethality protein 2;
+DE   Flags: Precursor;
+GN   Name=ROT2; Synonyms=GLS2; OrderedLocusNames=YBR229C; ORFNames=YBR1526;
+OS   Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=559292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=7813418; DOI=10.1002/j.1460-2075.1994.tb06923.x;
+RA   Feldmann H., Aigle M., Aljinovic G., Andre B., Baclet M.C., Barthe C.,
+RA   Baur A., Becam A.-M., Biteau N., Boles E., Brandt T., Brendel M.,
+RA   Brueckner M., Bussereau F., Christiansen C., Contreras R., Crouzet M.,
+RA   Cziepluch C., Demolis N., Delaveau T., Doignon F., Domdey H.,
+RA   Duesterhus S., Dubois E., Dujon B., El Bakkoury M., Entian K.-D.,
+RA   Feuermann M., Fiers W., Fobo G.M., Fritz C., Gassenhuber J., Glansdorff N.,
+RA   Goffeau A., Grivell L.A., de Haan M., Hein C., Herbert C.J.,
+RA   Hollenberg C.P., Holmstroem K., Jacq C., Jacquet M., Jauniaux J.-C.,
+RA   Jonniaux J.-L., Kallesoee T., Kiesau P., Kirchrath L., Koetter P.,
+RA   Korol S., Liebl S., Logghe M., Lohan A.J.E., Louis E.J., Li Z.Y.,
+RA   Maat M.J., Mallet L., Mannhaupt G., Messenguy F., Miosga T., Molemans F.,
+RA   Mueller S., Nasr F., Obermaier B., Perea J., Pierard A., Piravandi E.,
+RA   Pohl F.M., Pohl T.M., Potier S., Proft M., Purnelle B., Ramezani Rad M.,
+RA   Rieger M., Rose M., Schaaff-Gerstenschlaeger I., Scherens B.,
+RA   Schwarzlose C., Skala J., Slonimski P.P., Smits P.H.M., Souciet J.-L.,
+RA   Steensma H.Y., Stucka R., Urrestarazu L.A., van der Aart Q.J.M.,
+RA   Van Dyck L., Vassarotti A., Vetter I., Vierendeels F., Vissers S.,
+RA   Wagner G., de Wergifosse P., Wolfe K.H., Zagulski M., Zimmermann F.K.,
+RA   Mewes H.-W., Kleine K.;
+RT   "Complete DNA sequence of yeast chromosome II.";
+RL   EMBO J. 13:5795-5809(1994).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=24374639; DOI=10.1534/g3.113.008995;
+RA   Engel S.R., Dietrich F.S., Fisk D.G., Binkley G., Balakrishnan R.,
+RA   Costanzo M.C., Dwight S.S., Hitz B.C., Karra K., Nash R.S., Weng S.,
+RA   Wong E.D., Lloyd P., Skrzypek M.S., Miyasato S.R., Simison M., Cherry J.M.;
+RT   "The reference genome sequence of Saccharomyces cerevisiae: Then and now.";
+RL   G3 (Bethesda) 4:389-398(2014).
+RN   [3]
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=6216253; DOI=10.1016/s0021-9258(19)45358-1;
+RA   Saunier B., Kilker R.D. Jr., Tkacz J.S., Quaroni A., Herscovics A.;
+RT   "Inhibition of N-linked complex oligosaccharide formation by 1-
+RT   deoxynojirimycin, an inhibitor of processing glucosidases.";
+RL   J. Biol. Chem. 257:14155-14161(1982).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=8910335; DOI=10.1074/jbc.271.44.27509;
+RA   Trombetta E.S., Simons J.F., Helenius A.;
+RT   "Endoplasmic reticulum glucosidase II is composed of a catalytic subunit,
+RT   conserved from yeast to mammals, and a tightly bound noncatalytic HDEL-
+RT   containing subunit.";
+RL   J. Biol. Chem. 271:27509-27516(1996).
+RN   [5]
+RP   LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS].
+RX   PubMed=14562106; DOI=10.1038/nature02046;
+RA   Ghaemmaghami S., Huh W.-K., Bower K., Howson R.W., Belle A., Dephoure N.,
+RA   O'Shea E.K., Weissman J.S.;
+RT   "Global analysis of protein expression in yeast.";
+RL   Nature 425:737-741(2003).
+RN   [6]
+RP   FUNCTION, INTERACTION WITH GTB1, SUBCELLULAR LOCATION, AND GLYCOSYLATION.
+RX   PubMed=16373354; DOI=10.1074/jbc.m510455200;
+RA   Wilkinson B.M., Purswani J., Stirling C.J.;
+RT   "Yeast GTB1 encodes a subunit of glucosidase II required for glycoprotein
+RT   processing in the endoplasmic reticulum.";
+RL   J. Biol. Chem. 281:6325-6333(2006).
+CC   -!- FUNCTION: Catalytic subunit of glucosidase 2, which cleaves
+CC       sequentially the 2 innermost alpha-1,3-linked glucose residues from the
+CC       Glc(2)Man(9)GlcNAc(2) oligosaccharide precursor of immature
+CC       glycoproteins. {ECO:0000269|PubMed:16373354,
+CC       ECO:0000269|PubMed:8910335}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] = beta-D-glucose + N(4)-(alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] (N-glucan mannose isomer 9A1,2,3B1,2,3);
+CC         Xref=Rhea:RHEA:56000, Rhea:RHEA-COMP:14356, Rhea:RHEA-COMP:14357,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15903, ChEBI:CHEBI:59080,
+CC         ChEBI:CHEBI:139493; EC=3.2.1.207;
+CC         Evidence={ECO:0000305|PubMed:16373354, ECO:0000305|PubMed:8910335};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-
+CC         alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-
+CC         Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-
+CC         asparaginyl-[protein] = beta-D-glucose + N(4)-(alpha-D-Glc-(1->3)-
+CC         alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-
+CC         Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         alpha-D-GlcNAc)-L-asparaginyl-[protein]; Xref=Rhea:RHEA:55996,
+CC         Rhea:RHEA-COMP:14355, Rhea:RHEA-COMP:14357, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15903, ChEBI:CHEBI:59080, ChEBI:CHEBI:59082;
+CC         EC=3.2.1.207; Evidence={ECO:0000305|PubMed:16373354,
+CC         ECO:0000305|PubMed:8910335};
+CC   -!- ACTIVITY REGULATION: Inhibited by glucose, maltose and nigerose, and by
+CC       the antibiotic deoxynojirimycin.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 5.8-6.8. {ECO:0000269|PubMed:6216253};
+CC   -!- PATHWAY: Glycan metabolism; N-glycan metabolism.
+CC   -!- SUBUNIT: Heterodimer of a catalytic subunit alpha (ROT2) and a subunit
+CC       beta (GTB1).
+CC   -!- INTERACTION:
+CC       P38138; Q04924: GTB1; NbExp=2; IntAct=EBI-21021, EBI-37493;
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum
+CC       {ECO:0000269|PubMed:16373354}.
+CC   -!- MISCELLANEOUS: Present with 238 molecules/cell in log phase SD medium.
+CC       {ECO:0000269|PubMed:14562106}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z36098; CAA85192.1; -; Genomic_DNA.
+DR   EMBL; BK006936; DAA07344.1; -; Genomic_DNA.
+DR   PIR; S46105; S46105.
+DR   RefSeq; NP_009788.3; NM_001178577.3.
+DR   AlphaFoldDB; P38138; -.
+DR   SMR; P38138; -.
+DR   BioGRID; 32924; 202.
+DR   ComplexPortal; CPX-417; Glucosidase II complex.
+DR   DIP; DIP-5754N; -.
+DR   IntAct; P38138; 3.
+DR   MINT; P38138; -.
+DR   STRING; 4932.YBR229C; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   MaxQB; P38138; -.
+DR   PaxDb; P38138; -.
+DR   PRIDE; P38138; -.
+DR   EnsemblFungi; YBR229C_mRNA; YBR229C; YBR229C.
+DR   GeneID; 852530; -.
+DR   KEGG; sce:YBR229C; -.
+DR   SGD; S000000433; ROT2.
+DR   VEuPathDB; FungiDB:YBR229C; -.
+DR   eggNOG; KOG1066; Eukaryota.
+DR   GeneTree; ENSGT00940000168086; -.
+DR   HOGENOM; CLU_000631_7_0_1; -.
+DR   InParanoid; P38138; -.
+DR   OMA; QAGIWYP; -.
+DR   BioCyc; MetaCyc:YBR229C-MON; -.
+DR   BioCyc; YEAST:YBR229C-MON; -.
+DR   UniPathway; UPA00957; -.
+DR   PRO; PR:P38138; -.
+DR   Proteomes; UP000002311; Chromosome II.
+DR   RNAct; P38138; protein.
+DR   GO; GO:0005783; C:endoplasmic reticulum; HDA:SGD.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IDA:SGD.
+DR   GO; GO:0017177; C:glucosidase II complex; IPI:SGD.
+DR   GO; GO:0005739; C:mitochondrion; HDA:SGD.
+DR   GO; GO:0090599; F:alpha-glucosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0033919; F:glucan 1,3-alpha-glucosidase activity; IMP:SGD.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0070880; P:fungal-type cell wall beta-glucan biosynthetic process; IDA:ComplexPortal.
+DR   GO; GO:0006491; P:N-glycan processing; IDA:ComplexPortal.
+DR   GO; GO:0000271; P:polysaccharide biosynthetic process; IC:ComplexPortal.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Glycoprotein; Glycosidase; Hydrolase;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..954
+FT                   /note="Glucosidase 2 subunit alpha"
+FT                   /id="PRO_0000185370"
+FT   ACT_SITE        537
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        540
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        614
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        114
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        126
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        142
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        173
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        345
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        783
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        791
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        867
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        880
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        907
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        941
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   954 AA;  110266 MW;  92E93572F04FB009 CRC64;
+     MVLLKWLVCQ LVFFTAFSHA FTDYLLKKCA QSGFCHRNRV YAENIAKSHH CYYKVDAESI
+     AHDPLENVLH ATIIKTIPRL EGDDIAVQFP FSLSFLQDHS VRFTINEKER MPTNSSGLLI
+     SSQRFNETWK YAFDKKFQEE ANRTSIPQFH FLKQKQTVNS FWSKISSFLS LSNSTADTFH
+     LRNGDVSVEI FAEPFQLKVY WQNALKLIVN EQNFLNIEHH RTKQENFAHV LPEETTFNMF
+     KDNFLYSKHD SMPLGPESVA LDFSFMGSTN VYGIPEHATS LRLMDTSGGK EPYRLFNVDV
+     FEYNIGTSQP MYGSIPFMFS SSSTSIFWVN AADTWVDIKY DTSKNKTMTH WISENGVIDV
+     VMSLGPDIPT IIDKFTDLTG RPFLPPISSI GYHQCRWNYN DEMDVLTVDS QMDAHMIPYD
+     FIWLDLEYTN DKKYFTWKQH SFPNPKRLLS KLKKLGRNLV VLIDPHLKKD YEISDRVINE
+     NVAVKDHNGN DYVGHCWPGN SIWIDTISKY GQKIWKSFFE RFMDLPADLT NLFIWNDMNE
+     PSIFDGPETT APKDLIHDNY IEERSVHNIY GLSVHEATYD AIKSIYSPSD KRPFLLTRAF
+     FAGSQRTAAT WTGDNVANWD YLKISIPMVL SNNIAGMPFI GADIAGFAED PTPELIARWY
+     QAGLWYPFFR AHAHIDTKRR EPYLFNEPLK SIVRDIIQLR YFLLPTLYTM FHKSSVTGFP
+     IMNPMFIEHP EFAELYHIDN QFYWSNSGLL VKPVTEPGQS ETEMVFPPGI FYEFASLHSF
+     INNGTDLIEK NISAPLDKIP LFIEGGHIIT MKDKYRRSSM LMKNDPYVIV IAPDTEGRAV
+     GDLYVDDGET FGYQRGEYVE TQFIFENNTL KNVRSHIPEN LTGIHHNTLR NTNIEKIIIA
+     KNNLQHNITL KDSIKVKKNG EESSLPTRSS YENDNKITIL NLSLDITEDW EVIF
+//

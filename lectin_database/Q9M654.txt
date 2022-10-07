@@ -1,0 +1,168 @@
+ID   RIPM_POLML              Reviewed;         604 AA.
+AC   Q9M654;
+DT   15-FEB-2017, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   25-MAY-2022, entry version 87.
+DE   RecName: Full=Ribosome-inactivating protein PMRIPm {ECO:0000303|PubMed:10785398};
+DE   Contains:
+DE     RecName: Full=PMRIPm A chain {ECO:0000303|PubMed:10785398};
+DE     AltName: Full=rRNA N-glycosidase {ECO:0000255|RuleBase:RU004915, ECO:0000303|PubMed:10785398};
+DE              EC=3.2.2.22 {ECO:0000255|RuleBase:RU004915, ECO:0000269|PubMed:10785398};
+DE   Contains:
+DE     RecName: Full=Linker peptide {ECO:0000303|PubMed:10785398};
+DE   Contains:
+DE     RecName: Full=PMRIPm B chain {ECO:0000303|PubMed:10785398};
+DE   Flags: Precursor;
+GN   Name=RIPm {ECO:0000312|EMBL:AAF37218.1};
+OS   Polygonatum multiflorum (Solomon's seal).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Asparagales; Asparagaceae;
+OC   Nolinoideae; Polygonatum.
+OX   NCBI_TaxID=45371 {ECO:0000312|EMBL:AAF37218.1};
+RN   [1] {ECO:0000312|EMBL:AAF37218.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 329-339, FUNCTION,
+RP   CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBUNIT, TISSUE SPECIFICITY, PTM,
+RP   GLYCOSYLATION, 3D-STRUCTURE MODELING, AND PHYLOGENETIC ANALYSIS.
+RC   TISSUE=Meristem {ECO:0000303|PubMed:10785398};
+RX   PubMed=10785398; DOI=10.1046/j.1432-1327.2000.01295.x;
+RA   Van Damme E.J., Hao Q., Charels D., Barre A., Rouge P., Van Leuven F.,
+RA   Peumans W.J.;
+RT   "Characterization and molecular cloning of two different type 2 ribosome-
+RT   inactivating proteins from the monocotyledonous plant Polygonatum
+RT   multiflorum.";
+RL   Eur. J. Biochem. 267:2746-2759(2000).
+CC   -!- FUNCTION: Gal/GalNAc-specific agglutinin. Behaves as a type-2 ribosome-
+CC       inactivating protein. Inhibits mammalian ribosomes (PubMed:10785398).
+CC       The A chain is responsible for inhibiting protein synthesis through the
+CC       catalytic inactivation of 60S ribosomal subunits by removing adenine
+CC       from position 4,324 of 28S rRNA (Probable). The B chain binds to cell
+CC       receptors and probably facilitates the entry into the cell of the A
+CC       chain; B chains are also responsible for cell agglutination (lectin
+CC       activity) (Probable). Involved in plant defense against insects (By
+CC       similarity). Has very low cytotoxic activity against the human tumor
+CC       cell line Molt4, but higher against CEM (PubMed:10785398).
+CC       {ECO:0000250|UniProtKB:O22415, ECO:0000269|PubMed:10785398,
+CC       ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22; Evidence={ECO:0000255,
+CC         ECO:0000255|RuleBase:RU004915, ECO:0000269|PubMed:10785398};
+CC   -!- ACTIVITY REGULATION: Strongly inhibited by asialofetuin and
+CC       asialomucin. {ECO:0000269|PubMed:10785398}.
+CC   -!- SUBUNIT: Disulfide-linked dimer of A and B chains.
+CC       {ECO:0000269|PubMed:10785398}.
+CC   -!- TISSUE SPECIFICITY: Expressed in rhizome and abundantly in leaves (at
+CC       protein level). {ECO:0000269|PubMed:10785398}.
+CC   -!- DOMAIN: The B-chain consists of six tandemly repeated subdomains. Only
+CC       subdomains 1-alpha and 2-gamma possess a functional carbohydrate-
+CC       binding site. {ECO:0000250|UniProtKB:Q41358}.
+CC   -!- PTM: The precursor is processed in two chains, A and B, that are linked
+CC       by a disulfide bond. {ECO:0000269|PubMed:10785398}.
+CC   -!- PTM: Glycosylated. {ECO:0000269|PubMed:10785398}.
+CC   -!- PTM: The N-terminus is blocked. {ECO:0000269|PubMed:10785398}.
+CC   -!- SIMILARITY: Belongs to the ribosome-inactivating protein family. Type 2
+CC       RIP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF213983; AAF37218.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q9M654; -.
+DR   SMR; Q9M654; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IDA:UniProtKB.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Hydrolase; Lectin;
+KW   Plant defense; Protein synthesis inhibitor; Repeat; Signal; Toxin.
+FT   SIGNAL          1..43
+FT                   /evidence="ECO:0000250|UniProtKB:Q9M653"
+FT   CHAIN           44..310
+FT                   /note="PMRIPm A chain"
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000439025"
+FT   PEPTIDE         311..328
+FT                   /note="Linker peptide"
+FT                   /evidence="ECO:0000305|PubMed:10785398"
+FT                   /id="PRO_0000439026"
+FT   CHAIN           329..604
+FT                   /note="PMRIPm B chain"
+FT                   /evidence="ECO:0000305|PubMed:10785398"
+FT                   /id="PRO_0000439027"
+FT   DOMAIN          335..463
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          345..387
+FT                   /note="1-alpha"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   REPEAT          389..429
+FT                   /note="1-beta"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   REPEAT          432..465
+FT                   /note="1-gamma"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   DOMAIN          466..598
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          477..521
+FT                   /note="2-alpha"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   REPEAT          525..563
+FT                   /note="2-beta"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   REPEAT          566..599
+FT                   /note="2-gamma"
+FT                   /evidence="ECO:0000250|UniProtKB:Q41358"
+FT   ACT_SITE        211
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   CARBOHYD        490
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        301..332
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        348..367
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        392..409
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        480..502
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   CONFLICT        331..332
+FT                   /note="KC -> MP (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   604 AA;  67060 MW;  6206C2B25F908D4E CRC64;
+     MRVVAAILYI NVVVALICGL GIQGGALDLQ DYPSVSFQGD AMQLQDYPSI TFNLKGATWQ
+     TYRDFIEKLR EIVTRGATTI AGTSIPVLNR VVPDSRRFVY VRLINLDGNV VTIAVDVTSL
+     YVVAFSANNN GYFFSDSTET ERTNLFVGIP RGDPLGFTGN YNSLENWAGA DRGSIPLGPA
+     LLNKAIRNLR SNGRDSKAAK SLIVVIQMVS EAARFRRIEE QVRRSIADQD TFTPGSLMIT
+     MEKKWSKMSQ QVERSVNDQG IFTGIFTRTV QLIDDNLQTL NIDNFNALSL HTMLAILLFR
+     CRTTTSSHNT LPAASNIVLM GEDYVDKDDE KCTVGEPTRR ISGRAGWCVD VKDGRDNDGN
+     PIQVLSCGDG QERKQQWTFH RDGTIRSKLG KCMTAYGFKH GEYVMIYDCD TAIAGANKWV
+     VSIDGTITNP ISGLVLTAPR GATGTTLLVE KNVHAARQCW RVGDDVEPIV TKIVGFQEKC
+     LEANYLENTN VSRYTKVFLD DCVLDRQQQR WALYSDGTIR ADSDRSLRVT ADGHRSLDSI
+     IILACKGWGN QRWVFNTDGT ILNPNAKLVM DVKDSDVSLL QIILHQSTGK PNQKWLTVTL
+     PRTS
+//

@@ -1,0 +1,128 @@
+ID   SFTPA_HORSE             Reviewed;         248 AA.
+AC   Q95L88; Q9N0G1;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   03-AUG-2022, entry version 105.
+DE   RecName: Full=Pulmonary surfactant-associated protein A;
+DE            Short=PSAP;
+DE            Short=PSP-A;
+DE            Short=SP-A;
+DE   Flags: Precursor;
+GN   Name=SFTPA1;
+OS   Equus caballus (Horse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Perissodactyla; Equidae; Equus.
+OX   NCBI_TaxID=9796;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Thoroughbred; TISSUE=Lung;
+RA   Hobo S.;
+RT   "Molecular cloning of equine pulmonary surfactant proteins.";
+RL   Submitted (JUL-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Weber B.I.L., Hospes R., Gortner L.;
+RL   Submitted (JUL-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: In presence of calcium ions, it binds to surfactant
+CC       phospholipids and contributes to lower the surface tension at the air-
+CC       liquid interface in the alveoli of the mammalian lung and is essential
+CC       for normal respiration. Enhances the expression of MYO18A/SP-R210 on
+CC       alveolar macrophages. {ECO:0000250|UniProtKB:P35242}.
+CC   -!- SUBUNIT: Oligomeric complex of 6 set of homotrimers.
+CC       {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:Q8IWL2}.
+CC       Secreted, extracellular space, extracellular matrix
+CC       {ECO:0000250|UniProtKB:Q8IWL2}. Secreted, extracellular space, surface
+CC       film {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- SIMILARITY: Belongs to the SFTPA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB015963; BAA97976.1; -; mRNA.
+DR   EMBL; AF400580; AAL07690.1; -; Genomic_DNA.
+DR   RefSeq; NP_001075281.1; NM_001081812.2.
+DR   AlphaFoldDB; Q95L88; -.
+DR   SMR; Q95L88; -.
+DR   STRING; 9796.ENSECAP00000016397; -.
+DR   PaxDb; Q95L88; -.
+DR   PRIDE; Q95L88; -.
+DR   GeneID; 100033826; -.
+DR   KEGG; ecb:100033826; -.
+DR   CTD; 653509; -.
+DR   InParanoid; Q95L88; -.
+DR   OrthoDB; 1172460at2759; -.
+DR   Proteomes; UP000002281; Unplaced.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005615; C:extracellular space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:UniProtKB-KW.
+DR   CDD; cd03591; CLECT_collectin_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033990; Collectin_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Collagen; Disulfide bond; Extracellular matrix; Gaseous exchange;
+KW   Glycoprotein; Lectin; Metal-binding; Reference proteome; Secreted; Signal;
+KW   Surface film.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..248
+FT                   /note="Pulmonary surfactant-associated protein A"
+FT                   /id="PRO_0000017456"
+FT   DOMAIN          31..100
+FT                   /note="Collagen-like"
+FT   DOMAIN          134..247
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          34..105
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         215
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         234
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         235
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        26
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        155..246
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        224..238
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CONFLICT        128
+FT                   /note="Q -> L (in Ref. 1; BAA97976)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        131
+FT                   /note="M -> V (in Ref. 1; BAA97976)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   248 AA;  26047 MW;  B71133E005C9A5C1 CRC64;
+     MLLCSLTLTL ILLAVSGTKC DVKEFCAACS GVPGIPGSPG LPGRDGRDGV KGDPGPPGPI
+     GPPGGMPGSP GHDGLIGPPG PPGERGDKGE PGERGPPGPP AYPDEELQTT LHDIRHQILQ
+     LMGALSLQGS MLAVGEKVFS TNGQVVDFDA IRESCARAGG RIAVPKSLEE NAAIASLVTK
+     HNTYAYLGLE EGPTAGDFYY LDGAPVNYTN WYPGEPRGRG KEKCVEMYTD GQWNDRSCLQ
+     YRLAICEF
+//

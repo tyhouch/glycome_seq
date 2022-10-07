@@ -1,0 +1,230 @@
+ID   AGI_URTDI               Reviewed;         372 AA.
+AC   P11218; Q9SYR1;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 3.
+DT   03-AUG-2022, entry version 157.
+DE   RecName: Full=Lectin/endochitinase 1;
+DE            EC=3.2.1.14;
+DE   AltName: Full=Agglutinin;
+DE   AltName: Full=UDA;
+DE   AltName: Full=chia5.1.1;
+DE   Contains:
+DE     RecName: Full=Lectin 1;
+DE   Flags: Precursor;
+GN   Name=UDA1;
+OS   Urtica dioica (Great nettle) (Stinging nettle).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Rosales; Urticaceae; Urtica.
+OX   NCBI_TaxID=3501;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1375935; DOI=10.1016/s0021-9258(19)49878-5;
+RA   Lerner D.R., Raikhel N.V.;
+RT   "The gene for stinging nettle lectin (Urtica dioica agglutinin) encodes
+RT   both a lectin and a chitinase.";
+RL   J. Biol. Chem. 267:11085-11091(1992).
+RN   [2]
+RP   ERRATUM OF PUBMED:1375935.
+RX   PubMed=1429618; DOI=10.1016/s0021-9258(18)41729-2;
+RA   Lerner D.R., Raikhel N.V.;
+RL   J. Biol. Chem. 267:22694-22694(1992).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND MASS SPECTROMETRY.
+RC   STRAIN=cv. Weerselo;
+RX   PubMed=10080699; DOI=10.1023/a:1006134932290;
+RA   Does M.P., Ng D.K., Dekker H.L., Peumans W.J., Houterman P.M.,
+RA   Van Damme E.J., Cornelissen B.J.;
+RT   "Characterization of Urtica dioica agglutinin isolectins and the encoding
+RT   gene family.";
+RL   Plant Mol. Biol. 39:335-347(1999).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 24-112, AND PYROGLUTAMATE FORMATION AT GLN-24.
+RX   PubMed=1544484; DOI=10.1016/0014-5793(92)80231-5;
+RA   Beintema J.J., Peumans W.J.;
+RT   "The primary structure of stinging nettle (Urtica dioica) agglutinin. A
+RT   two-domain member of the hevein family.";
+RL   FEBS Lett. 299:131-134(1992).
+RN   [5]
+RP   PRELIMINARY PROTEIN SEQUENCE OF 24-54.
+RA   Chapot M.-P., Peumans W.J., Strosberg A.D.;
+RT   "Extensive homologies between lectins from non-leguminous plants.";
+RL   FEBS Lett. 195:231-234(1986).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.4 ANGSTROMS) OF 24-112 IN COMPLEX WITH
+RP   TRI-ACETYLCHITOTRIOSE AND TETRA-ACETYLCHITOTETRAOSE, FUNCTION, INTERACTION
+RP   WITH HUMAN TCR AND MHC, AND DISULFIDE BONDS.
+RX   PubMed=10873861; DOI=10.1016/s0969-2126(00)00142-8;
+RA   Saul F.A., Rovira P., Boulot G., van Damme E.J.M., Peumans W.J.,
+RA   Truffa-Bachi P., Bentley G.A.;
+RT   "Crystal structure of Urtica dioica agglutinin, a superantigen presented by
+RT   MHC molecules of class I and class II.";
+RL   Structure 8:593-603(2000).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 24-112, SUBUNIT, ZINC BINDING, AND
+RP   DISULFIDE BONDS.
+RX   PubMed=11679714; DOI=10.1107/s090744490101232x;
+RA   Harata K., Schubert W.-D., Muraki M.;
+RT   "Structure of Urtica dioica agglutinin isolectin I: dimer formation
+RT   mediated by two zinc ions bound at the sugar-binding site.";
+RL   Acta Crystallogr. D 57:1513-1517(2001).
+CC   -!- FUNCTION: Functions both as a chitinase and as a N-acetyl-D-glucosamine
+CC       binding lectin. Inhibits the growth of several phytopathogenic chitin-
+CC       containing fungi. Possesses also insecticidal activity and
+CC       superantigenic properties. {ECO:0000269|PubMed:10873861}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Random endo-hydrolysis of N-acetyl-beta-D-glucosaminide
+CC         (1->4)-beta-linkages in chitin and chitodextrins.; EC=3.2.1.14;
+CC   -!- SUBUNIT: Monomer and homodimer. Zinc favors dimerization. Active in the
+CC       monomeric form but probably inactive in the dimeric form. The
+CC       interaction with glycans on the mammalian TCR and MHC molecules of the
+CC       T-cell and antigen-presenting cell, respectively, is inhibited by
+CC       oligomers of GlcNAc. {ECO:0000269|PubMed:10873861,
+CC       ECO:0000269|PubMed:11679714}.
+CC   -!- INTERACTION:
+CC       P11218; Q75760: env; Xeno; NbExp=2; IntAct=EBI-8453649, EBI-8453491;
+CC   -!- TISSUE SPECIFICITY: Rhizomes and inflorescence with immature seeds.
+CC   -!- PTM: Proteolytically processed to yield a very small protein (8.5 kDa,
+CC       86 AA) containing only the two chitin-binding domains.
+CC   -!- MASS SPECTROMETRY: [Lectin/endochitinase 1]: Mass=9380; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:10080699};
+CC   -!- MASS SPECTROMETRY: [Lectin/endochitinase 1]: Mass=9380.7;
+CC       Mass_error=0.4; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:10080699};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M87302; AAA34219.1; -; mRNA.
+DR   EMBL; AF059535; AAD03614.1; -; Genomic_DNA.
+DR   PIR; A44298; A42778.
+DR   PDB; 1EN2; X-ray; 1.40 A; A=25-112.
+DR   PDB; 1ENM; X-ray; 1.90 A; A=25-112.
+DR   PDB; 1IQB; X-ray; 1.90 A; A/B=24-112.
+DR   PDBsum; 1EN2; -.
+DR   PDBsum; 1ENM; -.
+DR   PDBsum; 1IQB; -.
+DR   AlphaFoldDB; P11218; -.
+DR   SMR; P11218; -.
+DR   IntAct; P11218; 1.
+DR   MINT; P11218; -.
+DR   CAZy; CBM18; Carbohydrate-Binding Module Family 18.
+DR   CAZy; GH19; Glycoside Hydrolase Family 19.
+DR   UniLectin; P11218; -.
+DR   EvolutionaryTrace; P11218; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004568; F:chitinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016998; P:cell wall macromolecule catabolic process; IEA:InterPro.
+DR   GO; GO:0006032; P:chitin catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0050832; P:defense response to fungus; IEA:UniProtKB-KW.
+DR   GO; GO:0031640; P:killing of cells of another organism; IEA:UniProtKB-KW.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.60.10; -; 2.
+DR   InterPro; IPR001002; Chitin-bd_1.
+DR   InterPro; IPR018371; Chitin-binding_1_CS.
+DR   InterPro; IPR036861; Endochitinase-like_sf.
+DR   InterPro; IPR016283; Glyco_hydro_19.
+DR   InterPro; IPR000726; Glyco_hydro_19_cat.
+DR   InterPro; IPR023346; Lysozyme-like_dom_sf.
+DR   Pfam; PF00187; Chitin_bind_1; 1.
+DR   Pfam; PF00182; Glyco_hydro_19; 1.
+DR   PIRSF; PIRSF001060; Endochitinase; 1.
+DR   SMART; SM00270; ChtBD1; 2.
+DR   SUPFAM; SSF53955; SSF53955; 1.
+DR   SUPFAM; SSF57016; SSF57016; 2.
+DR   PROSITE; PS00026; CHIT_BIND_I_1; 2.
+DR   PROSITE; PS50941; CHIT_BIND_I_2; 2.
+DR   PROSITE; PS00773; CHITINASE_19_1; 1.
+DR   PROSITE; PS00774; CHITINASE_19_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antimicrobial; Carbohydrate metabolism; Chitin degradation;
+KW   Chitin-binding; Direct protein sequencing; Disulfide bond; Fungicide;
+KW   Glycoprotein; Glycosidase; Hydrolase; Lectin; Metal-binding; Plant defense;
+KW   Polysaccharide degradation; Pyrrolidone carboxylic acid; Repeat; Signal;
+KW   Zinc.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000269|PubMed:1544484"
+FT   CHAIN           24..372
+FT                   /note="Lectin/endochitinase 1"
+FT                   /id="PRO_0000005266"
+FT   CHAIN           24..112
+FT                   /note="Lectin 1"
+FT                   /id="PRO_0000005267"
+FT   DOMAIN          24..64
+FT                   /note="Chitin-binding type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          69..111
+FT                   /note="Chitin-binding type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   REGION          113..128
+FT                   /note="Spacer"
+FT   REGION          129..372
+FT                   /note="Chitinase"
+FT   BINDING         24
+FT                   /ligand="substrate"
+FT   BINDING         42..53
+FT                   /ligand="substrate"
+FT   BINDING         70
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT   BINDING         90
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT   MOD_RES         24
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:1544484"
+FT   CARBOHYD        123
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        26..41
+FT   DISULFID        35..47
+FT   DISULFID        40..54
+FT   DISULFID        58..62
+FT   DISULFID        72..87
+FT   DISULFID        81..93
+FT   DISULFID        86..100
+FT   DISULFID        105..109
+FT   CONFLICT        7
+FT                   /note="S -> A (in Ref. 3; AAD03614)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           27..30
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   HELIX           36..38
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   STRAND          40..42
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   STRAND          45..50
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   HELIX           51..54
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   STRAND          58..61
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   HELIX           63..65
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   HELIX           74..76
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   STRAND          85..88
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   STRAND          91..96
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   HELIX           97..100
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   HELIX           102..104
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+FT   STRAND          105..108
+FT                   /evidence="ECO:0007829|PDB:1IQB"
+SQ   SEQUENCE   372 AA;  40542 MW;  28E9A2312BF08FD2 CRC64;
+     MMMRFLSAVV IMSSAMAVGL VSAQRCGSQG GGGTCPALWC CSIWGWCGDS EPYCGRTCEN
+     KCWSGERSDH RCGAAVGNPP CGQDRCCSVH GWCGGGNDYC SGSKCQYRCS SSVRGPRVAL
+     SGNSTANSIG NVVVTEPLFD QMFSHRKDCP SQGFYSYHSF LVAAESFPAF GTIGDVATRK
+     REVAAFLAHI SQATSGERSD VENPHAWGLC HINTTTVTEN DFCTSSDWPC AAGKKYSPRG
+     PIQLTHNFNY GLAGQAIGED LIQNPDLVEK DPIISFKTAL WFWMSQHDNK PSCHDIVLNA
+     NSAANRIPNK GVIGNIISRA FGHDDFAVRS SSIGFYKRYC DMLGVSYGHD LKYWFDNTPS
+     SEFQRIQMRV AA
+//

@@ -1,0 +1,98 @@
+ID   CDTA_HELHP              Reviewed;         231 AA.
+AC   Q9RFY6;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   25-MAY-2022, entry version 113.
+DE   RecName: Full=Cytolethal distending toxin subunit A;
+DE            Short=CDT A;
+DE   Flags: Precursor;
+GN   Name=cdtA; OrderedLocusNames=HH_1446;
+OS   Helicobacter hepaticus (strain ATCC 51449 / 3B1).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=235279;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 51449 / 3B1;
+RX   PubMed=10603386; DOI=10.1128/iai.68.1.184-191.2000;
+RA   Young V.B., Knox K.A., Schauer D.B.;
+RT   "Cytolethal distending toxin sequence and activity in the enterohepatic
+RT   pathogen Helicobacter hepaticus.";
+RL   Infect. Immun. 68:184-191(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51449 / 3B1;
+RX   PubMed=12810954; DOI=10.1073/pnas.1332093100;
+RA   Suerbaum S., Josenhans C., Sterzenbach T., Drescher B., Brandt P., Bell M.,
+RA   Droege M., Fartmann B., Fischer H.-P., Ge Z., Hoerster A., Holland R.,
+RA   Klein K., Koenig J., Macko L., Mendz G.L., Nyakatura G., Schauer D.B.,
+RA   Shen Z., Weber J., Frosch M., Fox J.G.;
+RT   "The complete genome sequence of the carcinogenic bacterium Helicobacter
+RT   hepaticus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:7901-7906(2003).
+CC   -!- FUNCTION: CDTs are cytotoxins which induce cell distension, growth
+CC       arrest in G2/M phase, nucleus swelling, and chromatin fragmentation in
+CC       HeLa cells.
+CC   -!- SUBUNIT: Heterotrimer of 3 subunits, CdtA, CdtB and CdtC.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305}; Lipid-anchor
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF163667; AAF19157.1; -; Genomic_DNA.
+DR   EMBL; AE017125; AAP78043.1; -; Genomic_DNA.
+DR   RefSeq; WP_011116286.1; NC_004917.1.
+DR   AlphaFoldDB; Q9RFY6; -.
+DR   SMR; Q9RFY6; -.
+DR   STRING; 235279.HH_1446; -.
+DR   EnsemblBacteria; AAP78043; AAP78043; HH_1446.
+DR   KEGG; hhe:HH_1446; -.
+DR   eggNOG; ENOG50347HZ; Bacteria.
+DR   HOGENOM; CLU_090932_0_0_7; -.
+DR   OMA; WLWGYTP; -.
+DR   OrthoDB; 935854at2; -.
+DR   Proteomes; UP000002495; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 1.
+DR   InterPro; IPR015957; CDtoxinA.
+DR   InterPro; IPR003558; CDtoxinA/C.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF03498; CDtoxinA; 1.
+DR   PIRSF; PIRSF036516; CDT_A; 1.
+DR   PRINTS; PR01387; CDTOXINA.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Lectin; Lipoprotein; Membrane; Palmitate;
+KW   Reference proteome; Signal; Toxin; Virulence.
+FT   SIGNAL          1..15
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+FT   CHAIN           16..231
+FT                   /note="Cytolethal distending toxin subunit A"
+FT                   /id="PRO_0000013372"
+FT   DOMAIN          130..217
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          20..51
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          99..110
+FT                   /note="Mediates binding to target cells"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           16
+FT                   /note="N-palmitoyl cysteine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+FT   LIPID           16
+FT                   /note="S-diacylglycerol cysteine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+SQ   SEQUENCE   231 AA;  26021 MW;  55E3BD5FC6E54D86 CRC64;
+     MRLLFFLLIT LLFAACSSTP KVHQPKHSSK TEKDLGIGLS PTPPPNERIP GEKSRAMLME
+     MEGREIPVRI PDANASKIDK NVSNPISIMS SSGGLLTLWA LKPRNWVWGY TPIDSFEFGR
+     AKFWRIISFS NGQVIIKNMQ EGTCLQAYGN GVIHDICDSK NQAQLWNLNF FDNQAIQIQS
+     VSAKTCLQTP TVRTTTYYSI YLTKCATSSN LDQQWYITPV ALEPEPIFFI K
+//

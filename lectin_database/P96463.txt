@@ -1,0 +1,116 @@
+ID   EABF_STRLI              Reviewed;         475 AA.
+AC   P96463;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-1998, sequence version 2.
+DT   25-MAY-2022, entry version 101.
+DE   RecName: Full=Extracellular exo-alpha-L-arabinofuranosidase;
+DE            Short=ABF;
+DE            EC=3.2.1.55;
+DE   AltName: Full=Arabinosidase;
+DE   AltName: Full=Arabinoxylan arabinofuranohydrolase;
+DE   Flags: Precursor;
+GN   Name=abfB;
+OS   Streptomyces lividans.
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=1916;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBCELLULAR LOCATION, AND SUBSTRATE
+RP   SPECIFICITY.
+RC   STRAIN=66 / 1326;
+RX   PubMed=9148759; DOI=10.1042/bj3220845;
+RA   Vincent P., Shareck F., Dupont C., Morosoli R., Kluepfel D.;
+RT   "New alpha-L-arabinofuranosidase produced by Streptomyces lividans: cloning
+RT   and DNA sequence of the abfB gene and characterization of the enzyme.";
+RL   Biochem. J. 322:845-852(1997).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Shareck F.;
+RL   Submitted (JUL-1998) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the degradation of xylan and is a key enzyme in
+CC       the complete degradation of the plant cell wall. It has a specific
+CC       arabinofuranose-debranching activity on xylan from gramineae. Acts
+CC       synergistically with the xylanases and binds specifically to xylan.
+CC       From small arabinoxylo-oligosides (ranging from arabinoxylotriose to
+CC       arabinoxylohexaose), it liberates arabinose and, after prolonged
+CC       incubation, the purified enzyme exhibits some xylanolytic activity as
+CC       well. {ECO:0000269|PubMed:9148759}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing alpha-L-arabinofuranoside
+CC         residues in alpha-L-arabinosides.; EC=3.2.1.55;
+CC         Evidence={ECO:0000269|PubMed:9148759};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.17 mM for wheat arabinoxylan (at 55 degrees Celsius)
+CC         {ECO:0000269|PubMed:9148759};
+CC         KM=5.12 mM for oat xylan (at 55 degrees Celsius)
+CC         {ECO:0000269|PubMed:9148759};
+CC         Vmax=17.2 umol/min/mg enzyme with oat xylan as substrate (at 55
+CC         degrees Celsius) {ECO:0000269|PubMed:9148759};
+CC         Vmax=18.5 umol/min/mg enzyme with wheat arabinoxylan as substrate (at
+CC         55 degrees Celsius) {ECO:0000269|PubMed:9148759};
+CC       pH dependence:
+CC         Optimum pH is 6. {ECO:0000269|PubMed:9148759};
+CC       Temperature dependence:
+CC         Optimum temperature is 55 degrees Celsius.
+CC         {ECO:0000269|PubMed:9148759};
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:9148759}.
+CC   -!- MISCELLANEOUS: These dual activities might be explained by a rotation
+CC       about the alpha-(1->3)-glycosidic bond of the arabinofuranose group to
+CC       the xylose moiety of xylan, which produces a bond conformation
+CC       resembling that of a beta-(1->4) bond found in xylosides. Thus a single
+CC       catalytic site could perform the double activity (PubMed:9148759).
+CC       {ECO:0000305|PubMed:9148759}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 62 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M64551; AAC26524.1; -; Genomic_DNA.
+DR   AlphaFoldDB; P96463; -.
+DR   SMR; P96463; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GH62; Glycoside Hydrolase Family 62.
+DR   UniPathway; UPA00114; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046556; F:alpha-L-arabinofuranosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046373; P:L-arabinose metabolic process; IEA:InterPro.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd08987; GH62; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.115.10.20; -; 1.
+DR   InterPro; IPR005193; GH62_arabinosidase.
+DR   InterPro; IPR023296; Glyco_hydro_beta-prop_sf.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR40631; PTHR40631; 1.
+DR   Pfam; PF03664; Glyco_hydro_62; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF75005; SSF75005; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Glycosidase; Hydrolase; Lectin;
+KW   Polysaccharide degradation; Secreted; Signal; Xylan degradation.
+FT   SIGNAL          1..37
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           38..475
+FT                   /note="Extracellular exo-alpha-L-arabinofuranosidase"
+FT                   /id="PRO_0000008037"
+FT   DOMAIN          39..166
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   475 AA;  50369 MW;  C3CB14EE7BF85AAD CRC64;
+     MHRGSLSRGQ HVRGTRRRGA ALAALAALLV ATAPAQAAGS GALRGAGSNR CLDVLGGSQD
+     DGALLQLYDC WGGTNQQWTS TDTGRLTVYG DKCLDVPGHA TAPGTRVQIW SCSGGRNQQW
+     RVNSDGTVVG VESGLCLEAA GAGTPNGTAV QLWTCNGGGN QKWTGLTGTP PTDGTCALPS
+     TYRWSSTGVL AQPKSGWVAL KDFTTVTHNG RHLVYGSTSS GSSYGSMVFS PFTNWSDMAS
+     AGQNAMNQAA VAPTLFYFAP KNIWVLAYQW GSWPFIYRTS SDPTDPNGWS APQPLFTGSI
+     SGSDTGPIDQ TLIADGQNMY LFFAGDNGKI YRASMPIGNF PGNFGSSYTT IMSDTKANLF
+     EGVQVYKVQG QNQYLMIVEA MGANGRYFRS FTASSLSGSW TPQAASEGNP FAGKANSGAT
+     WTNDISHGDL VRDNPDQTMT VDPCNLQFLY QGKAPNAGGH YNSLPWRPGV LTLRH
+//

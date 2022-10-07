@@ -1,0 +1,200 @@
+ID   AEP1_DANRE              Reviewed;         315 AA.
+AC   Q5CZR5;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 1.
+DT   03-AUG-2022, entry version 94.
+DE   RecName: Full=Aerolysin-like protein {ECO:0000303|PubMed:26711430};
+DE   AltName: Full=Jacalin-type lectin domain-containing protein 5 {ECO:0000303|PubMed:27514782};
+GN   Name=aep1 {ECO:0000305};
+GN   Synonyms=dln1 {ECO:0000303|PubMed:26711430}, jac5
+GN   {ECO:0000303|PubMed:27514782}; ORFNames=zgc:113413;
+OS   Danio rerio (Zebrafish) (Brachydanio rerio).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+OC   Danionidae; Danioninae; Danio.
+OX   NCBI_TaxID=7955;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo;
+RG   NIH - Zebrafish Gene Collection (ZGC) project;
+RL   Submitted (FEB-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   IDENTIFICATION, AND INDUCTION.
+RX   PubMed=27514782; DOI=10.1016/j.fsi.2016.08.004;
+RA   Cao J., Lv Y.;
+RT   "Evolutionary analysis of the jacalin-related lectin family genes in 11
+RT   fishes.";
+RL   Fish Shellfish Immunol. 56:543-553(2016).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) IN APO FORM AND IN COMPLEX WITH
+RP   DISACCHARIDES, FUNCTION, SUBUNIT, DOMAIN, AND MUTAGENESIS OF ASP-135;
+RP   LYS-171; SER-190; LYS-192 AND ASN-246.
+RX   PubMed=26711430; DOI=10.15252/embr.201540851;
+RA   Jia N., Liu N., Cheng W., Jiang Y.L., Sun H., Chen L.L., Peng J., Zhang Y.,
+RA   Ding Y.H., Zhang Z.H., Wang X., Cai G., Wang J., Dong M.Q., Zhang Z.,
+RA   Wu H., Wang H.W., Chen Y., Zhou C.Z.;
+RT   "Structural basis for receptor recognition and pore formation of a
+RT   zebrafish aerolysin-like protein.";
+RL   EMBO Rep. 17:235-248(2016).
+CC   -!- FUNCTION: Pore-forming protein which might play a role in host defense.
+CC       Exists as an antiparallel dimer in solution. Can also assemble into an
+CC       octameric pore-like structure spanning the cell membrane.
+CC       Oligomerization may be triggered by binding of the jacalin-type lectin
+CC       domain to high-mannose cell-surface proteoglycans, and also requires a
+CC       low pH environment. In vitro, shows high binding affinity for
+CC       S.cerevisiae mannan and human HIV virus glycoprotein gp120.
+CC       {ECO:0000269|PubMed:26711430}.
+CC   -!- SUBUNIT: Homodimer in soluble form. Forms an octameric pore-like
+CC       structure in the membrane. {ECO:0000269|PubMed:26711430}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305|PubMed:26711430}.
+CC   -!- INDUCTION: Up-regulated in the presence of organophosphate pesticides
+CC       and zinc. {ECO:0000269|PubMed:27514782}.
+CC   -!- DOMAIN: The jacalin-type lectin domain has strong affinity for high-
+CC       mannose glycans with terminal non-reducing ends of Man(alpha-1,2)Man or
+CC       Man(alpha-1,3)Man. {ECO:0000269|PubMed:26711430}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC090741; AAH90741.1; -; mRNA.
+DR   RefSeq; NP_001013322.1; NM_001013304.2.
+DR   PDB; 4ZNO; X-ray; 1.86 A; A/B=1-315.
+DR   PDB; 4ZNQ; X-ray; 1.90 A; A/B=1-315.
+DR   PDB; 4ZNR; X-ray; 2.10 A; A/B=1-315.
+DR   PDB; 5DI0; X-ray; 1.70 A; A/B=1-315.
+DR   PDBsum; 4ZNO; -.
+DR   PDBsum; 4ZNQ; -.
+DR   PDBsum; 4ZNR; -.
+DR   PDBsum; 5DI0; -.
+DR   AlphaFoldDB; Q5CZR5; -.
+DR   SMR; Q5CZR5; -.
+DR   STRING; 7955.ENSDARP00000057100; -.
+DR   UniLectin; Q5CZR5; -.
+DR   PaxDb; Q5CZR5; -.
+DR   DNASU; 503710; -.
+DR   Ensembl; ENSDART00000057101; ENSDARP00000057100; ENSDARG00000039099.
+DR   GeneID; 503710; -.
+DR   KEGG; dre:503710; -.
+DR   CTD; 503710; -.
+DR   ZFIN; ZDB-GENE-050306-5; aep1.
+DR   eggNOG; ENOG502QTF7; Eukaryota.
+DR   GeneTree; ENSGT00390000003194; -.
+DR   HOGENOM; CLU_076615_0_0_1; -.
+DR   InParanoid; Q5CZR5; -.
+DR   OMA; NFTEFQF; -.
+DR   OrthoDB; 1290031at2759; -.
+DR   PhylomeDB; Q5CZR5; -.
+DR   TreeFam; TF343657; -.
+DR   PRO; PR:Q5CZR5; -.
+DR   Proteomes; UP000000437; Genome assembly.
+DR   Proteomes; UP000814640; Chromosome 7.
+DR   Bgee; ENSDARG00000039099; Expressed in larva and 8 other tissues.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046930; C:pore complex; IDA:ZFIN.
+DR   GO; GO:0048030; F:disaccharide binding; IDA:ZFIN.
+DR   GO; GO:0042802; F:identical protein binding; IPI:ZFIN.
+DR   GO; GO:0005537; F:mannose binding; IDA:ZFIN.
+DR   GO; GO:0042742; P:defense response to bacterium; IDA:ZFIN.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Lectin; Membrane; Reference proteome.
+FT   CHAIN           1..315
+FT                   /note="Aerolysin-like protein"
+FT                   /id="PRO_0000285222"
+FT   DOMAIN          4..143
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   BINDING         15
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000269|PubMed:26711430,
+FT                   ECO:0007744|PDB:4ZNQ, ECO:0007744|PDB:4ZNR"
+FT   BINDING         132..135
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000269|PubMed:26711430,
+FT                   ECO:0007744|PDB:4ZNQ, ECO:0007744|PDB:4ZNR"
+FT   MUTAGEN         135
+FT                   /note="D->A: Abolishes carbohydrate binding. Fails to
+FT                   homodimerize but can form higher-order oligomers; when
+FT                   associated with A-171; A-190; A-192 and A-246."
+FT                   /evidence="ECO:0000269|PubMed:26711430"
+FT   MUTAGEN         171
+FT                   /note="K->A: Fails to homodimerize but can form
+FT                   higher-order oligomers; when associated with A-135; A-190;
+FT                   A-192 and A-246."
+FT   MUTAGEN         190
+FT                   /note="S->A: Fails to homodimerize but can form
+FT                   higher-order oligomers; when associated with A-135; A-171;
+FT                   A-192 and A-246."
+FT   MUTAGEN         192
+FT                   /note="K->A: Fails to homodimerize but can form
+FT                   higher-order oligomers; when associated with A-135; A-171;
+FT                   A-190 and A-246."
+FT   MUTAGEN         246
+FT                   /note="N->A: Fails to homodimerize but can form
+FT                   higher-order oligomers; when associated with A-135; A-171;
+FT                   A-190 and A-192."
+FT   STRAND          4..7
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          15..21
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   TURN            23..25
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          29..36
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          38..48
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          53..57
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          64..67
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          74..81
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          83..95
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          100..104
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          106..108
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          113..116
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          123..142
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          145..154
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   TURN            156..160
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          165..177
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          179..181
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          183..199
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   HELIX           203..208
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          211..215
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          218..222
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          224..231
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          235..255
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          259..284
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          289..303
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+FT   STRAND          307..314
+FT                   /evidence="ECO:0007829|PDB:5DI0"
+SQ   SEQUENCE   315 AA;  34274 MW;  20E33228AD471FF9 CRC64;
+     MTYPTNLEII GGQGGSSFSF TGENNGASLE KIWVWVGGWQ IKAVRAWLSD GRDETFGVPS
+     GSHQEYVFTP GECFTSLSLW GNGAGTRLGA IKFKTNKGGE FFAHMTSWGL KTEYPMDVGS
+     GYCLGIVGRG GSDIDCMGFM FLNAVQSTVL TNVNYPTINQ LIPKVATEEI KSVSFENKTS
+     VKQEQKVETS KKVIKTSSWS MTKSFSSTFS VEVSAGIPEI AEVSTGFSIS FGVESTHSLE
+     QTDEKNETLT TTVEVPPKKK VDVHITIGRA SFDLPYTGTV KITCKNGSVL QYETKGQYKG
+     VAYTDIKVNT VEKDL
+//

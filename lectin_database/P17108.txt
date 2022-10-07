@@ -1,0 +1,139 @@
+ID   IL2_RAT                 Reviewed;         155 AA.
+AC   P17108;
+DT   01-AUG-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1990, sequence version 1.
+DT   03-AUG-2022, entry version 152.
+DE   RecName: Full=Interleukin-2;
+DE            Short=IL-2;
+DE   AltName: Full=T-cell growth factor;
+DE            Short=TCGF;
+DE   Flags: Precursor;
+GN   Name=Il2; Synonyms=Il-2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2788130; DOI=10.1007/bf02421547;
+RA   McKnight A.J., Mason D.W., Barclay A.N.;
+RT   "Sequence of rat interleukin 2 and anomalous binding of a mouse interleukin
+RT   2 cDNA probe to rat MHC class II-associated invariant chain mRNA.";
+RL   Immunogenetics 30:145-147(1989).
+CC   -!- FUNCTION: Cytokine produced by activated CD4-positive helper T-cells
+CC       and to a lesser extend activated CD8-positive T-cells and natural
+CC       killer (NK) cells that plays pivotal roles in the immune response and
+CC       tolerance. Binds to a receptor complex composed of either the high-
+CC       affinity trimeric IL-2R (IL2RA/CD25, IL2RB/CD122 and IL2RG/CD132) or
+CC       the low-affinity dimeric IL-2R (IL2RB and IL2RG). Interaction with the
+CC       receptor leads to oligomerization and conformation changes in the IL-2R
+CC       subunits resulting in downstream signaling starting with
+CC       phosphorylation of JAK1 and JAK3. In turn, JAK1 and JAK3 phosphorylate
+CC       the receptor to form a docking site leading to the phosphorylation of
+CC       several substrates including STAT5. This process leads to activation of
+CC       several pathways including STAT, phosphoinositide-3-kinase/PI3K and
+CC       mitogen-activated protein kinase/MAPK pathways. Functions as a T-cell
+CC       growth factor and can increase NK-cell cytolytic activity as well.
+CC       Promotes strong proliferation of activated B-cells and subsequently
+CC       immunoglobulin production. Plays a pivotal role in regulating the
+CC       adaptive immune system by controlling the survival and proliferation of
+CC       regulatory T-cells, which are required for the maintenance of immune
+CC       tolerance. Moreover, participates in the differentiation and
+CC       homeostasis of effector T-cell subsets, including Th1, Th2, Th17 as
+CC       well as memory CD8-positive T-cells. {ECO:0000250|UniProtKB:P60568}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the IL-2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M22899; AAA41427.1; -; mRNA.
+DR   PIR; A45882; A31278.
+DR   RefSeq; NP_446288.1; NM_053836.1.
+DR   AlphaFoldDB; P17108; -.
+DR   SMR; P17108; -.
+DR   STRING; 10116.ENSRNOP00000023327; -.
+DR   GlyGen; P17108; 1 site.
+DR   PaxDb; P17108; -.
+DR   Ensembl; ENSRNOT00000023327; ENSRNOP00000023327; ENSRNOG00000017348.
+DR   GeneID; 116562; -.
+DR   KEGG; rno:116562; -.
+DR   UCSC; RGD:620047; rat.
+DR   CTD; 3558; -.
+DR   RGD; 620047; Il2.
+DR   eggNOG; ENOG502RVR5; Eukaryota.
+DR   GeneTree; ENSGT00390000003555; -.
+DR   HOGENOM; CLU_124210_0_0_1; -.
+DR   InParanoid; P17108; -.
+DR   OMA; NGVNNYE; -.
+DR   OrthoDB; 1491449at2759; -.
+DR   PhylomeDB; P17108; -.
+DR   TreeFam; TF338200; -.
+DR   PRO; PR:P17108; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000017348; Expressed in ileum and 5 other tissues.
+DR   Genevisible; P17108; RN.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0005125; F:cytokine activity; IDA:RGD.
+DR   GO; GO:0043208; F:glycosphingolipid binding; IDA:RGD.
+DR   GO; GO:0008083; F:growth factor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0005134; F:interleukin-2 receptor binding; IMP:RGD.
+DR   GO; GO:0031851; F:kappa-type opioid receptor binding; IMP:RGD.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0097192; P:extrinsic apoptotic signaling pathway in absence of ligand; ISO:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0010467; P:gene expression; ISO:RGD.
+DR   GO; GO:0002366; P:leukocyte activation involved in immune response; ISO:RGD.
+DR   GO; GO:0002903; P:negative regulation of B cell apoptotic process; ISO:RGD.
+DR   GO; GO:0045822; P:negative regulation of heart contraction; IDA:RGD.
+DR   GO; GO:0050728; P:negative regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0050672; P:negative regulation of lymphocyte proliferation; ISO:RGD.
+DR   GO; GO:0001933; P:negative regulation of protein phosphorylation; IDA:RGD.
+DR   GO; GO:2000320; P:negative regulation of T-helper 17 cell differentiation; ISO:RGD.
+DR   GO; GO:0042104; P:positive regulation of activated T cell proliferation; ISO:RGD.
+DR   GO; GO:0030890; P:positive regulation of B cell proliferation; ISO:RGD.
+DR   GO; GO:0007204; P:positive regulation of cytosolic calcium ion concentration; IDA:RGD.
+DR   GO; GO:0060999; P:positive regulation of dendritic spine development; IDA:RGD.
+DR   GO; GO:0002639; P:positive regulation of immunoglobulin production; ISO:RGD.
+DR   GO; GO:0032729; P:positive regulation of interferon-gamma production; ISO:RGD.
+DR   GO; GO:0032740; P:positive regulation of interleukin-17 production; ISO:RGD.
+DR   GO; GO:0048304; P:positive regulation of isotype switching to IgG isotypes; ISO:RGD.
+DR   GO; GO:1900100; P:positive regulation of plasma cell differentiation; ISO:RGD.
+DR   GO; GO:0001934; P:positive regulation of protein phosphorylation; IDA:RGD.
+DR   GO; GO:0045591; P:positive regulation of regulatory T cell differentiation; IDA:RGD.
+DR   GO; GO:0045582; P:positive regulation of T cell differentiation; IDA:RGD.
+DR   GO; GO:0042102; P:positive regulation of T cell proliferation; IDA:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0042531; P:positive regulation of tyrosine phosphorylation of STAT protein; ISO:RGD.
+DR   GO; GO:0007205; P:protein kinase C-activating G protein-coupled receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0046013; P:regulation of T cell homeostatic proliferation; ISO:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IDA:RGD.
+DR   Gene3D; 1.20.1250.10; -; 1.
+DR   InterPro; IPR009079; 4_helix_cytokine-like_core.
+DR   InterPro; IPR000779; IL-2.
+DR   InterPro; IPR030477; IL-2_CS.
+DR   Pfam; PF00715; IL2; 1.
+DR   PRINTS; PR00265; INTERLEUKIN2.
+DR   SMART; SM00189; IL2; 1.
+DR   SUPFAM; SSF47266; SSF47266; 1.
+DR   PROSITE; PS00424; INTERLEUKIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Adaptive immunity; Cytokine; Disulfide bond; Glycoprotein; Growth factor;
+KW   Immunity; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           21..155
+FT                   /note="Interleukin-2"
+FT                   /id="PRO_0000015500"
+FT   CARBOHYD        23
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        78..126
+FT                   /evidence="ECO:0000250|UniProtKB:P60568"
+SQ   SEQUENCE   155 AA;  17633 MW;  67A8554A73BF30A0 CRC64;
+     MYSMQLASCV ALTLVLLVNS APTSSPAKET QQHLEQLLLD LQVLLRGIDN YKNLKLPMML
+     TFKFYLPKQA TELKHLQCLE NELGALQRVL DLTQSKSFHL EDAGNFISNI RVTVVKLKGS
+     ENKFECQFDD EPATVVEFLR RWIAICQSII STMTQ
+//

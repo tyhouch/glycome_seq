@@ -1,0 +1,123 @@
+ID   LECH_CHICK              Reviewed;         207 AA.
+AC   P02707;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   03-AUG-2022, entry version 121.
+DE   RecName: Full=Hepatic lectin;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND ACETYLATION AT MET-1.
+RX   PubMed=7240175; DOI=10.1016/s0021-9258(19)69282-3;
+RA   Drickamer K.;
+RT   "Complete amino acid sequence of a membrane receptor for glycoproteins.
+RT   Sequence of the chicken hepatic lectin.";
+RL   J. Biol. Chem. 256:5827-5839(1981).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3281941; DOI=10.1016/s0021-9258(18)60740-9;
+RA   Mellow T.E., Halberg D., Drickamer K.;
+RT   "Endocytosis of N-acetylglucosamine-containing glycoproteins by rat
+RT   fibroblasts expressing a single species of chicken liver glycoprotein
+RT   receptor.";
+RL   J. Biol. Chem. 263:5468-5473(1988).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2050668; DOI=10.1016/s0021-9258(18)98999-4;
+RA   Bezouska K., Crichlow G.V., Rose J.M., Taylor M.E., Drickamer K.;
+RT   "Evolutionary conservation of intron position in a subfamily of genes
+RT   encoding carbohydrate-recognition domains.";
+RL   J. Biol. Chem. 266:11604-11609(1991).
+CC   -!- FUNCTION: Hepatic lectin is a membrane receptor protein that recognizes
+CC       and binds exposed N-acetylglucosamine moieties of plasma glycoproteins,
+CC       thus mediating their clearance (from the circulation) and endocytosis.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- PTM: Some or all of the cysteines are involved in disulfide bonds.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J03188; AAA48937.1; -; mRNA.
+DR   EMBL; M63230; AAA48814.1; -; Genomic_DNA.
+DR   EMBL; M63225; AAA48814.1; JOINED; Genomic_DNA.
+DR   EMBL; M63226; AAA48814.1; JOINED; Genomic_DNA.
+DR   EMBL; M63227; AAA48814.1; JOINED; Genomic_DNA.
+DR   EMBL; M63228; AAA48814.1; JOINED; Genomic_DNA.
+DR   EMBL; M63229; AAA48814.1; JOINED; Genomic_DNA.
+DR   PIR; A03167; LNCHL.
+DR   RefSeq; NP_990815.1; NM_205484.1.
+DR   AlphaFoldDB; P02707; -.
+DR   SMR; P02707; -.
+DR   STRING; 9031.ENSGALP00000042048; -.
+DR   MEROPS; I63.002; -.
+DR   iPTMnet; P02707; -.
+DR   PRIDE; P02707; -.
+DR   Ensembl; ENSGALT00000070030; ENSGALP00000048786; ENSGALG00000037253.
+DR   GeneID; 396477; -.
+DR   KEGG; gga:396477; -.
+DR   VEuPathDB; HostDB:LOC396477; -.
+DR   GeneTree; ENSGT00940000164508; -.
+DR   HOGENOM; CLU_2694088_0_0_1; -.
+DR   OMA; EWEYFSG; -.
+DR   OrthoDB; 1118305at2759; -.
+DR   PhylomeDB; P02707; -.
+DR   PRO; PR:P02707; -.
+DR   Proteomes; UP000000539; Chromosome 30.
+DR   Bgee; ENSGALG00000037253; Expressed in liver and 7 other tissues.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0006897; P:endocytosis; IEA:UniProtKB-KW.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Disulfide bond; Endocytosis;
+KW   Glycoprotein; Lectin; Membrane; Receptor; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..207
+FT                   /note="Hepatic lectin"
+FT                   /id="PRO_0000046649"
+FT   TOPO_DOM        1..23
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        24..48
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        49..207
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          77..203
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000269|PubMed:7240175"
+FT   CARBOHYD        67
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:7240175"
+FT   DISULFID        78..92
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        109..201
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        179..193
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   207 AA;  24216 MW;  1F6B36FDB32899DB CRC64;
+     MDEERLSDNV RLYKGGSIRQ GLRSFAAVYV LLALSFLLLT LLSSVSLARI AALSSKLSTL
+     QSEPKHNFSS RDSLLFPCGA QSRQWEYFEG RCYYFSLSRM SWHKAKAECE EMHSHLIIID
+     SYAKQNFVMF RTRNERFWIG LTDENQEGEW QWVDGTDTRS SFTFWKEGEP NNRGFNEDCA
+     HVWTSGQWND VYCTYECYYV CEKPLPK
+//

@@ -1,0 +1,177 @@
+ID   GANAB_PIG               Reviewed;         944 AA.
+AC   P79403;
+DT   05-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   03-AUG-2022, entry version 101.
+DE   RecName: Full=Neutral alpha-glucosidase AB;
+DE            EC=3.2.1.207 {ECO:0000250|UniProtKB:Q8BHN3};
+DE   AltName: Full=Alpha-glucosidase 2;
+DE   AltName: Full=Glucosidase II subunit alpha;
+DE   Flags: Precursor;
+GN   Name=GANAB;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RA   Flura T., Brada D., Ziak M., Roth J.;
+RL   Submitted (SEP-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   SUBCELLULAR LOCATION, GLYCOSYLATION, AND SIALIC ACID CONTENT.
+RX   PubMed=2404989; DOI=10.1083/jcb.110.2.309;
+RA   Brada D., Kerjaschki D., Roth J.;
+RT   "Cell type-specific post-Golgi apparatus localization of a 'resident'
+RT   endoplasmic reticulum glycoprotein, glucosidase II.";
+RL   J. Cell Biol. 110:309-318(1990).
+CC   -!- FUNCTION: Catalytic subunit of glucosidase II that cleaves sequentially
+CC       the 2 innermost alpha-1,3-linked glucose residues from the
+CC       Glc(2)Man(9)GlcNAc(2) oligosaccharide precursor of immature
+CC       glycoproteins. Required for PKD1/Polycystin-1 and PKD2/Polycystin-2
+CC       maturation and localization to the cell surface and cilia.
+CC       {ECO:0000250|UniProtKB:Q14697, ECO:0000250|UniProtKB:Q8BHN3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] = beta-D-glucose + N(4)-(alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] (N-glucan mannose isomer 9A1,2,3B1,2,3);
+CC         Xref=Rhea:RHEA:56000, Rhea:RHEA-COMP:14356, Rhea:RHEA-COMP:14357,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15903, ChEBI:CHEBI:59080,
+CC         ChEBI:CHEBI:139493; EC=3.2.1.207;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BHN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-
+CC         alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-
+CC         Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-
+CC         asparaginyl-[protein] = beta-D-glucose + N(4)-(alpha-D-Glc-(1->3)-
+CC         alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-
+CC         Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         alpha-D-GlcNAc)-L-asparaginyl-[protein]; Xref=Rhea:RHEA:55996,
+CC         Rhea:RHEA-COMP:14355, Rhea:RHEA-COMP:14357, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15903, ChEBI:CHEBI:59080, ChEBI:CHEBI:59082;
+CC         EC=3.2.1.207; Evidence={ECO:0000250|UniProtKB:Q8BHN3};
+CC   -!- PATHWAY: Glycan metabolism; N-glycan metabolism.
+CC       {ECO:0000250|UniProtKB:Q8BHN3}.
+CC   -!- SUBUNIT: Heterodimer of a catalytic alpha subunit (GANAB) and a beta
+CC       subunit (PRKCSH). Binds glycosylated PTPRC.
+CC       {ECO:0000250|UniProtKB:Q8BHN3}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum
+CC       {ECO:0000269|PubMed:2404989}. Golgi apparatus
+CC       {ECO:0000269|PubMed:2404989}. Melanosome
+CC       {ECO:0000250|UniProtKB:Q14697}.
+CC   -!- PTM: Contains sialylated polysaccharide chains.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U71273; AAB49757.1; -; mRNA.
+DR   RefSeq; NP_999069.1; NM_213904.1.
+DR   AlphaFoldDB; P79403; -.
+DR   SMR; P79403; -.
+DR   STRING; 9823.ENSSSCP00000025647; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   PaxDb; P79403; -.
+DR   PeptideAtlas; P79403; -.
+DR   PRIDE; P79403; -.
+DR   GeneID; 396938; -.
+DR   KEGG; ssc:396938; -.
+DR   CTD; 23193; -.
+DR   eggNOG; KOG1066; Eukaryota.
+DR   InParanoid; P79403; -.
+DR   OrthoDB; 100626at2759; -.
+DR   UniPathway; UPA00957; -.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Unplaced.
+DR   GO; GO:0017177; C:glucosidase II complex; ISS:UniProtKB.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; ISS:UniProtKB.
+DR   GO; GO:0042470; C:melanosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090599; F:alpha-glucosidase activity; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0033919; F:glucan 1,3-alpha-glucosidase activity; ISS:UniProtKB.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006491; P:N-glycan processing; ISS:UniProtKB.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR030459; Glyco_hydro_31_CS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+DR   PROSITE; PS00707; GLYCOSYL_HYDROL_F31_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Glycosidase;
+KW   Golgi apparatus; Hydrolase; Phosphoprotein; Reference proteome; Signal.
+FT   SIGNAL          1..32
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           33..944
+FT                   /note="Neutral alpha-glucosidase AB"
+FT                   /id="PRO_0000018573"
+FT   REGION          181..225
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        203..225
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        542
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        618
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BHN3"
+FT   BINDING         283
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BHN3"
+FT   BINDING         429
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BHN3"
+FT   BINDING         602
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BHN3"
+FT   BINDING         676
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BHN3"
+FT   MOD_RES         52
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14697"
+FT   CARBOHYD        97
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        41..47
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BHN3"
+FT   DISULFID        633..644
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BHN3"
+SQ   SEQUENCE   944 AA;  106662 MW;  EB3096829037AAA8 CRC64;
+     MAAVAAVAAR RRRSWTGLVL ACLGVCLGLT LAVDRSNFKT CEESSFCKRQ RSIRPGQSPY
+     RALLDSLQLG PDTLTIHLIN EVTKVLLVLE LQGLQKNMTR IRIDELEPRR PRYRVPDVLV
+     AEPPTARLSV SGQDDNSVEV TVAEGPYKII LTARPFRLDL LEDRSLLLSV NARGLLNFEH
+     QRAPRVSQGS KDPAEGDGAQ PEEAPGDGDK PEEIQGKAEK DEPGAWEETF KTHSDSKPYG
+     PTSVGLDFSL PGMEHVYGIP EHADSLRLKV TEGGDPYRLY NLDVFQYELY NPMALYGSVP
+     VLLAHSPHRD LGIFWLNAAE TWVDISSNTA GKTLFGKMLD YLQGSGETPQ TDVRWMSESG
+     IIDVFLLLGP SVFDVFRQYA SLTGTQALPP LFSLGYHQSR WNYRDEADVL EVNQGFDDHN
+     LPCDFIWLDI EHADGKRYFT WDPSRFPQPR TMLEHLASKR RKLVAIVDPH IKVDSSYRVH
+     EELQNLGLYV KTRDGSDYEG WCWPGAASYP DFTNPKMRAW WADMFRFENY EGSSSNLYVW
+     NDMNEPSVFN GPEVTMLKDA QHYGGWEHRD LHNIYGFYVH MATADGLVLR SGGVERPFVL
+     SRAFFAGSQR FGAVWTGDNT AEWDHLKISI PMCLSLGLVG VSFCGADVGG FFKNPEPELL
+     VRWYQMGAYQ PFFRAHAHLD TGRREPWLLP TQYQDMIRDA LGQRYSLLPF WYTLFYQAHR
+     EGVPVMRALW VHYPQDVTTF SIDDEFLLGD ALLVHPVTDS EAHGVQVYLP GQGEVWYDVH
+     SYQKYHGPQT LYLPVTLSSI PVFQRGGTIV PRWMRVRRSS DCMKDDPITL FVALSPQGTA
+     QGELFLDDGH TFNYQTGHEF LLRRFSFSGN TLVSSSADSK GHFETPVWIE RVVIIGAGKP
+     ATVVLQTKGS PESRLSFQHD PETSVLILRK PGVNVASDWS IHLR
+//

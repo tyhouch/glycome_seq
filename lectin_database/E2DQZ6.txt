@@ -1,0 +1,86 @@
+ID   SLJA_PROJR              Reviewed;         158 AA.
+AC   E2DQZ6;
+DT   19-OCT-2011, integrated into UniProtKB/Swiss-Prot.
+DT   30-NOV-2010, sequence version 1.
+DT   25-MAY-2022, entry version 25.
+DE   RecName: Full=Snaclec jerdonuxin subunit alpha;
+DE   Flags: Precursor;
+OS   Protobothrops jerdonii (Jerdon's pitviper) (Trimeresurus jerdonii).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Protobothrops.
+OX   NCBI_TaxID=242841;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:ADK56182.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 24-45, AND FUNCTION.
+RC   TISSUE=Venom {ECO:0000269|PubMed:21040740};
+RX   PubMed=21040740; DOI=10.1016/j.toxicon.2010.10.011;
+RA   Chen Z.M., Wu J.B., Zhang Y., Yu G.Y., Lee W.H., Lu Q.M., Zhang Y.;
+RT   "Jerdonuxin, a novel snaclec (snake C-type lectin) with platelet
+RT   aggregation activity from Trimeresurus jerdonii venom.";
+RL   Toxicon 57:109-116(2011).
+CC   -!- FUNCTION: Snaclec that strongly induces platelet aggregation, in a
+CC       dose-dependent manner. {ECO:0000269|PubMed:21040740}.
+CC   -!- SUBUNIT: Tetramer of 4 heterodimers of alpha and beta subunits;
+CC       disulfide-linked. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:21040740}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000269|PubMed:21040740}.
+CC   -!- SIMILARITY: Belongs to the snaclec family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; GU136389; ADK56182.1; -; mRNA.
+DR   AlphaFoldDB; E2DQZ6; -.
+DR   SMR; E2DQZ6; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Hemostasis impairing toxin;
+KW   Lectin; Platelet aggregation activating toxin; Secreted; Signal; Toxin.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000269|PubMed:21040740"
+FT   CHAIN           24..158
+FT                   /note="Snaclec jerdonuxin subunit alpha"
+FT                   /id="PRO_0000413658"
+FT   DOMAIN          34..153
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        27..38
+FT                   /evidence="ECO:0000250|UniProtKB:Q6TPH0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        55..152
+FT                   /evidence="ECO:0000250|UniProtKB:Q6TPH0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        104
+FT                   /note="Interchain (with C-100 in subunit beta of
+FT                   heterodimeric partner)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6TPH0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        127..144
+FT                   /evidence="ECO:0000250|UniProtKB:Q6TPH0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        158
+FT                   /note="Interchain (with C-26 in subunit beta of tetrameric
+FT                   partner)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6TPH0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CONFLICT        44
+FT                   /note="E -> K (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   158 AA;  18102 MW;  10D2C00D968A1FBD CRC64;
+     MGRFTFVSFG LLVVFLSLSG TGADFDCIPG WSAYDRYCYQ AFSEPKNWED AESFCEEGVK
+     TSHLVSIESS GEGDFVAQLV SEKIKTSFQY VWIGLRIQNK EQQCRSEWTD ASSVNYENLI
+     KQFSKKCYAL KKGTELRTWF NVYCGTENPF VCKYTPEC
+//

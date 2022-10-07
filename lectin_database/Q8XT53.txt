@@ -1,0 +1,91 @@
+ID   OPGD2_RALSO             Reviewed;         537 AA.
+AC   Q8XT53;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   03-JUL-2003, sequence version 2.
+DT   25-MAY-2022, entry version 99.
+DE   RecName: Full=Glucans biosynthesis protein D 2;
+DE   Flags: Precursor;
+GN   Name=opgD2; OrderedLocusNames=RSp0262; ORFNames=RS03704;
+OS   Ralstonia solanacearum (strain GMI1000) (Pseudomonas solanacearum).
+OG   Plasmid megaplasmid Rsp.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Ralstonia.
+OX   NCBI_TaxID=267608;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GMI1000;
+RX   PubMed=11823852; DOI=10.1038/415497a;
+RA   Salanoubat M., Genin S., Artiguenave F., Gouzy J., Mangenot S., Arlat M.,
+RA   Billault A., Brottier P., Camus J.-C., Cattolico L., Chandler M.,
+RA   Choisne N., Claudel-Renard C., Cunnac S., Demange N., Gaspin C., Lavie M.,
+RA   Moisan A., Robert C., Saurin W., Schiex T., Siguier P., Thebault P.,
+RA   Whalen M., Wincker P., Levy M., Weissenbach J., Boucher C.A.;
+RT   "Genome sequence of the plant pathogen Ralstonia solanacearum.";
+RL   Nature 415:497-502(2002).
+CC   -!- FUNCTION: Probably involved in the control of the structural glucose
+CC       backbone of osmoregulated periplasmic glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAD17413.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL646053; CAD17413.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_028854026.1; NC_003296.1.
+DR   AlphaFoldDB; Q8XT53; -.
+DR   SMR; Q8XT53; -.
+DR   STRING; 267608.RSp0262; -.
+DR   EnsemblBacteria; CAD17413; CAD17413; RSp0262.
+DR   GeneID; 60503199; -.
+DR   KEGG; rso:RSp0262; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_4; -.
+DR   OMA; AGFWVHE; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000001436; Plasmid megaplasmid Rsp.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01068; MdoD_OpgD; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023724; Glucan_biosyn_MdoD.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR006311; TAT_signal.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Plasmid; Reference proteome; Signal.
+FT   SIGNAL          1..28
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..537
+FT                   /note="Glucans biosynthesis protein D 2"
+FT                   /id="PRO_0000020211"
+SQ   SEQUENCE   537 AA;  59938 MW;  0A028A88980436EE CRC64;
+     MVTRRHLLAS ASLSATLAAL GITPEALAAS RVKLGNAAPF NFDALIERAR AMAGQPYTPP
+     ATAPADILAK IDYEAHGKIK FDTAHALFAD GPGQFPVTFF HLGTFFRAPV RMHVVDKGEA
+     REIVYDESYF DMPADSPARK LPRNSGFAGF RFQESRLGDQ KKLDWKKNDW VAFLGASYFR
+     AIGELYQYGL SARGIALDVA QAGRAEEFPN FTHVWFDTPS NEHADSVTIY ALLDGPGITG
+     AYRFVMHRGK GVVMEIDTAL FLRRDIDRFG IAPASSMYWF SETAKGTATD WRPEVHDSDG
+     LAMWTGSGER IWRPLNDPPR VMTSAFSDNN PRGFGLLQRD RDFNNYMDGV HYERRPSLWV
+     EPLEGWGEGA VQLVEIPTDD EIHDNIVAMW VPKAPARAGS HYRLRYRLHW LADEPYPTPL
+     ARCVATRLGN GGQPGQPRPR GVRKFMVEFK GGPLEKVPFG VKPEAVLTSS RGTFSYVFTE
+     AVPNGVPGHW RAQFDLTVDG KEPVDMRLFL RLDGKPLSET WLYQYHPFQS PVGPVAS
+//

@@ -1,0 +1,534 @@
+ID   TETX_CLOTE              Reviewed;        1315 AA.
+AC   P04958;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 186.
+DE   RecName: Full=Tetanus toxin;
+DE            EC=3.4.24.68;
+DE   AltName: Full=Tentoxylysin;
+DE   Contains:
+DE     RecName: Full=Tetanus toxin light chain;
+DE              Short=Tetanus toxin chain L;
+DE   Contains:
+DE     RecName: Full=Tetanus toxin heavy chain;
+DE              Short=Tetanus toxin chain H;
+DE   Flags: Precursor;
+GN   Name=tetX; OrderedLocusNames=CTC_p60;
+OS   Clostridium tetani (strain Massachusetts / E88).
+OG   Plasmid pE88, and Plasmid 75 Kbp.
+OC   Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=212717;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   PLASMID=75 Kbp;
+RX   PubMed=3536478; DOI=10.1002/j.1460-2075.1986.tb04527.x;
+RA   Eisel U., Jarausch W., Goretzki K., Henschen A., Engels J., Weller U.,
+RA   Hudel M., Habermann E., Niemann H.;
+RT   "Tetanus toxin: primary structure, expression in E. coli, and homology with
+RT   botulinum toxins.";
+RL   EMBO J. 5:2495-2502(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=CN3911; PLASMID=75 Kbp;
+RX   PubMed=3774547; DOI=10.1093/nar/14.19.7809;
+RA   Fairweather N.F., Lyness V.A.;
+RT   "The complete nucleotide sequence of tetanus toxin.";
+RL   Nucleic Acids Res. 14:7809-7812(1986).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Massachusetts / E88; PLASMID=pE88;
+RX   PubMed=12552129; DOI=10.1073/pnas.0335853100;
+RA   Brueggemann H., Baeumer S., Fricke W.F., Wiezer A., Liesegang H.,
+RA   Decker I., Herzberg C., Martinez-Arias R., Merkl R., Henne A.,
+RA   Gottschalk G.;
+RT   "The genome sequence of Clostridium tetani, the causative agent of tetanus
+RT   disease.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:1316-1321(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 743-1315.
+RC   PLASMID=75 Kbp;
+RX   PubMed=3510187; DOI=10.1128/jb.165.1.21-27.1986;
+RA   Fairweather N.F., Lyness V.A., Pickard D.J., Allen G., Thomson R.O.;
+RT   "Cloning, nucleotide sequencing, and expression of tetanus toxin fragment C
+RT   in Escherichia coli.";
+RL   J. Bacteriol. 165:21-27(1986).
+RN   [5]
+RP   PARTIAL PROTEIN SEQUENCE, AND DISULFIDE BONDS.
+RX   PubMed=2108021; DOI=10.1111/j.1432-1033.1990.tb15368.x;
+RA   Krieglstein K., Henschen A., Weller U., Habermann E.;
+RT   "Arrangement of disulfide bridges and positions of sulfhydryl groups in
+RT   tetanus toxin.";
+RL   Eur. J. Biochem. 188:39-45(1990).
+RN   [6]
+RP   PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=1935979; DOI=10.1111/j.1432-1033.1991.tb16342.x;
+RA   Krieglstein K.G., Henschen A.H., Weller U., Habermann E.;
+RT   "Limited proteolysis of tetanus toxin. Relation to activity and
+RT   identification of cleavage sites.";
+RL   Eur. J. Biochem. 202:41-51(1991).
+RN   [7]
+RP   IDENTIFICATION AS A ZINC-PROTEASE.
+RX   PubMed=1396558; DOI=10.1002/j.1460-2075.1992.tb05441.x;
+RA   Schiavo G., Poulain B., Rossetto O., Benfenati F., Tauc L., Montecucco C.;
+RT   "Tetanus toxin is a zinc protein and its inhibition of neurotransmitter
+RT   release and protease activity depend on zinc.";
+RL   EMBO J. 11:3577-3583(1992).
+RN   [8]
+RP   IDENTIFICATION OF SUBSTRATE.
+RX   PubMed=1331807; DOI=10.1038/359832a0;
+RA   Schiavo G., Benfenati F., Poulain B., Rossetto O., de Laureto P.P.,
+RA   Dasgupta B.R., Montecucco C.;
+RT   "Tetanus and botulinum-B neurotoxins block neurotransmitter release by
+RT   proteolytic cleavage of synaptobrevin.";
+RL   Nature 359:832-835(1992).
+RN   [9]
+RP   X-RAY CRYSTALLOGRAPHY (2.7 ANGSTROMS) OF 875-1315.
+RX   PubMed=9334741; DOI=10.1038/nsb1097-788;
+RA   Umland T.C., Wingert L.M., Swaminathan S., Furey W.F. Jr., Schmidt J.J.,
+RA   Sax M.;
+RT   "Structure of the receptor binding fragment HC of tetanus neurotoxin.";
+RL   Nat. Struct. Biol. 4:788-792(1997).
+CC   -!- FUNCTION: Tetanus toxin acts by inhibiting neurotransmitter release. It
+CC       binds to peripheral neuronal synapses, is internalized and moves by
+CC       retrograde transport up the axon into the spinal cord where it can move
+CC       between postsynaptic and presynaptic neurons. It inhibits
+CC       neurotransmitter release by acting as a zinc endopeptidase that
+CC       catalyzes the hydrolysis of the '76-Gln-|-Phe-77' bond of
+CC       synaptobrevin-2.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of 76-Gln-|-Phe-77 bond in synaptobrevin 2.;
+CC         EC=3.4.24.68;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: The precursor polypeptide is subsequently cleaved to yield
+CC       subchains L and H. These remain linked by a disulfide bridge and are
+CC       non-toxic after separation.
+CC   -!- INTERACTION:
+CC       P04958; P0DMV8: HSPA1A; Xeno; NbExp=3; IntAct=EBI-13951617, EBI-11052499;
+CC   -!- MISCELLANEOUS: The C-terminus of the heavy chain binds to ganglioside
+CC       receptors.
+CC   -!- SIMILARITY: Belongs to the peptidase M27 family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Tetanus toxin Hc fragment;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_oth_other_381";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X04436; CAA28033.1; -; Genomic_DNA.
+DR   EMBL; X06214; CAA29564.1; -; Genomic_DNA.
+DR   EMBL; AF528097; AAO37454.1; -; Genomic_DNA.
+DR   EMBL; M12739; AAA23282.1; -; Genomic_DNA.
+DR   PIR; A25689; BTCLTN.
+DR   RefSeq; WP_011100836.1; NC_004565.1.
+DR   PDB; 1A8D; X-ray; 1.57 A; A=865-1315.
+DR   PDB; 1AF9; X-ray; 2.70 A; A=865-1315.
+DR   PDB; 1D0H; X-ray; 2.10 A; A=872-1315.
+DR   PDB; 1DFQ; X-ray; 2.60 A; A=872-1315.
+DR   PDB; 1DIW; X-ray; 2.00 A; A=875-1315.
+DR   PDB; 1DLL; X-ray; 1.80 A; A=875-1315.
+DR   PDB; 1FV2; X-ray; 2.50 A; A=862-1315.
+DR   PDB; 1FV3; X-ray; 2.30 A; A/B=862-1315.
+DR   PDB; 1YVG; X-ray; 2.60 A; A=2-458.
+DR   PDB; 1YXW; X-ray; 2.20 A; A=875-1315.
+DR   PDB; 1YYN; X-ray; 2.30 A; A=875-1315.
+DR   PDB; 1Z7H; X-ray; 2.30 A; A=1-443.
+DR   PDB; 3HMY; X-ray; 2.00 A; A=866-1315.
+DR   PDB; 3HN1; X-ray; 2.10 A; A=866-1315.
+DR   PDB; 4J1L; X-ray; 2.60 A; A=2-427.
+DR   PDB; 5N0B; X-ray; 2.60 A; A=1-1315.
+DR   PDB; 5N0C; X-ray; 2.60 A; A/B=1-1315.
+DR   PDB; 7BXX; Other; 2.34 A; A/B=459-864.
+DR   PDB; 7BY4; X-ray; 1.50 A; A=865-1315.
+DR   PDB; 7BY5; X-ray; 2.27 A; A=2-1315.
+DR   PDBsum; 1A8D; -.
+DR   PDBsum; 1AF9; -.
+DR   PDBsum; 1D0H; -.
+DR   PDBsum; 1DFQ; -.
+DR   PDBsum; 1DIW; -.
+DR   PDBsum; 1DLL; -.
+DR   PDBsum; 1FV2; -.
+DR   PDBsum; 1FV3; -.
+DR   PDBsum; 1YVG; -.
+DR   PDBsum; 1YXW; -.
+DR   PDBsum; 1YYN; -.
+DR   PDBsum; 1Z7H; -.
+DR   PDBsum; 3HMY; -.
+DR   PDBsum; 3HN1; -.
+DR   PDBsum; 4J1L; -.
+DR   PDBsum; 5N0B; -.
+DR   PDBsum; 5N0C; -.
+DR   PDBsum; 7BXX; -.
+DR   PDBsum; 7BY4; -.
+DR   PDBsum; 7BY5; -.
+DR   AlphaFoldDB; P04958; -.
+DR   SASBDB; P04958; -.
+DR   SMR; P04958; -.
+DR   IntAct; P04958; 2.
+DR   BindingDB; P04958; -.
+DR   ChEMBL; CHEMBL2036; -.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   DrugBank; DB02265; Ethyl-Trimethyl-Silane.
+DR   DrugBank; DB03721; N-acetyl-alpha-neuraminic acid.
+DR   DrugBank; DB04265; N-acetyl-beta-neuraminic acid.
+DR   DrugBank; DB11604; Tetanus immune globulin, human.
+DR   Allergome; 2757; Clo t Toxoid.
+DR   MEROPS; M27.001; -.
+DR   TCDB; 1.C.8.1.2; the botulinum and tetanus toxin (btt) family.
+DR   UniLectin; P04958; -.
+DR   ABCD; P04958; 12 sequenced antibodies.
+DR   EnsemblBacteria; AAO37454; AAO37454; CTC_p60.
+DR   KEGG; ctc:CTC_p60; -.
+DR   HOGENOM; CLU_262205_0_0_9; -.
+DR   OMA; VSFWIRI; -.
+DR   OrthoDB; 50987at2; -.
+DR   BRENDA; 3.4.24.68; 1526.
+DR   Reactome; R-HSA-5250982; Toxicity of tetanus toxin (tetX).
+DR   EvolutionaryTrace; P04958; -.
+DR   PRO; PR:P04958; -.
+DR   Proteomes; UP000001412; Plasmid pE88.
+DR   GO; GO:0030669; C:clathrin-coated endocytic vesicle membrane; TAS:Reactome.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0030666; C:endocytic vesicle membrane; TAS:Reactome.
+DR   GO; GO:0005576; C:extracellular region; TAS:Reactome.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IDA:CACAO.
+DR   GO; GO:0008320; F:protein transmembrane transporter activity; EXP:Reactome.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0046929; P:negative regulation of neurotransmitter secretion; IDA:CACAO.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.1120.10; -; 1.
+DR   InterPro; IPR000395; Bot/tetX_LC.
+DR   InterPro; IPR036248; Clostridium_toxin_transloc.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR011065; Kunitz_inhibitor_STI-like_sf.
+DR   InterPro; IPR013104; Toxin_rcpt-bd_C.
+DR   InterPro; IPR012928; Toxin_rcpt-bd_N.
+DR   InterPro; IPR012500; Toxin_trans.
+DR   Pfam; PF01742; Peptidase_M27; 1.
+DR   Pfam; PF07951; Toxin_R_bind_C; 1.
+DR   Pfam; PF07953; Toxin_R_bind_N; 1.
+DR   Pfam; PF07952; Toxin_trans; 1.
+DR   PRINTS; PR00760; BONTOXILYSIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF50386; SSF50386; 1.
+DR   SUPFAM; SSF58091; SSF58091; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Hydrolase;
+KW   Metal-binding; Metalloprotease; Neurotoxin; Plasmid; Protease;
+KW   Reference proteome; Toxin; Virulence; Zinc.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT   CHAIN           2..457
+FT                   /note="Tetanus toxin light chain"
+FT                   /id="PRO_0000029229"
+FT   CHAIN           458..1315
+FT                   /note="Tetanus toxin heavy chain"
+FT                   /id="PRO_0000029230"
+FT   ACT_SITE        234
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         233
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         237
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   DISULFID        439..467
+FT                   /note="Interchain (between light and heavy chains)"
+FT                   /evidence="ECO:0000269|PubMed:2108021"
+FT   DISULFID        1077..1093
+FT                   /evidence="ECO:0000269|PubMed:2108021"
+FT   STRAND          16..23
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           25..27
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            28..30
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          34..40
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          43..46
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           56..59
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          63..69
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          71..73
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            75..78
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           81..99
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           102..113
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          125..128
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            133..135
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          136..142
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          144..146
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          148..154
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          156..160
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          170..173
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          176..178
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          181..183
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           185..187
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          188..190
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          194..197
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          200..203
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          205..207
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            216..218
+FT                   /evidence="ECO:0007829|PDB:5N0B"
+FT   STRAND          222..224
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           227..242
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           269..275
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           277..282
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           285..307
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          311..314
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           319..330
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          332..334
+FT                   /evidence="ECO:0007829|PDB:1Z7H"
+FT   STRAND          336..338
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          340..342
+FT                   /evidence="ECO:0007829|PDB:1Z7H"
+FT   HELIX           344..355
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           360..367
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          373..375
+FT                   /evidence="ECO:0007829|PDB:4J1L"
+FT   STRAND          380..384
+FT                   /evidence="ECO:0007829|PDB:1YVG"
+FT   TURN            386..389
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            391..393
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            396..398
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           403..405
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           409..411
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            412..414
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   TURN            416..418
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           420..422
+FT                   /evidence="ECO:0007829|PDB:1Z7H"
+FT   TURN            428..430
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          435..440
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          466..471
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           472..474
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           481..483
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           487..489
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          492..494
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           509..517
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          528..530
+FT                   /evidence="ECO:0007829|PDB:5N0B"
+FT   STRAND          546..548
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          551..557
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           560..565
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          571..574
+FT                   /evidence="ECO:0007829|PDB:5N0B"
+FT   STRAND          577..580
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           582..587
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          591..593
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           597..603
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           609..611
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           612..627
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           646..650
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           661..668
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           670..673
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          688..690
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           697..729
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           731..761
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           768..806
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           808..834
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           836..839
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   HELIX           841..854
+FT                   /evidence="ECO:0007829|PDB:7BY5"
+FT   STRAND          863..865
+FT                   /evidence="ECO:0007829|PDB:5N0C"
+FT   TURN            872..874
+FT                   /evidence="ECO:0007829|PDB:5N0C"
+FT   HELIX           877..883
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          885..892
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          895..898
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          900..902
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          905..908
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          913..917
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          920..928
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          933..936
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   HELIX           939..941
+FT                   /evidence="ECO:0007829|PDB:1A8D"
+FT   TURN            942..947
+FT                   /evidence="ECO:0007829|PDB:1A8D"
+FT   STRAND          950..957
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   HELIX           963..969
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          973..978
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          983..986
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          990..996
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          999..1005
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   TURN            1007..1009
+FT                   /evidence="ECO:0007829|PDB:1FV3"
+FT   STRAND          1011..1017
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   TURN            1022..1024
+FT                   /evidence="ECO:0007829|PDB:1DLL"
+FT   STRAND          1026..1030
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1032..1038
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1042..1048
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1051..1057
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1068..1076
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1083..1094
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   HELIX           1098..1107
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1111..1113
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1119..1121
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1123..1125
+FT                   /evidence="ECO:0007829|PDB:1DLL"
+FT   STRAND          1127..1132
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   HELIX           1133..1135
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1138..1144
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1149..1153
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1156..1159
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   TURN            1160..1163
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1164..1167
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1174..1181
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1194..1202
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1205..1212
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   TURN            1219..1221
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1222..1224
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1226..1228
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1232..1234
+FT                   /evidence="ECO:0007829|PDB:5N0C"
+FT   STRAND          1239..1243
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1253..1258
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1260..1262
+FT                   /evidence="ECO:0007829|PDB:1A8D"
+FT   STRAND          1264..1273
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1281..1287
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   HELIX           1288..1292
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   TURN            1293..1295
+FT                   /evidence="ECO:0007829|PDB:1FV2"
+FT   STRAND          1296..1298
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+FT   STRAND          1303..1306
+FT                   /evidence="ECO:0007829|PDB:7BY4"
+SQ   SEQUENCE   1315 AA;  150682 MW;  18838FB2654024CF CRC64;
+     MPITINNFRY SDPVNNDTII MMEPPYCKGL DIYYKAFKIT DRIWIVPERY EFGTKPEDFN
+     PPSSLIEGAS EYYDPNYLRT DSDKDRFLQT MVKLFNRIKN NVAGEALLDK IINAIPYLGN
+     SYSLLDKFDT NSNSVSFNLL EQDPSGATTK SAMLTNLIIF GPGPVLNKNE VRGIVLRVDN
+     KNYFPCRDGF GSIMQMAFCP EYVPTFDNVI ENITSLTIGK SKYFQDPALL LMHELIHVLH
+     GLYGMQVSSH EIIPSKQEIY MQHTYPISAE ELFTFGGQDA NLISIDIKND LYEKTLNDYK
+     AIANKLSQVT SCNDPNIDID SYKQIYQQKY QFDKDSNGQY IVNEDKFQIL YNSIMYGFTE
+     IELGKKFNIK TRLSYFSMNH DPVKIPNLLD DTIYNDTEGF NIESKDLKSE YKGQNMRVNT
+     NAFRNVDGSG LVSKLIGLCK KIIPPTNIRE NLYNRTASLT DLGGELCIKI KNEDLTFIAE
+     KNSFSEEPFQ DEIVSYNTKN KPLNFNYSLD KIIVDYNLQS KITLPNDRTT PVTKGIPYAP
+     EYKSNAASTI EIHNIDDNTI YQYLYAQKSP TTLQRITMTN SVDDALINST KIYSYFPSVI
+     SKVNQGAQGI LFLQWVRDII DDFTNESSQK TTIDKISDVS TIVPYIGPAL NIVKQGYEGN
+     FIGALETTGV VLLLEYIPEI TLPVIAALSI AESSTQKEKI IKTIDNFLEK RYEKWIEVYK
+     LVKAKWLGTV NTQFQKRSYQ MYRSLEYQVD AIKKIIDYEY KIYSGPDKEQ IADEINNLKN
+     KLEEKANKAM ININIFMRES SRSFLVNQMI NEAKKQLLEF DTQSKNILMQ YIKANSKFIG
+     ITELKKLESK INKVFSTPIP FSYSKNLDCW VDNEEDIDVI LKKSTILNLD INNDIISDIS
+     GFNSSVITYP DAQLVPGING KAIHLVNNES SEVIVHKAMD IEYNDMFNNF TVSFWLRVPK
+     VSASHLEQYG TNEYSIISSM KKHSLSIGSG WSVSLKGNNL IWTLKDSAGE VRQITFRDLP
+     DKFNAYLANK WVFITITNDR LSSANLYING VLMGSAEITG LGAIREDNNI TLKLDRCNNN
+     NQYVSIDKFR IFCKALNPKE IEKLYTSYLS ITFLRDFWGN PLRYDTEYYL IPVASSSKDV
+     QLKNITDYMY LTNAPSYTNG KLNIYYRRLY NGLKFIIKRY TPNNEIDSFV KSGDFIKLYV
+     SYNNNEHIVG YPKDGNAFNN LDRILRVGYN APGIPLYKKM EAVKLRDLKT YSVQLKLYDD
+     KNASLGLVGT HNGQIGNDPN RDILIASNWY FNHLKDKILG CDWYFVPTDE GWTND
+//

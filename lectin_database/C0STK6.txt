@@ -1,0 +1,73 @@
+ID   PLIAL_ELACL             Reviewed;         167 AA.
+AC   C0STK6;
+DT   02-JUN-2021, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   25-MAY-2022, entry version 42.
+DE   RecName: Full=Phospholipase A2 inhibitor alpha-like protein {ECO:0000303|PubMed:19673083};
+DE            Short=PLI-alpha-LP {ECO:0000303|PubMed:19673083};
+DE   Flags: Precursor;
+OS   Elaphe climacophora (Japanese rat snake) (Coluber climacophorus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Colubridae; Colubrinae; Elaphe.
+OX   NCBI_TaxID=31143;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 20-39, FUNCTION,
+RP   SUBCELLULAR LOCATION, AND SUBUNIT.
+RC   TISSUE=Liver, and Serum;
+RX   PubMed=19673083; DOI=10.1016/j.toxicon.2009.02.001;
+RA   Shirai R., Toriba M., Hayashi K., Ikeda K., Inoue S.;
+RT   "Identification and characterization of phospholipase A2 inhibitors from
+RT   the serum of the Japanese rat snake, Elaphe climacophora.";
+RL   Toxicon 53:685-692(2009).
+CC   -!- FUNCTION: Has no PLA2 inhibitory activity.
+CC       {ECO:0000269|PubMed:19673083}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000269|PubMed:19673083}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:19673083}.
+CC       Note=Secreted in plasma. {ECO:0000269|PubMed:19673083}.
+CC   -!- MISCELLANEOUS: Concentration of this protein in the serum is 8-fold
+CC       lower than in the E.quadrivirgata (another non-venomous snake) serum.
+CC       This difference may reflect the difference in the food habits of these
+CC       snakes. E.quadrivirgata preys upon snakes including the venomous
+CC       snakes, whereas E.climacophora only preys upon small mammals and birds.
+CC       {ECO:0000269|PubMed:19673083}.
+CC   -!- SIMILARITY: Belongs to the alpha-type phospholipase A2 inhibitor
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB462510; BAH47548.1; -; mRNA.
+DR   AlphaFoldDB; C0STK6; -.
+DR   SMR; C0STK6; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Lectin; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000269|PubMed:19673083"
+FT   CHAIN           20..167
+FT                   /note="Phospholipase A2 inhibitor alpha-like protein"
+FT                   /evidence="ECO:0000305|PubMed:19673083"
+FT                   /id="PRO_5002903376"
+FT   DOMAIN          62..163
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        83..162
+FT                   /evidence="ECO:0000250|UniProtKB:P21755"
+FT   DISULFID        140..154
+FT                   /evidence="ECO:0000250|UniProtKB:P21755"
+SQ   SEQUENCE   167 AA;  18201 MW;  6B598855DE01D9B1 CRC64;
+     MQLILLSSLL LLGLSLANGH ETDPEGQILN SLVETVSRLE KKIDKVENAF LTVHRARSFG
+     SGSERLYVTN KQVGNFEAVR NTCVQAGGRI PSPQLLNENK AFASVLERHN KAAYLVVQNS
+     AKFTNWAAGE PNNADGNKLC VKADAQGAWH SASCDEDLLV VCEFSFI
+//

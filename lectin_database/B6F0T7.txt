@@ -1,0 +1,75 @@
+ID   B6F0T7_PTEPN            Unreviewed;       161 AA.
+AC   B6F0T7;
+DT   16-DEC-2008, integrated into UniProtKB/TrEMBL.
+DT   16-DEC-2008, sequence version 1.
+DT   03-AUG-2022, entry version 32.
+DE   SubName: Full=Jacalin-related lectin {ECO:0000313|EMBL:BAG80530.1};
+GN   Name=PPL3 {ECO:0000313|EMBL:BAG80530.1};
+OS   Pteria penguin (Winged pearl oyster) (Magnavicula penguin).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Bivalvia;
+OC   Autobranchia; Pteriomorphia; Pterioida; Pterioidea; Pteriidae; Pteria.
+OX   NCBI_TaxID=113549 {ECO:0000313|EMBL:BAG80530.1};
+RN   [1] {ECO:0000313|EMBL:BAG80530.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Mantle {ECO:0000313|EMBL:BAG80530.1};
+RA   Ogawa T., Naganuma T., Hoshino W., Sato R., Muramoto K.;
+RT   "Jacalin-related lectins from Pteria penguin mabe pearl shell.";
+RL   Submitted (FEB-2008) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:5YRE, ECO:0007829|PDB:5YRF}
+RP   X-RAY CRYSTALLOGRAPHY (1.20 ANGSTROMS) OF 20-161, AND DISULFIDE BONDS.
+RX   PubMed=29524263; DOI=10.1002/prot.25491;
+RA   Nakae S., Shionyu M., Ogawa T., Shirai T.;
+RT   "Structures of jacalin-related lectin PPL3 regulating pearl shell
+RT   biomineralization.";
+RL   Proteins 86:644-653(2018).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB425240; BAG80530.1; -; mRNA.
+DR   PDB; 5YRE; X-ray; 1.40 A; A/B=20-161.
+DR   PDB; 5YRF; X-ray; 1.70 A; A/B=20-161.
+DR   PDB; 5YRG; X-ray; 1.50 A; A/B=20-161.
+DR   PDB; 5YRH; X-ray; 1.20 A; A=20-161.
+DR   PDB; 5YRI; X-ray; 1.65 A; A=20-161.
+DR   PDB; 5YRJ; X-ray; 1.80 A; A=20-161.
+DR   PDBsum; 5YRE; -.
+DR   PDBsum; 5YRF; -.
+DR   PDBsum; 5YRG; -.
+DR   PDBsum; 5YRH; -.
+DR   PDBsum; 5YRI; -.
+DR   PDBsum; 5YRJ; -.
+DR   SMR; B6F0T7; -.
+DR   UniLectin; B6F0T7; -.
+DR   PRIDE; B6F0T7; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5YRE, ECO:0007829|PDB:5YRF};
+KW   Lectin {ECO:0000313|EMBL:BAG80530.1}; Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           20..161
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002842622"
+FT   DOMAIN          20..161
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51752"
+FT   DISULFID        52..124
+FT                   /evidence="ECO:0007829|PDB:5YRE, ECO:0007829|PDB:5YRF"
+FT   DISULFID        78..150
+FT                   /evidence="ECO:0007829|PDB:5YRE, ECO:0007829|PDB:5YRF"
+FT   DISULFID        161
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0007829|PDB:5YRE, ECO:0007829|PDB:5YRF"
+SQ   SEQUENCE   161 AA;  17672 MW;  104D16867715092E CRC64;
+     MISGLYLVVA VILPNAVLSQ VASEYLGGPG GDAFDDKAVA QNGDITRIEM QCTDVATYIK
+     LRYGKVDSRQ WGWGNENCIQ WSKKGEKVVH ELSSGEYITS AIVTYGKYVQ SITFKTNKRT
+     LPRCGTSATE KSVTVLIPGG LKYISGRWGC RIDGLRFHAK C
+//

@@ -1,0 +1,270 @@
+ID   LEG9_RAT                Reviewed;         354 AA.
+AC   P97840; O08588; O35866;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 2.
+DT   03-AUG-2022, entry version 143.
+DE   RecName: Full=Galectin-9;
+DE            Short=Gal-9;
+DE   AltName: Full=36 kDa beta-galactoside-binding lectin;
+DE   AltName: Full=Urate transporter/channel;
+DE            Short=UAT;
+GN   Name=Lgals9;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS LONG AND SHORT).
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney, and Small intestine;
+RX   PubMed=9038233; DOI=10.1074/jbc.272.9.6078;
+RA   Wada J., Kanwar Y.S.;
+RT   "Identification and characterization of galectin-9, a novel beta-
+RT   galactoside-binding mammalian lectin.";
+RL   J. Biol. Chem. 272:6078-6086(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM SHORT), AND FUNCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=8995305; DOI=10.1074/jbc.272.1.617;
+RA   Leal-Pinto E., Tao W., Rappaport J., Richardson M., Knorr B.A.,
+RA   Abramson R.G.;
+RT   "Molecular cloning and functional reconstitution of a urate
+RT   transporter/channel.";
+RL   J. Biol. Chem. 272:617-625(1997).
+RN   [3]
+RP   FUNCTION, AND INDUCTION.
+RX   PubMed=25158758; DOI=10.1186/s12974-014-0144-0;
+RA   Steelman A.J., Li J.;
+RT   "Astrocyte galectin-9 potentiates microglial TNF secretion.";
+RL   J. Neuroinflamm. 11:144-144(2014).
+CC   -!- FUNCTION: Binds galactosides (By similarity). Has high affinity for the
+CC       Forssman pentasaccharide (By similarity). Ligand for HAVCR2/TIM3 (By
+CC       similarity). Binding to HAVCR2 induces T-helper type 1 lymphocyte (Th1)
+CC       death (By similarity). Also stimulates bactericidal activity in
+CC       infected macrophages by causing macrophage activation and IL1B
+CC       secretion which restricts intracellular bacterial growth (By
+CC       similarity). Ligand for P4HB; the interaction retains P4HB at the cell
+CC       surface of Th2 T helper cells, increasing disulfide reductase activity
+CC       at the plasma membrane, altering the plasma membrane redox state and
+CC       enhancing cell migration (By similarity). Ligand for CD44; the
+CC       interaction enhances binding of SMAD3 to the FOXP3 promoter, leading to
+CC       up-regulation of FOXP3 expression and increased induced regulatory T
+CC       (iTreg) cell stability and suppressive function (By similarity).
+CC       Promotes ability of mesenchymal stromal cells to suppress T-cell
+CC       proliferation (By similarity). Expands regulatory T-cells and induces
+CC       cytotoxic T-cell apoptosis following virus infection (By similarity).
+CC       Activates ERK1/2 phosphorylation inducing cytokine (IL-6, IL-8, IL-12)
+CC       and chemokine (CCL2) production in mast and dendritic cells (By
+CC       similarity). Inhibits degranulation and induces apoptosis of mast cells
+CC       (By similarity). Induces maturation and migration of dendritic cells
+CC       (By similarity). Inhibits natural killer (NK) cell function (By
+CC       similarity). Can transform NK cell phenotype from peripheral to
+CC       decidual during pregnancy (By similarity). Astrocyte derived galectin-9
+CC       enhances microglial TNF production (PubMed:25158758). May play a role
+CC       in thymocyte-epithelial interactions relevant to the biology of the
+CC       thymus. May provide the molecular basis for urate flux across cell
+CC       membranes, allowing urate that is formed during purine metabolism to
+CC       efflux from cells and serving as an electrogenic transporter that plays
+CC       an important role in renal and gastrointestinal urate excretion
+CC       (PubMed:8995305). Highly selective to the anion urate (PubMed:8995305).
+CC       {ECO:0000250|UniProtKB:O00182, ECO:0000250|UniProtKB:O08573,
+CC       ECO:0000269|PubMed:25158758, ECO:0000269|PubMed:8995305}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:O00182}. Nucleus
+CC       {ECO:0000250|UniProtKB:O00182}. Secreted
+CC       {ECO:0000250|UniProtKB:O00182}. Note=May also be secreted by a non-
+CC       classical secretory pathway. Secreted by mesenchymal stromal cells upon
+CC       IFNG stimulation. {ECO:0000250|UniProtKB:O00182,
+CC       ECO:0000250|UniProtKB:O08573}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=Long;
+CC         IsoId=P97840-1; Sequence=Displayed;
+CC       Name=Short;
+CC         IsoId=P97840-2; Sequence=VSP_003098;
+CC   -!- TISSUE SPECIFICITY: The isoform Long is expressed exclusively in the
+CC       small intestine.
+CC   -!- INDUCTION: By viral mimic polyinosinic:polycytidylic acid (poly I:C)
+CC       and lipopolysaccharides (LPS) in microglia.
+CC       {ECO:0000269|PubMed:25158758}.
+CC   -!- DOMAIN: Contains two homologous but distinct carbohydrate-binding
+CC       domains.
+CC   -!- MISCELLANEOUS: The LGALS9-like proteins are encoded by a duplicated
+CC       regions on chromosome 17; there are at least 3 genes coding for
+CC       galectin-9-like proteins.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U59462; AAB51192.1; -; mRNA.
+DR   EMBL; U72741; AAB68592.1; -; mRNA.
+DR   EMBL; U67958; AAB48591.1; -; mRNA.
+DR   RefSeq; NP_037109.1; NM_012977.1.
+DR   AlphaFoldDB; P97840; -.
+DR   SMR; P97840; -.
+DR   STRING; 10116.ENSRNOP00000017042; -.
+DR   TCDB; 9.B.9.1.1; the urate transporter (uat) family.
+DR   iPTMnet; P97840; -.
+DR   PhosphoSitePlus; P97840; -.
+DR   jPOST; P97840; -.
+DR   PaxDb; P97840; -.
+DR   GeneID; 25476; -.
+DR   KEGG; rno:25476; -.
+DR   CTD; 3965; -.
+DR   RGD; 3005; Lgals9.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   InParanoid; P97840; -.
+DR   OrthoDB; 829777at2759; -.
+DR   PhylomeDB; P97840; -.
+DR   PRO; PR:P97840; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:UniProtKB.
+DR   GO; GO:0048030; F:disaccharide binding; ISO:RGD.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0016936; F:galactoside binding; ISO:RGD.
+DR   GO; GO:0043539; F:protein serine/threonine kinase activator activity; ISO:RGD.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:RGD.
+DR   GO; GO:0071346; P:cellular response to interferon-gamma; ISO:RGD.
+DR   GO; GO:0098586; P:cellular response to virus; ISO:RGD.
+DR   GO; GO:0070371; P:ERK1 and ERK2 cascade; ISO:RGD.
+DR   GO; GO:0007565; P:female pregnancy; ISO:RGD.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0045185; P:maintenance of protein location; ISO:RGD.
+DR   GO; GO:0060135; P:maternal process involved in female pregnancy; ISO:RGD.
+DR   GO; GO:0002519; P:natural killer cell tolerance induction; ISO:RGD.
+DR   GO; GO:0046007; P:negative regulation of activated T cell proliferation; ISO:RGD.
+DR   GO; GO:2000562; P:negative regulation of CD4-positive, alpha-beta T cell proliferation; ISO:RGD.
+DR   GO; GO:0032682; P:negative regulation of chemokine production; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0050728; P:negative regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0032689; P:negative regulation of interferon-gamma production; ISO:RGD.
+DR   GO; GO:0043305; P:negative regulation of mast cell degranulation; ISO:RGD.
+DR   GO; GO:0032815; P:negative regulation of natural killer cell activation; ISO:RGD.
+DR   GO; GO:0043322; P:negative regulation of natural killer cell degranulation; ISO:RGD.
+DR   GO; GO:0045953; P:negative regulation of natural killer cell mediated cytotoxicity; ISO:RGD.
+DR   GO; GO:0032720; P:negative regulation of tumor necrosis factor production; ISO:RGD.
+DR   GO; GO:0038066; P:p38MAPK cascade; ISO:RGD.
+DR   GO; GO:0070241; P:positive regulation of activated T cell autonomous cell death; ISO:RGD.
+DR   GO; GO:2000563; P:positive regulation of CD4-positive, alpha-beta T cell proliferation; ISO:RGD.
+DR   GO; GO:0032834; P:positive regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation involved in immune response; ISO:RGD.
+DR   GO; GO:0032722; P:positive regulation of chemokine production; ISO:RGD.
+DR   GO; GO:2001269; P:positive regulation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0001819; P:positive regulation of cytokine production; ISO:RGD.
+DR   GO; GO:1900426; P:positive regulation of defense response to bacterium; ISO:RGD.
+DR   GO; GO:2000670; P:positive regulation of dendritic cell apoptotic process; ISO:RGD.
+DR   GO; GO:2000510; P:positive regulation of dendritic cell chemotaxis; ISO:RGD.
+DR   GO; GO:2001200; P:positive regulation of dendritic cell differentiation; ISO:RGD.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0045089; P:positive regulation of innate immune response; ISO:RGD.
+DR   GO; GO:0032729; P:positive regulation of interferon-gamma production; ISO:RGD.
+DR   GO; GO:0032731; P:positive regulation of interleukin-1 beta production; ISO:RGD.
+DR   GO; GO:0032732; P:positive regulation of interleukin-1 production; ISO:RGD.
+DR   GO; GO:0032733; P:positive regulation of interleukin-10 production; ISO:RGD.
+DR   GO; GO:0032735; P:positive regulation of interleukin-12 production; ISO:RGD.
+DR   GO; GO:0032736; P:positive regulation of interleukin-13 production; ISO:RGD.
+DR   GO; GO:0032753; P:positive regulation of interleukin-4 production; ISO:RGD.
+DR   GO; GO:0032755; P:positive regulation of interleukin-6 production; ISO:RGD.
+DR   GO; GO:0032757; P:positive regulation of interleukin-8 production; ISO:RGD.
+DR   GO; GO:0043032; P:positive regulation of macrophage activation; ISO:RGD.
+DR   GO; GO:0071639; P:positive regulation of monocyte chemotactic protein-1 production; ISO:RGD.
+DR   GO; GO:0051092; P:positive regulation of NF-kappaB transcription factor activity; ISO:RGD.
+DR   GO; GO:1901224; P:positive regulation of NIK/NF-kappaB signaling; ISO:RGD.
+DR   GO; GO:0051353; P:positive regulation of oxidoreductase activity; ISO:RGD.
+DR   GO; GO:0010862; P:positive regulation of pathway-restricted SMAD protein phosphorylation; ISO:RGD.
+DR   GO; GO:0045591; P:positive regulation of regulatory T cell differentiation; ISO:RGD.
+DR   GO; GO:2001190; P:positive regulation of T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell; ISO:RGD.
+DR   GO; GO:2000406; P:positive regulation of T cell migration; ISO:RGD.
+DR   GO; GO:2000679; P:positive regulation of transcription regulatory region DNA binding; ISO:RGD.
+DR   GO; GO:0071636; P:positive regulation of transforming growth factor beta production; ISO:RGD.
+DR   GO; GO:0032760; P:positive regulation of tumor necrosis factor production; ISO:RGD.
+DR   GO; GO:0046598; P:positive regulation of viral entry into host cell; ISO:RGD.
+DR   GO; GO:0032823; P:regulation of natural killer cell differentiation; ISO:RGD.
+DR   GO; GO:0070555; P:response to interleukin-1; ISO:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; ISO:RGD.
+DR   GO; GO:0034138; P:toll-like receptor 3 signaling pathway; IMP:UniProtKB.
+DR   CDD; cd00070; GLECT; 2.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 2.
+DR   SMART; SM00908; Gal-bind_lectin; 2.
+DR   SMART; SM00276; GLECT; 2.
+DR   SUPFAM; SSF49899; SSF49899; 2.
+DR   PROSITE; PS51304; GALECTIN; 2.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cytoplasm; Immunity; Ion transport; Lectin; Nucleus;
+KW   Reference proteome; Repeat; Secreted; Transport.
+FT   CHAIN           1..354
+FT                   /note="Galectin-9"
+FT                   /id="PRO_0000076948"
+FT   DOMAIN          17..147
+FT                   /note="Galectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   DOMAIN          226..354
+FT                   /note="Galectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         47
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         60
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         64
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         74
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         81..87
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         266
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         270
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         280
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         286..292
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         148..179
+FT                   /note="Missing (in isoform Short)"
+FT                   /evidence="ECO:0000303|PubMed:8995305,
+FT                   ECO:0000303|PubMed:9038233"
+FT                   /id="VSP_003098"
+SQ   SEQUENCE   354 AA;  39946 MW;  6574F960B2EAF37C CRC64;
+     MAFFSTQPPY MNPVIPFTGI IQGGLQNGLQ ITLQGTVHPF PNRIAVNFQT GFSGNDIAFH
+     FNPRFEEGGY VVCNTKQNGK WGPEERKMQM PFQKGMPFEL CFLVQRSEFK VMVNKNFFVQ
+     YSHRVPYHLV DTISVSGCLH LSFINFQNST AAPVQPVFST MQFSQPVQFP RMPKGRKQRT
+     QGFQPALQAP VAQTIIHTVH SIPGQMLSTP GIPPMAYPTP AYTIPFFTSI PNGFYPSKSI
+     NISGVVLPDA KRFHINLRCG GDIAFHLNPR FNEKVVVRNT QINNSWGPEE RSLPGRMPFN
+     RGQSFSVWIL CEGHCFKVAV DGQHICEYYH RLKNLPDINT LEVAGDIQLT HVQT
+//

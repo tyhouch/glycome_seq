@@ -1,0 +1,163 @@
+ID   FBX6_RAT                Reviewed;         284 AA.
+AC   Q923V4; Q6P512;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   03-AUG-2022, entry version 129.
+DE   RecName: Full=F-box only protein 6;
+DE   AltName: Full=F-box only protein 6b;
+DE   AltName: Full=F-box protein that recognizes sugar chains 2;
+DE   AltName: Full=F-box/G-domain protein 2;
+GN   Name=Fbxo6; Synonyms=Fbg2, Fbs2, Fbxo6b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND DEVELOPMENTAL STAGE.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=12383498; DOI=10.1016/s0378-1119(02)00867-3;
+RA   Ilyin G.P., Serandour A.L., Pigeon C., Rialland M., Glaise D.,
+RA   Guguen-Guillouzo C.;
+RT   "A new subfamily of structurally related human F-box proteins.";
+RL   Gene 296:11-20(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-275; SER-278 AND SER-283, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Substrate-recognition component of some SCF (SKP1-CUL1-F-box
+CC       protein)-type E3 ubiquitin ligase complexes. Involved in endoplasmic
+CC       reticulum-associated degradation pathway (ERAD) for misfolded lumenal
+CC       proteins by recognizing and binding sugar chains on unfolded
+CC       glycoproteins that are retrotranslocated into the cytosol and promoting
+CC       their ubiquitination and subsequent degradation. Able to recognize and
+CC       bind denatured glycoproteins, which are modified with not only high-
+CC       mannose but also complex-type oligosaccharides. Also recognizes
+CC       sulfated glycans. Also involved in DNA damage response by specifically
+CC       recognizing activated CHEK1 (phosphorylated on 'Ser-345'), promoting
+CC       its ubiquitination and degradation. Ubiquitination of CHEK1 is required
+CC       to insure that activated CHEK1 does not accumulate as cells progress
+CC       through S phase, or when replication forks encounter transient
+CC       impediments during normal DNA replication (By similarity).
+CC       {ECO:0000250}.
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC   -!- SUBUNIT: Part of a SCF (SKP1-cullin-F-box) protein ligase complex.
+CC       Interacts with VCP, CHEK1 and CUL1 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- DEVELOPMENTAL STAGE: Abundantly expressed in 14.5-day fetal liver.
+CC       Expression decreases during late liver development and stays at low
+CC       levels until birth. Expression increases 24 hours after birth and
+CC       reaches highest levels in adult liver. {ECO:0000269|PubMed:12383498}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF393484; AAK70899.1; -; mRNA.
+DR   EMBL; BC063148; AAH63148.1; -; mRNA.
+DR   RefSeq; NP_620272.3; NM_138917.3.
+DR   RefSeq; XP_006239434.1; XM_006239372.3.
+DR   RefSeq; XP_006239435.1; XM_006239373.3.
+DR   RefSeq; XP_006239436.1; XM_006239374.3.
+DR   RefSeq; XP_006239437.1; XM_006239375.3.
+DR   AlphaFoldDB; Q923V4; -.
+DR   SMR; Q923V4; -.
+DR   BioGRID; 251408; 1.
+DR   STRING; 10116.ENSRNOP00000012301; -.
+DR   iPTMnet; Q923V4; -.
+DR   PhosphoSitePlus; Q923V4; -.
+DR   PaxDb; Q923V4; -.
+DR   PRIDE; Q923V4; -.
+DR   Ensembl; ENSRNOT00000096248; ENSRNOP00000082391; ENSRNOG00000009217.
+DR   GeneID; 192351; -.
+DR   KEGG; rno:192351; -.
+DR   CTD; 26270; -.
+DR   RGD; 620418; Fbxo6.
+DR   eggNOG; ENOG502RZA6; Eukaryota.
+DR   GeneTree; ENSGT00940000159980; -.
+DR   HOGENOM; CLU_068548_0_0_1; -.
+DR   InParanoid; Q923V4; -.
+DR   OMA; QDTQYWA; -.
+DR   OrthoDB; 922544at2759; -.
+DR   PhylomeDB; Q923V4; -.
+DR   TreeFam; TF320527; -.
+DR   Reactome; R-RNO-8951664; Neddylation.
+DR   Reactome; R-RNO-983168; Antigen processing: Ubiquitination & Proteasome degradation.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:Q923V4; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000009217; Expressed in skeletal muscle tissue and 19 other tissues.
+DR   Genevisible; Q923V4; RN.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0044322; C:endoplasmic reticulum quality control compartment; ISO:RGD.
+DR   GO; GO:0019005; C:SCF ubiquitin ligase complex; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; ISO:RGD.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0006516; P:glycoprotein catabolic process; ISO:RGD.
+DR   GO; GO:0016567; P:protein ubiquitination; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006986; P:response to unfolded protein; IEA:UniProtKB-KW.
+DR   GO; GO:0031146; P:SCF-dependent proteasomal ubiquitin-dependent protein catabolic process; ISS:UniProtKB.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; ISS:UniProtKB.
+DR   InterPro; IPR007397; F-box-assoc_dom.
+DR   InterPro; IPR036047; F-box-like_dom_sf.
+DR   InterPro; IPR001810; F-box_dom.
+DR   InterPro; IPR039752; F-box_only.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   PANTHER; PTHR12125; PTHR12125; 1.
+DR   Pfam; PF12937; F-box-like; 1.
+DR   Pfam; PF04300; FBA; 1.
+DR   SMART; SM01198; FBA; 1.
+DR   SMART; SM00256; FBOX; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF81383; SSF81383; 1.
+DR   PROSITE; PS51114; FBA; 1.
+DR   PROSITE; PS50181; FBOX; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; DNA damage; DNA repair; Phosphoprotein; Reference proteome;
+KW   Ubl conjugation pathway; Unfolded protein response.
+FT   CHAIN           1..284
+FT                   /note="F-box only protein 6"
+FT                   /id="PRO_0000119884"
+FT   DOMAIN          1..48
+FT                   /note="F-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00080"
+FT   DOMAIN          69..250
+FT                   /note="FBA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00482"
+FT   MOD_RES         249
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NRD1"
+FT   MOD_RES         268
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QZN4"
+FT   MOD_RES         275
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         278
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         283
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CONFLICT        147
+FT                   /note="K -> E (in Ref. 2; AAH63148)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   284 AA;  32786 MW;  75BFF3C69E676943 CRC64;
+     MVNINELPEN ILLELFTHVP APQLLRNCRL VCSLWRDLID VMTLWKRKSL REGFVTKDRD
+     EPVDDWKIFY ILCSLQRNLL RNPCAEENLR SWRIDSNGGD EWKVESLPGD HGTSFPDTKV
+     KKYFVTSYGM CLKSQMVDLK AEGYSEKLLD TVRPDIVVKD WFAPRADCGC TYHLRVQLAS
+     ADYIVLASFE PPPVTIEQWN DASWQEISHT FSNYPPGVRH ILFQHGGKDT QFWKGWYGPR
+     VTNSSIIVSH RTAKNPAPAR TLPEEDTSNR RKILSFGSWE DLSP
+//

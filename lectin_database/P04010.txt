@@ -1,0 +1,180 @@
+ID   VP1_POVLY               Reviewed;         368 AA.
+AC   P04010;
+DT   23-OCT-1986, integrated into UniProtKB/Swiss-Prot.
+DT   19-FEB-2014, sequence version 3.
+DT   02-JUN-2021, entry version 95.
+DE   RecName: Full=Major capsid protein VP1;
+DE   AltName: Full=Major structural protein VP1;
+OS   B-lymphotropic polyomavirus (LPV).
+OC   Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Papovaviricetes;
+OC   Sepolyvirales; Polyomaviridae; unclassified Polyomaviridae.
+OX   NCBI_TaxID=332091;
+OH   NCBI_TaxID=9534; Chlorocebus aethiops (Green monkey) (Cercopithecus aethiops).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2998001; DOI=10.1016/0042-6822(85)90108-4;
+RA   Pawlita M., Clad A., zur Hausen H.;
+RT   "Complete DNA sequence of lymphotropic papovavirus: prototype of a new
+RT   species of the polyomavirus genus.";
+RL   Virology 143:196-211(1985).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Pawlita M., Clad A., zur Hausen H.;
+RL   Submitted (AUG-2013) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   REVIEW.
+RX   PubMed=19157478; DOI=10.1016/j.virol.2008.12.021;
+RA   Neu U., Stehle T., Atwood W.J.;
+RT   "The Polyomaviridae: Contributions of virus structure to our understanding
+RT   of virus receptors and infectious entry.";
+RL   Virology 384:389-399(2009).
+CC   -!- FUNCTION: Forms an icosahedral capsid with a T=7 symmetry and a 40 nm
+CC       diameter. The capsid is composed of 72 pentamers linked to each other
+CC       by disulfide bonds and associated with VP2 or VP3 proteins. Interacts
+CC       with a N-linked glycoprotein containing sialic acids on the cell
+CC       surface to provide virion attachment to target cell. Once attached, the
+CC       virion is internalized by endocytosis and traffics to the endoplasmic
+CC       reticulum. Inside the endoplasmic reticulum, the protein folding
+CC       machinery isomerizes VP1 interpentamer disulfide bonds, thereby
+CC       triggering initial uncoating. Next, the virion uses the endoplasmic
+CC       reticulum-associated degradation machinery to probably translocate in
+CC       the cytosol before reaching the nucleus. Nuclear entry of the viral DNA
+CC       involves the selective exposure and importin recognition of VP2/Vp3
+CC       nuclear localization signal. In late phase of infection, neo-
+CC       synthesized VP1 encapsulates replicated genomic DNA in the nucleus, and
+CC       participates in rearranging nucleosomes around the viral DNA.
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- SUBUNIT: Homomultimer; disulfide-linked. The virus capsid is composed
+CC       of 72 icosahedral units, each one composed of five disulfide-linked
+CC       copies of VP1. Interacts with minor capsid proteins VP2 and VP3.
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- SUBCELLULAR LOCATION: Virion. Host nucleus
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing, Alternative initiation; Named isoforms=3;
+CC       Name=VP1;
+CC         IsoId=P04010-1; Sequence=Displayed;
+CC       Name=VP2; Synonyms=Minor capsid protein VP2;
+CC         IsoId=P04011-1; Sequence=External;
+CC       Name=VP3; Synonyms=Minor capsid protein VP3;
+CC         IsoId=P04011-2; Sequence=External;
+CC   -!- DOMAIN: A DNA-binding domain overlapping a bipartite nuclear
+CC       localization signal is present in the N-terminal region of the protein
+CC       and is required for efficient virus formation.
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- DOMAIN: The intrinsically disordered C-terminal arm interacts with
+CC       neighboring pentamers. The unstructured nature of this region allows to
+CC       make different interactions depending on the structural context:
+CC       pentamers present at the 12 icosahedral fivefold axes bind five
+CC       pentamers, whereas pentamers present at the 60 icosahedral six-fold
+CC       axes interact with six pentamers. {ECO:0000250|UniProtKB:P03087}.
+CC   -!- MISCELLANEOUS: [Isoform VP1]: Produced by alternative splicing of the
+CC       late mRNA.
+CC   -!- SIMILARITY: Belongs to the polyomaviruses coat protein VP1 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; K02562; AAA47062.2; -; Genomic_DNA.
+DR   PIR; A03627; VVVP1L.
+DR   RefSeq; NP_848007.2; NC_004763.2.
+DR   PDB; 4MBX; X-ray; 1.92 A; A/B/C/D/E/F/G/H/I/J=29-302.
+DR   PDB; 4MBY; X-ray; 1.48 A; A/B/C/D/E/F/G/H/I/J=29-302.
+DR   PDB; 4MBZ; X-ray; 1.75 A; A/B/C/D/E/F/G/H/I/J=29-302.
+DR   PDBsum; 4MBX; -.
+DR   PDBsum; 4MBY; -.
+DR   PDBsum; 4MBZ; -.
+DR   SMR; P04010; -.
+DR   UniLectin; P04010; -.
+DR   PRIDE; P04010; -.
+DR   GeneID; 1494437; -.
+DR   KEGG; vg:1494437; -.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0039620; C:T=7 icosahedral viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0075509; P:endocytosis involved in viral entry into host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.175.10; -; 1.
+DR   InterPro; IPR000662; Capsid_VP1_Polyomavir.
+DR   InterPro; IPR011222; dsDNA_vir_gr_I_capsid.
+DR   InterPro; IPR036931; Polyomavir_VP1_sf.
+DR   Pfam; PF00718; Polyoma_coat; 1.
+DR   PIRSF; PIRSF003376; Capsid_VP1_Polyomavir; 1.
+DR   SUPFAM; SSF88648; SSF88648; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative initiation; Alternative splicing; Capsid protein;
+KW   Disulfide bond; Host nucleus; Host-virus interaction; Late protein;
+KW   Phosphoprotein; T=7 icosahedral capsid protein;
+KW   Viral attachment to host cell; Viral penetration into host cytoplasm;
+KW   Virion; Virus endocytosis by host; Virus entry into host cell.
+FT   CHAIN           1..368
+FT                   /note="Major capsid protein VP1"
+FT                   /id="PRO_0000115022"
+FT   REGION          303..368
+FT                   /note="C-terminal arm"
+FT                   /evidence="ECO:0000250|UniProtKB:P03087"
+FT   MOTIF           5..14
+FT                   /note="Bipartite nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:P03087"
+FT   MOD_RES         339
+FT                   /note="Phosphothreonine; by host"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        105
+FT                   /note="Interchain (with C-105)"
+FT                   /evidence="ECO:0000250"
+FT   STRAND          29..37
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          43..50
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          53..55
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   TURN            62..65
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          74..77
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          90..95
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          105..120
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   HELIX           123..126
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          131..133
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          135..138
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          146..148
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          150..159
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          162..165
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   HELIX           186..189
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          196..198
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   TURN            207..209
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          210..212
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          220..227
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          235..241
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   HELIX           257..259
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          260..273
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          279..283
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+FT   STRAND          286..298
+FT                   /evidence="ECO:0007829|PDB:4MBY"
+SQ   SEQUENCE   368 AA;  40023 MW;  BB14F280D634C74E CRC64;
+     MAPQRKRQDG ACKKTCPIPA PVPRLLVKGG VEVLEVRTGP DAITQIEAYL NPRMGNNIPS
+     EDLYGYSNSI NTAFSKASDT PNKDTLPCYS VAVIKLPLLN EDMTCDTILM WEAVSVKTEV
+     VGISSLVNLH QGGKYIYGSS SGCVPVQGTT YHMFAVGGEP LELQGLVASS TATYPDDVVA
+     IKNMKPGNQG LDPKAKALLD KDGKYPVEVW CPDPSKNENT RYYGSFTGGA TTPPVMQFTN
+     SVTTVLLDEN GVGPLCKGDK LFLSCADIAG VHTNYSETQV WRGLPRYFNV TLRKRIVKNP
+     YPVSSLLNSF FSGLMPQIQG QPMEGVSGQV EEVRIFEGTE GLPGDPDLNR YVDKFCQHQT
+     VLPVSNDM
+//

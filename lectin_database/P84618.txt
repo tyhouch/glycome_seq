@@ -1,0 +1,80 @@
+ID   RCAL2_RHEAM             Reviewed;         143 AA.
+AC   P84618;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 2.
+DT   25-MAY-2022, entry version 51.
+DE   RecName: Full=Rheacalcin-2;
+DE            Short=RCA-2;
+OS   Rhea americana (Greater rhea) (Common rhea).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Palaeognathae; Rheiformes; Rheidae; Rhea.
+OX   NCBI_TaxID=8797;
+RN   [1]
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, AND PHOSPHORYLATION AT SER-66 AND
+RP   SER-68.
+RC   TISSUE=Eggshell matrix;
+RX   PubMed=16403478; DOI=10.1016/j.cbpb.2005.11.003;
+RA   Mann K., Siedler F.;
+RT   "Amino acid sequences and phosphorylation sites of emu and rhea eggshell C-
+RT   type lectin-like proteins.";
+RL   Comp. Biochem. Physiol. 143B:160-170(2006).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 1-30.
+RC   TISSUE=Eggshell matrix {ECO:0000269|PubMed:15484722};
+RX   PubMed=15484722; DOI=10.1080/00071660400001157;
+RA   Mann K.;
+RT   "Identification of the major proteins of the organic matrix of emu
+RT   (Dromaius novaehollandiae) and rhea (Rhea americana) eggshell calcified
+RT   layer.";
+RL   Br. Poult. Sci. 45:483-490(2004).
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix. Note=Eggshell matrix.
+CC   -!- MASS SPECTROMETRY: Mass=16847.2; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:16403478};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P84618; -.
+DR   SMR; P84618; -.
+DR   iPTMnet; P84618; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Extracellular matrix; Lectin;
+KW   Phosphoprotein; Secreted.
+FT   CHAIN           1..143
+FT                   /note="Rheacalcin-2"
+FT                   /id="PRO_0000046719"
+FT   DOMAIN          13..140
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOD_RES         66
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:16403478"
+FT   MOD_RES         68
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:16403478"
+FT   DISULFID        6..17
+FT                   /evidence="ECO:0000250|UniProtKB:Q9PRS8,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        34..139
+FT                   /evidence="ECO:0000250|UniProtKB:Q9PRS8,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        114..131
+FT                   /evidence="ECO:0000250|UniProtKB:Q9PRS8,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   143 AA;  16692 MW;  8E0B0477900B380E CRC64;
+     DEQEGCASGW VPFDGRCFGF FPQELSWRRA EGFCQRLGAR THLASIHSEE EHQAIMSMLA
+     SSQPYSESEE EVADEEVWIG LHRPMGRRHW EWSDGTKMDY SSWYREGFPR RRACAALEDS
+     TDFASWDTEL CSDRKPFICE YHV
+//

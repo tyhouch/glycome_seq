@@ -1,0 +1,256 @@
+ID   COL12_BOVIN             Reviewed;         742 AA.
+AC   A6QP79;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   03-AUG-2022, entry version 108.
+DE   RecName: Full=Collectin-12;
+DE   AltName: Full=Collectin placenta protein 1;
+DE            Short=CL-P1;
+GN   Name=COLEC12; Synonyms=CLP1;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Fetal muscle;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (AUG-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Scavenger receptor that displays several functions associated
+CC       with host defense. Promotes binding and phagocytosis of Gram-positive,
+CC       Gram-negative bacteria and yeast. Mediates the recognition,
+CC       internalization and degradation of oxidatively modified low density
+CC       lipoprotein (oxLDL) by vascular endothelial cells. Binds to several
+CC       carbohydrates including Gal-type ligands, D-galactose, L- and D-fucose,
+CC       GalNAc, T and Tn antigens in a calcium-dependent manner and
+CC       internalizes specifically GalNAc in nurse-like cells. Binds also to
+CC       sialyl Lewis X or a trisaccharide and asialo-orosomucoid (ASOR) (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: The extracellular domain forms a stable trimer. The
+CC       extracellular domain interacts with fibrillar amyloid-beta peptide (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}. Note=Forms clusters on the cell
+CC       surface. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC149193; AAI49194.1; -; mRNA.
+DR   RefSeq; NP_001095313.1; NM_001101843.1.
+DR   AlphaFoldDB; A6QP79; -.
+DR   SMR; A6QP79; -.
+DR   STRING; 9913.ENSBTAP00000044662; -.
+DR   PaxDb; A6QP79; -.
+DR   PRIDE; A6QP79; -.
+DR   Ensembl; ENSBTAT00000047455; ENSBTAP00000044662; ENSBTAG00000007705.
+DR   GeneID; 504741; -.
+DR   KEGG; bta:504741; -.
+DR   CTD; 81035; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000007705; -.
+DR   VGNC; VGNC:27579; COLEC12.
+DR   eggNOG; ENOG502QQKQ; Eukaryota.
+DR   GeneTree; ENSGT00950000183074; -.
+DR   HOGENOM; CLU_022132_0_0_1; -.
+DR   InParanoid; A6QP79; -.
+DR   OMA; KDMDKGQ; -.
+DR   OrthoDB; 565046at2759; -.
+DR   TreeFam; TF332426; -.
+DR   Proteomes; UP000009136; Chromosome 24.
+DR   Bgee; ENSBTAG00000007705; Expressed in anterior segment of eyeball and 102 other tissues.
+DR   ExpressionAtlas; A6QP79; baseline and differential.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0031012; C:extracellular matrix; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030169; F:low-density lipoprotein particle binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; ISS:UniProtKB.
+DR   GO; GO:0005044; F:scavenger receptor activity; IEA:Ensembl.
+DR   GO; GO:0071360; P:cellular response to exogenous dsRNA; IEA:Ensembl.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:Ensembl.
+DR   GO; GO:0006955; P:immune response; IEA:Ensembl.
+DR   GO; GO:0006910; P:phagocytosis, recognition; ISS:UniProtKB.
+DR   GO; GO:0044857; P:plasma membrane raft organization; IEA:Ensembl.
+DR   GO; GO:0034138; P:toll-like receptor 3 signaling pathway; IEA:Ensembl.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR008160; Collagen.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF01391; Collagen; 3.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Coiled coil; Collagen; Disulfide bond; Glycoprotein; Lectin;
+KW   Membrane; Metal-binding; Receptor; Reference proteome; Repeat;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..742
+FT                   /note="Collectin-12"
+FT                   /id="PRO_0000318680"
+FT   TOPO_DOM        1..37
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        38..58
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        59..742
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          443..502
+FT                   /note="Collagen-like 1"
+FT   DOMAIN          527..586
+FT                   /note="Collagen-like 2"
+FT   DOMAIN          614..731
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          439..591
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          73..141
+FT                   /evidence="ECO:0000255"
+FT   COILED          215..254
+FT                   /evidence="ECO:0000255"
+FT   COILED          296..328
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        519..539
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        561..587
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         644
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         646
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         650
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         670
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         674
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         691
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         694
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         694
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         696
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         696
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         697
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         706
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         706
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         706
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         707
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         718
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         718
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         719
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         719
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         731
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        67
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        159
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        168
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        271
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        607..618
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        635..730
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        708..722
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   742 AA;  81751 MW;  F569E3703431959D CRC64;
+     MKDDFAEEEE VHSFGYKRFG IQEGTQCTKC KNNWALKLSI ILLYILCALL TITVAILGYK
+     VVEKMDNVTG GMETSRQTYD DKLTAVESDL KKLGDQTGKK ALSTNSELST FRSDILDLRQ
+     QLREITEKTS KNKDTLEKLQ ASGDALVDRQ SQLKETLENN SFLITTVNKT LQAYNGYVTN
+     LQQDTSVLQG NLQSQMYSHN VVIMNLNNLN LTQVQQRNLI TNLQRSVDDT SQAIQRIKND
+     FQNLQQVFLQ AKKDTDWLKE KVQSLQTLAA NNSALAKANN DTLEDMNSQL SSFTGQMDNI
+     TTASQANEQN LKDLQDVHRD AENRTAAKFS QLEERFQLFE SDIVNIISNI SYTAHYLRTL
+     TSNLNEVRTT CTDTLTKHTD DLTSLNNTLA NIRLDSVSLR MQQDLMRSRL DTEVANLSVI
+     MEEMKLVDSK HGQLIKNFTI LQGPPGPRGP KGDRGQQGPP GPTGNKGQKG EKGEPGPPGP
+     AGERGPIGPV GPPGERGSKG SKGLQGSKGS RGSPGKPGPQ GPSGDPGPPG PPGKDGLPGP
+     QGPPGFQGLQ GTVGEPGVPG PRGLPGLPGM PGMPGIKGPP GPPGPSGAAV PLALKTEPTT
+     APEDNGCLPY WKNFTDKCYY FSTERDFFED AKLFCERMSS HLVFINTGEE QQWIKNQMVA
+     KQNYWIGLTD LEQENEWRWL DGTLLEYKNW KAGQPDNWGH GHGPGEDCAG LINFGQWNDF
+     PCEDMNHFIC EKDRERELAI TL
+//

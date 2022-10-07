@@ -1,0 +1,129 @@
+ID   OS9_KLULA               Reviewed;         457 AA.
+AC   Q6CNH1;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2004, sequence version 1.
+DT   03-AUG-2022, entry version 80.
+DE   RecName: Full=Protein OS-9 homolog;
+DE   Flags: Precursor;
+GN   Name=YOS9; OrderedLocusNames=KLLA0E12639g;
+OS   Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 /
+OS   NRRL Y-1140 / WM37) (Yeast) (Candida sphaerica).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Kluyveromyces.
+OX   NCBI_TaxID=284590;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 /
+RC   WM37;
+RX   PubMed=15229592; DOI=10.1038/nature02579;
+RA   Dujon B., Sherman D., Fischer G., Durrens P., Casaregola S., Lafontaine I.,
+RA   de Montigny J., Marck C., Neuveglise C., Talla E., Goffard N., Frangeul L.,
+RA   Aigle M., Anthouard V., Babour A., Barbe V., Barnay S., Blanchin S.,
+RA   Beckerich J.-M., Beyne E., Bleykasten C., Boisrame A., Boyer J.,
+RA   Cattolico L., Confanioleri F., de Daruvar A., Despons L., Fabre E.,
+RA   Fairhead C., Ferry-Dumazet H., Groppi A., Hantraye F., Hennequin C.,
+RA   Jauniaux N., Joyet P., Kachouri R., Kerrest A., Koszul R., Lemaire M.,
+RA   Lesur I., Ma L., Muller H., Nicaud J.-M., Nikolski M., Oztas S.,
+RA   Ozier-Kalogeropoulos O., Pellenz S., Potier S., Richard G.-F.,
+RA   Straub M.-L., Suleau A., Swennen D., Tekaia F., Wesolowski-Louvel M.,
+RA   Westhof E., Wirth B., Zeniou-Meyer M., Zivanovic Y., Bolotin-Fukuhara M.,
+RA   Thierry A., Bouchier C., Caudron B., Scarpelli C., Gaillardin C.,
+RA   Weissenbach J., Wincker P., Souciet J.-L.;
+RT   "Genome evolution in yeasts.";
+RL   Nature 430:35-44(2004).
+CC   -!- FUNCTION: Lectin involved in the quality control of the secretory
+CC       pathway. As a member of the endoplasmic reticulum-associated
+CC       degradation lumenal (ERAD-L) surveillance system, targets misfolded
+CC       endoplasmic reticulum lumenal glycoproteins for degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with missfolded ER lumenal proteins. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}; Lumenal side {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR382125; CAG99605.1; -; Genomic_DNA.
+DR   RefSeq; XP_454518.1; XM_454518.1.
+DR   AlphaFoldDB; Q6CNH1; -.
+DR   STRING; 28985.XP_454518.1; -.
+DR   EnsemblFungi; CAG99605; CAG99605; KLLA0_E12607g.
+DR   GeneID; 2894447; -.
+DR   KEGG; kla:KLLA0_E12607g; -.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   HOGENOM; CLU_598594_0_0_1; -.
+DR   InParanoid; Q6CNH1; -.
+DR   Proteomes; UP000000598; Chromosome E.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IEA:InterPro.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR041039; Yos9_DD.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF17880; Yos9_DD; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Membrane;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..457
+FT                   /note="Protein OS-9 homolog"
+FT                   /id="PRO_0000043272"
+FT   DOMAIN          104..222
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   BINDING         116
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         175
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         181
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         204
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         210
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        47
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        71
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        142
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        147
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        389
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        174..208
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        189..220
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   457 AA;  51621 MW;  FADF066283199395 CRC64;
+     MIFLPVTSVV FAISWIYSGV SAFNPYSSTP YSLKYVDEQE FLSVIDNETL LQEGRLFRPY
+     EGSDVLCYQR NTSSLIQHHE EDTFNSEGAL IEAVNMVNAI LAPNPIEMNT VPISYWTYII
+     SSGETRTVVQ KGYFGETYLL GNSSNYNSTI DYHFAKSKTG RVYLSETLVD GCTCDLTHKP
+     REVEIQYICP KRPLSRPFHL EVREIQSCKY QLRLFLPQLC ELSSFNPLLG QLSEHNIICH
+     RSGSKLSPAL DIFNRYSATV LDHGIYLLKP KNSAKDRRQL MYHAAEPLDS QTTLFELTVE
+     ERFIGDFISS LKKLIGSDFI QSPTGKSIKP GDLFLWRAPV VDETGNLLFL IDLELNSASE
+     AIGKVNNDAS LLNELPIHNM VYFDSMTVNQ TDETSSNSLP EKSTGLVPDI FATDEIESPY
+     KGGTAQELKD KLMEAFRDIG YPDIEVEILE EVVEEQN
+//

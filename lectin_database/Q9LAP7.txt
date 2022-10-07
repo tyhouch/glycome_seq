@@ -1,0 +1,140 @@
+ID   AAGAR_ALTAG             Reviewed;        1429 AA.
+AC   Q9LAP7;
+DT   05-OCT-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 63.
+DE   RecName: Full=Alpha-agarase {ECO:0000312|EMBL:AAF26838.1};
+DE            EC=3.2.1.158;
+DE   Flags: Precursor;
+GN   Name=agaA {ECO:0000312|EMBL:AAF26838.1};
+OS   Alteromonas agarilytica.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Alteromonadaceae; Alteromonas/Salinimonas group; Alteromonas.
+OX   NCBI_TaxID=105692;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAF26838.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 27-43 AND
+RP   802-821.
+RC   STRAIN=GJ1B {ECO:0000312|EMBL:AAF26838.1};
+RX   PubMed=17513582; DOI=10.1128/aem.00496-07;
+RA   Flament D., Barbeyron T., Jam M., Potin P., Czjzek M., Kloareg B.,
+RA   Michel G.;
+RT   "Alpha-agarases define a new family of glycoside hydrolases, distinct from
+RT   beta-agarase families.";
+RL   Appl. Environ. Microbiol. 73:4691-4694(2007).
+RN   [2] {ECO:0000305}
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   SUBUNIT.
+RX   PubMed=8513809; DOI=10.1111/j.1432-1033.1993.tb17959.x;
+RA   Potin P., Richard C., Rochas C., Kloareg B.;
+RT   "Purification and characterization of the alpha-agarase from Alteromonas
+RT   agarlyticus (Cataldi) comb. nov., strain GJ1B.";
+RL   Eur. J. Biochem. 214:599-607(1993).
+CC   -!- FUNCTION: Alpha-agarase. Does not hydrolyze agarotetraose,
+CC       agarohexaose, kappa-carrageenan, iota-carrageenan or lambda-
+CC       carrageenan. {ECO:0000269|PubMed:8513809}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of 1,3-alpha-L-galactosidic linkages in
+CC         agarose, yielding agarotetraose as the major product.; EC=3.2.1.158;
+CC         Evidence={ECO:0000269|PubMed:8513809};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:8513809};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.2. Active between pH 6.0 and 9.0.
+CC         {ECO:0000269|PubMed:8513809};
+CC       Temperature dependence:
+CC         Inactive above 60 degrees Celsius. {ECO:0000269|PubMed:8513809};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:8513809}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 96 family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF121273; AAF26838.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q9LAP7; -.
+DR   CAZy; CBM6; Carbohydrate-Binding Module Family 6.
+DR   CAZy; GH96; Glycoside Hydrolase Family 96.
+DR   KEGG; ag:AAF26838; -.
+DR   BioCyc; MetaCyc:MON-16655; -.
+DR   BRENDA; 3.2.1.158; 8321.
+DR   GO; GO:0033953; F:alpha-agarase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 4.10.1080.10; -; 1.
+DR   InterPro; IPR006584; Cellulose-bd_IV.
+DR   InterPro; IPR029070; Chitinase_insertion_sf.
+DR   InterPro; IPR005084; CMB_fam6.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR037524; PA14/GLEYA.
+DR   InterPro; IPR003367; Thrombospondin_3-like_rpt.
+DR   InterPro; IPR028974; TSP_type-3_rpt.
+DR   Pfam; PF03422; CBM_6; 3.
+DR   Pfam; PF02412; TSP_3; 5.
+DR   SMART; SM00606; CBD_IV; 1.
+DR   SUPFAM; SSF103647; SSF103647; 3.
+DR   SUPFAM; SSF49785; SSF49785; 3.
+DR   SUPFAM; SSF54556; SSF54556; 1.
+DR   PROSITE; PS51175; CBM6; 3.
+DR   PROSITE; PS51820; PA14; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Carbohydrate metabolism; Direct protein sequencing; Glycosidase;
+KW   Hydrolase; Metal-binding; Polysaccharide degradation; Repeat; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000269|PubMed:17513582"
+FT   CHAIN           27..1429
+FT                   /note="Alpha-agarase"
+FT                   /evidence="ECO:0000269|PubMed:17513582"
+FT                   /id="PRO_5000055969"
+FT   DOMAIN          29..161
+FT                   /note="CBM6 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   DOMAIN          211..345
+FT                   /note="CBM6 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   DOMAIN          490..638
+FT                   /note="PA14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01164"
+FT   DOMAIN          662..793
+FT                   /note="CBM6 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   REGION          349..400
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          474..495
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        363..400
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CONFLICT        42..43
+FT                   /note="TY -> FF (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1429 AA;  154671 MW;  2ADD331171CBB5DC CRC64;
+     MFKTKRSLLN SSIAISFAVL GVQAQAETLE LQAESFANSG GTYSDGQPNP VTIYNVNGQG
+     AINFVNAGDY VDYNINALGG EYDIEYFVGT GVTSGPNIEV LVDVNGTWQS QGSVAVPYGS
+     WDDFQSLTPS HTVTLPVGTS TVRLLAVGST WQWNLESFRL TQVSPVEPVG DADNDGVNDN
+     QDLCPNSPSG VTVDNNGCQI TGGTDPGGES FVIQMEAFDS TGSDDSRAKG VIIGERGYPQ
+     DKHTVVDSVQ TTDWVDYSIN FPSSANYSVS MLASGQTDHA TAVLYLDGTE INEVPVHTGS
+     QADFANFQLA GSVYIASGTH TIRVQAQSST GEFSWLWFGD ALTFTNLDSD GGNGGEATQD
+     ADNDGVLDSS DSCPNTPTGE PADVTGCSAS QLDDDNDGVS NNVDQCPNTV AGTEVDADGC
+     EVIFADADND GIEDSQDFCP NTPAGEAVNN SGCGASQLDA DNDGVTNNID QCPNTPAGTQ
+     VDASGCETDN GGEPGDSYYH NGQGLLFGRV DGATNFLGEE GYVANPDNYD VTTDLLETDD
+     AIRANSTEVF RGEIYDADGH IAFYEHIDDS VRLYIDGQLV LSNDSWENSS QTTDLNLTPG
+     WHNFELRLGN ADGGSGAVSG IGFGIDVDGG TNFVHPSNLS PSMFRASGQV VVDPILPPSG
+     GIYIQLEDFD ETGTVGRVAS DPNDGFVKGD SNVGWVTNGD WGKYHNVFLE AGTYRAFITV
+     STPAGGSYGA RVDIDGEPFA WGYFDSTGGW DIAAEYELYG GHLVVESTGN HTLHVEAVGG
+     SDWQWSGDLV RLAKVSDSAV KQPRVYNPNE HIVAEIQGPA TGLQYLKTPV EIPLANKVLK
+     SDVWYTYPQN RNLVVDGDTP YADFGATGAF WGHPPEHDFY DDTVIMDWAV NVVDDFQSEG
+     FEYTARGEFD WGYGWFTEFT TNPQPHYVQT LDGRNVRMTF MGYLSHDGYN NNWLSNHSPA
+     FVPFMKSQVD QILKANPDKL MFDTQTNSTR STDMRTFGGD FSPYAMENFR VWLLKKYSNA
+     QLVSMGINDI TSFDYGAYLR AQGITHTDWS NAGDTISGNI PMMEDFIYFN RDVWNQKFAE
+     VLEYIRQQRP NIEIGASTHL FESRGYIFNE NITFLSGELN LGARTSISEL PTNILVHLKG
+     AQAVDKTLAY FPYPWEFDEL RIQNAPRFGR GWVAQAYAYG GLFSIPANVW VGGEVFTWSP
+     GADNYRDIYQ FVRAQANLLD GYTSYAKAGY VHAMFSSMKA GFIDGGNQVQ SSVKILTEDN
+     INFDMLVFGD AGYPVVPRQA DFDKFEYIFY DGDLNYLTAE QQAVLDAQGS KVKHIGQRGT
+     IAGLQINVSI NGSVSNETVS AVSRIHETDS TAPYVVHLIN RPFAGGVTPI LNNVEVAIPA
+     SYFPQGVTSA KLHLPDGSSS TVAVSTNANG DTVVSVSNLE VWGILELAH
+//

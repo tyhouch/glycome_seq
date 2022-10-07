@@ -1,0 +1,64 @@
+ID   M4QNL3_9CALI            Unreviewed;       518 AA.
+AC   M4QNL3;
+DT   29-MAY-2013, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2013, sequence version 1.
+DT   03-AUG-2022, entry version 29.
+DE   SubName: Full=VP1 {ECO:0000313|EMBL:AGH30446.1};
+DE   Flags: Fragment;
+OS   Norovirus Hu/GII.4/Sydney/NSW0514/2012/AU.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Caliciviridae; Norovirus.
+OX   NCBI_TaxID=1241973 {ECO:0000313|EMBL:AGH30446.1};
+RN   [1] {ECO:0000313|EMBL:AGH30446.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=12L240034134 {ECO:0000313|EMBL:AGH30446.1};
+RX   PubMed=23470017;
+RA   Fonager J., Hindbaek L., Fischer T.;
+RT   "Rapid emergence and antigenic diversification of the norovirus 2012 Sydney
+RT   variant in Denmark, October to December, 2012.";
+RL   Eurosurveillance 18:20413-20413(2013).
+RN   [2] {ECO:0007829|PDB:5LFE}
+RP   X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS) OF 206-511.
+RA   Singh B.K., Hansman G.S.;
+RT   "Four decades of structural evolution of GII.4 norovirus.";
+RL   Submitted (JUL-2016) to the PDB data bank.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KC695807; AGH30446.1; -; Genomic_RNA.
+DR   PDB; 5LFE; X-ray; 2.30 A; A/B=206-511.
+DR   PDBsum; 5LFE; -.
+DR   SMR; M4QNL3; -.
+DR   UniLectin; M4QNL3; -.
+DR   CDD; cd00205; rhv_like; 1.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   InterPro; IPR004005; Calicivirus_coat.
+DR   InterPro; IPR013643; Calicivirus_coat_C.
+DR   InterPro; IPR033703; Rhv-like.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00915; Calici_coat; 1.
+DR   Pfam; PF08435; Calici_coat_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5LFE}.
+FT   DOMAIN          6..257
+FT                   /note="Calici_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00915"
+FT   DOMAIN          286..518
+FT                   /note="Calici_coat_C"
+FT                   /evidence="ECO:0000259|Pfam:PF08435"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:AGH30446.1"
+FT   NON_TER         518
+FT                   /evidence="ECO:0000313|EMBL:AGH30446.1"
+SQ   SEQUENCE   518 AA;  56917 MW;  631F6DB02D1FAD83 CRC64;
+     PEVNNEVMAL EPVVGAAIAA PVAGQQNVID PWIRNNFVQA PGGEFTVSPR NAPGEILWSA
+     PLGPDLNPYL SHLARMYNGY AGGFEVQVIL AGNAFTAGKV IFAAVPPNFP TEGLSPSQVT
+     MFPHIVVDVR QLEPVLIPLP DVRNNFYHYN QSNDPTIKLI AMLYTPLRAN NAGDDVFTVS
+     CRVLTRPSPD FDFIFLVPPT VESRTKPFSV PVLTVEEMTN SRFPIPLEKL FTGPSSAFVV
+     QPQNGRCTTD GVLLGTTQLS PVNICTFRGD VTHITGSRNY TMNLASQNWN NYDPTEEIPA
+     PLGAPDFVGK IQGMLTQTTR ADGSTRGHKA TVYTGSADFA PKLGRVQFET DTDHDFEANQ
+     NTKFTPVGVI QDGSTTHRNE PQQWVLPSYS GRNTHNVHLA PAVAPTFPGE QLLFFRSTMP
+     GCSGYPNMDL DCLLPQEWVQ YFYQEAAPAQ SDVALLRFVN PDTGRVLFEC KLHKSGYVTV
+     AHTGQHDLVI PPNGYFRFDS WVNQFYTLAP MGNGTGRR
+//

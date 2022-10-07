@@ -1,0 +1,111 @@
+ID   A4ZKM1_9ADEN            Unreviewed;       374 AA.
+AC   A4ZKM1;
+DT   29-MAY-2007, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2007, sequence version 1.
+DT   03-AUG-2022, entry version 51.
+DE   SubName: Full=Fiber {ECO:0000313|EMBL:ABO61321.1};
+OS   Human adenovirus 26.
+OC   Viruses; Varidnaviria; Bamfordvirae; Preplasmiviricota; Tectiliviricetes;
+OC   Rowavirales; Adenoviridae; Mastadenovirus; Human mastadenovirus D.
+OX   NCBI_TaxID=46928 {ECO:0000313|EMBL:ABO61321.1, ECO:0000313|Proteomes:UP000151521};
+RN   [1] {ECO:0000313|EMBL:ABO61321.1, ECO:0000313|Proteomes:UP000151521}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=17329340; DOI=10.1128/JVI.02696-06;
+RA   Abbink P., Lemckert A.A., Ewald B.A., Lynch D.M., Denholtz M., Smits S.,
+RA   Holterman L., Damen I., Vogels R., Thorner A.R., O'Brien K.L., Carville A.,
+RA   Mansfield K.G., Goudsmit J., Havenga M.J., Barouch D.H.;
+RT   "Comparative seroprevalence and immunogenicity of six rare serotype
+RT   recombinant adenovirus vaccine vectors from subgroups B and D.";
+RL   J. Virol. 81:4654-4663(2007).
+RN   [2] {ECO:0007829|PDB:5TX1}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.70 ANGSTROMS) OF 2-20.
+RX   PubMed=28508067; DOI=10.1126/sciadv.1602670;
+RA   Yu X., Veesler D., Campbell M.G., Barry M.E., Asturias F.J., Barry M.A.,
+RA   Reddy V.S.;
+RT   "Cryo-EM structure of human adenovirus D26 reveals the conservation of
+RT   structural organization among human adenoviruses.";
+RL   Sci. Adv. 3:e1602670-e1602670(2017).
+RN   [3] {ECO:0007829|PDB:6FJN, ECO:0007829|PDB:6FJP}
+RP   X-RAY CRYSTALLOGRAPHY (0.97 ANGSTROMS) OF 186-369.
+RX   PubMed=30765704; DOI=10.1038/s41467-019-08599-y;
+RA   Baker A.T., Greenshields-Watson A., Coughlan L., Davies J.A.,
+RA   Uusi-Kerttula H., Cole D.K., Rizkallah P.J., Parker A.L.;
+RT   "Diversity within the adenovirus fiber knob hypervariable loops influences
+RT   primary receptor interactions.";
+RL   Nat. Commun. 10:741-741(2019).
+RN   [4] {ECO:0007829|PDB:6FJO, ECO:0007829|PDB:6QU6}
+RP   X-RAY CRYSTALLOGRAPHY (1.03 ANGSTROMS) OF 175-374.
+RX   PubMed=31517055; DOI=10.1126/sciadv.aax3567;
+RA   Baker A.T., Mundy R.M., Davies J.A., Rizkallah P.J., Parker A.L.;
+RT   "Human adenovirus type 26 uses sialic acid-bearing glycans as a primary
+RT   cell entry receptor.";
+RL   Sci. Adv. 5:eaax3567-eaax3567(2019).
+RN   [5] {ECO:0007829|PDB:7TAU}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.38 ANGSTROMS).
+RX   PubMed=35216007; DOI=10.3390/v14020414;
+RA   Reddy V.S., Yu X., Barry M.A.;
+RT   "Refined Capsid Structure of Human Adenovirus D26 at 3.4 A Resolution.";
+RL   Viruses 14:0-0(2022).
+CC   -!- SUBCELLULAR LOCATION: Host nucleus {ECO:0000256|ARBA:ARBA00004147}.
+CC       Nucleus {ECO:0000256|ARBA:ARBA00004123}. Virion
+CC       {ECO:0000256|ARBA:ARBA00004328}.
+CC   -!- SIMILARITY: Belongs to the adenoviridae fiber family.
+CC       {ECO:0000256|ARBA:ARBA00006685}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF153474; ABO61321.1; -; Genomic_DNA.
+DR   PDB; 5TX1; EM; 3.70 A; O=2-20.
+DR   PDB; 6FJN; X-ray; 0.97 A; A=186-369.
+DR   PDB; 6FJO; X-ray; 1.17 A; A=186-368.
+DR   PDB; 6FJP; X-ray; 1.09 A; A=186-369.
+DR   PDB; 6QU6; X-ray; 1.03 A; A=175-374.
+DR   PDB; 6QU8; X-ray; 1.19 A; A=175-374.
+DR   PDB; 7TAU; EM; 3.38 A; O=1-374.
+DR   PDBsum; 5TX1; -.
+DR   PDBsum; 6FJN; -.
+DR   PDBsum; 6FJO; -.
+DR   PDBsum; 6FJP; -.
+DR   PDBsum; 6QU6; -.
+DR   PDBsum; 6QU8; -.
+DR   SMR; A4ZKM1; -.
+DR   UniLectin; A4ZKM1; -.
+DR   Proteomes; UP000151521; Genome.
+DR   GO; GO:0019028; C:viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0098671; P:adhesion receptor-mediated virion attachment to host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.90.10; -; 1.
+DR   InterPro; IPR000931; Adeno_fibre.
+DR   InterPro; IPR000978; Adeno_fibre_knob.
+DR   InterPro; IPR000939; Adenobir_fibre_prot_rpt/shaft.
+DR   InterPro; IPR008982; Adenovirus_pIV-like_att.
+DR   InterPro; IPR009013; Attachment_protein_shaft_sf.
+DR   Pfam; PF00541; Adeno_knob; 1.
+DR   Pfam; PF00608; Adeno_shaft; 2.
+DR   PRINTS; PR00307; ADENOVSFIBRE.
+DR   SUPFAM; SSF49835; SSF49835; 1.
+DR   SUPFAM; SSF51225; SSF51225; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5TX1, ECO:0007829|PDB:6FJN};
+KW   Capsid protein {ECO:0000256|ARBA:ARBA00022561};
+KW   Host nucleus {ECO:0000256|ARBA:ARBA00022562};
+KW   Host-virus interaction {ECO:0000256|ARBA:ARBA00022581};
+KW   Late protein {ECO:0000256|ARBA:ARBA00022921};
+KW   Viral attachment to host adhesion receptor {ECO:0000256|ARBA:ARBA00023165};
+KW   Viral attachment to host cell {ECO:0000256|ARBA:ARBA00022804};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844};
+KW   Virus entry into host cell {ECO:0000256|ARBA:ARBA00023296}.
+FT   DOMAIN          189..365
+FT                   /note="Adeno_knob"
+FT                   /evidence="ECO:0000259|Pfam:PF00541"
+SQ   SEQUENCE   374 AA;  40998 MW;  06C3855F0264BE0B CRC64;
+     MAKRLRVEDD FNPVYPYGYA RNQNIPFLTP PFVSSDGFKN FPPGVLSLKL ADPITINNGD
+     VSLKVGGGLA VEQQTGNLSV NPDAPLQVAS DKLQLALAPP FEVRDGKLAL KAGNGLKVLD
+     NSITGLTGLL NTLVVLTGRG IGTEELKNDD GVTNKGVGLR VRLGDDGGLT FDKKGDLVAW
+     NKKDDRRTLW TTPDTSPNCK MSTEKDSKLT LTLTKCGSQV LGNVSLLAVT GEYHQMTATT
+     KKDVKISLLF DENGILLPSS SLSKDYWNYR SDDSIVSQKY NNAVPFMPNL TAYPKPSAQN
+     AKNYSRTKII SNVYLGALTY QPVIITIAFN QETENGCAYS ITFTFTWQKD YSAQQFDVTS
+     FTFSYLTQEN KDKD
+//

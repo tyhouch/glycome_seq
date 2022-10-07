@@ -1,0 +1,147 @@
+ID   P2A14_ARATH             Reviewed;         291 AA.
+AC   Q9FJ80;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   25-MAY-2022, entry version 124.
+DE   RecName: Full=F-box protein PP2-A14;
+DE   AltName: Full=Protein PHLOEM PROTEIN 2-LIKE A14;
+DE            Short=AtPP2-A14;
+DE   AltName: Full=SKP1-interacting partner 13;
+GN   Name=PP2A14; Synonyms=SKIP13; OrderedLocusNames=At5g52120;
+GN   ORFNames=MSG15.23;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=9872454; DOI=10.1093/dnares/5.5.297;
+RA   Nakamura Y., Sato S., Asamizu E., Kaneko T., Kotani H., Miyajima N.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. VII. Sequence
+RT   features of the regions of 1,013,767 bp covered by sixteen physically
+RT   assigned P1 and TAC clones.";
+RL   DNA Res. 5:297-308(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RA   Kaneko T., Katoh T., Asamizu E., Sato S., Nakamura Y., Kotani H.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. XI.";
+RL   Submitted (APR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J., Southwick A.M.,
+RA   Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F., Karlin-Newmann G.,
+RA   Liu S.X., Lam B., Sakano H., Wu T., Yu G., Miranda M., Quach H.L.,
+RA   Tripp M., Chang C.H., Lee J.M., Toriumi M.J., Chan M.M., Tang C.C.,
+RA   Onodera C.S., Deng J.M., Akiyama K., Ansari Y., Arakawa T., Banh J.,
+RA   Banno F., Bowser L., Brooks S.Y., Carninci P., Chao Q., Choy N., Enju A.,
+RA   Goldsmith A.D., Gurjal M., Hansen N.F., Hayashizaki Y., Johnson-Hopson C.,
+RA   Hsuan V.W., Iida K., Karnes M., Khan S., Koesema E., Ishida J., Jiang P.X.,
+RA   Jones T., Kawai J., Kamiya A., Meyers C., Nakajima M., Narusaka M.,
+RA   Seki M., Sakurai T., Satou M., Tamse R., Vaysberg M., Wallender E.K.,
+RA   Wong C., Yamamura Y., Yuan S., Shinozaki K., Davis R.W., Theologis A.,
+RA   Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+RN   [5]
+RP   INTERACTION WITH SKP1A/ASK1 AND SPK1B/ASK2.
+RX   PubMed=12795696; DOI=10.1046/j.1365-313x.2003.01768.x;
+RA   Risseeuw E.P., Daskalchuk T.E., Banks T.W., Liu E., Cotelesage J.,
+RA   Hellmann H., Estelle M., Somers D.E., Crosby W.L.;
+RT   "Protein interaction analysis of SCF ubiquitin E3 ligase subunits from
+RT   Arabidopsis.";
+RL   Plant J. 34:753-767(2003).
+RN   [6]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=12529520; DOI=10.1104/pp.013086;
+RA   Dinant S., Clark A.M., Zhu Y., Vilaine F., Palauqui J.-C., Kusiak C.,
+RA   Thompson G.A.;
+RT   "Diversity of the superfamily of phloem lectins (phloem protein 2) in
+RT   angiosperms.";
+RL   Plant Physiol. 131:114-128(2003).
+CC   -!- FUNCTION: Component of SCF(ASK-cullin-F-box) E3 ubiquitin ligase
+CC       complexes, which may mediate the ubiquitination and subsequent
+CC       proteasomal degradation of target proteins. {ECO:0000250}.
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC   -!- SUBUNIT: Part of a SCF (SKP1-cullin-F-box) protein ligase complex (By
+CC       similarity). Interacts with SKP1A/ASK1 and SPK1B/ASK2. {ECO:0000250,
+CC       ECO:0000269|PubMed:12795696}.
+CC   -!- INTERACTION:
+CC       Q9FJ80; Q9FHW7: SKP1B; NbExp=3; IntAct=EBI-604303, EBI-604076;
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- DOMAIN: The F-box is necessary for the interaction with ASK proteins.
+CC       {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB015478; BAB11060.1; -; Genomic_DNA.
+DR   EMBL; AB025603; BAB11060.1; JOINED; Genomic_DNA.
+DR   EMBL; CP002688; AED96174.1; -; Genomic_DNA.
+DR   EMBL; AY072088; AAL59911.1; -; mRNA.
+DR   EMBL; AY096374; AAM20015.1; -; mRNA.
+DR   RefSeq; NP_200025.1; NM_124591.6.
+DR   AlphaFoldDB; Q9FJ80; -.
+DR   BioGRID; 20533; 6.
+DR   IntAct; Q9FJ80; 6.
+DR   STRING; 3702.AT5G52120.1; -.
+DR   iPTMnet; Q9FJ80; -.
+DR   PaxDb; Q9FJ80; -.
+DR   PRIDE; Q9FJ80; -.
+DR   EnsemblPlants; AT5G52120.1; AT5G52120.1; AT5G52120.
+DR   GeneID; 835288; -.
+DR   Gramene; AT5G52120.1; AT5G52120.1; AT5G52120.
+DR   KEGG; ath:AT5G52120; -.
+DR   Araport; AT5G52120; -.
+DR   TAIR; locus:2173078; AT5G52120.
+DR   eggNOG; ENOG502QPMH; Eukaryota.
+DR   HOGENOM; CLU_050973_1_0_1; -.
+DR   InParanoid; Q9FJ80; -.
+DR   OMA; GEWAHYH; -.
+DR   OrthoDB; 910793at2759; -.
+DR   PhylomeDB; Q9FJ80; -.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:Q9FJ80; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9FJ80; baseline and differential.
+DR   Genevisible; Q9FJ80; AT.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:TAIR.
+DR   GO; GO:0016567; P:protein ubiquitination; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR036047; F-box-like_dom_sf.
+DR   InterPro; IPR001810; F-box_dom.
+DR   InterPro; IPR025886; PP2-like.
+DR   Pfam; PF14299; PP2; 1.
+DR   SUPFAM; SSF81383; SSF81383; 1.
+DR   PROSITE; PS50181; FBOX; 1.
+PE   1: Evidence at protein level;
+KW   Nucleus; Reference proteome; Ubl conjugation pathway.
+FT   CHAIN           1..291
+FT                   /note="F-box protein PP2-A14"
+FT                   /id="PRO_0000272209"
+FT   DOMAIN          18..64
+FT                   /note="F-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00080"
+SQ   SEQUENCE   291 AA;  33631 MW;  BEB684A7A28A6CF3 CRC64;
+     MGAASSSIVR SEPFAGKLCG LEDVPENCIT AMFMYMEPPE ICLLARVNKS FHRASRSDAV
+     WEDKLPSNYK FLVRRILEDQ QQVGVKDKLI YRKKEIYARL CRPNLFDTGT KEAWLDKRSG
+     KVFLAISPKA MKITGIDDRR YWEHISSDES RFGSITYLRQ IWWLEAVGKI RFEFAPGKYS
+     LLFKIQLGKP IRKCGRKTCS LDQVHGWDIK PVRFQLSTSD GQCAMSERHL DESGRWVYHH
+     AGDFVVENQN SPVWVKFSML QIDCTHTKGG LCLDCVIICP FEYRGKYKYS D
+//

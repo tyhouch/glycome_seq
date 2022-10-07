@@ -1,0 +1,220 @@
+ID   LEA1_PHAVU              Reviewed;         246 AA.
+AC   P02873; Q8RVY2;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   25-MAY-2022, entry version 134.
+DE   RecName: Full=Alpha-amylase inhibitor 1;
+DE            Short=Alpha-AI-1;
+DE            Short=Alpha-AI1;
+DE   AltName: Full=Lectin;
+DE   Contains:
+DE     RecName: Full=Alpha-amylase inhibitor 1 chain 1;
+DE   Contains:
+DE     RecName: Full=Alpha-amylase inhibitor 1 chain 2;
+DE   Flags: Precursor;
+GN   Name=LLP; Synonyms=Alpha-AI1;
+OS   Phaseolus vulgaris (Kidney bean) (French bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Phaseolus.
+OX   NCBI_TaxID=3885;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Tendergreen;
+RX   PubMed=6090563;
+RA   Hoffman L.M.;
+RT   "Structure of a chromosomal Phaseolus vulgaris lectin gene and its
+RT   transcript.";
+RL   J. Mol. Appl. Genet. 2:447-453(1984).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Tendergreen;
+RX   PubMed=6897567; DOI=10.1093/nar/10.23.7819;
+RA   Hoffman L.M., Ma Y., Barker R.F.;
+RT   "Molecular cloning of Phaseolus vulgaris lectin mRNA and use of cDNA as a
+RT   probe to estimate lectin transcript levels in various tissues.";
+RL   Nucleic Acids Res. 10:7819-7828(1982).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 3-246.
+RC   TISSUE=Leaf;
+RA   Lioi L., Galasso I., Lanave C., Sparvoli F., Bollini R.;
+RT   "Arcelin and other members of lectin family in wild Phaseolus vulgaris.";
+RL   Submitted (MAR-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PROTEIN SEQUENCE OF 24-34 AND 101-115.
+RC   STRAIN=cv. Greensleeves; TISSUE=Seed;
+RX   PubMed=2682631; DOI=10.1073/pnas.86.20.7885;
+RA   Moreno J., Chrispeels M.J.;
+RT   "A lectin gene encodes the alpha-amylase inhibitor of the common bean.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:7885-7889(1989).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 24-32 AND 101-109.
+RC   STRAIN=cv. Tebo; TISSUE=Seed;
+RX   PubMed=7763497; DOI=10.1271/bbb.57.297;
+RA   Yamaguchi H.;
+RT   "Isolation and characterization of the subunits of a heat-labile alpha-
+RT   amylase inhibitor from Phaseolus vulgaris white kidney bean.";
+RL   Biosci. Biotechnol. Biochem. 57:297-302(1993).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 24-99 AND 101-231, FUNCTION, SUBUNIT, AND
+RP   GLYCOSYLATION.
+RC   STRAIN=cv. Magna; TISSUE=Seed;
+RA   Kluh I., Horn M., Voburka Z.;
+RL   Submitted (DEC-2003) to UniProtKB.
+RN   [7]
+RP   CHARACTERIZATION.
+RX   PubMed=7772866; DOI=10.1093/glycob/5.1.45;
+RA   Mirkov T.E., Evans S.V., Wahlstrom J., Gomez L., Young N.M.,
+RA   Chrispeels M.J.;
+RT   "Location of the active site of the bean alpha-amylase inhibitor and
+RT   involvement of a Trp, Arg, Tyr triad.";
+RL   Glycobiology 5:45-50(1995).
+RN   [8]
+RP   PROTEOLYTIC PROCESSING OF C-TERMINAL, AND GLYCOSYLATION AT ASN-35; ASN-88
+RP   AND ASN-163.
+RX   PubMed=10100643; DOI=10.1016/s0014-5793(99)00212-4;
+RA   Young N.M., Thibault P., Watson D.C., Chrispeels M.J.;
+RT   "Post-translational processing of two alpha-amylase inhibitors and an
+RT   arcelin from the common bean, Phaseolus vulgaris.";
+RL   FEBS Lett. 446:203-206(1999).
+RN   [9]
+RP   X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF COMPLEX WITH PIG ALPHA-AMYLASE.
+RX   PubMed=8994970; DOI=10.1016/s0969-2126(96)00151-7;
+RA   Bompard-Gilles C., Rousseau P., Rouge P., Payan F.;
+RT   "Substrate mimicry in the active center of a mammalian alpha-amylase:
+RT   structural analysis of an enzyme-inhibitor complex.";
+RL   Structure 4:1441-1452(1996).
+CC   -!- FUNCTION: Lectin and alpha-amylase inhibitor. Acts as a defensive
+CC       protein against insects. {ECO:0000269|Ref.6}.
+CC   -!- SUBUNIT: Heterodimer of chain 1 and chain 2. {ECO:0000269|Ref.6}.
+CC   -!- PTM: Proteolytic processing yields active form.
+CC       {ECO:0000269|PubMed:10100643}.
+CC   -!- BIOTECHNOLOGY: Sold as a diet aid under the name of 'Phaseolamin' or
+CC       'Phase 2'.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J01261; AAA33769.1; -; Genomic_DNA.
+DR   EMBL; AJ439614; CAD28835.1; -; Genomic_DNA.
+DR   PIR; A03365; LNFB.
+DR   PDB; 1DHK; X-ray; 1.85 A; B=24-246.
+DR   PDB; 1VIW; X-ray; 3.00 A; B=24-228.
+DR   PDBsum; 1DHK; -.
+DR   PDBsum; 1VIW; -.
+DR   AlphaFoldDB; P02873; -.
+DR   SMR; P02873; -.
+DR   MINT; P02873; -.
+DR   Allergome; 2946; Pha v aAI.
+DR   Allergome; 8208; Pha v aAI.0101.
+DR   GlyConnect; 26; 7 N-Linked glycans.
+DR   GlyConnect; 27; 8 N-Linked glycans.
+DR   iPTMnet; P02873; -.
+DR   EnsemblPlants; ESW24764; ESW24764; PHAVU_004G158100g.
+DR   Gramene; ESW24764; ESW24764; PHAVU_004G158100g.
+DR   EvolutionaryTrace; P02873; -.
+DR   GO; GO:0015066; F:alpha-amylase inhibitor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alpha-amylase inhibitor; Direct protein sequencing;
+KW   Glycoprotein; Lectin; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000269|PubMed:2682631,
+FT                   ECO:0000269|PubMed:7763497, ECO:0000269|Ref.6"
+FT   CHAIN           24..100
+FT                   /note="Alpha-amylase inhibitor 1 chain 1"
+FT                   /id="PRO_0000017627"
+FT   CHAIN           101..239
+FT                   /note="Alpha-amylase inhibitor 1 chain 2"
+FT                   /id="PRO_0000017628"
+FT   PROPEP          240..246
+FT                   /id="PRO_0000017629"
+FT   CARBOHYD        35
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:10100643"
+FT   CARBOHYD        88
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:10100643"
+FT   CARBOHYD        163
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:10100643"
+FT   CONFLICT        30
+FT                   /note="I -> N (in Ref. 5; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        73
+FT                   /note="Q -> R (in Ref. 3; CAD28835)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        142
+FT                   /note="K -> E (in Ref. 3; CAD28835)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        196
+FT                   /note="D -> N (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          28..33
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   HELIX           36..38
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          39..47
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          53..58
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          60..70
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          72..75
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   TURN            77..79
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          84..94
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          103..111
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          121..126
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   TURN            127..130
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          131..136
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          139..145
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   HELIX           148..150
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   TURN            151..153
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          156..163
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   TURN            164..167
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          168..174
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   TURN            176..178
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          181..187
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   HELIX           193..195
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          196..206
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   HELIX           209..211
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+FT   STRAND          215..226
+FT                   /evidence="ECO:0007829|PDB:1DHK"
+SQ   SEQUENCE   246 AA;  27207 MW;  EA56F15EF1F78788 CRC64;
+     MIMASSKLLS LALFLALLSH ANSATETSFI IDAFNKTNLI LQGDATVSSN GNLQLSYNSY
+     DSMSRAFYSA PIQIRDSTTG NVASFDTNFT MNIRTHRQAN SAVGLDFVLV PVQPESKGDT
+     VTVEFDTFLS RISIDVNNND IKSVPWDVHD YDGQNAEVRI TYNSSTKVFS VSLSNPSTGK
+     SNNVSTTVEL EKEVYDWVSV GFSATSGAYQ WSYETHDVLS WSFSSKFINL KDQKSERSNI
+     VLNKIL
+//

@@ -1,0 +1,128 @@
+ID   SUN1_ASPFU              Reviewed;         414 AA.
+AC   Q4WGL5;
+DT   22-JAN-2014, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   25-MAY-2022, entry version 71.
+DE   RecName: Full=Secreted beta-glucosidase sun1;
+DE            EC=3.2.1.-;
+DE   Flags: Precursor;
+GN   Name=sun1; ORFNames=AFUA_7G05450;
+OS   Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC
+OS   A1100) (Aspergillus fumigatus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=330879;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100;
+RX   PubMed=16372009; DOI=10.1038/nature04332;
+RA   Nierman W.C., Pain A., Anderson M.J., Wortman J.R., Kim H.S., Arroyo J.,
+RA   Berriman M., Abe K., Archer D.B., Bermejo C., Bennett J.W., Bowyer P.,
+RA   Chen D., Collins M., Coulsen R., Davies R., Dyer P.S., Farman M.L.,
+RA   Fedorova N., Fedorova N.D., Feldblyum T.V., Fischer R., Fosker N.,
+RA   Fraser A., Garcia J.L., Garcia M.J., Goble A., Goldman G.H., Gomi K.,
+RA   Griffith-Jones S., Gwilliam R., Haas B.J., Haas H., Harris D.E.,
+RA   Horiuchi H., Huang J., Humphray S., Jimenez J., Keller N., Khouri H.,
+RA   Kitamoto K., Kobayashi T., Konzack S., Kulkarni R., Kumagai T., Lafton A.,
+RA   Latge J.-P., Li W., Lord A., Lu C., Majoros W.H., May G.S., Miller B.L.,
+RA   Mohamoud Y., Molina M., Monod M., Mouyna I., Mulligan S., Murphy L.D.,
+RA   O'Neil S., Paulsen I., Penalva M.A., Pertea M., Price C., Pritchard B.L.,
+RA   Quail M.A., Rabbinowitsch E., Rawlins N., Rajandream M.A., Reichard U.,
+RA   Renauld H., Robson G.D., Rodriguez de Cordoba S., Rodriguez-Pena J.M.,
+RA   Ronning C.M., Rutter S., Salzberg S.L., Sanchez M., Sanchez-Ferrero J.C.,
+RA   Saunders D., Seeger K., Squares R., Squares S., Takeuchi M., Tekaia F.,
+RA   Turner G., Vazquez de Aldana C.R., Weidman J., White O., Woodward J.R.,
+RA   Yu J.-H., Fraser C.M., Galagan J.E., Asai K., Machida M., Hall N.,
+RA   Barrell B.G., Denning D.W.;
+RT   "Genomic sequence of the pathogenic and allergenic filamentous fungus
+RT   Aspergillus fumigatus.";
+RL   Nature 438:1151-1156(2005).
+RN   [2]
+RP   INDUCTION, DISRUPTION PHENOTYPE, FUNCTION, GLYCOSYLATION, CATALYTIC
+RP   ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=23508952; DOI=10.1074/jbc.m112.440172;
+RA   Gastebois A., Aimanianda V., Bachellier-Bassi S., Nesseir A., Firon A.,
+RA   Beauvais A., Schmitt C., England P., Beau R., Prevost M.C., d'Enfert C.,
+RA   Latge J.P., Mouyna I.;
+RT   "SUN proteins belong to a novel family of beta-(1,3)-glucan-modifying
+RT   enzymes involved in fungal morphogenesis.";
+RL   J. Biol. Chem. 288:13387-13396(2013).
+CC   -!- FUNCTION: Cell surface beta-glucosidase involved in cell wall
+CC       biosynthesis and septation, and thus required for normal growth and
+CC       correct hyphal morphogenesis. Has hydrolytic activity on linear (1->3)-
+CC       beta-D-glucans such as laminaribiose and other
+CC       laminarioligosaccharides. Has also a minor transferase activity.
+CC       {ECO:0000269|PubMed:23508952}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 5.5. {ECO:0000269|PubMed:23508952};
+CC       Temperature dependence:
+CC         Optimum temperature is 37 degrees Celsius.
+CC         {ECO:0000269|PubMed:23508952};
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall. Secreted.
+CC   -!- INDUCTION: Expression was detected 4h after the initiation of spore
+CC       germination and during mycelial growth. {ECO:0000269|PubMed:23508952}.
+CC   -!- PTM: Highly glycosylated. {ECO:0000269|PubMed:23508952}.
+CC   -!- DISRUPTION PHENOTYPE: Leads to smaller colonies and swollen and
+CC       vacuolated hyphae with double cell wall and leaky tips. Leads also to
+CC       decreased conidiation. {ECO:0000269|PubMed:23508952}.
+CC   -!- SIMILARITY: Belongs to the SUN family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAHF01000009; EAL86926.1; -; Genomic_DNA.
+DR   RefSeq; XP_748964.1; XM_743871.1.
+DR   AlphaFoldDB; Q4WGL5; -.
+DR   SMR; Q4WGL5; -.
+DR   STRING; 746128.CADAFUBP00008850; -.
+DR   CAZy; GH132; Glycoside Hydrolase Family 132.
+DR   CLAE; EXG132A_ASPFU; -.
+DR   EnsemblFungi; EAL86926; EAL86926; AFUA_7G05450.
+DR   GeneID; 3506240; -.
+DR   KEGG; afm:AFUA_7G05450; -.
+DR   VEuPathDB; FungiDB:Afu7g05450; -.
+DR   eggNOG; ENOG502QPVV; Eukaryota.
+DR   HOGENOM; CLU_033459_1_0_1; -.
+DR   InParanoid; Q4WGL5; -.
+DR   OMA; CSYACQS; -.
+DR   OrthoDB; 1130819at2759; -.
+DR   Proteomes; UP000002530; Chromosome 7.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009277; C:fungal-type cell wall; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:AspGD.
+DR   GO; GO:0016798; F:hydrolase activity, acting on glycosyl bonds; IEA:UniProtKB-KW.
+DR   GO; GO:0006076; P:(1->3)-beta-D-glucan catabolic process; IDA:AspGD.
+DR   GO; GO:0031505; P:fungal-type cell wall organization; IBA:GO_Central.
+DR   GO; GO:0030448; P:hyphal growth; IMP:AspGD.
+DR   InterPro; IPR005556; SUN.
+DR   Pfam; PF03856; SUN; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Cell wall; Cell wall biogenesis/degradation;
+KW   Glycoprotein; Glycosidase; Hydrolase; Polysaccharide degradation;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..414
+FT                   /note="Secreted beta-glucosidase sun1"
+FT                   /id="PRO_0000425080"
+FT   REGION          115..141
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        80
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        377
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   414 AA;  43504 MW;  D99C641D515F8824 CRC64;
+     MKFNTVALTL ATAGSLVTAQ HHHQHRHHQH KREDVVESSA TVVQYELDGK PISLKQVCAG
+     LADNTLKFAN NDHPTGICDN LSSAAAPAST PEVTSAFAPA QFIELSSVVT SATPTSASSS
+     ETVQTPAASS SSASSSSTAT GLDADFPDGE LDCSTFPSEY GAIPLDYLKL GGWSGIQYVS
+     YAGNFINDIV TAVAGDTCKD GAMCSYACPP GYQKSQWPST QGATGQSVGG IECRNGKLHL
+     TNPSLSKKLC IPGVGGVHVQ NTLGETVAVC RTDYPGTESE TIPIGLGGND LQPLTCPDGE
+     TYYKWQGKTT SAQYYVNPKG VTPEKGCQWG DGTQPIGNWA PVNLGVGLNK GKWLSIFQNS
+     PTTSEKLDFN IKIKGDNLSG SCKYENGVFY SETGSSSSGC TVQVMSGDAT FVFY
+//

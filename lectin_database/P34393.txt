@@ -1,0 +1,116 @@
+ID   CL160_CAEEL             Reviewed;         639 AA.
+AC   P34393; Q8MNT5;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2004, sequence version 2.
+DT   03-AUG-2022, entry version 130.
+DE   RecName: Full=C-type lectin domain-containing protein 160;
+DE   Flags: Precursor;
+GN   Name=clec-160; ORFNames=F09G8.8;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=7906398; DOI=10.1038/368032a0;
+RA   Wilson R., Ainscough R., Anderson K., Baynes C., Berks M., Bonfield J.,
+RA   Burton J., Connell M., Copsey T., Cooper J., Coulson A., Craxton M.,
+RA   Dear S., Du Z., Durbin R., Favello A., Fraser A., Fulton L., Gardner A.,
+RA   Green P., Hawkins T., Hillier L., Jier M., Johnston L., Jones M.,
+RA   Kershaw J., Kirsten J., Laisster N., Latreille P., Lightning J., Lloyd C.,
+RA   Mortimore B., O'Callaghan M., Parsons J., Percy C., Rifken L., Roopra A.,
+RA   Saunders D., Shownkeen R., Sims M., Smaldon N., Smith A., Smith M.,
+RA   Sonnhammer E., Staden R., Sulston J., Thierry-Mieg J., Thomas K.,
+RA   Vaudin M., Vaughan K., Waterston R., Watson A., Weinstock L.,
+RA   Wilkinson-Sproat J., Wohldman P.;
+RT   "2.2 Mb of contiguous nucleotide sequence from chromosome III of C.
+RT   elegans.";
+RL   Nature 368:32-38(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FO080289; CCD62647.1; -; Genomic_DNA.
+DR   PIR; S44792; S44792.
+DR   RefSeq; NP_498819.2; NM_066418.5.
+DR   AlphaFoldDB; P34393; -.
+DR   SMR; P34393; -.
+DR   STRING; 6239.F09G8.8; -.
+DR   EPD; P34393; -.
+DR   PaxDb; P34393; -.
+DR   PeptideAtlas; P34393; -.
+DR   PRIDE; P34393; -.
+DR   EnsemblMetazoa; F09G8.8.1; F09G8.8.1; WBGene00017322.
+DR   GeneID; 176167; -.
+DR   KEGG; cel:CELE_F09G8.8; -.
+DR   CTD; 176167; -.
+DR   WormBase; F09G8.8; CE33579; WBGene00017322; clec-160.
+DR   eggNOG; ENOG502RWBE; Eukaryota.
+DR   HOGENOM; CLU_432965_0_0_1; -.
+DR   InParanoid; P34393; -.
+DR   OMA; GICFLDQ; -.
+DR   OrthoDB; 412541at2759; -.
+DR   PhylomeDB; P34393; -.
+DR   PRO; PR:P34393; -.
+DR   Proteomes; UP000001940; Chromosome III.
+DR   Bgee; WBGene00017322; Expressed in adult organism and 2 other tissues.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   Gene3D; 3.40.50.410; -; 2.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR002035; VWF_A.
+DR   InterPro; IPR036465; vWFA_dom_sf.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF00092; VWA; 2.
+DR   SMART; SM00034; CLECT; 1.
+DR   SMART; SM00327; VWA; 2.
+DR   SUPFAM; SSF53300; SSF53300; 2.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS50234; VWFA; 2.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Lectin; Reference proteome; Repeat; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..639
+FT                   /note="C-type lectin domain-containing protein 160"
+FT                   /id="PRO_0000014280"
+FT   DOMAIN          31..178
+FT                   /note="VWFA 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00219"
+FT   DOMAIN          289..474
+FT                   /note="VWFA 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00219"
+FT   DOMAIN          491..618
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        594..614
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   639 AA;  71489 MW;  100D27CE88FF0508 CRC64;
+     MDLKSWILLS CTLLPLSVTS YECYVTPCTR DIIIVVDGSS SMQTSTYVSQ EINMITKLTY
+     SWTLDDAKVR LALVGAYLGN EFNGLDYFTD SSLIEKRLQS FRLAAMQYGL FSGDFNTTVR
+     FLDERYVGPR ATFGPRANVQ KRIIIFSAHK GASDIASTKS KLQEFAQLGY AVTIVGIGVS
+     EDVYKGTFYH KFVSVQWFEL GVVAQSIIDT ITEDGICFLD QGWTTPKQEI CTTSTTTTRA
+     PTTTTTVTTV KGVTGKPATT AKPVPPTHPP FPVGDYQDCS CTTQSLYIDI IFVIDVSEGM
+     GQGGLMMVKA EINTLVGQMS LDPNIQKHVQ VGLIKYSDKA EVVFKPSDYT NEDEFTEDLW
+     SDPRLEDVDE KSDEVNLHLG LQQAAKMTAS MRNGVRKVIV VYAASYNDEG NDDARQIAAN
+     IRETGYAIIT VAFVEPESSN LVMKIGEIAS PRMNFTSFRD DLLVEQMEDA LCQVNCYCPN
+     GWKQLVLENR KYGECFFPTK IDASWTASKF ECPVLSKEHT GNGHLVYVNS ELKNTFLNQF
+     YMDNWYPENQ ENPNYDIGYY YDQATKKFIW VNGVTNNPYS NWATGHPDVK QGDCVMAKLL
+     KDSKNDFRWN SVSCTSEYGR GLCQEAACDT DFYCAPSSN
+//

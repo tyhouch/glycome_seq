@@ -1,0 +1,379 @@
+ID   LECF_ASPFU              Reviewed;         315 AA.
+AC   Q4WW81;
+DT   20-DEC-2017, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   03-AUG-2022, entry version 82.
+DE   RecName: Full=Fucose-specific lectin {ECO:0000303|PubMed:23695231};
+DE   AltName: Full=Aspergillus fumigatus lectin {ECO:0000303|PubMed:23695231};
+DE            Short=AFL {ECO:0000303|PubMed:23695231};
+GN   Name=fleA {ECO:0000303|PubMed:23695231}; ORFNames=AFUA_5G14740;
+OS   Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC
+OS   A1100) (Aspergillus fumigatus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=330879;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100;
+RX   PubMed=16372009; DOI=10.1038/nature04332;
+RA   Nierman W.C., Pain A., Anderson M.J., Wortman J.R., Kim H.S., Arroyo J.,
+RA   Berriman M., Abe K., Archer D.B., Bermejo C., Bennett J.W., Bowyer P.,
+RA   Chen D., Collins M., Coulsen R., Davies R., Dyer P.S., Farman M.L.,
+RA   Fedorova N., Fedorova N.D., Feldblyum T.V., Fischer R., Fosker N.,
+RA   Fraser A., Garcia J.L., Garcia M.J., Goble A., Goldman G.H., Gomi K.,
+RA   Griffith-Jones S., Gwilliam R., Haas B.J., Haas H., Harris D.E.,
+RA   Horiuchi H., Huang J., Humphray S., Jimenez J., Keller N., Khouri H.,
+RA   Kitamoto K., Kobayashi T., Konzack S., Kulkarni R., Kumagai T., Lafton A.,
+RA   Latge J.-P., Li W., Lord A., Lu C., Majoros W.H., May G.S., Miller B.L.,
+RA   Mohamoud Y., Molina M., Monod M., Mouyna I., Mulligan S., Murphy L.D.,
+RA   O'Neil S., Paulsen I., Penalva M.A., Pertea M., Price C., Pritchard B.L.,
+RA   Quail M.A., Rabbinowitsch E., Rawlins N., Rajandream M.A., Reichard U.,
+RA   Renauld H., Robson G.D., Rodriguez de Cordoba S., Rodriguez-Pena J.M.,
+RA   Ronning C.M., Rutter S., Salzberg S.L., Sanchez M., Sanchez-Ferrero J.C.,
+RA   Saunders D., Seeger K., Squares R., Squares S., Takeuchi M., Tekaia F.,
+RA   Turner G., Vazquez de Aldana C.R., Weidman J., White O., Woodward J.R.,
+RA   Yu J.-H., Fraser C.M., Galagan J.E., Asai K., Machida M., Hall N.,
+RA   Barrell B.G., Denning D.W.;
+RT   "Genomic sequence of the pathogenic and allergenic filamentous fungus
+RT   Aspergillus fumigatus.";
+RL   Nature 438:1151-1156(2005).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=23695231; DOI=10.1007/s10156-013-0614-9;
+RA   Kuboi S., Ishimaru T., Tamada S., Bernard E.M., Perlin D.S., Armstrong D.;
+RT   "Molecular characterization of AfuFleA, an L-fucose-specific lectin from
+RT   Aspergillus fumigatus.";
+RL   J. Infect. Chemother. 19:1021-1028(2013).
+RN   [3]
+RP   FUNCTION, DEVELOPMENTAL STAGE, AND DISRUPTION PHENOTYPE.
+RX   PubMed=27058347; DOI=10.1371/journal.ppat.1005555;
+RA   Kerr S.C., Fischer G.J., Sinha M., McCabe O., Palmer J.M., Choera T.,
+RA   Lim F.Y., Wimmerova M., Carrington S.D., Yuan S., Lowell C.A., Oscarson S.,
+RA   Keller N.P., Fahy J.V.;
+RT   "FleA expression in Aspergillus fumigatus is recognized by fucosylated
+RT   structures on mucins and macrophages to prevent lung infection.";
+RL   PLoS Pathog. 12:E1005555-E1005555(2016).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS), DEVELOPMENTAL STAGE, FUNCTION, AND
+RP   DOMAIN.
+RX   PubMed=24340081; DOI=10.1371/journal.pone.0083077;
+RA   Houser J., Komarek J., Kostlanova N., Cioci G., Varrot A., Kerr S.C.,
+RA   Lahmann M., Balloy V., Fahy J.V., Chignard M., Imberty A., Wimmerova M.;
+RT   "A soluble fucose-specific lectin from Aspergillus fumigatus
+RT   conidia-- structure, specificity and possible role in fungal
+RT   pathogenicity.";
+RL   PLoS ONE 8:E83077-E83077(2013).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) IN COMPLEX WITH FUCOSE; GALACTOSE
+RP   AND N-ACETYL-D-GLUCOSAMINE, DOMAIN, FUNCTION, SUBUNIT, AND BIOTECHNOLOGY.
+RX   PubMed=25760594; DOI=10.1107/s1399004714026595;
+RA   Houser J., Komarek J., Cioci G., Varrot A., Imberty A., Wimmerova M.;
+RT   "Structural insights into Aspergillus fumigatus lectin specificity: AFL
+RT   binding sites are functionally non-equivalent.";
+RL   Acta Crystallogr. D 71:442-453(2015).
+CC   -!- FUNCTION: Multispecific lectin that is able to recognize L-fucose in
+CC       all possible linkages (PubMed:23695231, PubMed:27058347,
+CC       PubMed:24340081, PubMed:25760594). These could be found not only in
+CC       decomposed plant matter in soil, which is the natural environment for
+CC       A.fumigatus, but also in various epitopes on human tissues
+CC       (PubMed:25760594). Mediates binding of A.fumigatus conidia to airway
+CC       mucin in a fucose dependent manner (PubMed:27058347). Stimulates IL-8
+CC       production by human bronchial cells in a dose-dependent manner,
+CC       contributing to the inflammatory response observed upon the exposure of
+CC       a patient to A.fumigatus, and thus might be an important virulence
+CC       factor involved in an early stage of A.fumigatus infection
+CC       (PubMed:24340081). {ECO:0000269|PubMed:23695231,
+CC       ECO:0000269|PubMed:24340081, ECO:0000269|PubMed:25760594,
+CC       ECO:0000269|PubMed:27058347}.
+CC   -!- SUBUNIT: Homodimer (PubMed:25760594). {ECO:0000269|PubMed:25760594}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in conidia (PubMed:27058347,
+CC       PubMed:24340081). {ECO:0000269|PubMed:24340081,
+CC       ECO:0000269|PubMed:27058347}.
+CC   -!- DOMAIN: AFL adopts the six-bladed beta-propeller fold and contains 6
+CC       binding sites per monomer, each located between two adjacent blades
+CC       (PubMed:25760594). The 6 binding sites that are non-equivalent, and
+CC       owing to minor differences in amino-acid composition they exhibit a
+CC       marked difference in specific ligand recognition (PubMed:24340081,
+CC       PubMed:25760594). {ECO:0000269|PubMed:24340081,
+CC       ECO:0000269|PubMed:25760594}.
+CC   -!- DISRUPTION PHENOTYPE: Increases lung infection and lung injury by
+CC       A.fumigatus (PubMed:27058347). {ECO:0000269|PubMed:27058347}.
+CC   -!- BIOTECHNOLOGY: Lectins have particular value as specific probes for
+CC       investigating the distribution, structure and biological function of
+CC       carbohydrate chains on the cell surface of animal, plant, and
+CC       microorganism because of their specificity for defined carbohydrate
+CC       structures. AFL is suitable for detecting core fucose on cell surface
+CC       glycoproteins (PubMed:25760594). {ECO:0000305|PubMed:25760594}.
+CC   -!- SIMILARITY: Belongs to the fungal fucose-specific lectin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAHF01000003; EAL91145.1; -; Genomic_DNA.
+DR   RefSeq; XP_753183.1; XM_748090.1.
+DR   PDB; 4AGI; X-ray; 1.60 A; A/B/C/D=1-315.
+DR   PDB; 4AGT; X-ray; 2.00 A; A/B=1-315.
+DR   PDB; 4AH4; X-ray; 1.75 A; A/B=1-315.
+DR   PDB; 4AHA; X-ray; 2.20 A; A/B=1-315.
+DR   PDB; 4C1Y; X-ray; 2.23 A; A/B/C/D=2-315.
+DR   PDB; 4D4U; X-ray; 1.99 A; A/B=1-315.
+DR   PDB; 4D52; X-ray; 1.76 A; A/B/C/D=1-315.
+DR   PDB; 4UOU; X-ray; 2.40 A; A/B/C/D=2-315.
+DR   PDB; 6Z6C; X-ray; 1.40 A; AAA/BBB=1-315.
+DR   PDBsum; 4AGI; -.
+DR   PDBsum; 4AGT; -.
+DR   PDBsum; 4AH4; -.
+DR   PDBsum; 4AHA; -.
+DR   PDBsum; 4C1Y; -.
+DR   PDBsum; 4D4U; -.
+DR   PDBsum; 4D52; -.
+DR   PDBsum; 4UOU; -.
+DR   PDBsum; 6Z6C; -.
+DR   AlphaFoldDB; Q4WW81; -.
+DR   SMR; Q4WW81; -.
+DR   UniLectin; Q4WW81; -.
+DR   EnsemblFungi; EAL91145; EAL91145; AFUA_5G14740.
+DR   GeneID; 3511258; -.
+DR   KEGG; afm:AFUA_5G14740; -.
+DR   VEuPathDB; FungiDB:Afu5g14740; -.
+DR   eggNOG; ENOG502SNJJ; Eukaryota.
+DR   HOGENOM; CLU_057373_0_0_1; -.
+DR   InParanoid; Q4WW81; -.
+DR   OMA; KNGISEW; -.
+DR   OrthoDB; 1081005at2759; -.
+DR   PHI-base; PHI:6256; -.
+DR   PHI-base; PHI:7875; -.
+DR   Proteomes; UP000002530; Chromosome 5.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR012475; Fungal_lectin.
+DR   Pfam; PF07938; Fungal_lectin; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Lectin; Metal-binding; Reference proteome; Repeat; Zinc.
+FT   CHAIN           1..315
+FT                   /note="Fucose-specific lectin"
+FT                   /id="PRO_0000442745"
+FT   REPEAT          2..53
+FT                   /note="1"
+FT                   /evidence="ECO:0000305|PubMed:24340081"
+FT   REPEAT          54..103
+FT                   /note="2"
+FT                   /evidence="ECO:0000305|PubMed:24340081"
+FT   REPEAT          104..155
+FT                   /note="3"
+FT                   /evidence="ECO:0000305|PubMed:24340081"
+FT   REPEAT          156..207
+FT                   /note="4"
+FT                   /evidence="ECO:0000305|PubMed:24340081"
+FT   REPEAT          208..260
+FT                   /note="5"
+FT                   /evidence="ECO:0000305|PubMed:24340081"
+FT   REPEAT          261..315
+FT                   /note="6"
+FT                   /evidence="ECO:0000305|PubMed:24340081"
+FT   REGION          2..315
+FT                   /note="6 X approximate tandem repeats"
+FT                   /evidence="ECO:0000305|PubMed:24340081"
+FT   BINDING         25
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         37
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         44
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         73
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         85
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         94
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         98
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         126
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         138
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         146
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         150
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         177
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         189
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         198
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         230
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         242
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         244
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4D52"
+FT   BINDING         246
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4D52"
+FT   BINDING         252
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4D52"
+FT   BINDING         282
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   BINDING         296
+FT                   /ligand="alpha-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000269|PubMed:25760594,
+FT                   ECO:0007744|PDB:4AGT"
+FT   HELIX           6..8
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          15..20
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          23..30
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          33..46
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   HELIX           49..51
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          52..55
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          63..67
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   TURN            68..70
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          71..77
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          81..89
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   TURN            90..92
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          93..96
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   HELIX           98..102
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          113..116
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          125..130
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          134..144
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          146..154
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          161..166
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          171..173
+FT                   /evidence="ECO:0007829|PDB:4D52"
+FT   STRAND          175..181
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          187..193
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   TURN            194..196
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          203..207
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          215..220
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          228..234
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          238..246
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   TURN            247..249
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          250..259
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          266..271
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   HELIX           274..276
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          280..285
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   TURN            289..292
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          295..300
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   TURN            301..303
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+FT   STRAND          304..307
+FT                   /evidence="ECO:0007829|PDB:4AGI"
+SQ   SEQUENCE   315 AA;  34661 MW;  22E0C1479074D154 CRC64;
+     MSTPGAQQVL FRTGIAAVNL TNHLRVYFQD VYGSIRESLY EGSWANGTEK NVIGNAKLGS
+     PVAATSKELK HIRVYTLTEG NTLQEFAYDS GTGWYNGGLG GAKFQVAPYS RIAAVFLAGT
+     DALQLRIYAQ KPDNTIQEYM WNGDGWKEGT NLGGALPGTG IGATSFRYTD YNGPSIRIWF
+     QTDDLKLVQR AYDPHKGWYP DLVTIFDRAP PRTAIAATSF GAGNSSIYMR IYFVNSDNTI
+     WQVCWDHGKG YHDKGTITPV IQGSEVAIIS WGSFANNGPD LRLYFQNGTY ISAVSEWVWN
+     RAHGSQLGRS ALPPA
+//

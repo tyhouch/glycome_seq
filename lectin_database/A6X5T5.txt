@@ -1,0 +1,68 @@
+ID   14KL_BRUA4              Reviewed;         151 AA.
+AC   A6X5T5;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   25-MAY-2022, entry version 67.
+DE   RecName: Full=Lectin-like protein BA14k;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=Oant_3884;
+OS   Brucella anthropi (strain ATCC 49188 / DSM 6882 / CCUG 24695 / JCM 21032 /
+OS   LMG 3331 / NBRC 15819 / NCTC 12168 / Alc 37) (Ochrobactrum anthropi).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Hyphomicrobiales;
+OC   Brucellaceae; Brucella/Ochrobactrum group; Brucella.
+OX   NCBI_TaxID=439375;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49188 / DSM 6882 / CCUG 24695 / JCM 21032 / LMG 3331 /
+RC   NBRC 15819 / NCTC 12168 / Alc 37;
+RX   PubMed=21685287; DOI=10.1128/jb.05335-11;
+RA   Chain P.S., Lang D.M., Comerci D.J., Malfatti S.A., Vergez L.M., Shin M.,
+RA   Ugalde R.A., Garcia E., Tolmasky M.E.;
+RT   "Genome of Ochrobactrum anthropi ATCC 49188 T, a versatile opportunistic
+RT   pathogen and symbiont of several eukaryotic hosts.";
+RL   J. Bacteriol. 193:4274-4275(2011).
+CC   -!- FUNCTION: Has immunoglobulin-binding and hemagglutination properties,
+CC       and can bind to mannose. Essential for virulence. May be involved in
+CC       LPS biosynthesis or polysaccharide transport (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the BA14k family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000759; ABS16589.1; -; Genomic_DNA.
+DR   RefSeq; WP_012093240.1; NC_009668.1.
+DR   AlphaFoldDB; A6X5T5; -.
+DR   STRING; 439375.Oant_3884; -.
+DR   EnsemblBacteria; ABS16589; ABS16589; Oant_3884.
+DR   KEGG; oan:Oant_3884; -.
+DR   PATRIC; fig|439375.7.peg.4053; -.
+DR   eggNOG; ENOG5033457; Bacteria.
+DR   HOGENOM; CLU_095992_0_0_5; -.
+DR   OMA; HVAWCAN; -.
+DR   OrthoDB; 1995476at2; -.
+DR   PhylomeDB; A6X5T5; -.
+DR   Proteomes; UP000002301; Chromosome 2.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR012413; BA14K.
+DR   Pfam; PF07886; BA14K; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Lectin; Membrane; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix; Virulence.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..151
+FT                   /note="Lectin-like protein BA14k"
+FT                   /id="PRO_5000262091"
+FT   TRANSMEM        83..103
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   151 AA;  17666 MW;  D50A0ADC9DD99128 CRC64;
+     MNIFKQTCVG AFAVIFGATS IAPTMAAPLN LERPVINHNV EQVRDHRRPP RHYNGHRPHR
+     PGYWNGHRGY RHYRHGYRRY NDGWWYPLAA FGAGAIIGGA VSQPRPVYRA PRMSNAHVQW
+     CYNRYKSYRS SDNTFQPYNG PRRQCYSPYS R
+//

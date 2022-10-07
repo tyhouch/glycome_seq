@@ -1,0 +1,343 @@
+ID   AGGL_RICCO              Reviewed;         564 AA.
+AC   P06750;
+DT   01-JAN-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1988, sequence version 1.
+DT   03-AUG-2022, entry version 139.
+DE   RecName: Full=Agglutinin;
+DE   AltName: Full=RCA;
+DE   Contains:
+DE     RecName: Full=Agglutinin A chain;
+DE              EC=3.2.2.22;
+DE     AltName: Full=rRNA N-glycosidase;
+DE   Contains:
+DE     RecName: Full=Agglutinin B chain;
+DE   Flags: Precursor;
+OS   Ricinus communis (Castor bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Malpighiales; Euphorbiaceae; Acalyphoideae; Acalypheae;
+OC   Ricinus.
+OX   NCBI_TaxID=3988;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2999130; DOI=10.1016/s0021-9258(17)36312-3;
+RA   Roberts L.M., Lamb F.I., Pappin D.J.C., Lord J.M.;
+RT   "The primary sequence of Ricinus communis agglutinin. Comparison with
+RT   ricin.";
+RL   J. Biol. Chem. 260:15682-15686(1985).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 303-564.
+RC   TISSUE=Seed;
+RA   Araki T., Yoshioka Y., Funatsu G.;
+RT   "The complete amino acid sequence of the B-chain of the Ricinus communis
+RT   agglutinin isolated from large-grain castor bean seeds.";
+RL   Biochim. Biophys. Acta 872:277-285(1986).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 303-337.
+RX   PubMed=6768555; DOI=10.1111/j.1432-1033.1980.tb04520.x;
+RA   Lin T.T.-S., Li S.S.-L.;
+RT   "Purification and physicochemical properties of ricins and agglutinins from
+RT   Ricinus communis.";
+RL   Eur. J. Biochem. 105:453-459(1980).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.63 ANGSTROMS) OF 25-286 AND 303-564 IN COMPLEX
+RP   WITH GALACTOSE, AND DISULFIDE BONDS.
+RA   Gabdoulkhakov A.G., Savochkina Y., Konareva N., Krauspenhaar R., Stoeva S.,
+RA   Nikonov S.V., Voelter W., Betzel C., Mikhailov A.M.;
+RT   "Structure-function investigation complex of agglutinin from Ricinus
+RT   communis with galactose.";
+RL   Submitted (DEC-2003) to the PDB data bank.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the ribosome-
+CC       inactivating protein family. Type 2 RIP subfamily. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=RCA;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_pla_other_420";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M12089; AAA33869.1; -; mRNA.
+DR   EMBL; S40368; AAB22584.1; -; mRNA.
+DR   PIR; A24261; RLCSAG.
+DR   PDB; 1RZO; X-ray; 2.63 A; A/C=25-286, B/D=303-564.
+DR   PDBsum; 1RZO; -.
+DR   AlphaFoldDB; P06750; -.
+DR   SMR; P06750; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   UniLectin; P06750; -.
+DR   GlyConnect; 10; 3 N-Linked glycans.
+DR   eggNOG; ENOG502QUVN; Eukaryota.
+DR   EvolutionaryTrace; P06750; -.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Hydrolase; Lectin; Nucleotide-binding; Plant defense;
+KW   Protein synthesis inhibitor; Repeat; Signal; Toxin.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           25..290
+FT                   /note="Agglutinin A chain"
+FT                   /id="PRO_0000030726"
+FT   PROPEP          291..302
+FT                   /note="Linker peptide"
+FT                   /evidence="ECO:0000269|PubMed:6768555, ECO:0000269|Ref.2"
+FT                   /id="PRO_0000030727"
+FT   CHAIN           303..564
+FT                   /note="Agglutinin B chain"
+FT                   /evidence="ECO:0000269|PubMed:2999130"
+FT                   /id="PRO_0000030728"
+FT   DOMAIN          309..436
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          319..361
+FT                   /note="1-alpha"
+FT   REPEAT          362..402
+FT                   /note="1-beta"
+FT   REPEAT          405..437
+FT                   /note="1-gamma"
+FT   DOMAIN          439..563
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          450..485
+FT                   /note="2-alpha"
+FT   REPEAT          489..528
+FT                   /note="2-beta"
+FT   REPEAT          531..558
+FT                   /note="2-gamma"
+FT   ACT_SITE        104
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   ACT_SITE        147
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   ACT_SITE        200
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   ACT_SITE        203
+FT                   /evidence="ECO:0000250|UniProtKB:P84531"
+FT   BINDING         32..34
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|Ref.4, ECO:0007744|PDB:1RZO"
+FT   BINDING         104..105
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         145..147
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         312
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|Ref.4, ECO:0007744|PDB:1RZO"
+FT   BINDING         324..328
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|Ref.4, ECO:0007744|PDB:1RZO"
+FT   BINDING         337
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|Ref.4, ECO:0007744|PDB:1RZO"
+FT   BINDING         342
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|Ref.4, ECO:0007744|PDB:1RZO"
+FT   BINDING         348
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|Ref.4, ECO:0007744|PDB:1RZO"
+FT   BINDING         437
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000269|Ref.4, ECO:0007744|PDB:1RZO"
+FT   CARBOHYD        34
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        259
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        397
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        437
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   DISULFID        282..306
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|Ref.4"
+FT   DISULFID        322..341
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|Ref.4"
+FT   DISULFID        365..382
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|Ref.4"
+FT   DISULFID        453..466
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|Ref.4"
+FT   DISULFID        492..509
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0000269|Ref.4"
+FT   CONFLICT        331
+FT                   /note="F -> T (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        362
+FT                   /note="N -> D (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        374
+FT                   /note="R -> G (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        404
+FT                   /note="R -> T (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        552
+FT                   /note="F -> V (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          32..36
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           42..56
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          66..68
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           77..79
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          80..87
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          93..99
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   TURN            100..102
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          105..109
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          111..116
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           122..127
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           128..130
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          137..143
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           147..154
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           157..159
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           164..176
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           177..179
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           184..203
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           205..217
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           225..242
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          245..256
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          262..268
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           269..271
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   TURN            272..274
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           318..320
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          321..325
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           326..328
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          335..340
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           347..349
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          364..369
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          376..381
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   TURN            382..384
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           387..389
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          398..402
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   TURN            403..406
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          407..410
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          421..424
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           429..431
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          442..447
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           449..451
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          452..457
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          460..465
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           471..473
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          475..477
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          481..485
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          491..494
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          505..509
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   TURN            529..531
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          534..537
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           538..540
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          547..550
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   HELIX           556..558
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+FT   STRAND          561..563
+FT                   /evidence="ECO:0007829|PDB:1RZO"
+SQ   SEQUENCE   564 AA;  62851 MW;  D455F2A72F609759 CRC64;
+     MYAVATWLCF GSTSGWSFTL EDNNIFPKQY PIINFTTADA TVESYTNFIR AVRSHLTTGA
+     DVRHEIPVLP NRVGLPISQR FILVELSNHA ELSVTLALDV TNAYVVGCRA GNSAYFFHPD
+     NQEDAEAITH LFTDVQNSFT FAFGGNYDRL EQLGGLRENI ELGTGPLEDA ISALYYYSTC
+     GTQIPTLARS FMVCIQMISE AARFQYIEGE MRTRIRYNRR SAPDPSVITL ENSWGRLSTA
+     IQESNQGAFA SPIQLQRRNG SKFNVYDVSI LIPIIALMVY RCAPPPSSQF SLLIRPVVPN
+     FNADVCMDPE PIVRIVGRNG LCVDVTGEEF FDGNPIQLWP CKSNTDWNQL WTLRKDSTIR
+     SNGKCLTISK SSPRQQVVIY NCSTATVGAT RWQIWDNRTI INPRSGLVLA ATSGNSGTKL
+     TVQTNIYAVS QGWLPTNNTQ PFVTTIVGLY GMCLQANSGK VWLEDCTSEK AEQQWALYAD
+     GSIRPQQNRD NCLTTDANIK GTVVKILSCG PASSGQRWMF KNDGTILNLY NGLVLDVRRS
+     DPSLKQIIVH PFHGNLNQIW LPLF
+//

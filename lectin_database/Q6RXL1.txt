@@ -1,0 +1,160 @@
+ID   SFTPA_BOVIN             Reviewed;         248 AA.
+AC   Q6RXL1; Q08DV8;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 2.
+DT   03-AUG-2022, entry version 113.
+DE   RecName: Full=Pulmonary surfactant-associated protein A;
+DE            Short=PSAP;
+DE            Short=PSP-A;
+DE            Short=SP-A;
+DE   Flags: Precursor;
+GN   Name=SFTPA1; Synonyms=SFTPA;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Fetal lung;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 25-116.
+RA   Li S., Li N.;
+RT   "Gene expression in nuclear transfer bovine.";
+RL   Submitted (NOV-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: In presence of calcium ions, it binds to surfactant
+CC       phospholipids and contributes to lower the surface tension at the air-
+CC       liquid interface in the alveoli of the mammalian lung and is essential
+CC       for normal respiration. Enhances the expression of MYO18A/SP-R210 on
+CC       alveolar macrophages. {ECO:0000250|UniProtKB:P35242}.
+CC   -!- SUBUNIT: Oligomeric complex of 6 set of homotrimers.
+CC       {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:Q8IWL2}.
+CC       Secreted, extracellular space, extracellular matrix
+CC       {ECO:0000250|UniProtKB:Q8IWL2}. Secreted, extracellular space, surface
+CC       film {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- MISCELLANEOUS: Pulmonary surfactant consists of 90% lipid and 10%
+CC       protein. There are 4 surfactant-associated proteins: 2 collagenous,
+CC       carbohydrate-binding glycoproteins (SP-A and SP-D) and 2 small
+CC       hydrophobic proteins (SP-B and SP-C).
+CC   -!- SIMILARITY: Belongs to the SFTPA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC123546; AAI23547.1; -; mRNA.
+DR   EMBL; AY486457; AAR27834.1; -; mRNA.
+DR   RefSeq; NP_001071306.2; NM_001077838.2.
+DR   AlphaFoldDB; Q6RXL1; -.
+DR   SMR; Q6RXL1; -.
+DR   STRING; 9913.ENSBTAP00000054931; -.
+DR   GeneID; 407213; -.
+DR   KEGG; bta:407213; -.
+DR   CTD; 653509; -.
+DR   InParanoid; Q6RXL1; -.
+DR   OrthoDB; 1172460at2759; -.
+DR   Proteomes; UP000009136; Unplaced.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005771; C:multivesicular body; IBA:GO_Central.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:UniProtKB-KW.
+DR   CDD; cd03591; CLECT_collectin_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033990; Collectin_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Collagen; Disulfide bond; Extracellular matrix; Gaseous exchange;
+KW   Glycoprotein; Hydroxylation; Lectin; Metal-binding; Reference proteome;
+KW   Repeat; Secreted; Signal; Surface film.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..248
+FT                   /note="Pulmonary surfactant-associated protein A"
+FT                   /id="PRO_0000046688"
+FT   DOMAIN          28..100
+FT                   /note="Collagen-like"
+FT   DOMAIN          132..248
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          29..102
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         215
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         234
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         235
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         30
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         33
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         36
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         42
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         54
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         57
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         63
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         67
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         70
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        26
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        155..246
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        224..238
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CONFLICT        27
+FT                   /note="L -> V (in Ref. 2; AAR27834)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        113..114
+FT                   /note="EI -> DF (in Ref. 2; AAR27834)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   248 AA;  26381 MW;  BE868D0D575C2135 CRC64;
+     MLLCSLTLTL LWMVASGLEC DVKEVCLGSP GIPGTPGSHG LPGRDGRDGI KGDPGPPGPM
+     GPPGGMPGLP GRDGMTGAPG LPGERGEKGE PGERGPPGFP AYLDEELQGT LHEIRHQVLQ
+     SQGVLRLQGS VLAVGEKVFS TNGQSVNFDA IKELCARVGG HIAAPRSPEE NEAIVSIVKK
+     YNTYAYLGLV EGPTAGDFYY LDGAPVNYTN WYPGEPRGRG KEKCVEIYTD GQWNDKNCLQ
+     YRLAICEF
+//

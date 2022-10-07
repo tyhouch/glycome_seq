@@ -1,0 +1,672 @@
+ID   AGRL3_MOUSE             Reviewed;        1537 AA.
+AC   Q80TS3; Q3UHI7; Q3UM79; Q504Z9; Q5HZJ6; Q80T56;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 3.
+DT   03-AUG-2022, entry version 164.
+DE   RecName: Full=Adhesion G protein-coupled receptor L3 {ECO:0000312|MGI:MGI:2441950};
+DE   AltName: Full=Latrophilin-3 {ECO:0000312|MGI:MGI:2441950};
+DE   AltName: Full=Lectomedin-3 {ECO:0000312|MGI:MGI:2441950};
+DE   Flags: Precursor;
+GN   Name=Adgrl3 {ECO:0000312|MGI:MGI:2441950};
+GN   Synonyms=Kiaa0768 {ECO:0000312|MGI:MGI:2441950}, Lec3
+GN   {ECO:0000312|MGI:MGI:2441950}, Lphn3 {ECO:0000312|MGI:MGI:2441950};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 4), AND NUCLEOTIDE SEQUENCE
+RP   [LARGE SCALE MRNA] OF 672-1537 (ISOFORM 5).
+RC   STRAIN=C57BL/6J; TISSUE=Mammary gland;
+RX   PubMed=16141072; DOI=10.1126/science.1112014;
+RA   Carninci P., Kasukawa T., Katayama S., Gough J., Frith M.C., Maeda N.,
+RA   Oyama R., Ravasi T., Lenhard B., Wells C., Kodzius R., Shimokawa K.,
+RA   Bajic V.B., Brenner S.E., Batalov S., Forrest A.R., Zavolan M., Davis M.J.,
+RA   Wilming L.G., Aidinis V., Allen J.E., Ambesi-Impiombato A., Apweiler R.,
+RA   Aturaliya R.N., Bailey T.L., Bansal M., Baxter L., Beisel K.W., Bersano T.,
+RA   Bono H., Chalk A.M., Chiu K.P., Choudhary V., Christoffels A.,
+RA   Clutterbuck D.R., Crowe M.L., Dalla E., Dalrymple B.P., de Bono B.,
+RA   Della Gatta G., di Bernardo D., Down T., Engstrom P., Fagiolini M.,
+RA   Faulkner G., Fletcher C.F., Fukushima T., Furuno M., Futaki S.,
+RA   Gariboldi M., Georgii-Hemming P., Gingeras T.R., Gojobori T., Green R.E.,
+RA   Gustincich S., Harbers M., Hayashi Y., Hensch T.K., Hirokawa N., Hill D.,
+RA   Huminiecki L., Iacono M., Ikeo K., Iwama A., Ishikawa T., Jakt M.,
+RA   Kanapin A., Katoh M., Kawasawa Y., Kelso J., Kitamura H., Kitano H.,
+RA   Kollias G., Krishnan S.P., Kruger A., Kummerfeld S.K., Kurochkin I.V.,
+RA   Lareau L.F., Lazarevic D., Lipovich L., Liu J., Liuni S., McWilliam S.,
+RA   Madan Babu M., Madera M., Marchionni L., Matsuda H., Matsuzawa S., Miki H.,
+RA   Mignone F., Miyake S., Morris K., Mottagui-Tabar S., Mulder N., Nakano N.,
+RA   Nakauchi H., Ng P., Nilsson R., Nishiguchi S., Nishikawa S., Nori F.,
+RA   Ohara O., Okazaki Y., Orlando V., Pang K.C., Pavan W.J., Pavesi G.,
+RA   Pesole G., Petrovsky N., Piazza S., Reed J., Reid J.F., Ring B.Z.,
+RA   Ringwald M., Rost B., Ruan Y., Salzberg S.L., Sandelin A., Schneider C.,
+RA   Schoenbach C., Sekiguchi K., Semple C.A., Seno S., Sessa L., Sheng Y.,
+RA   Shibata Y., Shimada H., Shimada K., Silva D., Sinclair B., Sperling S.,
+RA   Stupka E., Sugiura K., Sultana R., Takenaka Y., Taki K., Tammoja K.,
+RA   Tan S.L., Tang S., Taylor M.S., Tegner J., Teichmann S.A., Ueda H.R.,
+RA   van Nimwegen E., Verardo R., Wei C.L., Yagi K., Yamanishi H.,
+RA   Zabarovsky E., Zhu S., Zimmer A., Hide W., Bult C., Grimmond S.M.,
+RA   Teasdale R.D., Liu E.T., Brusic V., Quackenbush J., Wahlestedt C.,
+RA   Mattick J.S., Hume D.A., Kai C., Sasaki D., Tomaru Y., Fukuda S.,
+RA   Kanamori-Katayama M., Suzuki M., Aoki J., Arakawa T., Iida J., Imamura K.,
+RA   Itoh M., Kato T., Kawaji H., Kawagashira N., Kawashima T., Kojima M.,
+RA   Kondo S., Konno H., Nakano K., Ninomiya N., Nishio T., Okada M., Plessy C.,
+RA   Shibata K., Shiraki T., Suzuki S., Tagami M., Waki K., Watahiki A.,
+RA   Okamura-Oho Y., Suzuki H., Kawai J., Hayashizaki Y.;
+RT   "The transcriptional landscape of the mammalian genome.";
+RL   Science 309:1559-1563(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2; 3 AND 6).
+RC   STRAIN=C57BL/6J; TISSUE=Brain, and Eye;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 481-1537 (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   PubMed=12693553; DOI=10.1093/dnares/10.1.35;
+RA   Okazaki N., Kikuno R., Ohara R., Inamoto S., Aizawa H., Yuasa S.,
+RA   Nakajima D., Nagase T., Ohara O., Koga H.;
+RT   "Prediction of the coding sequences of mouse homologues of KIAA gene: II.
+RT   The complete nucleotide sequences of 400 mouse KIAA-homologous cDNAs
+RT   identified by screening of terminal sequences of cDNA clones randomly
+RT   sampled from size-fractionated libraries.";
+RL   DNA Res. 10:35-48(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 803-981.
+RX   PubMed=12679517; DOI=10.1073/pnas.0230374100;
+RA   Vassilatis D.K., Hohmann J.G., Zeng H., Li F., Ranchalis J.E.,
+RA   Mortrud M.T., Brown A., Rodriguez S.S., Weller J.R., Wright A.C.,
+RA   Bergmann J.E., Gaitanaris G.A.;
+RT   "The G protein-coupled receptor repertoires of human and mouse.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:4903-4908(2003).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1254 AND SER-1522, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain, and Lung;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [6]
+RP   DISRUPTION PHENOTYPE.
+RX   PubMed=22575564; DOI=10.1016/j.brainres.2012.04.053;
+RA   Wallis D., Hill D.S., Mendez I.A., Abbott L.C., Finnell R.H., Wellman P.J.,
+RA   Setlow B.;
+RT   "Initial characterization of mice null for Lphn3, a gene implicated in ADHD
+RT   and addiction.";
+RL   Brain Res. 1463:85-92(2012).
+RN   [7]
+RP   INTERACTION WITH TENM3; FLRT1; FLRT2 AND FLRT3, SUBCELLULAR LOCATION, AND
+RP   FUNCTION.
+RX   PubMed=22405201; DOI=10.1016/j.neuron.2012.01.018;
+RA   O'Sullivan M.L., de Wit J., Savas J.N., Comoletti D., Otto-Hitt S.,
+RA   Yates J.R. III, Ghosh A.;
+RT   "FLRT proteins are endogenous latrophilin ligands and regulate excitatory
+RT   synapse development.";
+RL   Neuron 73:903-910(2012).
+RN   [8]
+RP   FUNCTION, GLYCOSYLATION, INTERACTION WITH FLRT3 AND TENM1, DOMAIN, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=24739570; DOI=10.1186/1749-8104-9-7;
+RA   O'Sullivan M.L., Martini F., von Daake S., Comoletti D., Ghosh A.;
+RT   "LPHN3, a presynaptic adhesion-GPCR implicated in ADHD, regulates the
+RT   strength of neocortical layer 2/3 synaptic input to layer 5.";
+RL   Neural Dev. 9:7-7(2014).
+RN   [9]
+RP   X-RAY CRYSTALLOGRAPHY (2.16 ANGSTROMS) OF 97-459 IN COMPLEX WITH CALCIUM
+RP   IONS, FUNCTION, INTERACTION WITH FLRT2, DISULFIDE BONDS, GLYCOSYLATION AT
+RP   ASN-161, AND MUTAGENESIS OF PRO-244; ARG-246; THR-267; LYS-269; ARG-292;
+RP   ARG-294; ARG-324 AND GLY-326.
+RX   PubMed=25728924; DOI=10.1016/j.str.2015.01.013;
+RA   Jackson V.A., del Toro D., Carrasquero M., Roversi P., Harlos K., Klein R.,
+RA   Seiradake E.;
+RT   "Structural basis of latrophilin-FLRT interaction.";
+RL   Structure 23:774-781(2015).
+RN   [10]
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF 199-495 IN COMPLEX WITH FLRT3 AND
+RP   CALCIUM IONS, INTERACTION WITH FLRT3, AND MUTAGENESIS OF TYR-323 AND
+RP   ASP-332.
+RX   PubMed=26235031; DOI=10.1016/j.str.2015.06.022;
+RA   Ranaivoson F.M., Liu Q., Martini F., Bergami F., von Daake S., Li S.,
+RA   Lee D., Demeler B., Hendrickson W.A., Comoletti D.;
+RT   "Structural and mechanistic insights into the latrophilin3-FLRT3 complex
+RT   that mediates glutamatergic synapse development.";
+RL   Structure 23:1665-1677(2015).
+CC   -!- FUNCTION: Plays a role in cell-cell adhesion and neuron guidance via
+CC       its interactions with FLRT2 and FLRT3 that are expressed at the surface
+CC       of adjacent cells (PubMed:22405201, PubMed:25728924, PubMed:26235031).
+CC       Plays a role in the development of glutamatergic synapses in the cortex
+CC       (PubMed:22405201, PubMed:24739570). Important in determining the
+CC       connectivity rates between the principal neurons in the cortex
+CC       (PubMed:24739570). {ECO:0000269|PubMed:22405201,
+CC       ECO:0000269|PubMed:24739570, ECO:0000269|PubMed:25728924,
+CC       ECO:0000269|PubMed:26235031}.
+CC   -!- SUBUNIT: Interacts (via olfactomedin-like domain) with FLRT3 (via
+CC       extracellular domain); the interaction is direct(PubMed:22405201,
+CC       PubMed:24739570, PubMed:26235031). Identified in a complex with FLRT3
+CC       and UNC5B; does not interact with UNC5B by itself. Identified in a
+CC       complex with FLRT3 and UNC5D; does not interact with UNC5D by itself
+CC       (By similarity). Interacts (via olfactomedin-like domain) with FLRT1
+CC       (via extracellular domain) (PubMed:22405201). Interacts (via
+CC       olfactomedin-like domain) with FLRT2 (via extracellular domain)
+CC       (PubMed:22405201, PubMed:25728924). Interacts (via extracellular
+CC       domain) with TENM1 (PubMed:24739570). Interacts (via extracellular
+CC       domain) with TENM3 (PubMed:22405201). {ECO:0000250|UniProtKB:Q9HAR2,
+CC       ECO:0000269|PubMed:22405201, ECO:0000269|PubMed:24739570,
+CC       ECO:0000269|PubMed:25728924, ECO:0000269|PubMed:26235031}.
+CC   -!- INTERACTION:
+CC       Q80TS3; Q8BLU0: Flrt2; NbExp=2; IntAct=EBI-770665, EBI-16146541;
+CC       Q80TS3; Q8BGT1: Flrt3; NbExp=6; IntAct=EBI-770665, EBI-16166902;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:22405201,
+CC       ECO:0000269|PubMed:24739570}; Multi-pass membrane protein
+CC       {ECO:0000305}. Cell projection, axon {ECO:0000269|PubMed:22405201}.
+CC       Cell junction {ECO:0000269|PubMed:22405201}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=6;
+CC       Name=1;
+CC         IsoId=Q80TS3-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q80TS3-2; Sequence=VSP_010121, VSP_010122, VSP_010123;
+CC       Name=3;
+CC         IsoId=Q80TS3-3; Sequence=VSP_022142;
+CC       Name=4;
+CC         IsoId=Q80TS3-4; Sequence=VSP_022138;
+CC       Name=5;
+CC         IsoId=Q80TS3-5; Sequence=VSP_010121;
+CC       Name=6;
+CC         IsoId=Q80TS3-6; Sequence=VSP_022139, VSP_022140, VSP_022141;
+CC   -!- DOMAIN: The Olfactomedin-like domain is required for the synapse-
+CC       promoting function and the interaction with FLRT3. The Olfactomedin-
+CC       like and the SUEL-type lectin domains are required for the interaction
+CC       with TENM1. {ECO:0000269|PubMed:24739570}.
+CC   -!- PTM: Proteolytically cleaved into 2 subunits, an extracellular subunit
+CC       and a seven-transmembrane subunit. {ECO:0000250}.
+CC   -!- PTM: O-glycosylated (major) and N-glycosylated.
+CC       {ECO:0000269|PubMed:24739570}.
+CC   -!- DISRUPTION PHENOTYPE: Mutant mice are viable and present no obvious
+CC       physical phenotype. Compared to wild-type, mutants are hyperactive, and
+CC       their dorsal striatum contains higher levels of the neurotransmitters
+CC       dopamine and serotonin. Cocaine treatment causes a higher increase in
+CC       locomotor activity than in wild-type. {ECO:0000269|PubMed:22575564}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 2 family. LN-TM7
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AK145069; BAE26219.1; -; mRNA.
+DR   EMBL; AK147374; BAE27870.1; -; mRNA.
+DR   EMBL; BC058992; AAH58992.1; -; mRNA.
+DR   EMBL; BC088989; AAH88989.1; -; mRNA.
+DR   EMBL; BC094668; AAH94668.1; -; mRNA.
+DR   EMBL; AK122367; BAC65649.1; -; mRNA.
+DR   EMBL; AY255584; AAO85096.1; -; mRNA.
+DR   CCDS; CCDS39122.1; -. [Q80TS3-3]
+DR   CCDS; CCDS84894.1; -. [Q80TS3-5]
+DR   RefSeq; NP_001334298.1; NM_001347369.1. [Q80TS3-5]
+DR   RefSeq; NP_941991.1; NM_198702.2. [Q80TS3-3]
+DR   RefSeq; XP_011247767.1; XM_011249465.2. [Q80TS3-3]
+DR   RefSeq; XP_011247768.1; XM_011249466.2.
+DR   RefSeq; XP_011247773.1; XM_011249471.2. [Q80TS3-2]
+DR   RefSeq; XP_017176402.1; XM_017320913.1.
+DR   PDB; 4RMK; X-ray; 1.61 A; A=199-495.
+DR   PDB; 4RML; X-ray; 1.60 A; A=199-495.
+DR   PDB; 4YEB; X-ray; 3.19 A; A=199-495.
+DR   PDB; 5AFB; X-ray; 2.16 A; A=97-459.
+DR   PDB; 5FTT; X-ray; 3.40 A; C/D/G/H=92-463.
+DR   PDB; 5FTU; X-ray; 6.01 A; C/D/G/H/K/L=92-463.
+DR   PDB; 6JBU; X-ray; 1.85 A; A=203-461.
+DR   PDBsum; 4RMK; -.
+DR   PDBsum; 4RML; -.
+DR   PDBsum; 4YEB; -.
+DR   PDBsum; 5AFB; -.
+DR   PDBsum; 5FTT; -.
+DR   PDBsum; 5FTU; -.
+DR   PDBsum; 6JBU; -.
+DR   AlphaFoldDB; Q80TS3; -.
+DR   SMR; Q80TS3; -.
+DR   BioGRID; 235241; 5.
+DR   DIP; DIP-32218N; -.
+DR   IntAct; Q80TS3; 4.
+DR   MINT; Q80TS3; -.
+DR   STRING; 10090.ENSMUSP00000113482; -.
+DR   MEROPS; P02.011; -.
+DR   GlyConnect; 2419; 9 N-Linked glycans (5 sites). [Q80TS3-2]
+DR   GlyGen; Q80TS3; 10 sites, 9 N-linked glycans (5 sites).
+DR   iPTMnet; Q80TS3; -.
+DR   PhosphoSitePlus; Q80TS3; -.
+DR   SwissPalm; Q80TS3; -.
+DR   MaxQB; Q80TS3; -.
+DR   PaxDb; Q80TS3; -.
+DR   PeptideAtlas; Q80TS3; -.
+DR   PRIDE; Q80TS3; -.
+DR   ProteomicsDB; 285776; -. [Q80TS3-1]
+DR   ProteomicsDB; 285777; -. [Q80TS3-2]
+DR   ProteomicsDB; 285778; -. [Q80TS3-3]
+DR   ProteomicsDB; 285779; -. [Q80TS3-4]
+DR   ProteomicsDB; 285780; -. [Q80TS3-5]
+DR   ProteomicsDB; 285781; -. [Q80TS3-6]
+DR   Antibodypedia; 2755; 176 antibodies from 31 providers.
+DR   DNASU; 319387; -.
+DR   Ensembl; ENSMUST00000072521; ENSMUSP00000072336; ENSMUSG00000037605. [Q80TS3-3]
+DR   Ensembl; ENSMUST00000117407; ENSMUSP00000112388; ENSMUSG00000037605. [Q80TS3-2]
+DR   Ensembl; ENSMUST00000122356; ENSMUSP00000113600; ENSMUSG00000037605. [Q80TS3-5]
+DR   GeneID; 319387; -.
+DR   KEGG; mmu:319387; -.
+DR   UCSC; uc008xwk.1; mouse. [Q80TS3-6]
+DR   UCSC; uc008xwn.1; mouse. [Q80TS3-1]
+DR   UCSC; uc008xwp.1; mouse. [Q80TS3-3]
+DR   CTD; 23284; -.
+DR   MGI; MGI:2441950; Adgrl3.
+DR   VEuPathDB; HostDB:ENSMUSG00000037605; -.
+DR   eggNOG; KOG3545; Eukaryota.
+DR   eggNOG; KOG4193; Eukaryota.
+DR   eggNOG; KOG4729; Eukaryota.
+DR   GeneTree; ENSGT00940000155527; -.
+DR   InParanoid; Q80TS3; -.
+DR   OrthoDB; 388923at2759; -.
+DR   PhylomeDB; Q80TS3; -.
+DR   BioGRID-ORCS; 319387; 3 hits in 57 CRISPR screens.
+DR   ChiTaRS; Adgrl3; mouse.
+DR   PRO; PR:Q80TS3; -.
+DR   Proteomes; UP000000589; Chromosome 5.
+DR   RNAct; Q80TS3; protein.
+DR   Bgee; ENSMUSG00000037605; Expressed in CA1 field of hippocampus and 178 other tissues.
+DR   ExpressionAtlas; Q80TS3; baseline and differential.
+DR   Genevisible; Q80TS3; MM.
+DR   GO; GO:0030424; C:axon; IDA:UniProtKB.
+DR   GO; GO:0005911; C:cell-cell junction; IDA:UniProtKB.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; IBA:GO_Central.
+DR   GO; GO:0007189; P:adenylate cyclase-activating G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0007420; P:brain development; IBA:GO_Central.
+DR   GO; GO:0007166; P:cell surface receptor signaling pathway; IEA:InterPro.
+DR   GO; GO:0098742; P:cell-cell adhesion via plasma-membrane adhesion molecules; IMP:UniProtKB.
+DR   GO; GO:0031987; P:locomotion involved in locomotory behavior; IMP:UniProtKB.
+DR   GO; GO:0001764; P:neuron migration; IMP:UniProtKB.
+DR   GO; GO:0051965; P:positive regulation of synapse assembly; IDA:MGI.
+DR   GO; GO:0042220; P:response to cocaine; IMP:UniProtKB.
+DR   GO; GO:0007416; P:synapse assembly; IMP:UniProtKB.
+DR   GO; GO:0050808; P:synapse organization; IDA:SynGO.
+DR   Gene3D; 2.60.120.740; -; 1.
+DR   Gene3D; 2.60.220.50; -; 1.
+DR   Gene3D; 4.10.1240.10; -; 1.
+DR   InterPro; IPR032471; GAIN_dom_N.
+DR   InterPro; IPR046338; GAIN_dom_sf.
+DR   InterPro; IPR017981; GPCR_2-like.
+DR   InterPro; IPR036445; GPCR_2_extracell_dom_sf.
+DR   InterPro; IPR001879; GPCR_2_extracellular_dom.
+DR   InterPro; IPR003924; GPCR_2_latrophilin.
+DR   InterPro; IPR003334; GPCR_2_latrophilin_rcpt_C.
+DR   InterPro; IPR000832; GPCR_2_secretin-like.
+DR   InterPro; IPR017983; GPCR_2_secretin-like_CS.
+DR   InterPro; IPR000203; GPS.
+DR   InterPro; IPR015630; Latrophilin-3.
+DR   InterPro; IPR000922; Lectin_gal-bd_dom.
+DR   InterPro; IPR043159; Lectin_gal-bd_sf.
+DR   InterPro; IPR003112; Olfac-like_dom.
+DR   PANTHER; PTHR12011:SF60; PTHR12011:SF60; 1.
+DR   Pfam; PF00002; 7tm_2; 1.
+DR   Pfam; PF16489; GAIN; 1.
+DR   Pfam; PF02140; Gal_Lectin; 1.
+DR   Pfam; PF01825; GPS; 1.
+DR   Pfam; PF02354; Latrophilin; 2.
+DR   Pfam; PF02191; OLF; 1.
+DR   PRINTS; PR00249; GPCRSECRETIN.
+DR   PRINTS; PR01444; LATROPHILIN.
+DR   SMART; SM00303; GPS; 1.
+DR   SMART; SM00008; HormR; 1.
+DR   SMART; SM00284; OLF; 1.
+DR   PROSITE; PS00650; G_PROTEIN_RECEP_F2_2; 1.
+DR   PROSITE; PS50227; G_PROTEIN_RECEP_F2_3; 1.
+DR   PROSITE; PS50261; G_PROTEIN_RECEP_F2_4; 1.
+DR   PROSITE; PS50221; GPS; 1.
+DR   PROSITE; PS51132; OLF; 1.
+DR   PROSITE; PS50228; SUEL_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Calcium; Cell junction; Cell membrane;
+KW   Cell projection; Disulfide bond; G-protein coupled receptor; Glycoprotein;
+KW   Lectin; Membrane; Metal-binding; Phosphoprotein; Receptor;
+KW   Reference proteome; Signal; Transducer; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..1537
+FT                   /note="Adhesion G protein-coupled receptor L3"
+FT                   /id="PRO_0000070344"
+FT   TOPO_DOM        20..949
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        950..970
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        971..978
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        979..999
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1000..1007
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1008..1028
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1029..1050
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1051..1071
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1072..1088
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1089..1109
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1110..1142
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1143..1163
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1164..1169
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1170..1190
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1191..1537
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          103..192
+FT                   /note="SUEL-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00260"
+FT   DOMAIN          202..461
+FT                   /note="Olfactomedin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00446"
+FT   DOMAIN          883..934
+FT                   /note="GPS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00098"
+FT   REGION          53..80
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          317..347
+FT                   /note="Interaction with FLRT3"
+FT   REGION          521..540
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1213..1237
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1512..1537
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         332
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   BINDING         380
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   BINDING         381
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   BINDING         435
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MOD_RES         1254
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:21183079"
+FT   MOD_RES         1522
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:21183079"
+FT   CARBOHYD        161
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:25728924,
+FT                   ECO:0007744|PDB:5AFB"
+FT   CARBOHYD        532
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        617
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        827
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        840
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        885
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        911
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1000
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1166
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        104..134
+FT                   /evidence="ECO:0007744|PDB:5AFB"
+FT   DISULFID        113..191
+FT                   /evidence="ECO:0007744|PDB:5AFB"
+FT   DISULFID        146..178
+FT                   /evidence="ECO:0007744|PDB:5AFB"
+FT   DISULFID        159..165
+FT                   /evidence="ECO:0007744|PDB:5AFB"
+FT   DISULFID        203..385
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00446,
+FT                   ECO:0007744|PDB:5AFB"
+FT   VAR_SEQ         1..239
+FT                   /note="Missing (in isoform 4)"
+FT                   /evidence="ECO:0000303|PubMed:16141072"
+FT                   /id="VSP_022138"
+FT   VAR_SEQ         195..200
+FT                   /note="KVEQKV -> I (in isoform 6)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_022139"
+FT   VAR_SEQ         650
+FT                   /note="H -> Q (in isoform 6)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_022140"
+FT   VAR_SEQ         651..1537
+FT                   /note="Missing (in isoform 6)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_022141"
+FT   VAR_SEQ         1132..1140
+FT                   /note="Missing (in isoform 2 and isoform 5)"
+FT                   /evidence="ECO:0000303|PubMed:15489334,
+FT                   ECO:0000303|PubMed:16141072"
+FT                   /id="VSP_010121"
+FT   VAR_SEQ         1272..1351
+FT                   /note="EGLLNNARDTSVMDTLPLNGNHGNSYSIAGGEYLSNCVQIIDRGYNHNETAL
+FT                   EKKILKELTSNYIPSYLNNHERSSEQNR -> GAMANHLISNALLRPHGTNNPYNTLLG
+FT                   EPAVCNNPSISMYNTQEPYRETSMGVKLNIAYQIGASEQCQGYKCHGYSTTEW (in
+FT                   isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_010122"
+FT   VAR_SEQ         1272
+FT                   /note="E -> EPYRETK (in isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_022142"
+FT   VAR_SEQ         1352..1537
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_010123"
+FT   MUTAGEN         244
+FT                   /note="P->N: Strongly reduces FLRT2 binding; when
+FT                   associated with T-246."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         246
+FT                   /note="R->T: Strongly reduces FLRT2 binding; when
+FT                   associated with N-244."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         267
+FT                   /note="T->N: Strongly reduces FLRT2 binding; when
+FT                   associated with T-269."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         269
+FT                   /note="K->T: Strongly reduces FLRT2 binding; when
+FT                   associated with N-267."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         292
+FT                   /note="R->N: Abolishes interaction with FLRT2; when
+FT                   associated with T-294."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         294
+FT                   /note="R->T: Abolishes interaction with FLRT2; when
+FT                   associated with N-292."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         323
+FT                   /note="Y->A: Abolishes FLRT3 binding."
+FT                   /evidence="ECO:0000269|PubMed:26235031"
+FT   MUTAGEN         324
+FT                   /note="R->N: Abolishes interaction with FLRT2; when
+FT                   associated with T-326."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         326
+FT                   /note="G->T: Abolishes interaction with FLRT2; when
+FT                   associated with N-324."
+FT                   /evidence="ECO:0000269|PubMed:25728924"
+FT   MUTAGEN         332
+FT                   /note="D->A: Strongly reduces FLRT3 binding."
+FT                   /evidence="ECO:0000269|PubMed:26235031"
+FT   CONFLICT        381
+FT                   /note="A -> S (in Ref. 2; AAH94668)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1252
+FT                   /note="K -> R (in Ref. 1; BAE27870)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1375
+FT                   /note="A -> T (in Ref. 1; BAE26219)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1495
+FT                   /note="V -> M (in Ref. 1; BAE26219)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          101..104
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          108..112
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          118..129
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          131..134
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   TURN            138..141
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   HELIX           151..158
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   TURN            159..161
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          163..168
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   TURN            171..173
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          184..192
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          199..202
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          206..218
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          220..227
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          230..232
+FT                   /evidence="ECO:0007829|PDB:5FTT"
+FT   STRAND          237..241
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   TURN            244..246
+FT                   /evidence="ECO:0007829|PDB:6JBU"
+FT   STRAND          249..255
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   HELIX           256..261
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          265..269
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          274..277
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          280..282
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          285..290
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          293..300
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   TURN            301..304
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          305..311
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          318..321
+FT                   /evidence="ECO:0007829|PDB:4RMK"
+FT   STRAND          330..336
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          339..346
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   TURN            347..351
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          352..358
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   TURN            360..362
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          365..374
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   HELIX           375..377
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          378..384
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          387..393
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          405..412
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   TURN            413..416
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          417..424
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          428..430
+FT                   /evidence="ECO:0007829|PDB:6JBU"
+FT   STRAND          434..438
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   TURN            439..442
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          443..448
+FT                   /evidence="ECO:0007829|PDB:4RML"
+FT   STRAND          451..460
+FT                   /evidence="ECO:0007829|PDB:4RML"
+SQ   SEQUENCE   1537 AA;  171080 MW;  F55EAB142C987A69 CRC64;
+     MWPPQLLILT MLLAPVVHGG KHNERHPALA APLRHAERSP GGALPPRHLL QQPAAERSTA
+     HRGQGPRGAA RGVRGPGAPG AQIAAQAFSR APIPMAVVRR ELSCESYPIE LRCPGTDVIM
+     IESANYGRTD DKICDSDPAQ MENIRCYLPD AYKIMSQRCN NRTQCAVVAG PDVFPDPCPG
+     TYKYLEVQYE CVPYKVEQKV FLCPGLLKGV YQSEHLFESD HQSGAWCKDP LQASDKIYYM
+     PWTPYRTDTL TEYSSKDDFI AGRPTTTYKL PHRVDGTGFV VYDGALFFNK ERTRNIVKFD
+     LRTRIKSGEA IIANANYHDT SPYRWGGKSD IDLAVDENGL WVIYATEQNN GKIVISQLNP
+     YTLRIEGTWD TAYDKRSASN AFMICGILYV VKSVYEDDDN EATGNKIDYI YNTDQSKDSL
+     VDVPFPNSYQ YIAAVDYNPR DNLLYVWNNY HVVKYSLDFG PLDSRSGPVH HGQVSYISPP
+     IHLDSELERP PVRGISTTGS LGMGSTTTST TLRTTTWNIG RSTTASLPGR RNRSTSTPSP
+     AVEVLDDVTT HLPSAASQIP AMEESCEAVE AREIMWFKTR QGQVAKQPCP AGTIGVSTYL
+     CLAPDGIWDP QGPDLSNCSS PWVNHITQKL KSGETAANIA RELAEQTRNH LNAGDITYSV
+     RAMDQLVGLL DVQLRNLTPG GKDSAARSLN KLQKRERSCR AYVQAMVETV NNLLQPQALN
+     AWRDLTTSDQ LRAATMLLDT VEESAFVLAD NLLKTDIVRE NTDNIQLEVA RLSTEGNLED
+     LKFPENMGHG STIQLSANTL KQNGRNGEIR VAFVLYNNLG PYLSTENASM KLGTEAMSTN
+     HSVIVNSPVI TAAINKEFSN KVYLADPVVF TVKHIKQSEE NFNPNCSFWS YSKRTMTGYW
+     STQGCRLLTT NKTHTTCSCN HLTNFAVLMA HVEVKHSDAV HDLLLDVITW VGILLSLVCL
+     LICIFTFCFF RGLQSDRNTI HKNLCISLFV AELLFLIGIN RTDQPIACAV FAALLHFFFL
+     AAFTWMFLEG VQLYIMLVEV FESEHSRRKY FYLVGYGMPA LIVAVSAAVD YRSYGTDKVC
+     WLRLDTYFIW SFIGPATLII MLNVIFLGIA LYKMFHHTAI LKPESGCLDN INYEDNRPFI
+     KSWVIGAIAL LCLLGLTWAF GLMYINESTV IMAYLFTIFN SLQGMFIFIF HCVLQKKVRK
+     EYGKCLRTHC CSGKSTESSI GSGKTSGSRT PGRYSTGSQS RIRRMWNDTV RKQSESSFIT
+     GDINSSASLN REGLLNNARD TSVMDTLPLN GNHGNSYSIA GGEYLSNCVQ IIDRGYNHNE
+     TALEKKILKE LTSNYIPSYL NNHERSSEQN RNMMNKLVNN LGSGSEDDAI VLDDAASFNH
+     EESLGLELIH EESDAPLLPP RVYSTDNHQP HHYSRRRFPQ DHSESFFPLL TDEHTEDLQS
+     PHRDSLYTSM PALAGVPAAD SVTTSTQTEA AAAKGGDAED VYYKSMPNLG SRNHVHPLHA
+     YYQLGRGSSD GFIVPPNKDG ASPEGTSKGP AHLVTSL
+//

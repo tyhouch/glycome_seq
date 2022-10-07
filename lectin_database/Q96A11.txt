@@ -1,0 +1,195 @@
+ID   G3ST3_HUMAN             Reviewed;         431 AA.
+AC   Q96A11; Q14D05;
+DT   10-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   03-AUG-2022, entry version 147.
+DE   RecName: Full=Galactose-3-O-sulfotransferase 3;
+DE            Short=Gal3ST-3;
+DE            EC=2.8.2.-;
+DE   AltName: Full=Beta-galactose-3-O-sulfotransferase 3;
+DE            Short=Gal3ST3;
+DE   AltName: Full=Gal-beta-1, 3-GalNAc 3'-sulfotransferase 3;
+GN   Name=GAL3ST3;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Fetal brain;
+RX   PubMed=11356829; DOI=10.1074/jbc.m100348200;
+RA   El-Fasakhany F.M., Uchimura K., Kannagi R., Muramatsu T.;
+RT   "A novel human Gal-3-O-sulfotransferase: molecular cloning,
+RT   characterization, and its implications in biosynthesis of (SO4-3)Galbeta 1-
+RT   4(Fucalpha 1-3)GlcNAc.";
+RL   J. Biol. Chem. 276:26988-26994(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=11323440; DOI=10.1074/jbc.m103135200;
+RA   Suzuki A., Hiraoka N., Suzuki M., Angata K., Misra A.K., McAuliffe J.,
+RA   Hindsgaul O., Fukuda M.;
+RT   "Molecular cloning and expression of a novel human beta-Gal-3-O-
+RT   sulfotransferase that acts preferentially on N-acetyllactosamine in N- and
+RT   O-glycans.";
+RL   J. Biol. Chem. 276:24388-24395(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Transfers a sulfate to position 3 of non-reducing beta-
+CC       galactosyl residues in N-glycans and core2-branched O-glycans. Has high
+CC       activity towards Gal-beta-1,4-GlcNAc, Gal-beta-1,4(Fuc-alpha-1,3)GlcNAc
+CC       and lower activity towards Gal-beta-1,3(Fuc-alpha-1,4)GlcNAc.
+CC       {ECO:0000269|PubMed:11323440, ECO:0000269|PubMed:11356829}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.0-8.0.;
+CC   -!- PATHWAY: Protein modification; carbohydrate sulfation.
+CC   -!- INTERACTION:
+CC       Q96A11; Q6NTF9-3: RHBDD2; NbExp=3; IntAct=EBI-17590461, EBI-17589229;
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus, Golgi stack membrane
+CC       {ECO:0000305}; Single-pass type II membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in thyroid, brain, kidney, heart
+CC       and spinal cord. {ECO:0000269|PubMed:11323440,
+CC       ECO:0000269|PubMed:11356829}.
+CC   -!- SIMILARITY: Belongs to the galactose-3-O-sulfotransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB053232; BAB61900.1; -; mRNA.
+DR   EMBL; AY026481; AAK01945.1; -; mRNA.
+DR   EMBL; BC113552; AAI13553.1; -; mRNA.
+DR   EMBL; BC113554; AAI13555.1; -; mRNA.
+DR   CCDS; CCDS8128.1; -.
+DR   RefSeq; NP_149025.1; NM_033036.2.
+DR   AlphaFoldDB; Q96A11; -.
+DR   BioGRID; 124603; 1.
+DR   IntAct; Q96A11; 1.
+DR   STRING; 9606.ENSP00000308591; -.
+DR   GlyGen; Q96A11; 4 sites.
+DR   iPTMnet; Q96A11; -.
+DR   PhosphoSitePlus; Q96A11; -.
+DR   BioMuta; GAL3ST3; -.
+DR   DMDM; 47116425; -.
+DR   EPD; Q96A11; -.
+DR   MassIVE; Q96A11; -.
+DR   PaxDb; Q96A11; -.
+DR   PeptideAtlas; Q96A11; -.
+DR   PRIDE; Q96A11; -.
+DR   ProteomicsDB; 75891; -.
+DR   Antibodypedia; 2654; 45 antibodies from 15 providers.
+DR   DNASU; 89792; -.
+DR   Ensembl; ENST00000312006.5; ENSP00000308591.3; ENSG00000175229.7.
+DR   Ensembl; ENST00000527878.1; ENSP00000434829.1; ENSG00000175229.7.
+DR   GeneID; 89792; -.
+DR   KEGG; hsa:89792; -.
+DR   MANE-Select; ENST00000312006.5; ENSP00000308591.3; NM_033036.3; NP_149025.1.
+DR   UCSC; uc001ogv.4; human.
+DR   CTD; 89792; -.
+DR   DisGeNET; 89792; -.
+DR   GeneCards; GAL3ST3; -.
+DR   HGNC; HGNC:24144; GAL3ST3.
+DR   HPA; ENSG00000175229; Tissue enhanced (thyroid).
+DR   MIM; 608234; gene.
+DR   neXtProt; NX_Q96A11; -.
+DR   OpenTargets; ENSG00000175229; -.
+DR   PharmGKB; PA134864180; -.
+DR   VEuPathDB; HostDB:ENSG00000175229; -.
+DR   eggNOG; ENOG502QPNT; Eukaryota.
+DR   GeneTree; ENSGT00950000182923; -.
+DR   HOGENOM; CLU_040616_1_0_1; -.
+DR   InParanoid; Q96A11; -.
+DR   OMA; PDEKDSM; -.
+DR   OrthoDB; 1385827at2759; -.
+DR   PhylomeDB; Q96A11; -.
+DR   TreeFam; TF314802; -.
+DR   PathwayCommons; Q96A11; -.
+DR   SignaLink; Q96A11; -.
+DR   UniPathway; UPA00353; -.
+DR   BioGRID-ORCS; 89792; 12 hits in 1063 CRISPR screens.
+DR   GeneWiki; GAL3ST3; -.
+DR   GenomeRNAi; 89792; -.
+DR   Pharos; Q96A11; Tdark.
+DR   PRO; PR:Q96A11; -.
+DR   Proteomes; UP000005640; Chromosome 11.
+DR   RNAct; Q96A11; protein.
+DR   Bgee; ENSG00000175229; Expressed in left lobe of thyroid gland and 62 other tissues.
+DR   Genevisible; Q96A11; HS.
+DR   GO; GO:0032580; C:Golgi cisterna membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; NAS:UniProtKB.
+DR   GO; GO:0050656; F:3'-phosphoadenosine 5'-phosphosulfate binding; NAS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; NAS:UniProtKB.
+DR   GO; GO:0050694; F:galactose 3-O-sulfotransferase activity; IDA:UniProtKB.
+DR   GO; GO:0001733; F:galactosylceramide sulfotransferase activity; IEA:InterPro.
+DR   GO; GO:0050698; F:proteoglycan sulfotransferase activity; NAS:UniProtKB.
+DR   GO; GO:0008146; F:sulfotransferase activity; IBA:GO_Central.
+DR   GO; GO:0009247; P:glycolipid biosynthetic process; IEA:InterPro.
+DR   GO; GO:0005996; P:monosaccharide metabolic process; NAS:UniProtKB.
+DR   GO; GO:0009311; P:oligosaccharide metabolic process; NAS:UniProtKB.
+DR   GO; GO:0030309; P:poly-N-acetyllactosamine metabolic process; NAS:UniProtKB.
+DR   GO; GO:0030166; P:proteoglycan biosynthetic process; NAS:UniProtKB.
+DR   GO; GO:0006790; P:sulfur compound metabolic process; NAS:UniProtKB.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR009729; Gal-3-0_sulfotransfrase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR14647; PTHR14647; 1.
+DR   Pfam; PF06990; Gal-3-0_sulfotr; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Golgi apparatus; Magnesium; Membrane; Reference proteome;
+KW   Signal-anchor; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..431
+FT                   /note="Galactose-3-O-sulfotransferase 3"
+FT                   /id="PRO_0000085206"
+FT   TOPO_DOM        1..19
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        20..40
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        41..431
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          399..431
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        411..431
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        110
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        177
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        302
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VARIANT         221
+FT                   /note="A -> D (in dbSNP:rs35285455)"
+FT                   /id="VAR_053988"
+FT   VARIANT         410
+FT                   /note="E -> A (in dbSNP:rs4565902)"
+FT                   /id="VAR_053989"
+SQ   SEQUENCE   431 AA;  48956 MW;  3E1B8418A72A5EB6 CRC64;
+     MPPILQRLQQ ATKMMSRRKI LLLVLGCSTV SLLIHQGAQL SWYPKLFPLS CPPLRNSPPR
+     PKHMTVAFLK THKTAGTTVQ NILFRFAERH NLTVALPHPS CEHQFCYPRN FSAHFVHPAT
+     RPPHVLASHL RFDRAELERL MPPSTVYVTI LREPAAMFES LFSYYNQYCP AFRRVPNASL
+     EAFLRAPEAY YRAGEHFAMF AHNTLAYDLG GDNERSPRDD AAYLAGLIRQ VEEVFSLVMI
+     AEYFDESLVL LRRLLAWDLD DVLYAKLNAR AASSRLAAIP AALARAARTW NALDAGLYDH
+     FNATFWRHVA RAGRACVERE ARELREARQR LLRRCFGDEP LLRPAAQIRT KQLQPWQPSR
+     KVDIMGYDLP GGGAGPATEA CLKLAMPEVQ YSNYLLRKQK RRGGARARPE PVLDNPPPRP
+     IRVLPRGPQG P
+//

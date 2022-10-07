@@ -1,0 +1,202 @@
+ID   CONV_CANCT              Reviewed;         237 AA.
+AC   C0HJY1;
+DT   05-JUL-2017, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2017, sequence version 1.
+DT   03-AUG-2022, entry version 15.
+DE   RecName: Full=Concanavalin V {ECO:0000303|PubMed:24519628};
+DE   AltName: Full=ConV {ECO:0000303|PubMed:24519628};
+OS   Canavalia cathartica (Jackbean) (Canavalia virosa).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Canavalia.
+OX   NCBI_TaxID=28958 {ECO:0000303|PubMed:24519628};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, X-RAY CRYSTALLOGRAPHY (2.52 ANGSTROMS) IN COMPLEX WITH
+RP   CALCIUM; MANGANESE AND CARBOHYDRATE, FUNCTION, SUBUNIT, AND IDENTIFICATION
+RP   BY MASS SPECTROMETRY.
+RX   PubMed=27737777; DOI=10.1016/j.ijbiomac.2016.10.020;
+RA   Osterne V.J., Silva-Filho J.C., Santiago M.Q., Pinto-Junior V.R.,
+RA   Almeida A.C., Barreto A.A., Wolin I.A., Nascimento A.P., Amorim R.M.,
+RA   Rocha B.A., Delatorre P., Nagano C.S., Leal R.B., Assreuy A.M.,
+RA   Nascimento K.S., Cavada B.S.;
+RT   "Structural characterization of a lectin from Canavalia virosa seeds with
+RT   inflammatory and cytotoxic activities.";
+RL   Int. J. Biol. Macromol. 94:271-282(2017).
+RN   [2] {ECO:0000305}
+RP   FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, AND MASS SPECTROMETRY.
+RC   TISSUE=Seed {ECO:0000303|PubMed:24519628};
+RX   PubMed=24519628; DOI=10.1007/s12010-014-0751-3;
+RA   Osterne V.J., Santiago M.Q., Pinto-Junior V.R., Cajazeiras J.B.,
+RA   Correia J.L., Leitao C.C., Carneiro R.F., Pereira-Junior F.N.,
+RA   Vasconcelos M.A., Rocha B.A., Assreuy A.M., Bringel P.H., Nagano C.S.,
+RA   Nascimento K.S., Cavada B.S.;
+RT   "Purification, partial characterization, and CNBr-sepharose immobilization
+RT   of a vasorelaxant glucose/mannose lectin from Canavalia virosa seeds.";
+RL   Appl. Biochem. Biotechnol. 172:3342-3353(2014).
+CC   -!- FUNCTION: D-mannose/D-glucose-binding lectin which binds alpha-methyl-
+CC       D-mannoside, D-mannose and D-glucose in that order (PubMed:24519628,
+CC       PubMed:27737777). Also binds to serum fetuin and ovalbumin
+CC       (PubMed:24519628). Has hemagglutinating activity towards rabbit
+CC       erythrocytes (PubMed:24519628). Is not toxic towards larvae of the
+CC       brine shrimp Artemia (PubMed:24519628). Induces relaxation in rat
+CC       endothelized aorta (PubMed:24519628). Shows a transient edematogenic
+CC       effect in rat (PubMed:27737777). {ECO:0000269|PubMed:24519628,
+CC       ECO:0000269|PubMed:27737777}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7-9 with activity decreasing quickly at higher or lower
+CC         pH. {ECO:0000269|PubMed:24519628};
+CC       Temperature dependence:
+CC         Hemagglutinating activity stable up to incubation at 80 degrees
+CC         Celsius for 1 hour but diminishes with higher temperatures and is
+CC         absent at 100 degrees Celsius. {ECO:0000269|PubMed:24519628};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:27737777}.
+CC   -!- PTM: Concanavalin A-like lectins of the Diocleinae subtribe undergo
+CC       proteolytic processing referred to as circular permutation. The
+CC       propeptide is split into an N-terminal and a C-terminal part, the gamma
+CC       and beta chain, respectively. These are then religated in beta-gamma
+CC       order to form the mature alpha chain. The beta and gamma chains can
+CC       often be detected in cell extracts (By similarity). Residues 1-118 of
+CC       the mature chain, as displayed here, probably constitute the beta chain
+CC       in the propeptide, residues 119-237 the gamma chain (Probable).
+CC       {ECO:0000250|UniProtKB:C0HK27, ECO:0000305|PubMed:27737777}.
+CC   -!- MASS SPECTROMETRY: Mass=25480; Mass_error=2; Method=Electrospray;
+CC       Note=Alpha chain.; Evidence={ECO:0000269|PubMed:24519628};
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC       {ECO:0000305|PubMed:27737777}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 5F5Q; X-ray; 2.52 A; A/B=1-237.
+DR   PDB; 6GW9; X-ray; 2.10 A; A=1-237.
+DR   PDBsum; 5F5Q; -.
+DR   PDBsum; 6GW9; -.
+DR   AlphaFoldDB; C0HJY1; -.
+DR   SMR; C0HJY1; -.
+DR   UniLectin; C0HJY1; -.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0005536; F:glucose binding; IDA:UniProtKB.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:UniProtKB.
+DR   GO; GO:0005537; F:mannose binding; IDA:UniProtKB.
+DR   GO; GO:0042311; P:vasodilation; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 2.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Hemagglutinin; Lectin;
+KW   Manganese; Mannose-binding; Metal-binding; Vasoactive; Vasodilator.
+FT   CHAIN           1..237
+FT                   /note="Concanavalin V"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT                   /id="PRO_0000440670"
+FT   BINDING         8
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         10
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         10
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         12
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         14
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         14
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         19
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         19
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         24
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         70
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         98..100
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         208
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   BINDING         228
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:27737777"
+FT   STRAND          4..10
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   HELIX           15..17
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          24..33
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          35..39
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          47..55
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   TURN            56..59
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          60..66
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          73..78
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   HELIX           81..83
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          87..96
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          98..100
+FT                   /evidence="ECO:0007829|PDB:5F5Q"
+FT   STRAND          105..117
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          124..132
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          140..144
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   HELIX           150..152
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          170..177
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          186..198
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          202..205
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   STRAND          209..216
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   HELIX           227..229
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+FT   TURN            230..232
+FT                   /evidence="ECO:0007829|PDB:6GW9"
+SQ   SEQUENCE   237 AA;  25480 MW;  3702EBBFC00EE79A CRC64;
+     ADTIVAVELD TYPNTDIGDP SYPHIGIDIK SVRSKKTAKW NMQNGKVGTA HIIYNSVGKR
+     LSAVVSYPNG DSATVSYDVD LDNVLPEWVR VGLSASTGLY KETNTILSWS FTSKLKSNST
+     HETNALHFVF NQFSKDQKDL ILQGDATTGT DGNLELTRVS SNGSPQGSSV GRALFYAPVH
+     IWESSAVVAS FDATFTFLIK SPDSHPADGI AFFISNIDSS IPSGSTGRLL GLFPDAN
+//

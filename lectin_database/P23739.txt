@@ -1,0 +1,381 @@
+ID   SUIS_RAT                Reviewed;        1841 AA.
+AC   P23739;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 5.
+DT   03-AUG-2022, entry version 161.
+DE   RecName: Full=Sucrase-isomaltase, intestinal;
+DE   Contains:
+DE     RecName: Full=Sucrase;
+DE              EC=3.2.1.48;
+DE   Contains:
+DE     RecName: Full=Isomaltase;
+DE              EC=3.2.1.10;
+GN   Name=Si;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Intestine;
+RX   PubMed=7821806; DOI=10.1016/0378-1119(94)90452-9;
+RA   Chandrasena G., Osterholm D.E., Sunitha I., Henning S.J.;
+RT   "Cloning and sequencing of a full-length rat sucrase-isomaltase-encoding
+RT   cDNA.";
+RL   Gene 150:355-360(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 87-362.
+RC   STRAIN=Fischer 344; TISSUE=Intestine;
+RX   PubMed=2268340; DOI=10.1016/s0006-291x(05)80853-8;
+RA   Traber P.G.;
+RT   "Regulation of sucrase-isomaltase gene expression along the crypt-villus
+RT   axis of rat small intestine.";
+RL   Biochem. Biophys. Res. Commun. 173:765-773(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 733-1373.
+RC   STRAIN=Sprague-Dawley; TISSUE=Duodenum;
+RX   PubMed=2400788; DOI=10.1016/0167-4781(90)90121-h;
+RA   Broyart J.-P., Hugot J.-P., Perret C., Porteu A.;
+RT   "Molecular cloning and characterization of a rat intestinal sucrase-
+RT   isomaltase cDNA. Regulation of sucrase-isomaltase gene expression by
+RT   sucrose feeding.";
+RL   Biochim. Biophys. Acta 1087:61-67(1990).
+RN   [4]
+RP   PROTEIN SEQUENCE OF N-TERMINUS OF ISOMALTASE AND SUCRASE.
+RX   PubMed=6802834; DOI=10.1016/s0021-9258(18)34754-9;
+RA   Hauri H.-P., Wacker H., Rickli E.E., Bigler-Meier B., Quaroni A.,
+RA   Semenza G.;
+RT   "Biosynthesis of sucrase-isomaltase. Purification and NH2-terminal amino
+RT   acid sequence of the rat sucrase-isomaltase precursor (pro-sucrase-
+RT   isomaltase) from fetal intestinal transplants.";
+RL   J. Biol. Chem. 257:4522-4528(1982).
+CC   -!- FUNCTION: Plays an important role in the final stage of carbohydrate
+CC       digestion. Isomaltase activity is specific for both alpha-1,4- and
+CC       alpha-1,6-oligosaccharides.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of sucrose and maltose by an alpha-D-glucosidase-
+CC         type action.; EC=3.2.1.48;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->6)-alpha-D-glucosidic linkages in some
+CC         oligosaccharides produced from starch and glycogen by alpha-amylase,
+CC         and in isomaltose.; EC=3.2.1.10;
+CC   -!- SUBUNIT: The resulting sucrase and isomaltase subunits stay associated
+CC       with one another in a complex by non-covalent linkages.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane; Single-pass type II
+CC       membrane protein. Note=Brush border.
+CC   -!- PTM: The precursor is proteolytically cleaved when exposed to
+CC       pancreatic proteases in the intestinal lumen.
+CC   -!- PTM: Sulfated. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: There is a high degree of homology between the
+CC       isomaltase and sucrase portions (41% of amino acid identity) indicating
+CC       that this protein is evolved by partial gene duplication.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L25926; AAA65097.1; -; mRNA.
+DR   EMBL; M62889; AAA42144.1; -; mRNA.
+DR   EMBL; X15546; CAA33552.1; -; mRNA.
+DR   PIR; S11386; S11386.
+DR   PIR; T10799; T10799.
+DR   RefSeq; NP_037193.1; NM_013061.1.
+DR   AlphaFoldDB; P23739; -.
+DR   SMR; P23739; -.
+DR   STRING; 10116.ENSRNOP00000045106; -.
+DR   BindingDB; P23739; -.
+DR   ChEMBL; CHEMBL3114; -.
+DR   DrugCentral; P23739; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   GlyGen; P23739; 16 sites.
+DR   iPTMnet; P23739; -.
+DR   PhosphoSitePlus; P23739; -.
+DR   PRIDE; P23739; -.
+DR   GeneID; 497756; -.
+DR   UCSC; RGD:3675; rat.
+DR   CTD; 6476; -.
+DR   RGD; 3675; Si.
+DR   eggNOG; KOG1065; Eukaryota.
+DR   InParanoid; P23739; -.
+DR   OrthoDB; 151244at2759; -.
+DR   PhylomeDB; P23739; -.
+DR   BRENDA; 3.2.1.10; 5301.
+DR   Reactome; R-RNO-189085; Digestion of dietary carbohydrate.
+DR   SABIO-RK; P23739; -.
+DR   PRO; PR:P23739; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005903; C:brush border; IDA:RGD.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0045121; C:membrane raft; IDA:RGD.
+DR   GO; GO:0004558; F:alpha-1,4-glucosidase activity; IBA:GO_Central.
+DR   GO; GO:0004564; F:beta-fructofuranosidase activity; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0004574; F:oligo-1,6-glucosidase activity; IDA:RGD.
+DR   GO; GO:0004575; F:sucrose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0007568; P:aging; IEP:RGD.
+DR   GO; GO:0009750; P:response to fructose; IEP:RGD.
+DR   GO; GO:0051384; P:response to glucocorticoid; IEP:RGD.
+DR   GO; GO:0032868; P:response to insulin; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0042594; P:response to starvation; IEP:RGD.
+DR   GO; GO:0009744; P:response to sucrose; IEP:RGD.
+DR   GO; GO:0033189; P:response to vitamin A; IEP:RGD.
+DR   GO; GO:0005987; P:sucrose catabolic process; ISO:RGD.
+DR   CDD; cd00111; Trefoil; 2.
+DR   Gene3D; 2.60.40.1180; -; 4.
+DR   Gene3D; 4.10.110.10; -; 2.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR030459; Glyco_hydro_31_CS.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR017957; P_trefoil_CS.
+DR   InterPro; IPR000519; P_trefoil_dom.
+DR   InterPro; IPR044913; P_trefoil_dom_sf.
+DR   Pfam; PF01055; Glyco_hydro_31; 2.
+DR   Pfam; PF16863; NtCtMGAM_N; 2.
+DR   Pfam; PF00088; Trefoil; 2.
+DR   SMART; SM00018; PD; 2.
+DR   SUPFAM; SSF51445; SSF51445; 2.
+DR   SUPFAM; SSF57492; SSF57492; 1.
+DR   SUPFAM; SSF74650; SSF74650; 2.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 2.
+DR   PROSITE; PS00707; GLYCOSYL_HYDROL_F31_2; 1.
+DR   PROSITE; PS00025; P_TREFOIL_1; 1.
+DR   PROSITE; PS51448; P_TREFOIL_2; 2.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Glycosidase; Hydrolase; Membrane; Multifunctional enzyme; Phosphoprotein;
+KW   Reference proteome; Repeat; Signal-anchor; Sulfation; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..1841
+FT                   /note="Sucrase-isomaltase, intestinal"
+FT                   /id="PRO_0000018559"
+FT   CHAIN           1..1013
+FT                   /note="Isomaltase"
+FT                   /id="PRO_0000018560"
+FT   CHAIN           1014..1841
+FT                   /note="Sucrase"
+FT                   /id="PRO_0000018561"
+FT   TOPO_DOM        1..12
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        13..32
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        33..1841
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          71..120
+FT                   /note="P-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DOMAIN          936..984
+FT                   /note="P-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   REGION          42..81
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          120..1013
+FT                   /note="Isomaltase"
+FT   REGION          1014..1841
+FT                   /note="Sucrase"
+FT   COMPBIAS        42..72
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        514
+FT                   /note="Nucleophile; for isomaltase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        615
+FT                   /note="For isomaltase activity"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        1399
+FT                   /note="Nucleophile; for sucrase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        1402
+FT                   /note="For sucrase activity"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        1512
+FT                   /note="Proton donor; for sucrase activity"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         274
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         398
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         599
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         673
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         7
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000250|UniProtKB:P14410"
+FT   MOD_RES         401
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         410
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         1387
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        109
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        464
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        758
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        765
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        867
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        910
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1240
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1308
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1345
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1359
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1373
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1485
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1513
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1575
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1762
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1829
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        73..104
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        87..103
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        98..116
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   DISULFID        646..657
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00779"
+FT   CONFLICT        87
+FT                   /note="C -> W (in Ref. 1; AAA65097)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        92
+FT                   /note="H -> S (in Ref. 2; AAA42144)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        95
+FT                   /note="K -> Q (in Ref. 2; AAA42144)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        736
+FT                   /note="E -> V (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        842
+FT                   /note="E -> Q (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        916
+FT                   /note="A -> T (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        924
+FT                   /note="A -> R (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        930..931
+FT                   /note="AG -> GT (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        938..939
+FT                   /note="CR -> SQ (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        959..962
+FT                   /note="GTCT -> ETDK (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        980
+FT                   /note="Y -> C (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        986
+FT                   /note="N -> H (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        997..998
+FT                   /note="LP -> SL (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1010
+FT                   /note="P -> A (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1023
+FT                   /note="T -> P (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1027
+FT                   /note="G -> E (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1032
+FT                   /note="P -> K (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1094
+FT                   /note="R -> S (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1099
+FT                   /note="G -> A (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1302
+FT                   /note="A -> D (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1337..1340
+FT                   /note="PKVW -> AKWG (in Ref. 3; CAA33552)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1841 AA;  210350 MW;  E186B8632475EE09 CRC64;
+     MAKKKFSALE ISLIVLFIIV TAIAIALVTV LATKVPAVEE IKSPTPTSNS TPTSTPTSTS
+     TPTSTSTPSP GKCPPEQGEP INERINCIPE QHPTKAICEE RGCCWRPWNN TVIPWCFFAD
+     NHGYNAESIT NENAGLKATL NRIPSPTLFG EDIKSVILTT QTQTGNRFRF KITDPNNKRY
+     EVPHQFVKEE TGIPAADTLY DVQVSENPFS IKVIRKSNNK VLCDTSVGPL LYSNQYLQIS
+     TRLPSEYIYG FGGHIHKRFR HDLYWKTWPI FTRDEIPGDN NHNLYGHQTF FMGIGDTSGK
+     SYGVFLMNSN AMEVFIQPTP IITYRVTGGI LDFYIFLGDT PEQVVQQYQE VHWRPAMPAY
+     WNLGFQLSRW NYGSLDTVSE VVRRNREAGI PYDAQVTDID YMEDHKEFTY DRVKFNGLPE
+     FAQDLHNHGK YIIILDPAIS INKRANGAEY QTYVRGNEKN VWVNESDGTT PLIGEVWPGL
+     TVYPDFTNPQ TIEWWANECN LFHQQVEYDG LWIDMNEVSS FIQGSLNLKG VLLIVLNYPP
+     FTPGILDKVM YSKTLCMDAV QHWGKQYDVH SLYGYSMAIA TEQAVERVFP NKRSFILTRS
+     TFGGSGRHAN HWLGDNTASW EQMEWSITGM LEFGIFGMPL VGATSCGFLA DTTEELCRRW
+     MQLGAFYPFS RNHNAEGYME QDPAYFGQDS SRHYLTIRYT LLPFLYTLFY RAHMFGETVA
+     RPFLYEFYDD TNSWIEDTQF LWGPALLITP VLRPGVENVS AYIPNATWYD YETGIKRPWR
+     KERINMYLPG DKIGLHLRGG YIIPTQEPDV TTTASRKNPL GLIVALDDNQ AAKGELFWDD
+     GESKDSIEKK MYILYTFSVS NNELVLNCTH SSYAEGTSLA FKTIKVLGLR EDVRSITVGE
+     NDQQMATHTN FTFDSANKIL SITALNFNLA GSFIVRWCRT FSDNEKFTCY PDVGTATEGT
+     CTQRGCLWQP VSGLSNVPPY YFPPENNPYT LTSIQPLPTG ITAELQLNPP NARIKLPSNP
+     ISTLRVGVKY HPNDMLQFKI YDAQHKRYEV PVPLNIPDTP TSSNERLYDV EIKENPFGIQ
+     VRRRSSGKLI WDSRLPGFGF NDQFIQISTR LPSNYLYGFG EVEHTAFKRD LNWHTWGMFT
+     RDQPPGYKLN SYGFHPYYMA LENEGNAHGV LLLNSNGMDV TFQPTPALTY RTIGGILDFY
+     MFLGPTPEIA TRQYHEVIGF PVMPPYWALG FQLCRYGYRN TSEIEQLYND MVAANIPYDV
+     QYTDINYMER QLDFTIGERF KTLPEFVDRI RKDGMKYIVI LAPAISGNET QPYPAFERGI
+     QKDVFVKWPN TNDICWPKVW PDLPNVTIDE TITEDEAVNA SRAHVAFPDF FRNSTLEWWA
+     REIYDFYNEK MKFDGLWIDM NEPSSFGIQM GGKVLNECRR MMTLNYPPVF SPELRVKEGE
+     GASISEAMCM ETEHILIDGS SVLQYDVHNL YGWSQVKPTL DALQNTTGLR GIVISRSTYP
+     TTGRWGGHWL GDNYTTWDNL EKSLIGMLEL NLFGIPYIGA DICGVFHDSG YPSLYFVGIQ
+     VGAFYPYPRE SPTINFTRSQ DPVSWMKLLL QMSKKVLEIR YTLLPYFYTQ MHEAHAHGGT
+     VIRPLMHEFF DDKETWEIYK QFLWGPAFMV TPVVEPFRTS VTGYVPKARW FDYHTGADIK
+     LKGILHTFSA PFDTINLHVR GGYILPCQEP ARNTHLSRQN YMKLIVAADD NQMAQGTLFG
+     DDGESIDTYE RGQYTSIQFN LNQTTLTSTV LANGYKNKQE MRLGSIHIWG KGTLRISNAN
+     LVYGGRKHQP PFTQEEAKET LIFDLKNMNV TLDEPIQITW S
+//

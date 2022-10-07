@@ -1,0 +1,151 @@
+ID   LEC5_VIGUC              Reviewed;         275 AA.
+AC   P19588; Q39665;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1999, sequence version 2.
+DT   25-MAY-2022, entry version 103.
+DE   RecName: Full=Lectin DB58;
+DE   Contains:
+DE     RecName: Full=Lectin DB58 subunit alpha;
+DE   Contains:
+DE     RecName: Full=Lectin DB58 subunit beta;
+DE   Flags: Precursor;
+OS   Vigna unguiculata subsp. cylindrica (Horse gram) (Dolichos biflorus).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Vigna.
+OX   NCBI_TaxID=3840;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2844781; DOI=10.1016/s0021-9258(18)68086-x;
+RA   Schnell D.J., Etzler M.E.;
+RT   "cDNA cloning, primary structure, and in vitro biosynthesis of the DB58
+RT   lectin from Dolichos biflorus.";
+RL   J. Biol. Chem. 263:14648-14653(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2318879; DOI=10.1016/s0021-9258(19)34074-8;
+RA   Harada J.J., Spadoro-Tank J., Maxwell J.C., Schnell D.J., Etzler M.E.;
+RT   "Two lectin genes differentially expressed in Dolichos biflorus differ
+RT   primarily by a 116-base pair sequence in their 5' flanking regions.";
+RL   J. Biol. Chem. 265:4997-5001(1990).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 255-275, AND PROTEOLYTIC PROCESSING.
+RC   TISSUE=Leaf, and Stem;
+RX   PubMed=8068657; DOI=10.1021/bi00198a049;
+RA   Etzler M.E.;
+RT   "Isolation and characterization of subunits of DB58, a lectin from the
+RT   stems and leaves of Dolichos biflorus.";
+RL   Biochemistry 33:9778-9783(1994).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (3.3 ANGSTROMS).
+RX   PubMed=10047489; DOI=10.1006/jmbi.1998.2534;
+RA   Hamelryck T.W., Loris R., Bouckaert J., Dao-Thi M.-H., Strecker G.,
+RA   Imberty A., Fernandez E., Wyns L., Etzler M.E.;
+RT   "Carbohydrate binding, quaternary structure and a novel hydrophobic binding
+RT   site in two legume lectin oligomers from Dolichos biflorus.";
+RL   J. Mol. Biol. 286:1161-1177(1999).
+CC   -!- FUNCTION: Metalloglycoprotein, containing Ca, Mg, Mn, and Zn and the
+CC       carbohydrates galactose, glucosamine, mannose, and fucose. It
+CC       agglutinates erythrocytes of blood group A1.
+CC   -!- SUBUNIT: Heterodimer, composed of an alpha and a beta subunit derived
+CC       from a single precursor.
+CC   -!- PTM: Leu-264 is missing in a major portion of the beta subunit,
+CC       suggesting an origin by sequential removal of amino acids rather than a
+CC       processing by endoproteolytic cleavage. {ECO:0000269|PubMed:8068657}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M23216; AAA33142.1; -; mRNA.
+DR   EMBL; M34271; AAA33140.1; -; Genomic_DNA.
+DR   PIR; A31972; A31972.
+DR   PDB; 1G7Y; X-ray; 2.50 A; A/B/C/D/E/F=23-275.
+DR   PDB; 1LUL; X-ray; 3.30 A; A/B/C/D/E/F=23-275.
+DR   PDBsum; 1G7Y; -.
+DR   PDBsum; 1LUL; -.
+DR   AlphaFoldDB; P19588; -.
+DR   SMR; P19588; -.
+DR   UniLectin; P19588; -.
+DR   EvolutionaryTrace; P19588; -.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Glycoprotein; Lectin;
+KW   Mannose-binding; Signal.
+FT   SIGNAL          1..22
+FT   CHAIN           23..275
+FT                   /note="Lectin DB58 subunit alpha"
+FT                   /id="PRO_0000017613"
+FT   CHAIN           23..264
+FT                   /note="Lectin DB58 subunit beta"
+FT                   /id="PRO_0000017614"
+FT   CARBOHYD        34
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CONFLICT        236..237
+FT                   /note="LS -> FF (in Ref. 1; AAA33142)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          24..31
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          38..42
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          48..52
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          67..74
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   TURN            81..83
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          88..96
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   HELIX           102..104
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          108..115
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   TURN            127..129
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   HELIX           137..139
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          142..147
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          160..169
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          171..175
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          182..191
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   TURN            192..195
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          196..203
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   HELIX           204..206
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          208..215
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   HELIX           218..221
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          224..233
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   STRAND          245..255
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+FT   HELIX           266..273
+FT                   /evidence="ECO:0007829|PDB:1LUL"
+SQ   SEQUENCE   275 AA;  29453 MW;  53D72ACB02EAE03F CRC64;
+     MASSTVSVVL SLFLLLLTQA YSADIQSFSF KNFNSSSFIL QGDATVSSSK LRLTKVKGNG
+     LPTLSSLGRA FYSSPIQIYD KSTGAVASWA TSFTANIFAP NKSSSADGIA FALVPVGSEP
+     KSNSGFLGVF DSDVYDNSAQ TVAVEFDTFS NTDWDPTSRH IGIDVNSIKS IRTASWGLAN
+     GQNAEILITY NAATSLLVAS LVHPSRRTSY IVSERVDITN ELPEYVSIGF SATTGLSEGY
+     TETHDVLSWS FASKLPDDST TEPLDIASYL VRNVL
+//

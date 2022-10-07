@@ -1,0 +1,407 @@
+ID   NECT1_MOUSE             Reviewed;         515 AA.
+AC   Q9JKF6; Q6P9M9; Q9ERL5; Q9JI17;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 3.
+DT   03-AUG-2022, entry version 183.
+DE   RecName: Full=Nectin-1;
+DE   AltName: Full=Herpes virus entry mediator C;
+DE            Short=Herpesvirus entry mediator C;
+DE            Short=HveC;
+DE   AltName: Full=Nectin cell adhesion molecule 1 {ECO:0000250|UniProtKB:Q15223};
+DE   AltName: Full=Poliovirus receptor-related protein 1;
+DE   AltName: CD_antigen=CD111;
+DE   Flags: Precursor;
+GN   Name=Nectin1 {ECO:0000250|UniProtKB:Q15223};
+GN   Synonyms=Hvec, Prr1, Pvrl1;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=10781093; DOI=10.1073/pnas.97.9.4867;
+RA   Menotti L., Lopez M., Avitabile E., Stefan A., Cocchi F., Adelaide J.,
+RA   Lecocq E., Dubreuil P., Campadelli-Fiume G.;
+RT   "The murine homolog of human nectin1 delta serves as a species nonspecific
+RT   mediator for entry of human and animal alpha herpesviruses in a pathway
+RT   independent of detectable binding to gD.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:4867-4872(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=11090177; DOI=10.1128/jvi.74.24.11773-11781.2000;
+RA   Shukla D., Dal Canto M.C., Rowe C.L., Spear P.G.;
+RT   "Striking similarity of murine nectin-1alpha to human nectin-1alpha (HveC)
+RT   in sequence and activity as a glycoprotein D receptor for alphaherpesvirus
+RT   entry.";
+RL   J. Virol. 74:11773-11781(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Swiss Webster;
+RA   Zhan J., Wimmer E.;
+RT   "Mouse nectin-1 (mPRR1), a herpesvirus receptor, is expressed in the floor
+RT   plate during embryogenesis, suggesting a role in neural development.";
+RL   Submitted (AUG-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   INTERACTION WITH NECTIN3.
+RX   PubMed=10744716; DOI=10.1074/jbc.275.14.10291;
+RA   Satoh-Horikawa K., Nakanishi H., Takahashi K., Miyahara M., Nishimura M.,
+RA   Tachibana K., Mizoguchi A., Takai Y.;
+RT   "Nectin-3: a new member of immunoglobulin-like cell adhesion molecules that
+RT   shows homophilic and heterophilic cell-cell adhesion activities.";
+RL   J. Biol. Chem. 275:10291-10299(2000).
+RN   [6]
+RP   FUNCTION, SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=11827984; DOI=10.1083/jcb.200103113;
+RA   Mizoguchi A., Nakanishi H., Kimura K., Matsubara K., Ozaki-Kuroda K.,
+RA   Katata T., Honda T., Kiyohara Y., Heo K., Higashi M., Tsutsumi T.,
+RA   Sonoda S., Ide C., Takai Y.;
+RT   "Nectin: an adhesion molecule involved in formation of synapses.";
+RL   J. Cell Biol. 156:555-565(2002).
+RN   [7]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Embryonic brain;
+RX   PubMed=15345747; DOI=10.1074/mcp.m400085-mcp200;
+RA   Ballif B.A., Villen J., Beausoleil S.A., Schwartz D., Gygi S.P.;
+RT   "Phosphoproteomic analysis of the developing mouse brain.";
+RL   Mol. Cell. Proteomics 3:1093-1101(2004).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-433 AND SER-434, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=17242355; DOI=10.1073/pnas.0609836104;
+RA   Villen J., Beausoleil S.A., Gerber S.A., Gygi S.P.;
+RT   "Large-scale phosphorylation analysis of mouse liver.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:1488-1493(2007).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-421, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19144319; DOI=10.1016/j.immuni.2008.11.006;
+RA   Trost M., English L., Lemieux S., Courcelles M., Desjardins M.,
+RA   Thibault P.;
+RT   "The phagosomal proteome in interferon-gamma-activated macrophages.";
+RL   Immunity 30:143-154(2009).
+RN   [10]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-202 AND ASN-286.
+RC   TISSUE=Myoblast;
+RX   PubMed=19656770; DOI=10.1074/mcp.m900195-mcp200;
+RA   Gundry R.L., Raginski K., Tarasova Y., Tchernyshyov I., Bausch-Fluck D.,
+RA   Elliott S.T., Boheler K.R., Van Eyk J.E., Wollscheid B.;
+RT   "The mouse C2C12 myoblast cell surface N-linked glycoproteome:
+RT   identification, glycosite occupancy, and membrane orientation.";
+RL   Mol. Cell. Proteomics 8:2555-2569(2009).
+RN   [11]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-202; ASN-286 AND ASN-332.
+RX   PubMed=19349973; DOI=10.1038/nbt.1532;
+RA   Wollscheid B., Bausch-Fluck D., Henderson C., O'Brien R., Bibel M.,
+RA   Schiess R., Aebersold R., Watts J.D.;
+RT   "Mass-spectrometric identification and relative quantification of N-linked
+RT   cell surface glycoproteins.";
+RL   Nat. Biotechnol. 27:378-386(2009).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-421; SER-433; TYR-435 AND
+RP   SER-509, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain, Kidney, and Lung;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [13]
+RP   STRUCTURE BY NMR OF 241-334, FUNCTION, SUBUNIT, IG-LIKE DOMAIN, AND
+RP   DISULFIDE BOND.
+RX   PubMed=22955284; DOI=10.1074/jbc.m112.345215;
+RA   Bojesen K.B., Clausen O., Rohde K., Christensen C., Zhang L., Li S.,
+RA   Kohler L., Nielbo S., Nielsen J., Gjorlund M.D., Poulsen F.M., Bock E.,
+RA   Berezin V.;
+RT   "Nectin-1 binds and signals through the fibroblast growth factor
+RT   receptor.";
+RL   J. Biol. Chem. 287:37420-37433(2012).
+CC   -!- FUNCTION: Involved in cell adhesion and synaptogegesis. Has some
+CC       neurite outgrowth-promoting activity. Receptor for alphaherpesvirus
+CC       (HSV-1, HSV-2 and pseudorabies virus) entry into cells.
+CC       {ECO:0000269|PubMed:11827984, ECO:0000269|PubMed:22955284}.
+CC   -!- SUBUNIT: Cis- and trans-homodimer. Can form trans-heterodimers with
+CC       NECTIN3. Interaction between NECTIN1 and NECTIN3 on the pre- and
+CC       postsynaptic sites, respectively, initiates the formation of puncta
+CC       adherentia junctions between axons and dendrites. Interacts (via Ig-
+CC       like C2-type domain 2) with FGFR1, FGFR2 and FGFR3. Interacts (via
+CC       Cytoplasmic domain) with AFDN, providing a connection with the actin
+CC       cytoskeleton. Interacts with HSV glycoprotein D (gD).
+CC       {ECO:0000269|PubMed:10744716, ECO:0000269|PubMed:11827984,
+CC       ECO:0000269|PubMed:22955284}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:11827984};
+CC       Single-pass type I membrane protein {ECO:0000269|PubMed:11827984}.
+CC       Presynaptic cell membrane {ECO:0000269|PubMed:11827984}.
+CC   -!- DOMAIN: Ig-like C2-type 2 mediates neurite outgrowth through binding,
+CC       induction of phosphorylation, and activation of FGFR.
+CC   -!- SIMILARITY: Belongs to the nectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF239762; AAF60333.1; -; mRNA.
+DR   EMBL; AF270977; AAF76195.1; -; mRNA.
+DR   EMBL; AF297665; AAG22808.1; -; mRNA.
+DR   EMBL; BC060694; AAH60694.1; -; mRNA.
+DR   CCDS; CCDS23092.1; -.
+DR   RefSeq; NP_067399.2; NM_021424.2.
+DR   PDB; 2L7J; NMR; -; A=241-334.
+DR   PDB; 5B21; X-ray; 2.24 A; A/B=31-144.
+DR   PDBsum; 2L7J; -.
+DR   PDBsum; 5B21; -.
+DR   AlphaFoldDB; Q9JKF6; -.
+DR   BMRB; Q9JKF6; -.
+DR   SMR; Q9JKF6; -.
+DR   BioGRID; 208408; 1.
+DR   DIP; DIP-41728N; -.
+DR   MINT; Q9JKF6; -.
+DR   STRING; 10090.ENSMUSP00000034510; -.
+DR   GlyConnect; 2528; 15 N-Linked glycans (1 site).
+DR   GlyGen; Q9JKF6; 7 sites, 15 N-linked glycans (1 site).
+DR   iPTMnet; Q9JKF6; -.
+DR   PhosphoSitePlus; Q9JKF6; -.
+DR   CPTAC; non-CPTAC-3660; -.
+DR   jPOST; Q9JKF6; -.
+DR   MaxQB; Q9JKF6; -.
+DR   PaxDb; Q9JKF6; -.
+DR   PeptideAtlas; Q9JKF6; -.
+DR   PRIDE; Q9JKF6; -.
+DR   ProteomicsDB; 252802; -.
+DR   Antibodypedia; 4247; 439 antibodies from 38 providers.
+DR   DNASU; 58235; -.
+DR   Ensembl; ENSMUST00000034510; ENSMUSP00000034510; ENSMUSG00000032012.
+DR   GeneID; 58235; -.
+DR   KEGG; mmu:58235; -.
+DR   UCSC; uc009pbj.1; mouse.
+DR   CTD; 5818; -.
+DR   MGI; MGI:1926483; Nectin1.
+DR   VEuPathDB; HostDB:ENSMUSG00000032012; -.
+DR   eggNOG; ENOG502QVRJ; Eukaryota.
+DR   GeneTree; ENSGT00940000156933; -.
+DR   HOGENOM; CLU_029618_3_1_1; -.
+DR   InParanoid; Q9JKF6; -.
+DR   OrthoDB; 509401at2759; -.
+DR   PhylomeDB; Q9JKF6; -.
+DR   TreeFam; TF331051; -.
+DR   Reactome; R-MMU-418990; Adherens junctions interactions.
+DR   Reactome; R-MMU-420597; Nectin/Necl trans heterodimerization.
+DR   BioGRID-ORCS; 58235; 3 hits in 76 CRISPR screens.
+DR   ChiTaRS; Nectin1; mouse.
+DR   PRO; PR:Q9JKF6; -.
+DR   Proteomes; UP000000589; Chromosome 9.
+DR   RNAct; Q9JKF6; protein.
+DR   Bgee; ENSMUSG00000032012; Expressed in lip and 140 other tissues.
+DR   ExpressionAtlas; Q9JKF6; baseline and differential.
+DR   Genevisible; Q9JKF6; MM.
+DR   GO; GO:0005912; C:adherens junction; IDA:MGI.
+DR   GO; GO:0043296; C:apical junction complex; IDA:MGI.
+DR   GO; GO:0030424; C:axon; ISO:MGI.
+DR   GO; GO:0044291; C:cell-cell contact zone; IDA:MGI.
+DR   GO; GO:0030425; C:dendrite; ISO:MGI.
+DR   GO; GO:0032584; C:growth cone membrane; ISO:MGI.
+DR   GO; GO:0098686; C:hippocampal mossy fiber to CA3 synapse; IDA:SynGO.
+DR   GO; GO:0016021; C:integral component of membrane; ISO:MGI.
+DR   GO; GO:0099059; C:integral component of presynaptic active zone membrane; IDA:SynGO.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; ISO:MGI.
+DR   GO; GO:0043005; C:neuron projection; ISO:MGI.
+DR   GO; GO:0005886; C:plasma membrane; ISO:MGI.
+DR   GO; GO:0045202; C:synapse; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; ISO:MGI.
+DR   GO; GO:0050839; F:cell adhesion molecule binding; ISO:MGI.
+DR   GO; GO:0042802; F:identical protein binding; ISO:MGI.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:HGNC-UCL.
+DR   GO; GO:0044877; F:protein-containing complex binding; ISO:MGI.
+DR   GO; GO:0038023; F:signaling receptor activity; IDA:MGI.
+DR   GO; GO:0046790; F:virion binding; ISO:MGI.
+DR   GO; GO:0007411; P:axon guidance; ISO:MGI.
+DR   GO; GO:0048593; P:camera-type eye morphogenesis; IMP:MGI.
+DR   GO; GO:0098609; P:cell-cell adhesion; IMP:MGI.
+DR   GO; GO:0002934; P:desmosome organization; IMP:MGI.
+DR   GO; GO:0070166; P:enamel mineralization; IMP:MGI.
+DR   GO; GO:0007157; P:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules; IDA:HGNC-UCL.
+DR   GO; GO:0007156; P:homophilic cell adhesion via plasma membrane adhesion molecules; IDA:HGNC-UCL.
+DR   GO; GO:0006826; P:iron ion transport; IMP:MGI.
+DR   GO; GO:0002089; P:lens morphogenesis in camera-type eye; IMP:MGI.
+DR   GO; GO:1902414; P:protein localization to cell junction; IDA:MGI.
+DR   GO; GO:0051963; P:regulation of synapse assembly; ISO:MGI.
+DR   GO; GO:0060041; P:retina development in camera-type eye; IMP:MGI.
+DR   GO; GO:0046718; P:viral entry into host cell; ISO:MGI.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:InterPro.
+DR   CDD; cd05886; Ig1_Nectin-1_like; 1.
+DR   CDD; cd05890; Ig2_Nectin-1_like; 1.
+DR   Gene3D; 2.60.40.10; -; 3.
+DR   InterPro; IPR013162; CD80_C2-set.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   InterPro; IPR041849; Nectin-1_Ig1.
+DR   InterPro; IPR041850; Nectin-1_Ig2.
+DR   InterPro; IPR033314; Nectin1.
+DR   PANTHER; PTHR23277:SF69; PTHR23277:SF69; 1.
+DR   Pfam; PF08205; C2-set_2; 1.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   Pfam; PF07686; V-set; 1.
+DR   SMART; SM00409; IG; 2.
+DR   SMART; SM00408; IGc2; 2.
+DR   SMART; SM00406; IGv; 1.
+DR   SUPFAM; SSF48726; SSF48726; 3.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell adhesion; Cell membrane; Cell projection;
+KW   Disulfide bond; Glycoprotein; Host-virus interaction;
+KW   Immunoglobulin domain; Membrane; Phosphoprotein; Receptor;
+KW   Reference proteome; Repeat; Signal; Synapse; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..515
+FT                   /note="Nectin-1"
+FT                   /id="PRO_0000015134"
+FT   TOPO_DOM        31..354
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        355..375
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        376..515
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          31..141
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          145..243
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          247..334
+FT                   /note="Ig-like C2-type 2"
+FT   REGION          282..299
+FT                   /note="Interaction with FGFR"
+FT   REGION          399..486
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        418..433
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        444..478
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         421
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:19144319,
+FT                   ECO:0007744|PubMed:21183079"
+FT   MOD_RES         433
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:17242355,
+FT                   ECO:0007744|PubMed:21183079"
+FT   MOD_RES         434
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:17242355"
+FT   MOD_RES         435
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0007744|PubMed:21183079"
+FT   MOD_RES         509
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:21183079"
+FT   CARBOHYD        36
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        72
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        202
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973,
+FT                   ECO:0000269|PubMed:19656770"
+FT   CARBOHYD        286
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973,
+FT                   ECO:0000269|PubMed:19656770"
+FT   CARBOHYD        297
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        332
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973"
+FT   DISULFID        51..124
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        172..226
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        269..316
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:22955284"
+FT   CONFLICT        138
+FT                   /note="L -> P (in Ref. 1; AAF60333)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        165
+FT                   /note="D -> N (in Ref. 2; AAF76195 and 3; AAG22808)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        342
+FT                   /note="P -> PP (in Ref. 2; AAF76195)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        428
+FT                   /note="G -> S (in Ref. 1; AAF60333 and 2; AAF76195)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          33..42
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          47..49
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          61..70
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          75..82
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   TURN            83..85
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          86..89
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   TURN            94..96
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          97..101
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          109..111
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   HELIX           116..118
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          120..129
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          132..143
+FT                   /evidence="ECO:0007829|PDB:5B21"
+FT   STRAND          248..253
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+FT   STRAND          267..272
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+FT   STRAND          278..284
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+FT   STRAND          293..296
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+FT   STRAND          299..305
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+FT   HELIX           308..310
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+FT   STRAND          312..320
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+FT   STRAND          323..331
+FT                   /evidence="ECO:0007829|PDB:2L7J"
+SQ   SEQUENCE   515 AA;  57035 MW;  A56FA2C7F8B25AFB CRC64;
+     MARMGLAGAA GRWWGLALGL TAFFLPGTHT QVVQVNDSMY GFIGTDVVLH CSFANPLPSV
+     KITQVTWQKA SNGSKQNMAI YNPTMGVSVL PPYEKRVEFL RPSFIDGTIR LSGLELEDEG
+     MYICEFATFP TGNRESQLNL TVMAKPTNWI EGTRAVLRAR KGQDDKVLVA TCTSANGKPP
+     SAVSWETRLK GEAEYQEIRN PNGTVTVISR YRLVPSREAH RQSLACIVNY HLDRFRESLT
+     LNVQYEPEVT IEGFDGNWYL QRTDVKLTCK ADANPPATEY HWTTLNGSLP KGVEAQNRTL
+     FFRGPITYSL AGTYICEATN PIGTRSGQVE VNITEFPYTP TPEHGRRAGQ MPTAIIGGVA
+     GSVLLVLIVV GGIIVALRRR RHTFKGDYST KKHVYGNGYS KAGIPQHHPP MAQNLQYPDD
+     SDDEKKAGPL GGSSYEEEEE EEGGGGGERK VGGPHPKYDE DAKRPYFTVD EAEARQDGYG
+     DRTLGYQYDP EQLDLAENMV SQNDGSFISK KEWYV
+//

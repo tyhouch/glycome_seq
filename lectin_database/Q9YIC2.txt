@@ -1,0 +1,120 @@
+ID   LEG2_CONMY              Reviewed;         136 AA.
+AC   Q9YIC2;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   03-AUG-2022, entry version 104.
+DE   RecName: Full=Congerin-2;
+DE   AltName: Full=Beta-galactoside-binding lectin 2;
+DE   AltName: Full=Congerin II;
+OS   Conger myriaster (Conger eel).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Anguilliformes; Congridae; Conger.
+OX   NCBI_TaxID=7943;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=10478448; DOI=10.1271/bbb.63.1203;
+RA   Ogawa T., Ishii C., Kagawa D., Muramoto K., Kamiya H.;
+RT   "Accelerated evolution in the protein-coding region of galectin cDNAs,
+RT   congerin I and congerin II, from skin mucus of conger eel (Conger
+RT   myriaster).";
+RL   Biosci. Biotechnol. Biochem. 63:1203-1208(1999).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-136, AND ACETYLATION AT SER-2.
+RC   TISSUE=Skin mucus;
+RX   PubMed=10425711; DOI=10.1016/s0305-0491(99)00037-1;
+RA   Muramoto K., Kagawa D., Sato T., Ogawa T., Nishida Y., Kamiya H.;
+RT   "Functional and structural characterization of multiple galectins from the
+RT   skin mucus of conger eel, Conger myriaster.";
+RL   Comp. Biochem. Physiol. 123B:33-45(1999).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.45 ANGSTROMS) IN COMPLEX WITH LACTOSE.
+RX   PubMed=12206768; DOI=10.1016/s0022-2836(02)00700-3;
+RA   Shirai T., Matsui Y., Shionyu-Mitsuyama C., Yamane T., Kamiya H., Ishii C.,
+RA   Ogawa T., Muramoto K.;
+RT   "Crystal structure of a conger eel galectin (congerin II) at 1.45A
+RT   resolution: implication for the accelerated evolution of a new ligand-
+RT   binding site following gene duplication.";
+RL   J. Mol. Biol. 321:879-889(2002).
+CC   -!- FUNCTION: This protein binds beta-galactoside. Its physiological
+CC       function is not yet known.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:12206768}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB010277; BAA36386.1; -; mRNA.
+DR   PDB; 1IS3; X-ray; 1.45 A; A=2-136.
+DR   PDB; 1IS4; X-ray; 1.90 A; A=2-136.
+DR   PDB; 1IS5; X-ray; 2.00 A; A=2-136.
+DR   PDB; 1IS6; X-ray; 1.70 A; A=2-136.
+DR   PDB; 1WLC; X-ray; 2.00 A; A=2-136.
+DR   PDB; 1WLD; X-ray; 1.60 A; A=2-136.
+DR   PDB; 1WLW; X-ray; 1.80 A; A=2-136.
+DR   PDBsum; 1IS3; -.
+DR   PDBsum; 1IS4; -.
+DR   PDBsum; 1IS5; -.
+DR   PDBsum; 1IS6; -.
+DR   PDBsum; 1WLC; -.
+DR   PDBsum; 1WLD; -.
+DR   PDBsum; 1WLW; -.
+DR   AlphaFoldDB; Q9YIC2; -.
+DR   SMR; Q9YIC2; -.
+DR   UniLectin; Q9YIC2; -.
+DR   iPTMnet; Q9YIC2; -.
+DR   EvolutionaryTrace; Q9YIC2; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Lectin.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:10425711"
+FT   CHAIN           2..136
+FT                   /note="Congerin-2"
+FT                   /id="PRO_0000076955"
+FT   DOMAIN          4..136
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         70..76
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:10425711"
+FT   STRAND          5..13
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          18..24
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          30..38
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          41..52
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          57..65
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   TURN            66..68
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          74..76
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          85..93
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          95..101
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          107..111
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+FT   STRAND          117..135
+FT                   /evidence="ECO:0007829|PDB:1IS3"
+SQ   SEQUENCE   136 AA;  15467 MW;  AABB02B9BEBA6A1A CRC64;
+     MSDRAEVRNI PFKLGMYLTV GGVVNSNATR FSINVGESTD SIAMHMDHRF SYGADQNVLV
+     LNSLVHNVGW QQEERSKKFP FTKGDHFQTT ITFDTHTFYI QLSNGETVEF PNRNKDAAFN
+     LIYLAGDARL TFVRLE
+//

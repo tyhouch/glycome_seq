@@ -1,0 +1,173 @@
+ID   LED2_PHYAM              Reviewed;          82 AA.
+AC   P83790;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2004, sequence version 1.
+DT   03-AUG-2022, entry version 71.
+DE   RecName: Full=Lectin-D2;
+DE   AltName: Full=PL-D2;
+OS   Phytolacca americana (American pokeweed) (Phytolacca decandra).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   Caryophyllales; Phytolaccaceae; Phytolacca.
+OX   NCBI_TaxID=3527;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, AND FUNCTION.
+RC   TISSUE=Root {ECO:0000269|PubMed:8987560};
+RX   PubMed=8987560; DOI=10.1271/bbb.60.1380;
+RA   Yamaguchi K., Mori A., Funatsu G.;
+RT   "Amino acid sequence and some properties of lectin-D from the roots of
+RT   pokeweed (Phytolacca americana).";
+RL   Biosci. Biotechnol. Biochem. 60:1380-1382(1996).
+RN   [2] {ECO:0000305}
+RP   FUNCTION, AND SUBUNIT.
+RX   PubMed=15277769; DOI=10.1271/bbb.68.1591;
+RA   Yamaguchi K., Uechi M., Katakura Y., Oda T., Ishiguro M.;
+RT   "Mitogenic properties of pokeweed lectin-D isoforms on human peripheral
+RT   blood lymphocytes: non-mitogen PL-D1 and mitogen PL-D2.";
+RL   Biosci. Biotechnol. Biochem. 68:1591-1593(2004).
+RN   [3] {ECO:0000305, ECO:0000312|PDB:1ULM}
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) IN COMPLEX WITH
+RP   TRI-N-ACETYLCHITOTRIOSE.
+RX   PubMed=14623194; DOI=10.1016/j.jmb.2003.09.076;
+RA   Hayashida M., Fujii T., Hamasu M., Ishiguro M., Hata Y.;
+RT   "Similarity between protein-protein and protein-carbohydrate interactions,
+RT   revealed by two crystal structures of lectins from the roots of pokeweed.";
+RL   J. Mol. Biol. 334:551-565(2003).
+RN   [4] {ECO:0000305}
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS).
+RX   PubMed=15039554; DOI=10.1107/s090744490400232x;
+RA   Fujii T., Hayashida M., Hamasu M., Ishiguro M., Hata Y.;
+RT   "Structures of two lectins from the roots of pokeweed (Phytolacca
+RT   americana).";
+RL   Acta Crystallogr. D 60:665-673(2004).
+CC   -!- FUNCTION: N-acetyl-D-glucosamine binding lectin. Shows no
+CC       hemagglutinating activity towards rabbit erythrocytes and weak activity
+CC       towards trypsin-treated erythrocytes. Has mitogenic activity towards
+CC       human peripheral blood lymphocytes (HPBL).
+CC       {ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15277769,
+CC       ECO:0000269|PubMed:8987560}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:14623194,
+CC       ECO:0000269|PubMed:15277769}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1UHA; X-ray; 1.50 A; A=1-82.
+DR   PDB; 1ULM; X-ray; 1.80 A; A/B=1-82.
+DR   PDB; 1ULN; X-ray; 1.65 A; A=1-82.
+DR   PDBsum; 1UHA; -.
+DR   PDBsum; 1ULM; -.
+DR   PDBsum; 1ULN; -.
+DR   AlphaFoldDB; P83790; -.
+DR   SMR; P83790; -.
+DR   CAZy; CBM18; Carbohydrate-Binding Module Family 18.
+DR   UniLectin; P83790; -.
+DR   EvolutionaryTrace; P83790; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; IDA:UniProtKB.
+DR   GO; GO:0051781; P:positive regulation of cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0045840; P:positive regulation of mitotic nuclear division; IDA:UniProtKB.
+DR   Gene3D; 3.30.60.10; -; 2.
+DR   InterPro; IPR001002; Chitin-bd_1.
+DR   InterPro; IPR018371; Chitin-binding_1_CS.
+DR   InterPro; IPR036861; Endochitinase-like_sf.
+DR   Pfam; PF00187; Chitin_bind_1; 2.
+DR   PRINTS; PR00451; CHITINBINDNG.
+DR   SMART; SM00270; ChtBD1; 2.
+DR   SUPFAM; SSF57016; SSF57016; 2.
+DR   PROSITE; PS00026; CHIT_BIND_I_1; 1.
+DR   PROSITE; PS50941; CHIT_BIND_I_2; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Chitin-binding; Direct protein sequencing; Disulfide bond;
+KW   Lectin; Mitogen; Repeat.
+FT   CHAIN           1..82
+FT                   /note="Lectin-D2"
+FT                   /id="PRO_0000124812"
+FT   DOMAIN          1..42
+FT                   /note="Chitin-binding type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          43..82
+FT                   /note="Chitin-binding type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   BINDING         20
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         22
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         24
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         31
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         43
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         61
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         63
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         65
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   BINDING         72
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000269|PubMed:14623194"
+FT   DISULFID        4..19
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   DISULFID        13..25
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   DISULFID        18..32
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   DISULFID        36..40
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   DISULFID        45..60
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   DISULFID        54..66
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   DISULFID        59..73
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   DISULFID        77..81
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194, ECO:0000269|PubMed:15039554"
+FT   HELIX           6..8
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   HELIX           14..16
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   STRAND          25..28
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   HELIX           29..32
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   TURN            40..43
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   HELIX           47..49
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   STRAND          64..67
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   HELIX           70..73
+FT                   /evidence="ECO:0007829|PDB:1UHA"
+FT   STRAND          74..76
+FT                   /evidence="ECO:0007829|PDB:1ULM"
+SQ   SEQUENCE   82 AA;  9103 MW;  1E65B08E58A80037 CRC64;
+     APECGERASG KRCPNGKCCS QWGYCGTTDN YCGQGCQSQC DYWRCGRDFG GRLCEEDMCC
+     SKYGWCGYSD DHCEDGCQSQ CD
+//

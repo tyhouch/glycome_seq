@@ -1,0 +1,154 @@
+ID   TAL2_TACTR              Reviewed;         255 AA.
+AC   Q27084;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   25-MAY-2022, entry version 88.
+DE   RecName: Full=Tachylectin-2;
+DE   AltName: Full=Lectin L10c;
+DE   Flags: Precursor;
+OS   Tachypleus tridentatus (Japanese horseshoe crab).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Merostomata;
+OC   Xiphosura; Limulidae; Tachypleus.
+OX   NCBI_TaxID=6853;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=8537358; DOI=10.1074/jbc.270.52.31008;
+RA   Okino N., Kawabata S., Saito T., Hirata M., Takagi T., Iwanaga S.;
+RT   "Purification, characterization, and cDNA cloning of a 27-kDa lectin (L10)
+RT   from horseshoe crab hemocytes.";
+RL   J. Biol. Chem. 270:31008-31015(1995).
+RN   [2]
+RP   DOMAINS WD REPEATS.
+RX   PubMed=12223283; DOI=10.1016/s0304-4165(02)00322-7;
+RA   Kawabata S., Tsuda R.;
+RT   "Molecular basis of non-self recognition by the horseshoe crab
+RT   tachylectins.";
+RL   Biochim. Biophys. Acta 1572:414-421(2002).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 20-255.
+RX   PubMed=10228146; DOI=10.1093/emboj/18.9.2313;
+RA   Beisel H.G., Kawabata S., Iwanaga S., Huber R., Bode W.;
+RT   "Tachylectin-2: crystal structure of a specific GlcNAc/GalNAc-binding
+RT   lectin involved in the innate immunity host defense of the Japanese
+RT   horseshoe crab Tachypleus tridentatus.";
+RL   EMBO J. 18:2313-2322(1999).
+CC   -!- FUNCTION: Lectin that binds specifically to N-acetylglucosamine and N-
+CC       acetylgalactosamine. Is part of the innate immunity host defense system
+CC       of the horseshoe crab.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:8537358}.
+CC       Cytoplasmic granule {ECO:0000269|PubMed:8537358}. Note=Stored in large
+CC       secretory granules of hemocytes and secreted upon stimulation by
+CC       lipopolysaccharides (LPS).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D45909; BAA08313.1; -; mRNA.
+DR   PIR; PC1320; PC1320.
+DR   PDB; 1TL2; X-ray; 2.00 A; A=20-255.
+DR   PDB; 3KIF; X-ray; 2.50 A; A/B/C/D/E/F/G/H/I/J=83-186.
+DR   PDB; 3KIH; X-ray; 2.49 A; A/B/C/D/E=57-152.
+DR   PDBsum; 1TL2; -.
+DR   PDBsum; 3KIF; -.
+DR   PDBsum; 3KIH; -.
+DR   AlphaFoldDB; Q27084; -.
+DR   SMR; Q27084; -.
+DR   UniLectin; Q27084; -.
+DR   EvolutionaryTrace; Q27084; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   InterPro; IPR023294; Tachylectin2.
+DR   InterPro; IPR036813; Tachylectin2_sf.
+DR   Pfam; PF14517; Tachylectin; 1.
+DR   SUPFAM; SSF50934; SSF50934; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Immunity; Innate immunity; Lectin;
+KW   Repeat; Secreted; Signal; WD repeat.
+FT   SIGNAL          1..19
+FT   CHAIN           20..255
+FT                   /note="Tachylectin-2"
+FT                   /id="PRO_0000041404"
+FT   REPEAT          20..67
+FT                   /note="WD 1"
+FT   REPEAT          68..114
+FT                   /note="WD 2"
+FT   REPEAT          115..161
+FT                   /note="WD 3"
+FT   REPEAT          162..208
+FT                   /note="WD 4"
+FT   REPEAT          209..255
+FT                   /note="WD 5"
+FT   VARIANT         148
+FT                   /note="I -> V (in L10A/B)"
+FT   VARIANT         232
+FT                   /note="H -> Y (in L10A/B)"
+FT   STRAND          26..30
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          33..38
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           47..50
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          51..58
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           59..61
+FT                   /evidence="ECO:0007829|PDB:3KIH"
+FT   STRAND          63..67
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          73..77
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          80..85
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           94..97
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          99..102
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           106..108
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          110..114
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          120..124
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          127..132
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           141..144
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          145..149
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           153..155
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          156..161
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          167..171
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          174..178
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           188..191
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          193..199
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           200..202
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          203..208
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          214..218
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          221..226
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           235..238
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          240..246
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   HELIX           247..249
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+FT   STRAND          250..254
+FT                   /evidence="ECO:0007829|PDB:1TL2"
+SQ   SEQUENCE   255 AA;  28881 MW;  A5FF0F888A72973B CRC64;
+     MKFLLVVLGF IGFLKDGITV GGESMLRGVY QDKFYQGTYP QNKNDNWLAR ATLIGKGGWS
+     NFKFLFLSPG GELYGVLNDK IYKGTPPTHD NDNWMGRAKK IGNGGWNQFQ FLFFDPNGYL
+     YAVSKDKLYK ASPPQSDTDN WIARATEIGS GGWSGFKFLF FHPNGYLYAV HGQQFYKALP
+     PVSNQDNWLA RATKIGQGGW DTFKFLFFSS VGTLFGVQGG KFYEDYPPSY AHDNWLARAK
+     LIGNGGWDDF RFLFF
+//

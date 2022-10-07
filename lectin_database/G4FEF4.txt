@@ -1,0 +1,442 @@
+ID   AGAL_THEMA              Reviewed;         552 AA.
+AC   G4FEF4; O33835;
+DT   15-FEB-2017, integrated into UniProtKB/Swiss-Prot.
+DT   14-DEC-2011, sequence version 1.
+DT   03-AUG-2022, entry version 74.
+DE   RecName: Full=Alpha-galactosidase {ECO:0000303|PubMed:9741105, ECO:0000312|EMBL:AGL50123.1, ECO:0000312|EMBL:CAA04514.1};
+DE            EC=3.2.1.22 {ECO:0000269|PubMed:17323919, ECO:0000269|PubMed:24237145, ECO:0000269|PubMed:25486100, ECO:0000269|PubMed:26005928, ECO:0000269|PubMed:27783466, ECO:0000269|PubMed:9741105};
+DE   AltName: Full=Melibiase {ECO:0000305};
+GN   Name=galA {ECO:0000303|PubMed:9741105, ECO:0000312|EMBL:CAA04514.1};
+GN   OrderedLocusNames=TM_1192 {ECO:0000312|EMBL:AAD36267.1};
+GN   ORFNames=Tmari_1199 {ECO:0000312|EMBL:AGL50123.1};
+OS   Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826
+OS   / MSB8).
+OC   Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+OX   NCBI_TaxID=243274 {ECO:0000312|EMBL:AGL50123.1};
+RN   [1] {ECO:0000312|EMBL:CAA04514.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-36, FUNCTION,
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE SPECIFICITY,
+RP   SUBUNIT, AND OPERON STRUCTURE.
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8
+RC   {ECO:0000312|EMBL:CAA04514.1};
+RX   PubMed=9741105; DOI=10.1016/s0723-2020(98)80002-7;
+RA   Liebl W., Wagner B., Schellhase J.;
+RT   "Properties of an alpha-galactosidase, and structure of its gene galA,
+RT   within an alpha- and beta-galactoside utilization gene cluster of the
+RT   hyperthermophilic bacterium Thermotoga maritima.";
+RL   Syst. Appl. Microbiol. 21:1-11(1998).
+RN   [2] {ECO:0000312|EMBL:AAD36267.1, ECO:0000312|Proteomes:UP000008183}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8
+RC   {ECO:0000312|EMBL:AAD36267.1, ECO:0000312|Proteomes:UP000008183};
+RX   PubMed=10360571; DOI=10.1038/20601;
+RA   Nelson K.E., Clayton R.A., Gill S.R., Gwinn M.L., Dodson R.J., Haft D.H.,
+RA   Hickey E.K., Peterson J.D., Nelson W.C., Ketchum K.A., McDonald L.A.,
+RA   Utterback T.R., Malek J.A., Linher K.D., Garrett M.M., Stewart A.M.,
+RA   Cotton M.D., Pratt M.S., Phillips C.A., Richardson D.L., Heidelberg J.F.,
+RA   Sutton G.G., Fleischmann R.D., Eisen J.A., White O., Salzberg S.L.,
+RA   Smith H.O., Venter J.C., Fraser C.M.;
+RT   "Evidence for lateral gene transfer between Archaea and Bacteria from
+RT   genome sequence of Thermotoga maritima.";
+RL   Nature 399:323-329(1999).
+RN   [3] {ECO:0000312|EMBL:AGL50123.1, ECO:0000312|Proteomes:UP000013901}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8
+RC   {ECO:0000312|EMBL:AGL50123.1, ECO:0000312|Proteomes:UP000013901};
+RX   PubMed=23637642; DOI=10.1371/journal.pgen.1003485;
+RA   Latif H., Lerman J.A., Portnoy V.A., Tarasova Y., Nagarajan H.,
+RA   Schrimpe-Rutledge A.C., Smith R.D., Adkins J.N., Lee D.H., Qiu Y.,
+RA   Zengler K.;
+RT   "The genome organization of Thermotoga maritima reflects its lifestyle.";
+RL   PLoS Genet. 9:E1003485-E1003485(2013).
+RN   [4]
+RP   CATALYTIC ACTIVITY, REACTION MECHANISM, ACTIVE SITE, AND MUTAGENESIS OF
+RP   ASP-220; ASP-327 AND ASP-387.
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8
+RC   {ECO:0000303|PubMed:17323919};
+RX   PubMed=17323919; DOI=10.1021/bi061521n;
+RA   Comfort D.A., Bobrov K.S., Ivanen D.R., Shabalin K.A., Harris J.M.,
+RA   Kulminskaya A.A., Brumer H., Kelly R.M.;
+RT   "Biochemical analysis of Thermotoga maritima GH36 alpha-galactosidase
+RT   (TmGalA) confirms the mechanistic commonality of clan GH-D glycoside
+RT   hydrolases.";
+RL   Biochemistry 46:3319-3330(2007).
+RN   [5]
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, MUTAGENESIS OF PHE-328;
+RP   GLY-385 AND PRO-402, AND PROTEIN ENGINEERING.
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8
+RC   {ECO:0000303|PubMed:24237145};
+RX   PubMed=24237145; DOI=10.1134/s0006297913100052;
+RA   Bobrov K.S., Borisova A.S., Eneyskaya E.V., Ivanen D.R., Shabalin K.A.,
+RA   Kulminskaya A.A., Rychkov G.N.;
+RT   "Improvement of the efficiency of transglycosylation catalyzed by alpha-
+RT   galactosidase from Thermotoga maritima by protein engineering.";
+RL   Biochemistry (Mosc.) 78:1112-1123(2013).
+RN   [6]
+RP   CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8
+RC   {ECO:0000303|PubMed:26005928};
+RX   PubMed=26005928; DOI=10.1016/j.carres.2015.03.021;
+RA   Borisova A.S., Reddy S.K., Ivanen D.R., Bobrov K.S., Eneyskaya E.V.,
+RA   Rychkov G.N., Sandgren M., Staalbrand H., Sinnott M.L., Kulminskaya A.A.,
+RA   Shabalin K.A.;
+RT   "The method of integrated kinetics and its applicability to the exo-
+RT   glycosidase-catalyzed hydrolysis of p-nitrophenyl glycosides.";
+RL   Carbohydr. Res. 412:43-49(2015).
+RN   [7]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8
+RC   {ECO:0000303|PubMed:25486100};
+RX   PubMed=25486100; DOI=10.1016/j.carres.2014.11.003;
+RA   Borisova A.S., Ivanen D.R., Bobrov K.S., Eneyskaya E.V., Rychkov G.N.,
+RA   Sandgren M., Kulminskaya A.A., Sinnott M.L., Shabalin K.A.;
+RT   "alpha-Galactobiosyl units: thermodynamics and kinetics of their formation
+RT   by transglycosylations catalysed by the GH36 alpha-galactosidase from
+RT   Thermotoga maritima.";
+RL   Carbohydr. Res. 401:115-121(2015).
+RN   [8] {ECO:0007744|PDB:1ZY9}
+RP   X-RAY CRYSTALLOGRAPHY (2.34 ANGSTROMS) OF APOENZYME.
+RG   Joint Center for Structural Genomics (JCSG);
+RT   "Crystal structure of alpha-galactosidase (ec 3.2.1.22) (melibiase)
+RT   (tm1192) from Thermotoga maritima at 2.34 A resolution.";
+RL   Submitted (JUN-2005) to the PDB data bank.
+RN   [9] {ECO:0007744|PDB:5M0X, ECO:0007744|PDB:5M12, ECO:0007744|PDB:5M16, ECO:0007744|PDB:5M1I}
+RP   X-RAY CRYSTALLOGRAPHY (1.53 ANGSTROMS) OF SUBSTRATE-FREE ENZYME AND IN
+RP   COMPLEX WITH INHIBITOR ANALOG AND HYDROLYSIS PRODUCT, CATALYTIC ACTIVITY,
+RP   ACTIVITY REGULATION, AND REACTION MECHANISM.
+RX   PubMed=27783466; DOI=10.1002/anie.201607431;
+RA   Adamson C., Pengelly R.J., Shamsi Kazem Abadi S., Chakladar S., Draper J.,
+RA   Britton R., Gloster T.M., Bennet A.J.;
+RT   "Structural snapshots for mechanism-based inactivation of a glycoside
+RT   hydrolase by cyclopropyl carbasugars.";
+RL   Angew. Chem. Int. Ed. 55:14978-14982(2016).
+CC   -!- FUNCTION: Hydrolyzes the short-chain alpha-galactosaccharides
+CC       raffinose, melibiose and stachyose. {ECO:0000269|PubMed:25486100,
+CC       ECO:0000269|PubMed:9741105}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-galactose
+CC         residues in alpha-D-galactosides, including galactose
+CC         oligosaccharides, galactomannans and galactolipids.; EC=3.2.1.22;
+CC         Evidence={ECO:0000269|PubMed:17323919, ECO:0000269|PubMed:24237145,
+CC         ECO:0000269|PubMed:25486100, ECO:0000269|PubMed:26005928,
+CC         ECO:0000269|PubMed:27783466, ECO:0000269|PubMed:9741105};
+CC   -!- ACTIVITY REGULATION: Inhibited by hydrolyzation product alpha-
+CC       galactopyranose and to a lesser extent by beta-galactopyranose, its
+CC       mutarotational product (PubMed:26005928). Inhibited by synthetic
+CC       cyclopropyl carbasugars (PubMed:27783466).
+CC       {ECO:0000269|PubMed:26005928, ECO:0000269|PubMed:27783466}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.075 mM for p-nitrophenol-alpha-galactoside (at pH 5.0 and 75
+CC         degrees Celsius) {ECO:0000269|PubMed:9741105};
+CC         KM=2.1 mM for raffinose (at pH 5.0 and 75 degrees Celsius)
+CC         {ECO:0000269|PubMed:9741105};
+CC         KM=0.11 mM for p-nitrophenyl-alpha-D-galactopyranoside (at pH 5.0 and
+CC         37 degrees Celsius) {ECO:0000269|PubMed:24237145};
+CC         KM=1.17 mM for melibiose (at pH 5.0 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:25486100};
+CC         KM=10.04 mM for raffinose (at pH 5.0 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:25486100};
+CC         KM=2.84 mM for stachyose (at pH 5.0 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:25486100};
+CC         Vmax=166 umol/min/mg enzyme for 4-nitrophenol-alpha-galactoside (at
+CC         pH 5.0 and 75 degrees Celsius) {ECO:0000269|PubMed:9741105};
+CC         Vmax=103 umol/min/mg enzyme for raffinose (at pH 5.0 and 75 degrees
+CC         Celsius) {ECO:0000269|PubMed:9741105};
+CC         Note=kcat is 176 s(1) for p-nitrophenol-alpha-galactoside (at pH 5.0
+CC         and 75 degrees Celsius). kcat is 109 s(1) for raffinose (at pH 5.0
+CC         and 75 degrees Celsius) (PubMed:9741105). kcat is 8 s(1) for
+CC         p-nitrophenyl-alpha-D-galactopyranoside (at pH 5.0 and 37 degrees
+CC         Celsius) (PubMed:24237145). kcat is 2.33 s(1) for melibiose (at pH
+CC         5.0 and 37 degrees Celsius). kcat is 5.0 s(1) for raffinose (at pH
+CC         5.0 and 37 degrees Celsius). kcat is 0.53 s(1) for stachyose (at pH
+CC         5.0 and 37 degrees Celsius) (PubMed:25486100).
+CC         {ECO:0000269|PubMed:24237145, ECO:0000269|PubMed:25486100,
+CC         ECO:0000269|PubMed:9741105};
+CC       pH dependence:
+CC         Optimum pH is 5.0-5.5 when using synthetic substrate
+CC         p-nitrophenyl-alpha-D-galactopyranoside.
+CC         {ECO:0000269|PubMed:9741105};
+CC       Temperature dependence:
+CC         Optimum temperature is 90-95 degrees Celsius when using synthetic
+CC         substrate p-nitrophenyl-alpha-D-galactopyranoside. The half-life of
+CC         thermoinactivation is 6.5 h at 85 degrees Celsius.
+CC         {ECO:0000269|PubMed:9741105};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:9741105}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 36 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ001072; CAA04514.1; -; Genomic_DNA.
+DR   EMBL; AE000512; AAD36267.1; -; Genomic_DNA.
+DR   EMBL; CP004077; AGL50123.1; -; Genomic_DNA.
+DR   PIR; E72283; E72283.
+DR   RefSeq; NP_228997.1; NC_000853.1.
+DR   RefSeq; WP_004080136.1; NZ_CP011107.1.
+DR   PDB; 1ZY9; X-ray; 2.34 A; A=1-552.
+DR   PDB; 5M0X; X-ray; 1.80 A; A=1-552.
+DR   PDB; 5M12; X-ray; 1.53 A; A=1-552.
+DR   PDB; 5M16; X-ray; 1.62 A; A=1-552.
+DR   PDB; 5M1I; X-ray; 1.55 A; A=1-552.
+DR   PDB; 6GTA; X-ray; 2.20 A; A=1-552.
+DR   PDB; 6GVD; X-ray; 1.22 A; A=1-552.
+DR   PDB; 6GWF; X-ray; 1.72 A; A=1-552.
+DR   PDB; 6GWG; X-ray; 1.77 A; A=1-552.
+DR   PDB; 6GX8; X-ray; 1.42 A; A=1-552.
+DR   PDBsum; 1ZY9; -.
+DR   PDBsum; 5M0X; -.
+DR   PDBsum; 5M12; -.
+DR   PDBsum; 5M16; -.
+DR   PDBsum; 5M1I; -.
+DR   PDBsum; 6GTA; -.
+DR   PDBsum; 6GVD; -.
+DR   PDBsum; 6GWF; -.
+DR   PDBsum; 6GWG; -.
+DR   PDBsum; 6GX8; -.
+DR   AlphaFoldDB; G4FEF4; -.
+DR   SMR; G4FEF4; -.
+DR   STRING; 243274.THEMA_08370; -.
+DR   ChEMBL; CHEMBL3308963; -.
+DR   CAZy; GH36; Glycoside Hydrolase Family 36.
+DR   DNASU; 898292; -.
+DR   EnsemblBacteria; AAD36267; AAD36267; TM_1192.
+DR   EnsemblBacteria; AGL50123; AGL50123; Tmari_1199.
+DR   KEGG; tma:TM1192; -.
+DR   KEGG; tmm:Tmari_1199; -.
+DR   KEGG; tmw:THMA_1218; -.
+DR   PATRIC; fig|243274.17.peg.1197; -.
+DR   eggNOG; COG3345; Bacteria.
+DR   InParanoid; G4FEF4; -.
+DR   OMA; ILGCGAP; -.
+DR   OrthoDB; 469334at2; -.
+DR   BRENDA; 3.2.1.22; 6331.
+DR   Proteomes; UP000008183; Chromosome.
+DR   Proteomes; UP000013901; Chromosome.
+DR   GO; GO:0004557; F:alpha-galactosidase activity; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0052692; F:raffinose alpha-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0016139; P:glycoside catabolic process; IDA:UniProtKB.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Direct protein sequencing;
+KW   Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           1..552
+FT                   /note="Alpha-galactosidase"
+FT                   /id="PRO_0000439021"
+FT   ACT_SITE        327
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   ACT_SITE        387
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   BINDING         65
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:27783466,
+FT                   ECO:0007744|PDB:5M16"
+FT   BINDING         191
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:27783466,
+FT                   ECO:0007744|PDB:5M16"
+FT   BINDING         220..221
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:27783466,
+FT                   ECO:0007744|PDB:5M16"
+FT   BINDING         325..327
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:27783466,
+FT                   ECO:0007744|PDB:5M16"
+FT   BINDING         368
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:27783466,
+FT                   ECO:0007744|PDB:5M16"
+FT   BINDING         383
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:27783466,
+FT                   ECO:0007744|PDB:5M16"
+FT   MUTAGEN         220
+FT                   /note="D->A: Less than 1% of the wild-type enzyme activity
+FT                   with p-nitrophenyl-alpha-D-galactopyranoside as substrate
+FT                   at 80 degrees Celsius."
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   MUTAGEN         220
+FT                   /note="D->G: Reduced activity compared to the wild-type
+FT                   enzyme."
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   MUTAGEN         327
+FT                   /note="D->A: Less than 1% of the wild-type enzyme activity
+FT                   with p-nitrophenyl-alpha-D-galactopyranoside as substrate
+FT                   at 80 degrees Celsius."
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   MUTAGEN         327
+FT                   /note="D->G: Between 200 and 800-fold lower catalytic rate
+FT                   and between 300 and 1700-fold lower catalytic efficiency
+FT                   than the wild-type enzyme with aryl-alpha-galactosides as
+FT                   substrates."
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   MUTAGEN         328
+FT                   /note="F->A: Increased transglycosylating activity at high
+FT                   concentrations of p-nitrophenyl-alpha-D-galactopyranoside
+FT                   substrate, which could be useful in industry and medicine
+FT                   for the synthesis of different
+FT                   p-nitrophenyl-digalactosides. Able to produce 16 times more
+FT                   of a regio-isomer with the (alpha1,2)-bond than wild-type
+FT                   enzyme."
+FT                   /evidence="ECO:0000269|PubMed:24237145"
+FT   MUTAGEN         385
+FT                   /note="G->L: Increased transglycosylating activity at high
+FT                   concentrations of p-nitrophenyl-alpha-D-galactopyranoside
+FT                   substrate, which could be useful in industry and medicine
+FT                   for the synthesis of different
+FT                   p-nitrophenyl-digalactosides."
+FT                   /evidence="ECO:0000269|PubMed:24237145"
+FT   MUTAGEN         387
+FT                   /note="D->A: Less than 1% of the wild-type enzyme activity
+FT                   with p-nitrophenyl-alpha-D-galactopyranoside as substrate
+FT                   at 80 degrees Celsius."
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   MUTAGEN         387
+FT                   /note="D->G: 1500-fold lower catalytic rate and 1000-fold
+FT                   lower catalytic efficiency than the wild-type enzyme with
+FT                   p-nitrophenyl-alpha-D-galactopyranoside as substrate."
+FT                   /evidence="ECO:0000269|PubMed:17323919"
+FT   MUTAGEN         402
+FT                   /note="P->D: Increased transglycosylating activity at high
+FT                   concentrations of p-nitrophenyl-alpha-D-galactopyranoside
+FT                   substrate, which could be useful in industry and medicine
+FT                   for the synthesis of different
+FT                   p-nitrophenyl-digalactosides."
+FT                   /evidence="ECO:0000269|PubMed:24237145"
+FT   STRAND          1..3
+FT                   /evidence="ECO:0007829|PDB:1ZY9"
+FT   STRAND          10..16
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          18..29
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          32..41
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          45..52
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          55..60
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          68..75
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           83..85
+FT                   /evidence="ECO:0007829|PDB:1ZY9"
+FT   HELIX           86..89
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           93..96
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          101..108
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          111..116
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          119..128
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          131..137
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          143..148
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          152..156
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           160..175
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          185..189
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           190..193
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           194..196
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           199..208
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           209..211
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          215..219
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          223..226
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           240..249
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          253..258
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          262..264
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           268..272
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           274..276
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          286..290
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          293..298
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           303..319
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          323..326
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           329..333
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          335..337
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          339..341
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           344..359
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          363..367
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           373..375
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   TURN            376..378
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          380..383
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          398..401
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           404..413
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           415..417
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   TURN            418..420
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          421..425
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          433..435
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           440..452
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          457..459
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           463..465
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   HELIX           468..478
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          482..487
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   TURN            488..491
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          493..504
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          507..514
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   TURN            515..518
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+FT   STRAND          519..524
+FT                   /evidence="ECO:0007829|PDB:6GVD"
+SQ   SEQUENCE   552 AA;  63657 MW;  91C6E6EFA24EA9D5 CRC64;
+     MEIFGKTFRE GRFVLKEKNF TVEFAVEKIH LGWKISGRVK GSPGRLEVLR TKAPEKVLVN
+     NWQSWGPCRV VDAFSFKPPE IDPNWRYTAS VVPDVLERNL QSDYFVAEEG KVYGFLSSKI
+     AHPFFAVEDG ELVAYLEYFD VEFDDFVPLE PLVVLEDPNT PLLLEKYAEL VGMENNARVP
+     KHTPTGWCSW YHYFLDLTWE ETLKNLKLAK NFPFEVFQID DAYEKDIGDW LVTRGDFPSV
+     EEMAKVIAEN GFIPGIWTAP FSVSETSDVF NEHPDWVVKE NGEPKMAYRN WNKKIYALDL
+     SKDEVLNWLF DLFSSLRKMG YRYFKIDFLF AGAVPGERKK NITPIQAFRK GIETIRKAVG
+     EDSFILGCGS PLLPAVGCVD GMRIGPDTAP FWGEHIEDNG APAARWALRN AITRYFMHDR
+     FWLNDPDCLI LREEKTDLTQ KEKELYSYTC GVLDNMIIES DDLSLVRDHG KKVLKETLEL
+     LGGRPRVQNI MSEDLRYEIV SSGTLSGNVK IVVDLNSREY HLEKEGKSSL KKRVVKREDG
+     RNFYFYEEGE RE
+//

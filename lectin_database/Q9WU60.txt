@@ -1,0 +1,411 @@
+ID   ATRN_MOUSE              Reviewed;        1428 AA.
+AC   Q9WU60; A2AP43; Q9R263; Q9WU77;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 3.
+DT   03-AUG-2022, entry version 178.
+DE   RecName: Full=Attractin;
+DE   AltName: Full=Protein mahogany;
+DE   Flags: Precursor;
+GN   Name=Atrn; Synonyms=Mg, Mgca;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=10086355; DOI=10.1038/18210;
+RA   Nagle D.L., McGrail S.H., Vitale J., Woolf E.A., Dussault B.J. Jr.,
+RA   DiRocco L., Holmgren L., Montagno J., Bork P., Huszar D.,
+RA   Fairchild-Huntress V., Ge P., Keilty J., Ebeling C., Baldini L.,
+RA   Gilchrist J., Burn P., Carlson G.A., Moore K.J.;
+RT   "The mahogany protein is a receptor involved in suppression of obesity.";
+RL   Nature 398:148-152(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RX   PubMed=10086356; DOI=10.1038/18217;
+RA   Gunn T.M., Miller K.A., He L., Hyman R.W., Davis R.W., Azarani A.,
+RA   Schlossman S.F., Duke-Cohan J.S., Barsh G.S.;
+RT   "The mouse mahogany locus encodes a transmembrane form of human
+RT   attractin.";
+RL   Nature 398:152-156(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   FUNCTION.
+RX   PubMed=11137996; DOI=10.1038/83741;
+RA   He L., Gunn T.M., Bouley D.M., Lu X.Y., Watson S.J., Schlossman S.F.,
+RA   Duke-Cohan J.S., Barsh G.S.;
+RT   "A biochemical function for attractin in agouti-induced pigmentation and
+RT   obesity.";
+RL   Nat. Genet. 27:40-47(2001).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: Involved in the initial immune cell clustering during
+CC       inflammatory response and may regulate chemotactic activity of
+CC       chemokines (By similarity). May play a role in melanocortin signaling
+CC       pathways that regulate energy homeostasis and hair color. Low-affinity
+CC       receptor for agouti. Has a critical role in normal myelination in the
+CC       central nervous system (By similarity). {ECO:0000250,
+CC       ECO:0000269|PubMed:11137996}.
+CC   -!- SUBUNIT: Monomer and homotrimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:O75882};
+CC       Single-pass type I membrane protein {ECO:0000250|UniProtKB:O75882}.
+CC   -!- PTM: Heavily glycosylated. {ECO:0000250}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAD20947.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Attractin;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_150";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF116897; AAD20947.1; ALT_FRAME; mRNA.
+DR   EMBL; AF119821; AAD25372.1; -; mRNA.
+DR   EMBL; AH007542; AAD22476.1; -; Genomic_DNA.
+DR   EMBL; AL833771; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH466519; EDL28292.1; -; Genomic_DNA.
+DR   CCDS; CCDS16751.1; -.
+DR   RefSeq; NP_033860.2; NM_009730.3.
+DR   AlphaFoldDB; Q9WU60; -.
+DR   SMR; Q9WU60; -.
+DR   IntAct; Q9WU60; 1.
+DR   MINT; Q9WU60; -.
+DR   STRING; 10090.ENSMUSP00000028781; -.
+DR   GlyConnect; 2145; 10 N-Linked glycans (8 sites).
+DR   GlyGen; Q9WU60; 25 sites, 10 N-linked glycans (8 sites).
+DR   iPTMnet; Q9WU60; -.
+DR   PhosphoSitePlus; Q9WU60; -.
+DR   SwissPalm; Q9WU60; -.
+DR   MaxQB; Q9WU60; -.
+DR   PaxDb; Q9WU60; -.
+DR   PRIDE; Q9WU60; -.
+DR   ProteomicsDB; 277219; -.
+DR   Antibodypedia; 2265; 260 antibodies from 31 providers.
+DR   DNASU; 11990; -.
+DR   Ensembl; ENSMUST00000028781; ENSMUSP00000028781; ENSMUSG00000027312.
+DR   GeneID; 11990; -.
+DR   KEGG; mmu:11990; -.
+DR   UCSC; uc008mkc.1; mouse.
+DR   CTD; 8455; -.
+DR   MGI; MGI:1341628; Atrn.
+DR   VEuPathDB; HostDB:ENSMUSG00000027312; -.
+DR   eggNOG; KOG1388; Eukaryota.
+DR   GeneTree; ENSGT00940000157346; -.
+DR   HOGENOM; CLU_003930_0_0_1; -.
+DR   InParanoid; Q9WU60; -.
+DR   OMA; EACNIAA; -.
+DR   OrthoDB; 49565at2759; -.
+DR   PhylomeDB; Q9WU60; -.
+DR   TreeFam; TF321873; -.
+DR   BioGRID-ORCS; 11990; 4 hits in 75 CRISPR screens.
+DR   ChiTaRS; Atrn; mouse.
+DR   PRO; PR:Q9WU60; -.
+DR   Proteomes; UP000000589; Chromosome 2.
+DR   RNAct; Q9WU60; protein.
+DR   Bgee; ENSMUSG00000027312; Expressed in urinary bladder urothelium and 231 other tissues.
+DR   Genevisible; Q9WU60; MM.
+DR   GO; GO:0005604; C:basement membrane; IBA:GO_Central.
+DR   GO; GO:0005737; C:cytoplasm; ISO:MGI.
+DR   GO; GO:0005615; C:extracellular space; ISO:MGI.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IPI:MGI.
+DR   GO; GO:0009887; P:animal organ morphogenesis; IBA:GO_Central.
+DR   GO; GO:0016477; P:cell migration; IBA:GO_Central.
+DR   GO; GO:0021549; P:cerebellum development; IMP:MGI.
+DR   GO; GO:0006954; P:inflammatory response; IEA:UniProtKB-KW.
+DR   GO; GO:0042552; P:myelination; IMP:MGI.
+DR   GO; GO:0043473; P:pigmentation; IMP:MGI.
+DR   GO; GO:0040014; P:regulation of multicellular organism growth; IMP:MGI.
+DR   GO; GO:0006979; P:response to oxidative stress; ISO:MGI.
+DR   GO; GO:0034446; P:substrate adhesion-dependent cell spreading; IBA:GO_Central.
+DR   GO; GO:0009888; P:tissue development; IBA:GO_Central.
+DR   CDD; cd00041; CUB; 1.
+DR   CDD; cd00055; EGF_Lam; 3.
+DR   Gene3D; 2.120.10.80; -; 2.
+DR   Gene3D; 2.60.120.290; -; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000859; CUB_dom.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR011043; Gal_Oxase/kelch_b-propeller.
+DR   InterPro; IPR015915; Kelch-typ_b-propeller.
+DR   InterPro; IPR006652; Kelch_1.
+DR   InterPro; IPR002049; LE_dom.
+DR   InterPro; IPR002165; Plexin_repeat.
+DR   InterPro; IPR016201; PSI.
+DR   InterPro; IPR035914; Sperma_CUB_dom_sf.
+DR   Pfam; PF00431; CUB; 1.
+DR   Pfam; PF01344; Kelch_1; 2.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF01437; PSI; 2.
+DR   SMART; SM00034; CLECT; 1.
+DR   SMART; SM00042; CUB; 1.
+DR   SMART; SM00181; EGF; 3.
+DR   SMART; SM00180; EGF_Lam; 2.
+DR   SMART; SM00423; PSI; 5.
+DR   SUPFAM; SSF49854; SSF49854; 1.
+DR   SUPFAM; SSF50965; SSF50965; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS01180; CUB; 1.
+DR   PROSITE; PS00022; EGF_1; 3.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS50026; EGF_3; 2.
+DR   PROSITE; PS01248; EGF_LAM_1; 1.
+DR   PROSITE; PS50027; EGF_LAM_2; 3.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Disulfide bond; EGF-like domain; Glycoprotein;
+KW   Inflammatory response; Kelch repeat; Laminin EGF-like domain; Lectin;
+KW   Membrane; Receptor; Reference proteome; Repeat; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          23..82
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000394772"
+FT   CHAIN           83..1428
+FT                   /note="Attractin"
+FT                   /id="PRO_0000007484"
+FT   TOPO_DOM        83..1278
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1279..1299
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1300..1428
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          100..128
+FT                   /note="EGF-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          131..247
+FT                   /note="CUB"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00059"
+FT   REPEAT          351..401
+FT                   /note="Kelch 1"
+FT   REPEAT          402..450
+FT                   /note="Kelch 2"
+FT   REPEAT          460..507
+FT                   /note="Kelch 3"
+FT   REPEAT          512..563
+FT                   /note="Kelch 4"
+FT   REPEAT          565..623
+FT                   /note="Kelch 5"
+FT   REPEAT          624..670
+FT                   /note="Kelch 6"
+FT   DOMAIN          702..747
+FT                   /note="PSI 1"
+FT   DOMAIN          754..793
+FT                   /note="PSI 2"
+FT   DOMAIN          794..918
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          931..982
+FT                   /note="PSI 3"
+FT   DOMAIN          985..1060
+FT                   /note="PSI 4"
+FT   DOMAIN          1062..1107
+FT                   /note="Laminin EGF-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00460"
+FT   DOMAIN          1108..1156
+FT                   /note="Laminin EGF-like 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00460"
+FT   REGION          15..38
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        212
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        236
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        241
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        252
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        263
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        299
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        324
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        361
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        382
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        415
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        427
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        574
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        622
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        730
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        862
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        913
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        922
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        985
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1042
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1053
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1072
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1197
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1205
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1249
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1258
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        100..110
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        104..117
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        119..128
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        131..157
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        249..259
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        253..270
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        272..281
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        815..917
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1062..1070
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1064..1076
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1079..1088
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1091..1105
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1108..1117
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1110..1124
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1126..1136
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1139..1154
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        6
+FT                   /note="A -> V (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        9
+FT                   /note="A -> S (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        20
+FT                   /note="A -> T (in Ref. 1; AAD20947)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        164..169
+FT                   /note="QPNRIM -> YPNAVL (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        255
+FT                   /note="G -> A (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        505
+FT                   /note="V -> A (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        833
+FT                   /note="F -> L (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1075
+FT                   /note="I -> V (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1140
+FT                   /note="E -> K (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1171
+FT                   /note="E -> G (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1192
+FT                   /note="L -> F (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1201
+FT                   /note="N -> K (in Ref. 2; AAD25372)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1428 AA;  158058 MW;  BB54C24E7EF1CE34 CRC64;
+     MVAVAAAAAT EARLRGSTTA TAAPAGRKGR QHRPCTATGA WRPGPRARLC LPRVLSRALP
+     PPPLLPLLFS LLLLPLPREA EAAAVAAAVS GSAAAEAKEC DRPCVNGGRC NPGTGQCVCP
+     TGWVGEQCQH CGGRFRLTGS SGFVTDGPGN YKYKTKCTWL IEGQPNRIMR LRFNHFATEC
+     SWDHLYVYDG DSIYAPLIAA FSGLIVPERD GNETAPEVTV TSGYALLHFF SDAAYNLTGF
+     NITYNFDMCP NNCSGRGECK SSNSSSAVEC ECSENWKGES CDIPHCTDNC GFPHRGICNA
+     SDTRGCSCFP HWQGPGCSIP VPANQSFWTR EEYSDLKLPR ASHKAVVNGN IMWVVGGYMF
+     NHSDYSMVLA YDLTSREWLP LNHSVNSVVV RYGHSLALHK DKIYMYGGKI DSTGNVTNEL
+     RVFHIHNESW VLLTPKAKDQ YAVVGHSAHI VTLASGRVVM LVIFGHCPLY GYISVVQEYD
+     LEKNTWSILH TQGALVQGGY GHSSVYDDRT KALYVHGGYK AFSANKYRLA DDLYRYDVDT
+     QMWTILKDSR FFRYLHTAVI VSGTMLVFGG NTHNDTSMSH GAKCFSSDFM AYDIACDRWS
+     VLPRPELHHD VNRFGHSAVL YNSTMYVFGG FNSLLLSDVL VFTSEQCDAH RSEAACVAAG
+     PGIRCLWDTQ SSRCTSWELA TEEQAEKLKS ECFSKRTLDH DRCDQHTDCY SCTANTNDCH
+     WCNDHCVPVN HSCTEGQISI AKYESCPKDN PMYYCNKKTS CRSCALDQNC QWEPRNQECI
+     ALPENICGNG WHLVGNSCLK ITTAKENYDN AKLSCRNHNA FLASLTSQKK VEFVLKQLRL
+     MQSSQSMSKL TLTPWVGLRK INVSYWCWED MSPFTNSLLQ WMPSEPSDAG FCGILSEPST
+     RGLKAATCIN PLNGSVCERP ANHSAKQCRT PCALRTACGE CTSSSSECMW CSNMKQCVDS
+     NAYVASFPFG QCMEWYTMSS CPPENCSGYC TCSHCLEQPG CGWCTDPSNT GKGKCIEGSY
+     KGPVKMPSQA SAGNVYPQPL LNSSMCLEDS RYNWSFIHCP ACQCNGHSKC INQSICEKCE
+     DLTTGKHCET CISGFYGDPT NGGKCQPCKC NGHASLCNTN TGKCFCTTKG VKGDECQLCE
+     VENRYQGNPL KGTCYYTLLI DYQFTFSLSQ EDDRYYTAIN FVATPDEQNR DLDMFINASK
+     NFNLNITWAT SFPAGTQTGE EVPVVSKTNI KEYKDSFSNE KFDFRNHPNI TFFVYVSNFT
+     WPIKIQIAFS QHSNFMDLVQ FFVTFFSCFL SLLLVAAVVW KIKQSCWASR RREQLLREMQ
+     QMASRPFASV NVALETDEEP PDLIGGSIKT VPKPIALEPC FGNKAAVLSV FVRLPRGLGG
+     IPPPGQSGLA VASALVDISQ QMPIVYKEKS GAVRNRKQQP PAQPGTCI
+//

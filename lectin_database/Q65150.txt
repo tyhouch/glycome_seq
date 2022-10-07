@@ -1,0 +1,142 @@
+ID   EP153_ASFB7             Reviewed;         153 AA.
+AC   Q65150;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 98.
+DE   RecName: Full=Lectin-like protein EP153R;
+DE            Short=pEP153R;
+GN   OrderedLocusNames=Ba71V-057; ORFNames=EP153R;
+OS   African swine fever virus (strain Badajoz 1971 Vero-adapted) (Ba71V)
+OS   (ASFV).
+OC   Viruses; Varidnaviria; Bamfordvirae; Nucleocytoviricota; Pokkesviricetes;
+OC   Asfuvirales; Asfarviridae; Asfivirus.
+OX   NCBI_TaxID=10498;
+OH   NCBI_TaxID=6937; Ornithodoros (relapsing fever ticks).
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=11831707; DOI=10.1006/viro.1995.1149;
+RA   Yanez R.J., Rodriguez J.M., Nogal M.L., Yuste L., Enriquez C.,
+RA   Rodriguez J.F., Vinuela E.;
+RT   "Analysis of the complete nucleotide sequence of African swine fever
+RT   virus.";
+RL   Virology 208:249-278(1995).
+RN   [2]
+RP   FUNCTION, TOPOLOGY, INDUCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=10639320; DOI=10.1006/viro.1999.0080;
+RA   Galindo I., Almazan F., Bustos M.J., Vinuela E., Carrascosa A.L.;
+RT   "African swine fever virus EP153R open reading frame encodes a glycoprotein
+RT   involved in the hemadsorption of infected cells.";
+RL   Virology 266:340-351(2000).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=15262504; DOI=10.1016/j.virol.2004.05.019;
+RA   Hurtado C., Granja A.G., Bustos M.J., Nogal M.L., Gonzalez de Buitrago G.,
+RA   de Yebenes V.G., Salas M.L., Revilla Y., Carrascosa A.L.;
+RT   "The C-type lectin homologue gene (EP153R) of African swine fever virus
+RT   inhibits apoptosis both in virus infection and in heterologous
+RT   expression.";
+RL   Virology 326:160-170(2004).
+RN   [4]
+RP   DISULFIDE BOND, SUBUNIT, FUNCTION, MUTAGENESIS OF ARG-133, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=21069396; DOI=10.1007/s00705-010-0846-2;
+RA   Hurtado C., Bustos M.J., Granja A.G., de Leon P., Sabina P.,
+RA   Lopez-Vinas E., Gomez-Puertas P., Revilla Y., Carrascosa A.L.;
+RT   "The African swine fever virus lectin EP153R modulates the surface membrane
+RT   expression of MHC class I antigens.";
+RL   Arch. Virol. 156:219-234(2011).
+CC   -!- FUNCTION: Down-regulates MHC-I expression by impairing the appropriate
+CC       configuration or presentation into the plasma membrane of the latter
+CC       (PubMed:21069396). Participates in viral hemadsorption, which may help
+CC       viral spread (PubMed:10639320). Reduces the transactivating activity of
+CC       host TP53, thus inhibiting apoptosis (PubMed:15262504). Non-essential
+CC       for virus growth in swine macrophage cell cultures (By similarity).
+CC       {ECO:0000250|UniProtKB:P0CA64, ECO:0000269|PubMed:10639320,
+CC       ECO:0000269|PubMed:15262504, ECO:0000269|PubMed:21069396}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:21069396}.
+CC   -!- SUBCELLULAR LOCATION: Host endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:10639320, ECO:0000269|PubMed:21069396}; Single-pass
+CC       type II membrane protein {ECO:0000269|PubMed:10639320}.
+CC   -!- INDUCTION: Expressed in the early phase of the viral replicative cycle.
+CC       Expressed in the late phase of the viral replicative cycle.
+CC       {ECO:0000269|PubMed:10639320}.
+CC   -!- SIMILARITY: Belongs to the asfivirus lectin-like protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U18466; AAA65287.1; -; Genomic_DNA.
+DR   RefSeq; NP_042751.1; NC_001659.2.
+DR   SMR; Q65150; -.
+DR   DNASU; 1488822; -.
+DR   GeneID; 22220439; -.
+DR   KEGG; vg:22220439; -.
+DR   Proteomes; UP000000624; Genome.
+DR   GO; GO:0044167; C:host cell endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0039526; P:modulation by virus of host apoptotic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Early protein; Glycoprotein; Host endoplasmic reticulum;
+KW   Host membrane; Host-virus interaction; Lectin; Membrane;
+KW   Modulation of host cell apoptosis by virus; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..153
+FT                   /note="Lectin-like protein EP153R"
+FT                   /id="PRO_0000379080"
+FT   TOPO_DOM        1..30
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:10639320"
+FT   TRANSMEM        31..51
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        52..153
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:10639320"
+FT   CARBOHYD        83
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        89
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        107
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        113
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        127
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        143
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        67..78
+FT                   /evidence="ECO:0000269|PubMed:21069396"
+FT   DISULFID        97..151
+FT                   /evidence="ECO:0000269|PubMed:21069396"
+FT   MUTAGEN         133
+FT                   /note="R->D: Complete loss of down-regulation of MHC-I
+FT                   expression."
+FT                   /evidence="ECO:0000269|PubMed:21069396"
+FT   MUTAGEN         133
+FT                   /note="R->K: No effect on down-regulation of MHC-I
+FT                   expression."
+FT                   /evidence="ECO:0000269|PubMed:21069396"
+SQ   SEQUENCE   153 AA;  18050 MW;  35353D85C07EB69D CRC64;
+     MYFKKKYIGL IDKNCEKKIL DDSSTIKICY ILIGILIGTN MITLIYNFIF WDNYIKCYRN
+     NDKMFYCPND WVGYNNICYY FSNGSFSKNY TAASNFCRQL NGTLANNDTN LLNLTKIYNN
+     QSMYWVNNTV ILRGDNKYSQ KVNYTDLLFI CGK
+//

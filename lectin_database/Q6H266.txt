@@ -1,0 +1,210 @@
+ID   ML2_VISAL               Reviewed;         567 AA.
+AC   Q6H266; Q6H265; Q6H267;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 67.
+DE   RecName: Full=Beta-galactoside-specific lectin 2;
+DE   AltName: Full=Beta-galactoside-specific lectin II;
+DE   AltName: Full=Beta-galactoside-specific lectin III;
+DE   Contains:
+DE     RecName: Full=Beta-galactoside-specific lectin 2 chain A;
+DE              EC=3.2.2.22;
+DE     AltName: Full=Beta-galactoside-specific lectin II chain A;
+DE     AltName: Full=ML-2 A;
+DE     AltName: Full=ML-II A;
+DE     AltName: Full=rRNA N-glycosidase;
+DE   Contains:
+DE     RecName: Full=Beta-galactoside-specific lectin 2 chain B;
+DE     AltName: Full=Beta-galactoside-specific lectin II chain B;
+DE     AltName: Full=ML-2B;
+DE     AltName: Full=ML-II B;
+DE   Flags: Precursor;
+OS   Viscum album (European mistletoe).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   Santalales; Viscaceae; Viscum.
+OX   NCBI_TaxID=3972;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAR25550.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], AND FUNCTION.
+RC   TISSUE=Leaf {ECO:0000312|EMBL:AAR25550.1};
+RX   PubMed=15182350; DOI=10.1111/j.1432-1033.2004.04153.x;
+RA   Kourmanova A.G., Soudarkina O.J., Olsnes S., Kozlov J.V.;
+RT   "Cloning and characterization of the genes encoding toxic lectins in
+RT   mistletoe (Viscum album L).";
+RL   Eur. J. Biochem. 271:2350-2360(2004).
+CC   -!- FUNCTION: The A chain is responsible for inhibiting protein synthesis
+CC       through the catalytic inactivation of 60S ribosomal subunits by
+CC       removing adenine from position 4,324 of 28S rRNA. The B chain binds to
+CC       cell receptors and probably facilitates the entry into the cell of the
+CC       A chain; B chains are also responsible for cell agglutination (lectin
+CC       activity). {ECO:0000250|UniProtKB:P81446, ECO:0000269|PubMed:15182350}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC         Evidence={ECO:0000250|UniProtKB:P81446};
+CC   -!- SUBUNIT: Disulfide-linked dimer of A and B chains.
+CC       {ECO:0000250|UniProtKB:P81446}.
+CC   -!- MISCELLANEOUS: Several isoforms exist. {ECO:0000269|PubMed:15182350}.
+CC   -!- SIMILARITY: Belongs to the ribosome-inactivating protein family. Type 2
+CC       RIP subfamily. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY377894; AAR25549.1; -; Genomic_DNA.
+DR   EMBL; AY377895; AAR25550.1; -; Genomic_DNA.
+DR   EMBL; AY377896; AAR25551.1; -; mRNA.
+DR   AlphaFoldDB; Q6H266; -.
+DR   SMR; Q6H266; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Hydrolase; Lectin; Plant defense;
+KW   Protein synthesis inhibitor; Repeat; Signal; Toxin.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000255, ECO:0000312|EMBL:AAR25550.1"
+FT   CHAIN           34..287
+FT                   /note="Beta-galactoside-specific lectin 2 chain A"
+FT                   /id="PRO_5000092109"
+FT   PROPEP          288..301
+FT                   /note="Connecting peptide"
+FT                   /evidence="ECO:0000250|UniProtKB:P81446"
+FT                   /id="PRO_0000284728"
+FT   CHAIN           302..567
+FT                   /note="Beta-galactoside-specific lectin 2 chain B"
+FT                   /id="PRO_5000092110"
+FT   DOMAIN          309..439
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DOMAIN          443..566
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   ACT_SITE        198
+FT                   /evidence="ECO:0000250|UniProtKB:Q6ITZ3"
+FT   BINDING         324..326
+FT                   /ligand="D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:4139"
+FT                   /evidence="ECO:0000250|UniProtKB:P81446"
+FT   BINDING         539..541
+FT                   /ligand="D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:4139"
+FT                   /evidence="ECO:0000250|UniProtKB:P81446"
+FT   CARBOHYD        145
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        362
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        440
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        280..306
+FT                   /note="Interchain (between A and B chains)"
+FT                   /evidence="ECO:0000250|UniProtKB:P81446,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        322..341
+FT                   /evidence="ECO:0000250|UniProtKB:Q6ITZ3,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        365..382
+FT                   /evidence="ECO:0000250|UniProtKB:P81446,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        456..469
+FT                   /evidence="ECO:0000250|UniProtKB:P81446,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        495..512
+FT                   /evidence="ECO:0000250|UniProtKB:P81446,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   CONFLICT        18
+FT                   /note="V -> L (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        26
+FT                   /note="A -> T (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        30
+FT                   /note="S -> T (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        44
+FT                   /note="K -> E (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        63
+FT                   /note="I -> M (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        95
+FT                   /note="W -> G (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        127
+FT                   /note="H -> D (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        199
+FT                   /note="A -> V (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        246
+FT                   /note="V -> I (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        289
+FT                   /note="V -> A (in Ref. 1; AAR25551)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        314
+FT                   /note="R -> Q (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        331
+FT                   /note="R -> H (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        364..365
+FT                   /note="SC -> RF (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        393
+FT                   /note="Q -> L (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        430
+FT                   /note="D -> Y (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        442
+FT                   /note="T -> I (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        468
+FT                   /note="S -> T (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        505
+FT                   /note="S -> F (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        556
+FT                   /note="S -> N (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        566
+FT                   /note="V -> M (in Ref. 1; AAR25549)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   567 AA;  63410 MW;  5FC57D56848F741F CRC64;
+     MNARLASSRA WVWCFLMVGL VCGATAKAES KINYRRISLR VTDKTTGDEY FRFITILRDY
+     VSIGSFSNDI PLLRQSTIPV SDAQRFVLVE LTNQWGDSIT AAIDVTNLYV VAYQAAGQSY
+     YLRDAPHGAE RHLFTGTTRS SLPFNGSYAD LERYAGHRDR IPLGREPLLR SVSALHYPGG
+     STRAQASSII IVIQMISEAA RFNPILWRAR QYINRGVSFL PDVYMLELET SWGRQSTQVQ
+     QSTDGVFNNP IRLGISTGNF VTLSNVRDVI PSLAIMVFVC RDRSSSSDVH NWPLVIRPVM
+     VDDVTCTTSE PTVRIVGRNG MCLDVRDSDY RDGSRIQLWP CKSNSDPNQL WTIRRDGTIR
+     SNGSCLTTYG YTAGSYIMMY DCNRAGWDLT TWQIRGNGII FNPRSKMVIG TPSGSRGTRG
+     TTFTLQTLDD SLGQSWLASN DTAPREVTIY GFRDLCMETS GGRVWVESCV SSKQNQRWAL
+     YGDGSIRPKP YQDQCLTSQG DSVRSVINLF SCTAGSPRQR WVFTNKGTIL NLKNGLALDV
+     RESNPSLRQI IIFSVSGNPN QMWLPVP
+//

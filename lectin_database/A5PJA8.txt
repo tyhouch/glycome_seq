@@ -1,0 +1,100 @@
+ID   EMC7_BOVIN              Reviewed;         241 AA.
+AC   A5PJA8;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   03-AUG-2022, entry version 61.
+DE   RecName: Full=ER membrane protein complex subunit 7;
+DE   Flags: Precursor;
+GN   Name=EMC7;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Fetal pons;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Part of the endoplasmic reticulum membrane protein complex
+CC       (EMC) that enables the energy-independent insertion into endoplasmic
+CC       reticulum membranes of newly synthesized membrane proteins.
+CC       Preferentially accommodates proteins with transmembrane domains that
+CC       are weakly hydrophobic or contain destabilizing features such as
+CC       charged and aromatic residues. Involved in the cotranslational
+CC       insertion of multi-pass membrane proteins in which stop-transfer
+CC       membrane-anchor sequences become ER membrane spanning helices. It is
+CC       also required for the post-translational insertion of tail-anchored/TA
+CC       proteins in endoplasmic reticulum membranes. By mediating the proper
+CC       cotranslational insertion of N-terminal transmembrane domains in an N-
+CC       exo topology, with translocated N-terminus in the lumen of the ER,
+CC       controls the topology of multi-pass membrane proteins like the G
+CC       protein-coupled receptors. By regulating the insertion of various
+CC       proteins in membranes, it is indirectly involved in many cellular
+CC       processes. {ECO:0000250|UniProtKB:Q9NPA0}.
+CC   -!- SUBUNIT: Component of the ER membrane protein complex (EMC).
+CC       {ECO:0000250|UniProtKB:Q9NPA0}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9NPA0}; Single-pass type I membrane protein
+CC       {ECO:0000250|UniProtKB:Q9NPA0}.
+CC   -!- SIMILARITY: Belongs to the EMC7 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC142029; AAI42030.1; -; mRNA.
+DR   RefSeq; NP_001092613.1; NM_001099143.2.
+DR   AlphaFoldDB; A5PJA8; -.
+DR   SMR; A5PJA8; -.
+DR   STRING; 9913.ENSBTAP00000009709; -.
+DR   PaxDb; A5PJA8; -.
+DR   PRIDE; A5PJA8; -.
+DR   GeneID; 615423; -.
+DR   KEGG; bta:615423; -.
+DR   CTD; 56851; -.
+DR   eggNOG; KOG3306; Eukaryota.
+DR   InParanoid; A5PJA8; -.
+DR   OrthoDB; 1348328at2759; -.
+DR   Proteomes; UP000009136; Unplaced.
+DR   GO; GO:0072546; C:EMC complex; ISS:UniProtKB.
+DR   GO; GO:0030176; C:integral component of endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0016021; C:integral component of membrane; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0045050; P:protein insertion into ER membrane by stop-transfer membrane-anchor sequence; ISS:UniProtKB.
+DR   GO; GO:0071816; P:tail-anchored membrane protein insertion into ER membrane; ISS:UniProtKB.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR039163; EMC7.
+DR   InterPro; IPR019008; EMC7_beta_sandwich.
+DR   PANTHER; PTHR13605; PTHR13605; 1.
+DR   Pfam; PF09430; DUF2012; 1.
+DR   SUPFAM; SSF49452; SSF49452; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Membrane; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NPA0"
+FT   CHAIN           23..241
+FT                   /note="ER membrane protein complex subunit 7"
+FT                   /id="PRO_0000300093"
+FT   TOPO_DOM        23..158
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NPA0"
+FT   TRANSMEM        159..179
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        180..241
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NPA0"
+FT   REGION          217..241
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        217..234
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   241 AA;  26560 MW;  F6B9CE8AD24E46A5 CRC64;
+     MAATLWAFFS VLLLLLSRDA QSSEVSGSTS DGSGGSGVGT GDRFKIEGRA VVPGVKPQDW
+     ISAARVLVDG EEHVGFLKTD GSFVVHDIPS GSYVVEVISP AYRFDPVRVD ITSKGKMRAR
+     YVNYIKTSEV VRLPYPLQMK SSGPPSYFIK RESWGWTDFL MNPMVMMMVL PLLIFVLLPK
+     VVNTSDPDMR REMEQSMNML NSNHELPDVS EFMTRLFSSK SSDKSSSGSS KTGKSGAGKR
+     R
+//

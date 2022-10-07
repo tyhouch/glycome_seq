@@ -1,0 +1,144 @@
+ID   OC17_CHICK              Reviewed;         142 AA.
+AC   Q9PRS8;
+DT   11-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUL-2003, sequence version 2.
+DT   03-AUG-2022, entry version 93.
+DE   RecName: Full=Ovocleidin-17;
+DE            Short=OC-17;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, DISULFIDE BONDS, AND PHOSPHORYLATION
+RP   AT SER-61 AND SER-67.
+RC   TISSUE=Eggshell matrix {ECO:0000269|PubMed:10410246};
+RX   PubMed=10410246; DOI=10.1080/15216549900202123;
+RA   Mann K., Siedler F.;
+RT   "The amino acid sequence of ovocleidin 17, a major protein of the avian
+RT   eggshell calcified layer.";
+RL   Biochem. Mol. Biol. Int. 47:997-1007(1999).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 1-24, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Eggshell matrix {ECO:0000269|PubMed:7648490};
+RX   PubMed=7648490; DOI=10.1007/bf00298593;
+RA   Hincke M.T., Tsang C.P.W., Courtney M., Hill V., Narbaitz R.;
+RT   "Purification and immunochemistry of a soluble matrix protein of the
+RT   chicken eggshell (ovocleidin 17).";
+RL   Calcif. Tissue Int. 56:578-583(1995).
+RN   [3] {ECO:0000305}
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS).
+RX   PubMed=12144522; DOI=10.2174/0929866023408805;
+RA   Reyes-Grajeda J.P., Jauregui-Zuniga D., Rodriguez-Romero A.,
+RA   Hernandez-Santoyo A., Bolanos-Garcia V.M., Moreno A.;
+RT   "Crystallization and preliminary X-ray analysis of ovocleidin-17 a major
+RT   protein of the Gallus gallus eggshell calcified layer.";
+RL   Protein Pept. Lett. 9:253-257(2002).
+CC   -!- FUNCTION: May form proteinaceous networks during the construction of
+CC       the eggshell which then may control the deposition of the mineral
+CC       phase. {ECO:0000303|PubMed:10410246}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000269|PubMed:7648490}. Note=Eggshell matrix. Mostly in
+CC       the mammillary bodies.
+CC   -!- TISSUE SPECIFICITY: Expressed in the shell gland mucosa. Not detected
+CC       in hen liver, magnum, isthmus, cartilage, bone or in egg white or yolk.
+CC       {ECO:0000269|PubMed:7648490}.
+CC   -!- MASS SPECTROMETRY: Mass=15453.8; Mass_error=2; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:10410246};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1GZ2; X-ray; 1.50 A; A=1-142.
+DR   PDBsum; 1GZ2; -.
+DR   AlphaFoldDB; Q9PRS8; -.
+DR   SMR; Q9PRS8; -.
+DR   iPTMnet; Q9PRS8; -.
+DR   VEuPathDB; HostDB:LOC121109246; -.
+DR   PhylomeDB; Q9PRS8; -.
+DR   EvolutionaryTrace; Q9PRS8; -.
+DR   Proteomes; UP000000539; Unplaced.
+DR   GO; GO:0031012; C:extracellular matrix; IDA:AgBase.
+DR   GO; GO:0005576; C:extracellular region; IDA:AgBase.
+DR   GO; GO:0005615; C:extracellular space; IDA:AgBase.
+DR   GO; GO:1990377; C:organomineral extracellular matrix; IDA:AgBase.
+DR   GO; GO:0003823; F:antigen binding; IDA:AgBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:1990430; F:extracellular matrix protein binding; IPI:AgBase.
+DR   GO; GO:0043167; F:ion binding; TAS:AgBase.
+DR   GO; GO:0001530; F:lipopolysaccharide binding; IDA:AgBase.
+DR   GO; GO:0042834; F:peptidoglycan binding; IDA:AgBase.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0019731; P:antibacterial humoral response; IDA:AgBase.
+DR   GO; GO:0019730; P:antimicrobial humoral response; IDA:AgBase.
+DR   GO; GO:0031214; P:biomineral tissue development; IDA:AgBase.
+DR   GO; GO:0031215; P:shell calcification; TAS:AgBase.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond;
+KW   Extracellular matrix; Glycoprotein; Lectin; Phosphoprotein;
+KW   Reference proteome; Secreted.
+FT   CHAIN           1..142
+FT                   /note="Ovocleidin-17"
+FT                   /id="PRO_0000046687"
+FT   DOMAIN          12..139
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOD_RES         61
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:10410246"
+FT   MOD_RES         67
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:10410246"
+FT   CARBOHYD        59
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        5..16
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:10410246"
+FT   DISULFID        33..138
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:10410246"
+FT   DISULFID        113..130
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:10410246"
+FT   STRAND          10..12
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          15..24
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   HELIX           26..34
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          40..42
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   HELIX           48..59
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          65..67
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          75..80
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          103..105
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   HELIX           106..108
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          112..116
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   TURN            118..121
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          125..128
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+FT   STRAND          134..141
+FT                   /evidence="ECO:0007829|PDB:1GZ2"
+SQ   SEQUENCE   142 AA;  15300 MW;  A1E8FAF1A1655F78 CRC64;
+     DPDGCGPGWV PTPGGCLGFF SRELSWSRAE SFCRRWGPGS HLAAVRSAAE LRLLAELLNA
+     SRGGDGSGEG ADGRVWIGLH RPAGSRSWRW SDGTAPRFAS WHRTAKARRG GRCAALRDEE
+     AFTSWAARPC TERNAFVCKA AA
+//

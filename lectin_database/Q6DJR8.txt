@@ -1,0 +1,176 @@
+ID   GLT11_XENTR             Reviewed;         601 AA.
+AC   Q6DJR8;
+DT   22-JAN-2014, integrated into UniProtKB/Swiss-Prot.
+DT   22-JAN-2014, sequence version 2.
+DT   03-AUG-2022, entry version 91.
+DE   RecName: Full=Polypeptide N-acetylgalactosaminyltransferase 11;
+DE            EC=2.4.1.41;
+DE   AltName: Full=Polypeptide GalNAc transferase 11;
+DE            Short=GalNAc-T11;
+DE            Short=pp-GaNTase 11;
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase 11;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 11;
+GN   Name=galnt11;
+OS   Xenopus tropicalis (Western clawed frog) (Silurana tropicalis).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Silurana.
+OX   NCBI_TaxID=8364;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo;
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, DISRUPTION PHENOTYPE, AND INTERACTION WITH NOTCH1.
+RX   PubMed=24226769; DOI=10.1038/nature12723;
+RA   Boskovski M.T., Yuan S., Pedersen N.B., Goth C.K., Makova S., Clausen H.,
+RA   Brueckner M., Khokha M.K.;
+RT   "The heterotaxy gene GALNT11 glycosylates Notch to orchestrate cilia type
+RT   and laterality.";
+RL   Nature 504:456-459(2013).
+CC   -!- FUNCTION: Polypeptide N-acetylgalactosaminyltransferase that catalyzes
+CC       the initiation of protein O-linked glycosylation and is involved in
+CC       left/right asymmetry by mediating O-glycosylation of NOTCH1. O-
+CC       glycosylation of NOTCH1 promotes activation of NOTCH1, modulating the
+CC       balance between motile and immotile (sensory) cilia at the left-right
+CC       organiser (LRO). Polypeptide N-acetylgalactosaminyltransferases
+CC       catalyze the transfer of an N-acetyl-D-galactosamine residue to a
+CC       serine or threonine residue on the protein receptor.
+CC       {ECO:0000269|PubMed:24226769}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC   -!- SUBUNIT: Interacts with notch1. {ECO:0000269|PubMed:24226769}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000250}; Single-
+CC       pass type II membrane protein {ECO:0000250}.
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds to GalNAc and contributes
+CC       to the glycopeptide specificity. {ECO:0000250}.
+CC   -!- DISRUPTION PHENOTYPE: Aberrant left-right patterning resulting in
+CC       abnormal cardiac loops, including leftward and symmetric/midline loops.
+CC       {ECO:0000269|PubMed:24226769}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH75106.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC075106; AAH75106.1; ALT_FRAME; mRNA.
+DR   RefSeq; NP_001006904.1; NM_001006903.1.
+DR   AlphaFoldDB; Q6DJR8; -.
+DR   SMR; Q6DJR8; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GT27; Glycosyltransferase Family 27.
+DR   DNASU; 448751; -.
+DR   GeneID; 448751; -.
+DR   KEGG; xtr:448751; -.
+DR   CTD; 63917; -.
+DR   Xenbase; XB-GENE-981830; galnt11.
+DR   OrthoDB; 606683at2759; -.
+DR   Reactome; R-XTR-913709; O-linked glycosylation of mucins.
+DR   UniPathway; UPA00378; -.
+DR   Proteomes; UP000008143; Chromosome 6.
+DR   Proteomes; UP000790000; Unplaced.
+DR   Bgee; ENSXETG00000040522; Expressed in mesonephros and 12 other tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005112; F:Notch binding; IDA:UniProtKB.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0060271; P:cilium assembly; IMP:UniProtKB.
+DR   GO; GO:0007368; P:determination of left/right symmetry; IMP:UniProtKB.
+DR   GO; GO:0007220; P:Notch receptor processing; IMP:UniProtKB.
+DR   GO; GO:0061314; P:Notch signaling involved in heart development; IMP:UniProtKB.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; IBA:GO_Central.
+DR   GO; GO:0018243; P:protein O-linked glycosylation via threonine; IDA:UniProtKB.
+DR   GO; GO:0008593; P:regulation of Notch signaling pathway; IMP:UniProtKB.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Disulfide bond; Glycoprotein; Glycosyltransferase;
+KW   Golgi apparatus; Lectin; Manganese; Membrane; Notch signaling pathway;
+KW   Reference proteome; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..601
+FT                   /note="Polypeptide N-acetylgalactosaminyltransferase 11"
+FT                   /id="PRO_0000425208"
+FT   TOPO_DOM        1..7
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        8..28
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        29..601
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          469..600
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          143..254
+FT                   /note="Catalytic subdomain A"
+FT                   /evidence="ECO:0000250"
+FT   REGION          312..374
+FT                   /note="Catalytic subdomain B"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        29
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        202
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        508
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        486..505
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        529..546
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        571..589
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   601 AA;  68383 MW;  1FA0294A3CEEA236 CRC64;
+     MGSAALRCFC YGCLFTSVTW TLLLFIYFNF SEESQGFRHV PVKGLEPYKP LPKKIYPRFS
+     RDSMGQHSDP RKGHNGNQLE TEANADLSPE LGMIFNEQDQ DVRDVGYQKH AFNLLISNRL
+     GYHRDVPDTR DSKCAKKTYP PDLPMASIVI CFYNEAFSAL LRTVHSVLDR TPAQLLHEII
+     LVDDNSELDD LKKDLDGYMQ ENLSKKVKLV RNKQREGLIR GRMVGASHAT GDVLVFLDSH
+     CEVNEMWLQP LLAPIKENPR TVVCPVIDII SADTLIYSSS PVVRGGFNWG LHFKWDPVPL
+     AELGGPEGFS APFRSPTMAG GLFAMDREYF NMLGQYDSGM DIWGGENLEI SFRIWMCGGS
+     LLIVPCSRVG HIFRKRRPYG SPGGHDTMAH NSLRLAHVWM DEYKDQYFAL RPELRNRDFG
+     DIRERLALRR RLNCKSFKWY LDNIYPEMQV SGPNAKPQPP VFMNKGQKRP KILQRGRLIN
+     MQTNRCLVAQ GHPSQKGGLV VAKECDYNDS EQVWSYNEEH ELILSNLLCL DMSETRSSDP
+     PRLMKCHGSG GSQQWVFGKS NRLYQVSVGQ CLKLVDPMSR KGYVSMAICD GSPSQQWHLE
+     N
+//

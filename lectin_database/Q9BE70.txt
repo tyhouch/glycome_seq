@@ -1,0 +1,84 @@
+ID   GANC_MACFA              Reviewed;         769 AA.
+AC   Q9BE70;
+DT   07-JUN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2004, sequence version 2.
+DT   25-MAY-2022, entry version 66.
+DE   RecName: Full=Neutral alpha-glucosidase C;
+DE            EC=3.2.1.20;
+DE   Flags: Fragment;
+GN   Name=GANC; ORFNames=QflA-12512;
+OS   Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9541;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Frontal cortex;
+RX   PubMed=11806829; DOI=10.1186/gb-2001-3-1-research0006;
+RA   Osada N., Hida M., Kusuda J., Tanuma R., Hirata M., Hirai M., Terao K.,
+RA   Suzuki Y., Sugano S., Hashimoto K.;
+RT   "Prediction of unidentified human genes on the basis of sequence similarity
+RT   to novel cDNAs from cynomolgus monkey brain.";
+RL   Genome Biol. 3:RESEARCH0006.1-RESEARCH0006.5(2002).
+CC   -!- FUNCTION: Has alpha-glucosidase activity. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAB39324.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB056800; BAB39324.1; ALT_INIT; mRNA.
+DR   AlphaFoldDB; Q9BE70; -.
+DR   SMR; Q9BE70; -.
+DR   STRING; 9541.XP_005559352.1; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   eggNOG; KOG1066; Eukaryota.
+DR   Proteomes; UP000233100; Unplaced.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+PE   2: Evidence at transcript level;
+KW   Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           <1..769
+FT                   /note="Neutral alpha-glucosidase C"
+FT                   /id="PRO_0000185365"
+FT   ACT_SITE        366
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        369
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        442
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+SQ   SEQUENCE   769 AA;  88087 MW;  5F930351BC58C45A CRC64;
+     EEEVVISINS LGQLYFEHLQ ILHKQRAAKE NEEEASVDTS QENQEDLGLW EEKFGKFVDI
+     KANGPSSIGL DFSLHGFEHL YGIPQHAESH QLKNTGDEDA YRLYNLDVYG YQIYDKMGIY
+     GSVPYLLAHK LGRTIGIFWL NASETLVEIN TEPAVEYTLS QMGPVAAKQK VRSRTHVHWM
+     SESGIIDVFL LTGPTPSDVF KQYSHLTGTQ AMPPLFSLGY HQCRWNYEDE QDVKAVDAGF
+     DEHDIPYDAM WLDIEHTEGK RYFTWDKKRF PNPERMQELL RSKKRKLVVI SDPHIKIDPD
+     YSVYVKAKDQ GFFVKNQEGE DFEGVCWPGL SSYLDFTNPK VREWYSSLFA FPVYQGSTDI
+     LFLWNDMNEP SVFRRPEQTM QKNAIHHGNW EHRELHNIYG FYHQMATAEG LIQRSGGKER
+     PFVLTRSFFA GSQKYGAVWT GDNTAEWSYL KISIPMLLTL SITGISFCGA DIGGFIGNPE
+     TELLVRWYQA GAYQPFFRGH ATMNAKRREP WLFGKEHTRL IREAIRERYG LLPYWYSLFY
+     HAHVASQPVM RPLWVEFPDE LKTFDMEDEY MLGSALLVHP VTEPKATTVD VFLPGSNEVW
+     YDYKTFAHWE GGCTVKIPVA LDTIPVFQRG GSVVPIKTTV GKSTGWMTES SYGLRVALST
+     KGSSVGELYL DDGHSFQYLH QKQFLHRKFS FCSSVLINSS ADQRGHYPSK CVVEQILVLG
+     LRKEPSFVTT HSSDGKDQPV AFTYCAKTSS LSLEKLSLNI ATDWEVRII
+//

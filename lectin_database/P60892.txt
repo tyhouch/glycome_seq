@@ -1,0 +1,203 @@
+ID   PRPS1_RAT               Reviewed;         318 AA.
+AC   P60892; P09329; Q5M8A4;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 143.
+DE   RecName: Full=Ribose-phosphate pyrophosphokinase 1;
+DE            EC=2.7.6.1;
+DE   AltName: Full=Phosphoribosyl pyrophosphate synthase I;
+DE            Short=PRS-I;
+GN   Name=Prps1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=2822704; DOI=10.1016/s0021-9258(18)48105-7;
+RA   Taira M., Ishijima S., Kita K., Yamada K., Iizasa T., Tatibana M.;
+RT   "Nucleotide and deduced amino acid sequences of two distinct cDNAs for rat
+RT   phosphoribosylpyrophosphate synthetase.";
+RL   J. Biol. Chem. 262:14867-14870(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2555779; DOI=10.1093/nar/17.21.8860;
+RA   Ishijima S., Taira M., Tatibana M.;
+RT   "Complete cDNA sequence of rat phosphoribosylpyrophosphate synthetase
+RT   subunit I (PRS I).";
+RL   Nucleic Acids Res. 17:8860-8860(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2154494; DOI=10.1016/s0021-9258(19)39687-5;
+RA   Shimada H., Taira M., Yamada K., Iizasa T., Tatibana M.;
+RT   "Structure of the rat PRPS1 gene encoding phosphoribosylpyrophosphate
+RT   synthetase subunit I.";
+RL   J. Biol. Chem. 265:3956-3960(1990).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart, and Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 85-96, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the synthesis of phosphoribosylpyrophosphate (PRPP)
+CC       that is essential for nucleotide synthesis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-ribose 5-phosphate = 5-phospho-alpha-D-ribose 1-
+CC         diphosphate + AMP + H(+); Xref=Rhea:RHEA:15609, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58017, ChEBI:CHEBI:78346,
+CC         ChEBI:CHEBI:456215; EC=2.7.6.1;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC   -!- ACTIVITY REGULATION: Activated by magnesium and inorganic phosphate.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 5-phospho-alpha-D-ribose
+CC       1-diphosphate biosynthesis; 5-phospho-alpha-D-ribose 1-diphosphate from
+CC       D-ribose 5-phosphate (route I): step 1/1.
+CC   -!- SUBUNIT: Homodimer. The active form is probably a hexamer composed of 3
+CC       homodimers (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ribose-phosphate pyrophosphokinase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M17258; AAA41963.1; -; mRNA.
+DR   EMBL; M29392; AAA41960.1; -; mRNA.
+DR   EMBL; X16554; CAA34555.1; -; mRNA.
+DR   EMBL; M31084; AAA41959.1; -; Genomic_DNA.
+DR   EMBL; M31078; AAA41959.1; JOINED; Genomic_DNA.
+DR   EMBL; M31079; AAA41959.1; JOINED; Genomic_DNA.
+DR   EMBL; M31080; AAA41959.1; JOINED; Genomic_DNA.
+DR   EMBL; M31082; AAA41959.1; JOINED; Genomic_DNA.
+DR   EMBL; M31083; AAA41959.1; JOINED; Genomic_DNA.
+DR   EMBL; BC078853; AAH78853.1; -; mRNA.
+DR   EMBL; BC088149; AAH88149.1; -; mRNA.
+DR   PIR; A35465; KIRTR1.
+DR   RefSeq; NP_001009694.1; NM_001009694.1.
+DR   RefSeq; NP_058939.1; NM_017243.2.
+DR   RefSeq; XP_008762879.1; XM_008764657.2.
+DR   AlphaFoldDB; P60892; -.
+DR   SMR; P60892; -.
+DR   BioGRID; 248196; 3.
+DR   IntAct; P60892; 4.
+DR   STRING; 10116.ENSRNOP00000029405; -.
+DR   iPTMnet; P60892; -.
+DR   PhosphoSitePlus; P60892; -.
+DR   World-2DPAGE; 0004:P60892; -.
+DR   jPOST; P60892; -.
+DR   PaxDb; P60892; -.
+DR   PRIDE; P60892; -.
+DR   GeneID; 29562; -.
+DR   GeneID; 314140; -.
+DR   KEGG; rno:29562; -.
+DR   KEGG; rno:314140; -.
+DR   UCSC; RGD:61955; rat.
+DR   CTD; 5631; -.
+DR   RGD; 61955; Prps1.
+DR   VEuPathDB; HostDB:ENSRNOG00000060262; -.
+DR   eggNOG; KOG1448; Eukaryota.
+DR   HOGENOM; CLU_033546_4_0_1; -.
+DR   InParanoid; P60892; -.
+DR   OMA; FGWARQD; -.
+DR   OrthoDB; 1043963at2759; -.
+DR   PhylomeDB; P60892; -.
+DR   TreeFam; TF106366; -.
+DR   Reactome; R-RNO-73843; 5-Phosphoribose 1-diphosphate biosynthesis.
+DR   SABIO-RK; P60892; -.
+DR   UniPathway; UPA00087; UER00172.
+DR   PRO; PR:P60892; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000060262; Expressed in cerebellum and 20 other tissues.
+DR   Genevisible; P60892; RN.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0002189; C:ribose phosphate diphosphokinase complex; IDA:RGD.
+DR   GO; GO:0043531; F:ADP binding; IDA:RGD.
+DR   GO; GO:0016208; F:AMP binding; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0019003; F:GDP binding; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0004749; F:ribose phosphate diphosphokinase activity; IDA:RGD.
+DR   GO; GO:0006015; P:5-phosphoribose 1-diphosphate biosynthetic process; IDA:RGD.
+DR   GO; GO:0006167; P:AMP biosynthetic process; IDA:RGD.
+DR   GO; GO:0031100; P:animal organ regeneration; IEP:RGD.
+DR   GO; GO:0046101; P:hypoxanthine biosynthetic process; ISO:RGD.
+DR   GO; GO:0007399; P:nervous system development; ISO:RGD.
+DR   GO; GO:0009165; P:nucleotide biosynthetic process; IDA:RGD.
+DR   GO; GO:0016310; P:phosphorylation; IEA:UniProtKB-KW.
+DR   GO; GO:0006144; P:purine nucleobase metabolic process; ISO:RGD.
+DR   GO; GO:0006164; P:purine nucleotide biosynthetic process; ISO:RGD.
+DR   GO; GO:0019693; P:ribose phosphate metabolic process; IDA:RGD.
+DR   GO; GO:0034418; P:urate biosynthetic process; ISO:RGD.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 2.
+DR   HAMAP; MF_00583_B; RibP_PPkinase_B; 1.
+DR   InterPro; IPR000842; PRib_PP_synth_CS.
+DR   InterPro; IPR029099; Pribosyltran_N.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR005946; Rib-P_diPkinase.
+DR   InterPro; IPR037515; Rib-P_diPkinase_bac.
+DR   PANTHER; PTHR10210; PTHR10210; 1.
+DR   Pfam; PF14572; Pribosyl_synth; 1.
+DR   Pfam; PF13793; Pribosyltran_N; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   TIGRFAMs; TIGR01251; ribP_PPkin; 1.
+DR   PROSITE; PS00114; PRPP_SYNTHASE; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Direct protein sequencing; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide biosynthesis; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..318
+FT                   /note="Ribose-phosphate pyrophosphokinase 1"
+FT                   /id="PRO_0000141073"
+FT   REGION          212..227
+FT                   /note="Binding of phosphoribosylpyrophosphate"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         96..101
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         128
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         130
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         130
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         139
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         143
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        163
+FT                   /note="R -> K (in Ref. 4; AAH88149)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   318 AA;  34834 MW;  46D017E969908BA0 CRC64;
+     MPNIKIFSGS SHQDLSQKIA DRLGLELGKV VTKKFSNQET CVEIGESVRG EDVYIVQSGC
+     GEINDNLMEL LIMINACKIA SASRVTAVIP CFPYARQDKK DKSRAPISAK LVANMLSVAG
+     ADHIITMDLH ASQIQGFFDI PVDNLYAEPA VLKWIRENIS EWRNCTIVSP DAGGAKRVTS
+     IADRLNVDFA LIHKERKKAN EVDRMVLVGD VKDRVAILVD DMADTCGTIC HAADKLLSAG
+     ATRVYAILTH GIFSGPAISR INNACFEAVV VTNTIPQEDK MKHCSKIQVI DISMILAEAI
+     RRTHNGESVS YLFSHVPL
+//

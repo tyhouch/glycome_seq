@@ -1,0 +1,240 @@
+ID   CALX_PONAB              Reviewed;         592 AA.
+AC   Q5R440; Q5R6B9; Q5R6P7;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-JUL-2006, sequence version 2.
+DT   03-AUG-2022, entry version 106.
+DE   RecName: Full=Calnexin;
+DE   Flags: Precursor;
+GN   Name=CANX;
+OS   Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pongo.
+OX   NCBI_TaxID=9601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain cortex;
+RG   The German cDNA consortium;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Calcium-binding protein that interacts with newly synthesized
+CC       monoglucosylated glycoproteins in the endoplasmic reticulum. It may act
+CC       in assisting protein assembly and/or in the retention within the ER of
+CC       unassembled protein subunits. It seems to play a major role in the
+CC       quality control apparatus of the ER by the retention of incorrectly
+CC       folded proteins. Associated with partial T-cell antigen receptor
+CC       complexes that escape the ER of immature thymocytes, it may function as
+CC       a signaling complex regulating thymocyte maturation. Additionally it
+CC       may play a role in receptor-mediated endocytosis at the synapse (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with MAPK3/ERK1. Interacts with KCNH2. Associates
+CC       with ribosomes. Interacts with SGIP1; involved in negative regulation
+CC       of endocytosis. The palmitoylated form interacts with the ribosome-
+CC       translocon complex component SSR1, promoting efficient folding of
+CC       glycoproteins. Interacts with SERPINA2P/SERPINA2 and with the S and Z
+CC       variants of SERPINA1. Interacts with PPIB. Interacts with ZNRF4.
+CC       Interacts with SMIM22 (By similarity). Interacts with TMX2 (By
+CC       similarity). Interacts with TMEM35A/NACHO and CHRNA7 (By similarity).
+CC       {ECO:0000250|UniProtKB:P24643, ECO:0000250|UniProtKB:P27824,
+CC       ECO:0000250|UniProtKB:P35564, ECO:0000250|UniProtKB:P35565}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:P27824}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Endoplasmic reticulum {ECO:0000250|UniProtKB:P27824}.
+CC       Melanosome {ECO:0000250|UniProtKB:P27824}. Note=The palmitoylated form
+CC       preferentially localizes to the perinuclear rough ER.
+CC       {ECO:0000250|UniProtKB:P27824}.
+CC   -!- PTM: Phosphorylated at Ser-564 by MAPK3/ERK1. phosphorylation by
+CC       MAPK3/ERK1 increases its association with ribosomes (By similarity).
+CC       {ECO:0000250}.
+CC   -!- PTM: Palmitoylation by DHHC6 leads to the preferential localization to
+CC       the perinuclear rough ER. It mediates the association of calnexin with
+CC       the ribosome-translocon complex (RTC) which is required for efficient
+CC       folding of glycosylated proteins (By similarity). {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated, leading to proteasomal degradation. Probably
+CC       ubiquitinated by ZNRF4. {ECO:0000250|UniProtKB:P27824}.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR860439; CAH92563.1; -; mRNA.
+DR   EMBL; CR860572; CAH92697.1; -; mRNA.
+DR   EMBL; CR861420; CAH93476.1; -; mRNA.
+DR   RefSeq; NP_001127039.1; NM_001133567.1.
+DR   AlphaFoldDB; Q5R440; -.
+DR   SMR; Q5R440; -.
+DR   Ensembl; ENSPPYT00000053633; ENSPPYP00000041212; ENSPPYG00000016126.
+DR   GeneID; 100174065; -.
+DR   KEGG; pon:100174065; -.
+DR   CTD; 821; -.
+DR   GeneTree; ENSGT00950000182915; -.
+DR   InParanoid; Q5R440; -.
+DR   OrthoDB; 775337at2759; -.
+DR   Proteomes; UP000001595; Chromosome 5.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:AgBase.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0042470; C:melanosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098793; C:presynapse; IEA:GOC.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:InterPro.
+DR   GO; GO:0072583; P:clathrin-dependent endocytosis; ISS:UniProtKB.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   GO; GO:0048488; P:synaptic vesicle endocytosis; ISS:UniProtKB.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 2.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 3.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Calcium; Chaperone; Disulfide bond; Endoplasmic reticulum;
+KW   Lectin; Lipoprotein; Membrane; Metal-binding; Palmitate; Phosphoprotein;
+KW   Reference proteome; Repeat; Signal; Transmembrane; Transmembrane helix;
+KW   Ubl conjugation.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..592
+FT                   /note="Calnexin"
+FT                   /id="PRO_0000004200"
+FT   TOPO_DOM        21..481
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        482..502
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        503..592
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          278..290
+FT                   /note="1-1"
+FT   REPEAT          295..307
+FT                   /note="1-2"
+FT   REPEAT          314..326
+FT                   /note="1-3"
+FT   REPEAT          333..345
+FT                   /note="1-4"
+FT   REPEAT          348..358
+FT                   /note="2-1"
+FT   REPEAT          367..377
+FT                   /note="2-2"
+FT   REPEAT          381..391
+FT                   /note="2-3"
+FT   REPEAT          395..405
+FT                   /note="2-4"
+FT   REGION          260..345
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          276..409
+FT                   /note="P domain (Extended arm)"
+FT                   /evidence="ECO:0000250"
+FT   REGION          278..345
+FT                   /note="4 X approximate repeats"
+FT   REGION          326..359
+FT                   /note="Interaction with PPIB"
+FT                   /evidence="ECO:0000250"
+FT   REGION          348..405
+FT                   /note="4 X approximate repeats"
+FT   REGION          503..592
+FT                   /note="Sufficient to mediate interaction with SGIP1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          511..592
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        274..326
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        327..345
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        525..546
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        547..585
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         74
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         117
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         164
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         166
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         185
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         192
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         425
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         436
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         137
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27824"
+FT   MOD_RES         554
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27824"
+FT   MOD_RES         562
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27824"
+FT   MOD_RES         564
+FT                   /note="Phosphoserine; by MAPK3"
+FT                   /evidence="ECO:0000250|UniProtKB:P27824"
+FT   MOD_RES         583
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27824"
+FT   LIPID           502
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           503
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        160..194
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        360..366
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        83
+FT                   /note="W -> R (in Ref. 1; CAH93476)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        143
+FT                   /note="T -> A (in Ref. 1; CAH92563)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        217
+FT                   /note="K -> R (in Ref. 1; CAH92697)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   592 AA;  67572 MW;  31875C853C202811 CRC64;
+     MEGKWLLCML LVLGTAIVEA HDGHDDDVID IEDDLDDVIE EVEDSKPDTT APPSSPKVTY
+     KAPVPTGEVY FADSFDRGTL SGWILSKAKK DDTDDEIAKY DGKWEVDEMK ESKLPGDKGL
+     VLMSRAKHHA ISAKLNKPFL FDTKPLIVQY EVNFQNGIEC GGAYVKLLSK TPELNLDQFH
+     DKTPYTIMFG PDKCGEDYKL HFIFRHKNPK TGIYEEKHAK RPDADLKTYF TDKKTHLYTL
+     ILNPDNSFEI LVDQSVVNSG NLLNDMTPPV NPSREIEDPE DRKPEDWDER PKIPDPEAVK
+     PDDWDEDAPA KIPDEEATKP EGWLDDEPEY VPDPDAEKPE DWDEDMDGEW EAPQIANPKC
+     ESAPGCGVWQ RPMIDNPNYK GKWKPPMIDN PSYQGIWKPR KIPNPDFFED LEPFRMTPFS
+     AIGLELWSMT SDIFFDNFII CADRRIVDDW ANDGWGLKKA ADGAAEPGVV GQMIEAAEER
+     PWLWVVYILT VALPVFLVIL FCCSGKKQTS AMEYKKTDAP QPDVKEEEEE KEEEKDKGDE
+     EEEGEEKLEE KQKSDAEEDG GTVSQEEEDR KPKAEEDEIL NRSPRNRKPR RE
+//

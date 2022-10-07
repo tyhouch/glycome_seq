@@ -1,0 +1,186 @@
+ID   OS9_ORYSJ               Reviewed;         298 AA.
+AC   Q67WM9; A0A0P0WZD9;
+DT   26-NOV-2014, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   03-AUG-2022, entry version 106.
+DE   RecName: Full=Protein OS-9 homolog {ECO:0000305};
+DE            Short=OsOS9 {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=OS9 {ECO:0000305};
+GN   OrderedLocusNames=Os06g0644800 {ECO:0000312|EMBL:BAH93656.1},
+GN   LOC_Os06g43710 {ECO:0000305};
+GN   ORFNames=OsJ_22141 {ECO:0000312|EMBL:EAZ37805.1}, P0017B12.18-1
+GN   {ECO:0000312|EMBL:BAD37440.1};
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39947 {ECO:0000312|Proteomes:UP000059680};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=18089549; DOI=10.1093/nar/gkm978;
+RG   The rice annotation project (RAP);
+RT   "The rice annotation project database (RAP-DB): 2008 update.";
+RL   Nucleic Acids Res. 36:D1028-D1033(2008).
+RN   [3]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=24280374; DOI=10.1186/1939-8433-6-4;
+RA   Kawahara Y., de la Bastide M., Hamilton J.P., Kanamori H., McCombie W.R.,
+RA   Ouyang S., Schwartz D.C., Tanaka T., Wu J., Zhou S., Childs K.L.,
+RA   Davidson R.M., Lin H., Quesada-Ocampo L., Vaillancourt B., Sakai H.,
+RA   Lee S.S., Kim J., Numa H., Itoh T., Buell C.R., Matsumoto T.;
+RT   "Improvement of the Oryza sativa Nipponbare reference genome using next
+RT   generation sequence and optical map data.";
+RL   Rice 6:4-4(2013).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=15685292; DOI=10.1371/journal.pbio.0030038;
+RA   Yu J., Wang J., Lin W., Li S., Li H., Zhou J., Ni P., Dong W., Hu S.,
+RA   Zeng C., Zhang J., Zhang Y., Li R., Xu Z., Li S., Li X., Zheng H., Cong L.,
+RA   Lin L., Yin J., Geng J., Li G., Shi J., Liu J., Lv H., Li J., Wang J.,
+RA   Deng Y., Ran L., Shi X., Wang X., Wu Q., Li C., Ren X., Wang J., Wang X.,
+RA   Li D., Liu D., Zhang X., Ji Z., Zhao W., Sun Y., Zhang Z., Bao J., Han Y.,
+RA   Dong L., Ji J., Chen P., Wu S., Liu J., Xiao Y., Bu D., Tan J., Yang L.,
+RA   Ye C., Zhang J., Xu J., Zhou Y., Yu Y., Zhang B., Zhuang S., Wei H.,
+RA   Liu B., Lei M., Yu H., Li Y., Xu H., Wei S., He X., Fang L., Zhang Z.,
+RA   Zhang Y., Huang X., Su Z., Tong W., Li J., Tong Z., Li S., Ye J., Wang L.,
+RA   Fang L., Lei T., Chen C.-S., Chen H.-C., Xu Z., Li H., Huang H., Zhang F.,
+RA   Xu H., Li N., Zhao C., Li S., Dong L., Huang Y., Li L., Xi Y., Qi Q.,
+RA   Li W., Zhang B., Hu W., Zhang Y., Tian X., Jiao Y., Liang X., Jin J.,
+RA   Gao L., Zheng W., Hao B., Liu S.-M., Wang W., Yuan L., Cao M.,
+RA   McDermott J., Samudrala R., Wang J., Wong G.K.-S., Yang H.;
+RT   "The genomes of Oryza sativa: a history of duplications.";
+RL   PLoS Biol. 3:266-281(2005).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12869764; DOI=10.1126/science.1081288;
+RG   The rice full-length cDNA consortium;
+RT   "Collection, mapping, and annotation of over 28,000 cDNA clones from
+RT   japonica rice.";
+RL   Science 301:376-379(2003).
+CC   -!- FUNCTION: Lectin which functions in endoplasmic reticulum (ER) quality
+CC       control and ER-associated degradation (ERAD). May bind terminally
+CC       misfolded non-glycosylated proteins as well as improperly folded
+CC       glycoproteins, retain them in the ER, and possibly transfer them to the
+CC       ubiquitination machinery and promote their degradation.
+CC       {ECO:0000250|UniProtKB:Q8GWH3}.
+CC   -!- SUBUNIT: Interacts with HRD3. {ECO:0000250|UniProtKB:Q8GWH3}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum
+CC       {ECO:0000250|UniProtKB:Q8GWH3}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP003568; BAD37440.1; -; Genomic_DNA.
+DR   EMBL; AP008212; BAH93656.1; -; Genomic_DNA.
+DR   EMBL; AP014962; BAS98847.1; -; Genomic_DNA.
+DR   EMBL; CM000143; EAZ37805.1; -; Genomic_DNA.
+DR   EMBL; AK109442; BAG98751.1; -; mRNA.
+DR   RefSeq; XP_015641067.1; XM_015785581.1.
+DR   AlphaFoldDB; Q67WM9; -.
+DR   STRING; 4530.OS06T0644800-01; -.
+DR   PaxDb; Q67WM9; -.
+DR   PRIDE; Q67WM9; -.
+DR   EnsemblPlants; Os06t0644800-01; Os06t0644800-01; Os06g0644800.
+DR   GeneID; 9268424; -.
+DR   Gramene; Os06t0644800-01; Os06t0644800-01; Os06g0644800.
+DR   KEGG; osa:9268424; -.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   HOGENOM; CLU_077023_0_0_1; -.
+DR   InParanoid; Q67WM9; -.
+DR   OMA; NGTMCDL; -.
+DR   OrthoDB; 1475416at2759; -.
+DR   Proteomes; UP000000763; Chromosome 6.
+DR   Proteomes; UP000007752; Chromosome 6.
+DR   Proteomes; UP000059680; Chromosome 6.
+DR   ExpressionAtlas; Q67WM9; baseline and differential.
+DR   Genevisible; Q67WM9; OS.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:0009651; P:response to salt stress; IEA:EnsemblPlants.
+DR   GO; GO:0030970; P:retrograde protein transport, ER to cytosol; IBA:GO_Central.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IBA:GO_Central.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR012913; OS9-like_dom.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF07915; PRKCSH; 1.
+DR   SUPFAM; SSF50911; SSF50911; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..298
+FT                   /note="Protein OS-9 homolog"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000431277"
+FT   DOMAIN          121..246
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   BINDING         130
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         131
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         143
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         202
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         208
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         228
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         234
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        95
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        171
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        197
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        123..136
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        201..232
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        216..244
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   298 AA;  33439 MW;  73B0E5B070415475 CRC64;
+     MGLAGGARVV LFVVAAAAAA ALTAAADQIF TSSGAPFGRN SREPRYHVEF HPVDAPFNPE
+     NGQESVPMTS HVGKHYTCFL PVEETKTMKS IIPQNATNVI IESERRVKPK DPDELLEILK
+     DQCFYRHEGW WSYEFCYYGK IRQVHVEGEK VIQEYVLGEY DADATDAYYE NQTSDSADED
+     DNLIDTSKRY HVHLYTNGTV CDLTDMPRET EVRFVCSEPT VVISSIKEIS SCKYVLTVQS
+     PMLCKNPLFQ QEKRTLSIHC NELLAEAEAT VDDDSLPKEA QIIIPDPDGL HNYAAYAT
+//

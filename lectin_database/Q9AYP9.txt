@@ -1,0 +1,169 @@
+ID   LECC_PHYAM              Reviewed;         194 AA.
+AC   Q9AYP9; Q9S9F4;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   25-MAY-2022, entry version 76.
+DE   RecName: Full=Lectin-C;
+DE   AltName: Full=PL-C;
+DE   Flags: Precursor;
+OS   Phytolacca americana (American pokeweed) (Phytolacca decandra).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   Caryophyllales; Phytolaccaceae; Phytolacca.
+OX   NCBI_TaxID=3527;
+RN   [1] {ECO:0000312|EMBL:BAB21577.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Mizuta S., Ishiguro M.;
+RT   "Identification and cDNA cloning of a systemic lectin, PL-C, a major
+RT   component of pokeweed mitogens.";
+RL   Submitted (DEC-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 45-52, AND FUNCTION.
+RX   PubMed=7772833; DOI=10.1271/bbb.59.683;
+RA   Kino M., Yamaguchi K., Umekawa H., Funatsu G.;
+RT   "Purification and characterization of three mitogenic lectins from the
+RT   roots of pokeweed (Phytolacca americana).";
+RL   Biosci. Biotechnol. Biochem. 59:683-688(1995).
+RN   [3] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 45-170, AND CHITIN-BINDING PROPERTIES.
+RC   TISSUE=Root {ECO:0000269|PubMed:7670205};
+RX   PubMed=7670205; DOI=10.1271/bbb.59.1384;
+RA   Yamaguchi K., Mori A., Funatsu G.;
+RT   "The complete amino acid sequence of lectin-C from the roots of pokeweed
+RT   (Phytolacca americana).";
+RL   Biosci. Biotechnol. Biochem. 59:1384-1385(1995).
+RN   [4] {ECO:0000305}
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 45-170.
+RX   PubMed=14623194; DOI=10.1016/j.jmb.2003.09.076;
+RA   Hayashida M., Fujii T., Hamasu M., Ishiguro M., Hata Y.;
+RT   "Similarity between protein-protein and protein-carbohydrate interactions,
+RT   revealed by two crystal structures of lectins from the roots of pokeweed.";
+RL   J. Mol. Biol. 334:551-565(2003).
+CC   -!- FUNCTION: N-acetyl-D-glucosamine binding lectin. Almost no
+CC       hemagglutinating activity towards human erythrocytes. Low mitogenic
+CC       activity towards human peripheral blood lymphocytes.
+CC       {ECO:0000269|PubMed:7670205, ECO:0000269|PubMed:7772833}.
+CC   -!- SUBUNIT: Homodimer. The homodimers are asymmetric; formed in a 'head-
+CC       to-tail' fashion via hydrophobic interactions between aromatic residues
+CC       of the carbohydrate-binding sites of each subunit.
+CC       {ECO:0000269|PubMed:14623194}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB052963; BAB21577.1; -; mRNA.
+DR   PDB; 1ULK; X-ray; 1.80 A; A/B=45-170.
+DR   PDBsum; 1ULK; -.
+DR   AlphaFoldDB; Q9AYP9; -.
+DR   SMR; Q9AYP9; -.
+DR   CAZy; CBM18; Carbohydrate-Binding Module Family 18.
+DR   UniLectin; Q9AYP9; -.
+DR   EvolutionaryTrace; Q9AYP9; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; IDA:UniProtKB.
+DR   GO; GO:0051781; P:positive regulation of cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0045840; P:positive regulation of mitotic nuclear division; IDA:UniProtKB.
+DR   Gene3D; 3.30.60.10; -; 3.
+DR   InterPro; IPR001002; Chitin-bd_1.
+DR   InterPro; IPR018371; Chitin-binding_1_CS.
+DR   InterPro; IPR036861; Endochitinase-like_sf.
+DR   Pfam; PF00187; Chitin_bind_1; 3.
+DR   PRINTS; PR00451; CHITINBINDNG.
+DR   SMART; SM00270; ChtBD1; 3.
+DR   SUPFAM; SSF57016; SSF57016; 3.
+DR   PROSITE; PS00026; CHIT_BIND_I_1; 1.
+DR   PROSITE; PS50941; CHIT_BIND_I_2; 3.
+PE   1: Evidence at protein level;
+KW   3D-structure; Chitin-binding; Direct protein sequencing; Disulfide bond;
+KW   Lectin; Mitogen; Repeat; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          27..44
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:7670205"
+FT                   /id="PRO_0000005271"
+FT   CHAIN           45..170
+FT                   /note="Lectin-C"
+FT                   /evidence="ECO:0000269|PubMed:7670205"
+FT                   /id="PRO_0000005272"
+FT   PROPEP          171..194
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:7670205"
+FT                   /id="PRO_0000005273"
+FT   DOMAIN          45..86
+FT                   /note="Chitin-binding type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          87..127
+FT                   /note="Chitin-binding type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          128..168
+FT                   /note="Chitin-binding type-1 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DISULFID        48..63
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        57..69
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        62..76
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        80..84
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        89..104
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        98..110
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        103..117
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        121..125
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        130..145
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        139..151
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        144..158
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   DISULFID        162..166
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261,
+FT                   ECO:0000269|PubMed:14623194"
+FT   HELIX           50..52
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   HELIX           58..60
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   STRAND          69..72
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   HELIX           73..76
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   TURN            84..87
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   HELIX           91..93
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   HELIX           99..101
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   STRAND          108..111
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   HELIX           114..117
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   TURN            125..128
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   HELIX           132..134
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   STRAND          149..152
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+FT   HELIX           155..158
+FT                   /evidence="ECO:0007829|PDB:1ULK"
+SQ   SEQUENCE   194 AA;  21042 MW;  8FA0C697AF82563A CRC64;
+     MKRSNSIAVM LVLVLSSLML LLPVEGQGHE GHGVGEILLM GKLGAPVCGV RASGRVCPDG
+     YCCSQWGYCG TTEEYCGKGC QSQCDYNRCG KEFGGKECHD ELCCSQYGWC GNSDGHCGEG
+     CQSQCSYWRC GKDFGGRLCT EDMCCSQYGW CGLTDDHCED GCQSQCDLPT LLPSPLRRII
+     AIRKLKANLA NMLS
+//

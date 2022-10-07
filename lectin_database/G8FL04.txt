@@ -1,0 +1,161 @@
+ID   G8FL04_9CALI            Unreviewed;       539 AA.
+AC   G8FL04;
+DT   25-JAN-2012, integrated into UniProtKB/TrEMBL.
+DT   25-JAN-2012, sequence version 1.
+DT   03-AUG-2022, entry version 41.
+DE   SubName: Full=Major capsid protein {ECO:0000313|EMBL:AEQ77282.1};
+OS   Norovirus Hu/GI.7/TCH-060/USA/2003.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Caliciviridae; Norovirus.
+OX   NCBI_TaxID=1097017 {ECO:0000313|EMBL:AEQ77282.1};
+RN   [1] {ECO:0000313|EMBL:AEQ77282.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=TCH-060 {ECO:0000313|EMBL:AEQ77282.1};
+RA   Neill F.H., Estes M.K., Atmar R.L.;
+RT   "Sporadic Norovirus Disease in Houston, TX.";
+RL   Submitted (MAY-2011) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:4P12, ECO:0007829|PDB:4P1V}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 226-525 IN COMPLEX WITH FUCOSE
+RP   AND GALACTOSE.
+RX   PubMed=24648450; DOI=10.1128/JVI.00201-14;
+RA   Shanker S., Czako R., Sankaran B., Atmar R.L., Estes M.K., Prasad B.V.;
+RT   "Structural analysis of determinants of histo-blood group antigen binding
+RT   specificity in genogroup I noroviruses.";
+RL   J. Virol. 88:6168-6180(2014).
+RN   [3] {ECO:0007829|PDB:6OU9}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.20 ANGSTROMS) OF 13-527.
+RX   PubMed=31182604; DOI=10.1073/pnas.1903562116;
+RA   Jung J., Grant T., Thomas D.R., Diehnelt C.W., Grigorieff N.,
+RA   Joshua-Tor L.;
+RT   "High-resolution cryo-EM structures of outbreak strain human norovirus
+RT   shells reveal size variations.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 116:12828-12832(2019).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JN005886; AEQ77282.1; -; Genomic_RNA.
+DR   PDB; 4P12; X-ray; 1.60 A; A/B/C/D=226-526.
+DR   PDB; 4P1V; X-ray; 1.55 A; A/B/C/D=226-526.
+DR   PDB; 4P25; X-ray; 1.50 A; A/B/C/D=226-525.
+DR   PDB; 4P26; X-ray; 1.90 A; A/B/C/D=226-526.
+DR   PDB; 4P2N; X-ray; 1.70 A; A/B/C/D=226-526.
+DR   PDB; 4P3I; X-ray; 1.69 A; A/B/C/D=226-526.
+DR   PDB; 6OU9; EM; 3.20 A; A/B/C=1-539.
+DR   PDBsum; 4P12; -.
+DR   PDBsum; 4P1V; -.
+DR   PDBsum; 4P25; -.
+DR   PDBsum; 4P26; -.
+DR   PDBsum; 4P2N; -.
+DR   PDBsum; 4P3I; -.
+DR   PDBsum; 6OU9; -.
+DR   SMR; G8FL04; -.
+DR   UniLectin; G8FL04; -.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   InterPro; IPR004005; Calicivirus_coat.
+DR   InterPro; IPR013643; Calicivirus_coat_C.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00915; Calici_coat; 1.
+DR   Pfam; PF08435; Calici_coat_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4P12, ECO:0007829|PDB:4P1V}.
+FT   DOMAIN          6..293
+FT                   /note="Calici_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00915"
+FT   DOMAIN          306..533
+FT                   /note="Calici_coat_C"
+FT                   /evidence="ECO:0000259|Pfam:PF08435"
+FT   REGION          1..20
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         332
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         332
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4P1V, ECO:0007829|PDB:4P2N"
+FT   BINDING         332
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         334
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         334
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4P2N, ECO:0007829|PDB:4P3I"
+FT   BINDING         334
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         345
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P3I"
+FT   BINDING         346
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P2N, ECO:0007829|PDB:4P3I"
+FT   BINDING         351
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         351
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         351
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         355
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P26"
+FT   BINDING         387
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         387
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4P1V, ECO:0007829|PDB:4P2N"
+FT   BINDING         387
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         388
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         388
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4P1V, ECO:0007829|PDB:4P2N"
+FT   BINDING         388
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+FT   BINDING         391
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4P2N, ECO:0007829|PDB:4P3I"
+FT   BINDING         391
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4P1V"
+SQ   SEQUENCE   539 AA;  58056 MW;  19FE5C3325543D45 CRC64;
+     MMMASKDAPS NMDGTSGAGQ LVPEVNAAEP LPLEPVVGAA TAAATAGQVN LIDPWIMNNF
+     VQAPEGEFTI SPNNTPGDIL FDLHLGPHLN PFLQHLSQMY NGWVGNMRVR VMLAGNAFTA
+     GKIIICCVPP GFASQNISIG QATMFPHVIA DVRVLEPIEI PLDDVRNVLF HTNENRPTMR
+     LLCMLYTPLR AGGASSGTDP FVIAGRVLTC PSPDFNFLFL VPPSVEQKTR QLTVPNIPLN
+     NLANSRVPAM INKMTVSTDQ NQVVQFQNGR CTLEGQLLGT TPVSASQVAR IRGKVFSTAS
+     GKGLNLTELD GTPYHAFESP APLGFPDIGA CDWHVSTFKV DQNLSGDPMS RLDVKQNAPF
+     APHLGSIEFT SDQDPTGDQL GTLAWVSPST SGARVDPWKI PSYGSTVTES THLAPPIFPP
+     GFGEAIVYFM SDFPIVSGNT AQVPCTLPQE FVSHFVEQQA PVRGEAALLH YVDPDTHRNL
+     GEFKLYPDGF ITCVPNTGGG PQNLPTNGVF VFSSWVSRYY QLKPVGTAGP ARRLGVRRV
+//

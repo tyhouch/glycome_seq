@@ -1,0 +1,198 @@
+ID   LECA_SPAPA              Reviewed;         251 AA.
+AC   P86352;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   13-OCT-2009, sequence version 1.
+DT   03-AUG-2022, entry version 40.
+DE   RecName: Full=Seed lectin alpha chain {ECO:0000303|PubMed:21889532};
+OS   Spatholobus parviflorus (Butea parviflora).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Spatholobus.
+OX   NCBI_TaxID=132465;
+RN   [1]
+RP   FUNCTION.
+RX   PubMed=23652482; DOI=10.1007/s00894-013-1854-4;
+RA   Abhilash J., Dileep K.V., Palanimuthu M., Geethanandan K., Sadasivan C.,
+RA   Haridas M.;
+RT   "Metal ions in sugar binding, sugar specificity and structural stability of
+RT   Spatholobus parviflorus seed lectin.";
+RL   J. Mol. Model. 19:3271-3278(2013).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=24460654; DOI=10.1111/cbdd.12291;
+RA   Tintu I., Abhilash J., Dileep K.V., Augustine A., Haridas M., Sadasivan C.;
+RT   "A lectin from Spatholobus parviflorus inhibits Aspergillus flavus alpha-
+RT   amylase: enzyme kinetics and thermodynamic studies.";
+RL   Chem. Biol. Drug Des. 84:116-122(2014).
+RN   [3] {ECO:0007744|PDB:3IPV}
+RP   X-RAY CRYSTALLOGRAPHY (2.04 ANGSTROMS) IN COMPLEX WITH CALCIUM AND
+RP   MANGANESE, FUNCTION, AND SUBUNIT.
+RC   TISSUE=Seed {ECO:0000269|PubMed:21889532};
+RX   PubMed=21889532; DOI=10.1016/j.ijbiomac.2011.08.021;
+RA   Geethanandan K., Abhilash J., Bharath S.R., Sadasivan C., Haridas M.;
+RT   "X-ray structure of a galactose-specific lectin from Spatholobous
+RT   parviflorous.";
+RL   Int. J. Biol. Macromol. 49:992-998(2011).
+RN   [4] {ECO:0007744|PDB:4M3C}
+RP   X-RAY CRYSTALLOGRAPHY (2.50 ANGSTROMS) IN COMPLEX WITH CALCIUM AND
+RP   MANGANESE.
+RA   Surya S., Abhilash J., Geethanandan K., Sadasivan C., Haridas M.;
+RT   "Structure of a binary complex between homologous tetrameric legume lectins
+RT   from Butea monosperma and Spatholobus parviflorus seeds.";
+RL   Submitted (AUG-2013) to the PDB data bank.
+CC   -!- FUNCTION: Galactose-binding lectin (PubMed:21889532, PubMed:23652482).
+CC       Exhibits hemagglutination activity in a calcium- and magnesium-
+CC       dependent manner (PubMed:23652482). Also binds to several carbohydrates
+CC       including lactose, D-galactose and GalNAc in a calcium- and magnesium-
+CC       dependent manner (PubMed:23652482). Likely to have antifungal activity
+CC       as it is able to inhibit the activity of the A.flavus alpha-amylase
+CC       (PubMed:24460654). {ECO:0000269|PubMed:21889532,
+CC       ECO:0000269|PubMed:23652482, ECO:0000269|PubMed:24460654}.
+CC   -!- SUBUNIT: Heterotetramer consisting of heterodimers of alpha and beta
+CC       chains. {ECO:0000269|PubMed:21889532}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 3IPV; X-ray; 2.04 A; A/C=1-251.
+DR   PDB; 4M3C; X-ray; 2.50 A; E/G=1-251.
+DR   PDBsum; 3IPV; -.
+DR   PDBsum; 4M3C; -.
+DR   SMR; P86352; -.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:UniProtKB.
+DR   GO; GO:0050832; P:defense response to fungus; IDA:UniProtKB.
+DR   GO; GO:0031640; P:killing of cells of another organism; IEA:UniProtKB-KW.
+DR   GO; GO:0043086; P:negative regulation of catalytic activity; IEA:GOC.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antimicrobial; Calcium; Fungicide; Lectin; Manganese;
+KW   Metal-binding.
+FT   CHAIN           1..251
+FT                   /note="Seed lectin alpha chain"
+FT                   /id="PRO_0000386446"
+FT   BINDING         88
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /evidence="ECO:0000250|UniProtKB:P02870"
+FT   BINDING         106
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /evidence="ECO:0000250|UniProtKB:P02870"
+FT   BINDING         126
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         128
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         128
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         130
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         132
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         137
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         137
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         142
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000269|PubMed:21889532,
+FT                   ECO:0007744|PDB:3IPV, ECO:0007744|PDB:4M3C"
+FT   BINDING         217
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /evidence="ECO:0000250|UniProtKB:P02870"
+FT   BINDING         218
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /evidence="ECO:0000250|UniProtKB:P02870"
+FT   STRAND          2..10
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          18..22
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          32..35
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          48..55
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   TURN            62..64
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          69..77
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          88..96
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   HELIX           105..107
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   TURN            108..110
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          112..115
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   HELIX           118..120
+FT                   /evidence="ECO:0007829|PDB:4M3C"
+FT   STRAND          123..128
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   HELIX           133..135
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          142..151
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          153..157
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          165..172
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   TURN            174..176
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          178..184
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   TURN            186..188
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          191..197
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   HELIX           200..203
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          206..216
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   STRAND          227..237
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+FT   HELIX           244..250
+FT                   /evidence="ECO:0007829|PDB:3IPV"
+SQ   SEQUENCE   251 AA;  26373 MW;  E52BD3633A1C2A48 CRC64;
+     AEETSFVFSK FKPLEPNLIL QGDALVTVAG VLQLTNVDKN GVPEPSSLGR ATYSAPINIW
+     DSATGLVASF ATSFRFTIYA PNIATIADGL AFFLAPVASA PDSGGGFLGL FDSAVSGSTY
+     QTVAVEFDTY ENTVFTDPPY THIGFDVNSI SSIKTVKWSL ANGEAAKVLI TYNSAVKLLV
+     ASLVYPSSKT SFILADIVDL SSVLPEWVRV GFSAATGASG GKIETHDVFS WSFASKLAGX
+     XTKDSSFLDG G
+//

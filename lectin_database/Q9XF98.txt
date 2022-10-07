@@ -1,0 +1,150 @@
+ID   CALR_PRUAR              Reviewed;         421 AA.
+AC   Q9XF98;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   03-AUG-2022, entry version 102.
+DE   RecName: Full=Calreticulin;
+DE   Flags: Precursor;
+OS   Prunus armeniaca (Apricot) (Armeniaca vulgaris).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Rosales; Rosaceae; Amygdaloideae; Amygdaleae; Prunus.
+OX   NCBI_TaxID=36596;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Bergeron; TISSUE=Endocarp, and Mesocarp;
+RA   Mbeguie-A-Mbeguie D., Fils-Lycaon B.R.;
+RT   "Molecular cloning and nucleotide sequence of a calreticulin from apricot
+RT   (Prunus armeniaca cv. Bergeron).";
+RL   Submitted (MAR-1999) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Molecular calcium-binding chaperone promoting folding,
+CC       oligomeric assembly and quality control in the ER via the
+CC       calreticulin/calnexin cycle. This lectin may interact transiently with
+CC       almost all of the monoglucosylated glycoproteins that are synthesized
+CC       in the ER (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000255|PROSITE-
+CC       ProRule:PRU10138}.
+CC   -!- DOMAIN: Can be divided into a N-terminal globular domain, a proline-
+CC       rich P-domain forming an elongated arm-like structure and a C-terminal
+CC       acidic domain. The P-domain binds one molecule of calcium with high
+CC       affinity, whereas the acidic C-domain binds multiple calcium ions with
+CC       low affinity (By similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The interaction with glycans occurs through a binding site in
+CC       the globular lectin domain. {ECO:0000250}.
+CC   -!- DOMAIN: The zinc binding sites are localized to the N-domain.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF134733; AAD32207.1; -; mRNA.
+DR   AlphaFoldDB; Q9XF98; -.
+DR   SMR; Q9XF98; -.
+DR   PRIDE; Q9XF98; -.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:InterPro.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   Gene3D; 2.10.250.10; -; 1.
+DR   InterPro; IPR001580; Calret/calnex.
+DR   InterPro; IPR018124; Calret/calnex_CS.
+DR   InterPro; IPR009169; Calreticulin.
+DR   InterPro; IPR009033; Calreticulin/calnexin_P_dom_sf.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   PANTHER; PTHR11073; PTHR11073; 1.
+DR   Pfam; PF00262; Calreticulin; 2.
+DR   PIRSF; PIRSF002356; Calreticulin; 1.
+DR   PRINTS; PR00626; CALRETICULIN.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF63887; SSF63887; 1.
+DR   PROSITE; PS00803; CALRETICULIN_1; 1.
+DR   PROSITE; PS00804; CALRETICULIN_2; 1.
+DR   PROSITE; PS00805; CALRETICULIN_REPEAT; 2.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Chaperone; Disulfide bond; Endoplasmic reticulum; Glycoprotein;
+KW   Lectin; Metal-binding; Repeat; Signal; Zinc.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..421
+FT                   /note="Calreticulin"
+FT                   /id="PRO_0000004194"
+FT   REPEAT          196..207
+FT                   /note="1-1"
+FT   REPEAT          215..226
+FT                   /note="1-2"
+FT   REPEAT          232..243
+FT                   /note="1-3"
+FT   REPEAT          250..261
+FT                   /note="1-4"
+FT   REPEAT          265..275
+FT                   /note="2-1"
+FT   REPEAT          279..289
+FT                   /note="2-2"
+FT   REPEAT          293..303
+FT                   /note="2-3"
+FT   REGION          196..261
+FT                   /note="4 X approximate repeats"
+FT   REGION          217..283
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          265..303
+FT                   /note="3 X approximate repeats"
+FT   REGION          350..421
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           418..421
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   COMPBIAS        217..255
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        350..377
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        378..403
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        404..421
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         114
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         116
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         133
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         140
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   BINDING         323
+FT                   /ligand="an alpha-D-glucoside"
+FT                   /ligand_id="ChEBI:CHEBI:22390"
+FT                   /evidence="ECO:0000250|UniProtKB:P14211"
+FT   CARBOHYD        56
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        156
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        110..142
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   421 AA;  48416 MW;  4F5F94CBAA6C6690 CRC64;
+     MAFRVPNSSL LSLILLSLLA IASAKVFFEE RFEDGWDKRW VTSEWKKDEN LAGEWNYTSG
+     KWNGDPNDKG IQTSEDYRFY AISAEFPEFS NKDKTLVFQF SVKHEQKLDC GGGYIKLLSG
+     DVDQKKFGGD TPYSIMFGPD ICGYSTKKVH AILNYNNTNN LIKKDVPCET DQLTHVYTFI
+     IRPDATYSIL IDNLEKQTGS LYSDWDLLPA KKIKDPEAKK PEDWEDQEYI PDPEDKKPEG
+     YDDIPKEITD PDAKKPEDWD DEEDGEWTAP TIPNPEYKGE WKPKKIKNPN FKGKWKAPLI
+     DNPEFKDDPE LYVYPNLKYV GIELWQVKSG TLFDNILITD EPEYAKQLAE ETWGKQKDAE
+     KAAFEELEKK LQEEESKEDP VDSDAEDDDN EAEDGEESDS ESKPDSTEES AETEAEKHDE
+     L
+//

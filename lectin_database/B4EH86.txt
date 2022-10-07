@@ -1,0 +1,115 @@
+ID   B4EH86_BURCJ            Unreviewed;       272 AA.
+AC   B4EH86;
+DT   23-SEP-2008, integrated into UniProtKB/TrEMBL.
+DT   23-SEP-2008, sequence version 1.
+DT   03-AUG-2022, entry version 69.
+DE   SubName: Full=Lectin {ECO:0000313|EMBL:CAR54043.1};
+GN   ORFNames=BCAM0185 {ECO:0000313|EMBL:CAR54043.1};
+OS   Burkholderia cenocepacia (strain ATCC BAA-245 / DSM 16553 / LMG 16656 /
+OS   NCTC 13227 / J2315 / CF5610) (Burkholderia cepacia (strain J2315)).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; Burkholderia cepacia complex.
+OX   NCBI_TaxID=216591 {ECO:0000313|EMBL:CAR54043.1, ECO:0000313|Proteomes:UP000001035};
+RN   [1] {ECO:0000313|EMBL:CAR54043.1, ECO:0000313|Proteomes:UP000001035}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-245 / DSM 16553 / LMG 16656 / NCTC 13227 / J2315 /
+RC   CF5610 {ECO:0000313|Proteomes:UP000001035};
+RX   PubMed=18931103; DOI=10.1128/JB.01230-08;
+RA   Holden M.T., Seth-Smith H.M., Crossman L.C., Sebaihia M., Bentley S.D.,
+RA   Cerdeno-Tarraga A.M., Thomson N.R., Bason N., Quail M.A., Sharp S.,
+RA   Cherevach I., Churcher C., Goodhead I., Hauser H., Holroyd N., Mungall K.,
+RA   Scott P., Walker D., White B., Rose H., Iversen P., Mil-Homens D.,
+RA   Rocha E.P., Fialho A.M., Baldwin A., Dowson C., Barrell B.G., Govan J.R.,
+RA   Vandamme P., Hart C.A., Mahenthiralingam E., Parkhill J.;
+RT   "The genome of Burkholderia cenocepacia J2315, an epidemic pathogen of
+RT   cystic fibrosis patients.";
+RL   J. Bacteriol. 191:261-277(2009).
+RN   [2] {ECO:0007829|PDB:2WQ4}
+RP   X-RAY CRYSTALLOGRAPHY (1.42 ANGSTROMS) OF 1-156.
+RX   PubMed=20152153; DOI=10.1016/j.str.2009.10.021;
+RA   Sulak O., Cioci G., Delia M., Lahmann M., Varrot A., Imberty A.,
+RA   Wimmerova M.;
+RT   "A TNF-like trimeric lectin domain from Burkholderia cenocepacia with
+RT   specificity for fucosylated human histo-blood group antigens.";
+RL   Structure 18:59-72(2010).
+RN   [3] {ECO:0007829|PDB:2XR4}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 158-272.
+RX   PubMed=21909279; DOI=10.1371/journal.ppat.1002238;
+RA   Sulak O., Cioci G., Lameignere E., Balloy V., Round A., Gutsche I.,
+RA   Malinovska L., Chignard M., Kosma P., Aubert D.F., Marolda C.L.,
+RA   Valvano M.A., Wimmerova M., Imberty A.;
+RT   "Burkholderia cenocepacia BC2L-C is a super lectin with dual specificity
+RT   and proinflammatory activity.";
+RL   PLoS Pathog. 7:e1002238-e1002238(2011).
+RN   [4] {ECO:0007829|PDB:6TID, ECO:0007829|PDB:6TIG}
+RP   X-RAY CRYSTALLOGRAPHY (1.61 ANGSTROMS) OF 1-132.
+RX   PubMed=31936166; DOI=10.3390/molecules25020248;
+RA   Bermeo R., Bernardi A., Varrot A.;
+RT   "BC2L-C N-Terminal Lectin Domain Complexed with Histo Blood Group
+RT   Oligosaccharides Provides New Structural Information.";
+RL   Molecules 25:0-0(2020).
+RN   [5] {ECO:0007829|PDB:6ZZW, ECO:0007829|PDB:7BFY}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 1-131.
+RX   PubMed=33769626; DOI=10.1002/chem.202100252;
+RA   Lal K., Bermeo R., Cramer J., Vasile F., Ernst B., Imberty A., Bernardi A.,
+RA   Varrot A., Belvisi L.;
+RT   "Prediction and Validation of a Druggable Site on Virulence Factor of Drug
+RT   Resistant Burkholderia cenocepacia*.";
+RL   Chemistry 27:10341-10348(2021).
+CC   -!- INTERACTION:
+CC       B4EH86; B4EH86: BCAM0185; NbExp=2; IntAct=EBI-15835228, EBI-15835228;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM747721; CAR54043.1; -; Genomic_DNA.
+DR   RefSeq; WP_006490828.1; NC_011001.1.
+DR   PDB; 2WQ4; X-ray; 1.42 A; A/B/C=1-156.
+DR   PDB; 2XR4; X-ray; 1.90 A; A/B=158-272.
+DR   PDB; 6TID; X-ray; 1.61 A; AAA=1-132.
+DR   PDB; 6TIG; X-ray; 1.90 A; AAA/BBB/CCC=1-132.
+DR   PDB; 6ZZW; X-ray; 1.90 A; A/B/C=1-132.
+DR   PDB; 7BFY; X-ray; 1.50 A; A=1-131.
+DR   PDBsum; 2WQ4; -.
+DR   PDBsum; 2XR4; -.
+DR   PDBsum; 6TID; -.
+DR   PDBsum; 6TIG; -.
+DR   SMR; B4EH86; -.
+DR   DIP; DIP-48748N; -.
+DR   STRING; 216591.BCAM0185; -.
+DR   UniLectin; B4EH86; -.
+DR   EnsemblBacteria; CAR54043; CAR54043; BCAM0185.
+DR   KEGG; bcj:BCAM0185; -.
+DR   eggNOG; ENOG5032XMJ; Bacteria.
+DR   HOGENOM; CLU_1021860_0_0_4; -.
+DR   OMA; TYSAKVP; -.
+DR   OrthoDB; 910185at2; -.
+DR   BioCyc; BCEN216591:G1G1V-4128-MON; -.
+DR   EvolutionaryTrace; B4EH86; -.
+DR   Proteomes; UP000001035; Chromosome 2.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   CDD; cd12211; Bc2l-C_N; 1.
+DR   Gene3D; 2.60.120.400; -; 1.
+DR   InterPro; IPR033790; Bc2l-C_N.
+DR   InterPro; IPR010907; Ca-mediated_lectin.
+DR   InterPro; IPR036684; Ca_lectin_sf.
+DR   Pfam; PF07472; PA-IIL; 1.
+DR   SUPFAM; SSF82026; SSF82026; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2WQ4, ECO:0007829|PDB:2XR4}.
+FT   DOMAIN          163..271
+FT                   /note="PA-IIL"
+FT                   /evidence="ECO:0000259|Pfam:PF07472"
+FT   REGION          133..158
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        133..147
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   272 AA;  28283 MW;  386B0CFEF399A116 CRC64;
+     MPLLSASIVS APVVTSETYV DIPGLYLDVA KAGIRDGKLQ VILNVPTPYA TGNNFPGIYF
+     AIATNQGVVA DGCFTYSSKV PESTGRMPFT LVATIDVGSG VTFVKGQWKS VRGSAMHIDS
+     YASLSAIWGT AAPSSQGSGN QGAETGGTGA GNIGGGGERD GTFNLPPHIK FGVTALTHAA
+     NDQTIDIYID DDPKPAATFK GAGAQDQNLG TKVLDSGNGR VRVIVMANGR PSRLGSRQVD
+     IFKKSYFGII GSEDGADDDY NDGIVFLNWP LG
+//

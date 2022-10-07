@@ -1,0 +1,119 @@
+ID   SIG13_PANTR             Reviewed;         387 AA.
+AC   Q64JA4;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   03-AUG-2022, entry version 85.
+DE   RecName: Full=Sialic acid-binding Ig-like lectin 13;
+DE            Short=Siglec-13;
+DE   Flags: Precursor;
+GN   Name=SIGLEC13;
+OS   Pan troglodytes (Chimpanzee).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pan.
+OX   NCBI_TaxID=9598;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=15331780; DOI=10.1073/pnas.0404833101;
+RA   Angata T., Margulies E.H., Green E.D., Varki A.;
+RT   "Large-scale sequencing of the CD33-related Siglec gene cluster in five
+RT   mammalian species reveals rapid evolution by multiple mechanisms.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:13251-13256(2004).
+CC   -!- FUNCTION: Putative adhesion molecule that mediates sialic-acid
+CC       dependent binding to cells. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY485345; AAS55863.1; -; mRNA.
+DR   RefSeq; NP_001036087.1; NM_001042622.1.
+DR   AlphaFoldDB; Q64JA4; -.
+DR   SMR; Q64JA4; -.
+DR   STRING; 9598.ENSPTRP00000054310; -.
+DR   PaxDb; Q64JA4; -.
+DR   PRIDE; Q64JA4; -.
+DR   GeneID; 732483; -.
+DR   KEGG; ptr:732483; -.
+DR   CTD; 732483; -.
+DR   eggNOG; ENOG502SKMX; Eukaryota.
+DR   InParanoid; Q64JA4; -.
+DR   OrthoDB; 324083at2759; -.
+DR   Proteomes; UP000002277; Unplaced.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033691; F:sialic acid binding; IBA:GO_Central.
+DR   GO; GO:0007155; P:cell adhesion; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; -; 3.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   Pfam; PF07686; V-set; 1.
+DR   SMART; SM00409; IG; 3.
+DR   SMART; SM00408; IGc2; 1.
+DR   SUPFAM; SSF48726; SSF48726; 3.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   2: Evidence at transcript level;
+KW   Cell adhesion; Disulfide bond; Glycoprotein; Immunoglobulin domain; Lectin;
+KW   Membrane; Reference proteome; Repeat; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..15
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           16..387
+FT                   /note="Sialic acid-binding Ig-like lectin 13"
+FT                   /id="PRO_0000014952"
+FT   TOPO_DOM        16..341
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        342..362
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        363..387
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          16..138
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          144..227
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          234..326
+FT                   /note="Ig-like C2-type 2"
+FT   BINDING         118
+FT                   /ligand="N-acetylneuraminate"
+FT                   /ligand_id="ChEBI:CHEBI:35418"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        99
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        229
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        236
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        254
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        35..168
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        40..100
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        162..211
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        270..314
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+SQ   SEQUENCE   387 AA;  42525 MW;  436E01C0F7E5E980 CRC64;
+     MLPLLLPLLW AGALALEGIF QLEVPESVTV QEGLCVFVPC TFFYPRHTFI KISLACGYWF
+     REGDNPLRDA PVATNDPARQ VREETRGRFR LLGNPREKNC SLSIRDARRR DSGSYFFRVE
+     EAMMKYNYKD PPLSVHVTAL THRPDILIPG ALKSGRPRNL VCSVPWACEQ GTPPIFSWIG
+     TSVSPLSPTT ALSSVVTLIP QPQDHGSRLT CQVTLPGAGV TTTRTVRLNV SYPPQNLTLT
+     VFQGDGTAST TLRNESSLQV LEGQSLRLVC AVDSNPPARL SWAQDNLILS PSQPNPGMLE
+     LPQMHLRNEG EFTCQARNPL GSQQVSLRLF VQRKSGPMAE VVLVAIGEAA VKILLLFLCL
+     IILRVKSHRR KAAKAATGVE AAKVVKG
+//

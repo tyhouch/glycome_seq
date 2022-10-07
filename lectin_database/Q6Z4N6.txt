@@ -1,0 +1,134 @@
+ID   40G2_ORYSJ              Reviewed;         343 AA.
+AC   Q6Z4N6; O24212; Q6Z4N5;
+DT   30-NOV-2016, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 119.
+DE   RecName: Full=Ricin B-like lectin R40G2 {ECO:0000305};
+DE   AltName: Full=Osr40g2 {ECO:0000303|PubMed:9265787};
+GN   Name=R40G2 {ECO:0000305};
+GN   OrderedLocusNames=Os07g0683900 {ECO:0000312|EMBL:BAF22581.1},
+GN   LOC_Os07g48490 {ECO:0000305};
+GN   ORFNames=OSJNBa0060O17.13-1 {ECO:0000312|EMBL:BAC83804.1},
+GN   OSJNBa0060O17.13-2 {ECO:0000312|EMBL:BAC83805.1};
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9265787; DOI=10.1007/s004250050148;
+RA   Moons A., Gielen J., Vandekerckhove J., Van der Straeten D., Gheysen G.,
+RA   Van Montagu M.;
+RT   "An abscisic-acid- and salt-stress-responsive rice cDNA from a novel plant
+RT   gene family.";
+RL   Planta 202:443-454(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Ilpoombyeo;
+RA   Yoon U.H., Kim Y.H.;
+RT   "Molecular cloning of the seed developmental stage gene(osr40g2) in rice.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [4]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=18089549; DOI=10.1093/nar/gkm978;
+RG   The rice annotation project (RAP);
+RT   "The rice annotation project database (RAP-DB): 2008 update.";
+RL   Nucleic Acids Res. 36:D1028-D1033(2008).
+RN   [5]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=24280374; DOI=10.1186/1939-8433-6-4;
+RA   Kawahara Y., de la Bastide M., Hamilton J.P., Kanamori H., McCombie W.R.,
+RA   Ouyang S., Schwartz D.C., Tanaka T., Wu J., Zhou S., Childs K.L.,
+RA   Davidson R.M., Lin H., Quesada-Ocampo L., Vaillancourt B., Sakai H.,
+RA   Lee S.S., Kim J., Numa H., Itoh T., Buell C.R., Matsumoto T.;
+RT   "Improvement of the Oryza sativa Nipponbare reference genome using next
+RT   generation sequence and optical map data.";
+RL   Rice 6:4-4(2013).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12869764; DOI=10.1126/science.1081288;
+RG   The rice full-length cDNA consortium;
+RT   "Collection, mapping, and annotation of over 28,000 cDNA clones from
+RT   japonica rice.";
+RL   Science 301:376-379(2003).
+CC   -!- FUNCTION: Lectin which binds carbohydrates in vitro. Interacts through
+CC       its lectin domain with glycan structures containing specific motifs.
+CC       {ECO:0000250|UniProtKB:Q945P1}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q6Z4N6-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q6Z4N6-2; Sequence=VSP_058658;
+CC   -!- DOMAIN: The ricin B-type lectin domain binds glycan structures.
+CC       {ECO:0000250|UniProtKB:Q945P1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y08987; CAA70174.1; -; mRNA.
+DR   EMBL; EU267979; ACA50501.1; -; mRNA.
+DR   EMBL; KM051840; AIV98520.1; -; mRNA.
+DR   EMBL; AP005167; BAC83804.1; -; Genomic_DNA.
+DR   EMBL; AP005167; BAC83805.1; -; Genomic_DNA.
+DR   EMBL; AP008213; BAF22581.1; -; Genomic_DNA.
+DR   EMBL; AP014963; BAT03268.1; -; Genomic_DNA.
+DR   EMBL; AK103324; BAG96018.1; -; mRNA.
+DR   PIR; T03960; T03960.
+DR   AlphaFoldDB; Q6Z4N6; -.
+DR   SMR; Q6Z4N6; -.
+DR   STRING; 4530.OS07T0683900-01; -.
+DR   PaxDb; Q6Z4N6; -.
+DR   PRIDE; Q6Z4N6; -.
+DR   EnsemblPlants; Os07t0683900-01; Os07t0683900-01; Os07g0683900. [Q6Z4N6-1]
+DR   Gramene; Os07t0683900-01; Os07t0683900-01; Os07g0683900. [Q6Z4N6-1]
+DR   eggNOG; ENOG502QTCR; Eukaryota.
+DR   InParanoid; Q6Z4N6; -.
+DR   OMA; ILPWCKF; -.
+DR   Proteomes; UP000000763; Chromosome 7.
+DR   Proteomes; UP000059680; Chromosome 7.
+DR   ExpressionAtlas; Q6Z4N6; baseline and differential.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR040249; Ricin_B-like_lectin_EULS3-like.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   PANTHER; PTHR31257; PTHR31257; 3.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Lectin; Reference proteome.
+FT   CHAIN           1..343
+FT                   /note="Ricin B-like lectin R40G2"
+FT                   /id="PRO_0000438378"
+FT   DOMAIN          194..340
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   VAR_SEQ         1..58
+FT                   /note="Missing (in isoform 2)"
+FT                   /id="VSP_058658"
+FT   CONFLICT        200
+FT                   /note="A -> P (in Ref. 1; CAA70174)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        227
+FT                   /note="H -> Y (in Ref. 1; CAA70174)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        285..289
+FT                   /note="TESKD -> RESKH (in Ref. 1; CAA70174)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   343 AA;  38528 MW;  3DA167321BCCD097 CRC64;
+     MFGFGHHHNQ APAAPSDPNQ IFKIFCRANE NYCLTVRDSA VVLAPVNPKD EHQHWFKDMR
+     FSTKVKDGEG MPAFALVNKA TGLAVKHSLG QSHPVKLVPF NPEYEDASVL WTESKDVGKG
+     FRCIRMVNNT RLNLDAFHGD KDHGGVRDGT TVVLWEWCKG DNQSWKILPW GPEAHSSSPG
+     AATACTIGGV PVHTVRVFSA AGEDYCLTVR NGTACLAPKN PRDDYQHWIK DMRHSNKIRD
+     EEGYPAFALV NKVTGEAIKH STGQGHPVKL VPYNPEYQDE SVLWTESKDV GKGFRCIRMV
+     NNIYLNFDAF HGDKDHGGIH DGTEIVLWKW CEGDNQRWKI LPW
+//

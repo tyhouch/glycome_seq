@@ -1,0 +1,116 @@
+ID   KLRB1_MOUSE             Reviewed;         214 AA.
+AC   Q0ZUP1; Q1A4F6;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   22-AUG-2006, sequence version 1.
+DT   03-AUG-2022, entry version 95.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily B member 1;
+DE   AltName: Full=Killer cell lectin-like receptor subfamily B member 1G;
+DE   AltName: Full=Natural killer cell surface protein NKR-P1G;
+DE   AltName: Full=Natural killer lectin-like receptor 1E;
+GN   Name=Klrb1;
+GN   Synonyms=Gm4696, Klrb1d, Klrb1g, Klrb6 {ECO:0000312|EMBL:ABA41355.1},
+GN   Nkrp1g {ECO:0000312|EMBL:ABC71751.1};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1] {ECO:0000312|EMBL:ABA41355.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=C57BL/6J {ECO:0000312|EMBL:ABA41355.1};
+RA   Fossum S., Flornes L.M., Saether P.C., Dissen E.;
+RT   "Gene homogenization of exons encoding the ligand binding parts of
+RT   regulatory leukocyte receptors.";
+RL   Submitted (JUN-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:ABC71751.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 60-174.
+RC   STRAIN=BALB/cJ {ECO:0000312|EMBL:ABC71751.1};
+RX   PubMed=16751398; DOI=10.4049/jimmunol.176.12.7511;
+RA   Carlyle J.R., Mesci A., Ljutic B., Belanger S., Tai L.-H., Rousselle E.,
+RA   Troke A.D., Proteau M.-F., Makrigiannis A.P.;
+RT   "Molecular and genetic basis for strain-dependent NK1.1 alloreactivity of
+RT   mouse NK cells.";
+RL   J. Immunol. 176:7511-7524(2006).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Single-pass type II
+CC       membrane protein {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ113419; ABA41355.1; -; mRNA.
+DR   EMBL; DQ336141; ABC71751.1; -; Genomic_DNA.
+DR   CCDS; CCDS39653.1; -.
+DR   RefSeq; NP_001093388.1; NM_001099918.1.
+DR   AlphaFoldDB; Q0ZUP1; -.
+DR   SMR; Q0ZUP1; -.
+DR   STRING; 10090.ENSMUSP00000107738; -.
+DR   PaxDb; Q0ZUP1; -.
+DR   PRIDE; Q0ZUP1; -.
+DR   DNASU; 100043861; -.
+DR   Ensembl; ENSMUST00000112110; ENSMUSP00000107738; ENSMUSG00000079299.
+DR   GeneID; 100043861; -.
+DR   KEGG; mmu:100043861; -.
+DR   UCSC; uc009eem.1; mouse.
+DR   CTD; 3820; -.
+DR   MGI; MGI:96877; Klrb1.
+DR   VEuPathDB; HostDB:ENSMUSG00000079299; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000154685; -.
+DR   HOGENOM; CLU_049894_8_2_1; -.
+DR   InParanoid; Q0ZUP1; -.
+DR   OMA; WHRVALK; -.
+DR   OrthoDB; 1341815at2759; -.
+DR   PhylomeDB; Q0ZUP1; -.
+DR   TreeFam; TF337735; -.
+DR   BioGRID-ORCS; 100043861; 3 hits in 72 CRISPR screens.
+DR   ChiTaRS; Klrb1b; mouse.
+DR   PRO; PR:Q0ZUP1; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   RNAct; Q0ZUP1; protein.
+DR   Bgee; ENSMUSG00000079299; Expressed in animal zygote and 25 other tissues.
+DR   ExpressionAtlas; Q0ZUP1; baseline and differential.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IDA:MGI.
+DR   GO; GO:0042269; P:regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Lectin; Membrane; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..214
+FT                   /note="Killer cell lectin-like receptor subfamily B member
+FT                   1"
+FT                   /id="PRO_0000317213"
+FT   TOPO_DOM        1..42
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        43..63
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        64..214
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          98..208
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        119..207
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        186..199
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   214 AA;  23909 MW;  79DEC281E49943DF CRC64;
+     MDAPVLYAEL NLAETRGLRC TSAPSLPQDA CQGPGWHRVA LKLGCAGLIF LLMVLSVLVG
+     FLVQKPLIEK CSVAVQENRT EPTGRSATLE CPRDWHPHCD KCLFTSQTSR PWADGLVDCN
+     LKGATLLLIQ DEEELRLLQN FSKGKGQQFY IGLKYEEVDK VWKWMNGSIL NTNLLQITGK
+     DEENSCALIS QTEVFSDSCS SDNHWICQKT LKHV
+//

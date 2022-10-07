@@ -1,0 +1,114 @@
+ID   CD302_PIG               Reviewed;         240 AA.
+AC   A8WH75;
+DT   19-OCT-2011, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   03-AUG-2022, entry version 74.
+DE   RecName: Full=CD302 antigen {ECO:0000250|UniProtKB:Q8IX05};
+DE   AltName: Full=Type I transmembrane C-type lectin receptor DCL-1 {ECO:0000303|PubMed:17947679};
+DE   Flags: Precursor;
+GN   Name=CD302 {ECO:0000303|PubMed:17947679};
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver {ECO:0000305};
+RX   PubMed=17145712; DOI=10.1093/nar/gkl954;
+RA   Uenishi H., Eguchi-Ogawa T., Shinkai H., Okumura N., Suzuki K., Toki D.,
+RA   Hamasima N., Awata T.;
+RT   "PEDE (Pig EST Data Explorer) has been expanded into Pig Expression Data
+RT   Explorer, including 10 147 porcine full-length cDNA sequences.";
+RL   Nucleic Acids Res. 35:D650-D653(2007).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RG   Porcine genome sequencing project;
+RL   Submitted (NOV-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000305, ECO:0000312|EMBL:DAA06089.1}
+RP   IDENTIFICATION.
+RX   PubMed=17947679; DOI=10.4049/jimmunol.179.9.6052;
+RA   Kato M., Khan S., d'Aniello E., McDonald K.J., Hart D.N.;
+RT   "The novel endocytic and phagocytic C-Type lectin receptor DCL-1/CD302 on
+RT   macrophages is colocalized with F-actin, suggesting a role in cell adhesion
+RT   and migration.";
+RL   J. Immunol. 179:6052-6063(2007).
+CC   -!- FUNCTION: Potential multifunctional C-type lectin receptor that may
+CC       play roles in endocytosis and phagocytosis as well as in cell adhesion
+CC       and migration. {ECO:0000250|UniProtKB:Q8IX05}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Single-pass type I
+CC       membrane protein {ECO:0000255}. Cell projection, filopodium
+CC       {ECO:0000250|UniProtKB:Q8IX05, ECO:0000255}. Cytoplasm, cell cortex
+CC       {ECO:0000250|UniProtKB:Q8IX05, ECO:0000255}. Note=Colocalizes with F-
+CC       actin in filopodia, cellular cortex and microvilli of the apical cell
+CC       surface. {ECO:0000250|UniProtKB:Q8IX05, ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AK233610; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; CU928024; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BK006293; DAA06089.1; -; mRNA.
+DR   RefSeq; NP_001103895.1; NM_001110425.1.
+DR   AlphaFoldDB; A8WH75; -.
+DR   SMR; A8WH75; -.
+DR   STRING; 9823.ENSSSCP00000029693; -.
+DR   PaxDb; A8WH75; -.
+DR   PeptideAtlas; A8WH75; -.
+DR   Ensembl; ENSSSCT00070051588; ENSSSCP00070043630; ENSSSCG00070025809.
+DR   GeneID; 100126280; -.
+DR   KEGG; ssc:100126280; -.
+DR   CTD; 9936; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   HOGENOM; CLU_088281_0_0_1; -.
+DR   InParanoid; A8WH75; -.
+DR   OMA; RWENVSC; -.
+DR   OrthoDB; 1071894at2759; -.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Chromosome 15.
+DR   GO; GO:0005938; C:cell cortex; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030175; C:filopodium; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell projection; Cytoplasm; Disulfide bond; Glycoprotein; Lectin; Membrane;
+KW   Receptor; Reference proteome; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..?
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           ?..240
+FT                   /note="CD302 antigen"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000413657"
+FT   TOPO_DOM        ?..176
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        177..197
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        198..240
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          40..160
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        117
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        136..151
+FT                   /evidence="ECO:0000250|UniProtKB:Q5KU26,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   240 AA;  26428 MW;  EE544905C36C2B5A CRC64;
+     MARAAPPALL LPLLGLAAAT AAAAAAAAAV GCPSSTWVQF QDSCYIFLQE AIKVESIEDV
+     RNQCTDHGAD MVSIHNEEEN TFILETLKKQ WKGPDDILLG MFFDTDDASF KWFDKSNMTF
+     DKWSDQEDGE DLVDTCAFLH TKTGEWKKGN CEVSSVEGTL CKAAIPYEKK YLSDNHILIS
+     ALVIASTVIL TVLGAVIWFL YKRNLDSGFT TVFSTAPQSP FNDDCVLVVA EENEYAVQFD
+//

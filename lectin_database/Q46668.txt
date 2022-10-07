@@ -1,0 +1,87 @@
+ID   CDTA_ECOLX              Reviewed;         258 AA.
+AC   Q46668;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   25-MAY-2022, entry version 88.
+DE   RecName: Full=Cytolethal distending toxin subunit A;
+DE            Short=CDT A;
+DE   Flags: Precursor;
+GN   Name=cdtA;
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=O128:H- / 9142-88 / EPEC;
+RX   PubMed=8112838; DOI=10.1128/iai.62.3.1046-1051.1994;
+RA   Pickett C.L., Cottle D.L., Pesci E.C., Bikah G.;
+RT   "Cloning, sequencing, and expression of the Escherichia coli cytolethal
+RT   distending toxin genes.";
+RL   Infect. Immun. 62:1046-1051(1994).
+CC   -!- FUNCTION: CDTs are cytotoxins which induce host cell distension, growth
+CC       arrest in G2/M phase, nucleus swelling, and chromatin fragmentation in
+CC       HeLa cells. CdtA, along with CdtC, probably forms a heterodimeric
+CC       subunit required for the delivery of CdtB.
+CC   -!- SUBUNIT: Heterotrimer of 3 subunits, CdtA, CdtB and CdtC.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305}; Lipid-anchor
+CC       {ECO:0000305}.
+CC   -!- MISCELLANEOUS: The operon of the strain O128:H- / 9142-88 / EPEC is
+CC       referred to as cdt type II (CDT-II).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U04208; AAA18785.1; -; Unassigned_DNA.
+DR   PIR; I54627; I54627.
+DR   AlphaFoldDB; Q46668; -.
+DR   SMR; Q46668; -.
+DR   TCDB; 1.C.98.1.1; the cytolethal distending toxin (cdt) family.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR015957; CDtoxinA.
+DR   InterPro; IPR003558; CDtoxinA/C.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF03498; CDtoxinA; 1.
+DR   PIRSF; PIRSF036516; CDT_A; 1.
+DR   PRINTS; PR01387; CDTOXINA.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Lectin; Lipoprotein; Membrane; Palmitate; Signal;
+KW   Toxin; Virulence.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..258
+FT                   /note="Cytolethal distending toxin subunit A"
+FT                   /id="PRO_0000013370"
+FT   DOMAIN          125..223
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          40..71
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          93..104
+FT                   /note="Mediates binding to target cells"
+FT                   /evidence="ECO:0000250"
+FT   REGION          236..258
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        40..68
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   LIPID           22
+FT                   /note="N-palmitoyl cysteine"
+FT                   /evidence="ECO:0000255"
+FT   LIPID           22
+FT                   /note="S-diacylglycerol cysteine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   258 AA;  27712 MW;  23A31F3AFD4D2F35 CRC64;
+     MANKRTPIFI AGILIPILLN GCSSGKNKAY LDPKVFPPQV EGGPTVPSPD EPGLPLPGPG
+     PALPTNGAIP IPEPGTAPAV SLMNMDGSVL TMWSRGAGSS LWAYYIGDSN SFGELRNWQI
+     MPGTRPNTIQ FRNVDVGTCM TSFPGFKGGV QLSTAPCKFG PERFDFQPMA TRNGNYQLKS
+     LSTGLCIRAN FLGRTPSSPY ATTLTMERCP SSGEKNFEFM WSISEPLRPA LATIAKPEIR
+     PFPPQPIEPD EHSTGGEQ
+//

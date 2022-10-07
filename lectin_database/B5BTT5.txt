@@ -1,0 +1,91 @@
+ID   B5BTT5_9CALI            Unreviewed;       540 AA.
+AC   B5BTT5;
+DT   14-OCT-2008, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2008, sequence version 1.
+DT   03-AUG-2022, entry version 34.
+DE   SubName: Full=VP1 {ECO:0000313|EMBL:BAG70536.1};
+OS   Norovirus Hu/GII-4/Kumamoto5/2006/JP.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Caliciviridae; Norovirus.
+OX   NCBI_TaxID=546987 {ECO:0000313|EMBL:BAG70536.1, ECO:0000313|Proteomes:UP000119315};
+RN   [1] {ECO:0000313|EMBL:BAG70536.1, ECO:0000313|Proteomes:UP000119315}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hu/GII-4/Kumamoto5/2006/JP {ECO:0000313|EMBL:BAG70536.1};
+RX   PubMed=18768979; DOI=10.1128/JVI.00897-08;
+RG   Norovirus Surveillance Group of Japan;
+RA   Motomura K., Oka T., Yokoyama M., Nakamura H., Mori H., Ode H.,
+RA   Hansman G.S., Katayama K., Kanda T., Tanaka T., Takeda N., Sato H.;
+RT   "Identification of monomorphic and divergent haplotypes in the 2006-2007
+RT   norovirus GII/4 epidemic population by genomewide tracing of evolutionary
+RT   history.";
+RL   J. Virol. 82:11247-11262(2008).
+RN   [2] {ECO:0007829|PDB:4OOX, ECO:0007829|PDB:4OPO}
+RP   X-RAY CRYSTALLOGRAPHY (1.20 ANGSTROMS) OF 225-530 IN COMPLEX WITH FUCOSE
+RP   AND GALACTOSE.
+RX   PubMed=25428879; DOI=10.1128/JVI.02968-14;
+RA   Singh B.K., Leuthold M.M., Hansman G.S.;
+RT   "Human noroviruses' fondness for histo-blood group antigens.";
+RL   J. Virol. 89:2024-2040(2015).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB447463; BAG70536.1; -; Genomic_RNA.
+DR   PDB; 4OOX; X-ray; 1.20 A; A=225-530.
+DR   PDB; 4OPO; X-ray; 1.40 A; A/B=225-530.
+DR   PDBsum; 4OOX; -.
+DR   PDBsum; 4OPO; -.
+DR   SMR; B5BTT5; -.
+DR   UniLectin; B5BTT5; -.
+DR   Proteomes; UP000119315; Genome.
+DR   CDD; cd00205; rhv_like; 1.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   InterPro; IPR004005; Calicivirus_coat.
+DR   InterPro; IPR013643; Calicivirus_coat_C.
+DR   InterPro; IPR033703; Rhv-like.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00915; Calici_coat; 1.
+DR   Pfam; PF08435; Calici_coat_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4OOX, ECO:0007829|PDB:4OPO}.
+FT   DOMAIN          12..276
+FT                   /note="Calici_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00915"
+FT   DOMAIN          304..538
+FT                   /note="Calici_coat_C"
+FT                   /evidence="ECO:0000259|Pfam:PF08435"
+FT   BINDING         344
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4OPO"
+FT   BINDING         345
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4OPO"
+FT   BINDING         374
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4OPO"
+FT   BINDING         392
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4OPO"
+FT   BINDING         442
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:4OPO"
+FT   BINDING         443
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4OPO"
+SQ   SEQUENCE   540 AA;  59005 MW;  D68322F124A35698 CRC64;
+     MKMASNDANP SDGSAANLVP EVNNEVMALE PVVGAAIAAP VAGQQNVIDP WIRNNFVQAP
+     GGEFTVSPRN APGEILWSAP LGPDLNPYLS HLARMYNGYA GGFEVQVILA GNAFTAGKII
+     FAAVPPNFPT EGLSPSQVTM FPHIIVDVRQ LEPVLIPLPD VRNNFYHYNQ SNDSTIKLIA
+     MLYTPLRANN AGEDVFTVSC RVLTRPSPDF DFIFLVPPTV ESRTKPFTVP ILTVEEMTNS
+     RFPIPLEKLF TGPSGAFVVQ PQNGRCTTDG VLLGTTQLSP VNICTFRGDV THIAGSRNYT
+     MNLASLNWNN YDPTEEIPAP LGTPDFVGKI QGLLTQTTKG DGSTRGHKAT VYTGSAPFTP
+     KLGSVQFSTD TENDFETHQN TKFTPVGVIQ DGSTTHRNEP QQWVLPSYSG RNVHNVHLAP
+     AVAPTFPGEQ LLFFRSTMPG CSGYPNMDLD CLLPQEWVQH FYQEAAPAQS DVALLRFVNP
+     DTGRVLFECK LHKSGYVTVA HTGQHDLVIP PNGYFRFDSW VNQFYTLAPM GNGTGRRRAL
+//

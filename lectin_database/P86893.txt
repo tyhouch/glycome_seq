@@ -1,0 +1,94 @@
+ID   LECS_VATGU              Reviewed;         239 AA.
+AC   P86893;
+DT   16-OCT-2013, integrated into UniProtKB/Swiss-Prot.
+DT   16-OCT-2013, sequence version 1.
+DT   25-MAY-2022, entry version 15.
+DE   RecName: Full=Seed lectin {ECO:0000303|Ref.1};
+DE            Short=VGL {ECO:0000303|Ref.1};
+DE   Contains:
+DE     RecName: Full=Seed lectin alpha chain {ECO:0000303|Ref.1};
+DE   Contains:
+DE     RecName: Full=Seed lectin gamma chain {ECO:0000303|Ref.1};
+DE   Contains:
+DE     RecName: Full=Seed lectin beta chain {ECO:0000303|Ref.1};
+OS   Vatairea guianensis (Partridge wood).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   vataireoid clade; Vatairea.
+OX   NCBI_TaxID=948959;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT,
+RP   GLYCOSYLATION, AND MASS SPECTROMETRY.
+RC   TISSUE=Seed {ECO:0000269|Ref.1};
+RX   DOI=10.1016/j.procbio.2012.09.014;
+RA   Silva H.C., Simoes R.C., Isidro R., Souza L.A.G., Nascimento K.S.,
+RA   Rocha B.A.M., Sampaio A.H., Cavada B.S., Nagano C.S.;
+RT   "Purification and primary structure determination of a glactose-specific
+RT   lectin from Vatairea guianensis Aubulet seeds that exhibits vasorelaxant
+RT   effect.";
+RL   Process Biochem. 47:2347-2355(2012).
+CC   -!- FUNCTION: D-galactose-specific lectin. Has Ca(2+) and Mn(2+)-
+CC       independent hemagglutinating activity towards rabbit erythrocytes. Has
+CC       an epithelium-dependent vasorelaxant effect in vitro.
+CC       {ECO:0000269|Ref.1}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Hemagglutinating activity stable between pH 6 and 8.
+CC         {ECO:0000269|Ref.1};
+CC       Temperature dependence:
+CC         Hemagglutinating activity stable up to 60 degrees Celsius but
+CC         diminishes with higher temperatures and is absent at 100 degrees
+CC         Celsius. {ECO:0000269|Ref.1};
+CC   -!- SUBUNIT: Tetramer. {ECO:0000269|Ref.1}.
+CC   -!- PTM: Glycosylated. {ECO:0000269|Ref.1}.
+CC   -!- MASS SPECTROMETRY: [Seed lectin alpha chain]: Mass=28437; Mass_error=2;
+CC       Method=Electrospray; Note=Alpha chain.; Evidence={ECO:0000269|Ref.1};
+CC   -!- MASS SPECTROMETRY: [Seed lectin gamma chain]: Mass=14952; Mass_error=2;
+CC       Method=Electrospray; Note=Beta chain.; Evidence={ECO:0000269|Ref.1};
+CC   -!- MASS SPECTROMETRY: [Seed lectin beta chain]: Mass=12332; Mass_error=2;
+CC       Method=Electrospray; Note=Gamma chain.; Evidence={ECO:0000269|Ref.1};
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P86893; -.
+DR   SMR; P86893; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Lectin.
+FT   CHAIN           1..239
+FT                   /note="Seed lectin alpha chain"
+FT                   /id="PRO_0000423821"
+FT   CHAIN           1..114
+FT                   /note="Seed lectin gamma chain"
+FT                   /evidence="ECO:0000269|Ref.1"
+FT                   /id="PRO_0000423822"
+FT   CHAIN           115..239
+FT                   /note="Seed lectin beta chain"
+FT                   /evidence="ECO:0000269|Ref.1"
+FT                   /id="PRO_0000423823"
+FT   CARBOHYD        111
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        183
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   239 AA;  26096 MW;  158CD2C32390C32C CRC64;
+     SEVVSFSFTK FNPNPKDIIL QGDALVTSKG KLQLTKVEDG EPVDHSLGRA LYVAPIHIWD
+     DSTDRVASFA TSFSFVVEAP DESKTADGIA FFLAPPDTQP QKNGGFLGLF NDSNKSIQTV
+     AVEFDTFSNT WDPSARHIGI NVNSIESQKY VKWGWEDGKV ANVYISYQAS TKTLTASLTY
+     PSNATSYIVS ANVDLKSALP EWVRVGFSAT SGLSRDHVET HDVLDWSQTS TPAANSDYT
+//

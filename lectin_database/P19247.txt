@@ -1,0 +1,132 @@
+ID   VVHA_VIBVU              Reviewed;         471 AA.
+AC   P19247;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2003, sequence version 2.
+DT   25-MAY-2022, entry version 138.
+DE   RecName: Full=Cytolysin;
+DE   Flags: Precursor;
+GN   Name=vvhA; OrderedLocusNames=VV2_0404;
+OS   Vibrio vulnificus (strain CMCP6).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=216895;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2370116; DOI=10.1128/iai.58.8.2706-2709.1990;
+RA   Yamamoto K., Wright A.C., Kaper J.B., Morris J.G. Jr.;
+RT   "The cytolysin gene of Vibrio vulnificus: sequence and relationship to the
+RT   Vibrio cholerae E1 Tor hemolysin gene.";
+RL   Infect. Immun. 58:2706-2709(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CMCP6;
+RA   Rhee J.H., Kim S.Y., Chung S.S., Kim J.J., Moon Y.H., Jeong H., Choy H.E.;
+RT   "Complete genome sequence of Vibrio vulnificus CMCP6.";
+RL   Submitted (DEC-2002) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Bacterial hemolysins are exotoxins that attack blood cell
+CC       membranes and cause cell rupture by mechanisms not clearly defined.
+CC   -!- SIMILARITY: Belongs to the HlyA hemolysin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M34670; AAA03245.1; -; Unassigned_DNA.
+DR   EMBL; AE016796; AAO07360.2; -; Genomic_DNA.
+DR   PIR; A41478; A41478.
+DR   RefSeq; WP_011081361.1; NC_004460.2.
+DR   PDB; 4OWJ; X-ray; 2.00 A; A/B/C/D/E/F/G=338-471.
+DR   PDB; 4OWK; X-ray; 2.00 A; A/B/C/D/E/F/G=338-471.
+DR   PDB; 4OWL; X-ray; 2.10 A; A/B/C/D/E/F/G=338-471.
+DR   PDBsum; 4OWJ; -.
+DR   PDBsum; 4OWK; -.
+DR   PDBsum; 4OWL; -.
+DR   AlphaFoldDB; P19247; -.
+DR   SMR; P19247; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   TCDB; 1.C.14.1.3; the cytohemolysin (chl) family.
+DR   UniLectin; P19247; -.
+DR   PRIDE; P19247; -.
+DR   EnsemblBacteria; AAO07360; AAO07360; VV2_0404.
+DR   KEGG; vvu:VV2_0404; -.
+DR   HOGENOM; CLU_579932_0_0_6; -.
+DR   OMA; HVAFYLN; -.
+DR   PHI-base; PHI:6877; -.
+DR   PHI-base; PHI:8497; -.
+DR   Proteomes; UP000002275; Chromosome 2.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in another organism; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 1.
+DR   InterPro; IPR016183; Leukocidin/Hemolysin_toxin.
+DR   InterPro; IPR036435; Leukocidin/porin_MspA_sf.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF07968; Leukocidin; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF56959; SSF56959; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytolysis; Hemolysis; Lectin; Signal; Toxin; Virulence.
+FT   SIGNAL          1..20
+FT   CHAIN           21..471
+FT                   /note="Cytolysin"
+FT                   /id="PRO_0000013365"
+FT   DOMAIN          338..465
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   CONFLICT        13
+FT                   /note="A -> R (in Ref. 1; AAA03245)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        338
+FT                   /note="A -> R (in Ref. 1; AAA03245)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        435
+FT                   /note="N -> S (in Ref. 1; AAA03245)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          339..347
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          351..357
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          360..363
+FT                   /evidence="ECO:0007829|PDB:4OWL"
+FT   STRAND          367..371
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   HELIX           377..379
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          380..383
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          389..391
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          394..396
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          398..401
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          407..410
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   HELIX           416..418
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          420..423
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          426..429
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          439..445
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          448..453
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   HELIX           454..456
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+FT   STRAND          462..466
+FT                   /evidence="ECO:0007829|PDB:4OWJ"
+SQ   SEQUENCE   471 AA;  52899 MW;  F5F41B504552BAFA CRC64;
+     MKKMTLFTLS LLATAVQVGA QEYVPIVEKP IYITSSKIKC VLHTSGDFNA TRDWCNAGAS
+     IDVRVNVAQM RSVQSATSDG FTPDAKIVRF TVDADKPGTG IHLVNELQQD HSWFQSWANR
+     RTYIGPFASS YDLWVKPVSG YTPKKARDLP QNENKNYQHR DTYGYSIGIN GKVGAEVNKD
+     GPKVGGEVSG SFTYNYSKTL VFDTKDYRIN NRSSLSDFDI SFEREFGECD ELRRQELGCY
+     FTAAHWGSGW VFDKTKFNPI SYSNFKPNYD VLYEAPVSET GVTDFEMGVK LNYRARFGTV
+     LPSALFSVYG SAGSSTNSST VKQRIRIDWN HPLFEAEAHV TLQSLSNNDL CLDVYGENGD
+     KTVAGGSVNG WSCHGSWNQV WGLDKEERYR SRVASDRCLT VNADKTLTVE QCGANLAQKW
+     YWEGDKLISR YVDGNNTRYL LNIVGGRNVQ VTPENEANQA RWKPTLQQVK L
+//

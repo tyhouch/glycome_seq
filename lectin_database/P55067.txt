@@ -1,0 +1,273 @@
+ID   NCAN_RAT                Reviewed;        1257 AA.
+AC   P55067;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   03-AUG-2022, entry version 160.
+DE   RecName: Full=Neurocan core protein;
+DE   AltName: Full=245 kDa early postnatal core glycoprotein;
+DE   AltName: Full=Chondroitin sulfate proteoglycan 3;
+DE   Contains:
+DE     RecName: Full=150 kDa adult core glycoprotein;
+DE   Flags: Precursor;
+GN   Name=Ncan; Synonyms=Cspg3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=1326557; DOI=10.1016/s0021-9258(18)41808-x;
+RA   Rauch U., Karthikeyan L., Maurel P., Margolis R.U., Margolis R.K.;
+RT   "Cloning and primary structure of neurocan, a developmentally regulated,
+RT   aggregating chondroitin sulfate proteoglycan of brain.";
+RL   J. Biol. Chem. 267:19536-19547(1992).
+RN   [2]
+RP   CHARACTERIZATION.
+RX   PubMed=7513709; DOI=10.1083/jcb.125.3.669;
+RA   Friedlander D.R., Milev P., Karthikeyan L., Margolis R.K., Margolis R.U.,
+RA   Grumet M.;
+RT   "The neuronal chondroitin sulfate proteoglycan neurocan binds to the neural
+RT   cell adhesion molecules Ng-CAM/L1/NILE and N-CAM, and inhibits neuronal
+RT   adhesion and neurite outgrowth.";
+RL   J. Cell Biol. 125:669-680(1994).
+RN   [3]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-121, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=24090084; DOI=10.1021/pr400783j;
+RA   Parker B.L., Thaysen-Andersen M., Solis N., Scott N.E., Larsen M.R.,
+RA   Graham M.E., Packer N.H., Cordwell S.J.;
+RT   "Site-specific glycan-peptide analysis for determination of N-glycoproteome
+RT   heterogeneity.";
+RL   J. Proteome Res. 12:5791-5800(2013).
+CC   -!- FUNCTION: May modulate neuronal adhesion and neurite growth during
+CC       development by binding to neural cell adhesion molecules (NG-CAM and N-
+CC       CAM). Chondroitin sulfate proteoglycan; binds to hyaluronic acid.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Early postnatal and adult brain; not expressed in
+CC       kidney, lung, liver and muscle.
+CC   -!- PTM: Contains mostly chondroitin sulfate, but also N-linked and O-
+CC       linked oligosaccharides. {ECO:0000250}.
+CC   -!- PTM: Two isoforms were found that probably arise by proteolytic
+CC       processing. The large isoform is predominant in early postnatal brain,
+CC       the small isoform is found in adult brain.
+CC   -!- SIMILARITY: Belongs to the aggrecan/versican proteoglycan family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M97161; AAC37679.1; -; mRNA.
+DR   PIR; S28764; S28764.
+DR   AlphaFoldDB; P55067; -.
+DR   SMR; P55067; -.
+DR   IntAct; P55067; 1.
+DR   MINT; P55067; -.
+DR   STRING; 10116.ENSRNOP00000062123; -.
+DR   GlyGen; P55067; 6 sites, 2 N-linked glycans (1 site).
+DR   iPTMnet; P55067; -.
+DR   SwissPalm; P55067; -.
+DR   PaxDb; P55067; -.
+DR   PRIDE; P55067; -.
+DR   UCSC; RGD:619941; rat.
+DR   RGD; 619941; Ncan.
+DR   eggNOG; ENOG502QQ78; Eukaryota.
+DR   InParanoid; P55067; -.
+DR   PhylomeDB; P55067; -.
+DR   Reactome; R-RNO-1971475; A tetrasaccharide linker sequence is required for GAG synthesis.
+DR   Reactome; R-RNO-2022870; Chondroitin sulfate biosynthesis.
+DR   Reactome; R-RNO-2022923; Dermatan sulfate biosynthesis.
+DR   Reactome; R-RNO-2024101; CS/DS degradation.
+DR   Reactome; R-RNO-3000178; ECM proteoglycans.
+DR   PRO; PR:P55067; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031012; C:extracellular matrix; IBA:GO_Central.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0072534; C:perineuronal net; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0045202; C:synapse; IDA:SynGO.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005540; F:hyaluronic acid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0007417; P:central nervous system development; IBA:GO_Central.
+DR   GO; GO:0051823; P:regulation of synapse structural plasticity; ISO:RGD.
+DR   GO; GO:0001501; P:skeletal system development; IBA:GO_Central.
+DR   CDD; cd00033; CCP; 1.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 3.10.100.10; -; 3.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR001881; EGF-like_Ca-bd_dom.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR000152; EGF-type_Asp/Asn_hydroxyl_site.
+DR   InterPro; IPR018097; EGF_Ca-bd_CS.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   InterPro; IPR000538; Link_dom.
+DR   InterPro; IPR035976; Sushi/SCR/CCP_sf.
+DR   InterPro; IPR000436; Sushi_SCR_CCP_dom.
+DR   Pfam; PF00008; EGF; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF00084; Sushi; 1.
+DR   Pfam; PF07686; V-set; 1.
+DR   Pfam; PF00193; Xlink; 2.
+DR   PRINTS; PR01265; LINKMODULE.
+DR   SMART; SM00032; CCP; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SMART; SM00181; EGF; 2.
+DR   SMART; SM00179; EGF_CA; 2.
+DR   SMART; SM00409; IG; 1.
+DR   SMART; SM00445; LINK; 2.
+DR   SUPFAM; SSF48726; SSF48726; 1.
+DR   SUPFAM; SSF56436; SSF56436; 3.
+DR   SUPFAM; SSF57535; SSF57535; 1.
+DR   PROSITE; PS00010; ASX_HYDROXYL; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS00022; EGF_1; 3.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS50026; EGF_3; 2.
+DR   PROSITE; PS01187; EGF_CA; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+DR   PROSITE; PS01241; LINK_1; 2.
+DR   PROSITE; PS50963; LINK_2; 2.
+DR   PROSITE; PS50923; SUSHI; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cell adhesion; Direct protein sequencing; Disulfide bond;
+KW   EGF-like domain; Glycoprotein; Hyaluronic acid; Immunoglobulin domain;
+KW   Lectin; Proteoglycan; Reference proteome; Repeat; Secreted; Signal; Sushi.
+FT   SIGNAL          1..22
+FT   CHAIN           23..1257
+FT                   /note="Neurocan core protein"
+FT                   /id="PRO_0000017519"
+FT   CHAIN           639..1257
+FT                   /note="150 kDa adult core glycoprotein"
+FT                   /id="PRO_0000017520"
+FT   DOMAIN          37..157
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          159..254
+FT                   /note="Link 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          258..356
+FT                   /note="Link 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00323"
+FT   DOMAIN          949..985
+FT                   /note="EGF-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          987..1023
+FT                   /note="EGF-like 2; calcium-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          1025..1154
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          1154..1214
+FT                   /note="Sushi"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   REGION          361..391
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          447..493
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          550..610
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          683..707
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1215..1257
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        447..474
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        557..579
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1215..1242
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1243..1257
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        121
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PubMed:24090084"
+FT   CARBOHYD        339
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        737
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        944
+FT                   /note="O-linked (Xyl...) (chondroitin sulfate) serine"
+FT                   /evidence="ECO:0000269|PubMed:1326557"
+FT   CARBOHYD        967
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1164
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        58..139
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        181..252
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        205..226
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        279..354
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        303..324
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        953..964
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        958..973
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        975..984
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        991..1002
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        996..1011
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1013..1022
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1029..1040
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1057..1149
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1125..1141
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1156..1199
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        1185..1212
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1257 AA;  135545 MW;  992B33DCFA19EE1B CRC64;
+     MGAESVWASG LLVLWLLLLV SGDQDTQDTT TTEKGLHMLK SGSGPIQAAL AELVALPCFF
+     TLQPRQSPLG DIPRIKWTKV QTASGQRQDL PILVAKDNVV RVAKGWQGRV SLPAYPRHRA
+     NATLLLGPLR ASDSGLYRCQ VVKGIEDEQD LVTLEVTGVV FHYRAARDRY ALTFAEAQEA
+     CHLSSATIAA PRHLQAAFED GFDNCDAGWL SDRTVRYPIT QSRPGCYGDR SSLPGVRSYG
+     RRDPQELYDV YCFARELGGE VFYVGPARRL TLAGARALCQ RQGAALASVG QLHLAWHEGL
+     DQCDPGWLAD GSVRYPIQTP RRRCGGSAPG VRTVYRFANR TGFPAPGARF DAYCFRAHHH
+     TPQRGDSEIP SSGDEGEIVS AEGPPAPELK PRLGEQEVIT PDFQEPLVSS GEDEPLDLTR
+     TQASQETLAS TPGGPTLASW LLTGVTSSTG VPSPSSLGVD MEETTPSGTQ VAPTPTMRRG
+     RFKGLNGRHF QQQGPEDQLL EAAEASAQPP TLEVTADHMG PSAATEALES DQSHSPWAIL
+     TNEVDVPGAG SLGSRSLPES RKWSPSLISP STVPSTDSTP GLKPGADEAP GVKSAIHHPP
+     WLPSEPAVPS SIPSEALSAV SLQASPGDGS PDFPIVAMLR APKLWLLPHS TLVPNVSPIP
+     LSPASPLPSS VPEEQAVRPV SFGAEDPETP FQTTMAAPGE ASHGSPEADS IEIEGISSMQ
+     ATKHPISGPW ASLDSSNVTV NPVPSDAGIL GTESGVLDLP GSPTSDGQAT VDMVLATWLP
+     LPGHGLDTGS QSTPMEAHGV TMSVEPTVAL EGGATKDPME ATMDVVPSTV DATSGSEPKS
+     SISSTHVVVT AAGDQGTPTL TPTSSEGQVV AQESLGTLTS LPSHPWSSLA SSMDEVASVS
+     SGEPTRLWDI PSTLIPVSLG LDESDLKVVA ESPGLEGFWE EVASGQEDPT DPCENNPCLH
+     GGTCRTNGTM YGCSCDQGYA GENCEIDIDD CLCSPCENGG TCIDEVNGFI CLCLPSYGGN
+     LCEKDTEGCD RGWHKFQGHC YRYFAHRRAW EDAERDCRRR AGHLTSVHSP EEHKFINSFG
+     HENSWIGLND RTVERDFQWT DNTGLQYENW REKQPDNFFA GGEDCVVMVA HENGRWNDVP
+     CNYNLPYVCK KGTVLCGPPP AVENASLVGV RKVKYNVHAT VRYQCDEGFS QHHVATIRCR
+     SNGKWDRPQI VCTKPRRSHR MRRHHHHPHR HHKPRKEHRK HKRHPAEDWE KDEGDFC
+//

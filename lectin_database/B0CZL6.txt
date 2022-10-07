@@ -1,0 +1,72 @@
+ID   B0CZL6_LACBS            Unreviewed;       227 AA.
+AC   B0CZL6;
+DT   26-FEB-2008, integrated into UniProtKB/TrEMBL.
+DT   26-FEB-2008, sequence version 1.
+DT   19-JAN-2022, entry version 35.
+DE   SubName: Full=Tectonin 2 {ECO:0000313|EMBL:EDR12168.1};
+GN   ORFNames=LACBIDRAFT_382412 {ECO:0000313|EMBL:EDR12168.1};
+OS   Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686) (Bicoloured deceiver)
+OS   (Laccaria laccata var. bicolor).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Tricholomataceae; Laccaria.
+OX   NCBI_TaxID=486041 {ECO:0000313|Proteomes:UP000001194};
+RN   [1] {ECO:0000313|EMBL:EDR12168.1, ECO:0000313|Proteomes:UP000001194}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=S238N-H82 / ATCC MYA-4686 {ECO:0000313|Proteomes:UP000001194};
+RX   PubMed=18322534; DOI=10.1038/nature06556;
+RA   Martin F., Aerts A., Ahren D., Brun A., Danchin E.G.J., Duchaussoy F.,
+RA   Gibon J., Kohler A., Lindquist E., Pereda V., Salamov A., Shapiro H.J.,
+RA   Wuyts J., Blaudez D., Buee M., Brokstein P., Canbaeck B., Cohen D.,
+RA   Courty P.E., Coutinho P.M., Delaruelle C., Detter J.C., Deveau A.,
+RA   DiFazio S., Duplessis S., Fraissinet-Tachet L., Lucic E., Frey-Klett P.,
+RA   Fourrey C., Feussner I., Gay G., Grimwood J., Hoegger P.J., Jain P.,
+RA   Kilaru S., Labbe J., Lin Y.C., Legue V., Le Tacon F., Marmeisse R.,
+RA   Melayah D., Montanini B., Muratet M., Nehls U., Niculita-Hirzel H.,
+RA   Oudot-Le Secq M.P., Peter M., Quesneville H., Rajashekar B., Reich M.,
+RA   Rouhier N., Schmutz J., Yin T., Chalot M., Henrissat B., Kuees U.,
+RA   Lucas S., Van de Peer Y., Podila G.K., Polle A., Pukkila P.J.,
+RA   Richardson P.M., Rouze P., Sanders I.R., Stajich J.E., Tunlid A.,
+RA   Tuskan G., Grigoriev I.V.;
+RT   "The genome of Laccaria bicolor provides insights into mycorrhizal
+RT   symbiosis.";
+RL   Nature 452:88-92(2008).
+RN   [2] {ECO:0007829|PDB:5FSB, ECO:0007829|PDB:5FSC}
+RP   X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS).
+RX   PubMed=29398527; DOI=10.1016/j.str.2018.01.003;
+RA   Sommer R., Makshakova O.N., Wohlschlager T., Hutin S., Marsh M., Titz A.,
+RA   Kunzler M., Varrot A.;
+RT   "Crystal Structures of Fungal Tectonin in Complex with O-Methylated Glycans
+RT   Suggest Key Role in Innate Immune Defense.";
+RL   Structure 26:391-402.e4(2018).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DS547094; EDR12168.1; -; Genomic_DNA.
+DR   RefSeq; XP_001876432.1; XM_001876397.1.
+DR   PDB; 5FSB; X-ray; 1.65 A; A/B=1-227.
+DR   PDB; 5FSC; X-ray; 1.95 A; A/B=1-227.
+DR   PDBsum; 5FSB; -.
+DR   PDBsum; 5FSC; -.
+DR   SMR; B0CZL6; -.
+DR   STRING; 486041.B0CZL6; -.
+DR   UniLectin; B0CZL6; -.
+DR   EnsemblFungi; EDR12168; EDR12168; LACBIDRAFT_382412.
+DR   GeneID; 6072088; -.
+DR   KEGG; lbc:LACBIDRAFT_382412; -.
+DR   HOGENOM; CLU_083973_0_0_1; -.
+DR   InParanoid; B0CZL6; -.
+DR   OrthoDB; 1036567at2759; -.
+DR   Proteomes; UP000001194; Unassembled WGS sequence.
+DR   InterPro; IPR006624; Beta-propeller_rpt_TECPR.
+DR   Pfam; PF19193; Tectonin; 2.
+DR   SMART; SM00706; TECPR; 6.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5FSB, ECO:0007829|PDB:5FSC};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001194}.
+SQ   SEQUENCE   227 AA;  23795 MW;  42F9E5EE097BC94E CRC64;
+     MPWKGISGSL SRISAGSVTN VWGVNAANNI YRYTGDDAKP WVQIPGALTD IGAAADGTVW
+     GVNAAGNIYR YVWDSNHWTQ IKGALKRISA GSRTNVWGVN AGGAIYRYTG DDANPWVQIP
+     GVLSDIGAGA DGTVWGVNAA GEIYRYTGDQ GDPNHWVKIP GALSAISAGI KTNVWGVNSA
+     NNIYTSTGDD KNPWLGIGGS LVDIGAGTDG VVWGVNAGGG IYRWIRD
+//

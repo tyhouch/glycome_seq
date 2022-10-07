@@ -1,0 +1,190 @@
+ID   GFPT1_RAT               Reviewed;         681 AA.
+AC   P82808; Q5XI08;
+DT   31-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   03-AUG-2022, entry version 136.
+DE   RecName: Full=Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 1;
+DE            EC=2.6.1.16 {ECO:0000269|PubMed:10898949};
+DE   AltName: Full=D-fructose-6-phosphate amidotransferase 1;
+DE   AltName: Full=Glutamine:fructose-6-phosphate amidotransferase 1;
+DE            Short=GFAT 1;
+DE            Short=GFAT1;
+DE   AltName: Full=Hexosephosphate aminotransferase 1;
+GN   Name=Gfpt1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 2-14, FUNCTION, CATALYTIC ACTIVITY, AND ACTIVITY
+RP   REGULATION.
+RC   STRAIN=Sprague-Dawley {ECO:0000269|PubMed:10898949};
+RC   TISSUE=Liver {ECO:0000269|PubMed:10898949};
+RX   PubMed=10898949; DOI=10.1006/abbi.2000.1895;
+RA   Huynh Q.K., Gulve E.A., Dian T.;
+RT   "Purification and characterization of glutamine:fructose 6-phosphate
+RT   amidotransferase from rat liver.";
+RL   Arch. Biochem. Biophys. 379:307-313(2000).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-243, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Controls the flux of glucose into the hexosamine pathway.
+CC       Most likely involved in regulating the availability of precursors for
+CC       N- and O-linked glycosylation of proteins. Regulates the circadian
+CC       expression of clock genes ARNTL/BMAL1 and CRY1 (PubMed:10898949). Has a
+CC       role in fine tuning the metabolic fluctuations of cytosolic UDP-GlcNAc
+CC       and its effects on hyaluronan synthesis that occur during tissue
+CC       remodeling (By similarity). {ECO:0000250|UniProtKB:Q06210,
+CC       ECO:0000269|PubMed:10898949}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-fructose 6-phosphate + L-glutamine = D-glucosamine 6-
+CC         phosphate + L-glutamate; Xref=Rhea:RHEA:13237, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:58725, ChEBI:CHEBI:61527; EC=2.6.1.16;
+CC         Evidence={ECO:0000269|PubMed:10898949};
+CC   -!- ACTIVITY REGULATION: Inhibited by 4,4'-dithiodipyridine.
+CC       {ECO:0000269|PubMed:10898949}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.5.;
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; alpha-D-glucosamine 6-phosphate from D-
+CC       fructose 6-phosphate: step 1/1. {ECO:0000305|PubMed:10898949}.
+CC   -!- SUBUNIT: Homotetramer, may also exist as homodimers. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083889; AAH83889.1; -; mRNA.
+DR   RefSeq; NP_001005879.1; NM_001005879.1.
+DR   AlphaFoldDB; P82808; -.
+DR   SMR; P82808; -.
+DR   BioGRID; 255576; 3.
+DR   IntAct; P82808; 2.
+DR   STRING; 10116.ENSRNOP00000025070; -.
+DR   MEROPS; C44.970; -.
+DR   iPTMnet; P82808; -.
+DR   PhosphoSitePlus; P82808; -.
+DR   jPOST; P82808; -.
+DR   PaxDb; P82808; -.
+DR   PRIDE; P82808; -.
+DR   GeneID; 297417; -.
+DR   KEGG; rno:297417; -.
+DR   UCSC; RGD:1549703; rat.
+DR   CTD; 2673; -.
+DR   RGD; 1549703; Gfpt1.
+DR   VEuPathDB; HostDB:ENSRNOG00000018507; -.
+DR   eggNOG; KOG1268; Eukaryota.
+DR   HOGENOM; CLU_012520_5_2_1; -.
+DR   InParanoid; P82808; -.
+DR   BioCyc; MetaCyc:MON-13170; -.
+DR   Reactome; R-RNO-446210; Synthesis of UDP-N-acetyl-glucosamine.
+DR   SABIO-RK; P82808; -.
+DR   UniPathway; UPA00113; UER00528.
+DR   PRO; PR:P82808; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000018507; Expressed in colon and 19 other tissues.
+DR   ExpressionAtlas; P82808; baseline and differential.
+DR   GO; GO:0016597; F:amino acid binding; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0097367; F:carbohydrate derivative binding; IEA:InterPro.
+DR   GO; GO:0004360; F:glutamine-fructose-6-phosphate transaminase (isomerizing) activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IEP:RGD.
+DR   GO; GO:0032922; P:circadian regulation of gene expression; ISS:UniProtKB.
+DR   GO; GO:0006002; P:fructose 6-phosphate metabolic process; IDA:RGD.
+DR   GO; GO:0006042; P:glucosamine biosynthetic process; IDA:RGD.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0045719; P:negative regulation of glycogen biosynthetic process; IMP:RGD.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; IBA:GO_Central.
+DR   GO; GO:0032868; P:response to insulin; IEP:RGD.
+DR   GO; GO:0009744; P:response to sucrose; IEP:RGD.
+DR   GO; GO:0006048; P:UDP-N-acetylglucosamine biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0006047; P:UDP-N-acetylglucosamine metabolic process; IMP:RGD.
+DR   CDD; cd05008; SIS_GlmS_GlmD_1; 1.
+DR   CDD; cd05009; SIS_GlmS_GlmD_2; 1.
+DR   Gene3D; 3.60.20.10; -; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR035466; GlmS/AgaS_SIS.
+DR   InterPro; IPR035490; GlmS/FrlB_SIS.
+DR   InterPro; IPR005855; GlmS_trans.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR001347; SIS_dom.
+DR   InterPro; IPR046348; SIS_dom_sf.
+DR   Pfam; PF01380; SIS; 2.
+DR   SUPFAM; SSF53697; SSF53697; 1.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   TIGRFAMs; TIGR01135; glmS; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+DR   PROSITE; PS51464; SIS; 2.
+PE   1: Evidence at protein level;
+KW   Biological rhythms; Direct protein sequencing; Glutamine amidotransferase;
+KW   Phosphoprotein; Reference proteome; Repeat; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:10898949"
+FT   CHAIN           2..681
+FT                   /note="Glutamine--fructose-6-phosphate aminotransferase
+FT                   [isomerizing] 1"
+FT                   /id="PRO_0000135282"
+FT   DOMAIN          2..287
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00609"
+FT   DOMAIN          359..498
+FT                   /note="SIS 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00797"
+FT   DOMAIN          530..671
+FT                   /note="SIS 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00797"
+FT   REGION          295..662
+FT                   /note="Isomerase"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        2
+FT                   /note="For GATase activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P14742"
+FT   BINDING         376..377
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q06210"
+FT   BINDING         421..423
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q06210"
+FT   BINDING         426
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q06210"
+FT   BINDING         577
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q06210"
+FT   MOD_RES         103
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q06210"
+FT   MOD_RES         243
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   681 AA;  76827 MW;  230D818CBC920249 CRC64;
+     MCGIFAYLNY HVPRTRREIL ETLIKGLQRL EYRGYDSAGV GLDGGNDKDW EANACKIQLI
+     KKKGKVKALD EEVHKQQDMD LDIEFDVHLG IAHTRWATHG EPSPVNSHPQ RSDKNNEFIV
+     IHNGIITNYK DLKKFLESKG YDFESETDTE TIAKLVKYMY DNWESQDVSF TTLVERVIQQ
+     LEGAFALVFK SVHFPGQAVG TRRGSPLLIG VRSEHKLSTD HIPILYRTGK DKKGSCGLSR
+     VDSTTCLFPV EEKAVEYYFA SDASAVIEHT NRVIFLEDDD VAAVVDGRLS IHRIKRTARD
+     HPGRAVQTLQ MELQQIMKGN FSSFMQKEIF EQPESVVNTM RGRVNFDDYT VNLGGLKDHI
+     KEIQRCRRLI LIACGTSYHA GMATRQVLEE LTELPVMVEL ASDFLDRNTP VFRDDVCFFI
+     SQSGETADTL MGLRYCKERG ALTVGITNTV GSSISRETDC GVHINAGPEI GVASTKAYTS
+     QFVSLVMFAL MMCDDRISMQ ERRKEIMLGL KRLPDLIKEV LSMDDEIQKL ATELYHQKSV
+     LIMGRGYHYA TCLEGALKIK EITYMHSEGI LAGELKHGPL ALVDKLMPVI MIIMRDHTYA
+     KCQNALQQVV ARQGRPVVIC DKEDTETIKN TKRTIKVPHS VDCLQGILSV IPLQLLAFHL
+     AVLRGYDVDF PRNLAKSVTV E
+//

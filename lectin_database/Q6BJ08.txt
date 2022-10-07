@@ -1,0 +1,146 @@
+ID   OS9_DEBHA               Reviewed;         589 AA.
+AC   Q6BJ08;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 2.
+DT   03-AUG-2022, entry version 87.
+DE   RecName: Full=Protein OS-9 homolog;
+DE   Flags: Precursor;
+GN   Name=YOS9; OrderedLocusNames=DEHA2G06116g;
+OS   Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990
+OS   / NBRC 0083 / IGC 2968) (Yeast) (Torulaspora hansenii).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Debaryomycetaceae; Debaryomyces.
+OX   NCBI_TaxID=284592;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC
+RC   2968;
+RX   PubMed=15229592; DOI=10.1038/nature02579;
+RA   Dujon B., Sherman D., Fischer G., Durrens P., Casaregola S., Lafontaine I.,
+RA   de Montigny J., Marck C., Neuveglise C., Talla E., Goffard N., Frangeul L.,
+RA   Aigle M., Anthouard V., Babour A., Barbe V., Barnay S., Blanchin S.,
+RA   Beckerich J.-M., Beyne E., Bleykasten C., Boisrame A., Boyer J.,
+RA   Cattolico L., Confanioleri F., de Daruvar A., Despons L., Fabre E.,
+RA   Fairhead C., Ferry-Dumazet H., Groppi A., Hantraye F., Hennequin C.,
+RA   Jauniaux N., Joyet P., Kachouri R., Kerrest A., Koszul R., Lemaire M.,
+RA   Lesur I., Ma L., Muller H., Nicaud J.-M., Nikolski M., Oztas S.,
+RA   Ozier-Kalogeropoulos O., Pellenz S., Potier S., Richard G.-F.,
+RA   Straub M.-L., Suleau A., Swennen D., Tekaia F., Wesolowski-Louvel M.,
+RA   Westhof E., Wirth B., Zeniou-Meyer M., Zivanovic Y., Bolotin-Fukuhara M.,
+RA   Thierry A., Bouchier C., Caudron B., Scarpelli C., Gaillardin C.,
+RA   Weissenbach J., Wincker P., Souciet J.-L.;
+RT   "Genome evolution in yeasts.";
+RL   Nature 430:35-44(2004).
+CC   -!- FUNCTION: Lectin involved in the quality control of the secretory
+CC       pathway. As a member of the endoplasmic reticulum-associated
+CC       degradation lumenal (ERAD-L) surveillance system, targets misfolded
+CC       endoplasmic reticulum lumenal glycoproteins for degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with missfolded ER lumenal proteins. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000255|PROSITE-ProRule:PRU10138}; Peripheral membrane protein
+CC       {ECO:0000250}; Lumenal side {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR382139; CAG90274.2; -; Genomic_DNA.
+DR   RefSeq; XP_461813.2; XM_461813.1.
+DR   AlphaFoldDB; Q6BJ08; -.
+DR   STRING; 4959.XP_461813.2; -.
+DR   EnsemblFungi; CAG90274; CAG90274; DEHA2G06116g.
+DR   GeneID; 2904692; -.
+DR   KEGG; dha:DEHA2G06116g; -.
+DR   VEuPathDB; FungiDB:DEHA2G06116g; -.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   HOGENOM; CLU_036515_0_0_1; -.
+DR   InParanoid; Q6BJ08; -.
+DR   OMA; YYHANIP; -.
+DR   OrthoDB; 1475416at2759; -.
+DR   Proteomes; UP000000599; Chromosome G.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; IEA:InterPro.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR012913; OS9-like_dom.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF07915; PRKCSH; 1.
+DR   SUPFAM; SSF50911; SSF50911; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin; Membrane;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..589
+FT                   /note="Protein OS-9 homolog"
+FT                   /id="PRO_0000043269"
+FT   DOMAIN          130..288
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          497..520
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           586..589
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   BINDING         143
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         155
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         241
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         247
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         270
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         276
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        17
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        61
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        426
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        132..148
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        240..274
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        255..286
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   589 AA;  67260 MW;  AC51155A2F314EFD CRC64;
+     MFSILNKLGI IWLALANISN CDNSKSGHKS IPKYNVKYYH ANIPKDFANR FVELNDKIVE
+     NGSFEILGID GQPSKNQYLC FTPNPNTAVN VSIESAQRNT RSKEIENEPK SEAEIIQRGV
+     EMIEKSFSRK DCVFAYGSNG GYWTLGYCYG DKVVQFHENL QHFVATGKHK PEYPDYIYVL
+     GRFKGSSKKP TNLDNQSPWA SNNLDLSEFT IHESSIISDA TAKNEQSRFL QHTLYDGEIC
+     DLTRKPRSID IIYKCDPNHR GRIEILDQQE IKTCVYQMVI GVPKLCSLDE FRPNKVEDQI
+     IDIDCKLIDQ TNKVKADKLS YQDFFYYTDD IPSDNKIFPI PHSYKVSLNN YNLSPCGHGF
+     YLGQSKLPIN SPSVYFNFRH ILVFNDQYHS SSDLLEKLGK MLKVCVGNKI LSPHIENKRQ
+     SLLSWNDTFI LWFELYDFYG SFISLVKVSR DGSKEELELK LRLINPETML DQDGDLVKVP
+     EFDAPNNAWN FQKFSKGKGS ALDSTNNDKN NKATAENDKQ YQSTSTDIVT VTVTESLETT
+     SSEDGTEEVS NEMVILKKLA DKLGMTDINE LHQAIEDLDI ELEVQHDEL
+//

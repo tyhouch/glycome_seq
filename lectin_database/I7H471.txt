@@ -1,0 +1,105 @@
+ID   I7H471_9AGAR            Unreviewed;       120 AA.
+AC   I7H471;
+DT   03-OCT-2012, integrated into UniProtKB/TrEMBL.
+DT   03-OCT-2012, sequence version 1.
+DT   03-AUG-2022, entry version 27.
+DE   SubName: Full=Mannose recognizing lectin {ECO:0000313|EMBL:BAM29356.1};
+GN   Name=Mlec1 {ECO:0000313|EMBL:BAM29356.1};
+OS   Marasmius oreades.
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Marasmiaceae; Marasmius.
+OX   NCBI_TaxID=181124 {ECO:0000313|EMBL:BAM29356.1};
+RN   [1] {ECO:0000313|EMBL:BAM29356.1}
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=22684189; DOI=10.1007/s10719-012-9401-6;
+RA   Shimokawa M., Fukudome A., Yamashita R., Minami Y., Yagi F., Tateno H.,
+RA   Hirabayashi J.;
+RT   "Characterization and cloning of GNA-like lectin from the mushroom
+RT   Marasmius oreades.";
+RL   Glycoconj. J. 29:457-465(2012).
+RN   [2] {ECO:0007829|PDB:4PDT}
+RP   X-RAY CRYSTALLOGRAPHY (1.40 ANGSTROMS).
+RA   Noma Y., Shimokawa M., Maeganeku C., Motoshima H., Watanabe K., Minami Y.,
+RA   Yagi F.;
+RT   "The structure of Japanese Marasmius oreades lectin at 1.40 Angstroms
+RT   resolution.";
+RL   Submitted (APR-2014) to the PDB data bank.
+RN   [3] {ECO:0007829|PDB:4TKC}
+RP   X-RAY CRYSTALLOGRAPHY (1.29 ANGSTROMS) IN COMPLEX WITH BETA-D-MANNOSE AND
+RP   MANNOSE.
+RA   Noma Y., Shimokawa M., Maeganeku C., Motoshima H., Watanabe K., Yagi F.,
+RA   Minami Y.;
+RT   "Structure of Japanese Marasmius oreades lectin complexed with mannose.";
+RL   Submitted (MAY-2014) to the PDB data bank.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB649027; BAM29356.1; -; Genomic_DNA.
+DR   PDB; 4PDT; X-ray; 1.40 A; A=1-120.
+DR   PDB; 4TKC; X-ray; 1.29 A; A=1-120.
+DR   PDBsum; 4PDT; -.
+DR   PDBsum; 4TKC; -.
+DR   SMR; I7H471; -.
+DR   UniLectin; I7H471; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.90.10.10; -; 1.
+DR   InterPro; IPR001480; Bulb-type_lectin_dom.
+DR   InterPro; IPR036426; Bulb-type_lectin_dom_sf.
+DR   SMART; SM00108; B_lectin; 1.
+DR   SUPFAM; SSF51110; SSF51110; 1.
+DR   PROSITE; PS50927; BULB_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4PDT, ECO:0007829|PDB:4TKC};
+KW   Lectin {ECO:0000313|EMBL:BAM29356.1}.
+FT   DOMAIN          8..116
+FT                   /note="Bulb-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50927"
+FT   BINDING         64
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         66
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         68
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         72
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         75
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         81
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         85
+FT                   /ligand="Beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         96
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         98
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         100
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+FT   BINDING         104
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:4TKC"
+SQ   SEQUENCE   120 AA;  13103 MW;  3570B0C75A470E02 CRC64;
+     MSYVHPYGST LPENGVIGRG YALISDSGRV EFRVTDEGNI QLFLDDSRKL WSVDGKNASF
+     VKMQTDGNCV GYDPNGTAVW HTATNGDDHP YNLVCQNDGN LVVYAKGGKA VWHTNTAVVH
+//

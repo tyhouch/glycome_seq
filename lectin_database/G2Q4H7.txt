@@ -1,0 +1,148 @@
+ID   MA26A_MYCTT             Reviewed;         482 AA.
+AC   G2Q4H7;
+DT   16-OCT-2019, integrated into UniProtKB/Swiss-Prot.
+DT   16-NOV-2011, sequence version 1.
+DT   25-MAY-2022, entry version 47.
+DE   RecName: Full=Mannan endo-1,4-beta-mannosidase {ECO:0000305};
+DE            EC=3.2.1.- {ECO:0000269|PubMed:27193267};
+DE   AltName: Full=Endo-(1,4)-beta-mannanase {ECO:0000305};
+DE   AltName: Full=GH26 family endo-beta-mannanase {ECO:0000303|PubMed:27193267};
+DE   Flags: Precursor;
+GN   Name=Man26A {ECO:0000303|PubMed:27193267}; ORFNames=MYCTH_99077;
+OS   Myceliophthora thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799)
+OS   (Sporotrichum thermophile).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Sordariomycetidae; Sordariales; Chaetomiaceae; Thermothelomyces.
+OX   NCBI_TaxID=573729;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 42464 / BCRC 31852 / DSM 1799;
+RX   PubMed=21964414; DOI=10.1038/nbt.1976;
+RA   Berka R.M., Grigoriev I.V., Otillar R., Salamov A., Grimwood J., Reid I.,
+RA   Ishmael N., John T., Darmond C., Moisan M.-C., Henrissat B., Coutinho P.M.,
+RA   Lombard V., Natvig D.O., Lindquist E., Schmutz J., Lucas S., Harris P.,
+RA   Powlowski J., Bellemare A., Taylor D., Butler G., de Vries R.P.,
+RA   Allijn I.E., van den Brink J., Ushinsky S., Storms R., Powell A.J.,
+RA   Paulsen I.T., Elbourne L.D.H., Baker S.E., Magnuson J., LaBoissiere S.,
+RA   Clutterbuck A.J., Martinez D., Wogulis M., de Leon A.L., Rey M.W.,
+RA   Tsang A.;
+RT   "Comparative genomic analysis of the thermophilic biomass-degrading fungi
+RT   Myceliophthora thermophila and Thielavia terrestris.";
+RL   Nat. Biotechnol. 29:922-927(2011).
+RN   [2]
+RP   FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, CATALYTIC ACTIVITY, ACTIVITY
+RP   REGULATION, AND BIOTECHNOLOGY.
+RX   PubMed=27193267; DOI=10.1007/s00253-016-7609-2;
+RA   Katsimpouras C., Dimarogona M., Petropoulos P., Christakopoulos P.,
+RA   Topakas E.;
+RT   "A thermostable GH26 endo-beta-mannanase from Myceliophthora thermophila
+RT   capable of enhancing lignocellulose degradation.";
+RL   Appl. Microbiol. Biotechnol. 100:8385-8397(2016).
+CC   -!- FUNCTION: Mannan endo-1,4-beta-mannosidase that exhibits high activity
+CC       against konjac glucomannan and carob galactomannan, as well as a lower
+CC       activity toward beta-mannan (PubMed:27193267). Shows no activity
+CC       against barley beta-glucan, birchwood xylan, and low viscosity
+CC       carboxymethyl cellulose (CMC) (PubMed:27193267). Has the ability to
+CC       hydrolyze manno-oligosaccharides such as M4 which is degraded slightly
+CC       to M3 and M1, M5 which is mainly degraded to M4 and M1, and M6 which is
+CC       mostly hydrolyzed to M4 and M2 (PubMed:27193267). Shows no activity
+CC       toward M2 and M3 manno-oligosaccharides (PubMed:27193267).
+CC       {ECO:0000269|PubMed:27193267}.
+CC   -!- ACTIVITY REGULATION: The activity is completely impaired by Ag(+),
+CC       partially inhibited by Zn(2+), and enhanced by Co(2+), Ni(2+) and
+CC       Cu(2+) by 22.6, 14.5 and 20.8 %, respectively (PubMed:27193267).
+CC       Ca(2+), Na(+), Mg(2+), Mn(2+), urea and EDTA do not significantly
+CC       affect the mannanase activity (PubMed:27193267).
+CC       {ECO:0000269|PubMed:27193267}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=2.22 mg/ml for carob galactomannan {ECO:0000269|PubMed:27193267};
+CC         KM=3.22 mg/ml for konjac glucomannan {ECO:0000269|PubMed:27193267};
+CC         Vmax=296.8 umol/min/mg enzyme toward carob galactomannan
+CC         {ECO:0000269|PubMed:27193267};
+CC         Vmax=475.2 umol/min/mg enzyme toward konjac glucomannan
+CC         {ECO:0000269|PubMed:27193267};
+CC       pH dependence:
+CC         Optimum pH is 6.0. {ECO:0000269|PubMed:27193267};
+CC       Temperature dependence:
+CC         Optimum temperature is 60 degrees Celsius.
+CC         {ECO:0000269|PubMed:27193267};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305|PubMed:27193267}.
+CC   -!- BIOTECHNOLOGY: The addition of Man26A as a supplement to the commercial
+CC       enzyme mixture Celluclast(R) 1.5 L and Novozyme(R) 188 results in
+CC       enhanced enzymatic hydrolysis of pretreated beechwood sawdust,
+CC       improving the release of total reducing sugars and glucose by 13 and 12
+CC       %, respectively. {ECO:0000269|PubMed:27193267}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 26 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP003002; AEO53670.1; -; Genomic_DNA.
+DR   RefSeq; XP_003658915.1; XM_003658867.1.
+DR   AlphaFoldDB; G2Q4H7; -.
+DR   SMR; G2Q4H7; -.
+DR   STRING; 78579.XP_003658915.1; -.
+DR   EnsemblFungi; AEO53670; AEO53670; MYCTH_99077.
+DR   GeneID; 11508627; -.
+DR   KEGG; mtm:MYCTH_99077; -.
+DR   VEuPathDB; FungiDB:MYCTH_99077; -.
+DR   eggNOG; ENOG502QT55; Eukaryota.
+DR   HOGENOM; CLU_016930_1_1_1; -.
+DR   InParanoid; G2Q4H7; -.
+DR   OrthoDB; 792920at2759; -.
+DR   BRENDA; 3.2.1.78; 13804.
+DR   Proteomes; UP000007322; Chromosome 1.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016985; F:mannan endo-1,4-beta-mannosidase activity; IEA:InterPro.
+DR   GO; GO:0006080; P:substituted mannan metabolic process; IEA:InterPro.
+DR   InterPro; IPR005084; CMB_fam6.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR022790; GH26_dom.
+DR   InterPro; IPR000805; Glyco_hydro_26.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   PANTHER; PTHR40079; PTHR40079; 1.
+DR   Pfam; PF16990; CBM_35; 1.
+DR   Pfam; PF02156; Glyco_hydro_26; 1.
+DR   PRINTS; PR00739; GLHYDRLASE26.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS51175; CBM6; 1.
+DR   PROSITE; PS51764; GH26; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Glycosidase; Hydrolase; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..482
+FT                   /note="Mannan endo-1,4-beta-mannosidase"
+FT                   /id="PRO_5003436064"
+FT   DOMAIN          42..160
+FT                   /note="CBM6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   DOMAIN          181..474
+FT                   /note="GH26"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01100"
+FT   ACT_SITE        332
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01100"
+FT   ACT_SITE        422
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01100"
+FT   CARBOHYD        171
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        300
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+SQ   SEQUENCE   482 AA;  52766 MW;  1C22E017638773E0 CRC64;
+     MARTLRYLLC GILALAAGSN AVPAARGSTR AAPAAEPSTS ATTYEAEDAI LSGTTVDTAQ
+     EGYTGSGYVT GFDEASDKIT FEVESEATKL YDLSIRIAAI YGDKHTTVVL NGGASSDVSF
+     PAGDTWVDVP AGQVLLNEGA NTIEIVSNWG WYLVDSITLT PSAPRPEHQI NRSLNNPSAD
+     ASARALYDYL RSIYGKKILA GQQDLTWADY VTQQTGKTPA LVSVDLMDYS PSRVERGTKG
+     TSVEEAITHA ERGGIVSALW HWNAPAGLYD TDEHPWWSGF YTDATDFDVA AALSSTDNAN
+     YTLLLRDIDA IAVQLKRLRD ARVPVLWRPL HEAEGGWFWW GAKGPDPAKQ LYALLYDRLV
+     NHHGINNLIW VWNSLSPDWY PGDDTVDILS ADVYAQGNGP MSTQYNQLID LGKDKKMIAA
+     AEVGAAPLPD LLQAYEAHWL WFAVWGDTFI NNAEWNSPEV LKTVYTSDYV LTLDEIQGWQ
+     DS
+//

@@ -1,0 +1,176 @@
+ID   LECA2_LABPU             Reviewed;         281 AA.
+AC   B3EWQ9;
+DT   31-OCT-2012, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2012, sequence version 1.
+DT   25-MAY-2022, entry version 24.
+DE   RecName: Full=Lectin alpha chain {ECO:0000303|PubMed:18787949};
+DE   AltName: Full=DLL-II {ECO:0000303|PubMed:18787949};
+DE   Contains:
+DE     RecName: Full=Lectin beta chain {ECO:0000303|PubMed:18787949};
+OS   Lablab purpureus (Hyacinth bean) (Dolichos lablab).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Lablab.
+OX   NCBI_TaxID=35936;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, SUBUNIT, AND MASS SPECTROMETRY.
+RC   TISSUE=Seed {ECO:0000269|PubMed:18787949};
+RX   PubMed=18787949; DOI=10.1007/s10719-008-9173-1;
+RA   Rameshwaram N.R., Karanam N.K., Scharf C., Volker U., Nadimpalli S.K.;
+RT   "Complete primary structure of a newly characterized galactose-specific
+RT   lectin from the seeds of Dolichos lablab.";
+RL   Glycoconj. J. 26:161-172(2009).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 1-10, FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT,
+RP   AND GLYCOSYLATION.
+RC   TISSUE=Seed {ECO:0000269|PubMed:16125971};
+RX   PubMed=16125971; DOI=10.1016/j.pep.2005.06.010;
+RA   Latha V.L., Rao R.N., Nadimpalli S.K.;
+RT   "Affinity purification, physicochemical and immunological characterization
+RT   of a galactose-specific lectin from the seeds of Dolichos lablab (Indian
+RT   lablab beans).";
+RL   Protein Expr. Purif. 45:296-306(2006).
+RN   [3] {ECO:0000305}
+RP   CRYSTALLIZATION, PRELIMINARY X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS), AND
+RP   SUBUNIT.
+RC   TISSUE=Seed {ECO:0000269|PubMed:16511291};
+RX   PubMed=16511291; DOI=10.1107/s1744309106001448;
+RA   Latha V.L., Kulkarni K.A., Rao R.N., Kumar N.S., Suguna K.;
+RT   "Crystallization and preliminary X-ray crystallographic analysis of a
+RT   galactose-specific lectin from Dolichos lablab.";
+RL   Acta Crystallogr. F 62:163-165(2006).
+CC   -!- FUNCTION: D-galactose-binding lectin. {ECO:0000269|PubMed:16125971}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.4. No activity between pH 4.0 and pH 6.0, 80%
+CC         activity at pH 8.0 and 20% activity at pH 9.0.
+CC         {ECO:0000269|PubMed:16125971};
+CC       Temperature dependence:
+CC         Activity stable between 4 and 40 degrees Celsius, declines at higher
+CC         temperatures and is lost at 90 degrees Celsius.
+CC         {ECO:0000269|PubMed:16125971};
+CC   -!- SUBUNIT: Tetramer of 2 alpha and 2 beta chains.
+CC       {ECO:0000269|PubMed:16125971, ECO:0000269|PubMed:16511291,
+CC       ECO:0000269|PubMed:18787949}.
+CC   -!- PTM: Glycosylated. {ECO:0000269|PubMed:16125971}.
+CC   -!- PTM: The beta chain is produced by partial proteolytic processing of
+CC       the alpha chain. {ECO:0000303|PubMed:18787949}.
+CC   -!- MASS SPECTROMETRY: [Lectin alpha chain]: Mass=30746;
+CC       Method=Electrospray; Note=Alpha chain.;
+CC       Evidence={ECO:0000269|PubMed:18787949};
+CC   -!- MASS SPECTROMETRY: [Lectin beta chain]: Mass=28815;
+CC       Method=Electrospray; Note=Beta chain.;
+CC       Evidence={ECO:0000269|PubMed:18787949};
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 3UJO; X-ray; 2.00 A; A/B/C/D=1-281.
+DR   PDB; 3UJQ; X-ray; 2.06 A; A/B/C/D=1-281.
+DR   PDB; 3UK9; X-ray; 3.11 A; A/B/C/D/E/F/G/H=1-281.
+DR   PDB; 3UL2; X-ray; 2.50 A; A/B/C/D=1-281.
+DR   PDBsum; 3UJO; -.
+DR   PDBsum; 3UJQ; -.
+DR   PDBsum; 3UK9; -.
+DR   PDBsum; 3UL2; -.
+DR   AlphaFoldDB; B3EWQ9; -.
+DR   SMR; B3EWQ9; -.
+DR   UniLectin; B3EWQ9; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0050832; P:defense response to fungus; IEA:UniProtKB-KW.
+DR   GO; GO:0031640; P:killing of cells of another organism; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antibiotic; Antimicrobial; Direct protein sequencing;
+KW   Fungicide; Glycoprotein; Lectin.
+FT   CHAIN           1..281
+FT                   /note="Lectin alpha chain"
+FT                   /id="PRO_0000420130"
+FT   CHAIN           1..263
+FT                   /note="Lectin beta chain"
+FT                   /evidence="ECO:0000269|PubMed:18787949"
+FT                   /id="PRO_0000420131"
+FT   SITE            263..264
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000269|PubMed:18787949"
+FT   CARBOHYD        35
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        82
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        140
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   STRAND          25..33
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          39..41
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          51..53
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          68..75
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          82..84
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          87..97
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          108..116
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   HELIX           125..127
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   TURN            128..130
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          143..147
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          154..156
+FT                   /evidence="ECO:0007829|PDB:3UJQ"
+FT   STRAND          158..169
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          174..176
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          185..191
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   TURN            193..195
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          197..203
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   TURN            205..207
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          211..216
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   TURN            220..222
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          225..235
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          237..241
+FT                   /evidence="ECO:0007829|PDB:3UJQ"
+FT   STRAND          246..256
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          258..260
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          264..267
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   STRAND          270..272
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+FT   TURN            273..275
+FT                   /evidence="ECO:0007829|PDB:3UJO"
+SQ   SEQUENCE   281 AA;  30422 MW;  CC15AD7445BD170A CRC64;
+     NNLISFTMKR IVLFLILLTK AASANLISFT FKRFNETNLI LQRDATVSSG KLRITKAAEN
+     GVPTAGSLGR AFYSTPIQIW DNTTGTVAAW ATSFTFNLQA PNAASPADGL AFALVPVGSQ
+     PKDKGGFLGL FDSKNYASSN QTVAVEFDTF YNGGWDPTER HIGIDVNSIK SIKTTSWDFA
+     NGENAEVLIT YDSSTNLLVA SLVHPSQKTS FIVSERVDLT SVLPEWVSVG FSATTGLSKG
+     YVETNEVLSW SFASKISINK EDEENKLLIS NLEGKAINNL A
+//

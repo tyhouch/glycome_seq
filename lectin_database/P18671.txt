@@ -1,0 +1,80 @@
+ID   LECB1_ARTIN             Reviewed;          20 AA.
+AC   P18671;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1990, sequence version 1.
+DT   25-MAY-2022, entry version 65.
+DE   RecName: Full=Agglutinin beta-1 chain;
+DE   AltName: Full=Jacalin beta-1 chain;
+OS   Artocarpus integer (Jack fruit) (Artocarpus integrifolia).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Rosales; Moraceae; Artocarpus.
+OX   NCBI_TaxID=3490;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Seed;
+RX   PubMed=2705782; DOI=10.1016/0003-9861(89)90542-0;
+RA   Young N.M., Johnston R.A.Z., Szabo A.G., Watson D.C.;
+RT   "Homology of the D-galactose-specific lectins from Artocarpus integrifolia
+RT   and Maclura pomifera and the role of an unusual small polypeptide
+RT   subunit.";
+RL   Arch. Biochem. Biophys. 270:596-603(1989).
+RN   [2]
+RP   PROTEIN SEQUENCE.
+RX   PubMed=1599414; DOI=10.1042/bj2840095;
+RA   Mahanta S.K., Sanker S., Prasad Rao N.V.S.A.V., Swamy M.J., Surolia A.;
+RT   "Primary structure of a Thomsen-Friedenreich-antigen-specific lectin,
+RT   jacalin [Artocarpus integrifolia (jack fruit) agglutinin]. Evidence for the
+RT   presence of an internal repeat.";
+RL   Biochem. J. 284:95-101(1992).
+RN   [3]
+RP   PROTEIN SEQUENCE.
+RX   PubMed=8427879; DOI=10.1016/0304-4165(93)90139-y;
+RA   Ngoc L.D., Brillard M., Hoebeke J.;
+RT   "The alpha- and beta-subunits of the jacalins are cleavage products from a
+RT   17-kDa precursor.";
+RL   Biochim. Biophys. Acta 1156:219-222(1993).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.43 ANGSTROMS).
+RX   PubMed=8673603; DOI=10.1038/nsb0796-596;
+RA   Sakaranarayanan R., Sekar S., Banerjee R., Sharma V., Surolia A.,
+RA   Vijayan M.;
+RT   "A novel mode of carbohydrate recognition in jacalin, a Moraceae plant
+RT   lectin with a beta-prism fold.";
+RL   Nat. Struct. Biol. 3:596-603(1996).
+CC   -!- FUNCTION: D-galactose-specific lectin, binds the T-antigen structure
+CC       Gal-beta1,3-GalNAc (Thomsen-Friedenreich-antigen-specific lectin).
+CC       Potent and selective stimulant of distinct T- and B-cell functions.
+CC       Shows a unique ability to specifically recognize IgA-1 from human
+CC       serum.
+CC   -!- SUBUNIT: Tetramer of four alpha chains associated with two or four beta
+CC       chains.
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1JAC; X-ray; 2.43 A; B/D/F/H=1-20.
+DR   PDB; 1KU8; X-ray; 1.75 A; B/D/F/H=1-18.
+DR   PDB; 1KUJ; X-ray; 2.00 A; B/D/F/H=1-18.
+DR   PDBsum; 1JAC; -.
+DR   PDBsum; 1KU8; -.
+DR   PDBsum; 1KUJ; -.
+DR   AlphaFoldDB; P18671; -.
+DR   SMR; P18671; -.
+DR   EvolutionaryTrace; P18671; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0019862; F:IgA binding; ISS:UniProtKB.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; IgA-binding protein; Lectin.
+FT   PEPTIDE         1..20
+FT                   /note="Agglutinin beta-1 chain"
+FT                   /id="PRO_0000044032"
+FT   REGION          1..20
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   STRAND          10..16
+FT                   /evidence="ECO:0007829|PDB:1KU8"
+SQ   SEQUENCE   20 AA;  2062 MW;  894AFC95F4D0E248 CRC64;
+     NEQSGKSQTV IVGSWGAKVS
+//

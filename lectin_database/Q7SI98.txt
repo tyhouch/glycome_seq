@@ -1,0 +1,220 @@
+ID   Q7SI98_STROI            Unreviewed;       436 AA.
+AC   Q7SI98; Q7SID1;
+DT   15-DEC-2003, integrated into UniProtKB/TrEMBL.
+DT   15-DEC-2003, sequence version 1.
+DT   03-AUG-2022, entry version 101.
+DE   RecName: Full=Beta-xylanase {ECO:0000256|RuleBase:RU361174};
+DE            EC=3.2.1.8 {ECO:0000256|RuleBase:RU361174};
+OS   Streptomyces olivaceoviridis (Streptomyces corchorusii).
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=1921 {ECO:0000313|PDB:1ISV, ECO:0000313|PDB:1ISW};
+RN   [1] {ECO:0000313|PDB:1XYF, ECO:0007829|PDB:1XYF}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS), AND ACTIVE SITE.
+RX   PubMed=10884353; DOI=10.1006/jmbi.2000.3877;
+RA   Fujimoto Z., Kuno A., Kaneko S., Yoshida S., Kobayashi H., Kusakabe I.,
+RA   Mizuno H.;
+RT   "Crystal structure of Streptomyces olivaceoviridis E-86 beta-xylanase
+RT   containing xylan-binding domain.";
+RL   J. Mol. Biol. 300:575-585(2000).
+RN   [2] {ECO:0007829|PDB:1ISV, ECO:0007829|PDB:1ISW}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) IN COMPLEX WITH GALACTOSE, AND
+RP   ACTIVE SITE.
+RX   PubMed=11829503; DOI=10.1006/jmbi.2001.5338;
+RA   Fujimoto Z., Kuno A., Kaneko S., Kobayashi H., Kusakabe I., Mizuno H.;
+RT   "Crystal structures of the sugar complexes of Streptomyces olivaceoviridis
+RT   E-86 xylanase: sugar binding structure of the family 13 carbohydrate
+RT   binding module.";
+RL   J. Mol. Biol. 316:65-78(2002).
+RN   [3] {ECO:0007829|PDB:1V6U, ECO:0007829|PDB:1V6V}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=14670957; DOI=10.1074/jbc.M312293200;
+RA   Fujimoto Z., Kaneko S., Kuno A., Kobayashi H., Kusakabe I., Mizuno H.;
+RT   "Crystal structures of decorated xylooligosaccharides bound to a family 10
+RT   xylanase from Streptomyces olivaceoviridis E-86.";
+RL   J. Biol. Chem. 279:9606-9614(2004).
+RN   [4] {ECO:0007829|PDB:1V6Y}
+RP   X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 218-239.
+RX   PubMed=15078885; DOI=10.1074/jbc.M308899200;
+RA   Kaneko S., Ichinose H., Fujimoto Z., Kuno A., Yura K., Go M., Mizuno H.,
+RA   Kusakabe I., Kobayashi H.;
+RT   "Structure and function of a family 10 beta-xylanase chimera of
+RT   Streptomyces olivaceoviridis E-86 FXYN and Cellulomonas fimi Cex.";
+RL   J. Biol. Chem. 279:26619-26626(2004).
+RN   [5] {ECO:0007829|PDB:2D1Z, ECO:0007829|PDB:2D20}
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=19279191; DOI=10.1093/jb/mvp047;
+RA   Suzuki R., Fujimoto Z., Ito S., Kawahara S., Kaneko S., Taira K.,
+RA   Hasegawa T., Kuno A.;
+RT   "Crystallographic snapshots of an entire reaction cycle for a retaining
+RT   xylanase from Streptomyces olivaceoviridis E-86.";
+RL   J. Biochem. 146:61-70(2009).
+RN   [6] {ECO:0007829|PDB:2G3I, ECO:0007829|PDB:2G3J}
+RP   X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 1-303, AND DISULFIDE BONDS.
+RX   DOI=10.1016/j.procbio.2011.06.002;
+RA   Ichinose H., Diertavitian S., Fujimoto Z., Kuno A., Leggio L.L., Kaneko S.;
+RT   "Structure-based engineering of glucose specificity in a family 10 xylanase
+RT   from Streptomyces olivaceoviridis E-86.";
+RL   Sheng Wu Hua Xue Yu Sheng Wu Wu Li Jin Zhan 47:358-365(2012).
+RN   [7] {ECO:0007829|PDB:5GQD, ECO:0007829|PDB:5GQE}
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS), AND DISULFIDE BONDS.
+RX   DOI=10.5458/jag.jag.JAG-2017_011;
+RA   Suzuki R., Fujimoto Z., Kaneko S., Hasegawa T., Kuno A.;
+RT   "Azidolysis by the Formation of Stable Ser-His Catalytic Dyad in a
+RT   Glycoside Hydrolase Family 10 Xylanase Mutant.";
+RL   J. Appl. Glycosci. 65:0-0(2019).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.;
+CC         EC=3.2.1.8; Evidence={ECO:0000256|RuleBase:RU361174};
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 10 (cellulase F) family.
+CC       {ECO:0000256|RuleBase:RU361174}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1ISV; X-ray; 2.10 A; A/B=1-436.
+DR   PDB; 1ISW; X-ray; 2.10 A; A/B=1-436.
+DR   PDB; 1ISX; X-ray; 2.10 A; A/B=1-436.
+DR   PDB; 1ISY; X-ray; 2.10 A; A/B=1-436.
+DR   PDB; 1ISZ; X-ray; 2.00 A; A/B=1-436.
+DR   PDB; 1IT0; X-ray; 2.00 A; A/B=1-436.
+DR   PDB; 1V6U; X-ray; 2.10 A; A/B=1-436.
+DR   PDB; 1V6V; X-ray; 2.10 A; A/B=1-436.
+DR   PDB; 1V6W; X-ray; 2.00 A; A/B=1-436.
+DR   PDB; 1V6X; X-ray; 2.10 A; A/B=1-436.
+DR   PDB; 1V6Y; X-ray; 2.20 A; A=1-300.
+DR   PDB; 1XYF; X-ray; 1.90 A; A/B=1-436.
+DR   PDB; 2D1Z; X-ray; 1.60 A; A/B=1-436.
+DR   PDB; 2D20; X-ray; 1.85 A; A/B=1-436.
+DR   PDB; 2D22; X-ray; 1.70 A; A/B=1-436.
+DR   PDB; 2D23; X-ray; 1.95 A; A/B=1-436.
+DR   PDB; 2D24; X-ray; 1.85 A; A/B=1-436.
+DR   PDB; 2G3I; X-ray; 2.10 A; A=1-303.
+DR   PDB; 2G3J; X-ray; 2.70 A; A=1-303.
+DR   PDB; 2G4F; X-ray; 2.65 A; A/B=1-302.
+DR   PDB; 5GQD; X-ray; 1.80 A; A/B=1-436.
+DR   PDB; 5GQE; X-ray; 2.50 A; A/B=1-436.
+DR   PDBsum; 1ISV; -.
+DR   PDBsum; 1ISW; -.
+DR   PDBsum; 1ISX; -.
+DR   PDBsum; 1ISY; -.
+DR   PDBsum; 1ISZ; -.
+DR   PDBsum; 1IT0; -.
+DR   PDBsum; 1V6U; -.
+DR   PDBsum; 1V6V; -.
+DR   PDBsum; 1V6W; -.
+DR   PDBsum; 1V6X; -.
+DR   PDBsum; 1V6Y; -.
+DR   PDBsum; 1XYF; -.
+DR   PDBsum; 2D1Z; -.
+DR   PDBsum; 2D20; -.
+DR   PDBsum; 2D22; -.
+DR   PDBsum; 2D23; -.
+DR   PDBsum; 2D24; -.
+DR   PDBsum; 2G3I; -.
+DR   PDBsum; 2G3J; -.
+DR   PDBsum; 2G4F; -.
+DR   PDBsum; 5GQD; -.
+DR   PDBsum; 5GQE; -.
+DR   SMR; Q7SI98; -.
+DR   DrugBank; DB03389; alpha-D-Xylopyranose.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   DrugBank; DB04465; Lactose.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GH10; Glycoside Hydrolase Family 10.
+DR   UniLectin; Q7SI98; -.
+DR   BRENDA; 3.2.1.8; 6067.
+DR   EvolutionaryTrace; Q7SI98; -.
+DR   GO; GO:0031176; F:endo-1,4-beta-xylanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 1.
+DR   InterPro; IPR044846; GH10.
+DR   InterPro; IPR031158; GH10_AS.
+DR   InterPro; IPR001000; GH10_dom.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR31490; PTHR31490; 1.
+DR   Pfam; PF00331; Glyco_hydro_10; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   PRINTS; PR00134; GLHYDRLASE10.
+DR   SMART; SM00633; Glyco_10; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00591; GH10_1; 1.
+DR   PROSITE; PS51760; GH10_2; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1ISV, ECO:0007829|PDB:1ISW};
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|RuleBase:RU361174};
+KW   Glycosidase {ECO:0000256|ARBA:ARBA00023295, ECO:0000256|RuleBase:RU361174};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU361174};
+KW   Polysaccharide degradation {ECO:0000256|ARBA:ARBA00023326,
+KW   ECO:0000256|RuleBase:RU361174}.
+FT   DOMAIN          1..299
+FT                   /note="GH10"
+FT                   /evidence="ECO:0000259|PROSITE:PS51760"
+FT   DOMAIN          320..436
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   ACT_SITE        236
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU10061"
+FT   BINDING         325
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         328
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         338
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         343
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         347
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         408
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         409
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         411
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   BINDING         430
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1ISZ"
+FT   DISULFID        168..201
+FT                   /evidence="ECO:0007829|PDB:1ISV, ECO:0007829|PDB:1ISW"
+FT   DISULFID        254..260
+FT                   /evidence="ECO:0007829|PDB:1ISV, ECO:0007829|PDB:1ISW"
+FT   DISULFID        323..342
+FT                   /evidence="ECO:0007829|PDB:1ISV, ECO:0007829|PDB:1ISW"
+FT   DISULFID        365..382
+FT                   /evidence="ECO:0007829|PDB:1ISV, ECO:0007829|PDB:1ISW"
+FT   DISULFID        406..425
+FT                   /evidence="ECO:0007829|PDB:1ISV, ECO:0007829|PDB:1ISW"
+SQ   SEQUENCE   436 AA;  46749 MW;  6F26B9EC33801083 CRC64;
+     AESTLGAAAA QSGRYFGTAI ASGKLGDSAY TTIASREFNM VTAENEMKID ATEPQRGQFN
+     FSAGDRVYNW AVQNGKQVRG HTLAWHSQQP GWMQSLSGST LRQAMIDHIN GVMGHYKGKI
+     AQWDVVNEAF SDDGSGGRRD SNLQRTGNDW IEVAFRTARA ADPAAKLCYN DYNIENWTWA
+     KTQGVYNMVR DFKQRGVPID CVGFQSHFNS GSPYNSNFRT TLQNFAALGV DVAITELDIQ
+     GASSSTYAAV TNDCLAVSRC LGITVWGVRD TDSWRSGDTP LLFNGDGSKK AAYTAVLNAL
+     NGGSSTPPPS GGGQIKGVGS GRCLDVPNAS TTDGTQVQLY DCHSATNQQW TYTDAGELRV
+     YGDKCLDAAG TGNGTKVQIY SCWGGDNQKW RLNSDGSIVG VQSGLCLDAV GGGTANGTLI
+     QLYSCSNGSN QRWTRT
+//

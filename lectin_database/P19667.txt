@@ -1,0 +1,139 @@
+ID   CURC1_MOLLA             Reviewed;         158 AA.
+AC   P19667; Q39530; Q39531;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 2.
+DT   25-MAY-2022, entry version 86.
+DE   RecName: Full=Curculin-1;
+DE   AltName: Full=Neoculin basic subunit;
+DE            Short=NBS;
+DE   Flags: Precursor;
+GN   Name=CUR09; Synonyms=CUR37;
+OS   Molineria latifolia (Lumbah) (Curculigo latifolia).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Asparagales; Hypoxidaceae;
+OC   Molineria.
+OX   NCBI_TaxID=4676;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1562601; DOI=10.1016/0167-4781(92)90537-a;
+RA   Abe K., Yamashita H., Arai S., Kurihara Y.;
+RT   "Molecular cloning of curculin, a novel taste-modifying protein with a
+RT   sweet taste.";
+RL   Biochim. Biophys. Acta 1130:232-234(1992).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 23-136.
+RC   TISSUE=Fruit;
+RX   PubMed=2394746; DOI=10.1016/s0021-9258(18)55464-8;
+RA   Yamashita H., Theerasilp S., Aiuchi T., Nakaya K., Nakamura Y.,
+RA   Kurihara Y.;
+RT   "Purification and complete amino acid sequence of a new type of sweet
+RT   protein taste-modifying activity, curculin.";
+RL   J. Biol. Chem. 265:15770-15775(1990).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.76 ANGSTROMS) OF 23-136 IN COMPLEX WITH NAS,
+RP   SUBUNIT, AND DISULFIDE BONDS.
+RX   PubMed=16616933; DOI=10.1016/j.jmb.2006.03.030;
+RA   Shimizu-Ibuka A., Morita Y., Terada T., Asakura T., Nakajima K., Iwata S.,
+RA   Misaka T., Sorimachi H., Arai S., Abe K.;
+RT   "Crystal structure of neoculin: insights into its sweetness and taste-
+RT   modifying activity.";
+RL   J. Mol. Biol. 359:148-158(2006).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS) OF 23-136, AND DISULFIDE BONDS.
+RX   PubMed=17895249; DOI=10.1074/jbc.c700174200;
+RA   Kurimoto E., Suzuki M., Amemiya E., Yamaguchi Y., Nirasawa S., Shimba N.,
+RA   Xu N., Kashiwagi T., Kawai M., Suzuki E., Kato K.;
+RT   "Curculin exhibits sweet-tasting and taste-modifying activities through its
+RT   distinct molecular surfaces.";
+RL   J. Biol. Chem. 282:33252-33256(2007).
+CC   -!- FUNCTION: Taste-modifying protein; sweet-tasting. After curculin, water
+CC       elicits a sweet taste, and sour substances induce a stronger sense of
+CC       sweetness.
+CC   -!- SUBUNIT: Homodimer and heterodimer with curculin-2; Disulfide-linked.
+CC       {ECO:0000269|PubMed:16616933, ECO:0000269|PubMed:17895249}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X64110; CAA45476.1; -; mRNA.
+DR   EMBL; X64111; CAA45477.1; -; mRNA.
+DR   PIR; S22365; S22365.
+DR   PDB; 2D04; X-ray; 2.76 A; B/D/F/H=23-136.
+DR   PDB; 2DPF; X-ray; 1.50 A; A/B/C/D=23-136.
+DR   PDBsum; 2D04; -.
+DR   PDBsum; 2DPF; -.
+DR   AlphaFoldDB; P19667; -.
+DR   SMR; P19667; -.
+DR   IntAct; P19667; 1.
+DR   EvolutionaryTrace; P19667; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd00028; B_lectin; 1.
+DR   Gene3D; 2.90.10.10; -; 1.
+DR   InterPro; IPR001480; Bulb-type_lectin_dom.
+DR   InterPro; IPR036426; Bulb-type_lectin_dom_sf.
+DR   SMART; SM00108; B_lectin; 1.
+DR   SUPFAM; SSF51110; SSF51110; 1.
+DR   PROSITE; PS50927; BULB_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Lectin; Signal;
+KW   Taste-modifying protein.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000269|PubMed:2394746"
+FT   CHAIN           23..136
+FT                   /note="Curculin-1"
+FT                   /id="PRO_0000021042"
+FT   PROPEP          137..158
+FT                   /id="PRO_0000021043"
+FT   DOMAIN          23..131
+FT                   /note="Bulb-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   DISULFID        51..74
+FT   DISULFID        99
+FT                   /note="Interchain (with C-131)"
+FT   DISULFID        131
+FT                   /note="Interchain (with C-99)"
+FT   CONFLICT        50
+FT                   /note="K -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        95
+FT                   /note="W -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        100
+FT                   /note="W -> C (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        103
+FT                   /note="N -> A (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          25..27
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          31..33
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          36..40
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          43..47
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          53..57
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          60..64
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          75..78
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          84..87
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          93..96
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          102..104
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          107..110
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          116..119
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          121..124
+FT                   /evidence="ECO:0007829|PDB:2DPF"
+FT   STRAND          126..129
+FT                   /evidence="ECO:0007829|PDB:2D04"
+SQ   SEQUENCE   158 AA;  17223 MW;  65B51E742D34706E CRC64;
+     MAAKFLLTIL VTFAAVASLG MADNVLLSGQ TLHADHSLQA GAYTLTIQNK CNLVKYQNGR
+     QIWASNTDRR GSGCRLTLLS DGNLVIYDHN NNDVWGSACW GDNGKYALVL QKDGRFVIYG
+     PVLWSLGPNG CRRVNGGITV AKDSTEPQHE DIKMVINN
+//

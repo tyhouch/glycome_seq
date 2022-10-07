@@ -1,0 +1,146 @@
+ID   NGLY1_DROPS             Reviewed;         632 AA.
+AC   Q28YQ7;
+DT   05-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 2.
+DT   03-AUG-2022, entry version 78.
+DE   RecName: Full=Peptide-N(4)-(N-acetyl-beta-glucosaminyl)asparagine amidase;
+DE            EC=3.5.1.52;
+DE   AltName: Full=Peptide:N-glycanase;
+GN   Name=PNGase; ORFNames=GA20643;
+OS   Drosophila pseudoobscura pseudoobscura (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=46245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MV2-25 / Tucson 14011-0121.94;
+RX   PubMed=15632085; DOI=10.1101/gr.3059305;
+RA   Richards S., Liu Y., Bettencourt B.R., Hradecky P., Letovsky S.,
+RA   Nielsen R., Thornton K., Hubisz M.J., Chen R., Meisel R.P., Couronne O.,
+RA   Hua S., Smith M.A., Zhang P., Liu J., Bussemaker H.J., van Batenburg M.F.,
+RA   Howells S.L., Scherer S.E., Sodergren E., Matthews B.B., Crosby M.A.,
+RA   Schroeder A.J., Ortiz-Barrientos D., Rives C.M., Metzker M.L., Muzny D.M.,
+RA   Scott G., Steffen D., Wheeler D.A., Worley K.C., Havlak P., Durbin K.J.,
+RA   Egan A., Gill R., Hume J., Morgan M.B., Miner G., Hamilton C., Huang Y.,
+RA   Waldron L., Verduzco D., Clerc-Blankenburg K.P., Dubchak I., Noor M.A.F.,
+RA   Anderson W., White K.P., Clark A.G., Schaeffer S.W., Gelbart W.M.,
+RA   Weinstock G.M., Gibbs R.A.;
+RT   "Comparative genome sequencing of Drosophila pseudoobscura: chromosomal,
+RT   gene, and cis-element evolution.";
+RL   Genome Res. 15:1-18(2005).
+CC   -!- FUNCTION: Specifically deglycosylates the denatured form of N-linked
+CC       glycoproteins in the cytoplasm and assists their proteasome-mediated
+CC       degradation. Cleaves the beta-aspartyl-glucosamine (GlcNAc) of the
+CC       glycan and the amide side chain of Asn, converting Asn to Asp. Prefers
+CC       proteins containing high-mannose over those bearing complex type
+CC       oligosaccharides. Can recognize misfolded proteins in the endoplasmic
+CC       reticulum that are exported to the cytosol to be destroyed and
+CC       deglycosylate them, while it has no activity toward native proteins.
+CC       Deglycosylation is a prerequisite for subsequent proteasome-mediated
+CC       degradation of some, but not all, misfolded glycoproteins (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of an N(4)-(acetyl-beta-D-glucosaminyl)asparagine
+CC         residue in which the glucosamine residue may be further glycosylated,
+CC         to yield a (substituted) N-acetyl-beta-D-glucosaminylamine and a
+CC         peptide containing an aspartate residue.; EC=3.5.1.52;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the transglutaminase-like superfamily. PNGase
+CC       family. {ECO:0000255|PROSITE-ProRule:PRU00731}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CM000071; EAL25908.2; -; Genomic_DNA.
+DR   RefSeq; XP_001361330.2; XM_001361293.3.
+DR   AlphaFoldDB; Q28YQ7; -.
+DR   SMR; Q28YQ7; -.
+DR   IntAct; Q28YQ7; 1.
+DR   STRING; 7237.FBpp0276277; -.
+DR   EnsemblMetazoa; FBtr0277839; FBpp0276277; FBgn0080637.
+DR   KEGG; dpo:Dpse_GA20643; -.
+DR   eggNOG; KOG0909; Eukaryota.
+DR   HOGENOM; CLU_030187_1_0_1; -.
+DR   InParanoid; Q28YQ7; -.
+DR   OMA; IKPSVEY; -.
+DR   Proteomes; UP000001819; Genome assembly.
+DR   Bgee; FBgn0080637; Expressed in insect adult head and 2 other tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:EnsemblMetazoa.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:EnsemblMetazoa.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000224; F:peptide-N4-(N-acetyl-beta-glucosaminyl)asparagine amidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006516; P:glycoprotein catabolic process; ISS:UniProtKB.
+DR   GO; GO:0030513; P:positive regulation of BMP signaling pathway; IEA:EnsemblMetazoa.
+DR   GO; GO:0006517; P:protein deglycosylation; IEA:EnsemblMetazoa.
+DR   GO; GO:0006950; P:response to stress; IEA:UniProt.
+DR   GO; GO:0007495; P:visceral mesoderm-endoderm interaction involved in midgut development; IEA:EnsemblMetazoa.
+DR   Gene3D; 2.60.120.1020; -; 1.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR038765; Papain-like_cys_pep_sf.
+DR   InterPro; IPR038680; PAW_sf.
+DR   InterPro; IPR006588; Peptide_N_glycanase_PAW_dom.
+DR   InterPro; IPR036339; PUB-like_dom_sf.
+DR   InterPro; IPR018997; PUB_domain.
+DR   InterPro; IPR018325; Rad4/PNGase_transGLS-fold.
+DR   InterPro; IPR002931; Transglutaminase-like.
+DR   Pfam; PF04721; PAW; 1.
+DR   Pfam; PF09409; PUB; 1.
+DR   Pfam; PF03835; Rad4; 1.
+DR   SMART; SM00613; PAW; 1.
+DR   SMART; SM00460; TGc; 1.
+DR   SUPFAM; SSF143503; SSF143503; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF54001; SSF54001; 1.
+DR   PROSITE; PS51398; PAW; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Metal-binding; Reference proteome; Zinc.
+FT   CHAIN           1..632
+FT                   /note="Peptide-N(4)-(N-acetyl-beta-glucosaminyl)asparagine
+FT                   amidase"
+FT                   /id="PRO_0000248980"
+FT   DOMAIN          33..96
+FT                   /note="PUB"
+FT   DOMAIN          442..632
+FT                   /note="PAW"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00731"
+FT   ACT_SITE        297
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        324
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        341
+FT                   /evidence="ECO:0000250"
+FT   BINDING         247
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         250
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         273
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         274
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   632 AA;  73644 MW;  999AA6AF427CDD81 CRC64;
+     MVDINLECVH FIEPKNTRST EQQQQNVKNA YLEAVRILLV LLENVLSQPN NTKFRTIRLD
+     NKAIKEKLLS LPGCEKLLYA IGFRHTPSSN SYTLPGEVSL QQIQKYYDVL RERRTAWLSG
+     AMPKSPAHPK AACSTPSPLF IKTSVPYRQR ITFPRVLRTS NRFLQSLELY SDAVMQYEDE
+     LLLATGRSLI PVDDLTSKAS EKMMAMQDLI ASGECSEKEP CIRDLLLVEL TNWFNTQFFE
+     WVNNIQCQVC GSEESKLRRT QTEGDVRVEV NVCCGQESKF YRYNDISQLL VSRKGRCGEY
+     ANCFTFLCRC LDYDARLVHS HFDHVWTEVF SETQMRWLHV DPSDNVVDSP LMYQHGWKRG
+     IDYVFAYSRD DAQDVTWRYT NNHQEILKLR KLCDEKELIQ TLNAIREKRQ QNCSAERKNF
+     LSQRNMFEVI GLTLERKPTE NELKGRSSGS LSWRQSRGEH TFTNIFVFSP NEAELKKCQL
+     NLRYSCATDT YERYTKDDGQ ITLLNTYKTW QSAQFSSKNI YRKVERDWKM AYLARLEDTD
+     CAEIIWKFDL TKTNLKVKSY KLVFETKTFG EGKIDVSVQT NDGKTFIENS SEFQVVAKLM
+     GGKGDVAWQH TQLFRQSLNS REYPFDLQVE LH
+//

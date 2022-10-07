@@ -1,0 +1,140 @@
+ID   JAL48_ARATH             Reviewed;         601 AA.
+AC   Q9LTY2; Q9ASP9;
+DT   01-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 112.
+DE   RecName: Full=Jacalin-related lectin 48;
+GN   Name=JAL48; OrderedLocusNames=At5g49870; ORFNames=K9P8.1;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=10718197; DOI=10.1093/dnares/7.1.31;
+RA   Sato S., Nakamura Y., Kaneko T., Katoh T., Asamizu E., Kotani H.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. X. Sequence
+RT   features of the regions of 3,076,755 bp covered by sixty P1 and TAC
+RT   clones.";
+RL   DNA Res. 7:31-63(2000).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 14-601.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J., Southwick A.M.,
+RA   Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F., Karlin-Newmann G.,
+RA   Liu S.X., Lam B., Sakano H., Wu T., Yu G., Miranda M., Quach H.L.,
+RA   Tripp M., Chang C.H., Lee J.M., Toriumi M.J., Chan M.M., Tang C.C.,
+RA   Onodera C.S., Deng J.M., Akiyama K., Ansari Y., Arakawa T., Banh J.,
+RA   Banno F., Bowser L., Brooks S.Y., Carninci P., Chao Q., Choy N., Enju A.,
+RA   Goldsmith A.D., Gurjal M., Hansen N.F., Hayashizaki Y., Johnson-Hopson C.,
+RA   Hsuan V.W., Iida K., Karnes M., Khan S., Koesema E., Ishida J., Jiang P.X.,
+RA   Jones T., Kawai J., Kamiya A., Meyers C., Nakajima M., Narusaka M.,
+RA   Seki M., Sakurai T., Satou M., Tamse R., Vaysberg M., Wallender E.K.,
+RA   Wong C., Yamamura Y., Yuan S., Shinozaki K., Davis R.W., Theologis A.,
+RA   Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+RN   [4]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=18467340; DOI=10.1093/pcp/pcn075;
+RA   Nagano A.J., Fukao Y., Fujiwara M., Nishimura M., Hara-Nishimura I.;
+RT   "Antagonistic jacalin-related lectins regulate the size of ER body-type
+RT   beta-glucosidase complexes in Arabidopsis thaliana.";
+RL   Plant Cell Physiol. 49:969-980(2008).
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK32939.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB024032; BAA97008.1; -; Genomic_DNA.
+DR   EMBL; CP002688; AED95866.1; -; Genomic_DNA.
+DR   EMBL; CP002688; ANM71089.1; -; Genomic_DNA.
+DR   EMBL; AF367353; AAK32939.1; ALT_INIT; mRNA.
+DR   EMBL; AY093991; AAM16252.1; -; mRNA.
+DR   RefSeq; NP_001318770.1; NM_001344861.1.
+DR   RefSeq; NP_199798.1; NM_124365.1.
+DR   AlphaFoldDB; Q9LTY2; -.
+DR   SMR; Q9LTY2; -.
+DR   STRING; 3702.AT5G49870.1; -.
+DR   iPTMnet; Q9LTY2; -.
+DR   PaxDb; Q9LTY2; -.
+DR   PRIDE; Q9LTY2; -.
+DR   ProteomicsDB; 238981; -.
+DR   EnsemblPlants; AT5G49870.1; AT5G49870.1; AT5G49870.
+DR   EnsemblPlants; AT5G49870.2; AT5G49870.2; AT5G49870.
+DR   GeneID; 835050; -.
+DR   Gramene; AT5G49870.1; AT5G49870.1; AT5G49870.
+DR   Gramene; AT5G49870.2; AT5G49870.2; AT5G49870.
+DR   KEGG; ath:AT5G49870; -.
+DR   Araport; AT5G49870; -.
+DR   TAIR; locus:2158794; AT5G49870.
+DR   eggNOG; ENOG502SCUZ; Eukaryota.
+DR   HOGENOM; CLU_041730_0_0_1; -.
+DR   InParanoid; Q9LTY2; -.
+DR   OMA; YENDVHE; -.
+DR   OrthoDB; 107737at2759; -.
+DR   PhylomeDB; Q9LTY2; -.
+DR   PRO; PR:Q9LTY2; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q9LTY2; baseline and differential.
+DR   Genevisible; Q9LTY2; AT.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 3.
+DR   Gene3D; 2.100.10.30; -; 4.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 4.
+DR   SMART; SM00915; Jacalin; 4.
+DR   SUPFAM; SSF51101; SSF51101; 4.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 4.
+PE   2: Evidence at transcript level;
+KW   Lectin; Reference proteome; Repeat.
+FT   CHAIN           1..601
+FT                   /note="Jacalin-related lectin 48"
+FT                   /id="PRO_0000430405"
+FT   DOMAIN          2..147
+FT                   /note="Jacalin-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          150..294
+FT                   /note="Jacalin-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          297..444
+FT                   /note="Jacalin-type lectin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   DOMAIN          451..597
+FT                   /note="Jacalin-type lectin 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   REGION          1..21
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   601 AA;  67099 MW;  6A350020A7C4ED99 CRC64;
+     MTERLEAEGS RRGNNSKWDD KSDHDDVTKI YVNYSLSGIE SIRFDYVKSG KPKDGPFRGQ
+     SYNTYTHTFE INHLKYEHLE SVEGYYTEDT GIEALQFKTN LRISEPIGYH HDGCTKFILA
+     VEGKKIIGFH GSSFALRVGS LGAYFTWDTP TIIKAVGGKV GTKWDDGVNQ AGFTKIHVRS
+     GQKGIQFIKL EYVDKDGNLT DGPIHGSIYR RGSPHVFEFK HDEEYLVSVE GYYEGDEECE
+     VIQGLQFRTN IKTSELMGSN TGKKFKLTAS GMKIVGFHGY AEKNLSSLGA YLTPLTPKKS
+     ECKGITDGSN VWNWDDGAFE GIRKVSVFFT ALRIRCLMIN YEDAGKVVKR SHGLNNNDHQ
+     EEKFVVDYPN EFITSVVGTM SSSSVMPLIF KTSKGRTSKQ FGDYSFDDSV EFVLESKGCA
+     IVGFHGWHNP VSGYMTALGA YYYPMPLPPA AEKLEAQGGA GGAPWDDGSN FQGVRKIYIG
+     TGEVGIVSIK FLYENDVHEI VVGDHHGNKN LLRHEEFDLD YPSEYLTSVE GSYDVVPGSE
+     EYEVIIMLKF TTNKRTSPCY GLDDDPIFVL HKEGHKIVGF HGKSSNMLHK LGIHVLPISN
+     S
+//

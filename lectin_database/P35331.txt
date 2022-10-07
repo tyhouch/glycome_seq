@@ -1,0 +1,288 @@
+ID   NRCAM_CHICK             Reviewed;        1284 AA.
+AC   P35331;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   03-AUG-2022, entry version 156.
+DE   RecName: Full=Neuronal cell adhesion molecule;
+DE            Short=Nr-CAM;
+DE   AltName: Full=Neuronal surface protein Bravo;
+DE            Short=gBravo;
+DE   AltName: Full=NgCAM-related cell adhesion molecule;
+DE            Short=Ng-CAM-related;
+DE   Flags: Precursor;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 25-52; 178-184 AND
+RP   581-594.
+RC   STRAIN=White leghorn; TISSUE=Embryonic brain;
+RX   PubMed=2045418; DOI=10.1083/jcb.113.6.1399;
+RA   Grumet M., Mauro V., Burgoon M.P., Edelman G.M., Cunningham B.A.;
+RT   "Structure of a new nervous system glycoprotein, Nr-CAM, and its
+RT   relationship to subgroups of neural cell adhesion molecules.";
+RL   J. Cell Biol. 113:1399-1412(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 25-1284, AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Embryonic brain, and Retina;
+RX   PubMed=1512296; DOI=10.1083/jcb.118.5.1259;
+RA   Kayyem J.F., Roman J.M., de la Rosa E.J., Schwarz U., Dreyer W.J.;
+RT   "Bravo/Nr-CAM is closely related to the cell adhesion molecules L1 and Ng-
+RT   CAM and has a similar heterodimer structure.";
+RL   J. Cell Biol. 118:1259-1270(1992).
+CC   -!- FUNCTION: This protein is a cell adhesion molecule involved in neuron-
+CC       neuron adhesion, neurite fasciculation, outgrowth of neurites, etc.
+CC       Specifically involved in the development of optic fibres in the retina.
+CC   -!- SUBUNIT: Heterodimer of an alpha and a beta chain.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=5;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=1;
+CC         IsoId=P35331-1; Sequence=Displayed;
+CC       Name=2; Synonyms=AS10;
+CC         IsoId=P35331-2; Sequence=VSP_002603;
+CC       Name=3; Synonyms=AS12;
+CC         IsoId=P35331-3; Sequence=VSP_002604;
+CC       Name=4; Synonyms=AS93;
+CC         IsoId=P35331-4; Sequence=VSP_002605;
+CC       Name=5; Synonyms=AS-CYT2;
+CC         IsoId=P35331-5; Sequence=VSP_002606;
+CC   -!- TISSUE SPECIFICITY: Retina and developing brain.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in developing neural retina and
+CC       embryonic brain tissue.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily.
+CC       L1/neurofascin/NgCAM family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X58482; CAA41391.1; -; mRNA.
+DR   EMBL; L08960; AAA48632.1; -; mRNA.
+DR   PIR; A39640; A39640.
+DR   PIR; A43425; A43425.
+DR   RefSeq; NP_990597.1; NM_205266.1.
+DR   AlphaFoldDB; P35331; -.
+DR   SMR; P35331; -.
+DR   BioGRID; 676462; 1.
+DR   IntAct; P35331; 1.
+DR   STRING; 9031.ENSGALP00000015476; -.
+DR   PaxDb; P35331; -.
+DR   GeneID; 396202; -.
+DR   KEGG; gga:396202; -.
+DR   CTD; 4897; -.
+DR   VEuPathDB; HostDB:geneid_396202; -.
+DR   eggNOG; KOG3513; Eukaryota.
+DR   PhylomeDB; P35331; -.
+DR   PRO; PR:P35331; -.
+DR   Proteomes; UP000000539; Unplaced.
+DR   GO; GO:0030424; C:axon; IBA:GO_Central.
+DR   GO; GO:0005911; C:cell-cell junction; IDA:AgBase.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:AgBase.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030506; F:ankyrin binding; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:AgBase.
+DR   GO; GO:0050839; F:cell adhesion molecule binding; IPI:AgBase.
+DR   GO; GO:0098632; F:cell-cell adhesion mediator activity; IBA:GO_Central.
+DR   GO; GO:0030247; F:polysaccharide binding; IDA:AgBase.
+DR   GO; GO:0046982; F:protein heterodimerization activity; IPI:AgBase.
+DR   GO; GO:0007411; P:axon guidance; IBA:GO_Central.
+DR   GO; GO:0007420; P:brain development; IBA:GO_Central.
+DR   GO; GO:0016339; P:calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules; IDA:AgBase.
+DR   GO; GO:0016338; P:calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules; IDA:AgBase.
+DR   GO; GO:0098609; P:cell-cell adhesion; IBA:GO_Central.
+DR   GO; GO:0045162; P:clustering of voltage-gated sodium channels; ISS:UniProtKB.
+DR   GO; GO:0007156; P:homophilic cell adhesion via plasma membrane adhesion molecules; IDA:AgBase.
+DR   GO; GO:0007158; P:neuron cell-cell adhesion; IDA:AgBase.
+DR   CDD; cd00063; FN3; 5.
+DR   Gene3D; 2.60.40.10; -; 11.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR026966; Neurofascin/L1/NrCAM_C.
+DR   Pfam; PF13882; Bravo_FIGEY; 1.
+DR   Pfam; PF00041; fn3; 5.
+DR   Pfam; PF07679; I-set; 2.
+DR   SMART; SM00060; FN3; 5.
+DR   SMART; SM00409; IG; 6.
+DR   SMART; SM00408; IGc2; 6.
+DR   SUPFAM; SSF48726; SSF48726; 6.
+DR   SUPFAM; SSF49265; SSF49265; 3.
+DR   PROSITE; PS50853; FN3; 5.
+DR   PROSITE; PS50835; IG_LIKE; 6.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell adhesion; Cell membrane;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Membrane; Reference proteome; Repeat; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000269|PubMed:2045418"
+FT   CHAIN           25..1284
+FT                   /note="Neuronal cell adhesion molecule"
+FT                   /id="PRO_0000015060"
+FT   TOPO_DOM        25..1143
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1144..1166
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1167..1284
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          41..129
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          136..230
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          243..332
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          337..424
+FT                   /note="Ig-like C2-type 4"
+FT   DOMAIN          430..517
+FT                   /note="Ig-like C2-type 5"
+FT   DOMAIN          521..608
+FT                   /note="Ig-like C2-type 6"
+FT   DOMAIN          625..720
+FT                   /note="Fibronectin type-III 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          725..819
+FT                   /note="Fibronectin type-III 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          824..926
+FT                   /note="Fibronectin type-III 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          930..1026
+FT                   /note="Fibronectin type-III 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          1040..1132
+FT                   /note="Fibronectin type-III 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   REGION          707..732
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1175..1284
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1175..1235
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        78
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        218
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        290
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        409
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        483
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        576
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        581
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        595
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        692
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        778
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        834
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        885
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        969
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        985
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        995
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1048
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1059
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1091
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        63..118
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        162..213
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        268..316
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        358..408
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        452..501
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        543..592
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   VAR_SEQ         612..621
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002603"
+FT   VAR_SEQ         1027..1038
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002604"
+FT   VAR_SEQ         1039..1131
+FT                   /note="Missing (in isoform 4)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002605"
+FT   VAR_SEQ         1202..1205
+FT                   /note="Missing (in isoform 5)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002606"
+FT   CONFLICT        209
+FT                   /note="V -> E (in Ref. 2; AAA48632)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        680
+FT                   /note="H -> Q (in Ref. 2; AAA48632)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1284 AA;  141852 MW;  A3570BF9C3D47A0F CRC64;
+     MMKEKSISAS KASLVFFLCQ MISALDVPLD SKLLEELSQP PTITQQSPKD YIVDPRENIV
+     IQCEAKGKPP PSFSWTRNGT HFDIDKDAQV TMKPNSGTLV VNIMNGVKAE AYEGVYQCTA
+     RNERGAAISN NIVIRPSRSP LWTKEKLEPN HVREGDSLVL NCRPPVGLPP PIIFWMDNAF
+     QRLPQSERVS QGLNGDLYFS NVQPEDTRVD YICYARFNHT QTIQQKQPIS VKVFSTKPVT
+     ERPPVLLTPM GSTSNKVELR GNVLLLECIA AGLPTPVIRW IKEGGELPAN RTFFENFKKT
+     LKIIDVSEAD SGNYKCTARN TLGSTHHVIS VTVKAAPYWI TAPRNLVLSP GEDGTLICRA
+     NGNPKPSISW LTNGVPIAIA PEDPSRKVDG DTIIFSAVQE RSSAVYQCNA SNEYGYLLAN
+     AFVNVLAEPP RILTPANKLY QVIADSPALI DCAYFGSPKP EIEWFRGVKG SILRGNEYVF
+     HDNGTLEIPV AQKDSTGTYT CVARNKLGKT QNEVQLEVKD PTMIIKQPQY KVIQRSAQAS
+     FECVIKHDPT LIPTVIWLKD NNELPDDERF LVGKDNLTIM NVTDKDDGTY TCIVNTTLDS
+     VSASAVLTVV AAPPTPAIIY ARPNPPLDLE LTGQLERSIE LSWVPGEENN SPITNFVIEY
+     EDGLHEPGVW HYQTEVPGSH TTVQLKLSPY VNYSFRVIAV NEIGRSQPSE PSEQYLTKSA
+     NPDENPSNVQ GIGSEPDNLV ITWESLKGFQ SNGPGLQYKV SWRQKDVDDE WTSVVVANVS
+     KYIVSGTPTF VPYEIKVQAL NDLGYAPEPS EVIGHSGEDL PMVAPGNVQV HVINSTLAKV
+     HWDPVPLKSV RGHLQGYKVY YWKVQSLSRR SKRHVEKKIL TFRGNKTFGM LPGLEPYSSY
+     KLNVRVVNGK GEGPASPDKV FKTPEGVPSP PSFLKITNPT LDSLTLEWGS PTHPNGVLTS
+     YILKFQPINN THELGPLVEI RIPANESSLI LKNLNYSTRY KFYFNAQTSV GSGSQITEEA
+     VTIMDEAGIL RPAVGAGKVQ PLYPRIRNVT TAAAETYANI SWEYEGPDHA NFYVEYGVAG
+     SKEDWKKEIV NGSRSFFVLK GLTPGTAYKV RVGAEGLSGF RSSEDLFETG PAMASRQVDI
+     ATQGWFIGLM CAVALLILIL LIVCFIRRNK GGKYPVKEKE DAHADPEIQP MKEDDGTFGE
+     YRSLESDAED HKPLKKGSRT PSDRTVKKED SDDSLVDYGE GVNGQFNEDG SFIGQYSGKK
+     EKEPAEGNES SEAPSPVNAM NSFV
+//

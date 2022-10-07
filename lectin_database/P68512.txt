@@ -1,0 +1,141 @@
+ID   FEL_CYPCA               Reviewed;         238 AA.
+AC   P68512;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   03-AUG-2022, entry version 40.
+DE   RecName: Full=Fish-egg lectin;
+DE            Short=FEL;
+OS   Cyprinus carpio (Common carp).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+OC   Cyprinidae; Cyprininae; Cyprinus.
+OX   NCBI_TaxID=7962;
+RN   [1]
+RP   PROTEIN SEQUENCE, DISULFIDE BONDS, GLYCOSYLATION AT ASN-27, FUNCTION,
+RP   SUBUNIT, AND TISSUE SPECIFICITY.
+RC   TISSUE=Egg;
+RX   PubMed=12956625; DOI=10.1042/bj20030413;
+RA   Galliano M., Minchiotti L., Campagnoli M., Sala A., Visai L., Amoresano A.,
+RA   Pucci P., Casbarra A., Cauci M., Perduca M., Monaco H.L.;
+RT   "Structural and biochemical characterization of a new type of lectin
+RT   isolated from carp eggs.";
+RL   Biochem. J. 376:433-440(2003).
+CC   -!- FUNCTION: Lipopolysaccharide-binding protein with a very low
+CC       agglutinating activity for human A-type erythrocytes and interacts with
+CC       both Gram-positive and Gram-negative bacteria.
+CC       {ECO:0000269|PubMed:12956625}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed in the eggs.
+CC       {ECO:0000269|PubMed:12956625}.
+CC   -!- SIMILARITY: Belongs to the tectonin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 4RUQ; X-ray; 1.35 A; A/B=1-238.
+DR   PDB; 4RUS; X-ray; 1.70 A; A/B/C/D/E/F=1-238.
+DR   PDBsum; 4RUQ; -.
+DR   PDBsum; 4RUS; -.
+DR   AlphaFoldDB; P68512; -.
+DR   SMR; P68512; -.
+DR   UniLectin; P68512; -.
+DR   iPTMnet; P68512; -.
+DR   Proteomes; UP000694384; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR006624; Beta-propeller_rpt_TECPR.
+DR   Pfam; PF19193; Tectonin; 1.
+DR   SMART; SM00706; TECPR; 5.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Lectin; Reference proteome; Repeat; Secreted.
+FT   CHAIN           1..238
+FT                   /note="Fish-egg lectin"
+FT                   /id="PRO_0000221478"
+FT   REPEAT          1..34
+FT                   /note="1"
+FT   REPEAT          35..68
+FT                   /note="2"
+FT   REPEAT          69..106
+FT                   /note="3"
+FT   REPEAT          107..156
+FT                   /note="4"
+FT   REPEAT          157..199
+FT                   /note="5"
+FT   REGION          1..199
+FT                   /note="5 X approximate tandem repeats"
+FT   CARBOHYD        27
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12956625"
+FT   DISULFID        3..234
+FT                   /evidence="ECO:0000269|PubMed:12956625"
+FT   DISULFID        100..153
+FT                   /evidence="ECO:0000269|PubMed:12956625"
+FT   DISULFID        128..133
+FT                   /evidence="ECO:0000269|PubMed:12956625"
+FT   DISULFID        208..226
+FT                   /evidence="ECO:0000269|PubMed:12956625"
+FT   STRAND          4..7
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          11..16
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          19..23
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          28..33
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          36..43
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          45..50
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          53..57
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          62..67
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          70..77
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          79..82
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          85..87
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          89..92
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          98..101
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   HELIX           103..106
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          117..121
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          124..128
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          133..136
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          141..145
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   TURN            153..156
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          160..165
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          167..171
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          177..180
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          186..191
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          194..196
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          200..205
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          208..210
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          212..218
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          221..226
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+FT   STRAND          231..235
+FT                   /evidence="ECO:0007829|PDB:4RUQ"
+SQ   SEQUENCE   238 AA;  25478 MW;  B4E10F1E02A9CA93 CRC64;
+     LDCTVIDGNL KQIDAGSGSV VGVNNLNETF VLIDNVFTKI SGSLKHFSVG PAGQLGVNTA
+     NNIFKYQSGG FVQLAGLLKQ VDAGGDQIIA GVNMYDDIYC LNMDANNKWP SSNTPWVQIN
+     GKLKYYSCGP YSCWGVNSND QIFIMKDVSS NVCSGSGSFI NIPGLLSMIE VATDGSVFGV
+     NSQGNLYQRT GVTRSKPDGT DWISMVACPN GHKHVSFDLG VLWLVCVDGS IRKCILTD
+//

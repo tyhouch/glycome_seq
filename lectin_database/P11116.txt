@@ -1,0 +1,257 @@
+ID   LEG1_BOVIN              Reviewed;         135 AA.
+AC   P11116; P11945; Q54A27;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 169.
+DE   RecName: Full=Galectin-1;
+DE            Short=Gal-1;
+DE   AltName: Full=14 kDa lectin;
+DE   AltName: Full=Beta-galactoside-binding lectin L-14-I;
+DE   AltName: Full=Galaptin;
+DE   AltName: Full=Lactose-binding lectin 1;
+DE   AltName: Full=Lectin galactoside-binding soluble 1;
+DE   AltName: Full=S-Lac lectin 1;
+GN   Name=LGALS1;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Trachea;
+RX   PubMed=2470348; DOI=10.1042/bj2590283;
+RA   Abbott W.M., Mellor A., Edwards Y., Feizi T.;
+RT   "Soluble bovine galactose-binding lectin. cDNA cloning reveals the complete
+RT   amino acid sequence and an antigenic relationship with the major
+RT   encephalitogenic domain of myelin basic protein.";
+RL   Biochem. J. 259:283-290(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=12658628; DOI=10.1002/mrd.10292;
+RA   Ishiwata H., Katsuma S., Kizaki K., Patel O.V., Nakano H., Takahashi T.,
+RA   Imai K., Hirasawa A., Shiojima S., Ikawa H., Suzuki Y., Tsujimoto G.,
+RA   Izaike Y., Todoroki J., Hashizume K.;
+RT   "Characterization of gene expression profiles in early bovine pregnancy
+RT   using a custom cDNA microarray.";
+RL   Mol. Reprod. Dev. 65:9-18(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Heart ventricle;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PRELIMINARY PROTEIN SEQUENCE OF 11-134.
+RC   TISSUE=Heart;
+RX   PubMed=3569527; DOI=10.1016/0014-5793(87)80074-1;
+RA   Southan C., Aitken A., Childs R.A., Abbott W.M., Feizi T.;
+RT   "Amino acid sequence of beta-galactoside-binding bovine heart lectin.
+RT   Member of a novel class of vertebrate proteins.";
+RL   FEBS Lett. 214:301-304(1987).
+RN   [5]
+RP   MUTAGENESIS, AND FUNCTION.
+RC   TISSUE=Heart;
+RX   PubMed=1900835; DOI=10.1016/s0021-9258(19)67630-1;
+RA   Abbott W.M., Feizi T.;
+RT   "Soluble 14-kDa beta-galactoside-specific bovine lectin. Evidence from
+RT   mutagenesis and proteolysis that almost the complete polypeptide chain is
+RT   necessary for integrity of the carbohydrate recognition domain.";
+RL   J. Biol. Chem. 266:5552-5557(1991).
+RN   [6]
+RP   CHARACTERIZATION, AND MASS SPECTROMETRY.
+RC   TISSUE=Heart;
+RX   PubMed=1587821; DOI=10.1016/s0021-9258(19)50024-2;
+RA   Tracey B.M., Feizi T., Abbott W.M., Carruthers R.A., Green B.N.,
+RA   Lawson A.M.;
+RT   "Subunit molecular mass assignment of 14,654 Da to the soluble beta-
+RT   galactoside-binding lectin from bovine heart muscle and demonstration of
+RT   intramolecular disulfide bonding associated with oxidative inactivation.";
+RL   J. Biol. Chem. 267:10342-10347(1992).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) IN COMPLEX WITH CARBOHYDRATE, AND
+RP   FUNCTION.
+RC   TISSUE=Spleen;
+RX   PubMed=8108426; DOI=10.1073/pnas.91.4.1428;
+RA   Liao D.-I., Kapadia G., Ahmed H., Vasta G.R., Herzberg O.;
+RT   "Structure of S-lectin, a developmentally regulated vertebrate beta-
+RT   galactoside-binding protein.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 91:1428-1432(1994).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.45 ANGSTROMS) IN COMPLEX WITH CARBOHYDRATE, AND
+RP   FUNCTION.
+RX   PubMed=7773775; DOI=10.1038/nsb1294-863;
+RA   Bourne Y., Bolgiano B., Liao D.-I., Strecker G., Cantau P., Herzberg O.,
+RA   Feizi T., Cambillau C.;
+RT   "Crosslinking of mammalian lectin (galectin-1) by complex biantennary
+RT   saccharides.";
+RL   Nat. Struct. Biol. 1:863-870(1994).
+CC   -!- FUNCTION: Lectin that binds beta-galactoside and a wide array of
+CC       complex carbohydrates (PubMed:1900835, PubMed:8108426, PubMed:7773775).
+CC       Plays a role in regulating apoptosis, cell proliferation and cell
+CC       differentiation. Inhibits CD45 protein phosphatase activity and
+CC       therefore the dephosphorylation of Lyn kinase. Strong inducer of T-cell
+CC       apoptosis. {ECO:0000250|UniProtKB:P09382, ECO:0000269|PubMed:1900835,
+CC       ECO:0000269|PubMed:7773775, ECO:0000269|PubMed:8108426}.
+CC   -!- SUBUNIT: Homodimer. Binds LGALS3BP. Interacts with CD2, CD3, CD4, CD6,
+CC       CD7, CD43, ALCAM and CD45. Interacts with laminin (via poly-N-
+CC       acetyllactosamine). Interacts with SUSD2. Interacts with cargo receptor
+CC       TMED10; the interaction mediates the translocation from the cytoplasm
+CC       into the ERGIC (endoplasmic reticulum-Golgi intermediate compartment)
+CC       and thereby secretion. {ECO:0000250|UniProtKB:P09382}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250|UniProtKB:P09382}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P09382}. Secreted
+CC       {ECO:0000250|UniProtKB:P09382}. Note=Can be secreted; the secretion is
+CC       dependent on protein unfolding and facilitated by the cargo receptor
+CC       TMED10; it results in protein translocation from the cytoplasm into the
+CC       ERGIC (endoplasmic reticulum-Golgi intermediate compartment) followed
+CC       by vesicle entry and secretion. {ECO:0000250|UniProtKB:P09382}.
+CC   -!- MASS SPECTROMETRY: Mass=14654.6; Mass_error=0.9; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:1587821};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X14330; CAA32508.1; -; mRNA.
+DR   EMBL; AB099039; BAC56529.1; -; mRNA.
+DR   EMBL; BC103156; AAI03157.1; -; mRNA.
+DR   PIR; S03865; LNBOGB.
+DR   RefSeq; NP_786976.1; NM_175782.1.
+DR   PDB; 1SLA; X-ray; 2.45 A; A/B=2-135.
+DR   PDB; 1SLB; X-ray; 2.30 A; A/B/C/D=2-135.
+DR   PDB; 1SLC; X-ray; 2.15 A; A/B/C/D=2-135.
+DR   PDB; 1SLT; X-ray; 1.90 A; A/B=2-135.
+DR   PDBsum; 1SLA; -.
+DR   PDBsum; 1SLB; -.
+DR   PDBsum; 1SLC; -.
+DR   PDBsum; 1SLT; -.
+DR   AlphaFoldDB; P11116; -.
+DR   SMR; P11116; -.
+DR   STRING; 9913.ENSBTAP00000020080; -.
+DR   UniLectin; P11116; -.
+DR   PaxDb; P11116; -.
+DR   PeptideAtlas; P11116; -.
+DR   PRIDE; P11116; -.
+DR   Ensembl; ENSBTAT00000020080; ENSBTAP00000020080; ENSBTAG00000015089.
+DR   GeneID; 326598; -.
+DR   KEGG; bta:326598; -.
+DR   CTD; 3956; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000015089; -.
+DR   VGNC; VGNC:30850; LGALS1.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   GeneTree; ENSGT00940000155534; -.
+DR   HOGENOM; CLU_037794_5_0_1; -.
+DR   InParanoid; P11116; -.
+DR   OMA; KIKCMAF; -.
+DR   OrthoDB; 1429018at2759; -.
+DR   TreeFam; TF315551; -.
+DR   Reactome; R-BTA-381426; Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).
+DR   Reactome; R-BTA-8957275; Post-translational protein phosphorylation.
+DR   EvolutionaryTrace; P11116; -.
+DR   Proteomes; UP000009136; Chromosome 5.
+DR   Bgee; ENSBTAG00000015089; Expressed in pons and 107 other tissues.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:1990724; C:galectin complex; IEA:Ensembl.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0043236; F:laminin binding; IBA:GO_Central.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0098609; P:cell-cell adhesion; IEA:Ensembl.
+DR   GO; GO:0045445; P:myoblast differentiation; IEA:Ensembl.
+DR   GO; GO:0002317; P:plasma cell differentiation; IEA:Ensembl.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IEA:Ensembl.
+DR   GO; GO:0050729; P:positive regulation of inflammatory response; IEA:Ensembl.
+DR   GO; GO:0046598; P:positive regulation of viral entry into host cell; IEA:Ensembl.
+DR   GO; GO:0031295; P:T cell costimulation; IEA:Ensembl.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Apoptosis; Cytoplasm; Direct protein sequencing;
+KW   Extracellular matrix; Lectin; Phosphoprotein; Reference proteome; Secreted.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   CHAIN           2..135
+FT                   /note="Galectin-1"
+FT                   /id="PRO_0000076915"
+FT   DOMAIN          4..135
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         45..49
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         53
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         62
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         69..72
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         13
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         29
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         30
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09382"
+FT   MOD_RES         108
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         108
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MOD_RES         128
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16045"
+FT   MUTAGEN         69
+FT                   /note="W->F: Reduced carbohydrate binding."
+FT                   /evidence="ECO:0000269|PubMed:1900835"
+FT   MUTAGEN         69
+FT                   /note="W->L: No carbohydrate binding."
+FT                   /evidence="ECO:0000269|PubMed:1900835"
+FT   STRAND          6..9
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          17..24
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          30..38
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          41..52
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          55..65
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          73..75
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          85..92
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          94..100
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   HELIX           102..104
+FT                   /evidence="ECO:0007829|PDB:1SLC"
+FT   STRAND          106..110
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+FT   STRAND          120..135
+FT                   /evidence="ECO:0007829|PDB:1SLT"
+SQ   SEQUENCE   135 AA;  14744 MW;  77FE0F95C67317BC CRC64;
+     MACGLVASNL NLKPGECLRV RGEVAADAKS FLLNLGKDDN NLCLHFNPRF NAHGDVNTIV
+     CNSKDAGAWG AEQRESAFPF QPGSVVEVCI SFNQTDLTIK LPDGYEFKFP NRLNLEAINY
+     LSAGGDFKIK CVAFE
+//

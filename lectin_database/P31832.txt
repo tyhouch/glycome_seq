@@ -1,0 +1,44 @@
+ID   CALR_PELLE              Reviewed;          13 AA.
+AC   P31832;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   07-APR-2021, entry version 58.
+DE   RecName: Full=Calreticulin;
+DE   AltName: Full=Major microsomal calcium-binding protein;
+DE   Flags: Fragment;
+OS   Pelophylax lessonae (Pool frog) (Rana lessonae).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Neobatrachia; Ranoidea; Ranidae; Pelophylax.
+OX   NCBI_TaxID=45623;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Brain;
+RX   PubMed=2018493; DOI=10.1016/0006-291x(91)91584-y;
+RA   Treveso S., Zorzato F., Chiozzi P., Melandri P., Volpe P., Pozzan T.;
+RT   "Frog brain expresses a 60 KDa Ca2+ binding protein similar to mammalian
+RT   calreticulin.";
+RL   Biochem. Biophys. Res. Commun. 175:444-450(1991).
+CC   -!- FUNCTION: Molecular calcium-binding chaperone promoting folding,
+CC       oligomeric assembly and quality control in the ER via the
+CC       calreticulin/calnexin cycle. This lectin may interact transiently with
+CC       almost all of the monoglucosylated glycoproteins that are synthesized
+CC       in the ER (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen.
+CC   -!- SIMILARITY: Belongs to the calreticulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Calcium; Chaperone; Direct protein sequencing; Endoplasmic reticulum;
+KW   Lectin; Metal-binding; Zinc.
+FT   CHAIN           1..>13
+FT                   /note="Calreticulin"
+FT                   /id="PRO_0000208522"
+FT   NON_TER         13
+SQ   SEQUENCE   13 AA;  1515 MW;  D0F62AD09EAEE339 CRC64;
+     DPLVFFKXXF XXG
+//

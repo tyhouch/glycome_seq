@@ -1,0 +1,181 @@
+ID   GLT10_CAEBR             Reviewed;         629 AA.
+AC   A8Y236;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-OCT-2009, sequence version 2.
+DT   03-AUG-2022, entry version 73.
+DE   RecName: Full=Putative polypeptide N-acetylgalactosaminyltransferase 10;
+DE            Short=pp-GaNTase 10;
+DE            EC=2.4.1.41;
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase 10;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 10;
+GN   Name=gly-10 {ECO:0000250|UniProtKB:O45947}; ORFNames=CBG22373;
+OS   Caenorhabditis briggsae.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6238;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AF16;
+RX   PubMed=14624247; DOI=10.1371/journal.pbio.0000045;
+RA   Stein L.D., Bao Z., Blasiar D., Blumenthal T., Brent M.R., Chen N.,
+RA   Chinwalla A., Clarke L., Clee C., Coghlan A., Coulson A., D'Eustachio P.,
+RA   Fitch D.H.A., Fulton L.A., Fulton R.E., Griffiths-Jones S., Harris T.W.,
+RA   Hillier L.W., Kamath R., Kuwabara P.E., Mardis E.R., Marra M.A.,
+RA   Miner T.L., Minx P., Mullikin J.C., Plumb R.W., Rogers J., Schein J.E.,
+RA   Sohrmann M., Spieth J., Stajich J.E., Wei C., Willey D., Wilson R.K.,
+RA   Durbin R.M., Waterston R.H.;
+RT   "The genome sequence of Caenorhabditis briggsae: a platform for comparative
+RT   genomics.";
+RL   PLoS Biol. 1:166-192(2003).
+CC   -!- FUNCTION: May catalyze the initial reaction in O-linked oligosaccharide
+CC       biosynthesis, the transfer of an N-acetyl-D-galactosamine residue to a
+CC       serine or threonine residue on the protein receptor.
+CC       {ECO:0000250|UniProtKB:Q86SR1}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q10472};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:Q86SR1}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q10472}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:Q10472}.
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC       {ECO:0000250|UniProtKB:O08912}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds to GalNAc and contributes
+CC       to the glycopeptide specificity. {ECO:0000250|UniProtKB:Q10473}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HE600912; CAP38976.2; -; Genomic_DNA.
+DR   AlphaFoldDB; A8Y236; -.
+DR   SMR; A8Y236; -.
+DR   STRING; 6238.CBG22373; -.
+DR   PRIDE; A8Y236; -.
+DR   WormBase; CBG22373; CBP40797; WBGene00040946; Cbr-gly-10.
+DR   eggNOG; KOG3736; Eukaryota.
+DR   HOGENOM; CLU_013477_0_1_1; -.
+DR   InParanoid; A8Y236; -.
+DR   OMA; DHSNFNY; -.
+DR   OrthoDB; 276134at2759; -.
+DR   UniPathway; UPA00378; -.
+DR   Proteomes; UP000008549; Chromosome IV.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; IBA:GO_Central.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus; Lectin;
+KW   Manganese; Membrane; Metal-binding; Reference proteome; Signal-anchor;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..629
+FT                   /note="Putative polypeptide N-
+FT                   acetylgalactosaminyltransferase 10"
+FT                   /id="PRO_0000328999"
+FT   TOPO_DOM        1..12
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        13..33
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT   TOPO_DOM        34..629
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          526..629
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          163..275
+FT                   /note="Catalytic subdomain A"
+FT   REGION          331..393
+FT                   /note="Catalytic subdomain B"
+FT   REGION          393..406
+FT                   /note="Flexible loop"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         204
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         236
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         259
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         261
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         362
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         390
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         393
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        143
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        177
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        154..385
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        376..454
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        493..510
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        539..556
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        582..598
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   629 AA;  73008 MW;  FCD8FD9F61829238 CRC64;
+     MGLSRYLSRR HHWVIQYCAL LLFLYFIYSY VAVSNDAPRL NEEIPVFREF SEDLPQGSRK
+     FPEQKPAAAL GDEALDPFEK YRGHEKIKWE DEVAYEKDKA REGPGEWGKP VKLPDDKETE
+     KEALSLYKAN GYNAYISDMI SLNRSIKDIR HKECKKMTYS AKLPTVSVIF PFHEEHNSTL
+     LRSVYSVINR SPPELLKEII LVDDFSEKPA LRQPLEDFLK KNKIDHIVKI LRTKKREGLI
+     RGRQLGAQEA TGEILIFLDA HSECNYNWLP PLLDPIADDY RTVVCPFVDV IDCETYEIRP
+     QDEGARGSFD WAFNYKRLPL TKKDRENPTK PFDSPVMAGG YFAISAKWFW ELGGYDEGLD
+     IWGGEQYELS FKVWQCHGKM VDAPCSRVAH IYRCKYAPFK NAGMGDFVSR NYKRVAEVWM
+     DEYKETLYKH RPGIGNADAG DLKLMKGIRE KLQCKSFDWF MKEIAFDQDK YYPAIEPKAS
+     AEGEIRHVAS NLCIDTQFKE QNQRFGLRKC ASEDKDGGGE QDLRLTRWHD IRPKGRKICF
+     DVSTSVDKAP IILFDCHSMK GNQLFKYRMP QKQIYHPVSG QCLTADENGK GFLHMKKCDS
+     SSKLQQWAWQ TIDQELLDQR QANEHKELE
+//

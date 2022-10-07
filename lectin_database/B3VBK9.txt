@@ -1,0 +1,89 @@
+ID   B3VBK9_PASFU            Unreviewed;       228 AA.
+AC   B3VBK9;
+DT   02-SEP-2008, integrated into UniProtKB/TrEMBL.
+DT   02-SEP-2008, sequence version 1.
+DT   25-MAY-2022, entry version 49.
+DE   SubName: Full=Extracellular protein 6 {ECO:0000313|EMBL:ACF19427.1};
+OS   Passalora fulva (Tomato leaf mold) (Cladosporium fulvum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Dothideomycetes;
+OC   Dothideomycetidae; Mycosphaerellales; Mycosphaerellaceae; Fulvia.
+OX   NCBI_TaxID=5499 {ECO:0000313|EMBL:ACF19427.1};
+RN   [1] {ECO:0000313|EMBL:ACF19427.1}
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=18452583; DOI=10.1111/j.1365-2958.2008.06270.x;
+RA   Bolton M.D., van Esse H.P., Vossen J.H., de Jonge R., Stergiopoulos I.,
+RA   Stulemeijer I.J.E., van den Berg G., Borras-Hidalgo O., Dekker H.L.,
+RA   de Koster C.G., de Wit P.J.G.M., Joosten M.H.A.J., Thomma B.P.H.J.;
+RT   "The novel Cladosporium fulvum lysin motif effector Ecp6 is a virulence
+RT   factor with orthologues in other fungal species.";
+RL   Mol. Microbiol. 69:119-136(2008).
+RN   [2] {ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H}
+RP   X-RAY CRYSTALLOGRAPHY (1.59 ANGSTROMS), DISULFIDE BONDS, AND GLYCOSYLATION
+RP   AT ASN-133 AND ASN-222.
+RX   PubMed=23840930; DOI=10.7554/ELIFE.00790;
+RA   Sanchez-Vallet A., Saleem-Batcha R., Kombrink A., Hansen G.,
+RA   Valkenburg D.J., Thomma B.P., Mesters J.R.;
+RT   "Fungal effector Ecp6 outcompetes host immune receptor for chitin binding
+RT   through intrachain LysM dimerization.";
+RL   Elife 2:e00790-e00790(2013).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU730588; ACF19427.1; -; mRNA.
+DR   PDB; 4B8V; X-ray; 1.59 A; A=1-228.
+DR   PDB; 4B9H; X-ray; 2.10 A; A=1-228.
+DR   PDBsum; 4B8V; -.
+DR   PDBsum; 4B9H; -.
+DR   SMR; B3VBK9; -.
+DR   CAZy; CBM50; Carbohydrate-Binding Module Family 50.
+DR   UniLectin; B3VBK9; -.
+DR   OMA; NLGYNHT; -.
+DR   PHI-base; PHI:5495; -.
+DR   PHI-base; PHI:5543; -.
+DR   PHI-base; PHI:5576; -.
+DR   CDD; cd00118; LysM; 3.
+DR   Gene3D; 3.10.350.10; -; 3.
+DR   InterPro; IPR018392; LysM_dom.
+DR   InterPro; IPR036779; LysM_dom_sf.
+DR   Pfam; PF01476; LysM; 3.
+DR   SMART; SM00257; LysM; 3.
+DR   SUPFAM; SSF54106; SSF54106; 3.
+DR   PROSITE; PS51782; LYSM; 3.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           19..228
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002799575"
+FT   DOMAIN          42..86
+FT                   /note="LysM"
+FT                   /evidence="ECO:0000259|PROSITE:PS51782"
+FT   DOMAIN          115..160
+FT                   /note="LysM"
+FT                   /evidence="ECO:0000259|PROSITE:PS51782"
+FT   DOMAIN          172..216
+FT                   /note="LysM"
+FT                   /evidence="ECO:0000259|PROSITE:PS51782"
+FT   CARBOHYD        133
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H"
+FT   CARBOHYD        222
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H"
+FT   DISULFID        36..90
+FT                   /evidence="ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H"
+FT   DISULFID        64..98
+FT                   /evidence="ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H"
+FT   DISULFID        109..163
+FT                   /evidence="ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H"
+FT   DISULFID        168..220
+FT                   /evidence="ECO:0007829|PDB:4B8V, ECO:0007829|PDB:4B9H"
+SQ   SEQUENCE   228 AA;  23878 MW;  E73380B5E13046F2 CRC64;
+     MQSMILFAAA LMGAAVNGFV LPRTDDPDCE TKATDCGSTS NIKYTVVKGD TLTSIAKKFK
+     SGICNIVSVN KLANPNLIEL GATLIIPENC SNPDNKSCVS TPAEPTETCV PGLPGSYTIV
+     SGDTLTNISQ DFNITLDSLI AANTQIENPD AIDVGQIITV PVCPSSQCEA VGTYNIVAGD
+     LFVDLAATYH TTIGQIKALN NNVNPSKLKV GQQIILPQDC KNVTTAVA
+//

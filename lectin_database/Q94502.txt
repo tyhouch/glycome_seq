@@ -1,0 +1,184 @@
+ID   GANAB_DICDI             Reviewed;         943 AA.
+AC   Q94502; Q55DG2;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   25-MAY-2022, entry version 122.
+DE   RecName: Full=Neutral alpha-glucosidase AB;
+DE            EC=3.2.1.207;
+DE   AltName: Full=Alpha-glucosidase 2;
+DE   AltName: Full=Glucosidase II subunit alpha;
+DE   AltName: Full=Protein post-translational modification mutant A;
+DE   Flags: Precursor;
+GN   Name=modA; Synonyms=ganab; ORFNames=DDB_G0269154;
+OS   Dictyostelium discoideum (Slime mold).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Dictyostelia; Dictyosteliales;
+OC   Dictyosteliaceae; Dictyostelium.
+OX   NCBI_TaxID=44689;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND SUBCELLULAR LOCATION.
+RC   STRAIN=AX4;
+RX   PubMed=9397534;
+RX   DOI=10.1002/(sici)1520-6408(1997)21:3<177::aid-dvg1>3.0.co;2-4;
+RA   Freeze H.H., Lammertz M., Iranfar N., Fuller D., Panneerselvam K.,
+RA   Loomis W.F.;
+RT   "Consequences of disrupting the gene that encodes alpha-glucosidase II in
+RT   the N-linked oligosaccharide biosynthesis pathway of Dictyostelium
+RT   discoideum.";
+RL   Dev. Genet. 21:177-186(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AX4;
+RX   PubMed=15875012; DOI=10.1038/nature03481;
+RA   Eichinger L., Pachebat J.A., Gloeckner G., Rajandream M.A., Sucgang R.,
+RA   Berriman M., Song J., Olsen R., Szafranski K., Xu Q., Tunggal B.,
+RA   Kummerfeld S., Madera M., Konfortov B.A., Rivero F., Bankier A.T.,
+RA   Lehmann R., Hamlin N., Davies R., Gaudet P., Fey P., Pilcher K., Chen G.,
+RA   Saunders D., Sodergren E.J., Davis P., Kerhornou A., Nie X., Hall N.,
+RA   Anjard C., Hemphill L., Bason N., Farbrother P., Desany B., Just E.,
+RA   Morio T., Rost R., Churcher C.M., Cooper J., Haydock S., van Driessche N.,
+RA   Cronin A., Goodhead I., Muzny D.M., Mourier T., Pain A., Lu M., Harper D.,
+RA   Lindsay R., Hauser H., James K.D., Quiles M., Madan Babu M., Saito T.,
+RA   Buchrieser C., Wardroper A., Felder M., Thangavelu M., Johnson D.,
+RA   Knights A., Loulseged H., Mungall K.L., Oliver K., Price C., Quail M.A.,
+RA   Urushihara H., Hernandez J., Rabbinowitsch E., Steffen D., Sanders M.,
+RA   Ma J., Kohara Y., Sharp S., Simmonds M.N., Spiegler S., Tivey A.,
+RA   Sugano S., White B., Walker D., Woodward J.R., Winckler T., Tanaka Y.,
+RA   Shaulsky G., Schleicher M., Weinstock G.M., Rosenthal A., Cox E.C.,
+RA   Chisholm R.L., Gibbs R.A., Loomis W.F., Platzer M., Kay R.R.,
+RA   Williams J.G., Dear P.H., Noegel A.A., Barrell B.G., Kuspa A.;
+RT   "The genome of the social amoeba Dictyostelium discoideum.";
+RL   Nature 435:43-57(2005).
+CC   -!- FUNCTION: Cleaves sequentially the 2 innermost alpha-1,3-linked glucose
+CC       residues from N-linked oligosaccharides on newly synthesized
+CC       glycoproteins. {ECO:0000250, ECO:0000269|PubMed:9397534}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] = beta-D-glucose + N(4)-(alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-
+CC         [alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-
+CC         Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-
+CC         [protein] (N-glucan mannose isomer 9A1,2,3B1,2,3);
+CC         Xref=Rhea:RHEA:56000, Rhea:RHEA-COMP:14356, Rhea:RHEA-COMP:14357,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15903, ChEBI:CHEBI:59080,
+CC         ChEBI:CHEBI:139493; EC=3.2.1.207;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(4)-(alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-
+CC         alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-
+CC         Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-
+CC         asparaginyl-[protein] = beta-D-glucose + N(4)-(alpha-D-Glc-(1->3)-
+CC         alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-
+CC         Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         alpha-D-GlcNAc)-L-asparaginyl-[protein]; Xref=Rhea:RHEA:55996,
+CC         Rhea:RHEA-COMP:14355, Rhea:RHEA-COMP:14357, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15903, ChEBI:CHEBI:59080, ChEBI:CHEBI:59082;
+CC         EC=3.2.1.207;
+CC   -!- PATHWAY: Glycan metabolism; N-glycan metabolism.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum
+CC       {ECO:0000269|PubMed:9397534}. Golgi apparatus {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U72236; AAB18921.1; -; Genomic_DNA.
+DR   EMBL; AAFI02000005; EAL71927.1; -; Genomic_DNA.
+DR   RefSeq; XP_646169.1; XM_641077.1.
+DR   AlphaFoldDB; Q94502; -.
+DR   SMR; Q94502; -.
+DR   STRING; 44689.DDB0191113; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   PaxDb; Q94502; -.
+DR   PRIDE; Q94502; -.
+DR   EnsemblProtists; EAL71927; EAL71927; DDB_G0269154.
+DR   GeneID; 8617122; -.
+DR   KEGG; ddi:DDB_G0269154; -.
+DR   dictyBase; DDB_G0269154; modA.
+DR   eggNOG; KOG1066; Eukaryota.
+DR   HOGENOM; CLU_000631_7_0_1; -.
+DR   InParanoid; Q94502; -.
+DR   OMA; KQENTIY; -.
+DR   PhylomeDB; Q94502; -.
+DR   BRENDA; 3.2.1.207; 1939.
+DR   UniPathway; UPA00957; -.
+DR   PRO; PR:Q94502; -.
+DR   Proteomes; UP000002195; Chromosome 1.
+DR   GO; GO:0005783; C:endoplasmic reticulum; TAS:dictyBase.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IDA:dictyBase.
+DR   GO; GO:0090599; F:alpha-glucosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0033919; F:glucan 1,3-alpha-glucosidase activity; IMP:dictyBase.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IBA:GO_Central.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006491; P:N-glycan processing; IMP:dictyBase.
+DR   GO; GO:0043687; P:post-translational protein modification; IMP:dictyBase.
+DR   GO; GO:0031288; P:sorocarp morphogenesis; IMP:dictyBase.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+PE   3: Inferred from homology;
+KW   Endoplasmic reticulum; Glycoprotein; Glycosidase; Golgi apparatus;
+KW   Hydrolase; Reference proteome; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..943
+FT                   /note="Neutral alpha-glucosidase AB"
+FT                   /id="PRO_0000328193"
+FT   REGION          186..231
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        194..215
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        216..230
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        540
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        543
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        617
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        878
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        887
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        907
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   943 AA;  108772 MW;  703DF52FDB23333E CRC64;
+     MRKLVILIIL SIVCSLFIGS IESVDTSKFK TCKDSHFCKR NRVSHEVGVM NEMKSKQNFN
+     IVEGSIKLVK QENTIYFDLQ EQNQKSNLLT MKLEIYEGGI VRMRAQEKEP LLNKQRYQVQ
+     DVLLDTIKTV PIQWKQEPSK QSNTFSFKHG EKECCYVLVQ LVPFKLDVYI MNELAITTNS
+     DNLFHFEPIS DKPQPLPPKE KKSEEENKEA NQEEDNNNNN NDNNEEQQVS TEGYWEERFG
+     SHQDSKPNGP MSIGMDFTFV GSSHVYGIPE HTTRLSLKST TGNGINEQPY RLYNLDVFEY
+     EIDKTMALYG HVPLMISHDT KKTVGVFWLN AAETFVDIED VTTPVSPSKK THWISESGII
+     DVFYLTGPTP STIFKQYAYL TGTTALPQMF SLGYHQCKWN YKSEDDVKQV DNGFDENHIP
+     YDVIWLDIEH TDGKRYFTWD NNNFPTPADM QNIIGAKHRK MVTIVDPHIK RDNNYYVHSE
+     ATSKGYYIKN KDGNDYDGWC WPGSSSYLDF TNPEIRKWWA TQFGYDKYKG STPNLYIWND
+     MNEPSVFNGP EVSMHKDAKH HGGFEHRDVH NLYGYYYHMA SADGLVQRNA DQNDRPFVLS
+     RAFYAGSQRI GAIWTGDNSA QWSHLEISNP MLLSMNLAGI TFSGADVGGF FGNPDAELLT
+     RWYQAGAFQP FFRGHAHLDS RRREPWLFNE PYTTIIREAI VKRYSYLPLW YTTFYQNTLN
+     GAPVMRPLWV QYPKEANLFD VDDHYLIGDS LLVKPVTQQS CKTMKVLLPG QSVNEIWYDV
+     DTEKPINAGV IEIDTPLEKI PVYQRGGSII SKKERVRRST YQMRDDPYTI RIALDSSKSA
+     QGQLYIDDEH SFDYKKGKFL YRQFTFKDNV LSFSDASNKS STSYKPNVTI EKIVILGVQK
+     PHSITCNITG KEKLSFEYDS TLSKLTIRKP DLLVDTDFII KLN
+//

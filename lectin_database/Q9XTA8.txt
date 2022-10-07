@@ -1,0 +1,156 @@
+ID   OLR1_RABIT              Reviewed;         274 AA.
+AC   Q9XTA8;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2005, sequence version 2.
+DT   25-MAY-2022, entry version 107.
+DE   RecName: Full=Oxidized low-density lipoprotein receptor 1;
+DE            Short=Ox-LDL receptor 1;
+DE   AltName: Full=Lectin-like oxidized LDL receptor 1;
+DE            Short=LOX-1;
+DE            Short=Lectin-like oxLDL receptor 1;
+DE   AltName: Full=Lectin-type oxidized LDL receptor 1;
+DE   Contains:
+DE     RecName: Full=Oxidized low-density lipoprotein receptor 1, soluble form;
+GN   Name=OLR1; Synonyms=LOX1;
+OS   Oryctolagus cuniculus (Rabbit).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Oryctolagus.
+OX   NCBI_TaxID=9986;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND INDUCTION.
+RC   TISSUE=Placenta;
+RX   PubMed=10764681; DOI=10.1161/01.atv.20.4.1107;
+RA   Chen M., Kakutani M., Minami M., Kataoka H., Kume N., Narumiya S., Kita T.,
+RA   Masaki T., Sawamura T.;
+RT   "Increased expression of lectin-like oxidized low density lipoprotein
+RT   receptor-1 in initial atherosclerotic lesions of Watanabe heritable
+RT   hyperlipidemic rabbits.";
+RL   Arterioscler. Thromb. Vasc. Biol. 20:1107-1115(2000).
+CC   -!- FUNCTION: Receptor that mediates the recognition, internalization and
+CC       degradation of oxidatively modified low density lipoprotein (oxLDL) by
+CC       vascular endothelial cells. OxLDL is a marker of atherosclerosis that
+CC       induces vascular endothelial cell activation and dysfunction, resulting
+CC       in pro-inflammatory responses, pro-oxidative conditions and apoptosis.
+CC       Its association with oxLDL induces the activation of NF-kappa-B through
+CC       an increased production of intracellular reactive oxygen and a variety
+CC       of pro-atherogenic cellular responses including a reduction of nitric
+CC       oxide (NO) release, monocyte adhesion and apoptosis. In addition to
+CC       binding oxLDL, it acts as a receptor for the HSP70 protein involved in
+CC       antigen cross-presentation to naive T-cells in dendritic cells, thereby
+CC       participating in cell-mediated antigen cross-presentation. Also
+CC       involved in inflammatory process, by acting as a leukocyte-adhesion
+CC       molecule at the vascular interface in endotoxin-induced inflammation.
+CC       Also acts as a receptor for advanced glycation end (AGE) products,
+CC       activated platelets, monocytes, apoptotic cells and both Gram-negative
+CC       and Gram-positive bacteria (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. May form a hexamer composed of 3
+CC       homodimers. Interacts with HSP70 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Lipid-anchor
+CC       {ECO:0000250}. Cell membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}. Membrane raft {ECO:0000250}. Secreted
+CC       {ECO:0000250}. Note=A secreted form also exists. Localization to
+CC       membrane rafts requires palmitoylation (By similarity). {ECO:0000250}.
+CC   -!- INDUCTION: Overexpressed in atherosclerotic lesions.
+CC       {ECO:0000269|PubMed:10764681}.
+CC   -!- DOMAIN: The cytoplasmic region is required for subcellular sorting on
+CC       the cell surface. {ECO:0000250}.
+CC   -!- DOMAIN: The C-type lectin domain mediates the recognition and binding
+CC       of oxLDL. {ECO:0000250}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA81912.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB016237; BAA81912.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_001076102.1; NM_001082633.1.
+DR   AlphaFoldDB; Q9XTA8; -.
+DR   SMR; Q9XTA8; -.
+DR   PRIDE; Q9XTA8; -.
+DR   GeneID; 100009322; -.
+DR   KEGG; ocu:100009322; -.
+DR   CTD; 4973; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; Q9XTA8; -.
+DR   OrthoDB; 1201127at2759; -.
+DR   Proteomes; UP000001811; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0045121; C:membrane raft; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0002376; P:immune system process; IEA:UniProtKB-KW.
+DR   GO; GO:0006954; P:inflammatory response; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR013600; Ly49_N.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF08391; Ly49; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell adhesion; Cell membrane; Coiled coil; Disulfide bond; Glycoprotein;
+KW   Immunity; Inflammatory response; Lectin; Lipoprotein; Membrane; Palmitate;
+KW   Receptor; Reference proteome; Secreted; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..274
+FT                   /note="Oxidized low-density lipoprotein receptor 1"
+FT                   /id="PRO_0000017449"
+FT   CHAIN           ?..274
+FT                   /note="Oxidized low-density lipoprotein receptor 1, soluble
+FT                   form"
+FT                   /id="PRO_0000017450"
+FT   TOPO_DOM        1..31
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        32..54
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        55..274
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          151..265
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..25
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          55..150
+FT                   /note="Neck"
+FT   COILED          84..139
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        1..23
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   LIPID           36
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           46
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        73
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        144..155
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        172..264
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        243..256
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   274 AA;  31159 MW;  9BE37B1122A67F8B CRC64;
+     MAVDDLKVKP MKDQPDQKSN GKKPKGLRFL SSPWWCPAAV ALGVLCLGSL MTIIMLGMQL
+     LQVSDLLKQQ QANLTLQENI LEGQVLAQQQ AEAASQESQR ELKEMIETLA KRLDEKSKKQ
+     MELNHQYLNL QEALKRMDNF SGPCPEDWLW HGKNCYLFSS GSFNWESSQE KCLSLDAQLL
+     KINSTEDLGF IQQATSHSSF PFWMGLSRRK PDYSWLWEDG SPLMPHLFRF QGAVSQRYPS
+     GTCAYIQKGN VFAENCILVA YSICQKKANL LRSE
+//

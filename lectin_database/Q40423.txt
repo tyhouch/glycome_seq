@@ -1,0 +1,154 @@
+ID   Q40423_NARHC            Unreviewed;       115 AA.
+AC   Q40423;
+DT   01-NOV-1996, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 79.
+DE   SubName: Full=Dimeric mannose specific lectin protein {ECO:0000313|EMBL:AAA33552.1};
+DE   Flags: Precursor;
+GN   Name=LECNPA 7 {ECO:0000313|EMBL:AAA33552.1};
+OS   Narcissus hybrid cultivar 2.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Asparagales; Amaryllidaceae;
+OC   Amaryllidoideae; Narcissus.
+OX   NCBI_TaxID=89148 {ECO:0000313|EMBL:AAA33552.1};
+RN   [1] {ECO:0000313|EMBL:AAA33552.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Ovary {ECO:0000313|EMBL:AAA33552.1};
+RA   Sickinger S., Schweizer M.;
+RL   Submitted (MAY-1992) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:1NPL}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 1-85 IN COMPLEX WITH MANNOSE, AND
+RP   DISULFIDE BONDS.
+RX   PubMed=10388566; DOI=10.1006/jmbi.1999.2862;
+RA   Sauerborn M.K., Wright L.M., Reynolds C.D., Grossmann J.G., Rizkallah P.J.;
+RT   "Insights into carbohydrate recognition by Narcissus pseudonarcissus
+RT   lectin: the crystal structure at 2 A resolution in complex with alpha1-3
+RT   mannobiose.";
+RL   J. Mol. Biol. 290:185-199(1999).
+RN   [3] {ECO:0007829|PDB:3DZW}
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) OF 1-85 IN COMPLEX WITH MANNOSE, AND
+RP   DISULFIDE BONDS.
+RA   Rizkallah P.J., Ozbey S., Sauerborn M.K.;
+RT   "Structure of Narcissus pseudonarcissus lectin complex with Mannobiose at
+RT   1.7 A resolution, form II.";
+RL   Submitted (JUL-2008) to the PDB data bank.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M88123; AAA33552.1; -; mRNA.
+DR   PDB; 1NPL; X-ray; 2.00 A; A=1-85.
+DR   PDB; 3DZW; X-ray; 1.70 A; A/B=1-85.
+DR   PDBsum; 1NPL; -.
+DR   PDBsum; 3DZW; -.
+DR   SMR; Q40423; -.
+DR   UniLectin; Q40423; -.
+DR   EvolutionaryTrace; Q40423; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd00028; B_lectin; 1.
+DR   Gene3D; 2.90.10.10; -; 1.
+DR   InterPro; IPR001480; Bulb-type_lectin_dom.
+DR   InterPro; IPR036426; Bulb-type_lectin_dom_sf.
+DR   SMART; SM00108; B_lectin; 1.
+DR   SUPFAM; SSF51110; SSF51110; 1.
+DR   PROSITE; PS50927; BULB_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW};
+KW   Lectin {ECO:0000313|EMBL:AAA33552.1}.
+FT   DOMAIN          1..85
+FT                   /note="Bulb-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50927"
+FT   BINDING         2
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         4
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         6
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         10
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         13
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         14
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:3DZW"
+FT   BINDING         17
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL"
+FT   BINDING         18
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL"
+FT   BINDING         20
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL"
+FT   BINDING         33
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         35
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         37
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         41
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         48
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         49
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL"
+FT   BINDING         52
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL"
+FT   BINDING         59
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         65
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         67
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         69
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         73
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+FT   BINDING         78
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:1NPL"
+FT   DISULFID        5..28
+FT                   /evidence="ECO:0007829|PDB:1NPL, ECO:0007829|PDB:3DZW"
+SQ   SEQUENCE   115 AA;  12612 MW;  CC530373911F27B8 CRC64;
+     MQEDCNLVLY DLDKPIWATN TGGLDRRCHL SMQSDGNLVV YSPRNNPIWA SNTGGENGNY
+     VCVLQKDRNV VIYGTARWAT GTNIHGAGIV GVPGSAPQNS TAEMMKLVRK YLITK
+//

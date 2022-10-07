@@ -1,0 +1,130 @@
+ID   LECG_BOTPA              Reviewed;         135 AA.
+AC   P86970;
+DT   21-SEP-2011, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUL-2013, sequence version 2.
+DT   03-AUG-2022, entry version 28.
+DE   RecName: Full=C-type lectin BpLec;
+DE            Short=BpL;
+DE            Short=CTL;
+OS   Bothrops pauloensis (Neuwied's lancehead) (Bothrops neuwiedi pauloensis).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Bothrops.
+OX   NCBI_TaxID=1042543;
+RN   [1]
+RP   PROTEIN SEQUENCE, FUNCTION, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Venom;
+RA   Castanheira L.E., Richardson M., Borges M.H., Rodrigues V.M.;
+RL   Submitted (JUN-2011) to UniProtKB.
+RN   [2]
+RP   PROTEIN SEQUENCE, FUNCTION, SUBUNIT, AND MASS SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=23178369; DOI=10.1016/j.ijbiomac.2012.11.018;
+RA   Castanheira L.E., Nunes D.C., Cardoso T.M., Santos Pde S., Goulart L.R.,
+RA   Rodrigues R.S., Richardson M., Borges M.H., Yoneyama K.A., Rodrigues V.M.;
+RT   "Biochemical and functional characterization of a C-type lectin (BpLec)
+RT   from Bothrops pauloensis snake venom.";
+RL   Int. J. Biol. Macromol. 54:57-64(2013).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-10, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=22480909; DOI=10.1016/j.jprot.2012.03.028;
+RA   Rodrigues R.S., Boldrini-Franca J., Fonseca F.P., de la Torre P.,
+RA   Henrique-Silva F., Sanz L., Calvete J.J., Rodrigues V.M.;
+RT   "Combined snake venomics and venom gland transcriptomic analysis of
+RT   Bothropoides pauloensis.";
+RL   J. Proteomics 75:2707-2720(2012).
+CC   -!- FUNCTION: This lectin displays hemagglutinating activity on dog
+CC       (128'000 HU/mg) and cat erythrocytes, that is inhibited by beta-
+CC       galactosides (D-galactose, D-lactose, and N-acetyl-D-galactosamine) and
+CC       EDTA. In addition, has been shown to hemagglutinate promastigote forms
+CC       of Leishmania amazonensis. Also inhibits Gram-positive (S.aureus ATCC
+CC       25923) (MIC is 31.25 ug/ml) but not Gram-negative (E.coli ATCC 25922)
+CC       bacteria. Is a calcium-dependent lectin. {ECO:0000269|PubMed:23178369,
+CC       ECO:0000269|Ref.1}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000269|PubMed:23178369}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|Ref.1}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland. {ECO:0000305|Ref.1}.
+CC   -!- MASS SPECTROMETRY: Mass=16800; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:23178369};
+CC   -!- MISCELLANEOUS: Does not agglutinate erythrocytes from horse, ox and
+CC       mouse at doses up to 800 ug/ml. {ECO:0000305|PubMed:23178369}.
+CC   -!- MISCELLANEOUS: Hemagglutinin activity is not inhibited by D-fructose,
+CC       D-maltose, D-mannose, and D-sucrose. {ECO:0000305|PubMed:23178369}.
+CC   -!- SIMILARITY: Belongs to the true venom lectin family. {ECO:0000305}.
+CC   -!- CAUTION: The same name (BpL) has been given to a lectin from Bothrops
+CC       pirajai (AC P0DL30). {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P86970; -.
+DR   SMR; P86970; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic; Antimicrobial; Calcium; Direct protein sequencing;
+KW   Disulfide bond; Hemagglutinin; Lectin; Metal-binding; Secreted.
+FT   CHAIN           1..135
+FT                   /note="C-type lectin BpLec"
+FT                   /id="PRO_0000412757"
+FT   DOMAIN          10..132
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           96..98
+FT                   /note="Galactose-binding"
+FT   BINDING         96
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         98
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         104
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         120
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        3..14
+FT                   /evidence="ECO:0000250|UniProtKB:P21963,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        31..131
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        38..133
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        86
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        106..123
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   UNSURE          62
+FT                   /note="Assigned by comparison with orthologs"
+FT   UNSURE          63
+FT                   /note="Assigned by comparison with orthologs"
+FT   UNSURE          135
+FT                   /note="Assigned by comparison with orthologs"
+SQ   SEQUENCE   135 AA;  16223 MW;  A517C69B27DAC893 CRC64;
+     NNCPQDWLPM NGLCYKIFDE LKAWKDAEMF CRKYKPGCHL ASIHLYGESP EIAEYISDYH
+     KGQSEVWIGL WDEKKDFSWE WTDRSCTDYL SWDKNQPDHY KNKEFCVELV SYTGYRLWND
+     QVCESKNAFL CQCKF
+//

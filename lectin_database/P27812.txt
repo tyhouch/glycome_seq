@@ -1,0 +1,208 @@
+ID   KRBBA_MOUSE             Reviewed;         223 AA.
+AC   P27812; A2RSI6; Q1WJB7; Q548H2; Q61969;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   03-AUG-2022, entry version 137.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily B member 1B allele A;
+DE   AltName: Full=CD161 antigen-like family member B;
+DE   AltName: Full=Lymphocyte antigen 55b;
+DE            Short=Ly-55b;
+DE   AltName: Full=NKR-P1 34;
+DE   AltName: Full=Natural killer cell surface protein NKR-P1B allele SJL/BALB;
+DE            Short=NKR-P1B;
+DE   AltName: CD_antigen=CD161b;
+GN   Name=Klrb1b; Synonyms=Ly55b, Nkrp1b;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Natural killer cell;
+RX   PubMed=1880421;
+RA   Giorda R., Trucco M.;
+RT   "Mouse NKR-P1. A family of genes selectively coexpressed in adherent
+RT   lymphokine-activated killer cells.";
+RL   J. Immunol. 147:1701-1708(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RC   STRAIN=SJL/J;
+RX   PubMed=10229823;
+RA   Kung S.K.P., Su R.-C., Shannon J., Miller R.G.;
+RT   "The NKR-P1B gene product is an inhibitory receptor on SJL/J NK cells.";
+RL   J. Immunol. 162:5876-5887(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANTS VAL-183 AND THR-191.
+RC   STRAIN=BALB/cJ; TISSUE=Spleen;
+RX   PubMed=16751398; DOI=10.4049/jimmunol.176.12.7511;
+RA   Carlyle J.R., Mesci A., Ljutic B., Belanger S., Tai L.-H., Rousselle E.,
+RA   Troke A.D., Proteau M.-F., Makrigiannis A.P.;
+RT   "Molecular and genetic basis for strain-dependent NK1.1 alloreactivity of
+RT   mouse NK cells.";
+RL   J. Immunol. 176:7511-7524(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-29, AND NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+RP   OF 10-198.
+RC   STRAIN=BALB/cJ;
+RX   PubMed=1517565;
+RA   Giorda R., Weisberg E.P., Ip T.K., Trucco M.;
+RT   "Genomic structure and strain-specific expression of the natural killer
+RT   cell receptor NKR-P1.";
+RL   J. Immunol. 149:1957-1963(1992).
+RN   [6]
+RP   FUNCTION, AND INTERACTION WITH PTPN6.
+RX   PubMed=10229828;
+RA   Carlyle J.R., Martin A., Mehra A., Attisano L., Tsui F.W.,
+RA   Zuniga-Pfluecker J.C.;
+RT   "Mouse NKR-P1B, a novel NK1.1 antigen with inhibitory function.";
+RL   J. Immunol. 162:5917-5923(1999).
+RN   [7]
+RP   FUNCTION, AND INTERACTION WITH CLEC2D.
+RX   PubMed=14990792; DOI=10.1073/pnas.0308304101;
+RA   Carlyle J.R., Jamieson A.M., Gasser S., Clingan C.S., Arase H.,
+RA   Raulet D.H.;
+RT   "Missing self-recognition of Ocil/Clr-b by inhibitory NKR-P1 natural killer
+RT   cell receptors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:3527-3532(2004).
+RN   [8]
+RP   INTERACTION WITH LCK AND PTPN6, DOMAIN ITIM MOTIF AND LCK-BINDING MOTIF,
+RP   AND MUTAGENESIS OF LEU-6; TYR-8 AND CYS-32.
+RX   PubMed=15814704; DOI=10.4049/jimmunol.174.8.4789;
+RA   Ljutic B., Carlyle J.R., Filipp D., Nakagawa R., Julius M.,
+RA   Zuniga-Pfluecker J.C.;
+RT   "Functional requirements for signaling through the stimulatory and
+RT   inhibitory mouse NKR-P1 (CD161) NK cell receptors.";
+RL   J. Immunol. 174:4789-4796(2005).
+CC   -!- FUNCTION: Receptor for CLEC2D/OCIL. Ligand-binding contributes to
+CC       inhibition of cytotoxic natural killer (NK) cells. May mediate MHC
+CC       class I-independent 'missing-self' recognition of allografts, tumor
+CC       cells and virus-infected cells. {ECO:0000269|PubMed:10229823,
+CC       ECO:0000269|PubMed:10229828, ECO:0000269|PubMed:14990792}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Interacts with tyrosine kinase
+CC       LCK. Binds PTPN6/SHP-1 in a phosphorylation-dependent manner.
+CC       {ECO:0000269|PubMed:10229828, ECO:0000269|PubMed:14990792,
+CC       ECO:0000269|PubMed:15814704}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed in NK cells and a subset of T-cells.
+CC   -!- DOMAIN: Contains 1 copy of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). The
+CC       phosphorylated ITIM motif can bind the SH2 domain of several SH2-
+CC       containing phosphatases leading to down-regulation of cell activation.
+CC       {ECO:0000269|PubMed:15814704}.
+CC   -!- POLYMORPHISM: Variants Thr-191 and Ala-191 interfere with binding of
+CC       the anti-NK1.1 monoclonal antibody PK136 which identifies NK cells from
+CC       C57BL/6 and SJL but not BALB/c mice by binding Klrb1b and Klrb1c in an
+CC       allele-dependent manner. Mutagenesis of Thr-191 to Ser-191 restores
+CC       NK1.1 reactivity to Klrb1b from BALB/c mice.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M77677; AAA39823.1; -; mRNA.
+DR   EMBL; AF354259; AAK39099.1; -; mRNA.
+DR   EMBL; DQ237928; ABB72026.1; -; mRNA.
+DR   EMBL; BC132126; AAI32127.1; -; mRNA.
+DR   EMBL; BC132128; AAI32129.1; -; mRNA.
+DR   EMBL; X64719; CAA45972.1; -; mRNA.
+DR   EMBL; X64721; CAA45974.1; -; Genomic_DNA.
+DR   PIR; B46467; B46467.
+DR   AlphaFoldDB; P27812; -.
+DR   SMR; P27812; -.
+DR   PhosphoSitePlus; P27812; -.
+DR   MaxQB; P27812; -.
+DR   PRIDE; P27812; -.
+DR   ProteomicsDB; 265025; -.
+DR   UCSC; uc009eeq.2; mouse.
+DR   MGI; MGI:107539; Klrb1b.
+DR   InParanoid; P27812; -.
+DR   PhylomeDB; P27812; -.
+DR   ChiTaRS; Klrb1b; mouse.
+DR   Proteomes; UP000000589; Unplaced.
+DR   RNAct; P27812; protein.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:MGI.
+DR   GO; GO:0005886; C:plasma membrane; IDA:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IPI:MGI.
+DR   GO; GO:0038023; F:signaling receptor activity; IDA:MGI.
+DR   GO; GO:0045953; P:negative regulation of natural killer cell mediated cytotoxicity; IDA:MGI.
+DR   GO; GO:0042269; P:regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Lectin; Membrane; Receptor; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..223
+FT                   /note="Killer cell lectin-like receptor subfamily B member
+FT                   1B allele A"
+FT                   /id="PRO_0000046676"
+FT   TOPO_DOM        1..43
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        44..63
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        64..223
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          93..212
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           6..11
+FT                   /note="ITIM motif"
+FT                   /evidence="ECO:0000269|PubMed:15814704"
+FT   MOTIF           32..35
+FT                   /note="LCK-binding motif"
+FT                   /evidence="ECO:0000269|PubMed:15814704"
+FT   DISULFID        122..210
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        189..202
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VARIANT         183
+FT                   /note="D -> V (in strain: BALB/c)"
+FT                   /evidence="ECO:0000269|PubMed:16751398"
+FT   VARIANT         191
+FT                   /note="S -> T (in strain: BALB/c; loss of NK1.1
+FT                   reactivity)"
+FT                   /evidence="ECO:0000269|PubMed:16751398"
+FT   MUTAGEN         6
+FT                   /note="L->S: Loss of inhibition of Ca(2+) influx upon
+FT                   activation of natural killer cells."
+FT                   /evidence="ECO:0000269|PubMed:15814704"
+FT   MUTAGEN         8
+FT                   /note="Y->F: Loss of PTPN6 binding and inhibition of Ca(2+)
+FT                   influx upon activation of natural killer cells."
+FT                   /evidence="ECO:0000269|PubMed:15814704"
+FT   MUTAGEN         32
+FT                   /note="C->S: Loss of Klrb1b-mediated inhibition of natural
+FT                   killer cell cytotoxicity. Reduced LCK binding, loss of
+FT                   PTPN6 binding and loss of inhibition of Ca(2+) influx upon
+FT                   activation of natural killer cells."
+FT                   /evidence="ECO:0000269|PubMed:15814704"
+FT   CONFLICT        217
+FT                   /note="E -> K (in Ref. 3; ABB72026)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   223 AA;  25158 MW;  8D04C11DEBAB9C56 CRC64;
+     MDSTTLVYAD LNLARIQEPK HDSPPSLSPD TCRCPRWHRL ALKFGCAGLI LLVLVVIGLC
+     VLVLSVQKSS VQKICADVQE NRTHTTDCSV NLECPQDWLS HRDKCFRVFQ VSNTWEEGQA
+     DCGRKGATLL LIQDQEELRF LLDSIKEKYN SFWIGLRFTL PDMNWKWING TTFNSDVLKI
+     TGDTENGSCA SISGDKVTSE SCSTDNRWIC QKELNHETPS NDS
+//

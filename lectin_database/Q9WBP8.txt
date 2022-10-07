@@ -1,0 +1,113 @@
+ID   Q9WBP8_9VIRU            Unreviewed;       736 AA.
+AC   Q9WBP8;
+DT   01-NOV-1999, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1999, sequence version 1.
+DT   19-JAN-2022, entry version 74.
+DE   SubName: Full=Capsid protein {ECO:0000313|EMBL:AAD27757.1};
+OS   Adeno-associated virus - 1.
+OC   Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes;
+OC   Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus.
+OX   NCBI_TaxID=85106 {ECO:0000313|EMBL:AAD27757.1, ECO:0000313|Proteomes:UP000109038};
+RN   [1] {ECO:0000313|EMBL:AAD27757.1, ECO:0000313|Proteomes:UP000109038}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=10196295;
+RA   Xiao W., Chirmule N., Berta S.C., McCullough B., Gao G., Wilson J.M.;
+RT   "Gene therapy vectors based on adeno-associated virus type 1.";
+RL   J. Virol. 73:3994-4003(1999).
+RN   [2] {ECO:0007829|PDB:3NG9}
+RP   X-RAY CRYSTALLOGRAPHY (2.50 ANGSTROMS).
+RA   Govindasamy L., Miller E.B., Gurda B., McKenna R., Zolotukhin S.,
+RA   Muzyczka N., Agbandje-McKenna M.;
+RT   "Structure to Function Correlations for Adeno-Associated Virus serotype
+RT   1.";
+RL   Submitted (JUN-2010) to the PDB data bank.
+RN   [3] {ECO:0007829|PDB:5EGC}
+RP   X-RAY CRYSTALLOGRAPHY (3.01 ANGSTROMS) OF 217-736.
+RX   PubMed=26962225; DOI=10.1128/JVI.00161-16;
+RA   Huang L.Y., Patel A., Ng R., Miller E.B., Halder S., McKenna R., Asokan A.,
+RA   Agbandje-McKenna M.;
+RT   "Characterization of the Adeno-Associated Virus 1 and 6 Sialic Acid Binding
+RT   Site.";
+RL   J. Virol. 90:5219-5230(2016).
+RN   [4] {ECO:0007829|PDB:6JCQ, ECO:0007829|PDB:6JCR}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.07 ANGSTROMS) OF 219-736.
+RX   PubMed=31434885; DOI=10.1038/s41467-019-11668-x;
+RA   Zhang R., Xu G., Cao L., Sun Z., He Y., Cui M., Sun Y., Li S., Li H.,
+RA   Qin L., Hu M., Yuan Z., Rao Z., Ding W., Rao Z., Lou Z.;
+RT   "Divergent engagements between adeno-associated viruses with their cellular
+RT   receptor AAVR.";
+RL   Nat. Commun. 10:3760-3760(2019).
+RN   [5] {ECO:0007829|PDB:7RK9}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (2.32 ANGSTROMS).
+RX   PubMed=34346767; DOI=10.1128/jvi.01164-21;
+RA   Martino R.A., Fluck E.C., Murphy J., Wang Q., Hoff H., Pumroy R.A.,
+RA   Lee C.Y., Sims J.J., Roy S., Moiseenkova-Bell V.Y., Wilson J.M.;
+RT   "Context-Specific Function of the Engineered Peptide Domain of PHP.B.";
+RL   J. Virol. 95:e0116421-e0116421(2021).
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000256|ARBA:ARBA00004328}.
+CC   -!- SIMILARITY: Belongs to the parvoviridae capsid protein family.
+CC       {ECO:0000256|ARBA:ARBA00005398}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF063497; AAD27757.1; -; Genomic_DNA.
+DR   RefSeq; NP_049542.1; NC_002077.1.
+DR   PDB; 3NG9; X-ray; 2.50 A; A/B/C/D/E/F/G/H/I/J=1-736.
+DR   PDB; 5EGC; X-ray; 3.01 A; A=217-736.
+DR   PDB; 6JCQ; EM; 3.30 A; A=219-736.
+DR   PDB; 6JCR; EM; 3.07 A; A=219-736.
+DR   PDB; 7RK9; EM; 2.32 A; A/AA/AB/B/BA/BB/C/CA/CB/D/DA/DB/E/EA/EB/F/FA/FB/G/GA/GB/H/HA/HB/I/IA/IB/J/JA/K=1-736.
+DR   PDBsum; 3NG9; -.
+DR   PDBsum; 5EGC; -.
+DR   PDBsum; 6JCQ; -.
+DR   PDBsum; 6JCR; -.
+DR   SMR; Q9WBP8; -.
+DR   UniLectin; Q9WBP8; -.
+DR   DNASU; 1450374; -.
+DR   GeneID; 1450374; -.
+DR   KEGG; vg:1450374; -.
+DR   Proteomes; UP000109038; Genome.
+DR   GO; GO:0039615; C:T=1 icosahedral viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   DisProt; DP02491; -.
+DR   Gene3D; 2.170.30.10; -; 1.
+DR   InterPro; IPR016184; Capsid/spike_ssDNA_virus.
+DR   InterPro; IPR001403; Parvovirus_coat.
+DR   InterPro; IPR013607; Phospholipase_A2-like.
+DR   InterPro; IPR036952; VP1/VP2.
+DR   Pfam; PF00740; Parvo_coat; 1.
+DR   Pfam; PF08398; Phospholip_A2_4; 1.
+DR   SUPFAM; SSF88645; SSF88645; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3NG9, ECO:0007829|PDB:5EGC};
+KW   Capsid protein {ECO:0000256|ARBA:ARBA00022561};
+KW   T=1 icosahedral capsid protein {ECO:0000256|ARBA:ARBA00022431};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844}.
+FT   DOMAIN          43..122
+FT                   /note="Phospholip_A2_4"
+FT                   /evidence="ECO:0000259|Pfam:PF08398"
+FT   DOMAIN          213..708
+FT                   /note="Parvo_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00740"
+FT   REGION          132..224
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        150..182
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   736 AA;  81375 MW;  CFABFB9BD5CD0595 CRC64;
+     MAADGYLPDW LEDNLSEGIR EWWDLKPGAP KPKANQQKQD DGRGLVLPGY KYLGPFNGLD
+     KGEPVNAADA AALEHDKAYD QQLKAGDNPY LRYNHADAEF QERLQEDTSF GGNLGRAVFQ
+     AKKRVLEPLG LVEEGAKTAP GKKRPVEQSP QEPDSSSGIG KTGQQPAKKR LNFGQTGDSE
+     SVPDPQPLGE PPATPAAVGP TTMASGGGAP MADNNEGADG VGNASGNWHC DSTWLGDRVI
+     TTSTRTWALP TYNNHLYKQI SSASTGASND NHYFGYSTPW GYFDFNRFHC HFSPRDWQRL
+     INNNWGFRPK RLNFKLFNIQ VKEVTTNDGV TTIANNLTST VQVFSDSEYQ LPYVLGSAHQ
+     GCLPPFPADV FMIPQYGYLT LNNGSQAVGR SSFYCLEYFP SQMLRTGNNF TFSYTFEEVP
+     FHSSYAHSQS LDRLMNPLID QYLYYLNRTQ NQSGSAQNKD LLFSRGSPAG MSVQPKNWLP
+     GPCYRQQRVS KTKTDNNNSN FTWTGASKYN LNGRESIINP GTAMASHKDD EDKFFPMSGV
+     MIFGKESAGA SNTALDNVMI TDEEEIKATN PVATERFGTV AVNFQSSSTD PATGDVHAMG
+     ALPGMVWQDR DVYLQGPIWA KIPHTDGHFH PSPLMGGFGL KNPPPQILIK NTPVPANPPA
+     EFSATKFASF ITQYSTGQVS VEIEWELQKE NSKRWNPEVQ YTSNYAKSAN VDFTVDNNGL
+     YTEPRPIGTR YLTRPL
+//

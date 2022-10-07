@@ -1,0 +1,145 @@
+ID   AGDC_NEOFI              Reviewed;         881 AA.
+AC   A1D1E6;
+DT   15-JUN-2010, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   25-MAY-2022, entry version 81.
+DE   RecName: Full=Probable alpha/beta-glucosidase agdC;
+DE            EC=3.2.1.20;
+DE            EC=3.2.1.21;
+DE   Flags: Precursor;
+GN   Name=agdC; ORFNames=NFIA_009180;
+OS   Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164
+OS   / JCM 1740 / NRRL 181 / WB 181) (Aspergillus fischerianus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=331117;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 /
+RC   NRRL 181 / WB 181;
+RX   PubMed=18404212; DOI=10.1371/journal.pgen.1000046;
+RA   Fedorova N.D., Khaldi N., Joardar V.S., Maiti R., Amedeo P., Anderson M.J.,
+RA   Crabtree J., Silva J.C., Badger J.H., Albarraq A., Angiuoli S., Bussey H.,
+RA   Bowyer P., Cotty P.J., Dyer P.S., Egan A., Galens K., Fraser-Liggett C.M.,
+RA   Haas B.J., Inman J.M., Kent R., Lemieux S., Malavazi I., Orvis J.,
+RA   Roemer T., Ronning C.M., Sundaram J.P., Sutton G., Turner G., Venter J.C.,
+RA   White O.R., Whitty B.R., Youngman P., Wolfe K.H., Goldman G.H.,
+RA   Wortman J.R., Jiang B., Denning D.W., Nierman W.C.;
+RT   "Genomic islands in the pathogenic filamentous fungus Aspergillus
+RT   fumigatus.";
+RL   PLoS Genet. 4:E1000046-E1000046(2008).
+CC   -!- FUNCTION: Glucosidase involved in the degradation of cellulosic
+CC       biomass. Has both alpha- and beta-glucosidase activity (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-
+CC         glucose residues with release of alpha-D-glucose.; EC=3.2.1.20;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing beta-D-glucosyl residues
+CC         with release of beta-D-glucose.; EC=3.2.1.21;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DS027688; EAW22239.1; -; Genomic_DNA.
+DR   RefSeq; XP_001264136.1; XM_001264135.1.
+DR   AlphaFoldDB; A1D1E6; -.
+DR   SMR; A1D1E6; -.
+DR   STRING; 36630.CADNFIAP00000699; -.
+DR   EnsemblFungi; EAW22239; EAW22239; NFIA_009180.
+DR   GeneID; 4591952; -.
+DR   KEGG; nfi:NFIA_009180; -.
+DR   VEuPathDB; FungiDB:NFIA_009180; -.
+DR   eggNOG; KOG1065; Eukaryota.
+DR   HOGENOM; CLU_000631_11_0_1; -.
+DR   OMA; DAYFPDD; -.
+DR   OrthoDB; 151244at2759; -.
+DR   Proteomes; UP000006702; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008422; F:beta-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0032450; F:maltose alpha-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0102483; F:scopolin beta-glucosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0000272; P:polysaccharide catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR031727; Gal_mutarotase_N.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR030458; Glyco_hydro_31_AS.
+DR   InterPro; IPR025887; Glyco_hydro_31_N_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF13802; Gal_mutarotas_2; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   Pfam; PF16863; NtCtMGAM_N; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00129; GLYCOSYL_HYDROL_F31_1; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cell wall biogenesis/degradation; Glycoprotein;
+KW   Glycosidase; Hydrolase; Polysaccharide degradation; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..14
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           15..881
+FT                   /note="Probable alpha/beta-glucosidase agdC"
+FT                   /id="PRO_0000394920"
+FT   REGION          440..485
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        448..465
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        467..481
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        422
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10066"
+FT   ACT_SITE        425
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        571
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        171
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        293
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        373
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        506
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        572
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        608
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        742
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   881 AA;  99054 MW;  8311042A49FCA1D0 CRC64;
+     MLRSLLLLAP LVGAAVLGVR DNSQECPGYK ATNIREGRNS LTADLTLAGT PCNTYGTDLK
+     NLKLLVEYQT DKRLHVKIYD ADEEVYQVPE SVLPRVDGKG GSGKKSALKF DYQANPFSFK
+     VKRGGEVLFD TSGSNLIFQS QYLNLRTWLP EDPNLYGLGE HTDSLRLETT NYTRTLWNRD
+     AYAIPEKTNL YGTHPVYYDH RGQDGTHGVF LLNSNGMDIK IDKTEDGKQY LEYNTLGGVF
+     DFYFFTGATP KDASIEYAKV VGLPAMQSYW TFGFHQCRYG YRDVFEVAEV VYNYTQAKIP
+     LETMWTDIDY MDRRRVFTLD PERFPLEKLR ELVTYLHNHN QRYIVMVDPA VSVSDNVGYN
+     DGMEQGIFLQ TQNGSLYKGA VWPGVTAYPD WFHPDIQKYW NDQFAKFFDR KTGVDIDGLW
+     IDMNEAANFC PYPCSDPEGY SRDNDLPPAA PPVRPSNPRP LPGFPGDFQP SSSSKRSTKG
+     SKVGLPNRDL INPPYMIRNE AGSLSNKTIN TDIIHAGEGY AEYDTHNLYG TMMSSASRNA
+     MQHRRPEVRP LVITRSTYAG AGAHVGHWLG DNISEWSKYR VSIAQMLAFA SMFQVPMIGS
+     DVCGFGGNTT EELCARWARL GAFYTFFRNH NEITGIPQEF YRWPTVAESA RKAIDIRYRL
+     LDYIYTAFHR QTQTGEPFLQ PMFYLYPKDK NTFSNQLQFF YGDAILVSPV TDGSQTSVDA
+     YFPDDIFYDW HTGAALRGRG ANVTLGNIDV TEIPIHIRGG SIIPIRSESA MTTTELRKKG
+     FELIIAPGLD GTASGSLYLD DGDSIEQRAT LELEFTYRKG RLRVKGKFGF RTDVKINAVT
+     LLGQSAPASK SGSVASFDSG RQAVTIKTSL DLTGPSEIDL N
+//

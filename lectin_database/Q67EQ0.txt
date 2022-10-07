@@ -1,0 +1,191 @@
+ID   CLC4A_RAT               Reviewed;         240 AA.
+AC   Q67EQ0;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   03-AUG-2022, entry version 100.
+DE   RecName: Full=C-type lectin domain family 4 member A;
+DE   AltName: Full=C-type lectin superfamily member 6;
+DE   AltName: Full=Dendritic cell inhibitory receptor;
+DE   AltName: CD_antigen=CD367;
+GN   Name=Clec4a; Synonyms=Clecsf6, Dcir;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=PVG;
+RX   PubMed=15368084; DOI=10.1007/s00251-004-0714-x;
+RA   Flornes L.M., Bryceson Y.T., Spurkland A., Lorentzen J.C., Dissen E.,
+RA   Fossum S.;
+RT   "Identification of lectin-like receptors expressed by antigen presenting
+RT   cells and neutrophils and their mapping to a novel gene complex.";
+RL   Immunogenetics 56:506-517(2004).
+CC   -!- FUNCTION: C-type lectin receptor that binds carbohydrates mannose and
+CC       fucose but also weakly interacts with N-acetylglucosamine (GlcNAc) in a
+CC       Ca(2+)-dependent manner. Involved in regulating immune reactivity. Once
+CC       triggered by antigen, it is internalized by clathrin-dependent
+CC       endocytosis and delivers its antigenic cargo into the antigen
+CC       presentation pathway resulting in cross-priming of CD8(+) T cells. This
+CC       cross-presentation and cross-priming are enhanced by TLR7 and TLR8
+CC       agonists with increased expansion of the CD8(+) T cells, high
+CC       production of IFNG and TNF with reduced levels of IL4, IL5 and IL13. In
+CC       plasmacytoid dendritic cells, inhibits TLR9-mediated IFNA and TNF
+CC       production. May be involved via its ITIM motif (immunoreceptor
+CC       tyrosine-based inhibitory motifs) in the inhibition of B-cell-receptor-
+CC       mediated calcium mobilization and protein tyrosine phosphorylation.
+CC       {ECO:0000250|UniProtKB:Q9UMR7}.
+CC   -!- SUBUNIT: May interact with PTPN6 via its ITIM site.
+CC       {ECO:0000250|UniProtKB:Q9UMR7}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass type II
+CC       membrane protein {ECO:0000305}; Extracellular side
+CC       {ECO:0000250|UniProtKB:Q9UMR7}.
+CC   -!- TISSUE SPECIFICITY: Expressed by myeloid cells (dendritic cells,
+CC       macrophages, and neutrophils) and B-cells.
+CC       {ECO:0000269|PubMed:15368084}.
+CC   -!- DOMAIN: Contains 1 copy of a cytoplasmic motif that is referred to as
+CC       the immunoreceptor tyrosine-based inhibitor motif (ITIM). This motif is
+CC       involved in modulation of cellular responses. The phosphorylated ITIM
+CC       motif can bind the SH2 domain of several SH2-containing phosphatases.
+CC       {ECO:0000250|UniProtKB:Q9UMR7}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY363176; AAR18686.1; -; mRNA.
+DR   AlphaFoldDB; Q67EQ0; -.
+DR   SMR; Q67EQ0; -.
+DR   STRING; 10116.ENSRNOP00000037071; -.
+DR   GlyGen; Q67EQ0; 1 site.
+DR   PaxDb; Q67EQ0; -.
+DR   UCSC; RGD:1359662; rat.
+DR   RGD; 1359662; Clec4a.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; Q67EQ0; -.
+DR   PhylomeDB; Q67EQ0; -.
+DR   PRO; PR:Q67EQ0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:UniProtKB.
+DR   GO; GO:0005537; F:mannose binding; ISS:UniProtKB.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; ISO:RGD.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0061760; P:antifungal innate immune response; ISO:RGD.
+DR   GO; GO:0042590; P:antigen processing and presentation of exogenous peptide antigen via MHC class I; ISS:UniProtKB.
+DR   GO; GO:0036037; P:CD8-positive, alpha-beta T cell activation; ISS:UniProtKB.
+DR   GO; GO:0050832; P:defense response to fungus; ISO:RGD.
+DR   GO; GO:0001879; P:detection of yeast; ISO:RGD.
+DR   GO; GO:0006955; P:immune response; IBA:GO_Central.
+DR   GO; GO:0045087; P:innate immune response; ISO:RGD.
+DR   GO; GO:0001818; P:negative regulation of cytokine production; ISS:UniProtKB.
+DR   GO; GO:0032720; P:negative regulation of tumor necrosis factor production; ISS:UniProtKB.
+DR   GO; GO:0002470; P:plasmacytoid dendritic cell antigen processing and presentation; ISS:UniProtKB.
+DR   GO; GO:0001819; P:positive regulation of cytokine production; ISO:RGD.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-kappaB signaling; ISO:RGD.
+DR   GO; GO:1902533; P:positive regulation of intracellular signal transduction; ISO:RGD.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; ISO:RGD.
+DR   GO; GO:2000318; P:positive regulation of T-helper 17 type immune response; ISO:RGD.
+DR   GO; GO:0001878; P:response to yeast; ISO:RGD.
+DR   GO; GO:0002223; P:stimulatory C-type lectin receptor signaling pathway; ISO:RGD.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Adaptive immunity; Calcium; Cell membrane; Disulfide bond; Glycoprotein;
+KW   Immunity; Innate immunity; Lectin; Membrane; Metal-binding;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..240
+FT                   /note="C-type lectin domain family 4 member A"
+FT                   /id="PRO_0000046614"
+FT   TOPO_DOM        1..48
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        49..69
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        70..240
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          129..235
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          18..38
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           5..10
+FT                   /note="ITIM motif"
+FT   BINDING         149
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         155
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         200..202
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         200
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         202
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         206
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         206
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         211..213
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         221
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   BINDING         222
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UMR7"
+FT   CARBOHYD        190
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        107..118
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        140..233
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        208..225
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   240 AA;  27404 MW;  7C3FD5DAEDD8D52B CRC64;
+     MASEITYAEV RIKNESNSSV TYSGSPAAPR EKPTRHLSKP GSLLVPFTSL MVLLLLLAIT
+     FLVAFIIYFQ KYSQFLEEKK AIKGITHKEL NCIKNVLLME EKSWSCCPKN WKPFGSHCYW
+     VTKHTSTYSK ASWSESEKNC FSMGAHLLVI HSKEEQDFIT GILNRDAAYF IGLWDSGHRQ
+     WQWVSQTPYN ASATFWHKGE PSSDDEKCVI INHLNSGWGW NDIPCSGKQQ SVCQMKKIQL
+//

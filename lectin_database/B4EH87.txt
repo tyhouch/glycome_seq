@@ -1,0 +1,176 @@
+ID   B4EH87_BURCJ            Unreviewed;       129 AA.
+AC   B4EH87;
+DT   23-SEP-2008, integrated into UniProtKB/TrEMBL.
+DT   23-SEP-2008, sequence version 1.
+DT   03-AUG-2022, entry version 71.
+DE   SubName: Full=Lectin {ECO:0000313|EMBL:CAR54044.1};
+GN   ORFNames=BCAM0186 {ECO:0000313|EMBL:CAR54044.1};
+OS   Burkholderia cenocepacia (strain ATCC BAA-245 / DSM 16553 / LMG 16656 /
+OS   NCTC 13227 / J2315 / CF5610) (Burkholderia cepacia (strain J2315)).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; Burkholderia cepacia complex.
+OX   NCBI_TaxID=216591 {ECO:0000313|EMBL:CAR54044.1, ECO:0000313|Proteomes:UP000001035};
+RN   [1] {ECO:0007829|PDB:2VNV}
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) IN COMPLEX WITH CALCIUM.
+RX   PubMed=18215132; DOI=10.1042/BJ20071276;
+RA   Lameignere E., Malinovska L., Slavikova M., Duchaud E., Mitchell E.P.,
+RA   Varrot A., Sedo O., Imberty A., Wimmerova M.;
+RT   "Structural basis for mannose recognition by a lectin from opportunistic
+RT   bacteria Burkholderia cenocepacia.";
+RL   Biochem. J. 411:307-318(2008).
+RN   [2] {ECO:0000313|EMBL:CAR54044.1, ECO:0000313|Proteomes:UP000001035}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-245 / DSM 16553 / LMG 16656 / NCTC 13227 / J2315 /
+RC   CF5610 {ECO:0000313|Proteomes:UP000001035};
+RX   PubMed=18931103; DOI=10.1128/JB.01230-08;
+RA   Holden M.T., Seth-Smith H.M., Crossman L.C., Sebaihia M., Bentley S.D.,
+RA   Cerdeno-Tarraga A.M., Thomson N.R., Bason N., Quail M.A., Sharp S.,
+RA   Cherevach I., Churcher C., Goodhead I., Hauser H., Holroyd N., Mungall K.,
+RA   Scott P., Walker D., White B., Rose H., Iversen P., Mil-Homens D.,
+RA   Rocha E.P., Fialho A.M., Baldwin A., Dowson C., Barrell B.G., Govan J.R.,
+RA   Vandamme P., Hart C.A., Mahenthiralingam E., Parkhill J.;
+RT   "The genome of Burkholderia cenocepacia J2315, an epidemic pathogen of
+RT   cystic fibrosis patients.";
+RL   J. Bacteriol. 191:261-277(2009).
+RN   [3] {ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA}
+RP   X-RAY CRYSTALLOGRAPHY (1.10 ANGSTROMS) OF 2-129 IN COMPLEX WITH CALCIUM AND
+RP   MANNOSE.
+RX   PubMed=19770128; DOI=10.1093/glycob/cwp151;
+RA   Lameignere E., Shiao T.C., Roy R., Wimmerova M., Dubreuil F., Varrot A.,
+RA   Imberty A.;
+RT   "Structural basis of the affinity for oligomannosides and analogs displayed
+RT   by BC2L-A, a Burkholderia cenocepacia soluble lectin.";
+RL   Glycobiology 20:87-98(2010).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM747721; CAR54044.1; -; Genomic_DNA.
+DR   RefSeq; WP_006479996.1; NC_011001.1.
+DR   PDB; 2VNV; X-ray; 1.70 A; A/B/C/D/E=1-129.
+DR   PDB; 2WR9; X-ray; 1.75 A; A/B/C/D=2-129.
+DR   PDB; 2WRA; X-ray; 1.10 A; A=2-129.
+DR   PDBsum; 2VNV; -.
+DR   PDBsum; 2WR9; -.
+DR   PDBsum; 2WRA; -.
+DR   SMR; B4EH87; -.
+DR   STRING; 216591.BCAM0186; -.
+DR   ChEMBL; CHEMBL3797020; -.
+DR   UniLectin; B4EH87; -.
+DR   EnsemblBacteria; CAR54044; CAR54044; BCAM0186.
+DR   GeneID; 56560909; -.
+DR   KEGG; bcj:BCAM0186; -.
+DR   eggNOG; ENOG5032XMJ; Bacteria.
+DR   HOGENOM; CLU_2116646_0_0_4; -.
+DR   OMA; FAMVGSE; -.
+DR   OrthoDB; 910185at2; -.
+DR   BioCyc; BCEN216591:G1G1V-4129-MON; -.
+DR   EvolutionaryTrace; B4EH87; -.
+DR   Proteomes; UP000001035; Chromosome 2.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.120.400; -; 1.
+DR   InterPro; IPR010907; Ca-mediated_lectin.
+DR   InterPro; IPR036684; Ca_lectin_sf.
+DR   Pfam; PF07472; PA-IIL; 1.
+DR   SUPFAM; SSF82026; SSF82026; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9};
+KW   Calcium {ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9};
+KW   Metal-binding {ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9}.
+FT   DOMAIN          14..128
+FT                   /note="PA-IIL"
+FT                   /evidence="ECO:0000259|Pfam:PF07472"
+FT   BINDING         21
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9"
+FT   BINDING         23
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9"
+FT   BINDING         29
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         29
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+FT   BINDING         31
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+FT   BINDING         32
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+FT   BINDING         110
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         111
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+FT   BINDING         113
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9"
+FT   BINDING         114
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         114
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+FT   BINDING         116
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         116
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         116
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+FT   BINDING         118
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         119
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         119
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WR9"
+FT   BINDING         119
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+FT   BINDING         129
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:2VNV, ECO:0007829|PDB:2WRA"
+FT   BINDING         129
+FT                   /ligand="Mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007829|PDB:2WR9, ECO:0007829|PDB:2WRA"
+SQ   SEQUENCE   129 AA;  13895 MW;  5972499DAE2BC192 CRC64;
+     MADSQTSSNR AGEFSIPPNT DFRAIFFANA AEQQHIKLFI GDSQEPAAYH KLTTRDGPRE
+     ATLNSGNGKI RFEVSVNGKP SATDARLAPI NGKKSDGSPF TVNFGIVVSE DGHDSDYNDG
+     IVVLQWPIG
+//

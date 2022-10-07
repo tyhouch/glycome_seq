@@ -1,0 +1,135 @@
+ID   DTHD_MYCS2              Reviewed;         260 AA.
+AC   A0QYC2;
+DT   17-FEB-2016, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   03-AUG-2022, entry version 112.
+DE   RecName: Full=D-threitol dehydrogenase {ECO:0000303|PubMed:26560079};
+DE            EC=1.1.1.403 {ECO:0000269|PubMed:26560079};
+GN   Name=dthD {ECO:0000303|PubMed:26560079};
+GN   OrderedLocusNames=MSMEG_3607 {ECO:0000312|EMBL:ABK74381.1}, MSMEI_3523
+GN   {ECO:0000312|EMBL:AFP39986.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, INDUCTION, DISRUPTION PHENOTYPE, AND PATHWAY.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=26560079; DOI=10.1021/jacs.5b08968;
+RA   Huang H., Carter M.S., Vetting M.W., Al-Obaidi N., Patskovsky Y.,
+RA   Almo S.C., Gerlt J.A.;
+RT   "A general strategy for the discovery of metabolic pathways: D-threitol, L-
+RT   threitol, and erythritol utilization in Mycobacterium smegmatis.";
+RL   J. Am. Chem. Soc. 137:14570-14573(2015).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent reversible oxidation of D-
+CC       threitol. Involved in the degradation pathway of D-threitol, that
+CC       allows M.smegmatis to grow on this compound as the sole carbon source.
+CC       Does not catalyze the oxidation of xylitol, L-sorbitol, and L-sorbose.
+CC       {ECO:0000269|PubMed:26560079}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-threitol + NAD(+) = D-erythrulose + H(+) + NADH;
+CC         Xref=Rhea:RHEA:48748, ChEBI:CHEBI:15378, ChEBI:CHEBI:16023,
+CC         ChEBI:CHEBI:48300, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.403; Evidence={ECO:0000269|PubMed:26560079};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.52 mM for D-threitol {ECO:0000269|PubMed:26560079};
+CC         KM=1.2 mM for D-threose {ECO:0000269|PubMed:26560079};
+CC         KM=0.048 mM for D-erythrulose {ECO:0000269|PubMed:26560079};
+CC         Note=kcat is 6.97 sec(-1) with D-threitol as substrate. kcat is 0.71
+CC         sec(-1) with D-threose as substrate. kcat is 7.32 sec(-1) with
+CC         D-erythrulose as substrate. {ECO:0000269|PubMed:26560079};
+CC   -!- PATHWAY: Carbohydrate metabolism; D-threitol degradation.
+CC       {ECO:0000269|PubMed:26560079}.
+CC   -!- INDUCTION: Up-regulated during growth on D-threitol relative to growth
+CC       on glycerol. {ECO:0000269|PubMed:26560079}.
+CC   -!- DISRUPTION PHENOTYPE: Complete loss of the ability to grow on D-
+CC       threitol. {ECO:0000269|PubMed:26560079}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK74381.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP39986.1; -; Genomic_DNA.
+DR   RefSeq; WP_011729199.1; NZ_SIJM01000008.1.
+DR   RefSeq; YP_887910.1; NC_008596.1.
+DR   AlphaFoldDB; A0QYC2; -.
+DR   SMR; A0QYC2; -.
+DR   STRING; 246196.MSMEI_3523; -.
+DR   EnsemblBacteria; ABK74381; ABK74381; MSMEG_3607.
+DR   EnsemblBacteria; AFP39986; AFP39986; MSMEI_3523.
+DR   GeneID; 66734992; -.
+DR   KEGG; msg:MSMEI_3523; -.
+DR   KEGG; msm:MSMEG_3607; -.
+DR   PATRIC; fig|246196.19.peg.3556; -.
+DR   eggNOG; COG1028; Bacteria.
+DR   OMA; HKICHFR; -.
+DR   OrthoDB; 1294334at2; -.
+DR   BioCyc; MetaCyc:MON-19892; -.
+DR   BRENDA; 1.1.1.403; 3512.
+DR   UniPathway; UPA01065; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:UniProtKB.
+DR   GO; GO:0047880; F:erythrulose reductase activity; IDA:UniProtKB.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IMP:UniProtKB.
+DR   GO; GO:0009758; P:carbohydrate utilization; IMP:UniProtKB.
+DR   GO; GO:0071322; P:cellular response to carbohydrate stimulus; IDA:UniProtKB.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..260
+FT                   /note="D-threitol dehydrogenase"
+FT                   /id="PRO_0000435514"
+FT   ACT_SITE        166
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         21..50
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7Z4W1"
+FT   BINDING         170
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7Z4W1"
+SQ   SEQUENCE   260 AA;  26333 MW;  A7E529EA57C7D3AF CRC64;
+     MTQAQELSVD FDFRLDGKVA LVTGAASGIG AAIASAYATK GARIAAVDLN AEGAEALAAQ
+     LGGDRGAHRG FACDVADAAS VQAAADAVAA EFGRIDILVN SAGVARLAPA EELSLQDWDS
+     TLAINLSGTF LMCQAVGKRM LEAGGGAIVN MASQAATVAL DQHVAYCASK FGVVGVSKVL
+     AAEWGGRGVR VNTISPTVVL TELGHKAWDG PRGDALKKLI PTGRFAYPDE IAAAAVFLAS
+     DAAAMINGAD LVIDGGYTIK
+//

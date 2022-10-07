@@ -1,0 +1,169 @@
+ID   CLC4M_GORGO             Reviewed;         376 AA.
+AC   Q8HY06;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   03-AUG-2022, entry version 101.
+DE   RecName: Full=C-type lectin domain family 4 member M;
+DE   AltName: Full=CD209 antigen-like protein 1;
+DE   AltName: CD_antigen=CD299;
+GN   Name=CLEC4M; Synonyms=CD209L1;
+OS   Gorilla gorilla gorilla (Western lowland gorilla).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Gorilla.
+OX   NCBI_TaxID=9595;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Isolate Ggo-3;
+RX   PubMed=12477827; DOI=10.1128/jvi.77.1.217-227.2003;
+RA   Bashirova A.A., Wu L., Cheng J., Martin T.D., Martin M.P., Benveniste R.E.,
+RA   Lifson J.D., Kewalramani V.N., Hughes A., Carrington M.;
+RT   "Novel member of the CD209 (DC-SIGN) gene family in primates.";
+RL   J. Virol. 77:217-227(2003).
+CC   -!- FUNCTION: Probable pathogen-recognition receptor involved in peripheral
+CC       immune surveillance in liver. May mediate the endocytosis of pathogens
+CC       which are subsequently degraded in lysosomal compartments. Probably
+CC       recognizes in a calcium-dependent manner high mannose N-linked
+CC       oligosaccharides in a variety of pathogen antigens. Is a receptor for
+CC       ICAM3, probably by binding to mannose-like carbohydrates (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}.
+CC   -!- DOMAIN: The tandem repeat domain, also called neck domain, mediates
+CC       oligomerization. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY078855; AAL89534.1; -; Genomic_DNA.
+DR   EMBL; AY078849; AAL89534.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078850; AAL89534.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078851; AAL89534.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078852; AAL89534.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078853; AAL89534.1; JOINED; Genomic_DNA.
+DR   EMBL; AY078854; AAL89534.1; JOINED; Genomic_DNA.
+DR   RefSeq; XP_004059943.1; XM_004059895.1.
+DR   AlphaFoldDB; Q8HY06; -.
+DR   BMRB; Q8HY06; -.
+DR   SMR; Q8HY06; -.
+DR   STRING; 9593.ENSGGOP00000021876; -.
+DR   Ensembl; ENSGGOT00000026262; ENSGGOP00000021876; ENSGGOG00000015715.
+DR   GeneID; 101152880; -.
+DR   KEGG; ggo:101152880; -.
+DR   CTD; 10332; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000167383; -.
+DR   HOGENOM; CLU_049894_7_3_1; -.
+DR   InParanoid; Q8HY06; -.
+DR   OMA; QLQTCNT; -.
+DR   OrthoDB; 1509611at2759; -.
+DR   Proteomes; UP000001519; Chromosome 19.
+DR   Bgee; ENSGGOG00000015715; Expressed in liver and 1 other tissue.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0048306; F:calcium-dependent protein binding; IEA:Ensembl.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0005537; F:mannose binding; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001618; F:virus receptor activity; IEA:Ensembl.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0006897; P:endocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0046813; P:receptor-mediated virion attachment to host cell; IEA:Ensembl.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   3: Inferred from homology;
+KW   Adaptive immunity; Calcium; Disulfide bond; Endocytosis; Glycoprotein;
+KW   Immunity; Innate immunity; Lectin; Mannose-binding; Membrane;
+KW   Metal-binding; Receptor; Reference proteome; Repeat; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..376
+FT                   /note="C-type lectin domain family 4 member M"
+FT                   /id="PRO_0000046625"
+FT   TOPO_DOM        1..49
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        50..70
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        71..376
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          108..130
+FT                   /note="1"
+FT   REPEAT          131..153
+FT                   /note="2"
+FT   REPEAT          154..176
+FT                   /note="3"
+FT   REPEAT          177..199
+FT                   /note="4"
+FT   REPEAT          200..222
+FT                   /note="5"
+FT   REPEAT          223..245
+FT                   /note="6"
+FT   DOMAIN          251..367
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          108..246
+FT                   /note="6 X approximate tandem repeats"
+FT   MOTIF           14..15
+FT                   /note="Endocytosis signal"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         336
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         338
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         340
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         343
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         354
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         355
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        92
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        338
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        242..372
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        245..256
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        273..366
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        345..358
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   376 AA;  42721 MW;  CB6D0B03CDCB9A9B CRC64;
+     MSDSKEPRVQ QLGLLEEDPT TSGIRLFPRD FQFQQIHGHK SSTGCLGHGA LVLQLLSFTL
+     LAGVLVAILV QVSKVPSSLS QEQSEQDAIY QNLTQLKAAV GELSEKSKLQ EIYQELTQLK
+     AAVGELPEKS KLQEIYQELT QLKAAVGELP EKSKLQEIYQ ELTQLKAAVG ELPEKSKLQE
+     IYQELTRLKA AVGELPEKSK LQEIYQELTQ LKAALGKLPD QSKQQQIYQE LTDLKTAFER
+     LCRHCPKDWT FFQGNCYFMS NSQRNWHNSV TACQEVRAQL VVIKSAEEQN FLQLQTSRSN
+     RFSWMGLSDL NQEGTWQWVD GSPLSPSFQR YWNSGEPNNS GNEDCAEFSG SGWNDNRCDV
+     DNYWICKKPT VCFRDE
+//

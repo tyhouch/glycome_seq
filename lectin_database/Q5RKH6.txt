@@ -1,0 +1,192 @@
+ID   OS9_RAT                 Reviewed;         666 AA.
+AC   Q5RKH6;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   03-AUG-2022, entry version 115.
+DE   RecName: Full=Protein OS-9;
+DE   Flags: Precursor;
+GN   Name=Os9;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   TOPOLOGY.
+RX   PubMed=19084021; DOI=10.1016/j.jmb.2008.11.045;
+RA   Alcock F., Swanton E.;
+RT   "Mammalian OS-9 is upregulated in response to endoplasmic reticulum stress
+RT   and facilitates ubiquitination of misfolded glycoproteins.";
+RL   J. Mol. Biol. 385:1032-1042(2009).
+CC   -!- FUNCTION: Lectin which functions in endoplasmic reticulum (ER) quality
+CC       control and ER-associated degradation (ERAD). May bind terminally
+CC       misfolded non-glycosylated proteins as well as improperly folded
+CC       glycoproteins, retain them in the ER, and possibly transfer them to the
+CC       ubiquitination machinery and promote their degradation. Possible
+CC       targets include TRPV4 (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts (via C-terminus) with CPNE6 (via second C2 domain);
+CC       this interaction occurs in a calcium-dependent manner in vitro (By
+CC       similarity). Component of the HRD1 complex, which comprises at least
+CC       SYNV1/HRD1, DERL1/2, FAM8A1, HERPUD1/HERP, OS9, SEL1L and UBE2J1.
+CC       FAM8A1 is stabilized by interaction with SYNV1, which prevents its
+CC       proteasomal degradation. OS9 and UBE2J1 recruitment to the complex may
+CC       be mediated by SEL1L (By similarity). Through this complex, may
+CC       interact with ERLEC1 and HSPA5 (By similarity). Interacts with HSP90B1
+CC       (By similarity). Interacts with CREB3 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q13438, ECO:0000250|UniProtKB:Q8K2C7}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000250}.
+CC   -!- PTM: Intramolecular disulfide bonds. {ECO:0000250}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085907; AAH85907.1; -; mRNA.
+DR   RefSeq; NP_001007266.1; NM_001007265.1.
+DR   AlphaFoldDB; Q5RKH6; -.
+DR   SMR; Q5RKH6; -.
+DR   BioGRID; 263807; 2.
+DR   CORUM; Q5RKH6; -.
+DR   STRING; 10116.ENSRNOP00000044914; -.
+DR   GlyGen; Q5RKH6; 1 site.
+DR   PhosphoSitePlus; Q5RKH6; -.
+DR   jPOST; Q5RKH6; -.
+DR   PaxDb; Q5RKH6; -.
+DR   PRIDE; Q5RKH6; -.
+DR   Ensembl; ENSRNOT00000049895; ENSRNOP00000044914; ENSRNOG00000025570.
+DR   GeneID; 362891; -.
+DR   KEGG; rno:362891; -.
+DR   UCSC; RGD:1359574; rat.
+DR   CTD; 10956; -.
+DR   RGD; 1359574; Os9.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   GeneTree; ENSGT00530000063603; -.
+DR   HOGENOM; CLU_026715_0_0_1; -.
+DR   InParanoid; Q5RKH6; -.
+DR   OMA; WLKRLYV; -.
+DR   OrthoDB; 1475416at2759; -.
+DR   PhylomeDB; Q5RKH6; -.
+DR   TreeFam; TF314309; -.
+DR   Reactome; R-RNO-382556; ABC-family proteins mediated transport.
+DR   Reactome; R-RNO-5358346; Hedgehog ligand biogenesis.
+DR   PRO; PR:Q5RKH6; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000025570; Expressed in pancreas and 20 other tissues.
+DR   Genevisible; Q5RKH6; RN.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IDA:RGD.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IDA:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0002020; F:protease binding; IPI:RGD.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:1904153; P:negative regulation of retrograde protein transport, ER to cytosol; ISO:RGD.
+DR   GO; GO:0006621; P:protein retention in ER lumen; ISS:UniProtKB.
+DR   GO; GO:0006605; P:protein targeting; IDA:RGD.
+DR   GO; GO:0016567; P:protein ubiquitination; ISO:RGD.
+DR   GO; GO:0034976; P:response to endoplasmic reticulum stress; ISO:RGD.
+DR   GO; GO:0030970; P:retrograde protein transport, ER to cytosol; IBA:GO_Central.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; ISS:UniProtKB.
+DR   GO; GO:0006511; P:ubiquitin-dependent protein catabolic process; ISS:UniProtKB.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR012913; OS9-like_dom.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF07915; PRKCSH; 1.
+DR   SUPFAM; SSF50911; SSF50911; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Lectin;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..666
+FT                   /note="Protein OS-9"
+FT                   /id="PRO_0000386450"
+FT   DOMAIN          108..230
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          261..356
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          370..449
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          504..540
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          631..666
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        263..278
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        297..314
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        370..411
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        412..433
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         117
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         118
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         130
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         182
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         188
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         212
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         218
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        177
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        110..123
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        181..216
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        196..228
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+SQ   SEQUENCE   666 AA;  75365 MW;  8E1F48228C671ED6 CRC64;
+     MAAEALLSSL LGLLFLGLLL PAHLTGGVGS LNLEELSEMR YGIQILPLPV MGGQSQASDV
+     VVVSSKYKQR YECRLPAGAI HFQREREEET PAYQGPGIPE LLSPMRDAPC LLKTKDWWTY
+     EFCYGRHIQQ YHMEDSEIKG DVLYLGYYQS AFNWDDETAK ASKQHRLKRY HSQTYGNGSK
+     CDLNGKPREA EVRFLCDEGA GISGDYIDRV DEPFSCSYVL SIRTSRLCPH PLLRPPASAA
+     PQAILCHPAL QPDEYMAYLQ RQAESKQHEE KVTEEVQDTD HQVWSGSKAA GAPPKKEDVS
+     PTKEDKESEF WKMLQEPEEQ ATGTEEAQAG EQDLNHEAAA DPAPAPPTDF QNNVQVKLIR
+     SPADLIRLIE ELKGAEKGKP SVRQEQPGDD TTEAPQREAE AKGKGGEPRG LVEEEDGDEE
+     EEDEDEDEQQ LLGEFEKELE GMLLPSDRER LRSEVKAGME RELENIIQET EKELDPEGLR
+     KESEREQAIL ALTSTLDKLI KRLQESQSPE LVQKYKKRRV VPQKPPPSPH PTEEEPEHRV
+     RVRVTKLRHG GPNQDLTVLE MNRENPQLKQ IEGLVTEVLE REGLTAEGKI EIKIVRPGAE
+     GKEEDTRWLT DEDTRNLKEI FFNILVQGAE EANKERQRQS ELESNYRRVW GSPGGEDTGD
+     LDEFDF
+//

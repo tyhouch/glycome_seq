@@ -1,0 +1,99 @@
+ID   LECT1_ARATH             Reviewed;         242 AA.
+AC   Q9LNN1;
+DT   14-MAY-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 125.
+DE   RecName: Full=Lectin-like protein At1g53060;
+GN   OrderedLocusNames=At1g53060; ORFNames=F8L10.8;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   PubMed=11130712; DOI=10.1038/35048500;
+RA   Theologis A., Ecker J.R., Palm C.J., Federspiel N.A., Kaul S., White O.,
+RA   Alonso J., Altafi H., Araujo R., Bowman C.L., Brooks S.Y., Buehler E.,
+RA   Chan A., Chao Q., Chen H., Cheuk R.F., Chin C.W., Chung M.K., Conn L.,
+RA   Conway A.B., Conway A.R., Creasy T.H., Dewar K., Dunn P., Etgu P.,
+RA   Feldblyum T.V., Feng J.-D., Fong B., Fujii C.Y., Gill J.E., Goldsmith A.D.,
+RA   Haas B., Hansen N.F., Hughes B., Huizar L., Hunter J.L., Jenkins J.,
+RA   Johnson-Hopson C., Khan S., Khaykin E., Kim C.J., Koo H.L.,
+RA   Kremenetskaia I., Kurtz D.B., Kwan A., Lam B., Langin-Hooper S., Lee A.,
+RA   Lee J.M., Lenz C.A., Li J.H., Li Y.-P., Lin X., Liu S.X., Liu Z.A.,
+RA   Luros J.S., Maiti R., Marziali A., Militscher J., Miranda M., Nguyen M.,
+RA   Nierman W.C., Osborne B.I., Pai G., Peterson J., Pham P.K., Rizzo M.,
+RA   Rooney T., Rowley D., Sakano H., Salzberg S.L., Schwartz J.R., Shinn P.,
+RA   Southwick A.M., Sun H., Tallon L.J., Tambunga G., Toriumi M.J., Town C.D.,
+RA   Utterback T., Van Aken S., Vaysberg M., Vysotskaia V.S., Walker M., Wu D.,
+RA   Yu G., Fraser C.M., Venter J.C., Davis R.W.;
+RT   "Sequence and analysis of chromosome 1 of the plant Arabidopsis thaliana.";
+RL   Nature 408:816-820(2000).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC022520; AAF87862.1; -; Genomic_DNA.
+DR   EMBL; CP002684; AEE32885.1; -; Genomic_DNA.
+DR   PIR; B96571; B96571.
+DR   RefSeq; NP_175714.1; NM_104185.2.
+DR   AlphaFoldDB; Q9LNN1; -.
+DR   SMR; Q9LNN1; -.
+DR   BioGRID; 26965; 2.
+DR   STRING; 3702.AT1G53060.1; -.
+DR   PaxDb; Q9LNN1; -.
+DR   PRIDE; Q9LNN1; -.
+DR   EnsemblPlants; AT1G53060.1; AT1G53060.1; AT1G53060.
+DR   GeneID; 841740; -.
+DR   Gramene; AT1G53060.1; AT1G53060.1; AT1G53060.
+DR   KEGG; ath:AT1G53060; -.
+DR   Araport; AT1G53060; -.
+DR   TAIR; locus:2037031; AT1G53060.
+DR   eggNOG; ENOG502QRZ3; Eukaryota.
+DR   HOGENOM; CLU_000288_62_2_1; -.
+DR   InParanoid; Q9LNN1; -.
+DR   OMA; SKKAGYW; -.
+DR   OrthoDB; 1191684at2759; -.
+DR   PhylomeDB; Q9LNN1; -.
+DR   PRO; PR:Q9LNN1; -.
+DR   Proteomes; UP000006548; Chromosome 1.
+DR   ExpressionAtlas; Q9LNN1; baseline and differential.
+DR   Genevisible; Q9LNN1; AT.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050896; P:response to stimulus; IEA:UniProt.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+PE   3: Inferred from homology;
+KW   Lectin; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..242
+FT                   /note="Lectin-like protein At1g53060"
+FT                   /id="PRO_0000428917"
+FT   REGION          3..237
+FT                   /note="Legume-lectin like"
+FT   MOD_RES         207
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9LZF5"
+SQ   SEQUENCE   242 AA;  27011 MW;  2FE78DD2B2F398A9 CRC64;
+     MTFHGDAEYA SEPDGMSKSG AIGLSRDNVP FSHGRAIFIN PVPFKPSSTS SSVYSFKTSF
+     YFVISPRPKN PNPGHGLAFI IVPNDRNDSA SGLGYLSLVN RFSNGNPKNH LFAVEFDVFK
+     DKSLGDINDN HIGINNNSVN STVSKKAGYW YQSKIEGKNR WLFKELKLSG NGYRAWIEYE
+     NGKVTVTIGR SQEKPKRPLI EARVDLSKVF LEKMYVGFAG SMGRGVERHE ILDWSFENSA
+     KD
+//

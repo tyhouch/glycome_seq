@@ -1,0 +1,181 @@
+ID   ASGR2_MOUSE             Reviewed;         301 AA.
+AC   P24721;
+DT   01-MAR-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-1992, sequence version 1.
+DT   03-AUG-2022, entry version 173.
+DE   RecName: Full=Asialoglycoprotein receptor 2;
+DE            Short=ASGP-R 2;
+DE            Short=ASGPR 2;
+DE   AltName: Full=Hepatic lectin 2;
+DE            Short=HL-2;
+DE            Short=mHL-2;
+GN   Name=Asgr2; Synonyms=Asgr-2;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Liver;
+RX   PubMed=2223888; DOI=10.1016/0167-4781(90)90216-o;
+RA   Sanford J.P., Doyle D.;
+RT   "Mouse asialoglycoprotein receptor cDNA sequence: conservation of receptor
+RT   genes during mammalian evolution.";
+RL   Biochim. Biophys. Acta 1087:259-261(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=FVB/N; TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: Mediates the endocytosis of plasma glycoproteins to which the
+CC       terminal sialic acid residue on their complex carbohydrate moieties has
+CC       been removed. The receptor recognizes terminal galactose and N-
+CC       acetylgalactosamine units. After ligand binding to the receptor, the
+CC       resulting complex is internalized and transported to a sorting
+CC       organelle, where receptor and ligand are disassociated. The receptor
+CC       then returns to the cell membrane surface.
+CC   -!- SUBUNIT: Interacts with LASS2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed exclusively in hepatic parenchymal cells.
+CC   -!- MISCELLANEOUS: Calcium is required for ligand binding.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Hepatic asialoglycoprotein receptor subunit 2;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_159";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X53042; CAA37211.1; -; mRNA.
+DR   EMBL; BC011197; AAH11197.1; -; mRNA.
+DR   CCDS; CCDS24934.1; -.
+DR   PIR; S13165; S13165.
+DR   RefSeq; NP_001300854.1; NM_001313925.1.
+DR   RefSeq; NP_001300855.1; NM_001313926.1.
+DR   RefSeq; NP_001300856.1; NM_001313927.1.
+DR   RefSeq; NP_031519.1; NM_007493.3.
+DR   AlphaFoldDB; P24721; -.
+DR   SMR; P24721; -.
+DR   STRING; 10090.ENSMUSP00000099632; -.
+DR   GlyGen; P24721; 3 sites.
+DR   iPTMnet; P24721; -.
+DR   PhosphoSitePlus; P24721; -.
+DR   SwissPalm; P24721; -.
+DR   jPOST; P24721; -.
+DR   MaxQB; P24721; -.
+DR   PaxDb; P24721; -.
+DR   PRIDE; P24721; -.
+DR   ProteomicsDB; 281919; -.
+DR   Antibodypedia; 2656; 306 antibodies from 30 providers.
+DR   DNASU; 11890; -.
+DR   Ensembl; ENSMUST00000102572; ENSMUSP00000099632; ENSMUSG00000040963.
+DR   GeneID; 11890; -.
+DR   KEGG; mmu:11890; -.
+DR   UCSC; uc007jtt.1; mouse.
+DR   CTD; 433; -.
+DR   MGI; MGI:88082; Asgr2.
+DR   VEuPathDB; HostDB:ENSMUSG00000040963; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000162310; -.
+DR   HOGENOM; CLU_049894_2_0_1; -.
+DR   InParanoid; P24721; -.
+DR   OMA; RTLTCQM; -.
+DR   OrthoDB; 1247924at2759; -.
+DR   PhylomeDB; P24721; -.
+DR   TreeFam; TF352155; -.
+DR   Reactome; R-MMU-446203; Asparagine N-linked glycosylation.
+DR   BioGRID-ORCS; 11890; 1 hit in 72 CRISPR screens.
+DR   ChiTaRS; Asgr2; mouse.
+DR   PRO; PR:P24721; -.
+DR   Proteomes; UP000000589; Chromosome 11.
+DR   RNAct; P24721; protein.
+DR   Bgee; ENSMUSG00000040963; Expressed in liver and 48 other tissues.
+DR   ExpressionAtlas; P24721; baseline and differential.
+DR   Genevisible; P24721; MM.
+DR   GO; GO:0044322; C:endoplasmic reticulum quality control compartment; ISO:MGI.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0030282; P:bone mineralization; IEA:Ensembl.
+DR   GO; GO:0006897; P:endocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0009100; P:glycoprotein metabolic process; IMP:MGI.
+DR   GO; GO:0055088; P:lipid homeostasis; IMP:MGI.
+DR   GO; GO:0031647; P:regulation of protein stability; IMP:MGI.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Disulfide bond; Endocytosis; Glycoprotein; Lectin; Lipoprotein;
+KW   Membrane; Palmitate; Phosphoprotein; Receptor; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..301
+FT                   /note="Asialoglycoprotein receptor 2"
+FT                   /id="PRO_0000046655"
+FT   TOPO_DOM        1..58
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        59..79
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        80..301
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          169..295
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..43
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..36
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         13
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08290"
+FT   LIPID           54
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        97
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        165
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        298
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        170..181
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        198..293
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        271..285
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   301 AA;  34907 MW;  3A29F1AFBA68F298 CRC64;
+     MEKDCQDIQQ LDSEENDHQL SGDDEHGSHV QDPRIENPHW KGQPLSRPFP QRLCSTFRLS
+     LLALAFNILL LVVICVVSSQ SIQLQEEFRT LKETFSNFSS STLMEFGALD TLGGSTNAIL
+     TSWLAQLEEK QQQLKADHST LLFHLKHFPM DLRTLTCQLA YFQSNGTECC PVNWVEFGGS
+     CYWFSRDGLT WAEADQYCQL ENAHLLVINS REEQDFVVKH RSQFHIWIGL TDRDGSWKWV
+     DGTDYRSNYR NWAFTQPDNW QGHEQGGGED CAEILSDGHW NDNFCQQVNR WVCEKRRNIT
+     H
+//

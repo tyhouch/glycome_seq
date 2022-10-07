@@ -1,0 +1,63 @@
+ID   LECT_GANLU              Reviewed;           8 AA.
+AC   P86922;
+DT   14-DEC-2011, integrated into UniProtKB/Swiss-Prot.
+DT   14-DEC-2011, sequence version 1.
+DT   25-MAY-2022, entry version 9.
+DE   RecName: Full=Lectin {ECO:0000303|PubMed:21728991};
+DE   Flags: Fragment;
+OS   Ganoderma lucidum (Ling zhi medicinal fungus) (Bracket fungus).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Polyporales; Polyporaceae; Ganoderma.
+OX   NCBI_TaxID=5315;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT,
+RP   GLYCOSYLATION, AND MASS SPECTROMETRY.
+RC   TISSUE=Fruiting body {ECO:0000269|PubMed:21728991};
+RX   PubMed=21728991; DOI=10.2174/092986611797200986;
+RA   Girzal V.U., Neelagund S., Krishnappa M.;
+RT   "Ganoderma lucidum: A source for novel bioactive lectin.";
+RL   Protein Pept. Lett. 18:1150-1157(2011).
+CC   -!- FUNCTION: Has metal-independent hemagglutinating activity against
+CC       erythrocytes from human, sheep, goat, rat, rabbit and chicken.
+CC       Hemagglutinating activity is inhibited by glycoproteins fetuin, asialo-
+CC       fetuin, fibrinogen, asialo-fibrinogen, thyroglobulin, bovine (BSM) as
+CC       well as porcine submaxillary mucin and asialo-BSM but not by sugars
+CC       alpha-L-fucose, D-glucose, D-galactose, D-glucosamine, D-galactosamine,
+CC       lactose, D-melibiose, D/L-mannose, D-mannosamine, D-raffinose, L-
+CC       rhamnose, xylose, glacaturonic acid or N-acetylglucosamine. Has
+CC       antifungal activity against F.oxysporum (MIC=20 ug/ml), P.chrysogenum
+CC       (MIC=35 ug/ml), A.niger (MIC=50 ug/ml), C.musae (MIC=60 ug/ml),
+CC       B.cinerea (MIC=65 ug/ml), T.rubrum (MIC=65 ug/ml), T.tonsurans (MIC=20
+CC       ug/ml), T.interdigitale (MIC=20 ug/ml), E.floccosum (MIC=15 ug/ml) and
+CC       M.canis (MIC=70 ug/ml). {ECO:0000269|PubMed:21728991}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Hemagglutinating activity is stable from pH 4 to pH 9 but drops
+CC         sharply below pH 4 and above pH 9. {ECO:0000269|PubMed:21728991};
+CC       Temperature dependence:
+CC         Hemagglutinating activity is stable below 60 degrees Celsius but
+CC         drops sharply to about 20% at 80 degrees Celsius.
+CC         {ECO:0000269|PubMed:21728991};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:21728991}.
+CC   -!- PTM: Glycosylated. {ECO:0000269|PubMed:21728991}.
+CC   -!- MASS SPECTROMETRY: Mass=15090; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:21728991};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050832; P:defense response to fungus; IDA:UniProtKB.
+DR   GO; GO:0031640; P:killing of cells of another organism; IEA:UniProtKB-KW.
+DR   GO; GO:0034120; P:positive regulation of erythrocyte aggregation; IDA:UniProtKB.
+PE   1: Evidence at protein level;
+KW   Antimicrobial; Direct protein sequencing; Fruiting body; Fungicide;
+KW   Glycoprotein; Hemagglutinin; Lectin.
+FT   CHAIN           1..>8
+FT                   /note="Lectin"
+FT                   /id="PRO_0000414705"
+FT   NON_TER         8
+FT                   /evidence="ECO:0000303|PubMed:21728991"
+SQ   SEQUENCE   8 AA;  903 MW;  C5A044137DC2C861 CRC64;
+     TGVAWRIT
+//

@@ -1,0 +1,150 @@
+ID   AGALA_ASPNG             Reviewed;         545 AA.
+AC   P28351;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   25-MAY-2022, entry version 112.
+DE   RecName: Full=Alpha-galactosidase A;
+DE            EC=3.2.1.22;
+DE   AltName: Full=Melibiase A;
+DE   Flags: Precursor;
+GN   Name=aglA;
+OS   Aspergillus niger.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=5061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 32-59.
+RC   STRAIN=ATCC 9089 / N402;
+RX   PubMed=1320186; DOI=10.1007/bf00265437;
+RA   den Herder I.F., Rosell A.M.M., van Zuilen C.M., Punt P.J.,
+RA   van den Hondel C.A.M.J.J.;
+RT   "Cloning and expression of a member of the Aspergillus niger gene family
+RT   encoding alpha-galactosidase.";
+RL   Mol. Gen. Genet. 233:404-410(1992).
+RN   [2]
+RP   INDUCTION.
+RX   PubMed=10347026; DOI=10.1128/aem.65.6.2453-2460.1999;
+RA   de Vries R.P., van den Broeck H.C., Dekkers E., Manzanares P.,
+RA   de Graaff L.H., Visser J.;
+RT   "Differential expression of three alpha-galactosidase genes and a single
+RT   beta-galactosidase gene from Aspergillus niger.";
+RL   Appl. Environ. Microbiol. 65:2453-2460(1999).
+CC   -!- FUNCTION: Hydrolyzes a variety of simple alpha-D-galactoside as well as
+CC       more complex molecules such as oligosaccharides and polysaccharides.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-galactose
+CC         residues in alpha-D-galactosides, including galactose
+CC         oligosaccharides, galactomannans and galactolipids.; EC=3.2.1.22;
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- INDUCTION: Expressed on galactose and galactosecontaining
+CC       oligosaccharides (lactose, melibiose, raffinose, and stachyose) and
+CC       polysaccharides (pectin, xylan, gum arabic, gum karaya, and locust bean
+CC       gum). {ECO:0000269|PubMed:10347026}.
+CC   -!- PTM: A C-terminal Ser/Thr-rich region may provide possible sites for O-
+CC       glycosylation.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 27 family. {ECO:0000305}.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-9 is the initiator.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X63348; CAA44950.1; -; Genomic_DNA.
+DR   PIR; S23582; S23582.
+DR   AlphaFoldDB; P28351; -.
+DR   SMR; P28351; -.
+DR   STRING; 5061.CADANGAP00004923; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GH27; Glycoside Hydrolase Family 27.
+DR   CLAE; MEL27A_ASPNG; -.
+DR   GlyConnect; 42; 6 N-Linked glycans.
+DR   VEuPathDB; FungiDB:An06g00170; -.
+DR   VEuPathDB; FungiDB:ASPNIDRAFT2_1114396; -.
+DR   VEuPathDB; FungiDB:ATCC64974_96720; -.
+DR   VEuPathDB; FungiDB:M747DRAFT_296456; -.
+DR   eggNOG; KOG2366; Eukaryota.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052692; F:raffinose alpha-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd14792; GH27; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR002241; Glyco_hydro_27.
+DR   InterPro; IPR000111; Glyco_hydro_27/36_CS.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR041233; Melibiase_C.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR11452; PTHR11452; 1.
+DR   Pfam; PF16499; Melibiase_2; 1.
+DR   Pfam; PF17801; Melibiase_C; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   PRINTS; PR00740; GLHYDRLASE27.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00512; ALPHA_GALACTOSIDASE; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Glycosidase;
+KW   Hydrolase; Lectin; Secreted; Signal.
+FT   SIGNAL          1..31
+FT                   /evidence="ECO:0000269|PubMed:1320186"
+FT   CHAIN           32..545
+FT                   /note="Alpha-galactosidase A"
+FT                   /id="PRO_0000000999"
+FT   DOMAIN          421..518
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   ACT_SITE        162
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        220
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        57
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        95
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        131
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        211
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        363
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        444
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        54..86
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        134..164
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        438..452
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        477..490
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+SQ   SEQUENCE   545 AA;  60148 MW;  2DC5A710CE95D59C CRC64;
+     MIQGLESIMN QGTKRILLAA TLAATPWQVY GSIEQPSLLP TPPMGFNNWA RFMCDLNETL
+     FTETADTMAA NGLRDAGYNR INLDDCWMAY QRSDNGSLQW NTTKFPHGLP WLAKYVKAKG
+     FHFGIYEDSG NMTCGGYPGS YNHEEQDANT FASWGIDYLK LDGCNVYATQ GRTLEEEYKQ
+     RYGHWHQVLS KMQHPLIFSE SAPAYFAGTD NNTDWYTVMD WVPIYGELAR HSTDILVYSG
+     AGSAWDSIMN NYNYNTLLAR YQRPGYFNDP DFLIPDHPGL TADEKRSHFA LWASFSAPLI
+     ISAYIPALSK DEIAFLTNEA LIAVNQDPLA QQATLASRDD TLDILTRSLA NGDRLLTVLN
+     KGNTTVTRDI PVQWLGLTET DCTYTAEDLW DGKTQKISDH IKIELASHAT AVFRLSLPQG
+     CSSVVPTGLV FNTASGNCLT AASNSSVAFQ SCNGETSQIW QVTPSGVIRP VSQTTQCLAA
+     DGNLVKLQAC DSTDSDGQKW TYPVTGNLKN AKTDGCLTEG SVQMKSCLYE RDGQVFGLPS
+     GVQLA
+//

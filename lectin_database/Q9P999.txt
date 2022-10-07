@@ -1,0 +1,124 @@
+ID   XYLS_SACS2              Reviewed;         731 AA.
+AC   Q9P999;
+DT   20-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   03-AUG-2022, entry version 105.
+DE   RecName: Full=Alpha-xylosidase;
+DE            EC=3.2.1.177;
+GN   Name=xylS; OrderedLocusNames=SSO3022;
+OS   Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2)
+OS   (Sulfolobus solfataricus).
+OC   Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+OC   Saccharolobus.
+OX   NCBI_TaxID=273057;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], CATALYTIC ACTIVITY, SUBUNIT, SUBSTRATE
+RP   SPECIFICITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=ATCC 35092 / DSM 1617 / JCM 11322 / P2, and DSM 5833 / MT-4;
+RX   PubMed=10801892; DOI=10.1074/jbc.m910392199;
+RA   Moracci M., Ponzano B.C., Trincone A., Fusco S., De Rosa M.,
+RA   van der Oost J., Sensen C.W., Charlebois R.L., Rossi M.;
+RT   "Identification and molecular characterization of the first alpha-
+RT   xylosidase from an Archaeon.";
+RL   J. Biol. Chem. 275:22082-22089(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35092 / DSM 1617 / JCM 11322 / P2;
+RX   PubMed=11427726; DOI=10.1073/pnas.141222098;
+RA   She Q., Singh R.K., Confalonieri F., Zivanovic Y., Allard G., Awayez M.J.,
+RA   Chan-Weiher C.C.-Y., Clausen I.G., Curtis B.A., De Moors A., Erauso G.,
+RA   Fletcher C., Gordon P.M.K., Heikamp-de Jong I., Jeffries A.C., Kozera C.J.,
+RA   Medina N., Peng X., Thi-Ngoc H.P., Redder P., Schenk M.E., Theriault C.,
+RA   Tolstrup N., Charlebois R.L., Doolittle W.F., Duguet M., Gaasterland T.,
+RA   Garrett R.A., Ragan M.A., Sensen C.W., Van der Oost J.;
+RT   "The complete genome of the crenarchaeon Sulfolobus solfataricus P2.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:7835-7840(2001).
+CC   -!- FUNCTION: Catalyzes the liberation of alpha-xylose from the non-
+CC       reducing terminal glucose of xyloglucan oligosaccharides. Has high
+CC       hydrolytic activity on the disaccharide isoprimeverose. Follows a
+CC       retaining mechanism of substrate hydrolysis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-xylose residues
+CC         with release of alpha-D-xylose.; EC=3.2.1.177;
+CC         Evidence={ECO:0000269|PubMed:10801892};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=17 mM for maltose {ECO:0000269|PubMed:10801892};
+CC         KM=3.45 mM for maltotriose {ECO:0000269|PubMed:10801892};
+CC         KM=28.9 mM for isoprimeverose {ECO:0000269|PubMed:10801892};
+CC         KM=1.72 mM for 4-nitrophenyl-beta-isoprimeveroside
+CC         {ECO:0000269|PubMed:10801892};
+CC       pH dependence:
+CC         Optimum pH is 5.5. {ECO:0000269|PubMed:10801892};
+CC       Temperature dependence:
+CC         Optimum temperature is 90 degrees Celsius.
+CC         {ECO:0000269|PubMed:10801892};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:10801892}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ251975; CAB99206.1; -; Genomic_DNA.
+DR   EMBL; AE006641; AAK43123.1; -; Genomic_DNA.
+DR   PIR; D90483; D90483.
+DR   RefSeq; WP_009992679.1; NC_002754.1.
+DR   AlphaFoldDB; Q9P999; -.
+DR   SMR; Q9P999; -.
+DR   STRING; 273057.SSO3022; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   PRIDE; Q9P999; -.
+DR   DNASU; 1453042; -.
+DR   EnsemblBacteria; AAK43123; AAK43123; SSO3022.
+DR   GeneID; 44128744; -.
+DR   KEGG; sso:SSO3022; -.
+DR   PATRIC; fig|273057.12.peg.3115; -.
+DR   eggNOG; arCOG03663; Archaea.
+DR   HOGENOM; CLU_000631_7_3_2; -.
+DR   InParanoid; Q9P999; -.
+DR   OMA; IEPWGPN; -.
+DR   PhylomeDB; Q9P999; -.
+DR   BioCyc; MetaCyc:MON-16613; -.
+DR   BRENDA; 3.2.1.177; 6163.
+DR   SABIO-RK; Q9P999; -.
+DR   Proteomes; UP000001974; Chromosome.
+DR   GO; GO:0061634; F:alpha-D-xyloside xylohydrolase; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 2.60.40.1180; -; 2.
+DR   InterPro; IPR033403; DUF5110.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF17137; DUF5110; 1.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           1..731
+FT                   /note="Alpha-xylosidase"
+FT                   /id="PRO_0000185369"
+FT   ACT_SITE        353
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        356
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        428
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   731 AA;  84485 MW;  85328243A00C4F3E CRC64;
+     MRIGNLNVEI EFIADNIVRV LYYYGREAIV DNSLVVLPNL EKLSIKGEST GPSIISFSSE
+     SLSVDINTSN GELIMKDNKG GIVVKEKRRD LKFNEELSTY NVEQEFELSE GERVYGLGQH
+     AGGNGLGQSS AYKLDYSGLS TTLSQRNTDI GIPFIVSSKG YGILWDNYSL GSISLRRNKL
+     KVWFEAGKKI DYYVIYGDSI DDVIKGYRKL TGDAPLLPKW AYGYWQSKER YKSQDEITSV
+     VKEFRERKIP LDVIVLDWRY WGKYGWNAFK FDETDFPRPK DMVEEIHKMG AKLAISIWPT
+     FGKETEVFKD MESKGCIILG TTAFNPFKDE CRELFWSYVK GFYDLGIDAY WLDASEPETG
+     LGLVFFSPIH DVDLEIGKGY EYLNAYPLME TKAVYEGQRR ISNKRVVILT RSAFAGQQRH
+     SAISWSGDVL GDWATLRAQI PAGLNFSISG IPYWTTDTGG FFSGNPETKA YAEIFVRWFQ
+     WSTFCPILRV HGTIFPKEPW RFPREYQEVI LKYIRLRYKL LPYIYSLAWM TYSIGYTIMR
+     PLVMDFRDDQ NVYDFDEQYM FGPYILISPV TLPSIIEKEV YLPSKEYWYD FWTGEKLEGG
+     RMMDVKVTLD TIPLFVRSGA VLPLLGKNVN NAEEYWDVID LRVYPGKNGY FELYDDDGIT
+     YEYEKGKYYI IPITWDEDKQ ELTIGKKRGE LEMSKKIIKI IWVEKGKGIE HTKPDVEIEY
+     NGKETITVKR G
+//

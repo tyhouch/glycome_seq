@@ -1,0 +1,102 @@
+ID   CLC1A_BOVIN             Reviewed;         278 AA.
+AC   Q0VCS6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   03-AUG-2022, entry version 94.
+DE   RecName: Full=C-type lectin domain family 1 member A;
+DE   AltName: Full=C-type lectin-like receptor 1;
+DE            Short=CLEC-1;
+GN   Name=CLEC1A; Synonyms=CLEC1;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Fetal lung;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (AUG-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type II
+CC       membrane protein {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC120028; AAI20029.1; -; mRNA.
+DR   RefSeq; NP_001069549.1; NM_001076081.1.
+DR   AlphaFoldDB; Q0VCS6; -.
+DR   SMR; Q0VCS6; -.
+DR   STRING; 9913.ENSBTAP00000019328; -.
+DR   PaxDb; Q0VCS6; -.
+DR   PRIDE; Q0VCS6; -.
+DR   Ensembl; ENSBTAT00000019328; ENSBTAP00000019328; ENSBTAG00000030424.
+DR   GeneID; 536944; -.
+DR   KEGG; bta:536944; -.
+DR   CTD; 51267; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000030424; -.
+DR   VGNC; VGNC:27427; CLEC1A.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000161945; -.
+DR   HOGENOM; CLU_049894_8_0_1; -.
+DR   InParanoid; Q0VCS6; -.
+DR   OMA; WLWTDGA; -.
+DR   OrthoDB; 1201127at2759; -.
+DR   TreeFam; TF336674; -.
+DR   Proteomes; UP000009136; Chromosome 5.
+DR   Bgee; ENSBTAG00000030424; Expressed in lung and 97 other tissues.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0007165; P:signal transduction; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Lectin; Membrane; Reference proteome;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..278
+FT                   /note="C-type lectin domain family 1 member A"
+FT                   /id="PRO_0000313577"
+FT   TOPO_DOM        1..52
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        53..73
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        74..278
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          144..258
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..42
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        12..34
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        95
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        169
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        165..257
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        236..249
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   278 AA;  32094 MW;  B31FA5B249463283 CRC64;
+     MLAKYSSTRD MLDADGDTTM SLHSQASATS QRPELGHTEH QRPSSAWRPV ALILLTLCLV
+     LLIGLAALGL VFFQFYQLSN TQQDSILQKE EKLGNLSRQL QSLRTQNRKL AETLHHVAEK
+     LCRELYNKTG EHRCSPCPEK WKWHGDKCYQ FYKESKSWQG CEYFCIAENS TMLKINTQEV
+     LEFAMPQSYS EFFYSYWTGL SRNSSGKAWL WMDGTPYSSE LFDVMIDLTS LRSRDCVTIL
+     NGKAFSKDCR ELRRCACEKA AAMVKVQSLH EPLSRRWR
+//

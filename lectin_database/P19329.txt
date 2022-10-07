@@ -1,0 +1,144 @@
+ID   ARC1_PHAVU              Reviewed;         265 AA.
+AC   P19329;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1990, sequence version 1.
+DT   25-MAY-2022, entry version 101.
+DE   RecName: Full=Arcelin-1;
+DE   Flags: Precursor;
+GN   Name=ARC1; Synonyms=ARC;
+OS   Phaseolus vulgaris (Kidney bean) (French bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Phaseolus.
+OX   NCBI_TaxID=3885;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE, AND PROTEIN SEQUENCE OF 22-69.
+RC   STRAIN=cv. Sanilac;
+RA   Osborn T.C., Alexander D.C., Sun S.S.M., Cardona C., Bliss F.A.;
+RT   "Insecticidal activity and lectin homology of arcelin seed protein.";
+RL   Science 240:207-210(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=16668479; DOI=10.1104/pp.97.2.839;
+RA   Anthony J.L., Vonder Haar R.A., Hall T.C.;
+RT   "Nucleotide sequence of a genomic clone encoding arcelin, a lectin-like
+RT   seed protein from Phaseolus vulgaris.";
+RL   Plant Physiol. 97:839-840(1991).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS).
+RC   STRAIN=cv. RAZ-2;
+RX   PubMed=9582323; DOI=10.1074/jbc.273.21.12914;
+RA   Mourey L., Pedelacq J.-D., Birck C., Fabre C., Rouge P., Samama J.-P.;
+RT   "Crystal structure of the arcelin-1 dimer from Phaseolus vulgaris at 1.9-A
+RT   resolution.";
+RL   J. Biol. Chem. 273:12914-12922(1998).
+CC   -!- FUNCTION: Seed storage. This carbohydrate-binding lectin has toxic
+CC       effects on an important bean bruchid pest, Z.subfasciatus. Antibiosis
+CC       properties of legume lectins are proposed to be due to the lysis of
+CC       epithelial cells of the intestine by binding to the carbohydrate
+CC       moieties of these proteins.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M19430; AAA33752.1; -; mRNA.
+DR   EMBL; M68913; AAA33753.1; -; Genomic_DNA.
+DR   PIR; A40111; A40111.
+DR   PDB; 1AVB; X-ray; 1.90 A; A/B=22-247.
+DR   PDBsum; 1AVB; -.
+DR   AlphaFoldDB; P19329; -.
+DR   SMR; P19329; -.
+DR   EvolutionaryTrace; P19329; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045735; F:nutrient reservoir activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Lectin; Plant defense; Seed storage protein; Signal; Storage protein;
+KW   Toxin.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000269|Ref.1"
+FT   CHAIN           22..265
+FT                   /note="Arcelin-1"
+FT                   /id="PRO_0000017636"
+FT   CARBOHYD        33
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        89
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        128
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        165..201
+FT   STRAND          23..31
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           34..36
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          37..41
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          56..58
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          64..71
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           78..80
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          82..98
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          104..112
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           121..123
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   TURN            124..126
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           134..136
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          139..144
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   TURN            145..148
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          149..158
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          160..164
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           168..170
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          174..182
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           183..185
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          187..193
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   TURN            195..197
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          200..206
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           209..212
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          215..225
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   HELIX           229..231
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+FT   STRAND          233..246
+FT                   /evidence="ECO:0007829|PDB:1AVB"
+SQ   SEQUENCE   265 AA;  29255 MW;  EF8A35BE388AAECA CRC64;
+     MASSNLLTLA LFLVLLTHAN SSNDASFNVE TFNKTNLILQ GDATVSSEGH LLLTNVKGNE
+     EDSMGRAFYS APIQINDRTI DNLASFSTNF TFRINAKNIE NSAYGLAFAL VPVGSRPKLK
+     GRYLGLFNTT NYDRDAHTVA VVFDTVSNRI EIDVNSIRPI ATESCNFGHN NGEKAEVRIT
+     YDSPKNDLRV SLLYPSSEEK CHVSATVPLE KEVEDWVSVG FSATSGSKKE TTETHNVLSW
+     SFSSNFINFK GKKSERSNIL LNKIL
+//

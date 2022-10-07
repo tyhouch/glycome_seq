@@ -1,0 +1,97 @@
+ID   CL2D2_RAT               Reviewed;         233 AA.
+AC   A4KWA5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 1.
+DT   03-AUG-2022, entry version 92.
+DE   RecName: Full=C-type lectin domain family 2 member D2;
+GN   Name=Clec2d2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=17462921; DOI=10.1016/j.immuni.2007.03.013;
+RA   Voigt S., Mesci A., Ettinger J., Fine J.H., Chen P., Chou W., Carlyle J.R.;
+RT   "Cytomegalovirus evasion of innate immunity by subversion of the NKR-
+RT   P1B:Ocil/Clr-b missing-self axis.";
+RL   Immunity 26:617-627(2007).
+CC   -!- FUNCTION: Lectin-type cell surface receptor. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF100686; ABO15826.1; -; mRNA.
+DR   RefSeq; NP_001078871.1; NM_001085402.1.
+DR   RefSeq; XP_017448197.1; XM_017592708.1.
+DR   AlphaFoldDB; A4KWA5; -.
+DR   SMR; A4KWA5; -.
+DR   GlyGen; A4KWA5; 1 site.
+DR   Ensembl; ENSRNOT00000038801; ENSRNOP00000035114; ENSRNOG00000059890.
+DR   GeneID; 362445; -.
+DR   KEGG; rno:362445; -.
+DR   UCSC; RGD:1562831; rat.
+DR   CTD; 362445; -.
+DR   RGD; 1562831; Clec2d2.
+DR   GeneTree; ENSGT00940000155319; -.
+DR   HOGENOM; CLU_049894_8_1_1; -.
+DR   InParanoid; A4KWA5; -.
+DR   OMA; CRREKWN; -.
+DR   OrthoDB; 945977at2759; -.
+DR   PhylomeDB; A4KWA5; -.
+DR   TreeFam; TF351467; -.
+DR   PRO; PR:A4KWA5; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000059890; Expressed in ovary and 7 other tissues.
+DR   Genevisible; A4KWA5; RN.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046703; F:natural killer cell lectin-like receptor binding; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Glycoprotein; Lectin; Membrane; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..233
+FT                   /note="C-type lectin domain family 2 member D2"
+FT                   /id="PRO_0000315292"
+FT   TOPO_DOM        1..76
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        77..97
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        98..233
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          119..228
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..34
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        13..34
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        132
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   233 AA;  25559 MW;  EDB02A73EEB312EE CRC64;
+     MPSSAHLQDA PPLLSRTLTQ DEEQTSLRQS SSCGLSAASA SESLSGSTKS RIPHSKMLQG
+     NLPRIISPES PAKLPCCYGV IMVLSVAVVA LSVALSVKKT PQILTVKTYA ACPRNWIGVG
+     NKCYYFNETP SNWTFSQTLC KAQEAELARF DTEEELNFLK RHKGSSGYWI GLHRESSSQP
+     WKWTDNTAYN NLVPIGGDEK HGFLSDNGFS SGRGYIVRKS ICSKPNSYTS QCQ
+//

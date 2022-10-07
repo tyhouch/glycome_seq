@@ -1,0 +1,181 @@
+ID   GNK2_GINBI              Reviewed;         134 AA.
+AC   A4ZDL6; C3VHZ7; F2Q6K2;
+DT   02-MAR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   03-AUG-2022, entry version 48.
+DE   RecName: Full=Antifungal protein ginkbilobin-2 {ECO:0000303|PubMed:17338634};
+DE   AltName: Full=Antimicrobial protein Gnk2-1 {ECO:0000312|EMBL:ACP27608.1};
+DE   Flags: Precursor;
+GN   Name=GNK2 {ECO:0000305};
+GN   Synonyms=GNK2-1 {ECO:0000312|EMBL:ACP27608.1};
+OS   Ginkgo biloba (Ginkgo) (Maidenhair tree).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Ginkgoidae; Ginkgoales; Ginkgoaceae; Ginkgo.
+OX   NCBI_TaxID=3311;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 27-56, IDENTIFICATION BY
+RP   MASS SPECTROMETRY, AND FUNCTION.
+RC   TISSUE=Seed;
+RX   PubMed=17338634; DOI=10.1515/bc.2007.030;
+RA   Sawano Y., Miyakawa T., Yamazaki H., Tanokura M., Hatano K.;
+RT   "Purification, characterization, and molecular gene cloning of an
+RT   antifungal protein from Ginkgo biloba seeds.";
+RL   Biol. Chem. 388:273-280(2007).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RC   TISSUE=Seed {ECO:0000312|EMBL:ACP27608.1};
+RA   Liu J., Wang Y.H., Wang Q., Tian H.L., Guo A.G.;
+RT   "Isolation and functional characterization of Ginkgo biloba antimicrobial
+RT   protein gene and its promoter.";
+RL   Submitted (MAR-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   SUBCELLULAR LOCATION, FUNCTION, AND SUBUNIT.
+RX   PubMed=26315821; DOI=10.1007/s00709-015-0876-4;
+RA   Gao N., Wadhwani P., Muehlhaeuser P., Liu Q., Riemann M., Ulrich A.S.,
+RA   Nick P.;
+RT   "An antifungal protein from Ginkgo biloba binds actin and can trigger cell
+RT   death.";
+RL   Protoplasma 253:1159-1174(2016).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.38 ANGSTROMS) OF 27-134.
+RX   PubMed=17768341; DOI=10.1107/s1744309107034793;
+RA   Miyakawa T., Sawano Y., Miyazono K., Hatano K., Tanokura M.;
+RT   "Crystallization and preliminary X-ray analysis of ginkbilobin-2 from
+RT   Ginkgo biloba seeds: a novel antifungal protein with homology to the
+RT   extracellular domain of plant cysteine-rich receptor-like kinases.";
+RL   Acta Crystallogr. F 63:737-739(2007).
+RN   [5]
+RP   ERRATUM OF PUBMED:17768341.
+RA   Miyakawa T., Sawano Y., Miyazono K., Hatano K., Tanokura M.;
+RL   Acta Crystallogr. F 63:899-899(2007).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.38 ANGSTROMS) OF 27-134, AND DISULFIDE BONDS.
+RX   PubMed=19603485; DOI=10.1002/prot.22494;
+RA   Miyakawa T., Miyazono K., Sawano Y., Hatano K., Tanokura M.;
+RT   "Crystal structure of ginkbilobin-2 with homology to the extracellular
+RT   domain of plant cysteine-rich receptor-like kinases.";
+RL   Proteins 77:247-251(2009).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) OF 27-134 IN COMPLEX WITH MANNOSE,
+RP   FUNCTION, DISULFIDE BONDS, AND MUTAGENESIS OF ARG-119.
+RX   PubMed=25139159; DOI=10.1104/pp.114.242636;
+RA   Miyakawa T., Hatano K., Miyauchi Y., Suwa Y., Sawano Y., Tanokura M.;
+RT   "A secreted protein with plant-specific cysteine-rich motif functions as a
+RT   mannose-binding lectin that exhibits antifungal activity.";
+RL   Plant Physiol. 166:766-778(2014).
+RN   [8]
+RP   ERRATUM OF PUBMED:25139159.
+RX   PubMed=25725072; DOI=10.1104/pp.115.900504;
+RA   Miyakawa T., Hatano K., Miyauchi Y., Suwa Y., Sawano Y., Tanokura M.;
+RL   Plant Physiol. 167:1204-1204(2015).
+CC   -!- FUNCTION: Possesses antifungal activity against F.oxysporum, T.reesei
+CC       and C.albicans. Weakly inhibits the aspartic acid protease pepsin
+CC       activity (PubMed:17338634). Exerts antifungal activity against
+CC       S.cerevisiae and F.culmorum through its carbohydrate-binding
+CC       specificity. Acts as a lectin that stricly recognizes alpha-1,2-linked
+CC       mannose moieties and interacts with the yeast cell wall mannan
+CC       polysaccharide (PubMed:25139159). Can interfere with the fungal actin
+CC       remodeling resulting to the activation of an actin-dependent cell death
+CC       (PubMed:26315821). {ECO:0000269|PubMed:17338634,
+CC       ECO:0000269|PubMed:25139159, ECO:0000269|PubMed:26315821}.
+CC   -!- SUBUNIT: Binds actin in vitro. {ECO:0000269|PubMed:26315821}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:26315821}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ496113; ABF55255.1; -; mRNA.
+DR   EMBL; FJ822053; ACZ57929.1; -; Genomic_DNA.
+DR   EMBL; FJ865399; ACP27608.1; -; mRNA.
+DR   PDB; 3A2E; X-ray; 2.38 A; A/B/C/D=27-134.
+DR   PDB; 4XRE; X-ray; 2.60 A; A/B/C/D=27-134.
+DR   PDBsum; 3A2E; -.
+DR   PDBsum; 4XRE; -.
+DR   AlphaFoldDB; A4ZDL6; -.
+DR   BMRB; A4ZDL6; -.
+DR   SMR; A4ZDL6; -.
+DR   UniLectin; A4ZDL6; -.
+DR   EvolutionaryTrace; A4ZDL6; -.
+DR   GO; GO:0005615; C:extracellular space; IDA:UniProtKB.
+DR   GO; GO:0003779; F:actin binding; IDA:UniProtKB.
+DR   GO; GO:0019828; F:aspartic-type endopeptidase inhibitor activity; IDA:UniProtKB.
+DR   GO; GO:0005537; F:mannose binding; IDA:UniProtKB.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0050832; P:defense response to fungus; IDA:UniProtKB.
+DR   GO; GO:0012502; P:induction of programmed cell death; NAS:UniProtKB.
+DR   GO; GO:0031640; P:killing of cells of another organism; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.430.20; -; 1.
+DR   InterPro; IPR002902; GNK2.
+DR   InterPro; IPR038408; GNK2_sf.
+DR   Pfam; PF01657; Stress-antifung; 1.
+DR   PROSITE; PS51473; GNK2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Actin-binding; Antibiotic; Antimicrobial; Apoptosis;
+KW   Direct protein sequencing; Disulfide bond; Fungicide; Lectin;
+KW   Mannose-binding; Plant defense; Secreted; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..134
+FT                   /note="Antifungal protein ginkbilobin-2"
+FT                   /id="PRO_5000242182"
+FT   DOMAIN          29..134
+FT                   /note="Gnk2-homologous"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00806"
+FT   BINDING         37
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007744|PDB:4XRE"
+FT   BINDING         119
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007744|PDB:4XRE"
+FT   BINDING         130
+FT                   /ligand="alpha-D-mannopyranose"
+FT                   /ligand_id="ChEBI:CHEBI:28729"
+FT                   /evidence="ECO:0007744|PDB:4XRE"
+FT   DISULFID        36..112
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00806,
+FT                   ECO:0000269|PubMed:19603485, ECO:0007744|PDB:3A2E,
+FT                   ECO:0007744|PDB:4XRE"
+FT   DISULFID        88..97
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00806,
+FT                   ECO:0000269|PubMed:19603485, ECO:0007744|PDB:3A2E,
+FT                   ECO:0007744|PDB:4XRE"
+FT   DISULFID        100..125
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00806,
+FT                   ECO:0000269|PubMed:19603485, ECO:0007744|PDB:3A2E,
+FT                   ECO:0007744|PDB:4XRE"
+FT   MUTAGEN         119
+FT                   /note="R->A: Abolishes binding to yeast mannan."
+FT                   /evidence="ECO:0000269|PubMed:25139159"
+FT   CONFLICT        30
+FT                   /note="A -> N (in Ref. 2; ACP27608)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        59
+FT                   /note="R -> K (in Ref. 2; ACP27608)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          31..36
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   STRAND          38..40
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   HELIX           47..61
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   HELIX           62..64
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   STRAND          67..73
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   STRAND          82..88
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   HELIX           94..105
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   HELIX           108..111
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   STRAND          114..122
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+FT   STRAND          125..132
+FT                   /evidence="ECO:0007829|PDB:3A2E"
+SQ   SEQUENCE   134 AA;  14473 MW;  A690A49536F44CFE CRC64;
+     MKTMRMNSAF ILAFALAAAM LILTEAANTA FVSSACNTQK IPSGSPFNRN LRAMLADLRQ
+     NTAFSGYDYK TSRAGSGGAP TAYGRATCKQ SISQSDCTAC LSNLVNRIFS ICNNAIGARV
+     QLVDCFIQYE QRSF
+//

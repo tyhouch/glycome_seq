@@ -1,0 +1,164 @@
+ID   LECG_CROAT              Reviewed;         135 AA.
+AC   P21963;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   03-AUG-2022, entry version 104.
+DE   RecName: Full=C-type lectin Cal;
+DE            Short=CTL;
+DE   AltName: Full=Galactose-specific lectin {ECO:0000303|PubMed:15049685};
+DE   AltName: Full=Rattlesnake lectin {ECO:0000303|PubMed:15049685};
+DE            Short=RSL {ECO:0000303|PubMed:15049685};
+OS   Crotalus atrox (Western diamondback rattlesnake).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Crotalus.
+OX   NCBI_TaxID=8730;
+RN   [1]
+RP   PROTEIN SEQUENCE, FUNCTION, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Venom;
+RX   PubMed=1989986; DOI=10.1016/s0021-9258(18)52246-8;
+RA   Hirabayashi J., Kusunoki T., Kasai K.;
+RT   "Complete primary structure of a galactose-specific lectin from the venom
+RT   of the rattlesnake Crotalus atrox. Homologies with Ca2(+)-dependent-type
+RT   lectins.";
+RL   J. Biol. Chem. 266:2320-2326(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-22; 34-61; 62-71; 76-84 AND 104-126, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=19371136; DOI=10.1021/pr900249q;
+RA   Calvete J.J., Fasoli E., Sanz L., Boschetti E., Righetti P.G.;
+RT   "Exploring the venom proteome of the western diamondback rattlesnake,
+RT   Crotalus atrox, via snake venomics and combinatorial peptide ligand library
+RT   approaches.";
+RL   J. Proteome Res. 8:3055-3067(2009).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) IN COMPLEX WITH LACTOSE AND
+RP   2-THIODIGALACTOSIDE, DISULFIDE BOND, AND SUBUNIT.
+RX   PubMed=15049685; DOI=10.1021/bi035871a;
+RA   Walker J.R., Nagar B., Young N.M., Hirama T., Rini J.M.;
+RT   "X-ray crystal structure of a galactose-specific C-type lectin possessing a
+RT   novel decameric quaternary structure.";
+RL   Biochemistry 43:3783-3792(2004).
+CC   -!- FUNCTION: Galactose-binding protein which recognizes specific
+CC       carbohydrate structures and agglutinates a variety of animal cells by
+CC       binding to cell-surface glycoproteins and glycolipids. Calcium-
+CC       dependent lectin. Shows high hemagglutinating activity (MHC=10 ng/ml)
+CC       (PubMed:1989986). {ECO:0000269|PubMed:1989986}.
+CC   -!- SUBUNIT: Homodecamer of disulfide-linked dimers arranged in two pseudo-
+CC       5-fold symmetric pentamers. {ECO:0000269|PubMed:15049685}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:1989986}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:1989986}.
+CC   -!- MASS SPECTROMETRY: Mass=16284; Method=Unknown; Note=Average mass.;
+CC       Evidence={ECO:0000269|PubMed:19371136};
+CC   -!- SIMILARITY: Belongs to the true venom lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A38609; A38609.
+DR   PDB; 1JZN; X-ray; 2.20 A; A/B/C/D/E=1-135.
+DR   PDB; 1MUQ; X-ray; 2.30 A; A/B/C/D/E=1-135.
+DR   PDBsum; 1JZN; -.
+DR   PDBsum; 1MUQ; -.
+DR   AlphaFoldDB; P21963; -.
+DR   SMR; P21963; -.
+DR   UniLectin; P21963; -.
+DR   EvolutionaryTrace; P21963; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Disulfide bond;
+KW   Hemagglutinin; Lectin; Metal-binding; Secreted.
+FT   CHAIN           1..135
+FT                   /note="C-type lectin Cal"
+FT                   /id="PRO_0000046644"
+FT   DOMAIN          10..132
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           96..98
+FT                   /note="Galactose-binding"
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   BINDING         96
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   BINDING         98
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   BINDING         104
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   BINDING         120
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   DISULFID        3..14
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   DISULFID        31..131
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   DISULFID        38..133
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   DISULFID        86
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   DISULFID        106..123
+FT                   /evidence="ECO:0000269|PubMed:15049685,
+FT                   ECO:0007744|PDB:1JZN, ECO:0007744|PDB:1MUQ"
+FT   STRAND          7..10
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   STRAND          13..22
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   HELIX           24..34
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   STRAND          35..40
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   HELIX           46..59
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   STRAND          66..71
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   STRAND          75..77
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   HELIX           100..102
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   STRAND          106..109
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   HELIX           111..113
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   STRAND          117..121
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+FT   STRAND          127..133
+FT                   /evidence="ECO:0007829|PDB:1JZN"
+SQ   SEQUENCE   135 AA;  16291 MW;  04BAC45DB2B721C8 CRC64;
+     NNCPLDWLPM NGLCYKIFNQ LKTWEDAEMF CRKYKPGCHL ASFHRYGESL EIAEYISDYH
+     KGQENVWIGL RDKKKDFSWE WTDRSCTDYL TWDKNQPDHY QNKEFCVELV SLTGYRLWND
+     QVCESKDAFL CQCKF
+//

@@ -1,0 +1,187 @@
+ID   LEG4_MOUSE              Reviewed;         326 AA.
+AC   Q8K419; O88353; Q91X74;
+DT   02-FEB-2004, integrated into UniProtKB/Swiss-Prot.
+DT   02-FEB-2004, sequence version 2.
+DT   03-AUG-2022, entry version 145.
+DE   RecName: Full=Galectin-4;
+DE            Short=Gal-4;
+DE   AltName: Full=Lactose-binding lectin 4;
+GN   Name=Lgals4;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=BALB/cJ; TISSUE=Liver;
+RA   Maly P., Jenikova G., Cummings R.D.;
+RT   "Molecular cloning and tissue distribution of mouse galectin-4.";
+RL   Submitted (JUL-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Colon;
+RA   Hokama A., Tanaka Y., Mizoguchi A.;
+RL   Submitted (MAY-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Colon;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 22-321, AND TISSUE SPECIFICITY.
+RC   STRAIN=129/Sv; TISSUE=Colon;
+RX   PubMed=9446608; DOI=10.1074/jbc.273.5.2954;
+RA   Gitt M.A., Colnot C., Poirier F., Nani K.J., Barondes S.H., Leffler H.;
+RT   "Galectin-4 and galectin-6 are two closely related lectins expressed in
+RT   mouse gastrointestinal tract.";
+RL   J. Biol. Chem. 273:2954-2960(1998).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 8-159.
+RG   RIKEN structural genomics initiative (RSGI);
+RT   "Crystal structure of the N-terminal domain of mouse galectin-4.";
+RL   Submitted (OCT-2007) to the PDB data bank.
+CC   -!- FUNCTION: Galectin that binds lactose and a related range of sugars.
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Epithelial cells of the embryonic and adult
+CC       gastrointestinal tract. Expressed at about equal levels in colon and
+CC       small intestine but much less in stomach. {ECO:0000269|PubMed:9446608}.
+CC   -!- DOMAIN: Contains two homologous but distinct carbohydrate-binding
+CC       domains.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Galectin-4;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Stlect_200";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY044870; AAK97790.1; -; mRNA.
+DR   EMBL; AF510729; AAM44060.1; -; mRNA.
+DR   EMBL; BC011236; AAH11236.1; -; mRNA.
+DR   EMBL; BC021632; AAH21632.1; -; mRNA.
+DR   EMBL; BC030297; AAH30297.1; -; mRNA.
+DR   EMBL; AF026795; AAC27245.1; -; mRNA.
+DR   CCDS; CCDS21058.1; -.
+DR   RefSeq; NP_034836.1; NM_010706.2.
+DR   PDB; 2DYC; X-ray; 2.40 A; A=9-159.
+DR   PDB; 3I8T; X-ray; 2.10 A; A=2-152.
+DR   PDBsum; 2DYC; -.
+DR   PDBsum; 3I8T; -.
+DR   AlphaFoldDB; Q8K419; -.
+DR   SMR; Q8K419; -.
+DR   BioGRID; 201144; 1.
+DR   IntAct; Q8K419; 3.
+DR   STRING; 10090.ENSMUSP00000066461; -.
+DR   UniLectin; Q8K419; -.
+DR   iPTMnet; Q8K419; -.
+DR   PhosphoSitePlus; Q8K419; -.
+DR   jPOST; Q8K419; -.
+DR   MaxQB; Q8K419; -.
+DR   PaxDb; Q8K419; -.
+DR   PRIDE; Q8K419; -.
+DR   ProteomicsDB; 291936; -.
+DR   Antibodypedia; 30166; 380 antibodies from 35 providers.
+DR   DNASU; 16855; -.
+DR   Ensembl; ENSMUST00000066723; ENSMUSP00000066461; ENSMUSG00000053964.
+DR   GeneID; 16855; -.
+DR   KEGG; mmu:16855; -.
+DR   UCSC; uc009gac.2; mouse.
+DR   CTD; 3960; -.
+DR   MGI; MGI:107536; Lgals4.
+DR   VEuPathDB; HostDB:ENSMUSG00000053964; -.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   GeneTree; ENSGT00940000160378; -.
+DR   HOGENOM; CLU_037794_1_0_1; -.
+DR   InParanoid; Q8K419; -.
+DR   OMA; HWGGRFY; -.
+DR   OrthoDB; 829777at2759; -.
+DR   PhylomeDB; Q8K419; -.
+DR   TreeFam; TF315551; -.
+DR   BioGRID-ORCS; 16855; 0 hits in 71 CRISPR screens.
+DR   ChiTaRS; Lgals4; mouse.
+DR   EvolutionaryTrace; Q8K419; -.
+DR   PRO; PR:Q8K419; -.
+DR   Proteomes; UP000000589; Chromosome 7.
+DR   RNAct; Q8K419; protein.
+DR   Bgee; ENSMUSG00000053964; Expressed in right colon and 164 other tissues.
+DR   ExpressionAtlas; Q8K419; baseline and differential.
+DR   Genevisible; Q8K419; MM.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; HDA:BHF-UCL.
+DR   GO; GO:0005615; C:extracellular space; IDA:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016936; F:galactoside binding; IDA:MGI.
+DR   GO; GO:0002780; P:antibacterial peptide biosynthetic process; IDA:MGI.
+DR   GO; GO:0042742; P:defense response to bacterium; IDA:MGI.
+DR   CDD; cd00070; GLECT; 2.
+DR   DisProt; DP02811; -.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR015533; Galectin4/6.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   PANTHER; PTHR11346:SF32; PTHR11346:SF32; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 2.
+DR   SMART; SM00908; Gal-bind_lectin; 2.
+DR   SMART; SM00276; GLECT; 2.
+DR   SUPFAM; SSF49899; SSF49899; 2.
+DR   PROSITE; PS51304; GALECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Lectin; Reference proteome; Repeat.
+FT   CHAIN           1..326
+FT                   /note="Galectin-4"
+FT                   /id="PRO_0000076935"
+FT   DOMAIN          19..150
+FT                   /note="Galectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   DOMAIN          198..326
+FT                   /note="Galectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         259..265
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        77
+FT                   /note="N -> K (in Ref. 2 and 4)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        160
+FT                   /note="P -> A (in Ref. 4; AAC27245)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        208..209
+FT                   /note="VR -> LP (in Ref. 4; AAC27245)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          17..22
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          32..39
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          45..55
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          60..67
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          69..71
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          73..80
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          88..91
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          100..107
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          109..116
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          119..125
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   HELIX           130..132
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+FT   STRAND          135..150
+FT                   /evidence="ECO:0007829|PDB:3I8T"
+SQ   SEQUENCE   326 AA;  36372 MW;  7F3DD89862A853B5 CRC64;
+     MAYVPAPGYQ PTYNPTLPYK RPIPGGLSVG MSVYIQGMAK ENMRRFHVNF AVGQDDGADV
+     AFHFNPRFDG WDKVVFNTMQ SGQWGKEEKK KSMPFQKGKH FELVFMVMPE HYKVVVNGNS
+     FYEYGHRLPV QMVTHLQVDG DLELQSINFL GGQPAAAPYP GAMTIPAYPA GSPGYNPPQM
+     NTLPVMTGPP VFNPRVPYVG ALQGGLTVRR TIIIKGYVLP TARNFVINFK VGSSGDIALH
+     LNPRIGDSVV RNSFMNGSWG AEERKVAYNP FGPGQFFDLS IRCGMDRFKV FANGQHLFDF
+     SHRFQAFQMV DTLEINGDIT LSYVQI
+//

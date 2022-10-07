@@ -1,0 +1,68 @@
+ID   LSRR_ECODH              Reviewed;         317 AA.
+AC   B1XEA0;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   03-AUG-2022, entry version 75.
+DE   RecName: Full=Transcriptional regulator LsrR;
+GN   Name=lsrR; OrderedLocusNames=ECDH10B_1643;
+OS   Escherichia coli (strain K12 / DH10B).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=316385;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / DH10B;
+RX   PubMed=18245285; DOI=10.1128/jb.01695-07;
+RA   Durfee T., Nelson R., Baldwin S., Plunkett G. III, Burland V., Mau B.,
+RA   Petrosino J.F., Qin X., Muzny D.M., Ayele M., Gibbs R.A., Csorgo B.,
+RA   Posfai G., Weinstock G.M., Blattner F.R.;
+RT   "The complete genome sequence of Escherichia coli DH10B: insights into the
+RT   biology of a laboratory workhorse.";
+RL   J. Bacteriol. 190:2597-2606(2008).
+CC   -!- FUNCTION: Regulates transcription of many different genes. In the
+CC       absence of autoinducer 2 (AI-2), represses transcription of the
+CC       lsrACDBFG operon and its own transcription. In the presence of AI-2,
+CC       LsrR is inactivated by binding phospho-AI-2, leading to the
+CC       transcription of the lsr genes (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- INDUCTION: Autoregulated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the SorC transcriptional regulatory family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000948; ACB02722.1; -; Genomic_DNA.
+DR   RefSeq; WP_000154342.1; NC_010473.1.
+DR   AlphaFoldDB; B1XEA0; -.
+DR   SMR; B1XEA0; -.
+DR   KEGG; ecd:ECDH10B_1643; -.
+DR   HOGENOM; CLU_054506_0_1_6; -.
+DR   OMA; CTVVQLT; -.
+DR   BioCyc; ECOL316385:ECDH10B_RS08415-MON; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR007324; Sugar-bd_dom_put.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   Pfam; PF04198; Sugar-bind; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+PE   3: Inferred from homology;
+KW   Activator; Cytoplasm; DNA-binding; Repressor; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..317
+FT                   /note="Transcriptional regulator LsrR"
+FT                   /id="PRO_0000351612"
+FT   DNA_BIND        33..52
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   317 AA;  33797 MW;  F9EAA1FE716A1F65 CRC64;
+     MTINDSAISE QGMCEEEQVA RIAWFYYHDG LTQSEISDRL GLTRLKVSRL LEKGHQSGII
+     RVQINSRFEG CLEYETQLRR QFSLQHVRVI PGLADADVGG RLGIGAAHML MSLLQPQQML
+     AIGFGEATMN TLQRLSGFIS SQQIRLVTLS GGVGSYMTGI GQLNAACSVN IIPAPLRASS
+     ADIARTLKNE NCVKDVLLAA QAADVAIVGI GAVSQQDDAT IIRSGYISQG EQLMIGRKGA
+     VGDILGYFFD AKGDVVTNIK IHNELIGLPL SALKTIPVRV GVAGGENKAE AIAAAMKGGY
+     INALVTDQDT AAAILRS
+//

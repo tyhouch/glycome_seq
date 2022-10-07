@@ -1,0 +1,328 @@
+ID   PFKAM_RAT               Reviewed;         780 AA.
+AC   P47858; Q63736;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   03-AUG-2022, entry version 167.
+DE   RecName: Full=ATP-dependent 6-phosphofructokinase, muscle type {ECO:0000255|HAMAP-Rule:MF_03184};
+DE            Short=ATP-PFK {ECO:0000255|HAMAP-Rule:MF_03184};
+DE            Short=PFK-M;
+DE            EC=2.7.1.11 {ECO:0000255|HAMAP-Rule:MF_03184};
+DE   AltName: Full=6-phosphofructokinase type A;
+DE   AltName: Full=Phosphofructo-1-kinase isozyme A;
+DE            Short=PFK-A;
+DE   AltName: Full=Phosphohexokinase {ECO:0000255|HAMAP-Rule:MF_03184};
+GN   Name=Pfkm; Synonyms=Pfk-m;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Pancreatic islet;
+RX   PubMed=8764833; DOI=10.1016/0167-4781(96)00088-7;
+RA   Ma Z., Ramanadham S., Turk J., Kempe K., Hu Z., Ladenson J.;
+RT   "Characterization of expression of phosphofructokinase isoforms in isolated
+RT   rat pancreatic islets and purified beta cells and cloning and expression of
+RT   the rat phosphofructokinase-A isoform.";
+RL   Biochim. Biophys. Acta 1308:151-163(1996).
+RN   [2]
+RP   SEQUENCE REVISION TO 163-170 AND 494-498.
+RA   Ma Z.;
+RL   Submitted (SEP-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 8-213.
+RC   STRAIN=Sprague-Dawley;
+RA   Nakajima H.;
+RL   Submitted (NOV-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-133; SER-377 AND SER-775, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of D-fructose 6-phosphate to
+CC       fructose 1,6-bisphosphate by ATP, the first committing step of
+CC       glycolysis. {ECO:0000255|HAMAP-Rule:MF_03184}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + beta-D-fructose 6-phosphate = ADP + beta-D-fructose 1,6-
+CC         bisphosphate + H(+); Xref=Rhea:RHEA:16109, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32966, ChEBI:CHEBI:57634,
+CC         ChEBI:CHEBI:456216; EC=2.7.1.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03184};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC   -!- ACTIVITY REGULATION: Allosterically activated by ADP, AMP, or fructose
+CC       2,6-bisphosphate, and allosterically inhibited by ATP or citrate.
+CC       {ECO:0000255|HAMAP-Rule:MF_03184}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 3/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_03184}.
+CC   -!- SUBUNIT: Homo- and heterotetramers (By similarity). Phosphofructokinase
+CC       (PFK) enzyme functions as a tetramer composed of different combinations
+CC       of 3 types of subunits, called PFKM (M), PFKL (L) and PFKP (P). The
+CC       composition of the PFK tetramer differs according to the tissue type it
+CC       is present in. The kinetic and regulatory properties of the tetrameric
+CC       enzyme are dependent on the subunit composition, hence can vary across
+CC       tissues (Probable). Interacts (via C-terminus) with HK1 (via N-terminal
+CC       spermatogenic cell-specific region) (By similarity).
+CC       {ECO:0000250|UniProtKB:P47857, ECO:0000255|HAMAP-Rule:MF_03184,
+CC       ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_03184}.
+CC   -!- PTM: GlcNAcylation decreases enzyme activity. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the phosphofructokinase type A (PFKA) family.
+CC       ATP-dependent PFK group I subfamily. Eukaryotic two domain clade 'E'
+CC       sub-subfamily. {ECO:0000255|HAMAP-Rule:MF_03184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U25651; AAC52786.1; -; mRNA.
+DR   EMBL; D21869; BAA21013.1; -; mRNA.
+DR   PIR; S71429; S71429.
+DR   RefSeq; NP_113903.1; NM_031715.1.
+DR   AlphaFoldDB; P47858; -.
+DR   SMR; P47858; -.
+DR   BioGRID; 249268; 6.
+DR   ComplexPortal; CPX-2050; 6-phosphofructokinase, M4 homotetramer.
+DR   ComplexPortal; CPX-2058; 6-phosphofructokinase, ML3 heterotetramer.
+DR   ComplexPortal; CPX-2059; 6-phosphofructokinase, M2L2 heterotetramer.
+DR   ComplexPortal; CPX-2060; 6-phosphofructokinase, M3L heterotetramer.
+DR   IntAct; P47858; 4.
+DR   MINT; P47858; -.
+DR   STRING; 10116.ENSRNOP00000013374; -.
+DR   GlyGen; P47858; 1 site.
+DR   iPTMnet; P47858; -.
+DR   PhosphoSitePlus; P47858; -.
+DR   jPOST; P47858; -.
+DR   PaxDb; P47858; -.
+DR   PRIDE; P47858; -.
+DR   GeneID; 65152; -.
+DR   KEGG; rno:65152; -.
+DR   UCSC; RGD:68419; rat.
+DR   CTD; 5213; -.
+DR   RGD; 68419; Pfkm.
+DR   eggNOG; KOG2440; Eukaryota.
+DR   InParanoid; P47858; -.
+DR   OrthoDB; 172878at2759; -.
+DR   PhylomeDB; P47858; -.
+DR   BRENDA; 2.7.1.11; 5301.
+DR   Reactome; R-RNO-70171; Glycolysis.
+DR   SABIO-RK; P47858; -.
+DR   UniPathway; UPA00109; UER00182.
+DR   PRO; PR:P47858; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005945; C:6-phosphofructokinase complex; ISO:RGD.
+DR   GO; GO:0016324; C:apical plasma membrane; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0097228; C:sperm principal piece; ISO:RGD.
+DR   GO; GO:0003872; F:6-phosphofructokinase activity; IDA:RGD.
+DR   GO; GO:0016208; F:AMP binding; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IDA:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0070061; F:fructose binding; ISO:RGD.
+DR   GO; GO:0070095; F:fructose-6-phosphate binding; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0019900; F:kinase binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0048029; F:monosaccharide binding; IBA:GO_Central.
+DR   GO; GO:0008443; F:phosphofructokinase activity; IMP:RGD.
+DR   GO; GO:0008022; F:protein C-terminus binding; ISO:RGD.
+DR   GO; GO:0061621; P:canonical glycolysis; ISO:RGD.
+DR   GO; GO:0001678; P:cellular glucose homeostasis; NAS:RGD.
+DR   GO; GO:0030388; P:fructose 1,6-bisphosphate metabolic process; IDA:RGD.
+DR   GO; GO:0006002; P:fructose 6-phosphate metabolic process; IDA:RGD.
+DR   GO; GO:0042593; P:glucose homeostasis; ISO:RGD.
+DR   GO; GO:0005980; P:glycogen catabolic process; ISO:RGD.
+DR   GO; GO:0093001; P:glycolysis from storage polysaccharide through glucose-1-phosphate; ISO:RGD.
+DR   GO; GO:0006096; P:glycolytic process; IDA:RGD.
+DR   GO; GO:0061615; P:glycolytic process through fructose-6-phosphate; ISO:RGD.
+DR   GO; GO:0046716; P:muscle cell cellular homeostasis; ISO:RGD.
+DR   GO; GO:0032024; P:positive regulation of insulin secretion; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   CDD; cd00764; Eukaryotic_PFK; 1.
+DR   Gene3D; 3.40.50.460; -; 2.
+DR   HAMAP; MF_03184; Phosphofructokinase_I_E; 1.
+DR   InterPro; IPR009161; 6-Pfructokinase_euk.
+DR   InterPro; IPR022953; ATP_PFK.
+DR   InterPro; IPR041914; PFK_vert-type.
+DR   InterPro; IPR015912; Phosphofructokinase_CS.
+DR   InterPro; IPR000023; Phosphofructokinase_dom.
+DR   InterPro; IPR035966; PKF_sf.
+DR   Pfam; PF00365; PFK; 2.
+DR   PIRSF; PIRSF000533; ATP_PFK_euk; 1.
+DR   PRINTS; PR00476; PHFRCTKINASE.
+DR   SUPFAM; SSF53784; SSF53784; 2.
+DR   TIGRFAMs; TIGR02478; 6PF1K_euk; 1.
+DR   PROSITE; PS00433; PHOSPHOFRUCTOKINASE; 2.
+PE   1: Evidence at protein level;
+KW   Acetylation; Allosteric enzyme; ATP-binding; Cytoplasm; Glycolysis;
+KW   Glycoprotein; Hydroxylation; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P00511"
+FT   CHAIN           2..780
+FT                   /note="ATP-dependent 6-phosphofructokinase, muscle type"
+FT                   /id="PRO_0000112020"
+FT   REGION          2..390
+FT                   /note="N-terminal catalytic PFK domain 1"
+FT   REGION          391..401
+FT                   /note="Interdomain linker"
+FT   REGION          402..780
+FT                   /note="C-terminal regulatory PFK domain 2"
+FT   ACT_SITE        166
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         25
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         88..89
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         118..121
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         119
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         164..166
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         201
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         208..210
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         264
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         292
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         298..301
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         471
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         528..532
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         566
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         573..575
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         629
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         655
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         661..664
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   BINDING         735
+FT                   /ligand="beta-D-fructose 2,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58579"
+FT                   /ligand_note="allosteric activator; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03184"
+FT   MOD_RES         2
+FT                   /note="N-acetylthreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00511"
+FT   MOD_RES         133
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         377
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         557
+FT                   /note="N6-(2-hydroxyisobutyryl)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08237"
+FT   MOD_RES         775
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CARBOHYD        530
+FT                   /note="O-linked (GlcNAc) serine"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        33
+FT                   /note="T -> A (in Ref. 3; BAA21013)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        46
+FT                   /note="L -> A (in Ref. 3; BAA21013)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        150
+FT                   /note="R -> A (in Ref. 3; BAA21013)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        160
+FT                   /note="F -> G (in Ref. 3; BAA21013)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        180
+FT                   /note="S -> F (in Ref. 3; BAA21013)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   780 AA;  85560 MW;  CECC3995C4F271FA CRC64;
+     MTHEEHHEAK TLGIGKAIAV LTSGGDAQGM NATVRAVVRV GIFTGLRVFF VHEGYQGLVD
+     GGEHIREATW ESVSMMLQLG GTVIGSARCK DFREREGRLR AAHNLVKRGI TNLCVIGGDG
+     SLTGADTFRS EWSDLLNDLQ KDGKITAEER TKSSYLNIVF LVGSIDNDFC GTDMTIGTDS
+     ALHRIVEIVD AITTTAQSHQ RTFVLEVMGR HCGYLALVTS LSCGADWVFI PECPPDDDWE
+     EHLCRRLSET RTRGSRLNII IVAEGAIDKN GKPITSEDIK NLVVKRLGYD TRVTVLGHVQ
+     RGGTPSAFDR ILGSRMGVEA VMALLEGTPD TPACVVSLSG NTAVRLPLME CVQVTKDVTK
+     AMDEKRFDEA IKLRGRSFMN NWEVYKLLAH VRPPVSKGGL HTVAVMNVGA PAAGMNAAVR
+     STVRIGLIQG NRVLVVHDGF EGLAKGQIEE AGWSYVGGWT GQGGSKLGTK RTLPKKNLEQ
+     ISANITKYNI QGLVIIGGFE AYTGGLELME GRKQFDELCI PFVVIPATVS NNVPGSDFSI
+     GADTALNTIC TTCDRIKQSA AGTKRRVFII ETMGGYCGYL ATMAGLAAGA DAAYIFEEPF
+     TIRDLQVNVE HLVQKMKTTV KRGLVLRNEK CNENYTTDFI FNLYSEEGKG IFDSRKNVLG
+     HMQQGGNPTP FDRNFATKMG AKATNWMSGK IKESYRNGRI FANTPDSGCV LGMRKRALVF
+     QPVTELKDQT DFEHRIPKEQ WWLKLRPILK ILAKYEIDLD TSDHAHLEHI SRKRSGEAAV
+//

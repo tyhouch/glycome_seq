@@ -1,0 +1,328 @@
+ID   ZP3_MOUSE               Reviewed;         424 AA.
+AC   P10761; Q4FZI2;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 4.
+DT   03-AUG-2022, entry version 174.
+DE   RecName: Full=Zona pellucida sperm-binding protein 3;
+DE   AltName: Full=Sperm receptor;
+DE   AltName: Full=Zona pellucida glycoprotein 3;
+DE            Short=Zp-3;
+DE   AltName: Full=Zona pellucida protein C;
+DE   Contains:
+DE     RecName: Full=Processed zona pellucida sperm-binding protein 3;
+DE   Flags: Precursor;
+GN   Name=Zp3; Synonyms=Zp-3, Zpc;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3378665; DOI=10.1016/0012-1606(88)90315-6;
+RA   Ringuette M.J., Chamberlin M.E., Baur A.W., Sobieski D.A., Dean J.;
+RT   "Molecular analysis of cDNA coding for ZP3, a sperm binding protein of the
+RT   mouse zona pellucida.";
+RL   Dev. Biol. 127:287-295(1988).
+RN   [2]
+RP   SEQUENCE REVISION TO 387.
+RA   Dean J.;
+RL   Submitted (NOV-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=CD-1; TISSUE=Liver;
+RX   PubMed=2541416; DOI=10.1093/nar/17.7.2861;
+RA   Kinloch R.A., Wassarman P.M.;
+RT   "Nucleotide sequence of the gene encoding zona pellucida glycoprotein ZP3
+RT   -- the mouse sperm receptor.";
+RL   Nucleic Acids Res. 17:2861-2863(1989).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2842770; DOI=10.1073/pnas.85.17.6409;
+RA   Kinloch R.A., Roller R.J., Fimiani C.M., Wassarman D.A., Wassarman P.M.;
+RT   "Primary structure of the mouse sperm receptor polypeptide determined by
+RT   genomic cloning.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 85:6409-6413(1988).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 49-63; 197-204; 219-233 AND 261-275.
+RC   STRAIN=CD-1;
+RX   PubMed=1330788; DOI=10.1016/0012-1606(92)90070-w;
+RA   Rosiere T.K., Wassarman P.M.;
+RT   "Identification of a region of mouse zona pellucida glycoprotein mZP3 that
+RT   possesses sperm receptor activity.";
+RL   Dev. Biol. 154:309-317(1992).
+RN   [7]
+RP   PROTEIN SEQUENCE OF C-TERMINUS, PYROGLUTAMATE FORMATION AT GLN-23,
+RP   DISULFIDE BOND FORMATION AT 78-CYS--CYS-98; 216-CYS--CYS-283 AND
+RP   240-CYS--CYS-301, GLYCOSYLATION AT ASN-146; ASN-273; ASN-304; ASN-327 AND
+RP   ASN-330, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=12799386; DOI=10.1074/jbc.m304026200;
+RA   Boja E.S., Hoodbhoy T., Fales H.M., Dean J.;
+RT   "Structural characterization of native mouse zona pellucida proteins using
+RT   mass spectrometry.";
+RL   J. Biol. Chem. 278:34189-34202(2003).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 42-143, IDENTIFICATION BY MASS
+RP   SPECTROMETRY, MUTAGENESIS OF TYR-111, SUBCELLULAR LOCATION, AND DISULFIDE
+RP   BONDS.
+RX   PubMed=19052627; DOI=10.1038/nature07599;
+RA   Monne M., Han L., Schwend T., Burendahl S., Jovine L.;
+RT   "Crystal structure of the ZP-N domain of ZP3 reveals the core fold of
+RT   animal egg coats.";
+RL   Nature 456:653-657(2008).
+CC   -!- FUNCTION: Component of the zona pellucida, an extracellular matrix
+CC       surrounding oocytes which mediates sperm binding, induction of the
+CC       acrosome reaction and prevents post-fertilization polyspermy. The zona
+CC       pellucida is composed of 3 to 4 glycoproteins, ZP1, ZP2, ZP3, and ZP4.
+CC       ZP3 is essential for sperm binding and zona matrix formation.
+CC   -!- SUBUNIT: Polymers of ZP2 and ZP3 organized into long filaments cross-
+CC       linked by ZP1 homodimers. Interacts with ZP1 and ZP2.
+CC       {ECO:0000250|UniProtKB:P20239, ECO:0000250|UniProtKB:P21754}.
+CC   -!- SUBCELLULAR LOCATION: [Processed zona pellucida sperm-binding protein
+CC       3]: Zona pellucida {ECO:0000269|PubMed:19052627}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:19052627};
+CC       Single-pass type I membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in oocytes.
+CC   -!- DEVELOPMENTAL STAGE: Expressed during the 2-week growth phase of
+CC       oogenesis, prior to ovulation.
+CC   -!- DOMAIN: The ZP domain is involved in the polymerization of the ZP
+CC       proteins to form the zona pellucida.
+CC   -!- PTM: Proteolytically cleaved before the transmembrane segment to yield
+CC       the secreted ectodomain incorporated in the zona pellucida.
+CC   -!- PTM: O-glycosylated; removal of O-linked glycans may play an important
+CC       role in the post-fertilization block to polyspermy.
+CC       {ECO:0000269|PubMed:12799386}.
+CC   -!- PTM: Cys-320, Cys-322, Cys-323 and Cys-328 are involved in two
+CC       additional disulfide bonds.
+CC   -!- SIMILARITY: Belongs to the ZP domain family. ZPC subfamily.
+CC       {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Protein Spotlight; Note=Molecular chastity - Issue
+CC       93 of April 2008;
+CC       URL="https://web.expasy.org/spotlight/back_issues/093";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M20026; AAB18629.1; -; mRNA.
+DR   EMBL; X14376; CAA32550.1; -; Genomic_DNA.
+DR   EMBL; BC099465; AAH99465.1; -; mRNA.
+DR   EMBL; BC100745; AAI00746.1; -; mRNA.
+DR   EMBL; BC103583; AAI03584.1; -; mRNA.
+DR   EMBL; BC103584; AAI03585.1; -; mRNA.
+DR   EMBL; BC103585; AAI03586.1; -; mRNA.
+DR   CCDS; CCDS19749.1; -.
+DR   PIR; A30334; A30334.
+DR   RefSeq; NP_035906.1; NM_011776.1.
+DR   PDB; 3D4C; X-ray; 2.90 A; A=42-143.
+DR   PDB; 3D4G; X-ray; 2.30 A; A/B/C/D/E/F/G/H=42-143.
+DR   PDB; 3EF7; X-ray; 3.10 A; A/B=42-143.
+DR   PDB; 5OSQ; X-ray; 2.05 A; A/B=42-143.
+DR   PDBsum; 3D4C; -.
+DR   PDBsum; 3D4G; -.
+DR   PDBsum; 3EF7; -.
+DR   PDBsum; 5OSQ; -.
+DR   AlphaFoldDB; P10761; -.
+DR   SMR; P10761; -.
+DR   STRING; 10090.ENSMUSP00000005073; -.
+DR   GlyConnect; 633; 15 O-Linked glycans.
+DR   GlyConnect; 635; 24 N-Linked glycans, 10 O-Linked glycans.
+DR   GlyGen; P10761; 11 sites, 48 N-linked glycans (1 site), 34 O-linked glycans (1 site).
+DR   iPTMnet; P10761; -.
+DR   PhosphoSitePlus; P10761; -.
+DR   PaxDb; P10761; -.
+DR   PRIDE; P10761; -.
+DR   ProteomicsDB; 275314; -.
+DR   ABCD; P10761; 22 sequenced antibodies.
+DR   Antibodypedia; 29359; 106 antibodies from 17 providers.
+DR   DNASU; 22788; -.
+DR   Ensembl; ENSMUST00000005073; ENSMUSP00000005073; ENSMUSG00000004948.
+DR   GeneID; 22788; -.
+DR   KEGG; mmu:22788; -.
+DR   UCSC; uc008zzl.1; mouse.
+DR   CTD; 7784; -.
+DR   MGI; MGI:99215; Zp3.
+DR   VEuPathDB; HostDB:ENSMUSG00000004948; -.
+DR   eggNOG; ENOG502QSZF; Eukaryota.
+DR   GeneTree; ENSGT01030000234567; -.
+DR   HOGENOM; CLU_047091_1_1_1; -.
+DR   InParanoid; P10761; -.
+DR   OMA; ECHYPRH; -.
+DR   OrthoDB; 495227at2759; -.
+DR   PhylomeDB; P10761; -.
+DR   TreeFam; TF331369; -.
+DR   Reactome; R-MMU-2534343; Interaction With Cumulus Cells And The Zona Pellucida.
+DR   BioGRID-ORCS; 22788; 1 hit in 74 CRISPR screens.
+DR   ChiTaRS; Zp3; mouse.
+DR   EvolutionaryTrace; P10761; -.
+DR   PRO; PR:P10761; -.
+DR   Proteomes; UP000000589; Chromosome 5.
+DR   RNAct; P10761; protein.
+DR   Bgee; ENSMUSG00000004948; Expressed in primary oocyte and 18 other tissues.
+DR   ExpressionAtlas; P10761; baseline and differential.
+DR   Genevisible; P10761; MM.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; IDA:UniProtKB.
+DR   GO; GO:0035805; C:egg coat; ISS:UniProtKB.
+DR   GO; GO:0031012; C:extracellular matrix; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; ISS:UniProtKB.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0031965; C:nuclear membrane; ISO:MGI.
+DR   GO; GO:0005654; C:nucleoplasm; ISO:MGI.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0032190; F:acrosin binding; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; ISO:MGI.
+DR   GO; GO:0048018; F:receptor ligand activity; IDA:UniProtKB.
+DR   GO; GO:0035804; F:structural constituent of egg coat; IMP:UniProtKB.
+DR   GO; GO:0007339; P:binding of sperm to zona pellucida; IDA:MGI.
+DR   GO; GO:0001825; P:blastocyst formation; IMP:UniProtKB.
+DR   GO; GO:0035803; P:egg coat formation; IMP:UniProtKB.
+DR   GO; GO:0002455; P:humoral immune response mediated by circulating immunoglobulin; IDA:UniProtKB.
+DR   GO; GO:0045892; P:negative regulation of transcription, DNA-templated; IDA:UniProtKB.
+DR   GO; GO:0048599; P:oocyte development; IMP:UniProtKB.
+DR   GO; GO:2000368; P:positive regulation of acrosomal vesicle exocytosis; ISS:UniProtKB.
+DR   GO; GO:2000344; P:positive regulation of acrosome reaction; IDA:UniProtKB.
+DR   GO; GO:2000388; P:positive regulation of antral ovarian follicle growth; IMP:UniProtKB.
+DR   GO; GO:0002922; P:positive regulation of humoral immune response; ISS:UniProtKB.
+DR   GO; GO:0050729; P:positive regulation of inflammatory response; IDA:UniProtKB.
+DR   GO; GO:0032729; P:positive regulation of interferon-gamma production; IDA:UniProtKB.
+DR   GO; GO:0032753; P:positive regulation of interleukin-4 production; IDA:UniProtKB.
+DR   GO; GO:0002687; P:positive regulation of leukocyte migration; IDA:UniProtKB.
+DR   GO; GO:2000386; P:positive regulation of ovarian follicle development; IDA:UniProtKB.
+DR   GO; GO:0042102; P:positive regulation of T cell proliferation; IDA:UniProtKB.
+DR   GO; GO:0045893; P:positive regulation of transcription, DNA-templated; IDA:UniProtKB.
+DR   GO; GO:0001809; P:positive regulation of type IV hypersensitivity; IDA:UniProtKB.
+DR   GO; GO:0010469; P:regulation of signaling receptor activity; IDA:UniProtKB.
+DR   DisProt; DP02586; -.
+DR   Gene3D; 2.60.40.4100; -; 1.
+DR   InterPro; IPR042235; ZP-C.
+DR   InterPro; IPR040196; ZP3.
+DR   InterPro; IPR001507; ZP_dom.
+DR   InterPro; IPR017977; ZP_dom_CS.
+DR   PANTHER; PTHR11576:SF2; PTHR11576:SF2; 1.
+DR   Pfam; PF00100; Zona_pellucida; 1.
+DR   PRINTS; PR00023; ZPELLUCIDA.
+DR   SMART; SM00241; ZP; 1.
+DR   PROSITE; PS00682; ZP_1; 1.
+DR   PROSITE; PS51034; ZP_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Cleavage on pair of basic residues;
+KW   Direct protein sequencing; Disulfide bond; Extracellular matrix;
+KW   Glycoprotein; Membrane; Pyrrolidone carboxylic acid; Receptor;
+KW   Reference proteome; Secreted; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   CHAIN           23..351
+FT                   /note="Zona pellucida sperm-binding protein 3"
+FT                   /id="PRO_0000041715"
+FT   CHAIN           23..?
+FT                   /note="Processed zona pellucida sperm-binding protein 3"
+FT                   /id="PRO_0000304572"
+FT   PROPEP          352..424
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT                   /id="PRO_0000041716"
+FT   TOPO_DOM        23..387
+FT                   /note="Extracellular"
+FT   TRANSMEM        388..408
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        409..424
+FT                   /note="Cytoplasmic"
+FT   DOMAIN          45..308
+FT                   /note="ZP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00375"
+FT   MOD_RES         23
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   CARBOHYD        32
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000305"
+FT   CARBOHYD        34
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000305"
+FT   CARBOHYD        39
+FT                   /note="O-linked (GalNAc...) serine"
+FT                   /evidence="ECO:0000305"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   CARBOHYD        155
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000305"
+FT   CARBOHYD        162
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000305"
+FT   CARBOHYD        273
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   CARBOHYD        304
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   CARBOHYD        327
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   CARBOHYD        330
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   DISULFID        46..139
+FT                   /evidence="ECO:0000269|PubMed:19052627"
+FT   DISULFID        78..98
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   DISULFID        216..283
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   DISULFID        240..301
+FT                   /evidence="ECO:0000269|PubMed:12799386"
+FT   MUTAGEN         111
+FT                   /note="Y->C: Reduces protein solubility and causes
+FT                   formation of an abnormal disulfide bond between C-111 and
+FT                   C-139 in approximately half of the molecules."
+FT                   /evidence="ECO:0000269|PubMed:19052627"
+FT   MUTAGEN         111
+FT                   /note="Y->F: Causes a mild reduction of protein
+FT                   solubility."
+FT                   /evidence="ECO:0000269|PubMed:19052627"
+FT   MUTAGEN         111
+FT                   /note="Y->L,V: Strongly reduces protein solubility."
+FT                   /evidence="ECO:0000269|PubMed:19052627"
+FT   MUTAGEN         111
+FT                   /note="Y->S: Reduces protein solubility."
+FT                   /evidence="ECO:0000269|PubMed:19052627"
+FT   STRAND          42..46
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          48..58
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          60..63
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   HELIX           68..70
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          71..75
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          81..84
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          86..94
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   HELIX           95..98
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          100..104
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          106..117
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+FT   STRAND          133..142
+FT                   /evidence="ECO:0007829|PDB:5OSQ"
+SQ   SEQUENCE   424 AA;  46304 MW;  9089903FBD268365 CRC64;
+     MASSYFLFLC LLLCGGPELC NSQTLWLLPG GTPTPVGSSS PVKVECLEAE LVVTVSRDLF
+     GTGKLVQPGD LTLGSEGCQP RVSVDTDVVR FNAQLHECSS RVQMTKDALV YSTFLLHDPR
+     PVSGLSILRT NRVEVPIECR YPRQGNVSSH PIQPTWVPFR ATVSSEEKLA FSLRLMEENW
+     NTEKSAPTFH LGEVAHLQAE VQTGSHLPLQ LFVDHCVATP SPLPDPNSSP YHFIVDFHGC
+     LVDGLSESFS AFQVPRPRPE TLQFTVDVFH FANSSRNTLY ITCHLKVAPA NQIPDKLNKA
+     CSFNKTSQSW LPVEGDADIC DCCSHGNCSN SSSSQFQIHG PRQWSKLVSR NRRHVTDEAD
+     VTVGPLIFLG KANDQTVEGW TASAQTSVAL GLGLATVAFL TLAAIVLAVT RKCHSSSYLV
+     SLPQ
+//

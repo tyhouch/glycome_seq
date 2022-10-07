@@ -1,0 +1,133 @@
+ID   PV22_POMMA              Reviewed;         286 AA.
+AC   P0DQP0;
+DT   07-APR-2021, integrated into UniProtKB/Swiss-Prot.
+DT   07-APR-2021, sequence version 1.
+DT   25-MAY-2022, entry version 5.
+DE   RecName: Full=Perivitellin-2 31 kDa subunit {ECO:0000303|PubMed:29506476};
+DE            Short=PmPV2 31 kDa subunit {ECO:0000305};
+DE            Short=PmPV2-31 {ECO:0000303|PubMed:30980073, ECO:0000303|PubMed:32446810};
+DE   AltName: Full=PV2 tachylectin 'B' delivery subunit {ECO:0000303|PubMed:32446810};
+DE   AltName: Full=Pma_3499_0.54 {ECO:0000303|PubMed:30980073};
+DE   AltName: Full=Pore forming toxin {ECO:0000303|PubMed:32446810};
+DE            Short=PFT {ECO:0000303|PubMed:32446810};
+DE   Flags: Precursor;
+OS   Pomacea maculata (Giant applesnail).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Caenogastropoda; Architaenioglossa; Ampullarioidea; Ampullariidae; Pomacea.
+OX   NCBI_TaxID=1245466;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Albumen gland;
+RX   PubMed=29506476; DOI=10.1186/s12864-018-4553-9;
+RA   Ip J.C.H., Mu H., Chen Q., Sun J., Ituarte S., Heras H., Van Bocxlaer B.,
+RA   Ganmanee M., Huang X., Qiu J.W.;
+RT   "AmpuBase: a transcriptome database for eight species of apple snails
+RT   (Gastropoda: Ampullariidae).";
+RL   BMC Genomics 19:179-179(2018).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=30980073; DOI=10.1093/molbev/msz084;
+RA   Sun J., Mu H., Ip J.C.H., Li R., Xu T., Accorsi A., Sanchez Alvarado A.,
+RA   Ross E., Lan Y., Sun Y., Castro-Vazquez A., Vega I.A., Heras H.,
+RA   Ituarte S., Van Bocxlaer B., Hayes K.A., Cowie R.H., Zhao Z., Zhang Y.,
+RA   Qian P.Y., Qiu J.W.;
+RT   "Signatures of divergence, invasiveness, and terrestrialization revealed by
+RT   four apple snail genomes.";
+RL   Mol. Biol. Evol. 36:1507-1520(2019).
+RN   [3]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=32231667; DOI=10.3389/fimmu.2020.00428;
+RA   Giglio M.L., Ituarte S., Ibanez A.E., Dreon M.S., Prieto E.,
+RA   Fernandez P.E., Heras H.;
+RT   "Novel role for animal innate immune molecules: enterotoxic activity of a
+RT   snail egg MACPF-toxin.";
+RL   Front. Immunol. 11:428-428(2020).
+RN   [4]
+RP   FUNCTION, TOXIC DOSE, SUBCELLULAR LOCATION, SUBUNIT, DISULFIDE BOND, AND
+RP   3D-STRUCTURE MODELING.
+RX   PubMed=32446810; DOI=10.1016/j.jsb.2020.107531;
+RA   Giglio M.L., Ituarte S., Milesi V., Dreon M.S., Brola T.R., Caramelo J.,
+RA   Ip J.C.H., Mate S., Qiu J.W., Otero L.H., Heras H.;
+RT   "Exaptation of two ancient immune proteins into a new dimeric pore-forming
+RT   toxin in snails.";
+RL   J. Struct. Biol. 211:107531-107531(2020).
+CC   -!- FUNCTION: The egg defensive protein perivitellin-2 is a pore-forming
+CC       two-subunit glycoprotein that affects both the nervous and digestive
+CC       systems of mammals (PubMed:32231667, PubMed:32446810). In addition, it
+CC       is a source of both structural and energetic molecules during embryonic
+CC       development (By similarity). The tachylectin subunit (31 kDa) binds
+CC       target membranes while the MACPF subunit (67 kDa) disrupts lipid
+CC       bilayers forming large pores (inner diameter of about 5.6 nm) altering
+CC       the plasma membrance conductance (PubMed:32446810). Both in vivo and in
+CC       vitro, the protein shows wide pH range stability and is resistant to
+CC       enzymatic proteolysis from gastrointestinal environments
+CC       (PubMed:32231667). It is cytotoxic to both epithelial and immune cells
+CC       from the digestive system of mammals (PubMed:32231667). It induces
+CC       enterocyte death by a lytic mechanism and disrupts enterocyte
+CC       monolayers in a dose-dependent manner (PubMed:32231667). After oral
+CC       administration to mice, it binds enterocytes and induces large dose-
+CC       dependent morphological changes on their small intestine mucosa,
+CC       reducing the absorptive surface (PubMed:32231667). Additionally, it is
+CC       detected in the Peyer's patches where it activates lymphoid follicles
+CC       and triggers apoptosis (PubMed:32231667). The toxin can also traverse
+CC       the intestinal barrier and induce oral adaptive immunity with evidence
+CC       of circulating antibody response (PubMed:32231667). The toxin also
+CC       shows hemagglutination properties thanks to the tachylectin subunit,
+CC       but has no hemolytic activity (PubMed:32446810). In addition to
+CC       enterotoxin activity, the toxin also acts as a neurotoxin, since an
+CC       intraperitoneal injection can induce paralysis of the mice rear limbs,
+CC       followed by death (PubMed:32446810). {ECO:0000250|UniProtKB:P0C8G6,
+CC       ECO:0000269|PubMed:32231667, ECO:0000269|PubMed:32446810}.
+CC   -!- SUBUNIT: Perivitellin-2 is a dimer of heterodimers held together head-
+CC       to-tail by non-covalent forces. The heterodimer is composed of the
+CC       tachylectin subunit (31 kDa) and the MACPF subunit (67 kDa) that are
+CC       disulfide-linked. {ECO:0000269|PubMed:32446810}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}. Target cell membrane
+CC       {ECO:0000269|PubMed:32231667, ECO:0000269|PubMed:32446810}.
+CC   -!- TISSUE SPECIFICITY: Produced by albumen secretory cells. Found in
+CC       developing eggs. {ECO:0000305|PubMed:29506476}.
+CC   -!- PTM: PV2 is a very high density lipoprotein (VHDL). It contains 3.75%
+CC       of lipids. The major lipid classes are free sterols and phospholipids
+CC       and also have significant quantities of energy-providing
+CC       triacylglycerides and free fatty acids. {ECO:0000250|UniProtKB:P0C8G7}.
+CC   -!- TOXIC DOSE: LD(50) is 250 ug/kg by intraperitoneal injection into mice.
+CC       {ECO:0000269|PubMed:32446810}.
+CC   -!- SIMILARITY: Belongs to the tectonin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; P0DQP0; -.
+DR   SMR; P0DQP0; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045735; F:nutrient reservoir activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR006624; Beta-propeller_rpt_TECPR.
+DR   Pfam; PF19193; Tectonin; 2.
+DR   SMART; SM00706; TECPR; 3.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Enterotoxin; Glycoprotein; Hemagglutinin; Lectin;
+KW   Lipoprotein; Membrane; Neurotoxin; Secreted; Signal; Storage protein;
+KW   Target cell membrane; Target membrane; Toxin.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..286
+FT                   /note="Perivitellin-2 31 kDa subunit"
+FT                   /evidence="ECO:0000305|PubMed:29506476,
+FT                   ECO:0000305|PubMed:30980073"
+FT                   /id="PRO_0000452120"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        161
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000269|PubMed:32446810"
+SQ   SEQUENCE   286 AA;  31562 MW;  A276EC0049810F2C CRC64;
+     MVKKIHFVME RHASIVAFLL AVLALTESQA FTSVKLPRDE HWPYNYVSVG PAGVWAVNRQ
+     NKLFYRTGTY GDNANMGSGW QFKQDGVGQV DVGKDKVGYI NLSGGSLFRI EGISQANPVG
+     GTPKSWEWWT KYIGMSLRED TRFSSRIENQ NKVLTFTFRT CFWASRITNW CFADSSYTET
+     VTAGGSGTWI TKSQLKYKSG TFGNPDTEGG DWILVDSGSF QHVSSGSGVV LAVRSNGELV
+     QRTGITCSLP QGTGWTSMLN SMSRVDTYGT VAWAVDTAGD LYFINL
+//

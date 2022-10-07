@@ -1,0 +1,247 @@
+ID   FIBER_BPSFV             Reviewed;         623 AA.
+AC   Q9XJP3;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2003, sequence version 2.
+DT   29-SEP-2021, entry version 82.
+DE   RecName: Full=Tail spike protein {ECO:0000305};
+DE            Short=TSP;
+DE   AltName: Full=Endo-1,3-alpha-L-rhamnosidase {ECO:0000305};
+DE            EC=3.2.1.- {ECO:0000269|PubMed:12424253, ECO:0000269|PubMed:18462681, ECO:0000269|PubMed:6284};
+DE   AltName: Full=Endorhamnosidase {ECO:0000305};
+OS   Shigella phage Sf6 (Shigella flexneri bacteriophage VI) (Bacteriophage
+OS   SfVI).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Podoviridae; Lederbergvirus.
+OX   NCBI_TaxID=10761;
+OH   NCBI_TaxID=623; Shigella flexneri.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=10439404; DOI=10.1099/13500872-145-7-1649;
+RA   Chua J.E.H., Manning P.A., Morona R.;
+RT   "The Shigella flexneri bacteriophage Sf6 tailspike protein
+RT   (TSP)/endorhamnosidase is related to the bacteriophage P22 TSP and has a
+RT   motif common to exo- and endoglycanases, and C-5 epimerases.";
+RL   Microbiology 145:1649-1659(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], SEQUENCE REVISION TO 240-251, SUBUNIT,
+RP   AND CATALYTIC ACTIVITY.
+RX   PubMed=12424253; DOI=10.1074/jbc.m205294200;
+RA   Freiberg A., Morona R., Van Den Bosch L., Jung C., Behlke J., Carlin N.,
+RA   Seckler R., Baxa U.;
+RT   "The tailspike protein of Shigella phage Sf6: a structural homolog of
+RT   Salmonella phage P22 tailspike protein without sequence similarity in the
+RT   beta-helix domain.";
+RL   J. Biol. Chem. 278:1542-1548(2003).
+RN   [3]
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, FUNCTION, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=6284; DOI=10.1111/j.1432-1033.1976.tb10392.x;
+RA   Iwashita S., Kanegasaki S.;
+RT   "Enzymic and molecular properties of base-plate parts of bacteriophage
+RT   P22.";
+RL   Eur. J. Biochem. 65:87-94(1976).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.25 ANGSTROMS) OF 110-623, FUNCTION, CATALYTIC
+RP   ACTIVITY, SUBUNIT, MUTAGENESIS OF ASP-248; GLU-294; GLU-367 AND ASP-400,
+RP   AND ACTIVE SITE.
+RX   PubMed=18462681; DOI=10.1016/j.str.2008.01.019;
+RA   Mueller J.J., Barbirz S., Heinle K., Freiberg A., Seckler R., Heinemann U.;
+RT   "An intersubunit active site between supercoiled parallel beta helices in
+RT   the trimeric tailspike endorhamnosidase of Shigella flexneri Phage Sf6.";
+RL   Structure 16:766-775(2008).
+CC   -!- FUNCTION: Non-covalently bound to the neck of the phage capsid and
+CC       mediating attachment of the viral particle to host cell-surface
+CC       polysaccharide. It displays endorhamnosidase enzymatic activity,
+CC       hydrolyzing the alpha-1,3-O-glycosidic linkage between rhamnose and
+CC       galactose of the O-antigen polysaccharide.
+CC       {ECO:0000269|PubMed:18462681, ECO:0000305|PubMed:12424253,
+CC       ECO:0000305|PubMed:6284}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.5. {ECO:0000269|PubMed:6284};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000269|PubMed:12424253,
+CC       ECO:0000269|PubMed:18462681}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000269|PubMed:6284}.
+CC   -!- DOMAIN: The active site involves residues located on two different
+CC       subunits. {ECO:0000269|PubMed:18462681}.
+CC   -!- SIMILARITY: Belongs to the P22likevirus tail fiber protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF128887; AAD33394.2; -; Genomic_DNA.
+DR   PDB; 2VBE; X-ray; 1.98 A; A=110-623.
+DR   PDB; 2VBK; X-ray; 1.25 A; A=110-623.
+DR   PDB; 2VBM; X-ray; 2.00 A; A=110-623.
+DR   PDB; 4URR; X-ray; 1.95 A; A/B/C/D/E/F=110-623.
+DR   PDBsum; 2VBE; -.
+DR   PDBsum; 2VBK; -.
+DR   PDBsum; 2VBM; -.
+DR   PDBsum; 4URR; -.
+DR   SMR; Q9XJP3; -.
+DR   DIP; DIP-29798N; -.
+DR   UniLectin; Q9XJP3; -.
+DR   EvolutionaryTrace; Q9XJP3; -.
+DR   GO; GO:0098024; C:virus tail, fiber; IDA:UniProtKB.
+DR   GO; GO:0052775; F:endo-1,3-alpha-L-rhamnosidase activity; IDA:UniProtKB.
+DR   GO; GO:0098995; P:disruption by virus of host envelope lipopolysaccharide during virus entry; IEA:UniProtKB-KW.
+DR   GO; GO:0044409; P:entry into host; IDA:UniProtKB.
+DR   GO; GO:0008152; P:metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IDA:UniProtKB.
+DR   Gene3D; 2.160.20.10; -; 1.
+DR   Gene3D; 2.170.14.10; -; 1.
+DR   InterPro; IPR009093; P22_tailspike_N.
+DR   InterPro; IPR036730; P22_tailspike_N_sf.
+DR   InterPro; IPR024535; Pectate_lyase_SF_prot.
+DR   InterPro; IPR012334; Pectin_lyas_fold.
+DR   InterPro; IPR011050; Pectin_lyase_fold/virulence.
+DR   Pfam; PF09008; Head_binding; 1.
+DR   Pfam; PF12708; Pectate_lyase_3; 1.
+DR   SUPFAM; SSF51126; SSF51126; 1.
+DR   SUPFAM; SSF51327; SSF51327; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure;
+KW   Degradation of host cell envelope components during virus entry;
+KW   Degradation of host lipopolysaccharides during virus entry; Glycosidase;
+KW   Host-virus interaction; Hydrolase; Viral attachment to host cell;
+KW   Viral tail fiber protein; Viral tail protein; Virion;
+KW   Virus entry into host cell.
+FT   CHAIN           1..623
+FT                   /note="Tail spike protein"
+FT                   /id="PRO_0000077758"
+FT   ACT_SITE        367
+FT                   /note="Shared with dimeric partner"
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   ACT_SITE        400
+FT                   /note="Shared with dimeric partner"
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   SITE            248
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   SITE            294
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   MUTAGEN         248
+FT                   /note="D->N: 98.5% loss of enzymatic activity."
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   MUTAGEN         294
+FT                   /note="E->Q: 87% loss of enzymatic activity."
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   MUTAGEN         367
+FT                   /note="E->Q: Almost complete loss of enzymatic activity."
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   MUTAGEN         400
+FT                   /note="D->N: Almost complete loss of enzymatic activity."
+FT                   /evidence="ECO:0000269|PubMed:18462681"
+FT   HELIX           114..123
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   HELIX           126..128
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   HELIX           135..138
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          139..141
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   HELIX           153..157
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   HELIX           163..166
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          171..174
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   HELIX           177..188
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          194..197
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          207..211
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          213..215
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          219..222
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          228..232
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          238..243
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          252..256
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          258..260
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          263..271
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          282..289
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          291..311
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          313..325
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          328..334
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          336..338
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          348..353
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   TURN            358..360
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          367..379
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          381..387
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          390..410
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          413..425
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          434..438
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          448..456
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          467..471
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          478..482
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          487..489
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          491..496
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          501..505
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          507..510
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          512..516
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          520..524
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          526..528
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          530..534
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          542..545
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          547..550
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          553..558
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          565..570
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          579..583
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   HELIX           588..590
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          594..598
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          601..605
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+FT   STRAND          616..622
+FT                   /evidence="ECO:0007829|PDB:2VBK"
+SQ   SEQUENCE   623 AA;  67066 MW;  481FA9C23C349A9B CRC64;
+     MTDIITNVVI GMPSQLFTMA RSFKAVANGK IYIGKIDTDP VNPENQIQVY VENEDGSHVP
+     ASQPIVINAA GYPVYNGQIV KFVTEQGHSM AVYDAYGSQQ FYFQNVLKYD PDQFGPDLIE
+     QLAQSGKYSQ DNTKGDAMIG VKQPLPKAVL RTQHDKNKEA ISILDFGVID DGVTDNYQAI
+     QNAIDAVASL PSGGELFIPA SNQAVGYIVG STLLIPGGVN IRGVGKASQL RAKSGLTGSV
+     LRLSYDSDTI GRYLRNIRVT GNNTCNGIDT NITAEDSVIR QVYGWVFDNV MVNEVETAYL
+     MQGLWHSKFI ACQAGTCRVG LHFLGQCVSV SVSSCHFSRG NYSADESFGI RIQPQTYAWS
+     SEAVRSEAII LDSETMCIGF KNAVYVHDCL DLHMEQLDLD YCGSTGVVIE NVNGGFSFSN
+     SWIAADADGT EQFTGIYFRT PTSTQSHKIV SGVHINTANK NTAANNQSIA IEQSAIFVFV
+     SGCTLTGDEW AVNIVDINEC VSFDKCIFNK PLRYLRSGGV SVTDCYLAGI TEVQKPEGRY
+     NTYRGCSGVP SVNGIINVPV AVGATSGSAA IPNPGNLTYR VRSLFGDPAS SGDKVSVSGV
+     TINVTRPSPV GVALPSMVEY LAI
+//

@@ -1,0 +1,447 @@
+ID   CLC7A_MOUSE             Reviewed;         244 AA.
+AC   Q6QLQ4; E9QPW2; Q8K1L4; Q9JI50;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2012, sequence version 3.
+DT   03-AUG-2022, entry version 135.
+DE   RecName: Full=C-type lectin domain family 7 member A;
+DE   AltName: Full=Beta-glucan receptor {ECO:0000303|PubMed:11544516};
+DE   AltName: Full=C-type lectin superfamily member 12;
+DE   AltName: Full=Dendritic cell-associated C-type lectin 1 {ECO:0000303|PubMed:10779524};
+DE            Short=DC-associated C-type lectin 1 {ECO:0000303|PubMed:10779524};
+DE            Short=Dectin-1 {ECO:0000303|PubMed:10779524};
+DE   AltName: CD_antigen=CD369;
+GN   Name=Clec7a {ECO:0000312|MGI:MGI:1861431};
+GN   Synonyms=Bgr, Clecsf12, Dectin1 {ECO:0000303|PubMed:10779524};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, GLYCOSYLATION,
+RP   AND TISSUE SPECIFICITY.
+RC   STRAIN=BALB/cJ; TISSUE=Dendritic cell;
+RX   PubMed=10779524; DOI=10.1074/jbc.m909512199;
+RA   Ariizumi K., Shen G.-L., Shikano S., Xu S., Ritter R. III, Kumamoto T.,
+RA   Edelbaum D., Morita A., Bergstresser P.R., Takashima A.;
+RT   "Identification of a novel, dendritic cell-associated molecule, dectin-1,
+RT   by subtractive cDNA cloning.";
+RL   J. Biol. Chem. 275:20157-20167(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=11544516; DOI=10.1038/35092620;
+RA   Brown G.D., Gordon S.;
+RT   "Immune recognition. A new receptor for beta-glucans.";
+RL   Nature 413:36-37(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Czech II; TISSUE=Mammary gland;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   FUNCTION, PHOSPHORYLATION, AND TISSUE SPECIFICITY.
+RX   PubMed=12719479; DOI=10.1084/jem.20021787;
+RA   Gantner B.N., Simmons R.M., Canavera S.J., Akira S., Underhill D.M.;
+RT   "Collaborative induction of inflammatory responses by dectin-1 and Toll-
+RT   like receptor 2.";
+RL   J. Exp. Med. 197:1107-1117(2003).
+RN   [6]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND MUTAGENESIS OF TRP-221; HIS-223 AND
+RP   CYS-232.
+RX   PubMed=15213161; DOI=10.1128/iai.72.7.4159-4171.2004;
+RA   Adachi Y., Ishii T., Ikeda Y., Hoshino A., Tamura H., Aketagawa J.,
+RA   Tanaka S., Ohno N.;
+RT   "Characterization of beta-glucan recognition site on C-type lectin, dectin
+RT   1.";
+RL   Infect. Immun. 72:4159-4171(2004).
+RN   [7]
+RP   FUNCTION.
+RX   PubMed=15729357; DOI=10.1038/sj.emboj.7600594;
+RA   Gantner B.N., Simmons R.M., Underhill D.M.;
+RT   "Dectin-1 mediates macrophage recognition of Candida albicans yeast but not
+RT   filaments.";
+RL   EMBO J. 24:1277-1286(2005).
+RN   [8]
+RP   FUNCTION, AND INTERACTION WITH SYK.
+RX   PubMed=15845454; DOI=10.1016/j.immuni.2005.03.004;
+RA   Rogers N.C., Slack E.C., Edwards A.D., Nolte M.A., Schulz O.,
+RA   Schweighoffer E., Williams D.L., Gordon S., Tybulewicz V.L., Brown G.D.,
+RA   Reis e Sousa C.;
+RT   "Syk-dependent cytokine induction by Dectin-1 reveals a novel pattern
+RT   recognition pathway for C type lectins.";
+RL   Immunity 22:507-517(2005).
+RN   [9]
+RP   FUNCTION.
+RX   PubMed=15731053; DOI=10.1128/iai.73.3.1553-1560.2005;
+RA   Viriyakosol S., Fierer J., Brown G.D., Kirkland T.N.;
+RT   "Innate immunity to the pathogenic fungus Coccidioides posadasii is
+RT   dependent on Toll-like receptor 2 and Dectin-1.";
+RL   Infect. Immun. 73:1553-1560(2005).
+RN   [10]
+RP   FUNCTION.
+RX   PubMed=16825490; DOI=10.1182/blood-2006-05-024406;
+RA   Yadav M., Schorey J.S.;
+RT   "The beta-glucan receptor dectin-1 functions together with TLR2 to mediate
+RT   macrophage activation by mycobacteria.";
+RL   Blood 108:3168-3175(2006).
+RN   [11]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=17159984; DOI=10.1038/ni1408;
+RA   Taylor P.R., Tsoni S.V., Willment J.A., Dennehy K.M., Rosas M., Findon H.,
+RA   Haynes K., Steele C., Botto M., Gordon S., Brown G.D.;
+RT   "Dectin-1 is required for beta-glucan recognition and control of fungal
+RT   infection.";
+RL   Nat. Immunol. 8:31-38(2007).
+RN   [12]
+RP   FUNCTION.
+RX   PubMed=27288407; DOI=10.1074/jbc.m116.717157;
+RA   Kralova J., Fabisik M., Pokorna J., Skopcova T., Malissen B., Brdicka T.;
+RT   "The Transmembrane Adaptor Protein SCIMP Facilitates Sustained Dectin-1
+RT   Signaling in Dendritic Cells.";
+RL   J. Biol. Chem. 291:16530-16540(2016).
+RN   [13]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=32358020; DOI=10.4049/jimmunol.1900793;
+RA   Campuzano A., Zhang H., Ostroff G.R., Dos Santos Dias L., Wuethrich M.,
+RA   Klein B.S., Yu J.J., Lara H.H., Lopez-Ribot J.L., Hung C.Y.;
+RT   "CARD9-associated Dectin-1 and Dectin-2 are required for protective
+RT   immunity of a multivalent vaccine against coccidioides posadasii
+RT   infection.";
+RL   J. Immunol. 204:3296-3306(2020).
+RN   [14] {ECO:0007744|PDB:2BPD, ECO:0007744|PDB:2BPE, ECO:0007744|PDB:2BPH, ECO:0007744|PDB:2CL8}
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS) OF 113-244 IN COMPLEX WITH METAL ION
+RP   AND BETA-GLUCAN ANALOG LAMINARIN, METAL-BINDING SITES, SUBUNIT, AND
+RP   DISULFIDE BONDS.
+RX   PubMed=17473009; DOI=10.1110/ps.072791207;
+RA   Brown J., O'Callaghan C.A., Marshall A.S., Gilbert R.J., Siebold C.,
+RA   Gordon S., Brown G.D., Jones E.Y.;
+RT   "Structure of the fungal beta-glucan-binding immune receptor dectin-1:
+RT   implications for function.";
+RL   Protein Sci. 16:1042-1052(2007).
+CC   -!- FUNCTION: Lectin that functions as pattern recognizing receptor (PRR)
+CC       specific for beta-1,3-linked and beta-1,6-linked glucans, which
+CC       constitute cell wall constituents from pathogenic bacteria and fungi
+CC       (PubMed:11544516, PubMed:17159984, PubMed:15213161). Necessary for the
+CC       TLR2-mediated inflammatory response and activation of NF-kappa-B: upon
+CC       beta-glucan binding, recruits SYK via its ITAM motif and promotes a
+CC       signaling cascade that activates some CARD domain-BCL10-MALT1 (CBM)
+CC       signalosomes, leading to the activation of NF-kappa-B and MAP kinase
+CC       p38 (MAPK11, MAPK12, MAPK13 and/or MAPK14) pathways which stimulate
+CC       expression of genes encoding pro-inflammatory cytokines and chemokines
+CC       (PubMed:12719479, PubMed:15731053, PubMed:16825490, PubMed:32358020).
+CC       Enhances cytokine production in macrophages and dendritic cells
+CC       (PubMed:15845454). Mediates production of reactive oxygen species in
+CC       the cell (PubMed:12719479, PubMed:15731053, PubMed:16825490). Mediates
+CC       phagocytosis of C.albicans conidia (PubMed:15729357, PubMed:16825490).
+CC       Binds T-cells in a way that does not involve their surface glycans and
+CC       plays a role in T-cell activation (PubMed:10779524). Stimulates T-cell
+CC       proliferation (PubMed:10779524). Induces phosphorylation of SCIMP after
+CC       binding beta-glucans (PubMed:27288407). {ECO:0000269|PubMed:10779524,
+CC       ECO:0000269|PubMed:11544516, ECO:0000269|PubMed:12719479,
+CC       ECO:0000269|PubMed:15213161, ECO:0000269|PubMed:15729357,
+CC       ECO:0000269|PubMed:15731053, ECO:0000269|PubMed:15845454,
+CC       ECO:0000269|PubMed:16825490, ECO:0000269|PubMed:17159984,
+CC       ECO:0000269|PubMed:27288407, ECO:0000269|PubMed:32358020}.
+CC   -!- SUBUNIT: Homodimer (PubMed:17473009). Interacts with SYK; participates
+CC       in leukocyte activation in presence of fungal pathogens
+CC       (PubMed:15845454). {ECO:0000269|PubMed:15845454,
+CC       ECO:0000269|PubMed:17473009}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:10779524,
+CC       ECO:0000269|PubMed:15213161}; Single-pass type II membrane protein
+CC       {ECO:0000269|PubMed:10779524, ECO:0000269|PubMed:15213161}.
+CC       Note=Enriched on zymosan phagosomes. Enrichment does not depend on
+CC       opsonization.
+CC   -!- TISSUE SPECIFICITY: Detected in spleen (at protein level). Highly
+CC       expressed in dendritic cells, spleen and thymus. Detected in epidermal
+CC       Langerhans cells. Detected in macrophages, liver and lung.
+CC       {ECO:0000269|PubMed:10779524, ECO:0000269|PubMed:11544516,
+CC       ECO:0000269|PubMed:12719479}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:10779524}.
+CC   -!- PTM: Phosphorylated on tyrosine residues in response to beta-glucan
+CC       binding. {ECO:0000269|PubMed:12719479}.
+CC   -!- DISRUPTION PHENOTYPE: Mice were born at the normal Mendelian ratio
+CC       without obvious anatomical defects but are susceptible to infection
+CC       with C.albicans (PubMed:17159984). They show impaired myeloid cell
+CC       activation by fungal particles (PubMed:17159984). Deficient leukocytes
+CC       display impaired responses to fungi, characterized by reduced
+CC       inflammatory cell recruitment after fungal infection, resulting in
+CC       substantially increased fungal burdens and enhanced fungal
+CC       dissemination (PubMed:32358020). {ECO:0000269|PubMed:17159984,
+CC       ECO:0000269|PubMed:32358020}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Mouse recombinant soluble Dectin-1 CTLD from insect cells origin;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_793";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF262985; AAF72710.1; -; mRNA.
+DR   EMBL; AY534909; AAS37670.1; -; mRNA.
+DR   EMBL; AC138620; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC027742; AAH27742.1; -; mRNA.
+DR   PDB; 2BPD; X-ray; 1.50 A; A/B=113-244.
+DR   PDB; 2BPE; X-ray; 2.25 A; A/B=113-244.
+DR   PDB; 2BPH; X-ray; 2.20 A; A/B=113-244.
+DR   PDB; 2CL8; X-ray; 2.80 A; A/B=113-244.
+DR   PDBsum; 2BPD; -.
+DR   PDBsum; 2BPE; -.
+DR   PDBsum; 2BPH; -.
+DR   PDBsum; 2CL8; -.
+DR   AlphaFoldDB; Q6QLQ4; -.
+DR   SMR; Q6QLQ4; -.
+DR   BioGRID; 208119; 1.
+DR   STRING; 10090.ENSMUSP00000107707; -.
+DR   ChEMBL; CHEMBL2034809; -.
+DR   UniLectin; Q6QLQ4; -.
+DR   GlyGen; Q6QLQ4; 2 sites.
+DR   iPTMnet; Q6QLQ4; -.
+DR   PhosphoSitePlus; Q6QLQ4; -.
+DR   MaxQB; Q6QLQ4; -.
+DR   PRIDE; Q6QLQ4; -.
+DR   ProteomicsDB; 283374; -.
+DR   Antibodypedia; 23238; 745 antibodies from 37 providers.
+DR   Ensembl; ENSMUST00000112076; ENSMUSP00000107707; ENSMUSG00000079293.
+DR   MGI; MGI:1861431; Clec7a.
+DR   VEuPathDB; HostDB:ENSMUSG00000079293; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000161161; -.
+DR   InParanoid; Q6QLQ4; -.
+DR   PhylomeDB; Q6QLQ4; -.
+DR   TreeFam; TF336674; -.
+DR   Reactome; R-MMU-5607764; CLEC7A (Dectin-1) signaling.
+DR   ChiTaRS; Clec7a; mouse.
+DR   EvolutionaryTrace; Q6QLQ4; -.
+DR   PRO; PR:Q6QLQ4; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   RNAct; Q6QLQ4; protein.
+DR   Bgee; ENSMUSG00000079293; Expressed in granulocyte and 121 other tissues.
+DR   ExpressionAtlas; Q6QLQ4; baseline and differential.
+DR   Genevisible; Q6QLQ4; MM.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0001872; F:(1->3)-beta-D-glucan binding; IDA:UniProtKB.
+DR   GO; GO:0001874; F:(1->3)-beta-D-glucan immune receptor activity; IDA:MGI.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001846; F:opsonin binding; IDA:MGI.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; IDA:ARUK-UCL.
+DR   GO; GO:0030247; F:polysaccharide binding; IDA:MGI.
+DR   GO; GO:0061760; P:antifungal innate immune response; IDA:ARUK-UCL.
+DR   GO; GO:0001775; P:cell activation; IDA:ARUK-UCL.
+DR   GO; GO:0002752; P:cell surface pattern recognition receptor signaling pathway; IDA:MGI.
+DR   GO; GO:0098609; P:cell-cell adhesion; IDA:MGI.
+DR   GO; GO:0071226; P:cellular response to molecule of fungal origin; IDA:UniProtKB.
+DR   GO; GO:0016046; P:detection of fungus; IBA:GO_Central.
+DR   GO; GO:0032491; P:detection of molecule of fungal origin; IDA:UniProtKB.
+DR   GO; GO:0001879; P:detection of yeast; IDA:ARUK-UCL.
+DR   GO; GO:0006954; P:inflammatory response; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IDA:UniProtKB.
+DR   GO; GO:0002366; P:leukocyte activation involved in immune response; IDA:UniProtKB.
+DR   GO; GO:0006911; P:phagocytosis, engulfment; IDA:MGI.
+DR   GO; GO:0006910; P:phagocytosis, recognition; IDA:MGI.
+DR   GO; GO:0050850; P:positive regulation of calcium-mediated signaling; IDA:ARUK-UCL.
+DR   GO; GO:0030335; P:positive regulation of cell migration; IBA:GO_Central.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IBA:GO_Central.
+DR   GO; GO:0002720; P:positive regulation of cytokine production involved in immune response; IDA:UniProtKB.
+DR   GO; GO:1900017; P:positive regulation of cytokine production involved in inflammatory response; IBA:GO_Central.
+DR   GO; GO:0002732; P:positive regulation of dendritic cell cytokine production; IDA:UniProtKB.
+DR   GO; GO:0051091; P:positive regulation of DNA-binding transcription factor activity; IMP:ARUK-UCL.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-kappaB signaling; IDA:UniProtKB.
+DR   GO; GO:0032733; P:positive regulation of interleukin-10 production; IMP:ARUK-UCL.
+DR   GO; GO:0032743; P:positive regulation of interleukin-2 production; IMP:ARUK-UCL.
+DR   GO; GO:0032747; P:positive regulation of interleukin-23 production; IMP:ARUK-UCL.
+DR   GO; GO:0032755; P:positive regulation of interleukin-6 production; IMP:ARUK-UCL.
+DR   GO; GO:0051712; P:positive regulation of killing of cells of another organism; IBA:GO_Central.
+DR   GO; GO:0051251; P:positive regulation of lymphocyte activation; IBA:GO_Central.
+DR   GO; GO:0051092; P:positive regulation of NF-kappaB transcription factor activity; IDA:ARUK-UCL.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; IDA:UniProtKB.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; IDA:MGI.
+DR   GO; GO:0032874; P:positive regulation of stress-activated MAPK cascade; IDA:UniProtKB.
+DR   GO; GO:2000318; P:positive regulation of T-helper 17 type immune response; IMP:UniProtKB.
+DR   GO; GO:0032760; P:positive regulation of tumor necrosis factor production; IDA:MGI.
+DR   GO; GO:0090303; P:positive regulation of wound healing; IBA:GO_Central.
+DR   GO; GO:0070884; P:regulation of calcineurin-NFAT signaling cascade; IMP:ARUK-UCL.
+DR   GO; GO:0043122; P:regulation of I-kappaB kinase/NF-kappaB signaling; IDA:ARUK-UCL.
+DR   GO; GO:0002238; P:response to molecule of fungal origin; IDA:MGI.
+DR   GO; GO:0001878; P:response to yeast; IDA:ARUK-UCL.
+DR   GO; GO:0002223; P:stimulatory C-type lectin receptor signaling pathway; IDA:ARUK-UCL.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR042808; CLEC7A.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   PANTHER; PTHR47218; PTHR47218; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Disulfide bond; Glycoprotein; Immunity;
+KW   Inflammatory response; Innate immunity; Lectin; Membrane; Metal-binding;
+KW   Phosphoprotein; Receptor; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..244
+FT                   /note="C-type lectin domain family 7 member A"
+FT                   /id="PRO_0000269493"
+FT   TOPO_DOM        1..49
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        50..70
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        71..244
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          126..241
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          21..41
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          71..113
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           15..18
+FT                   /note="ITAM-like"
+FT   COMPBIAS        74..100
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         145..152
+FT                   /ligand="(1,3-beta-D-glucosyl)n"
+FT                   /ligand_id="ChEBI:CHEBI:37671"
+FT                   /evidence="ECO:0000305|PubMed:17473009,
+FT                   ECO:0007744|PDB:2CL8"
+FT   BINDING         156
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000269|PubMed:17473009,
+FT                   ECO:0007744|PDB:2BPE, ECO:0007744|PDB:2BPH,
+FT                   ECO:0007744|PDB:2CL8"
+FT   BINDING         158
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000269|PubMed:17473009,
+FT                   ECO:0007744|PDB:2BPE, ECO:0007744|PDB:2BPH,
+FT                   ECO:0007744|PDB:2CL8"
+FT   BINDING         162
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000269|PubMed:17473009,
+FT                   ECO:0007744|PDB:2BPE, ECO:0007744|PDB:2BPH,
+FT                   ECO:0007744|PDB:2CL8"
+FT   BINDING         194
+FT                   /ligand="(1,3-beta-D-glucosyl)n"
+FT                   /ligand_id="ChEBI:CHEBI:37671"
+FT                   /evidence="ECO:0000305|PubMed:17473009,
+FT                   ECO:0007744|PDB:2CL8"
+FT   BINDING         241
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000269|PubMed:17473009,
+FT                   ECO:0007744|PDB:2BPE, ECO:0007744|PDB:2BPH,
+FT                   ECO:0007744|PDB:2CL8"
+FT   CARBOHYD        185
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        233
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        119..130
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:17473009"
+FT   DISULFID        147..240
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:17473009"
+FT   DISULFID        219..232
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040,
+FT                   ECO:0000269|PubMed:17473009"
+FT   MUTAGEN         221
+FT                   /note="W->A: Loss of glucan binding. Abolishes activation
+FT                   of NF-kappa-B."
+FT                   /evidence="ECO:0000269|PubMed:15213161"
+FT   MUTAGEN         223
+FT                   /note="H->A: Loss of glucan binding. Abolishes activation
+FT                   of NF-kappa-B."
+FT                   /evidence="ECO:0000269|PubMed:15213161"
+FT   MUTAGEN         232
+FT                   /note="C->A: Abolishes cell surface expression."
+FT                   /evidence="ECO:0000269|PubMed:15213161"
+FT   CONFLICT        37
+FT                   /note="Q -> R (in Ref. 1; AAF72710, 2; AAS37670 and 4;
+FT                   AAH27742)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        68..71
+FT                   /note="GEYG -> AFWR (in Ref. 1; AAF72710, 2; AAS37670 and
+FT                   4; AAH27742)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        83
+FT                   /note="N -> S (in Ref. 2; AAS37670)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        85
+FT                   /note="L -> P (in Ref. 4; AAH27742)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        118
+FT                   /note="P -> S (in Ref. 1; AAF72710 and 2; AAS37670)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        124
+FT                   /note="I -> T (in Ref. 4; AAH27742)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        174..176
+FT                   /note="RIN -> HIT (in Ref. 4; AAH27742)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        209..210
+FT                   /note="TA -> AV (in Ref. 2; AAS37670)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        210
+FT                   /note="A -> V (in Ref. 1; AAF72710)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          124..126
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   STRAND          129..138
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   HELIX           140..149
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   HELIX           160..170
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   HELIX           171..173
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   STRAND          176..183
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   STRAND          185..189
+FT                   /evidence="ECO:0007829|PDB:2BPE"
+FT   STRAND          201..203
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   HELIX           212..214
+FT                   /evidence="ECO:0007829|PDB:2BPE"
+FT   STRAND          219..223
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   STRAND          226..230
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+FT   STRAND          236..242
+FT                   /evidence="ECO:0007829|PDB:2BPD"
+SQ   SEQUENCE   244 AA;  27420 MW;  C9435DD135D2F122 CRC64;
+     MKYHSHIENL DEDGYTQLDF STQDIHKRPR GSEKGSQAPS SPWRPIAVGL GILCFVVVVV
+     AAVLGALGEY GHNSGRNPEE KDNFLSRNKE NHKPTESSLD EKVAPSKASQ TTGGFSQPCL
+     PNWIMHGKSC YLFSFSGNSW YGSKRHCSQL GAHLLKIDNS KEFEFIESQT SSHRINAFWI
+     GLSRNQSEGP WFWEDGSAFF PNSFQVRNTA PQESLLHNCV WIHGSEVYNQ ICNTSSYSIC
+     EKEL
+//

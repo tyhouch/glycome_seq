@@ -1,0 +1,139 @@
+ID   SAMP_BOVIN              Reviewed;         224 AA.
+AC   Q3T004;
+DT   01-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2005, sequence version 1.
+DT   03-AUG-2022, entry version 101.
+DE   RecName: Full=Serum amyloid P-component;
+DE            Short=SAP;
+DE   Flags: Precursor;
+GN   Name=APCS;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Testis;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homopentamer. Pentraxin (or pentaxin) have a discoid
+CC       arrangement of 5 non-covalently bound subunits.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the pentraxin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC102623; AAI02624.1; -; mRNA.
+DR   RefSeq; NP_001029638.1; NM_001034466.2.
+DR   AlphaFoldDB; Q3T004; -.
+DR   SMR; Q3T004; -.
+DR   STRING; 9913.ENSBTAP00000026133; -.
+DR   PaxDb; Q3T004; -.
+DR   PRIDE; Q3T004; -.
+DR   Ensembl; ENSBTAT00000026133; ENSBTAP00000026133; ENSBTAG00000019616.
+DR   GeneID; 514488; -.
+DR   KEGG; bta:514488; -.
+DR   CTD; 325; -.
+DR   VEuPathDB; HostDB:ENSBTAG00000019616; -.
+DR   VGNC; VGNC:26009; APCS.
+DR   eggNOG; ENOG502S201; Eukaryota.
+DR   GeneTree; ENSGT01050000244822; -.
+DR   HOGENOM; CLU_032051_2_0_1; -.
+DR   InParanoid; Q3T004; -.
+DR   OMA; GFDKSQS; -.
+DR   OrthoDB; 1088298at2759; -.
+DR   TreeFam; TF330208; -.
+DR   Proteomes; UP000009136; Chromosome 3.
+DR   Bgee; ENSBTAG00000019616; Expressed in liver and 21 other tissues.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:Ensembl.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001849; F:complement component C1q complex binding; IBA:GO_Central.
+DR   GO; GO:0042802; F:identical protein binding; IEA:Ensembl.
+DR   GO; GO:0046790; F:virion binding; IEA:Ensembl.
+DR   GO; GO:0045087; P:innate immune response; IBA:GO_Central.
+DR   GO; GO:0044869; P:negative regulation by host of viral exo-alpha-sialidase activity; IEA:Ensembl.
+DR   GO; GO:0044871; P:negative regulation by host of viral glycoprotein metabolic process; IEA:Ensembl.
+DR   GO; GO:1903016; P:negative regulation of exo-alpha-sialidase activity; IEA:Ensembl.
+DR   GO; GO:0045656; P:negative regulation of monocyte differentiation; IEA:Ensembl.
+DR   GO; GO:0046597; P:negative regulation of viral entry into host cell; IEA:Ensembl.
+DR   CDD; cd00152; PTX; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR030476; Pentaxin_CS.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00289; PTX_1; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   2: Evidence at transcript level;
+KW   Amyloid; Calcium; Disulfide bond; Glycoprotein; Lectin; Metal-binding;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..224
+FT                   /note="Serum amyloid P-component"
+FT                   /id="PRO_0000342391"
+FT   DOMAIN          24..224
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         77
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         78
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         155
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         155
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         156
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         157
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         157
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         167
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        51
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        166
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        55..114
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+SQ   SEQUENCE   224 AA;  25183 MW;  7A3A69BCA9DB423F CRC64;
+     MNKLMSWVSV LIILPEAFAQ TDLRGKVFVF PRESSTDHVT LITKLEKPLK NLTLCLRAYS
+     DLSRGYSLFS YNIHSKDNEL LVFKNGIGEY SLYIGKTKVT VRATEKFPSP VHICTSWESS
+     TGIAEFWING KPLVKRGLKQ GYAVGAHPKI VLGQEQDSYG GGFDKNQSFM GEIGDLYMWD
+     SVLSPEEILL VYQGSSSISP TILDWQALKY EIKGYVIVKP MVWG
+//

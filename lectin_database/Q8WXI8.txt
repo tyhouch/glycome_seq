@@ -1,0 +1,321 @@
+ID   CLC4D_HUMAN             Reviewed;         215 AA.
+AC   Q8WXI8; Q8N5J5;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 2.
+DT   03-AUG-2022, entry version 148.
+DE   RecName: Full=C-type lectin domain family 4 member D;
+DE   AltName: Full=C-type lectin superfamily member 8;
+DE   AltName: Full=C-type lectin-like receptor 6;
+DE            Short=CLEC-6;
+DE   AltName: Full=Dendritic cell-associated C-type lectin 3 {ECO:0000303|PubMed:23911656};
+DE            Short=DC-associated C-type lectin 3 {ECO:0000303|PubMed:23911656};
+DE            Short=Dectin-3 {ECO:0000303|PubMed:23911656};
+DE   AltName: CD_antigen=CD368;
+GN   Name=CLEC4D {ECO:0000312|HGNC:HGNC:14554};
+GN   Synonyms=CLECSF8 {ECO:0000303|PubMed:14971047}, MCL
+GN   {ECO:0000303|PubMed:23602766, ECO:0000303|PubMed:24101491};
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=14971047; DOI=10.1002/eji.200324230;
+RA   Arce I., Martinez-Munoz L., Roda-Navarro P., Fernandez-Ruiz E.;
+RT   "The human C-type lectin CLECSF8 is a novel monocyte/macrophage endocytic
+RT   receptor.";
+RL   Eur. J. Immunol. 34:210-220(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Macrophage;
+RX   PubMed=15368084; DOI=10.1007/s00251-004-0714-x;
+RA   Flornes L.M., Bryceson Y.T., Spurkland A., Lorentzen J.C., Dissen E.,
+RA   Fossum S.;
+RT   "Identification of lectin-like receptors expressed by antigen presenting
+RT   cells and neutrophils and their mapping to a novel gene complex.";
+RL   Immunogenetics 56:506-517(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT GLY-32.
+RA   Colonna M.;
+RT   "C-type lectin-like receptor.";
+RL   Submitted (JUL-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT GLY-32.
+RC   TISSUE=Peripheral blood;
+RA   Ma J., Liew C.-C.;
+RL   Submitted (MAY-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Blood;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   FUNCTION.
+RX   PubMed=23602766; DOI=10.1016/j.immuni.2013.03.010;
+RA   Miyake Y., Toyonaga K., Mori D., Kakuta S., Hoshino Y., Oyamada A.,
+RA   Yamada H., Ono K., Suyama M., Iwakura Y., Yoshikai Y., Yamasaki S.;
+RT   "C-type lectin MCL is an FcRgamma-coupled receptor that mediates the
+RT   adjuvanticity of mycobacterial cord factor.";
+RL   Immunity 38:1050-1062(2013).
+RN   [7]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INTERACTION WITH CLEC6A.
+RX   PubMed=23911656; DOI=10.1016/j.immuni.2013.05.017;
+RA   Zhu L.L., Zhao X.Q., Jiang C., You Y., Chen X.P., Jiang Y.Y., Jia X.M.,
+RA   Lin X.;
+RT   "C-type lectin receptors Dectin-3 and Dectin-2 form a heterodimeric
+RT   pattern-recognition receptor for host defense against fungal infection.";
+RL   Immunity 39:324-334(2013).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.29 ANGSTROMS) OF 61-215 IN COMPLEX WITH CALCIUM,
+RP   AND MUTAGENESIS OF GLU-173 AND ASP-175.
+RX   PubMed=24101491; DOI=10.1073/pnas.1312649110;
+RA   Furukawa A., Kamishikiryo J., Mori D., Toyonaga K., Okabe Y., Toji A.,
+RA   Kanda R., Miyake Y., Ose T., Yamasaki S., Maenaka K.;
+RT   "Structural analysis for glycolipid recognition by the C-type lectins
+RT   Mincle and MCL.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 110:17438-17443(2013).
+CC   -!- FUNCTION: Calcium-dependent lectin that acts as a pattern recognition
+CC       receptor (PRR) of the innate immune system: recognizes damage-
+CC       associated molecular patterns (DAMPs) of pathogen-associated molecular
+CC       patterns (PAMPs) of bacteria and fungi (PubMed:23602766,
+CC       PubMed:23911656). The PAMPs include alpha-mannans on C.albicans hypheas
+CC       and mycobacterial trehalose 6,6'-dimycolate (TDM) (PubMed:23602766,
+CC       PubMed:23911656). Interacts with signaling adapter Fc receptor gamma
+CC       chain/FCER1G, likely via CLEC4E, to form a functional complex in
+CC       myeloid cells (By similarity). Binding of mycobacterial TDM or
+CC       C.albicans alpha-mannans to this receptor complex leads to
+CC       phosphorylation of the immunoreceptor tyrosine-based activation motif
+CC       (ITAM) of FCER1G, triggering activation of SYK, CARD9 and NF-kappa-B,
+CC       consequently driving maturation of antigen-presenting cells and shaping
+CC       antigen-specific priming of T-cells toward effector T-helper 1 and T-
+CC       helper 17 cell subtypes (PubMed:23602766, PubMed:23911656). The
+CC       heterodimer formed with CLEC6A is active against fungal infection
+CC       (PubMed:23911656). Functions as an endocytic receptor
+CC       (PubMed:14971047). May be involved in antigen uptake at the site of
+CC       infection, either for clearance of the antigen, or for processing and
+CC       further presentation to T-cells (PubMed:14971047).
+CC       {ECO:0000250|UniProtKB:Q69FH1, ECO:0000269|PubMed:14971047,
+CC       ECO:0000269|PubMed:23602766, ECO:0000269|PubMed:23911656}.
+CC   -!- SUBUNIT: Heterodimer with CLEC4E; disulfide-linked (By similarity).
+CC       CLEC4E acts as a bridge for interaction between CLEC4D and FCER1G to
+CC       form a functional complex (By similarity). Heterodimer with CLEC6A;
+CC       this heterodimer forms a pattern recognition receptor (PRR) against
+CC       fungal infection (PubMed:23911656). {ECO:0000250|UniProtKB:Q69FH1,
+CC       ECO:0000269|PubMed:23911656}.
+CC   -!- INTERACTION:
+CC       Q8WXI8; P35609: ACTN2; NbExp=3; IntAct=EBI-12703404, EBI-77797;
+CC       Q8WXI8; Q86W74-2: ANKRD46; NbExp=3; IntAct=EBI-12703404, EBI-12109402;
+CC       Q8WXI8; Q8N5M9: JAGN1; NbExp=3; IntAct=EBI-12703404, EBI-10266796;
+CC       Q8WXI8; Q8N966: ZDHHC22; NbExp=3; IntAct=EBI-12703404, EBI-10268111;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:23911656};
+CC       Single-pass type II membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed weakly in peripheral blood leukocytes,
+CC       bone marrow and spleen. Expression is confined mostly in monocytes and
+CC       macrophage and seems to be up-regulated by IL-6, IL-10, TNF-alpha and
+CC       IFN-gamma. {ECO:0000269|PubMed:14971047}.
+CC   -!- INDUCTION: By autocrine inflammatory stimuli.
+CC       {ECO:0000269|PubMed:14971047}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=MCL;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_hum_Ctlect_365";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY297446; AAQ63173.1; -; mRNA.
+DR   EMBL; AY486482; AAS59161.1; -; mRNA.
+DR   EMBL; AY486483; AAS59162.1; -; mRNA.
+DR   EMBL; AF411850; AAL37713.1; -; mRNA.
+DR   EMBL; AY115592; AAM75389.1; -; mRNA.
+DR   EMBL; BC032313; AAH32313.1; -; mRNA.
+DR   CCDS; CCDS8593.1; -.
+DR   RefSeq; NP_525126.2; NM_080387.4.
+DR   RefSeq; XP_011518934.1; XM_011520632.2.
+DR   PDB; 2LS8; NMR; -; A=84-215.
+DR   PDB; 3WHD; X-ray; 2.29 A; A/C=61-215.
+DR   PDBsum; 2LS8; -.
+DR   PDBsum; 3WHD; -.
+DR   AlphaFoldDB; Q8WXI8; -.
+DR   BMRB; Q8WXI8; -.
+DR   SMR; Q8WXI8; -.
+DR   BioGRID; 130719; 261.
+DR   IntAct; Q8WXI8; 4.
+DR   STRING; 9606.ENSP00000299665; -.
+DR   UniLectin; Q8WXI8; -.
+DR   GlyGen; Q8WXI8; 3 sites.
+DR   iPTMnet; Q8WXI8; -.
+DR   PhosphoSitePlus; Q8WXI8; -.
+DR   BioMuta; CLEC4D; -.
+DR   DMDM; 73916933; -.
+DR   MassIVE; Q8WXI8; -.
+DR   PaxDb; Q8WXI8; -.
+DR   PeptideAtlas; Q8WXI8; -.
+DR   PRIDE; Q8WXI8; -.
+DR   ABCD; Q8WXI8; 1 sequenced antibody.
+DR   Antibodypedia; 1467; 290 antibodies from 30 providers.
+DR   DNASU; 338339; -.
+DR   Ensembl; ENST00000299665.3; ENSP00000299665.2; ENSG00000166527.8.
+DR   GeneID; 338339; -.
+DR   KEGG; hsa:338339; -.
+DR   MANE-Select; ENST00000299665.3; ENSP00000299665.2; NM_080387.5; NP_525126.2.
+DR   UCSC; uc001qun.4; human.
+DR   CTD; 338339; -.
+DR   DisGeNET; 338339; -.
+DR   GeneCards; CLEC4D; -.
+DR   HGNC; HGNC:14554; CLEC4D.
+DR   HPA; ENSG00000166527; Tissue enriched (bone).
+DR   MIM; 609964; gene.
+DR   neXtProt; NX_Q8WXI8; -.
+DR   OpenTargets; ENSG00000166527; -.
+DR   PharmGKB; PA134916109; -.
+DR   VEuPathDB; HostDB:ENSG00000166527; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000162400; -.
+DR   HOGENOM; CLU_049894_7_5_1; -.
+DR   InParanoid; Q8WXI8; -.
+DR   OMA; WAWNDVP; -.
+DR   OrthoDB; 1269095at2759; -.
+DR   PhylomeDB; Q8WXI8; -.
+DR   TreeFam; TF333341; -.
+DR   PathwayCommons; Q8WXI8; -.
+DR   Reactome; R-HSA-5621480; Dectin-2 family.
+DR   Reactome; R-HSA-6798695; Neutrophil degranulation.
+DR   SignaLink; Q8WXI8; -.
+DR   BioGRID-ORCS; 338339; 11 hits in 1071 CRISPR screens.
+DR   GenomeRNAi; 338339; -.
+DR   Pharos; Q8WXI8; Tbio.
+DR   PRO; PR:Q8WXI8; -.
+DR   Proteomes; UP000005640; Chromosome 12.
+DR   RNAct; Q8WXI8; protein.
+DR   Bgee; ENSG00000166527; Expressed in bone marrow and 92 other tissues.
+DR   ExpressionAtlas; Q8WXI8; baseline and differential.
+DR   Genevisible; Q8WXI8; HS.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0101003; C:ficolin-1-rich granule membrane; TAS:Reactome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0035579; C:specific granule membrane; TAS:Reactome.
+DR   GO; GO:0070821; C:tertiary granule membrane; TAS:Reactome.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0034987; F:immunoglobulin receptor binding; IEA:Ensembl.
+DR   GO; GO:0005537; F:mannose binding; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038187; F:pattern recognition receptor activity; IDA:UniProtKB.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0061760; P:antifungal innate immune response; IDA:UniProtKB.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:Ensembl.
+DR   GO; GO:0038094; P:Fc-gamma receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0006955; P:immune response; IBA:GO_Central.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-kappaB signaling; IEA:Ensembl.
+DR   GO; GO:0030887; P:positive regulation of myeloid dendritic cell activation; ISS:UniProtKB.
+DR   GO; GO:0002292; P:T cell differentiation involved in immune response; IEA:Ensembl.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Adaptive immunity; Calcium; Cell membrane; Disulfide bond;
+KW   Glycoprotein; Immunity; Innate immunity; Lectin; Membrane; Metal-binding;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..215
+FT                   /note="C-type lectin domain family 4 member D"
+FT                   /id="PRO_0000046616"
+FT   TOPO_DOM        1..17
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        18..38
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        39..215
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          91..208
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   BINDING         173
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:24101491"
+FT   BINDING         175
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:24101491"
+FT   BINDING         195
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:24101491"
+FT   BINDING         196
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000269|PubMed:24101491"
+FT   CARBOHYD        45
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        102
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        111
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        84..95
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        112..207
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        182..199
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VARIANT         32
+FT                   /note="S -> G (in dbSNP:rs4304840)"
+FT                   /evidence="ECO:0000269|Ref.3, ECO:0000269|Ref.4"
+FT                   /id="VAR_021261"
+FT   MUTAGEN         173
+FT                   /note="E->Q: No effect on already low affinity binding to
+FT                   trehalose-6,6'-dimycolate."
+FT                   /evidence="ECO:0000269|PubMed:24101491"
+FT   MUTAGEN         175
+FT                   /note="D->N: No effect on already low affinity binding to
+FT                   trehalose-6,6'-dimycolate."
+FT                   /evidence="ECO:0000269|PubMed:24101491"
+FT   STRAND          63..67
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          81..85
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          88..91
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          94..103
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   HELIX           105..113
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   TURN            114..116
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          118..120
+FT                   /evidence="ECO:0007829|PDB:2LS8"
+FT   HELIX           125..132
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          141..147
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          150..152
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          181..187
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          189..198
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          203..210
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+FT   STRAND          212..214
+FT                   /evidence="ECO:0007829|PDB:3WHD"
+SQ   SEQUENCE   215 AA;  24704 MW;  938B68661AAC175B CRC64;
+     MGLEKPQSKL EGGMHPQLIP SVIAVVFILL LSVCFIASCL VTHHNFSRCK RGTGVHKLEH
+     HAKLKCIKEK SELKSAEGST WNCCPIDWRA FQSNCYFPLT DNKTWAESER NCSGMGAHLM
+     TISTEAEQNF IIQFLDRRLS YFLGLRDENA KGQWRWVDQT PFNPRRVFWH KNEPDNSQGE
+     NCVVLVYNQD KWAWNDVPCN FEASRICKIP GTTLN
+//

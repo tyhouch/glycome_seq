@@ -1,0 +1,90 @@
+ID   A0MK70_9ADEN            Unreviewed;       363 AA.
+AC   A0MK70;
+DT   12-DEC-2006, integrated into UniProtKB/TrEMBL.
+DT   12-DEC-2006, sequence version 1.
+DT   19-JAN-2022, entry version 54.
+DE   SubName: Full=Fiber-1 {ECO:0000313|EMBL:ABK35058.1};
+OS   Human adenovirus 52.
+OC   Viruses; Varidnaviria; Bamfordvirae; Preplasmiviricota; Tectiliviricetes;
+OC   Rowavirales; Adenoviridae; Mastadenovirus.
+OX   NCBI_TaxID=332179 {ECO:0000313|EMBL:ABK35058.1, ECO:0000313|Proteomes:UP000109192};
+RN   [1] {ECO:0000313|EMBL:ABK35058.1, ECO:0000313|Proteomes:UP000109192}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=T03-2244 {ECO:0000313|EMBL:ABK35058.1};
+RX   PubMed=17360747; DOI=10.1128/JVI.02650-06;
+RA   Jones M.S., Harrach B., Ganac R.D., Gozum M.M., Dela Cruz W.P., Riedel B.,
+RA   Pan C., Delwart E.L., Schnurr D.P.;
+RT   "New adenovirus species found in a patient presenting with
+RT   gastroenteritis.";
+RL   J. Virol. 81:5978-5984(2007).
+RN   [2] {ECO:0007829|PDB:4XL8}
+RP   X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) OF 183-363.
+RX   PubMed=25674795; DOI=10.1371/journal.ppat.1004657;
+RA   Lenman A., Liaci A.M., Liu Y., Ardahl C., Rajan A., Nilsson E.,
+RA   Bradford W., Kaeshammer L., Jones M.S., Frangsmyr L., Feizi T., Stehle T.,
+RA   Arnberg N.;
+RT   "Human adenovirus 52 uses sialic acid-containing glycoproteins and the
+RT   coxsackie and adenovirus receptor for binding to target cells.";
+RL   PLoS Pathog. 11:e1004657-e1004657(2015).
+RN   [3] {ECO:0007829|PDB:6G47}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 183-363.
+RX   PubMed=29674446; DOI=10.1073/pnas.1716900115;
+RA   Lenman A., Liaci A.M., Liu Y., Frangsmyr L., Frank M., Blaum B.S., Chai W.,
+RA   Podgorski I.I., Harrach B., Benko M., Feizi T., Stehle T., Arnberg N.;
+RT   "Polysialic acid is a cellular receptor for human adenovirus 52.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 115:E4264-E4273(2018).
+CC   -!- SUBCELLULAR LOCATION: Host nucleus {ECO:0000256|ARBA:ARBA00004147}.
+CC       Nucleus {ECO:0000256|ARBA:ARBA00004123}. Virion
+CC       {ECO:0000256|ARBA:ARBA00004328}.
+CC   -!- SIMILARITY: Belongs to the adenoviridae fiber family.
+CC       {ECO:0000256|ARBA:ARBA00006685}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ923122; ABK35058.1; -; Genomic_DNA.
+DR   PDB; 4XL8; X-ray; 1.65 A; A/B/C=183-363.
+DR   PDB; 6G47; X-ray; 1.50 A; A/B/C=183-363.
+DR   PDBsum; 4XL8; -.
+DR   PDBsum; 6G47; -.
+DR   SMR; A0MK70; -.
+DR   UniLectin; A0MK70; -.
+DR   Proteomes; UP000109192; Genome.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019028; C:viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0098671; P:adhesion receptor-mediated virion attachment to host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.90.10; -; 1.
+DR   InterPro; IPR000931; Adeno_fibre.
+DR   InterPro; IPR000978; Adeno_fibre_knob.
+DR   InterPro; IPR000939; Adenobir_fibre_prot_rpt/shaft.
+DR   InterPro; IPR008982; Adenovirus_pIV-like_att.
+DR   InterPro; IPR009013; Attachment_protein_shaft_sf.
+DR   Pfam; PF00541; Adeno_knob; 1.
+DR   Pfam; PF00608; Adeno_shaft; 3.
+DR   PRINTS; PR00307; ADENOVSFIBRE.
+DR   SUPFAM; SSF49835; SSF49835; 1.
+DR   SUPFAM; SSF51225; SSF51225; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4XL8, ECO:0007829|PDB:6G47};
+KW   Capsid protein {ECO:0000256|ARBA:ARBA00022561};
+KW   Host nucleus {ECO:0000256|ARBA:ARBA00022562};
+KW   Host-virus interaction {ECO:0000256|ARBA:ARBA00022581};
+KW   Late protein {ECO:0000256|ARBA:ARBA00022921};
+KW   Viral attachment to host adhesion receptor {ECO:0000256|ARBA:ARBA00023165};
+KW   Viral attachment to host cell {ECO:0000256|ARBA:ARBA00022804};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844};
+KW   Virus entry into host cell {ECO:0000256|ARBA:ARBA00023296}.
+FT   DOMAIN          197..343
+FT                   /note="Adeno_knob"
+FT                   /evidence="ECO:0000259|Pfam:PF00541"
+SQ   SEQUENCE   363 AA;  39549 MW;  903AC21E63CC4BC4 CRC64;
+     MKRTRVDEDF NPVYPYDTTT TPAVPFISPP FVNSDGLQEN PPGVLSLRIA KPLYFDMERK
+     LALSLGRGLT ITANGQLEST QSVQTNPPLT VTNNNTLILR YSSPLILTDN NLTVGFSSPL
+     RVIDNKLTFT FTSPLRYENE TLTFNYTEPL TLMNSNLALN VNSSKGLRVD GGSLGTNLSP
+     DLRFNSSGAI AFGIQTLWTP PTSNPNCTVY TESDSLLSLC LTKCGAHVLG SVSLTGVAGT
+     MTNMAETSLA IEFTFDDTGK LLHSPLVNNT FSIRQGDSPA SNPTYNALAF MPNSTLYARG
+     GSGEPRNNYY VQTYLRGNVQ RPITLTVTFN SAATGYSLSF KWTAVVREKF AAPATSFCYI
+     TEQ
+//

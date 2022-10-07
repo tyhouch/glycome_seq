@@ -1,0 +1,60 @@
+ID   D0VX17_PETMA            Unreviewed;       170 AA.
+AC   D0VX17;
+DT   15-DEC-2009, integrated into UniProtKB/TrEMBL.
+DT   15-DEC-2009, sequence version 1.
+DT   29-SEP-2021, entry version 34.
+DE   SubName: Full=Variable lymphocyte receptor VLRB.2D {ECO:0000313|PDB:3G39};
+GN   Name=vlr {ECO:0000313|PDB:3G39};
+OS   Petromyzon marinus (Sea lamprey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Cyclostomata;
+OC   Hyperoartia; Petromyzontiformes; Petromyzontidae; Petromyzon.
+OX   NCBI_TaxID=7757 {ECO:0000313|PDB:3G39};
+RN   [1] {ECO:0000313|PDB:3G39, ECO:0007829|PDB:3G39}
+RP   X-RAY CRYSTALLOGRAPHY (1.55 ANGSTROMS), AND ACTIVE SITE.
+RX   PubMed=19543291; DOI=10.1038/nsmb.1619;
+RA   Velikovsky C.A., Deng L., Tasumi S., Iyer L.M., Kerzic M.C., Aravind L.,
+RA   Pancer Z., Mariuzza R.A.;
+RT   "Structure of a lamprey variable lymphocyte receptor in complex with a
+RT   protein antigen.";
+RL   Nat. Struct. Mol. Biol. 16:725-730(2009).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 3G39; X-ray; 1.55 A; A=1-170.
+DR   PDBsum; 3G39; -.
+DR   SMR; D0VX17; -.
+DR   UniLectin; D0VX17; -.
+DR   EvolutionaryTrace; D0VX17; -.
+DR   Gene3D; 3.80.10.10; -; 1.
+DR   InterPro; IPR001611; Leu-rich_rpt.
+DR   InterPro; IPR003591; Leu-rich_rpt_typical-subtyp.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   InterPro; IPR000372; LRRNT.
+DR   InterPro; IPR024592; Variable_lymphocyte_rcpt_C.
+DR   Pfam; PF11921; DUF3439; 1.
+DR   Pfam; PF13855; LRR_8; 1.
+DR   Pfam; PF01462; LRRNT; 1.
+DR   SMART; SM00369; LRR_TYP; 3.
+DR   SMART; SM00013; LRRNT; 1.
+DR   PROSITE; PS51450; LRR; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0000313|PDB:3G39, ECO:0007829|PDB:3G39};
+KW   Leucine-rich repeat {ECO:0000256|ARBA:ARBA00022614};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737}.
+FT   DOMAIN          2..34
+FT                   /note="LRRNT"
+FT                   /evidence="ECO:0000259|SMART:SM00013"
+FT   DISULFID        3..9
+FT                   /evidence="ECO:0007829|PDB:3G39"
+FT   DISULFID        7..16
+FT                   /evidence="ECO:0007829|PDB:3G39"
+FT   DISULFID        116..148
+FT                   /evidence="ECO:0007829|PDB:3G39"
+FT   DISULFID        118..168
+FT                   /evidence="ECO:0007829|PDB:3G39"
+SQ   SEQUENCE   170 AA;  18479 MW;  E116E351CD270D84 CRC64;
+     MACPSQCSCS GTTVDCSGKS LASVPTGIPT TTQVLYLYDN QITKLEPGVF DRLTQLTRLD
+     LDNNQLTVLP AGVFDKLTQL TQLSLNDNQL KSIPRGAFDN LKSLTHIWLL NNPWDCACSD
+     ILYLSRWISQ HPGLVFGYLN LDPDSARCSG TNTPVRAVTE ASTSPSKCPG
+//

@@ -1,0 +1,344 @@
+ID   HA70C_CBCP              Reviewed;         623 AA.
+AC   P46085;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   29-SEP-2021, entry version 72.
+DE   RecName: Full=Hemagglutinin components HA-70 type C {ECO:0000303|PubMed:7802661};
+DE   AltName: Full=HA3;
+DE   AltName: Full=Hemagglutinin components HA-22/23/53 type C;
+DE   AltName: Full=Hemagglutinin components HA-22/23/53 type C1;
+DE   Contains:
+DE     RecName: Full=Hemagglutinin component HA-23A {ECO:0000303|PubMed:7802661};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin component HA-23B {ECO:0000303|PubMed:7802661};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin component HA-22A {ECO:0000303|PubMed:7802661};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin component HA-22B {ECO:0000303|PubMed:7802661};
+DE   Contains:
+DE     RecName: Full=Hemagglutinin component HA-53 {ECO:0000303|PubMed:7802661};
+DE     AltName: Full=HA3b;
+DE   Flags: Precursor;
+GN   Name=HA-70;
+GN   Synonyms=antP-70 {ECO:0000303|PubMed:8028579}, cha-70
+GN   {ECO:0000303|PubMed:7802661};
+OS   Clostridium botulinum C phage (Clostridium botulinum C bacteriophage).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Siphoviridae.
+OX   NCBI_TaxID=12336;
+OH   NCBI_TaxID=36828; Clostridium botulinum C.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 7-29 AND 193-212,
+RP   SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Stockholm / Type C / phage C-ST;
+RX   PubMed=7802661; DOI=10.1006/bbrc.1994.2805;
+RA   Fujinaga Y., Inoue K., Shimazaki S., Tomochika K., Tsuzuki K., Fujii N.,
+RA   Watanabe T., Ohyama T., Takeshi K., Inoue K., Oguma K.;
+RT   "Molecular construction of Clostridium botulinum type C progenitor toxin
+RT   and its gene organization.";
+RL   Biochem. Biophys. Res. Commun. 205:1291-1298(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=C-468 / Type C / phage C-ST;
+RX   PubMed=8028579; DOI=10.1007/bf00279572;
+RA   Hauser D.F., Eklund M.W., Boquet P., Popoff M.R.;
+RT   "Organization of the botulinum neurotoxin C1 gene and its associated non-
+RT   toxic protein genes in Clostridium botulinum C 468.";
+RL   Mol. Gen. Genet. 243:631-640(1994).
+RN   [3]
+RP   FUNCTION IN TOXICITY.
+RC   STRAIN=Stockholm / Type C;
+RX   PubMed=9421908; DOI=10.1099/00221287-143-12-3841;
+RA   Fujinaga Y., Inoue K., Watanabe S., Yokota K., Hirai Y., Nagamachi E.,
+RA   Oguma K.;
+RT   "The haemagglutinin of Clostridium botulinum type C progenitor toxin plays
+RT   an essential role in binding of toxin to the epithelial cells of guinea pig
+RT   small intestine, leading to the efficient absorption of the toxin.";
+RL   Microbiology 143:3841-3847(1997).
+RN   [4] {ECO:0007744|PDB:2ZOE, ECO:0007744|PDB:2ZS6}
+RP   X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) OF 1-184 AND 204-623 IN COMPLEX WITH
+RP   N-ACETYL-BETA-NEURAMINIC ACID, FUNCTION IN MUCIN-BINDING, SUGAR-BINDING,
+RP   SUBUNIT, DOMAIN, AND MUTAGENESIS OF ARG-460 AND ARG-604.
+RX   PubMed=19071137; DOI=10.1016/j.jmb.2008.11.039;
+RA   Nakamura T., Kotani M., Tonozuka T., Ide A., Oguma K., Nishikawa A.;
+RT   "Crystal structure of the HA3 subcomponent of Clostridium botulinum type C
+RT   progenitor toxin.";
+RL   J. Mol. Biol. 385:1193-1206(2009).
+RN   [5] {ECO:0007744|PDB:4EN6, ECO:0007744|PDB:4EN7, ECO:0007744|PDB:4EN8, ECO:0007744|PDB:4EN9}
+RP   X-RAY CRYSTALLOGRAPHY (2.56 ANGSTROMS) OF 1-203 AND 204-623 IN COMPLEX WITH
+RP   SIALYLATED OLIGOSACCHARIDES (ALPHA-2-3-SIALYLLACTOSE;
+RP   ALPHA-2-3-SIALYLLACTOSAMINE; ALPHA-2-6-SIALYLLACTOSE AND
+RP   ALPHA-2-6-SIALYLLACTOSAMINE), FUNCTION IN SUGAR-BINDING, SUBUNIT, AND
+RP   DOMAIN.
+RX   PubMed=22684008; DOI=10.1016/j.febslet.2012.05.055;
+RA   Yamashita S., Yoshida H., Uchiyama N., Nakakita Y., Nakakita S.,
+RA   Tonozuka T., Oguma K., Nishikawa A., Kamitori S.;
+RT   "Carbohydrate recognition mechanism of HA70 from Clostridium botulinum
+RT   deduced from X-ray structures in complexes with sialylated
+RT   oligosaccharides.";
+RL   FEBS Lett. 586:2404-2410(2012).
+RN   [6]
+RP   PRELIMINARY CRYSTALLIZATION.
+RC   STRAIN=Type C;
+RX   PubMed=24419620; DOI=10.1107/s2053230x13032378;
+RA   Iwasa C., Tonozuka T., Shinoda M., Sagane Y., Niwa K., Watanabe T.,
+RA   Yoshida H., Kamitori S., Takao T., Oguma K., Nishikawa A.;
+RT   "Purification, crystallization and preliminary X-ray analysis of an HA17-
+RT   HA70 (HA2-HA3) complex from Clostridium botulinum type C progenitor
+RT   toxin.";
+RL   Acta Crystallogr. F Struct. Biol. Commun. 70:64-67(2014).
+CC   -!- FUNCTION: The hemagglutinin (HA) component of the progenitor toxin
+CC       protects the structural integrity of botulinum neurotoxin; may increase
+CC       internalization of the neurotoxin into the bloodstream of the host
+CC       (PubMed:9421908). The HA component is involved in binding to the upper
+CC       small intestine through interactions with glycolipids and glycoproteins
+CC       containing sialic acid moieties (Probable). Whole protein and the HA-53
+CC       chain (but not the HA-22-23 chain) bind to bovine mucin; if the mucin
+CC       is pretreated with neuraminidase (removes the terminal sialic acid of
+CC       glycoconjugates) mucin binding is decreased (PubMed:19071137). Has
+CC       higher affinity for alpha-2,3-sialylated oligosaccharides than alpha-2-
+CC       6 sialylated oligosaccharides (PubMed:22684008).
+CC       {ECO:0000269|PubMed:19071137, ECO:0000269|PubMed:22684008,
+CC       ECO:0000269|PubMed:9421908, ECO:0000305|PubMed:9421908}.
+CC   -!- SUBUNIT: Botulinum toxins are produced as progenitor toxins of large
+CC       molecular sizes of 12S (M toxin) and 16S (L toxin). M toxin consists of
+CC       a non-toxic, non-hemagglutinin component (NTNHA) and the neurotoxin
+CC       (Probable). L toxin consists of the M toxin and the 3 subcomponents of
+CC       hemagglutinin (HA) (PubMed:7802661). HA is composed of subcomponents of
+CC       70, 33, and 17 kDa (PubMed:7802661). The 70 kDa subcomponent undergoes
+CC       proteolytic processing and is split into HA-53 (also called HA3b) and
+CC       HA-22-23 (collectively called HA3a) (PubMed:7802661). Upon
+CC       crystallization this cleaved component forms a three-lobed trimer of
+CC       dimers with a hole in the center (PubMed:19071137, PubMed:22684008).
+CC       Preliminary crystallization studies show a tri-lobed HA-70 where each
+CC       HA-70 contacts one HA-17 molecule (Probable). The stoichiometry of the
+CC       whole complex has been modeled as one BoNT/C, one NTNHA, three HA-70,
+CC       six HA-33 and three HA-17 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9LBR5, ECO:0000269|PubMed:19071137,
+CC       ECO:0000269|PubMed:22684008, ECO:0000269|PubMed:7802661,
+CC       ECO:0000305|PubMed:24419620, ECO:0000305|PubMed:7802661}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:7802661}.
+CC   -!- DOMAIN: The HA-22-23 chain and the N-terminus of the HA-55 chain are
+CC       structurally similar, as are the domain 2 and domain 3 of HA-55.
+CC       {ECO:0000269|PubMed:19071137, ECO:0000269|PubMed:22684008}.
+CC   -!- MISCELLANEOUS: This protein can also be encoded on a prophage.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D38562; BAA07575.1; -; Genomic_DNA.
+DR   EMBL; S74768; AAB32849.1; -; Genomic_DNA.
+DR   EMBL; X72793; CAA51309.1; -; Genomic_DNA.
+DR   RefSeq; YP_398512.1; NC_007581.1.
+DR   PDB; 2ZOE; X-ray; 2.60 A; A=1-184, B=204-623.
+DR   PDB; 2ZS6; X-ray; 2.60 A; A=1-184, B=204-623.
+DR   PDB; 4EN6; X-ray; 2.56 A; A=1-203, B=204-623.
+DR   PDB; 4EN7; X-ray; 2.68 A; A=1-203, B=204-623.
+DR   PDB; 4EN8; X-ray; 2.60 A; A=1-203, B=204-623.
+DR   PDB; 4EN9; X-ray; 2.64 A; A=1-203, B=204-623.
+DR   PDBsum; 2ZOE; -.
+DR   PDBsum; 2ZS6; -.
+DR   PDBsum; 4EN6; -.
+DR   PDBsum; 4EN7; -.
+DR   PDBsum; 4EN8; -.
+DR   PDBsum; 4EN9; -.
+DR   SMR; P46085; -.
+DR   TCDB; 1.C.59.2.1; the clostridium perfringens enterotoxin (cpe) family.
+DR   UniLectin; P46085; -.
+DR   GeneID; 3772937; -.
+DR   KEGG; vg:3772937; -.
+DR   EvolutionaryTrace; P46085; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR003897; Clenterotox.
+DR   InterPro; IPR040597; HA70_C.
+DR   Pfam; PF03505; Clenterotox; 2.
+DR   Pfam; PF17993; HA70_C; 1.
+DR   PRINTS; PR01394; CLENTEROTOXN.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Hemagglutinin; Secreted;
+KW   Virulence.
+FT   PROPEP          1..6
+FT                   /evidence="ECO:0000269|PubMed:7802661"
+FT                   /id="PRO_0000021390"
+FT   CHAIN           7..192
+FT                   /note="Hemagglutinin component HA-23A"
+FT                   /evidence="ECO:0000269|PubMed:7802661"
+FT                   /id="PRO_0000021391"
+FT   CHAIN           10..192
+FT                   /note="Hemagglutinin component HA-23B"
+FT                   /evidence="ECO:0000269|PubMed:7802661"
+FT                   /id="PRO_0000021392"
+FT   CHAIN           13..192
+FT                   /note="Hemagglutinin component HA-22A"
+FT                   /evidence="ECO:0000269|PubMed:7802661"
+FT                   /id="PRO_0000021393"
+FT   CHAIN           15..192
+FT                   /note="Hemagglutinin component HA-22B"
+FT                   /evidence="ECO:0000269|PubMed:7802661"
+FT                   /id="PRO_0000021394"
+FT   CHAIN           193..623
+FT                   /note="Hemagglutinin component HA-53"
+FT                   /evidence="ECO:0000269|PubMed:7802661"
+FT                   /id="PRO_0000021395"
+FT   REGION          7..184
+FT                   /note="HA-22-23 domain 1"
+FT                   /evidence="ECO:0000305|PubMed:19071137"
+FT   REGION          204..372
+FT                   /note="HA-55 domain 1"
+FT                   /evidence="ECO:0000305|PubMed:19071137"
+FT   REGION          373..496
+FT                   /note="HA-55 domain 2"
+FT                   /evidence="ECO:0000305|PubMed:19071137"
+FT   REGION          460..462
+FT                   /note="Sugar binding"
+FT                   /evidence="ECO:0000269|PubMed:19071137,
+FT                   ECO:0000269|PubMed:22684008, ECO:0007744|PDB:2ZOE,
+FT                   ECO:0007744|PDB:4EN6, ECO:0007744|PDB:4EN7,
+FT                   ECO:0007744|PDB:4EN8, ECO:0007744|PDB:4EN9"
+FT   REGION          497..623
+FT                   /note="HA-55 domain 3"
+FT                   /evidence="ECO:0000305|PubMed:19071137"
+FT   REGION          513..514
+FT                   /note="Sugar binding"
+FT                   /evidence="ECO:0000269|PubMed:19071137,
+FT                   ECO:0000269|PubMed:22684008, ECO:0007744|PDB:2ZOE,
+FT                   ECO:0007744|PDB:4EN6, ECO:0007744|PDB:4EN7,
+FT                   ECO:0007744|PDB:4EN8, ECO:0007744|PDB:4EN9"
+FT   REGION          522..525
+FT                   /note="Sugar binding"
+FT                   /evidence="ECO:0000269|PubMed:19071137,
+FT                   ECO:0000269|PubMed:22684008, ECO:0007744|PDB:2ZOE,
+FT                   ECO:0007744|PDB:4EN6, ECO:0007744|PDB:4EN7,
+FT                   ECO:0007744|PDB:4EN8, ECO:0007744|PDB:4EN9"
+FT   MUTAGEN         460
+FT                   /note="R->A: About 25% mucin binding."
+FT                   /evidence="ECO:0000269|PubMed:19071137"
+FT   MUTAGEN         604
+FT                   /note="R->A: About 80% mucin binding."
+FT                   /evidence="ECO:0000269|PubMed:19071137"
+FT   STRAND          23..29
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   TURN            40..43
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          45..49
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          53..59
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   TURN            62..64
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          68..70
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          73..75
+FT                   /evidence="ECO:0007829|PDB:4EN8"
+FT   HELIX           77..87
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   HELIX           91..94
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          100..106
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          111..153
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   HELIX           161..163
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          170..173
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          178..181
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          211..217
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          222..225
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   TURN            226..229
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          230..236
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          241..246
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          256..260
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   TURN            262..264
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   HELIX           267..278
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          283..285
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          289..295
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          302..307
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          310..318
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          323..332
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          336..341
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          357..361
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          368..372
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          377..381
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          388..393
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   HELIX           396..399
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          403..407
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          409..411
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          413..418
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   HELIX           420..422
+FT                   /evidence="ECO:0007829|PDB:2ZOE"
+FT   STRAND          427..431
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          437..440
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          451..457
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          465..471
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          477..481
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          486..488
+FT                   /evidence="ECO:0007829|PDB:4EN8"
+FT   STRAND          491..497
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   HELIX           500..504
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          506..511
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          516..519
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          522..526
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          533..539
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          544..546
+FT                   /evidence="ECO:0007829|PDB:2ZS6"
+FT   STRAND          549..571
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          574..584
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          586..588
+FT                   /evidence="ECO:0007829|PDB:4EN9"
+FT   STRAND          593..596
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          600..609
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+FT   STRAND          612..621
+FT                   /evidence="ECO:0007829|PDB:4EN6"
+SQ   SEQUENCE   623 AA;  70650 MW;  115FBF1B2F3FB667 CRC64;
+     MSLSIKELYY TKDKSINNVN LADGNYVVNR GDGWILSRQN QNLGGNISNN GCTAIVGDLR
+     IRETATPYYY PTASFNEEYI KNNVQNVFAN FTEASEIPIG FEFSKTAPSN KSLYMYLQYT
+     YIRYEIIKVL QNTVTERAVL YVPSLGYVKS IEFNSEEQID KNFYFTSQDK CILNEKFIYK
+     KIDDTITVKE SKNSNNNINF NTSQTILPYP NGLYVINKGD GYMRTNDKDL IGTLLIESST
+     SGSIIQPRLR NTTRPLFNTS NPTIFSQEYT EARLNDAFNI QLFNTSTTLF KFVEEAPTNK
+     NISMKVYNTY EKYELINYQN GNIDDKAEYY LPSLGKCEVS DAPSPQAPVV ETPVDQDGFI
+     QTGPNENIIV GVINPSENIE EISTPIPDDY TYNIPTSIQN NACYVLFKVN TTGVYKITTK
+     NNLPPLIIYE AIGSSNRNMN SNNLSNDNIK AIKYITGLNR SDAKSYLIVS LFKDKNYYIR
+     IPQISSSTTS QLIFKRELGN ISDLADSTVN ILDNLNTSGT HYYTRQSPDV GNYISYQLTI
+     PGDFNNIASS IFSFRTRNNQ GIGTLYRLTE SINGYNLITI NNYSDLLNNV EPISLLNGAT
+     YIFRVKVTEL NNYNIIFDAY RNS
+//

@@ -1,0 +1,343 @@
+ID   GALT5_DROME             Reviewed;         630 AA.
+AC   Q6WV17; Q0E8T2; Q95T43; Q9VMU3;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2004, sequence version 2.
+DT   03-AUG-2022, entry version 138.
+DE   RecName: Full=Polypeptide N-acetylgalactosaminyltransferase 5;
+DE            Short=pp-GaNTase 5;
+DE            EC=2.4.1.41 {ECO:0000269|PubMed:12829714, ECO:0000269|PubMed:18669915};
+DE   AltName: Full=Protein-UDP acetylgalactosaminyltransferase 5;
+DE   AltName: Full=UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 5;
+GN   Name=Pgant5 {ECO:0000312|FlyBase:FBgn0031681};
+GN   ORFNames=CG31651 {ECO:0000312|FlyBase:FBgn0031681};
+OS   Drosophila melanogaster (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7227;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Berkeley;
+RX   PubMed=10731132; DOI=10.1126/science.287.5461.2185;
+RA   Adams M.D., Celniker S.E., Holt R.A., Evans C.A., Gocayne J.D.,
+RA   Amanatides P.G., Scherer S.E., Li P.W., Hoskins R.A., Galle R.F.,
+RA   George R.A., Lewis S.E., Richards S., Ashburner M., Henderson S.N.,
+RA   Sutton G.G., Wortman J.R., Yandell M.D., Zhang Q., Chen L.X., Brandon R.C.,
+RA   Rogers Y.-H.C., Blazej R.G., Champe M., Pfeiffer B.D., Wan K.H., Doyle C.,
+RA   Baxter E.G., Helt G., Nelson C.R., Miklos G.L.G., Abril J.F., Agbayani A.,
+RA   An H.-J., Andrews-Pfannkoch C., Baldwin D., Ballew R.M., Basu A.,
+RA   Baxendale J., Bayraktaroglu L., Beasley E.M., Beeson K.Y., Benos P.V.,
+RA   Berman B.P., Bhandari D., Bolshakov S., Borkova D., Botchan M.R., Bouck J.,
+RA   Brokstein P., Brottier P., Burtis K.C., Busam D.A., Butler H., Cadieu E.,
+RA   Center A., Chandra I., Cherry J.M., Cawley S., Dahlke C., Davenport L.B.,
+RA   Davies P., de Pablos B., Delcher A., Deng Z., Mays A.D., Dew I.,
+RA   Dietz S.M., Dodson K., Doup L.E., Downes M., Dugan-Rocha S., Dunkov B.C.,
+RA   Dunn P., Durbin K.J., Evangelista C.C., Ferraz C., Ferriera S.,
+RA   Fleischmann W., Fosler C., Gabrielian A.E., Garg N.S., Gelbart W.M.,
+RA   Glasser K., Glodek A., Gong F., Gorrell J.H., Gu Z., Guan P., Harris M.,
+RA   Harris N.L., Harvey D.A., Heiman T.J., Hernandez J.R., Houck J., Hostin D.,
+RA   Houston K.A., Howland T.J., Wei M.-H., Ibegwam C., Jalali M., Kalush F.,
+RA   Karpen G.H., Ke Z., Kennison J.A., Ketchum K.A., Kimmel B.E., Kodira C.D.,
+RA   Kraft C.L., Kravitz S., Kulp D., Lai Z., Lasko P., Lei Y., Levitsky A.A.,
+RA   Li J.H., Li Z., Liang Y., Lin X., Liu X., Mattei B., McIntosh T.C.,
+RA   McLeod M.P., McPherson D., Merkulov G., Milshina N.V., Mobarry C.,
+RA   Morris J., Moshrefi A., Mount S.M., Moy M., Murphy B., Murphy L.,
+RA   Muzny D.M., Nelson D.L., Nelson D.R., Nelson K.A., Nixon K., Nusskern D.R.,
+RA   Pacleb J.M., Palazzolo M., Pittman G.S., Pan S., Pollard J., Puri V.,
+RA   Reese M.G., Reinert K., Remington K., Saunders R.D.C., Scheeler F.,
+RA   Shen H., Shue B.C., Siden-Kiamos I., Simpson M., Skupski M.P., Smith T.J.,
+RA   Spier E., Spradling A.C., Stapleton M., Strong R., Sun E., Svirskas R.,
+RA   Tector C., Turner R., Venter E., Wang A.H., Wang X., Wang Z.-Y.,
+RA   Wassarman D.A., Weinstock G.M., Weissenbach J., Williams S.M., Woodage T.,
+RA   Worley K.C., Wu D., Yang S., Yao Q.A., Ye J., Yeh R.-F., Zaveri J.S.,
+RA   Zhan M., Zhang G., Zhao Q., Zheng L., Zheng X.H., Zhong F.N., Zhong W.,
+RA   Zhou X., Zhu S.C., Zhu X., Smith H.O., Gibbs R.A., Myers E.W., Rubin G.M.,
+RA   Venter J.C.;
+RT   "The genome sequence of Drosophila melanogaster.";
+RL   Science 287:2185-2195(2000).
+RN   [2]
+RP   GENOME REANNOTATION, AND ALTERNATIVE SPLICING.
+RC   STRAIN=Berkeley;
+RX   PubMed=12537572; DOI=10.1186/gb-2002-3-12-research0083;
+RA   Misra S., Crosby M.A., Mungall C.J., Matthews B.B., Campbell K.S.,
+RA   Hradecky P., Huang Y., Kaminker J.S., Millburn G.H., Prochnik S.E.,
+RA   Smith C.D., Tupy J.L., Whitfield E.J., Bayraktaroglu L., Berman B.P.,
+RA   Bettencourt B.R., Celniker S.E., de Grey A.D.N.J., Drysdale R.A.,
+RA   Harris N.L., Richter J., Russo S., Schroeder A.J., Shu S.Q., Stapleton M.,
+RA   Yamada C., Ashburner M., Gelbart W.M., Rubin G.M., Lewis S.E.;
+RT   "Annotation of the Drosophila melanogaster euchromatic genome: a systematic
+RT   review.";
+RL   Genome Biol. 3:RESEARCH0083.1-RESEARCH0083.22(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM A).
+RC   STRAIN=Berkeley; TISSUE=Head;
+RX   PubMed=12537569; DOI=10.1186/gb-2002-3-12-research0080;
+RA   Stapleton M., Carlson J.W., Brokstein P., Yu C., Champe M., George R.A.,
+RA   Guarin H., Kronmiller B., Pacleb J.M., Park S., Wan K.H., Rubin G.M.,
+RA   Celniker S.E.;
+RT   "A Drosophila full-length cDNA resource.";
+RL   Genome Biol. 3:RESEARCH0080.1-RESEARCH0080.8(2002).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 14-630 (ISOFORM A), FUNCTION, CATALYTIC
+RP   ACTIVITY, PATHWAY, TISSUE SPECIFICITY, AND DEVELOPMENTAL STAGE.
+RC   STRAIN=Canton-S; TISSUE=Embryo;
+RX   PubMed=12829714; DOI=10.1074/jbc.m303836200;
+RA   Ten Hagen K.G., Tran D.T., Gerken T.A., Stein D.S., Zhang Z.;
+RT   "Functional characterization and expression analysis of members of the UDP-
+RT   GalNAc:polypeptide N-acetylgalactosaminyltransferase family from Drosophila
+RT   melanogaster.";
+RL   J. Biol. Chem. 278:35039-35048(2003).
+RN   [5]
+RP   TISSUE SPECIFICITY, AND DEVELOPMENTAL STAGE.
+RX   PubMed=16251381; DOI=10.1093/glycob/cwj051;
+RA   Tian E., Ten Hagen K.G.;
+RT   "Expression of the UDP-GalNAc: polypeptide N-
+RT   acetylgalactosaminyltransferase family is spatially and temporally
+RT   regulated during Drosophila development.";
+RL   Glycobiology 16:83-95(2006).
+RN   [6]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=18669915; DOI=10.1093/glycob/cwn073;
+RA   Gerken T.A., Ten Hagen K.G., Jamison O.;
+RT   "Conservation of peptide acceptor preferences between Drosophila and
+RT   mammalian polypeptide-GalNAc transferase ortholog pairs.";
+RL   Glycobiology 18:861-870(2008).
+RN   [7]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=22157008; DOI=10.1074/jbc.m111.306159;
+RA   Tran D.T., Zhang L., Zhang Y., Tian E., Earl L.A., Ten Hagen K.G.;
+RT   "Multiple members of the UDP-GalNAc: polypeptide N-
+RT   acetylgalactosaminyltransferase family are essential for viability in
+RT   Drosophila.";
+RL   J. Biol. Chem. 287:5243-5252(2012).
+CC   -!- FUNCTION: Catalyzes the initial reaction in O-linked oligosaccharide
+CC       biosynthesis, the transfer of an N-acetyl-D-galactosamine residue to a
+CC       serine or threonine residue on the protein receptor (PubMed:12829714,
+CC       PubMed:18669915). It can both act as a peptide transferase that
+CC       transfers GalNAc onto unmodified peptide substrates, and as a
+CC       glycopeptide transferase that requires the prior addition of a GalNAc
+CC       on a peptide before adding additional GalNAc moieties. Prefers EA2 as
+CC       substrate (PubMed:12829714). In the larval midgut, required for O-
+CC       glycosylation of apical and luminal proteins within copper cells
+CC       enabling proper gut acidification (PubMed:22157008).
+CC       {ECO:0000269|PubMed:12829714, ECO:0000269|PubMed:18669915,
+CC       ECO:0000269|PubMed:22157008}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-O-
+CC         [N-acetyl-alpha-D-galactosaminyl]-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:23956, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12788,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:53604,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:67138; EC=2.4.1.41;
+CC         Evidence={ECO:0000269|PubMed:12829714};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-galactosamine = 3-
+CC         O-[N-acetyl-alpha-D-galactosaminyl]-L-threonyl-[protein] + H(+) +
+CC         UDP; Xref=Rhea:RHEA:52424, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:67138, ChEBI:CHEBI:87075; EC=2.4.1.41;
+CC         Evidence={ECO:0000269|PubMed:12829714, ECO:0000269|PubMed:18669915};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000305|PubMed:12829714, ECO:0000305|PubMed:18669915}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000250}; Single-
+CC       pass type II membrane protein {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=A;
+CC         IsoId=Q6WV17-1; Sequence=Displayed;
+CC       Name=B;
+CC         IsoId=Q6WV17-2; Sequence=VSP_034631;
+CC   -!- TISSUE SPECIFICITY: Expressed during oogenesis, in the somatically
+CC       derived follicle cells that surround the developing oocyte, which are
+CC       involved in the maturation of the oocyte and construction of the egg
+CC       shell, as well as playing a role in subsequent embryonic pattern
+CC       formation. During embryonic stages 9-11, expressed in the primordium of
+CC       the foregut, midgut and hindgut. Expressed in salivary glands from
+CC       embryonic stage 12 onwards. During embryonic stages 12-13, expressed in
+CC       the posterior midgut and hindgut. During embryonic stages 14-17,
+CC       expressed in the hindgut and the posterior spiracles. Expression is
+CC       also detected in the epidermis and antennomaxillary complex at
+CC       embryonic stages 16-17. In third instar larvae, ubiquitously expressed
+CC       in wing, eye-antennal, leg and haltere imaginal disks.
+CC       {ECO:0000269|PubMed:12829714, ECO:0000269|PubMed:16251381}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed throughout embryonic, larval, pupal and
+CC       adult stages, with increasing levels during larval development.
+CC       Transcripts are first detected during embryonic stages 9-11.
+CC       {ECO:0000269|PubMed:12829714, ECO:0000269|PubMed:16251381}.
+CC   -!- DOMAIN: There are two conserved domains in the glycosyltransferase
+CC       region: the N-terminal domain (domain A, also called GT1 motif), which
+CC       is probably involved in manganese coordination and substrate binding
+CC       and the C-terminal domain (domain B, also called Gal/GalNAc-T motif),
+CC       which is probably involved in catalytic reaction and UDP-Gal binding.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The ricin B-type lectin domain binds to GalNAc and contributes
+CC       to the glycopeptide specificity. {ECO:0000250}.
+CC   -!- DISRUPTION PHENOTYPE: Lethal (PubMed:22157008). RNAi-mediated knockdown
+CC       in the whole body, embryonic mesoderm, respiratory system or digestive
+CC       system and reproductive tract is lethal (PubMed:22157008). RNAi-
+CC       mediated knockdown in the larval digestive system, results in loss of
+CC       gut acidification and disruption of protein O-glycosylation in copper
+CC       cells (PubMed:22157008). RNAi-mediated knockdown in hemocytes,
+CC       amnioserosa, endoderm, mesoderm or nervous system causes no defect
+CC       (PubMed:22157008). {ECO:0000269|PubMed:22157008}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family. GalNAc-T
+CC       subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAL25377.1; Type=Erroneous termination; Note=Truncated C-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014134; AAF52218.2; -; Genomic_DNA.
+DR   EMBL; AE014134; ABI31292.1; -; Genomic_DNA.
+DR   EMBL; AY060338; AAL25377.1; ALT_SEQ; mRNA.
+DR   EMBL; AY268066; AAQ56702.1; -; mRNA.
+DR   RefSeq; NP_001036338.1; NM_001042873.2. [Q6WV17-2]
+DR   RefSeq; NP_608906.2; NM_135062.4. [Q6WV17-1]
+DR   AlphaFoldDB; Q6WV17; -.
+DR   SMR; Q6WV17; -.
+DR   IntAct; Q6WV17; 2.
+DR   STRING; 7227.FBpp0078663; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   CAZy; GT27; Glycosyltransferase Family 27.
+DR   GlyGen; Q6WV17; 1 site.
+DR   SwissPalm; Q6WV17; -.
+DR   PaxDb; Q6WV17; -.
+DR   PRIDE; Q6WV17; -.
+DR   EnsemblMetazoa; FBtr0079026; FBpp0078663; FBgn0031681. [Q6WV17-1]
+DR   EnsemblMetazoa; FBtr0111024; FBpp0110323; FBgn0031681. [Q6WV17-2]
+DR   GeneID; 326151; -.
+DR   KEGG; dme:Dmel_CG31651; -.
+DR   UCSC; CG31651-RB; d. melanogaster.
+DR   CTD; 326151; -.
+DR   FlyBase; FBgn0031681; Pgant5.
+DR   VEuPathDB; VectorBase:FBgn0031681; -.
+DR   eggNOG; KOG3736; Eukaryota.
+DR   GeneTree; ENSGT00940000169874; -.
+DR   HOGENOM; CLU_013477_0_1_1; -.
+DR   InParanoid; Q6WV17; -.
+DR   OMA; VAEVWMC; -.
+DR   PhylomeDB; Q6WV17; -.
+DR   BRENDA; 2.4.1.41; 1994.
+DR   Reactome; R-DME-190372; FGFR3c ligand binding and activation.
+DR   Reactome; R-DME-6811436; COPI-independent Golgi-to-ER retrograde traffic.
+DR   Reactome; R-DME-913709; O-linked glycosylation of mucins.
+DR   UniPathway; UPA00378; -.
+DR   BioGRID-ORCS; 326151; 0 hits in 1 CRISPR screen.
+DR   ChiTaRS; pgant5; fly.
+DR   GenomeRNAi; 326151; -.
+DR   PRO; PR:Q6WV17; -.
+DR   Proteomes; UP000000803; Chromosome 2L.
+DR   Bgee; FBgn0031681; Expressed in wing disc and 45 other tissues.
+DR   Genevisible; Q6WV17; DM.
+DR   GO; GO:0012505; C:endomembrane system; HDA:FlyBase.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005795; C:Golgi stack; NAS:UniProtKB.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004653; F:polypeptide N-acetylgalactosaminyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0009312; P:oligosaccharide biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; IBA:GO_Central.
+DR   CDD; cd02510; pp-GalNAc-T; 1.
+DR   CDD; cd00161; RICIN; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR045885; GalNAc-T.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Disulfide bond; Glycoprotein; Glycosyltransferase;
+KW   Golgi apparatus; Lectin; Manganese; Membrane; Metal-binding;
+KW   Reference proteome; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..630
+FT                   /note="Polypeptide N-acetylgalactosaminyltransferase 5"
+FT                   /id="PRO_0000059159"
+FT   TOPO_DOM        1..20
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        21..38
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        39..630
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          500..622
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          186..296
+FT                   /note="Catalytic subdomain A"
+FT   REGION          356..418
+FT                   /note="Catalytic subdomain B"
+FT   BINDING         227
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         257
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         280
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         282
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         387
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         415
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         418
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         423
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        166
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        177..410
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        401..479
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        513..530
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        553..568
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DISULFID        594..611
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   VAR_SEQ         398..457
+FT                   /note="IWQCGGILEIIPCSHVGHVFRDKSPYTFPGGVAKIVLHNAARVAEVWLDEWR
+FT                   DFYYSMST -> VWMCGGVLEIAPCSRVGHVFRKSTPYTFPGGTTEIVNHNNARLVEVW
+FT                   LDDWKEFYYSFYP (in isoform B)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_034631"
+FT   CONFLICT        591
+FT                   /note="T -> S (in Ref. 4; AAQ56702)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   630 AA;  72097 MW;  A822748C9EC96175 CRC64;
+     MTFSTFTRKM RGRMRSNTCR IVLLTSLVWV IFDFVLIARY SDCIGKDGWR CKRSGEYDVE
+     LPNAERLVDD NQLVDDNEIN TEKSLDGESG GALIMGQGFA SGGISMTYPS VVLKKWFLAP
+     SVQEAKGKPG EMGKPVKIPA DMKDLMKEKF KENQFNLLAS DMISLNRSLT DVRHEGCRRK
+     HYASKLPTTS IVIVFHNEAW TTLLRTVWSV INRSPRALLK EIILVDDASE RDFLGKQLEE
+     YVAKLPVKTF VLRTEKRSGL IRARLLGAEH VSGEVITFLD AHCECTEGWL EPLLARIVQN
+     RRTVVCPIID VISDETFEYI TASDSTWGGF NWKLNFRWYR VPSREMARRN NDRTAPLRTP
+     TMAGGLFSID KDYFYEIGSY DEGMDIWGGE NLEMSFRIWQ CGGILEIIPC SHVGHVFRDK
+     SPYTFPGGVA KIVLHNAARV AEVWLDEWRD FYYSMSTGAR KASAGDVSDR KALRDRLKCK
+     SFRWYLENVY PESLMPLDYY YLGEIRNAET ETCLDTMGRK YNEKVGISYC HGLGGNQVFA
+     YTKRQQIMSD DLCLDASSSN GPVNMVRCHN MGGNQEWVYD AEEKWIRHTN TGQCLQRATR
+     DDANTPLLRP CSYGKGQQWL MESKFKWQAH
+//

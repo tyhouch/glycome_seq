@@ -1,0 +1,93 @@
+ID   LECG_HOPST              Reviewed;         158 AA.
+AC   D2YVK1;
+DT   29-MAY-2013, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAR-2010, sequence version 1.
+DT   03-AUG-2022, entry version 31.
+DE   RecName: Full=C-type lectin galactose-binding isoform;
+DE            Short=CTL;
+DE   AltName: Full=Venom C-type lectin galactose binding isoform;
+DE   Flags: Precursor;
+OS   Hoplocephalus stephensii (Stephens' banded snake).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Elapidae; Notechinae; Hoplocephalus.
+OX   NCBI_TaxID=196418;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Venom gland;
+RX   PubMed=21115100; DOI=10.1016/j.biochi.2010.11.006;
+RA   Earl S.T., Robson J., Trabi M., de Jersey J., Masci P.P., Lavin M.F.;
+RT   "Characterisation of a mannose-binding C-type lectin from Oxyuranus
+RT   scutellatus snake venom.";
+RL   Biochimie 93:519-527(2011).
+CC   -!- FUNCTION: Galactose-binding lectin that binds to and agglutinates
+CC       erythrocytes in a calcium-dependent manner. {ECO:0000250}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- SIMILARITY: Belongs to the true venom lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF194744; ABP94089.1; -; mRNA.
+DR   AlphaFoldDB; D2YVK1; -.
+DR   SMR; D2YVK1; -.
+DR   PRIDE; D2YVK1; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Disulfide bond; Hemagglutinin; Lectin; Metal-binding; Secreted;
+KW   Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..158
+FT                   /note="C-type lectin galactose-binding isoform"
+FT                   /id="PRO_0000422552"
+FT   DOMAIN          33..155
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MOTIF           119..121
+FT                   /note="Galactose-binding"
+FT   BINDING         119
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         121
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         127
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         142
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         143
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        26..37
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        54..154
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        129..146
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   158 AA;  18567 MW;  10613408E9204C5D CRC64;
+     MGRFLLVTLS LLVVAFSLNG ANNCCCPQDW LPKNGYCYKV FKDHKSWDDA EMFCRKLKPG
+     CHLASLHSNA DAFDFSEYIT DYLTGHDHVW IGLRDTEKNY IWEWTDRSRT DFLPWKKDQP
+     DHHNNDEFCV EIVSFTGYLQ WNDDSCTALR PFLCQCKH
+//

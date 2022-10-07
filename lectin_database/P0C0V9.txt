@@ -1,0 +1,316 @@
+ID   HEMA_BRV1               Reviewed;         416 AA.
+AC   P0C0V9; O39517; Q3T8I8;
+DT   10-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   10-JAN-2006, sequence version 1.
+DT   02-JUN-2021, entry version 78.
+DE   RecName: Full=Hemagglutinin-esterase;
+DE            Short=HE protein;
+DE            EC=3.1.1.53;
+DE   AltName: Full=E3 glycoprotein;
+DE   Flags: Precursor;
+GN   Name=HE;
+OS   Breda virus 1 (BRV-1).
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Nidovirales; Tornidovirineae; Tobaniviridae; Torovirinae; Torovirus;
+OC   Renitovirus.
+OX   NCBI_TaxID=360393;
+OH   NCBI_TaxID=9913; Bos taurus (Bovine).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=9879765; DOI=10.1016/s0168-1702(98)00104-x;
+RA   Duckmanton L.M., Tellier R., Liu P., Petric M.;
+RT   "Bovine torovirus: sequencing of the structural genes and expression of the
+RT   nucleocapsid protein of Breda virus.";
+RL   Virus Res. 58:83-96(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=16137782; DOI=10.1016/j.virusres.2005.07.005;
+RA   Draker R., Roper R.L., Petric M., Tellier R.;
+RT   "The complete sequence of the bovine torovirus genome.";
+RL   Virus Res. 115:56-68(2006).
+RN   [3]
+RP   CHARACTERIZATION.
+RX   PubMed=15507445; DOI=10.1074/jbc.m409683200;
+RA   Smits S.L., Gerwig G.J., van Vliet A.L., Lissenberg A., Briza P.,
+RA   Kamerling J.P., Vlasak R., de Groot R.J.;
+RT   "Nidovirus sialate-O-acetylesterases: evolution and substrate specificity
+RT   of coronaviral and toroviral receptor-destroying enzymes.";
+RL   J. Biol. Chem. 280:6933-6941(2005).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 15-392 OF APOPROTEIN AND IN
+RP   COMPLEX WITH RECEPTOR ANALOG, FUNCTION, CATALYTIC ACTIVITY, GLYCOSYLATION
+RP   AT ASN-76; ASN-257; ASN-278; ASN-313; ASN-322 AND ASN-343, DISULFIDE BONDS,
+RP   AND MUTAGENESIS OF SER-64; ARG-103; TRP-109; LEU-168; LEU-170 AND PHE-207.
+RX   PubMed=19721004; DOI=10.1073/pnas.0904266106;
+RA   Langereis M.A., Zeng Q., Gerwig G.J., Frey B., von Itzstein M.,
+RA   Kamerling J.P., de Groot R.J., Huizinga E.G.;
+RT   "Structural basis for ligand and substrate recognition by torovirus
+RT   hemagglutinin esterases.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:15897-15902(2009).
+CC   -!- FUNCTION: Structural protein that makes short spikes at the surface of
+CC       the virus. Contains receptor binding and receptor-destroying
+CC       activities. Mediates de-O-acetylation of N-acetyl-9-di-O-
+CC       acetylneuraminic acid, which is probably the receptor determinant
+CC       recognized by the virus on the surface of erythrocytes and susceptible
+CC       cells. Also hydrolyzes 5-N-acetyl-4-O-acetylneuraminic acid and N-
+CC       acetyl-9-O-acetylneuraminic acid, but displays a substrate preference
+CC       for N-acetyl-9-di-O-acetylneuraminic acid. This receptor-destroying
+CC       activity is important for virus release as it probably helps preventing
+CC       self-aggregation and ensures the efficient spread of the progeny virus
+CC       from cell to cell. May serve as a secondary viral attachment protein
+CC       for initiating infection, the spike protein being the major one. Seems
+CC       to be a 'luxury' protein that is not absolutely necessary for virus
+CC       infection in culture. However, its presence in the virus may alter its
+CC       pathogenicity. May become a target for both the humoral and the
+CC       cellular branches of the immune system. {ECO:0000269|PubMed:19721004}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-9-O-acetylneuraminate = acetate + H(+) + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:22600, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28999, ChEBI:CHEBI:30089,
+CC         ChEBI:CHEBI:35418; EC=3.1.1.53;
+CC         Evidence={ECO:0000269|PubMed:19721004};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-4-O-acetylneuraminate = acetate + H(+) + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:25564, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29006, ChEBI:CHEBI:30089,
+CC         ChEBI:CHEBI:35418; EC=3.1.1.53;
+CC         Evidence={ECO:0000269|PubMed:19721004};
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000305}. Host cell membrane {ECO:0000305};
+CC       Single-pass type I membrane protein {ECO:0000305}. Note=In infected
+CC       cells becomes incorporated into the envelope of virions during virus
+CC       assembly at the endoplasmic reticulum and cis Golgi. However, some may
+CC       escape incorporation into virions and subsequently migrate to the cell
+CC       surface (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the influenza type C/coronaviruses
+CC       hemagglutinin-esterase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF076621; AAD03842.1; -; Genomic_RNA.
+DR   EMBL; AY427798; AAS17961.1; -; Genomic_RNA.
+DR   RefSeq; YP_337909.1; NC_007447.1.
+DR   PDB; 3I26; X-ray; 1.80 A; A/B/C/D=15-392.
+DR   PDB; 3I27; X-ray; 2.00 A; A/B/C/D=15-392.
+DR   PDBsum; 3I26; -.
+DR   PDBsum; 3I27; -.
+DR   SMR; P0C0V9; -.
+DR   DIP; DIP-48962N; -.
+DR   UniLectin; P0C0V9; -.
+DR   iPTMnet; P0C0V9; -.
+DR   GeneID; 3707767; -.
+DR   KEGG; vg:3707767; -.
+DR   EvolutionaryTrace; P0C0V9; -.
+DR   Proteomes; UP000000355; Genome.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-KW.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IMP:UniProtKB.
+DR   GO; GO:0046789; F:host cell surface receptor binding; IEA:InterPro.
+DR   GO; GO:0106331; F:sialate 4-O-acetylesterase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0106330; F:sialate 9-O-acetylesterase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001681; F:sialate O-acetylesterase activity; IDA:UniProtKB.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; IEA:InterPro.
+DR   InterPro; IPR008980; Capsid_hemagglutn.
+DR   InterPro; IPR007142; Hemagglutn-estrase_core.
+DR   InterPro; IPR003860; Hemagglutn-estrase_hemagglutn.
+DR   Pfam; PF03996; Hema_esterase; 1.
+DR   Pfam; PF02710; Hema_HEFG; 1.
+DR   SUPFAM; SSF49818; SSF49818; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Glycoprotein; Hemagglutinin;
+KW   Host cell membrane; Host membrane; Hydrolase; Membrane; Reference proteome;
+KW   Signal; Transmembrane; Transmembrane helix; Viral envelope protein; Virion.
+FT   SIGNAL          1..14
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           15..416
+FT                   /note="Hemagglutinin-esterase"
+FT                   /id="PRO_0000045398"
+FT   TOPO_DOM        15..393
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        394..414
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        415..416
+FT                   /note="Intravirion"
+FT                   /evidence="ECO:0000255"
+FT   REGION          4..121
+FT                   /note="Esterase domain first part"
+FT                   /evidence="ECO:0000250"
+FT   REGION          122..263
+FT                   /note="Receptor binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          264..379
+FT                   /note="Esterase domain second part"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        37
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        325
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        328
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        76
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   CARBOHYD        257
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   CARBOHYD        278
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   CARBOHYD        313
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   CARBOHYD        322
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   CARBOHYD        343
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   DISULFID        41..57
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   DISULFID        88..136
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   DISULFID        200..246
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   DISULFID        206..213
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   DISULFID        304..309
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   DISULFID        346..371
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   VARIANT         29
+FT                   /note="F -> S"
+FT   VARIANT         114
+FT                   /note="D -> G"
+FT   VARIANT         133
+FT                   /note="T -> I"
+FT   VARIANT         152
+FT                   /note="Q -> K"
+FT   VARIANT         155
+FT                   /note="V -> E"
+FT   VARIANT         159
+FT                   /note="N -> K"
+FT   VARIANT         214
+FT                   /note="L -> R"
+FT   VARIANT         234
+FT                   /note="P -> S"
+FT   VARIANT         238
+FT                   /note="S -> L"
+FT   VARIANT         416
+FT                   /note="C -> V"
+FT   MUTAGEN         64
+FT                   /note="S->T: Strongly reduced activity toward
+FT                   7,9-di-O-acetylated sialic acids and strongly increased
+FT                   activity toward 9-mono-O-acetylated sialic acids."
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   MUTAGEN         103
+FT                   /note="R->H: Strongly reduced activity toward both 7,9-di
+FT                   and 9-mono-O-acetylated sialic acids. Increased activity
+FT                   toward synthetic substrate (4-nitrophenyl)acetate."
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   MUTAGEN         109
+FT                   /note="W->A: Reduced lectin activity."
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   MUTAGEN         168
+FT                   /note="L->A: Reduced lectin activity."
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   MUTAGEN         170
+FT                   /note="L->A: Reduced lectin activity."
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   MUTAGEN         207
+FT                   /note="F->A: Loss of lectin activity."
+FT                   /evidence="ECO:0000269|PubMed:19721004"
+FT   STRAND          21..23
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          27..29
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          31..36
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           37..39
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   TURN            44..49
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           54..59
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          60..62
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           68..73
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          86..88
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          90..95
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           102..104
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          108..111
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           112..131
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          135..141
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          151..153
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          164..173
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          177..183
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          185..187
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          193..202
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          207..209
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          212..214
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          216..222
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          225..231
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          244..251
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          253..267
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          269..274
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          283..286
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           299..303
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   TURN            306..308
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          309..312
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          320..325
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          328..330
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           331..337
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           338..341
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          345..348
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          351..353
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          357..361
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   STRAND          368..370
+FT                   /evidence="ECO:0007829|PDB:3I26"
+FT   HELIX           375..378
+FT                   /evidence="ECO:0007829|PDB:3I26"
+SQ   SEQUENCE   416 AA;  46440 MW;  384C406385439054 CRC64;
+     MLSLILFFPS FAFAATPVTP YYGPGHITFD WCGFGDSRSD CTNPQSPMSL DIPQQLCPKF
+     SSKSSSSMFL SLHWNNHSSF VSYDYFNCGV EKVFYEGVNF SPRKQYSCWD EGVDGWIELK
+     TRFYTKLYQM ATTSRCIKLI QLQAPSSLPT LQAGVCRTNK QLPDNPRLAL LSDTVPTSVQ
+     FVLPGSSGTT ICTKHLVPFC YLNHGCFTTG GSCLPFGVSY VSDSFYYGYY DATPQIGSTE
+     SHDYVCDYLF MEPGTYNAST VGKFLVYPTK SYCMDTMNIT VPVQAVQSIW SEQYASDDAI
+     GQACKAPYCI FYNKTTPYTV TNGSDANHGD DEVRMMMQGL LRNSSCISPQ GSTPLALYST
+     EMIYEPNYGS CPQFYKLFDT SGNENIDVIS SSYFVATWVL LVVVVILIFV IISFFC
+//

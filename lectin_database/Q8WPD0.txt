@@ -1,0 +1,90 @@
+ID   LECG_PATPE              Reviewed;         168 AA.
+AC   Q8WPD0;
+DT   03-OCT-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   25-MAY-2022, entry version 59.
+DE   RecName: Full=Alpha-N-acetylgalactosamine-specific lectin {ECO:0000303|PubMed:11886841};
+DE   AltName: Full=Alpha-N-acetylgalactosamine-binding lectin {ECO:0000312|EMBL:BAB85109.1};
+DE   AltName: Full=GalNAc-specific lectin {ECO:0000312|EMBL:BAB78598.1};
+DE   AltName: Full=Lectin {ECO:0000303|PubMed:11886841};
+DE            Short=ApL {ECO:0000303|PubMed:11886841};
+DE   AltName: Full=Tn antigen-specific lectin {ECO:0000312|EMBL:BAB85109.1};
+DE   Flags: Precursor;
+OS   Patiria pectinifera (Starfish) (Asterina pectinifera).
+OC   Eukaryota; Metazoa; Echinodermata; Eleutherozoa; Asterozoa; Asteroidea;
+OC   Valvatacea; Valvatida; Asterinidae; Patiria.
+OX   NCBI_TaxID=7594;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:BAB78598.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 19-26; 51-74; 88-107 AND
+RP   157-163, FUNCTION, SUBUNIT, AND VARIANTS VAL-4; SER-15; GLN-67; ALA-84 AND
+RP   VAL-153.
+RX   PubMed=11886841; DOI=10.1093/glycob/12.2.85;
+RA   Kakiuchi M., Okino N., Sueyoshi N., Ichinose S., Omori A., Kawabata S.,
+RA   Yamaguchi K., Ito M.;
+RT   "Purification, characterization, and cDNA cloning of alpha-N-
+RT   acetylgalactosamine-specific lectin from starfish, Asterina pectinifera.";
+RL   Glycobiology 12:85-94(2002).
+CC   -!- FUNCTION: Alpha-N-acetylgalactosamine-specific lectin. The oligomeric
+CC       form has Ca(2+)-dependent hemagglutination activity towards sheep
+CC       erythrocytes. Its hemagglutination activity is inhibited by various
+CC       monosaccharides, oligosaccharides and glycopeptides, including
+CC       inhibition by GalNAc, blood group A trisaccharide, Tn antigen, mucin
+CC       and asialomucin. {ECO:0000269|PubMed:11886841}.
+CC   -!- SUBUNIT: Monomer, homodimer and homooligomer.
+CC       {ECO:0000269|PubMed:11886841}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB062765; BAB78598.1; -; mRNA.
+DR   EMBL; AB079848; BAB85109.1; -; mRNA.
+DR   AlphaFoldDB; Q8WPD0; -.
+DR   SMR; Q8WPD0; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03589; CLECT_CEL-1_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033988; CEL1-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Hemagglutinin; Lectin; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000269|PubMed:11886841"
+FT   CHAIN           19..168
+FT                   /note="Alpha-N-acetylgalactosamine-specific lectin"
+FT                   /evidence="ECO:0000269|PubMed:11886841"
+FT                   /id="PRO_5000049722"
+FT   DOMAIN          38..163
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        59..162
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        136..154
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VARIANT         4
+FT                   /note="F -> V"
+FT                   /evidence="ECO:0000269|PubMed:11886841"
+FT   VARIANT         15
+FT                   /note="F -> S"
+FT                   /evidence="ECO:0000269|PubMed:11886841"
+FT   VARIANT         67
+FT                   /note="L -> Q"
+FT                   /evidence="ECO:0000269|PubMed:11886841"
+FT   VARIANT         84
+FT                   /note="T -> A"
+FT                   /evidence="ECO:0000269|PubMed:11886841"
+FT   VARIANT         153
+FT                   /note="A -> V"
+FT                   /evidence="ECO:0000269|PubMed:11886841"
+SQ   SEQUENCE   168 AA;  18936 MW;  6F3CACBC2CCFCFFC CRC64;
+     MAFFRALCFV LLVGFAAACQ PDCSWKCPPK CPPMWTFYNG NCYRYFGTGK TYDEAESHCQ
+     EFTEVGLGHL ASIASAEENN LLLTMWKSVR TTTTGGLWIG LNDQAEEGNF IWTDGSAVTF
+     TDWATTQPDN YQNEDCAHMR HELDGDDRWN DIACSRAFAY VCKMSTTN
+//

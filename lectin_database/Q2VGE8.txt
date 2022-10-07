@@ -1,0 +1,77 @@
+ID   Q2VGE8_PETMA            Unreviewed;       194 AA.
+AC   Q2VGE8;
+DT   10-JAN-2006, integrated into UniProtKB/TrEMBL.
+DT   10-JAN-2006, sequence version 1.
+DT   29-SEP-2021, entry version 65.
+DE   SubName: Full=Variable lymphocyte receptor diversity region {ECO:0000313|EMBL:ABA40257.1};
+DE   Flags: Fragment;
+GN   Name=VLR {ECO:0000313|EMBL:ABA40257.1};
+OS   Petromyzon marinus (Sea lamprey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Cyclostomata;
+OC   Hyperoartia; Petromyzontiformes; Petromyzontidae; Petromyzon.
+OX   NCBI_TaxID=7757 {ECO:0000313|EMBL:ABA40257.1};
+RN   [1] {ECO:0000313|EMBL:ABA40257.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Typhlosole {ECO:0000313|EMBL:ABA40257.1};
+RX   PubMed=16373579; DOI=10.1126/science.1119420;
+RA   Alder M.N., Rogozin I.B., Iyer L.M., Glazko G.V., Cooper M.D., Pancer Z.;
+RT   "Diversity and function of adaptive immune receptors in a jawless
+RT   vertebrate.";
+RL   Science 310:1970-1973(2005).
+RN   [2] {ECO:0007829|PDB:3E6J}
+RP   X-RAY CRYSTALLOGRAPHY (1.67 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=18818359; DOI=10.1126/science.1162484;
+RA   Han B.W., Herrin B.R., Cooper M.D., Wilson I.A.;
+RT   "Antigen recognition by variable lymphocyte receptors.";
+RL   Science 321:1834-1837(2008).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ151363; ABA40257.1; -; mRNA.
+DR   PDB; 3E6J; X-ray; 1.67 A; A=1-194.
+DR   PDBsum; 3E6J; -.
+DR   SMR; Q2VGE8; -.
+DR   UniLectin; Q2VGE8; -.
+DR   EvolutionaryTrace; Q2VGE8; -.
+DR   Gene3D; 3.80.10.10; -; 1.
+DR   InterPro; IPR001611; Leu-rich_rpt.
+DR   InterPro; IPR003591; Leu-rich_rpt_typical-subtyp.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   InterPro; IPR026878; LRRC4C.
+DR   InterPro; IPR000372; LRRNT.
+DR   InterPro; IPR024592; Variable_lymphocyte_rcpt_C.
+DR   PANTHER; PTHR24369:SF8; PTHR24369:SF8; 2.
+DR   Pfam; PF11921; DUF3439; 1.
+DR   Pfam; PF13855; LRR_8; 1.
+DR   SMART; SM00369; LRR_TYP; 4.
+DR   SMART; SM00013; LRRNT; 1.
+DR   PROSITE; PS51450; LRR; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3E6J};
+KW   Leucine-rich repeat {ECO:0000256|ARBA:ARBA00022614};
+KW   Receptor {ECO:0000313|EMBL:ABA40257.1};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737}.
+FT   DOMAIN          1..33
+FT                   /note="LRRNT"
+FT                   /evidence="ECO:0000259|SMART:SM00013"
+FT   DISULFID        2..8
+FT                   /evidence="ECO:0007829|PDB:3E6J"
+FT   DISULFID        6..15
+FT                   /evidence="ECO:0007829|PDB:3E6J"
+FT   DISULFID        85..86
+FT                   /evidence="ECO:0007829|PDB:3E6J"
+FT   DISULFID        138..173
+FT                   /evidence="ECO:0007829|PDB:3E6J"
+FT   DISULFID        140..193
+FT                   /evidence="ECO:0007829|PDB:3E6J"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:ABA40257.1"
+FT   NON_TER         194
+FT                   /evidence="ECO:0000313|EMBL:ABA40257.1"
+SQ   SEQUENCE   194 AA;  21404 MW;  5A9B8187B583D1CD CRC64;
+     ACPSQCSCSG TTVDCRSKRH ASVPAGIPTN AQILYLHDNQ ITKLEPGVFD SLANLRELHL
+     WGNQLSALPV GVFDRLVHLK ELFMCCNKLT ELPRGIEGLT HLTHLALDQN QLKSIPHGAF
+     DRLSPLTHAY LFGNPWDCEC RDIMYLRNWV ADHTSIVMRW DGKAVNDPDS AKCAGTNTPV
+     RAVTEASTSP SKCP
+//

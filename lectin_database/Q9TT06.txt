@@ -1,0 +1,128 @@
+ID   SFTPA_SHEEP             Reviewed;         248 AA.
+AC   Q9TT06;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   03-AUG-2022, entry version 95.
+DE   RecName: Full=Pulmonary surfactant-associated protein A;
+DE            Short=PSAP;
+DE            Short=PSP-A;
+DE            Short=SP-A;
+DE   Flags: Precursor;
+GN   Name=SFTPA1; Synonyms=SFTPA;
+OS   Ovis aries (Sheep).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Caprinae; Ovis.
+OX   NCBI_TaxID=9940;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=10749753; DOI=10.1152/ajplung.2000.278.4.l754;
+RA   Braems G.A., Yao L.-J., Inchley K., Brickenden A., Han V.K.M., Grolla A.,
+RA   Challis J.R.G., Possmayer F.;
+RT   "Ovine surfactant protein cDNAs: use in studies on fetal lung growth and
+RT   maturation after prolonged hypoxemia.";
+RL   Am. J. Physiol. 278:L754-L764(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=10749754; DOI=10.1152/ajplung.2000.278.4.l765;
+RA   Pietschmann S.M., Pison U.;
+RT   "cDNA cloning of ovine pulmonary SP-A, SP-B, and SP-C: isolation of two
+RT   different sequences for SP-B.";
+RL   Am. J. Physiol. 278:L765-L778(2000).
+CC   -!- FUNCTION: In presence of calcium ions, it binds to surfactant
+CC       phospholipids and contributes to lower the surface tension at the air-
+CC       liquid interface in the alveoli of the mammalian lung and is essential
+CC       for normal respiration. Enhances the expression of MYO18A/SP-R210 on
+CC       alveolar macrophages. {ECO:0000250|UniProtKB:P35242}.
+CC   -!- SUBUNIT: Oligomeric complex of 6 set of homotrimers.
+CC       {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:Q8IWL2}.
+CC       Secreted, extracellular space, extracellular matrix
+CC       {ECO:0000250|UniProtKB:Q8IWL2}. Secreted, extracellular space, surface
+CC       film {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- SIMILARITY: Belongs to the SFTPA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF211856; AAF18995.1; -; mRNA.
+DR   EMBL; AF076633; AAF31148.1; -; mRNA.
+DR   RefSeq; NP_001009728.2; NM_001009728.2.
+DR   AlphaFoldDB; Q9TT06; -.
+DR   SMR; Q9TT06; -.
+DR   STRING; 9940.ENSOARP00000010907; -.
+DR   GeneID; 443033; -.
+DR   KEGG; oas:443033; -.
+DR   CTD; 653509; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   OrthoDB; 1172460at2759; -.
+DR   Proteomes; UP000002356; Unplaced.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005615; C:extracellular space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:UniProtKB-KW.
+DR   CDD; cd03591; CLECT_collectin_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033990; Collectin_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Collagen; Disulfide bond; Extracellular matrix; Gaseous exchange;
+KW   Glycoprotein; Lectin; Metal-binding; Reference proteome; Secreted; Signal;
+KW   Surface film.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..248
+FT                   /note="Pulmonary surfactant-associated protein A"
+FT                   /id="PRO_0000017463"
+FT   DOMAIN          28..100
+FT                   /note="Collagen-like"
+FT   DOMAIN          127..247
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          29..103
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         215
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         234
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         235
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        26
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        155..246
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        224..238
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   248 AA;  26394 MW;  D65E7293BBFF1FD9 CRC64;
+     MLLCSLTLML LWMVASGLEC DTKEVCLGSP GIPGTPGSHG LPGRDGRDGI KGDPGPPGPM
+     GPPGGMPGLP GRDGMTGAPG LPGERGEKGE PGERGPPGFP AYLDEELQGT LHEIRHQVLQ
+     SQGVLILQGS MLEVGEKVFS TNGQSLNFDA IKELCARAGG HIAAPRSPEE NEAITSIVKK
+     HNTYAYLGLA EGPTAGDFYY LDGAPVNYTN WYPGEPRGRG KEKCVEIYTD GQWNDKNCLQ
+     YRLAICEF
+//

@@ -1,0 +1,280 @@
+ID   PYGL_RAT                Reviewed;         850 AA.
+AC   P09811;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 5.
+DT   03-AUG-2022, entry version 189.
+DE   RecName: Full=Glycogen phosphorylase, liver form {ECO:0000305|PubMed:1339293};
+DE            EC=2.4.1.1 {ECO:0000250|UniProtKB:P06737};
+GN   Name=Pygl {ECO:0000312|RGD:620687}; Synonyms=Lgp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=1339293; DOI=10.1016/0167-4781(92)90453-7;
+RA   Schiebel K., Pekel E., Mayer D.;
+RT   "The nucleotide sequence of rat liver glycogen phosphorylase cDNA.";
+RL   Biochim. Biophys. Acta 1130:349-351(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-81.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8482535; DOI=10.1016/0378-1119(93)90368-d;
+RA   Herrick K.R., Gorin F.A., Park E.A., Tait R.C.;
+RT   "Characterization of the 5' flanking region of the gene encoding rat liver
+RT   glycogen phosphorylase.";
+RL   Gene 126:203-211(1993).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 333-430.
+RX   PubMed=2575583; DOI=10.1016/0888-7543(89)90017-7;
+RA   Glaser T., Matthews K.E., Hudson J.W., Seth P., Houseman D.E., Crerar M.M.;
+RT   "Localization of the muscle, liver, and brain glycogen phosphorylase genes
+RT   on linkage maps of mouse chromosomes 19, 12, and 2, respectively.";
+RL   Genomics 5:510-521(1989).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 441-850.
+RC   TISSUE=Liver;
+RX   PubMed=2424788; DOI=10.1016/0014-5793(86)80702-5;
+RA   Osawa S., Chiu R.H., McDonough A., Miller T.B. Jr., Johnson G.L.;
+RT   "Isolation of partial cDNAs for rat liver and muscle glycogen phosphorylase
+RT   isozymes.";
+RL   FEBS Lett. 202:282-288(1986).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 835-850.
+RC   STRAIN=Zucker;
+RX   PubMed=1765272; DOI=10.1016/0378-1119(91)90620-q;
+RA   Froman B.E., Tait R.C., Gorin F.A., Horwitz B.A., Stern J.S.;
+RT   "The gene encoding rat liver glycogen phosphorylase contains multiple
+RT   polyadenylation signal sequences.";
+RL   Gene 109:269-274(1991).
+RN   [7]
+RP   INTERACTION WITH PPP1R3B.
+RX   PubMed=7720853; DOI=10.1016/0014-5793(95)00197-h;
+RA   Moorhead G., MacKintosh C., Morrice N., Cohen P.;
+RT   "Purification of the hepatic glycogen-associated form of protein
+RT   phosphatase-1 by microcystin-Sepharose affinity chromatography.";
+RL   FEBS Lett. 362:101-105(1995).
+RN   [8]
+RP   INTERACTION WITH PPP1R3B.
+RX   PubMed=7498521; DOI=10.1016/0014-5793(95)01184-g;
+RA   Doherty M.J., Moorhead G., Morrice N., Cohen P., Cohen P.T.W.;
+RT   "Amino acid sequence and expression of the hepatic glycogen-binding (GL)-
+RT   subunit of protein phosphatase-1.";
+RL   FEBS Lett. 375:294-298(1995).
+RN   [9]
+RP   INTERACTION WITH PPP1R3B.
+RX   PubMed=9841883; DOI=10.1042/bj3360699;
+RA   Armstrong C.G., Doherty M.J., Cohen P.T.W.;
+RT   "Identification of the separate domains in the hepatic glycogen-targeting
+RT   subunit of protein phosphatase 1 that interact with phosphorylase a,
+RT   glycogen and protein phosphatase 1.";
+RL   Biochem. J. 336:699-704(1998).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-561 AND SER-639, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Allosteric enzyme that catalyzes the rate-limiting step in
+CC       glycogen catabolism, the phosphorolytic cleavage of glycogen to produce
+CC       glucose-1-phosphate, and plays a central role in maintaining cellular
+CC       and organismal glucose homeostasis. {ECO:0000250|UniProtKB:P06737}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[(1->4)-alpha-D-glucosyl](n) + phosphate = [(1->4)-alpha-D-
+CC         glucosyl](n-1) + alpha-D-glucose 1-phosphate; Xref=Rhea:RHEA:41732,
+CC         Rhea:RHEA-COMP:9584, Rhea:RHEA-COMP:9586, ChEBI:CHEBI:15444,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58601; EC=2.4.1.1;
+CC         Evidence={ECO:0000250|UniProtKB:P06737};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41733;
+CC         Evidence={ECO:0000250|UniProtKB:P06737};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:P06737};
+CC   -!- ACTIVITY REGULATION: Allosterically regulated through the non-covalent
+CC       binding of metabolites, being activated by AMP and inhibited by ATP,
+CC       ADP, and glucose-6-phosphate. The activity is also controlled by post-
+CC       translational modifications including phosphorylation and acetylation.
+CC       {ECO:0000250|UniProtKB:P06737}.
+CC   -!- SUBUNIT: Homodimer; enzymatically active (By similarity). Interacts
+CC       with PPP1R3B; recruits the phosphatase PP1 which dephosphorylates and
+CC       inactivates PYGL/glycogen phosphorylase (PubMed:7720853,
+CC       PubMed:7498521, PubMed:9841883). {ECO:0000250|UniProtKB:P06737,
+CC       ECO:0000269|PubMed:7498521, ECO:0000269|PubMed:7720853,
+CC       ECO:0000269|PubMed:9841883}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P06737}.
+CC   -!- PTM: Acetylation, which is up-regulated by glucose and insulin and
+CC       down-regulated by glucagon, inhibits the glycogen phosphorylase
+CC       activity by promoting PPP1R3B-mediated recruitment of phosphatase PP1
+CC       and Ser-15 dephosphorylation. {ECO:0000250|UniProtKB:P06737}.
+CC   -!- PTM: Phosphorylation at Ser-15 converts inactive phosphorylase b into
+CC       active phosphorylase a. Dephosphorylation of Ser-15 by phosphatase PP1
+CC       inactivates the enzyme. {ECO:0000250|UniProtKB:P06737}.
+CC   -!- SIMILARITY: Belongs to the glycogen phosphorylase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X63515; CAA45083.1; -; mRNA.
+DR   EMBL; BC070901; AAH70901.1; -; mRNA.
+DR   EMBL; M85280; AAA41254.1; -; Genomic_DNA.
+DR   EMBL; J03080; AAA41986.1; -; mRNA.
+DR   EMBL; X04069; CAA27704.1; -; mRNA.
+DR   EMBL; M59460; AAA41987.1; -; mRNA.
+DR   PIR; S22338; S22338.
+DR   RefSeq; NP_071604.1; NM_022268.1.
+DR   AlphaFoldDB; P09811; -.
+DR   SMR; P09811; -.
+DR   BioGRID; 248952; 1.
+DR   IntAct; P09811; 2.
+DR   MINT; P09811; -.
+DR   STRING; 10116.ENSRNOP00000009183; -.
+DR   BindingDB; P09811; -.
+DR   ChEMBL; CHEMBL3239; -.
+DR   CAZy; GT35; Glycosyltransferase Family 35.
+DR   iPTMnet; P09811; -.
+DR   PhosphoSitePlus; P09811; -.
+DR   jPOST; P09811; -.
+DR   PaxDb; P09811; -.
+DR   PRIDE; P09811; -.
+DR   Ensembl; ENSRNOT00000009183; ENSRNOP00000009183; ENSRNOG00000006388.
+DR   GeneID; 64035; -.
+DR   KEGG; rno:64035; -.
+DR   UCSC; RGD:620687; rat.
+DR   CTD; 5836; -.
+DR   RGD; 620687; Pygl.
+DR   eggNOG; KOG2099; Eukaryota.
+DR   GeneTree; ENSGT00950000183148; -.
+DR   HOGENOM; CLU_010198_1_0_1; -.
+DR   InParanoid; P09811; -.
+DR   OMA; KHKRTFT; -.
+DR   OrthoDB; 240595at2759; -.
+DR   PhylomeDB; P09811; -.
+DR   TreeFam; TF300309; -.
+DR   BRENDA; 2.4.1.1; 5301.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   Reactome; R-RNO-70221; Glycogen breakdown (glycogenolysis).
+DR   PRO; PR:P09811; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000006388; Expressed in liver and 18 other tissues.
+DR   Genevisible; P09811; RN.
+DR   GO; GO:0005737; C:cytoplasm; IDA:RGD.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016208; F:AMP binding; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; ISO:RGD.
+DR   GO; GO:0032052; F:bile acid binding; ISO:RGD.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:RGD.
+DR   GO; GO:0005536; F:glucose binding; ISO:RGD.
+DR   GO; GO:0008184; F:glycogen phosphorylase activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0102250; F:linear malto-oligosaccharide phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0002060; F:purine nucleobase binding; ISO:RGD.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IBA:GO_Central.
+DR   GO; GO:0102499; F:SHG alpha-glucan phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019842; F:vitamin binding; ISO:RGD.
+DR   GO; GO:0006015; P:5-phosphoribose 1-diphosphate biosynthetic process; IMP:RGD.
+DR   GO; GO:0042593; P:glucose homeostasis; ISO:RGD.
+DR   GO; GO:0005980; P:glycogen catabolic process; IDA:RGD.
+DR   GO; GO:0005977; P:glycogen metabolic process; IDA:RGD.
+DR   GO; GO:0070266; P:necroptotic process; ISO:RGD.
+DR   GO; GO:0009617; P:response to bacterium; ISO:RGD.
+DR   InterPro; IPR011833; Glycg_phsphrylas.
+DR   InterPro; IPR000811; Glyco_trans_35.
+DR   InterPro; IPR035090; Pyridoxal_P_attach_site.
+DR   PANTHER; PTHR11468; PTHR11468; 1.
+DR   Pfam; PF00343; Phosphorylase; 1.
+DR   PIRSF; PIRSF000460; Pprylas_GlgP; 1.
+DR   TIGRFAMs; TIGR02093; P_ylase; 1.
+DR   PROSITE; PS00102; PHOSPHORYLASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Allosteric enzyme; Carbohydrate metabolism; Cytoplasm;
+KW   Glycogen metabolism; Glycosyltransferase; Nucleotide-binding;
+KW   Phosphoprotein; Pyridoxal phosphate; Reference proteome; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   CHAIN           2..850
+FT                   /note="Glycogen phosphorylase, liver form"
+FT                   /id="PRO_0000188526"
+FT   BINDING         43..45
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   BINDING         76
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   BINDING         310
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   SITE            109
+FT                   /note="Involved in the association of subunits"
+FT                   /evidence="ECO:0000250|UniProtKB:P00489"
+FT   SITE            143
+FT                   /note="Involved in the association of subunits"
+FT                   /evidence="ECO:0000250|UniProtKB:P00489"
+FT   SITE            156
+FT                   /note="May be involved in allosteric control"
+FT                   /evidence="ECO:0000250|UniProtKB:P00489"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   MOD_RES         15
+FT                   /note="Phosphoserine; by PHK; in form phosphorylase a"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   MOD_RES         364
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9ET01"
+FT   MOD_RES         470
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   MOD_RES         524
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9ET01"
+FT   MOD_RES         561
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         639
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         681
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   MOD_RES         796
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06737"
+FT   CONFLICT        667
+FT                   /note="I -> V (in Ref. 5; CAA27704)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   850 AA;  97483 MW;  0BE9A641DFFF3E0D CRC64;
+     MAKPLTDQEK RRQISIRGIV GVENVAELKK GFNRHLHFTL VKDRNVATPR DYYFALAHTV
+     RDHLVGRWIR TQQHYYDKCP KRVYYLSLEF YMGRTLQNTM INLGLQNACD EAIYQLGLDM
+     EELEEIEEDA GLGNGGLGRL AACFLDSMAT LGLAAYGYGI RYEYGIFNQK IREGWQVEEA
+     DDWLRHGNPW EKARPEFMLP VHFYGRVEHT QAGTKWVDTQ VVLALPYDTP VPGYMNNTVN
+     TMRLWSARAP NDFNLQDFNV GDYIQAVLDR NLAENISRVL YPNDNFFEGK ELRLKQEYFV
+     VAATLQDVIR RFKASKFGSK DGVGTVFDAF PDQVAIQLND THPALAIPEL MRIFVDIEKL
+     PWSKAWEITK KTFAYTNHTV LPEALERWPV DLVEKLLPRH LQIIYEINQK HLDRIVALFP
+     KDIDRMRRMS LIEEEGGKRI NMAHLCIVGC HAVNGVAKIH SDIVKTQVFK DFSELEPDKF
+     QNKTNGITPR RWLLLCNPGL ADLIAEKIGE DYVKDLSQLT KLHSFVGDDI FLREIAKVKQ
+     ENKLKFSQFL EKEYKVKINP SSMFDVHVKR IHEYKRQLLN CLHVITMYNR IKKDPKKFFV
+     PRTVIIGGKA APGYHMAKMI IKLVTSVAEV VNNDPMVGSK LKVIFLENYR VSLAEKVIPA
+     TDLSEQISTA GTEASGTGNM KFMLNGALTI GTMDGANVEM AEEAGEENLF IFGMRVDDVA
+     ALDKKGYEAK EYYEALPELK LVIDQIDNGF FSPNQPDLFK DIINMLFYHD RFKVFADYEA
+     YVKCQEKVSQ LYMNQKAWNT MVLRNIAASG KFSSDRTIRE YAKDIWNMEP SDLKISLSKE
+     SSNGVNANGK
+//

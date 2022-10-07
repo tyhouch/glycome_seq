@@ -1,0 +1,108 @@
+ID   CLC10_RAT               Reviewed;         306 AA.
+AC   P49301;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   25-MAY-2022, entry version 131.
+DE   RecName: Full=C-type lectin domain family 10 member A;
+DE   AltName: Full=MMGL;
+DE   AltName: Full=Macrophage asialoglycoprotein-binding protein 1;
+DE            Short=M-ASGP-BP-1;
+DE   AltName: Full=Macrophage galactose/N-acetylgalactosamine-specific lectin;
+GN   Name=Clec10a; Synonyms=Mgl, Mgl1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=2358462; DOI=10.1016/s0021-9258(19)38590-4;
+RA   Ii M., Kurata H., Itoh N., Yamashina I., Kawasaki T.;
+RT   "Molecular cloning and sequence analysis of cDNA encoding the macrophage
+RT   lectin specific for galactose and N-acetylgalactosamine.";
+RL   J. Biol. Chem. 265:11295-11298(1990).
+RN   [2]
+RP   PRELIMINARY PROTEIN SEQUENCE OF 9-28.
+RX   PubMed=3421964; DOI=10.1016/s0006-291x(88)80554-0;
+RA   Ii M., Kawasaki T., Yamashina I.;
+RT   "Structural similarity between the macrophage lectin specific for
+RT   galactose/N-acetylgalactosamine and the hepatic asialoglycoprotein binding
+RT   protein.";
+RL   Biochem. Biophys. Res. Commun. 155:720-725(1988).
+CC   -!- FUNCTION: Recognizes terminal galactose and N-acetylgalactosamine
+CC       units.
+CC   -!- SUBUNIT: Homooligomer.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type II membrane protein.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J05495; AAA41216.1; -; mRNA.
+DR   PIR; A42230; A42230.
+DR   AlphaFoldDB; P49301; -.
+DR   SMR; P49301; -.
+DR   STRING; 10116.ENSRNOP00000025308; -.
+DR   GlyGen; P49301; 2 sites.
+DR   PaxDb; P49301; -.
+DR   UCSC; RGD:621158; rat.
+DR   RGD; 621158; Clec10a.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; P49301; -.
+DR   PhylomeDB; P49301; -.
+DR   PRO; PR:P49301; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0002248; P:connective tissue replacement involved in inflammatory response wound healing; ISO:RGD.
+DR   CDD; cd03590; CLECT_DC-SIGN_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033989; CD209-like_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Glycoprotein; Lectin;
+KW   Membrane; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..306
+FT                   /note="C-type lectin domain family 10 member A"
+FT                   /id="PRO_0000046658"
+FT   TOPO_DOM        1..37
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        38..58
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        59..306
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          174..300
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        76
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        168
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        175..186
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        203..298
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        276..290
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   306 AA;  34242 MW;  D68A5DFF0B9E8F13 CRC64;
+     MTMAYENFQN LGSEEKNQEA GKAPPQSFLC NILSWTHLLL FSLGLSLLLL VVISVIGSQN
+     SQLRRDLETL RTTLDNTTSN TKAELQALAS RGDSLQTGIN SLKVEVDDHG QELQAGRGLS
+     QKVASLESTV EKKEQTLRTD LSEITDRVQQ LGKDLKTLTC QLASLKNNGS AVACCPLHWM
+     EHEGSCYWFS QSGKPWPEAD KYCQLENSNL VVVNSLAEQN FLQTHMGSVV TWIGLTDQNG
+     PWRWVDGTDY EKGFTHWAPK QPDNWYGHGL GGGEDCAHFT SDGRWNDDVC QRPYRWVCEM
+     KLAKDS
+//

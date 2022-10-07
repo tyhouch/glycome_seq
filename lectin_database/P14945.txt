@@ -1,0 +1,87 @@
+ID   LZ8_GANLU               Reviewed;         111 AA.
+AC   P14945;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   25-MAY-2022, entry version 56.
+DE   RecName: Full=Immunomodulatory protein Ling Zhi-8;
+DE            Short=LZ-8;
+OS   Ganoderma lucidum (Ling zhi medicinal fungus) (Bracket fungus).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Polyporales; Polyporaceae; Ganoderma.
+OX   NCBI_TaxID=5315;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1990000; DOI=10.1016/s0021-9258(18)52270-5;
+RA   Murasugi A., Tanaka S., Komiyama N., Iwata N., Kino K., Tsunoo H.,
+RA   Sakuma S.;
+RT   "Molecular cloning of a cDNA and a gene encoding an immunomodulatory
+RT   protein, Ling Zhi-8, from a fungus, Ganoderma lucidum.";
+RL   J. Biol. Chem. 266:2486-2493(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-111, AND ACETYLATION AT SER-2.
+RX   PubMed=2570780; DOI=10.1016/s0021-9258(19)84715-4;
+RA   Tanaka S., Ko K., Kino K., Tsuchiya K., Yamashita A., Murasugi A.,
+RA   Sakuma S., Tsunoo H.;
+RT   "Complete amino acid sequence of an immunomodulatory protein, ling zhi-8
+RT   (LZ-8). An immunomodulator from a fungus, Ganoderma lucidium, having
+RT   similarity to immunoglobulin variable regions.";
+RL   J. Biol. Chem. 264:16372-16377(1989).
+CC   -!- SIMILARITY: Belongs to the fungal immunomodulatory protein (FIP)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M58032; AAA33350.1; -; Genomic_DNA.
+DR   PIR; A38618; JIMRZ8.
+DR   PDB; 3F3H; X-ray; 2.10 A; A/B=1-111.
+DR   PDBsum; 3F3H; -.
+DR   AlphaFoldDB; P14945; -.
+DR   SMR; P14945; -.
+DR   iPTMnet; P14945; -.
+DR   EvolutionaryTrace; P14945; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0002682; P:regulation of immune system process; IEA:InterPro.
+DR   InterPro; IPR036344; FIP_sf.
+DR   InterPro; IPR015339; Immunomodulatory_FIP-Fve_fun.
+DR   Pfam; PF09259; Fve; 1.
+DR   SUPFAM; SSF101542; SSF101542; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:2570780"
+FT   CHAIN           2..111
+FT                   /note="Immunomodulatory protein Ling Zhi-8"
+FT                   /id="PRO_0000084539"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:2570780"
+FT   HELIX           3..14
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          15..20
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          24..27
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          33..41
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          49..54
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          57..62
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          73..76
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   HELIX           77..80
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   TURN            81..83
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          92..97
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   TURN            99..101
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+FT   STRAND          104..110
+FT                   /evidence="ECO:0007829|PDB:3F3H"
+SQ   SEQUENCE   111 AA;  12510 MW;  294FB9D0F9EB73EB CRC64;
+     MSDTALIFRL AWDVKKLSFD YTPNWGRGNP NNFIDTVTFP KVLTDKAYTY RVAVSGRNLG
+     VKPSYAVESD GSQKVNFLEY NSGYGIADTN TIQVFVVDPD TNNDFIIAQW N
+//

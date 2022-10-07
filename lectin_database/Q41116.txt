@@ -1,0 +1,68 @@
+ID   AR5B_PHAVU              Reviewed;         261 AA.
+AC   Q41116;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   25-MAY-2022, entry version 84.
+DE   RecName: Full=Arcelin-5B;
+DE   Flags: Precursor;
+GN   Name=ARC5B; Synonyms=ARC5;
+OS   Phaseolus vulgaris (Kidney bean) (French bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Phaseolus.
+OX   NCBI_TaxID=3885;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=cv. G02771; TISSUE=Seed;
+RX   PubMed=7957215; DOI=10.1111/j.1432-1033.1994.0787b.x;
+RA   Goossens A., Geremia R., Bauw G., van Montagu M., Angenon G.;
+RT   "Isolation and characterisation of arcelin-5 proteins and cDNAs.";
+RL   Eur. J. Biochem. 225:787-795(1994).
+CC   -!- FUNCTION: Seed storage. This carbohydrate-binding lectin has toxic
+CC       effects on bean bruchid pests.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z36970; CAA85418.1; -; mRNA.
+DR   PIR; S51360; S51360.
+DR   AlphaFoldDB; Q41116; -.
+DR   SMR; Q41116; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045735; F:nutrient reservoir activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Lectin;
+KW   Plant defense; Seed storage protein; Signal; Storage protein; Toxin.
+FT   SIGNAL          1..21
+FT   CHAIN           22..261
+FT                   /note="Arcelin-5B"
+FT                   /id="PRO_0000017641"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        167..203
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   261 AA;  29267 MW;  EFA8CF6C838ED1C1 CRC64;
+     MASSKLLSLA LFLVLLTHAN SATETSFNFP NFHTDDKLIL QGDATISSKG QLRLTGVTPN
+     GDPRVDSMGR AFYSDPIQIK DSNNVASFNT NFTFIIRTKN QSISAYGLAF ALVRVNSPPQ
+     KKQEFLGIFN TNNPEPNART VAVVFNTFKN RIDFDKNFIK PYVNENCDFH KYNGEKTDVQ
+     ITYDSSNNDL RVFLHFTVSQ VKCSVSATVH LEKEVDEWVS VGFSPTSGLT EDTTETHDVL
+     SWSFSSKFRN KLSNILLNNI L
+//

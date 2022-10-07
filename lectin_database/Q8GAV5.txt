@@ -1,0 +1,58 @@
+ID   Q8GAV5_CITFR            Unreviewed;       125 AA.
+AC   Q8GAV5;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   29-SEP-2021, entry version 52.
+DE   SubName: Full=CFXB {ECO:0000313|EMBL:BAC16522.1};
+GN   Name=cfxB {ECO:0000313|EMBL:BAC16522.1};
+OS   Citrobacter freundii.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Citrobacter; Citrobacter freundii complex.
+OX   NCBI_TaxID=546 {ECO:0000313|EMBL:BAC16522.1};
+RN   [1] {ECO:0000313|EMBL:BAC16522.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=09-1 {ECO:0000313|EMBL:BAC16522.1};
+RX   PubMed=12438400; DOI=10.1128/IAI.70.12.7153-7155.2002;
+RA   Karasawa T., Ito H., Tsukamoto T., Yamasaki S., Kurazono H., Faruque S.M.,
+RA   Nair G.B., Nishibuchi M., Takeda Y.;
+RT   "Cloning and characterization of genes encoding homologues of the B subunit
+RT   of cholera toxin and the Escherichia coli heat-labile enterotoxin from
+RT   clinical isolates of Citrobacter freundii and E. coli.";
+RL   Infect. Immun. 70:7153-7155(2002).
+RN   [2] {ECO:0007829|PDB:2WV6}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 23-125, AND DISULFIDE BONDS.
+RX   PubMed=20171259; DOI=10.1016/j.biochi.2010.02.010;
+RA   Jansson L., Angstrom J., Lebens M., Imberty A., Varrot A., Teneberg S.;
+RT   "Carbohydrate binding specificities and crystal structure of the cholera
+RT   toxin-like B-subunit from Citrobacter freundii.";
+RL   Biochimie 92:482-490(2010).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB076667; BAC16522.1; -; Genomic_DNA.
+DR   PDB; 2WV6; X-ray; 1.90 A; D/E/F/G/H/I/J/K/L/M=23-125.
+DR   PDBsum; 2WV6; -.
+DR   SMR; Q8GAV5; -.
+DR   UniLectin; Q8GAV5; -.
+DR   EvolutionaryTrace; Q8GAV5; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   InterPro; IPR008992; Enterotoxin.
+DR   InterPro; IPR001835; Enterotoxin_B.
+DR   Pfam; PF01376; Enterotoxin_b; 1.
+DR   PRINTS; PR00772; ENTEROTOXINB.
+DR   SUPFAM; SSF50203; SSF50203; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:2WV6}; Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           23..125
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004305949"
+FT   DISULFID        31..108
+FT                   /evidence="ECO:0007829|PDB:2WV6"
+SQ   SEQUENCE   125 AA;  14228 MW;  B751669AC1C80C08 CRC64;
+     MKIKAYKIMA YGFLILPLYS KAAPQNITEL CSEYHNTQIY ELNKEIKTYT ESLAGYREMV
+     IISFANGATF QVEVPGSQHL ESQKRPLERM KDTLRAAYFT GIKVSKLCVW NNKTPNSIAA
+     IELSN
+//

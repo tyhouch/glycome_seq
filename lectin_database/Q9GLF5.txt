@@ -1,0 +1,156 @@
+ID   NKG2D_PIG               Reviewed;         214 AA.
+AC   Q9GLF5; Q9GL58;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   25-MAY-2022, entry version 89.
+DE   RecName: Full=NKG2-D type II integral membrane protein;
+DE   AltName: Full=Killer cell lectin-like receptor subfamily K member 1;
+DE   AltName: Full=NK cell receptor D;
+DE   AltName: Full=NKG2-D-activating NK receptor;
+DE   AltName: CD_antigen=CD314;
+GN   Name=KLRK1; Synonyms=NKG2D;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), AND TISSUE SPECIFICITY.
+RX   PubMed=11398969; DOI=10.1007/s002510100321;
+RA   Yim D., Jie H.-B., Sotiriadis J., Kim Y.-S., Kim K.-S., Rothschild M.F.,
+RA   Lanier L.L., Kim Y.B.;
+RT   "Molecular cloning and characterization of pig immunoreceptor DAP10 and
+RT   NKG2D.";
+RL   Immunogenetics 53:243-249(2001).
+CC   -!- FUNCTION: Functions as an activating and costimulatory receptor
+CC       involved in immunosurveillance upon binding to various cellular stress-
+CC       inducible ligands displayed at the surface of autologous tumor cells
+CC       and virus-infected cells. Provides both stimulatory and costimulatory
+CC       innate immune responses on activated killer (NK) cells, leading to
+CC       cytotoxic activity. Acts as a costimulatory receptor for T-cell
+CC       receptor (TCR) in CD8(+) T-cell-mediated adaptive immune responses by
+CC       amplifying T-cell activation. Stimulates perforin-mediated elimination
+CC       of ligand-expressing tumor cells. Signaling involves calcium influx,
+CC       culminating in the expression of TNF-alpha. Participates in NK cell-
+CC       mediated bone marrow graft rejection. May play a regulatory role in
+CC       differentiation and survival of NK cells. Binds to ligands belonging to
+CC       various subfamilies of MHC class I-related glycoproteins (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Heterohexamer composed of two
+CC       subunits of KLRK1 and four subunits of HCST/DAP10. Interacts (via
+CC       transmembrane domain) with HCST/DAP10 (via transmembrane domain); the
+CC       interaction is required for KLRK1 NK cell surface and induces NK cell-
+CC       mediated cytotoxicity. Can form disulfide-bonded heterodimer with CD94
+CC       (By similarity). Interacts with CEACAM1; recruits PTPN6 that
+CC       dephosphorylates VAV1 (By similarity). {ECO:0000250,
+CC       ECO:0000250|UniProtKB:P26718}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}. Note=Colocalized with HCST on the cell
+CC       surface. {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9GLF5-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Truncated;
+CC         IsoId=Q9GLF5-2; Sequence=VSP_022793, VSP_022794;
+CC   -!- TISSUE SPECIFICITY: Detected in peripheral blood leukocytes,
+CC       macrophages, monocytes and natural killer cells.
+CC       {ECO:0000269|PubMed:11398969}.
+CC   -!- MISCELLANEOUS: Is not capable of signal transduction by itself, but
+CC       operates through the adapter protein HCST. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF285448; AAG29426.1; -; mRNA.
+DR   EMBL; AF313487; AAG33631.1; -; mRNA.
+DR   RefSeq; NP_998978.2; NM_213813.2. [Q9GLF5-1]
+DR   AlphaFoldDB; Q9GLF5; -.
+DR   SMR; Q9GLF5; -.
+DR   STRING; 9823.ENSSSCP00000000676; -.
+DR   PaxDb; Q9GLF5; -.
+DR   PRIDE; Q9GLF5; -.
+DR   GeneID; 396737; -.
+DR   KEGG; ssc:396737; -.
+DR   CTD; 22914; -.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; Q9GLF5; -.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Unplaced.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0045954; P:positive regulation of natural killer cell mediated cytotoxicity; ISS:UniProtKB.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR042169; NKG2D.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   PANTHER; PTHR47494; PTHR47494; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Adaptive immunity; Alternative splicing; Cell membrane; Differentiation;
+KW   Disulfide bond; Glycoprotein; Immunity; Innate immunity; Lectin; Membrane;
+KW   Receptor; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..214
+FT                   /note="NKG2-D type II integral membrane protein"
+FT                   /id="PRO_0000274559"
+FT   TOPO_DOM        1..56
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        57..77
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        78..214
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          98..210
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        113
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        129
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        161
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        184
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        94..103
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        97..108
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        125..209
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        187..201
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   VAR_SEQ         79..80
+FT                   /note="LL -> CK (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:11398969"
+FT                   /id="VSP_022793"
+FT   VAR_SEQ         81..214
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:11398969"
+FT                   /id="VSP_022794"
+FT   CONFLICT        6
+FT                   /note="D -> G (in Ref. 1; AAG33631)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   214 AA;  24773 MW;  22C0857BBE136362 CRC64;
+     MGWIRDRRSP SSMEIRELHN RDVINRGAFK SRQKRTQTLI TSKCGENPSP FFLARSIAIA
+     MGIRFIVMVM IYSGMIINLL FNQEAPSPLK ESYCGPCPKN WICYRNSCYQ FSNESKTWLQ
+     SQASCRSQNS SLLKIYSRED QDFFKLVKSY HWMGLVQIPT NRSWQWEDGS ILSPNQITMV
+     EMQNGSCAVY GSSFKGYTEN CLTLNTYICM KRTV
+//

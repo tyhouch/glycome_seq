@@ -1,0 +1,64 @@
+ID   N9TFI9_ENTHI            Unreviewed;       129 AA.
+AC   N9TFI9;
+DT   26-JUN-2013, integrated into UniProtKB/TrEMBL.
+DT   26-JUN-2013, sequence version 1.
+DT   19-JAN-2022, entry version 20.
+DE   SubName: Full=Ricin-type beta-trefoil lectin domain containing protein {ECO:0000313|EMBL:ENY62235.1};
+GN   ORFNames=EHI7A_061220 {ECO:0000313|EMBL:ENY62235.1};
+OS   Entamoeba histolytica HM-1:IMSS-A.
+OC   Eukaryota; Amoebozoa; Evosea; Archamoebae; Mastigamoebida; Entamoebidae;
+OC   Entamoeba.
+OX   NCBI_TaxID=885318 {ECO:0000313|EMBL:ENY62235.1, ECO:0000313|Proteomes:UP000013105};
+RN   [1] {ECO:0000313|EMBL:ENY62235.1, ECO:0000313|Proteomes:UP000013105}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HM-1:IMSS-A {ECO:0000313|EMBL:ENY62235.1,
+RC   ECO:0000313|Proteomes:UP000013105};
+RA   Hannick L., Zafar N., Lorenzi H., Ali I.A., Petri W.P., Caler E.;
+RL   Submitted (APR-2013) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:6IFA, ECO:0007829|PDB:6IFB}
+RP   X-RAY CRYSTALLOGRAPHY (1.37 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=31967310; DOI=10.1093/glycob/cwaa001;
+RA   Khan F., Kurre D., Suguna K.;
+RT   "Crystal structures of a beta-trefoil lectin from Entamoeba histolytica in
+RT   monomeric and a novel disulfide bond-mediated dimeric forms.";
+RL   Glycobiology 30:474-488(2020).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KB824061; ENY62235.1; -; Genomic_DNA.
+DR   PDB; 6IFA; X-ray; 1.90 A; A/B/C=1-129.
+DR   PDB; 6IFB; X-ray; 1.37 A; A/B=1-129.
+DR   PDBsum; 6IFA; -.
+DR   PDBsum; 6IFB; -.
+DR   SMR; N9TFI9; -.
+DR   UniLectin; N9TFI9; -.
+DR   EnsemblProtists; ENY62235; ENY62235; EHI7A_061220.
+DR   VEuPathDB; AmoebaDB:EHI7A_061220; -.
+DR   Proteomes; UP000013105; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProt.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProt.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043157; P:response to cation stress; IEA:UniProt.
+DR   CDD; cd00161; RICIN; 1.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:6IFA, ECO:0007829|PDB:6IFB};
+KW   Lectin {ECO:0000313|EMBL:ENY62235.1}.
+FT   DOMAIN          5..129
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|SMART:SM00458"
+FT   DISULFID        75
+FT                   /evidence="ECO:0007829|PDB:6IFA"
+FT   DISULFID        75
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0007829|PDB:6IFA"
+SQ   SEQUENCE   129 AA;  14663 MW;  436CD9138F63EF10 CRC64;
+     MSNEAHTLVT PEGNVIDIQG ASQENGANAI IYPRHGGENQ LFFIDKQIGW IISVFSRKAL
+     TVKENMHDIV QSDYCSLSRQ QWIFEDNPDG TTIIRCYENP ELVLSVTGNI DKVCLSPFTR
+     EAHQLWRIE
+//

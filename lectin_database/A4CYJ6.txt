@@ -1,0 +1,77 @@
+ID   A4CYJ6_9CNID            Unreviewed;       140 AA.
+AC   A4CYJ6;
+DT   03-APR-2007, integrated into UniProtKB/TrEMBL.
+DT   03-APR-2007, sequence version 1.
+DT   07-APR-2021, entry version 42.
+DE   SubName: Full=Galactose-binding lectin {ECO:0000313|EMBL:BAD97419.1};
+DE   Flags: Precursor;
+GN   Name=sll-2b {ECO:0000313|EMBL:BAD97419.1};
+OS   Sinularia lochmodes.
+OC   Eukaryota; Metazoa; Cnidaria; Anthozoa; Octocorallia; Alcyonacea;
+OC   Alcyoniina; Alcyoniidae; Sinularia.
+OX   NCBI_TaxID=301888 {ECO:0000313|EMBL:BAD97419.1};
+RN   [1] {ECO:0000313|EMBL:BAD97419.1}
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=15781245; DOI=10.1016/j.bbrc.2005.02.137;
+RA   Jimbo M., Koike K., Sakai R., Muramoto K., Kamiya H.;
+RT   "Cloning and characterization of a lectin from the octocoral Sinularia
+RT   lochmodes.";
+RL   Biochem. Biophys. Res. Commun. 330:157-162(2005).
+RN   [2] {ECO:0007829|PDB:3WMP, ECO:0007829|PDB:3WMQ}
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF 47-140, GLYCOSYLATION AT ASN-106,
+RP   AND DISULFIDE BONDS.
+RX   PubMed=26022515; DOI=10.1093/glycob/cwv033;
+RA   Kita A., Jimbo M., Sakai R., Morimoto Y., Miki K.;
+RT   "Crystal structure of a symbiosis-related lectin from octocoral.";
+RL   Glycobiology 25:1016-1023(2015).
+RN   [3] {ECO:0007829|PDB:5X4A}
+RP   X-RAY CRYSTALLOGRAPHY (3.40 ANGSTROMS) OF 47-140, AND DISULFIDE BONDS.
+RX   PubMed=28510705; DOI=10.1093/glycob/cwx043;
+RA   Kita A., Jimbo M., Sakai R., Morimoto Y., Takeuchi R., Tanaka H.,
+RA   Takahashi T., Miki K.;
+RT   "Crystal structure of octocoral lectin SLL-2 complexed with Forssman
+RT   antigen tetrasaccharide.";
+RL   Glycobiology 27:696-700(2017).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB195427; BAD97419.1; -; mRNA.
+DR   PDB; 3WMP; X-ray; 2.00 A; A/B/C/D/E/F=47-140.
+DR   PDB; 3WMQ; X-ray; 1.60 A; A=47-140.
+DR   PDB; 5X4A; X-ray; 3.40 A; A/B/C/D/E/F/G/H/I/J/K/L=47-140.
+DR   PDBsum; 3WMP; -.
+DR   PDBsum; 3WMQ; -.
+DR   PDBsum; 5X4A; -.
+DR   SMR; A4CYJ6; -.
+DR   UniLectin; A4CYJ6; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   Gene3D; 2.60.40.2080; -; 1.
+DR   InterPro; IPR037221; H-type_lectin_dom_sf.
+DR   InterPro; IPR019019; H-type_lectin_domain.
+DR   Pfam; PF09458; H_lectin; 1.
+DR   SUPFAM; SSF141086; SSF141086; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3WMP, ECO:0007829|PDB:3WMQ};
+KW   Lectin {ECO:0000313|EMBL:BAD97419.1}; Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           22..140
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002666759"
+FT   DOMAIN          75..139
+FT                   /note="H_lectin"
+FT                   /evidence="ECO:0000259|Pfam:PF09458"
+FT   CARBOHYD        106
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:3WMP, ECO:0007829|PDB:3WMQ"
+FT   DISULFID        54..139
+FT                   /evidence="ECO:0007829|PDB:3WMP, ECO:0007829|PDB:3WMQ"
+FT   DISULFID        63..68
+FT                   /evidence="ECO:0007829|PDB:3WMP, ECO:0007829|PDB:3WMQ"
+SQ   SEQUENCE   140 AA;  15787 MW;  55380C2E57B49A2C CRC64;
+     MKLIWGIVIA VFVANCAVNQ GARITFLEMP KTLGKTVGDS QKLAKRRLIH VSRCEMGTST
+     HRCWPRPCDT SSDEPISFWP PFENTPNVIV SFGMLDVDNS NNLRVNSSAD DVTVGGFTLH
+     YNSWYTTTVW NYKLIWIACD
+//

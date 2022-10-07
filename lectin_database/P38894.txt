@@ -1,0 +1,365 @@
+ID   FLO5_YEAST              Reviewed;        1075 AA.
+AC   P38894; D3DLG0;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   03-AUG-2022, entry version 159.
+DE   RecName: Full=Flocculation protein FLO5;
+DE            Short=Flocculin-5;
+DE   Flags: Precursor;
+GN   Name=FLO5; OrderedLocusNames=YHR211W;
+OS   Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=559292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=8091229; DOI=10.1126/science.8091229;
+RA   Johnston M., Andrews S., Brinkman R., Cooper J., Ding H., Dover J., Du Z.,
+RA   Favello A., Fulton L., Gattung S., Geisel C., Kirsten J., Kucaba T.,
+RA   Hillier L.W., Jier M., Johnston L., Langston Y., Latreille P., Louis E.J.,
+RA   Macri C., Mardis E., Menezes S., Mouser L., Nhan M., Rifkin L., Riles L.,
+RA   St Peter H., Trevaskis E., Vaughan K., Vignati D., Wilcox L., Wohldman P.,
+RA   Waterston R., Wilson R., Vaudin M.;
+RT   "Complete nucleotide sequence of Saccharomyces cerevisiae chromosome
+RT   VIII.";
+RL   Science 265:2077-2082(1994).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 204508 / S288c;
+RX   PubMed=24374639; DOI=10.1534/g3.113.008995;
+RA   Engel S.R., Dietrich F.S., Fisk D.G., Binkley G., Balakrishnan R.,
+RA   Costanzo M.C., Dwight S.S., Hitz B.C., Karra K., Nash R.S., Weng S.,
+RA   Wong E.D., Lloyd P., Skrzypek M.S., Miyasato S.R., Simison M., Cherry J.M.;
+RT   "The reference genome sequence of Saccharomyces cerevisiae: Then and now.";
+RL   G3 (Bethesda) 4:389-398(2014).
+RN   [3]
+RP   GENE MAPPING.
+RX   PubMed=7668043; DOI=10.1002/yea.320110805;
+RA   Teunissen A.W.R.H., van den Berg J.A., Steensma H.Y.;
+RT   "Localization of the dominant flocculation genes FLO5 and FLO8 of
+RT   Saccharomyces cerevisiae.";
+RL   Yeast 11:735-745(1995).
+RN   [4]
+RP   REVIEW.
+RX   PubMed=7502576; DOI=10.1002/yea.320111102;
+RA   Teunissen A.W.R.H., Steensma H.Y.;
+RT   "Review: the dominant flocculation genes of Saccharomyces cerevisiae
+RT   constitute a new subtelomeric gene family.";
+RL   Yeast 11:1001-1013(1995).
+RN   [5]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=9483793;
+RX   DOI=10.1002/(sici)1097-0061(19980115)14:1<25::aid-yea197>3.0.co;2-c;
+RA   Bony M., Barre P., Blondin B.;
+RT   "Distribution of the flocculation protein, flop, at the cell surface during
+RT   yeast growth: the availability of flop determines the flocculation level.";
+RL   Yeast 14:25-35(1998).
+RN   [6]
+RP   BIOTECHNOLOGY.
+RX   PubMed=12698276; DOI=10.1007/s00253-002-1200-8;
+RA   Verstrepen K.J., Derdelinckx G., Verachtert H., Delvaux F.R.;
+RT   "Yeast flocculation: what brewers should know.";
+RL   Appl. Microbiol. Biotechnol. 61:197-205(2003).
+RN   [7]
+RP   REPEATS.
+RX   PubMed=16086015; DOI=10.1038/ng1618;
+RA   Verstrepen K.J., Jansen A., Lewitter F., Fink G.R.;
+RT   "Intragenic tandem repeats generate functional variability.";
+RL   Nat. Genet. 37:986-990(2005).
+RN   [8]
+RP   BIOTECHNOLOGY.
+RX   PubMed=16487349; DOI=10.1111/j.1567-1364.2006.00038.x;
+RA   Cunha A.F., Missawa S.K., Gomes L.H., Reis S.F., Pereira G.A.G.;
+RT   "Control by sugar of Saccharomyces cerevisiae flocculation for industrial
+RT   ethanol production.";
+RL   FEMS Yeast Res. 6:280-287(2006).
+CC   -!- FUNCTION: Cell wall protein that participates directly in adhesive
+CC       cell-cell interactions during yeast flocculation, a reversible, asexual
+CC       and Ca(2+)-dependent process in which cells adhere to form aggregates
+CC       (flocs) consisting of thousands of cells. The lectin-like protein
+CC       sticks out of the cell wall of flocculent cells and selectively binds
+CC       mannose residues in the cell walls of adjacent cells. Activity is
+CC       inhibited by mannose, but not by glucose, maltose, sucrose or
+CC       galactose.
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall {ECO:0000269|PubMed:9483793}.
+CC       Membrane {ECO:0000305}; Lipid-anchor, GPI-anchor {ECO:0000305}.
+CC       Note=Covalently-linked GPI-modified cell wall protein (GPI-CWP).
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The number of the intragenic tandem repeats varies between
+CC       different S.cerevisiae strains. There is a linear correlation between
+CC       protein size and the extend of adhesion: the more repeats, the stronger
+CC       the adhesion properties and the greater the fraction of flocculating
+CC       cells (By similarity). {ECO:0000250}.
+CC   -!- PTM: Extensively O-glycosylated. {ECO:0000305}.
+CC   -!- PTM: The GPI-anchor is attached to the protein in the endoplasmic
+CC       reticulum and serves to target the protein to the cell surface. There,
+CC       the glucosamine-inositol phospholipid moiety is cleaved off and the
+CC       GPI-modified mannoprotein is covalently attached via its lipidless GPI
+CC       glycan remnant to the 1,6-beta-glucan of the outer cell wall layer (By
+CC       similarity). {ECO:0000250}.
+CC   -!- BIOTECHNOLOGY: For many industrial applications in which the yeast
+CC       S.cerevisiae is used, e.g. beer, wine and alcohol production,
+CC       appropriate flocculation behavior is one of the most important
+CC       characteristics of a good production strain. The ability of yeast cells
+CC       to flocculate is of considerable importance, as it provides an
+CC       effective, environment-friendly, simple and cost-free way to separate
+CC       yeast cells from the fermentation product at the end of fermentation.
+CC       {ECO:0000269|PubMed:12698276, ECO:0000269|PubMed:16487349}.
+CC   -!- SIMILARITY: Belongs to the flocculin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U00029; AAB69731.1; -; Genomic_DNA.
+DR   EMBL; BK006934; DAA06904.1; -; Genomic_DNA.
+DR   PIR; S48992; S48992.
+DR   RefSeq; NP_012081.1; NM_001179342.1.
+DR   PDB; 2XJP; X-ray; 0.95 A; A=23-271.
+DR   PDB; 2XJQ; X-ray; 1.35 A; A=23-271.
+DR   PDB; 2XJR; X-ray; 1.25 A; A=23-271.
+DR   PDB; 2XJS; X-ray; 1.30 A; A=23-271.
+DR   PDB; 2XJT; X-ray; 1.20 A; A=23-271.
+DR   PDB; 2XJU; X-ray; 1.70 A; A=23-271.
+DR   PDB; 2XJV; X-ray; 1.74 A; A=23-271.
+DR   PDB; 4AHW; X-ray; 1.50 A; A=23-271.
+DR   PDB; 4AHX; X-ray; 1.60 A; A=23-271.
+DR   PDB; 4AHY; X-ray; 1.70 A; A=23-271.
+DR   PDB; 4AHZ; X-ray; 1.90 A; A=23-271.
+DR   PDB; 4AI0; X-ray; 1.80 A; A=23-271.
+DR   PDB; 4AI1; X-ray; 1.80 A; A=23-271.
+DR   PDB; 4AI2; X-ray; 1.79 A; A=23-271.
+DR   PDB; 4AI3; X-ray; 1.90 A; A=23-271.
+DR   PDBsum; 2XJP; -.
+DR   PDBsum; 2XJQ; -.
+DR   PDBsum; 2XJR; -.
+DR   PDBsum; 2XJS; -.
+DR   PDBsum; 2XJT; -.
+DR   PDBsum; 2XJU; -.
+DR   PDBsum; 2XJV; -.
+DR   PDBsum; 4AHW; -.
+DR   PDBsum; 4AHX; -.
+DR   PDBsum; 4AHY; -.
+DR   PDBsum; 4AHZ; -.
+DR   PDBsum; 4AI0; -.
+DR   PDBsum; 4AI1; -.
+DR   PDBsum; 4AI2; -.
+DR   PDBsum; 4AI3; -.
+DR   AlphaFoldDB; P38894; -.
+DR   SMR; P38894; -.
+DR   BioGRID; 36645; 9.
+DR   DIP; DIP-4056N; -.
+DR   IntAct; P38894; 3.
+DR   STRING; 4932.YHR211W; -.
+DR   UniLectin; P38894; -.
+DR   PaxDb; P38894; -.
+DR   EnsemblFungi; YHR211W_mRNA; YHR211W; YHR211W.
+DR   GeneID; 856618; -.
+DR   KEGG; sce:YHR211W; -.
+DR   SGD; S000001254; FLO5.
+DR   VEuPathDB; FungiDB:YHR211W; -.
+DR   eggNOG; ENOG502QPQC; Eukaryota.
+DR   GeneTree; ENSGT00940000176342; -.
+DR   HOGENOM; CLU_006076_0_0_1; -.
+DR   InParanoid; P38894; -.
+DR   OMA; DISTTTH; -.
+DR   BioCyc; YEAST:G3O-31236-MON; -.
+DR   EvolutionaryTrace; P38894; -.
+DR   PRO; PR:P38894; -.
+DR   Proteomes; UP000002311; Chromosome VIII.
+DR   RNAct; P38894; protein.
+DR   GO; GO:0031225; C:anchored component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0071944; C:cell periphery; HDA:SGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0009277; C:fungal-type cell wall; IDA:SGD.
+DR   GO; GO:0005537; F:mannose binding; IMP:SGD.
+DR   GO; GO:0031589; P:cell-substrate adhesion; IMP:SGD.
+DR   GO; GO:0000128; P:flocculation; IMP:SGD.
+DR   InterPro; IPR001389; Flocculin.
+DR   InterPro; IPR025928; Flocculin_t3_rpt.
+DR   InterPro; IPR037524; PA14/GLEYA.
+DR   InterPro; IPR011658; PA14_dom.
+DR   Pfam; PF00624; Flocculin; 8.
+DR   Pfam; PF13928; Flocculin_t3; 3.
+DR   Pfam; PF07691; PA14; 1.
+DR   SMART; SM00758; PA14; 1.
+DR   PROSITE; PS51820; PA14; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell wall; Glycoprotein; GPI-anchor; Lipoprotein; Membrane;
+KW   Reference proteome; Repeat; Secreted; Signal.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           25..1052
+FT                   /note="Flocculation protein FLO5"
+FT                   /id="PRO_0000021275"
+FT   PROPEP          1053..1075
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000021276"
+FT   DOMAIN          74..249
+FT                   /note="PA14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01164"
+FT   REPEAT          278..322
+FT                   /note="1-1"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          323..367
+FT                   /note="1-2"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          368..412
+FT                   /note="1-3"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          413..457
+FT                   /note="1-4"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          458..502
+FT                   /note="1-5"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          503..547
+FT                   /note="1-6"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          548..592
+FT                   /note="1-7"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          593..637
+FT                   /note="1-8"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          667..686
+FT                   /note="2-1"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          687..706
+FT                   /note="2-2"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          775..825
+FT                   /note="3-1"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          847..897
+FT                   /note="3-2"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REPEAT          898..948
+FT                   /note="3-3"
+FT                   /evidence="ECO:0000269|PubMed:16086015"
+FT   REGION          197..240
+FT                   /note="Sugar recognition"
+FT                   /evidence="ECO:0000250"
+FT   REGION          278..637
+FT                   /note="8 X 45 AA approximate tandem repeats, Thr-rich"
+FT   REGION          322..349
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          366..394
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          456..484
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          546..574
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          667..706
+FT                   /note="2 X 20 AA approximate tandem repeats, Ser-rich"
+FT   REGION          702..781
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          775..948
+FT                   /note="3 X 51 AA approximate repeats, Ser/Thr-rich"
+FT   REGION          948..980
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1016..1038
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   LIPID           1052
+FT                   /note="GPI-anchor amidated glycine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        135
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        187
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        203
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        262
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        663
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        749
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   STRAND          36..45
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   HELIX           53..55
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   HELIX           57..61
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   HELIX           63..66
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          69..76
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          81..83
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          86..89
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          92..95
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   HELIX           98..100
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   TURN            103..105
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   TURN            108..110
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   TURN            125..128
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          135..144
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          147..157
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          160..168
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   TURN            169..171
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          189..192
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          196..198
+FT                   /evidence="ECO:0007829|PDB:4AHW"
+FT   STRAND          205..210
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          215..224
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          229..231
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          233..236
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          242..246
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   TURN            248..250
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          251..253
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   STRAND          264..266
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+FT   TURN            268..270
+FT                   /evidence="ECO:0007829|PDB:2XJP"
+SQ   SEQUENCE   1075 AA;  111982 MW;  D151B370B60C8D9F CRC64;
+     MTIAHHCIFL VILAFLALIN VASGATEACL PAGQRKSGMN INFYQYSLKD SSTYSNAAYM
+     AYGYASKTKL GSVGGQTDIS IDYNIPCVSS SGTFPCPQED SYGNWGCKGM GACSNSQGIA
+     YWSTDLFGFY TTPTNVTLEM TGYFLPPQTG SYTFSFATVD DSAILSVGGS IAFECCAQEQ
+     PPITSTNFTI NGIKPWDGSL PDNITGTVYM YAGYYYPLKV VYSNAVSWGT LPISVELPDG
+     TTVSDNFEGY VYSFDDDLSQ SNCTIPDPSI HTTSTITTTT EPWTGTFTST STEMTTITDT
+     NGQLTDETVI VIRTPTTAST ITTTTEPWTG TFTSTSTEMT TVTGTNGQPT DETVIVIRTP
+     TSEGLITTTT EPWTGTFTST STEMTTVTGT NGQPTDETVI VIRTPTSEGL ITTTTEPWTG
+     TFTSTSTEVT TITGTNGQPT DETVIVIRTP TSEGLITTTT EPWTGTFTST STEMTTVTGT
+     NGQPTDETVI VIRTPTSEGL ISTTTEPWTG TFTSTSTEVT TITGTNGQPT DETVIVIRTP
+     TSEGLITTTT EPWTGTFTST STEMTTVTGT NGQPTDETVI VIRTPTSEGL ITRTTEPWTG
+     TFTSTSTEVT TITGTNGQPT DETVIVIRTP TTAISSSLSS SSGQITSSIT SSRPIITPFY
+     PSNGTSVISS SVISSSVTSS LVTSSSFISS SVISSSTTTS TSIFSESSTS SVIPTSSSTS
+     GSSESKTSSA SSSSSSSSIS SESPKSPTNS SSSLPPVTSA TTGQETASSL PPATTTKTSE
+     QTTLVTVTSC ESHVCTESIS SAIVSTATVT VSGVTTEYTT WCPISTTETT KQTKGTTEQT
+     KGTTEQTTET TKQTTVVTIS SCESDICSKT ASPAIVSTST ATINGVTTEY TTWCPISTTE
+     SKQQTTLVTV TSCESGVCSE TTSPAIVSTA TATVNDVVTV YPTWRPQTTN EQSVSSKMNS
+     ATSETTTNTG AAETKTAVTS SLSRFNHAET QTASATDVIG HSSSVVSVSE TGNTMSLTSS
+     GLSTMSQQPR STPASSMVGS STASLEISTY AGSANSLLAG SGLSVFIASL LLAII
+//

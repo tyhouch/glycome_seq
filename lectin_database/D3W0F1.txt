@@ -1,0 +1,150 @@
+ID   D3W0F1_9CAUD            Unreviewed;       393 AA.
+AC   D3W0F1;
+DT   20-APR-2010, integrated into UniProtKB/TrEMBL.
+DT   20-APR-2010, sequence version 1.
+DT   03-AUG-2022, entry version 37.
+DE   SubName: Full=Putative phage structural protein {ECO:0000313|EMBL:ADD25717.1};
+OS   Lactococcus phage 1358.
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Siphoviridae; Whiteheadvirus; Lactococcus virus 1358.
+OX   NCBI_TaxID=741942 {ECO:0000313|EMBL:ADD25717.1, ECO:0000313|Proteomes:UP000207683};
+RN   [1] {ECO:0000313|EMBL:ADD25717.1, ECO:0000313|Proteomes:UP000207683}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=20061452; DOI=10.1128/AEM.02173-09;
+RA   Dupuis M.E., Moineau S.;
+RT   "Genome organization and characterization of the virulent lactococcal phage
+RT   1358 and its similarities to Listeria phages.";
+RL   Appl. Environ. Microbiol. 76:1623-1632(2010).
+RN   [2] {ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L97}
+RP   X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 2-393 IN COMPLEX WITH ZINC, X-RAY
+RP   CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 2-393 IN COMPLEX WITH
+RP   N-ACETYL-D-GLUCOSAMINE AND ZINC, X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) OF
+RP   2-393, AND X-RAY CRYSTALLOGRAPHY (2.61 ANGSTROMS) OF 2-393 IN COMPLEX WITH
+RP   GLUCOSE-1-PHOSPHATE.
+RA   Farenc C., Spinelli S., Bebeacua C., Tremblay D., Orlov I., Blangy S.,
+RA   Klaholz B.P., Moineau S., Cambillau C.;
+RT   "A Virulent Siphophage CyoEM Structure and Host Recognition and Infection
+RT   Mechanism.";
+RL   Submitted (JUN-2013) to the PDB data bank.
+RN   [3] {ECO:0007829|PDB:4RGG}
+RP   X-RAY CRYSTALLOGRAPHY (2.15 ANGSTROMS) OF 2-393.
+RA   Spinelli S., Moineau S., Cambillau C.;
+RT   "Structure of the 1358 lactococcal phage RBP in complex with GlcNAc-1P.";
+RL   Submitted (SEP-2014) to the PDB data bank.
+RN   [4] {ECO:0007829|PDB:4RGA}
+RP   X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 2-393.
+RX   PubMed=25708888; DOI=10.1111/mmi.12978;
+RA   McCabe O., Spinelli S., Farenc C., Labbe M., Tremblay D., Blangy S.,
+RA   Oscarson S., Moineau S., Cambillau C.;
+RT   "The targeted recognition of Lactococcus lactis phages to their
+RT   polysaccharide receptors.";
+RL   Mol. Microbiol. 96:875-886(2015).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; GQ403788; ADD25717.1; -; Genomic_DNA.
+DR   RefSeq; YP_009140407.1; NC_027120.1.
+DR   PDB; 4L92; X-ray; 2.10 A; A/B=2-393.
+DR   PDB; 4L97; X-ray; 2.61 A; A/B=2-393.
+DR   PDB; 4L99; X-ray; 2.20 A; A/B=2-393.
+DR   PDB; 4L9B; X-ray; 1.75 A; A=2-393.
+DR   PDB; 4RGA; X-ray; 2.10 A; A/B=2-393.
+DR   PDB; 4RGG; X-ray; 2.15 A; A/B=2-393.
+DR   PDBsum; 4L92; -.
+DR   PDBsum; 4L97; -.
+DR   PDBsum; 4L99; -.
+DR   PDBsum; 4L9B; -.
+DR   PDBsum; 4RGA; -.
+DR   PDBsum; 4RGG; -.
+DR   SMR; D3W0F1; -.
+DR   UniLectin; D3W0F1; -.
+DR   GeneID; 24366521; -.
+DR   KEGG; vg:24366521; -.
+DR   Proteomes; UP000207683; Genome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L97};
+KW   Metal-binding {ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000207683};
+KW   Zinc {ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99}.
+FT   BINDING         16
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99"
+FT   BINDING         20
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99"
+FT   BINDING         133
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99"
+FT   BINDING         137
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="1"
+FT                   /ligand_note="covalent"
+FT                   /evidence="ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99"
+FT   BINDING         202
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4L92"
+FT   BINDING         237
+FT                   /ligand="Glucose-1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:29042"
+FT                   /evidence="ECO:0007829|PDB:4L97"
+FT   BINDING         237
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4L92"
+FT   BINDING         240
+FT                   /ligand="Glucose-1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:29042"
+FT                   /evidence="ECO:0007829|PDB:4L97"
+FT   BINDING         243
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4L92"
+FT   BINDING         244
+FT                   /ligand="Glucose-1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:29042"
+FT                   /evidence="ECO:0007829|PDB:4L97"
+FT   BINDING         291
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4L92"
+FT   BINDING         303
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99"
+FT   BINDING         338
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:4L92, ECO:0007829|PDB:4L99"
+FT   BINDING         341
+FT                   /ligand="Glucose-1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:29042"
+FT                   /evidence="ECO:0007829|PDB:4L97"
+FT   BINDING         341
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4L92"
+FT   BINDING         345
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:4L92"
+SQ   SEQUENCE   393 AA;  43381 MW;  2DEF8568E9C5E6B5 CRC64;
+     MVLKGINFDR SIVTPENEAS ILDLAMQNRS GVLDGMTIDI LNTTSNQLAL FHGTAVLQGY
+     GIEITRAANG APDVLVDTTG QSNETMLLCL TIDLNQVNVP SGTVGTNTYA VDYKQIRLEF
+     LDVPTLLKQY WRDHSLHDLI DPRRVISMPL YWITFGQTGT TPKYEQIKSN YIDGGNSGNP
+     AYGIAARCEN FNHFINKVAV QSIPINGVAN RPVSSTASQL TNYKVWRNPY LCSQDPRDKF
+     APDNLVIEED GIYRIDISGS INIANYTFPA SGNSWRVGGR YFQIVCARNS SANNLAEFGA
+     EQHLPPSGVW TRRVLVGEYT AGMTEQAFSS VATISLFKGD NFFLQFETGT NTSRDSAYNN
+     GYGTSGTHLR NFSYTLERVG DLNGTAYYDN GTF
+//

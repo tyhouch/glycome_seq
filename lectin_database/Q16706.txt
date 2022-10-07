@@ -1,0 +1,309 @@
+ID   MA2A1_HUMAN             Reviewed;        1144 AA.
+AC   Q16706; Q16767;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 2.
+DT   03-AUG-2022, entry version 190.
+DE   RecName: Full=Alpha-mannosidase 2;
+DE            EC=3.2.1.114 {ECO:0000250|UniProtKB:P28494};
+DE   AltName: Full=Golgi alpha-mannosidase II;
+DE            Short=AMan II;
+DE            Short=Man II;
+DE   AltName: Full=Mannosidase alpha class 2A member 1;
+DE   AltName: Full=Mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase;
+GN   Name=MAN2A1; Synonyms=MANA2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=8524845; DOI=10.1073/pnas.92.25.11766;
+RA   Misago M., Liao Y.-F., Kudo S., Eto S., Mattei M.-G., Moremen K.W.,
+RA   Fukuda M.N.;
+RT   "Molecular cloning and expression of cDNAs encoding human alpha-mannosidase
+RT   II and a previously unrecognized alpha-mannosidase IIx isozyme.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:11766-11770(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RA   Misumi Y., Hashimoto C., Sohoda M., Ogata S., Ikehara Y.;
+RT   "Molecular cloning and sequence analysis of human Golgi mannosidase II.";
+RL   Submitted (SEP-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-78 AND ASN-1125.
+RC   TISSUE=Plasma;
+RX   PubMed=16335952; DOI=10.1021/pr0502065;
+RA   Liu T., Qian W.-J., Gritsenko M.A., Camp D.G. II, Monroe M.E., Moore R.J.,
+RA   Smith R.D.;
+RT   "Human plasma N-glycoproteome analysis by immunoaffinity subtraction,
+RT   hydrazide chemistry, and mass spectrometry.";
+RL   J. Proteome Res. 4:2070-2080(2005).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-80 AND SER-82, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25944712; DOI=10.1002/pmic.201400617;
+RA   Vaca Jacome A.S., Rabilloud T., Schaeffer-Reiss C., Rompais M., Ayoub D.,
+RA   Lane L., Bairoch A., Van Dorsselaer A., Carapito C.;
+RT   "N-terminome analysis of the human mitochondrial proteome.";
+RL   Proteomics 15:2519-2524(2015).
+RN   [7]
+RP   VARIANT VAL-1012.
+RX   PubMed=25787250; DOI=10.1073/pnas.1503696112;
+RA   Cromer M.K., Choi M., Nelson-Williams C., Fonseca A.L., Kunstman J.W.,
+RA   Korah R.M., Overton J.D., Mane S., Kenney B., Malchoff C.D., Stalberg P.,
+RA   Akerstroem G., Westin G., Hellman P., Carling T., Bjoerklund P.,
+RA   Lifton R.P.;
+RT   "Neomorphic effects of recurrent somatic mutations in Yin Yang 1 in
+RT   insulin-producing adenomas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 112:4062-4067(2015).
+CC   -!- FUNCTION: Catalyzes the first committed step in the biosynthesis of
+CC       complex N-glycans. It controls conversion of high mannose to complex N-
+CC       glycans; the final hydrolytic step in the N-glycan maturation pathway.
+CC       {ECO:0000250|UniProtKB:P28494}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H2O + N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->3)-[alpha-
+CC         D-Man-(1->3)-[alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-
+CC         (1->4)-beta-D-GlcNAc-(1->4)-beta-D-GlcNAc}-L-asparaginyl-[protein] =
+CC         2 alpha-D-mannopyranose + N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-
+CC         (1->3)-[alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         beta-D-GlcNAc}-L-asparaginyl-[protein]; Xref=Rhea:RHEA:56052,
+CC         Rhea:RHEA-COMP:14368, Rhea:RHEA-COMP:14369, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28729, ChEBI:CHEBI:60615, ChEBI:CHEBI:60625;
+CC         EC=3.2.1.114; Evidence={ECO:0000250|UniProtKB:P28494};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q29451};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:Q29451};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000250|UniProtKB:P28494}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:P28494}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:P28494}.
+CC   -!- PTM: Glycosylated. {ECO:0000269|PubMed:16335952}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U31520; AAC50302.1; -; mRNA.
+DR   EMBL; D63998; BAA10017.1; -; mRNA.
+DR   CCDS; CCDS34209.1; -.
+DR   RefSeq; NP_002363.2; NM_002372.3.
+DR   AlphaFoldDB; Q16706; -.
+DR   SMR; Q16706; -.
+DR   BioGRID; 110297; 108.
+DR   IntAct; Q16706; 10.
+DR   MINT; Q16706; -.
+DR   STRING; 9606.ENSP00000261483; -.
+DR   BindingDB; Q16706; -.
+DR   ChEMBL; CHEMBL4056; -.
+DR   DrugBank; DB06984; (1R,2R,3R,4S,5R)-4-(Benzylamino)-5-(methylthio)cyclopentane-1,2,3-triol.
+DR   DrugBank; DB08321; (1S,2S,3R,6R)-4-(hydroxymethyl)-6-(octylamino)cyclohex-4-ene-1,2,3-triol.
+DR   DrugBank; DB03955; 1-deoxymannojirimycin.
+DR   DrugBank; DB02318; 2-deoxy-2-fluoro-alpha-D-mannosyl fluoride.
+DR   DrugBank; DB03008; 5-fluoro-beta-L-gulosyl fluoride.
+DR   DrugBank; DB03414; 5-Thio-a/B-D-Mannopyranosylamine.
+DR   DrugBank; DB02492; Ghavamiol.
+DR   DrugBank; DB02742; Kifunensine.
+DR   DrugBank; DB02034; Tridolgosir.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   GlyConnect; 1917; 9 N-Linked glycans (1 site).
+DR   GlyGen; Q16706; 3 sites, 9 N-linked glycans (1 site).
+DR   iPTMnet; Q16706; -.
+DR   PhosphoSitePlus; Q16706; -.
+DR   BioMuta; MAN2A1; -.
+DR   DMDM; 146345453; -.
+DR   EPD; Q16706; -.
+DR   jPOST; Q16706; -.
+DR   MassIVE; Q16706; -.
+DR   MaxQB; Q16706; -.
+DR   PaxDb; Q16706; -.
+DR   PeptideAtlas; Q16706; -.
+DR   PRIDE; Q16706; -.
+DR   ProteomicsDB; 61038; -.
+DR   Antibodypedia; 13482; 190 antibodies from 30 providers.
+DR   DNASU; 4124; -.
+DR   Ensembl; ENST00000261483.5; ENSP00000261483.4; ENSG00000112893.10.
+DR   GeneID; 4124; -.
+DR   KEGG; hsa:4124; -.
+DR   MANE-Select; ENST00000261483.5; ENSP00000261483.4; NM_002372.4; NP_002363.2.
+DR   UCSC; uc003kou.3; human.
+DR   CTD; 4124; -.
+DR   DisGeNET; 4124; -.
+DR   GeneCards; MAN2A1; -.
+DR   HGNC; HGNC:6824; MAN2A1.
+DR   HPA; ENSG00000112893; Tissue enhanced (brain).
+DR   MIM; 154582; gene.
+DR   neXtProt; NX_Q16706; -.
+DR   OpenTargets; ENSG00000112893; -.
+DR   PharmGKB; PA30573; -.
+DR   VEuPathDB; HostDB:ENSG00000112893; -.
+DR   eggNOG; KOG1958; Eukaryota.
+DR   GeneTree; ENSGT01030000234638; -.
+DR   HOGENOM; CLU_004690_1_0_1; -.
+DR   InParanoid; Q16706; -.
+DR   OMA; HHEVNVQ; -.
+DR   OrthoDB; 1101882at2759; -.
+DR   PhylomeDB; Q16706; -.
+DR   TreeFam; TF313152; -.
+DR   BioCyc; MetaCyc:HS03629-MON; -.
+DR   PathwayCommons; Q16706; -.
+DR   Reactome; R-HSA-6811438; Intra-Golgi traffic.
+DR   Reactome; R-HSA-9694548; Maturation of spike protein.
+DR   Reactome; R-HSA-975578; Reactions specific to the complex N-glycan synthesis pathway.
+DR   SignaLink; Q16706; -.
+DR   UniPathway; UPA00378; -.
+DR   BioGRID-ORCS; 4124; 11 hits in 1081 CRISPR screens.
+DR   ChiTaRS; MAN2A1; human.
+DR   GeneWiki; MAN2A1; -.
+DR   GenomeRNAi; 4124; -.
+DR   Pharos; Q16706; Tbio.
+DR   PRO; PR:Q16706; -.
+DR   Proteomes; UP000005640; Chromosome 5.
+DR   RNAct; Q16706; protein.
+DR   Bgee; ENSG00000112893; Expressed in corpus callosum and 205 other tissues.
+DR   Genevisible; Q16706; HS.
+DR   GO; GO:0005801; C:cis-Golgi network; IEA:Ensembl.
+DR   GO; GO:0070062; C:extracellular exosome; HDA:UniProtKB.
+DR   GO; GO:0005797; C:Golgi medial cisterna; IDA:UniProtKB.
+DR   GO; GO:0000139; C:Golgi membrane; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016020; C:membrane; HDA:UniProtKB.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016799; F:hydrolase activity, hydrolyzing N-glycosyl compounds; IEA:Ensembl.
+DR   GO; GO:0004572; F:mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase activity; TAS:ProtInc.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; IEA:Ensembl.
+DR   GO; GO:0001701; P:in utero embryonic development; IEA:Ensembl.
+DR   GO; GO:0001889; P:liver development; IEA:Ensembl.
+DR   GO; GO:0048286; P:lung alveolus development; IEA:Ensembl.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:InterPro.
+DR   GO; GO:0007005; P:mitochondrion organization; IEA:Ensembl.
+DR   GO; GO:0006491; P:N-glycan processing; IBA:GO_Central.
+DR   GO; GO:0050769; P:positive regulation of neurogenesis; IEA:Ensembl.
+DR   GO; GO:0006517; P:protein deglycosylation; IBA:GO_Central.
+DR   GO; GO:0006486; P:protein glycosylation; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:Ensembl.
+DR   GO; GO:0060042; P:retina morphogenesis in camera-type eye; IEA:Ensembl.
+DR   GO; GO:0007033; P:vacuole organization; IEA:Ensembl.
+DR   GO; GO:0019082; P:viral protein processing; TAS:Reactome.
+DR   Gene3D; 1.20.1270.50; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Golgi apparatus; Hydrolase;
+KW   Membrane; Metal-binding; Phosphoprotein; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix; Zinc.
+FT   CHAIN           1..1144
+FT                   /note="Alpha-mannosidase 2"
+FT                   /id="PRO_0000206902"
+FT   TOPO_DOM        1..5
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        6..26
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        27..1144
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        289
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         175
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         177
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         289
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         569
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         80
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:24275569"
+FT   MOD_RES         82
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:24275569"
+FT   CARBOHYD        78
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:16335952"
+FT   CARBOHYD        93
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1125
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:16335952"
+FT   VARIANT         1012
+FT                   /note="L -> V"
+FT                   /evidence="ECO:0000269|PubMed:25787250"
+FT                   /id="VAR_074182"
+FT   CONFLICT        608
+FT                   /note="L -> G (in Ref. 1; AAC50302)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1026
+FT                   /note="Missing (in Ref. 2; BAA10017)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1144 AA;  131141 MW;  A1814C63D1CE4FAC CRC64;
+     MKLSRQFTVF GSAIFCVVIF SLYLMLDRGH LDYPRNPRRE GSFPQGQLSM LQEKIDHLER
+     LLAENNEIIS NIRDSVINLS ESVEDGPKSS QSNFSQGAGS HLLPSQLSLS VDTADCLFAS
+     QSGSHNSDVQ MLDVYSLISF DNPDGGVWKQ GFDITYESNE WDTEPLQVFV VPHSHNDPGW
+     LKTFNDYFRD KTQYIFNNMV LKLKEDSRRK FIWSEISYLS KWWDIIDIQK KDAVKSLIEN
+     GQLEIVTGGW VMPDEATPHY FALIDQLIEG HQWLENNIGV KPRSGWAIDP FGHSPTMAYL
+     LNRAGLSHML IQRVHYAVKK HFALHKTLEF FWRQNWDLGS VTDILCHMMP FYSYDIPHTC
+     GPDPKICCQF DFKRLPGGRF GCPWGVPPET IHPGNVQSRA RMLLDQYRKK SKLFRTKVLL
+     APLGDDFRYC EYTEWDLQFK NYQQLFDYMN SQSKFKVKIQ FGTLSDFFDA LDKADETQRD
+     KGQSMFPVLS GDFFTYADRD DHYWSGYFTS RPFYKRMDRI MESHLRAAEI LYYFALRQAH
+     KYKINKFLSS SLYTALTEAR RNLGLFQHHD AITGTAKDWV VVDYGTRLFH SLMVLEKIIG
+     NSAFLLILKD KLTYDSYSPD TFLEMDLKQK SQDSLPQKNI IRLSAEPRYL VVYNPLEQDR
+     ISLVSVYVSS PTVQVFSASG KPVEVQVSAV WDTANTISET AYEISFRAHI PPLGLKVYKI
+     LESASSNSHL ADYVLYKNKV EDSGIFTIKN MINTEEGITL ENSFVLLRFD QTGLMKQMMT
+     KEDGKHHEVN VQFSWYGTTI KRDKSGAYLF LPDGNAKPYV YTTPPFVRVT HGRIYSEVTC
+     FFDHVTHRVR LYHIQGIEGQ SVEVSNIVDI RKVYNREIAM KISSDIKSQN RFYTDLNGYQ
+     IQPRMTLSKL PLQANVYPMT TMAYIQDAKH RLTLLSAQSL GVSSLNSGQI EVIMDRRLMQ
+     DDNRGLEQGI QDNKITANLF RILLEKRSAV NTEEEKKSVS YPSLLSHITS SLMNHPVIPM
+     ANKFSSPTLE LQGEFSPLQS SLPCDIHLVN LRTIQSKVGN GHSNEAALIL HRKGFDCRFS
+     SKGTGLFCST TQGKILVQKL LNKFIVESLT PSSLSLMHSP PGTQNISEIN LSPMEISTFR
+     IQLR
+//

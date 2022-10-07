@@ -1,0 +1,189 @@
+ID   AGI3_WHEAT              Reviewed;         186 AA.
+AC   P10969;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   03-AUG-2022, entry version 130.
+DE   RecName: Full=Agglutinin isolectin 3;
+DE   AltName: Full=WGA3;
+DE   Flags: Precursor; Fragment;
+OS   Triticum aestivum (Wheat).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Pooideae; Triticodae; Triticeae; Triticinae; Triticum.
+OX   NCBI_TaxID=4565;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=16578818; DOI=10.1073/pnas.84.19.6745;
+RA   Raikhel N.V., Wilkins T.A.;
+RT   "Isolation and characterization of a cDNA clone encoding wheat germ
+RT   agglutinin.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:6745-6749(1987).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS), PYROGLUTAMATE FORMATION AT GLN-1,
+RP   AND SUBUNIT.
+RX   PubMed=15299769; DOI=10.1107/s0907444995004070;
+RA   Harata K., Nagahora H., Jigami Y.;
+RT   "X-ray structure of wheat germ agglutinin isolectin 3.";
+RL   Acta Crystallogr. D 51:1013-1019(1995).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) IN COMPLEX WITH SUBSTRATES.
+RX   PubMed=11853952; DOI=10.1016/s0304-4165(01)00231-8;
+RA   Muraki M., Ishimura M., Harata K.;
+RT   "Interactions of wheat-germ agglutinin with GlcNAc beta 1,6Gal sequence.";
+RL   Biochim. Biophys. Acta 1569:10-20(2002).
+CC   -!- FUNCTION: N-acetyl-D-glucosamine / N-acetyl-D-neuraminic acid binding
+CC       lectin.
+CC   -!- SUBUNIT: Homodimer, u-shaped. {ECO:0000269|PubMed:11853952,
+CC       ECO:0000269|PubMed:15299769}.
+CC   -!- MISCELLANEOUS: The 4 sites proposed for binding to carbohydrates (N-
+CC       acetyl-D-glucosamine) of receptor molecules are on the surface of the
+CC       agglutinin molecule.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J02961; AAA34257.1; -; mRNA.
+DR   PIR; A28401; A28401.
+DR   PDB; 1K7T; X-ray; 2.40 A; A/B=1-186.
+DR   PDB; 1K7U; X-ray; 2.20 A; A/B=1-186.
+DR   PDB; 1K7V; X-ray; 2.20 A; A/B=2-186.
+DR   PDB; 1WGT; X-ray; 1.90 A; A/B=2-186.
+DR   PDB; 2X52; X-ray; 1.70 A; A/B=2-171.
+DR   PDBsum; 1K7T; -.
+DR   PDBsum; 1K7U; -.
+DR   PDBsum; 1K7V; -.
+DR   PDBsum; 1WGT; -.
+DR   PDBsum; 2X52; -.
+DR   AlphaFoldDB; P10969; -.
+DR   SMR; P10969; -.
+DR   Allergome; 650; Tri a 18.
+DR   CAZy; CBM18; Carbohydrate-Binding Module Family 18.
+DR   UniLectin; P10969; -.
+DR   PRIDE; P10969; -.
+DR   EnsemblPlants; TraesCAD_scaffold_137513_01G000100.1; TraesCAD_scaffold_137513_01G000100.1; TraesCAD_scaffold_137513_01G000100.
+DR   EnsemblPlants; TraesCLE_scaffold_122568_01G000100.1; TraesCLE_scaffold_122568_01G000100.1; TraesCLE_scaffold_122568_01G000100.
+DR   EnsemblPlants; TraesPAR_scaffold_127396_01G000100.1; TraesPAR_scaffold_127396_01G000100.1; TraesPAR_scaffold_127396_01G000100.
+DR   EnsemblPlants; TraesROB_scaffold_145157_01G000100.1; TraesROB_scaffold_145157_01G000100.1; TraesROB_scaffold_145157_01G000100.
+DR   EnsemblPlants; TraesWEE_scaffold_016939_01G000300.1; TraesWEE_scaffold_016939_01G000300.1; TraesWEE_scaffold_016939_01G000300.
+DR   Gramene; TraesCAD_scaffold_137513_01G000100.1; TraesCAD_scaffold_137513_01G000100.1; TraesCAD_scaffold_137513_01G000100.
+DR   Gramene; TraesCLE_scaffold_122568_01G000100.1; TraesCLE_scaffold_122568_01G000100.1; TraesCLE_scaffold_122568_01G000100.
+DR   Gramene; TraesPAR_scaffold_127396_01G000100.1; TraesPAR_scaffold_127396_01G000100.1; TraesPAR_scaffold_127396_01G000100.
+DR   Gramene; TraesROB_scaffold_145157_01G000100.1; TraesROB_scaffold_145157_01G000100.1; TraesROB_scaffold_145157_01G000100.
+DR   Gramene; TraesWEE_scaffold_016939_01G000300.1; TraesWEE_scaffold_016939_01G000300.1; TraesWEE_scaffold_016939_01G000300.
+DR   EvolutionaryTrace; P10969; -.
+DR   PRO; PR:P10969; -.
+DR   Proteomes; UP000019116; Unplaced.
+DR   ExpressionAtlas; P10969; differential.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008061; F:chitin binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.60.10; -; 4.
+DR   InterPro; IPR001002; Chitin-bd_1.
+DR   InterPro; IPR018371; Chitin-binding_1_CS.
+DR   InterPro; IPR036861; Endochitinase-like_sf.
+DR   Pfam; PF00187; Chitin_bind_1; 4.
+DR   PRINTS; PR00451; CHITINBINDNG.
+DR   SMART; SM00270; ChtBD1; 4.
+DR   SUPFAM; SSF57016; SSF57016; 4.
+DR   PROSITE; PS00026; CHIT_BIND_I_1; 4.
+DR   PROSITE; PS50941; CHIT_BIND_I_2; 4.
+PE   1: Evidence at protein level;
+KW   3D-structure; Chitin-binding; Disulfide bond; Glycoprotein; Lectin;
+KW   Pyrrolidone carboxylic acid; Reference proteome; Repeat.
+FT   CHAIN           1..171
+FT                   /note="Agglutinin isolectin 3"
+FT                   /id="PRO_0000005259"
+FT   PROPEP          172..186
+FT                   /id="PRO_0000005260"
+FT   DOMAIN          1..42
+FT                   /note="Chitin-binding type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          43..85
+FT                   /note="Chitin-binding type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          86..128
+FT                   /note="Chitin-binding type-1 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   DOMAIN          129..171
+FT                   /note="Chitin-binding type-1 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00261"
+FT   BINDING         10..12
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         62..73
+FT                   /ligand="substrate"
+FT   BINDING         114..115
+FT                   /ligand="substrate"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:15299769"
+FT   CARBOHYD        180
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   DISULFID        3..18
+FT   DISULFID        12..24
+FT   DISULFID        17..31
+FT   DISULFID        35..40
+FT   DISULFID        46..61
+FT   DISULFID        55..67
+FT   DISULFID        60..74
+FT   DISULFID        78..83
+FT   DISULFID        89..104
+FT   DISULFID        98..110
+FT   DISULFID        103..117
+FT   DISULFID        121..126
+FT   DISULFID        132..147
+FT   DISULFID        141..153
+FT   DISULFID        146..160
+FT   DISULFID        164..169
+FT   NON_TER         1
+FT   HELIX           4..6
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   TURN            7..9
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           13..15
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   STRAND          24..27
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           28..31
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   STRAND          32..34
+FT                   /evidence="ECO:0007829|PDB:1K7U"
+FT   STRAND          37..39
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           48..50
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           56..58
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   STRAND          65..70
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           71..74
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   STRAND          80..82
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           90..93
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           99..101
+FT                   /evidence="ECO:0007829|PDB:1WGT"
+FT   STRAND          108..113
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           114..117
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   STRAND          123..125
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           133..135
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   TURN            136..138
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           142..144
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   STRAND          153..156
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   HELIX           157..160
+FT                   /evidence="ECO:0007829|PDB:2X52"
+FT   STRAND          166..168
+FT                   /evidence="ECO:0007829|PDB:2X52"
+SQ   SEQUENCE   186 AA;  18756 MW;  68461A20339378FD CRC64;
+     QRCGEQGSGM ECPNNLCCSQ YGYCGMGGDY CGKGCQNGAC WTSKRCGSQA GGKTCPNNHC
+     CSQYGHCGFG AEYCGAGCQG GPCRADIKCG SQAGGKLCPN NLCCSQWGYC GLGSEFCGEG
+     CQNGACSTDK PCGKDAGGRV CTNNYCCSKW GSCGIGPGYC GAGCQSGGCD GVFAEAIATN
+     STLLAE
+//

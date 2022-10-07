@@ -1,0 +1,157 @@
+ID   MA2B1_MACFA             Reviewed;        1012 AA.
+AC   Q60HE9;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   03-AUG-2022, entry version 75.
+DE   RecName: Full=Lysosomal alpha-mannosidase;
+DE            Short=Laman;
+DE            EC=3.2.1.24;
+DE   AltName: Full=Lysosomal acid alpha-mannosidase;
+DE   AltName: Full=Mannosidase alpha class 2B member 1;
+DE   AltName: Full=Mannosidase alpha-B;
+DE   Flags: Precursor;
+GN   Name=MAN2B1; ORFNames=QmoA-10471;
+OS   Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9541;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Medulla oblongata;
+RA   Kusuda J., Osada N., Tanuma R., Hirata M., Sugano S., Hashimoto K.;
+RT   "Isolation and characterization of cDNA for macaque neurological disease
+RT   genes.";
+RL   Submitted (OCT-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Necessary for the catabolism of N-linked carbohydrates
+CC       released during glycoprotein turnover. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing alpha-D-mannose residues
+CC         in alpha-D-mannosides.; EC=3.2.1.24;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 38 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB125178; BAD51966.1; -; mRNA.
+DR   RefSeq; NP_001306452.1; NM_001319523.1.
+DR   AlphaFoldDB; Q60HE9; -.
+DR   SMR; Q60HE9; -.
+DR   STRING; 9541.XP_005588178.1; -.
+DR   CAZy; GH38; Glycoside Hydrolase Family 38.
+DR   PRIDE; Q60HE9; -.
+DR   GeneID; 102137710; -.
+DR   CTD; 4125; -.
+DR   eggNOG; KOG1959; Eukaryota.
+DR   Proteomes; UP000233100; Unplaced.
+DR   GO; GO:0005764; C:lysosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006013; P:mannose metabolic process; IEA:InterPro.
+DR   Gene3D; 1.20.1270.50; -; 2.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   Gene3D; 3.20.110.10; -; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR041147; GH38_C.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR011682; Glyco_hydro_38_C.
+DR   InterPro; IPR015341; Glyco_hydro_38_cen.
+DR   InterPro; IPR037094; Glyco_hydro_38_cen_sf.
+DR   InterPro; IPR000602; Glyco_hydro_38_N.
+DR   InterPro; IPR027291; Glyco_hydro_38_N_sf.
+DR   InterPro; IPR028995; Glyco_hydro_57/38_cen_sf.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   Pfam; PF09261; Alpha-mann_mid; 1.
+DR   Pfam; PF17677; Glyco_hydro38C2; 1.
+DR   Pfam; PF07748; Glyco_hydro_38C; 1.
+DR   Pfam; PF01074; Glyco_hydro_38N; 1.
+DR   SMART; SM00872; Alpha-mann_mid; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF88688; SSF88688; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase; Lysosome;
+KW   Metal-binding; Reference proteome; Signal; Zinc.
+FT   SIGNAL          1..50
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           51..1012
+FT                   /note="Lysosomal alpha-mannosidase"
+FT                   /id="PRO_0000012075"
+FT   ACT_SITE        197
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         73
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         75
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         197
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         447
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        368
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        498
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        646
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        652
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        693
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        767
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        833
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        931
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        990
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        56..359
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        269..274
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        413..473
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        494..502
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1012 AA;  113922 MW;  87FA3277FFBF1326 CRC64;
+     MGAYAPAAGV SARGCLDAAG PWTISRALRP PLPPLCFFLL LLLAAPCARA GGYETCPTVQ
+     PNILNVHLVP HTHDDVGWLK TVDQYFYGIK NDIQHAGVQY ILDSVISALL ADPTRRFIYV
+     EIAFFSRWWH QQTNAMREVV RDLVRQGRLE FANGGWVMND EAATHYGAIV DQMTLGLRFL
+     EDTFGSDGRP RVAWHIDPFG HSREQASLFA QMGFDGFFFG RLDYQDKRVR MQKLEMEQVW
+     RASASLKPPT ADLFTGVLPN GYNPPMNLCW DVLCVDQPVV EDPRSPEYNA KELVDYFLNV
+     ATAQGRHYRT NHIVMTMGSD FQYENANMWF KNLDKLIRLV NAQQAKGSSV HVLYSTPACY
+     LWELNKANLT WSVKHDDFFP YADGPHQFWT GYFSSRPALK RYERLSYNFL QVCNQLEALV
+     GLAANVGPYG SGDSAPLNKA MAVLQHHDAV SGTSRQHVAD DYARQLAAGW VSCEVLLSNA
+     LARLRGFKDH LTFCRQLNIS ICPLSQTAAR FQVIVYNPLG RKVNWMVRLP VSEGVFVVKD
+     PNGRTVPSDV VIYPSSDSQA HPPELLFSAS LPALGFSTYS VAQVPRWKPQ ARAPQPIPRR
+     SWSPALTIEN EHIRATFDPD TGLLMEIMNM NQRLLLPVRQ TFFWYNASIG DNESDQASGA
+     YIFRPNQQKP LPVSRWAQIR LVKTPLVQEV HQNFSAWCSQ VVRLYPGRRH LELEWSVGPI
+     PVGDTWGKEV ISRFDTPLET KGRFYTDSNG REILERRRDY RPTWKLNQTE PVAGNYYPVN
+     TRIYITDGKM QLTVLTDRSQ GGSSLRDGSL ELMVHRRLLK DDERGVSEPL MENGSGAWVR
+     GRHLVLLDTA QAAAAGHRLL AEQEVLAPQV VLAPGGGAAY NLGAPPRTQF SGLRRELPPS
+     VHLLTLASWG PEMLLLRLEH QFAVGEDSGR NLSAPVTLNL RDLFSTFTIT RLQETTLVAN
+     QLREAASRLK WTTNTGPTPH QTPYQLDPAN ITLEPMEIRT FLASVQWKEV DG
+//

@@ -1,0 +1,96 @@
+ID   E2BB_ECOLX              Reviewed;         122 AA.
+AC   P43529;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   25-MAY-2022, entry version 89.
+DE   RecName: Full=Heat-labile enterotoxin IIB, B chain;
+DE            Short=LT-IIB;
+DE   Flags: Precursor;
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Isolate 41;
+RX   PubMed=2670900; DOI=10.1128/jb.171.9.4945-4952.1989;
+RA   Pickett C.L., Twiddy E.M., Coker C., Holmes R.K.;
+RT   "Cloning, nucleotide sequence, and hybridization studies of the type IIb
+RT   heat-labile enterotoxin gene of Escherichia coli.";
+RL   J. Bacteriol. 171:4945-4952(1989).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS).
+RX   PubMed=8805549; DOI=10.1016/s0969-2126(96)00073-1;
+RA   van den Akker F., Sarfaty S., Twiddy E.M., Connell T.D., Holmes R.K.,
+RA   Hol W.G.J.;
+RT   "Crystal structure of a new heat-labile enterotoxin, LT-IIb.";
+RL   Structure 4:665-678(1996).
+CC   -!- FUNCTION: The biological activity of the toxin is produced by the A
+CC       chain, which activates intracellular adenyl cyclase.
+CC   -!- SUBUNIT: Heterohexamer of one A chain and of five B chains.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JQ031712; AAA53286.1; -; Genomic_DNA.
+DR   PIR; B33959; B33959.
+DR   PDB; 1QB5; X-ray; 1.90 A; D/E/F/G/H=24-122.
+DR   PDB; 1QCB; X-ray; 2.20 A; D/E/F/G/H=24-122.
+DR   PDB; 1TII; X-ray; 2.25 A; D/E/F/G/H=24-122.
+DR   PDB; 4FNF; X-ray; 1.75 A; A/B/C/D/E/F/G/H/I/J=24-121.
+DR   PDB; 4FO2; X-ray; 1.50 A; A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T=24-121.
+DR   PDB; 4FP5; X-ray; 1.40 A; D/E/F/G/H=24-121.
+DR   PDB; 5G3L; X-ray; 1.72 A; D/E/F/G/H=24-122.
+DR   PDBsum; 1QB5; -.
+DR   PDBsum; 1QCB; -.
+DR   PDBsum; 1TII; -.
+DR   PDBsum; 4FNF; -.
+DR   PDBsum; 4FO2; -.
+DR   PDBsum; 4FP5; -.
+DR   PDBsum; 5G3L; -.
+DR   AlphaFoldDB; P43529; -.
+DR   SMR; P43529; -.
+DR   ComplexPortal; CPX-2304; Heat-labile enterotoxin IIB complex.
+DR   DIP; DIP-6217N; -.
+DR   IntAct; P43529; 1.
+DR   UniLectin; P43529; -.
+DR   EvolutionaryTrace; P43529; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0044385; C:integral to membrane of host cell; IC:ComplexPortal.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044501; P:modulation of signal transduction in another organism; IC:ComplexPortal.
+DR   Gene3D; 2.40.50.50; -; 1.
+DR   InterPro; IPR008992; Enterotoxin.
+DR   InterPro; IPR010503; LT-IIB.
+DR   InterPro; IPR038629; LT-IIB_sf.
+DR   Pfam; PF06453; LT-IIB; 1.
+DR   PIRSF; PIRSF019554; LT-IIB; 1.
+DR   SUPFAM; SSF50203; SSF50203; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Enterotoxin; Signal; Toxin; Virulence.
+FT   SIGNAL          1..23
+FT   CHAIN           24..122
+FT                   /note="Heat-labile enterotoxin IIB, B chain"
+FT                   /id="PRO_0000019358"
+FT   DISULFID        33..104
+FT   HELIX           27..34
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+FT   STRAND          36..52
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+FT   TURN            55..57
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+FT   STRAND          59..64
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+FT   STRAND          69..72
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+FT   HELIX           80..97
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+FT   STRAND          100..106
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+FT   STRAND          109..120
+FT                   /evidence="ECO:0007829|PDB:4FP5"
+SQ   SEQUENCE   122 AA;  13255 MW;  308A6CE5F0CFD494 CRC64;
+     MSFKKIIKAF VIMAALVSVQ AHAGASQFFK DNCNRTTASL VEGVELTKYI SDINNNTDGM
+     YVVSSTGGVW RISRAKDYPD NVMTAEMRKI AMAAVLSGMR VNMCASPASS PNVIWAIELE
+     AE
+//

@@ -1,0 +1,91 @@
+ID   PLIA_ATRNM              Reviewed;         166 AA.
+AC   A1XRN2; A1XRN3;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   25-MAY-2022, entry version 47.
+DE   RecName: Full=Phospholipase A2 inhibitor anMIP;
+DE            Short=alpha-PLI;
+DE   AltName: Full=Myotoxic phospholipase A2 inhibitory protein;
+DE            Short=MIP;
+DE   Flags: Precursor;
+OS   Atropoides nummifer (Jumping pit viper) (Porthidium nummifer).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Atropoides.
+OX   NCBI_TaxID=44730;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 20-29, SUBCELLULAR
+RP   LOCATION, SUBUNIT, GLYCOSYLATION, AND MASS SPECTROMETRY.
+RC   TISSUE=Liver, and Plasma;
+RX   PubMed=17071122; DOI=10.1016/j.cbpb.2006.09.003;
+RA   Quiros S., Alape-Giron A., Angulo Y., Lomonte B.;
+RT   "Isolation, characterization and molecular cloning of AnMIP, a new alpha-
+RT   type phospholipase A2 myotoxin inhibitor from the plasma of the snake
+RT   Atropoides nummifer (Viperidae: Crotalinae).";
+RL   Comp. Biochem. Physiol. 146B:60-68(2007).
+CC   -!- FUNCTION: This phospholipase A2 inhibitor neutralizes the activity of
+CC       basic PLA2 myotoxins of its own and related venoms. The inhibitory
+CC       profile shows specificity towards group II PLA2, either belonging to
+CC       the catalytically-active (D49) or -inactive (K49) subtypes.
+CC   -!- SUBUNIT: Homotrimer; non-covalently linked.
+CC       {ECO:0000269|PubMed:17071122}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:17071122}.
+CC       Note=Secreted in plasma. {ECO:0000269|PubMed:17071122}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the liver.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:17071122}.
+CC   -!- MASS SPECTROMETRY: Mass=22247; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:17071122};
+CC   -!- MASS SPECTROMETRY: Mass=22301; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:17071122};
+CC   -!- SIMILARITY: Belongs to the alpha-type phospholipase A2 inhibitor
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ657241; ABG37909.1; -; mRNA.
+DR   EMBL; DQ657242; ABG37910.1; -; mRNA.
+DR   AlphaFoldDB; A1XRN2; -.
+DR   SMR; A1XRN2; -.
+DR   iPTMnet; A1XRN2; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019834; F:phospholipase A2 inhibitor activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Lectin;
+KW   Phospholipase A2 inhibitor; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000269|PubMed:17071122"
+FT   CHAIN           20..166
+FT                   /note="Phospholipase A2 inhibitor anMIP"
+FT                   /id="PRO_0000355228"
+FT   DOMAIN          46..161
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   CARBOHYD        122
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305|PubMed:17071122"
+FT   DISULFID        83..160
+FT                   /evidence="ECO:0000250|UniProtKB:P21755"
+FT   DISULFID        138..152
+FT                   /evidence="ECO:0000250|UniProtKB:P21755"
+FT   VARIANT         48..50
+FT                   /note="HAL -> YAF"
+FT   VARIANT         61
+FT                   /note="R -> G"
+FT   VARIANT         128
+FT                   /note="A -> V"
+SQ   SEQUENCE   166 AA;  18376 MW;  20E55E75DA6A82E6 CRC64;
+     MRLILLSGLL LLGTFLANGD EKDSDVQMLN SMIEAVMILQ RDFANLRHAL MTVHNARSFG
+     RGSERLYVTN KEVSKFEGLE EICSQAGGHI PSPQLENQNK AFEDVLERHN KAAYLVVGDS
+     ANFTNWAAGQ PNEADGTCVK ADTHGSWHSA SCDDNLLVVC EFYFIL
+//

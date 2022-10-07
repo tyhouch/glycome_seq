@@ -1,0 +1,106 @@
+ID   D8NA05_RALSL            Unreviewed;        91 AA.
+AC   D8NA05;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   03-AUG-2022, entry version 47.
+DE   SubName: Full=Putative fucose-binding lectin protein {ECO:0000313|EMBL:CBJ37473.1};
+GN   ORFNames=CMR15_11270 {ECO:0000313|EMBL:CBJ37473.1};
+OS   Ralstonia solanacearum CMR15.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Ralstonia.
+OX   NCBI_TaxID=859655 {ECO:0000313|EMBL:CBJ37473.1, ECO:0000313|Proteomes:UP000013571};
+RN   [1] {ECO:0000313|EMBL:CBJ37473.1, ECO:0000313|Proteomes:UP000013571}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CMR15 {ECO:0000313|EMBL:CBJ37473.1,
+RC   ECO:0000313|Proteomes:UP000013571};
+RX   PubMed=20550686; DOI=10.1186/1471-2164-11-379;
+RA   Remenant B., Coupat-Goutaland B., Guidot A., Cellier G., Wicker E.,
+RA   Allen C., Fegan M., Pruvost O., Elbaz M., Calteau A., Salvignol G.,
+RA   Mornico D., Mangenot S., Barbe V., Medigue C., Prior P.;
+RT   "Genomes of three tomato pathogens within the Ralstonia solanacearum
+RT   species complex reveal significant evolutionary divergence.";
+RL   BMC Genomics 11:379-379(2010).
+RN   [2] {ECO:0007829|PDB:3ZI8, ECO:0007829|PDB:4I6S}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 2-91 IN COMPLEX WITH FUCOSE AND
+RP   MAGNESIUM.
+RX   PubMed=23855446; DOI=10.1021/cb400254b;
+RA   Arnaud J., Claudinon J., Trondle K., Trovaslet M., Larson G., Thomas A.,
+RA   Varrot A., Romer W., Imberty A., Audfray A.;
+RT   "Reduction of lectin valency drastically changes glycolipid dynamics in
+RT   membranes but not surface avidity.";
+RL   ACS Chem. Biol. 8:1918-1924(2013).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP885895; CBJ37473.1; -; Genomic_DNA.
+DR   RefSeq; WP_003271148.1; NC_017559.1.
+DR   PDB; 3ZI8; X-ray; 1.50 A; A=2-91.
+DR   PDB; 4I6S; X-ray; 1.54 A; A/B/C=1-91.
+DR   PDBsum; 3ZI8; -.
+DR   PDBsum; 4I6S; -.
+DR   SMR; D8NA05; -.
+DR   UniLectin; D8NA05; -.
+DR   EnsemblBacteria; CBJ37473; CBJ37473; CMR15_11270.
+DR   GeneID; 61365535; -.
+DR   KEGG; rsm:CMR15_11270; -.
+DR   PATRIC; fig|859655.3.peg.1221; -.
+DR   HOGENOM; CLU_2438633_0_0_4; -.
+DR   EvolutionaryTrace; D8NA05; -.
+DR   Proteomes; UP000013571; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR012475; Fungal_lectin.
+DR   Pfam; PF07938; Fungal_lectin; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3ZI8, ECO:0007829|PDB:4I6S};
+KW   Lectin {ECO:0000313|EMBL:CBJ37473.1}; Magnesium {ECO:0007829|PDB:3ZI8};
+KW   Metal-binding {ECO:0007829|PDB:3ZI8}.
+FT   BINDING         8
+FT                   /ligand="Magnesium"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0007829|PDB:3ZI8"
+FT   BINDING         18
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         29
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         32
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         37
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         41
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         51
+FT                   /ligand="Magnesium"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0007829|PDB:3ZI8"
+FT   BINDING         63
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         74
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         82
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+FT   BINDING         86
+FT                   /ligand="Fucose"
+FT                   /ligand_id="ChEBI:CHEBI:42548"
+FT                   /evidence="ECO:0007829|PDB:4I6S"
+SQ   SEQUENCE   91 AA;  9858 MW;  88EF9785AF3FFB18 CRC64;
+     MSSVQTAATS WGTVPSIRVY TANNGKITER CWDGKGWYTG AFNEPGDNVS VTSWLVGSAI
+     HIRVYASTGT TTTEWCWDGN GWTKGAYTAT N
+//

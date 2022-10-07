@@ -1,0 +1,104 @@
+ID   OPGG_ECO57              Reviewed;         511 AA.
+AC   P67556; Q8CW60; Q8X9I5;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   03-AUG-2022, entry version 97.
+DE   RecName: Full=Glucans biosynthesis protein G;
+DE   Flags: Precursor;
+GN   Name=mdoG; Synonyms=opgG; OrderedLocusNames=Z1683, ECs1426;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D., Rose D.J.,
+RA   Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A., Posfai G.,
+RA   Hackett J., Klink S., Boutin A., Shao Y., Miller L., Grotbeck E.J.,
+RA   Davis N.W., Lim A., Dimalanta E.T., Potamousis K., Apodaca J.,
+RA   Anantharaman T.S., Lin J., Yen G., Schwartz D.C., Welch R.A.,
+RA   Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T., Iida T.,
+RA   Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T., Kuhara S.,
+RA   Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli O157:H7 and
+RT   genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- FUNCTION: Involved in the biosynthesis of osmoregulated periplasmic
+CC       glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005174; AAG55794.1; -; Genomic_DNA.
+DR   EMBL; BA000007; BAB34849.1; -; Genomic_DNA.
+DR   PIR; B90807; B90807.
+DR   PIR; F85666; F85666.
+DR   RefSeq; NP_309453.1; NC_002695.1.
+DR   RefSeq; WP_001300662.1; NZ_SWKA01000005.1.
+DR   AlphaFoldDB; P67556; -.
+DR   SMR; P67556; -.
+DR   STRING; 155864.EDL933_1624; -.
+DR   EnsemblBacteria; AAG55794; AAG55794; Z1683.
+DR   EnsemblBacteria; BAB34849; BAB34849; ECs_1426.
+DR   GeneID; 66670684; -.
+DR   GeneID; 912482; -.
+DR   KEGG; ece:Z1683; -.
+DR   KEGG; ecs:ECs_1426; -.
+DR   PATRIC; fig|386585.9.peg.1528; -.
+DR   eggNOG; COG3131; Bacteria.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; KRPSAWI; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01069; MdoG_OpgG; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR023704; MdoG_OpgG.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           23..511
+FT                   /note="Glucans biosynthesis protein G"
+FT                   /id="PRO_0000020223"
+SQ   SEQUENCE   511 AA;  57882 MW;  580A9D3129245B38 CRC64;
+     MMKMRWLSAA VMLTLYTSSS WAFSIDDVAK QAQSLAGKGY EAPKSNLPSV FRDMKYADYQ
+     QIQFNHDKAY WNNLKTPFKL EFYHQGMYFD TPVKINEVTA TAVKRIKYSP DYFTFGDVQH
+     DKDTVKDLGF AGFKVLYPIN SKDKNDEIVS MLGASYFRVI GAGQVYGLSA RGLAIDTALP
+     SGEEFPRFKE FWIERPKPTD KRLTIYALLD SPRATGAYKF VVMPGRDTVV DVQSKIYLRD
+     KVGKLGVAPL TSMFLFGPNQ PSPANNYRPE LHDSNGLSIH AGNGEWIWRP LNNPKHLAVS
+     SFSMENPQGF GLLQRGRDFS RFEDLDDRYD LRPSAWVTPK GEWGKGSVEL VEIPTNDETN
+     DNIVAYWTPD QLPEPGKEMN FKYTITFSRD EDKLHAPDNA WVQQTRRSTG DVKQSNLIRQ
+     PDGTIAFVVD FTGAEMKKLP EDTPVTAQTS IGDNGEIVES TVRYNPVTKG WRLVMRVKVK
+     DAKKTTEMRA ALVNADQTLS ETWSYQLPAN E
+//

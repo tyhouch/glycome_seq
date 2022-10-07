@@ -1,0 +1,70 @@
+ID   LSRR_ECOSM              Reviewed;         317 AA.
+AC   B1LFA3;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   25-MAY-2022, entry version 73.
+DE   RecName: Full=Transcriptional regulator LsrR;
+GN   Name=lsrR; OrderedLocusNames=EcSMS35_1660;
+OS   Escherichia coli (strain SMS-3-5 / SECEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=439855;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SMS-3-5 / SECEC;
+RX   PubMed=18708504; DOI=10.1128/jb.00661-08;
+RA   Fricke W.F., Wright M.S., Lindell A.H., Harkins D.M., Baker-Austin C.,
+RA   Ravel J., Stepanauskas R.;
+RT   "Insights into the environmental resistance gene pool from the genome
+RT   sequence of the multidrug-resistant environmental isolate Escherichia coli
+RT   SMS-3-5.";
+RL   J. Bacteriol. 190:6779-6794(2008).
+CC   -!- FUNCTION: Regulates transcription of many different genes. In the
+CC       absence of autoinducer 2 (AI-2), represses transcription of the
+CC       lsrACDBFG operon and its own transcription. In the presence of AI-2,
+CC       LsrR is inactivated by binding phospho-AI-2, leading to the
+CC       transcription of the lsr genes (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- INDUCTION: Autoregulated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the SorC transcriptional regulatory family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000970; ACB16095.1; -; Genomic_DNA.
+DR   RefSeq; WP_000154347.1; NC_010498.1.
+DR   AlphaFoldDB; B1LFA3; -.
+DR   SMR; B1LFA3; -.
+DR   PRIDE; B1LFA3; -.
+DR   EnsemblBacteria; ACB16095; ACB16095; EcSMS35_1660.
+DR   KEGG; ecm:EcSMS35_1660; -.
+DR   HOGENOM; CLU_054506_0_1_6; -.
+DR   OMA; CTVVQLT; -.
+DR   Proteomes; UP000007011; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR007324; Sugar-bd_dom_put.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   Pfam; PF04198; Sugar-bind; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+PE   3: Inferred from homology;
+KW   Activator; Cytoplasm; DNA-binding; Repressor; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..317
+FT                   /note="Transcriptional regulator LsrR"
+FT                   /id="PRO_0000351613"
+FT   DNA_BIND        33..52
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   317 AA;  33754 MW;  D98281F8D4AB764A CRC64;
+     MTINDSVISE QGMCEEEQVA RIAWFYYHDG LTQSEISDRL GLTRLKVSRL LEKGHQSGII
+     RVQINSRFEG CLEYETQLCR QFSLQHVRVI PGLADADVGG RLGIGAAHML MSLLQPQQML
+     AIGFGEATMN TLQRLSGFIS SQQIRLVTLS GGVGSYMTGI GQLNAACSVN IIPAPLRASS
+     ADIAHTLKNE NCVKDVLLAA QAADVAIVGI GAVSQQDDAT IIRSGYISQG EQLMIGRKGA
+     VGDILGYFFD AKGDVVTDIK IHNELIGLPL SALKTIPVRV GVAGGENKAE AIAAAMKGGY
+     INALVTDQDT AAAILRS
+//

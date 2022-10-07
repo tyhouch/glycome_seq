@@ -1,0 +1,691 @@
+ID   MAG_MOUSE               Reviewed;         627 AA.
+AC   P20917; A0A087WPR1; P16880;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   18-SEP-2019, sequence version 3.
+DT   03-AUG-2022, entry version 200.
+DE   RecName: Full=Myelin-associated glycoprotein;
+DE   AltName: Full=Siglec-4a;
+DE   Flags: Precursor;
+GN   Name=Mag;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS L-MAG AND S-MAG).
+RX   PubMed=2482022; DOI=10.1016/0006-291x(89)92724-1;
+RA   Fujita N., Sato S., Kurihara T., Kuwano R., Sakimura K., Inuzuka T.,
+RA   Takahashi Y., Miyatake T.;
+RT   "cDNA cloning of mouse myelin-associated glycoprotein: a novel alternative
+RT   splicing pattern.";
+RL   Biochem. Biophys. Res. Commun. 165:1162-1169(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM S-MAG).
+RC   TISSUE=Brain;
+RX   PubMed=1712586; DOI=10.1016/0006-291x(91)91811-p;
+RA   Nakano R., Fujita N., Sato S., Inuzuka T., Sakimura K., Ishiguro H.,
+RA   Mishina M., Miyatake T.;
+RT   "Structure of mouse myelin-associated glycoprotein gene.";
+RL   Biochem. Biophys. Res. Commun. 178:282-290(1991).
+RN   [3] {ECO:0000312|Proteomes:UP000000589}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J {ECO:0000312|Proteomes:UP000000589};
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 78-88 AND 466-477, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=C57BL/6J; TISSUE=Brain;
+RA   Lubec G., Kang S.U.;
+RL   Submitted (APR-2007) to UniProtKB.
+RN   [5]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=2474006; DOI=10.1002/cne.902840310;
+RA   Bartsch U., Kirchhoff F., Schachner M.;
+RT   "Immunohistological localization of the adhesion molecules L1, N-CAM, and
+RT   MAG in the developing and adult optic nerve of mice.";
+RL   J. Comp. Neurol. 284:451-462(1989).
+RN   [6]
+RP   TISSUE SPECIFICITY, DEVELOPMENTAL STAGE, AND GLYCOSYLATION.
+RX   PubMed=1716323; DOI=10.1002/jnr.490290202;
+RA   Pedraza L., Frey A.B., Hempstead B.L., Colman D.R., Salzer J.L.;
+RT   "Differential expression of MAG isoforms during development.";
+RL   J. Neurosci. Res. 29:141-148(1991).
+RN   [7]
+RP   FUNCTION, SIALIC ACID-BINDING, SUBCELLULAR LOCATION, AND TOPOLOGY.
+RX   PubMed=7533044; DOI=10.1016/s0960-9822(00)00220-7;
+RA   Kelm S., Pelz A., Schauer R., Filbin M.T., Tang S., de Bellard M.E.,
+RA   Schnaar R.L., Mahoney J.A., Hartnell A., Bradfield P., Crocker P.R.;
+RT   "Sialoadhesin, myelin-associated glycoprotein and CD22 define a new family
+RT   of sialic acid-dependent adhesion molecules of the immunoglobulin
+RT   superfamily.";
+RL   Curr. Biol. 4:965-972(1994).
+RN   [8]
+RP   DISRUPTION PHENOTYPE, FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=7516497; DOI=10.1038/369747a0;
+RA   Li C., Tropak M.B., Gerlai R., Clapoff S., Abramow-Newerly W., Trapp B.,
+RA   Peterson A., Roder J.;
+RT   "Myelination in the absence of myelin-associated glycoprotein.";
+RL   Nature 369:747-750(1994).
+RN   [9]
+RP   DISRUPTION PHENOTYPE, AND FUNCTION.
+RX   PubMed=9262180; DOI=10.1016/s0006-8993(97)00484-8;
+RA   Bartsch S., Montag D., Schachner M., Bartsch U.;
+RT   "Increased number of unmyelinated axons in optic nerves of adult mice
+RT   deficient in the myelin-associated glycoprotein (MAG).";
+RL   Brain Res. 762:231-234(1997).
+RN   [10]
+RP   DISRUPTION PHENOTYPE, AND FUNCTION.
+RX   PubMed=9482781; DOI=10.1523/jneurosci.18-06-01953.1998;
+RA   Yin X., Crawford T.O., Griffin J.W., Tu P.-H., Lee V.M., Li C., Roder J.,
+RA   Trapp B.D.;
+RT   "Myelin-associated glycoprotein is a myelin signal that modulates the
+RT   caliber of myelinated axons.";
+RL   J. Neurosci. 18:1953-1962(1998).
+RN   [11]
+RP   FUNCTION (ISOFORM L-MAG), TISSUE SPECIFICITY, SUBCELLULAR LOCATION,
+RP   TOPOLOGY, AND DOMAIN.
+RX   PubMed=9482783; DOI=10.1523/jneurosci.18-06-01970.1998;
+RA   Fujita N., Kemper A., Dupree J., Nakayasu H., Bartsch U., Schachner M.,
+RA   Maeda N., Suzuki K., Popko B.;
+RT   "The cytoplasmic domain of the large myelin-associated glycoprotein isoform
+RT   is needed for proper CNS but not peripheral nervous system myelination.";
+RL   J. Neurosci. 18:1970-1978(1998).
+RN   [12]
+RP   DISRUPTION PHENOTYPE, AND FUNCTION.
+RX   PubMed=9469574;
+RX   DOI=10.1002/(sici)1097-4547(19980115)51:2<210::aid-jnr9>3.0.co;2-g;
+RA   Li C., Trapp B., Ludwin S., Peterson A., Roder J.;
+RT   "Myelin associated glycoprotein modulates glia-axon contact in vivo.";
+RL   J. Neurosci. Res. 51:210-217(1998).
+RN   [13]
+RP   FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=10625334;
+RX   DOI=10.1002/(sici)1098-1136(20000115)29:2<154::aid-glia9>3.0.co;2-3;
+RA   Schachner M., Bartsch U.;
+RT   "Multiple functions of the myelin-associated glycoprotein MAG (siglec-4a)
+RT   in formation and maintenance of myelin.";
+RL   Glia 29:154-165(2000).
+RN   [14]
+RP   FUNCTION, AND INTERACTION WITH RTN4R.
+RX   PubMed=12089450; DOI=10.1126/science.1073031;
+RA   Liu B.P., Fournier A., GrandPre T., Strittmatter S.M.;
+RT   "Myelin-associated glycoprotein as a functional ligand for the Nogo-66
+RT   receptor.";
+RL   Science 297:1190-1193(2002).
+RN   [15]
+RP   INTERACTION WITH BSG.
+RX   PubMed=12558975; DOI=10.1046/j.1471-4159.2003.01537.x;
+RA   Heller M., von der Ohe M., Kleene R., Mohajeri M.H., Schachner M.;
+RT   "The immunoglobulin-superfamily molecule basigin is a binding protein for
+RT   oligomannosidic carbohydrates: an anti-idiotypic approach.";
+RL   J. Neurochem. 84:557-565(2003).
+RN   [16]
+RP   DISRUPTION PHENOTYPE, AND FUNCTION.
+RX   PubMed=15953602; DOI=10.1016/j.expneurol.2005.04.017;
+RA   Pan B., Fromholt S.E., Hess E.J., Crawford T.O., Griffin J.W., Sheikh K.A.,
+RA   Schnaar R.L.;
+RT   "Myelin-associated glycoprotein and complementary axonal ligands,
+RT   gangliosides, mediate axon stability in the CNS and PNS: neuropathology and
+RT   behavioral deficits in single- and double-null mice.";
+RL   Exp. Neurol. 195:208-217(2005).
+RN   [17]
+RP   FUNCTION.
+RX   PubMed=17640868; DOI=10.1074/jbc.m704055200;
+RA   Mehta N.R., Lopez P.H., Vyas A.A., Schnaar R.L.;
+RT   "Gangliosides and Nogo receptors independently mediate myelin-associated
+RT   glycoprotein inhibition of neurite outgrowth in different nerve cells.";
+RL   J. Biol. Chem. 282:27875-27886(2007).
+RN   [18]
+RP   DISRUPTION PHENOTYPE, FUNCTION, DOMAIN, AND MUTAGENESIS OF
+RP   118-ARG--ASP-120.
+RX   PubMed=19158290; DOI=10.1523/jneurosci.5204-08.2009;
+RA   Nguyen T., Mehta N.R., Conant K., Kim K.J., Jones M., Calabresi P.A.,
+RA   Melli G., Hoke A., Schnaar R.L., Ming G.L., Song H., Keswani S.C.,
+RA   Griffin J.W.;
+RT   "Axonal protective effects of the myelin-associated glycoprotein.";
+RL   J. Neurosci. 29:630-637(2009).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-591, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [20]
+RP   TISSUE SPECIFICITY, AND UBIQUITINATION.
+RX   PubMed=24191038; DOI=10.1073/pnas.1318501110;
+RA   Shin D., Lin S.T., Fu Y.H., Ptacek L.J.;
+RT   "Very large G protein-coupled receptor 1 regulates myelin-associated
+RT   glycoprotein via Galphas/Galphaq-mediated protein kinases A/C.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 110:19101-19106(2013).
+RN   [21]
+RP   DISRUPTION PHENOTYPE, FUNCTION, DOMAIN, AND INTERACTION WITH RTN4R AND
+RP   RTN4RL2.
+RX   PubMed=26335717; DOI=10.1038/cddis.2015.228;
+RA   Palandri A., Salvador V.R., Wojnacki J., Vivinetto A.L., Schnaar R.L.,
+RA   Lopez P.H.;
+RT   "Myelin-associated glycoprotein modulates apoptosis of motoneurons during
+RT   early postnatal development via NgR/p75(NTR) receptor-mediated activation
+RT   of RhoA signaling pathways.";
+RL   Cell Death Dis. 6:E1876-E1876(2015).
+RN   [22]
+RP   X-RAY CRYSTALLOGRAPHY (2.12 ANGSTROMS) OF 20-325, X-RAY CRYSTALLOGRAPHY
+RP   (3.80 ANGSTROMS) OF 20-508 IN COMPLEX WITH
+RP   N-ACETYLNEURAMINYL-N-ACETYLLACTOSAMINE, FUNCTION, DISULFIDE BONDS,
+RP   GLYCOSYLATION AT TRP-22; ASN-99; ASN-223; ASN-246; ASN-315; ASN-332;
+RP   ASN-406; ASN-450 AND ASN-454, IDENTIFICATION BY MASS SPECTROMETRY, SUBUNIT,
+RP   AND MUTAGENESIS OF TRP-25; TYR-65; ARG-118; TYR-127; THR-128; ASN-406 AND
+RP   ILE-473.
+RX   PubMed=27922006; DOI=10.1038/ncomms13584;
+RA   Pronker M.F., Lemstra S., Snijder J., Heck A.J., Thies-Weesie D.M.,
+RA   Pasterkamp R.J., Janssen B.J.;
+RT   "Structural basis of myelin-associated glycoprotein adhesion and
+RT   signalling.";
+RL   Nat. Commun. 7:13584-13584(2016).
+CC   -!- FUNCTION: Adhesion molecule that mediates interactions between
+CC       myelinating cells and neurons by binding to neuronal sialic acid-
+CC       containing gangliosides and to the glycoproteins RTN4R and RTN4RL2
+CC       (PubMed:7533044, PubMed:12089450, PubMed:27922006). Not required for
+CC       initial myelination, but seems to play a role in the maintenance of
+CC       normal axon myelination (PubMed:7516497, PubMed:9262180,
+CC       PubMed:9482781, PubMed:9482783, PubMed:9469574, PubMed:10625334).
+CC       Protects motoneurons against apoptosis, also after injury; protection
+CC       against apoptosis is probably mediated via interaction with neuronal
+CC       RTN4R and RTN4RL2 (PubMed:26335717). Required to prevent degeneration
+CC       of myelinated axons in adults; this probably depends on binding to
+CC       gangliosides on the axon cell membrane (PubMed:15953602,
+CC       PubMed:19158290). Negative regulator of neurite outgrowth that inhibits
+CC       axon longitudinal growth (PubMed:19158290, PubMed:27922006,
+CC       PubMed:12089450). Negative regulator of neurite outgrowth; in dorsal
+CC       root ganglion neurons the inhibition is mediated primarily via binding
+CC       to neuronal RTN4R or RTN4RL2 and to a lesser degree via binding to
+CC       neuronal gangliosides (PubMed:17640868). In cerebellar granule cells
+CC       the inhibition is mediated via binding to neuronal gangliosides
+CC       (PubMed:17640868). In sensory neurons, inhibition of neurite extension
+CC       depends only partially on RTN4R, RTN4RL2 and gangliosides (By
+CC       similarity). Inhibits axon outgrowth by binding to RTN4R
+CC       (PubMed:12089450). Preferentially binds to alpha-2,3-linked sialic acid
+CC       (PubMed:7533044, PubMed:27922006). Binds ganglioside Gt1b
+CC       (PubMed:27922006). {ECO:0000250|UniProtKB:P07722,
+CC       ECO:0000269|PubMed:10625334, ECO:0000269|PubMed:12089450,
+CC       ECO:0000269|PubMed:15953602, ECO:0000269|PubMed:17640868,
+CC       ECO:0000269|PubMed:19158290, ECO:0000269|PubMed:26335717,
+CC       ECO:0000269|PubMed:27922006, ECO:0000269|PubMed:7516497,
+CC       ECO:0000269|PubMed:7533044, ECO:0000269|PubMed:9262180,
+CC       ECO:0000269|PubMed:9469574, ECO:0000269|PubMed:9482781,
+CC       ECO:0000269|PubMed:9482783}.
+CC   -!- SUBUNIT: Monomer and homodimer (PubMed:27922006). Interacts (via the
+CC       first three N-terminal Ig-like domains) with RTN4R and RTN4RL2
+CC       (PubMed:12089450, PubMed:26335717). Interacts with isoform 2 of BSG
+CC       (PubMed:12558975). {ECO:0000269|PubMed:12089450,
+CC       ECO:0000269|PubMed:12558975, ECO:0000269|PubMed:26335717,
+CC       ECO:0000269|PubMed:27922006}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:7533044,
+CC       ECO:0000269|PubMed:9482783}; Single-pass type I membrane protein
+CC       {ECO:0000269|PubMed:7533044, ECO:0000269|PubMed:9482783}. Membrane raft
+CC       {ECO:0000250|UniProtKB:P07722}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=L-MAG;
+CC         IsoId=P20917-1; Sequence=Displayed;
+CC       Name=S-MAG;
+CC         IsoId=P20917-2; Sequence=VSP_002527, VSP_002528;
+CC   -!- TISSUE SPECIFICITY: Detected in the myelin tract in brain, especially
+CC       in the corpus callosum and in peripheral nerve (PubMed:7516497,
+CC       PubMed:9482783, PubMed:24191038). Expressed by myelinating glial cells
+CC       in the central and peripheral nervous system (PubMed:10625334).
+CC       Detected in oligodendrocyte processes before formation of compact
+CC       myelin (PubMed:2474006, PubMed:10625334). Restricted to the periaxonal
+CC       space after myelination (PubMed:10625334). Isoform S-MAG is the
+CC       predominant isoform in CNS and PNS of the adult (at protein level)
+CC       (PubMed:1716323). {ECO:0000269|PubMed:10625334,
+CC       ECO:0000269|PubMed:1716323, ECO:0000269|PubMed:24191038,
+CC       ECO:0000269|PubMed:2474006, ECO:0000269|PubMed:7516497,
+CC       ECO:0000269|PubMed:9482783}.
+CC   -!- DEVELOPMENTAL STAGE: In CNS isoform L-MAG is the major form synthesized
+CC       early in development, and it persists as a significant proportion of
+CC       the MAG present in the adult. In the PNS isoform L-MAG is expressed at
+CC       modest levels during development; it is absent in the adult.
+CC       {ECO:0000269|PubMed:1716323}.
+CC   -!- DOMAIN: The C-terminal cytoplasmic region found only in isoform L-MAG
+CC       is required for normal myelination in the central nervous system (CNS),
+CC       but is apparently not required for normal myelination in the peripheral
+CC       nervous system (PNS). {ECO:0000269|PubMed:9482783}.
+CC   -!- DOMAIN: The extracellular domain is required to protect against axon
+CC       degeneration (PubMed:19158290, PubMed:26335717). The first three Ig-
+CC       like domains mediate interaction with RTN4R and RTN4RL2, but are not
+CC       sufficient to inhibit neurite outgrowth (By similarity). The two C-
+CC       terminal extracellular Ig-like C2-type domains are required for
+CC       inhibition of axon longitudinal growth. Besides, the two C-terminal
+CC       extracellular Ig-like C2-type domains are required for protection
+CC       against apoptosis after nerve injury (PubMed:26335717).
+CC       {ECO:0000250|UniProtKB:P07722, ECO:0000269|PubMed:19158290,
+CC       ECO:0000269|PubMed:26335717}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:1716323,
+CC       ECO:0000269|PubMed:27922006}.
+CC   -!- PTM: Phosphorylated on tyrosine residues.
+CC       {ECO:0000250|UniProtKB:P07722}.
+CC   -!- PTM: Ubiquitinated, leading to proteasomal degradation.
+CC       {ECO:0000269|PubMed:24191038}.
+CC   -!- DISRUPTION PHENOTYPE: Mutant mice appear normal, excepting subtle
+CC       defects in motor coordination and a slight intention tremor
+CC       (PubMed:7516497). They have similar numbers of motoneurons as wild-type
+CC       at birth, but display an important loss of motoneurons during the first
+CC       week after birth (PubMed:26335717).Five month old mutant mice display a
+CC       decreased ability to remain on a rotating cylinder (PubMed:15953602).
+CC       Contrary to wild-type, about 40% of mutant mice have severe episodes of
+CC       whole-body tremor, both during movement and when resting
+CC       (PubMed:15953602). The myelination in brain and around peripheral
+CC       nerves appears grossly normal in young animals, but the periaxonal
+CC       cytoplasmic collar is often missing in optic nerve (PubMed:7516497,
+CC       PubMed:9262180, PubMed:9482781, PubMed:9469574). When present, the
+CC       cytoplasm of the periaxonal collar has generally a disorganized aspect
+CC       (PubMed:7516497). Mutant mice have an increased percentage of
+CC       unmyelinated axons in optic nerve (PubMed:9262180, PubMed:9469574).
+CC       Besides, a small proportion of nerves from mutant mice display
+CC       redundant myelination, and also rare cases of multiple myelination,
+CC       where axons are surrounded by two or more compact myelin sheets
+CC       (PubMed:9469574). Sciatic nerves from over three month old mutant mice
+CC       show signs of Wallerian degeneration, with redundant myelin,
+CC       degeneration of myelinated fibers, and an apparent decrease in the
+CC       diameter of myelinated axons (PubMed:9482781, PubMed:15953602). The
+CC       distances between neurofilaments in myelinated axons from over 3 month
+CC       old mice are shorter than normal (PubMed:9482781, PubMed:15953602).
+CC       With increasing age, mutant mice display progressive axon degeneration
+CC       in the spinal cord and sciatic nerve, resulting in a decrease of 28% in
+CC       the number of spinal cord axons after 15 months (PubMed:19158290).
+CC       Mutant mice display increased motoneuron apoptosis after injury
+CC       (PubMed:26335717). Likewise, they display strongly increased axon
+CC       degeneration after treatment with the neurotoxin acrylamide
+CC       (PubMed:19158290). Mutant mice display much more severe axon loss in
+CC       response to experimental autoimmune encephalitis (PubMed:19158290).
+CC       {ECO:0000269|PubMed:15953602, ECO:0000269|PubMed:19158290,
+CC       ECO:0000269|PubMed:26335717, ECO:0000269|PubMed:7516497,
+CC       ECO:0000269|PubMed:9262180, ECO:0000269|PubMed:9469574,
+CC       ECO:0000269|PubMed:9482781}.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Siglec-4;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Itlect_196";
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Siglec-4a [3 Fc Domains];
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Itlect_00003";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M31811; AAA39487.1; -; mRNA.
+DR   EMBL; M74793; AAA91743.1; -; Genomic_DNA.
+DR   EMBL; M74783; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; M74784; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; M74785; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; M74786; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; M74787; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; M74788; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; M74790; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; M74791; AAA91743.1; JOINED; Genomic_DNA.
+DR   EMBL; AC165340; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   CCDS; CCDS21115.1; -. [P20917-2]
+DR   CCDS; CCDS90207.1; -. [P20917-1]
+DR   PIR; B33785; B33785.
+DR   RefSeq; NP_001333013.1; NM_001346084.1. [P20917-1]
+DR   RefSeq; NP_001333014.1; NM_001346085.1. [P20917-1]
+DR   RefSeq; NP_001333015.1; NM_001346086.1. [P20917-2]
+DR   RefSeq; NP_001333016.1; NM_001346087.1. [P20917-2]
+DR   RefSeq; NP_001333017.1; NM_001346088.1. [P20917-2]
+DR   RefSeq; NP_034888.1; NM_010758.3. [P20917-2]
+DR   RefSeq; XP_006539653.1; XM_006539590.2.
+DR   RefSeq; XP_006539654.1; XM_006539591.3.
+DR   RefSeq; XP_011248740.1; XM_011250438.2.
+DR   RefSeq; XP_011248741.1; XM_011250439.2. [P20917-1]
+DR   RefSeq; XP_011248742.1; XM_011250440.2. [P20917-1]
+DR   RefSeq; XP_011248743.1; XM_011250441.2.
+DR   RefSeq; XP_017177496.1; XM_017322007.1. [P20917-1]
+DR   RefSeq; XP_017177497.1; XM_017322008.1.
+DR   PDB; 5LF5; X-ray; 3.80 A; A=20-508.
+DR   PDB; 5LFR; X-ray; 2.12 A; A/B=20-325.
+DR   PDB; 5LFU; X-ray; 4.30 A; A=20-508.
+DR   PDB; 5LFV; X-ray; 2.30 A; A/B=20-325.
+DR   PDB; 6GZJ; X-ray; 1.98 A; B=573-627.
+DR   PDB; 6GZL; X-ray; 1.95 A; B=605-621.
+DR   PDBsum; 5LF5; -.
+DR   PDBsum; 5LFR; -.
+DR   PDBsum; 5LFU; -.
+DR   PDBsum; 5LFV; -.
+DR   PDBsum; 6GZJ; -.
+DR   PDBsum; 6GZL; -.
+DR   AlphaFoldDB; P20917; -.
+DR   SASBDB; P20917; -.
+DR   SMR; P20917; -.
+DR   BioGRID; 201285; 7.
+DR   IntAct; P20917; 2.
+DR   MINT; P20917; -.
+DR   STRING; 10090.ENSMUSP00000139881; -.
+DR   ChEMBL; CHEMBL1250416; -.
+DR   UniLectin; P20917; -.
+DR   GlyConnect; 2446; 2 N-Linked glycans (1 site). [P20917-2]
+DR   GlyConnect; 2519; 13 N-Linked glycans (1 site).
+DR   GlyGen; P20917; 9 sites, 13 N-linked glycans (1 site).
+DR   iPTMnet; P20917; -.
+DR   PhosphoSitePlus; P20917; -.
+DR   SwissPalm; P20917; -.
+DR   MaxQB; P20917; -.
+DR   PaxDb; P20917; -.
+DR   PeptideAtlas; P20917; -.
+DR   PRIDE; P20917; -.
+DR   ProteomicsDB; 287299; -. [P20917-1]
+DR   ProteomicsDB; 287300; -. [P20917-2]
+DR   ProteomicsDB; 312561; -.
+DR   ABCD; P20917; 19 sequenced antibodies.
+DR   Antibodypedia; 1364; 403 antibodies from 39 providers.
+DR   DNASU; 17136; -.
+DR   Ensembl; ENSMUST00000040548; ENSMUSP00000041464; ENSMUSG00000036634. [P20917-2]
+DR   Ensembl; ENSMUST00000187137; ENSMUSP00000139564; ENSMUSG00000036634. [P20917-2]
+DR   Ensembl; ENSMUST00000191081; ENSMUSP00000139881; ENSMUSG00000036634. [P20917-1]
+DR   GeneID; 17136; -.
+DR   KEGG; mmu:17136; -.
+DR   UCSC; uc009ghb.1; mouse. [P20917-2]
+DR   CTD; 4099; -.
+DR   MGI; MGI:96912; Mag.
+DR   VEuPathDB; HostDB:ENSMUSG00000036634; -.
+DR   eggNOG; KOG4475; Eukaryota.
+DR   GeneTree; ENSGT01040000240433; -.
+DR   HOGENOM; CLU_020480_1_0_1; -.
+DR   InParanoid; P20917; -.
+DR   OMA; EIMDITP; -.
+DR   OrthoDB; 415025at2759; -.
+DR   PhylomeDB; P20917; -.
+DR   TreeFam; TF332441; -.
+DR   Reactome; R-MMU-193634; Axonal growth inhibition (RHOA activation).
+DR   Reactome; R-MMU-210991; Basigin interactions.
+DR   BioGRID-ORCS; 17136; 1 hit in 73 CRISPR screens.
+DR   PRO; PR:P20917; -.
+DR   Proteomes; UP000000589; Chromosome 7.
+DR   RNAct; P20917; protein.
+DR   Bgee; ENSMUSG00000036634; Expressed in cerebellar nuclear complex and 108 other tissues.
+DR   ExpressionAtlas; P20917; baseline and differential.
+DR   Genevisible; P20917; MM.
+DR   GO; GO:0043218; C:compact myelin; ISO:MGI.
+DR   GO; GO:0005737; C:cytoplasm; ISO:MGI.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0045121; C:membrane raft; IEA:UniProtKB-SubCell.
+DR   GO; GO:0097453; C:mesaxon; ISO:MGI.
+DR   GO; GO:0043209; C:myelin sheath; IDA:MGI.
+DR   GO; GO:0035749; C:myelin sheath adaxonal region; IDA:MGI.
+DR   GO; GO:0033270; C:paranode region of axon; IDA:BHF-UCL.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043220; C:Schmidt-Lanterman incisure; IDA:BHF-UCL.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:1905576; F:ganglioside GT1b binding; IMP:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; IPI:UniProtKB.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:MGI.
+DR   GO; GO:0033691; F:sialic acid binding; IDA:UniProtKB.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:MGI.
+DR   GO; GO:0031103; P:axon regeneration; IGI:MGI.
+DR   GO; GO:0007155; P:cell adhesion; ISS:UniProtKB.
+DR   GO; GO:0098742; P:cell-cell adhesion via plasma-membrane adhesion molecules; ISS:UniProtKB.
+DR   GO; GO:0071260; P:cellular response to mechanical stimulus; IEA:Ensembl.
+DR   GO; GO:0032289; P:central nervous system myelin formation; IGI:MGI.
+DR   GO; GO:0022010; P:central nervous system myelination; IMP:UniProtKB.
+DR   GO; GO:0042552; P:myelination; IMP:MGI.
+DR   GO; GO:0030517; P:negative regulation of axon extension; ISS:UniProtKB.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; IMP:UniProtKB.
+DR   GO; GO:0045665; P:negative regulation of neuron differentiation; ISO:MGI.
+DR   GO; GO:0010977; P:negative regulation of neuron projection development; IMP:UniProtKB.
+DR   GO; GO:0048711; P:positive regulation of astrocyte differentiation; ISO:MGI.
+DR   GO; GO:0031643; P:positive regulation of myelination; IMP:CACAO.
+DR   GO; GO:0019226; P:transmission of nerve impulse; IMP:MGI.
+DR   Gene3D; 2.60.40.10; -; 4.
+DR   InterPro; IPR013162; CD80_C2-set.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   Pfam; PF08205; C2-set_2; 1.
+DR   SMART; SM00409; IG; 4.
+DR   SMART; SM00408; IGc2; 2.
+DR   SUPFAM; SSF48726; SSF48726; 4.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Cell adhesion; Cell membrane;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Lectin; Lipid-binding; Lipoprotein; Membrane;
+KW   Palmitate; Phosphoprotein; Reference proteome; Repeat; Signal;
+KW   Transmembrane; Transmembrane helix; Ubl conjugation.
+FT   SIGNAL          1..19
+FT   CHAIN           20..627
+FT                   /note="Myelin-associated glycoprotein"
+FT                   /id="PRO_0000014857"
+FT   TOPO_DOM        20..516
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        517..536
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        537..627
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          22..120
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          139..237
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          241..325
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          327..412
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          413..508
+FT                   /note="Ig-like C2-type 4"
+FT   REGION          20..325
+FT                   /note="Interaction with RTN4R and RTN4RL2"
+FT                   /evidence="ECO:0000250|UniProtKB:P07722"
+FT   REGION          578..627
+FT                   /note="Required for normal axon myelination in the central
+FT                   nervous system"
+FT                   /evidence="ECO:0000269|PubMed:9482783"
+FT   BINDING         65..67
+FT                   /ligand="ganglioside GT1b (d18:1(4E))"
+FT                   /ligand_id="ChEBI:CHEBI:78452"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   BINDING         118
+FT                   /ligand="ganglioside GT1b (d18:1(4E))"
+FT                   /ligand_id="ChEBI:CHEBI:78452"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   BINDING         124..128
+FT                   /ligand="ganglioside GT1b (d18:1(4E))"
+FT                   /ligand_id="ChEBI:CHEBI:78452"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   MOD_RES         545
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07722"
+FT   MOD_RES         547
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07722"
+FT   MOD_RES         549
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07722"
+FT   MOD_RES         591
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:21183079"
+FT   LIPID           531
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07722"
+FT   CARBOHYD        22
+FT                   /note="C-linked (Man) tryptophan"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        99
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        223
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        246
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        315
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        332
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        406
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        450
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   CARBOHYD        454
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   DISULFID        37..165
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27922006"
+FT   DISULFID        42..100
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27922006"
+FT   DISULFID        159..217
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27922006"
+FT   DISULFID        261..305
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27922006"
+FT   DISULFID        347..392
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27922006"
+FT   DISULFID        421..430
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27922006"
+FT   DISULFID        432..488
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114,
+FT                   ECO:0000269|PubMed:27922006"
+FT   VAR_SEQ         574..582
+FT                   /note="EKQRLGSER -> REVSTRDCH (in isoform S-MAG)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002527"
+FT   VAR_SEQ         583..627
+FT                   /note="Missing (in isoform S-MAG)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002528"
+FT   MUTAGEN         25
+FT                   /note="W->Q: Abolishes C-linked mannosylation."
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   MUTAGEN         65
+FT                   /note="Y->A: Decreases ganglioside binding."
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   MUTAGEN         118..120
+FT                   /note="RGD->KGE: Abolishes protection against axon
+FT                   degeneration."
+FT                   /evidence="ECO:0000269|PubMed:19158290"
+FT   MUTAGEN         118
+FT                   /note="R->A: Abolishes ganglioside binding."
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   MUTAGEN         127
+FT                   /note="Y->A: Abolishes ganglioside binding."
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   MUTAGEN         128
+FT                   /note="T->A: Abolishes ganglioside binding."
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   MUTAGEN         406
+FT                   /note="N->Q: Increases homodimerization."
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   MUTAGEN         473
+FT                   /note="I->E: Abolishes homodimerization."
+FT                   /evidence="ECO:0000269|PubMed:27922006"
+FT   STRAND          22..25
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          28..33
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          38..40
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          43..45
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           48..50
+FT                   /evidence="ECO:0007829|PDB:5LFV"
+FT   STRAND          56..62
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          72..75
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   TURN            76..78
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           83..85
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   TURN            86..88
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          89..91
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           95..97
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          102..104
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           109..111
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          113..120
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          126..128
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          133..140
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          142..144
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          155..162
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          171..176
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           178..180
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          184..190
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           192..194
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          196..204
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           208..210
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          214..220
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          227..233
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          236..245
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          248..252
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          257..267
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          270..275
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          278..292
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   HELIX           297..299
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          301..309
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          312..324
+FT                   /evidence="ECO:0007829|PDB:5LFR"
+FT   STRAND          608..614
+FT                   /evidence="ECO:0007829|PDB:6GZL"
+SQ   SEQUENCE   627 AA;  69388 MW;  54E7D53096010905 CRC64;
+     MIFLATLPLF WIMISASRGG HWGAWMPSTI SAFEGTCVSI PCRFDFPDEL RPAVVHGVWY
+     FNSPYPKNYP PVVFKSRTQV VHESFQGRSR LLGDLGLRNC TLLLSTLSPE LGGKYYFRGD
+     LGGYNQYTFS EHSVLDIVNT PNIVVPPEVV AGTEVEVSCM VPDNCPELRP ELSWLGHEGL
+     GEPTVLGRLR EDEGTWVQVS LLHFVPTREA NGHRLGCQAA FPNTTLQFEG YASLDVKYPP
+     VIVEMNSSVE AIEGSHVSLL CGADSNPPPL LTWMRDGMVL REAVAKSLYL DLEEVTPGED
+     GVYACLAENA YGQDNRTVEL SVMYAPWKPT VNGTVVAVEG ETVSILCSTQ SNPDPILTIF
+     KEKQILATVI YESQLQLELP AVTPEDDGEY WCVAENQYGQ RATAFNLSVE FAPIILLESH
+     CAAARDTVQC LCVVKSNPEP SVAFELPSRN VTVNETEREF VYSERSGLLL TSILTIRGQA
+     QAPPRVICTS RNLYGTQSLE LPFQGAHRLM WAKIGPVGAV VAFAILIAIV CYITQTRRKK
+     NVTESSSFSG GDNPHVLYSP EFRISGAPDK YESEKQRLGS ERRLLGLRGE SPELDLSYSH
+     SDLGKRPTKD SYTLTEELAE YAEIRVK
+//

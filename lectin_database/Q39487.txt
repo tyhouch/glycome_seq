@@ -1,0 +1,191 @@
+ID   LEC1_COLES              Reviewed;         267 AA.
+AC   Q39487;
+DT   07-OCT-2020, integrated into UniProtKB/Swiss-Prot.
+DT   07-OCT-2020, sequence version 2.
+DT   03-AUG-2022, entry version 73.
+DE   RecName: Full=Mannose-specific lectin 1 {ECO:0000305};
+DE   AltName: Full=Agglutinin {ECO:0000305};
+DE   Contains:
+DE     RecName: Full=Mannose-specific lectin 1 chain 1 {ECO:0000305};
+DE   Contains:
+DE     RecName: Full=Mannose-specific lectin 1 chain 2 {ECO:0000305};
+DE   Flags: Precursor;
+OS   Colocasia esculenta (Wild taro) (Arum esculentum).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Araceae; Aroideae; Colocasieae;
+OC   Colocasia.
+OX   NCBI_TaxID=4460;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 27-36 AND 143-152.
+RC   TISSUE=Tuber;
+RX   PubMed=8251188; DOI=10.1266/jjg.68.229;
+RA   Hirai M., Nakamura K., Imai T., Sato T.;
+RT   "cDNAs encoding for storage proteins in the tubers of taro (Colocasia
+RT   esculenta Schott).";
+RL   Jpn. J. Genet. 68:229-236(1993).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 27-135 AND 143-253, AND DISULFIDE
+RP   BONDS.
+RX   PubMed=27262515; DOI=10.1016/j.ijbiomac.2016.05.048;
+RA   Vajravijayan S., Pletnev S., Pletnev V.Z., Nandhagopal N., Gunasekaran K.;
+RT   "Structural analysis of beta-prism lectin from Colocasia esculenta (L.) S
+RT   chott.";
+RL   Int. J. Biol. Macromol. 91:518-523(2016).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) OF 143-251 IN COMPLEX WITH
+RP   BETA-D-MANNOSE, DISULFIDE BONDS, FUNCTION, AND SUBUNIT.
+RX   PubMed=27558840; DOI=10.1093/glycob/cww083;
+RA   Pereira P.R., Meagher J.L., Winter H.C., Goldstein I.J., Paschoalin V.M.,
+RA   Silva J.T., Stuckey J.A.;
+RT   "High-resolution crystal structures of Colocasia esculenta tarin lectin.";
+RL   Glycobiology 27:50-56(2017).
+CC   -!- FUNCTION: Mannose-specific lectin (PubMed:27558840). Shows
+CC       agglutinating activity towards erythrocytes from rabbit (By
+CC       similarity). {ECO:0000250|UniProtKB:R9RL27,
+CC       ECO:0000269|PubMed:27558840}.
+CC   -!- SUBUNIT: Forms heterotetramer of 2 chains 1 and 2 chains 2 arranged as
+CC       a dimer of chain 1 and chain 2 heterodimers.
+CC       {ECO:0000269|PubMed:27558840}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA03722.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D16173; BAA03722.1; ALT_FRAME; mRNA.
+DR   PDB; 5J76; X-ray; 2.10 A; A=27-135, B=143-253.
+DR   PDB; 5T1X; X-ray; 1.70 A; B/D/F/H=143-251.
+DR   PDB; 5T20; X-ray; 1.91 A; B/D/F/H/J/L/N/P=143-251.
+DR   PDBsum; 5J76; -.
+DR   PDBsum; 5T1X; -.
+DR   PDBsum; 5T20; -.
+DR   AlphaFoldDB; Q39487; -.
+DR   SMR; Q39487; -.
+DR   UniLectin; Q39487; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   CDD; cd00028; B_lectin; 2.
+DR   Gene3D; 2.90.10.10; -; 2.
+DR   InterPro; IPR001480; Bulb-type_lectin_dom.
+DR   InterPro; IPR036426; Bulb-type_lectin_dom_sf.
+DR   SMART; SM00108; B_lectin; 2.
+DR   SUPFAM; SSF51110; SSF51110; 2.
+DR   PROSITE; PS50927; BULB_LECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Hemagglutinin;
+KW   Lectin; Mannose-binding; Repeat; Secreted; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000269|PubMed:8251188"
+FT   CHAIN           27..143
+FT                   /note="Mannose-specific lectin 1 chain 1"
+FT                   /id="PRO_0000450777"
+FT   CHAIN           144..267
+FT                   /note="Mannose-specific lectin 1 chain 2"
+FT                   /id="PRO_0000450778"
+FT   DOMAIN          29..134
+FT                   /note="Bulb-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   DOMAIN          148..255
+FT                   /note="Bulb-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038"
+FT   MOTIF           54..62
+FT                   /note="Carbohydrate-binding motif 1"
+FT                   /evidence="ECO:0000305|PubMed:27262515"
+FT   MOTIF           173..181
+FT                   /note="Carbohydrate-binding motif 2"
+FT                   /evidence="ECO:0000305|PubMed:27262515"
+FT   BINDING         54..58
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:A5HMM7"
+FT   BINDING         62
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:A5HMM7"
+FT   BINDING         66
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:R9RL27"
+FT   BINDING         67
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000250|UniProtKB:A5HMM7"
+FT   BINDING         173..177
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000269|PubMed:27558840,
+FT                   ECO:0007744|PDB:5T20"
+FT   BINDING         181
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000269|PubMed:27558840,
+FT                   ECO:0007744|PDB:5T20"
+FT   BINDING         185..188
+FT                   /ligand="beta-D-mannose"
+FT                   /ligand_id="ChEBI:CHEBI:28563"
+FT                   /evidence="ECO:0000269|PubMed:27558840,
+FT                   ECO:0007744|PDB:5T20"
+FT   DISULFID        57..77
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038,
+FT                   ECO:0000269|PubMed:27262515, ECO:0007744|PDB:5J76"
+FT   DISULFID        176..198
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00038,
+FT                   ECO:0000269|PubMed:27262515, ECO:0007744|PDB:5J76"
+FT   STRAND          29..33
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          43..46
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          49..53
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          59..62
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   TURN            63..65
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          78..81
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          87..90
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          96..99
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          105..107
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          110..114
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   TURN            115..117
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          118..122
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          124..129
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          150..152
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          156..158
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          161..165
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          168..172
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          178..185
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          199..202
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          208..211
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          217..220
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          226..228
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          231..234
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          240..243
+FT                   /evidence="ECO:0007829|PDB:5J76"
+FT   STRAND          246..249
+FT                   /evidence="ECO:0007829|PDB:5J76"
+SQ   SEQUENCE   267 AA;  29317 MW;  DBF4E89D25F3D3E0 CRC64;
+     MAKLLLFLLP AILGLLVPPR SWSAVALGTN YLLSGQTLET EGHLKNGDFD LVMQDDCNLV
+     LYNGNWQSNT ANKGRDCKLT LTDHGELVIN NGDGSTVWRS GAQSVKGDYA AVVHPEGRLV
+     VFSPSVFKID PSVPGLNSLR FRNIPFTNNL LFSGQVLYGD GRLTAKNHQL VMQGDCNLVL
+     YGGKYGWQSN THGNGEHCFL RLNHKGELII EDDDFKTIWS SSYSSKQGDY VLILRDDGVA
+     VIYGPAIWET SPQAKEKMIG MVTAGKL
+//

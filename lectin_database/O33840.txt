@@ -1,0 +1,148 @@
+ID   PULA_THEMA              Reviewed;         843 AA.
+AC   O33840;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 2.
+DT   25-MAY-2022, entry version 153.
+DE   RecName: Full=Pullulanase;
+DE            EC=3.2.1.41;
+DE   AltName: Full=Alpha-dextrin endo-1,6-alpha-glucosidase;
+DE   AltName: Full=Pullulan 6-glucanohydrolase;
+DE   Flags: Precursor;
+GN   Name=pulA; OrderedLocusNames=TM_1845;
+OS   Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826
+OS   / MSB8).
+OC   Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+OX   NCBI_TaxID=243274;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8;
+RX   PubMed=9453151; DOI=10.1111/j.1574-6968.1998.tb12793.x;
+RA   Bibel M., Brettl C., Gosslar U., Kriegshaeuser G., Liebl W.;
+RT   "Isolation and analysis of genes for amylolytic enzymes of the
+RT   hyperthermophilic bacterium Thermotoga maritima.";
+RL   FEMS Microbiol. Lett. 158:9-15(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8;
+RX   PubMed=10360571; DOI=10.1038/20601;
+RA   Nelson K.E., Clayton R.A., Gill S.R., Gwinn M.L., Dodson R.J., Haft D.H.,
+RA   Hickey E.K., Peterson J.D., Nelson W.C., Ketchum K.A., McDonald L.A.,
+RA   Utterback T.R., Malek J.A., Linher K.D., Garrett M.M., Stewart A.M.,
+RA   Cotton M.D., Pratt M.S., Phillips C.A., Richardson D.L., Heidelberg J.F.,
+RA   Sutton G.G., Fleischmann R.D., Eisen J.A., White O., Salzberg S.L.,
+RA   Smith H.O., Venter J.C., Fraser C.M.;
+RT   "Evidence for lateral gene transfer between Archaea and Bacteria from
+RT   genome sequence of Thermotoga maritima.";
+RL   Nature 399:323-329(1999).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->6)-alpha-D-glucosidic linkages in pullulan,
+CC         amylopectin and glycogen, and in the alpha- and beta-limit dextrins
+CC         of amylopectin and glycogen.; EC=3.2.1.41;
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 13 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ001087; CAA04522.1; -; Genomic_DNA.
+DR   EMBL; AE000512; AAD36907.1; -; Genomic_DNA.
+DR   PIR; H72204; H72204.
+DR   RefSeq; NP_229641.1; NC_000853.1.
+DR   RefSeq; WP_004082389.1; NZ_CP011107.1.
+DR   PDB; 2J71; X-ray; 1.69 A; A=18-120.
+DR   PDB; 2J72; X-ray; 1.49 A; A/B=18-120.
+DR   PDB; 2J73; X-ray; 1.40 A; A/B=18-120.
+DR   PDBsum; 2J71; -.
+DR   PDBsum; 2J72; -.
+DR   PDBsum; 2J73; -.
+DR   AlphaFoldDB; O33840; -.
+DR   SMR; O33840; -.
+DR   STRING; 243274.THEMA_04980; -.
+DR   CAZy; CBM41; Carbohydrate-Binding Module Family 41.
+DR   CAZy; CBM48; Carbohydrate-Binding Module Family 48.
+DR   CAZy; GH13; Glycoside Hydrolase Family 13.
+DR   EnsemblBacteria; AAD36907; AAD36907; TM_1845.
+DR   KEGG; tma:TM1845; -.
+DR   eggNOG; COG1523; Bacteria.
+DR   InParanoid; O33840; -.
+DR   OMA; KMMRKFM; -.
+DR   OrthoDB; 99080at2; -.
+DR   EvolutionaryTrace; O33840; -.
+DR   Proteomes; UP000008183; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0051060; F:pullulanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd10315; CBM41_pullulanase; 1.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR005323; CBM41_pullulanase.
+DR   InterPro; IPR006047; Glyco_hydro_13_cat_dom.
+DR   InterPro; IPR004193; Glyco_hydro_13_N.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR011840; PulA_typeI.
+DR   InterPro; IPR045041; Pullulanase_PULA-like.
+DR   PANTHER; PTHR43631; PTHR43631; 1.
+DR   Pfam; PF00128; Alpha-amylase; 1.
+DR   Pfam; PF02922; CBM_48; 1.
+DR   Pfam; PF03714; PUD; 1.
+DR   SMART; SM00642; Aamy; 1.
+DR   SUPFAM; SSF49452; SSF49452; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+DR   TIGRFAMs; TIGR02104; pulA_typeI; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycosidase; Hydrolase; Reference proteome; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..843
+FT                   /note="Pullulanase"
+FT                   /id="PRO_0000001428"
+FT   ACT_SITE        535
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        564
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   SITE            652
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   STRAND          21..28
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          37..47
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          52..54
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          63..72
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          75..83
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   TURN            84..87
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          88..98
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          103..109
+FT                   /evidence="ECO:0007829|PDB:2J73"
+FT   STRAND          116..118
+FT                   /evidence="ECO:0007829|PDB:2J73"
+SQ   SEQUENCE   843 AA;  96262 MW;  C42DDE233D54FE77 CRC64;
+     MKTKLWLLLV LLLSALIFSE TTIVVHYHRY DGKYDGWNLW IWPVEPVSQE GKAYQFTGED
+     DFGKVAVVKL PMDLTKVGII VRLNEWQAKD VAKDRFIEIK DGKAEVWILQ GVEEIFYEKP
+     DTSPRIFFAQ ARSNKVIEAF LTNPVDTKKK ELFKVTVDGK EIPVSRVEKA DPTDIDVTNY
+     VRIVLSESLK EEDLRKDVEL IIEGYKPARV IMMEILDDYY YDGELGAVYS PEKTIFRVWS
+     PVSKWVKVLL FKNGEDTEPY QVVNMEYKGN GVWEAVVEGD LDGVFYLYQL ENYGKIRTTV
+     DPYSKAVYAN SKKSAVVNLA RTNPEGWEND RGPKIEGYED AIIYEIHIAD ITGLENSGVK
+     NKGLYLGLTE ENTKGPGGVT TGLSHLVELG VTHVHILPFF DFYTGDELDK DFEKYYNWGY
+     DPYLFMVPEG RYSTDPKNPH TRIREVKEMV KALHKHGIGV IMDMVFPHTY GIGELSAFDQ
+     TVPYYFYRID KTGAYLNESG CGNVIASERP MMRKFIVDTV TYWVKEYHID GFRFDQMGLI
+     DKKTMLEVER ALHKIDPTII LYGEPWGGWG APIRFGKSDV AGTHVAAFND EFRDAIRGSV
+     FNPSVKGFVM GGYGKETKIK RGVVGSINYD GKLIKSFALD PEETINYAAC HDNHTLWDKN
+     YLAAKADKKK EWTEEELKNA QKLAGAILLT SQGVPFLHGG QDFCRTKNFN DNSYNAPISI
+     NGFDYERKLQ FIDVFNYHKG LIKLRKEHPA FRLKNAEEIK KHLEFLPGGR RIVAFMLKDH
+     AGGDPWKDIV VIYNGNLEKT TYKLPEGKWN VVVNSQKAGT EVIETVEGTI ELDPLSAYVL
+     YRE
+//

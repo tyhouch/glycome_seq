@@ -1,0 +1,245 @@
+ID   XYND_PAEPO              Reviewed;         635 AA.
+AC   P45796;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   03-AUG-2022, entry version 116.
+DE   RecName: Full=Arabinoxylan arabinofuranohydrolase;
+DE            Short=AXH;
+DE            EC=3.2.1.55;
+DE   AltName: Full=AXH-m2,3;
+DE            Short=AXH-m23;
+DE   AltName: Full=Alpha-L-arabinofuranosidase;
+DE            Short=AF;
+DE   Flags: Precursor;
+GN   Name=xynD;
+OS   Paenibacillus polymyxa (Bacillus polymyxa).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus.
+OX   NCBI_TaxID=1406;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 842 / DSM 36 / JCM 2507 / NBRC 15309 / NCIMB 8158 /
+RC   NCTC 10343 / NRRL B-4317 / VKM B-514;
+RX   PubMed=1938968; DOI=10.1128/jb.173.23.7705-7710.1991;
+RA   Gosalbes M.J., Perez-Gonzalez J.A., Gonzalez R., Navarro A.;
+RT   "Two beta-glycanase genes are clustered in Bacillus polymyxa: molecular
+RT   cloning, expression, and sequence analysis of genes encoding a xylanase and
+RT   an endo-beta-(1,3)-(1,4)-glucanase.";
+RL   J. Bacteriol. 173:7705-7710(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 27-46, FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   ACTIVITY REGULATION.
+RC   STRAIN=CECT 153 / NCTC 4747 / NRRL NRS-1237;
+RX   PubMed=8579824; DOI=10.1007/bf00164489;
+RA   Morales P., Sendra J.M., Perez-Gonzalez J.A.;
+RT   "Purification and characterization of an arabinofuranosidase from Bacillus
+RT   polymyxa expressed in Bacillus subtilis.";
+RL   Appl. Microbiol. Biotechnol. 44:112-117(1995).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (0.8 ANGSTROMS) OF 505-635 IN COMPLEX WITH
+RP   XYLOTRIOSE.
+RC   STRAIN=ATCC 842 / DSM 36 / JCM 2507 / NBRC 15309 / NCIMB 8158 /
+RC   NCTC 10343 / NRRL B-4317 / VKM B-514;
+RX   PubMed=15242594; DOI=10.1016/j.str.2004.04.022;
+RA   Jamal-Talabani S., Boraston A.B., Turkenburg J.P., Tarbouriech N.,
+RA   Ducros V.M.-A., Davies G.J.;
+RT   "Ab initio structure determination and functional characterization of
+RT   CBM36; a new family of calcium-dependent carbohydrate binding modules.";
+RL   Structure 12:1177-1187(2004).
+CC   -!- FUNCTION: Cleaves arabinose units from O-2- or O-3-monosubstituted
+CC       xylose residues, thereby assisting in arabinoxylan (AX) and short-chain
+CC       arabinoxylo-oligosaccharide (AXOS) degradation (By similarity).
+CC       Preferres wheat flour xylan over oat spelt xylan as substrate. Does not
+CC       display endoxylanase activity. {ECO:0000250,
+CC       ECO:0000269|PubMed:8579824}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing alpha-L-arabinofuranoside
+CC         residues in alpha-L-arabinosides.; EC=3.2.1.55;
+CC   -!- ACTIVITY REGULATION: Activated by calcium and magnesium. Inhibited by
+CC       copper. {ECO:0000269|PubMed:8579824}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.5. {ECO:0000269|PubMed:8579824};
+CC       Temperature dependence:
+CC         Optimum temperature is 55 degrees Celsius.
+CC         {ECO:0000269|PubMed:8579824};
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DOMAIN: The C-terminal CBM6 domain shows calcium-dependent xylo-
+CC       oligosaccharide and xylan binding. It binds, next to the structural
+CC       calcium ion, a second calcium ion that, in addition to its coordination
+CC       sites on the protein, completes its heptacoordination through
+CC       coordination to the bound xylose moiety.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 43 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X57094; CAA40378.1; -; Genomic_DNA.
+DR   PIR; S19011; S19011.
+DR   RefSeq; WP_019687278.1; NZ_UGSC01000001.1.
+DR   PDB; 1UX7; X-ray; 1.50 A; A=516-635.
+DR   PDB; 1W0N; X-ray; 0.80 A; A=505-635.
+DR   PDBsum; 1UX7; -.
+DR   PDBsum; 1W0N; -.
+DR   AlphaFoldDB; P45796; -.
+DR   SMR; P45796; -.
+DR   STRING; 1052684.PPM_2373; -.
+DR   CAZy; CBM36; Carbohydrate-Binding Module Family 36.
+DR   CAZy; CBM6; Carbohydrate-Binding Module Family 6.
+DR   CAZy; GH43; Glycoside Hydrolase Family 43.
+DR   GeneID; 66577481; -.
+DR   eggNOG; COG3507; Bacteria.
+DR   BRENDA; 3.2.1.8; 683.
+DR   UniPathway; UPA00114; -.
+DR   EvolutionaryTrace; P45796; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046556; F:alpha-L-arabinofuranosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.115.10.20; -; 1.
+DR   InterPro; IPR006584; Cellulose-bd_IV.
+DR   InterPro; IPR005084; CMB_fam6.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR006710; Glyco_hydro_43.
+DR   InterPro; IPR023296; Glyco_hydro_beta-prop_sf.
+DR   Pfam; PF03422; CBM_6; 2.
+DR   Pfam; PF04616; Glyco_hydro_43; 1.
+DR   SMART; SM00606; CBD_IV; 1.
+DR   SUPFAM; SSF49785; SSF49785; 2.
+DR   SUPFAM; SSF75005; SSF75005; 1.
+DR   PROSITE; PS51175; CBM6; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Carbohydrate metabolism; Direct protein sequencing;
+KW   Glycosidase; Hydrolase; Metal-binding; Polysaccharide degradation; Repeat;
+KW   Secreted; Signal; Xylan degradation.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000269|PubMed:8579824"
+FT   CHAIN           27..635
+FT                   /note="Arabinoxylan arabinofuranohydrolase"
+FT                   /id="PRO_0000012202"
+FT   DOMAIN          379..508
+FT                   /note="CBM6 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   DOMAIN          517..634
+FT                   /note="CBM6 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   ACT_SITE        49
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q45071"
+FT   ACT_SITE        248
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q45071"
+FT   BINDING         311
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         382
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         384
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         406
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         407
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         503
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         520
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /ligand_note="structural"
+FT   BINDING         522
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /ligand_note="structural"
+FT   BINDING         539
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /ligand_note="structural"
+FT   BINDING         544
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /ligand_note="structural"
+FT   BINDING         620
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /ligand_note="structural"
+FT   BINDING         624
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /ligand_note="structural"
+FT   BINDING         625
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /ligand_note="structural"
+FT   BINDING         629
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /ligand_note="structural"
+FT   SITE            188
+FT                   /note="Important for catalytic activity, responsible for
+FT                   pKa modulation of the active site Glu and correct
+FT                   orientation of both the proton donor and substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q45071"
+FT   STRAND          517..520
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   HELIX           521..523
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          524..530
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          532..534
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          536..543
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          549..581
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          584..595
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          597..605
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          609..618
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          620..623
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+FT   STRAND          626..634
+FT                   /evidence="ECO:0007829|PDB:1W0N"
+SQ   SEQUENCE   635 AA;  67914 MW;  F9DEC69967323316 CRC64;
+     MIRKCLVLFL SFALLLSVFP MLNVDAANRP LAKIPGNSNP LMDHKLGADP YSLVYDGRVY
+     IFMSSDTYVY NKDGSIKEND FSALDRIQVI SSTDMVNWTD HGTIPVAGAN NKNSGRGIAK
+     WASNSWAPAV AHKKINGRDK FFLYFANGGA GIGVLTADTP IGPWTDPLGK ALVTHSTPGM
+     AGVTWLFDPA VLVDDDGTGY LYSGGGIPNE SDPASIANPK TARVIKLGAD MTSVIGSATT
+     IDAPYLFEDS GIHKYNGKYY YSYCINFAGT HPQQYPAGEI GYMVSDNPMG PFTYKGHFLK
+     NPYTFFGVGG NNHHAVFNFK NEWYVVYHAQ TVSKAQIGAG KGYRSPHINK LVHKEDGSIS
+     EVQGNMTGIA QLSNMNPYTR VEAETIAWQA GVTTEPTQAS GGPISNLNVT NIHNGDWIAV
+     GKADFGSAGA KTFKANVATN VGGNIEVRLD SETGPLVGSL KVPSTGGMQT WREVETTINN
+     ATGVHNIYLV FTGSGSGNLL NLDAWQFTPN TGGNTITKVE AENMKIGGTY AGKISAPFDG
+     VALYANADYV SYSQYFANST HNISVRGASS NAGTAKVDLV IGGVTVGSFN FTGKTPTVQT
+     LSNITHATGD QEIKLALTSD DGTWDAYVDF IEFSL
+//

@@ -1,0 +1,125 @@
+ID   LECA_MACPO              Reviewed;         133 AA.
+AC   P18674;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 2.
+DT   25-MAY-2022, entry version 78.
+DE   RecName: Full=Agglutinin alpha chain;
+DE   AltName: Full=MPA;
+OS   Maclura pomifera (Osage orange) (Ioxylon pomiferum).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Rosales; Moraceae; Maclura.
+OX   NCBI_TaxID=3496;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Seed;
+RX   PubMed=2037053; DOI=10.1016/0014-5793(91)80518-8;
+RA   Young N.M., Johnston R.A.Z., Watson D.C.;
+RT   "The amino acid sequences of jacalin and the Maclura pomifera agglutinin.";
+RL   FEBS Lett. 282:382-384(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-33.
+RC   TISSUE=Seed;
+RX   PubMed=2705782; DOI=10.1016/0003-9861(89)90542-0;
+RA   Young N.M., Johnston R.A.Z., Szabo A.G., Watson D.C.;
+RT   "Homology of the D-galactose-specific lectins from Artocarpus integrifolia
+RT   and Maclura pomifera and the role of an unusual small polypeptide
+RT   subunit.";
+RL   Arch. Biochem. Biophys. 270:596-603(1989).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS).
+RX   PubMed=9497359; DOI=10.1074/jbc.273.11.6312;
+RA   Lee X., Thompson A., Zhang Z., Ton-That H., Biesterfeldt J., Ogata C.,
+RA   Xu L., Johnston R.A., Young N.M.;
+RT   "Structure of the complex of Maclura pomifera agglutinin and the T-antigen
+RT   disaccharide, Galbeta1,3GalNAc.";
+RL   J. Biol. Chem. 273:6312-6318(1998).
+CC   -!- FUNCTION: D-galactose-specific lectin, binds the T-antigen structure
+CC       Gal-beta1,3-GalNAc.
+CC   -!- SUBUNIT: Formed of four alpha chains and four beta chains.
+CC   -!- SIMILARITY: Belongs to the jacalin lectin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01088, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; S03990; S03990.
+DR   PIR; S15825; S15825.
+DR   PDB; 1JOT; X-ray; 2.20 A; A=1-133.
+DR   PDB; 3LLY; X-ray; 2.25 A; A=1-133.
+DR   PDB; 3LLZ; X-ray; 1.55 A; A=1-133.
+DR   PDB; 3LM1; X-ray; 2.10 A; A/C/E/G/I/K/M/O=1-133.
+DR   PDBsum; 1JOT; -.
+DR   PDBsum; 3LLY; -.
+DR   PDBsum; 3LLZ; -.
+DR   PDBsum; 3LM1; -.
+DR   AlphaFoldDB; P18674; -.
+DR   SMR; P18674; -.
+DR   EvolutionaryTrace; P18674; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 1.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Lectin.
+FT   CHAIN           1..133
+FT                   /note="Agglutinin alpha chain"
+FT                   /id="PRO_0000072803"
+FT   DOMAIN          1..133
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   VARIANT         31
+FT                   /note="T -> V (in minor forms)"
+FT   VARIANT         52
+FT                   /note="K -> T (in minor forms)"
+FT   VARIANT         59
+FT                   /note="E -> D (in minor forms)"
+FT   VARIANT         72
+FT                   /note="V -> I (in minor forms)"
+FT   VARIANT         81
+FT                   /note="I -> V (in minor forms)"
+FT   VARIANT         110
+FT                   /note="N -> Q (in minor forms)"
+FT   VARIANT         112
+FT                   /note="L -> G (in minor forms)"
+FT   CONFLICT        29
+FT                   /note="R -> D (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        32..33
+FT                   /note="YD -> QN (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          2..5
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          10..19
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          21..23
+FT                   /evidence="ECO:0007829|PDB:1JOT"
+FT   STRAND          25..34
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          37..40
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          52..57
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   TURN            60..62
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          65..75
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          78..90
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          92..97
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          101..107
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+FT   STRAND          112..132
+FT                   /evidence="ECO:0007829|PDB:3LLZ"
+SQ   SEQUENCE   133 AA;  14758 MW;  15C69FF94B6D09FD CRC64;
+     GVTFDDGAYT GIREINFEYN SETAIGGLRV TYDLNGMPFV AEDHKSFITG FKPVKISLEF
+     PSEYIVEVSG YVGKVEGYTV IRSLTFKTNK QTYGPYGVTN GTPFSLPIEN GLIVGFKGSI
+     GYWLDYFSIY LSL
+//

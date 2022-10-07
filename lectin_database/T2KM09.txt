@@ -1,0 +1,134 @@
+ID   PLH16_FORAG             Reviewed;        1034 AA.
+AC   T2KM09;
+DT   16-OCT-2019, integrated into UniProtKB/Swiss-Prot.
+DT   16-OCT-2019, sequence version 2.
+DT   03-AUG-2022, entry version 36.
+DE   RecName: Full=Putative beta-glucuronidase {ECO:0000305};
+DE            EC=3.2.1.31 {ECO:0000250|UniProtKB:P05804};
+DE   AltName: Full=Glycosyl hydrolase 2 family protein P16 {ECO:0000305};
+DE            Short=P16_GH2 {ECO:0000303|PubMed:31285597};
+DE   AltName: Full=Polysaccharide utilization locus H protein P16 {ECO:0000303|PubMed:31285597};
+DE            Short=PUL H protein P16;
+GN   ORFNames=BN863_22050 {ECO:0000312|EMBL:CDF79917.1};
+OS   Formosa agariphila (strain DSM 15362 / KCTC 12365 / LMG 23005 / KMM 3901 /
+OS   M-2Alg 35-1).
+OC   Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;
+OC   Flavobacteriaceae; Formosa.
+OX   NCBI_TaxID=1347342;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 15362 / KCTC 12365 / LMG 23005 / KMM 3901 / M-2Alg 35-1;
+RX   PubMed=23995932; DOI=10.1128/aem.01937-13;
+RA   Mann A.J., Hahnke R.L., Huang S., Werner J., Xing P., Barbeyron T.,
+RA   Huettel B., Stueber K., Reinhardt R., Harder J., Gloeckner F.O.,
+RA   Amann R.I., Teeling H.;
+RT   "The genome of the alga-associated marine flavobacterium Formosa agariphila
+RT   KMM 3901T reveals a broad potential for degradation of algal
+RT   polysaccharides.";
+RL   Appl. Environ. Microbiol. 79:6813-6822(2013).
+RN   [2]
+RP   REVISION OF GENE MODEL.
+RX   DOI=10.1016/j.algal.2017.09.025;
+RA   Salinas A., French C.E.;
+RT   "The enzymatic ulvan depolymerisation system from the alga-associated
+RT   marine flavobacterium Formosa agariphila.";
+RL   Algal Res. 27:335-344(2017).
+RN   [3]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INDUCTION.
+RX   PubMed=31285597; DOI=10.1038/s41589-019-0311-9;
+RA   Reisky L., Prechoux A., Zuehlke M.K., Baeumgen M., Robb C.S., Gerlach N.,
+RA   Roret T., Stanetty C., Larocque R., Michel G., Song T., Markert S.,
+RA   Unfried F., Mihovilovic M.D., Trautwein-Schult A., Becher D., Schweder T.,
+RA   Bornscheuer U.T., Hehemann J.H.;
+RT   "A marine bacterial enzymatic cascade degrades the algal polysaccharide
+RT   ulvan.";
+RL   Nat. Chem. Biol. 15:803-812(2019).
+CC   -!- FUNCTION: Glycoside hydrolase that may be involved in ulvan degradation
+CC       (Probable). Ulvan is the main polysaccharide component of the Ulvales
+CC       (green seaweed) cell wall. It is composed of disaccharide building
+CC       blocks comprising 3-sulfated rhamnose (Rha3S) linked to D-glucuronic
+CC       acid (GlcA), L-iduronic acid (IduA), or D-xylose (Xyl) (Probable).
+CC       {ECO:0000305|PubMed:31285597, ECO:0000305|Ref.2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-glucuronoside + H2O = an alcohol + D-glucuronate;
+CC         Xref=Rhea:RHEA:17633, ChEBI:CHEBI:15377, ChEBI:CHEBI:30879,
+CC         ChEBI:CHEBI:58720, ChEBI:CHEBI:83411; EC=3.2.1.31;
+CC         Evidence={ECO:0000250|UniProtKB:P05804};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:31285597}.
+CC   -!- INDUCTION: By ulvan and rhamnose. {ECO:0000269|PubMed:31285597}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CDF79917.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305|Ref.2};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG315671; CDF79917.1; ALT_INIT; Genomic_DNA.
+DR   AlphaFoldDB; T2KM09; -.
+DR   SMR; T2KM09; -.
+DR   STRING; 1347342.BN863_22050; -.
+DR   EnsemblBacteria; CDF79917; CDF79917; BN863_22050.
+DR   PATRIC; fig|1347342.6.peg.2212; -.
+DR   eggNOG; COG3250; Bacteria.
+DR   HOGENOM; CLU_006501_0_1_10; -.
+DR   OrthoDB; 1832114at2; -.
+DR   Proteomes; UP000016160; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004566; F:beta-glucuronidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 3.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR005084; CMB_fam6.
+DR   InterPro; IPR032311; DUF4982.
+DR   InterPro; IPR026876; Fn3_assoc_repeat.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR023232; Glyco_hydro_2_AS.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF16355; DUF4982; 1.
+DR   Pfam; PF13287; Fn3_assoc; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SUPFAM; SSF49303; SSF49303; 1.
+DR   SUPFAM; SSF49785; SSF49785; 2.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS51175; CBM6; 1.
+DR   PROSITE; PS00608; GLYCOSYL_HYDROL_F2_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Glycosidase; Hydrolase; Reference proteome.
+FT   CHAIN           1..1034
+FT                   /note="Putative beta-glucuronidase"
+FT                   /id="PRO_0000448300"
+FT   DOMAIN          909..1034
+FT                   /note="CBM6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00523"
+FT   ACT_SITE        432
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P05804"
+SQ   SEQUENCE   1034 AA;  117464 MW;  56F7CE10EBF7C731 CRC64;
+     MHQKIVECIP LWSRNLNSNV KGMRGEGIAC LLIVLCSIIY RTEAQRIETN FNNNWHFILK
+     DSPDFSKENL DDSSWELLNV PHDWSFEKGV RKGGDQGQGG GYHDGGIGWY RKTFSFSKAS
+     LSKTTYINFD GVYMNSEVWI NGNRLGKRPY GYISFRYDIS KYLKVGKNTI AVRVDNGLEP
+     SARWYHSCGI YAPVKLVEVN PTHFKPNTIF IKTPSIEKQQ GVVSIDAEIK GAFKGLKYNV
+     ELLTANGKVI ATHSEKLASA QPSVQLEVKP PKLWSPESPN LYKAKTQILD GKKVIDEKTT
+     TFGFRTVAWK TETGFWLNGE NVKLKGVCEH WEGGPVGGAW TKPMLRWKLQ SLKDMGINAI
+     RPSHNSTPPM FYDICDEIGL LVMDEIFDGW HKKAPEDYGK QAFDEWWQAD VKEWITRDRN
+     HPSIFVWSLG NETHSDVAPE MVAFGKNLDP TRLFTSGAGN PEDMDIQGVN GGSETKSFIE
+     NNKLTKPFIS TEAPHTWQTR GYYRTQTWWR DNELSGTYEL PNLTEKEVFF YEGINPKNWK
+     NRKQRFNSSY DNATVRVSAR KYWEVMRDTP WHSGHFRWTG FDYYGEAGLV HGGLPFNLFM
+     GGALDVAGFK KDLYYFYQSQ WTEKPMIHML PHWTHPRMKK GTVIPVWVYA NADEVELFLN
+     GISLGKDKPG TVWNEMQCEW LVPYEEGTLE AVGYINGKVV NRTSFSTAQQ PSKLKTSILK
+     LDAEGSFTDS FIVTSESLDT AGHLYPYGEN KVYYHIQGDV KKISMENGNP IDPTSRTKSD
+     FRALFFGKTR TFLRALPEPK EAAVVTAAIL GDKALYTSNL ITIDAQHIQL LGKSKTSDLE
+     IRYTTNGENP ETHGKLYKDA FMVEDDTTVK AIVKQNGKTV LSMEETFGKN EGLFWGDEHS
+     ADMWIGRGVD ISAEEGVLTG AAKPSREAHR FKGSGFVDFK GGEGSITWYQ ENDGEPGDYS
+     IRFRYMHNNH GKLHPMKLYV NDEYVRTIEF EPTGGWEKEW KFVPTIIVLQ SGANNIKLET
+     TGESGPFIDE LFID
+//

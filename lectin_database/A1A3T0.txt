@@ -1,0 +1,167 @@
+ID   BGAC_BIFAA              Reviewed;        1049 AA.
+AC   A1A3T0;
+DT   29-SEP-2021, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   03-AUG-2022, entry version 89.
+DE   RecName: Full=Beta-galactosidase BgaC {ECO:0000303|PubMed:33427933};
+DE            Short=Beta-gal {ECO:0000305};
+DE            EC=3.2.1.23 {ECO:0000269|PubMed:33427933};
+DE   AltName: Full=Lactase {ECO:0000305};
+GN   Name=bgaC {ECO:0000303|PubMed:33427933};
+GN   OrderedLocusNames=BAD_1582 {ECO:0000312|EMBL:BAF40363.1};
+OS   Bifidobacterium adolescentis (strain ATCC 15703 / DSM 20083 / NCTC 11814 /
+OS   E194a).
+OC   Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;
+OC   Bifidobacterium.
+OX   NCBI_TaxID=367928;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15703 / DSM 20083 / NCTC 11814 / E194a;
+RA   Suzuki T., Tsuda Y., Kanou N., Inoue T., Kumazaki K., Nagano S., Hirai S.,
+RA   Tanaka K., Watanabe K.;
+RT   "Bifidobacterium adolescentis complete genome sequence.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, ACTIVITY REGULATION,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND BIOTECHNOLOGY.
+RC   STRAIN=ATCC 15703 / DSM 20083 / NCTC 11814 / E194a;
+RX   PubMed=33427933; DOI=10.1007/s00253-020-11084-y;
+RA   Mulualem D.M., Agbavwe C., Ogilvie L.A., Jones B.V., Kilcoyne M.,
+RA   O'Byrne C., Boyd A.;
+RT   "Metagenomic identification, purification and characterisation of the
+RT   Bifidobacterium adolescentis BgaC beta-galactosidase.";
+RL   Appl. Microbiol. Biotechnol. 105:1063-1078(2021).
+CC   -!- FUNCTION: Catalyzes efficient hydrolysis of lactose. Also exhibits
+CC       transglycosylation activity to produce oligosaccharides at low
+CC       concentrations of glucose. In vitro, acts on the synthetic chromogenic
+CC       substrate ortho-nitrophenyl-beta-D-galactopyranoside (ONPG). Acts
+CC       exclusively on terminal beta-linked Gal residues.
+CC       {ECO:0000269|PubMed:33427933}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing beta-D-galactose residues
+CC         in beta-D-galactosides.; EC=3.2.1.23;
+CC         Evidence={ECO:0000269|PubMed:33427933};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:33427933};
+CC       Note=Mg(2+) enhances the activity by 30%, followed by Ca(2+) and then
+CC       Zn(2+). {ECO:0000269|PubMed:33427933};
+CC   -!- ACTIVITY REGULATION: Activity is inhibited by EDTA. Activity is
+CC       abolished by Cu(2+) and shows 59% reduction in the presence of Mn(2+)
+CC       (PubMed:33427933). Lactose acts as a competitive inhibitor
+CC       (PubMed:33427933). {ECO:0000269|PubMed:33427933}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.7 mM for lactose {ECO:0000269|PubMed:33427933};
+CC         KM=2.5 mM for ONPG {ECO:0000269|PubMed:33427933};
+CC         Vmax=22 umol/min/mg enzyme with lactose as substrate
+CC         {ECO:0000269|PubMed:33427933};
+CC         Vmax=107 umol/min/mg enzyme with ONPG as substrate
+CC         {ECO:0000269|PubMed:33427933};
+CC       pH dependence:
+CC         Optimum pH is 7.0 with ONPG as substrate. Retains 60% of its activity
+CC         between pH 6.0 and 8.0. {ECO:0000269|PubMed:33427933};
+CC       Temperature dependence:
+CC         Optimum temperature is 37 degrees Celsius with ONPG as substrate.
+CC         Retains 60% of its activity between 20 and 45 degrees Celsius.
+CC         {ECO:0000269|PubMed:33427933};
+CC   -!- BIOTECHNOLOGY: Possesses the industrially desirable properties of high
+CC       substrate affinity for lactose and low product inhibition by galactose,
+CC       and is an ideal candidate for dairy industry applications and prebiotic
+CC       manufacture. {ECO:0000269|PubMed:33427933}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009256; BAF40363.1; -; Genomic_DNA.
+DR   RefSeq; WP_011743877.1; NC_008618.1.
+DR   SMR; A1A3T0; -.
+DR   STRING; 1680.BADO_1688; -.
+DR   CAZy; GH2; Glycoside Hydrolase Family 2.
+DR   EnsemblBacteria; BAF40363; BAF40363; BAD_1582.
+DR   KEGG; bad:BAD_1582; -.
+DR   HOGENOM; CLU_002346_0_2_11; -.
+DR   OMA; HPEYTIT; -.
+DR   Proteomes; UP000008702; Chromosome.
+DR   GO; GO:0009341; C:beta-galactosidase complex; IEA:InterPro.
+DR   GO; GO:0004565; F:beta-galactosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; IEA:UniProt.
+DR   Gene3D; 2.60.40.10; -; 2.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR004199; B-gal_small/dom_5.
+DR   InterPro; IPR036156; Beta-gal/glucu_dom_sf.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR006101; Glyco_hydro_2.
+DR   InterPro; IPR006103; Glyco_hydro_2_cat.
+DR   InterPro; IPR023230; Glyco_hydro_2_CS.
+DR   InterPro; IPR006102; Glyco_hydro_2_Ig-like.
+DR   InterPro; IPR006104; Glyco_hydro_2_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR032312; LacZ_4.
+DR   Pfam; PF02929; Bgal_small_N; 1.
+DR   Pfam; PF16353; DUF4981; 1.
+DR   Pfam; PF00703; Glyco_hydro_2; 1.
+DR   Pfam; PF02836; Glyco_hydro_2_C; 1.
+DR   Pfam; PF02837; Glyco_hydro_2_N; 1.
+DR   PRINTS; PR00132; GLHYDRLASE2.
+DR   SMART; SM01038; Bgal_small_N; 1.
+DR   SUPFAM; SSF49303; SSF49303; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   PROSITE; PS00719; GLYCOSYL_HYDROL_F2_1; 1.
+PE   1: Evidence at protein level;
+KW   Glycosidase; Hydrolase; Magnesium; Metal-binding; Reference proteome.
+FT   CHAIN           1..1049
+FT                   /note="Beta-galactosidase BgaC"
+FT                   /id="PRO_0000453260"
+FT   ACT_SITE        483
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P00722"
+FT   ACT_SITE        557
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:P00722"
+FT   BINDING         430
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P00722"
+FT   BINDING         432
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P00722"
+FT   BINDING         483
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P00722"
+FT   SITE            371
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P00722"
+FT   SITE            405
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P00722"
+SQ   SEQUENCE   1049 AA;  116448 MW;  44D9307C3E31C39D CRC64;
+     MADTAELAIV HATTASASWL TDPTVFAANR KPAHSSHRYV IGETREPKQS LDGEWKVRIE
+     QARNVDVESA PFAAVDFEDG DFGAIEVPGH LQMAGYLKNK YVNIQYPWDG HEDPQAPNIP
+     ENNHVAIYRR RFALDAQLAR TLENDGTVSL TFHGAATAIY VWLDGTFVGY GEDGFTPSEF
+     DVTEALRNGN GNAADSPEAE HTLTVACYEY SSASWLEDQD FWRLHGLFRT VELAAQPHTH
+     VETVQLEADY TAADTAGTAD TAELNAALTL RNPADAMTIE STLRDGDGNV VWESTQACNG
+     EIALNSGKMT NIAPWSAESP TLYTLTVRVV GHDGAIIETV TQKIGFRTFR IENGIMTING
+     KRIVFKGADR HEFDAKRGRA ITREDMLSDV VFCKRHNINA IRTSHYPNQE YWYDLCDEYG
+     LYLIDETNME THGTWVANNV ERPEDGIPGS RPEWEGACVD RINSMMRRDY NHPSVLIWSL
+     GNESSAGEVF RAMYRHAHTI DPNRPVHYEG SVHMREFEDV TDIESRMYAH ADEIERYLND
+     GSPAHTDGPK KPYISCEYMH AMGNSCGNMD EYTALERYPM YQGGFIWDFI DQAIETKLPD
+     GTTRMCYGGD FGDRPSDYEF SGDGLLFADR TPSPKAQEVK QLYANVKIAV SVDEARITND
+     NLFVSTGDYR FVLRILADGK PVWSTTRRFD VAAGESASFE VDWPVDDYRS NAEELVLEVS
+     QQLGNACDWA PAGYELAFGQ CVVAGAKTTA DAVDAAGAPA DGTVTLGRWN AGVRGQGREA
+     LFSRTQGGMV SYTFGEREFV LRRPSITTFR PLTDNDRGAG HAFERAAWAV AGKYARCVDC
+     AIANRGENAV EATYTYELAI PQRTKVTVRY VADTAGLVSL DVEYPGEKNG DLPTIPAFGI
+     EWALPVEYAN LRFYGAGPEE TYADRRHAKL GVWSTTAGDD CAPYLLPQET GNHEDVRWAE
+     ITDDSGHGVR VKRGAGAKPF AMSLLPYSST MLEEALHQDE LPKPRHMFLR LLAAQMGVGG
+     DDSWMSPVHE QYQLPADQPL SLNVQLKLF
+//

@@ -1,0 +1,108 @@
+ID   OPGD_SHIFL              Reviewed;         551 AA.
+AC   Q83R85;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   25-MAY-2022, entry version 112.
+DE   RecName: Full=Glucans biosynthesis protein D;
+DE   Flags: Precursor;
+GN   Name=mdoD; Synonyms=opgD; OrderedLocusNames=SF1786, S1488;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H., Yang J.,
+RA   Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J., Sun L.,
+RA   Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S., Cheng H.,
+RA   Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y., Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/iai.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W., Fournier G.,
+RA   Mayhew G.F., Plunkett G. III, Rose D.J., Darling A., Mau B., Perna N.T.,
+RA   Payne S.M., Runyen-Janecky L.J., Zhou S., Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella flexneri
+RT   serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: Probably involved in the control of the structural glucose
+CC       backbone of osmoregulated periplasmic glucans (OPGs). {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005674; AAN43355.1; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP16873.1; -; Genomic_DNA.
+DR   RefSeq; NP_707648.1; NC_004337.2.
+DR   RefSeq; WP_000375966.1; NZ_WPGW01000106.1.
+DR   AlphaFoldDB; Q83R85; -.
+DR   SMR; Q83R85; -.
+DR   STRING; 198214.SF1786; -.
+DR   EnsemblBacteria; AAN43355; AAN43355; SF1786.
+DR   EnsemblBacteria; AAP16873; AAP16873; S1488.
+DR   GeneID; 1024950; -.
+DR   GeneID; 58391364; -.
+DR   KEGG; sfl:SF1786; -.
+DR   KEGG; sfx:S1488; -.
+DR   PATRIC; fig|198214.7.peg.2119; -.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; DVQFFHV; -.
+DR   OrthoDB; 1049230at2; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01068; MdoD_OpgD; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023724; Glucan_biosyn_MdoD.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..32
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           33..551
+FT                   /note="Glucans biosynthesis protein D"
+FT                   /id="PRO_0000020215"
+SQ   SEQUENCE   551 AA;  62784 MW;  75045B672B8684FF CRC64;
+     MDRRRFIKGS MAMAAVCGTS GIASLFSQAA FAADSDIADG QTQRFDFSIL QSMAHDLAQT
+     AWRGAPRPLP DTLATMTPQA YNSIQYDAEK SLWHNVENRQ LDAQFFHMGM GFRRRVRMFS
+     VDPATHLARE IHFRPELFKY NDAGVDTKQL EGQSDLGFAG FRVFKAPELA RRDVVSFLGA
+     SYFRAVDDTY QYGLSARGLA IDTYTDSKEE FPDFTAFWFD TVKPGATTFT VYALLDSASI
+     TGAYKFTIHC EKSQVIMDVE NHLYARKDIK QLGISPMTSM FSCGTNERRM CDTIHPQIHD
+     SDRLSMWRGN GEWICRPLNN PQKLQFNAYT DNNPKGFGLL QLDRDFSHYQ DIMGWYNKRP
+     SLWVEPRNKW GKGTIGLMEI PTTGETLDNI VCFWQPEKAV KAGDEFAFQY RLYWSAQPPV
+     HCPLARVMAT RTGMGGFPEG WAPGEHYPEK WARRFAVDFV GGDLKAAAPK GIEPVITLSS
+     GEAKQIEILY IEPIDGYRIQ FDWYPTSDST DPVDMRMYLR CQGDAISETW LYQYFPPAPD
+     KRQYVDDRVM S
+//

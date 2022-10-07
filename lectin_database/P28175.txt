@@ -1,0 +1,324 @@
+ID   CFC_TACTR               Reviewed;        1019 AA.
+AC   P28175;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   03-AUG-2022, entry version 123.
+DE   RecName: Full=Clotting factor C;
+DE            Short=FC;
+DE            EC=3.4.21.84 {ECO:0000269|PubMed:3512266, ECO:0000269|PubMed:7822280, ECO:0000269|PubMed:8276848, ECO:0000269|PubMed:8798603};
+DE   AltName: Full=Limulus factor C {ECO:0000303|PubMed:2007602};
+DE   Contains:
+DE     RecName: Full=Clotting factor C heavy chain {ECO:0000303|PubMed:3512266};
+DE   Contains:
+DE     RecName: Full=Clotting factor C light chain {ECO:0000303|PubMed:3512266};
+DE   Contains:
+DE     RecName: Full=Clotting factor C chain A {ECO:0000303|PubMed:3308457};
+DE   Contains:
+DE     RecName: Full=Clotting factor C chain B {ECO:0000303|PubMed:3308457};
+DE   Flags: Precursor;
+OS   Tachypleus tridentatus (Japanese horseshoe crab).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Merostomata;
+OC   Xiphosura; Limulidae; Tachypleus.
+OX   NCBI_TaxID=6853;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS LONG AND SHORT), PARTIAL PROTEIN
+RP   SEQUENCE, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=2007602; DOI=10.1016/s0021-9258(18)38153-5;
+RA   Muta T., Miyata T., Misumi Y., Tokunaga F., Nakamura T., Toh Y.,
+RA   Ikehara Y., Iwanaga S.;
+RT   "Limulus factor C. An endotoxin-sensitive serine protease zymogen with a
+RT   mosaic structure of complement-like, epidermal growth factor-like, and
+RT   lectin-like domains.";
+RL   J. Biol. Chem. 266:6554-6561(1991).
+RN   [2]
+RP   PARTIAL PROTEIN SEQUENCE (ISOFORM LONG), SUBUNIT, PROTEOLYTIC CLEAVAGE, AND
+RP   GLYCOSYLATION AT ASN-767.
+RX   PubMed=3308457; DOI=10.1111/j.1432-1033.1987.tb13352.x;
+RA   Tokunaga F., Miyata T., Nakamura T., Morita T., Kuma K., Miyata T.,
+RA   Iwanaga S.;
+RT   "Lipopolysaccharide-sensitive serine-protease zymogen (factor C) of
+RT   horseshoe crab hemocytes. Identification and alignment of proteolytic
+RT   fragments produced during the activation show that it is a novel type of
+RT   serine protease.";
+RL   Eur. J. Biochem. 167:405-416(1987).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBUNIT, TISSUE
+RP   SPECIFICITY, GLYCOSYLATION, PROTEOLYTIC CLEAVAGE, AND DISULFIDE BOND.
+RX   PubMed=3512266; DOI=10.1111/j.1432-1033.1986.tb09427.x;
+RA   Nakamura T., Morita T., Iwanaga S.;
+RT   "Lipopolysaccharide-sensitive serine-protease zymogen (factor C) found in
+RT   Limulus hemocytes. Isolation and characterization.";
+RL   Eur. J. Biochem. 154:511-521(1986).
+RN   [4]
+RP   CATALYTIC ACTIVITY, ACTIVITY REGULATION, AND SUBUNIT.
+RX   PubMed=8276848; DOI=10.1016/s0021-9258(17)42383-0;
+RA   Miura Y., Kawabata S., Iwanaga S.;
+RT   "A Limulus intracellular coagulation inhibitor with characteristics of the
+RT   serpin superfamily. Purification, characterization, and cDNA cloning.";
+RL   J. Biol. Chem. 269:542-547(1994).
+RN   [5]
+RP   CATALYTIC ACTIVITY, ACTIVITY REGULATION, AND SUBUNIT.
+RX   PubMed=7822280; DOI=10.1074/jbc.270.2.558;
+RA   Miura Y., Kawabata S., Wakamiya Y., Nakamura T., Iwanaga S.;
+RT   "A limulus intracellular coagulation inhibitor type 2. Purification,
+RT   characterization, cDNA cloning, and tissue localization.";
+RL   J. Biol. Chem. 270:558-565(1995).
+RN   [6]
+RP   CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RX   PubMed=8798603; DOI=10.1074/jbc.271.39.23768;
+RA   Agarwala K.L., Kawabata S., Miura Y., Kuroki Y., Iwanaga S.;
+RT   "Limulus intracellular coagulation inhibitor type 3. Purification,
+RT   characterization, cDNA cloning, and tissue localization.";
+RL   J. Biol. Chem. 271:23768-23774(1996).
+CC   -!- FUNCTION: This enzyme is closely associated with an endotoxin-sensitive
+CC       hemolymph coagulation system which may play important roles in both
+CC       hemostasis and host defense mechanisms (PubMed:3512266). Its active
+CC       form catalyzes the activation of clotting factor B (PubMed:3512266).
+CC       {ECO:0000269|PubMed:3512266}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Selective cleavage of 103-Arg-|-Ser-104 and 124-Ile-|-Ile-125
+CC         bonds in Limulus clotting factor B to form activated factor B.
+CC         Cleavage of -Pro-Arg-|-Xaa- bonds in synthetic substrates.;
+CC         EC=3.4.21.84; Evidence={ECO:0000269|PubMed:3512266,
+CC         ECO:0000269|PubMed:7822280, ECO:0000269|PubMed:8276848,
+CC         ECO:0000269|PubMed:8798603};
+CC   -!- ACTIVITY REGULATION: Activated by Gram-negative bacterial
+CC       lipopolysaccharides (PubMed:3512266). Inhibited by intracellular
+CC       coagulation inhibitor 1/LICI-1 and to a lesser extent by intracellular
+CC       coagulation inhibitors 2/LICI-2 and 3/LICI-3 (PubMed:8276848,
+CC       PubMed:7822280, PubMed:8798603). Inhibited by the small molecule
+CC       diisopropyl fluorophosphate (DFP) (PubMed:3512266).
+CC       {ECO:0000269|PubMed:3512266, ECO:0000269|PubMed:7822280,
+CC       ECO:0000269|PubMed:8276848, ECO:0000269|PubMed:8798603}.
+CC   -!- SUBUNIT: Heterodimer of a light chain and a heavy chain linked by a
+CC       disulfide bond (PubMed:3308457, PubMed:3512266). Forms a covalent
+CC       heterodimer with intracellular coagulation inhibitor 1/LICI-1
+CC       (PubMed:8276848). Forms a covalent heterodimer with intracellular
+CC       coagulation inhibitor 2/LICI-2 (PubMed:7822280).
+CC       {ECO:0000269|PubMed:3308457, ECO:0000269|PubMed:3512266,
+CC       ECO:0000269|PubMed:7822280, ECO:0000269|PubMed:8276848}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}. Note=Secreted in
+CC       hemolymph (PubMed:2007602). Localizes in large granules of hemocytes
+CC       (PubMed:2007602). {ECO:0000269|PubMed:2007602}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long {ECO:0000303|PubMed:2007602};
+CC         IsoId=P28175-1; Sequence=Displayed;
+CC       Name=Short {ECO:0000303|PubMed:2007602};
+CC         IsoId=P28175-2; Sequence=VSP_005413, VSP_005414;
+CC   -!- TISSUE SPECIFICITY: Expressed in hemocytes (at protein level).
+CC       {ECO:0000269|PubMed:2007602, ECO:0000269|PubMed:3512266}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:3512266}.
+CC   -!- PTM: Lipopolysaccharide (LPS) activates clotting factor C by inducing
+CC       the proteolytic cleavage of the clotting factor C light chain into
+CC       clotting factor C chains A and B (PubMed:3308457, PubMed:3512266).
+CC       Clotting factor C chains heavy, A and B remain associated via
+CC       interchain disulfide bonds (PubMed:3512266).
+CC       {ECO:0000269|PubMed:3308457, ECO:0000269|PubMed:3512266}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D90271; BAA14315.1; -; mRNA.
+DR   EMBL; D90272; BAA14316.1; -; mRNA.
+DR   PIR; A38738; A38738.
+DR   AlphaFoldDB; P28175; -.
+DR   SMR; P28175; -.
+DR   MEROPS; S01.219; -.
+DR   iPTMnet; P28175; -.
+DR   KEGG; ag:BAA14315; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IDA:UniProtKB.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0042381; P:hemolymph coagulation; IDA:UniProtKB.
+DR   GO; GO:0016485; P:protein processing; IDA:UniProtKB.
+DR   CDD; cd00033; CCP; 5.
+DR   CDD; cd00055; EGF_Lam; 1.
+DR   CDD; cd00190; Tryp_SPc; 1.
+DR   Gene3D; 2.170.130.20; -; 1.
+DR   Gene3D; 2.40.10.10; -; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR004043; LCCL.
+DR   InterPro; IPR036609; LCCL_sf.
+DR   InterPro; IPR002049; LE_dom.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR001314; Peptidase_S1A.
+DR   InterPro; IPR035976; Sushi/SCR/CCP_sf.
+DR   InterPro; IPR000436; Sushi_SCR_CCP_dom.
+DR   InterPro; IPR001254; Trypsin_dom.
+DR   InterPro; IPR018114; TRYPSIN_HIS.
+DR   InterPro; IPR033116; TRYPSIN_SER.
+DR   Pfam; PF03815; LCCL; 1.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF00084; Sushi; 5.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   PRINTS; PR00722; CHYMOTRYPSIN.
+DR   SMART; SM00032; CCP; 5.
+DR   SMART; SM00034; CLECT; 1.
+DR   SMART; SM00603; LCCL; 1.
+DR   SMART; SM00020; Tryp_SPc; 1.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   SUPFAM; SSF57535; SSF57535; 5.
+DR   SUPFAM; SSF69848; SSF69848; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+DR   PROSITE; PS00022; EGF_1; 1.
+DR   PROSITE; PS50026; EGF_3; 1.
+DR   PROSITE; PS50820; LCCL; 1.
+DR   PROSITE; PS50923; SUSHI; 5.
+DR   PROSITE; PS50240; TRYPSIN_DOM; 1.
+DR   PROSITE; PS00134; TRYPSIN_HIS; 1.
+DR   PROSITE; PS00135; TRYPSIN_SER; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell adhesion; Direct protein sequencing;
+KW   Disulfide bond; EGF-like domain; Glycoprotein; Hemolymph clotting;
+KW   Hydrolase; Lectin; Protease; Repeat; Secreted; Serine protease; Signal;
+KW   Sushi.
+FT   SIGNAL          1..25
+FT   CHAIN           26..1019
+FT                   /note="Clotting factor C"
+FT                   /id="PRO_0000028435"
+FT   CHAIN           26..690
+FT                   /note="Clotting factor C heavy chain"
+FT                   /id="PRO_0000028436"
+FT   CHAIN           691..1019
+FT                   /note="Clotting factor C light chain"
+FT                   /id="PRO_0000028437"
+FT   CHAIN           691..762
+FT                   /note="Clotting factor C chain A"
+FT                   /evidence="ECO:0000269|PubMed:3308457"
+FT                   /id="PRO_0000028438"
+FT   CHAIN           763..1019
+FT                   /note="Clotting factor C chain B"
+FT                   /evidence="ECO:0000269|PubMed:3308457"
+FT                   /id="PRO_0000028439"
+FT   DOMAIN          102..137
+FT                   /note="EGF-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          140..197
+FT                   /note="Sushi 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          198..256
+FT                   /note="Sushi 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          258..323
+FT                   /note="Sushi 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          325..421
+FT                   /note="LCCL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00123"
+FT   DOMAIN          436..568
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DOMAIN          574..636
+FT                   /note="Sushi 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          689..750
+FT                   /note="Sushi 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DOMAIN          763..1019
+FT                   /note="Peptidase S1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   ACT_SITE        809
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   ACT_SITE        865
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   ACT_SITE        966
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   BINDING         960
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        523
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        534
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        624
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        740
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        767
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:3308457"
+FT   CARBOHYD        912
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        110..118
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        112..125
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        127..136
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        142..182
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        168..195
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        199..241
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        227..254
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        260..308
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        294..321
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        331..350
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00123"
+FT   DISULFID        354..374
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00123"
+FT   DISULFID        464..564
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        538..556
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        576..621
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        607..634
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        720..748
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00302"
+FT   DISULFID        794..810
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        932..951
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        962..996
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   VAR_SEQ         492..498
+FT                   /note="LTTTWIG -> TDNVTAT (in isoform Short)"
+FT                   /evidence="ECO:0000303|PubMed:2007602"
+FT                   /id="VSP_005413"
+FT   VAR_SEQ         499..1019
+FT                   /note="Missing (in isoform Short)"
+FT                   /evidence="ECO:0000303|PubMed:2007602"
+FT                   /id="VSP_005414"
+SQ   SEQUENCE   1019 AA;  112346 MW;  5BC2864C6715289B CRC64;
+     MVLASFLVSG LVLGILAQQM RPVQSRGVDL GLCDETRFEC KCGDPGYVFN VPMKQCTYFY
+     RWRPYCKPCD DLEAKDICPK YKRCQECKAG LDSCVTCPPN KYGTWCSGEC QCKNGGICDQ
+     RTGACTCRDR YEGAHCEILK GCPLLPSDSQ VQEVRNPPDN PQTIDYSCSP GFKLKGVARI
+     SCLPNGQWSS FPPKCIRECA KVSSPEHGKV NAPSGNMIEG ATLRFSCDSP YYLIGQETLT
+     CQGNGQWSGQ IPQCKKLVFC PDLDPVNHAE HQVKIGVEQK YGQFPQGTEV TYTCSGNYFL
+     MGFNTLKCNP DGSWSGSQPS CVKVADREVD CDSKAVDFLD DVGEPVRIHC PAGCSLTAGT
+     VWGTAIYHEL SSVCRAAIHA GKLPNSGGAV HVVNNGPYSD FLGSDLNGIK SEELKSLARS
+     FRFDYVSSST AGRSGCPDGW FEVEENCVYV TSKQRAWERA QGVCTNMAAR LAVLDKDLIP
+     SSLTETLRGK GLTTTWIGLH RLDAEKPFVW ELMDRSNVVL NDNLTFWASG EPGNETNCVY
+     LDIRDQLQPV WKTKSCFQPS SFACMMDLSD RNKAKCDDPG PLENGHATLH GQSIDGFYAG
+     SSIRYSCEVL HYLSGTETVT CTTNGTWSAP KPRCIKVITC QNPPVPSYGS VEIKPPSRTN
+     SISRVGSPFL RLPRLPLPLA RAAKPPPKPR SSQPSTVDLA SKVKLPEGHY RVGSRAIYTC
+     ESRYYELLGS QGRRCDSNGN WSGRPASCIP VCGRSDSPRS PFIWNGNSTE IGQWPWQAGI
+     SRWLADHNMW FLQCGGSLLN EKWIVTAAHC VTYSATAEII DPSQFKIYLG KYYRDDSRDD
+     DYVQVREALE IHVNPNYDPG NLNFDIALIQ LKTPVTLTTR VQPICLPTDI TTREHLKEGT
+     LAVVTGWGLN ENNTYSEMIQ QAVLPVVAAS TCEEGYKEAD LPLTVTENMF CAGYKKGRYD
+     ACSGDSGGPL VFADDSRTER RWVLEGIVSW GSPSGCGKAN QYGGFTKVNV FLSWIRQFI
+//

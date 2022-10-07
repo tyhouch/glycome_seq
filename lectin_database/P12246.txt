@@ -1,0 +1,231 @@
+ID   SAMP_MOUSE              Reviewed;         224 AA.
+AC   P12246;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 2.
+DT   03-AUG-2022, entry version 197.
+DE   RecName: Full=Serum amyloid P-component;
+DE            Short=SAP;
+DE   Flags: Precursor;
+GN   Name=Apcs; Synonyms=Ptx2, Sap;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=3263126; DOI=10.1016/s0006-291x(88)81292-0;
+RA   Nishiguchi S., Maeda S., Araki S., Shimada K.;
+RT   "Structure of the mouse serum amyloid P component gene.";
+RL   Biochem. Biophys. Res. Commun. 155:1366-1373(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CBA/J;
+RX   PubMed=2481440; DOI=10.1042/bj2630025;
+RA   Whitehead A.S., Rits M.;
+RT   "Characterization of the gene encoding mouse serum amyloid P component.
+RT   Comparison with genes encoding other pentraxins.";
+RL   Biochem. J. 263:25-31(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=DBA/2J; TISSUE=Liver;
+RX   PubMed=3183383;
+RA   Mole J.E., Beaulieu B.L., Geheran C.A., Carnazza J.A., Anderson J.K.;
+RT   "Isolation and analysis of murine serum amyloid P component cDNA clones.";
+RL   J. Immunol. 141:3642-3646(1988).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=NZB; TISSUE=Liver;
+RX   PubMed=3658681; DOI=10.1093/nar/15.17.7186;
+RA   Ishikawa N., Shigemoto K., Maruyama N.;
+RT   "The complete nucleotide and deduced amino acid sequence of mouse serum
+RT   amyloid P component.";
+RL   Nucleic Acids Res. 15:7186-7186(1987).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 159-224.
+RC   STRAIN=CBA/J; TISSUE=Liver;
+RX   PubMed=3169883; DOI=10.1007/bf00364241;
+RA   Whitehead A.S., Rits M., Michaelson J.;
+RT   "Molecular genetics of mouse serum amyloid P component (SAP): cloning and
+RT   gene mapping.";
+RL   Immunogenetics 28:388-390(1988).
+RN   [7]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-52.
+RC   STRAIN=C57BL/6J; TISSUE=Plasma;
+RX   PubMed=17330941; DOI=10.1021/pr0604559;
+RA   Bernhard O.K., Kapp E.A., Simpson R.J.;
+RT   "Enhanced analysis of the mouse plasma proteome using cysteine-containing
+RT   tryptic glycopeptides.";
+RL   J. Proteome Res. 6:987-995(2007).
+RN   [8]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brown adipose tissue, Heart, Kidney, Liver, Pancreas, and
+RC   Spleen;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homopentamer. Pentraxin (or pentaxin) have a discoid
+CC       arrangement of 5 non-covalently bound subunits.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DISEASE: Note=SAP is a precursor of amyloid component P which is found
+CC       in basement membrane and associated with amyloid deposits.
+CC   -!- SIMILARITY: Belongs to the pentraxin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M23552; AAA40092.1; -; mRNA.
+DR   EMBL; M29535; AAA40093.1; -; Genomic_DNA.
+DR   EMBL; X16899; CAA34774.1; -; Genomic_DNA.
+DR   EMBL; X14079; CAA32243.1; -; mRNA.
+DR   EMBL; Y00426; CAA68488.1; -; mRNA.
+DR   EMBL; BC061125; AAH61125.1; -; mRNA.
+DR   EMBL; M23248; AAA40091.1; -; mRNA.
+DR   CCDS; CCDS15520.1; -.
+DR   PIR; A30528; A30528.
+DR   RefSeq; NP_035448.2; NM_011318.2.
+DR   AlphaFoldDB; P12246; -.
+DR   SMR; P12246; -.
+DR   BioGRID; 203069; 3.
+DR   IntAct; P12246; 1.
+DR   STRING; 10090.ENSMUSP00000027824; -.
+DR   GlyGen; P12246; 1 site.
+DR   iPTMnet; P12246; -.
+DR   PhosphoSitePlus; P12246; -.
+DR   CPTAC; non-CPTAC-3671; -.
+DR   CPTAC; non-CPTAC-5618; -.
+DR   PaxDb; P12246; -.
+DR   PeptideAtlas; P12246; -.
+DR   PRIDE; P12246; -.
+DR   ProteomicsDB; 260822; -.
+DR   Antibodypedia; 3590; 617 antibodies from 38 providers.
+DR   DNASU; 20219; -.
+DR   Ensembl; ENSMUST00000027824; ENSMUSP00000027824; ENSMUSG00000026542.
+DR   GeneID; 20219; -.
+DR   KEGG; mmu:20219; -.
+DR   UCSC; uc007dqy.2; mouse.
+DR   CTD; 325; -.
+DR   MGI; MGI:98229; Apcs.
+DR   VEuPathDB; HostDB:ENSMUSG00000026542; -.
+DR   eggNOG; ENOG502S201; Eukaryota.
+DR   GeneTree; ENSGT01050000244822; -.
+DR   HOGENOM; CLU_032051_2_0_1; -.
+DR   InParanoid; P12246; -.
+DR   OMA; GFDKSQS; -.
+DR   OrthoDB; 1088298at2759; -.
+DR   PhylomeDB; P12246; -.
+DR   TreeFam; TF330208; -.
+DR   BioGRID-ORCS; 20219; 1 hit in 72 CRISPR screens.
+DR   ChiTaRS; Pitx2; mouse.
+DR   PRO; PR:P12246; -.
+DR   Proteomes; UP000000589; Chromosome 1.
+DR   RNAct; P12246; protein.
+DR   Bgee; ENSMUSG00000026542; Expressed in left lobe of liver and 35 other tissues.
+DR   ExpressionAtlas; P12246; baseline and differential.
+DR   Genevisible; P12246; MM.
+DR   GO; GO:0005615; C:extracellular space; ISO:MGI.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:MGI.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001849; F:complement component C1q complex binding; ISO:MGI.
+DR   GO; GO:0042802; F:identical protein binding; ISO:MGI.
+DR   GO; GO:0046790; F:virion binding; ISO:MGI.
+DR   GO; GO:0045087; P:innate immune response; ISO:MGI.
+DR   GO; GO:0044869; P:negative regulation by host of viral exo-alpha-sialidase activity; ISO:MGI.
+DR   GO; GO:0044871; P:negative regulation by host of viral glycoprotein metabolic process; ISO:MGI.
+DR   GO; GO:1903016; P:negative regulation of exo-alpha-sialidase activity; ISO:MGI.
+DR   GO; GO:1903019; P:negative regulation of glycoprotein metabolic process; ISO:MGI.
+DR   GO; GO:0045656; P:negative regulation of monocyte differentiation; ISO:MGI.
+DR   GO; GO:0046597; P:negative regulation of viral entry into host cell; ISO:MGI.
+DR   GO; GO:0048525; P:negative regulation of viral process; ISO:MGI.
+DR   GO; GO:0065003; P:protein-containing complex assembly; ISO:MGI.
+DR   CDD; cd00152; PTX; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR030476; Pentaxin_CS.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00289; PTX_1; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   1: Evidence at protein level;
+KW   Amyloid; Calcium; Disulfide bond; Glycoprotein; Lectin; Metal-binding;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..20
+FT   CHAIN           21..224
+FT                   /note="Serum amyloid P-component"
+FT                   /id="PRO_0000023542"
+FT   DOMAIN          25..224
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         78
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         79
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         156
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         156
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         157
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         158
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         158
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         168
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        52
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:17330941"
+FT   DISULFID        56..115
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CONFLICT        151
+FT                   /note="I -> V (in Ref. 3; AAA40092/CAA32243)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        154
+FT                   /note="G -> R (in Ref. 4; CAA68488)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   224 AA;  26247 MW;  1CDBC15F45E50DCA CRC64;
+     MDKLLLWMFV FTSLLSEAFC QTDLKRKVFV FPRESETDHV KLIPHLEKPL QNFTLCFRTY
+     SDLSRSQSLF SYSVKGRDNE LLIYKEKVGE YSLYIGQSKV TVRGMEEYLS PVHLCTTWES
+     SSGIVEFWVN GKPWVKKSLQ REYTVKAPPS IVLGQEQDNY GGGFQRSQSF VGEFSDLYMW
+     DYVLTPQDIL FVYRDSPVNP NILNWQALNY EINGYVVIRP RVWD
+//

@@ -1,0 +1,134 @@
+ID   SMP_COTJA               Reviewed;         620 AA.
+AC   Q92154;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 96.
+DE   RecName: Full=Schwann cell myelin protein;
+DE   AltName: Full=Siglec-4b;
+DE   Flags: Precursor;
+GN   Name=SMP;
+OS   Coturnix japonica (Japanese quail) (Coturnix coturnix japonica).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Perdicinae; Coturnix.
+OX   NCBI_TaxID=93934;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 18-28; 120-132; 135-157
+RP   AND 563-571.
+RX   PubMed=1739462; DOI=10.1016/0896-6273(92)90298-r;
+RA   Dulac C., Tropak M.B., Cameron-Curry P., Rossier J., Marshak D.R.,
+RA   Roder J., le Douarin N.M.;
+RT   "Molecular characterization of the Schwann cell myelin protein, SMP:
+RT   structural similarities within the immunoglobulin superfamily.";
+RL   Neuron 8:323-334(1992).
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- TISSUE SPECIFICITY: Exclusively expressed by myelinating and
+CC       nonmyelinating Schwann cells and oligodendrocytes.
+CC   -!- DEVELOPMENTAL STAGE: First synthesized at embryonic day 5, it remains
+CC       expressed by cultured Schwann cells.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. SIGLEC (sialic
+CC       acid binding Ig-like lectin) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S83711; AAB21466.1; -; mRNA.
+DR   PIR; JH0593; JH0593.
+DR   AlphaFoldDB; Q92154; -.
+DR   SMR; Q92154; -.
+DR   Proteomes; UP000694412; Unplaced.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.10; -; 4.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   SMART; SM00409; IG; 3.
+DR   SMART; SM00408; IGc2; 2.
+DR   SUPFAM; SSF48726; SSF48726; 4.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   1: Evidence at protein level;
+KW   Cell adhesion; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Lectin; Membrane; Reference proteome; Repeat;
+KW   Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000269|PubMed:1739462"
+FT   CHAIN           18..620
+FT                   /note="Schwann cell myelin protein"
+FT                   /id="PRO_0000014967"
+FT   TOPO_DOM        18..516
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        517..536
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        537..620
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          28..106
+FT                   /note="Ig-like V-type"
+FT   DOMAIN          151..233
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          239..322
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          325..407
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          414..495
+FT                   /note="Ig-like C2-type 4"
+FT   REGION          539..562
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          583..620
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         117
+FT                   /ligand="N-acetylneuraminate"
+FT                   /ligand_id="ChEBI:CHEBI:35418"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        222
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        314
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        331
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        405
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        449
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        35..164
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        40..99
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        158..216
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        260..304
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        346..391
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        420..429
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        431..488
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+SQ   SEQUENCE   620 AA;  66943 MW;  004B3EC7EDC18FBA CRC64;
+     MELLVLTVLL MGTGCISAPW AAWMPPKMAA LSGTCVQLPC RFDYPEELRP ASIGGLWYFG
+     SPYPKNYPPV VARSRPSSAV HESFAGRASF LGDPTGRDCT LNIARLSEEL AGKYYFRGDL
+     GGYNQYSFSE HAELDVWAAP HLEVPHELVA GSEAEILCRV PDNCPPLRPL LTWTGTEELL
+     DPIGKERIED DLGSKSLLGS LRFRPRKEDL GRRVGCGVTF INSSLSFQAD VGLDVQYEPQ
+     VVGLWGPTEV VEGSDVELGC EAEGRPAPLI SWFRGSEVLR EEPGRNLRLL LSNVGPDDGG
+     SFSCVAENRH GRHNRSLQLR VAYAPRAPVI NGSLWVVSGD PVSVTCRAES EPAAILTVLR
+     GGKVMAAAIY EDHVTMEMRP ARPEDGGTYS CVAENQHGAS STSFNISVEY PPLVLPASRC
+     TAGGDGVRCV CMVNSIPDSS LVFELPTRNQ TVSDGHRDFT AAPPGSDGSI TGILTLRGPL
+     EPRLLVLCAA RNRHGTTARQ LRFHHPGGLV WAKVGPVGAV VAFAIVIAVV CYLSQSRRKK
+     GAGSPEVTPV QPMAGPGGDP DLDLRPQQVR WLRGAMERWA LGVKEGSGAP QEVTPTSHPP
+     MKPTRGPLED PPEYAEIRVK
+//

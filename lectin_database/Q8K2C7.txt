@@ -1,0 +1,256 @@
+ID   OS9_MOUSE               Reviewed;         672 AA.
+AC   Q8K2C7;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   13-OCT-2009, sequence version 2.
+DT   03-AUG-2022, entry version 134.
+DE   RecName: Full=Protein OS-9;
+DE   Flags: Precursor;
+GN   Name=Os9;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   STRAIN=FVB/N; TISSUE=Mammary tumor;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   INTERACTION WITH CPNE6.
+RX   PubMed=10403379; DOI=10.1016/s0014-5793(99)00700-0;
+RA   Nakayama T., Yaoi T., Kuwajima G., Yoshie O., Sakata T.;
+RT   "Ca2(+)-dependent interaction of N-copine, a member of the two C2 domain
+RT   protein family, with OS-9, the product of a gene frequently amplified in
+RT   osteosarcoma.";
+RL   FEBS Lett. 453:77-80(1999).
+RN   [4]
+RP   GLYCOSYLATION.
+RX   PubMed=19084021; DOI=10.1016/j.jmb.2008.11.045;
+RA   Alcock F., Swanton E.;
+RT   "Mammalian OS-9 is upregulated in response to endoplasmic reticulum stress
+RT   and facilitates ubiquitination of misfolded glycoproteins.";
+RL   J. Mol. Biol. 385:1032-1042(2009).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver, Lung, Pancreas, Spleen, and Testis;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: Lectin which functions in endoplasmic reticulum (ER) quality
+CC       control and ER-associated degradation (ERAD). May bind terminally
+CC       misfolded non-glycosylated proteins as well as improperly folded
+CC       glycoproteins, retain them in the ER, and possibly transfer them to the
+CC       ubiquitination machinery and promote their degradation. Possible
+CC       targets include TRPV4 (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts (via C-terminus) with CPNE6 (via second C2 domain);
+CC       this interaction occurs in a calcium-dependent manner in vitro
+CC       (PubMed:10403379). Component of the HRD1 complex, which comprises at
+CC       least SYNV1/HRD1, DERL1/2, FAM8A1, HERPUD1/HERP, OS9, SEL1L and UBE2J1.
+CC       FAM8A1 is stabilized by interaction with SYNV1, which prevents its
+CC       proteasomal degradation. OS9 and UBE2J1 recruitment to the complex may
+CC       be mediated by SEL1L (By similarity). Through this complex, may
+CC       interact with ERLEC1 and HSPA5 (By similarity). Interacts with HSP90B1
+CC       (By similarity). Interacts with CREB3 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q13438, ECO:0000269|PubMed:10403379}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q8K2C7-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8K2C7-2; Sequence=VSP_038220;
+CC   -!- PTM: Intramolecular disulfide bonds. {ECO:0000250}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:19084021}.
+CC   -!- SIMILARITY: Belongs to the OS-9 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC131760; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC031768; AAH31768.1; -; mRNA.
+DR   CCDS; CCDS24229.1; -. [Q8K2C7-2]
+DR   CCDS; CCDS48713.1; -. [Q8K2C7-1]
+DR   RefSeq; NP_001164497.1; NM_001171026.1. [Q8K2C7-1]
+DR   RefSeq; NP_808282.2; NM_177614.3. [Q8K2C7-2]
+DR   AlphaFoldDB; Q8K2C7; -.
+DR   SMR; Q8K2C7; -.
+DR   BioGRID; 229745; 15.
+DR   STRING; 10090.ENSMUSP00000128914; -.
+DR   GlyConnect; 2640; 5 N-Linked glycans (1 site).
+DR   GlyGen; Q8K2C7; 1 site, 5 N-linked glycans (1 site).
+DR   iPTMnet; Q8K2C7; -.
+DR   PhosphoSitePlus; Q8K2C7; -.
+DR   EPD; Q8K2C7; -.
+DR   jPOST; Q8K2C7; -.
+DR   MaxQB; Q8K2C7; -.
+DR   PaxDb; Q8K2C7; -.
+DR   PeptideAtlas; Q8K2C7; -.
+DR   PRIDE; Q8K2C7; -.
+DR   ProteomicsDB; 294110; -. [Q8K2C7-1]
+DR   ProteomicsDB; 294111; -. [Q8K2C7-2]
+DR   Antibodypedia; 2459; 289 antibodies from 29 providers.
+DR   DNASU; 216440; -.
+DR   Ensembl; ENSMUST00000080975; ENSMUSP00000079770; ENSMUSG00000040462. [Q8K2C7-2]
+DR   Ensembl; ENSMUST00000164259; ENSMUSP00000128914; ENSMUSG00000040462. [Q8K2C7-1]
+DR   GeneID; 216440; -.
+DR   KEGG; mmu:216440; -.
+DR   UCSC; uc007hhz.2; mouse. [Q8K2C7-2]
+DR   UCSC; uc007hia.2; mouse. [Q8K2C7-1]
+DR   CTD; 10956; -.
+DR   MGI; MGI:1924301; Os9.
+DR   VEuPathDB; HostDB:ENSMUSG00000040462; -.
+DR   eggNOG; KOG3394; Eukaryota.
+DR   GeneTree; ENSGT00530000063603; -.
+DR   HOGENOM; CLU_026715_0_0_1; -.
+DR   InParanoid; Q8K2C7; -.
+DR   OMA; WLKRLYV; -.
+DR   OrthoDB; 1475416at2759; -.
+DR   PhylomeDB; Q8K2C7; -.
+DR   TreeFam; TF314309; -.
+DR   Reactome; R-MMU-382556; ABC-family proteins mediated transport.
+DR   Reactome; R-MMU-5358346; Hedgehog ligand biogenesis.
+DR   BioGRID-ORCS; 216440; 0 hits in 72 CRISPR screens.
+DR   ChiTaRS; Os9; mouse.
+DR   PRO; PR:Q8K2C7; -.
+DR   Proteomes; UP000000589; Chromosome 10.
+DR   RNAct; Q8K2C7; protein.
+DR   Bgee; ENSMUSG00000040462; Expressed in lacrimal gland and 274 other tissues.
+DR   ExpressionAtlas; Q8K2C7; baseline and differential.
+DR   Genevisible; Q8K2C7; MM.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:MGI.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0002020; F:protease binding; ISO:MGI.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; IEA:InterPro.
+DR   GO; GO:1904153; P:negative regulation of retrograde protein transport, ER to cytosol; ISO:MGI.
+DR   GO; GO:0006621; P:protein retention in ER lumen; ISS:UniProtKB.
+DR   GO; GO:0006605; P:protein targeting; ISO:MGI.
+DR   GO; GO:0016567; P:protein ubiquitination; ISS:UniProtKB.
+DR   GO; GO:0034976; P:response to endoplasmic reticulum stress; ISS:UniProtKB.
+DR   GO; GO:0030970; P:retrograde protein transport, ER to cytosol; IBA:GO_Central.
+DR   GO; GO:0030433; P:ubiquitin-dependent ERAD pathway; ISS:UniProtKB.
+DR   GO; GO:0006511; P:ubiquitin-dependent protein catabolic process; ISS:UniProtKB.
+DR   Gene3D; 2.70.130.10; -; 1.
+DR   InterPro; IPR009011; Man6P_isomerase_rcpt-bd_dom_sf.
+DR   InterPro; IPR044865; MRH_dom.
+DR   InterPro; IPR045149; OS-9-like.
+DR   InterPro; IPR012913; OS9-like_dom.
+DR   PANTHER; PTHR15414; PTHR15414; 1.
+DR   Pfam; PF07915; PRKCSH; 1.
+DR   SUPFAM; SSF50911; SSF50911; 1.
+DR   PROSITE; PS51914; MRH; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Disulfide bond; Endoplasmic reticulum; Glycoprotein;
+KW   Lectin; Reference proteome; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..672
+FT                   /note="Protein OS-9"
+FT                   /id="PRO_0000386449"
+FT   DOMAIN          108..230
+FT                   /note="MRH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   REGION          261..355
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          372..452
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          511..548
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          637..672
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        263..278
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        297..313
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        372..412
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        413..439
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         117
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         118
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         130
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         182
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         188
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         212
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   BINDING         218
+FT                   /ligand="a mannooligosaccharide derivative"
+FT                   /ligand_id="ChEBI:CHEBI:71274"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13438"
+FT   CARBOHYD        177
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        110..123
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        181..216
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   DISULFID        196..228
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01262"
+FT   VAR_SEQ         539..593
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_038220"
+FT   CONFLICT        407
+FT                   /note="D -> G (in Ref. 2; AAH31768)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        453
+FT                   /note="N -> D (in Ref. 2; AAH31768)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   672 AA;  76108 MW;  7320981E721A9686 CRC64;
+     MAAEVLLSSL LGLLFLGLLL PARLTGGVGS LNLEELSEMR YGIQILPLPV MGGQSQASDV
+     VVVSSKYKQR YECRLPAGAI HFQREREEET PAYQGPGIPE LLSPMRDAPC LLKTKDWWTY
+     EFCYGRHIQQ YHMEDSEIKG DVLYLGHYQS SFNWDDETAK ASKQHRLKRY HSQTYGNGSK
+     CDLNGKPREA EVRFLCDEGA GISGDYIDRV DEPVSCSYVL TIRTSRLCPH PLLRPPASAA
+     PQAILCHPAL QPDEYMAYLQ RQAESKQHEE KTTEEVQDTD RQVWSGSKAA GAPPKKEDVS
+     PAKEEKESEL WKLQGPEEQA AAREEAQAGE QDLNHEAAAD PAPSPPNDFQ NNVQVKLIRS
+     PADLIRLIEE LKAAEKGKPS VRREQPGDDT TEAPQREAEG TKAKGKDGEP PGLMEEEDGD
+     DEEEEEEEEE DEEEQQLLGE FEKELEGMLL PSNRERLRSE VKAGMERELE NIIQETEKEL
+     DPEGLRKESE REQAILALTS TLDKLIKRLQ ENQSPELVQK YKKRRVVPQK PPPSPHPTEE
+     EPEHRVRVRV TKLRPGGPNR DLTVLEMNRE NPQLKQIEGL VTEVLEREGL TAEGKIEIKI
+     VRPGAEGKEE DTRWLTDEDT RNLKEIFFNI LVQGAEEANK ERQRQSELES NYRRVWGSPG
+     GEDTGDLDEF DF
+//

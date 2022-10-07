@@ -1,0 +1,231 @@
+ID   VP1_POVBK               Reviewed;         362 AA.
+AC   P03088; Q84322;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   29-SEP-2021, entry version 118.
+DE   RecName: Full=Major capsid protein VP1;
+DE   AltName: Full=Major structural protein VP1;
+OS   BK polyomavirus (BKPyV) (Human polyomavirus 1).
+OC   Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Papovaviricetes;
+OC   Sepolyvirales; Polyomaviridae; Betapolyomavirus.
+OX   NCBI_TaxID=1891762;
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Dunlop;
+RX   PubMed=229976; DOI=10.1016/0092-8674(79)90209-5;
+RA   Seif I., Khoury G., Dhar R.;
+RT   "The genome of human papovavirus BKV.";
+RL   Cell 18:963-977(1979).
+RN   [2]
+RP   ERRATUM OF PUBMED:229976, AND SEQUENCE REVISION TO 158 AND 171.
+RA   Seif I., Khoury G., Dhar R.;
+RL   Cell 19:567-567(1980).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=MM;
+RX   PubMed=228391; DOI=10.1126/science.228391;
+RA   Yang R.C.A., Wu R.;
+RT   "BK virus DNA: complete nucleotide sequence of a human tumor virus.";
+RL   Science 206:456-462(1979).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=16415013; DOI=10.1128/jvi.80.3.1361-1366.2006;
+RA   Low J.A., Magnuson B., Tsai B., Imperiale M.J.;
+RT   "Identification of gangliosides GD1b and GT1b as receptors for BK virus.";
+RL   J. Virol. 80:1361-1366(2006).
+RN   [5]
+RP   FUNCTION.
+RX   PubMed=15479799; DOI=10.1128/jvi.78.21.11583-11590.2004;
+RA   Eash S., Querbes W., Atwood W.J.;
+RT   "Infection of vero cells by BK virus is dependent on caveolae.";
+RL   J. Virol. 78:11583-11590(2004).
+RN   [6]
+RP   REVIEW.
+RX   PubMed=19157478; DOI=10.1016/j.virol.2008.12.021;
+RA   Neu U., Stehle T., Atwood W.J.;
+RT   "The Polyomaviridae: Contributions of virus structure to our understanding
+RT   of virus receptors and infectious entry.";
+RL   Virology 384:389-399(2009).
+CC   -!- FUNCTION: Forms an icosahedral capsid with a T=7 symmetry and a 50 nm
+CC       diameter. The capsid is composed of 72 pentamers linked to each other
+CC       by disulfide bonds and associated with VP2 or VP3 proteins. Interacts
+CC       with gangliosides GT1b and GD1b containing terminal alpha(2-8)-linked
+CC       sialic acids on the cell surface to provide virion attachment to target
+CC       cell. This attachment induces virion internalization predominantly
+CC       through caveolin-mediated endocytosis and traffics to the endoplasmic
+CC       reticulum. Inside the endoplasmic reticulum, the protein folding
+CC       machinery isomerizes VP1 interpentamer disulfide bonds, thereby
+CC       triggering initial uncoating. Next, the virion uses the endoplasmic
+CC       reticulum-associated degradation machinery to probably translocate in
+CC       the cytosol before reaching the nucleus. Nuclear entry of the viral DNA
+CC       involves the selective exposure and importin recognition of VP2/Vp3
+CC       nuclear localization signal. In late phase of infection, neo-
+CC       synthesized VP1 encapsulates replicated genomic DNA in the nucleus, and
+CC       participates in rearranging nucleosomes around the viral DNA.
+CC       {ECO:0000250|UniProtKB:P03087, ECO:0000269|PubMed:15479799,
+CC       ECO:0000269|PubMed:16415013, ECO:0000305|PubMed:19157478}.
+CC   -!- SUBUNIT: Homomultimer; disulfide-linked. The virus capsid is composed
+CC       of 72 icosahedral units, each one composed of five disulfide-linked
+CC       copies of VP1. Interacts with minor capsid proteins VP2 and VP3.
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- SUBCELLULAR LOCATION: Virion. Host nucleus
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing, Alternative initiation; Named isoforms=5;
+CC       Name=VP1; Synonyms=Major capsid protein VP1;
+CC         IsoId=P03088-1; Sequence=Displayed;
+CC       Name=VP2; Synonyms=Minor capsid protein VP2;
+CC         IsoId=P03094-1; Sequence=External;
+CC       Name=VP3; Synonyms=Minor capsid protein VP3;
+CC         IsoId=P03094-2; Sequence=External;
+CC       Name=VP4; Synonyms=Viroporin VP4;
+CC         IsoId=P03094-3; Sequence=External;
+CC       Name=Agno;
+CC         IsoId=P03085-1; Sequence=External;
+CC   -!- DOMAIN: A DNA-binding domain overlapping a bipartite nuclear
+CC       localization signal is present in the N-terminal region of the protein
+CC       and is required for efficient virus formation.
+CC       {ECO:0000250|UniProtKB:P03087}.
+CC   -!- MISCELLANEOUS: [Isoform VP1]: Produced by alternative splicing of the
+CC       late mRNA.
+CC   -!- SIMILARITY: Belongs to the polyomaviruses coat protein VP1 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; V01108; CAA24299.1; -; Genomic_DNA.
+DR   EMBL; V01109; CAA24307.1; -; Genomic_DNA.
+DR   PIR; E03632; VVVP1B.
+DR   RefSeq; YP_717939.1; NC_001538.1. [P03088-1]
+DR   PDB; 4MJ0; X-ray; 1.70 A; A/B/C/D/E=31-301.
+DR   PDB; 4MJ1; X-ray; 2.00 A; A/B/C/D/E=31-301.
+DR   PDB; 5FUA; EM; 7.60 A; 1/2/3/4/5/6=1-362.
+DR   PDB; 6ESB; EM; 3.40 A; 1/2/3/4/5/6=2-362.
+DR   PDB; 6GG0; EM; 4.24 A; 1/2/3/4/5/6=1-362.
+DR   PDBsum; 4MJ0; -.
+DR   PDBsum; 4MJ1; -.
+DR   PDBsum; 5FUA; -.
+DR   PDBsum; 6ESB; -.
+DR   PDBsum; 6GG0; -.
+DR   SMR; P03088; -.
+DR   UniLectin; P03088; -.
+DR   ABCD; P03088; 1 sequenced antibody.
+DR   DNASU; 29031008; -.
+DR   GeneID; 29031008; -.
+DR   KEGG; vg:29031008; -.
+DR   Proteomes; UP000008475; Genome.
+DR   Proteomes; UP000008990; Genome.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0039620; C:T=7 icosahedral viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0075513; P:caveolin-mediated endocytosis of virus by host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.175.10; -; 1.
+DR   InterPro; IPR000662; Capsid_VP1_Polyomavir.
+DR   InterPro; IPR011222; dsDNA_vir_gr_I_capsid.
+DR   InterPro; IPR036931; Polyomavir_VP1_sf.
+DR   Pfam; PF00718; Polyoma_coat; 1.
+DR   PIRSF; PIRSF003376; Capsid_VP1_Polyomavir; 1.
+DR   SUPFAM; SSF88648; SSF88648; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative initiation; Alternative splicing; Capsid protein;
+KW   Caveolin-mediated endocytosis of virus by host; Disulfide bond;
+KW   Host nucleus; Host-virus interaction; Late protein; Phosphoprotein;
+KW   T=7 icosahedral capsid protein; Viral attachment to host cell;
+KW   Viral penetration into host cytoplasm; Virion; Virus endocytosis by host;
+KW   Virus entry into host cell.
+FT   CHAIN           1..362
+FT                   /note="Major capsid protein VP1"
+FT                   /id="PRO_0000115018"
+FT   REGION          1..21
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           5..19
+FT                   /note="Bipartite nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:P03087"
+FT   MOD_RES         338
+FT                   /note="Phosphothreonine; by host"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        10
+FT                   /note="Interchain (with C-10)"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        105
+FT                   /note="Interchain (with C-105)"
+FT                   /evidence="ECO:0000250"
+FT   VARIANT         158
+FT                   /note="E -> D (in strain: MM)"
+FT   VARIANT         171
+FT                   /note="S -> T (in strain: MM)"
+FT   VARIANT         219
+FT                   /note="A -> T (in strain: MM)"
+FT   VARIANT         301
+FT                   /note="P -> L (in strain: MM)"
+FT   STRAND          34..39
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          45..52
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   HELIX           76..78
+FT                   /evidence="ECO:0007829|PDB:4MJ1"
+FT   HELIX           83..85
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          90..95
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          105..107
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          109..121
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   HELIX           123..127
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          130..133
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          135..137
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          149..158
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          161..164
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          175..177
+FT                   /evidence="ECO:0007829|PDB:6ESB"
+FT   HELIX           185..188
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          195..197
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   TURN            201..203
+FT                   /evidence="ECO:0007829|PDB:4MJ1"
+FT   HELIX           206..208
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          209..211
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   TURN            213..215
+FT                   /evidence="ECO:0007829|PDB:6ESB"
+FT   STRAND          219..226
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          234..238
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   HELIX           256..258
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          259..273
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          278..282
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          284..297
+FT                   /evidence="ECO:0007829|PDB:4MJ0"
+FT   STRAND          299..302
+FT                   /evidence="ECO:0007829|PDB:6ESB"
+FT   STRAND          309..313
+FT                   /evidence="ECO:0007829|PDB:6ESB"
+FT   STRAND          348..351
+FT                   /evidence="ECO:0007829|PDB:6ESB"
+FT   STRAND          353..359
+FT                   /evidence="ECO:0007829|PDB:6ESB"
+SQ   SEQUENCE   362 AA;  40109 MW;  DB2C67C22B174698 CRC64;
+     MAPTKRKGEC PGAAPKKPKE PVQVPKLLIK GGVEVLEVKT GVDAITEVEC FLNPEMGDPD
+     ENLRGFSLKL SAENDFSSDS PERKMLPCYS TARIPLPNLN EDLTCGNLLM WEAVTVQTEV
+     IGITSMLNLH AGSQKVHEHG GGKPIQGSNF HFFAVGGEPL EMQGVLMNYR SKYPDGTITP
+     KNPTAQSQVM NTDHKAYLDK NNAYPVECWV PDPSRNENAR YFGTFTGGEN VPPVLHVTNT
+     ATTVLLDEQG VGPLCKADSL YVSAADICGL FTNSSGTQQW RGLARYFKIR LRKRSVKNPY
+     PISFLLSDLI NRRTQRVDGQ PMYGMESQVE EVRVFDGTER LPGDPDMIRY IDKQGQLQTK
+     ML
+//

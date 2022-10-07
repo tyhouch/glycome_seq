@@ -1,0 +1,163 @@
+ID   AHV_ACTSK               Reviewed;         160 AA.
+AC   Q9KWN0;
+DT   15-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   25-MAY-2022, entry version 79.
+DE   RecName: Full=Actinohivin;
+DE   Flags: Precursor;
+GN   Name=ath;
+OS   Actinomycete sp. (strain K97-0003).
+OC   Bacteria; Actinobacteria; Actinomycetales.
+OX   NCBI_TaxID=237531 {ECO:0000305};
+RN   [1] {ECO:0000312|EMBL:BAA97578.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=11243871; DOI=10.1006/bbrc.2001.4496;
+RA   Inokoshi J., Chiba H., Asanuma S., Takahashi A., Omura S., Tanaka H.;
+RT   "Molecular cloning of actinohivin, a novel anti-HIV protein from an
+RT   actinomycete, and its expression in Escherichia coli.";
+RL   Biochem. Biophys. Res. Commun. 281:1261-1265(2001).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 47-160, FUNCTION, AND MASS SPECTROMETRY.
+RX   PubMed=11401502; DOI=10.1006/bbrc.2001.4495;
+RA   Chiba H., Inokoshi J., Okamoto M., Asanuma S., Matsuzaki K., Iwama M.,
+RA   Mizumoto K., Tanaka H., Oheda M., Fujita K., Nakashima H., Shinose M.,
+RA   Takahashi Y., Omura S.;
+RT   "Actinohivin, a novel anti-HIV protein from an actinomycete that inhibits
+RT   syncytium formation: isolation, characterization, and biological
+RT   activities.";
+RL   Biochem. Biophys. Res. Commun. 282:595-601(2001).
+RN   [3]
+RP   INTERACTION WITH HIV-1 GP120 AND SIV GP130.
+RX   PubMed=15003531; DOI=10.1016/j.bbrc.2004.02.036;
+RA   Chiba H., Inokoshi J., Nakashima H., Omura S., Tanaka H.;
+RT   "Actinohivin, a novel anti-human immunodeficiency virus protein from an
+RT   actinomycete, inhibits viral entry to cells by binding high-mannose type
+RT   sugar chains of gp120.";
+RL   Biochem. Biophys. Res. Commun. 316:203-210(2004).
+RN   [4]
+RP   MUTAGENESIS OF ILE-51; GLN-79; GLN-117 AND GLN-155.
+RX   PubMed=15850563; DOI=10.1016/j.abb.2005.03.017;
+RA   Takahashi A., Inokoshi J., Chiba H., Omura S., Tanaka H.;
+RT   "Essential regions for antiviral activities of actinohivin, a sugar-binding
+RT   anti-human immunodeficiency virus protein from an actinomycete.";
+RL   Arch. Biochem. Biophys. 437:233-240(2005).
+CC   -!- SUBUNIT: Interacts with HIV gp120 and SIV gp130.
+CC       {ECO:0000269|PubMed:15003531}.
+CC   -!- INTERACTION:
+CC       Q9KWN0; Q75760: env; Xeno; NbExp=2; IntAct=EBI-8453511, EBI-8453491;
+CC   -!- MASS SPECTROMETRY: Mass=12520.3; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:11401502};
+CC   -!- MISCELLANEOUS: Anti-HIV protein that inhibits virus membrane fusion.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB032371; BAA97578.1; -; Genomic_DNA.
+DR   PIR; JC7622; JC7622.
+DR   PDB; 3A07; X-ray; 1.19 A; A/B=43-160.
+DR   PDB; 4DEN; X-ray; 1.60 A; A=47-160.
+DR   PDB; 4END; X-ray; 1.90 A; A=47-160.
+DR   PDB; 4G1R; X-ray; 1.57 A; A/C=47-160.
+DR   PDB; 4P6A; X-ray; 1.40 A; A=47-160.
+DR   PDBsum; 3A07; -.
+DR   PDBsum; 4DEN; -.
+DR   PDBsum; 4END; -.
+DR   PDBsum; 4G1R; -.
+DR   PDBsum; 4P6A; -.
+DR   AlphaFoldDB; Q9KWN0; -.
+DR   SMR; Q9KWN0; -.
+DR   IntAct; Q9KWN0; 1.
+DR   MINT; Q9KWN0; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   UniLectin; Q9KWN0; -.
+DR   EvolutionaryTrace; Q9KWN0; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050688; P:regulation of defense response to virus; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 1.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SMART; SM00458; RICIN; 1.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antiviral protein; Direct protein sequencing; Lectin; Repeat;
+KW   Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          27..46
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:11243871,
+FT                   ECO:0000269|PubMed:11401502"
+FT                   /id="PRO_0000020653"
+FT   CHAIN           47..160
+FT                   /note="Actinohivin"
+FT                   /id="PRO_0000020654"
+FT   DOMAIN          45..160
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          47..84
+FT                   /note="1"
+FT                   /evidence="ECO:0000303|PubMed:11401502"
+FT   REPEAT          85..122
+FT                   /note="2"
+FT                   /evidence="ECO:0000303|PubMed:11401502"
+FT   REPEAT          123..160
+FT                   /note="3"
+FT                   /evidence="ECO:0000303|PubMed:11401502"
+FT   REGION          47..160
+FT                   /note="3 X 38 AA tandem repeats"
+FT   MUTAGEN         51
+FT                   /note="I->A: Partial loss of HIV fusion inhibition."
+FT                   /evidence="ECO:0000269|PubMed:15850563"
+FT   MUTAGEN         79
+FT                   /note="Q->A: Partial loss of HIV fusion inhibition."
+FT                   /evidence="ECO:0000269|PubMed:15850563"
+FT   MUTAGEN         117
+FT                   /note="Q->A: Partial loss of HIV fusion inhibition."
+FT                   /evidence="ECO:0000269|PubMed:15850563"
+FT   MUTAGEN         155
+FT                   /note="Q->A: Complete loss of HIV fusion inhibition."
+FT                   /evidence="ECO:0000269|PubMed:15850563"
+FT   STRAND          46..49
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          51..53
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   TURN            54..56
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          59..62
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          68..71
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   HELIX           77..79
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          81..83
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          85..87
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   TURN            92..94
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          97..100
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          105..109
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   HELIX           115..117
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          119..121
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          127..129
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   TURN            130..132
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          135..138
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          144..147
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   HELIX           153..155
+FT                   /evidence="ECO:0007829|PDB:3A07"
+FT   STRAND          157..159
+FT                   /evidence="ECO:0007829|PDB:3A07"
+SQ   SEQUENCE   160 AA;  16870 MW;  37F269BD16106240 CRC64;
+     MNTLTKLTIG AVALTGSFLA AAPASAAPAA DTTASPALGS QVSAQFASVT IRNAQTGRLL
+     DSNYNGNVYT LPANGGNYQR WTGPGDGTVR NAQTGRCLDS NYDGAVYTLP CNGGSYQKWL
+     FYSNGYIQNV ETGRVLDSNY NGNVYTLPAN GGNYQKWYTG
+//

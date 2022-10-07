@@ -1,0 +1,130 @@
+ID   LECR_PEA                Reviewed;         270 AA.
+AC   Q40987;
+DT   11-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   25-MAY-2022, entry version 93.
+DE   RecName: Full=Nodule lectin;
+DE   AltName: Full=PsNlec-1;
+DE   Flags: Precursor;
+GN   Name=NLEC1;
+OS   Pisum sativum (Garden pea).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; Hologalegina; IRL clade; Fabeae; Pisum.
+OX   NCBI_TaxID=3888;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAC49367.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 42-56, TISSUE SPECIFICITY,
+RP   DEVELOPMENTAL STAGE, AND GLYCOSYLATION.
+RC   STRAIN=cv. Wisconsin Perfection {ECO:0000312|EMBL:AAC49367.1};
+RC   TISSUE=Root nodule {ECO:0000312|EMBL:AAC49367.1};
+RX   PubMed=8685275; DOI=10.1104/pp.111.1.49;
+RA   Kardailsky I.V., Sherrier D.J., Brewin N.J.;
+RT   "Identification of a new pea gene, PsNlec1, encoding a lectin-like
+RT   glycoprotein isolated from the symbiosomes of root nodules.";
+RL   Plant Physiol. 111:49-60(1996).
+RN   [2] {ECO:0000305}
+RP   PARTIAL PROTEIN SEQUENCE, SUBCELLULAR LOCATION, AND GLYCOSYLATION.
+RX   PubMed=9414555; DOI=10.1104/pp.115.4.1431;
+RA   Dahiya P., Kardailsky I.V., Brewin N.J.;
+RT   "Immunolocalization of PsNLEC-1, a lectin-like glycoprotein expressed in
+RT   developing pea nodules.";
+RL   Plant Physiol. 115:1431-1442(1997).
+RN   [3] {ECO:0000305}
+RP   TISSUE SPECIFICITY, AND INDUCTION.
+RA   Balestrini B., Perotto N., Gasverde E., Dahiya P., Guldmann L.-L.,
+RA   Brewin N.J., Bonfante P.;
+RT   "Transcription of a gene encoding a lectin-like glycoprotein is induced in
+RT   root cells harboring arbuscular mycorrhizal fungi in Pisum sativum.";
+RL   Mol. Plant Microbe Interact. 12:785-791(1999).
+RN   [4] {ECO:0000305}
+RP   FUNCTION, AND GLYCOSYLATION.
+RX   PubMed=11332730; DOI=10.1094/mpmi.2001.14.5.663;
+RA   Bolanos L., Cebrian A., Redondo-Nieto M., Rivilla R., Bonilla I.;
+RT   "Lectin-like glycoprotein PsNLEC-1 is not correctly glycosylated and
+RT   targeted in boron-deficient pea nodules.";
+RL   Mol. Plant Microbe Interact. 14:663-670(2001).
+RN   [5] {ECO:0000305}
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND SUBCELLULAR LOCATION.
+RX   PubMed=11921448;
+RX   DOI=10.1002/1615-9861(200203)2:3<325::aid-prot325>3.0.co;2-w;
+RA   Saalbach G., Erik P., Wienkoop S.;
+RT   "Characterisation by proteomics of peribacteroid space and peribacteroid
+RT   membrane preparations from pea (Pisum sativum) symbiosomes.";
+RL   Proteomics 2:325-337(2002).
+RN   [6] {ECO:0000305}
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=14964535; DOI=10.1094/mpmi.2004.17.2.216;
+RA   Bolanos L., Redondo-Nieto M., Rivilla R., Brewin N.J., Bonilla I.;
+RT   "Cell surface interactions of Rhizobium bacteroids and other bacterial
+RT   strains with symbiosomal and peribacteroid membrane components from pea
+RT   nodules.";
+RL   Mol. Plant Microbe Interact. 17:216-223(2004).
+CC   -!- FUNCTION: Involved in symbiosome development.
+CC       {ECO:0000269|PubMed:11332730}.
+CC   -!- SUBCELLULAR LOCATION: Symbiosome, peribacteroid space. Symbiosome,
+CC       peribacteroid membrane. Note=Also associates directly or indirectly
+CC       with the cell surface of Rhizobium bacteroids within the symbiosome.
+CC       Glycosylation variants NLEC-1A and NLEC-1B are abundant in the
+CC       peribacterial space while NLEC-1C is probably cytoplasmic.
+CC   -!- TISSUE SPECIFICITY: Expressed in nodules of Rhizobium-infected and
+CC       uninfected roots and in the root stele near the nodule attachment
+CC       point. In roots which have been colonized by the endomycorrhizal fungus
+CC       G.versiforme, detected only in cortical cells colonized by the fungus,
+CC       mainly those containing arbuscules. {ECO:0000269|PubMed:8685275,
+CC       ECO:0000269|Ref.3}.
+CC   -!- DEVELOPMENTAL STAGE: Expression increases gradually as nodules develop
+CC       and then remains constant from 4 weeks to 2 months. Expressed at lower
+CC       levels in senescing and non-fixing nodules.
+CC       {ECO:0000269|PubMed:8685275}.
+CC   -!- INDUCTION: By infection with the endomycorrhizal fungus G.versiforme.
+CC       {ECO:0000269|Ref.3}.
+CC   -!- PTM: Glycosylated in a boron-dependent manner. Glycosylation is
+CC       required for localization to symbiosomes. 3 different glycosylation
+CC       variants, NLEC-1A, NLEC-1B and NLEC-1C, have been identified.
+CC       {ECO:0000269|PubMed:11332730, ECO:0000269|PubMed:8685275,
+CC       ECO:0000269|PubMed:9414555}.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U31981; AAC49367.1; -; mRNA.
+DR   PIR; T06528; T06528.
+DR   AlphaFoldDB; Q40987; -.
+DR   SMR; Q40987; -.
+DR   GO; GO:0043662; C:peribacteroid fluid; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043661; C:peribacteroid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044403; P:biological process involved in symbiotic interaction; NAS:UniProtKB.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR016363; L-lectin.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   PIRSF; PIRSF002690; L-type_lectin_plant; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Lectin; Membrane; Signal.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          34..41
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:8685275"
+FT                   /id="PRO_0000245800"
+FT   CHAIN           42..270
+FT                   /note="Nodule lectin"
+FT                   /evidence="ECO:0000269|PubMed:8685275"
+FT                   /id="PRO_0000245801"
+FT   CARBOHYD        134
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        50
+FT                   /note="F -> L (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   270 AA;  28958 MW;  648D9CDBF8E5E2E3 CRC64;
+     MAFYRTNLPT RELFSLVSVV IVLLATNINS VQALSFNFTK LTTANSGVTF QGDAQILPSG
+     LIALTKSSPF PPGQYFTTVG RALSSNLVPL WDSATGKAAS FVTSFSFVID TTEGPITDGL
+     IFFIAPPGTV IPQNSTTPFL GVVDSETSIN RFVGLEFDLY RNSWDPEGRH IGIDINSIIS
+     TKTVTYNLVS GSLTKVIIIY DSPSSTLSAA IIYENGKIST ISQVIDLKTV LPNTVQIGLS
+     AATLTGESYS IHSWSFVSDL ETTASYVSNI
+//

@@ -1,0 +1,229 @@
+ID   MIC4_TOXGO              Reviewed;         580 AA.
+AC   Q9XZH7;
+DT   29-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   25-MAY-2022, entry version 76.
+DE   RecName: Full=Micronemal protein 4;
+DE   Flags: Precursor;
+GN   Name=MIC4 {ECO:0000312|EMBL:AAD33906.1}; ORFNames=TgIb.0680;
+OS   Toxoplasma gondii.
+OC   Eukaryota; Sar; Alveolata; Apicomplexa; Conoidasida; Coccidia;
+OC   Eucoccidiorida; Eimeriorina; Sarcocystidae; Toxoplasma.
+OX   NCBI_TaxID=5811;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAD33906.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, SUBCELLULAR LOCATION, AND
+RP   DEVELOPMENTAL STAGE.
+RC   STRAIN=RH {ECO:0000312|EMBL:AAD33906.1};
+RX   PubMed=11053441; DOI=10.1074/jbc.m008294200;
+RA   Brecht S., Carruthers V.B., Ferguson D.J.P., Giddings O.K., Wang G.,
+RA   Jakle U., Harper J.M., Sibley L.D., Soldati D.;
+RT   "The toxoplasma micronemal protein MIC4 is an adhesin composed of six
+RT   conserved apple domains.";
+RL   J. Biol. Chem. 276:4119-4127(2001).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:CAJ20543.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=RH {ECO:0000312|EMBL:CAJ20543.1};
+RX   PubMed=16902086; DOI=10.1101/gr.5318106;
+RA   Khan A., Bohme U., Kelly K.A., Adlem E., Brooks K., Simmonds M.,
+RA   Mungall K., Quail M.A., Arrowsmith C., Chillingworth T., Churcher C.,
+RA   Harris D., Collins M., Fosker N., Fraser A., Hance Z., Jagels K., Moule S.,
+RA   Murphy L., O'Neil S., Rajandream M.-A., Saunders D., Seeger K.,
+RA   Whitehead S., Mayr T., Xuan X., Watanabe J., Suzuki Y., Wakaguri H.,
+RA   Sugano S., Sugimoto C., Paulsen I., Mackey A.J., Roos D.S., Hall N.,
+RA   Berriman M., Barrell B., Sibley L.D., Ajioka J.W.;
+RT   "Common inheritance of chromosome Ia associated with clonal expansion of
+RT   Toxoplasma gondii.";
+RL   Genome Res. 16:1119-1125(2006).
+RN   [3] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 45-54, AND INTERACTION WITH MIC1.
+RX   PubMed=11447133; DOI=10.1093/glycob/11.7.541;
+RA   Lourenco E.V., Pereira S.R., Faca V.M., Coelho-Castelo A.A., Mineo J.R.,
+RA   Roque-Barreira M.-C., Greene L.J., Panunto-Castelo A.;
+RT   "Toxoplasma gondii micronemal protein MIC1 is a lactose-binding lectin.";
+RL   Glycobiology 11:541-547(2001).
+RN   [4] {ECO:0000305}
+RP   FUNCTION, INTERACTION WITH MIC1, AND SUBCELLULAR LOCATION.
+RC   STRAIN=RH {ECO:0000269|PubMed:11157983};
+RX   PubMed=11157983; DOI=10.1083/jcb.152.3.563;
+RA   Reiss M., Viebig N., Brecht S., Fourmaux M.-N., Soete M., Di Cristina M.,
+RA   Dubremetz J.F., Soldati D.;
+RT   "Identification and characterization of an escorter for two secretory
+RT   adhesins in Toxoplasma gondii.";
+RL   J. Cell Biol. 152:563-578(2001).
+CC   -!- FUNCTION: Adhesin. Required for attachment of the parasite to the host
+CC       cell prior to invasion. {ECO:0000269|PubMed:11053441,
+CC       ECO:0000269|PubMed:11157983}.
+CC   -!- SUBUNIT: Monomer. Part of the MIC6-MIC1-MIC4 complex. Interacts
+CC       directly with MIC1. {ECO:0000269|PubMed:11157983,
+CC       ECO:0000269|PubMed:11447133}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle, secretory vesicle, microneme
+CC       {ECO:0000269|PubMed:11053441, ECO:0000269|PubMed:11157983}.
+CC   -!- DEVELOPMENTAL STAGE: Not detected in unsporulated or partially
+CC       sporulated oocysts, but present at approximately equal levels in fully
+CC       sporulated oocysts (sporozoites), bradyzoites, and tachyzoites.
+CC       {ECO:0000269|PubMed:11053441}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF143487; AAD33906.1; -; Genomic_DNA.
+DR   EMBL; AM055943; CAJ20543.1; -; Genomic_DNA.
+DR   PDB; 2LL3; NMR; -; A=410-491.
+DR   PDB; 2LL4; NMR; -; M=410-491.
+DR   PDB; 4A5V; NMR; -; A=58-218.
+DR   PDBsum; 2LL3; -.
+DR   PDBsum; 2LL4; -.
+DR   PDBsum; 4A5V; -.
+DR   AlphaFoldDB; Q9XZH7; -.
+DR   BMRB; Q9XZH7; -.
+DR   SMR; Q9XZH7; -.
+DR   TCDB; 9.B.87.3.1; the selenoprotein p receptor (selp-receptor) family.
+DR   UniLectin; Q9XZH7; -.
+DR   EnsemblProtists; TGME49_208030-t26_1; TGME49_208030-t26_1-p1-CDS1; TGME49_208030.
+DR   VEuPathDB; ToxoDB:TGARI_208030; -.
+DR   VEuPathDB; ToxoDB:TGCAST_208030; -.
+DR   VEuPathDB; ToxoDB:TGCOUG_208030; -.
+DR   VEuPathDB; ToxoDB:TGDOM2_208030; -.
+DR   VEuPathDB; ToxoDB:TGFOU_208030; -.
+DR   VEuPathDB; ToxoDB:TGGT1_208030; -.
+DR   VEuPathDB; ToxoDB:TGMAS_208030; -.
+DR   VEuPathDB; ToxoDB:TGME49_208030; -.
+DR   VEuPathDB; ToxoDB:TGP89_208030; -.
+DR   VEuPathDB; ToxoDB:TGPRC2_208030; -.
+DR   VEuPathDB; ToxoDB:TGRH88_022630; -.
+DR   VEuPathDB; ToxoDB:TGRUB_208030; -.
+DR   VEuPathDB; ToxoDB:TGVAND_208030; -.
+DR   VEuPathDB; ToxoDB:TGVEG_208030; -.
+DR   OMA; DTEDCQA; -.
+DR   Proteomes; UP000002437; Chromosome Ib.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IEA:UniProtKB-KW.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0020009; C:microneme; IEA:UniProtKB-SubCell.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   CDD; cd01100; APPLE_Factor_XI_like; 6.
+DR   InterPro; IPR000177; Apple.
+DR   InterPro; IPR003609; Pan_app.
+DR   Pfam; PF00024; PAN_1; 4.
+DR   Pfam; PF14295; PAN_4; 2.
+DR   SMART; SM00223; APPLE; 6.
+DR   SMART; SM00473; PAN_AP; 4.
+DR   PROSITE; PS50948; PAN; 5.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell adhesion; Cytoplasmic vesicle;
+KW   Direct protein sequencing; Disulfide bond; Reference proteome; Repeat;
+KW   Signal; Virulence.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..580
+FT                   /note="Micronemal protein 4"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000289154"
+FT   DOMAIN          68..137
+FT                   /note="Apple 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DOMAIN          141..214
+FT                   /note="Apple 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DOMAIN          232..301
+FT                   /note="Apple 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DOMAIN          305..375
+FT                   /note="Apple 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DOMAIN          419..488
+FT                   /note="Apple 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DOMAIN          492..565
+FT                   /note="Apple 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        93..115
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        97..103
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        137..214
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        166..188
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        170..176
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        232..301
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        257..279
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        261..267
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        305..380
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        332..354
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        336..342
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        419..492
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        444..466
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   DISULFID        448..454
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00315"
+FT   STRAND          72..76
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   HELIX           90..99
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          104..109
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   TURN            110..112
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          115..118
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          124..126
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          130..135
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          143..148
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          153..155
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   HELIX           163..172
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          178..182
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   TURN            183..186
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          187..191
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   TURN            193..198
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          199..202
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          206..212
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   TURN            214..217
+FT                   /evidence="ECO:0007829|PDB:4A5V"
+FT   STRAND          425..427
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+FT   STRAND          431..434
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+FT   HELIX           441..450
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+FT   STRAND          454..460
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+FT   TURN            461..464
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+FT   STRAND          465..472
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+FT   STRAND          475..477
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+FT   STRAND          481..484
+FT                   /evidence="ECO:0007829|PDB:2LL3"
+SQ   SEQUENCE   580 AA;  63021 MW;  7C8D6ECC7B859AC4 CRC64;
+     MRASLPVHLV VCTQLSAVWF GVAKAHGGHR LEPHVPGFLQ GFTDITPAGD DVSANVTSSE
+     PAKLDLSCVH SDNKGSRAPT IGEPVPDVSL EQCAAQCKAV DGCTHFTYND DSKMCHVKEG
+     KPDLYDLTGG KTASRSCDRS CFEQHVSYEG APDVMTAMVT SQSADCQAAC AADPSCEIFT
+     YNEHDQKCTF KGRGFSAFKE RGVLGVTSGP KQFCDEGGKL TQEEMEDQIS GCIQLSDVGS
+     MTADLEEPME ADSVGACMER CRCDGRCTHF TFNDNTRMCY LKGDKMQLYS SPGDRTGPKS
+     CDSSCFSNGV SYVDDPATDV ETVFEISHPI YCQVICAANP LCTVFQWYAS EAKCVVKRKG
+     FYKHRKTGVT GVTVGPREFC DFGGSIRDRE EADAVGSDDG LNAEATMANS PDFHDEVECV
+     HTGNIGSKAQ TIGEVKRASS LSECRARCQA EKECSHYTYN VKSGLCYPKR GKPQFYKYLG
+     DMTGSRTCDT SCLRRGVDYS QGPEVGKPWY STLPTDCQVA CDAEDACLVF TWDSATSRCY
+     LIGSGFSAHR RNDVDGVVSG PYTFCDNGEN LQVLEAKDTE
+//

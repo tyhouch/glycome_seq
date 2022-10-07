@@ -1,0 +1,189 @@
+ID   Q6GYW3_9INFA            Unreviewed;       560 AA.
+AC   Q6GYW3;
+DT   19-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   19-JUL-2004, sequence version 1.
+DT   03-AUG-2022, entry version 113.
+DE   RecName: Full=Hemagglutinin {ECO:0000256|ARBA:ARBA00022203};
+DE   Flags: Fragment;
+OS   Influenza A virus (A/turkey/Italy/214845/2002(H7N3)).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus.
+OX   NCBI_TaxID=265120 {ECO:0000313|EMBL:AAT37403.1};
+RN   [1] {ECO:0000313|EMBL:AAT37403.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=A/turkey/Italy/214845/02 {ECO:0000313|EMBL:AAT37403.1};
+RX   PubMed=15165816; DOI=10.1016/j.virol.2004.02.015;
+RA   Campitelli L., Mogavero E., De Marco M.A., Delogu M., Puzelli S.,
+RA   Frezza F., Facchini M., Chiapponi C., Foni E., Cordioli P., Webby R.,
+RA   Barigazzi G., Webster R.G., Donatelli I.;
+RT   "Interspecies transmission of an H7N3 influenza virus from wild birds to
+RT   intensively reared domestic poultry in Italy.";
+RL   Virology 323:24-36(2004).
+RN   [2] {ECO:0007829|PDB:1TI8}
+RP   X-RAY CRYSTALLOGRAPHY (3.00 ANGSTROMS) OF 21-334, AND DISULFIDE BONDS.
+RX   PubMed=15246268; DOI=10.1016/j.virol.2004.04.040;
+RA   Russell R.J., Gamblin S.J., Haire L.F., Stevens D.J., Xiao B., Ha Y.,
+RA   Skehel J.J.;
+RT   "H1 and H7 influenza haemagglutinin structures extend a structural
+RT   classification of haemagglutinin subtypes.";
+RL   Virology 325:287-296(2004).
+RN   [3] {ECO:0007829|PDB:4BSG, ECO:0007829|PDB:4BSH}
+RP   X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 19-339 AND 340-516, DISULFIDE
+RP   BONDS, AND GLYCOSYLATION AT ASN-46; ASN-249 AND ASN-421.
+RX   PubMed=23787694; DOI=10.1038/NATURE12372;
+RA   Xiong X., Martin S.R., Haire L.F., Wharton S.A., Daniels R.S.,
+RA   Bennett M.S., McCauley J.W., Collins P.J., Walker P.A., Skehel J.J.,
+RA   Gamblin S.J.;
+RT   "Receptor binding by an H7N9 influenza virus from humans.";
+RL   Nature 499:496-499(2013).
+RN   [4] {ECO:0007829|PDB:5JW3}
+RP   X-RAY CRYSTALLOGRAPHY (3.75 ANGSTROMS) OF 19-334 AND 340-509, AND DISULFIDE
+RP   BONDS.
+RX   PubMed=27453466; DOI=10.1016/j.cell.2016.05.073;
+RA   Kallewaard N.L., Corti D., Collins P.J., Neu U., McAuliffe J.M.,
+RA   Benjamin E., Wachter-Rosati L., Palmer-Hill F.J., Yuan A.Q., Walker P.A.,
+RA   Vorlaender M.K., Bianchi S., Guarino B., De Marco A., Vanzetta F.,
+RA   Agatic G., Foglierini M., Pinna D., Fernandez-Rodriguez B., Fruehwirth A.,
+RA   Silacci C., Ogrodowicz R.W., Martin S.R., Sallusto F., Suzich J.A.,
+RA   Lanzavecchia A., Zhu Q., Gamblin S.J., Skehel J.J.;
+RT   "Structure and Function Analysis of an Antibody Recognizing All Influenza A
+RT   Subtypes.";
+RL   Cell 166:596-608(2016).
+CC   -!- FUNCTION: Binds to sialic acid-containing receptors on the cell
+CC       surface, bringing about the attachment of the virus particle to the
+CC       cell. This attachment induces virion internalization of about two third
+CC       of the virus particles through clathrin-dependent endocytosis and about
+CC       one third through a clathrin- and caveolin-independent pathway. Plays a
+CC       major role in the determination of host range restriction and
+CC       virulence. Class I viral fusion protein. Responsible for penetration of
+CC       the virus into the cell cytoplasm by mediating the fusion of the
+CC       membrane of the endocytosed virus particle with the endosomal membrane.
+CC       Low pH in endosomes induces an irreversible conformational change in
+CC       HA2, releasing the fusion hydrophobic peptide. Several trimers are
+CC       required to form a competent fusion pore.
+CC       {ECO:0000256|RuleBase:RU003324}.
+CC   -!- SUBUNIT: Homotrimer of disulfide-linked HA1-HA2.
+CC       {ECO:0000256|RuleBase:RU003324}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000256|ARBA:ARBA00004247}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004247}. Cell membrane
+CC       {ECO:0000256|ARBA:ARBA00004251}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004251}. Host apical cell membrane
+CC       {ECO:0000256|ARBA:ARBA00004310}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004310}. Membrane
+CC       {ECO:0000256|ARBA:ARBA00004479}; Single-pass type I membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004479}.
+CC   -!- SIMILARITY: Belongs to the influenza viruses hemagglutinin family.
+CC       {ECO:0000256|ARBA:ARBA00006321, ECO:0000256|RuleBase:RU003324}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY586408; AAT37403.1; -; Genomic_RNA.
+DR   PDB; 1TI8; X-ray; 3.00 A; A=21-334.
+DR   PDB; 4BSG; X-ray; 2.10 A; A=19-339, B=340-516.
+DR   PDB; 4BSH; X-ray; 2.25 A; A=19-339, B=340-516.
+DR   PDB; 5JW3; X-ray; 3.75 A; A=19-334, B=340-509.
+DR   PDBsum; 1TI8; -.
+DR   PDBsum; 4BSG; -.
+DR   PDBsum; 4BSH; -.
+DR   PDBsum; 5JW3; -.
+DR   SMR; Q6GYW3; -.
+DR   UniLectin; Q6GYW3; -.
+DR   EvolutionaryTrace; Q6GYW3; -.
+DR   GO; GO:0016324; C:apical plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-KW.
+DR   GO; GO:0046789; F:host cell surface receptor binding; IEA:InterPro.
+DR   GO; GO:0075512; P:clathrin-dependent endocytosis of virus by host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0039654; P:fusion of virus membrane with host endosome membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; IEA:InterPro.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.209.20; -; 1.
+DR   HAMAP; MF_04072; INFV_HEMA; 1.
+DR   InterPro; IPR008980; Capsid_hemagglutn.
+DR   InterPro; IPR013828; Hemagglutn_HA1_a/b_dom_sf.
+DR   InterPro; IPR000149; Hemagglutn_influenz_A.
+DR   InterPro; IPR001364; Hemagglutn_influenz_A/B.
+DR   Pfam; PF00509; Hemagglutinin; 1.
+DR   PRINTS; PR00330; HEMAGGLUTN1.
+DR   PRINTS; PR00329; HEMAGGLUTN12.
+DR   SUPFAM; SSF49818; SSF49818; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1TI8, ECO:0007829|PDB:4BSG};
+KW   Clathrin- and caveolin-independent endocytosis of virus by host
+KW   {ECO:0000256|ARBA:ARBA00023261};
+KW   Clathrin-mediated endocytosis of virus by host
+KW   {ECO:0000256|ARBA:ARBA00022570};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   Fusion of virus membrane with host endosomal membrane
+KW   {ECO:0000256|ARBA:ARBA00022510};
+KW   Fusion of virus membrane with host membrane
+KW   {ECO:0000256|ARBA:ARBA00022506};
+KW   Glycoprotein {ECO:0000256|ARBA:ARBA00023180};
+KW   Hemagglutinin {ECO:0000256|ARBA:ARBA00022546,
+KW   ECO:0000256|RuleBase:RU003324};
+KW   Host cell membrane {ECO:0000256|ARBA:ARBA00022511};
+KW   Host membrane {ECO:0000256|ARBA:ARBA00022870};
+KW   Host-virus interaction {ECO:0000256|ARBA:ARBA00022581};
+KW   Lipoprotein {ECO:0000256|ARBA:ARBA00023288};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Palmitate {ECO:0000256|ARBA:ARBA00023139};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius};
+KW   Viral attachment to host cell {ECO:0000256|ARBA:ARBA00022804};
+KW   Viral envelope protein {ECO:0000256|ARBA:ARBA00022879,
+KW   ECO:0000256|RuleBase:RU003324};
+KW   Viral penetration into host cytoplasm {ECO:0000256|ARBA:ARBA00022595};
+KW   Virion {ECO:0000256|ARBA:ARBA00022844};
+KW   Virus endocytosis by host {ECO:0000256|ARBA:ARBA00022890};
+KW   Virus entry into host cell {ECO:0000256|ARBA:ARBA00023296}.
+FT   TRANSMEM        524..549
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSG, ECO:0007829|PDB:4BSH"
+FT   CARBOHYD        249
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSG, ECO:0007829|PDB:4BSH"
+FT   CARBOHYD        421
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:4BSG, ECO:0007829|PDB:4BSH"
+FT   CARBOHYD        493
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:5JW3"
+FT   DISULFID        22
+FT                   /note="Interchain (with C-476 in Q701T7)"
+FT                   /evidence="ECO:0007829|PDB:1TI8"
+FT   DISULFID        22
+FT                   /note="Interchain (with C-476)"
+FT                   /evidence="ECO:0007829|PDB:4BSG, ECO:0007829|PDB:4BSH"
+FT   DISULFID        60..286
+FT                   /evidence="ECO:0007829|PDB:1TI8, ECO:0007829|PDB:4BSG"
+FT   DISULFID        72..84
+FT                   /evidence="ECO:0007829|PDB:1TI8, ECO:0007829|PDB:4BSG"
+FT   DISULFID        105..147
+FT                   /evidence="ECO:0007829|PDB:1TI8, ECO:0007829|PDB:4BSG"
+FT   DISULFID        290..314
+FT                   /evidence="ECO:0007829|PDB:1TI8, ECO:0007829|PDB:4BSG"
+FT   DISULFID        476
+FT                   /note="Interchain (with C-22)"
+FT                   /evidence="ECO:0007829|PDB:4BSG, ECO:0007829|PDB:4BSH"
+FT   DISULFID        483..487
+FT                   /evidence="ECO:0007829|PDB:4BSG, ECO:0007829|PDB:4BSH"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:AAT37403.1"
+SQ   SEQUENCE   560 AA;  62193 MW;  847CA88C5DFA7FFE CRC64;
+     MNTQILVFAL VAIIPTNADK ICLGHHAVSN GTKVNTLTER GVEVVNATET VERTNVPRIC
+     SKGKRTVDLG QCGLLGTITG PPQCDQFLEF SADLIIERRE GSDVCYPGKF VNEEALRQIL
+     RESGGIDKET MGFTYSGIRT NGATSACRRS GSSFYAEMKW LLSNTDNAAF PQMTKSYKNT
+     RKDPALIIWG IHHSGSTTEQ TKLYGSGNKL ITVGSSNYQQ SFVPSPGARP QVNGQSGRID
+     FHWLMLNPND TVTFSFNGAF IAPDRASFLR GKSMGIQSSV QVDANCEGDC YHSGGTIISN
+     LPFQNINSRA VGKCPRYVKQ ESLMLATGMK NVPEIPKGRG LFGAIAGFIE NGWEGLIDGW
+     YGFRHQNAQG EGTAADYKST QSAIDQITGK LNRLIEKTNQ QFELIDNEFT EVEKQIGNVI
+     NWTRDSMTEV WSYNAELLVA MENQHTIDLA DSEMNKLYER VKRQLRENAE EDGTGCFEIF
+     HKCDDDCMAS IRNNTYDHSR YREEAMQNRI QIDPVKLSSG YKDVILWFSF GASCFILLAI
+     AMGLVFICVK NGNMRCTICI
+//

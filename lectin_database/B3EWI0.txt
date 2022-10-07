@@ -1,0 +1,60 @@
+ID   LECG2_APLKU             Reviewed;          25 AA.
+AC   B3EWI0;
+DT   16-MAY-2012, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2012, sequence version 1.
+DT   25-MAY-2022, entry version 10.
+DE   RecName: Full=Galactose-binding lectin-2 {ECO:0000303|PubMed:21953532};
+DE            Short=AKL-2 {ECO:0000303|PubMed:21953532};
+DE   Flags: Fragment;
+OS   Aplysia kurodai (Kuroda's sea hare).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Heterobranchia; Euthyneura; Tectipleura; Aplysiida; Aplysioidea;
+OC   Aplysiidae; Aplysia.
+OX   NCBI_TaxID=6501;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, AND
+RP   GLYCOSYLATION.
+RC   TISSUE=Egg {ECO:0000269|PubMed:21953532};
+RX   PubMed=21953532; DOI=10.1007/s10930-011-9356-7;
+RA   Kawsar S.M., Matsumoto R., Fujii Y., Matsuoka H., Masuda N., Chihiro I.,
+RA   Yasumitsu H., Kanaly R.A., Sugawara S., Hosono M., Nitta K., Ishizaki N.,
+RA   Dogasaki C., Hamako J., Matsui T., Ozeki Y.;
+RT   "Cytotoxicity and glycan-binding profile of a D-galactose-binding lectin
+RT   from the eggs of a Japanese sea hare (Aplysia kurodai).";
+RL   Protein J. 30:509-519(2011).
+CC   -!- FUNCTION: D-galactose specific lectin. Binds in decreasing order of
+CC       affinity: melibiose, N-acetyllactosamine, D-galacturonic acid, D-
+CC       galactose, methyl-alpha-D-galactoside, D-galactose, methyl-alpha-D-
+CC       galactopyranoside, methyl-beta-D-galactopyranoside and lactose. Binds
+CC       also the glycoproteins globotriose, asialofetuin and mucin. Possesses
+CC       glycan-dependent cytotoxic activity against Burkitt's lymphoma Raji
+CC       cells and erythroleukemia K562 cells. Has calcium-independent
+CC       hemagglutinating activity towards human erythrocytes.
+CC       {ECO:0000269|PubMed:21953532}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Hemagglutinating activity is stable over the pH range 4.0-12.0 but
+CC         decreases below pH 3. {ECO:0000269|PubMed:21953532};
+CC       Temperature dependence:
+CC         Hemagglutinating activity is stable when incubated over the range of
+CC         20-70 degrees Celsius for 60 minutes but is almost lost after
+CC         incubation for 60 minutes at 80 degrees Celsius.
+CC         {ECO:0000269|PubMed:21953532};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:21953532}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:21953532}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   AlphaFoldDB; B3EWI0; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Hemagglutinin; Lectin.
+FT   CHAIN           1..>25
+FT                   /note="Galactose-binding lectin-2"
+FT                   /id="PRO_0000417399"
+FT   NON_TER         25
+FT                   /evidence="ECO:0000303|PubMed:21953532"
+SQ   SEQUENCE   25 AA;  2700 MW;  D30BA13E2FFA72DE CRC64;
+     VLYQAVNVFS MDVIDVNSAA PKTCD
+//

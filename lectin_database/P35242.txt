@@ -1,0 +1,209 @@
+ID   SFTPA_MOUSE             Reviewed;         248 AA.
+AC   P35242;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   03-AUG-2022, entry version 160.
+DE   RecName: Full=Pulmonary surfactant-associated protein A;
+DE            Short=PSAP;
+DE            Short=PSP-A;
+DE            Short=SP-A;
+DE   Flags: Precursor;
+GN   Name=Sftpa1; Synonyms=Sftp-1, Sftp1, Sftpa;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=DBA/2J;
+RX   PubMed=1443158; DOI=10.1152/ajplung.1992.263.5.l546;
+RA   Korfhagen T.R., Bruno M.D., Glasser S.W., Ciraolo P.J., Whitsett J.A.,
+RA   Lattier D.L., Wikenheiser K.A., Clark J.C.;
+RT   "Murine pulmonary surfactant SP-A gene: cloning, sequence, and
+RT   transcriptional activity.";
+RL   Am. J. Physiol. 263:L546-L554(1992).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Lung;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=25965346; DOI=10.1371/journal.pone.0126576;
+RA   Yang L., Carrillo M., Wu Y.M., DiAngelo S.L., Silveyra P., Umstead T.M.,
+RA   Halstead E.S., Davies M.L., Hu S., Floros J., McCormack F.X.,
+RA   Christensen N.D., Chroneos Z.C.;
+RT   "SP-R210 (Myo18A) isoforms as intrinsic modulators of macrophage priming
+RT   and activation.";
+RL   PLoS ONE 10:E0126576-E0126576(2015).
+RN   [4]
+RP   MUTAGENESIS OF TYR-208, AND SUBCELLULAR LOCATION.
+RX   PubMed=31601679; DOI=10.1084/jem.20182351;
+RA   Takezaki A., Tsukumo S.I., Setoguchi Y., Ledford J.G., Goto H.,
+RA   Hosomichi K., Uehara H., Nishioka Y., Yasutomo K.;
+RT   "A homozygous SFTPA1 mutation drives necroptosis of type II alveolar
+RT   epithelial cells in patients with idiopathic pulmonary fibrosis.";
+RL   J. Exp. Med. 216:2724-2735(2019).
+CC   -!- FUNCTION: In presence of calcium ions, it binds to surfactant
+CC       phospholipids and contributes to lower the surface tension at the air-
+CC       liquid interface in the alveoli of the mammalian lung and is essential
+CC       for normal respiration. Enhances the expression of MYO18A/SP-R210 on
+CC       alveolar macrophages (PubMed:25965346). {ECO:0000269|PubMed:25965346}.
+CC   -!- SUBUNIT: Oligomeric complex of 6 set of homotrimers.
+CC       {ECO:0000250|UniProtKB:Q8IWL2}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:31601679}. Secreted,
+CC       extracellular space, extracellular matrix {ECO:0000305}. Secreted,
+CC       extracellular space, surface film {ECO:0000305}.
+CC   -!- MISCELLANEOUS: Pulmonary surfactant consists of 90% lipid and 10%
+CC       protein. There are 4 surfactant-associated proteins: 2 collagenous,
+CC       carbohydrate-binding glycoproteins (SP-A and SP-D) and 2 small
+CC       hydrophobic proteins (SP-B and SP-C).
+CC   -!- SIMILARITY: Belongs to the SFTPA family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - Glycan Binding;
+CC       Note=Pulmonary surfactant protein SP-A;
+CC       URL="http://www.functionalglycomics.org/glycomics/GBPServlet?&operationType=view&cbpId=cbp_mou_Ctlect_355";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S48768; AAB24274.1; -; Genomic_DNA.
+DR   CCDS; CCDS26960.1; -.
+DR   PIR; A48853; A48853.
+DR   AlphaFoldDB; P35242; -.
+DR   SMR; P35242; -.
+DR   IntAct; P35242; 7.
+DR   MINT; P35242; -.
+DR   STRING; 10090.ENSMUSP00000129696; -.
+DR   GlyGen; P35242; 2 sites.
+DR   iPTMnet; P35242; -.
+DR   PhosphoSitePlus; P35242; -.
+DR   MaxQB; P35242; -.
+DR   PaxDb; P35242; -.
+DR   PeptideAtlas; P35242; -.
+DR   PRIDE; P35242; -.
+DR   ProteomicsDB; 257211; -.
+DR   MGI; MGI:109518; Sftpa1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   InParanoid; P35242; -.
+DR   PhylomeDB; P35242; -.
+DR   Reactome; R-MMU-166016; Toll Like Receptor 4 (TLR4) Cascade.
+DR   Reactome; R-MMU-391160; Signal regulatory protein family interactions.
+DR   Reactome; R-MMU-5683826; Surfactant metabolism.
+DR   Reactome; R-MMU-5686938; Regulation of TLR by endogenous ligand.
+DR   PRO; PR:P35242; -.
+DR   Proteomes; UP000000589; Unplaced.
+DR   RNAct; P35242; protein.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; HDA:BHF-UCL.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; ISO:MGI.
+DR   GO; GO:0005615; C:extracellular space; ISO:MGI.
+DR   GO; GO:0005771; C:multivesicular body; ISO:MGI.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; ISO:MGI.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:UniProtKB-KW.
+DR   CDD; cd03591; CLECT_collectin_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR033990; Collectin_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Collagen; Disulfide bond; Extracellular matrix; Gaseous exchange;
+KW   Glycoprotein; Hydroxylation; Lectin; Metal-binding; Reference proteome;
+KW   Repeat; Secreted; Signal; Surface film.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           21..248
+FT                   /note="Pulmonary surfactant-associated protein A"
+FT                   /id="PRO_0000017459"
+FT   DOMAIN          28..100
+FT                   /note="Collagen-like"
+FT   DOMAIN          132..248
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          28..100
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         215
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         234
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         235
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         30
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         33
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         36
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         42
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         54
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         57
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         63
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         67
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         70
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         76
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        21
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305"
+FT   DISULFID        26
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        155..246
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        224..238
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   MUTAGEN         208
+FT                   /note="Y->H: Knockin homozygous mice develop progressive
+FT                   pulmonary fibrosis. The mutant protein is not secreted in
+FT                   bronchoalveolar fluid from mutant mice."
+FT                   /evidence="ECO:0000269|PubMed:31601679"
+SQ   SEQUENCE   248 AA;  26157 MW;  6688BF070E3EB9AE CRC64;
+     MSLGSLAFTL FLTVVAGIKC NGTEVCAGSP GIPGTPGNHG LPGRDGRDGI KGDPGPPGPM
+     GPPGGMPGLP GRDGLPGAPG APGEHGDKGE PGERGLPGFP AYLDEELQTA SYEIKHQILQ
+     TMGVLSLQGS MLSVGDKVFS TNGQSVNFDT IREMCTRAGG HIAAPRNPEE NEAIASITKK
+     YNTYPYLGVI EGQTPGDFHY LDGASVNYTN WYPGEPRGRG KEKCVEMYTD GKWNDKGCLQ
+     YRLAICEF
+//

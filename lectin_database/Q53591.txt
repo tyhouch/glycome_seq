@@ -1,0 +1,379 @@
+ID   HYSA_STRA3              Reviewed;         984 AA.
+AC   Q53591;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   17-JAN-2003, sequence version 2.
+DT   03-AUG-2022, entry version 139.
+DE   RecName: Full=Hyaluronate lyase {ECO:0000303|PubMed:7982914};
+DE            EC=4.2.2.1 {ECO:0000269|PubMed:7982914};
+DE   AltName: Full=Hyaluronidase;
+DE            Short=HYase;
+DE   Flags: Precursor;
+GN   Name=hylB {ECO:0000303|PubMed:7982914}; OrderedLocusNames=gbs1270;
+OS   Streptococcus agalactiae serotype III (strain NEM316).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=211110;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND CATALYTIC ACTIVITY.
+RC   STRAIN=3502 / Serotype III;
+RX   PubMed=7982914; DOI=10.1016/s0021-9258(18)43783-0;
+RA   Lin B., Hollingshead S.K., Coligan J.E., Egan M.L., Baker J.R.,
+RA   Pritchard D.G.;
+RT   "Cloning and expression of the gene for group B streptococcal hyaluronate
+RT   lyase.";
+RL   J. Biol. Chem. 269:30113-30116(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NEM316;
+RX   PubMed=12354221; DOI=10.1046/j.1365-2958.2002.03126.x;
+RA   Glaser P., Rusniok C., Buchrieser C., Chevalier F., Frangeul L., Msadek T.,
+RA   Zouine M., Couve E., Lalioui L., Poyart C., Trieu-Cuot P., Kunst F.;
+RT   "Genome sequence of Streptococcus agalactiae, a pathogen causing invasive
+RT   neonatal disease.";
+RL   Mol. Microbiol. 45:1499-1513(2002).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 171-984, AND ACTIVE SITE.
+RX   PubMed=11527972; DOI=10.1074/jbc.m106634200;
+RA   Li S., Jedrzejas M.J.;
+RT   "Hyaluronan binding and degradation by Streptococcus agalactiae hyaluronate
+RT   lyase.";
+RL   J. Biol. Chem. 276:41407-41416(2001).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[hyaluronan](n) = n 3-(4-deoxy-beta-D-gluc-4-enuronosyl)-N-
+CC         acetyl-D-glucosamine + H2O; Xref=Rhea:RHEA:50240, Rhea:RHEA-
+CC         COMP:12583, ChEBI:CHEBI:15377, ChEBI:CHEBI:132151,
+CC         ChEBI:CHEBI:132153; EC=4.2.2.1;
+CC         Evidence={ECO:0000269|PubMed:7982914};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 8 family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAD46929.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U15050; AAA56749.1; -; Genomic_DNA.
+DR   EMBL; AL766849; CAD46929.1; ALT_INIT; Genomic_DNA.
+DR   PIR; A55137; A55137.
+DR   PDB; 1F1S; X-ray; 2.10 A; A=171-984.
+DR   PDB; 1I8Q; X-ray; 2.20 A; A=171-984.
+DR   PDB; 1LXM; X-ray; 2.20 A; A=171-984.
+DR   PDBsum; 1F1S; -.
+DR   PDBsum; 1I8Q; -.
+DR   PDBsum; 1LXM; -.
+DR   AlphaFoldDB; Q53591; -.
+DR   SMR; Q53591; -.
+DR   STRING; 211110.gbs1270; -.
+DR   DrugBank; DB04548; 4-Deoxy-D-Glucuronic Acid.
+DR   CAZy; CBM70; Carbohydrate-Binding Module Family 70.
+DR   CAZy; PL8; Polysaccharide Lyase Family 8.
+DR   EnsemblBacteria; CAD46929; CAD46929; CAD46929.
+DR   KEGG; san:gbs1270; -.
+DR   eggNOG; COG5492; Bacteria.
+DR   HOGENOM; CLU_004172_0_0_9; -.
+DR   BRENDA; 4.2.2.1; 5917.
+DR   EvolutionaryTrace; Q53591; -.
+DR   PHI-base; PHI:3461; -.
+DR   Proteomes; UP000000823; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0030340; F:hyaluronate lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:1901575; P:organic substance catabolic process; IEA:UniProt.
+DR   Gene3D; 1.50.10.100; -; 1.
+DR   Gene3D; 2.60.220.10; -; 1.
+DR   Gene3D; 2.60.40.1380; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR008929; Chondroitin_lyas.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023295; Hyaluronate_lyase_beta_dom_sf.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR038970; Lyase_8.
+DR   InterPro; IPR011071; Lyase_8-like_C.
+DR   InterPro; IPR012970; Lyase_8_alpha_N.
+DR   InterPro; IPR004103; Lyase_8_C.
+DR   InterPro; IPR003159; Lyase_8_central_dom.
+DR   PANTHER; PTHR38481; PTHR38481; 1.
+DR   Pfam; PF02278; Lyase_8; 1.
+DR   Pfam; PF02884; Lyase_8_C; 1.
+DR   Pfam; PF08124; Lyase_8_N; 1.
+DR   SUPFAM; SSF48230; SSF48230; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF49863; SSF49863; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Lyase; Secreted; Signal.
+FT   SIGNAL          1..40
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           41..984
+FT                   /note="Hyaluronate lyase"
+FT                   /id="PRO_0000024932"
+FT   REGION          1..32
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          49..68
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          701..728
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        52..68
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        701..727
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        429
+FT                   /evidence="ECO:0000305|PubMed:11527972"
+FT   ACT_SITE        479
+FT                   /evidence="ECO:0000305|PubMed:11527972"
+FT   ACT_SITE        488
+FT                   /evidence="ECO:0000305|PubMed:11527972"
+FT   CONFLICT        45
+FT                   /note="E -> G (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        155..156
+FT                   /note="SA -> FV (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        183
+FT                   /note="E -> K (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        246..251
+FT                   /note="ASTEDK -> GSPEDN (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        267
+FT                   /note="H -> Y (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        279..280
+FT                   /note="IN -> LT (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        288
+FT                   /note="A -> G (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        292..293
+FT                   /note="KT -> EA (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        300
+FT                   /note="H -> R (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        384
+FT                   /note="A -> G (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        387
+FT                   /note="A -> S (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        413
+FT                   /note="G -> E (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        420
+FT                   /note="D -> V (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        583
+FT                   /note="T -> A (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        609
+FT                   /note="M -> L (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        639
+FT                   /note="E -> K (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        666
+FT                   /note="D -> G (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        676
+FT                   /note="L -> I (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        688..689
+FT                   /note="FW -> LG (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        882
+FT                   /note="Q -> L (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        894
+FT                   /note="M -> L (in Ref. 1; AAA56749)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          185..188
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          196..199
+FT                   /evidence="ECO:0007829|PDB:1LXM"
+FT   STRAND          200..206
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           207..209
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          210..213
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          216..219
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          223..230
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          236..245
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           251..263
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           266..268
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           274..293
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           305..307
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           313..330
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            336..339
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           341..357
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          367..369
+FT                   /evidence="ECO:0007829|PDB:1LXM"
+FT   HELIX           371..375
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           377..388
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           390..392
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           395..408
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          414..416
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            417..420
+FT                   /evidence="ECO:0007829|PDB:1I8Q"
+FT   HELIX           427..443
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           447..457
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           458..460
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          464..471
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          476..478
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            479..481
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            485..487
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           488..503
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           512..524
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           527..529
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           537..539
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           541..545
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           551..566
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           572..587
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          589..591
+FT                   /evidence="ECO:0007829|PDB:1LXM"
+FT   HELIX           593..596
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           600..611
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          623..627
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           628..630
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          632..637
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            638..641
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          642..647
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          653..655
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          660..662
+FT                   /evidence="ECO:0007829|PDB:1LXM"
+FT   TURN            667..670
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          671..677
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            681..684
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          685..687
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           688..691
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          694..696
+FT                   /evidence="ECO:0007829|PDB:1I8Q"
+FT   STRAND          701..703
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           712..716
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            717..720
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           722..726
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          736..753
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          757..768
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          771..781
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          782..784
+FT                   /evidence="ECO:0007829|PDB:1I8Q"
+FT   STRAND          788..796
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          799..801
+FT                   /evidence="ECO:0007829|PDB:1I8Q"
+FT   STRAND          804..807
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          816..831
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          839..858
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           860..863
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          873..883
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          886..888
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          891..898
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   HELIX           901..909
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          912..918
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          920..927
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            928..931
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          932..937
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          943..945
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            946..948
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          949..951
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          955..962
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          965..972
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   TURN            973..976
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+FT   STRAND          977..981
+FT                   /evidence="ECO:0007829|PDB:1F1S"
+SQ   SEQUENCE   984 AA;  111581 MW;  AC7215ED6D5C2592 CRC64;
+     MKQVVDNQTQ NKELVKNGDF NQTNPVSGSW SHTSAREWSA WIDKENTADK SPIIQRTEQG
+     QVSLSSDKGF RGAVTQKVNI DPTKKYEVKF DIETSNKAGQ AFLRIMEKKD NNTRLWLSEM
+     TSGTTNKHTL TKIYNPKLNV SEVTLELYYE KGTGSATFDN ISMKAKGPKD SEHPQPVTTQ
+     IEESVNTALN KNYVFNKADY QYTLTNPSLG KIVGGILYPN ATGSTTVKIS DKSGKIIKEV
+     PLSVTASTED KFTKLLDKWN DVTIGNHVYD TNDSNMQKIN QKLDETNAKN IKTIKLDSNH
+     TFLWKDLDNL NNSAQLTATY RRLEDLAKQI TNPHSTIYKN EKAIRTVKES LAWLHQNFYN
+     VNKDIEGSAN WWDFEIGVPR SITATLALMN NYFTDAEIKT YTDPIEHFVP DAGYFRKTLD
+     NPFKALGGNL VDMGRVKIIE GLLRKDNTII EKTSHSLKNL FTTATKAEGF YADGSYIDHT
+     NVAYTGAYGN VLIDGLTQLL PIIQETDYKI SNQELDMVYK WINQSFLPLI VKGELMDMSR
+     GRSISREAAS SHAAAVEVLR GFLRLANMSN EERNLDLKST IKTIITSNKF YNVFNNLKSY
+     SDIANMNKML NDSTVATKPL KSNLSTFNSM DRLAYYNAEK DFGFALSLHS KRTLNYEGMN
+     DENTRDWYTG DGMFYLYNSD QSHYSNHFWP TVNPYKMAGT TEKDAKREDT TKEFMSKHSK
+     DAKEKTGQVT GTSDFVGSVK LNDHFALAAM DFTNWDRTLT AQKGWVILND KIVFLGSNIK
+     NTNGIGNVST TIDQRKDDSK TPYTTYVNGK TIDLKQASSQ QFTDTKSVFL ESKEPGRNIG
+     YIFFKNSTID IERKEQTGTW NSINRTSKNT SIVSNPFITI SQKHDNKGDS YGYMMVPNID
+     RTSFDKLANS KEVELLENSS KQQVIYDKNS QTWAVIKHDN QESLINNQFK MNKAGLYLVQ
+     KVGNDYQNVY YQPQTMTKTD QLAI
+//

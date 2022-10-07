@@ -1,0 +1,197 @@
+ID   EPM2A_CANLF             Reviewed;         331 AA.
+AC   Q1M199;
+DT   29-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2006, sequence version 1.
+DT   03-AUG-2022, entry version 85.
+DE   RecName: Full=Laforin;
+DE            EC=3.1.3.- {ECO:0000250|UniProtKB:Q9WUA5};
+DE            EC=3.1.3.16;
+DE            EC=3.1.3.48 {ECO:0000250|UniProtKB:O95278};
+DE   AltName: Full=Glucan phosphatase;
+DE   AltName: Full=Lafora PTPase;
+DE            Short=LAFPTPase;
+GN   Name=EPM2A;
+OS   Canis lupus familiaris (Dog) (Canis familiaris).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis.
+OX   NCBI_TaxID=9615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=15637270; DOI=10.1126/science.1102832;
+RA   Lohi H., Young E.J., Fitzmaurice S.N., Rusbridge C., Chan E.M.,
+RA   Vervoort M., Turnbull J., Zhao X.C., Ianzano L., Paterson A.D.,
+RA   Sutter N.B., Ostrander E.A., Andre C., Shelton G.D., Ackerley C.A.,
+RA   Scherer S.W., Minassian B.A.;
+RT   "Expanded repeat in canine epilepsy.";
+RL   Science 307:81-81(2005).
+CC   -!- FUNCTION: Plays an important role in preventing glycogen
+CC       hyperphosphorylation and the formation of insoluble aggregates, via its
+CC       activity as glycogen phosphatase, and by promoting the ubiquitination
+CC       of proteins involved in glycogen metabolism via its interaction with
+CC       the E3 ubiquitin ligase NHLRC1/malin. Dephosphorylates phosphotyrosine
+CC       and synthetic substrates, such as para-nitrophenylphosphate (pNPP), and
+CC       has low activity with phosphoserine and phosphothreonine substrates (in
+CC       vitro). Has also been shown to dephosphorylate MAPT. Shows strong
+CC       phosphatase activity towards complex carbohydrates in vitro, avoiding
+CC       glycogen hyperphosphorylation which is associated with reduced
+CC       branching and formation of insoluble aggregates. Forms a complex with
+CC       NHLRC1/malin and HSP70, which suppresses the cellular toxicity of
+CC       misfolded proteins by promoting their degradation through the
+CC       ubiquitin-proteasome system (UPS). Acts as a scaffold protein to
+CC       facilitate PPP1R3C/PTG ubiquitination by NHLRC1/malin. Also promotes
+CC       proteasome-independent protein degradation through the macroautophagy
+CC       pathway. {ECO:0000250|UniProtKB:O95278, ECO:0000250|UniProtKB:Q9WUA5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-tyrosyl-[protein] = L-tyrosyl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:10684, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620; EC=3.1.3.48; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU10044};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-seryl-[protein] = L-seryl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:20629, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15377, ChEBI:CHEBI:29999, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:83421; EC=3.1.3.16;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-threonyl-[protein] = L-threonyl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:47004, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11605, ChEBI:CHEBI:15377, ChEBI:CHEBI:30013, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:61977; EC=3.1.3.16;
+CC   -!- SUBUNIT: Homodimer. Interacts with itself. Interacts with PPP1R3B,
+CC       PPP1R3C, PPP1R3D, HIRIP5, and EPM2AIP1. Binds glycogen and Lafora
+CC       bodies. Interacts with NHLRC1/malin (via the NHL repeats). Forms a
+CC       complex with NHLRC1/malin and HSP70. Interacts with PPP1R3D; in the
+CC       presence of NHLC1/malin the interaction leads to ubiquitination and
+CC       autophagic degradation of PPP1R3D. Interacts (via the phosphatase
+CC       domain) with MAPT/Tau; the interaction dephosphorylates MAPT. Interacts
+CC       with PRDM8. {ECO:0000250|UniProtKB:O95278}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:O95278}.
+CC       Endoplasmic reticulum membrane {ECO:0000250|UniProtKB:O95278};
+CC       Peripheral membrane protein {ECO:0000250|UniProtKB:O95278}; Cytoplasmic
+CC       side {ECO:0000250|UniProtKB:O95278}. Cell membrane
+CC       {ECO:0000250|UniProtKB:O95278}. Note=Colocalizes with glycogen synthase
+CC       in punctate structures in the cytoplasm. Primarily associated with
+CC       polyribosomes at the rough endoplasmic reticulum, and also detected at
+CC       the plasma membrane. Under glycogenolytic conditions localizes to the
+CC       nucleus. {ECO:0000250|UniProtKB:O95278}.
+CC   -!- DOMAIN: The CBM20 domain mediates binding to cytoplasmic glycogen and
+CC       to Lafora polyglucosan bodies. {ECO:0000250|UniProtKB:O95278}.
+CC   -!- PTM: Polyubiquitinated by NHLRC1/malin. {ECO:0000250|UniProtKB:O95278}.
+CC   -!- PTM: Phosphorylation on Ser-25 by AMPK affects the phosphatase activity
+CC       of the enzyme and its ability to homodimerize and interact with NHLRC1,
+CC       PPP1R3C or PRKAA2. {ECO:0000250|UniProtKB:O95278}.
+CC   -!- SIMILARITY: Belongs to the protein-tyrosine phosphatase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY560906; ABE98181.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q1M199; -.
+DR   SMR; Q1M199; -.
+DR   STRING; 9612.ENSCAFP00000030595; -.
+DR   CAZy; CBM20; Carbohydrate-Binding Module Family 20.
+DR   PaxDb; Q1M199; -.
+DR   Ensembl; ENSCAFT00030033597; ENSCAFP00030029318; ENSCAFG00030018154.
+DR   eggNOG; KOG1716; Eukaryota.
+DR   InParanoid; Q1M199; -.
+DR   Proteomes; UP000002254; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0098556; C:cytoplasmic side of rough endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:UniProtKB.
+DR   GO; GO:0019203; F:carbohydrate phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:2001069; F:glycogen binding; ISS:UniProtKB.
+DR   GO; GO:0017018; F:myosin phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004725; F:protein tyrosine phosphatase activity; IBA:GO_Central.
+DR   GO; GO:0008138; F:protein tyrosine/serine/threonine phosphatase activity; IEA:InterPro.
+DR   GO; GO:2001070; F:starch binding; IEA:InterPro.
+DR   GO; GO:0006914; P:autophagy; IEA:UniProtKB-KW.
+DR   GO; GO:0016311; P:dephosphorylation; ISS:UniProtKB.
+DR   GO; GO:0005977; P:glycogen metabolic process; ISS:UniProtKB.
+DR   GO; GO:0046838; P:phosphorylated carbohydrate dephosphorylation; ISS:UniProtKB.
+DR   GO; GO:0006470; P:protein dephosphorylation; IEA:InterPro.
+DR   CDD; cd05806; CBM20_laforin; 1.
+DR   CDD; cd14526; DSP_laforin-like; 1.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 3.90.190.10; -; 1.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR034831; CBM20_laforin.
+DR   InterPro; IPR002044; CBM_fam20.
+DR   InterPro; IPR045204; DSP_laforin-like.
+DR   InterPro; IPR000340; Dual-sp_phosphatase_cat-dom.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR042942; Laforin.
+DR   InterPro; IPR029021; Prot-tyrosine_phosphatase-like.
+DR   InterPro; IPR016130; Tyr_Pase_AS.
+DR   InterPro; IPR000387; Tyr_Pase_dom.
+DR   InterPro; IPR020422; TYR_PHOSPHATASE_DUAL_dom.
+DR   PANTHER; PTHR46864; PTHR46864; 1.
+DR   Pfam; PF00686; CBM_20; 1.
+DR   Pfam; PF00782; DSPc; 1.
+DR   SMART; SM01065; CBM_2; 1.
+DR   SMART; SM00195; DSPc; 1.
+DR   SUPFAM; SSF49452; SSF49452; 1.
+DR   SUPFAM; SSF52799; SSF52799; 1.
+DR   PROSITE; PS51166; CBM20; 1.
+DR   PROSITE; PS00383; TYR_PHOSPHATASE_1; 1.
+DR   PROSITE; PS50056; TYR_PHOSPHATASE_2; 1.
+DR   PROSITE; PS50054; TYR_PHOSPHATASE_DUAL; 1.
+PE   3: Inferred from homology;
+KW   Autophagy; Carbohydrate metabolism; Cell membrane; Cytoplasm;
+KW   Endoplasmic reticulum; Glycogen metabolism; Hydrolase; Membrane;
+KW   Phosphoprotein; Protein phosphatase; Reference proteome; Ubl conjugation.
+FT   CHAIN           1..331
+FT                   /note="Laforin"
+FT                   /id="PRO_0000289592"
+FT   DOMAIN          1..124
+FT                   /note="CBM20"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00594"
+FT   DOMAIN          156..323
+FT                   /note="Tyrosine-protein phosphatase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00160"
+FT   MOTIF           266..272
+FT                   /note="Glucan phosphatase signature motif CXAGXGR"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   ACT_SITE        266
+FT                   /note="Phosphocysteine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00160"
+FT   BINDING         32
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   BINDING         87
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   BINDING         103..107
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   BINDING         197
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   BINDING         235
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   BINDING         241
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   BINDING         267..272
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   BINDING         304
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   SITE            329
+FT                   /note="Required for homodimerization"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+FT   MOD_RES         25
+FT                   /note="Phosphoserine; by AMPK"
+FT                   /evidence="ECO:0000250|UniProtKB:O95278"
+SQ   SEQUENCE   331 AA;  36900 MW;  788A905A6D82835B CRC64;
+     MRFRFGVVVP PAGAGAAPEL LVVGSRPELG RWEPRGAVRL RPAGSAAGGG ARALQEPGLW
+     LGEVELAPGE AARDGAEPAR VDTFWYKFLK REPGGALSWE GNGPHHDRCC TYNENNLVDG
+     VYCLPIGHWI EATGHTNEMK HTTDFYFNIA GHQAMHYSRI LPNIWLGSCP RQVEHITIKL
+     KHELGITAVM NFQTEWDIVQ NSSGCNRYPE PMTPDTMIKL YKEEGLVYIW MPTPDMSTEG
+     RVQMLPQAVC LLHALLENGH TVYVHCNAGV GRSTAAVCGW LQYVMGWNLR KVQYFLMAKR
+     PAVYIDEDAL ARAEEDFFQK FGKVRSSVCS V
+//

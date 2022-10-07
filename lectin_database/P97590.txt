@@ -1,0 +1,109 @@
+ID   LEG7_RAT                Reviewed;         136 AA.
+AC   P97590; O54958;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 4.
+DT   03-AUG-2022, entry version 142.
+DE   RecName: Full=Galectin-7;
+DE            Short=Gal-7;
+GN   Name=Lgals7;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Mammary gland;
+RA   Lu J.X.;
+RL   Submitted (JAN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Fischer;
+RX   PubMed=9697310; DOI=10.1046/j.1432-0436.1998.6330159.x;
+RA   Magnaldo T., Fowlis D., Darmon M.;
+RT   "Galectin-7, a marker of all types of stratified epithelia.";
+RL   Differentiation 63:159-168(1998).
+CC   -!- FUNCTION: Could be involved in cell-cell and/or cell-matrix
+CC       interactions necessary for normal growth control. Pro-apoptotic protein
+CC       that functions intracellularly upstream of JNK activation and
+CC       cytochrome c release (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Secreted {ECO:0000250}. Note=May be secreted by a non-classical
+CC       secretory pathway. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U67883; AAB40658.1; -; mRNA.
+DR   EMBL; AF036941; AAB88871.1; -; mRNA.
+DR   RefSeq; NP_072104.2; NM_022582.2.
+DR   RefSeq; XP_006228732.1; XM_006228670.3.
+DR   AlphaFoldDB; P97590; -.
+DR   SMR; P97590; -.
+DR   STRING; 10116.ENSRNOP00000027620; -.
+DR   PaxDb; P97590; -.
+DR   Ensembl; ENSRNOT00000027620; ENSRNOP00000027620; ENSRNOG00000020380.
+DR   GeneID; 29518; -.
+DR   KEGG; rno:29518; -.
+DR   UCSC; RGD:61951; rat.
+DR   CTD; 3963; -.
+DR   RGD; 61951; Lgals7.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   GeneTree; ENSGT00940000155398; -.
+DR   HOGENOM; CLU_037794_3_3_1; -.
+DR   InParanoid; P97590; -.
+DR   OMA; SIEAFNI; -.
+DR   OrthoDB; 1486238at2759; -.
+DR   PhylomeDB; P97590; -.
+DR   PRO; PR:P97590; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020380; Expressed in esophagus and 17 other tissues.
+DR   ExpressionAtlas; P97590; baseline and differential.
+DR   Genevisible; P97590; RN.
+DR   GO; GO:0001533; C:cornified envelope; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; IEA:InterPro.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0016936; F:galactoside binding; IBA:GO_Central.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0007157; P:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules; IEA:InterPro.
+DR   GO; GO:2000562; P:negative regulation of CD4-positive, alpha-beta T cell proliferation; IBA:GO_Central.
+DR   GO; GO:0032689; P:negative regulation of interferon-gamma production; IBA:GO_Central.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IBA:GO_Central.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR030640; Galectin_7.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   PANTHER; PTHR11346:SF107; PTHR11346:SF107; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   2: Evidence at transcript level;
+KW   Apoptosis; Cytoplasm; Lectin; Nucleus; Reference proteome; Secreted.
+FT   CHAIN           1..136
+FT                   /note="Galectin-7"
+FT                   /id="PRO_0000076942"
+FT   DOMAIN          6..136
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         70..76
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        2..5
+FT                   /note="SATH -> M (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        47
+FT                   /note="A -> C (in Ref. 1; AAB40658)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   136 AA;  15285 MW;  460D2CD3191BF294 CRC64;
+     MSATHHKTPL PQGVRLGTVM RIRGVVPDQA GRFHVNLLCG EEQEADAALH FNPRLDTSEV
+     VFNTKQQGKW GREERGTGIP FQRGQPFEVL IITTEEGFKT VIGDDEYLHF HHRMPSSNVR
+     SVEVGGDVQL HSVKIF
+//

@@ -1,0 +1,156 @@
+ID   CONA_CANRO              Reviewed;         236 AA.
+AC   P81364;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-1998, sequence version 1.
+DT   03-AUG-2022, entry version 93.
+DE   RecName: Full=Concanavalin-Ma;
+DE            Short=Con Ma;
+OS   Canavalia rosea (Beach bean) (Canavalia maritima).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; indigoferoid/millettioid clade; Phaseoleae; Canavalia.
+OX   NCBI_TaxID=3825;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RX   PubMed=1367779; DOI=10.1016/0031-9422(91)85111-c;
+RA   Perez G., Perez C., Sousa-Cavada B., Moreira R., Richardson M.;
+RT   "Comparison of the amino acid sequences of the lectins from seeds of
+RT   Dioclea lehmanni and Canavalia maritima.";
+RL   Phytochemistry 30:2619-2621(1991).
+CC   -!- FUNCTION: Glucose/D-mannose specific lectin.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- MISCELLANEOUS: Binds one manganese (or another transition metal) ion
+CC       and one calcium ion. The metal ions are essential for the saccharide-
+CC       binding and cell-agglutinating activities.
+CC   -!- SIMILARITY: Belongs to the leguminous lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; B45587; B45587.
+DR   PDB; 2CWM; X-ray; 1.95 A; A/D=1-236.
+DR   PDB; 2OW4; X-ray; 1.60 A; A=1-236.
+DR   PDB; 2P34; X-ray; 2.10 A; A/B/C/D=1-236.
+DR   PDB; 2P37; X-ray; 2.10 A; A/B/C/D=1-236.
+DR   PDBsum; 2CWM; -.
+DR   PDBsum; 2OW4; -.
+DR   PDBsum; 2P34; -.
+DR   PDBsum; 2P37; -.
+DR   SMR; P81364; -.
+DR   UniLectin; P81364; -.
+DR   EvolutionaryTrace; P81364; -.
+DR   GO; GO:0005537; F:mannose binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR000985; Lectin_LegA_CS.
+DR   InterPro; IPR019825; Lectin_legB_Mn/Ca_BS.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   Pfam; PF00139; Lectin_legB; 2.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00308; LECTIN_LEGUME_ALPHA; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Direct protein sequencing; Lectin; Manganese;
+KW   Mannose-binding; Metal-binding.
+FT   CHAIN           1..236
+FT                   /note="Concanavalin-Ma"
+FT                   /id="PRO_0000105086"
+FT   BINDING         8
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         10
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         10
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         12
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         12
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         14
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         19
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         19
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         24
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         98..99
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         207
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         227
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0000250"
+FT   STRAND          4..10
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   HELIX           15..17
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          24..33
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          35..38
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          45..54
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   TURN            55..58
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          59..65
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          71..77
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   HELIX           80..82
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          86..95
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          97..99
+FT                   /evidence="ECO:0007829|PDB:2CWM"
+FT   STRAND          104..120
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          122..131
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          139..143
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          149..151
+FT                   /evidence="ECO:0007829|PDB:2CWM"
+FT   STRAND          153..156
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          169..176
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          185..197
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          201..204
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   STRAND          208..215
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   HELIX           226..228
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+FT   TURN            229..231
+FT                   /evidence="ECO:0007829|PDB:2OW4"
+SQ   SEQUENCE   236 AA;  25364 MW;  D67791C3B0EB150A CRC64;
+     ADTIVAVELD TYPNTDVGDP SYPHXXXXXX SVRXXTAKWN MQNGKVGTAH ISYNSVGKRL
+     SAVVSYPNGD SATVSYDVDL DNVLPEWVRV GLSASTGLYK ETNTILSWSF TSKLKSNSTH
+     ETNALHFMFN QFTKDQKDLI LQSDATTGTD GNLXXTRVSS NGPSQGSTVG RALFYAPVHI
+     WESSATVAGF DATFXXLIKS PDSHPADGIA FFISNIDSSI PSGSTGRLLG LFPDAN
+//

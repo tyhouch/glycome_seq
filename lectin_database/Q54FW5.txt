@@ -1,0 +1,97 @@
+ID   CUPH_DICDI              Reviewed;         768 AA.
+AC   Q54FW5;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAY-2005, sequence version 1.
+DT   03-AUG-2022, entry version 83.
+DE   RecName: Full=Putative calcium up-regulated protein H;
+GN   Name=cupH; ORFNames=DDB_G0290563;
+OS   Dictyostelium discoideum (Slime mold).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Dictyostelia; Dictyosteliales;
+OC   Dictyosteliaceae; Dictyostelium.
+OX   NCBI_TaxID=44689;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AX4;
+RX   PubMed=15875012; DOI=10.1038/nature03481;
+RA   Eichinger L., Pachebat J.A., Gloeckner G., Rajandream M.A., Sucgang R.,
+RA   Berriman M., Song J., Olsen R., Szafranski K., Xu Q., Tunggal B.,
+RA   Kummerfeld S., Madera M., Konfortov B.A., Rivero F., Bankier A.T.,
+RA   Lehmann R., Hamlin N., Davies R., Gaudet P., Fey P., Pilcher K., Chen G.,
+RA   Saunders D., Sodergren E.J., Davis P., Kerhornou A., Nie X., Hall N.,
+RA   Anjard C., Hemphill L., Bason N., Farbrother P., Desany B., Just E.,
+RA   Morio T., Rost R., Churcher C.M., Cooper J., Haydock S., van Driessche N.,
+RA   Cronin A., Goodhead I., Muzny D.M., Mourier T., Pain A., Lu M., Harper D.,
+RA   Lindsay R., Hauser H., James K.D., Quiles M., Madan Babu M., Saito T.,
+RA   Buchrieser C., Wardroper A., Felder M., Thangavelu M., Johnson D.,
+RA   Knights A., Loulseged H., Mungall K.L., Oliver K., Price C., Quail M.A.,
+RA   Urushihara H., Hernandez J., Rabbinowitsch E., Steffen D., Sanders M.,
+RA   Ma J., Kohara Y., Sharp S., Simmonds M.N., Spiegler S., Tivey A.,
+RA   Sugano S., White B., Walker D., Woodward J.R., Winckler T., Tanaka Y.,
+RA   Shaulsky G., Schleicher M., Weinstock G.M., Rosenthal A., Cox E.C.,
+RA   Chisholm R.L., Gibbs R.A., Loomis W.F., Platzer M., Kay R.R.,
+RA   Williams J.G., Dear P.H., Noegel A.A., Barrell B.G., Kuspa A.;
+RT   "The genome of the social amoeba Dictyostelium discoideum.";
+RL   Nature 435:43-57(2005).
+CC   -!- FUNCTION: May play an important role in stabilizing and/or regulating
+CC       the cell membrane during Ca(2+) stress or certain stages of
+CC       development. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Membrane {ECO:0000250}; Peripheral
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the cup family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAFI02000164; EAL62142.1; -; Genomic_DNA.
+DR   RefSeq; XP_635652.1; XM_630560.1.
+DR   AlphaFoldDB; Q54FW5; -.
+DR   STRING; 44689.DDB0266360; -.
+DR   PaxDb; Q54FW5; -.
+DR   EnsemblProtists; EAL62142; EAL62142; DDB_G0290563.
+DR   GeneID; 8627724; -.
+DR   KEGG; ddi:DDB_G0290563; -.
+DR   dictyBase; DDB_G0290563; cupH.
+DR   HOGENOM; CLU_020711_0_0_1; -.
+DR   PhylomeDB; Q54FW5; -.
+DR   PRO; PR:Q54FW5; -.
+DR   Proteomes; UP000002195; Chromosome 5.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProt.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043157; P:response to cation stress; IBA:GO_Central.
+DR   CDD; cd00161; RICIN; 1.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF00652; Ricin_B_lectin; 1.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lectin; Membrane; Reference proteome; Repeat.
+FT   CHAIN           1..768
+FT                   /note="Putative calcium up-regulated protein H"
+FT                   /id="PRO_0000327956"
+FT   DOMAIN          25..145
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   DOMAIN          116..248
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REGION          1..22
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   768 AA;  85342 MW;  605F5436F473A676 CRC64;
+     MINIEDISKS SNQSEEKQLK STSSKPKYSF AAKSLFKGSN NITPYYLSTS NTFQCVASES
+     IQTWLLSDDG HIFTSSGNFV LDVSSGGYFV ELVQLNSNSK TQIWTIDTTN NKIQNQGNGN
+     YLDIDCFNIC VAPLNGNATQ QWTTFRRAPI PTGNWGYFQS EQLGSNNYWG LSVLNNSTSY
+     NTSVVMNKVQ AKSKGQIWQM TSDGHILSRL DGNLVLDIGP SINGSTTNYY LNTNVYKAND
+     LMQQWGINEN NQIFNQYYPN LCIGFVGQLG VDSTVNCVLA QPSSACDTCF QWIANPTYSL
+     NQIVSEVPEP FPAYTSGDLL ASYQYLSNDA TSNFTDDIRS LYTGINVSLQ SFLSIVTNAT
+     CPSSIHSTED FSNVQNQIKT ELIYAIDVRL VFENYSGFYS KLFSQGSSNL TNLANLINVD
+     MSSNQMVNAN YTDAITSIFY SLISEIPVGG SIIANIGQSA VEFGELMSQS NYQGASTYQV
+     ELSQLYTHLN TNYENEMANA QSMKDTILQD WGMMSKTYAL CFLPTNDPSS LNMNGLDFEK
+     ISDVASVAYE IAMIQMLLPT TYQIYFTSAG YWVPYSDGDF AYSDNSGTYI MATIKYSNSY
+     PPKELTDKLW NNGVSKQEFF LSAYGWNLAT SLTYYNTTNQ YSNIFKLAFP TIKNFTGVPM
+     QFVMTNDGDN LGNFTVKTHF AKFFSTYYSV GDLGHHYFDI AVTDINKNKV ANFTVDIKLK
+     ALEGSYVSIK TGSLVVQPGY AVGNPICNQG SYSLMFSASI LIPIYKSE
+//

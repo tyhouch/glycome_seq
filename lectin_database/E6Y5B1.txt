@@ -1,0 +1,132 @@
+ID   E6Y5B1_9CALI            Unreviewed;       522 AA.
+AC   E6Y5B1;
+DT   08-MAR-2011, integrated into UniProtKB/TrEMBL.
+DT   08-MAR-2011, sequence version 1.
+DT   03-AUG-2022, entry version 30.
+DE   SubName: Full=Capsid {ECO:0000313|EMBL:ACJ04906.1};
+OS   Norovirus Bo/GIII/B309/2003/BEL.
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Caliciviridae; Norovirus.
+OX   NCBI_TaxID=571217 {ECO:0000313|EMBL:ACJ04906.1, ECO:0000313|Proteomes:UP000118736};
+RN   [1] {ECO:0000313|EMBL:ACJ04906.1, ECO:0000313|Proteomes:UP000118736}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bo/GIII/B309/2003/BEL {ECO:0000313|EMBL:ACJ04906.1};
+RX   PubMed=21346032; DOI=10.1099/vir.0.030072-0;
+RA   Mauroy A., Gillet L., Mathijs E., Vanderplasschen A., Thiry E.;
+RT   "Alternative attachment factors and internalization pathways for GIII.2
+RT   bovine noroviruses.";
+RL   J. Gen. Virol. 92:1398-1409(2011).
+RN   [2] {ECO:0000313|EMBL:ACJ04906.1, ECO:0000313|Proteomes:UP000118736}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bo/GIII/B309/2003/BEL {ECO:0000313|EMBL:ACJ04906.1};
+RX   PubMed=23087113; DOI=10.1128/JVI.02251-12;
+RA   Mauroy A., Scipioni A., Mathijs E., Ziant D., Daube G., Thiry E.;
+RT   "Complete Genome Sequence of a Novel Bovine Norovirus: Evidence for Slow
+RT   Genetic Evolution in Genogroup III Genotype 2 Noroviruses.";
+RL   J. Virol. 86:12449-12450(2012).
+RN   [3] {ECO:0007829|PDB:5E6T}
+RP   X-RAY CRYSTALLOGRAPHY (2.27 ANGSTROMS) OF 222-507 IN COMPLEX WITH ZINC.
+RX   PubMed=26599362; DOI=10.1016/j.virol.2015.10.022;
+RA   Singh B.K., Koromyslova A., Hansman G.S.;
+RT   "Structural analysis of bovine norovirus protruding domain.";
+RL   Virology 487:296-301(2016).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU794907; ACJ04906.1; -; Genomic_RNA.
+DR   PDB; 5E6T; X-ray; 2.27 A; A/B=222-507.
+DR   PDBsum; 5E6T; -.
+DR   SMR; E6Y5B1; -.
+DR   UniLectin; E6Y5B1; -.
+DR   Proteomes; UP000118736; Genome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   InterPro; IPR004005; Calicivirus_coat.
+DR   InterPro; IPR013643; Calicivirus_coat_C.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00915; Calici_coat; 1.
+DR   Pfam; PF08435; Calici_coat_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5E6T}; Metal-binding {ECO:0007829|PDB:5E6T};
+KW   Zinc {ECO:0007829|PDB:5E6T}.
+FT   DOMAIN          14..273
+FT                   /note="Calici_coat"
+FT                   /evidence="ECO:0000259|Pfam:PF00915"
+FT   DOMAIN          297..515
+FT                   /note="Calici_coat_C"
+FT                   /evidence="ECO:0000259|Pfam:PF08435"
+FT   REGION          1..22
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         241
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         296
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         296
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         304
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         306
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         336
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         353
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         353
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         368
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         378
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         482
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+FT   BINDING         507
+FT                   /ligand="Zinc"
+FT                   /ligand_id="ChEBI:CHEBI:27363"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5E6T"
+SQ   SEQUENCE   522 AA;  56889 MW;  F6E17DD273978AB1 CRC64;
+     MKMTDRDVTD SAPALGQVLP PEVEASVPVE PTAGAPVAAP TAGQVNPIDP WIFANFVQAP
+     QGEFTISPNN NPGEILFELE LGPDLNPYLA HLRRMYNGWT GSMRVRVLLA GNAFSAGKVV
+     VFCVPPGFDT SYLTPSQATQ FPHVLIDVRA PEPVEMPLED VRNILFHQGP DSRMRLMGML
+     YTPLRANSGA DPFVVTGRVL TCPSPNFSFF FLVPPTVEER EPPFTLPNLP VNNLSHSRVM
+     EPIAQMMSSR NFPASVQFQN GRCTLSGDLL GTTPSSPSDL GAFVGLIAEP GSRVVELSQP
+     NQEDFHAGSA PAPFGFPDFS DCSLTFVVAS ATTVGERTVN ARSPQNFTPA LGHITFDEEA
+     PADLFRAHLR NLWDPTEHSF WRIPDYRADV LGSEFAPSVS APGVGETLLF FMCNVPRLNG
+     ANPNPCPCLL PQEWITHFVS ERAALQSDVA LLNYVNPNTG RVLFEAKLYA NGFLTVNLGA
+     SDQATLPVDG IFKFVSWVSF YYQLRPVGNA SVGRRLPRLD GF
+//

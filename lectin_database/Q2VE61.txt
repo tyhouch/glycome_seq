@@ -1,0 +1,96 @@
+ID   Q2VE61_9REOV            Unreviewed;       274 AA.
+AC   Q2VE61;
+DT   10-JAN-2006, integrated into UniProtKB/TrEMBL.
+DT   10-JAN-2006, sequence version 1.
+DT   03-AUG-2022, entry version 90.
+DE   RecName: Full=Outer capsid protein VP4 {ECO:0000256|RuleBase:RU004344};
+DE   Flags: Fragment;
+GN   Name=VP4 {ECO:0000313|EMBL:ABB84939.1};
+OS   Rotavirus A.
+OC   Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes;
+OC   Reovirales; Reoviridae; Sedoreovirinae; Rotavirus.
+OX   NCBI_TaxID=28875 {ECO:0000313|EMBL:ABB84939.1};
+RN   [1] {ECO:0000313|EMBL:ABB84939.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CU127P4 {ECO:0000313|EMBL:ABB84939.1};
+RX   PubMed=18228123; DOI=10.1007/s11262-008-0201-9;
+RA   Theamboonlers A., Bhattarakosol P., Chongsrisawat V., Sungkapalee T.,
+RA   Wutthirattanakowit N., Poovorawan Y.;
+RT   "Molecular characterization of group A human rotaviruses in Bangkok and
+RT   Buriram, Thailand during 2004-2006 reveals the predominance of G1P[8],
+RT   G9P[8] and a rare G3P[19] strain.";
+RL   Virus Genes 36:289-298(2008).
+RN   [2] {ECO:0007829|PDB:5VX4, ECO:0007829|PDB:5VX5}
+RP   X-RAY CRYSTALLOGRAPHY (1.28 ANGSTROMS) OF 54-213.
+RX   PubMed=29980685; DOI=10.1038/s41467-018-05098-4;
+RA   Hu L., Sankaran B., Laucirica D.R., Patil K., Salmen W., Ferreon A.C.M.,
+RA   Tsoi P.S., Lasanajak Y., Smith D.F., Ramani S., Atmar R.L., Estes M.K.,
+RA   Ferreon J.C., Prasad B.V.V.;
+RT   "Glycan recognition in globally dominant human rotaviruses.";
+RL   Nat. Commun. 9:2631-2631(2018).
+RN   [3] {ECO:0007829|PDB:6PCU}
+RP   X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS) OF 54-213.
+RX   PubMed=31403468; DOI=10.1172/JCI128382;
+RA   Feng N., Hu L., Ding S., Sanyal M., Zhao B., Sankaran B., Ramani S.,
+RA   McNeal M., Yasukawa L.L., Song Y., Prasad B.V.V., Greenberg H.B.;
+RT   "Human VP8* mAbs neutralize rotavirus selectively in human intestinal
+RT   epithelial cells.";
+RL   J. Clin. Invest. 130:3839-3851(2019).
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000256|RuleBase:RU004344}.
+CC   -!- SIMILARITY: Belongs to the rotavirus VP4 family.
+CC       {ECO:0000256|RuleBase:RU004344}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ235985; ABB84939.1; -; Genomic_DNA.
+DR   PDB; 5VX4; X-ray; 1.55 A; A=54-213.
+DR   PDB; 5VX5; X-ray; 1.28 A; A=54-213.
+DR   PDB; 6PCU; X-ray; 2.40 A; A/D/G=54-213.
+DR   PDBsum; 5VX4; -.
+DR   PDBsum; 5VX5; -.
+DR   PDBsum; 6PCU; -.
+DR   SMR; Q2VE61; -.
+DR   UniLectin; Q2VE61; -.
+DR   ABCD; Q2VE61; 18 sequenced antibodies.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019028; C:viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR035330; Rota_VP4_MID.
+DR   InterPro; IPR038017; Rota_VP4_MID_sf.
+DR   InterPro; IPR000416; VP4_concanavalin-like.
+DR   Pfam; PF17477; Rota_VP4_MID; 1.
+DR   Pfam; PF00426; VP4_haemagglut; 1.
+DR   SUPFAM; SSF111379; SSF111379; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5VX4, ECO:0007829|PDB:5VX5};
+KW   Capsid protein {ECO:0000256|RuleBase:RU004344};
+KW   Host cell membrane {ECO:0000256|ARBA:ARBA00022511};
+KW   Host endoplasmic reticulum {ECO:0000256|ARBA:ARBA00023184};
+KW   Host membrane {ECO:0000256|ARBA:ARBA00022511};
+KW   Host-virus interaction {ECO:0000256|ARBA:ARBA00022804};
+KW   Membrane {ECO:0000256|ARBA:ARBA00022511};
+KW   Viral attachment to host cell {ECO:0000256|ARBA:ARBA00022804};
+KW   Viral penetration into host cytoplasm {ECO:0000256|ARBA:ARBA00022595};
+KW   Virion {ECO:0000256|RuleBase:RU004344};
+KW   Virus entry into host cell {ECO:0000256|ARBA:ARBA00022804}.
+FT   DOMAIN          55..213
+FT                   /note="VP4_haemagglut"
+FT                   /evidence="ECO:0000259|Pfam:PF00426"
+FT   DOMAIN          239..272
+FT                   /note="Rota_VP4_MID"
+FT                   /evidence="ECO:0000259|Pfam:PF17477"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000313|EMBL:ABB84939.1"
+FT   NON_TER         274
+FT                   /evidence="ECO:0000313|EMBL:ABB84939.1"
+SQ   SEQUENCE   274 AA;  31428 MW;  30268A512420959F CRC64;
+     SQFYSVDLHD EIEQIGSEKT QNVTVNPGPF AQTRYAPVNW GHGEINDSTT VEPILDGPYQ
+     PTTFKPPNDY WLLISSNTDG VVYESTNNSD FWTAVIAVEP HVSQTNRQYV LFGENKQFNV
+     ENSSDKWKFF EMFKGSSQSD FSNRRTLTSN NRLVGMLKYG GRVWTFHGET PRATTDSSNT
+     ADLNNISIII HSEFYIIPRS QESKCNEYIN NGLPPIQNTR NVVPLSLSSR SIQYRRAQVN
+     EDITISKTSL WKEMQYNRDI IIRFKFGNSV INRE
+//

@@ -1,0 +1,129 @@
+ID   FCN2_PIG                Reviewed;         323 AA.
+AC   Q29041;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 98.
+DE   RecName: Full=Ficolin-2;
+DE   AltName: Full=Collagen/fibrinogen domain-containing protein 2;
+DE   AltName: Full=Ficolin-B;
+DE   AltName: Full=Ficolin-beta;
+DE   AltName: Full=L-ficolin;
+DE   Flags: Precursor;
+GN   Name=FCN2;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBUNIT, AND TISSUE SPECIFICITY.
+RC   TISSUE=Uterus;
+RX   PubMed=7686157; DOI=10.1016/s0021-9258(19)85267-5;
+RA   Ichijo H., Hellman U., Wernstedt C., Gonez L.J., Claesson-Welsh L.,
+RA   Heldin C.H., Miyazono K.;
+RT   "Molecular cloning and characterization of ficolin, a multimeric protein
+RT   with fibrinogen- and collagen-like domains.";
+RL   J. Biol. Chem. 268:14505-14513(1993).
+CC   -!- FUNCTION: May function in innate immunity through activation of the
+CC       lectin complement pathway. Calcium-dependent and GlcNAc-binding lectin
+CC       (By similarity). {ECO:0000250|UniProtKB:Q15485}.
+CC   -!- SUBUNIT: Homotrimer. Interacts with elastin. Interacts with MASP1 and
+CC       MASP2. {ECO:0000250|UniProtKB:Q15485}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Mainly expressed in skeletal muscle.
+CC       {ECO:0000269|PubMed:7686157}.
+CC   -!- DOMAIN: The fibrinogen-like domain (FBG) contains calcium-binding sites
+CC       that may be involved in carbohydrate binding.
+CC       {ECO:0000250|UniProtKB:Q15485}.
+CC   -!- SIMILARITY: Belongs to the ficolin lectin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L12344; AAA92455.1; -; mRNA.
+DR   PIR; A47172; A47172.
+DR   RefSeq; NP_999033.1; NM_213868.1.
+DR   AlphaFoldDB; Q29041; -.
+DR   SMR; Q29041; -.
+DR   PaxDb; Q29041; -.
+DR   PeptideAtlas; Q29041; -.
+DR   GeneID; 396881; -.
+DR   KEGG; ssc:396881; -.
+DR   CTD; 2220; -.
+DR   eggNOG; KOG2579; Eukaryota.
+DR   InParanoid; Q29041; -.
+DR   OrthoDB; 1035379at2759; -.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Unplaced.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001867; P:complement activation, lectin pathway; IEA:UniProtKB-KW.
+DR   CDD; cd00087; FReD; 1.
+DR   Gene3D; 3.90.215.10; -; 1.
+DR   InterPro; IPR008160; Collagen.
+DR   InterPro; IPR036056; Fibrinogen-like_C.
+DR   InterPro; IPR014716; Fibrinogen_a/b/g_C_1.
+DR   InterPro; IPR002181; Fibrinogen_a/b/g_C_dom.
+DR   InterPro; IPR020837; Fibrinogen_CS.
+DR   Pfam; PF01391; Collagen; 1.
+DR   Pfam; PF00147; Fibrinogen_C; 1.
+DR   SMART; SM00186; FBG; 1.
+DR   SUPFAM; SSF56496; SSF56496; 1.
+DR   PROSITE; PS00514; FIBRINOGEN_C_1; 1.
+DR   PROSITE; PS51406; FIBRINOGEN_C_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Collagen; Complement activation lectin pathway; Disulfide bond;
+KW   Glycoprotein; Immunity; Innate immunity; Lectin; Metal-binding;
+KW   Reference proteome; Repeat; Secreted; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..323
+FT                   /note="Ficolin-2"
+FT                   /id="PRO_0000269571"
+FT   DOMAIN          52..102
+FT                   /note="Collagen-like"
+FT   DOMAIN          106..323
+FT                   /note="Fibrinogen C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00739"
+FT   REGION          55..107
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        86..100
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         259
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:O00602"
+FT   BINDING         261
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:O00602"
+FT   BINDING         265
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:O00602"
+FT   CARBOHYD        249
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        302
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        310
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        108..136
+FT                   /evidence="ECO:0000250|UniProtKB:O00602"
+FT   DISULFID        115..143
+FT                   /evidence="ECO:0000250|UniProtKB:O00602"
+FT   DISULFID        267..280
+FT                   /evidence="ECO:0000250|UniProtKB:O00602"
+SQ   SEQUENCE   323 AA;  34682 MW;  849BF031D77E16B7 CRC64;
+     MDTRGVAAAM RPLVLLVAFL CTAAPALDTC PEVKVVGLEG SDKLSILRGC PGLPGAAGPK
+     GEAGASGPKG GQGPPGAPGE PGPPGPKGDR GEKGEPGPKG ESWETEQCLT GPRTCKELLT
+     RGHILSGWHT IYLPDCQPLT VLCDMDTDGG GWTVFQRRSD GSVDFYRDWA AYKRGFGSQL
+     GEFWLGNDHI HALTAQGTNE LRVDLVDFEG NHQFAKYRSF QVADEAEKYM LVLGAFVEGN
+     AGDSLTSHNN SLFTTKDQDN DQYASNCAVL YQGAWWYNSC HVSNLNGRYL GGSHGSFANG
+     VNWSSGKGYN YSYKVSEMKF RAT
+//

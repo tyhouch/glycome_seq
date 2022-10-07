@@ -1,0 +1,208 @@
+ID   A3CM52_STRSV            Unreviewed;      1625 AA.
+AC   A3CM52;
+DT   20-MAR-2007, integrated into UniProtKB/TrEMBL.
+DT   20-MAR-2007, sequence version 1.
+DT   03-AUG-2022, entry version 88.
+DE   SubName: Full=Platelet-binding glycoprotein {ECO:0000313|EMBL:ABN44257.1};
+GN   Name=srpA {ECO:0000313|EMBL:ABN44257.1};
+GN   OrderedLocusNames=SSA_0829 {ECO:0000313|EMBL:ABN44257.1};
+OS   Streptococcus sanguinis (strain SK36).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=388919 {ECO:0000313|EMBL:ABN44257.1, ECO:0000313|Proteomes:UP000002148};
+RN   [1] {ECO:0000313|EMBL:ABN44257.1, ECO:0000313|Proteomes:UP000002148}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SK36 {ECO:0000313|EMBL:ABN44257.1,
+RC   ECO:0000313|Proteomes:UP000002148};
+RX   PubMed=17277061; DOI=10.1128/JB.01808-06;
+RA   Xu P., Alves J.M., Kitten T., Brown A., Chen Z., Ozaki L.S., Manque P.,
+RA   Ge X., Serrano M.G., Puiu D., Hendricks S., Wang Y., Chaplin M.D., Akan D.,
+RA   Paik S., Peterson D.L., Macrina F.L., Buck G.A.;
+RT   "Genome of the opportunistic pathogen Streptococcus sanguinis.";
+RL   J. Bacteriol. 189:3166-3175(2007).
+RN   [2] {ECO:0007829|PDB:5IIY, ECO:0007829|PDB:5IJ1}
+RP   X-RAY CRYSTALLOGRAPHY (1.68 ANGSTROMS) OF 249-449 IN COMPLEX WITH CALCIUM
+RP   AND N-ACETYL-D-GLUCOSAMINE.
+RX   PubMed=27685666; DOI=10.1021/acs.biochem.6b00704;
+RA   Loukachevitch L.V., Bensing B.A., Yu H., Zeng J., Chen X., Sullam P.M.,
+RA   Iverson T.M.;
+RT   "Structures of the Streptococcus sanguinis SrpA Binding Region with Human
+RT   Sialoglycans Suggest Features of the Physiological Ligand.";
+RL   Biochemistry 55:5927-5937(2016).
+RN   [3] {ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3}
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 249-449 IN COMPLEX WITH CALCIUM.
+RX   PubMed=26833566; DOI=10.1074/jbc.M115.701425;
+RA   Bensing B.A., Loukachevitch L.V., McCulloch K.M., Yu H., Vann K.R.,
+RA   Wawrzak Z., Anderson S., Chen X., Sullam P.M., Iverson T.M.;
+RT   "Structural Basis for Sialoglycan Binding by the Streptococcus sanguinis
+RT   SrpA Adhesin.";
+RL   J. Biol. Chem. 291:7230-7240(2016).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000387; ABN44257.1; -; Genomic_DNA.
+DR   RefSeq; WP_011836739.1; NC_009009.1.
+DR   RefSeq; YP_001034807.1; NC_009009.1.
+DR   PDB; 5EQ2; X-ray; 1.80 A; A/B=249-449.
+DR   PDB; 5EQ3; X-ray; 2.00 A; A/B=249-449.
+DR   PDB; 5EQ4; X-ray; 2.30 A; A/B/C/D=249-449.
+DR   PDB; 5IIY; X-ray; 1.89 A; A/B=249-448.
+DR   PDB; 5IJ1; X-ray; 1.80 A; A/B=249-449.
+DR   PDB; 5IJ2; X-ray; 1.68 A; A/B=249-449.
+DR   PDB; 5IJ3; X-ray; 1.70 A; A/B=252-448.
+DR   PDB; 5KIQ; X-ray; 1.64 A; A/B=252-448.
+DR   PDBsum; 5EQ2; -.
+DR   PDBsum; 5EQ3; -.
+DR   PDBsum; 5EQ4; -.
+DR   PDBsum; 5IIY; -.
+DR   PDBsum; 5IJ1; -.
+DR   PDBsum; 5IJ2; -.
+DR   PDBsum; 5IJ3; -.
+DR   PDBsum; 5KIQ; -.
+DR   SMR; A3CM52; -.
+DR   STRING; 388919.SSA_0829; -.
+DR   UniLectin; A3CM52; -.
+DR   EnsemblBacteria; ABN44257; ABN44257; SSA_0829.
+DR   KEGG; ssa:SSA_0829; -.
+DR   PATRIC; fig|388919.9.peg.792; -.
+DR   eggNOG; COG5295; Bacteria.
+DR   HOGENOM; CLU_234582_0_0_9; -.
+DR   OMA; VIAMPTH; -.
+DR   OrthoDB; 2076760at2; -.
+DR   Proteomes; UP000002148; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR044024; aRib.
+DR   InterPro; IPR022263; KxYKxGKxW.
+DR   InterPro; IPR019931; LPXTG_anchor.
+DR   InterPro; IPR026465; Ser_adhes_glycop.
+DR   Pfam; PF18938; aRib; 1.
+DR   Pfam; PF00746; Gram_pos_anchor; 1.
+DR   Pfam; PF19258; KxYKxGKxW_sig; 1.
+DR   TIGRFAMs; TIGR03715; KxYKxGKxW; 1.
+DR   TIGRFAMs; TIGR04224; ser_adhes_Nterm; 1.
+DR   PROSITE; PS50847; GRAM_POS_ANCHORING; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3};
+KW   Calcium {ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3};
+KW   Cell wall {ECO:0000256|ARBA:ARBA00022512};
+KW   Metal-binding {ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3};
+KW   Peptidoglycan-anchor {ECO:0000256|ARBA:ARBA00023088};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000002148};
+KW   Secreted {ECO:0000256|ARBA:ARBA00022512};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729}.
+FT   DOMAIN          1590..1625
+FT                   /note="GRAM_POS_ANCHORING"
+FT                   /evidence="ECO:0000259|PROSITE:PS50847"
+FT   REGION          113..145
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          193..260
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1388..1409
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1570..1597
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        123..145
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        193..242
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         253
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+FT   BINDING         255
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+FT   BINDING         281
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+FT   BINDING         282
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+FT   BINDING         294
+FT                   /ligand="N-acetyl-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:506227"
+FT                   /evidence="ECO:0007829|PDB:5IJ2"
+FT   BINDING         353
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+FT   BINDING         357
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5EQ4"
+FT   BINDING         372
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+FT   BINDING         373
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:5IJ1, ECO:0007829|PDB:5IJ2"
+FT   BINDING         375
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+FT   BINDING         400
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0007829|PDB:5IJ1, ECO:0007829|PDB:5IJ2"
+FT   BINDING         400
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5IIY"
+FT   BINDING         434
+FT                   /ligand="Calcium"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:5EQ2, ECO:0007829|PDB:5EQ3"
+SQ   SEQUENCE   1625 AA;  152094 MW;  24081204E921CE98 CRC64;
+     MFFKRQKGKY HEVERVTRFK LIKSGKHWLR AATSQFGLFR SMKGGGLSSI ELKVTEEQVT
+     DKKSGIDFLR GIVATGAVLG GAVVTSTTVH AEEGQALEKV IDTTDVLATR GETVLGEESS
+     AAEAATATAS SHTESESVSD TSSASASASV SASISASISA SESMSQFSSA SISASTSQAV
+     SDSLSVSESL SVSSSTSDSV SASQPASTSA SSKSESTVNS QSASSETNRS STNNGSTSSS
+     SETARVRKRR ATDTTPPTIT VPSDIIAYRG EEFEFYFEIT DDSGQVKNIE LSTFGKPLGL
+     NWLEYSEDNF NVPGNATSDN PLRVRVHGTV PLNEPIPADK NRAQFTRTIR AWDAAGNVSS
+     NITFVIKYRA QTDKYNPADP TITYVDRLSS LSPSEKNAVE AAVRAANPQI PAAARITVSA
+     NGTVTITYPD SSTDTITANR VVKDLASSRS ALTSASTSAS TSASVSASTS ASLSASTSAS
+     QSIVDSKSAS VSASTSASTS ASTSASVSAS TSASTSASVS ASTSASASAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASASASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSSS AKASESASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS ASASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASESASTSAS VSASTSASTS
+     ASVSASESAS TSSSAKASES ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASTSAS TSASVSASTS ASTSASVSAS TSASTSASVS ASTSASTSAS VSASTSASTS
+     ASVSASESAS TSSSAKASES ASTSASVSAS ESASTSASVS VSESASTSAS VSTSTSASTS
+     ASVSASESAS TSASASASES TSVRASALAL ASISASVSAS ESASTSASLS GSESASISDS
+     QSISESTSVS ISTSVLHSQL DLVHEKEFYS LSLSTSESLS AAVSLSELAR VSQSVSESLS
+     TSLSASQSTS ESLSASARQS ELDLISRGRL PQTGETESKA SILALGLGAL GLAFKRRKKK
+     SDSEE
+//

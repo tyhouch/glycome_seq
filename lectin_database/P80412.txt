@@ -1,0 +1,87 @@
+ID   FVE_FLAVE               Reviewed;         114 AA.
+AC   P80412;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   25-MAY-2022, entry version 63.
+DE   RecName: Full=Immunomodulatory protein FIP-Fve;
+OS   Flammulina velutipes (Agaricus velutipes).
+OC   Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes;
+OC   Agaricomycetidae; Agaricales; Physalacriaceae; Flammulina.
+OX   NCBI_TaxID=38945;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND ACETYLATION AT SER-1.
+RX   PubMed=7705335; DOI=10.1111/j.1432-1033.1995.tb20256.x;
+RA   Ko J.-L., Hsu C.-I., Lin R.-H., Kao C.-L., Lin J.-Y.;
+RT   "A new fungal immunomodulatory protein, FIP-fve isolated from the edible
+RT   mushroom, Flammulina velutipes and its complete amino acid sequence.";
+RL   Eur. J. Biochem. 228:244-249(1995).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS).
+RX   PubMed=12948495; DOI=10.1016/s0022-2836(03)00923-9;
+RA   Paaventhan P., Joseph J.S., Seow S.V., Vaday S., Robinson H., Chua K.Y.,
+RA   Kolatkar P.R.;
+RT   "A 1.7A structure of Fve, a member of the new fungal immunomodulatory
+RT   protein family.";
+RL   J. Mol. Biol. 332:461-470(2003).
+CC   -!- FUNCTION: Lectin with specificity for complex cell-surface
+CC       carbohydrates. Possesses immunomodulatory activity, stimulates
+CC       lymphocyte mitogenesis, suppresses systemic anaphylaxis reactions and
+CC       edema, enhances transcription of IL-2, IFN-gamma and TNF-alpha and
+CC       hemagglutinates red blood cells.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SIMILARITY: Belongs to the fungal immunomodulatory protein (FIP)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; S69147; S69147.
+DR   PDB; 1OSY; X-ray; 1.70 A; A/B=1-114.
+DR   PDBsum; 1OSY; -.
+DR   AlphaFoldDB; P80412; -.
+DR   SMR; P80412; -.
+DR   UniLectin; P80412; -.
+DR   iPTMnet; P80412; -.
+DR   EvolutionaryTrace; P80412; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0002682; P:regulation of immune system process; IEA:InterPro.
+DR   InterPro; IPR036344; FIP_sf.
+DR   InterPro; IPR015339; Immunomodulatory_FIP-Fve_fun.
+DR   Pfam; PF09259; Fve; 1.
+DR   SUPFAM; SSF101542; SSF101542; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Lectin.
+FT   CHAIN           1..114
+FT                   /note="Immunomodulatory protein FIP-Fve"
+FT                   /id="PRO_0000087390"
+FT   MOD_RES         1
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:7705335"
+FT   HELIX           2..13
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          15..19
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          23..26
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          32..40
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          48..53
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          56..61
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          72..75
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   HELIX           76..78
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   TURN            79..82
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          91..96
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          98..100
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+FT   STRAND          105..111
+FT                   /evidence="ECO:0007829|PDB:1OSY"
+SQ   SEQUENCE   114 AA;  12704 MW;  D38C641DCC112A94 CRC64;
+     SATSLTFQLA YLVKKIDFDY TPNWGRGTPS SYIDNLTFPK VLTDKKYSYR VVVNGSDLGV
+     ESNFAVTPSG GQTINFLQYN KGYGVADTKT IQVFVVIPDT GNSEEYIIAE WKKT
+//

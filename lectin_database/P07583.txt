@@ -1,0 +1,187 @@
+ID   LEG4_CHICK              Reviewed;         135 AA.
+AC   P07583;
+DT   01-APR-1988, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   03-AUG-2022, entry version 155.
+DE   RecName: Full=Beta-galactoside-binding lectin;
+DE   AltName: Full=14 kDa lectin;
+DE   AltName: Full=C-14;
+DE   AltName: Full=Galectin CG-1B;
+GN   Name=CG-1B;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3004444; DOI=10.1016/0006-291x(86)90525-5;
+RA   Ohyama Y., Hirabayashi J., Oda Y., Ohno S., Kawasaki H., Suzuki K.,
+RA   Kasai K.;
+RT   "Nucleotide sequence of chick 14K beta-galactoside-binding lectin mRNA.";
+RL   Biochem. Biophys. Res. Commun. 134:51-56(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3182759; DOI=10.1093/oxfordjournals.jbchem.a122436;
+RA   Ohyama Y., Kasai K.;
+RT   "Isolation and characterization of the chick 14K beta-galactoside-binding
+RT   lectin gene.";
+RL   J. Biochem. 104:173-177(1988).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 2-135, AND ACETYLATION AT SER-2.
+RC   TISSUE=Embryo;
+RX   PubMed=3597352; DOI=10.1093/jb/101.3.775;
+RA   Hirabayashi J., Kawasaki H., Suzuki K., Kasai K.;
+RT   "Complete amino acid sequence of 14 kDa beta-galactoside-binding lectin of
+RT   chick embryo.";
+RL   J. Biochem. 101:775-787(1987).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS), SUBUNIT, MUTAGENESIS OF CYS-8, AND
+RP   DISULFIDE BOND.
+RC   STRAIN=Bantam;
+RX   PubMed=18848566; DOI=10.1016/j.jmb.2008.09.054;
+RA   Lopez-Lucendo M.F., Solis D., Saiz J.L., Kaltner H., Russwurm R., Andre S.,
+RA   Gabius H.J., Romero A.;
+RT   "Homodimeric chicken galectin CG-1B (C-14): Crystal structure and detection
+RT   of unique redox-dependent shape changes involving inter- and intrasubunit
+RT   disulfide bridges by gel filtration, ultracentrifugation, site-directed
+RT   mutagenesis, and peptide mass fingerprinting.";
+RL   J. Mol. Biol. 386:366-378(2009).
+RN   [5]
+RP   FUNCTION, AND INTERACTION WITH NEWCASTLE DISEASE VIRUS PROTEIN HN
+RP   (MICROBIAL INFECTION).
+RX   PubMed=28978647; DOI=10.1074/jbc.m116.772897;
+RA   Sun J., Han Z., Qi T., Zhao R., Liu S.;
+RT   "Chicken galectin-1B inhibits Newcastle disease virus adsorption and
+RT   replication through binding to hemagglutinin-neuraminidase (HN)
+RT   glycoprotein.";
+RL   J. Biol. Chem. 292:20141-20161(2017).
+CC   -!- FUNCTION: This protein binds beta-galactoside. May participate in host
+CC       antiviral defense through specific interaction with glycans on the
+CC       viral envelope glycoproteins. {ECO:0000269|PubMed:28978647}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000269|PubMed:18848566}.
+CC   -!- SUBUNIT: (Microbial infection) Interacts with newcastle disease virus
+CC       protein HN; this interaction inhibits viral adsorption rather than
+CC       internalization. {ECO:0000269|PubMed:28978647}.
+CC   -!- TISSUE SPECIFICITY: Mainly in the intestine (adult), mainly in the skin
+CC       (embryo).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M11674; AAA48779.1; -; mRNA.
+DR   EMBL; D00311; BAA00214.1; -; Genomic_DNA.
+DR   PIR; JX0042; LNCH14.
+DR   RefSeq; NP_990826.1; NM_205495.1.
+DR   PDB; 3DUI; X-ray; 2.10 A; A/B=1-135.
+DR   PDBsum; 3DUI; -.
+DR   AlphaFoldDB; P07583; -.
+DR   SMR; P07583; -.
+DR   STRING; 9031.ENSGALP00000020275; -.
+DR   BindingDB; P07583; -.
+DR   ChEMBL; CHEMBL2189155; -.
+DR   UniLectin; P07583; -.
+DR   iPTMnet; P07583; -.
+DR   PaxDb; P07583; -.
+DR   Ensembl; ENSGALT00000020302; ENSGALP00000020275; ENSGALG00000012420.
+DR   GeneID; 396491; -.
+DR   KEGG; gga:396491; -.
+DR   CTD; 396491; -.
+DR   VEuPathDB; HostDB:geneid_396491; -.
+DR   eggNOG; KOG3587; Eukaryota.
+DR   GeneTree; ENSGT00940000155534; -.
+DR   HOGENOM; CLU_037794_5_0_1; -.
+DR   InParanoid; P07583; -.
+DR   OMA; CNSKKME; -.
+DR   OrthoDB; 1429018at2759; -.
+DR   PhylomeDB; P07583; -.
+DR   TreeFam; TF315551; -.
+DR   Reactome; R-GGA-381426; Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).
+DR   Reactome; R-GGA-8957275; Post-translational protein phosphorylation.
+DR   EvolutionaryTrace; P07583; -.
+DR   PRO; PR:P07583; -.
+DR   Proteomes; UP000000539; Chromosome 1.
+DR   Bgee; ENSGALG00000012420; Expressed in lung and 13 other tissues.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0043236; F:laminin binding; IBA:GO_Central.
+DR   CDD; cd00070; GLECT; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR044156; Galectin-like.
+DR   InterPro; IPR001079; Galectin_CRD.
+DR   PANTHER; PTHR11346; PTHR11346; 1.
+DR   Pfam; PF00337; Gal-bind_lectin; 1.
+DR   SMART; SM00908; Gal-bind_lectin; 1.
+DR   SMART; SM00276; GLECT; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS51304; GALECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Disulfide bond;
+KW   Lectin; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:3597352"
+FT   CHAIN           2..135
+FT                   /note="Beta-galactoside-binding lectin"
+FT                   /id="PRO_0000076951"
+FT   DOMAIN          5..135
+FT                   /note="Galectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00639"
+FT   BINDING         46..50
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         54
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         63
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         70..76
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         70..73
+FT                   /ligand="a beta-D-galactoside"
+FT                   /ligand_id="ChEBI:CHEBI:28034"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:3597352"
+FT   DISULFID        3..8
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000269|PubMed:18848566"
+FT   DISULFID        8
+FT                   /note="Interchain; in linked form"
+FT                   /evidence="ECO:0000269|PubMed:18848566"
+FT   MUTAGEN         8
+FT                   /note="C->V: No redox-dependent shape changes."
+FT                   /evidence="ECO:0000269|PubMed:18848566"
+FT   STRAND          7..9
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          18..25
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          31..39
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          42..53
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          56..68
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          74..76
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          86..93
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          95..102
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          105..110
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+FT   STRAND          120..135
+FT                   /evidence="ECO:0007829|PDB:3DUI"
+SQ   SEQUENCE   135 AA;  15063 MW;  5059E30CC51F899A CRC64;
+     MSCQGPVCTN LGLKPGQRLT VKGIIAPNAK SFVMNLGKDS THLGLHFNPR FDAHGDVNLI
+     VCNSKKMEEW GTEQRETVFP FQKGAPIEIT FSINPSDLTV HLPGHQFSFP NRLGLSVFDY
+     FDTHGDFTLR SVSWE
+//

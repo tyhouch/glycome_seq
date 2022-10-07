@@ -1,0 +1,92 @@
+ID   OPGD_ECOUT              Reviewed;         551 AA.
+AC   Q1RBZ1;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   25-MAY-2022, entry version 79.
+DE   RecName: Full=Glucans biosynthesis protein D {ECO:0000255|HAMAP-Rule:MF_01068};
+DE   Flags: Precursor;
+GN   Name=mdoD {ECO:0000255|HAMAP-Rule:MF_01068};
+GN   Synonyms=opgD {ECO:0000255|HAMAP-Rule:MF_01068};
+GN   OrderedLocusNames=UTI89_C1645;
+OS   Escherichia coli (strain UTI89 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=364106;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UTI89 / UPEC;
+RX   PubMed=16585510; DOI=10.1073/pnas.0600938103;
+RA   Chen S.L., Hung C.-S., Xu J., Reigstad C.S., Magrini V., Sabo A.,
+RA   Blasiar D., Bieri T., Meyer R.R., Ozersky P., Armstrong J.R., Fulton R.S.,
+RA   Latreille J.P., Spieth J., Hooton T.M., Mardis E.R., Hultgren S.J.,
+RA   Gordon J.I.;
+RT   "Identification of genes subject to positive selection in uropathogenic
+RT   strains of Escherichia coli: a comparative genomics approach.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5977-5982(2006).
+CC   -!- FUNCTION: Probably involved in the control of the structural glucose
+CC       backbone of osmoregulated periplasmic glucans (OPGs).
+CC       {ECO:0000255|HAMAP-Rule:MF_01068}.
+CC   -!- PATHWAY: Glycan metabolism; osmoregulated periplasmic glucan (OPG)
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01068}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01068}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the OpgD/OpgG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01068}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000243; ABE07123.1; -; Genomic_DNA.
+DR   RefSeq; WP_000375944.1; NC_007946.1.
+DR   AlphaFoldDB; Q1RBZ1; -.
+DR   SMR; Q1RBZ1; -.
+DR   EnsemblBacteria; ABE07123; ABE07123; UTI89_C1645.
+DR   KEGG; eci:UTI89_C1645; -.
+DR   HOGENOM; CLU_023403_2_0_6; -.
+DR   OMA; DVQFFHV; -.
+DR   UniPathway; UPA00637; -.
+DR   Proteomes; UP000001952; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0009250; P:glucan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   HAMAP; MF_01068; MdoD_OpgD; 1.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR023724; Glucan_biosyn_MdoD.
+DR   InterPro; IPR014438; Glucan_biosyn_MdoG/MdoD.
+DR   InterPro; IPR007444; Glucan_biosyn_MdoG_C.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   PANTHER; PTHR30504; PTHR30504; 1.
+DR   Pfam; PF04349; MdoG; 1.
+DR   PIRSF; PIRSF006281; MdoG; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..32
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01068"
+FT   CHAIN           33..551
+FT                   /note="Glucans biosynthesis protein D"
+FT                   /id="PRO_1000064546"
+SQ   SEQUENCE   551 AA;  62795 MW;  E4A6DC9004C4E893 CRC64;
+     MDRRRFIKGS MAMAAVCGTS GIASLFSQAA FAADSDIADG QTQRFDFSIL QSMAHDLAQT
+     AWRGAPRPLP DTLATMTPQA YNSIQYDAEK SLWHNVENRQ LDAQFFHMGM GFRRRVRMFS
+     VDPATHLARE IHFRPELFKY NDAGVDTKQL EGQSDLGFAG FRVFKAPELA RRDVVSFLGA
+     SYFRAVDDTY QYGLSARGLA IDTYTDSKEE FPDFTAFWFD TVKPGATTFT VYALLDSASI
+     TGAYKFTIHC EKNQVIMDVE NHLYARKDIK QLGIAPMTSM FSCGTNERRM CDTIHPQIHD
+     SDRLSMWRGN GEWICRPLNN PQKLQFNAYT DNNPKGFGLL QLDRDFSHYQ DIMGWYNKRP
+     SLWVEPRNKW GKGTIGLMEI PTTGETLDNI VCFWQPEKAV KAGDEFAFQY RLYWSAQPPV
+     HCPLARVMAT RTGMGGFPEG WAPGEHYPEK WARRFAVDFV GGDLKAAAPK GIEPVITLSS
+     GEAKQIEILY IEPIDGYRIQ FDWYPTSDST DPVDMRMYLR CQGDAISETW LYQYFPPAPD
+     KRQYVDDRVM S
+//

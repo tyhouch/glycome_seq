@@ -1,0 +1,176 @@
+ID   LK110_ARATH             Reviewed;         616 AA.
+AC   Q3E884;
+DT   11-JAN-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   03-AUG-2022, entry version 110.
+DE   RecName: Full=Putative L-type lectin-domain containing receptor kinase I.10;
+DE            Short=LecRK-I.10;
+DE            EC=2.7.11.1;
+DE   Flags: Precursor;
+GN   Name=LECRK110; OrderedLocusNames=At5g60310; ORFNames=F15L12.19;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RA   Kaneko T., Katoh T., Asamizu E., Sato S., Nakamura Y., Kotani H.,
+RA   Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. XI.";
+RL   Submitted (APR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Columbia;
+RX   PubMed=27862469; DOI=10.1111/tpj.13415;
+RA   Cheng C.Y., Krishnakumar V., Chan A.P., Thibaud-Nissen F., Schobel S.,
+RA   Town C.D.;
+RT   "Araport11: a complete reannotation of the Arabidopsis thaliana reference
+RT   genome.";
+RL   Plant J. 89:789-804(2017).
+RN   [3]
+RP   GENE FAMILY.
+RX   DOI=10.1080/0735-260291044287;
+RA   Barre A., Herve C., Lescure B., Rouge P.;
+RT   "Lectin receptor kinases in plants.";
+RL   Crit. Rev. Plant Sci. 21:379-399(2002).
+RN   [4]
+RP   GENE FAMILY, AND NOMENCLATURE.
+RX   PubMed=19773388; DOI=10.1093/jxb/erp277;
+RA   Bouwmeester K., Govers F.;
+RT   "Arabidopsis L-type lectin receptor kinases: phylogeny, classification, and
+RT   expression profiles.";
+RL   J. Exp. Bot. 60:4383-4396(2009).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the protein kinase
+CC       superfamily. Ser/Thr protein kinase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the leguminous lectin
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB026632; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CP002688; AED97307.1; -; Genomic_DNA.
+DR   RefSeq; NP_200839.1; NM_125424.2.
+DR   AlphaFoldDB; Q3E884; -.
+DR   SMR; Q3E884; -.
+DR   PaxDb; Q3E884; -.
+DR   PRIDE; Q3E884; -.
+DR   EnsemblPlants; AT5G60310.1; AT5G60310.1; AT5G60310.
+DR   GeneID; 836153; -.
+DR   Gramene; AT5G60310.1; AT5G60310.1; AT5G60310.
+DR   KEGG; ath:AT5G60310; -.
+DR   Araport; AT5G60310; -.
+DR   TAIR; locus:2144055; AT5G60310.
+DR   eggNOG; ENOG502QSJ4; Eukaryota.
+DR   HOGENOM; CLU_000288_62_3_1; -.
+DR   InParanoid; Q3E884; -.
+DR   OMA; TAISYQY; -.
+DR   OrthoDB; 346275at2759; -.
+DR   PhylomeDB; Q3E884; -.
+DR   PRO; PR:Q3E884; -.
+DR   Proteomes; UP000006548; Chromosome 5.
+DR   ExpressionAtlas; Q3E884; baseline and differential.
+DR   Genevisible; Q3E884; AT.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004675; F:transmembrane receptor protein serine/threonine kinase activity; IBA:GO_Central.
+DR   GO; GO:0042742; P:defense response to bacterium; IBA:GO_Central.
+DR   GO; GO:0002229; P:defense response to oomycetes; IBA:GO_Central.
+DR   GO; GO:0006468; P:protein phosphorylation; IEA:InterPro.
+DR   CDD; cd06899; lectin_legume_LecRK_Arcelin_ConA; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR001220; Legume_lectin_dom.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   Pfam; PF00139; Lectin_legB; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS00307; LECTIN_LEGUME_BETA; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Glycoprotein; Kinase; Lectin; Membrane;
+KW   Nucleotide-binding; Receptor; Reference proteome;
+KW   Serine/threonine-protein kinase; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..616
+FT                   /note="Putative L-type lectin-domain containing receptor
+FT                   kinase I.10"
+FT                   /id="PRO_0000403079"
+FT   TOPO_DOM        23..288
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        289..309
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        310..616
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          343..616
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          24..258
+FT                   /note="Legume-lectin like"
+FT   ACT_SITE        467
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         349..357
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         371
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   CARBOHYD        56
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        124
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        181
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        204
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        225
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   616 AA;  68667 MW;  CBE5228CF11DAC47 CRC64;
+     MAWGLFQILM ISFFHLIKLS SQQETSFVYE TFRSQENLYL DGSATVLPNG LLQLTNASDH
+     QMAHVFYKDS IELSSSKPLS FSTHFVCALV PQPGVEGGHG MAFVVSPSMD FSHAESTRYL
+     GIFNVSKNGS PSSNVLAVEL DTIWNPDFED IDHNHVGIDV NSPLSVGTAS ASYYSDIKGK
+     NESINLLSGH PIQVWVDYED NMLNVSMAPR EVQKPSRPLL SQHINLSDIY PNRRLFVGFS
+     AATGTAISYQ YVLSWSFSTS RGSLQRFDIS RLPEVPHPRA EHKNLSPLFI DLLGFLAIMG
+     LCTLTGMYFF KRGKYAEITE EWENEFGAHR FSYKSLYKAT KGFHKDGFLG KGGFGEVYRG
+     KLLLSREKAV KRMSHDGDQG LKQFVAEVVS MRCLKHRNLV PLLGYCRRKH EFLLVSDYMT
+     NGSLDEHLFD DQKPVLSWPQ RLVIIKGIAS ALCYLHTGAD QVVLHRDIKA SNIMLDAEFN
+     GRLGDFGMAS FHDHGGISDS TCAVGTIGYM APEILYMGAS TRTDVYAFGV FMVEVTCGRR
+     PVEPQLQLEK QILIEWVPES RPTMEQVILY LNQNLPLPDF SPYTVGISNH SSVLIDAASL
+     VASRSWSAAS SATNSP
+//

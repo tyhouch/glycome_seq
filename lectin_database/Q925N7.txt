@@ -1,0 +1,110 @@
+ID   CL2D5_RAT               Reviewed;         233 AA.
+AC   Q925N7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   03-AUG-2022, entry version 103.
+DE   RecName: Full=C-type lectin domain family 2 member D5;
+DE   AltName: Full=Osteoclast inhibitory lectin;
+GN   Name=Ocil; Synonyms=Clec2d5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11278931; DOI=10.1074/jbc.m011554200;
+RA   Zhou H., Kartsogiannis V., Hu Y.S., Elliott J., Quinn J.M.W.,
+RA   McKinstry W.J., Gillespie M.T., Ng K.W.;
+RT   "A novel osteoblast-derived C-type lectin that inhibits osteoclast
+RT   formation.";
+RL   J. Biol. Chem. 276:14916-14923(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=17462921; DOI=10.1016/j.immuni.2007.03.013;
+RA   Voigt S., Mesci A., Ettinger J., Fine J.H., Chen P., Chou W., Carlyle J.R.;
+RT   "Cytomegalovirus evasion of innate immunity by subversion of the NKR-
+RT   P1B:Ocil/Clr-b missing-self axis.";
+RL   Immunity 26:617-627(2007).
+CC   -!- FUNCTION: Lectin-type cell surface receptor. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF321552; AAK50880.1; -; mRNA.
+DR   EMBL; EF100688; ABO15828.1; -; mRNA.
+DR   RefSeq; NP_569086.1; NM_130402.2.
+DR   RefSeq; XP_008761531.1; XM_008763309.2.
+DR   AlphaFoldDB; Q925N7; -.
+DR   SMR; Q925N7; -.
+DR   STRING; 10116.ENSRNOP00000010098; -.
+DR   GlyGen; Q925N7; 1 site.
+DR   PRIDE; Q925N7; -.
+DR   Ensembl; ENSRNOT00000090431; ENSRNOP00000071394; ENSRNOG00000048726.
+DR   GeneID; 113937; -.
+DR   KEGG; rno:113937; -.
+DR   UCSC; RGD:620070; rat.
+DR   CTD; 29121; -.
+DR   RGD; 620070; Ocil.
+DR   GeneTree; ENSGT00940000155319; -.
+DR   InParanoid; Q925N7; -.
+DR   OrthoDB; 1201127at2759; -.
+DR   PhylomeDB; Q925N7; -.
+DR   TreeFam; TF351467; -.
+DR   PRO; PR:Q925N7; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046703; F:natural killer cell lectin-like receptor binding; ISO:RGD.
+DR   GO; GO:0045671; P:negative regulation of osteoclast differentiation; ISO:RGD.
+DR   GO; GO:0042270; P:protection from natural killer cell mediated cytotoxicity; ISO:RGD.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Glycoprotein; Lectin; Membrane; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..233
+FT                   /note="C-type lectin domain family 2 member D5"
+FT                   /id="PRO_0000315294"
+FT   TOPO_DOM        1..76
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        77..97
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        98..233
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          119..228
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          1..52
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        13..52
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        132
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   233 AA;  25686 MW;  56C7B6D08171CDEF CRC64;
+     MPSSAHLQDP PPLLSRTLTQ NEGQTSLRQS SSCGPSAASA SESLSGSTES RIPHSKMLQG
+     KLPRNIPLEY PAGLYCCYVV IIVLSVAVVA LSVALSVKKT AQISTINTYA ACPRNWIGVG
+     NKCFYFNEIP SNWTLSQTLC KEQGAELARF DTEEELNFLR RYKGSSGYWF GLHRESSAHP
+     WKWTDNTEYN NSVSIGGDEK HGFLSDNGFS SGRGYIVRKS ICRKPNSYTS QCL
+//

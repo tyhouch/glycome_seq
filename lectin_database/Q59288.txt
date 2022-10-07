@@ -1,0 +1,301 @@
+ID   CSLA_PEDHD              Reviewed;         700 AA.
+AC   Q59288; C6Y215;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   03-AUG-2022, entry version 118.
+DE   RecName: Full=Chondroitinase-AC;
+DE            EC=4.2.2.5;
+DE   AltName: Full=Chondroitin sulfate AC lyase;
+DE   AltName: Full=Chondroitin-AC eliminase;
+DE   AltName: Full=Chondroitin-AC lyase;
+DE   Flags: Precursor;
+GN   Name=cslA; Synonyms=chnAC; OrderedLocusNames=Phep_0786;
+OS   Pedobacter heparinus (strain ATCC 13125 / DSM 2366 / CIP 104194 / JCM 7457
+OS   / NBRC 12017 / NCIMB 9290 / NRRL B-14731 / HIM 762-3).
+OC   Bacteria; Bacteroidetes; Sphingobacteriia; Sphingobacteriales;
+OC   Sphingobacteriaceae; Pedobacter.
+OX   NCBI_TaxID=485917;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=10618199; DOI=10.1128/aem.66.1.29-35.2000;
+RA   Tkalec A.L., Fink D., Blain F., Zhang-Sun G., Laliberte M., Bennett D.C.,
+RA   Gu K., Zimmermann J.J.F., Su H.;
+RT   "Isolation and expression in Escherichia coli of cslA and cslB, genes
+RT   coding for the chondroitin sulfate-degrading enzymes chondroitinase AC and
+RT   chondroitinase B, respectively, from Flavobacterium heparinum.";
+RL   Appl. Environ. Microbiol. 66:29-35(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 13125 / DSM 2366 / CIP 104194 / JCM 7457 / NBRC 12017 /
+RC   NCIMB 9290 / NRRL B-14731 / HIM 762-3;
+RX   PubMed=21304637; DOI=10.4056/sigs.22138;
+RA   Han C., Spring S., Lapidus A., Del Rio T.G., Tice H., Copeland A.,
+RA   Cheng J.F., Lucas S., Chen F., Nolan M., Bruce D., Goodwin L., Pitluck S.,
+RA   Ivanova N., Mavromatis K., Mikhailova N., Pati A., Chen A., Palaniappan K.,
+RA   Land M., Hauser L., Chang Y.J., Jeffries C.C., Saunders E., Chertkov O.,
+RA   Brettin T., Goker M., Rohde M., Bristow J., Eisen J.A., Markowitz V.,
+RA   Hugenholtz P., Kyrpides N.C., Klenk H.P., Detter J.C.;
+RT   "Complete genome sequence of Pedobacter heparinus type strain (HIM 762-
+RT   3).";
+RL   Stand. Genomic Sci. 1:54-62(2009).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS).
+RX   PubMed=10329169; DOI=10.1006/jmbi.1999.2698;
+RA   Fethiere J., Eggimann B., Cygler M.;
+RT   "Crystal structure of chondroitin AC lyase, a representative of a family of
+RT   glycosaminoglycan degrading enzymes.";
+RL   J. Mol. Biol. 288:635-647(1999).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS).
+RX   PubMed=11327856; DOI=10.1021/bi0024254;
+RA   Huang W., Boju L., Tkalec A.L., Su H., Yang H.O., Gunay N.S.,
+RA   Linhardt R.J., Kim Y.S., Matte A., Cygler M.;
+RT   "Active site of chondroitin AC lyase revealed by the structure of enzyme-
+RT   oligosaccharide complexes and mutagenesis.";
+RL   Biochemistry 40:2359-2372(2001).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Eliminative degradation of polysaccharides containing 1,4-
+CC         beta-D-hexosaminyl and 1,3-beta-D-glucuronosyl linkages to
+CC         disaccharides containing 4-deoxy-beta-D-gluc-4-enuronosyl groups.;
+CC         EC=4.2.2.5;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC       Note=Binds 1 Ca(2+) ion per subunit.;
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 8 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U27583; AAC83383.1; -; Genomic_DNA.
+DR   EMBL; CP001681; ACU03008.1; -; Genomic_DNA.
+DR   RefSeq; WP_012780954.1; NZ_AQGK01000003.1.
+DR   PDB; 1CB8; X-ray; 1.90 A; A=23-700.
+DR   PDB; 1HM2; X-ray; 2.00 A; A=1-700.
+DR   PDB; 1HM3; X-ray; 2.10 A; A=1-700.
+DR   PDB; 1HMU; X-ray; 2.00 A; A=1-700.
+DR   PDB; 1HMW; X-ray; 2.30 A; A=1-700.
+DR   PDBsum; 1CB8; -.
+DR   PDBsum; 1HM2; -.
+DR   PDBsum; 1HM3; -.
+DR   PDBsum; 1HMU; -.
+DR   PDBsum; 1HMW; -.
+DR   AlphaFoldDB; Q59288; -.
+DR   SMR; Q59288; -.
+DR   STRING; 485917.Phep_0786; -.
+DR   DrugBank; DB01872; 2-deoxy-2-acetamido-beta-D-galactose-4-sulfate.
+DR   DrugBank; DB03863; 2-O-Methyl-beta-L-fucopyranose.
+DR   DrugBank; DB02305; 4,5-Dehydro-D-Glucuronic Acid.
+DR   DrugBank; DB03569; 4,5-Dehydro-L-Iduronic Acid.
+DR   DrugBank; DB03389; alpha-D-Xylopyranose.
+DR   DrugBank; DB02945; alpha-L-iduronic acid.
+DR   DrugBank; DB03879; alpha-L-methyl-fucose.
+DR   DrugBank; DB03156; beta-D-glucuronic acid.
+DR   DrugBank; DB02186; N-acetyl-beta-D-galactosamine 6-sulfate.
+DR   CAZy; PL8; Polysaccharide Lyase Family 8.
+DR   EnsemblBacteria; ACU03008; ACU03008; Phep_0786.
+DR   KEGG; phe:Phep_0786; -.
+DR   eggNOG; COG5492; Bacteria.
+DR   HOGENOM; CLU_004172_2_1_10; -.
+DR   OMA; RYYQDET; -.
+DR   OrthoDB; 941406at2; -.
+DR   BioCyc; MetaCyc:MON-15799; -.
+DR   BRENDA; 4.2.2.5; 2286.
+DR   EvolutionaryTrace; Q59288; -.
+DR   Proteomes; UP000000852; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0030341; F:chondroitin AC lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 1.50.10.100; -; 1.
+DR   Gene3D; 2.60.220.10; -; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR008929; Chondroitin_lyas.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   InterPro; IPR038970; Lyase_8.
+DR   InterPro; IPR011071; Lyase_8-like_C.
+DR   InterPro; IPR012970; Lyase_8_alpha_N.
+DR   InterPro; IPR004103; Lyase_8_C.
+DR   InterPro; IPR003159; Lyase_8_central_dom.
+DR   PANTHER; PTHR38481; PTHR38481; 1.
+DR   Pfam; PF02278; Lyase_8; 1.
+DR   Pfam; PF02884; Lyase_8_C; 1.
+DR   Pfam; PF08124; Lyase_8_N; 1.
+DR   SUPFAM; SSF48230; SSF48230; 1.
+DR   SUPFAM; SSF49863; SSF49863; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium; Glycoprotein; Lyase; Metal-binding;
+KW   Reference proteome; Signal.
+FT   SIGNAL          1..22
+FT   CHAIN           23..700
+FT                   /note="Chondroitinase-AC"
+FT                   /id="PRO_0000024927"
+FT   ACT_SITE        225
+FT   ACT_SITE        234
+FT   ACT_SITE        288
+FT   BINDING         405
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         407
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         416
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   BINDING         417
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT   CARBOHYD        328
+FT                   /note="O-linked (Man...) serine"
+FT   CARBOHYD        455
+FT                   /note="O-linked (Man...) serine"
+FT   HELIX           27..39
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           46..56
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          73..75
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           79..93
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            98..101
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           103..119
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           126..130
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           132..143
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           144..146
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          147..149
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           153..161
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           168..170
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           173..189
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           193..204
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          207..217
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          225..227
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            231..233
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           234..249
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           258..270
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           273..275
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           283..285
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           287..291
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            293..296
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           299..301
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           302..311
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           313..315
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           316..326
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            332..335
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          339..343
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            344..347
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          348..353
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          356..361
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            381..384
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          385..394
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           395..397
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           401..403
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           406..408
+FT                   /evidence="ECO:0007829|PDB:1HM2"
+FT   STRAND          413..415
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          425..427
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          436..440
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          445..453
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          456..464
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          469..478
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          480..492
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          497..499
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          502..504
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          509..514
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          519..522
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          525..528
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          533..538
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          541..546
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            547..549
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          557..572
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          574..584
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           590..593
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           596..598
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          601..614
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            615..618
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          619..632
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          635..641
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          643..648
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          655..659
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          666..674
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   TURN            675..677
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   STRAND          680..686
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+FT   HELIX           690..692
+FT                   /evidence="ECO:0007829|PDB:1CB8"
+SQ   SEQUENCE   700 AA;  79694 MW;  C36B608FCAFFC656 CRC64;
+     MKKLFVTCIV FFSILSPALL IAQQTGTAEL IMKRVMLDLK KPLRNMDKVA EKNLNTLQPD
+     GSWKDVPYKD DAMTNWLPNN HLLQLETIIQ AYIEKDSHYY GDDKVFDQIS KAFKYWYDSD
+     PKSRNWWHNE IATPQALGEM LILMRYGKKP LDEALVHKLT ERMKRGEPEK KTGANKTDIA
+     LHYFYRALLT SDEALLSFAV KELFYPVQFV HYEEGLQYDY SYLQHGPQLQ ISSYGAVFIT
+     GVLKLANYVR DTPYALSTEK LAIFSKYYRD SYLKAIRGSY MDFNVEGRGV SRPDILNKKA
+     EKKRLLVAKM IDLKHTEEWA DAIARTDSTV AAGYKIEPYH HQFWNGDYVQ HLRPAYSFNV
+     RMVSKRTRRS ESGNKENLLG RYLSDGATNI QLRGPEYYNI MPVWEWDKIP GITSRDYLTD
+     RPLTKLWGEQ GSNDFAGGVS DGVYGASAYA LDYDSLQAKK AWFFFDKEIV CLGAGINSNA
+     PENITTTLNQ SWLNGPVIST AGKTGRGKIT TFKAQGQFWL LHDAIGYYFP EGANLSLSTQ
+     SQKGNWFHIN NSHSKDEVSG DVFKLWINHG ARPENAQYAY IVLPGINKPE EIKKYNGTAP
+     KVLANTNQLQ AVYHQQLDMV QAIFYTAGKL SVAGIEIETD KPCAVLIKHI NGKQVIWAAD
+     PLQKEKTAVL SIRDLKTGKT NRVKIDFPQQ EFAGATVELK
+//

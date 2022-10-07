@@ -1,0 +1,745 @@
+ID   DHSO_HUMAN              Reviewed;         357 AA.
+AC   Q00796; B2R655; B7Z3A6; J3JZZ5; Q16682; Q9UMD6;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   23-MAR-2010, sequence version 4.
+DT   03-AUG-2022, entry version 222.
+DE   RecName: Full=Sorbitol dehydrogenase {ECO:0000303|PubMed:12962626, ECO:0000303|PubMed:3365415, ECO:0000303|PubMed:8088829};
+DE            Short=SDH {ECO:0000303|PubMed:12962626};
+DE            EC=1.1.1.- {ECO:0000269|PubMed:12962626, ECO:0000269|PubMed:3365415};
+DE   AltName: Full=(R,R)-butanediol dehydrogenase {ECO:0000305|PubMed:3365415};
+DE            EC=1.1.1.4 {ECO:0000269|PubMed:3365415};
+DE   AltName: Full=L-iditol 2-dehydrogenase;
+DE            EC=1.1.1.14 {ECO:0000250|UniProtKB:P07846};
+DE   AltName: Full=Polyol dehydrogenase {ECO:0000303|PubMed:3365415};
+DE   AltName: Full=Ribitol dehydrogenase {ECO:0000305|PubMed:3365415};
+DE            Short=RDH;
+DE            EC=1.1.1.56 {ECO:0000269|PubMed:3365415};
+DE   AltName: Full=Xylitol dehydrogenase {ECO:0000303|PubMed:3365415};
+DE            Short=XDH;
+DE            EC=1.1.1.9 {ECO:0000269|PubMed:3365415};
+GN   Name=SORD;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND VARIANT THR-269.
+RC   TISSUE=Liver;
+RX   PubMed=8088829; DOI=10.1006/geno.1994.1276;
+RA   Lee F.K., Cheung M.C., Chung S.;
+RT   "The human sorbitol dehydrogenase gene: cDNA cloning, sequence
+RT   determination, and mapping by fluorescence in situ hybridization.";
+RL   Genomics 21:354-358(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORM 1), AND VARIANTS LEU-239
+RP   AND THR-269.
+RX   PubMed=7782086; DOI=10.1016/0888-7543(95)80082-w;
+RA   Iwata T., Popescu N.C., Zimonjic D.B., Karlsson C., Hoeoeg J.-O., Vaca G.,
+RA   Rodriguez I.R., Carper D.;
+RT   "Structural organization of the human sorbitol dehydrogenase gene (SORD).";
+RL   Genomics 26:55-62(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT THR-269.
+RX   PubMed=9183016; DOI=10.1111/j.1432-1033.1997.00760.x;
+RA   Carr I.M., Markham A.F., Coletta P.L.;
+RT   "Identification and characterisation of a sequence related to human
+RT   sorbitol dehydrogenase.";
+RL   Eur. J. Biochem. 245:760-767(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2), AND VARIANT
+RP   THR-269.
+RC   TISSUE=Brain, and Hippocampus;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16572171; DOI=10.1038/nature04601;
+RA   Zody M.C., Garber M., Sharpe T., Young S.K., Rowen L., O'Neill K.,
+RA   Whittaker C.A., Kamal M., Chang J.L., Cuomo C.A., Dewar K.,
+RA   FitzGerald M.G., Kodira C.D., Madan A., Qin S., Yang X., Abbasi N.,
+RA   Abouelleil A., Arachchi H.M., Baradarani L., Birditt B., Bloom S.,
+RA   Bloom T., Borowsky M.L., Burke J., Butler J., Cook A., DeArellano K.,
+RA   DeCaprio D., Dorris L. III, Dors M., Eichler E.E., Engels R., Fahey J.,
+RA   Fleetwood P., Friedman C., Gearin G., Hall J.L., Hensley G., Johnson E.,
+RA   Jones C., Kamat A., Kaur A., Locke D.P., Madan A., Munson G., Jaffe D.B.,
+RA   Lui A., Macdonald P., Mauceli E., Naylor J.W., Nesbitt R., Nicol R.,
+RA   O'Leary S.B., Ratcliffe A., Rounsley S., She X., Sneddon K.M.B.,
+RA   Stewart S., Sougnez C., Stone S.M., Topham K., Vincent D., Wang S.,
+RA   Zimmer A.R., Birren B.W., Hood L., Lander E.S., Nusbaum C.;
+RT   "Analysis of the DNA sequence and duplication history of human chromosome
+RT   15.";
+RL   Nature 440:671-675(2006).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT THR-269.
+RC   TISSUE=Brain, and Lymph;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   PROTEIN SEQUENCE OF 2-357.
+RC   TISSUE=Liver;
+RX   PubMed=2691249; DOI=10.1111/j.1432-1033.1989.tb15240.x;
+RA   Karlsson C., Maret W., Auld D.S., Hoeoeg J.-O., Joernvall H.;
+RT   "Variability within mammalian sorbitol dehydrogenases. The primary
+RT   structure of the human liver enzyme.";
+RL   Eur. J. Biochem. 186:543-550(1989).
+RN   [8]
+RP   PROTEIN SEQUENCE OF 2-21.
+RC   TISSUE=Platelet;
+RX   PubMed=12665801; DOI=10.1038/nbt810;
+RA   Gevaert K., Goethals M., Martens L., Van Damme J., Staes A., Thomas G.R.,
+RA   Vandekerckhove J.;
+RT   "Exploring proteomes and analyzing protein processing by mass spectrometric
+RT   identification of sorted N-terminal peptides.";
+RL   Nat. Biotechnol. 21:566-569(2003).
+RN   [9]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, COFACTOR, ACTIVITY REGULATION, SUBUNIT, AND TISSUE SPECIFICITY.
+RX   PubMed=3365415; DOI=10.1021/bi00405a035;
+RA   Maret W., Auld D.S.;
+RT   "Purification and characterization of human liver sorbitol dehydrogenase.";
+RL   Biochemistry 27:1622-1628(1988).
+RN   [10]
+RP   FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=16278369; DOI=10.2164/jandrol.05108;
+RA   Frenette G., Thabet M., Sullivan R.;
+RT   "Polyol pathway in human epididymis and semen.";
+RL   J. Androl. 27:233-239(2006).
+RN   [11]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J., Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in a
+RT   refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [12]
+RP   TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=20372835; DOI=10.3892/or_00000755;
+RA   Szabo Z., Hamalainen J., Loikkanen I., Moilanen A.M., Hirvikoski P.,
+RA   Vaisanen T., Paavonen T.K., Vaarala M.H.;
+RT   "Sorbitol dehydrogenase expression is regulated by androgens in the human
+RT   prostate.";
+RL   Oncol. Rep. 23:1233-1239(2010).
+RN   [13]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=19423711; DOI=10.1074/jbc.m109.001792;
+RA   Lanaspa M.A., Andres-Hernando A., Rivard C.J., Dai Y., Li N., Berl T.;
+RT   "ZAC1 is up-regulated by hypertonicity and decreases sorbitol dehydrogenase
+RT   expression, allowing accumulation of sorbitol in kidney cells.";
+RL   J. Biol. Chem. 284:19974-19981(2009).
+RN   [14]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [15]
+RP   REVIEW, AND ROLE OF THE POLYOL PATHWAY IN DIABETIC RETINOPATHY.
+RX   PubMed=25105142; DOI=10.1155/2014/801269;
+RA   Safi S.Z., Qvist R., Kumar S., Batumalaie K., Ismail I.S.;
+RT   "Molecular mechanisms of diabetic retinopathy, general preventive
+RT   strategies, and novel therapeutic targets.";
+RL   Biomed. Res. Int. 2014:801269-801269(2014).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-211 AND SER-225, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [17]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=25944712; DOI=10.1002/pmic.201400617;
+RA   Vaca Jacome A.S., Rabilloud T., Schaeffer-Reiss C., Rompais M., Ayoub D.,
+RA   Lane L., Bairoch A., Van Dorsselaer A., Carapito C.;
+RT   "N-terminome analysis of the human mitochondrial proteome.";
+RL   Proteomics 15:2519-2524(2015).
+RN   [18]
+RP   REVIEW, AND ROLE OF THE POLYOL PATHWAY IN DIABETIC NEUROPATHY.
+RX   PubMed=29966615; DOI=10.1016/j.ejphar.2018.06.034;
+RA   Dewanjee S., Das S., Das A.K., Bhattacharjee N., Dihingia A., Dua T.K.,
+RA   Kalita J., Manna P.;
+RT   "Molecular mechanism of diabetic neuropathy and its pharmacotherapeutic
+RT   targets.";
+RL   Eur. J. Pharmacol. 833:472-523(2018).
+RN   [19] {ECO:0007744|PDB:1PL6, ECO:0007744|PDB:1PL7, ECO:0007744|PDB:1PL8}
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) IN COMPLEXES WITH ZINC; NAD AND
+RP   INHIBITOR CP-166,572, FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, ACTIVITY REGULATION, SUBUNIT, AND REACTION MECHANISM.
+RX   PubMed=12962626; DOI=10.1016/s0969-2126(03)00167-9;
+RA   Pauly T.A., Ekstrom J.L., Beebe D.A., Chrunyk B., Cunningham D.,
+RA   Griffor M., Kamath A., Lee S.E., Madura R., Mcguire D., Subashi T.,
+RA   Wasilko D., Watts P., Mylari B.L., Oates P.J., Adams P.D., Rath V.L.;
+RT   "X-ray crystallographic and kinetic studies of human sorbitol
+RT   dehydrogenase.";
+RL   Structure 11:1071-1085(2003).
+RN   [20]
+RP   VARIANTS SORDD PHE-10; 100-ARG--PRO-357 DEL; PRO-110; ASP-153;
+RP   299-ARG--PRO-357 DEL AND ILE-322, AND INVOLVEMENT IN SORDD.
+RX   PubMed=32367058; DOI=10.1038/s41588-020-0615-4;
+RG   Inherited Neuropathy Consortium;
+RA   Cortese A., Zhu Y., Rebelo A.P., Negri S., Courel S., Abreu L., Bacon C.J.,
+RA   Bai Y., Bis-Brewer D.M., Bugiardini E., Buglo E., Danzi M.C., Feely S.M.E.,
+RA   Athanasiou-Fragkouli A., Haridy N.A., Isasi R., Khan A., Laura M.,
+RA   Magri S., Pipis M., Pisciotta C., Powell E., Rossor A.M., Saveri P.,
+RA   Sowden J.E., Tozza S., Vandrovcova J., Dallman J., Grignani E.,
+RA   Marchioni E., Scherer S.S., Tang B., Lin Z., Al-Ajmi A., Schuele R.,
+RA   Synofzik M., Maisonobe T., Stojkovic T., Auer-Grumbach M., Abdelhamed M.A.,
+RA   Hamed S.A., Zhang R., Manganelli F., Santoro L., Taroni F., Pareyson D.,
+RA   Houlden H., Herrmann D.N., Reilly M.M., Shy M.E., Zhai R.G., Zuchner S.;
+RT   "Biallelic mutations in SORD cause a common and potentially treatable
+RT   hereditary neuropathy with implications for diabetes.";
+RL   Nat. Genet. 52:473-481(2020).
+RN   [21]
+RP   ERRATUM.
+RX   PubMed=32457452; DOI=10.1038/s41588-020-0649-7;
+RG   Inherited Neuropathy Consortium;
+RA   Cortese A., Zhu Y., Rebelo A.P., Negri S., Courel S., Abreu L., Bacon C.J.,
+RA   Bai Y., Bis-Brewer D.M., Bugiardini E., Buglo E., Danzi M.C., Feely S.M.E.,
+RA   Athanasiou-Fragkouli A., Haridy N.A., Isasi R., Khan A., Laura M.,
+RA   Magri S., Pipis M., Pisciotta C., Powell E., Rossor A.M., Saveri P.,
+RA   Sowden J.E., Tozza S., Vandrovcova J., Dallman J., Grignani E.,
+RA   Marchioni E., Scherer S.S., Tang B., Lin Z., Al-Ajmi A., Schuele R.,
+RA   Synofzik M., Maisonobe T., Stojkovic T., Auer-Grumbach M., Abdelhamed M.A.,
+RA   Hamed S.A., Zhang R., Manganelli F., Santoro L., Taroni F., Pareyson D.,
+RA   Houlden H., Herrmann D.N., Reilly M.M., Shy M.E., Zhai R.G., Zuchner S.;
+RL   Nat. Genet. 52:640-640(2020).
+RN   [22]
+RP   VARIANT SORDD 209-ARG--PRO-357 DEL, AND INVOLVEMENT IN SORDD.
+RX   PubMed=33314640; DOI=10.1002/acn3.51268;
+RA   Yuan R.Y., Ye Z.L., Zhang X.R., Xu L.Q., He J.;
+RT   "Evaluation of SORD mutations as a novel cause of Charcot-Marie-Tooth
+RT   disease.";
+RL   Ann. Clin. Transl. Neurol. 8:266-270(2021).
+RN   [23]
+RP   VARIANT SORDD ARG-135, AND CHARACTERIZATION OF VARIANTS SORDD PRO-110;
+RP   ARG-135 AND ASP-153.
+RX   PubMed=33397963; DOI=10.1038/s41525-020-00165-6;
+RA   Dong H.L., Li J.Q., Liu G.L., Yu H., Wu Z.Y.;
+RT   "Biallelic SORD pathogenic variants cause Chinese patients with distal
+RT   hereditary motor neuropathy.";
+RL   NPJ Genom. Med. 6:1-1(2021).
+CC   -!- FUNCTION: Polyol dehydrogenase that catalyzes the reversible NAD(+)-
+CC       dependent oxidation of various sugar alcohols. Is mostly active with D-
+CC       sorbitol (D-glucitol), L-threitol, xylitol and ribitol as substrates,
+CC       leading to the C2-oxidized products D-fructose, L-erythrulose, D-
+CC       xylulose, and D-ribulose, respectively (PubMed:3365415). Is a key
+CC       enzyme in the polyol pathway that interconverts glucose and fructose
+CC       via sorbitol, which constitutes an important alternate route for
+CC       glucose metabolism. The polyol pathway is believed to be involved in
+CC       the etiology of diabetic complications, such as diabetic neuropathy and
+CC       retinopathy, induced by hyperglycemia (PubMed:12962626,
+CC       PubMed:29966615, PubMed:25105142). May play a role in sperm motility by
+CC       using sorbitol as an alternative energy source for sperm motility
+CC       (PubMed:16278369). May have a more general function in the metabolism
+CC       of secondary alcohols since it also catalyzes the stereospecific
+CC       oxidation of (2R,3R)-2,3-butanediol. To a lesser extent, can also
+CC       oxidize L-arabinitol, galactitol and D-mannitol and glycerol in vitro.
+CC       Oxidizes neither ethanol nor other primary alcohols. Cannot use NADP(+)
+CC       as the electron acceptor (PubMed:3365415).
+CC       {ECO:0000269|PubMed:16278369, ECO:0000269|PubMed:3365415,
+CC       ECO:0000303|PubMed:25105142, ECO:0000303|PubMed:29966615,
+CC       ECO:0000305|PubMed:12962626}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + keto-D-fructose + NADH = D-sorbitol + NAD(+);
+CC         Xref=Rhea:RHEA:33031, ChEBI:CHEBI:15378, ChEBI:CHEBI:17924,
+CC         ChEBI:CHEBI:48095, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000269|PubMed:12962626, ECO:0000269|PubMed:3365415};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:33033;
+CC         Evidence={ECO:0000305|PubMed:12962626};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threitol + NAD(+) = H(+) + L-erythrulose + NADH;
+CC         Xref=Rhea:RHEA:48760, ChEBI:CHEBI:15378, ChEBI:CHEBI:27913,
+CC         ChEBI:CHEBI:42090, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000269|PubMed:3365415};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + xylitol = D-xylulose + H(+) + NADH;
+CC         Xref=Rhea:RHEA:20433, ChEBI:CHEBI:15378, ChEBI:CHEBI:17140,
+CC         ChEBI:CHEBI:17151, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.9;
+CC         Evidence={ECO:0000269|PubMed:3365415};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + ribitol = D-ribulose + H(+) + NADH;
+CC         Xref=Rhea:RHEA:20053, ChEBI:CHEBI:15378, ChEBI:CHEBI:15963,
+CC         ChEBI:CHEBI:17173, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.56;
+CC         Evidence={ECO:0000269|PubMed:3365415};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R,R)-butane-2,3-diol + NAD(+) = (R)-acetoin + H(+) + NADH;
+CC         Xref=Rhea:RHEA:24340, ChEBI:CHEBI:15378, ChEBI:CHEBI:15686,
+CC         ChEBI:CHEBI:16982, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.4;
+CC         Evidence={ECO:0000269|PubMed:3365415};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-iditol + NAD(+) = H(+) + keto-L-sorbose + NADH;
+CC         Xref=Rhea:RHEA:10160, ChEBI:CHEBI:13172, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:18202, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.14;
+CC         Evidence={ECO:0000250|UniProtKB:P07846};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:12962626, ECO:0000269|PubMed:3365415};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:12962626,
+CC       ECO:0000269|PubMed:3365415};
+CC   -!- ACTIVITY REGULATION: Inhibited by CP-166,572, an inhibitor that is
+CC       competitive with fructose (PubMed:12962626). Also competitively
+CC       inhibited by phenanthroline and 4-methylpyrazole in vitro
+CC       (PubMed:3365415). {ECO:0000269|PubMed:12962626,
+CC       ECO:0000269|PubMed:3365415}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.5 mM for sorbitol {ECO:0000269|PubMed:12962626};
+CC         KM=225 uM for NAD(+) {ECO:0000269|PubMed:12962626};
+CC         KM=210 uM for NADH {ECO:0000269|PubMed:12962626};
+CC         KM=0.62 mM for D-sorbitol (at pH 7.1) {ECO:0000269|PubMed:3365415};
+CC         KM=0.67 mM for D-sorbitol (at pH 10.0) {ECO:0000269|PubMed:3365415};
+CC         KM=0.22 mM for xylitol (at pH 10.0) {ECO:0000269|PubMed:3365415};
+CC         KM=2.7 mM for L-threitol (at pH 10.0) {ECO:0000269|PubMed:3365415};
+CC         KM=9.5 mM for (2R,3R)-2,3-butanediol (at pH 10.0)
+CC         {ECO:0000269|PubMed:3365415};
+CC         KM=0.14 M for D-fructose (at pH 7.1) {ECO:0000269|PubMed:3365415};
+CC         Note=kcat is 1.7 sec(-1) for the oxidation of D-sorbitol at pH 7.1,
+CC         and 5.2 sec(-1) at pH 10.0. kcat is 5.9 sec(-1) the oxidation of
+CC         xylitol as substrate at pH 10.0. kcat is 5.3 sec(-1) the oxidation of
+CC         L-threitol as substrate at pH 10.0. kcat is 4.2 sec(-1) the oxidation
+CC         of (2R,3R)-2,3-butanediol as substrate at pH 10.0. kcat is 45 sec(-1)
+CC         for the reduction of D-fructose at pH 7.1.
+CC         {ECO:0000269|PubMed:3365415};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:12962626,
+CC       ECO:0000269|PubMed:3365415}.
+CC   -!- INTERACTION:
+CC       Q00796; Q00796: SORD; NbExp=6; IntAct=EBI-750068, EBI-750068;
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion membrane
+CC       {ECO:0000250|UniProtKB:Q64442}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q64442}. Cell projection, cilium, flagellum
+CC       {ECO:0000250|UniProtKB:Q64442}. Note=Associated with mitochondria of
+CC       the midpiece and near the plasma membrane in the principal piece of the
+CC       flagellum. Also found in the epididymosome, secreted by the epididymal
+CC       epithelium and that transfers proteins from the epididymal fluid to the
+CC       sperm surface. {ECO:0000250|UniProtKB:Q64442}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q00796-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q00796-2; Sequence=VSP_056353, VSP_056354;
+CC   -!- TISSUE SPECIFICITY: Expressed in liver (PubMed:3365415). Expressed in
+CC       kidney and epithelial cells of both benign and malignant prostate
+CC       tissue. Expressed in epididymis (at protein level).
+CC       {ECO:0000269|PubMed:16278369, ECO:0000269|PubMed:19423711,
+CC       ECO:0000269|PubMed:20372835, ECO:0000269|PubMed:3365415}.
+CC   -!- INDUCTION: Up-regulated by androgens and down-regulated by castration.
+CC       {ECO:0000269|PubMed:20372835}.
+CC   -!- DISEASE: Sorbitol dehydrogenase deficiency with peripheral neuropathy
+CC       (SORDD) [MIM:618912]: An autosomal recessive disorder characterized by
+CC       motor axonal neuropathy, slowly progressive distal muscle weakness
+CC       mainly affecting the lower limbs, difficulty walking, and increased
+CC       serum sorbitol. Additional variable features are distal sensory
+CC       impairment, upper limb tremor, scoliosis, and mild hearing loss.
+CC       {ECO:0000269|PubMed:32367058, ECO:0000269|PubMed:33314640,
+CC       ECO:0000269|PubMed:33397963}. Note=The disease is caused by variants
+CC       affecting the gene represented in this entry.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U07361; AAA66064.1; -; mRNA.
+DR   EMBL; L29008; AAA80565.1; -; mRNA.
+DR   EMBL; L29254; AAA80566.1; -; Genomic_DNA.
+DR   EMBL; L29249; AAA80566.1; JOINED; Genomic_DNA.
+DR   EMBL; L29250; AAA80566.1; JOINED; Genomic_DNA.
+DR   EMBL; L29251; AAA80566.1; JOINED; Genomic_DNA.
+DR   EMBL; L29252; AAA80566.1; JOINED; Genomic_DNA.
+DR   EMBL; L29253; AAA80566.1; JOINED; Genomic_DNA.
+DR   EMBL; U67243; AAB61898.1; -; Genomic_DNA.
+DR   EMBL; U67236; AAB61898.1; JOINED; Genomic_DNA.
+DR   EMBL; U67237; AAB61898.1; JOINED; Genomic_DNA.
+DR   EMBL; U67238; AAB61898.1; JOINED; Genomic_DNA.
+DR   EMBL; U67239; AAB61898.1; JOINED; Genomic_DNA.
+DR   EMBL; U67240; AAB61898.1; JOINED; Genomic_DNA.
+DR   EMBL; U67241; AAB61898.1; JOINED; Genomic_DNA.
+DR   EMBL; U67242; AAB61898.1; JOINED; Genomic_DNA.
+DR   EMBL; AK295656; BAH12142.1; -; mRNA.
+DR   EMBL; AK312444; BAG35352.1; -; mRNA.
+DR   EMBL; AC090888; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC091117; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC021085; AAH21085.1; -; mRNA.
+DR   EMBL; BC025295; AAH25295.1; -; mRNA.
+DR   CCDS; CCDS10116.1; -. [Q00796-1]
+DR   PIR; A54674; A54674.
+DR   RefSeq; NP_003095.2; NM_003104.5. [Q00796-1]
+DR   PDB; 1PL6; X-ray; 2.00 A; A/B/C/D=2-357.
+DR   PDB; 1PL7; X-ray; 2.20 A; A/B/C/D=2-357.
+DR   PDB; 1PL8; X-ray; 1.90 A; A/B/C/D=2-357.
+DR   PDBsum; 1PL6; -.
+DR   PDBsum; 1PL7; -.
+DR   PDBsum; 1PL8; -.
+DR   AlphaFoldDB; Q00796; -.
+DR   SMR; Q00796; -.
+DR   BioGRID; 112535; 88.
+DR   IntAct; Q00796; 15.
+DR   MINT; Q00796; -.
+DR   STRING; 9606.ENSP00000267814; -.
+DR   BindingDB; Q00796; -.
+DR   ChEMBL; CHEMBL2275; -.
+DR   DrugBank; DB04478; Cp-166572, 2-Hydroxymethyl-4-(4-N,N-Dimethylaminosulfonyl-1-Piperazino)-Pyrimidine.
+DR   DrugBank; DB00157; NADH.
+DR   DrugCentral; Q00796; -.
+DR   iPTMnet; Q00796; -.
+DR   MetOSite; Q00796; -.
+DR   PhosphoSitePlus; Q00796; -.
+DR   SwissPalm; Q00796; -.
+DR   BioMuta; SORD; -.
+DR   DMDM; 292495088; -.
+DR   REPRODUCTION-2DPAGE; IPI00216057; -.
+DR   EPD; Q00796; -.
+DR   jPOST; Q00796; -.
+DR   MassIVE; Q00796; -.
+DR   MaxQB; Q00796; -.
+DR   PaxDb; Q00796; -.
+DR   PeptideAtlas; Q00796; -.
+DR   PRIDE; Q00796; -.
+DR   ProteomicsDB; 57873; -. [Q00796-1]
+DR   ProteomicsDB; 6501; -.
+DR   Antibodypedia; 24307; 573 antibodies from 32 providers.
+DR   DNASU; 6652; -.
+DR   Ensembl; ENST00000267814.14; ENSP00000267814.9; ENSG00000140263.15. [Q00796-1]
+DR   Ensembl; ENST00000558789.5; ENSP00000453904.1; ENSG00000140263.15. [Q00796-2]
+DR   GeneID; 6652; -.
+DR   KEGG; hsa:6652; -.
+DR   MANE-Select; ENST00000267814.14; ENSP00000267814.9; NM_003104.6; NP_003095.2.
+DR   UCSC; uc001zul.5; human. [Q00796-1]
+DR   CTD; 6652; -.
+DR   DisGeNET; 6652; -.
+DR   GeneCards; SORD; -.
+DR   HGNC; HGNC:11184; SORD.
+DR   HPA; ENSG00000140263; Tissue enhanced (cervix, liver).
+DR   MalaCards; SORD; -.
+DR   MIM; 182500; gene.
+DR   MIM; 618912; phenotype.
+DR   neXtProt; NX_Q00796; -.
+DR   OpenTargets; ENSG00000140263; -.
+DR   PharmGKB; PA36021; -.
+DR   VEuPathDB; HostDB:ENSG00000140263; -.
+DR   eggNOG; KOG0024; Eukaryota.
+DR   GeneTree; ENSGT00550000074781; -.
+DR   HOGENOM; CLU_168382_0_0_1; -.
+DR   InParanoid; Q00796; -.
+DR   OMA; ETWYAMS; -.
+DR   OrthoDB; 1019156at2759; -.
+DR   PhylomeDB; Q00796; -.
+DR   TreeFam; TF313060; -.
+DR   BRENDA; 1.1.1.14; 2681.
+DR   PathwayCommons; Q00796; -.
+DR   Reactome; R-HSA-5652227; Fructose biosynthesis.
+DR   Reactome; R-HSA-5661270; Formation of xylulose-5-phosphate.
+DR   SABIO-RK; Q00796; -.
+DR   SignaLink; Q00796; -.
+DR   BioGRID-ORCS; 6652; 15 hits in 1077 CRISPR screens.
+DR   ChiTaRS; SORD; human.
+DR   EvolutionaryTrace; Q00796; -.
+DR   GeneWiki; SORD; -.
+DR   GenomeRNAi; 6652; -.
+DR   Pharos; Q00796; Tchem.
+DR   PRO; PR:Q00796; -.
+DR   Proteomes; UP000005640; Chromosome 15.
+DR   RNAct; Q00796; protein.
+DR   Bgee; ENSG00000140263; Expressed in right lobe of thyroid gland and 126 other tissues.
+DR   ExpressionAtlas; Q00796; baseline and differential.
+DR   Genevisible; Q00796; HS.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0070062; C:extracellular exosome; IDA:UniProtKB.
+DR   GO; GO:0005615; C:extracellular space; TAS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; IDA:UniProtKB.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031514; C:motile cilium; ISS:UniProtKB.
+DR   GO; GO:0000721; F:(R,R)-butanediol dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; NAS:UniProtKB.
+DR   GO; GO:0047833; F:D-sorbitol dehydrogenase (acceptor) activity; IEA:Ensembl.
+DR   GO; GO:0046526; F:D-xylulose reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0003939; F:L-iditol 2-dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0051287; F:NAD binding; IDA:UniProtKB.
+DR   GO; GO:0050255; F:ribitol 2-dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0030317; P:flagellated sperm motility; ISS:UniProtKB.
+DR   GO; GO:0046370; P:fructose biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0006006; P:glucose metabolic process; TAS:UniProtKB.
+DR   GO; GO:0051160; P:L-xylitol catabolic process; IDA:UniProtKB.
+DR   GO; GO:0051164; P:L-xylitol metabolic process; IDA:UniProtKB.
+DR   GO; GO:0046686; P:response to cadmium ion; IEA:Ensembl.
+DR   GO; GO:0046688; P:response to copper ion; IEA:Ensembl.
+DR   GO; GO:0009725; P:response to hormone; IEA:Ensembl.
+DR   GO; GO:0031667; P:response to nutrient levels; IEA:Ensembl.
+DR   GO; GO:0006970; P:response to osmotic stress; IEA:Ensembl.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEA:Ensembl.
+DR   GO; GO:0006062; P:sorbitol catabolic process; IDA:UniProtKB.
+DR   CDD; cd05285; sorbitol_DH; 1.
+DR   InterPro; IPR013149; ADH-like_C.
+DR   InterPro; IPR013154; ADH_N.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020843; PKS_ER.
+DR   InterPro; IPR045306; SDH-like.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SMART; SM00829; PKS_ER; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; Cell projection; Cilium;
+KW   Direct protein sequencing; Disease variant; Flagellum; Membrane;
+KW   Metal-binding; Mitochondrion; NAD; Neuropathy; Oxidoreductase;
+KW   Phosphoprotein; Reference proteome; Zinc.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:12665801,
+FT                   ECO:0000269|PubMed:2691249, ECO:0007744|PubMed:19413330,
+FT                   ECO:0007744|PubMed:25944712"
+FT   CHAIN           2..357
+FT                   /note="Sorbitol dehydrogenase"
+FT                   /id="PRO_0000160817"
+FT   BINDING         45
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL7, ECO:0007744|PDB:1PL8"
+FT   BINDING         51
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07846"
+FT   BINDING         70
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL7, ECO:0007744|PDB:1PL8"
+FT   BINDING         71
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL7, ECO:0007744|PDB:1PL8"
+FT   BINDING         156
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07846"
+FT   BINDING         184
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL6, ECO:0007744|PDB:1PL8"
+FT   BINDING         204
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL6, ECO:0007744|PDB:1PL8"
+FT   BINDING         209
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL6, ECO:0007744|PDB:1PL8"
+FT   BINDING         273..275
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL6, ECO:0007744|PDB:1PL8"
+FT   BINDING         297..299
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000269|PubMed:12962626,
+FT                   ECO:0007744|PDB:1PL6, ECO:0007744|PDB:1PL8"
+FT   BINDING         299
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07846"
+FT   BINDING         300
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07846"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0007744|PubMed:19413330,
+FT                   ECO:0007744|PubMed:25944712"
+FT   MOD_RES         211
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:24275569"
+FT   MOD_RES         225
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:24275569"
+FT   VAR_SEQ         90..99
+FT                   /note="DRVAIEPGAP -> FLTMSPLRKA (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:14702039"
+FT                   /id="VSP_056353"
+FT   VAR_SEQ         100..356
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:14702039"
+FT                   /id="VSP_056354"
+FT   VARIANT         10
+FT                   /note="L -> F (in SORDD)"
+FT                   /evidence="ECO:0000269|PubMed:32367058"
+FT                   /id="VAR_084362"
+FT   VARIANT         100..357
+FT                   /note="Missing (in SORDD)"
+FT                   /evidence="ECO:0000269|PubMed:32367058"
+FT                   /id="VAR_084363"
+FT   VARIANT         110
+FT                   /note="R -> P (in SORDD; results in protein aggregation)"
+FT                   /evidence="ECO:0000269|PubMed:32367058,
+FT                   ECO:0000269|PubMed:33397963"
+FT                   /id="VAR_084364"
+FT   VARIANT         135
+FT                   /note="H -> R (in SORDD; results in protein aggregation)"
+FT                   /evidence="ECO:0000269|PubMed:33397963"
+FT                   /id="VAR_084365"
+FT   VARIANT         153
+FT                   /note="A -> D (in SORDD; unknown pathological significance;
+FT                   results in protein aggregation; dbSNP:rs145813597)"
+FT                   /evidence="ECO:0000269|PubMed:32367058,
+FT                   ECO:0000269|PubMed:33397963"
+FT                   /id="VAR_084366"
+FT   VARIANT         209..357
+FT                   /note="Missing (in SORDD)"
+FT                   /evidence="ECO:0000269|PubMed:33314640"
+FT                   /id="VAR_084367"
+FT   VARIANT         239
+FT                   /note="Q -> L (in dbSNP:rs1042079)"
+FT                   /evidence="ECO:0000269|PubMed:7782086"
+FT                   /id="VAR_000430"
+FT   VARIANT         269
+FT                   /note="N -> T (in dbSNP:rs930337)"
+FT                   /evidence="ECO:0000269|PubMed:14702039,
+FT                   ECO:0000269|PubMed:15489334, ECO:0000269|PubMed:7782086,
+FT                   ECO:0000269|PubMed:8088829, ECO:0000269|PubMed:9183016"
+FT                   /id="VAR_060351"
+FT   VARIANT         299..357
+FT                   /note="Missing (in SORDD)"
+FT                   /evidence="ECO:0000269|PubMed:32367058"
+FT                   /id="VAR_084368"
+FT   VARIANT         322
+FT                   /note="V -> I (in SORDD; unknown pathological significance;
+FT                   dbSNP:rs149975952)"
+FT                   /evidence="ECO:0000269|PubMed:32367058"
+FT                   /id="VAR_084369"
+FT   CONFLICT        5
+FT                   /note="Missing (in Ref. 7; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        59
+FT                   /note="N -> D (in Ref. 7; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        186
+FT                   /note="M -> E (in Ref. 7; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        281
+FT                   /note="T -> S (in Ref. 7; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        289
+FT                   /note="I -> T (in Ref. 7; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          10..16
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          19..24
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          34..44
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           46..54
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          55..57
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          71..79
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          91..94
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          96..98
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           104..107
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           111..113
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          130..136
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           137..139
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          140..142
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           149..168
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          175..179
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           183..194
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          198..205
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           207..215
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          219..223
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           229..240
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          245..249
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           254..263
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          269..272
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           284..289
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          293..296
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           304..312
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           319..321
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          322..327
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           328..330
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   HELIX           331..339
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+FT   STRAND          344..349
+FT                   /evidence="ECO:0007829|PDB:1PL8"
+SQ   SEQUENCE   357 AA;  38325 MW;  FF13DDD5EBE47754 CRC64;
+     MAAAAKPNNL SLVVHGPGDL RLENYPIPEP GPNEVLLRMH SVGICGSDVH YWEYGRIGNF
+     IVKKPMVLGH EASGTVEKVG SSVKHLKPGD RVAIEPGAPR ENDEFCKMGR YNLSPSIFFC
+     ATPPDDGNLC RFYKHNAAFC YKLPDNVTFE EGALIEPLSV GIHACRRGGV TLGHKVLVCG
+     AGPIGMVTLL VAKAMGAAQV VVTDLSATRL SKAKEIGADL VLQISKESPQ EIARKVEGQL
+     GCKPEVTIEC TGAEASIQAG IYATRSGGNL VLVGLGSEMT TVPLLHAAIR EVDIKGVFRY
+     CNTWPVAISM LASKSVNVKP LVTHRFPLEK ALEAFETFKK GLGLKIMLKC DPSDQNP
+//

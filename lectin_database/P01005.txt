@@ -1,0 +1,182 @@
+ID   IOVO_CHICK              Reviewed;         210 AA.
+AC   P01005;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   03-AUG-2022, entry version 159.
+DE   RecName: Full=Ovomucoid;
+DE   AltName: Full=Allergen Gal d I;
+DE   AltName: Allergen=Gal d 1;
+DE   Flags: Precursor;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=7430252; DOI=10.1083/jcb.87.2.480;
+RA   Catterall J.F., Stein J.P., Kristo P., Means A.R., O'Malley B.W.;
+RT   "Primary sequence of ovomucoid messenger RNA as determined from cloned
+RT   complementary DNA.";
+RL   J. Cell Biol. 87:480-487(1980).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 25-210.
+RX   PubMed=3548816; DOI=10.1021/bi00375a027;
+RA   Kato I., Schrode J., Kohr W.J., Laskowski M. Jr.;
+RT   "Chicken ovomucoid: determination of its amino acid sequence, determination
+RT   of the trypsin reactive site, and preparation of all three of its
+RT   domains.";
+RL   Biochemistry 26:193-201(1987).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-44 (PRECURSOR PROTEIN).
+RX   PubMed=721826; DOI=10.1016/s0021-9258(17)34279-5;
+RA   Thibodeau S.N., Palmiter R.D., Walsh K.A.;
+RT   "Precursor of egg white ovomucoid. Amino acid sequence of an NH2-terminal
+RT   extension.";
+RL   J. Biol. Chem. 253:9018-9023(1978).
+RN   [4]
+RP   GLYCOSYLATION AT ASN-77 AND ASN-199, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RX   PubMed=15253437; DOI=10.1021/pr034112b;
+RA   Hagglund P., Bunkenborg J., Elortza F., Jensen O.N., Roepstorff P.;
+RT   "A new strategy for identification of N-glycosylated proteins and
+RT   unambiguous assignment of their glycosylation sites using HILIC enrichment
+RT   and partial deglycosylation.";
+RL   J. Proteome Res. 3:556-566(2004).
+RN   [5]
+RP   FUNCTION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=23075397; DOI=10.1111/febs.12033;
+RA   Derache C., Epinette C., Roussel A., Gabant G., Cadene M., Korkmaz B.,
+RA   Gauthier F., Kellenberger C.;
+RT   "Crystal structure of greglin, a novel non-classical Kazal inhibitor, in
+RT   complex with subtilisin.";
+RL   FEBS J. 279:4466-4478(2012).
+CC   -!- FUNCTION: Serine protease inhibitor. Inhibits trypsin.
+CC       {ECO:0000269|PubMed:23075397}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         No decrease in activity observed after incubating at pH 2.5 and pH
+CC         7.4 for 1 hour. Retains 20% activity after incubation at pH 12 for 1
+CC         hour. {ECO:0000269|PubMed:23075397};
+CC       Temperature dependence:
+CC         No decrease in activity observed after heating for 1 hour at up to 80
+CC         degrees Celsius. Retains 20% activity after incubation at 95 degrees
+CC         Celsius for 1 hour. {ECO:0000269|PubMed:23075397};
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DOMAIN: Avian ovomucoid consists of three homologous, tandem Kazal
+CC       family inhibitory domains.
+CC   -!- ALLERGEN: Causes an allergic reaction in human.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J00902; -; NOT_ANNOTATED_CDS; mRNA.
+DR   PIR; A92754; TICHM.
+DR   RefSeq; NP_001295423.1; NM_001308494.1.
+DR   RefSeq; XP_015149249.1; XM_015293763.1.
+DR   AlphaFoldDB; P01005; -.
+DR   SMR; P01005; -.
+DR   Allergome; 3291; Gal d 1.0101.
+DR   Allergome; 359; Gal d 1.
+DR   MEROPS; I01.001; -.
+DR   MEROPS; I01.002; -.
+DR   MEROPS; I01.003; -.
+DR   GlyConnect; 479; 44 N-Linked glycans.
+DR   iPTMnet; P01005; -.
+DR   PaxDb; P01005; -.
+DR   Ensembl; ENSGALT00000005554; ENSGALP00000005544; ENSGALG00000003512.
+DR   GeneID; 416236; -.
+DR   KEGG; gga:416236; -.
+DR   CTD; 84651; -.
+DR   VEuPathDB; HostDB:geneid_416236; -.
+DR   GeneTree; ENSGT00520000060726; -.
+DR   HOGENOM; CLU_087965_0_0_1; -.
+DR   InParanoid; P01005; -.
+DR   OMA; CSDYPKP; -.
+DR   OrthoDB; 1283825at2759; -.
+DR   PhylomeDB; P01005; -.
+DR   TreeFam; TF352550; -.
+DR   PRO; PR:P01005; -.
+DR   Proteomes; UP000000539; Chromosome 13.
+DR   Bgee; ENSGALG00000003512; Expressed in lung and 2 other tissues.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IDA:AgBase.
+DR   GO; GO:0005615; C:extracellular space; TAS:AgBase.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:AgBase.
+DR   GO; GO:0030246; F:carbohydrate binding; IDA:AgBase.
+DR   GO; GO:0019863; F:IgE binding; IDA:AgBase.
+DR   GO; GO:0019864; F:IgG binding; IMP:AgBase.
+DR   GO; GO:0004867; F:serine-type endopeptidase inhibitor activity; IDA:AgBase.
+DR   GO; GO:0048545; P:response to steroid hormone; TAS:AgBase.
+DR   InterPro; IPR002350; Kazal_dom.
+DR   InterPro; IPR036058; Kazal_dom_sf.
+DR   Pfam; PF00050; Kazal_1; 3.
+DR   SMART; SM00280; KAZAL; 3.
+DR   SUPFAM; SSF100895; SSF100895; 3.
+DR   PROSITE; PS00282; KAZAL_1; 3.
+DR   PROSITE; PS51465; KAZAL_2; 3.
+PE   1: Evidence at protein level;
+KW   Allergen; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Protease inhibitor; Reference proteome; Repeat; Secreted;
+KW   Serine protease inhibitor; Signal.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000269|PubMed:3548816"
+FT   CHAIN           25..210
+FT                   /note="Ovomucoid"
+FT                   /id="PRO_0000016579"
+FT   DOMAIN          25..88
+FT                   /note="Kazal-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DOMAIN          89..153
+FT                   /note="Kazal-like 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DOMAIN          156..210
+FT                   /note="Kazal-like 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   SITE            48..49
+FT                   /note="Reactive bond 1 for endoproteinase Lys-C"
+FT   SITE            113..114
+FT                   /note="Reactive bond 2 for trypsin"
+FT   SITE            172..173
+FT                   /note="Reactive bond 3"
+FT   CARBOHYD        34
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        77
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:15253437"
+FT   CARBOHYD        93
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        99
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT   CARBOHYD        199
+FT                   /note="N-linked (GlcNAc...) asparagine; partial"
+FT                   /evidence="ECO:0000269|PubMed:15253437"
+FT   DISULFID        29..68
+FT   DISULFID        46..65
+FT   DISULFID        54..86
+FT   DISULFID        94..133
+FT   DISULFID        111..130
+FT   DISULFID        119..151
+FT   DISULFID        162..192
+FT   DISULFID        170..189
+FT   DISULFID        178..210
+FT   VARIANT         158..159
+FT                   /note="Missing (due to an ambiguous intron excision)"
+FT   CONFLICT        62
+FT                   /note="T -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        64
+FT                   /note="D -> E (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        108
+FT                   /note="M -> T (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        150
+FT                   /note="G -> E (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   210 AA;  22591 MW;  8BE9516B6D38ACF9 CRC64;
+     MAMAGVFVLF SFVLCGFLPD AAFGAEVDCS RFPNATDKEG KDVLVCNKDL RPICGTDGVT
+     YTNDCLLCAY SIEFGTNISK EHDGECKETV PMNCSSYANT TSEDGKVMVL CNRAFNPVCG
+     TDGVTYDNEC LLCAHKVEQG ASVDKRHDGG CRKELAAVSV DCSEYPKPDC TAEDRPLCGS
+     DNKTYGNKCN FCNAVVESNG TLTLSHFGKC
+//

@@ -1,0 +1,117 @@
+ID   YPHF_ECOLI              Reviewed;         327 AA.
+AC   P77269; P76994;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   03-AUG-2022, entry version 134.
+DE   RecName: Full=ABC transporter periplasmic-binding protein YphF;
+DE   Flags: Precursor;
+GN   Name=yphF; OrderedLocusNames=b2548, JW2532;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N., Mizobuchi K.,
+RA   Mori H., Nakade S., Nakamura Y., Nashimoto H., Oshima T., Oyama S.,
+RA   Saito N., Sampei G., Satoh Y., Sivasundaram S., Tagami H., Takahashi H.,
+RA   Takeda J., Takemoto K., Uehara K., Wada C., Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-K12
+RT   genome corresponding to 50.0-68.8 min on the linkage map and analysis of
+RT   its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 27-37.
+RC   STRAIN=K12 / EMG2;
+RX   PubMed=9298646; DOI=10.1002/elps.1150180807;
+RA   Link A.J., Robison K., Church G.M.;
+RT   "Comparing the predicted and observed properties of proteins encoded in the
+RT   genome of Escherichia coli K-12.";
+RL   Electrophoresis 18:1259-1313(1997).
+CC   -!- FUNCTION: Probably part of the binding-protein-dependent transport
+CC       system YphDEF.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 2 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U00096; AAC75601.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16457.1; -; Genomic_DNA.
+DR   PIR; C65032; C65032.
+DR   RefSeq; NP_417043.1; NC_000913.3.
+DR   RefSeq; WP_001142427.1; NZ_LN832404.1.
+DR   AlphaFoldDB; P77269; -.
+DR   SMR; P77269; -.
+DR   BioGRID; 4261316; 32.
+DR   ComplexPortal; CPX-4468; YphDEF ABC transporter complex.
+DR   IntAct; P77269; 3.
+DR   STRING; 511145.b2548; -.
+DR   TCDB; 3.A.1.2.27; the atp-binding cassette (abc) superfamily.
+DR   jPOST; P77269; -.
+DR   PaxDb; P77269; -.
+DR   PRIDE; P77269; -.
+DR   DNASU; 947020; -.
+DR   EnsemblBacteria; AAC75601; AAC75601; b2548.
+DR   EnsemblBacteria; BAA16457; BAA16457; BAA16457.
+DR   GeneID; 947020; -.
+DR   KEGG; ecj:JW2532; -.
+DR   KEGG; eco:b2548; -.
+DR   PATRIC; fig|1411691.4.peg.4186; -.
+DR   EchoBASE; EB3240; -.
+DR   eggNOG; COG1879; Bacteria.
+DR   HOGENOM; CLU_849644_0_0_6; -.
+DR   OMA; HYNETMA; -.
+DR   PhylomeDB; P77269; -.
+DR   BioCyc; EcoCyc:G7342-MON; -.
+DR   PRO; PR:P77269; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0055052; C:ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing; IC:ComplexPortal.
+DR   GO; GO:0016020; C:membrane; IC:ComplexPortal.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IBA:GO_Central.
+DR   GO; GO:0055085; P:transmembrane transport; IC:ComplexPortal.
+DR   InterPro; IPR028082; Peripla_BP_I.
+DR   InterPro; IPR025997; SBP_2_dom.
+DR   Pfam; PF13407; Peripla_BP_4; 1.
+DR   SUPFAM; SSF53822; SSF53822; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Periplasm; Reference proteome; Signal;
+KW   Transport.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000269|PubMed:9298646"
+FT   CHAIN           27..327
+FT                   /note="ABC transporter periplasmic-binding protein YphF"
+FT                   /id="PRO_0000031744"
+SQ   SEQUENCE   327 AA;  35058 MW;  3182BC4494FFC766 CRC64;
+     MPTKMRTTRN LLLMATLLGS ALFARAAEKE MTIGAIYLDT QGYYAGVRQG VQDAAKDSSV
+     QVQLIETNAQ GDISKESTFV DTLVARNVDA IILSAVSENG SSRTVRRASE AGIPVICYNT
+     CINQKGVDKY VSAYLVGDPL EFGKKLGNAA ADYFIANKID QPKIAVINCE AFEVCVQRRK
+     GFEEVLKSRV PGAQIVANQE GTVLDKAISV GEKLIISTPD LNAIMGESGG ATLGAVKAVR
+     NQNQAGKIAV FGSDMTTEIA QELENNQVLK AVVDISGKKM GNAVFAQTLK VINKQADGEK
+     VIQVPIDLYT KTEDGKQWLA THVDGLP
+//

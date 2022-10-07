@@ -1,0 +1,169 @@
+ID   SFTPD_MACMU             Reviewed;         375 AA.
+AC   Q1PBC5;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   03-AUG-2022, entry version 104.
+DE   RecName: Full=Pulmonary surfactant-associated protein D;
+DE            Short=PSP-D;
+DE            Short=SP-D;
+DE   AltName: Full=Lung surfactant protein D;
+DE   Flags: Precursor;
+GN   Name=SFTPD;
+OS   Macaca mulatta (Rhesus macaque).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9544;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=16988005; DOI=10.1128/cvi.00198-06;
+RA   Stone G.W., Barzee S., Snarsky V., Spina C.A., Lifson J.D., Pillai V.K.,
+RA   Amara R.R., Villinger F., Kornbluth R.S.;
+RT   "Macaque multimeric soluble CD40 ligand and GITR ligand constructs are
+RT   immunostimulatory molecules in vitro.";
+RL   Clin. Vaccine Immunol. 13:1223-1230(2006).
+CC   -!- FUNCTION: Contributes to the lung's defense against inhaled
+CC       microorganisms, organic antigens and toxins. Interacts with compounds
+CC       such as bacterial lipopolysaccharides, oligosaccharides and fatty acids
+CC       and modulates leukocyte action in immune response. May participate in
+CC       the extracellular reorganization or turnover of pulmonary surfactant.
+CC       Binds strongly maltose residues and to a lesser extent other alpha-
+CC       glucosyl moieties (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Oligomeric complex of 4 set of homotrimers. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}. Secreted, extracellular space, surface film
+CC       {ECO:0000250}.
+CC   -!- PTM: Hydroxylation on proline residues within the sequence motif, GXPG,
+CC       is most likely to be 4-hydroxy as this fits the requirement for 4-
+CC       hydroxylation in vertebrates. {ECO:0000250}.
+CC   -!- PTM: S-nitrosylation at Cys-35 and Cys-40 alters the quaternary
+CC       structure which results in a pro-inflammatory chemoattractive signaling
+CC       activity with macrophages. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Pulmonary surfactant consists of 90% lipid and 10%
+CC       protein. There are 4 surfactant-associated proteins: 2 collagenous,
+CC       carbohydrate-binding glycoproteins (SP-A and SP-D) and 2 small
+CC       hydrophobic proteins (SP-B and SP-C).
+CC   -!- SIMILARITY: Belongs to the SFTPD family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ457096; ABE68875.1; -; mRNA.
+DR   RefSeq; NP_001035283.1; NM_001040193.1.
+DR   RefSeq; XP_015002617.1; XM_015147131.1.
+DR   AlphaFoldDB; Q1PBC5; -.
+DR   SMR; Q1PBC5; -.
+DR   STRING; 9544.ENSMMUP00000003737; -.
+DR   Ensembl; ENSMMUT00000003955; ENSMMUP00000003737; ENSMMUG00000002787.
+DR   GeneID; 678657; -.
+DR   KEGG; mcc:678657; -.
+DR   CTD; 6441; -.
+DR   VEuPathDB; HostDB:ENSMMUG00000002787; -.
+DR   VGNC; VGNC:77190; SFTPD.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000155748; -.
+DR   HOGENOM; CLU_049894_3_0_1; -.
+DR   InParanoid; Q1PBC5; -.
+DR   OMA; EMFTNGK; -.
+DR   OrthoDB; 1341167at2759; -.
+DR   TreeFam; TF330481; -.
+DR   Proteomes; UP000006718; Chromosome 9.
+DR   Bgee; ENSMMUG00000002787; Expressed in lung and 2 other tissues.
+DR   ExpressionAtlas; Q1PBC5; baseline.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005771; C:multivesicular body; IBA:GO_Central.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043152; P:induction of bacterial agglutination; IEA:Ensembl.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0048286; P:lung alveolus development; IEA:Ensembl.
+DR   GO; GO:0052403; P:negative regulation by host of symbiont catalytic activity; IEA:Ensembl.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; IBA:GO_Central.
+DR   GO; GO:1905226; P:regulation of adhesion of symbiont to host epithelial cell; IEA:Ensembl.
+DR   GO; GO:0002682; P:regulation of immune system process; IEA:UniProt.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; IEA:UniProtKB-KW.
+DR   GO; GO:0043129; P:surfactant homeostasis; IBA:GO_Central.
+DR   CDD; cd03591; CLECT_collectin_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR018378; C-type_lectin_CS.
+DR   InterPro; IPR008160; Collagen.
+DR   InterPro; IPR033990; Collectin_CTLD.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR015097; Surfac_D-trimer.
+DR   Pfam; PF01391; Collagen; 3.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   Pfam; PF09006; Surfac_D-trimer; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS00615; C_TYPE_LECTIN_1; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Coiled coil; Collagen; Disulfide bond; Extracellular matrix;
+KW   Gaseous exchange; Glycoprotein; Hydroxylation; Immunity; Innate immunity;
+KW   Lectin; Reference proteome; Repeat; S-nitrosylation; Secreted; Signal;
+KW   Surface film.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..375
+FT                   /note="Pulmonary surfactant-associated protein D"
+FT                   /id="PRO_0000269560"
+FT   DOMAIN          46..222
+FT                   /note="Collagen-like"
+FT   DOMAIN          260..374
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   REGION          43..221
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          223..251
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        49..63
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        101..117
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         35
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35248"
+FT   MOD_RES         40
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35248"
+FT   MOD_RES         78
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         87
+FT                   /note="5-hydroxylysine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         96
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         99
+FT                   /note="5-hydroxylysine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         171
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         177
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        281..373
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        351..365
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   375 AA;  37677 MW;  CFBC515EFEEED9BD CRC64;
+     MLLFLLSALV LLTQSLGYLE ADMKTYSQRT APSACTLVMC SSVESGLPGR DGRDGREGPR
+     GEKGDPGLPG AAGKAGMPGE AGPVGPKGDN GSIGEPGPKG DTGPSGPPGP PGVPGPAGRE
+     GPLGKQGNIG PQGKPGPKGE AGPKGEVGAP GMQGSAGARG PAGPKGDRGV PGERGAPGNA
+     GAAGSAGVMG PQGSPGARGP PGLKGDKGVP GDKGAKGESG LPDVASLRQQ VEALQKQVQH
+     LQAAFSQYKK VELFPNGQSV GEKIFKTAGF VKPFTEAQLV CTQAGGQLAS PRSAAENAAL
+     QQLVIAQNEA AFLSMTDSKM EGKFTYPTGE SLVYSNWAPG EPNDDGGSED CVEIFTNGKW
+     NDRACGEKRL VVCEF
+//

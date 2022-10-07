@@ -1,0 +1,119 @@
+ID   KLRB1_RAT               Reviewed;         214 AA.
+AC   Q0ZUP0;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   22-AUG-2006, sequence version 1.
+DT   03-AUG-2022, entry version 89.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily B member 1;
+DE   AltName: Full=Immunoreceptor NKR-P1E;
+DE   AltName: Full=Killer cell lectin-like receptor subfamily B member 1G;
+DE   AltName: Full=Natural killer cell surface protein NKR-P1G;
+DE   AltName: Full=Natural killer lectin-like receptor 1E;
+GN   Name=Klrb1;
+GN   Synonyms=Klrb1d {ECO:0000312|EMBL:ABO15820.1}, Klrb1g, Klrb6
+GN   {ECO:0000312|EMBL:ABA41356.1}, Nkrp1e {ECO:0000312|EMBL:ABA40405.1},
+GN   Nkrp1g {ECO:0000303|PubMed:17462921};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:ABO15820.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=WAG {ECO:0000312|EMBL:ABO15820.1};
+RC   TISSUE=Spleen {ECO:0000312|EMBL:ABO15820.1};
+RX   PubMed=17462921; DOI=10.1016/j.immuni.2007.03.013;
+RA   Voigt S., Mesci A., Ettinger J., Fine J.H., Chen P., Chou W., Carlyle J.R.;
+RT   "Cytomegalovirus evasion of innate immunity by subversion of the NKR-
+RT   P1B:Ocil/Clr-b missing-self axis.";
+RL   Immunity 26:617-627(2007).
+RN   [2] {ECO:0000312|EMBL:ABA41356.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=PVG {ECO:0000312|EMBL:ABA41356.1};
+RA   Fossum S., Flornes L.M., Saether P.C., Dissen E.;
+RT   "Gene homogenization of exons encoding the ligand binding parts of
+RT   regulatory leukocyte receptors.";
+RL   Submitted (JUN-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000312|EMBL:ABA41356.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=DA {ECO:0000312|EMBL:ABA40406.1}, and PVG
+RC   {ECO:0000312|EMBL:ABA40405.1};
+RA   Dai K.-Z., Naper C., Vaage J.T.;
+RT   "Novel NKR-P1E receptor expressed by rat NK cells.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Single-pass type II
+CC       membrane protein {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ157011; ABA40405.1; -; mRNA.
+DR   EMBL; DQ157012; ABA40406.1; -; mRNA.
+DR   EMBL; DQ113420; ABA41356.1; -; mRNA.
+DR   EMBL; EF100680; ABO15820.1; -; mRNA.
+DR   RefSeq; NP_001078874.1; NM_001085405.1.
+DR   AlphaFoldDB; Q0ZUP0; -.
+DR   SMR; Q0ZUP0; -.
+DR   STRING; 10116.ENSRNOP00000036493; -.
+DR   PaxDb; Q0ZUP0; -.
+DR   Ensembl; ENSRNOT00000084289; ENSRNOP00000072670; ENSRNOG00000057410.
+DR   GeneID; 689817; -.
+DR   KEGG; rno:689817; -.
+DR   UCSC; RGD:1587563; rat.
+DR   CTD; 3820; -.
+DR   RGD; 1587563; Klrb1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   GeneTree; ENSGT00940000154685; -.
+DR   HOGENOM; CLU_049894_8_2_1; -.
+DR   InParanoid; Q0ZUP0; -.
+DR   OMA; WHRVALK; -.
+DR   OrthoDB; 1341815at2759; -.
+DR   PhylomeDB; Q0ZUP0; -.
+DR   TreeFam; TF337735; -.
+DR   PRO; PR:Q0ZUP0; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000057410; Expressed in jejunum and 2 other tissues.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0038023; F:signaling receptor activity; ISO:RGD.
+DR   GO; GO:0042269; P:regulation of natural killer cell mediated cytotoxicity; IBA:GO_Central.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link_sf.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Lectin; Membrane; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..214
+FT                   /note="Killer cell lectin-like receptor subfamily B member
+FT                   1"
+FT                   /id="PRO_0000317214"
+FT   TOPO_DOM        1..42
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        43..63
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        64..214
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          98..208
+FT                   /note="C-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        119..207
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+FT   DISULFID        186..199
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00040"
+SQ   SEQUENCE   214 AA;  23963 MW;  CE2AC7D1C9417D90 CRC64;
+     MDAPVLYAEL HLANTQGLRC TSPPSPRQDA CWGSGWHRVA LKLGCVGLIL LLMGLSVLVG
+     FLVQKPPIEK CSVAVQENKT EPTVRSTILE CPRDWHLHWN KCLFISQTSR PWAEGLADCS
+     LRGATLLLIG DGKELKLLQD FSKGKGQQFF IGLKYVQEDK VWKWMNGSIL NTNLLRITGK
+     NEENSCALIS HTEVFSDSCS SDNHWICQKT LKRV
+//

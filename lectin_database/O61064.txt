@@ -1,0 +1,75 @@
+ID   TCT2_PHYPO              Reviewed;         353 AA.
+AC   O61064;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   03-AUG-2022, entry version 74.
+DE   RecName: Full=Tectonin-2;
+DE   AltName: Full=Tectonin II;
+GN   Name=TECB;
+OS   Physarum polycephalum (Slime mold).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Myxogastria;
+OC   Myxogastromycetidae; Physariida; Physaraceae; Physarum.
+OX   NCBI_TaxID=5791;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CHARACTERIZATION.
+RC   STRAIN=M3;
+RX   PubMed=9497393; DOI=10.1074/jbc.273.11.6565;
+RA   Huh C.-G., Aldrich J., Mottahedeh J., Kwon H., Johnson C., Marsh R.;
+RT   "Cloning and characterization of Physarum polycephalum tectonins.
+RT   Homologues of Limulus lectin L-6.";
+RL   J. Biol. Chem. 273:6565-6574(1998).
+CC   -!- FUNCTION: Probably involved in bacterial recognition. May be a lectin
+CC       that function as part of a transmembrane signaling complex during
+CC       phagocytosis.
+CC   -!- SUBCELLULAR LOCATION: Cell surface. Cytoplasmic vesicle membrane.
+CC       Note=Also bound to inner membrane of certain cytoplasmic vesicles.
+CC   -!- SIMILARITY: Belongs to the tectonin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF041456; AAC06201.1; -; mRNA.
+DR   AlphaFoldDB; O61064; -.
+DR   SMR; O61064; -.
+DR   GO; GO:0009986; C:cell surface; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProt.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043157; P:response to cation stress; IEA:UniProt.
+DR   InterPro; IPR006624; Beta-propeller_rpt_TECPR.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   Pfam; PF19193; Tectonin; 1.
+DR   SMART; SM00706; TECPR; 6.
+DR   SUPFAM; SSF50370; SSF50370; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasmic vesicle; Lectin; Membrane; Repeat.
+FT   CHAIN           1..353
+FT                   /note="Tectonin-2"
+FT                   /id="PRO_0000221477"
+FT   DOMAIN          44..93
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          138..173
+FT                   /note="1"
+FT   REPEAT          174..210
+FT                   /note="2"
+FT   REPEAT          211..247
+FT                   /note="3"
+FT   REPEAT          248..282
+FT                   /note="4"
+FT   REPEAT          283..318
+FT                   /note="5"
+FT   REPEAT          319..353
+FT                   /note="6"
+FT   REGION          138..353
+FT                   /note="6 X approximate tandem repeats"
+SQ   SEQUENCE   353 AA;  39268 MW;  C5691932C66C9E09 CRC64;
+     MATPVYIVLP SRPDHVVSTA KDHAVQGYTE LHPYDPSQTE GRLWIFDNDG YIRLAANHNL
+     VLDVNGGAAK EGNTVLSYPD KKDHAKNQLW VNKDCILHTK LDESFHLGVN DKGQVIITQK
+     KEQRVILRAP ASLEKRPSAW ERHEGELNVV AVGAGNHDVW GVNHLEHIYH WDGSKWHQIE
+     GAATNISVGL DGTVWCVNKA HEIYRLDRGT NKWSIVPGEL VQVSVGNSHN IWGVNHLDAI
+     YKWNADSNSW TFVDGQLTNV SVGHDGTVYG VNRAGNIYHY NGNSWDAVSG ELVQIHVANK
+     DLIVGVNKAG HVYRLKHGKD WEKLEGELSW VAVGHGGELW GANSAHNIYK ALL
+//

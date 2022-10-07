@@ -1,0 +1,141 @@
+ID   SALT_ORYSI              Reviewed;         145 AA.
+AC   A2WPN7; A6MZW5; A6N1K1; O04184; O64441; P24120; Q7F204;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 2.
+DT   25-MAY-2022, entry version 59.
+DE   RecName: Full=Salt stress-induced protein;
+DE            Short=Salt protein;
+DE   AltName: Full=Protein lectin-like;
+DE   AltName: Full=Protein mannose-binding lectin;
+GN   Name=SALT; Synonyms=ML; ORFNames=OsI_001780;
+OS   Oryza sativa subsp. indica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39946;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 2-6 AND 132-145.
+RC   STRAIN=cv. Taichung native 1; TISSUE=Root;
+RX   PubMed=2152105; DOI=10.2307/3869047;
+RA   Claes B., Dekeyser R., Villarroel R., van den Bulcke M., Bauw G.,
+RA   van Montagu M., Caplan A.;
+RT   "Characterization of a rice gene showing organ-specific expression in
+RT   response to salt stress and drought.";
+RL   Plant Cell 2:19-27(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Taichung native 1;
+RA   Garcia A.B., Claes B., Villarroel R., van Montagu M., Caplan A.;
+RT   "Genomic sequence corresponding to the salT gene from rice.";
+RL   (er) Plant Gene Register PGR95-013(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. 93-11;
+RX   PubMed=15685292; DOI=10.1371/journal.pbio.0030038;
+RA   Yu J., Wang J., Lin W., Li S., Li H., Zhou J., Ni P., Dong W., Hu S.,
+RA   Zeng C., Zhang J., Zhang Y., Li R., Xu Z., Li S., Li X., Zheng H., Cong L.,
+RA   Lin L., Yin J., Geng J., Li G., Shi J., Liu J., Lv H., Li J., Wang J.,
+RA   Deng Y., Ran L., Shi X., Wang X., Wu Q., Li C., Ren X., Wang J., Wang X.,
+RA   Li D., Liu D., Zhang X., Ji Z., Zhao W., Sun Y., Zhang Z., Bao J., Han Y.,
+RA   Dong L., Ji J., Chen P., Wu S., Liu J., Xiao Y., Bu D., Tan J., Yang L.,
+RA   Ye C., Zhang J., Xu J., Zhou Y., Yu Y., Zhang B., Zhuang S., Wei H.,
+RA   Liu B., Lei M., Yu H., Li Y., Xu H., Wei S., He X., Fang L., Zhang Z.,
+RA   Zhang Y., Huang X., Su Z., Tong W., Li J., Tong Z., Li S., Ye J., Wang L.,
+RA   Fang L., Lei T., Chen C.-S., Chen H.-C., Xu Z., Li H., Huang H., Zhang F.,
+RA   Xu H., Li N., Zhao C., Li S., Dong L., Huang Y., Li L., Xi Y., Qi Q.,
+RA   Li W., Zhang B., Hu W., Zhang Y., Tian X., Jiao Y., Liang X., Jin J.,
+RA   Gao L., Zheng W., Hao B., Liu S.-M., Wang W., Yuan L., Cao M.,
+RA   McDermott J., Samudrala R., Wang J., Wong G.K.-S., Yang H.;
+RT   "The genomes of Oryza sativa: a history of duplications.";
+RL   PLoS Biol. 3:266-281(2005).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Shoot;
+RA   Kumari S., Panjabi V., Singla-Pareek S.L., Sopory S.K., Pareek A.;
+RT   "A comparative transcriptome map of early and late salinity stress
+RT   responses in contrasting genotypes of Oryza sativa L.";
+RL   Submitted (APR-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- TISSUE SPECIFICITY: Sheaths and roots from mature plants and seedlings.
+CC   -!- INDUCTION: In response to salt and related osmotic stresses.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=EAY73933.1; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S45168; AAB23484.1; -; mRNA.
+DR   EMBL; Z25811; CAA81059.1; -; Genomic_DNA.
+DR   EMBL; CM000126; EAY73933.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; EF575947; ABR25535.1; -; mRNA.
+DR   EMBL; EF576533; ABR26121.1; -; mRNA.
+DR   PIR; S37043; S37043.
+DR   PDB; 5GVY; X-ray; 1.66 A; A/B=1-145.
+DR   PDBsum; 5GVY; -.
+DR   AlphaFoldDB; A2WPN7; -.
+DR   SASBDB; A2WPN7; -.
+DR   SMR; A2WPN7; -.
+DR   UniLectin; A2WPN7; -.
+DR   HOGENOM; CLU_714530_0_0_1; -.
+DR   Proteomes; UP000007015; Chromosome 1.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd09612; Jacalin; 1.
+DR   Gene3D; 2.100.10.30; -; 1.
+DR   InterPro; IPR001229; Jacalin-like_lectin_dom.
+DR   InterPro; IPR033734; Jacalin-like_lectin_dom_plant.
+DR   InterPro; IPR036404; Jacalin-like_lectin_dom_sf.
+DR   Pfam; PF01419; Jacalin; 1.
+DR   SMART; SM00915; Jacalin; 1.
+DR   SUPFAM; SSF51101; SSF51101; 1.
+DR   PROSITE; PS51752; JACALIN_LECTIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Lectin; Reference proteome;
+KW   Repeat.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:2152105"
+FT   CHAIN           2..145
+FT                   /note="Salt stress-induced protein"
+FT                   /id="PRO_0000300253"
+FT   DOMAIN          3..145
+FT                   /note="Jacalin-type lectin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01088"
+FT   REPEAT          6..15
+FT                   /note="1"
+FT   REPEAT          54..64
+FT                   /note="2"
+FT   REGION          6..64
+FT                   /note="2 X approximate repeats, Gly-rich"
+FT   CONFLICT        8
+FT                   /note="L -> P (in Ref. 4; ABR25535)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        74
+FT                   /note="H -> Q (in Ref. 4; ABR25535/ABR26121)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        114
+FT                   /note="E -> D (in Ref. 4; ABR26121)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          4..10
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          14..17
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          23..46
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          51..58
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          62..68
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          75..85
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          88..99
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          104..108
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          112..119
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+FT   STRAND          124..144
+FT                   /evidence="ECO:0007829|PDB:5GVY"
+SQ   SEQUENCE   145 AA;  15197 MW;  62DF5CA901D0C86E CRC64;
+     MTLVKIGLWG GNGGSAQDIS VPPKKLLGVT IYSSDAIRSI AFNYIGVDGQ EYAIGPWGGG
+     EGTSTEIKLG SSEHIKEISG THGPVYDLAD IVTYLKIVTS ANNTYEAGVP NGKEFSIPLQ
+     DSGHVVGFFG RSGTLIDAIG IYVHP
+//

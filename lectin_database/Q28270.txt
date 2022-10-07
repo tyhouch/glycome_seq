@@ -1,0 +1,167 @@
+ID   CD34_CANLF              Reviewed;         389 AA.
+AC   Q28270;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   25-MAY-2022, entry version 114.
+DE   RecName: Full=Hematopoietic progenitor cell antigen CD34;
+DE   AltName: CD_antigen=CD34;
+DE   Flags: Precursor;
+GN   Name=CD34;
+OS   Canis lupus familiaris (Dog) (Canis familiaris).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis.
+OX   NCBI_TaxID=9615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS LONG AND SHORT), AND PROTEIN SEQUENCE
+RP   OF 34-52.
+RC   TISSUE=Myeloid leukemia cell;
+RX   PubMed=8822918;
+RA   McSweeney P.A., Rouleau K.A., Storb R., Bolles L., Wallace P.M.,
+RA   Beauchamp M., Krizanac-Bengez L., Moore P., Sale G., Sandmaier B.,
+RA   de Revel T., Appelbaum F.R., Nash R.A.;
+RT   "Canine CD34: cloning of the cDNA and evaluation of an antiserum to
+RT   recombinant protein.";
+RL   Blood 88:1992-2003(1996).
+CC   -!- FUNCTION: Possible adhesion molecule with a role in early hematopoiesis
+CC       by mediating the attachment of stem cells to the bone marrow
+CC       extracellular matrix or directly to stromal cells. Could act as a
+CC       scaffold for the attachment of lineage specific glycans, allowing stem
+CC       cells to bind to lectins expressed by stromal cells or other marrow
+CC       components. Presents carbohydrate ligands to selectins (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long;
+CC         IsoId=Q28270-1; Sequence=Displayed;
+CC       Name=Short;
+CC         IsoId=Q28270-2; Sequence=VSP_004157, VSP_004158;
+CC   -!- TISSUE SPECIFICITY: Selectively expressed on hematopoietic progenitor
+CC       cells and vascular endothelium.
+CC   -!- DEVELOPMENTAL STAGE: On early hematopoietic progenitor cells.
+CC   -!- PTM: Highly glycosylated. {ECO:0000250}.
+CC   -!- PTM: Phosphorylated on serine residues by PKC. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CD34 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U49457; AAB41055.1; -; mRNA.
+DR   EMBL; U49458; AAB48004.1; -; mRNA.
+DR   RefSeq; NP_001003341.1; NM_001003341.1. [Q28270-1]
+DR   AlphaFoldDB; Q28270; -.
+DR   STRING; 9612.ENSCAFP00000017250; -.
+DR   PaxDb; Q28270; -.
+DR   PRIDE; Q28270; -.
+DR   Ensembl; ENSCAFT00030032483; ENSCAFP00030028333; ENSCAFG00030017516. [Q28270-2]
+DR   Ensembl; ENSCAFT00040030419; ENSCAFP00040026436; ENSCAFG00040016371. [Q28270-2]
+DR   GeneID; 415130; -.
+DR   KEGG; cfa:415130; -.
+DR   CTD; 947; -.
+DR   eggNOG; ENOG502RYP9; Eukaryota.
+DR   InParanoid; Q28270; -.
+DR   OrthoDB; 1303808at2759; -.
+DR   Proteomes; UP000002254; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0009925; C:basal plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0036053; C:glomerular endothelium fenestra; ISS:UniProtKB.
+DR   GO; GO:0045171; C:intercellular bridge; ISS:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; ISS:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0030246; F:carbohydrate binding; ISS:HGNC-UCL.
+DR   GO; GO:0098609; P:cell-cell adhesion; ISS:HGNC-UCL.
+DR   GO; GO:0003094; P:glomerular filtration; ISS:UniProtKB.
+DR   GO; GO:0050900; P:leukocyte migration; ISS:HGNC-UCL.
+DR   GO; GO:0035759; P:mesangial cell-matrix adhesion; ISS:UniProtKB.
+DR   GO; GO:0030195; P:negative regulation of blood coagulation; ISS:UniProtKB.
+DR   GO; GO:1900035; P:negative regulation of cellular response to heat; ISS:UniProtKB.
+DR   GO; GO:1900038; P:negative regulation of cellular response to hypoxia; ISS:UniProtKB.
+DR   GO; GO:1901215; P:negative regulation of neuron death; ISS:UniProtKB.
+DR   GO; GO:0045019; P:negative regulation of nitric oxide biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0032720; P:negative regulation of tumor necrosis factor production; ISS:UniProtKB.
+DR   GO; GO:0045766; P:positive regulation of angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0032733; P:positive regulation of interleukin-10 production; ISS:UniProtKB.
+DR   GO; GO:0042482; P:positive regulation of odontogenesis; ISS:UniProtKB.
+DR   GO; GO:0071636; P:positive regulation of transforming growth factor beta production; ISS:UniProtKB.
+DR   GO; GO:2001214; P:positive regulation of vasculogenesis; ISS:UniProtKB.
+DR   GO; GO:0008217; P:regulation of blood pressure; ISS:UniProtKB.
+DR   GO; GO:0001894; P:tissue homeostasis; ISS:UniProtKB.
+DR   InterPro; IPR008083; CD34.
+DR   InterPro; IPR013836; CD34/Podocalyxin.
+DR   PANTHER; PTHR16677; PTHR16677; 1.
+DR   Pfam; PF06365; CD34_antigen; 1.
+DR   PRINTS; PR01700; CD34ANTIGEN.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell adhesion; Direct protein sequencing;
+KW   Glycoprotein; Membrane; Phosphoprotein; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000269|PubMed:8822918"
+FT   CHAIN           34..389
+FT                   /note="Hematopoietic progenitor cell antigen CD34"
+FT                   /id="PRO_0000020899"
+FT   TOPO_DOM        34..294
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        295..315
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        316..389
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          325..389
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        357..380
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         333
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64314"
+FT   MOD_RES         343
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64314"
+FT   MOD_RES         350
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64314"
+FT   CARBOHYD        55
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        107
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        126
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        142
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        149
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        200
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        253
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         329..332
+FT                   /note="GEDP -> ELEP (in isoform Short)"
+FT                   /evidence="ECO:0000303|PubMed:8822918"
+FT                   /id="VSP_004157"
+FT   VAR_SEQ         333..389
+FT                   /note="Missing (in isoform Short)"
+FT                   /evidence="ECO:0000303|PubMed:8822918"
+FT                   /id="VSP_004158"
+SQ   SEQUENCE   389 AA;  41285 MW;  1E3D1198720A3CF8 CRC64;
+     MLAGRGARAG GGLPRGWTAL CLLSLLPFGF TNTETVITPT TVPTSTEIMS AVSENTSKRE
+     AITLTPSGTT TLYSVSQDSS GTTATISETT VHVTSTSEIT LTPGTMNSSV QSQTSLAITV
+     SFTPTNFSTS SVTLEPSLLP GNGSDPPYNS TSLVTSPTEY YTSLSPTPSR NDTPSTIKGE
+     IKCSGVKEVK LNQGICLELN ETSSCEDFKK DNEEKLTQVL CEKEPAEAGA GVCSLLLAQS
+     EVRPHCLLLV LANKTELFSK LQLLRKHQSD LKKLGIRDFT EQDVGSHQSY SRKTLIALVT
+     SGILLAVLGT TGYFLMNRRS WSPTGERLGE DPYYTENGGG QGYSSGPGVS PEAQGKASVN
+     RGPQENGTGQ ATSRNGHSAR QHMVADTEL
+//

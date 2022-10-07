@@ -1,0 +1,215 @@
+ID   Q9AVR2_SAMEB            Unreviewed;       564 AA.
+AC   Q9AVR2;
+DT   01-JUN-2001, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2001, sequence version 1.
+DT   03-AUG-2022, entry version 109.
+DE   RecName: Full=Ribosome-inactivating protein {ECO:0000256|RuleBase:RU004915};
+DE   Contains:
+DE     RecName: Full=Ribosome-inactivating protein chain A {ECO:0000256|RuleBase:RU004915};
+DE     AltName: Full=rRNA N-glycosidase {ECO:0000256|RuleBase:RU004915};
+DE              EC=3.2.2.22 {ECO:0000256|RuleBase:RU004915};
+DE   Contains:
+DE     RecName: Full=Ribosome-inactivating protein chain B {ECO:0000256|RuleBase:RU004915};
+DE   Flags: Precursor;
+GN   Name=ebu1 {ECO:0000313|EMBL:CAC33178.1};
+OS   Sambucus ebulus (Dwarf elderberry).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; campanulids; Dipsacales; Adoxaceae; Sambucus.
+OX   NCBI_TaxID=28503 {ECO:0000313|EMBL:CAC33178.1};
+RN   [1] {ECO:0000313|EMBL:CAC33178.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   TISSUE=Leaves {ECO:0000313|EMBL:CAC33178.1};
+RA   Girbes T., Iglesias R., Perez Y., Ferreras J.M., Citores L.;
+RT   "Molecular cloning of ebulin l.";
+RL   Submitted (APR-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN}
+RP   X-RAY CRYSTALLOGRAPHY (2.80 ANGSTROMS) OF 26-279 AND 299-564 IN COMPLEX
+RP   WITH GALACTOSE AND GLUCOSE, GLYCOSYLATION AT ASN-484, AND DISULFIDE BONDS.
+RX   PubMed=11288182; DOI=10.1002/prot.1043;
+RA   Pascal J.M., Day P.J., Monzingo A.F., Ernst S.R., Robertus J.D.,
+RA   Iglesias R., Perez Y., Ferreras J.M., Citores L., Girbes T.;
+RT   "2.8-A crystal structure of a nontoxic type-II ribosome-inactivating
+RT   protein, ebulin l.";
+RL   Proteins 43:319-326(2001).
+CC   -!- FUNCTION: The A chain is responsible for inhibiting protein synthesis
+CC       through the catalytic inactivation of 60S ribosomal subunits by
+CC       removing adenine from position 4,324 of 28S rRNA. The B chain binds to
+CC       cell receptors and probably facilitates the entry into the cell of the
+CC       A chain; B chains are also responsible for cell agglutination (lectin
+CC       activity). {ECO:0000256|RuleBase:RU004915}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000237,
+CC         ECO:0000256|RuleBase:RU004915};
+CC   -!- SUBUNIT: Might form dimers or tetramers of disulfide-linked A and B
+CC       chains. {ECO:0000256|RuleBase:RU004915}.
+CC   -!- SIMILARITY: Belongs to the ribosome-inactivating protein family.
+CC       {ECO:0000256|RuleBase:RU004915}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ400822; CAC33178.1; -; mRNA.
+DR   PIR; A47424; A47424.
+DR   PDB; 1HWM; X-ray; 2.80 A; A=26-279, B=299-564.
+DR   PDB; 1HWN; X-ray; 2.80 A; A=26-279, B=299-564.
+DR   PDB; 1HWO; X-ray; 2.90 A; A=26-279, B=299-564.
+DR   PDB; 1HWP; X-ray; 3.10 A; A=26-279, B=299-564.
+DR   PDBsum; 1HWM; -.
+DR   PDBsum; 1HWN; -.
+DR   PDBsum; 1HWO; -.
+DR   PDBsum; 1HWP; -.
+DR   SMR; Q9AVR2; -.
+DR   CAZy; CBM13; Carbohydrate-Binding Module Family 13.
+DR   UniLectin; Q9AVR2; -.
+DR   EvolutionaryTrace; Q9AVR2; -.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0008152; P:metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 2.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   Glycoprotein {ECO:0000256|ARBA:ARBA00023180};
+KW   Glycosidase {ECO:0000313|EMBL:CAC33178.1};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU004915};
+KW   Plant defense {ECO:0000256|RuleBase:RU004915};
+KW   Protein synthesis inhibitor {ECO:0000256|ARBA:ARBA00023193,
+KW   ECO:0000256|RuleBase:RU004915}; Signal {ECO:0000256|SAM:SignalP};
+KW   Toxin {ECO:0000256|ARBA:ARBA00022656, ECO:0000256|RuleBase:RU004915}.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           26..564
+FT                   /note="Ribosome-inactivating protein"
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004323356"
+FT   DOMAIN          306..432
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   DOMAIN          435..560
+FT                   /note="Ricin B-type lectin"
+FT                   /evidence="ECO:0000259|PROSITE:PS50231"
+FT   BINDING         322
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   BINDING         323
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN, ECO:0007829|PDB:1HWO"
+FT   BINDING         325
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   BINDING         325
+FT                   /ligand="Glucose"
+FT                   /ligand_id="ChEBI:CHEBI:17925"
+FT                   /evidence="ECO:0007829|PDB:1HWO"
+FT   BINDING         335
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   BINDING         337
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   BINDING         342
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN, ECO:0007829|PDB:1HWP"
+FT   BINDING         344
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN, ECO:0007829|PDB:1HWO"
+FT   BINDING         345
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWO, ECO:0007829|PDB:1HWP"
+FT   BINDING         413
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWM"
+FT   BINDING         533
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   BINDING         534
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   BINDING         536
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   BINDING         537
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   BINDING         547
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   BINDING         552
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   BINDING         554
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   BINDING         555
+FT                   /ligand="Galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0007829|PDB:1HWN"
+FT   CARBOHYD        484
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   DISULFID        274
+FT                   /note="Interchain (with C-303)"
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   DISULFID        303
+FT                   /note="Interchain (with C-274)"
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   DISULFID        320..339
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   DISULFID        361..378
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   DISULFID        449..464
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+FT   DISULFID        490..507
+FT                   /evidence="ECO:0007829|PDB:1HWM, ECO:0007829|PDB:1HWN"
+SQ   SEQUENCE   564 AA;  62694 MW;  8261681A6DB55CB8 CRC64;
+     MRVVKAAMLY LHIVVLAIYS VGIQGIDYPS VSFNLAGAKS TTYRDFLKNL RDRVATGTYE
+     VNGLPVLRRE SEVQVKNRFV LVRLTNYNGD TVTSAVDVTN LYLVAFSANG NSYFFKDATE
+     LQKSNLFLGT TQHTLSFTGN YDNLETAAGT RRESIELGPN PLDGAITSLW YDGGVARSLL
+     VLIQMVPEAA RFRYIEQEVR RSLQQLTSFT PNALMLSMEN NWSSMSLEVQ LSGDNVSPFS
+     GTVQLQNYDH TPRLVDNFEE LYKITGIAIL LFRCVATKTT HNAIRMPHVL VGEDNKFNDG
+     ETCAIPAPFT RRIVGRDGLC VDVRNGYDTD GTPIQLWPCG TQRNQQWTFY NDKTIRSMGK
+     CMTANGLNSG SYIMITDCST AAEDATKWEV LIDGSIINPS SGLVMTAPSG ASRTTLLLEN
+     NIHAASQGWT VSNDVQPIAT LIVGYNEMCL QANGENNNVW MEDCDVTSVQ QQWALFDDRT
+     IRVNNSRGLC VTSNGYVSKD LIVIRKCQGL ATQRWFFNSD GSVVNLKSTR VMDVKESDVS
+     LQEVIIFPAT GNPNQQWRTQ VPQI
+//

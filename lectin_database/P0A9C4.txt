@@ -1,0 +1,110 @@
+ID   GALM_SHIFL              Reviewed;         346 AA.
+AC   P0A9C4; P40681;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 1.
+DT   03-AUG-2022, entry version 103.
+DE   RecName: Full=Aldose 1-epimerase;
+DE            EC=5.1.3.3;
+DE   AltName: Full=Galactose mutarotase;
+DE   AltName: Full=Type-1 mutarotase;
+GN   Name=galM; OrderedLocusNames=SF0548, S0556;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H., Yang J.,
+RA   Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J., Sun L.,
+RA   Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S., Cheng H.,
+RA   Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y., Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/iai.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W., Fournier G.,
+RA   Mayhew G.F., Plunkett G. III, Rose D.J., Darling A., Mau B., Perna N.T.,
+RA   Payne S.M., Runyen-Janecky L.J., Zhou S., Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella flexneri
+RT   serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: Mutarotase converts alpha-aldose to the beta-anomer. It is
+CC       active on D-glucose, L-arabinose, D-xylose, D-galactose, maltose and
+CC       lactose (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose = beta-D-glucose; Xref=Rhea:RHEA:10264,
+CC         ChEBI:CHEBI:15903, ChEBI:CHEBI:17925; EC=5.1.3.3;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10126};
+CC   -!- PATHWAY: Carbohydrate metabolism; hexose metabolism.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the aldose epimerase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005674; AAN42192.1; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP16065.1; -; Genomic_DNA.
+DR   RefSeq; NP_706485.1; NC_004337.2.
+DR   RefSeq; WP_000931389.1; NZ_UIQL01000012.1.
+DR   AlphaFoldDB; P0A9C4; -.
+DR   SMR; P0A9C4; -.
+DR   STRING; 198214.SF0548; -.
+DR   EnsemblBacteria; AAN42192; AAN42192; SF0548.
+DR   EnsemblBacteria; AAP16065; AAP16065; S0556.
+DR   GeneID; 1023468; -.
+DR   GeneID; 66670973; -.
+DR   KEGG; sfl:SF0548; -.
+DR   KEGG; sfx:S0556; -.
+DR   PATRIC; fig|198214.7.peg.637; -.
+DR   HOGENOM; CLU_031753_1_0_6; -.
+DR   OMA; ATWLSCK; -.
+DR   OrthoDB; 1512477at2; -.
+DR   UniPathway; UPA00242; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004034; F:aldose 1-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0006012; P:galactose metabolic process; IEA:InterPro.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR018052; Ald1_epimerase_CS.
+DR   InterPro; IPR013458; Ald_epimerase_bac.
+DR   InterPro; IPR015443; Aldose_1-epimerase.
+DR   InterPro; IPR008183; Aldose_1/G6P_1-epimerase.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   Pfam; PF01263; Aldose_epim; 1.
+DR   PIRSF; PIRSF005096; GALM; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+DR   TIGRFAMs; TIGR02636; galM_Leloir; 1.
+DR   PROSITE; PS00545; ALDOSE_1_EPIMERASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cytoplasm; Isomerase; Reference proteome.
+FT   CHAIN           1..346
+FT                   /note="Aldose 1-epimerase"
+FT                   /id="PRO_0000197444"
+FT   ACT_SITE        175
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10126"
+FT   ACT_SITE        309
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         79
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         245
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   346 AA;  38190 MW;  4373732BAEA83E1D CRC64;
+     MLNETPALAP DGQPYRLLTL RNNAGMVVTL MDWGATLLSA RIPLSDGSVR EALLGCASPE
+     CYQDQAAFLG ASIGRYANRI ANSRYTFDGE TVTLSPSQGV NQLHGGPEGF DKRRWQIVNQ
+     NDRQVLFALS SDDGDQGFPG NLGATVQYRL TDDNRISITY RATVDKPCPV NMTNHVYFNL
+     DGEQSDVRNH KLQILADEYL PVDEGGIPHD GLKSVAGTSF DFRSAKIIAS EFLADDDQRK
+     VKGYDHAFLL QAKGDGKKVA AHVWSADEKL QLKVYTTAPA LQFYSGNFLG GTPSRGTEPY
+     ADWQGLALES EFLPDSPNHP EWPQPDCFLR PGEEYSSLTE YQFIAE
+//

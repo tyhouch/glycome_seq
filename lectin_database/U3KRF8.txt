@@ -1,0 +1,315 @@
+ID   SGSL_TRIAN              Reviewed;         519 AA.
+AC   U3KRF8; B3EWX5; U3KRF7;
+DT   08-JUN-2016, integrated into UniProtKB/Swiss-Prot.
+DT   08-JUN-2016, sequence version 2.
+DT   03-AUG-2022, entry version 29.
+DE   RecName: Full=Seed lectin {ECO:0000303|PubMed:23897472};
+DE            Short=SGSL {ECO:0000303|PubMed:23897472};
+DE   Contains:
+DE     RecName: Full=Seed lectin Aalpha chain {ECO:0000303|PubMed:23897472};
+DE   Contains:
+DE     RecName: Full=Seed lectin Abeta chain {ECO:0000303|PubMed:23897472};
+DE   Contains:
+DE     RecName: Full=Seed lectin B chain {ECO:0000303|PubMed:23897472};
+DE   Flags: Fragments;
+OS   Trichosanthes anguina (Snake gourd).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Cucurbitales; Cucurbitaceae; Sicyoeae; Trichosanthes.
+OX   NCBI_TaxID=50544 {ECO:0000303|PubMed:23897472};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS) OF 48-253 AND
+RP   256-519, SUBUNIT, MASS SPECTROMETRY, AND DISULFIDE BONDS.
+RC   TISSUE=Seed {ECO:0000303|PubMed:23897472};
+RX   PubMed=23897472; DOI=10.1107/s0907444913010020;
+RA   Sharma A., Pohlentz G., Bobbili K.B., Jeyaprakash A.A., Chandran T.,
+RA   Mormann M., Swamy M.J., Vijayssan M.;
+RT   "The sequence and structure of snake gourd (Trichosanthes anguina) seed
+RT   lectin, a three-chain nontoxic homologue of type II RIPs.";
+RL   Acta Crystallogr. D 69:1493-1503(2013).
+RN   [2] {ECO:0000305}
+RP   FUNCTION, AND PRESENCE OF DISULFIDE BONDS.
+RC   TISSUE=Seed {ECO:0000303|PubMed:8799450};
+RX   PubMed=8799450; DOI=10.1080/15216549600201251;
+RA   Komath S.S., Nadimpalli S.K., Swamy M.J.;
+RT   "Purification in high yield and characterisation of the galactose-specific
+RT   lectin from the seeds of snake gourd (Trichosanthes anguina).";
+RL   Biochem. Mol. Biol. Int. 39:243-252(1996).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=10877067; DOI=10.1016/s1011-1344(00)00026-9;
+RA   Komath S.S., Kenoth R., Giribabu L., Maiya B.G., Swamy M.J.;
+RT   "Fluorescence and absorption spectroscopic studies on the interaction of
+RT   porphyrins with snake gourd (Trichosanthes anguina) seed lectin.";
+RL   J. Photochem. Photobiol. B 55:49-55(2000).
+RN   [4]
+RP   CRYSTALLIZATION, PRELIMINARY X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS), AND
+RP   FUNCTION.
+RX   PubMed=11375527; DOI=10.1107/s0907444901004620;
+RA   Manoj N., Jeyaprakash A.A., Pratap J.V., Komath S.S., Kenoth R.,
+RA   Swamy M.J., Vijayan M.;
+RT   "Crystallization and preliminary X-ray studies of snake gourd lectin:
+RT   homology with type II ribosome-inactivating proteins.";
+RL   Acta Crystallogr. D 57:912-914(2001).
+CC   -!- FUNCTION: Seed lectin similar to type 2 ribosome-inactivating proteins
+CC       (PubMed:23897472, PubMed:11375527). The Aalpha and Abeta chains
+CC       constitute the rRNA glycosidase domain and the B chain the
+CC       carbohydrate-binding lectin domain (PubMed:23897472). Is predicted to
+CC       have no glycosidase activity and, hence, to be non-toxic, due to small
+CC       changes in both the nucleotide binding and carbohydrate binding
+CC       capabilities (PubMed:23897472, PubMed:11375527). Binds galactose and
+CC       derivatives with a preference for the beta-anomeric forms
+CC       (PubMed:8799450, PubMed:10877067). Binds prophyrins (PubMed:10877067).
+CC       Has hemagglutinating activity towards rabbit and human erythrocytes
+CC       (PubMed:8799450, PubMed:10877067). {ECO:0000269|PubMed:10877067,
+CC       ECO:0000269|PubMed:11375527, ECO:0000269|PubMed:23897472,
+CC       ECO:0000269|PubMed:8799450}.
+CC   -!- SUBUNIT: Heterotrimer consisting of Aalpha, Abeta and B chains with
+CC       Abeta and B being disulfide-linked.
+CC   -!- DOMAIN: The B chain is composed of two domains with each domain
+CC       consisting of 3 homologous subdomains (alpha, beta, gamma).
+CC       {ECO:0000250|UniProtKB:P02879}.
+CC   -!- MASS SPECTROMETRY: Mass=59028.6; Method=Electrospray; Note=The measured
+CC       range is 1-519.; Evidence={ECO:0000269|PubMed:23897472};
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the ribosome-
+CC       inactivating protein family. Type 2 RIP subfamily. {ECO:0000305}.
+CC   -!- CAUTION: Was originally thought to be a heterodimer. However, methods
+CC       used then would have missed the Aalpha chain.
+CC       {ECO:0000305|PubMed:8799450}.
+CC   -!- CAUTION: Based on similarity to other family members, it is assumed
+CC       that all three chains derive from a single precursor but the genomic
+CC       DNA sequence to support this is not yet available.
+CC       {ECO:0000305|PubMed:23897472}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 4HR6; X-ray; 2.25 A; B=48-253, C=256-519.
+DR   PDBsum; 4HR6; -.
+DR   AlphaFoldDB; U3KRF8; -.
+DR   SMR; U3KRF8; -.
+DR   UniLectin; U3KRF8; -.
+DR   iPTMnet; U3KRF8; -.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:InterPro.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:InterPro.
+DR   CDD; cd00161; RICIN; 2.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR017989; Ribosome_inactivat_1/2.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR035992; Ricin_B-like_lectins.
+DR   InterPro; IPR000772; Ricin_B_lectin.
+DR   PANTHER; PTHR33453; PTHR33453; 3.
+DR   Pfam; PF00652; Ricin_B_lectin; 2.
+DR   Pfam; PF00161; RIP; 1.
+DR   PRINTS; PR00396; SHIGARICIN.
+DR   SMART; SM00458; RICIN; 2.
+DR   SUPFAM; SSF50370; SSF50370; 2.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS50231; RICIN_B_LECTIN; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Lectin; Repeat.
+FT   CHAIN           1..46
+FT                   /note="Seed lectin Aalpha chain"
+FT                   /evidence="ECO:0000269|PubMed:23897472"
+FT                   /id="PRO_0000436385"
+FT   CHAIN           47..255
+FT                   /note="Seed lectin Abeta chain"
+FT                   /evidence="ECO:0000269|PubMed:23897472"
+FT                   /id="PRO_0000436386"
+FT   CHAIN           256..519
+FT                   /note="Seed lectin B chain"
+FT                   /evidence="ECO:0000269|PubMed:23897472"
+FT                   /id="PRO_0000436387"
+FT   DOMAIN          261..387
+FT                   /note="Ricin B-type lectin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          271..311
+FT                   /note="1-alpha"
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   REPEAT          312..352
+FT                   /note="1-beta"
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   REPEAT          356..388
+FT                   /note="1-gamma"
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   DOMAIN          390..518
+FT                   /note="Ricin B-type lectin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174"
+FT   REPEAT          401..438
+FT                   /note="2-alpha"
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   REPEAT          442..482
+FT                   /note="2-beta"
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   REPEAT          486..513
+FT                   /note="2-gamma"
+FT                   /evidence="ECO:0000250|UniProtKB:P02879"
+FT   BINDING         276..279
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0007744|PDB:4HR6"
+FT   BINDING         296..298
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0007744|PDB:4HR6"
+FT   BINDING         454
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0007744|PDB:4HR6"
+FT   BINDING         491..494
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0007744|PDB:4HR6"
+FT   BINDING         505..508
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0007744|PDB:4HR6"
+FT   BINDING         512
+FT                   /ligand="a carbohydrate"
+FT                   /ligand_id="ChEBI:CHEBI:16646"
+FT                   /evidence="ECO:0007744|PDB:4HR6"
+FT   CARBOHYD        370
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:23897472"
+FT   DISULFID        249..258
+FT                   /note="Interchain (between Abeta and B chains)"
+FT                   /evidence="ECO:0000269|PubMed:23897472"
+FT   DISULFID        274..293
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0007744|PDB:4HR6"
+FT   DISULFID        315..332
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0007744|PDB:4HR6"
+FT   DISULFID        404..419
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0007744|PDB:4HR6"
+FT   DISULFID        445..464
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00174,
+FT                   ECO:0007744|PDB:4HR6"
+FT   NON_CONS        46..47
+FT                   /evidence="ECO:0000305|PubMed:23897472"
+FT   NON_CONS        255..256
+FT                   /evidence="ECO:0000305|PubMed:23897472"
+FT   STRAND          50..56
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          62..68
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   TURN            69..72
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          73..79
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          83..87
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           93..98
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          103..107
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           114..121
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           125..127
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           132..143
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   TURN            147..149
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           150..166
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           168..179
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           188..206
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           207..209
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   TURN            210..212
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          213..221
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          227..233
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           236..239
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          262..265
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           270..272
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          274..277
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           278..280
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          287..291
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           297..299
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          301..304
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          309..311
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          314..317
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   TURN            320..325
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          328..330
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   TURN            332..334
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           337..339
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          358..361
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          372..375
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           380..382
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          385..388
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          393..398
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           400..402
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          403..408
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   TURN            409..412
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          413..418
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           424..426
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          428..430
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          436..438
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          441..453
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          456..463
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          483..486
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          489..492
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           493..495
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           497..499
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          502..505
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   HELIX           511..513
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+FT   STRAND          516..518
+FT                   /evidence="ECO:0007829|PDB:4HR6"
+SQ   SEQUENCE   519 AA;  57815 MW;  26F6B1C48CF2CD4F CRC64;
+     NEQANLRLSE ANSGTYKTFI GRVREELGSE TYRLYGIPVL KHSLSNSNRF YLLTLTSNQD
+     ESITLAIDVE DMVAVAYQPA GSHESYFFLN APQIAFHTLF TDTHQNVLNF DNTFKSLENA
+     AGTTRQTIVL GVDPLDFAIS NLFNADPKLL PLSFLVIIQM VLEASKFRFI EQSVAYSFKN
+     EKTFLPDLAI VSLEDNWSEI SLQIQASTSL QGLFGSVVEL YNSNNELIEV DSIYYPIILA
+     NVALQLYHCQ VSTGDNECLV ETRTTRISGR DALCVDVAGA LTSDGSRLIL YPCGQQVNQK
+     WTFHSDGTVR SLGKCLATNN SKFGNLVVIY DCSKLAAEDI SWDVSVGGTI MNPNYEDLAL
+     TSNKATRSTN LTMEVNTYSA SQGWRVGNYV QPIIGSIVGL DDMCLEATDG NTNMWLEECV
+     PNQREQSWAL YSDGTIRVDD NRELCVTASS STYDNWKVIT ILNCDGSNNQ RWVFLADGSI
+     STPGNQRLAM DVARSDVDLK KIILHRPHGD LNQQWVLFY
+//
