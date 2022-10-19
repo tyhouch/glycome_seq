@@ -15,7 +15,7 @@ def extract() :
     path = os.path.join(target_parent, target)
     os.mkdir(path)
     targetFolder = target_parent+target+"/"
-    
+
     glycosylated = []
     files = glob.glob(source+"/*")
     for file in files:
@@ -25,16 +25,16 @@ def extract() :
             if l.find('FT   CARBOHYD') != -1:
                 glycosylated.append(file)
                 break
-            
+
     glycosylatedName = []
-    
+
     for file in glycosylated:
         lectinName = os.path.basename(file)
         glycosylatedName.append(lectinName)
-    
+
     for file_name in glycosylatedName:
        shutil.copy(source+"/"+file_name, targetFolder+file_name)
-    
+
 def getGlycoInfo():
     source = filedialog.askdirectory()
     target = "glycoInformationOnly"
@@ -44,7 +44,7 @@ def getGlycoInfo():
     path = os.path.join(target_parent, target)
     os.mkdir(path)
     targetFolder = target_parent+target+"/"
-    
+
     file_names =[]
     sourceFiles = glob.glob(source+"/*")
     for file in sourceFiles:
@@ -52,13 +52,13 @@ def getGlycoInfo():
         file_names.append(currFileName)
     for file_name in file_names:
         shutil.copy(source+"/"+file_name, targetFolder+file_name)
-    
+
     targetFiles = glob.glob(targetFolder+"*")
     for file in targetFiles:
         theFile = open(file, "r")
         lines = theFile.readlines()
         theFile.close()
-        
+
         currFile = open(file, "w")
         for idx, line in enumerate(lines):
             if line.find('FT   CARBOHYD') != -1:
@@ -66,7 +66,7 @@ def getGlycoInfo():
                 currFile.write(lines[idx+1])
                 currFile.write(lines[idx+2])
         currFile.close()
-    
+
 def getGlycoSitesNum():
     source = filedialog.askdirectory()
     target = "glycoSites_int"
@@ -76,7 +76,7 @@ def getGlycoSitesNum():
     path = os.path.join(target_parent, target)
     os.mkdir(path)
     targetFolder = target_parent+target+"/"
-    
+
     file_names =[]
     sourceFiles = glob.glob(source+"/*")
     for file in sourceFiles:
@@ -84,13 +84,13 @@ def getGlycoSitesNum():
         file_names.append(currFileName)
     for file_name in file_names:
         shutil.copy(source+"/"+file_name, targetFolder+file_name)
-    
+
     targetFiles = glob.glob(targetFolder+"*")
     for file in targetFiles:
         theFile = open(file, "r")
         lines = theFile.readlines()
         theFile.close()
-    
+
         currFile = open(file, "w")
         for idx, line in enumerate(lines):
             if line.find('FT   CARBOHYD') != -1:
@@ -98,7 +98,7 @@ def getGlycoSitesNum():
                 currFile.write(site)
                 currFile.write("\n")
         currFile.close()
-        
+
 def getGlcoSequence():
     source = filedialog.askdirectory()
     siteNum = filedialog.askdirectory()
@@ -109,7 +109,7 @@ def getGlcoSequence():
     path = os.path.join(target_parent, target)
     os.mkdir(path)
     targetFolder = target_parent+target+"/"
-    
+
     file_names =[]
     sourceFiles = glob.glob(source+"/*")
     for file in sourceFiles:
@@ -117,13 +117,13 @@ def getGlcoSequence():
         file_names.append(currFileName)
     for file_name in file_names:
         shutil.copy(source+"/"+file_name, targetFolder+file_name)
-    
+
     targetFiles = glob.glob(targetFolder+"*")
     for file in targetFiles:
         theFile = open(file, "r")
         lines = theFile.readlines()
         theFile.close()
-    
+
         currFile = open(file, "w")
         for idx, line in enumerate(lines):
             if idx == 0:
@@ -132,7 +132,7 @@ def getGlcoSequence():
                 line = line.replace("\n", "")
                 currFile.write(line)
         currFile.close
-    
+
     for file in targetFiles:
         fileName = os.path.basename(file)
         fileName = fileName.replace(".fasta",".txt")
@@ -141,15 +141,15 @@ def getGlcoSequence():
             siteFile = open(site, "r")
             glycoSites = siteFile.readlines()
             siteFile.close()
-        
+
         for i in range(0, len(glycoSites)):
             glycoSites[i] = glycoSites[i].removesuffix("\n")
             glycoSites[i] = int(glycoSites[i])
-            
+
         theFile = open(file, "r")
         lines = theFile.readlines()
         theFile.close()
-        
+
         currFile = open(file, "w")
         for idx, line in enumerate(lines):
             if idx == 0:
@@ -160,11 +160,11 @@ def getGlcoSequence():
                     currFile.write(segment)
                     currFile.write("\n")
         currFile.close()
-        
+
 def combineSequence():
     source = filedialog.askdirectory()
     sourceFiles = glob.glob(source+"/*")
-    
+
     for file in sourceFiles:
         theFile = open(file, "r")
         lines = theFile.readlines()
@@ -173,19 +173,19 @@ def combineSequence():
         for line in lines:
             f.write(line)
         f.close()
-    
+
 
 def makeLocalDatabase():
     source = filedialog.askopenfilename()
     sourceName = os.path.basename(source)
-    
-    
+
+
     makeDatabase = os.system("makeblastdb -in " + sourceName + " -out Database -dbtype prot -parse_seqids" )
 
 def localBlast():
     source = filedialog.askdirectory()
     sourceFiles = glob.glob(source+"/*")
-    
+
     target = "blast_output"
     target_parent = "./"
     if os.path.exists(target_parent+target):
@@ -193,13 +193,13 @@ def localBlast():
     path = os.path.join(target_parent, target)
     os.mkdir(path)
     targetFolder = target_parent+target+"/"
-    
+
     for file in sourceFiles:
         currFileName = os.path.basename(file)
         currFileNameInTxt = currFileName.replace(".fasta", ".txt")
-        doLocalBlast = os.system("blastp -query ./glycosylated_lectin_sequence/"+ currFileName + " -db Database -out " 
-                                 +targetFolder+currFileNameInTxt)
-        
+        doLocalBlast = os.system("blastp -query ./glycosylated_lectin_sequence/"+ currFileName + " -db Database -out "
+                                 +targetFolder+currFileNameInTxt + " -outfmt 10")
+
 root = tk.Tk()
 root.title("Sequencing_Glycome")
 
