@@ -197,7 +197,7 @@ def localBlast():
     for file in sourceFiles:
         currFileName = os.path.basename(file)
         currFileNameInTxt = currFileName.replace(".fasta", ".txt")
-        doLocalBlast = os.system("blastp -query ./"+source+"/"+ currFileName + " -db Database -out " 
+        doLocalBlast = os.system("blastp -query ./glycosylated_lectin_sequence/"+ currFileName + " -db Database -out " 
                                  +targetFolder+currFileNameInTxt)
         
 root = tk.Tk()
