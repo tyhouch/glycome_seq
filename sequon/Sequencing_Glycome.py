@@ -199,7 +199,28 @@ def localBlast():
         currFileNameInTxt = currFileName.replace(".fasta", ".txt")
         doLocalBlast = os.system("blastp -query ./glycosylated_lectin_sequence/"+ currFileName + " -db Database -out "
                                  +targetFolder+currFileNameInTxt + " -outfmt 10")
-
+def defaultLectinName():
+    source = filedialog.askdirectory()
+    allFileName = []
+    sourceFiles = glob.glob(source+"/*")
+    for file in sourceFiles:
+        currFileName = os.path.basename(file).removesuffix(".fasta")
+        allFileName.append(currFileName)
+    
+    target = "default_lectin_names"
+    target_parent = "./"
+    if os.path.exists(target_parent+target):
+        shutil.rmtree(target_parent+target)#remove path
+    path = os.path.join(target_parent, target)
+    os.mkdir(path)
+    targetFolder = target_parent+target+"/"
+    
+    for i in allFileName:
+        currFile = open(targetFolder+i+".txt", "w")
+        for j in range(allFileName.len()):
+            currFile.write(allFileName[j]+"\n")
+        
+        
 root = tk.Tk()
 root.title("Sequencing_Glycome")
 
