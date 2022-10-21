@@ -217,7 +217,7 @@ def defaultLectinName():
     
     for i in allFileName:
         currFile = open(targetFolder+i+".txt", "w")
-        for j in range(allFileName.len()):
+        for j in range(len(allFileName)):
             currFile.write(allFileName[j]+"\n")
         
         
