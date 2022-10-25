@@ -1,3 +1,4 @@
+from asyncio.windows_events import NULL
 import tkinter as tk
 from tkinter import filedialog
 import os
@@ -6,6 +7,7 @@ import shutil
 from contextlib import redirect_stdout
 import pandas as pd
 import numpy as np
+from collections import defaultdict
 
 
 def popMessage(message):
@@ -181,7 +183,7 @@ def combineSequence():
         theFile = open(file, "r")
         lines = theFile.readlines()
         theFile.close()
-        f = open("./CombinedSequence.fasta", "a")
+        f = open("./Combined"+os.path.basename(source)+".txt", "a")
         for line in lines:
             f.write(line)
         f.close()
@@ -203,7 +205,7 @@ def localBlast():
     source = filedialog.askdirectory()
     sourceFiles = glob.glob(source+"/*")
     
-    target = "blast_output_test"
+    target = "blast_output_evalue0.00001"
     target_parent = "./"
     if os.path.exists(target_parent+target):
         shutil.rmtree(target_parent+target)#remove path
@@ -215,7 +217,7 @@ def localBlast():
         currFileName = os.path.basename(file)
         currFileNameInTxt = currFileName.replace(".fasta", ".txt")
         doLocalBlast = os.system("blastp -query ./glycosylated_lectin_sequence/"+ currFileName + " -db Database -out " 
-                                 +targetFolder+currFileNameInTxt +" -outfmt 10")
+                                 +targetFolder+currFileNameInTxt +" -outfmt 10" +" -evalue 0.00001")
 
 def defaultLectinName():
     popMessage("""Please select the glycosylated_lectin_sequence folder or any other folder containing all the glycosylated sequences""")
@@ -323,6 +325,43 @@ def lectinEValueMap():
                 currFile.write(lectinName+" "+
                                "-1"+"\n")
         currFile.close()
+
+def initiateList(size):
+    toReturn = []
+    for i in range(size):
+        toReturn.append(NULL)
+    return toReturn
+    
+    
+def splitFiles():
+    source = filedialog.askdirectory()
+    sourceFiles = glob.glob(source+"/*")
+    
+    fileNames = initiateList(1000)
+    for idx, file in enumerate(sourceFiles):
+        fileNames[idx] = os.path.basename(file)
+    
+    splits= defaultdict(list)   
+    for i in range(20):
+        for j in range(50):
+            if fileNames[i*50+j] == NULL:
+                break
+            else:
+                splits[i].append(fileNames[i*50+j])
+                
+    for i in range(20):
+        target = "splits"+str(i)
+        target_parent = "./splits/"
+        if os.path.exists(target_parent+target):
+            shutil.rmtree(target_parent+target)#remove path
+        path = os.path.join(target_parent, target)
+        os.mkdir(path)
+        targetFolder = target_parent+target+"/"
+        
+        for fileName in splits[i]:
+            shutil.copy(source+"/"+fileName, targetFolder+fileName)
+    
+            
     
 root = tk.Tk()
 root.title("Sequencing_Glycome")
@@ -365,6 +404,10 @@ ExtractEVlaue.pack()
 
 LectinEValueMap = tk.Button(root, text = "Lectin E-value Map ",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=lectinEValueMap)
-LectinEValueMap .pack()
+LectinEValueMap.pack()
+
+SplitFiles = tk.Button(root, text = "Split Files ",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=splitFiles)
+SplitFiles.pack()
 
 root.mainloop()
