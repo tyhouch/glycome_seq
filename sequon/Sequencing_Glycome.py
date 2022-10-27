@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 import tkinter as tk
 from tkinter import filedialog
 import os
@@ -205,7 +204,7 @@ def localBlast():
     source = filedialog.askdirectory()
     sourceFiles = glob.glob(source+"/*")
     
-    target = "blast_output_evalue0.00001"
+    target = "blast_output_outfmt6"
     target_parent = "./"
     if os.path.exists(target_parent+target):
         shutil.rmtree(target_parent+target)#remove path
@@ -217,7 +216,7 @@ def localBlast():
         currFileName = os.path.basename(file)
         currFileNameInTxt = currFileName.replace(".fasta", ".txt")
         doLocalBlast = os.system("blastp -query ./glycosylated_lectin_sequence/"+ currFileName + " -db Database -out " 
-                                 +targetFolder+currFileNameInTxt +" -outfmt 10" +" -evalue 0.00001")
+                                 +targetFolder+currFileNameInTxt +" -outfmt 6")
 
 def defaultLectinName():
     popMessage("""Please select the glycosylated_lectin_sequence folder or any other folder containing all the glycosylated sequences""")
@@ -326,10 +325,10 @@ def lectinEValueMap():
                                "-1"+"\n")
         currFile.close()
 
-def initiateList(size):
+def initializeList(size):
     toReturn = []
     for i in range(size):
-        toReturn.append(NULL)
+        toReturn.append("\0")
     return toReturn
     
     
@@ -337,14 +336,14 @@ def splitFiles():
     source = filedialog.askdirectory()
     sourceFiles = glob.glob(source+"/*")
     
-    fileNames = initiateList(1000)
+    fileNames = initializeList(1000)
     for idx, file in enumerate(sourceFiles):
         fileNames[idx] = os.path.basename(file)
     
     splits= defaultdict(list)   
     for i in range(20):
         for j in range(50):
-            if fileNames[i*50+j] == NULL:
+            if fileNames[i*50+j] == "\0":
                 break
             else:
                 splits[i].append(fileNames[i*50+j])
@@ -361,7 +360,27 @@ def splitFiles():
         for fileName in splits[i]:
             shutil.copy(source+"/"+fileName, targetFolder+fileName)
     
-            
+def combineMatrix():
+    source = filedialog.askdirectory()
+    sourceFiles = glob.glob(source+"/*")
+    
+    for file in sourceFiles:
+        theFile = open(file, "r")
+        lines = theFile.readlines()
+        theFile.close()
+        f = open("./Combined"+os.path.basename(source)+"Matrix.txt", "a")
+        for idx, line in enumerate(lines):
+            if idx == len(lines)-1: 
+                elements = []
+                elements = line.removesuffix("\n").split(" ")
+                f.write(elements[1])
+            else:
+                elements = []
+                elements = line.removesuffix("\n").split(" ")
+                f.write(elements[1]+" ")
+        f.write("\n")
+        f.close()
+               
     
 root = tk.Tk()
 root.title("Sequencing_Glycome")
@@ -410,4 +429,7 @@ SplitFiles = tk.Button(root, text = "Split Files ",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=splitFiles)
 SplitFiles.pack()
 
+CombineMatrix = tk.Button(root, text = "Combine Matrix",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=combineMatrix)
+CombineMatrix.pack()
 root.mainloop()
