@@ -12,6 +12,14 @@ from collections import defaultdict
 def popMessage(message):
     tk.messagebox.showinfo("message",message)
     
+def createFolder(folder_parent, folder_name):
+    target = folder_name
+    target_parent = folder_parent
+    if os.path.exists(target_parent+target):
+        shutil.rmtree(target_parent+target)#remove path
+    path = os.path.join(target_parent, target)
+    os.mkdir(path)
+    return target_parent+target
     
 def extractGlycoLectins() :
     popMessage("please select the folder with all lectin informations")
@@ -381,7 +389,65 @@ def combineMatrix():
         f.write("\n")
         f.close()
                
+def MCLResultProcess():
+    source = filedialog.askopenfilename()
     
+    file  = open(source, "r")
+    lines = file.readlines()
+    file.close()
+    
+    f = open("./Processed"+os.path.basename(source)+".txt", "a")
+    for line in lines:
+        lectinNames = []
+        line = line.removesuffix("\n")
+        elements = line.split("\t")
+        for element in elements:
+            #step1: get rid of any prefix/surfix
+            if "|" in element:
+                subStrings = element.split("|")
+                element = subStrings[1]
+            #step2: remove dupilicates     
+            if lectinNames.count(element) == 0:
+                lectinNames.append(element)
+        #rewite in a new file    
+        for idx, line in enumerate(lectinNames):
+            if idx == len(lectinNames)-1: 
+                f.write(lectinNames[idx])
+            else:
+                f.write(lectinNames[idx]+" ")
+        f.write("\n")
+    
+    f.close()
+                
+    
+def getclusters():
+    source = filedialog.askopenfilename()#cluster file
+    sequenceFolder = filedialog.askdirectory()#lectin sequence folder
+    sequenceFiles = glob.glob(sequenceFolder+"/*")
+    
+    clusterFile = open(source, "r")
+    clusterLines = clusterFile.readlines()
+    clusterFile.close()
+    
+    clusters = defaultdict(list)
+    
+    for idx, line in enumerate(clusterLines):
+        line = line.removesuffix("\n")
+        elements = line.split(" ")
+        for element in elements:
+            clusters[idx].append(element)
+    
+    createFolder("./", "cluster")
+    for x in range(len(clusters)):
+        targetFolder = createFolder("./cluster/", "cluster"+str(x))
+        for lectin in clusters[x]:
+            shutil.copy(sequenceFolder + "/" + lectin + ".fasta", 
+                        targetFolder+ "/" + lectin + ".fasta")
+        
+        
+    
+    
+        
 root = tk.Tk()
 root.title("Sequencing_Glycome")
 
@@ -432,4 +498,12 @@ SplitFiles.pack()
 CombineMatrix = tk.Button(root, text = "Combine Matrix",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=combineMatrix)
 CombineMatrix.pack()
+
+MCLResult = tk.Button(root, text = "Process MCL Result",
+                      padx = 20, pady = 10, fg= "#000000", bg = "white", command=MCLResultProcess)
+MCLResult.pack()
+
+Getclusters = tk.Button(root, text = "Get Clusters",
+                        padx = 20, pady = 10, fg= "#000000", bg = "white", command=getclusters)
+Getclusters.pack()
 root.mainloop()
