@@ -450,60 +450,77 @@ def getclusters():
         
 root = tk.Tk()
 root.title("Sequencing_Glycome")
+root.geometry('480x500')  
+
+preparation = tk.Label(root, text = "Preparation")
+preparation.place(x= 0, y= 0)
 
 extractLectin = tk.Button(root, text = "Extract Glycosylated Lectins",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=extractGlycoLectins)
-extractLectin.pack()
+extractLectin.place(x = 0, y = 20)
+
+sequonProcess = tk.Label(root, text = "Sequon")
+sequonProcess.place(x = 0, y = 70)
 
 GetGlycoInfo= tk.Button(root, text = "Get Glycosylated Site Inofrmation",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=getGlycoInfo)
-GetGlycoInfo.pack()
+GetGlycoInfo.place(x = 0, y = 90)
 
 GetGlycoSitesNum = tk.Button(root, text = "Get Glycosylated Site Number",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=getGlycoSitesNum)
-GetGlycoSitesNum.pack()
+GetGlycoSitesNum.place(x = 250, y = 90)
 
 GetGlycoSitesSequence = tk.Button(root, text = "Get Glycosylated Site Sequence",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=getGlcoSequence)
-GetGlycoSitesSequence.pack()
+GetGlycoSitesSequence.place(x = 0, y = 140)
 
-CombineSequence = tk.Button(root, text = "Combine Sequence",
-                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=combineSequence)
-CombineSequence.pack()
+blastCluster = tk.Label(root, text = "Blast")
+blastCluster.place(x = 0, y = 190)
 
 MakeLocalDatabase = tk.Button(root, text = "Make Local Database",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=makeLocalDatabase)
-MakeLocalDatabase.pack()
+MakeLocalDatabase.place(x = 0, y = 210)
 
 DoLocalBlast = tk.Button(root, text = "Local Blast",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=localBlast)
-DoLocalBlast.pack()
+DoLocalBlast.place(x = 250, y = 210)
 
 DefaultLectinNames = tk.Button(root, text = "Generate Default Lectin Names",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=defaultLectinName)
-DefaultLectinNames.pack()
+DefaultLectinNames.place(x = 0, y = 260)
 
 ExtractEVlaue = tk.Button(root, text = "Extract E-Values",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=extractEValue)
-ExtractEVlaue.pack()
+ExtractEVlaue.place(x = 250, y = 260)
 
 LectinEValueMap = tk.Button(root, text = "Lectin E-value Map ",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=lectinEValueMap)
-LectinEValueMap.pack()
-
-SplitFiles = tk.Button(root, text = "Split Files ",
-                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=splitFiles)
-SplitFiles.pack()
+LectinEValueMap.place(x = 0, y = 310)
 
 CombineMatrix = tk.Button(root, text = "Combine Matrix",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=combineMatrix)
-CombineMatrix.pack()
+CombineMatrix.place(x = 250, y = 310)
+
+MCLResultAnalysis = tk.Label(root, text = "MCL Result Analysis")
+MCLResultAnalysis.place(x = 0, y = 360)
 
 MCLResult = tk.Button(root, text = "Process MCL Result",
                       padx = 20, pady = 10, fg= "#000000", bg = "white", command=MCLResultProcess)
-MCLResult.pack()
+MCLResult.place(x = 0, y = 380)
 
 Getclusters = tk.Button(root, text = "Get Clusters",
                         padx = 20, pady = 10, fg= "#000000", bg = "white", command=getclusters)
-Getclusters.pack()
+Getclusters.place(x = 250, y = 380)
+
+tools = tk.Label(root, text = "Tools")
+tools.place(x = 0, y = 430)
+
+CombineSequence = tk.Button(root, text = "Combine Sequence",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=combineSequence)
+CombineSequence.place(x = 0, y = 450)
+
+SplitFiles = tk.Button(root, text = "Split Files ",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=splitFiles)
+SplitFiles.place(x = 250, y = 450)
+
 root.mainloop()
