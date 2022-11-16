@@ -496,6 +496,7 @@ def test2():# to fit clan
 def countLectins():
     nameFile = filedialog.askopenfilename()
     sequenceFile = filedialog.askopenfilename()
+    clusterFile = filedialog.askopenfilename()
     
     nameOpenFile = open(nameFile, "r")
     nameLines = nameOpenFile.readlines()
@@ -505,14 +506,31 @@ def countLectins():
     sequenceLines = sequenceOpenFile.readlines()
     sequenceOpenFile.close()
     
+    clusterOpenFile = open(clusterFile, "r")
+    clusterLines = clusterOpenFile.readlines()
+    clusterOpenFile.close()
+    
+    clusters = defaultdict(list)
+    
+    for idx, line in enumerate(clusterLines):
+        line = line.removesuffix("\n")
+        elements = line.split(" ")
+        for element in elements:
+            clusters[idx].append(element)
+    
     f = open("./counts_"+os.path.basename(nameFile), "a")
     for name in nameLines:
         count = 0
         name = name.removesuffix("\n")
+        id = []
         for line in sequenceLines:
             if name in line:
                 count = count + 1
-        f.write(name + " " + str(count) +"\n")
+                element = line.split("|")
+                for key in range(len(clusters)):
+                    if element[1] in clusters[key]:
+                        id.append(element[1]+ " " + str(key))
+        f.write(name + " " + str(count) + " "+ str(id) +"\n")
     f.close()
         
 root = tk.Tk()
