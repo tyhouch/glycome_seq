@@ -446,11 +446,78 @@ def getclusters():
         
         
     
+def test():# to fit clan
+    source = filedialog.askopenfilename()
     
+    file  = open(source, "r")
+    lines = file.readlines()
+    file.close()
+    
+    f = open("./Processed"+os.path.basename(source)+".txt", "a")
+    for line in lines:
+        lectinNames = []
+        line = line.removesuffix("\n")
+        elements = line.split("\t")
+        for element in elements:
+            #step1: get rid of any prefix/surfix
+            if "|" in element:
+                subStrings = element.split("|")
+                element = subStrings[1]
+            #step2: remove dupilicates     
+            lectinNames.append(element)
+        #rewite in a new file    
+        for idx, line in enumerate(lectinNames):
+            if idx == len(lectinNames)-1: 
+                f.write(lectinNames[idx])
+            else:
+                f.write(lectinNames[idx]+" ")
+        f.write("\n")
+    
+    f.close()    
+
+
+def test2():# to fit clan
+    source = filedialog.askopenfilename()
+    
+    file  = open(source, "r")
+    lines = file.readlines()
+    file.close()
+    
+    f = open("./Processed"+os.path.basename(source)+".txt", "a")
+    num = 0
+    for line in lines:
+        if ">" in line:
+            line = ">seq"+ str(num)+"\n"
+            num= num +1
+        f.write(line)
+    
+    f.close()    
+
+def countLectins():
+    nameFile = filedialog.askopenfilename()
+    sequenceFile = filedialog.askopenfilename()
+    
+    nameOpenFile = open(nameFile, "r")
+    nameLines = nameOpenFile.readlines()
+    nameOpenFile.close()
+    
+    sequenceOpenFile = open(sequenceFile, "r")
+    sequenceLines = sequenceOpenFile.readlines()
+    sequenceOpenFile.close()
+    
+    f = open("./counts_"+os.path.basename(nameFile), "a")
+    for name in nameLines:
+        count = 0
+        name = name.removesuffix("\n")
+        for line in sequenceLines:
+            if name in line:
+                count = count + 1
+        f.write(name + " " + str(count) +"\n")
+    f.close()
         
 root = tk.Tk()
 root.title("Sequencing_Glycome")
-root.geometry('480x500')  
+root.geometry('480x600')  
 
 preparation = tk.Label(root, text = "Preparation")
 preparation.place(x= 0, y= 0)
@@ -522,5 +589,18 @@ CombineSequence.place(x = 0, y = 450)
 SplitFiles = tk.Button(root, text = "Split Files ",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=splitFiles)
 SplitFiles.place(x = 250, y = 450)
+
+
+Test = tk.Button(root, text = "test ",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=test)
+Test.place(x = 0, y = 500)
+
+Test2 = tk.Button(root, text = "test2 ",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=test2)
+Test2.place(x = 250, y = 500)
+
+CountLectins = tk.Button(root, text = "Count Lectins",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=countLectins)
+CountLectins.place(x = 0, y = 550)
 
 root.mainloop()
