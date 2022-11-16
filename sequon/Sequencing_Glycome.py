@@ -396,7 +396,7 @@ def MCLResultProcess():
     lines = file.readlines()
     file.close()
     
-    f = open("./Processed"+os.path.basename(source)+".txt", "a")
+    f = open("./Processed_"+os.path.basename(source)+".txt", "a")
     for line in lines:
         lectinNames = []
         line = line.removesuffix("\n")
@@ -421,7 +421,9 @@ def MCLResultProcess():
                 
     
 def getclusters():
+    popMessage("please select the cluster file")
     source = filedialog.askopenfilename()#cluster file
+    popMessage("please select the folder with all glycosylated lectin sequence")
     sequenceFolder = filedialog.askdirectory()#lectin sequence folder
     sequenceFiles = glob.glob(sequenceFolder+"/*")
     
