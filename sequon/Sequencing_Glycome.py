@@ -22,7 +22,6 @@ def createFolder(folder_parent, folder_name):
     return target_parent+target
 
     
-
 def readLines(file):
     theFile = open(file, "r")
     lines = theFile.readlines()
@@ -399,6 +398,7 @@ def combineMatrix():
         f.close()
                
 def MCLResultProcess():
+    popMessage("Please select the MCL output file")
     source = filedialog.askopenfilename()
     
     file  = open(source, "r")
@@ -434,6 +434,7 @@ def getclusters():
     source = filedialog.askopenfilename()#cluster file
     popMessage("please select the folder with all glycosylated lectin sequence")
     sequenceFolder = filedialog.askdirectory()#lectin sequence folder
+    
     sequenceFiles = glob.glob(sequenceFolder+"/*")
     
     clusterFile = open(source, "r")
@@ -457,7 +458,7 @@ def getclusters():
         
         
     
-def test():# to fit clan
+def test():# to fit CLANS
     source = filedialog.askopenfilename()
     
     file  = open(source, "r")
@@ -487,7 +488,7 @@ def test():# to fit clan
     f.close()    
 
 
-def test2():# to fit clan
+def test2():# to fit CLANS
     source = filedialog.askopenfilename()
     
     file  = open(source, "r")
@@ -504,9 +505,26 @@ def test2():# to fit clan
     
     f.close()    
 
+
+
+
+"""
+This function counts the how many times the specif keyword appears in a given file
+and also tells the specific ID of that lectin and the cluster it belongs
+
+input1: the file containing the name(or keywords) we want to search for
+input2: the file of combined glycosylated sequence
+input3: the processed MCL cluster result file with only the UniProt id for each lectins
+
+output: a file in format: name counts ['id cluster', ...]
+                        i.e.,Concanavalin 2 ['P02866 2', 'P02866 3', 'P14894 2', 'P14894 3']
+"""
 def countLectins():
+    popMessage("Please select the file with names you want to search")
     nameFile = filedialog.askopenfilename()
+    popMessage("Please select the combined glycosylated sequence file")
     sequenceFile = filedialog.askopenfilename()
+    popMessage("Please select the processed MCL result file(with only UniProt id of the lectin)")
     clusterFile = filedialog.askopenfilename()
     
     nameOpenFile = open(nameFile, "r")
@@ -545,6 +563,17 @@ def countLectins():
     f.close()
 
 
+
+"""
+This function will extract the sequence and glyco sites information with a given
+list of names
+    
+input1: the file containing the names(keywords) we want to search for
+input2: the folder containg the glycosylated lectin sequences
+input3: the folder containg the glyco sites(in int)
+    
+output: a folder under current directory; each name has a separate folder with their sequence & glyco sites
+"""
 def folderOfSequenceAndSites():
     popMessage("Please select the file with the lectin names you want to extract the sequence and glyco sites")
     nameFile = filedialog.askopenfilename()
@@ -590,7 +619,9 @@ def folderOfSequenceAndSites():
             
             
         
-        
+"""
+GUI for above functions 
+"""        
 root = tk.Tk()
 root.title("Sequencing_Glycome")
 root.geometry('480x700')  
