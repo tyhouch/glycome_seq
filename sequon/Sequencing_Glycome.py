@@ -20,7 +20,16 @@ def createFolder(folder_parent, folder_name):
     path = os.path.join(target_parent, target)
     os.mkdir(path)
     return target_parent+target
+
     
+
+def readLines(file):
+    theFile = open(file, "r")
+    lines = theFile.readlines()
+    theFile.close()
+    return lines
+    
+   
 def extractGlycoLectins() :
     popMessage("please select the folder with all lectin informations")
     
@@ -190,7 +199,7 @@ def combineSequence():
         theFile = open(file, "r")
         lines = theFile.readlines()
         theFile.close()
-        f = open("./Combined"+os.path.basename(source)+".txt", "a")
+        f = open(source + "/../Combined"+os.path.basename(source)+".txt", "a")
         for line in lines:
             f.write(line)
         f.close()
@@ -528,16 +537,63 @@ def countLectins():
         for line in sequenceLines:
             if name in line:
                 count = count + 1
-                element = line.split("|")
+                elements = line.split("|")
                 for key in range(len(clusters)):
-                    if element[1] in clusters[key]:
-                        id.append(element[1]+ " " + str(key))
+                    if elements[1] in clusters[key]:
+                        id.append(elements[1]+ " " + str(key))
         f.write(name + " " + str(count) + " "+ str(id) +"\n")
     f.close()
+
+
+def folderOfSequenceAndSites():
+    popMessage("Please select the file with the lectin names you want to extract the sequence and glyco sites")
+    nameFile = filedialog.askopenfilename()
+    popMessage("Please select the folder with all sequence files")
+    sequenceFolder= filedialog.askdirectory()
+    popMessage("please select the folder with glyco sites in integer(the glycoSite_int folder)")
+    glycoSiteFolder = filedialog.askdirectory()
+    
+    sequenceFiles = glob.glob(sequenceFolder+"/*")
+    glycoSiteFiles = glob.glob(glycoSiteFolder+"/*")
+    
+    nameLines = readLines(nameFile)
+    
+    createFolder("./", "57Lectins")
+    targetFolder = "./57Lectins/"
+    
+    for name in nameLines:
+        name = name.removesuffix("\n")
+        
+        id = []
+        for sequenceFile in sequenceFiles:
+            sequenceLines = readLines(sequenceFile)
+            for line in sequenceLines:
+                if "|" in line:
+                    if name in line:
+                        elements = line.split("|")
+                        id.append(elements[1])
+        
+        if len(id) == 0:
+            continue
+        
+        lectinFolder = createFolder(targetFolder, name)
+        seqTargetFolder = createFolder(lectinFolder+"/", "sequence")
+        glycoTargetFolder = createFolder(lectinFolder+"/", "glyco_sites")            
+        if len(id) > 0:
+            for i in range(len(id)):
+                shutil.copy(sequenceFolder + "/" + id[i] + ".fasta", 
+                            seqTargetFolder+"/"+ id[i] + ".fasta")
+                shutil.copy(glycoSiteFolder + "/" + id[i] + ".txt", 
+                            glycoTargetFolder+"/"+ id[i] + ".txt")
+                
+        
+            
+            
+        
         
 root = tk.Tk()
 root.title("Sequencing_Glycome")
-root.geometry('480x600')  
+root.geometry('480x700')  
 
 preparation = tk.Label(root, text = "Preparation")
 preparation.place(x= 0, y= 0)
@@ -610,7 +666,6 @@ SplitFiles = tk.Button(root, text = "Split Files ",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=splitFiles)
 SplitFiles.place(x = 250, y = 450)
 
-
 Test = tk.Button(root, text = "test ",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=test)
 Test.place(x = 0, y = 500)
@@ -622,5 +677,9 @@ Test2.place(x = 250, y = 500)
 CountLectins = tk.Button(root, text = "Count Lectins",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=countLectins)
 CountLectins.place(x = 0, y = 550)
+
+FolderOfSequenceAndSites = tk.Button(root, text = "get sequence and glycosites with given name",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=folderOfSequenceAndSites)
+FolderOfSequenceAndSites.place(x = 0, y = 600)
 
 root.mainloop()
