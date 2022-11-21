@@ -618,13 +618,18 @@ def folderOfSequenceAndSites():
         
 """
 Combine fileswith file name
+
+input: folder with files to combine(glyco_sites)
+
+output: filename [lines in list]
+        i.e., P02873 ['35', '88', '163']
 """            
 def combineWFileName():
     popMessage("Please select the folder with the files you want to combine")
     source = filedialog.askdirectory()
     sourceFiles = glob.glob(source+"/*")
     
-    f = open(source + "/../Combined"+os.path.basename(source)+".txt", "a")
+    f = open(source + "/../Combined_"+os.path.basename(source)+".txt", "a")
     for file in sourceFiles:
         theFile = open(file, "r")
         lines = theFile.readlines()
@@ -634,10 +639,11 @@ def combineWFileName():
         if "." in fileName:
             elements = fileName.split(".")
             fileName = elements[0]
-        f.write(fileName)
+        sites = []
         for line in lines:
-            f.write(line)
-        f.close()
+            sites.append(line.removesuffix("\n"))
+        f.write(fileName+" "+ str(sites)+"\n")
+    f.close()
                 
         
 """
@@ -738,4 +744,5 @@ FolderOfSequenceAndSites.place(x = 0, y = 600)
 CombineWFileName = tk.Button(root, text = "Combine with file name",
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=combineWFileName)
 CombineWFileName.place(x = 0, y = 650)
+
 root.mainloop()
