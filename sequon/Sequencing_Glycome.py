@@ -616,8 +616,29 @@ def folderOfSequenceAndSites():
                             glycoTargetFolder+"/"+ id[i] + ".txt")
                 
         
-            
-            
+"""
+Combine fileswith file name
+"""            
+def combineWFileName():
+    popMessage("Please select the folder with the files you want to combine")
+    source = filedialog.askdirectory()
+    sourceFiles = glob.glob(source+"/*")
+    
+    f = open(source + "/../Combined"+os.path.basename(source)+".txt", "a")
+    for file in sourceFiles:
+        theFile = open(file, "r")
+        lines = theFile.readlines()
+        theFile.close()
+        #file name
+        fileName = os.path.basename(file)
+        if "." in fileName:
+            elements = fileName.split(".")
+            fileName = elements[0]
+        f.write(fileName)
+        for line in lines:
+            f.write(line)
+        f.close()
+                
         
 """
 GUI for above functions 
@@ -713,4 +734,8 @@ FolderOfSequenceAndSites = tk.Button(root, text = "get sequence and glycosites w
                           padx = 20, pady = 10, fg= "#000000", bg = "white", command=folderOfSequenceAndSites)
 FolderOfSequenceAndSites.place(x = 0, y = 600)
 
+
+CombineWFileName = tk.Button(root, text = "Combine with file name",
+                          padx = 20, pady = 10, fg= "#000000", bg = "white", command=combineWFileName)
+CombineWFileName.place(x = 0, y = 650)
 root.mainloop()
